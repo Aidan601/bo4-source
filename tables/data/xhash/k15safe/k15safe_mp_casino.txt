@@ -1,5 +1,5 @@
 hash_ed0e5ff109f50f2d
-hash_f7c3e2472eb3a6b
+wc/lit_decal#f0f62a71
 hash_21b5f8f3e3e6527
 hash_31f34a280a1d7642
 hash_7fcaed15679937fe
@@ -265,13 +265,13 @@ i_t8_decal_blood_splatter_floor_03_c
 $default
 k15safe_mp_casino
 wc/t7_snow_powder_02_blend
-hash_1e6694f5a3f3add2
-hash_4101cf03c69f6544
-hash_4101d103c69f68aa
+vd/t7_decal_blood_bootprint_01
+wc/t8_decal_blood_splatter_floor_03
+wc/t8_decal_blood_splatter_floor_01
 wc/t7_decal_blood_bootprint_01
 wc/$default
 mc/global_invisible
-hash_67884a2c523e688c
+vd/t8_decal_blood_splatter_floor_03
 p7_gib_chunk_flesh_01
 p7_gib_chunk_flesh_03
 p7_gib_chunk_bone_03

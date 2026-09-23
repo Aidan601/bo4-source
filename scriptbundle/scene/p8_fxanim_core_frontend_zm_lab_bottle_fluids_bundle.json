@@ -5,11 +5,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6edd32b60a6ff2cc",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_01_fill_anim",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_2cc0ccea95bb75e5",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_01_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -38,7 +38,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_60be10f6005450fb",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_01_exit_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -68,7 +68,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2cc0ccea95bb75e5",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_01_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -96,7 +96,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -123,11 +123,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1f1a0b5cc0650919",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_02_fill_anim",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_4b66cff4f5b41cb0",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_02_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -156,7 +156,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2d39eee50f245482",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_02_exit_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -186,7 +186,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4b66cff4f5b41cb0",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_02_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -214,7 +214,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -240,11 +240,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_42ae91ab6ab0082a",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_03_fill_anim",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_230060884927d077",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_03_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -273,7 +273,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4596856ad92facad",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_03_exit_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -303,7 +303,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_230060884927d077",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_03_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -331,7 +331,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

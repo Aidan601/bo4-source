@@ -1,5 +1,5 @@
 {
-    "name": "#hash_17b58d0e47e27380",
+    "name": "#special_ballisticknife_t8_lh_upgraded_zm",
     "baseWeapon": "#hash_757f77da119c3c18",
     "displayname": "#zmweapon/special_ballisticknife_t8_upgraded",
     "xhash_60": "#hash_38b967247fcb0b5a",
@@ -37,15 +37,15 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound90": "#hash_216f906579fc3e07",
-    "firesound": "#hash_583d4dce85ea8a0d",
-    "firesoundplayer": "#hash_3ccecda12a8b881d",
-    "sound240": "#hash_5993e31af4dd53ec",
-    "sound250": "#hash_55a9361a61a0ccad",
+    "sound90": "#wpn_hatchet_projectile_lp",
+    "firesound": "#wpn_ballistic_knife_fire_pap_npc",
+    "firesoundplayer": "#wpn_ballistic_knife_fire_pap_plr_lh",
+    "sound240": "#wpn_pistol_dryfire_npc",
+    "sound250": "#wpn_pistol_dryfire_plr",
     "sound800": "#hash_41b8cf5f69b41ad4",
     "sound810": "#hash_41b8cf5f69b41ad4",
     "sound820": "#hash_279da5cfe15ceafc",
-    "tunables1": "#hash_5ef9498e85cbd1b",
+    "tunables1": "#special_ballisticknife_t8_lh_upgraded_tunables_zm",
     "weaponCamo": "#hash_9389711caf25c0a3",
     "attachments": [
         "#defaultattachment"

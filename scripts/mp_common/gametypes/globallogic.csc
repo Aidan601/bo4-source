@@ -66,7 +66,7 @@ function __init__()
     clientfield::register( "allplayers", "cold_blooded", 1, 1, "int", &function_194072a7, 0, 0 );
     level.var_20369084 = #"rob_sonar_set_enemy_cold";
     level._effect[ #"annihilate_explosion" ] = #"hash_17591c79f2960fba";
-    level._effect[ #"pineapplegun_explosion" ] = #"hash_84cd1f227fcd07e";
+    level._effect[ #"pineapplegun_explosion" ] = #"weapon/fx8_hero_annhilatr_death_exp";
     level.gameended = 0;
     level.postgame = 0;
     level.new_health_model = getdvarint( #"new_health_model", 1 ) > 0;
@@ -243,7 +243,7 @@ function function_765b7c63( local_client_num, oldval, newval, bnewent, binitials
     {
         if ( !( isdefined( self.var_33b61b6f ) && self.var_33b61b6f ) )
         {
-            self.var_8e7f416f = self playloopsound( #"hash_a93a3bf58dbd89d" );
+            self.var_8e7f416f = self playloopsound( #"fly_thermal_scope" );
             self.var_33b61b6f = 1;
         }
     }

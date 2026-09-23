@@ -15,20 +15,20 @@
     "typeSuffix": "_zombie",
     "spawnerType": "gegenees",
     "character": [
-        "#hash_4741c11750ad3c8"
+        "#c_t8_zmb_dlc2_gegenees1"
     ],
     "animMappingTables": [
-        "#hash_554cf02499a86d6b"
+        "#zm_gegenees.ai_am"
     ],
     "meleeWeapon": "#gegenees_melee",
     "aimTable": "#soldier_aim",
-    "footstepTable": "#hash_27d4403c667002ff",
+    "footstepTable": "#ai_gegenees_step_table",
     "footstepScriptCallback": true,
     "footstepFXTable1": "#zm_gegenees_footstep",
     "footstepFXTable2": "#zm_gegenees_footstep",
-    "behaviorTree": "#hash_5557092499b0ec6b",
-    "animStateMachine": "#hash_1a593031195a9488",
-    "animSelectorTable": "#hash_1a591931195a6d73",
+    "behaviorTree": "#zm_gegenees.ai_bt",
+    "animStateMachine": "#zm_gegenees.ai_asm",
+    "animSelectorTable": "#zm_gegenees.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#fxb8_zm_char_gegenees",
     "aiSettingsBundle": "#zm_gegenees_settings",

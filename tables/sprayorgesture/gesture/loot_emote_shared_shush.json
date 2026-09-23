@@ -1,12 +1,12 @@
 {
     "name": "#loot_emote_shared_shush",
     "type": "#gesture",
-    "gesture": "#hash_2facf060235b9ff8",
-    "gesture2": "#hash_35bc0c3ccfdb649b",
+    "gesture": "#boast_shush",
+    "gesture2": "#boast_shush_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_1d87d7d80f2c23e2",
-        "icon": "image#hash_57a651b7928d59b7",
+        "title": "localized18#emotes/shush",
+        "icon": "image#ui_icon_emotes_s2_shush",
         "isdefault": 0
     }
 }

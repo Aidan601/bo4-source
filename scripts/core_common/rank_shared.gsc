@@ -103,19 +103,19 @@ function initscoreinfo()
             sp = int( tablelookupcolumnforrow( scoreinfotablename, row, 3 ) );
             hs = int( tablelookupcolumnforrow( scoreinfotablename, row, 4 ) );
             res = float( tablelookupcolumnforrow( scoreinfotablename, row, 5 ) );
-            var_e775f7ed = tablelookupcolumnforrow( scoreinfotablename, row, 6 );
+            job_defining = tablelookupcolumnforrow( scoreinfotablename, row, 6 );
             dp = int( tablelookupcolumnforrow( scoreinfotablename, row, 7 ) );
             is_objective = tablelookupcolumnforrow( scoreinfotablename, row, 8 );
             medalname = tablelookupcolumnforrow( scoreinfotablename, row, 11 );
             job_type = tablelookupcolumnforrow( scoreinfotablename, row, 16 );
-            var_b6593614 = tablelookupcolumnforrow( scoreinfotablename, row, 17 );
+            job_sub_type = tablelookupcolumnforrow( scoreinfotablename, row, 17 );
             var_1a39d14 = tablelookupcolumnforrow( scoreinfotablename, row, 18 );
             var_bdbfb0e = tablelookupcolumnforrow( scoreinfotablename, row, 19 );
             var_a434fd2d = tablelookupcolumnforrow( scoreinfotablename, row, 20 );
             is_deprecated = tablelookupcolumnforrow( scoreinfotablename, row, 21 );
             bounty_reward = tablelookupcolumnforrow( scoreinfotablename, row, 22 );
-            var_65181181 = int( isdefined( tablelookupcolumnforrow( scoreinfotablename, row, 24 ) ) ? tablelookupcolumnforrow( scoreinfotablename, row, 24 ) : 0 );
-            registerscoreinfo( type, row, lp, xp, sp, hs, res, var_e775f7ed, dp, is_objective, label, medalname, job_type, var_b6593614, var_1a39d14, var_bdbfb0e, var_a434fd2d, is_deprecated, bounty_reward, var_65181181 );
+            mark2_bonus_xp = int( isdefined( tablelookupcolumnforrow( scoreinfotablename, row, 24 ) ) ? tablelookupcolumnforrow( scoreinfotablename, row, 24 ) : 0 );
+            registerscoreinfo( type, row, lp, xp, sp, hs, res, job_defining, dp, is_objective, label, medalname, job_type, job_sub_type, var_1a39d14, var_bdbfb0e, var_a434fd2d, is_deprecated, bounty_reward, mark2_bonus_xp );
             
             if ( !isdefined( game.scoreinfoinitialized ) )
             {
@@ -136,7 +136,7 @@ function initscoreinfo()
                     ismedal = 1;
                 }
                 
-                registerxp( type, xp, addplayerstat, ismedal, dp, row, var_65181181 );
+                registerxp( type, xp, addplayerstat, ismedal, dp, row, mark2_bonus_xp );
             }
         }
     }
@@ -162,7 +162,7 @@ function getrankxpcapped( inrankxp )
 // Params 20
 // Checksum 0x78cc2557, Offset: 0xba0
 // Size: 0x748
-function registerscoreinfo( type, row, lp, xp, sp, hs, res, var_e775f7ed, dp, is_obj, label, medalname, job_type, var_b6593614, var_1a39d14, var_bdbfb0e, var_a434fd2d, is_deprecated, bounty_reward, var_65181181 )
+function registerscoreinfo( type, row, lp, xp, sp, hs, res, job_defining, dp, is_obj, label, medalname, job_type, job_sub_type, var_1a39d14, var_bdbfb0e, var_a434fd2d, is_deprecated, bounty_reward, mark2_bonus_xp )
 {
     overridedvar = "scr_" + level.gametype + "_score_" + type;
     
@@ -203,9 +203,9 @@ function registerscoreinfo( type, row, lp, xp, sp, hs, res, var_e775f7ed, dp, is
             level.scoreinfo[ type ][ #"res" ] = res;
         }
         
-        if ( isdefined( var_e775f7ed ) && var_e775f7ed )
+        if ( isdefined( job_defining ) && job_defining )
         {
-            level.scoreinfo[ type ][ #"hash_4e7be147d773e419" ] = var_e775f7ed;
+            level.scoreinfo[ type ][ #"job_defining" ] = job_defining;
         }
         
         if ( isdefined( dp ) && dp )
@@ -249,9 +249,9 @@ function registerscoreinfo( type, row, lp, xp, sp, hs, res, var_e775f7ed, dp, is
             level.scoreinfo[ type ][ #"job_type" ] = job_type;
         }
         
-        if ( var_b6593614 != "" )
+        if ( job_sub_type != "" )
         {
-            level.scoreinfo[ type ][ #"hash_401b1493e5188252" ] = var_b6593614;
+            level.scoreinfo[ type ][ #"job_sub_type" ] = job_sub_type;
         }
         
         if ( var_1a39d14 != "" )
@@ -279,9 +279,9 @@ function registerscoreinfo( type, row, lp, xp, sp, hs, res, var_e775f7ed, dp, is
             level.scoreinfo[ type ][ #"bounty_reward" ] = bounty_reward;
         }
         
-        if ( isdefined( var_65181181 ) && var_65181181 )
+        if ( isdefined( mark2_bonus_xp ) && mark2_bonus_xp )
         {
-            level.scoreinfo[ type ][ #"hash_691aeaca4a1866e3" ] = var_65181181;
+            level.scoreinfo[ type ][ #"mark2_bonus_xp" ] = mark2_bonus_xp;
         }
         
         return;
@@ -338,8 +338,8 @@ function getscoreinfovalue( type )
         }
         
         /#
-            var_1eb7c454 = getdvarfloat( #"hash_eae9a8ee387705d", 1 );
-            n_score = int( n_score * var_1eb7c454 );
+            dev_score_multiplier = getdvarfloat( #"dev_score_multiplier", 1 );
+            n_score = int( n_score * dev_score_multiplier );
         #/
         
         return n_score;
@@ -376,7 +376,7 @@ function getscoreinfoposition( type )
     
     if ( isdefined( level.scoreinfo[ type ] ) )
     {
-        n_pos = isdefined( level.scoreinfo[ type ][ #"hash_7c1f7c7897445706" ] ) ? level.scoreinfo[ type ][ #"hash_7c1f7c7897445706" ] : 0;
+        n_pos = isdefined( level.scoreinfo[ type ][ #"role_defining" ] ) ? level.scoreinfo[ type ][ #"role_defining" ] : 0;
         
         if ( isdefined( level.scoremodifiercallback ) && isdefined( n_pos ) )
         {

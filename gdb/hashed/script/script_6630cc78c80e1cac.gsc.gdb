@@ -1,4 +1,4 @@
-NAME script_6630cc78c80e1cac
+NAME scripts/zm/zm_office_ee_oscars.gsc
 VERSION 0
 CHECKSUM 0x73c977e
 ######################################################

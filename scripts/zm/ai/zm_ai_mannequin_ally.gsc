@@ -15,7 +15,7 @@
 // Size: 0x44
 function autoexec __init__system__()
 {
-    system::register( #"hash_217942543a3e669b", &__init__, &__main__, undefined );
+    system::register( #"zm_ai_mannequin_ally", &__init__, &__main__, undefined );
 }
 
 // Namespace zm_ai_mannequin_ally/zm_ai_mannequin_ally
@@ -25,7 +25,7 @@ function autoexec __init__system__()
 function __init__()
 {
     spawner::add_archetype_spawn_function( #"zod_companion", &function_10c92445 );
-    zm::function_84d343d( #"hash_680d9169c5e72bdc", &function_f1be5640 );
+    zm::function_84d343d( #"ar_accurate_t8_mannequin_ally", &function_f1be5640 );
     level.var_af29d768 = &function_80bc397d;
 }
 

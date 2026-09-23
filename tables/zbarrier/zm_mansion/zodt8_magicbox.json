@@ -16,8 +16,8 @@
     "boards": [
         {
             "boardModel": "#p7_zm_der_magic_box_fake",
-            "tearAnim": "#hash_52400872c587a951",
-            "boardAnim": "#hash_52400572c587a438",
+            "tearAnim": "#o_zombie_base_magic_box_fake_idle_twitch_b",
+            "boardAnim": "#o_zombie_base_magic_box_fake_idle_twitch_a",
             "repairEffect1Offset": "0 0 0",
             "repairEffect2Offset": "0 0 0",
             "minPause": 0.3,
@@ -25,7 +25,7 @@
             "numRepsToPullProBoard": 3
         },
         {
-            "boardModel": "#hash_9af0ce07aab606c",
+            "boardModel": "#p8_fxanim_zm_zod_magic_box_crush_mod",
             "tearAnim": "#p8_fxanim_zm_zod_magic_box_arrive_anim",
             "boardAnim": "#p8_fxanim_zm_zod_magic_box_leave_anim",
             "idleAnim": "#p8_fxanim_zm_zod_magic_box_idle_anim",
@@ -39,7 +39,7 @@
         {
             "boardModel": "#p8_fxanim_zm_zod_magic_box_mod",
             "tearAnim": "#p8_fxanim_zm_zod_magic_box_open_anim",
-            "boardAnim": "#hash_6f59ffe77f150034",
+            "boardAnim": "#p8_fxanim_zm_zod_magic_box_close_anim",
             "idleAnim": "#p8_fxanim_zm_zod_magic_box_open_idle_anim",
             "staticAnim": "#p8_fxanim_zm_zod_magic_box_idle_anim",
             "pauseAndRepeatRepSound": "#hash_1",
@@ -52,7 +52,7 @@
         {
             "boardModel": "#tag_origin",
             "tearAnim": "#o_zombie_magic_box_weapon_rise",
-            "boardAnim": "#hash_e307e927079aa80",
+            "boardAnim": "#o_zombie_base_magic_box_teddy_rise",
             "idleAnim": "#p8_fxanim_zm_zod_magic_box_open_idle_anim",
             "staticAnim": "#p8_fxanim_zm_zod_magic_box_idle_anim",
             "pauseAndRepeatRepSound": "#hash_1",
@@ -65,7 +65,7 @@
         {
             "boardModel": "#tag_origin",
             "tearAnim": "#o_zombie_magic_box_weapon_dual_rise",
-            "boardAnim": "#hash_e307e927079aa80",
+            "boardAnim": "#o_zombie_base_magic_box_teddy_rise",
             "pauseAndRepeatRepSound": "#hash_1",
             "repairEffect1Offset": "0 0 0",
             "repairEffect2Offset": "0 0 0",

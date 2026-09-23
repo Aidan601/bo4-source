@@ -65,10 +65,10 @@
     "worldModel": [
         "#wpn_t8_eqp_smoke_charge_world"
     ],
-    "gadgetIconAvailable": "#hash_8d6192b7ab2aca2",
+    "gadgetIconAvailable": "#ui_icon_ability_mutesmokecharge_dark",
     "gadgetIconUnavailable": "#hash_a2e127e06b87d255",
     "reticleCenter": "#emp_reticle",
-    "inventoryIconZm": "#hash_8d6192b7ab2aca2",
+    "inventoryIconZm": "#ui_icon_ability_mutesmokecharge_dark",
     "hudIcon": "#hash_a2e127e06b87d255",
     "image_e90": "#hash_a2e127e06b87d255",
     "fireRumble": "#launcher_fire",

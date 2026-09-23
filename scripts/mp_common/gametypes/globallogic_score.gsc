@@ -78,10 +78,10 @@ function function_39193e3a()
         {
             player = waitresult.player;
             
-            if ( isdefined( player.pers[ #"hash_53919d92ff1d039" ] ) )
+            if ( isdefined( player.pers[ #"combat_efficiency_suppliers" ] ) )
             {
-                scoreevents::function_6f51d1e9( "battle_command_ultimate_command", player.pers[ #"hash_53919d92ff1d039" ], undefined, undefined );
-                player.pers[ #"hash_53919d92ff1d039" ] = undefined;
+                scoreevents::function_6f51d1e9( "battle_command_ultimate_command", player.pers[ #"combat_efficiency_suppliers" ], undefined, undefined );
+                player.pers[ #"combat_efficiency_suppliers" ] = undefined;
             }
         }
     }
@@ -670,7 +670,7 @@ function giveplayerscore( event, player, victim, descvalue, weapon = level.weapo
         return 0;
     }
     
-    pixbeginevent( #"hash_50e89abe6f3fe4f1" );
+    pixbeginevent( #"level.onplayerscore" );
     score = player.pers[ #"score" ];
     [[ level.onplayerscore ]]( event, player, victim );
     newscore = player.pers[ #"score" ];
@@ -743,7 +743,7 @@ function function_3172cf59( player, newscore, weapon, mpplayerscore )
     
     if ( sessionmodeismultiplayergame() && !isbot( player ) )
     {
-        function_92d1707f( #"hash_120b2cf3162c3bc1", mpplayerscore );
+        function_92d1707f( #"dlog_event_mpplayerscore", mpplayerscore );
     }
     
     player bb::add_to_stat( "score", mpplayerscore.delta );
@@ -947,10 +947,10 @@ function function_17a678b7( player, scoresub )
 function function_889ed975( player, score_add, var_252f7989, var_f8258842 )
 {
     /#
-        var_1eb7c454 = getdvarfloat( #"hash_eae9a8ee387705d", 1 );
-        score_add = int( score_add * var_1eb7c454 );
-        var_252f7989 = int( var_252f7989 * var_1eb7c454 );
-        var_f8258842 = int( var_f8258842 * var_1eb7c454 );
+        dev_score_multiplier = getdvarfloat( #"dev_score_multiplier", 1 );
+        score_add = int( score_add * dev_score_multiplier );
+        var_252f7989 = int( var_252f7989 * dev_score_multiplier );
+        var_f8258842 = int( var_f8258842 * dev_score_multiplier );
     #/
     
     score = player.pers[ #"score" ] + score_add;
@@ -1250,7 +1250,7 @@ function giveteamscore( event, team, player, victim )
         return;
     }
     
-    pixbeginevent( #"hash_66d4a941ef078585" );
+    pixbeginevent( #"level.onteamscore" );
     teamscore = game.stat[ #"teamscores" ][ team ];
     [[ level.onteamscore ]]( event, team );
     pixendevent();
@@ -1259,7 +1259,7 @@ function giveteamscore( event, team, player, victim )
     if ( sessionmodeismultiplayergame() )
     {
         mpteamscores = { #gametime:function_f8d53445(), #event:event, #team:team, #diff:newscore - teamscore, #score:newscore };
-        function_92d1707f( #"hash_48d5ef92d24477d2", mpteamscores );
+        function_92d1707f( #"dlog_event_mpteamscores", mpteamscores );
     }
     
     if ( teamscore == newscore )
@@ -1285,7 +1285,7 @@ function giveteamscoreforobjective_delaypostprocessing( team, score )
     if ( sessionmodeismultiplayergame() )
     {
         mpteamobjscores = { #gametime:function_f8d53445(), #team:team, #diff:newscore - teamscore, #score:newscore };
-        function_92d1707f( #"hash_22921c2c027fa389", mpteamobjscores );
+        function_92d1707f( #"dlog_event_mpteamobjscores", mpteamobjscores );
     }
     
     if ( teamscore == newscore )
@@ -1329,7 +1329,7 @@ function giveteamscoreforobjective( team, score )
     if ( sessionmodeismultiplayergame() )
     {
         mpteamobjscores = { #gametime:function_f8d53445(), #team:team, #diff:newscore - teamscore, #score:newscore };
-        function_92d1707f( #"hash_22921c2c027fa389", mpteamobjscores );
+        function_92d1707f( #"dlog_event_mpteamobjscores", mpteamobjscores );
     }
     
     if ( teamscore == newscore )
@@ -2475,15 +2475,15 @@ function function_b1a3b359( killedplayer, damagedone, weapon, assist_level = und
     {
         switch ( weapon.name )
         {
-            case #"hash_577b41452577c37f":
+            case #"concussion_grenade_l2":
             case #"concussion_grenade":
                 assist_level = "assist_concussion";
                 break;
-            case #"hash_af1a40bb1375dab":
+            case #"flash_grenade_l2":
             case #"flash_grenade":
                 assist_level = "assist_flash";
                 break;
-            case #"hash_4cd586d22c20b3cf":
+            case #"emp_grenade_l2":
             case #"emp_grenade":
                 assist_level = "assist_emp";
                 break;
@@ -2572,7 +2572,7 @@ function processkillstreakassists( attacker, inflictor, weapon )
         params.players[ params.players.size ] = player;
     }
     
-    callback::callback( #"hash_425352b435722271", params );
+    callback::callback( #"killstreak_process_assist", params );
 }
 
 // Namespace globallogic_score/globallogic_score
@@ -2632,7 +2632,7 @@ function function_30ab51a4( params )
     if ( isdefined( self ) && isdefined( self.pers ) )
     {
         self.pers[ #"hash_49e7469988944ecf" ] = undefined;
-        self.pers[ #"hash_53919d92ff1d039" ] = undefined;
+        self.pers[ #"combat_efficiency_suppliers" ] = undefined;
     }
 }
 

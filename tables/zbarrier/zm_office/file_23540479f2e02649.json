@@ -1,5 +1,5 @@
 {
-    "name": "#hash_23540479f2e02649",
+    "name": "#zm_office_debris_wide",
     "delayBetweenRepSoundsDuration": 0,
     "earthquakeOnRepair": 0,
     "earthquakeMinScale": 0.3,
@@ -16,9 +16,9 @@
     "boards": [
         {
             "boardModel": "#zm_office_debris_02",
-            "tearAnim": "#hash_355959772d0b1882",
-            "boardAnim": "#hash_6b5ecfbe098e84d3",
-            "staticAnim": "#hash_6b5ecfbe098e84d3",
+            "tearAnim": "#zm_office_debris_02_purchase",
+            "boardAnim": "#zm_office_debris_02_idle",
+            "staticAnim": "#zm_office_debris_02_idle",
             "repairEffect1Offset": "0 0 0",
             "repairEffect2Offset": "0 0 0",
             "minPause": 0.3,

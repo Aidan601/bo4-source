@@ -85,7 +85,7 @@ DEVBLOCK 0x75a
 DEVBLOCK 0x7d2
 # zm_zodt8_devgui::function_853d8116@2
 DEVBLOCK 0x8ba
-# zm_zodt8_devgui::function_649d5f75@a
+# zm_zodt8_devgui::craft_distiller@a
 DEVBLOCK 0x9aa
 # zm_zodt8_devgui::function_a368f5ed@32
 DEVBLOCK 0xa22

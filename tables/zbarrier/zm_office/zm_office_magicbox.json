@@ -16,8 +16,8 @@
     "boards": [
         {
             "boardModel": "#p7_zm_der_magic_box_fake",
-            "tearAnim": "#hash_52400872c587a951",
-            "boardAnim": "#hash_52400572c587a438",
+            "tearAnim": "#o_zombie_base_magic_box_fake_idle_twitch_b",
+            "boardAnim": "#o_zombie_base_magic_box_fake_idle_twitch_a",
             "repairEffect1Offset": "0 0 0",
             "repairEffect2Offset": "0 0 0",
             "minPause": 0.3,
@@ -37,8 +37,8 @@
         },
         {
             "boardModel": "#p7_zm_der_magic_box",
-            "tearAnim": "#hash_6a43d44e12fc1d2e",
-            "boardAnim": "#hash_4f4c8e6710e917fa",
+            "tearAnim": "#o_zombie_base_magic_box_open",
+            "boardAnim": "#o_zombie_base_magic_box_close",
             "pauseAndRepeatRepSound": "#hash_1",
             "repairEffect1Offset": "0 0 0",
             "repairEffect2Offset": "0 0 0",
@@ -49,7 +49,7 @@
         {
             "boardModel": "#tag_origin",
             "tearAnim": "#o_zombie_magic_box_weapon_rise",
-            "boardAnim": "#hash_e307e927079aa80",
+            "boardAnim": "#o_zombie_base_magic_box_teddy_rise",
             "pauseAndRepeatRepSound": "#hash_1",
             "repairEffect1Offset": "0 0 0",
             "repairEffect2Offset": "0 0 0",
@@ -60,7 +60,7 @@
         {
             "boardModel": "#tag_origin",
             "tearAnim": "#o_zombie_magic_box_weapon_dual_rise",
-            "boardAnim": "#hash_e307e927079aa80",
+            "boardAnim": "#o_zombie_base_magic_box_teddy_rise",
             "pauseAndRepeatRepSound": "#hash_1",
             "repairEffect1Offset": "0 0 0",
             "repairEffect2Offset": "0 0 0",

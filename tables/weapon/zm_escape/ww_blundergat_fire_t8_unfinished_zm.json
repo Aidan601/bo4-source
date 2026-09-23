@@ -53,10 +53,10 @@
             "1 0.0507"
         ]
     ],
-    "firesound": "#hash_711623bb9a2d2940",
-    "firesoundplayer": "#hash_3226bebb2decfe81",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "firesound": "#wpn_firegat_fire_npc",
+    "firesoundplayer": "#wpn_firegat_fire_plr",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound800": "#hash_54f28bb508a46096",
     "sound810": "#hash_54f28bb508a46096",
     "tunables1": "#ww_blundergat_fire_t8_unfinished_tunables_zm",
@@ -79,6 +79,6 @@
     "fireRumble": "#damage_heavy",
     "fx_bc8": "#hash_354517928271f454",
     "fx_bd0": "#hash_354c03928277f106",
-    "fx_ed8": "#hash_26d0dc927aee6793",
+    "fx_ed8": "#zm_weapons/fx8_magmagat_explosion",
     "fx_f00": "#hash_53c0bb17712386bf"
 }

@@ -1,4 +1,4 @@
-#using script_52d2de9b438adc78;
+#using scripts\killstreaks\ir_strobe_deploy;
 #using script_702b73ee97d18efe;
 #using scripts\core_common\ai_shared;
 #using scripts\core_common\animation_shared;
@@ -213,7 +213,7 @@ function private onconnect()
             
             if ( numteammates )
             {
-                self function_3a77006e( int( var_69c2bc0d / numteammates ), "moneychange_initialallocation" );
+                self givemoney( int( var_69c2bc0d / numteammates ), "moneychange_initialallocation" );
             }
         }
     }
@@ -319,10 +319,10 @@ function private onstartgametype()
     if ( var_b1f5f155 == game.var_b40d8319 )
     {
         game.var_b40d8319 += getgametypesetting( #"hash_7e30d3849ca91b60" );
-        thread function_bdba96e1();
+        thread bountydrop();
     }
     
-    level.var_7e7897b8 = function_b3faa437();
+    level.bagomoney = function_b3faa437();
     thread function_c04cc87c();
     
     if ( level.scoreroundwinbased )
@@ -446,7 +446,7 @@ function buy_menu_close()
         level.var_968635ea bountyhunterbuy::close( self );
     }
     
-    level.var_7e7897b8 gameobjects::set_visible_team( #"any" );
+    level.bagomoney gameobjects::set_visible_team( #"any" );
 }
 
 // Namespace bounty/bounty
@@ -457,7 +457,7 @@ function private function_c04cc87c()
 {
     level.var_324e2795 = 1;
     level.var_7aa0d894 = 1;
-    objective_setinvisibletoall( level.var_7e7897b8.objectiveid );
+    objective_setinvisibletoall( level.bagomoney.objectiveid );
     
     while ( game.state != "playing" )
     {
@@ -572,7 +572,7 @@ function private function_c04cc87c()
     level.var_7aa0d894 = undefined;
     level clientfield::set_world_uimodel( "hudItems.specialistSwitchIsLethal", 1 );
     globallogic_utils::resumetimer();
-    objective_setvisibletoall( level.var_7e7897b8.objectiveid );
+    objective_setvisibletoall( level.bagomoney.objectiveid );
     thread radar_sweeps::radarsweeps();
 }
 
@@ -850,7 +850,7 @@ function private onscoreevent( params )
     
     if ( isdefined( money ) && money > 0 && !( params.victim === self ) )
     {
-        self function_3a77006e( money, "moneychange_scoreevent" );
+        self givemoney( money, "moneychange_scoreevent" );
         self playsoundtoplayer( #"hash_767e2476f594e0f3", self );
     }
 }
@@ -890,7 +890,7 @@ function private onplayerdamage( params )
             var_80ed4b57 = self.health;
         }
         
-        player function_3a77006e( var_80ed4b57, "moneychange_playerdamage" );
+        player givemoney( var_80ed4b57, "moneychange_playerdamage" );
         player playsoundtoplayer( #"hash_767e2476f594e0f3", player );
     }
 }
@@ -934,7 +934,7 @@ function private function_1a0c2b72( revivedplayer )
 {
     if ( isdefined( self ) && isalive( self ) && isdefined( revivedplayer ) )
     {
-        level thread popups::displayteammessagetoteam( #"hash_17c6b0524e578976", self, self.team, revivedplayer.entnum, undefined );
+        level thread popups::displayteammessagetoteam( #"mp/bounty_revived_player", self, self.team, revivedplayer.entnum, undefined );
     }
 }
 
@@ -955,12 +955,12 @@ function private function_8cac4c76()
 // Size: 0x150
 function private function_4f2c425d()
 {
-    if ( !isdefined( level.var_7e7897b8 ) )
+    if ( !isdefined( level.bagomoney ) )
     {
         return;
     }
     
-    if ( !isdefined( level.var_7e7897b8.carrier ) )
+    if ( !isdefined( level.bagomoney.carrier ) )
     {
         return;
     }
@@ -974,7 +974,7 @@ function private function_4f2c425d()
     
     if ( var_fe63ca41 <= 0 )
     {
-        self.var_6bd898f7 = level.var_7e7897b8.carrier getentitynumber();
+        self.var_6bd898f7 = level.bagomoney.carrier getentitynumber();
         return;
     }
     
@@ -982,7 +982,7 @@ function private function_4f2c425d()
     
     foreach ( teammate in teammates )
     {
-        if ( teammate == level.var_7e7897b8.carrier )
+        if ( teammate == level.bagomoney.carrier )
         {
             self.var_6bd898f7 = teammate getentitynumber();
             return;
@@ -1041,7 +1041,7 @@ function function_c04436fc()
     {
         if ( isdefined( level.var_a5221eec ) && level.var_a5221eec == player.team )
         {
-            player function_3a77006e( level.var_3e14d8dd, "moneychange_bagomoney" );
+            player givemoney( level.var_3e14d8dd, "moneychange_bagomoney" );
         }
     }
 }
@@ -1100,24 +1100,24 @@ function private function_b3faa437()
     var_8b6f8e45 = [];
     var_8b6f8e45[ 0 ] = spawn( "script_model", var_85b31568 );
     var_8b6f8e45[ 0 ] setmodel( "p8_heist_duffel_bag_set_open" );
-    var_7e7897b8 = gameobjects::create_carry_object( #"neutral", usetrigger, var_8b6f8e45, ( 0, 0, 0 ), #"bag_o_money" );
-    var_7e7897b8 gameobjects::set_use_hint_text( #"hash_ee4d709a0f80280" );
-    var_7e7897b8 gameobjects::allow_carry( #"any" );
-    var_7e7897b8 gameobjects::set_visible_team( #"any" );
-    var_7e7897b8 gameobjects::set_use_time( level.var_8cfdca96 );
-    var_7e7897b8 gameobjects::set_objective_entity( var_7e7897b8 );
-    var_7e7897b8 gameobjects::function_63f73e1d( #"hash_510667a4ac8024c3" );
-    var_7e7897b8.objectiveonself = 1;
-    var_7e7897b8.allowweapons = 1;
-    var_7e7897b8.onpickup = &function_cd23eebc;
-    var_7e7897b8.ondrop = &function_62d627a0;
-    var_7e7897b8.var_22389d70 = 0;
-    var_7e7897b8.var_78149e41 = gameobjects::get_next_obj_id();
-    objective_add( var_7e7897b8.var_78149e41, "invisible", var_7e7897b8, #"hash_34a0ac740c9d0bc2" );
-    objective_onentity( var_7e7897b8.var_78149e41, var_7e7897b8 );
-    var_7e7897b8 gameobjects::set_visible_team( #"none" );
-    level.var_7e7897b8 = var_7e7897b8;
-    return var_7e7897b8;
+    bagomoney = gameobjects::create_carry_object( #"neutral", usetrigger, var_8b6f8e45, ( 0, 0, 0 ), #"bag_o_money" );
+    bagomoney gameobjects::set_use_hint_text( #"hash_ee4d709a0f80280" );
+    bagomoney gameobjects::allow_carry( #"any" );
+    bagomoney gameobjects::set_visible_team( #"any" );
+    bagomoney gameobjects::set_use_time( level.var_8cfdca96 );
+    bagomoney gameobjects::set_objective_entity( bagomoney );
+    bagomoney gameobjects::function_63f73e1d( #"hash_510667a4ac8024c3" );
+    bagomoney.objectiveonself = 1;
+    bagomoney.allowweapons = 1;
+    bagomoney.onpickup = &function_cd23eebc;
+    bagomoney.ondrop = &function_62d627a0;
+    bagomoney.var_22389d70 = 0;
+    bagomoney.var_78149e41 = gameobjects::get_next_obj_id();
+    objective_add( bagomoney.var_78149e41, "invisible", bagomoney, #"bag_o_money_held" );
+    objective_onentity( bagomoney.var_78149e41, bagomoney );
+    bagomoney gameobjects::set_visible_team( #"none" );
+    level.bagomoney = bagomoney;
+    return bagomoney;
 }
 
 // Namespace bounty/bounty
@@ -1165,7 +1165,7 @@ function private function_cd23eebc( player )
 // Size: 0x25c
 function private function_319af5a2( player )
 {
-    self endon( #"hash_1af469c6cd76e56b" );
+    self endon( #"bagomoney_dropped" );
     objective_setprogress( self.var_78149e41, float( level.var_3e14d8dd ) / level.var_b2a8558a );
     player clientfield::set_to_player( "bountyBagMoney", int( float( level.var_3e14d8dd ) / level.var_16fd9420 ) );
     
@@ -1205,7 +1205,7 @@ function private function_319af5a2( player )
 // Size: 0x1d4
 function private function_62d627a0( player )
 {
-    self notify( #"hash_1af469c6cd76e56b" );
+    self notify( #"bagomoney_dropped" );
     self.visuals[ 0 ] solid();
     
     if ( isdefined( self.var_78149e41 ) )
@@ -1275,7 +1275,7 @@ function private function_7f8c4043()
         
         for ( i = 0; i < var_1c8f5a97.size ; i++ )
         {
-            dist = distancesquared( level.var_7e7897b8.origin, var_1c8f5a97[ i ].origin );
+            dist = distancesquared( level.bagomoney.origin, var_1c8f5a97[ i ].origin );
             
             if ( dist < closestdist )
             {
@@ -1402,11 +1402,11 @@ function private function_f878f4bf( var_fa5724d5, context )
     }
     
     level.var_ad7774db thread function_acf3ff19();
-    waitresult = level.var_ad7774db waittill( #"hash_5677d0c5246418e5" );
+    waitresult = level.var_ad7774db waittill( #"bounty_deposit_made" );
     
     for ( prevprogress = 0; waitresult._notify == "timeout" && level.var_ad7774db.curprogress > prevprogress ; prevprogress = level.var_ad7774db.curprogress )
     {
-        waitresult = level.var_ad7774db waittilltimeout( 0.25, #"hash_5677d0c5246418e5" );
+        waitresult = level.var_ad7774db waittilltimeout( 0.25, #"bounty_deposit_made" );
     }
     
     if ( !isdefined( level.var_ad7774db ) )
@@ -1452,7 +1452,7 @@ function private function_554b5692( helicopter )
     helicopter.rope = spawn( "script_model", helicopter.origin );
     assert( isdefined( helicopter.rope ) );
     helicopter.rope useanimtree( "generic" );
-    helicopter.rope setmodel( #"hash_142fee14ea7bdb9b" );
+    helicopter.rope setmodel( #"p8_fxanim_gp_vehicle_lb_heist_rope_mod" );
     helicopter.rope linkto( helicopter, "tag_origin_animate" );
     helicopter.rope hide();
 }
@@ -1467,7 +1467,7 @@ function private function_f9a7a3d8( helicopter )
     helicopter endon( #"death", #"hash_69d2c68fdf86b6d7", #"hash_3478587618f28c8" );
     helicopter.rope endon( #"death" );
     helicopter.rope show();
-    helicopter.rope animation::play( #"hash_751de00c6e9e0862", helicopter, "tag_origin_animate", 1, 0.2, 0.1, undefined, undefined, undefined, 0 );
+    helicopter.rope animation::play( #"p8_fxanim_gp_vehicle_lb_heist_rope_deploy_anim", helicopter, "tag_origin_animate", 1, 0.2, 0.1, undefined, undefined, undefined, 0 );
     childthread function_5db7fc11( helicopter );
 }
 
@@ -1481,7 +1481,7 @@ function private function_5db7fc11( helicopter )
     
     while ( true )
     {
-        helicopter.rope animation::play( #"hash_217d8ba9d8489561", helicopter, "tag_origin_animate", 1, 0.1, 0.1, undefined, undefined, undefined, 0 );
+        helicopter.rope animation::play( #"p8_fxanim_gp_vehicle_lb_heist_rope_idle_anim", helicopter, "tag_origin_animate", 1, 0.1, 0.1, undefined, undefined, undefined, 0 );
     }
 }
 
@@ -1499,9 +1499,9 @@ function private function_b48e2739( helicopter )
     helicopter endon( #"hash_69d2c68fdf86b6d7", #"death" );
     helicopter.rope endon( #"death" );
     helicopter notify( #"hash_3478587618f28c8" );
-    helicopter.rope thread animation::play( #"hash_3d52f6faf02fd23", helicopter, "tag_origin_animate", 1, 0.2, 0.1, undefined, undefined, undefined, 0 );
+    helicopter.rope thread animation::play( #"p8_fxanim_gp_vehicle_lb_heist_rope_retrieve_anim", helicopter, "tag_origin_animate", 1, 0.2, 0.1, undefined, undefined, undefined, 0 );
     playfxontag( #"hash_24fa7e1844b116bb", helicopter.rope, "duffel_attach_jnt" );
-    var_314ff04b = getanimlength( #"hash_3d52f6faf02fd23" ) + 15;
+    var_314ff04b = getanimlength( #"p8_fxanim_gp_vehicle_lb_heist_rope_retrieve_anim" ) + 15;
     wait var_314ff04b;
     function_b09faaf8( helicopter );
 }
@@ -1680,7 +1680,7 @@ function private function_1aca4a4e( helicopter, destination )
                 
                 if ( !ispointinnavvolume( var_7f4a508d, "navvolume_big" ) )
                 {
-                    self waittilltimeout( 10, #"hash_340ab3c2b94ff86a" );
+                    self waittilltimeout( 10, #"switched_pathing" );
                 }
             }
         }
@@ -1787,7 +1787,7 @@ function private function_656691ab()
                 self function_9ffc1856( self.heligoalpos, 1 );
             }
             
-            self notify( #"hash_340ab3c2b94ff86a" );
+            self notify( #"switched_pathing" );
             break;
         }
         
@@ -1874,7 +1874,7 @@ function function_8debcb6( origin )
     useobj gameobjects::allow_use( #"any" );
     useobj gameobjects::set_owner_team( #"neutral" );
     useobj gameobjects::set_use_time( level.bountydepositsitecapturetime );
-    useobj gameobjects::set_key_object( level.var_7e7897b8 );
+    useobj gameobjects::set_key_object( level.bagomoney );
     useobj gameobjects::set_onbeginuse_event( &function_9ef02b1b );
     useobj gameobjects::set_onuse_event( &function_37e1bbbf );
     useobj gameobjects::function_3510971a( 1 );
@@ -1893,7 +1893,7 @@ function function_8debcb6( origin )
 // Size: 0x128, Type: bool
 function function_a800815( victim, attacker )
 {
-    if ( isdefined( level.var_7e7897b8 ) && ( isdefined( level.var_7e7897b8.carrier ) && level.var_7e7897b8.carrier == victim || isdefined( victim.var_ea1458aa ) && isdefined( victim.var_ea1458aa.var_cba684c2 ) && victim.var_ea1458aa.var_cba684c2[ level.var_7e7897b8 getentitynumber() ] === 1 ) )
+    if ( isdefined( level.bagomoney ) && ( isdefined( level.bagomoney.carrier ) && level.bagomoney.carrier == victim || isdefined( victim.var_ea1458aa ) && isdefined( victim.var_ea1458aa.var_cba684c2 ) && victim.var_ea1458aa.var_cba684c2[ level.bagomoney getentitynumber() ] === 1 ) )
     {
         if ( isdefined( level.var_ad7774db ) && isdefined( level.var_ad7774db.trigger ) && victim istouching( level.var_ad7774db.trigger ) )
         {
@@ -1991,7 +1991,7 @@ function function_37e1bbbf( player )
     }
     
     useobj = self;
-    useobj notify( #"hash_5677d0c5246418e5" );
+    useobj notify( #"bounty_deposit_made" );
     useobj function_572ce431();
     player playsoundtoplayer( #"hash_19f756f885db9bb8", player );
     [[ level.var_37d62931 ]]( player, 1 );
@@ -2073,7 +2073,7 @@ function private function_17debb33()
 // Params 0, eflags: 0x4
 // Checksum 0xad0cc2da, Offset: 0x6e30
 // Size: 0x2cc
-function private function_bdba96e1()
+function private bountydrop()
 {
     waitframe( 1 );
     droplocations = struct::get_array( "bounty_drop", "variantname" );
@@ -2173,7 +2173,7 @@ function private function_d4a84cde( team, player, result )
     if ( isdefined( result ) && result && isdefined( player ) && isplayer( player ) )
     {
         self.usecount++;
-        player function_3a77006e( level.var_860cdbdb, "moneychange_bountydrop" );
+        player givemoney( level.var_860cdbdb, "moneychange_bountydrop" );
         player pickup_health::function_dd4bf8ac( level.var_a2b93ad3 );
         weapons = player getweaponslist();
         
@@ -2198,7 +2198,7 @@ function private function_d4a84cde( team, player, result )
 // Params 2
 // Checksum 0xa8d4ae31, Offset: 0x7668
 // Size: 0x14c
-function function_3a77006e( amount, reason )
+function givemoney( amount, reason )
 {
     if ( !isdefined( self.pers[ #"money" ] ) || self laststand_mp::is_cheating() )
     {
@@ -2270,7 +2270,7 @@ function resume_time()
         while ( true )
         {
             wait 0.25;
-            var_9b37b387 = getdvarint( #"hash_312d65fd43c7008c", 0 );
+            var_9b37b387 = getdvarint( #"scr_bounty_money", 0 );
             
             if ( var_9b37b387 <= 0 )
             {
@@ -2285,7 +2285,7 @@ function resume_time()
                 player clientfield::set_to_player( "<dev string:xd2>", player.pers[ #"money" ] );
             }
             
-            setdvar( #"hash_312d65fd43c7008c", 0 );
+            setdvar( #"scr_bounty_money", 0 );
         }
     }
 

@@ -1,12 +1,12 @@
 {
-    "name": "#hash_27b5b2b4f08e4dcb",
+    "name": "#loot_emote_shared_chest_pound",
     "type": "#gesture",
-    "gesture": "#hash_3889dc49d2554211",
-    "gesture2": "#hash_b4cb5a58efdb5da",
+    "gesture": "#boast_chest_pound",
+    "gesture2": "#boast_chest_pound_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/unstoppable",
-        "icon": "image#hash_40ac7b635cc3193c",
+        "icon": "image#ui_icon_emotes_chest_pound",
         "isdefault": 1
     }
 }

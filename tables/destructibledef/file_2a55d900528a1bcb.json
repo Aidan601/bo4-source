@@ -1,5 +1,5 @@
 {
-    "name": "#hash_2a55d900528a1bcb",
+    "name": "#veh_t8_vintage_truck_german_base_camo_canopy_snow_def",
     "model": "#hash_603718eff421b538",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
@@ -13,11 +13,11 @@
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_94b5f3bad73031",
+                    "name": "#dst_car_fire_frnt",
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_5eb690639ce50eba",
+                    "name": "#dst_car_fire",
                     "unk28": "tag_body_d0"
                 },
                 {

@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_dog",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_dog",
     "name": "charm_dog",
-    "displayname": "localized17#hash_698a48e6552f765b",
+    "displayname": "localized17#menu/charm_dog",
     "icon": "ui_icon_weapon_charms_dog",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_dog"

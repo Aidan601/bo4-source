@@ -1,11 +1,11 @@
 {
-    "name": "#hash_764c9f96f7024889",
+    "name": "#loot_tags_hipster_seraph",
     "type": "#tag",
-    "material": "#hash_1644b730676cd655",
+    "material": "#vd/mtl_loot_ui_icon_tags_hipster_seraph",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_48c049653f03b86e",
-        "icon": "image#hash_11f9445ae9dd7150",
+        "icon": "image#loot_ui_icon_tags_hipster_seraph",
         "isdefault": 0
     }
 }

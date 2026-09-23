@@ -28,10 +28,10 @@
     "#hash_554be9f7": false,
     "firesound": "#wpn_grenade_throw",
     "firesoundplayer": "#wpn_grenade_throw",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "tunables1": "#ir_strobe_tunables_mp",
-    "weaponHeadObjective": "#hash_1b5a86007f598bbc",
+    "weaponHeadObjective": "#airdrop_swat_team",
     "#hash_2e4a8800": "#swat_team_scoreevents",
     "viewmodel": [
         "#wpn_t8_eqp_ir_strobe_view"
@@ -45,6 +45,6 @@
     "inventoryIconZm": "#ui_icon_scorestreaks_swat",
     "hudIcon": "#hud_obit_crate",
     "image_e90": "#ui_icon_obit_swatbuddy",
-    "image_1048": "#hash_1bf75a168393741d",
+    "image_1048": "#ui_icon_scorestreaks_striketeam_hud",
     "bounceImpactSounds": "#smoke_bounce"
 }

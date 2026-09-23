@@ -152,7 +152,7 @@ function private function_e75e796()
     self.health = self.maxhealth;
     self.var_490042cd = gettime();
     
-    if ( self.subarchetype === #"hash_fd7b9665529dd42" || self.subarchetype === #"hash_1520c8987a671df0" )
+    if ( self.subarchetype === #"skeleton_helmet_sword_and_shield" || self.subarchetype === #"skeleton_helmet_spear" )
     {
         namespace_81245006::initweakpoints( self, #"c_t8_zmb_skeleton_helmet_weakpoint_def" );
     }
@@ -220,7 +220,7 @@ function private function_af85a094( inflictor, attacker, damage, idflags, meanso
             {
                 namespace_81245006::function_6742b846( self, var_786d7e06.var_84ed9a13 );
                 self.var_992c3917 = 1;
-                self playsoundontag( #"hash_7241c61ae34b51a1", "j_head" );
+                self playsoundontag( #"zmb_spartoi_helmet_hit", "j_head" );
             }
             
             if ( boneindex == 0 && isdefined( var_786d7e06.var_84ed9a13.hittags ) && var_786d7e06.var_84ed9a13.hittags.size > 0 )
@@ -288,8 +288,8 @@ function private function_c9f197d2( var_4c3c217a = 1 )
     self.fake_death = 1;
     self.var_7b0667d9 = 1;
     self.var_b4bc9e1f = 1;
-    self val::set( #"hash_65edbe063d05f17b", "takedamage", 0 );
-    self val::set( #"hash_65edbe063d05f17b", "ignoreall", 1 );
+    self val::set( #"skeleton_fake_death", "takedamage", 0 );
+    self val::set( #"skeleton_fake_death", "ignoreall", 1 );
     self.canbetargetedbyturnedzombies = 0;
     self.b_ignore_cleanup = 1;
     self.ignore_nuke = 1;
@@ -308,7 +308,7 @@ function private function_c9f197d2( var_4c3c217a = 1 )
         
         if ( waitresult._notify == #"timeout" )
         {
-            self val::reset( #"hash_65edbe063d05f17b", "takedamage" );
+            self val::reset( #"skeleton_fake_death", "takedamage" );
             self kill();
         }
         
@@ -337,8 +337,8 @@ function private function_c9f197d2( var_4c3c217a = 1 )
         self.fake_death = 0;
         self.var_7b0667d9 = undefined;
         self.var_b4bc9e1f = undefined;
-        self val::reset( #"hash_65edbe063d05f17b", "takedamage" );
-        self val::reset( #"hash_65edbe063d05f17b", "ignoreall" );
+        self val::reset( #"skeleton_fake_death", "takedamage" );
+        self val::reset( #"skeleton_fake_death", "ignoreall" );
         self.canbetargetedbyturnedzombies = 1;
         self.var_6d23c054 = 1;
         self.b_ignore_cleanup = undefined;
@@ -361,7 +361,7 @@ function private function_42a1dabd()
     
     self endon( #"death" );
     var_67f0b3a6 = #"aib_vign_cust_zm_red_spart_swrd_dth_f_00";
-    wait_time = self ai::function_9139c839().var_fc268a04;
+    wait_time = self ai::function_9139c839().fakedeathlooptime;
     self ghost();
     self notsolid();
     var_ee3cfcfe = { #origin:self.origin, #angles:self.angles };
@@ -393,7 +393,7 @@ function private function_42a1dabd()
         var_ee3cfcfe scene::stop( var_67f0b3a6 );
         var_cee6fc30 = #"ai_t8_zm_red_spar_swrd_rebuild_01";
         
-        if ( self.subarchetype == #"skeleton_spear" || self.subarchetype == #"hash_1520c8987a671df0" )
+        if ( self.subarchetype == #"skeleton_spear" || self.subarchetype == #"skeleton_helmet_spear" )
         {
             var_cee6fc30 = #"ai_t8_zm_red_spar_spear_rebuild_01";
         }
@@ -411,15 +411,15 @@ function private function_42a1dabd()
         var_708e5e40.angles = ( var_ee3cfcfe.angles[ 0 ], var_ee3cfcfe.angles[ 1 ] + 90, var_ee3cfcfe.angles[ 2 ] );
         var_704f0f40 = #"p8_fxanim_zm_red_spartoi_rise_no_helm_bundle";
         
-        if ( self.subarchetype == #"hash_fd7b9665529dd42" && !( isdefined( self.var_992c3917 ) && self.var_992c3917 ) )
+        if ( self.subarchetype == #"skeleton_helmet_sword_and_shield" && !( isdefined( self.var_992c3917 ) && self.var_992c3917 ) )
         {
             var_704f0f40 = #"p8_fxanim_zm_red_spartoi_rise_bundle";
         }
-        else if ( self.subarchetype == #"hash_1520c8987a671df0" && !( isdefined( self.var_992c3917 ) && self.var_992c3917 ) )
+        else if ( self.subarchetype == #"skeleton_helmet_spear" && !( isdefined( self.var_992c3917 ) && self.var_992c3917 ) )
         {
             var_704f0f40 = #"p8_fxanim_zm_red_spartoi_rise_spear_bundle";
         }
-        else if ( self.subarchetype == #"hash_1520c8987a671df0" || self.subarchetype == #"skeleton_spear" )
+        else if ( self.subarchetype == #"skeleton_helmet_spear" || self.subarchetype == #"skeleton_spear" )
         {
             var_704f0f40 = #"p8_fxanim_zm_red_spartoi_rise_spear_no_helm_bundle";
         }
@@ -731,10 +731,10 @@ function function_946c1972( eventstruct )
             case #"skeleton_spawn":
                 zm_devgui::spawn_archetype( "<dev string:x2e9>" );
                 break;
-            case #"hash_12e2063dc669bbe0":
+            case #"skeleton_spawn_spear":
                 zm_devgui::spawn_archetype( "<dev string:x303>" );
                 break;
-            case #"hash_65bce5ef69a7ff3e":
+            case #"skeleton_spawn_helmet":
                 zm_devgui::spawn_archetype( "<dev string:x323>" );
                 break;
             case #"hash_57892c7b7a106128":
@@ -743,7 +743,7 @@ function function_946c1972( eventstruct )
             case #"hash_3889ece40febdc1e":
                 function_2d69eef6( "<dev string:x36b>" );
                 break;
-            case #"hash_1d61c627e61ca434":
+            case #"skeleton_speed_run":
                 function_2d69eef6( "<dev string:x372>" );
                 break;
             case #"hash_2a2ceb9249805ca7":

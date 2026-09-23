@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_salty_shaker",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_saltshaker",
     "name": "charm_salty_shaker",
-    "displayname": "localized17#hash_287050938b1b305f",
+    "displayname": "localized17#menu/charm_salty_shaker",
     "icon": "ui_icon_weapon_charms_saltshaker",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_saltshaker"

@@ -16,9 +16,9 @@ function preload()
     level._effect[ #"hash_2717a5ed66a93a2d" ] = #"hash_483b6baf03385a7d";
     clientfield::register( "scriptmover", "" + #"hash_10906b9ce905bda8", 24000, 3, "int", &function_80d2bf71, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_5dd642a0bd6e6cb9", 24000, 2, "int", &function_aae8819, 0, 0 );
-    level._effect[ #"hash_2aea4060746fe17a" ] = #"hash_45c853fb6ff73c34";
-    level._effect[ #"hash_2aea3f60746fdfc7" ] = #"hash_3b65f2e4019b78eb";
-    level._effect[ #"hash_2aea3e60746fde14" ] = #"hash_8c5d404ef012ce";
+    level._effect[ #"vessel_stage_1" ] = #"hash_45c853fb6ff73c34";
+    level._effect[ #"vessel_stage_2" ] = #"hash_3b65f2e4019b78eb";
+    level._effect[ #"vessel_stage_3" ] = #"hash_8c5d404ef012ce";
     clientfield::register( "scriptmover", "" + #"hash_1b72c208f2964e24", 24000, 3, "int", &function_3a0ab08b, 0, 0 );
 }
 
@@ -80,8 +80,8 @@ function function_aae8819( localclientnum, oldval, newval, bnewent, binitialsnap
         
         if ( !isdefined( self.sfx ) )
         {
-            self playsound( 0, #"hash_7867b5508ce25848" );
-            self.sfx = self playloopsound( #"hash_2c5ad3d4cdc507c" );
+            self playsound( 0, #"zmb_wisp_appear" );
+            self.sfx = self playloopsound( #"zmb_wisp_close_lp" );
         }
         
         return;
@@ -93,8 +93,8 @@ function function_aae8819( localclientnum, oldval, newval, bnewent, binitialsnap
         
         if ( !isdefined( self.sfx ) )
         {
-            self playsound( 0, #"hash_7867b5508ce25848" );
-            self.sfx = self playloopsound( #"hash_2c5ad3d4cdc507c" );
+            self playsound( 0, #"zmb_wisp_appear" );
+            self.sfx = self playloopsound( #"zmb_wisp_close_lp" );
         }
         
         return;
@@ -102,7 +102,7 @@ function function_aae8819( localclientnum, oldval, newval, bnewent, binitialsnap
     
     if ( isdefined( self.sfx ) )
     {
-        self playsound( 0, #"hash_6e263590089ef88e" );
+        self playsound( 0, #"zmb_wisp_disappear" );
         self stoploopsound( self.sfx );
         self.sfx = undefined;
     }
@@ -116,7 +116,7 @@ function function_3a0ab08b( localclientnum, oldval, newval, bnewent, binitialsna
 {
     str_tag = "tag_origin";
     
-    if ( self.model === #"hash_32baa51d012e13b9" )
+    if ( self.model === #"p8_fxanim_zm_orange_pablo_lift" )
     {
         str_tag = "tag_item_5";
     }
@@ -130,8 +130,8 @@ function function_3a0ab08b( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval == 1 )
     {
         self util::waittill_dobj( localclientnum );
-        self.stage_fx = util::playfxontag( localclientnum, level._effect[ #"hash_2aea4060746fe17a" ], self, str_tag );
-        self.var_3177d514 = self playloopsound( #"hash_218e114cfa2b9a4" );
+        self.stage_fx = util::playfxontag( localclientnum, level._effect[ #"vessel_stage_1" ], self, str_tag );
+        self.var_3177d514 = self playloopsound( #"zmb_vessel_stage_1" );
         return;
     }
     
@@ -142,8 +142,8 @@ function function_3a0ab08b( localclientnum, oldval, newval, bnewent, binitialsna
             stopfx( localclientnum, self.stage_fx );
         }
         
-        self.stage_fx = util::playfxontag( localclientnum, level._effect[ #"hash_2aea3f60746fdfc7" ], self, str_tag );
-        self.var_3177d514 = self playloopsound( #"hash_218e414cfa2bebd" );
+        self.stage_fx = util::playfxontag( localclientnum, level._effect[ #"vessel_stage_2" ], self, str_tag );
+        self.var_3177d514 = self playloopsound( #"zmb_vessel_stage_2" );
         return;
     }
     
@@ -154,8 +154,8 @@ function function_3a0ab08b( localclientnum, oldval, newval, bnewent, binitialsna
             stopfx( localclientnum, self.stage_fx );
         }
         
-        self.stage_fx = util::playfxontag( localclientnum, level._effect[ #"hash_2aea3e60746fde14" ], self, str_tag );
-        self.var_3177d514 = self playloopsound( #"hash_218e314cfa2bd0a" );
+        self.stage_fx = util::playfxontag( localclientnum, level._effect[ #"vessel_stage_3" ], self, str_tag );
+        self.var_3177d514 = self playloopsound( #"zmb_vessel_stage_3" );
         return;
     }
     

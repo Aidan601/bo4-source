@@ -1,6 +1,6 @@
 {
-    "name": "#hash_411576086ab03c87",
-    "model": "#hash_4bb073007ed9145d",
+    "name": "#destructible_veh_t8_vintage_gaz66_snow_covered",
+    "model": "#veh_t8_vintage_gaz66_snow_covered_dest",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [

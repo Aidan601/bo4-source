@@ -17,15 +17,15 @@ version 35 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -145,7 +145,7 @@ version 35 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -187,7 +187,7 @@ version 35 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 6 size 0x108
@@ -216,14 +216,14 @@ version 35 {
     };
 
     // idx 1 members 135
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -265,7 +265,7 @@ version 35 {
         pistol_standard_t8, // 0x2d,
         null_offhand_secondary, // 0x2e,
         gadget_health_regen, // 0x2f,
-        hash_31be8125c7d0f273, // 0x30,
+        null_offhand_ultimate, // 0x30,
         drone_squadron, // 0x31,
         sniper_damagesemi_t8, // 0x32,
         null_offhand_primary, // 0x33,
@@ -345,7 +345,7 @@ version 35 {
         hash_7932008294f0d876, // 0x7d,
         smg_handling_t8, // 0x7e,
         shotgun_fullauto_t8, // 0x7f,
-        hash_7ab3f9a730359659, // 0x80,
+        spawn_beacon_held, // 0x80,
         tr_flechette_t8, // 0x81,
         melee_secretsanta_t8, // 0x82,
         gadget_icepick, // 0x83,
@@ -439,7 +439,7 @@ version 35 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -489,26 +489,26 @@ version 35 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -516,7 +516,7 @@ version 35 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -531,11 +531,11 @@ version 35 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -554,9 +554,9 @@ version 35 {
 
     // idx 0 members 11 size 0xf80
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x140
-    string(40) hash_3ddb4b48b795bd91;
+    string(40) full_gamertag;
     // offset 0x818, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0xb30, size 0x8
@@ -568,7 +568,7 @@ version 35 {
     // offset 0xb48, size 0x3b0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xef8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xf38, size 0x8
     byte tier_boost;
     // offset 0xf40, size 0x3b
@@ -597,15 +597,15 @@ version 34 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -725,7 +725,7 @@ version 34 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -767,7 +767,7 @@ version 34 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 6 size 0x108
@@ -796,14 +796,14 @@ version 34 {
     };
 
     // idx 1 members 133
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -844,7 +844,7 @@ version 34 {
         pistol_standard_t8, // 0x2c,
         null_offhand_secondary, // 0x2d,
         gadget_health_regen, // 0x2e,
-        hash_31be8125c7d0f273, // 0x2f,
+        null_offhand_ultimate, // 0x2f,
         drone_squadron, // 0x30,
         sniper_damagesemi_t8, // 0x31,
         null_offhand_primary, // 0x32,
@@ -923,7 +923,7 @@ version 34 {
         hash_7932008294f0d876, // 0x7b,
         smg_handling_t8, // 0x7c,
         shotgun_fullauto_t8, // 0x7d,
-        hash_7ab3f9a730359659, // 0x7e,
+        spawn_beacon_held, // 0x7e,
         tr_flechette_t8, // 0x7f,
         melee_secretsanta_t8, // 0x80,
         gadget_icepick, // 0x81,
@@ -1015,7 +1015,7 @@ version 34 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -1065,26 +1065,26 @@ version 34 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -1092,7 +1092,7 @@ version 34 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -1107,11 +1107,11 @@ version 34 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -1130,9 +1130,9 @@ version 34 {
 
     // idx 0 members 11 size 0xf60
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x140
-    string(40) hash_3ddb4b48b795bd91;
+    string(40) full_gamertag;
     // offset 0x818, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0xb30, size 0x8
@@ -1144,7 +1144,7 @@ version 34 {
     // offset 0xb48, size 0x390
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xed8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xf18, size 0x8
     byte tier_boost;
     // offset 0xf20, size 0x39
@@ -1173,15 +1173,15 @@ version 33 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -1301,7 +1301,7 @@ version 33 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -1343,7 +1343,7 @@ version 33 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 6 size 0x108
@@ -1372,14 +1372,14 @@ version 33 {
     };
 
     // idx 1 members 132
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -1420,7 +1420,7 @@ version 33 {
         pistol_standard_t8, // 0x2c,
         null_offhand_secondary, // 0x2d,
         gadget_health_regen, // 0x2e,
-        hash_31be8125c7d0f273, // 0x2f,
+        null_offhand_ultimate, // 0x2f,
         drone_squadron, // 0x30,
         sniper_damagesemi_t8, // 0x31,
         null_offhand_primary, // 0x32,
@@ -1498,7 +1498,7 @@ version 33 {
         hash_7932008294f0d876, // 0x7a,
         smg_handling_t8, // 0x7b,
         shotgun_fullauto_t8, // 0x7c,
-        hash_7ab3f9a730359659, // 0x7d,
+        spawn_beacon_held, // 0x7d,
         tr_flechette_t8, // 0x7e,
         melee_secretsanta_t8, // 0x7f,
         gadget_icepick, // 0x80,
@@ -1589,7 +1589,7 @@ version 33 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -1639,26 +1639,26 @@ version 33 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -1666,7 +1666,7 @@ version 33 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -1681,11 +1681,11 @@ version 33 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -1704,9 +1704,9 @@ version 33 {
 
     // idx 0 members 10 size 0xf48
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x140
-    string(40) hash_3ddb4b48b795bd91;
+    string(40) full_gamertag;
     // offset 0x818, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0xb30, size 0x8
@@ -1718,7 +1718,7 @@ version 33 {
     // offset 0xb48, size 0x380
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xec8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xf08, size 0x8
     byte tier_boost;
     // offset 0xf10, size 0x38
@@ -1745,15 +1745,15 @@ version 32 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -1873,7 +1873,7 @@ version 32 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -1915,7 +1915,7 @@ version 32 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 6 size 0x108
@@ -1944,14 +1944,14 @@ version 32 {
     };
 
     // idx 1 members 130
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -1990,7 +1990,7 @@ version 32 {
         pistol_standard_t8, // 0x2a,
         null_offhand_secondary, // 0x2b,
         gadget_health_regen, // 0x2c,
-        hash_31be8125c7d0f273, // 0x2d,
+        null_offhand_ultimate, // 0x2d,
         drone_squadron, // 0x2e,
         sniper_damagesemi_t8, // 0x2f,
         null_offhand_primary, // 0x30,
@@ -2068,7 +2068,7 @@ version 32 {
         hash_7932008294f0d876, // 0x78,
         smg_handling_t8, // 0x79,
         shotgun_fullauto_t8, // 0x7a,
-        hash_7ab3f9a730359659, // 0x7b,
+        spawn_beacon_held, // 0x7b,
         tr_flechette_t8, // 0x7c,
         melee_secretsanta_t8, // 0x7d,
         gadget_icepick, // 0x7e,
@@ -2157,7 +2157,7 @@ version 32 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -2207,26 +2207,26 @@ version 32 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -2234,7 +2234,7 @@ version 32 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -2249,11 +2249,11 @@ version 32 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -2272,9 +2272,9 @@ version 32 {
 
     // idx 0 members 11 size 0xf28
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x140
-    string(40) hash_3ddb4b48b795bd91;
+    string(40) full_gamertag;
     // offset 0x818, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0xb30, size 0x8
@@ -2286,7 +2286,7 @@ version 32 {
     // offset 0xb48, size 0x360
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xea8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xee8, size 0x8
     byte tier_boost;
     // offset 0xef0, size 0x36
@@ -2315,15 +2315,15 @@ version 31 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -2443,7 +2443,7 @@ version 31 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -2485,7 +2485,7 @@ version 31 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 6 size 0x108
@@ -2514,14 +2514,14 @@ version 31 {
     };
 
     // idx 1 members 130
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -2560,7 +2560,7 @@ version 31 {
         pistol_standard_t8, // 0x2a,
         null_offhand_secondary, // 0x2b,
         gadget_health_regen, // 0x2c,
-        hash_31be8125c7d0f273, // 0x2d,
+        null_offhand_ultimate, // 0x2d,
         drone_squadron, // 0x2e,
         sniper_damagesemi_t8, // 0x2f,
         null_offhand_primary, // 0x30,
@@ -2638,7 +2638,7 @@ version 31 {
         hash_7932008294f0d876, // 0x78,
         smg_handling_t8, // 0x79,
         shotgun_fullauto_t8, // 0x7a,
-        hash_7ab3f9a730359659, // 0x7b,
+        spawn_beacon_held, // 0x7b,
         tr_flechette_t8, // 0x7c,
         melee_secretsanta_t8, // 0x7d,
         gadget_icepick, // 0x7e,
@@ -2727,7 +2727,7 @@ version 31 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -2777,26 +2777,26 @@ version 31 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -2804,7 +2804,7 @@ version 31 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -2819,11 +2819,11 @@ version 31 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -2842,7 +2842,7 @@ version 31 {
 
     // idx 0 members 10 size 0xde8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0x9f0, size 0x8
@@ -2854,7 +2854,7 @@ version 31 {
     // offset 0xa08, size 0x360
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xd68, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xda8, size 0x8
     byte tier_boost;
     // offset 0xdb0, size 0x36
@@ -2883,15 +2883,15 @@ version 30 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -3011,7 +3011,7 @@ version 30 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -3053,7 +3053,7 @@ version 30 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 6 size 0x108
@@ -3082,14 +3082,14 @@ version 30 {
     };
 
     // idx 1 members 129
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -3128,7 +3128,7 @@ version 30 {
         pistol_standard_t8, // 0x2a,
         null_offhand_secondary, // 0x2b,
         gadget_health_regen, // 0x2c,
-        hash_31be8125c7d0f273, // 0x2d,
+        null_offhand_ultimate, // 0x2d,
         drone_squadron, // 0x2e,
         sniper_damagesemi_t8, // 0x2f,
         null_offhand_primary, // 0x30,
@@ -3205,7 +3205,7 @@ version 30 {
         hash_7932008294f0d876, // 0x77,
         smg_handling_t8, // 0x78,
         shotgun_fullauto_t8, // 0x79,
-        hash_7ab3f9a730359659, // 0x7a,
+        spawn_beacon_held, // 0x7a,
         tr_flechette_t8, // 0x7b,
         melee_secretsanta_t8, // 0x7c,
         gadget_icepick, // 0x7d,
@@ -3293,7 +3293,7 @@ version 30 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -3343,26 +3343,26 @@ version 30 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -3370,7 +3370,7 @@ version 30 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -3385,11 +3385,11 @@ version 30 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -3408,7 +3408,7 @@ version 30 {
 
     // idx 0 members 10 size 0xdd8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0x9f0, size 0x8
@@ -3420,7 +3420,7 @@ version 30 {
     // offset 0xa08, size 0x350
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xd58, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xd98, size 0x8
     byte tier_boost;
     // offset 0xda0, size 0x35
@@ -3449,15 +3449,15 @@ version 29 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -3577,7 +3577,7 @@ version 29 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -3619,7 +3619,7 @@ version 29 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 6 size 0x108
@@ -3648,14 +3648,14 @@ version 29 {
     };
 
     // idx 1 members 129
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -3694,7 +3694,7 @@ version 29 {
         pistol_standard_t8, // 0x2a,
         null_offhand_secondary, // 0x2b,
         gadget_health_regen, // 0x2c,
-        hash_31be8125c7d0f273, // 0x2d,
+        null_offhand_ultimate, // 0x2d,
         drone_squadron, // 0x2e,
         sniper_damagesemi_t8, // 0x2f,
         null_offhand_primary, // 0x30,
@@ -3771,7 +3771,7 @@ version 29 {
         hash_7932008294f0d876, // 0x77,
         smg_handling_t8, // 0x78,
         shotgun_fullauto_t8, // 0x79,
-        hash_7ab3f9a730359659, // 0x7a,
+        spawn_beacon_held, // 0x7a,
         tr_flechette_t8, // 0x7b,
         melee_secretsanta_t8, // 0x7c,
         gadget_icepick, // 0x7d,
@@ -3859,7 +3859,7 @@ version 29 {
     };
 
     // idx 4 members 47
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -3910,26 +3910,26 @@ version 29 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -3937,7 +3937,7 @@ version 29 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -3952,11 +3952,11 @@ version 29 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -3975,7 +3975,7 @@ version 29 {
 
     // idx 0 members 10 size 0xdd8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0x9f0, size 0x8
@@ -3987,7 +3987,7 @@ version 29 {
     // offset 0xa08, size 0x350
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xd58, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xd98, size 0x8
     byte tier_boost;
     // offset 0xda0, size 0x35
@@ -4016,15 +4016,15 @@ version 28 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -4144,7 +4144,7 @@ version 28 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -4186,7 +4186,7 @@ version 28 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 5 size 0xe8
@@ -4213,14 +4213,14 @@ version 28 {
     };
 
     // idx 1 members 129
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -4259,7 +4259,7 @@ version 28 {
         pistol_standard_t8, // 0x2a,
         null_offhand_secondary, // 0x2b,
         gadget_health_regen, // 0x2c,
-        hash_31be8125c7d0f273, // 0x2d,
+        null_offhand_ultimate, // 0x2d,
         drone_squadron, // 0x2e,
         sniper_damagesemi_t8, // 0x2f,
         null_offhand_primary, // 0x30,
@@ -4336,7 +4336,7 @@ version 28 {
         hash_7932008294f0d876, // 0x77,
         smg_handling_t8, // 0x78,
         shotgun_fullauto_t8, // 0x79,
-        hash_7ab3f9a730359659, // 0x7a,
+        spawn_beacon_held, // 0x7a,
         tr_flechette_t8, // 0x7b,
         melee_secretsanta_t8, // 0x7c,
         gadget_icepick, // 0x7d,
@@ -4424,7 +4424,7 @@ version 28 {
     };
 
     // idx 4 members 47
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -4475,26 +4475,26 @@ version 28 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -4502,7 +4502,7 @@ version 28 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -4517,11 +4517,11 @@ version 28 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -4540,7 +4540,7 @@ version 28 {
 
     // idx 0 members 10 size 0xd78
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x2b8
     lootcontracts loot_contracts[3];
     // offset 0x990, size 0x8
@@ -4552,7 +4552,7 @@ version 28 {
     // offset 0x9a8, size 0x350
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xcf8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xd38, size 0x8
     byte tier_boost;
     // offset 0xd40, size 0x35
@@ -4581,15 +4581,15 @@ version 27 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -4709,7 +4709,7 @@ version 27 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -4751,7 +4751,7 @@ version 27 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 5 size 0xe8
@@ -4778,14 +4778,14 @@ version 27 {
     };
 
     // idx 1 members 127
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -4822,7 +4822,7 @@ version 27 {
         pistol_standard_t8, // 0x28,
         null_offhand_secondary, // 0x29,
         gadget_health_regen, // 0x2a,
-        hash_31be8125c7d0f273, // 0x2b,
+        null_offhand_ultimate, // 0x2b,
         drone_squadron, // 0x2c,
         sniper_damagesemi_t8, // 0x2d,
         null_offhand_primary, // 0x2e,
@@ -4899,7 +4899,7 @@ version 27 {
         hash_7932008294f0d876, // 0x75,
         smg_handling_t8, // 0x76,
         shotgun_fullauto_t8, // 0x77,
-        hash_7ab3f9a730359659, // 0x78,
+        spawn_beacon_held, // 0x78,
         tr_flechette_t8, // 0x79,
         melee_secretsanta_t8, // 0x7a,
         gadget_icepick, // 0x7b,
@@ -4985,7 +4985,7 @@ version 27 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -5035,26 +5035,26 @@ version 27 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -5062,7 +5062,7 @@ version 27 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -5077,11 +5077,11 @@ version 27 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -5100,7 +5100,7 @@ version 27 {
 
     // idx 0 members 10 size 0xd58
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x2b8
     lootcontracts loot_contracts[3];
     // offset 0x990, size 0x8
@@ -5112,7 +5112,7 @@ version 27 {
     // offset 0x9a8, size 0x330
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xcd8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xd18, size 0x8
     byte tier_boost;
     // offset 0xd20, size 0x33
@@ -5141,15 +5141,15 @@ version 26 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -5269,7 +5269,7 @@ version 26 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -5311,7 +5311,7 @@ version 26 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 4 size 0xc8
@@ -5336,14 +5336,14 @@ version 26 {
     };
 
     // idx 1 members 127
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -5380,7 +5380,7 @@ version 26 {
         pistol_standard_t8, // 0x28,
         null_offhand_secondary, // 0x29,
         gadget_health_regen, // 0x2a,
-        hash_31be8125c7d0f273, // 0x2b,
+        null_offhand_ultimate, // 0x2b,
         drone_squadron, // 0x2c,
         sniper_damagesemi_t8, // 0x2d,
         null_offhand_primary, // 0x2e,
@@ -5457,7 +5457,7 @@ version 26 {
         hash_7932008294f0d876, // 0x75,
         smg_handling_t8, // 0x76,
         shotgun_fullauto_t8, // 0x77,
-        hash_7ab3f9a730359659, // 0x78,
+        spawn_beacon_held, // 0x78,
         tr_flechette_t8, // 0x79,
         melee_secretsanta_t8, // 0x7a,
         gadget_icepick, // 0x7b,
@@ -5543,7 +5543,7 @@ version 26 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -5593,26 +5593,26 @@ version 26 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -5620,7 +5620,7 @@ version 26 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -5635,11 +5635,11 @@ version 26 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -5658,7 +5658,7 @@ version 26 {
 
     // idx 0 members 10 size 0xcf8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x258
     lootcontracts loot_contracts[3];
     // offset 0x930, size 0x8
@@ -5670,7 +5670,7 @@ version 26 {
     // offset 0x948, size 0x330
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xc78, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xcb8, size 0x8
     byte tier_boost;
     // offset 0xcc0, size 0x33
@@ -5699,15 +5699,15 @@ version 25 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -5827,7 +5827,7 @@ version 25 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -5869,7 +5869,7 @@ version 25 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 4 size 0xc8
@@ -5894,14 +5894,14 @@ version 25 {
     };
 
     // idx 1 members 127
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -5938,7 +5938,7 @@ version 25 {
         pistol_standard_t8, // 0x28,
         null_offhand_secondary, // 0x29,
         gadget_health_regen, // 0x2a,
-        hash_31be8125c7d0f273, // 0x2b,
+        null_offhand_ultimate, // 0x2b,
         drone_squadron, // 0x2c,
         sniper_damagesemi_t8, // 0x2d,
         null_offhand_primary, // 0x2e,
@@ -6015,7 +6015,7 @@ version 25 {
         hash_7932008294f0d876, // 0x75,
         smg_handling_t8, // 0x76,
         shotgun_fullauto_t8, // 0x77,
-        hash_7ab3f9a730359659, // 0x78,
+        spawn_beacon_held, // 0x78,
         tr_flechette_t8, // 0x79,
         melee_secretsanta_t8, // 0x7a,
         gadget_icepick, // 0x7b,
@@ -6101,7 +6101,7 @@ version 25 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -6151,26 +6151,26 @@ version 25 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -6178,7 +6178,7 @@ version 25 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -6193,11 +6193,11 @@ version 25 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -6216,7 +6216,7 @@ version 25 {
 
     // idx 0 members 8 size 0xcc0
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x258
     lootcontracts loot_contracts[3];
     // offset 0x930, size 0x8
@@ -6228,7 +6228,7 @@ version 25 {
     // offset 0x948, size 0x330
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xc78, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xcb8, size 0x8
     byte tier_boost;
 }
@@ -6253,15 +6253,15 @@ version 24 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -6381,7 +6381,7 @@ version 24 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -6423,7 +6423,7 @@ version 24 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 4 size 0xc8
@@ -6448,14 +6448,14 @@ version 24 {
     };
 
     // idx 1 members 126
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -6491,7 +6491,7 @@ version 24 {
         pistol_standard_t8, // 0x27,
         null_offhand_secondary, // 0x28,
         gadget_health_regen, // 0x29,
-        hash_31be8125c7d0f273, // 0x2a,
+        null_offhand_ultimate, // 0x2a,
         drone_squadron, // 0x2b,
         sniper_damagesemi_t8, // 0x2c,
         null_offhand_primary, // 0x2d,
@@ -6568,7 +6568,7 @@ version 24 {
         hash_7932008294f0d876, // 0x74,
         smg_handling_t8, // 0x75,
         shotgun_fullauto_t8, // 0x76,
-        hash_7ab3f9a730359659, // 0x77,
+        spawn_beacon_held, // 0x77,
         tr_flechette_t8, // 0x78,
         melee_secretsanta_t8, // 0x79,
         gadget_icepick, // 0x7a,
@@ -6654,7 +6654,7 @@ version 24 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -6704,26 +6704,26 @@ version 24 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -6731,7 +6731,7 @@ version 24 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -6746,11 +6746,11 @@ version 24 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -6769,7 +6769,7 @@ version 24 {
 
     // idx 0 members 8 size 0xcc0
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x258
     lootcontracts loot_contracts[3];
     // offset 0x930, size 0x8
@@ -6781,7 +6781,7 @@ version 24 {
     // offset 0x948, size 0x330
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xc78, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xcb8, size 0x8
     byte tier_boost;
 }
@@ -6806,15 +6806,15 @@ version 23 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -6934,7 +6934,7 @@ version 23 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -6976,7 +6976,7 @@ version 23 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 4 size 0xc8
@@ -7001,14 +7001,14 @@ version 23 {
     };
 
     // idx 1 members 121
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -7043,7 +7043,7 @@ version 23 {
         pistol_standard_t8, // 0x26,
         null_offhand_secondary, // 0x27,
         gadget_health_regen, // 0x28,
-        hash_31be8125c7d0f273, // 0x29,
+        null_offhand_ultimate, // 0x29,
         drone_squadron, // 0x2a,
         null_offhand_primary, // 0x2b,
         pistol_revolver_t8, // 0x2c,
@@ -7117,7 +7117,7 @@ version 23 {
         hash_7932008294f0d876, // 0x70,
         smg_handling_t8, // 0x71,
         shotgun_fullauto_t8, // 0x72,
-        hash_7ab3f9a730359659, // 0x73,
+        spawn_beacon_held, // 0x73,
         tr_flechette_t8, // 0x74,
         melee_secretsanta_t8, // 0x75,
         gadget_icepick, // 0x76,
@@ -7197,7 +7197,7 @@ version 23 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -7247,26 +7247,26 @@ version 23 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -7274,7 +7274,7 @@ version 23 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -7289,11 +7289,11 @@ version 23 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -7312,7 +7312,7 @@ version 23 {
 
     // idx 0 members 8 size 0xc70
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x258
     lootcontracts loot_contracts[3];
     // offset 0x930, size 0x8
@@ -7324,7 +7324,7 @@ version 23 {
     // offset 0x948, size 0x2e0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xc28, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xc68, size 0x8
     byte tier_boost;
 }
@@ -7349,15 +7349,15 @@ version 22 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -7477,7 +7477,7 @@ version 22 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -7519,7 +7519,7 @@ version 22 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 4 size 0xc8
@@ -7544,14 +7544,14 @@ version 22 {
     };
 
     // idx 1 members 120
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -7585,7 +7585,7 @@ version 22 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -7659,7 +7659,7 @@ version 22 {
         hash_7932008294f0d876, // 0x6f,
         smg_handling_t8, // 0x70,
         shotgun_fullauto_t8, // 0x71,
-        hash_7ab3f9a730359659, // 0x72,
+        spawn_beacon_held, // 0x72,
         tr_flechette_t8, // 0x73,
         melee_secretsanta_t8, // 0x74,
         gadget_icepick, // 0x75,
@@ -7739,7 +7739,7 @@ version 22 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -7789,26 +7789,26 @@ version 22 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -7816,7 +7816,7 @@ version 22 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -7831,11 +7831,11 @@ version 22 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -7854,7 +7854,7 @@ version 22 {
 
     // idx 0 members 8 size 0xc70
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x258
     lootcontracts loot_contracts[3];
     // offset 0x930, size 0x8
@@ -7866,7 +7866,7 @@ version 22 {
     // offset 0x948, size 0x2e0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xc28, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xc68, size 0x8
     byte tier_boost;
 }
@@ -7891,15 +7891,15 @@ version 21 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -8019,7 +8019,7 @@ version 21 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -8061,13 +8061,13 @@ version 21 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 5 size 0x108
     struct lootcontracts {
         // offset 0x0, size 0x40
-        xhash hash_6bcde715574b1e8;
+        xhash achievementhash;
         // offset 0x40, size 0x8
         uint:3 contractgamemode;
         // offset 0x48, size 0x40
@@ -8088,14 +8088,14 @@ version 21 {
     };
 
     // idx 1 members 120
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -8129,7 +8129,7 @@ version 21 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -8203,7 +8203,7 @@ version 21 {
         hash_7932008294f0d876, // 0x6f,
         smg_handling_t8, // 0x70,
         shotgun_fullauto_t8, // 0x71,
-        hash_7ab3f9a730359659, // 0x72,
+        spawn_beacon_held, // 0x72,
         tr_flechette_t8, // 0x73,
         melee_secretsanta_t8, // 0x74,
         gadget_icepick, // 0x75,
@@ -8283,7 +8283,7 @@ version 21 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -8333,26 +8333,26 @@ version 21 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -8360,7 +8360,7 @@ version 21 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -8375,11 +8375,11 @@ version 21 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -8398,7 +8398,7 @@ version 21 {
 
     // idx 0 members 8 size 0xd30
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0x9f0, size 0x8
@@ -8410,7 +8410,7 @@ version 21 {
     // offset 0xa08, size 0x2e0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xce8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xd28, size 0x8
     byte tier_boost;
 }
@@ -8435,15 +8435,15 @@ version 20 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -8563,7 +8563,7 @@ version 20 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -8605,13 +8605,13 @@ version 20 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 5 size 0x108
     struct lootcontracts {
         // offset 0x0, size 0x40
-        xhash hash_6bcde715574b1e8;
+        xhash achievementhash;
         // offset 0x40, size 0x8
         uint:3 contractgamemode;
         // offset 0x48, size 0x40
@@ -8632,14 +8632,14 @@ version 20 {
     };
 
     // idx 1 members 119
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -8673,7 +8673,7 @@ version 20 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -8746,7 +8746,7 @@ version 20 {
         hash_7932008294f0d876, // 0x6e,
         smg_handling_t8, // 0x6f,
         shotgun_fullauto_t8, // 0x70,
-        hash_7ab3f9a730359659, // 0x71,
+        spawn_beacon_held, // 0x71,
         tr_flechette_t8, // 0x72,
         melee_secretsanta_t8, // 0x73,
         gadget_icepick, // 0x74,
@@ -8825,7 +8825,7 @@ version 20 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -8875,26 +8875,26 @@ version 20 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -8902,7 +8902,7 @@ version 20 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -8917,11 +8917,11 @@ version 20 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -8940,7 +8940,7 @@ version 20 {
 
     // idx 0 members 8 size 0xd20
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0x9f0, size 0x8
@@ -8952,7 +8952,7 @@ version 20 {
     // offset 0xa08, size 0x2d0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xcd8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xd18, size 0x8
     byte tier_boost;
 }
@@ -8977,15 +8977,15 @@ version 19 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -9105,7 +9105,7 @@ version 19 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -9147,13 +9147,13 @@ version 19 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 5 size 0x108
     struct lootcontracts {
         // offset 0x0, size 0x40
-        xhash hash_6bcde715574b1e8;
+        xhash achievementhash;
         // offset 0x40, size 0x8
         uint:3 contractgamemode;
         // offset 0x48, size 0x40
@@ -9174,14 +9174,14 @@ version 19 {
     };
 
     // idx 1 members 118
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -9215,7 +9215,7 @@ version 19 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -9287,7 +9287,7 @@ version 19 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -9365,7 +9365,7 @@ version 19 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -9415,26 +9415,26 @@ version 19 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -9442,7 +9442,7 @@ version 19 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -9457,11 +9457,11 @@ version 19 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -9480,7 +9480,7 @@ version 19 {
 
     // idx 0 members 8 size 0xd10
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0x9f0, size 0x8
@@ -9492,7 +9492,7 @@ version 19 {
     // offset 0xa08, size 0x2c0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xcc8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xd08, size 0x8
     byte tier_boost;
 }
@@ -9517,15 +9517,15 @@ version 18 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -9645,7 +9645,7 @@ version 18 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -9687,13 +9687,13 @@ version 18 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 5 size 0x108
     struct lootcontracts {
         // offset 0x0, size 0x40
-        xhash hash_6bcde715574b1e8;
+        xhash achievementhash;
         // offset 0x40, size 0x8
         uint:3 contractgamemode;
         // offset 0x48, size 0x40
@@ -9714,14 +9714,14 @@ version 18 {
     };
 
     // idx 1 members 118
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -9755,7 +9755,7 @@ version 18 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -9827,7 +9827,7 @@ version 18 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -9905,7 +9905,7 @@ version 18 {
     };
 
     // idx 4 members 46
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -9955,26 +9955,26 @@ version 18 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -9982,7 +9982,7 @@ version 18 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -9997,11 +9997,11 @@ version 18 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -10020,7 +10020,7 @@ version 18 {
 
     // idx 0 members 6 size 0xd00
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0x9f0, size 0x8
@@ -10028,7 +10028,7 @@ version 18 {
     // offset 0x9f8, size 0x2c0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xcb8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xcf8, size 0x8
     byte tier_boost;
 }
@@ -10053,15 +10053,15 @@ version 17 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -10181,7 +10181,7 @@ version 17 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -10223,13 +10223,13 @@ version 17 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 5 size 0x108
     struct lootcontracts {
         // offset 0x0, size 0x40
-        xhash hash_6bcde715574b1e8;
+        xhash achievementhash;
         // offset 0x40, size 0x8
         uint:3 contractgamemode;
         // offset 0x48, size 0x40
@@ -10250,14 +10250,14 @@ version 17 {
     };
 
     // idx 1 members 118
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -10291,7 +10291,7 @@ version 17 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -10363,7 +10363,7 @@ version 17 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -10441,7 +10441,7 @@ version 17 {
     };
 
     // idx 4 members 45
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -10490,26 +10490,26 @@ version 17 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -10517,7 +10517,7 @@ version 17 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -10532,11 +10532,11 @@ version 17 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -10555,7 +10555,7 @@ version 17 {
 
     // idx 0 members 6 size 0xd00
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x318
     lootcontracts loot_contracts[3];
     // offset 0x9f0, size 0x8
@@ -10563,7 +10563,7 @@ version 17 {
     // offset 0x9f8, size 0x2c0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xcb8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xcf8, size 0x8
     byte tier_boost;
 }
@@ -10588,15 +10588,15 @@ version 16 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -10716,7 +10716,7 @@ version 16 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -10758,7 +10758,7 @@ version 16 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 15 members 4 size 0xc8
@@ -10783,14 +10783,14 @@ version 16 {
     };
 
     // idx 1 members 118
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -10824,7 +10824,7 @@ version 16 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -10896,7 +10896,7 @@ version 16 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -10974,7 +10974,7 @@ version 16 {
     };
 
     // idx 4 members 45
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -11023,26 +11023,26 @@ version 16 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -11050,7 +11050,7 @@ version 16 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -11065,11 +11065,11 @@ version 16 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -11088,7 +11088,7 @@ version 16 {
 
     // idx 0 members 6 size 0xc40
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x258
     lootcontracts loot_contracts[3];
     // offset 0x930, size 0x8
@@ -11096,7 +11096,7 @@ version 16 {
     // offset 0x938, size 0x2c0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0xbf8, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0xc38, size 0x8
     byte tier_boost;
 }
@@ -11121,15 +11121,15 @@ version 15 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -11249,7 +11249,7 @@ version 15 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -11291,7 +11291,7 @@ version 15 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -11304,14 +11304,14 @@ version 15 {
     };
 
     // idx 1 members 118
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -11345,7 +11345,7 @@ version 15 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -11417,7 +11417,7 @@ version 15 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -11495,7 +11495,7 @@ version 15 {
     };
 
     // idx 4 members 45
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -11544,26 +11544,26 @@ version 15 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -11571,7 +11571,7 @@ version 15 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -11586,11 +11586,11 @@ version 15 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -11609,13 +11609,13 @@ version 15 {
 
     // idx 0 members 5 size 0x9e8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x2c0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x9a0, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9e0, size 0x8
     byte tier_boost;
 }
@@ -11640,15 +11640,15 @@ version 14 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -11768,7 +11768,7 @@ version 14 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -11810,7 +11810,7 @@ version 14 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -11823,14 +11823,14 @@ version 14 {
     };
 
     // idx 1 members 118
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -11864,7 +11864,7 @@ version 14 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -11936,7 +11936,7 @@ version 14 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -12013,7 +12013,7 @@ version 14 {
     };
 
     // idx 4 members 45
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -12062,26 +12062,26 @@ version 14 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -12089,7 +12089,7 @@ version 14 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -12104,11 +12104,11 @@ version 14 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -12127,13 +12127,13 @@ version 14 {
 
     // idx 0 members 5 size 0x9d8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x2b0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x990, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9d0, size 0x8
     byte tier_boost;
 }
@@ -12158,15 +12158,15 @@ version 13 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -12286,7 +12286,7 @@ version 13 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -12328,7 +12328,7 @@ version 13 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -12341,14 +12341,14 @@ version 13 {
     };
 
     // idx 1 members 117
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -12382,7 +12382,7 @@ version 13 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -12453,7 +12453,7 @@ version 13 {
         hash_7932008294f0d876, // 0x6c,
         smg_handling_t8, // 0x6d,
         shotgun_fullauto_t8, // 0x6e,
-        hash_7ab3f9a730359659, // 0x6f,
+        spawn_beacon_held, // 0x6f,
         tr_flechette_t8, // 0x70,
         melee_secretsanta_t8, // 0x71,
         gadget_icepick, // 0x72,
@@ -12530,7 +12530,7 @@ version 13 {
     };
 
     // idx 4 members 45
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -12579,26 +12579,26 @@ version 13 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -12606,7 +12606,7 @@ version 13 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -12621,11 +12621,11 @@ version 13 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -12644,13 +12644,13 @@ version 13 {
 
     // idx 0 members 5 size 0x9d8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x2b0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x990, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9d0, size 0x8
     byte tier_boost;
 }
@@ -12675,15 +12675,15 @@ version 12 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -12803,7 +12803,7 @@ version 12 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -12845,7 +12845,7 @@ version 12 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -12858,14 +12858,14 @@ version 12 {
     };
 
     // idx 1 members 116
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -12899,7 +12899,7 @@ version 12 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -12969,7 +12969,7 @@ version 12 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -13045,7 +13045,7 @@ version 12 {
     };
 
     // idx 4 members 45
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -13094,26 +13094,26 @@ version 12 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -13121,7 +13121,7 @@ version 12 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -13136,11 +13136,11 @@ version 12 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -13159,13 +13159,13 @@ version 12 {
 
     // idx 0 members 5 size 0x9c8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x2a0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x980, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9c0, size 0x8
     byte tier_boost;
 }
@@ -13190,15 +13190,15 @@ version 11 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -13318,7 +13318,7 @@ version 11 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -13360,7 +13360,7 @@ version 11 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -13373,14 +13373,14 @@ version 11 {
     };
 
     // idx 1 members 116
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -13414,7 +13414,7 @@ version 11 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -13484,7 +13484,7 @@ version 11 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -13560,7 +13560,7 @@ version 11 {
     };
 
     // idx 4 members 45
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -13609,26 +13609,26 @@ version 11 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -13636,7 +13636,7 @@ version 11 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -13651,18 +13651,18 @@ version 11 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 16
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
-        hash_70fe115fad3f4fa, // 0x2,
+        prt_mp_zombie_male, // 0x2,
         prt_mp_mercenary, // 0x3,
         prt_mp_technomancer, // 0x4,
         prt_mp_engineer, // 0x5,
-        hash_3ca96ae1bd7d344f, // 0x6,
+        prt_mp_zombie_female, // 0x6,
         prt_mp_outrider, // 0x7,
         prt_mp_swatpolice, // 0x8,
         prt_mp_spectre, // 0x9,
@@ -13676,13 +13676,13 @@ version 11 {
 
     // idx 0 members 5 size 0x9c8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x2a0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x980, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9c0, size 0x8
     byte tier_boost;
 }
@@ -13707,15 +13707,15 @@ version 10 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -13835,7 +13835,7 @@ version 10 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -13877,7 +13877,7 @@ version 10 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -13890,14 +13890,14 @@ version 10 {
     };
 
     // idx 1 members 116
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -13931,7 +13931,7 @@ version 10 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -14001,7 +14001,7 @@ version 10 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -14077,7 +14077,7 @@ version 10 {
     };
 
     // idx 4 members 45
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -14126,26 +14126,26 @@ version 10 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -14153,7 +14153,7 @@ version 10 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -14168,11 +14168,11 @@ version 10 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -14191,13 +14191,13 @@ version 10 {
 
     // idx 0 members 5 size 0x9c8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x2a0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x980, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9c0, size 0x8
     byte tier_boost;
 }
@@ -14222,15 +14222,15 @@ version 9 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -14350,7 +14350,7 @@ version 9 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -14392,7 +14392,7 @@ version 9 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -14405,14 +14405,14 @@ version 9 {
     };
 
     // idx 1 members 116
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -14446,7 +14446,7 @@ version 9 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -14516,7 +14516,7 @@ version 9 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -14592,7 +14592,7 @@ version 9 {
     };
 
     // idx 4 members 44
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -14640,26 +14640,26 @@ version 9 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -14667,7 +14667,7 @@ version 9 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -14682,11 +14682,11 @@ version 9 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -14705,13 +14705,13 @@ version 9 {
 
     // idx 0 members 5 size 0x9c8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x2a0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x980, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9c0, size 0x8
     byte tier_boost;
 }
@@ -14736,15 +14736,15 @@ version 8 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -14864,7 +14864,7 @@ version 8 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -14906,7 +14906,7 @@ version 8 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -14919,14 +14919,14 @@ version 8 {
     };
 
     // idx 1 members 115
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -14960,7 +14960,7 @@ version 8 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -15029,7 +15029,7 @@ version 8 {
         hash_7932008294f0d876, // 0x6a,
         smg_handling_t8, // 0x6b,
         shotgun_fullauto_t8, // 0x6c,
-        hash_7ab3f9a730359659, // 0x6d,
+        spawn_beacon_held, // 0x6d,
         tr_flechette_t8, // 0x6e,
         melee_secretsanta_t8, // 0x6f,
         gadget_icepick, // 0x70,
@@ -15105,7 +15105,7 @@ version 8 {
     };
 
     // idx 4 members 44
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -15153,26 +15153,26 @@ version 8 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -15180,7 +15180,7 @@ version 8 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -15195,11 +15195,11 @@ version 8 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -15218,13 +15218,13 @@ version 8 {
 
     // idx 0 members 5 size 0x9c8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x2a0
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x980, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9c0, size 0x8
     byte tier_boost;
 }
@@ -15249,15 +15249,15 @@ version 7 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -15377,7 +15377,7 @@ version 7 {
     };
 
     // idx 11 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -15419,7 +15419,7 @@ version 7 {
     // idx 14 members 1 size 0x10
     struct hash_1c86958671ff27fd {
         // offset 0x0, size 0x10
-        uint:16 hash_50ab8b7df567cd2a;
+        uint:16 purchasedbits;
     };
 
     // idx 0 members 5
@@ -15432,14 +15432,14 @@ version 7 {
     };
 
     // idx 1 members 111
-    enum hash_10d50fe10481423c {
-        hash_1773b576c62a506, // 0x0,
+    enum mpitems {
+        bare_hands_bounty, // 0x0,
         eq_tripwire, // 0x1,
         shock_rifle, // 0x2,
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -15470,7 +15470,7 @@ version 7 {
         pistol_standard_t8, // 0x22,
         null_offhand_secondary, // 0x23,
         gadget_health_regen, // 0x24,
-        hash_31be8125c7d0f273, // 0x25,
+        null_offhand_ultimate, // 0x25,
         drone_squadron, // 0x26,
         null_offhand_primary, // 0x27,
         pistol_revolver_t8, // 0x28,
@@ -15505,7 +15505,7 @@ version 7 {
         shotgun_pump_t8, // 0x45,
         gadget_health_boost, // 0x46,
         bare_hands, // 0x47,
-        hash_578fac7f7b2db62b, // 0x48,
+        ar_slowfire_t8, // 0x48,
         trophy_system, // 0x49,
         sniper_mini14_t8, // 0x4a,
         eq_cluster_semtex_grenade, // 0x4b,
@@ -15538,7 +15538,7 @@ version 7 {
         hash_7932008294f0d876, // 0x66,
         smg_handling_t8, // 0x67,
         shotgun_fullauto_t8, // 0x68,
-        hash_7ab3f9a730359659, // 0x69,
+        spawn_beacon_held, // 0x69,
         tr_flechette_t8, // 0x6a,
         melee_secretsanta_t8, // 0x6b,
         gadget_icepick, // 0x6c,
@@ -15565,7 +15565,7 @@ version 7 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -15612,7 +15612,7 @@ version 7 {
     };
 
     // idx 4 members 44
-    enum hash_1e2de876fb880be2 {
+    enum mpattachments {
         speedreloader, // 0x0,
         quickdraw, // 0x1,
         acog, // 0x2,
@@ -15660,26 +15660,26 @@ version 7 {
     };
 
     // idx 5 members 42
-    enum hash_6cba734728a9b70 {
+    enum mpspecialties {
         bonuscard_overkill, // 0x0,
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
-        hash_101808cdfcd390d6, // 0x7,
+        talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -15687,7 +15687,7 @@ version 7 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -15702,11 +15702,11 @@ version 7 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 6 members 14
-    enum hash_d17b4e10fa9c28c {
+    enum mpcharacters {
         prt_mp_reaper, // 0x0,
         prt_mp_buffassault, // 0x1,
         prt_mp_mercenary, // 0x2,
@@ -15725,13 +15725,13 @@ version 7 {
 
     // idx 0 members 5 size 0x9a8
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x280
     hash_1c86958671ff27fd hash_4953b2b12f1d6b1b[hash_4b8d95aacf149fb9];
     // offset 0x960, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x9a0, size 0x8
     byte tier_boost;
 }
@@ -15756,15 +15756,15 @@ version 6 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -15792,11 +15792,11 @@ version 6 {
 
     // idx 0 members 4 size 0x728
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
     // offset 0x720, size 0x8
     byte tier_boost;
 }
@@ -15821,15 +15821,15 @@ version 5 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -15857,10 +15857,10 @@ version 5 {
 
     // idx 0 members 3 size 0x720
     // offset 0x0, size 0x6d8
-    hash_6580ccf5f8a0ef6 dml;
+    region_info dml;
     // offset 0x6d8, size 0x8
     hash_54196e9e9860f0be platform;
     // offset 0x6e0, size 0x40
-    uint64 hash_4016bed15f9183f7;
+    uint64 user_session_id;
 }
 

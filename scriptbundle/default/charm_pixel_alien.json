@@ -1,6 +1,6 @@
 {
     "lootid": "#charm_pixel_alien",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_pixel_alien",
     "name": "charm_pixel_alien",
     "displayname": "localized17#hash_118fad24bee64847",

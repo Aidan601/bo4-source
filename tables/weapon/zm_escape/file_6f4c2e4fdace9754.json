@@ -61,8 +61,8 @@
     "sound90": "#hash_22642476f1f00787",
     "firesound": "#hash_55f2346a1f27ef34",
     "firesoundplayer": "#hash_6bdb0e1c4634bb71",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound800": "#hash_5ee962527afebfb1",
     "sound810": "#hash_5ee962527afebfb1",
     "tunables1": "#hash_1a4b56edd0519a27",
@@ -78,6 +78,6 @@
     "image_e90": "#t7_icon_weapon_shotgun_semiauto_kf",
     "image_1048": "#t7_icon_weapon_shotgun_semiauto_pu",
     "fireRumble": "#damage_heavy",
-    "fx_bc8": "#hash_52171f7e87d102f",
-    "fx_bd0": "#hash_43d6485ff720120b"
+    "fx_bc8": "#zm_weapons/fx8_blundersplat_muzzleflash_ug",
+    "fx_bd0": "#zm_weapons/fx8_blundersplat_muzzleflash_ug_3p"
 }

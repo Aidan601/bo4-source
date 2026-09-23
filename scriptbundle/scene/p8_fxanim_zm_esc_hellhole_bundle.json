@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_73f7ea4f2da48897",
+                            "anim": "anim#p8_fxanim_zm_esc_hellhole_unpowered_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c7639600ab0c4e3",
+                            "anim": "anim#p8_fxanim_zm_esc_hellhole_cooldown_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c4a7ec4b60bea1d",
+                            "anim": "anim#p8_fxanim_zm_esc_hellhole_close_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -92,7 +92,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2e8a793dedcc3610",
+                            "anim": "anim#p8_fxanim_zm_esc_hellhole_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -121,7 +121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6f8ae9ad75fd9649",
+                            "anim": "anim#p8_fxanim_zm_esc_hellhole_open_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -150,7 +150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5f579a2bc6e7d38c",
+                            "anim": "anim#p8_fxanim_zm_esc_hellhole_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -178,12 +178,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_290420129f24f0b4",
+            "model": "model#p8_fxanim_zm_esc_hellhole_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

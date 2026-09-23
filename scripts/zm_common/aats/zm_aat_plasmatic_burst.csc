@@ -26,7 +26,7 @@ function __init__()
         return;
     }
     
-    aat::register( "zm_aat_plasmatic_burst", #"hash_164d02d599d1fa8f", "t7_icon_zm_aat_blast_furnace" );
+    aat::register( "zm_aat_plasmatic_burst", #"zmui/zm_aat_plasmatic_burst", "t7_icon_zm_aat_blast_furnace" );
     clientfield::register( "actor", "zm_aat_plasmatic_burst" + "_explosion", 1, 1, "counter", &zm_aat_plasmatic_burst_explosion, 0, 0 );
     clientfield::register( "vehicle", "zm_aat_plasmatic_burst" + "_explosion", 1, 1, "counter", &zm_aat_plasmatic_burst_explosion, 0, 0 );
     clientfield::register( "actor", "zm_aat_plasmatic_burst" + "_burn", 1, 1, "int", &function_7abfa551, 0, 0 );
@@ -49,7 +49,7 @@ function zm_aat_plasmatic_burst_explosion( localclientnum, oldval, newval, bnewe
             str_fx_tag = "tag_origin";
         }
         
-        self playsound( localclientnum, #"hash_6990e5a39e894c04" );
+        self playsound( localclientnum, #"zmb_aat_plasmatic_explode" );
         util::playfxontag( localclientnum, level._effect[ #"zm_aat_plasmatic_burst" ], self, str_fx_tag );
     }
 }
@@ -111,7 +111,7 @@ function function_c36aebed( localclientnum, tag )
     
     if ( !isdefined( self.var_fa3f8eb7 ) )
     {
-        self.var_fa3f8eb7 = self playloopsound( #"hash_645b60f29309dc9b" );
+        self.var_fa3f8eb7 = self playloopsound( #"zmb_aat_plasmatic_burn_lp" );
     }
 }
 

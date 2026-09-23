@@ -34,8 +34,8 @@ function __init__()
     level._effect[ #"gravityspikes_trap_loop" ] = #"hash_7df2dbfda69b0792";
     level._effect[ #"gravityspikes_trap_end" ] = #"hash_70f0169b86a98ce1";
     level._effect[ #"gravityspikes_shockwave" ] = #"hash_74ea4245b0e1646d";
-    level._effect[ #"hash_2c2dcd840a548ef2" ] = #"hash_77964e1811bb9a67";
-    level._effect[ #"hash_1758af99ff212148" ] = #"hash_74f12e45b0e7611f";
+    level._effect[ #"gravityspikes_shockwave_left" ] = #"hash_77964e1811bb9a67";
+    level._effect[ #"gravityspikes_shockwave_3p" ] = #"hash_74f12e45b0e7611f";
     level._effect[ #"gravity_trap_spike_spark" ] = #"hash_34fb31ef6c57f845";
     level._effect[ #"zombie_sparky" ] = #"hash_751b9a4bf53bfb69";
     level._effect[ #"zombie_spark_light" ] = #"hash_28908b7bf0b56107";
@@ -93,7 +93,7 @@ function gravity_slam_fx( localclientnum, oldval, newval, bnewent, binitialsnap,
         }
         
         util::playfxontag( localclientnum, level._effect[ #"gravityspikes_slam" ], self, "tag_origin" );
-        self playsound( 0, #"hash_79ac4ef26925a30f" );
+        self playsound( 0, #"wpn_dg4_slam_impact" );
     }
 }
 
@@ -138,8 +138,8 @@ function gravity_trap_fx( localclientnum, oldval, newval, bnewent, binitialsnap,
         
         if ( !isdefined( self.var_cacf63a9 ) )
         {
-            self playsound( 0, #"hash_39e42a22827220d1" );
-            self.var_cacf63a9 = self playloopsound( #"hash_9c25e71ff13ac77" );
+            self playsound( 0, #"wpn_dg4_plant_start" );
+            self.var_cacf63a9 = self playloopsound( #"wpn_dg4_plant_lp" );
         }
         
         util::playfxontag( localclientnum, level._effect[ #"gravityspikes_trap_start" ], self, "tag_origin" );
@@ -164,7 +164,7 @@ function gravity_trap_fx( localclientnum, oldval, newval, bnewent, binitialsnap,
     
     if ( isdefined( self.var_cacf63a9 ) )
     {
-        self playsound( 0, #"hash_5d0917b44402f070" );
+        self playsound( 0, #"wpn_dg4_plant_end" );
         self stoploopsound( self.var_cacf63a9 );
     }
     
@@ -454,7 +454,7 @@ function gravity_shock_wave_fx( localclientnum, oldval, newval, bnewent, binitia
     
     if ( isdefined( self.var_aff8c2c0 ) )
     {
-        self playsound( localclientnum, #"hash_4dee0eab8f9ef57" );
+        self playsound( localclientnum, #"wpn_dg4_shockwave_deactivate" );
         self stoploopsound( self.var_aff8c2c0 );
         self.var_aff8c2c0 = undefined;
     }
@@ -473,17 +473,17 @@ function gravity_shock_wave_fx( localclientnum, oldval, newval, bnewent, binitia
     {
         if ( !isdefined( self.var_aff8c2c0 ) )
         {
-            self.var_aff8c2c0 = self playloopsound( #"hash_7c8577b82afb225d" );
+            self.var_aff8c2c0 = self playloopsound( #"wpn_dg4_shockwave_lp" );
         }
         
         if ( self zm_utility::function_f8796df3( localclientnum ) )
         {
             self.var_c145bf0d[ localclientnum ] = playviewmodelfx( localclientnum, level._effect[ #"gravityspikes_shockwave" ], "tag_weapon" );
-            self.var_faf5c3df[ localclientnum ] = playviewmodelfx( localclientnum, level._effect[ #"hash_2c2dcd840a548ef2" ], "tag_weapon_le" );
+            self.var_faf5c3df[ localclientnum ] = playviewmodelfx( localclientnum, level._effect[ #"gravityspikes_shockwave_left" ], "tag_weapon_le" );
         }
         else
         {
-            self.var_c145bf0d[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"hash_1758af99ff212148" ], self, "tag_weapon" );
+            self.var_c145bf0d[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"gravityspikes_shockwave_3p" ], self, "tag_weapon" );
         }
         
         a_e_players = getlocalplayers();

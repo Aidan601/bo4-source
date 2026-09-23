@@ -1,11 +1,11 @@
 {
-    "name": "#hash_2fc8a9b0bd198ebb",
+    "name": "#loot_tags_muertos_recon",
     "type": "#tag",
-    "material": "#hash_4ff2744644ebf7b7",
+    "material": "#vd/mtl_loot_ui_icon_tags_muertos_recon",
     "bundle": {
         "type": "#tag",
-        "title": "localized18#hash_4ccf78cd6dd0333a",
-        "icon": "image#hash_1e1b21d10e20e324",
+        "title": "localized18#tags/muertos_recon",
+        "icon": "image#loot_ui_icon_tags_muertos_recon",
         "isdefault": 0
     }
 }

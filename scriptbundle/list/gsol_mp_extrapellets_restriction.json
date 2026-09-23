@@ -1,0 +1,7 @@
+{
+    "name": "#gsol_mp_extrapellets_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#attachment_extrapellets_shotgun_semiauto_restriction"
+    ]
+}

@@ -1,4 +1,4 @@
-#using script_724752ab26bff81b;
+#using scripts\zm\zm_white_ww_quest_weapon;
 #using scripts\core_common\flag_shared;
 #using scripts\zm\zm_white_mee;
 #using scripts\zm\zm_white_special_rounds;
@@ -49,7 +49,7 @@
     // Size: 0x108, Type: dev
     function private function_3db5079()
     {
-        if ( !level flag::get( #"hash_40856b65dff0f6eb" ) )
+        if ( !level flag::get( #"power_room_event_complete" ) )
         {
             function_2639784();
         }

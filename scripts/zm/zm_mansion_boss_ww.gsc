@@ -82,7 +82,7 @@ function init_flags()
     level flag::init( #"hash_67757a8cb27cb8aa" );
     level flag::init( #"hash_eed1544f10c5bb3" );
     level flag::init( #"hash_5f2b9a36a2c517af" );
-    level flag::init( #"hash_25d8c88ff3f91ee5" );
+    level flag::init( #"boss_fight_all_complete" );
     level flag::init( #"hash_480ab8b0d38942cc" );
 }
 
@@ -308,10 +308,10 @@ function init_spawns()
 // Size: 0x1a4
 function function_8dec32e2()
 {
-    zm_transform::function_cfca77a7( zm_ai_catalyst::function_bbb2bab5( 1 ), #"hash_7c89b1397a38e3ad", &zm_ai_utility::function_db610082, 0, undefined, &function_724b3e30, "aib_vign_zm_zod_catalyst_corrosive_spawn_pre_split", "aib_vign_zm_zod_catalyst_corrosive_spawn_post_split" );
-    zm_transform::function_cfca77a7( zm_ai_catalyst::function_bbb2bab5( 4 ), #"hash_7c89ae397a38de94", &zm_ai_utility::function_db610082, 0, undefined, &function_724b3e30, "aib_vign_zm_zod_catalyst_water_spawn_pre_split", "aib_vign_zm_zod_catalyst_water_spawn_post_split" );
-    zm_transform::function_cfca77a7( zm_ai_catalyst::function_bbb2bab5( 3 ), #"hash_7c89af397a38e047", &zm_ai_utility::function_db610082, 0, undefined, &function_724b3e30, "aib_vign_zm_zod_catalyst_electric_spawn_pre_split", "aib_vign_zm_zod_catalyst_electric_spawn_post_split" );
-    zm_transform::function_cfca77a7( zm_ai_catalyst::function_bbb2bab5( 2 ), #"hash_7c89ac397a38db2e", &zm_ai_utility::function_db610082, 0, undefined, &function_724b3e30, "aib_vign_zm_zod_catalyst_plasma_spawn_pre_split", "aib_vign_zm_zod_catalyst_plasma_spawn_post_split" );
+    zm_transform::function_cfca77a7( zm_ai_catalyst::function_bbb2bab5( 1 ), #"boss_fight_transform1", &zm_ai_utility::function_db610082, 0, undefined, &function_724b3e30, "aib_vign_zm_zod_catalyst_corrosive_spawn_pre_split", "aib_vign_zm_zod_catalyst_corrosive_spawn_post_split" );
+    zm_transform::function_cfca77a7( zm_ai_catalyst::function_bbb2bab5( 4 ), #"boss_fight_transform2", &zm_ai_utility::function_db610082, 0, undefined, &function_724b3e30, "aib_vign_zm_zod_catalyst_water_spawn_pre_split", "aib_vign_zm_zod_catalyst_water_spawn_post_split" );
+    zm_transform::function_cfca77a7( zm_ai_catalyst::function_bbb2bab5( 3 ), #"boss_fight_transform3", &zm_ai_utility::function_db610082, 0, undefined, &function_724b3e30, "aib_vign_zm_zod_catalyst_electric_spawn_pre_split", "aib_vign_zm_zod_catalyst_electric_spawn_post_split" );
+    zm_transform::function_cfca77a7( zm_ai_catalyst::function_bbb2bab5( 2 ), #"boss_fight_transform4", &zm_ai_utility::function_db610082, 0, undefined, &function_724b3e30, "aib_vign_zm_zod_catalyst_plasma_spawn_pre_split", "aib_vign_zm_zod_catalyst_plasma_spawn_post_split" );
 }
 
 // Namespace mansion_boss_ww/zm_mansion_boss_ww
@@ -425,7 +425,7 @@ function function_f242ac9f( var_5ea5c94d )
 // Size: 0x19e
 function function_43f5567a( var_5ea5c94d, ended_early )
 {
-    level flag::set( #"hash_25d8c88ff3f91ee5" );
+    level flag::set( #"boss_fight_all_complete" );
     music::setmusicstate( "none" );
     level.musicsystemoverride = 0;
     
@@ -564,7 +564,7 @@ function boss_outro( n_stage )
 // Size: 0x84
 function function_4048d512()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     wait 1;
     level thread mansion_util::function_2057ddc1( undefined, "werewolf", "invisible", undefined, #"werewolf_invisible", 10, 1 );
 }
@@ -587,7 +587,7 @@ function function_482a7a01()
 {
     self notify( "4881ce4ca6e3dea5" );
     self endon( "4881ce4ca6e3dea5" );
-    level waittill( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level waittill( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     zm_transform::function_e95ec8df();
     zm_utility::function_9ad5aeb1( 0, 1, 0, 0 );
 }
@@ -659,7 +659,7 @@ function boss_teleport_players( var_a88dacea )
         var_45e1b44b = level.s_boss.a_s_align[ 3 ];
         var_45e1b44b thread scene::play( #"aib_t8_zm_mnsn_hallion_intro" );
         level thread function_52818528();
-        level notify( #"hash_4b195fabca6f5aaf" );
+        level notify( #"boss_intro_started" );
         util::wait_network_frame();
         var_45e1b44b.scene_ents[ #"fakeactor 1" ] thread function_8d29523e( #"boss_visible" );
         var_45e1b44b.scene_ents[ #"fakeactor 1" ] thread function_8d29523e( #"boss_invisible" );
@@ -690,7 +690,7 @@ function function_ceb48615()
 // Size: 0x184
 function function_52818528()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     a_e_players = util::get_active_players();
     
     foreach ( e_player in a_e_players )
@@ -702,7 +702,7 @@ function function_52818528()
     wait n_wait;
     mansion_util::function_2057ddc1( undefined, "werewolf", "intro", undefined, #"werewolf_intro", 10, 1, 0, 1 );
     wait 1;
-    mansion_util::function_2057ddc1( undefined, "druid_arena", "enter", undefined, #"hash_6ffba77e7b683b46", 10, 1 );
+    mansion_util::function_2057ddc1( undefined, "druid_arena", "enter", undefined, #"druid_arena_enter", 10, 1 );
 }
 
 // Namespace mansion_boss_ww/zm_mansion_boss_ww
@@ -726,7 +726,7 @@ function function_528abede( s_loc, var_79bdd0d5 )
     {
         self val::set( "bossfight_intro", "freezecontrols", 1 );
         self val::set( "bossfight_intro", "disable_weapons", 1 );
-        level waittill( #"hash_4b195fabca6f5aaf" );
+        level waittill( #"boss_intro_started" );
         self thread lui::screen_fade_in( 0.1 );
         level waittill( #"boss_intro_done" );
         self val::reset( "bossfight_intro", "freezecontrols" );
@@ -902,7 +902,7 @@ function function_bb612e31( n_stage, var_c962047c )
     }
     
     level thread function_542eeaa7( n_stage );
-    level waittill( #"hash_38f29f9cb03586ea" );
+    level waittill( #"boss_fight_stage_complete" );
 }
 
 // Namespace mansion_boss_ww/zm_mansion_boss_ww
@@ -911,7 +911,7 @@ function function_bb612e31( n_stage, var_c962047c )
 // Size: 0x10a
 function function_542eeaa7( n_stage )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     level.s_boss.var_57badb98 = 0;
     level.s_boss.var_2d102ea7 = undefined;
     level.var_38fff406 = 0;
@@ -937,7 +937,7 @@ function function_542eeaa7( n_stage )
 // Size: 0x8c
 function function_69c3faf8()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     level thread function_de60e752();
     level flag::set( #"hash_eed1544f10c5bb3" );
     level function_738f7574( 1 );
@@ -949,7 +949,7 @@ function function_69c3faf8()
 // Size: 0xa4
 function function_14c34456()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     level thread function_677a2503( 0 );
     level thread function_de60e752();
     level thread function_e9cc6379( 20, 1 );
@@ -962,7 +962,7 @@ function function_14c34456()
 // Size: 0xcc
 function function_a2550f93()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     level flag::set( #"hash_eed1544f10c5bb3" );
     level flag::clear( #"hash_493de5832f801947" );
     level thread function_de60e752();
@@ -1004,7 +1004,7 @@ function function_d84758c()
 // Size: 0x258
 function function_738f7574( n_stage )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     var_3b12bc77 = 1;
     var_de4b911c = 0;
     
@@ -1025,7 +1025,7 @@ function function_738f7574( n_stage )
         if ( var_3b12bc77 )
         {
             level thread function_f433c7f5( n_stage );
-            level waittill( #"hash_3d52ec26acedf741" );
+            level waittill( #"boss_attack_complete" );
         }
         
         if ( var_de4b911c )
@@ -1033,13 +1033,13 @@ function function_738f7574( n_stage )
             if ( level flag::get( #"hash_f4dfa99c5e22bc6" ) )
             {
                 level thread function_fdd04f47( n_stage );
-                level waittill( #"hash_3d52ec26acedf741" );
+                level waittill( #"boss_attack_complete" );
             }
             else if ( !var_3b12bc77 )
             {
                 level waittill( #"hash_f4dfa99c5e22bc6" );
                 level thread function_fdd04f47( n_stage );
-                level waittill( #"hash_3d52ec26acedf741" );
+                level waittill( #"boss_attack_complete" );
             }
         }
         
@@ -1054,7 +1054,7 @@ function function_738f7574( n_stage )
             
             if ( n_cycles >= 2 )
             {
-                level notify( #"hash_38f29f9cb03586ea" );
+                level notify( #"boss_fight_stage_complete" );
             }
         }
         
@@ -1068,7 +1068,7 @@ function function_738f7574( n_stage )
 // Size: 0xd80
 function function_f433c7f5( n_stage )
 {
-    level endon( #"hash_4be216e72d412c40", #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"hash_4be216e72d412c40", #"boss_fight_stage_complete", #"end_game", #"intermission" );
     
     switch ( n_stage )
     {
@@ -1259,7 +1259,7 @@ function function_f433c7f5( n_stage )
     }
     
     wait 2;
-    level notify( #"hash_3d52ec26acedf741" );
+    level notify( #"boss_attack_complete" );
 }
 
 // Namespace mansion_boss_ww/zm_mansion_boss_ww
@@ -1268,7 +1268,7 @@ function function_f433c7f5( n_stage )
 // Size: 0x94
 function function_7bcf3048()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     self endon( #"death" );
     mansion_util::function_2057ddc1( self.origin, "werewolf", "pounce", undefined, #"hash_2dfc1e25d3d3c68b", 10, 1 );
 }
@@ -1279,7 +1279,7 @@ function function_7bcf3048()
 // Size: 0x368
 function function_c1b6e914()
 {
-    level endon( #"hash_4be216e72d412c40", #"hash_3d52ec26acedf741", #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"hash_4be216e72d412c40", #"boss_attack_complete", #"boss_fight_stage_complete", #"end_game", #"intermission" );
     self endon( #"death" );
     
     while ( true )
@@ -1363,7 +1363,7 @@ function function_367de434()
 // Size: 0x2dc
 function function_cc0b32f8( n_stage )
 {
-    level endon( #"hash_3d52ec26acedf741", #"end_game", #"intermission" );
+    level endon( #"boss_attack_complete", #"end_game", #"intermission" );
     level waittill( #"boss_captured" );
     level notify( #"hash_4be216e72d412c40" );
     
@@ -1394,7 +1394,7 @@ function function_cc0b32f8( n_stage )
     level.s_boss.var_4944ec8 thread scene::play( #"aib_t8_zm_mnsn_hallion_stun", "init" );
     level.s_boss.var_4944ec8 clientfield::set( "" + #"hash_1bf2c2f62ad1bf56", 1 );
     level.s_boss thread function_bb528a4b( n_stage );
-    s_result = level waittilltimeout( var_bfa47c6b, #"hash_38f29f9cb03586ea" );
+    s_result = level waittilltimeout( var_bfa47c6b, #"boss_fight_stage_complete" );
     var_2100633b = 1;
     
     if ( s_result._notify == #"timeout" )
@@ -1411,7 +1411,7 @@ function function_cc0b32f8( n_stage )
 // Size: 0x8c
 function function_4f8d9d17()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     self endon( #"death" );
     mansion_util::function_2057ddc1( self.origin, "werewolf", "invisible_time_00", undefined, #"werewolf_visible" );
 }
@@ -1422,7 +1422,7 @@ function function_4f8d9d17()
 // Size: 0x7c
 function function_13552544()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"intermission" );
     self endon( #"death" );
     mansion_util::function_2057ddc1( self.origin, "werewolf", "trapped", undefined, #"werewolf_trapped" );
 }
@@ -1433,7 +1433,7 @@ function function_13552544()
 // Size: 0x2fc
 function function_3aa2bc7a( v_blast_origin )
 {
-    level endon( #"hash_3d52ec26acedf741", #"end_game", #"intermission" );
+    level endon( #"boss_attack_complete", #"end_game", #"intermission" );
     a_players = util::get_active_players();
     a_players = arraysortclosest( a_players, v_blast_origin, undefined, 0, 200 );
     
@@ -1526,7 +1526,7 @@ function function_1a240284( n_stage, var_2100633b )
     util::wait_network_frame();
     self.origin = ( 0, 0, 0 );
     function_f25a51e4( 0 );
-    level notify( #"hash_3d52ec26acedf741" );
+    level notify( #"boss_attack_complete" );
     
     if ( var_2100633b )
     {
@@ -1540,7 +1540,7 @@ function function_1a240284( n_stage, var_2100633b )
 // Size: 0x6cc
 function function_bb528a4b( n_stage )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"hash_4b8c10279da88562", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"hash_4b8c10279da88562", #"end_game", #"intermission" );
     self notify( "4ed57c747ef9c835" );
     self endon( "4ed57c747ef9c835" );
     e_damage = self.var_4944ec8;
@@ -1685,8 +1685,8 @@ function function_bb528a4b( n_stage )
             }
             
             level thread function_f74b38da( "zm_power_on_rumble" );
-            level notify( #"hash_14400d2bff068132" );
-            level notify( #"hash_38f29f9cb03586ea" );
+            level notify( #"boss_cancel_action" );
+            level notify( #"boss_fight_stage_complete" );
         }
     }
 }
@@ -1697,7 +1697,7 @@ function function_bb528a4b( n_stage )
 // Size: 0x12c
 function function_68af48a0()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     self endon( #"death" );
     
     if ( isplayer( self ) && !( isdefined( level.var_f1028094[ #"hash_648770ea260c72e8" ] ) && level.var_f1028094[ #"hash_648770ea260c72e8" ] ) )
@@ -1813,7 +1813,7 @@ function function_8d29523e( str_waittill, b_slow = 0 )
 // Size: 0x240
 function function_fdd04f47( n_stage )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     wait 2;
     var_efc198c = randomintrange( 1, 4 );
     var_45e1b44b = level.s_boss.a_s_align[ var_efc198c ];
@@ -1827,7 +1827,7 @@ function function_fdd04f47( n_stage )
     var_45e1b44b thread function_677a2503();
     var_45e1b44b.scene_ents[ #"fakeactor 1" ] function_d84758c();
     level flag::clear( #"hash_f4dfa99c5e22bc6" );
-    level notify( #"hash_3d52ec26acedf741" );
+    level notify( #"boss_attack_complete" );
 }
 
 // Namespace mansion_boss_ww/zm_mansion_boss_ww
@@ -1836,7 +1836,7 @@ function function_fdd04f47( n_stage )
 // Size: 0xb4
 function function_677a2503( var_754a5572 = 1 )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     wait 1.25;
     
     if ( var_754a5572 )
@@ -1848,7 +1848,7 @@ function function_677a2503( var_754a5572 = 1 )
         v_loc = undefined;
     }
     
-    mansion_util::function_2057ddc1( v_loc, "werewolf", "enemy_enter", undefined, #"hash_3738d07fc833937e" );
+    mansion_util::function_2057ddc1( v_loc, "werewolf", "enemy_enter", undefined, #"werewolf_enemy_enter" );
 }
 
 // Namespace mansion_boss_ww/zm_mansion_boss_ww
@@ -1875,7 +1875,7 @@ function function_ae76e58d()
 // Size: 0x168
 function function_a430c55f()
 {
-    level endon( #"hash_25d8c88ff3f91ee5", #"end_game", #"intermission" );
+    level endon( #"boss_fight_all_complete", #"end_game", #"intermission" );
     
     while ( true )
     {
@@ -2009,7 +2009,7 @@ function function_d2367771( var_82b2ec02 = 0 )
 // Size: 0x3f4
 function function_47e0a10b( n_stage )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"hash_348a23891a681a5f", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"hash_348a23891a681a5f", #"end_game", #"intermission" );
     var_9bcf74c3 = [];
     
     for ( i = 1; i <= 4 ; i++ )
@@ -2093,7 +2093,7 @@ function function_47e0a10b( n_stage )
 // Size: 0x11c
 function function_64000eab()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"hash_348a23891a681a5f", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"hash_348a23891a681a5f", #"end_game", #"intermission" );
     
     switch ( level.var_f3c4bd00 )
     {
@@ -2171,8 +2171,8 @@ function function_1025059f( var_2175ea54, n_statue, var_2d102ea7, var_b7daddf4 =
     
     e_statue function_d2367771();
     e_statue rotateto( var_23ee4083, n_turn_speed );
-    e_statue playsound( #"hash_7feed504dc9858aa" );
-    e_statue playloopsound( #"hash_4d7ead6890b3cdbe" );
+    e_statue playsound( #"zmb_hallion_statue_move_start" );
+    e_statue playloopsound( #"zmb_hallion_statue_move_lp" );
     wait n_turn_speed;
     e_statue stoploopsound();
     
@@ -2206,11 +2206,11 @@ function function_1025059f( var_2175ea54, n_statue, var_2d102ea7, var_b7daddf4 =
     
     if ( isdefined( e_statue.var_5f88b76a ) && e_statue.var_5f88b76a )
     {
-        e_statue playsound( #"hash_45e88efac471ec12" );
+        e_statue playsound( #"zmb_hallion_statue_move_stop_success" );
     }
     else
     {
-        e_statue playsound( #"hash_525f9082123a384a" );
+        e_statue playsound( #"zmb_hallion_statue_move_stop" );
     }
     
     if ( !var_b7daddf4 && !var_6e91cc7c )
@@ -2250,7 +2250,7 @@ function function_a2fa8688()
 // Size: 0x114
 function function_52abb791()
 {
-    level endon( #"hash_5f2b9a36a2c517af", #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"hash_5f2b9a36a2c517af", #"boss_fight_stage_complete", #"end_game", #"intermission" );
     
     switch ( level.var_f3c4bd00 )
     {
@@ -2278,7 +2278,7 @@ function function_52abb791()
 // Size: 0xec
 function function_aace34f9()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission" );
     var_c4b8b9cd = array( 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 );
     mansion_util::function_2057ddc1( undefined, "generic", "responses_negative", var_c4b8b9cd, #"hash_50dc614c07736977", randomintrange( 20, 20 * 3 ), 1, 1 );
 }
@@ -2293,7 +2293,7 @@ function function_a70e02d3( var_b66cd272 )
     e_sigil = level.var_60ce0a79[ var_b66cd272 ];
     e_sigil thread function_ccd8387e( 2 );
     e_sigil thread function_ec25f7c2();
-    level waittilltimeout( 32, #"boss_captured", #"hash_38f29f9cb03586ea" );
+    level waittilltimeout( 32, #"boss_captured", #"boss_fight_stage_complete" );
     e_sigil playsound( #"hash_4aff74c5f6036730" );
     e_sigil thread function_6045e0ac( 0 );
     level flag::set( #"hash_eed1544f10c5bb3" );
@@ -2316,14 +2316,14 @@ function function_ec25f7c2()
             level.s_boss.var_4944ec8.origin = self.origin;
             level notify( #"boss_captured" );
             level flag::set( #"hash_493de5832f801947" );
-            self playsound( #"hash_109cfe35ce0806f5" );
+            self playsound( #"zmb_hallion_stunned_impact" );
             break;
         }
         
         util::wait_network_frame();
     }
     
-    level waittill( #"hash_3d52ec26acedf741" );
+    level waittill( #"boss_attack_complete" );
     self function_ccd8387e( 0 );
     level flag::set( #"hash_eed1544f10c5bb3" );
 }
@@ -2334,7 +2334,7 @@ function function_ec25f7c2()
 // Size: 0x158
 function function_2b6b4a44()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"spawn_zombies", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"spawn_zombies", #"end_game", #"intermission" );
     
     while ( true )
     {
@@ -2359,7 +2359,7 @@ function function_2b6b4a44()
 // Size: 0x24
 function function_e2f134ce()
 {
-    level flag::wait_till_clear( #"hash_21921ed511559aa3" );
+    level flag::wait_till_clear( #"nuke_stop_special_spawning" );
 }
 
 // Namespace mansion_boss_ww/zm_mansion_boss_ww
@@ -2368,7 +2368,7 @@ function function_e2f134ce()
 // Size: 0x498
 function function_de60e752()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"end_game", #"intermission", #"end_game" );
+    level endon( #"boss_fight_stage_complete", #"end_game", #"intermission", #"end_game" );
     n_round = level.var_d6f059f7;
     var_e2f55613 = getspawnerarray( "spawner_zm_zombie", "targetname" )[ 0 ];
     a_s_spawnpoints = struct::get_array( "boss_zombie_spawnpoint", "targetname" );
@@ -2490,9 +2490,9 @@ function boss_cleanup_zombie()
 // Size: 0x1cc
 function function_f5b2d086()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"spawn_zombies", #"hash_71fd67248b9a37ca", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"spawn_zombies", #"hash_71fd67248b9a37ca", #"end_game", #"intermission" );
     wait 10;
-    var_e8ebec1d = array( #"hash_7c89b1397a38e3ad", #"hash_7c89ae397a38de94", #"hash_7c89af397a38e047", #"hash_7c89ac397a38db2e" );
+    var_e8ebec1d = array( #"boss_fight_transform1", #"boss_fight_transform2", #"boss_fight_transform3", #"boss_fight_transform4" );
     level.var_8a64ef3a = 0;
     var_ffd2fe87 = 4 + level.var_f3c4bd00;
     
@@ -2525,7 +2525,7 @@ function function_f5b2d086()
 // Size: 0x84
 function function_724b3e30( n_health )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"spawn_zombies", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"spawn_zombies", #"end_game", #"intermission" );
     self.b_ignore_cleanup = 1;
     level.var_8a64ef3a++;
     level thread function_83ad8f65( self );
@@ -2537,7 +2537,7 @@ function function_724b3e30( n_health )
 // Size: 0x88
 function function_83ad8f65( ai )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"spawn_zombies", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"spawn_zombies", #"end_game", #"intermission" );
     ai waittill( #"death" );
     
     if ( isdefined( level.var_8a64ef3a ) )
@@ -2552,7 +2552,7 @@ function function_83ad8f65( ai )
 // Size: 0x410
 function function_e9cc6379( var_4642da4d, var_732926d1 = 0 )
 {
-    level endon( #"hash_38f29f9cb03586ea", #"spawn_zombies", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"spawn_zombies", #"end_game", #"intermission" );
     n_round = level.var_d6f059f7;
     var_574e94ee = struct::get_array( #"hash_49002dbb418e71a1" );
     n_max_active_ai = 16 + level.var_f3c4bd00;
@@ -2639,7 +2639,7 @@ function function_e9cc6379( var_4642da4d, var_732926d1 = 0 )
 // Size: 0x224
 function function_29de7388()
 {
-    level endon( #"hash_38f29f9cb03586ea", #"spawn_zombies", #"end_game", #"intermission" );
+    level endon( #"boss_fight_stage_complete", #"spawn_zombies", #"end_game", #"intermission" );
     n_max_active_ai = 16 + level.var_f3c4bd00;
     
     switch ( level.var_f3c4bd00 )
@@ -2776,7 +2776,7 @@ function function_8f28b521()
             case #"gear_up":
                 level thread gear_up();
                 return 1;
-            case #"hash_1270cae114bc8c94":
+            case #"boss_start_bf":
                 level thread function_e7520565();
                 return 1;
             case #"hash_3426f6de3d18b749":
@@ -2813,9 +2813,9 @@ function function_8f28b521()
                 level thread function_84f320f1( 3 );
                 return 1;
             case #"hash_5dad3801740fa24a":
-                level notify( #"hash_38f29f9cb03586ea" );
+                level notify( #"boss_fight_stage_complete" );
                 return 1;
-            case #"hash_456d8c20be179a97":
+            case #"boss_play_outro":
                 level thread function_abdd578e();
                 return 1;
         }
@@ -2902,7 +2902,7 @@ function function_8f28b521()
     // Size: 0x94, Type: dev
     function function_1ca1a249( n_stage )
     {
-        level endon( #"hash_38f29f9cb03586ea" );
+        level endon( #"boss_fight_stage_complete" );
         function_46d7a37();
         level flag::set( #"hash_eed1544f10c5bb3" );
         level.s_boss.var_57badb98 = 0;
@@ -2925,7 +2925,7 @@ function function_8f28b521()
             return;
         }
         
-        level notify( #"hash_38f29f9cb03586ea" );
+        level notify( #"boss_fight_stage_complete" );
         level.var_80d31f80 = 0;
         level.var_eae946a3 = 0;
         

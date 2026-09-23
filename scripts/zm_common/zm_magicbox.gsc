@@ -52,8 +52,8 @@ function autoexec __init__system__()
 function __init__()
 {
     level.start_chest_name = "start_chest";
-    level._effect[ #"hash_2ff87d61167ea531" ] = #"hash_d66a9f5776f1fba";
-    level._effect[ #"hash_4048cb4967032c4a" ] = #"hash_1e43d43c6586fcb5";
+    level._effect[ #"hash_2ff87d61167ea531" ] = #"zombie/fx8_magicbox_marker";
+    level._effect[ #"hash_4048cb4967032c4a" ] = #"zombie/fx8_magicbox_marker_fl";
     level._effect[ #"lght_marker" ] = #"zombie/fx_weapon_box_marker_zmb";
     level._effect[ #"lght_marker_flare" ] = #"zombie/fx_weapon_box_marker_fl_zmb";
     level._effect[ #"poltergeist" ] = #"zombie/fx_barrier_buy_zmb";
@@ -404,7 +404,7 @@ function boxstub_update_prompt( player )
             }
             else
             {
-                self.hint_string = #"hash_6a4c5538a960189d";
+                self.hint_string = #"zombie/trade_weapon_fill";
             }
             
             if ( !( isdefined( self.stub.trigger_target.var_1f9dff37 ) && self.stub.trigger_target.var_1f9dff37 ) && !( isdefined( self.stub.trigger_target.var_481aa649 ) && self.stub.trigger_target.var_481aa649 ) && isdefined( self.stub.trigger_target.var_c2f3a87c ) && self.stub.trigger_target.var_c2f3a87c )
@@ -518,7 +518,7 @@ function magicbox_unitrigger_think()
 // Size: 0x24
 function play_crazi_sound()
 {
-    self playlocalsound( #"hash_7d764f09cd3dea92" );
+    self playlocalsound( #"zmb_magicbox_leave_2d" );
 }
 
 // Namespace zm_magicbox/zm_magicbox
@@ -2295,7 +2295,7 @@ function treasure_chest_weapon_spawn( chest, player, respin )
     
     if ( !move_the_box && rand === getweapon( #"homunculus" ) )
     {
-        self thread zm_vo::vo_say( #"hash_770c96a35322e11d", 0, 0, 0, 1 );
+        self thread zm_vo::vo_say( #"vox_homun_raise_homu", 0, 0, 0, 1 );
     }
     
     if ( isdefined( level.func_magicbox_weapon_spawned ) )
@@ -2586,7 +2586,7 @@ function timer_til_despawn( v_float )
 {
     self endon( #"kill_weapon_movement" );
     
-    if ( #"hash_30b0badbca0a10de" === self.model )
+    if ( #"wpn_t8_zm_eqp_lightning_rod_world" === self.model )
     {
         self.angles = ( self.angles[ 0 ] + 90, self.angles[ 1 ], self.angles[ 2 ] );
     }
@@ -2674,9 +2674,9 @@ function treasure_chest_give_weapon( weapon, var_75c86f89, e_chest )
     }
     else if ( weapon === getweapon( #"special_crossbow_t8" ) )
     {
-        if ( zm_audio::function_63f85f39( #"magicbox", #"hash_36b817536004725" ) )
+        if ( zm_audio::function_63f85f39( #"magicbox", #"reaver_crossbow" ) )
         {
-            str_vo_line = #"hash_36b817536004725";
+            str_vo_line = #"reaver_crossbow";
         }
     }
     else
@@ -2797,7 +2797,7 @@ function give_offhand_weapon( weapon )
     {
         if ( self gadgetpowerget( 1 ) === 100 )
         {
-            self playsoundtoplayer( #"hash_5069ed8fdae493ce", self );
+            self playsoundtoplayer( #"uin_zmb_equipment_ready", self );
         }
     }
     
@@ -2990,14 +2990,14 @@ function magic_box_do_weapon_rise( var_f91a62a4 )
     
     if ( var_f91a62a4 != 1 )
     {
-        self playsound( #"hash_59a4ec7cb3de7d13" );
+        self playsound( #"zmb_box_weapon_spin_short" );
         self waittill( #"randomization_done" );
         self setzbarrierpiecestate( 3, "open" );
         self setzbarrierpiecestate( 4, "open" );
     }
     else
     {
-        self playsound( #"hash_1530a7e6184b9b2e" );
+        self playsound( #"zmb_box_weapon_spin" );
         
         while ( self getzbarrierpiecestate( 3 ) != "open" )
         {

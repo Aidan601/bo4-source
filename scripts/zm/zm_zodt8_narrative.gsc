@@ -84,7 +84,7 @@ function function_a425bf07()
 {
     s_doll = struct::get( #"creepy_friend" );
     s_trigger_loc = struct::get( s_doll.target );
-    mdl_doll = util::spawn_model( #"hash_249386b68e19b345", s_doll.origin, s_doll.angles );
+    mdl_doll = util::spawn_model( #"p8_zm_zod_doll_antique", s_doll.origin, s_doll.angles );
     s_unitrigger = s_trigger_loc zm_unitrigger::create( undefined, 32 );
     s_trigger_loc waittill( #"trigger_activated" );
     mdl_doll thread function_e7fd1a33();
@@ -232,7 +232,7 @@ function function_c3a5f1fe( a_ents )
     }
     
     mdl_book = getent( "pages_of_words", "targetname" );
-    mdl_book setmodel( #"hash_6a0ad79cfc79892d" );
+    mdl_book setmodel( #"p8_zm_zod_cipher_book_once_you" );
     e_raven delete();
 }
 
@@ -371,7 +371,7 @@ function function_ea0460f4()
         var_255658de val::set( #"phono_roll", "allowdeath", 0 );
     }
     
-    a_s_phonographs = struct::get_array( #"hash_44ff0c493e2791eb" );
+    a_s_phonographs = struct::get_array( #"git_wrecked" );
     
     foreach ( s_phonograph in a_s_phonographs )
     {
@@ -399,7 +399,7 @@ function function_aba430c2( s_unitrigger )
         
         if ( isdefined( e_player ) && !isdefined( e_player.var_68c35930 ) )
         {
-            e_player playsound( #"hash_7e0e4a1fb470d18f" );
+            e_player playsound( #"zmb_sq_audiolog_roll_pickup" );
             e_player.var_68c35930 = self;
             self hide();
             zm_unitrigger::unregister_unitrigger( s_unitrigger );
@@ -427,7 +427,7 @@ function function_63c3fd24( var_314c1b5a )
                 self.var_68c35930.origin = self.origin;
                 self.var_68c35930.angles = self.angles;
                 self.var_68c35930 show();
-                self.var_68c35930 playsound( #"hash_343bf66b64f5830e" );
+                self.var_68c35930 playsound( #"zmb_sq_audiolog_roll_place" );
                 e_player.var_68c35930 = undefined;
             }
             
@@ -440,31 +440,31 @@ function function_63c3fd24( var_314c1b5a )
             level flag::set( #"phonograph_playing" );
             self.var_68c35930 notify( #"hash_2b02b5a5a9af36e0" );
             self.var_68c35930 notify( #"hash_44144f80f295a13f" );
-            self.var_68c35930 playsound( #"hash_7c91fa775c8a0134" );
+            self.var_68c35930 playsound( #"zmb_sq_audiolog_gramo_start" );
             
             if ( self.var_68c35930.script_int == 0 )
             {
-                self.var_68c35930 playloopsound( #"hash_3d52d57aceee74ce" );
+                self.var_68c35930 playloopsound( #"zmb_sq_audiolog_bg_disc" );
             }
             else if ( self.var_68c35930.script_int == 7 )
             {
-                self.var_68c35930 playloopsound( #"hash_5b492b8c8a8bb4d8" );
+                self.var_68c35930 playloopsound( #"zmb_sq_audiolog_bg_brun" );
             }
             else if ( self.var_68c35930.script_int == 8 )
             {
-                self.var_68c35930 playloopsound( #"hash_704a9f09fe3a48c2" );
+                self.var_68c35930 playloopsound( #"zmb_sq_audiolog_bg_scar" );
             }
             else
             {
-                self.var_68c35930 playloopsound( #"hash_2367dae4a69a4294" );
+                self.var_68c35930 playloopsound( #"zmb_sq_audiolog_gramo_lp" );
             }
             
             wait 1;
             self.var_68c35930 zm_vo::function_cf1e151c( var_314c1b5a[ self.var_68c35930.script_int ] );
             level flag::clear( #"phonograph_playing" );
-            self.var_68c35930 notify( #"hash_53eb32eaa511640c" );
+            self.var_68c35930 notify( #"roll_stop_spin" );
             self.var_68c35930 stoploopsound();
-            self.var_68c35930 playsound( #"hash_376eaa517cd09530" );
+            self.var_68c35930 playsound( #"zmb_sq_audiolog_gramo_stop" );
             self.var_68c35930 thread function_ad05f6f3();
         }
     }
@@ -493,7 +493,7 @@ function function_64834acd()
 // Size: 0x9e
 function function_21a979f7()
 {
-    self endon( #"hash_53eb32eaa511640c" );
+    self endon( #"roll_stop_spin" );
     
     while ( true )
     {
@@ -526,7 +526,7 @@ function function_ad05f6f3()
         }
     }
     
-    playsoundatposition( #"hash_2cf59d6222de4f6f", self.origin );
+    playsoundatposition( #"zmb_sq_audiolog_roll_destroy", self.origin );
     self delete();
 }
 
@@ -683,7 +683,7 @@ function function_b11c26c9()
 // Size: 0x2c0
 function function_e1a452f5( e_homunculus, var_21bb918c, var_c8279d50 )
 {
-    level endon( #"hash_6aec924aa525b354" );
+    level endon( #"end_flag_semaphore" );
     e_homunculus setinvisibletoplayer( self );
     var_21bb918c setinvisibletoplayer( self );
     var_c8279d50 setinvisibletoplayer( self );
@@ -703,7 +703,7 @@ function function_e1a452f5( e_homunculus, var_21bb918c, var_c8279d50 )
                 
                 if ( isalive( player ) )
                 {
-                    level notify( #"hash_57175159706ca9bf" );
+                    level notify( #"start_flag_semaphore" );
                     e_homunculus setvisibletoplayer( player );
                     var_21bb918c setvisibletoplayer( player );
                     var_c8279d50 setvisibletoplayer( player );
@@ -747,7 +747,7 @@ function function_c867ac0a( e_homunculus, var_21bb918c, var_c8279d50 )
     }
     
     callback::on_connect( &function_e1a452f5, undefined, e_homunculus, var_21bb918c, var_c8279d50 );
-    level waittill( #"hash_57175159706ca9bf" );
+    level waittill( #"start_flag_semaphore" );
     e_homunculus sethighdetail( 1 );
     var_21bb918c sethighdetail( 1 );
     var_c8279d50 sethighdetail( 1 );
@@ -841,7 +841,7 @@ function function_c867ac0a( e_homunculus, var_21bb918c, var_c8279d50 )
     function_dc92e2d4( a_angles, var_21bb918c, var_c8279d50, #"a" );
     function_dc92e2d4( a_angles, var_21bb918c, var_c8279d50, #"d" );
     callback::remove_on_connect( &function_e1a452f5 );
-    level notify( #"hash_6aec924aa525b354" );
+    level notify( #"end_flag_semaphore" );
     var_21bb918c.var_55e11aa9 delete();
     var_c8279d50.var_55e11aa9 delete();
     var_21bb918c delete();
@@ -934,7 +934,7 @@ function function_a7ae2066()
 // Size: 0xe5c
 function function_678d6318()
 {
-    s_trigger_loc = struct::get( #"hash_2ca9b43546a096e3" );
+    s_trigger_loc = struct::get( #"bra_detector" );
     s_unitrigger = s_trigger_loc zm_unitrigger::create( undefined, ( 180, 180, 64 ), &zm_unitrigger::function_69168e61, 0, 1 );
     
     while ( true )
@@ -957,9 +957,9 @@ function function_678d6318()
     }
     
     var_8940de41 = function_7199779e();
-    var_ff439c7c = struct::get_array( #"hash_12938a97ea1a6c1" );
-    var_ba1a70ec = struct::get_array( #"hash_12935a97ea1a1a8" );
-    var_cf41d641 = struct::get_array( #"hash_12936a97ea1a35b" );
+    var_ff439c7c = struct::get_array( #"rmb_locs_br_1" );
+    var_ba1a70ec = struct::get_array( #"rmb_locs_br_2" );
+    var_cf41d641 = struct::get_array( #"rmb_locs_br_3" );
     level thread function_f64a749c( var_ff439c7c, var_8940de41, #"r" );
     level thread function_f64a749c( var_ba1a70ec, var_8940de41, #"u" );
     level thread function_f64a749c( var_cf41d641, var_8940de41, #"n" );

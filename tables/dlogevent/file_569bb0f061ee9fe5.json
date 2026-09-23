@@ -1,6 +1,6 @@
 {
-    "name": "#hash_569bb0f061ee9fe5",
-    "ddlDef": "#hash_578dbeaea88dfab1",
+    "name": "#dlog_event_lobby_qos",
+    "ddlDef": "#gamedata/ddl/generated/dlog_event_lobby_qos.ddl",
     "unk18": 0,
     "unk19": 1,
     "unk1a": 0,
@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -71,7 +71,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -85,14 +85,14 @@
     ],
     "members": [
         {
-            "name": "#hash_df1f57dcd0a3e0a",
-            "scrName": "#hash_1461376e",
+            "name": "#game_security_key",
+            "scrName": "#game_security_key",
             "type": "STRING",
             "len": 48
         },
         {
             "name": "#host_address",
-            "scrName": "#hash_29a52471",
+            "scrName": "#host_address",
             "type": "STRING",
             "len": 48
         },
@@ -127,13 +127,13 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_34f06c6eeda8117e",
-            "scrName": "#hash_fcb5a3f9",
+            "name": "#game_security_id",
+            "scrName": "#game_security_id",
             "type": "UINT64"
         },
         {
-            "name": "#hash_3c83aaf4b52386c5",
-            "scrName": "#hash_9905270f",
+            "name": "#num_available_slots",
+            "scrName": "#num_available_slots",
             "type": "INT32"
         },
         {
@@ -148,8 +148,8 @@
             "len": 32
         },
         {
-            "name": "#hash_460665ebc12305d7",
-            "scrName": "#hash_b0d0a2ef",
+            "name": "#is_match_ending_soon",
+            "scrName": "#is_match_ending_soon",
             "type": "BOOL"
         },
         {
@@ -165,7 +165,7 @@
         },
         {
             "name": "#is_match_loading",
-            "scrName": "#hash_949d900e",
+            "scrName": "#is_match_loading",
             "type": "BOOL"
         },
         {
@@ -186,8 +186,8 @@
             "len": 64
         },
         {
-            "name": "#hash_756c01933e1c7b2e",
-            "scrName": "#hash_366d3b43",
+            "name": "#allow_guests",
+            "scrName": "#allow_guests",
             "type": "BOOL"
         },
         {

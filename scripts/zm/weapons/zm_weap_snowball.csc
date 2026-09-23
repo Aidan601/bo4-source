@@ -19,7 +19,7 @@ function autoexec __init__system__()
 // Size: 0xb4
 function __init__()
 {
-    clientfield::register( "toplayer", "" + #"hash_78aa1dc141a3e27", 24000, 1, "int", &function_25101093, 0, 0 );
+    clientfield::register( "toplayer", "" + #"snowball_impact_player_postfx", 24000, 1, "int", &snowball_impact_player_postfx, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_2fafddfa9f85b8aa", 24000, 1, "int", &function_43d8c5f8, 0, 0 );
 }
 
@@ -27,7 +27,7 @@ function __init__()
 // Params 7
 // Checksum 0x62ba6596, Offset: 0x1d8
 // Size: 0xa4
-function function_25101093( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function snowball_impact_player_postfx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
     if ( newval == 1 )
     {

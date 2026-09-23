@@ -1,7 +1,7 @@
 {
-    "name": "#hash_3591fc69ad657558",
-    "model": "#hash_2520edd2f1ee955e",
-    "unk20": "#hash_b5ed194900da724",
+    "name": "#veh_t8_civ_truck_pickup_tailgate_dirty_destructible_wht_california",
+    "model": "#veh_t8_civ_truck_pickup_tailgate_dirty_dest_wht_california",
+    "unk20": "#veh_t8_civ_truck_pickup_tailgate_dead_wht",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [
@@ -14,11 +14,11 @@
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_94b5f3bad73031",
+                    "name": "#dst_car_fire_frnt",
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_5eb690639ce50eba",
+                    "name": "#dst_car_fire",
                     "unk28": "tag_body_d0"
                 },
                 {

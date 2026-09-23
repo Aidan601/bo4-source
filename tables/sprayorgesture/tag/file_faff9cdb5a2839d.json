@@ -1,11 +1,11 @@
 {
-    "name": "#hash_faff9cdb5a2839d",
+    "name": "#loot_tags_hipster_battery",
     "type": "#tag",
-    "material": "#hash_68d0ce2b7bba3d1",
+    "material": "#vd/mtl_loot_ui_icon_tags_hipster_battery",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_3a0009360fa72f34",
-        "icon": "image#hash_da1ad334929542",
+        "icon": "image#loot_ui_icon_tags_hipster_battery",
         "isdefault": 0
     }
 }

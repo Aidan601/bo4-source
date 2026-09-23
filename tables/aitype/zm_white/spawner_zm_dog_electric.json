@@ -6,7 +6,7 @@
     "team": "TEAM_AXIS",
     "species": "#dog",
     "archeType": "#zombie_dog",
-    "scoreType": "#hash_59f8816e5c2e5d4c",
+    "scoreType": "#zombie_dog_electric",
     "movementType": "#zombie_dog",
     "spawnInfluencers": [
         "#none",
@@ -18,7 +18,7 @@
         "#c_zom_der_hellhound"
     ],
     "animMappingTables": [
-        "#hash_694341b93236ca2e"
+        "#zm_dog_electric.ai_am"
     ],
     "meleeWeapon": "#dog_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
@@ -26,9 +26,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_5c4ec524eae977ce",
-    "animStateMachine": "#hash_388a93bb2402d5af",
-    "animSelectorTable": "#hash_13c803b052d9e4a8",
+    "behaviorTree": "#zm_dog.ai_bt",
+    "animStateMachine": "#zm_dog.ai_asm",
+    "animSelectorTable": "#zm_dog_electric.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_zombie_dog_settings",

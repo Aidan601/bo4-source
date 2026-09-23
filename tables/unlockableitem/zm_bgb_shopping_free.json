@@ -1,8 +1,8 @@
 {
     "name": "#zm_bgb_shopping_free",
     "nameStr": "zm_bgb_shopping_free",
-    "displayName": "#hash_1a335acd2d91f3aa",
-    "description": "#hash_27357e67bf290c9a",
+    "displayName": "#zmui/bgb_shopping_free",
+    "description": "#zmui/bgb_shopping_free_desc",
     "refHash": "#hash_4133677e",
     "previewImage": "#hash_90285e0f15c068a1",
     "globalItemIndex": 455,
@@ -22,7 +22,7 @@
     "bundle": {
         "hash_72dde61f5350e2c:hash_781a480e": 0,
         "hash_72de161f5351345:hash_d4b00140": 0,
-        "unequipsound": "#hash_220862a4ca76a9e2",
+        "unequipsound": "#cac_equipment_remove",
         "previewmodelname": "#p8_zm_elixir_shopping_free_ui",
         "sortindex": 0,
         "bgbcamoindex": 51,
@@ -36,9 +36,9 @@
         "talismanrarity": 0,
         "hash_52616a8f1602bb4b:hash_fe242d4b": 0,
         "bgbrarity": 5,
-        "hash_574c7ec1a4019f56:hash_c874ab9e": 0,
-        "hash_62dc0ff35042f577:hash_3f2c4d2f": 3,
-        "equipsound": "#hash_3d895acc4df6d435",
+        "isupgradeavailable": 0,
+        "bgblimittype": 3,
+        "equipsound": "#uin_zcac_elixir_epic",
         "sortindexzm": 0,
         "hash_6c190a0450674b42:hash_4d850f47": 0,
         "talismantype": 0

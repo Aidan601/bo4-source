@@ -1,5 +1,5 @@
-#using script_39347d985163e17;
-#using script_6c983b627f4a3d51;
+#using scripts\zm_common\trials\zm_trial_red_oracle_boon;
+#using scripts\zm\zm_red_challenges_apollo;
 #using scripts\core_common\aat_shared;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\clientfield_shared;
@@ -236,10 +236,10 @@ function function_3165516b( var_1e2067f4, n_phase )
     
     self clientfield::set( "" + #"hash_47490b879090eb55", n_color );
     util::wait_network_frame();
-    self clientfield::set( "" + #"hash_7b1dd5c08e2585c", var_1e2067f4 );
+    self clientfield::set( "" + #"apollo_soul_capture_fx", var_1e2067f4 );
     util::wait_network_frame();
     self clientfield::set( "" + #"hash_47490b879090eb55", 0 );
-    self clientfield::set( "" + #"hash_7b1dd5c08e2585c", 0 );
+    self clientfield::set( "" + #"apollo_soul_capture_fx", 0 );
     wait 1.3;
     level thread namespace_c8efdadc::function_9c8540b4( self, var_a3f33bc5 );
 }
@@ -1180,7 +1180,7 @@ function give_perk_reward( var_16c042b8, var_6c9485fc = 15 )
 // Size: 0x8c
 function function_545834dc( var_16c042b8 )
 {
-    self endon( #"death", #"hash_358f065cca50b2a7" );
+    self endon( #"death", #"challenge_reward_cleanup" );
     
     while ( true )
     {
@@ -1296,14 +1296,14 @@ function function_dcda5d87( mdl_reward, b_rotate = 1, var_b9b24 = 1, n_fx_type =
     self.var_4373c66b = undefined;
     b_timeout = mdl_reward.b_timeout;
     mdl_reward delete();
-    self notify( #"hash_358f065cca50b2a7" );
+    self notify( #"challenge_reward_cleanup" );
     
     if ( isdefined( b_timeout ) && b_timeout )
     {
         return false;
     }
     
-    self playsound( #"hash_3a681f400deb121b" );
+    self playsound( #"zmb_challenges_receive_reward" );
     self thread zm_audio::create_and_play_dialog( #"tribute", #"boon" );
     return true;
 }

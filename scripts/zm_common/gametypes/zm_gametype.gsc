@@ -136,7 +136,7 @@ function main()
     zm_utility::set_gamemode_var( "match_end_notify", undefined );
     zm_utility::set_gamemode_var( "match_end_func", undefined );
     bundle = getgametypescriptbundle();
-    setvisiblescoreboardcolumns( bundle.scoreboard_1, bundle.scoreboard_2, bundle.scoreboard_3, bundle.scoreboard_4, bundle.scoreboard_5, bundle.var_d4259e74, bundle.var_54dd9ff6, bundle.var_5ee7b40a );
+    setvisiblescoreboardcolumns( bundle.scoreboard_1, bundle.scoreboard_2, bundle.scoreboard_3, bundle.scoreboard_4, bundle.scoreboard_5, bundle.scoreboard_6, bundle.scoreboard_7, bundle.scoreboard_8 );
     callback::on_connect( &onplayerconnect_check_for_hotjoin );
 }
 
@@ -400,7 +400,7 @@ function onfindvalidspawnpoint()
 // Size: 0x3fc
 function onspawnplayer( predictedspawn = 0 )
 {
-    pixbeginevent( #"hash_45a46111e3862b44" );
+    pixbeginevent( #"zsurvival:onspawnplayer" );
     self.usingobj = undefined;
     self.is_zombie = 0;
     zm_player::updateplayernum( self );

@@ -12,9 +12,9 @@ version 1 {
     // offset 0xc0, size 0x20
     float m_pitch;
     // offset 0xe0, size 0x20
-    int hash_1932202b4f52dbf3;
+    int vid_xpos;
     // offset 0x100, size 0x20
-    int hash_f87421fe851174a;
+    int vid_ypos;
     // offset 0x120, size 0x200
     string(64) hash_1fdfb434e84cee5;
     // offset 0x320, size 0x20
@@ -22,9 +22,9 @@ version 1 {
     // offset 0x340, size 0x20
     uint com_maxfps;
     // offset 0x360, size 0x20
-    uint hash_b4e700934aceed;
+    uint r_picmip_bump;
     // offset 0x380, size 0x20
-    uint hash_c8d937db9b118c6;
+    uint r_picmip_spec;
     // offset 0x3a0, size 0x20
     uint hash_148e89c5ba9d3e53;
     // offset 0x3c0, size 0x20
@@ -44,7 +44,7 @@ version 1 {
     // offset 0x500, size 0x20
     uint r_monitor;
     // offset 0x520, size 0x20
-    uint hash_52285dfeeddba347;
+    uint r_aasamples;
     // offset 0x540, size 0x1
     bool cl_voice;
     // offset 0x541, size 0x1
@@ -58,7 +58,7 @@ version 1 {
     // offset 0x545, size 0x1
     bool snd_losocclusion;
     // offset 0x546, size 0x1
-    bool hash_2a1815eca78edf5b;
+    bool r_picmip_manual;
     // offset 0x547, size 0x1
     bool hash_2b452098aeb797eb;
     // offset 0x548, size 0x1

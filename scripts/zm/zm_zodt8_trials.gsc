@@ -1,14 +1,14 @@
-#using script_112484f657ccd8b7;
-#using script_1d1e3c193b0a51d;
+#using scripts\zm_common\trials\zm_trial_regen_during_movement;
+#using scripts\zm_common\trials\zm_trial_damage_during_movement;
 #using script_30ba61ad5559c51d;
-#using script_3688d332e17e9ac1;
+#using scripts\zm_common\trials\zm_trial_no_missed_shots;
 #using script_3c775b8df460b415;
 #using script_444bc5b4fa0fe14f;
 #using script_45993630a26b2d85;
 #using script_67da0c3654a906b6;
-#using script_6951ea86fdae9ae0;
-#using script_6ff72d27da99fb12;
-#using script_ddbbb750404a64b;
+#using scripts\zm_common\trials\zm_trial_attack_during_movement;
+#using scripts\zm_common\trials\zm_trial_fast_travel_rush;
+#using scripts\zm_common\trials\zm_trial_round_ending_zone;
 #using scripts\core_common\ai\zombie_utility;
 #using scripts\core_common\util_shared;
 #using scripts\zm_common\trials\zm_trial_close_quarters;
@@ -91,7 +91,7 @@ function private function_6bf7d04f( var_c766fbe6 )
     }
     else if ( level.round_number == 28 )
     {
-        assert( level.var_d77a6967.name == #"hash_7aff6c8730240d5" );
+        assert( level.var_d77a6967.name == #"heads_up_deactivated" );
         var_c766fbe6[ #"blight_father" ] = max( var_c766fbe6[ #"blight_father" ], 1 );
         var_c766fbe6[ #"stoker" ] = max( var_c766fbe6[ #"stoker" ], 1 );
         var_c766fbe6[ #"catalyst" ] = max( var_c766fbe6[ #"catalyst" ], 1 );

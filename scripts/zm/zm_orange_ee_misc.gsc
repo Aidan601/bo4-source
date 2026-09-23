@@ -42,8 +42,8 @@
 // Size: 0x84
 function preload()
 {
-    clientfield::register( "toplayer", "" + #"hash_12114abc7407913b", 24000, 1, "counter" );
-    clientfield::register( "toplayer", "" + #"hash_5e38e846ce88405b", 24000, 1, "counter" );
+    clientfield::register( "toplayer", "" + #"jump_scare_lighthouse", 24000, 1, "counter" );
+    clientfield::register( "toplayer", "" + #"jump_scare_note", 24000, 1, "counter" );
 }
 
 // Namespace zm_orange_ee_misc/zm_orange_ee_misc
@@ -58,9 +58,9 @@ function main()
     level flag::init( "facility_flinger_fixed" );
     level flag::init( #"edge_launched" );
     level flag::init( #"edge_of_the_world_complete" );
-    zm_sq::register( #"hash_12114abc7407913b", #"step_1", #"hash_5986bb2ab1879d84", &function_30ed45c9, &function_960f84d7 );
-    zm_sq::register( #"hash_5e38e846ce88405b", #"step_1", #"hash_2572fbc6efde23a8", &function_48a634b7, &function_ee63b8a7 );
-    zm_sq::register( #"hash_729a1e4eb041be9b", #"step_1", #"trinket_quest", &trinket_quest, &trinket_quest_cleanup );
+    zm_sq::register( #"jump_scare_lighthouse", #"step_1", #"hash_5986bb2ab1879d84", &jump_scare_lighthouse, &function_960f84d7 );
+    zm_sq::register( #"jump_scare_note", #"step_1", #"hash_2572fbc6efde23a8", &jump_scare_note, &function_ee63b8a7 );
+    zm_sq::register( #"trinket_tincture", #"step_1", #"trinket_quest", &trinket_quest, &trinket_quest_cleanup );
     zm_sq::register( #"edge_of_the_world", #"step_1", #"edge_quest", &edge_quest, &edge_quest_cleanup );
     zm_sq::register( #"edge_of_the_world", #"step_2", #"edge_quest", &function_8bc27fd3, &security_balcony_time_ );
     level.var_4ac8ef63 = getent( "edge_flinger_spot", "targetname" );
@@ -70,7 +70,7 @@ function main()
     zm_sq::register( #"hash_3e4c279707a5abe5", #"step_1", #"hash_3e4c279707a5abe5", &function_594f2c26, &function_5c6d5a0e );
     zm_sq::start( #"hash_66685502a7dee586", !zm_utility::is_standard() );
     zm_sq::start( #"hash_3e4c279707a5abe5", !zm_utility::is_standard() );
-    level flag::init( #"hash_431a5026505d71aa" );
+    level flag::init( #"hidden_song_2_activated" );
     function_779045();
     
     if ( zm_utility::is_ee_enabled() )
@@ -84,9 +84,9 @@ function main()
     
     if ( zm_utility::is_ee_enabled() )
     {
-        zm_sq::start( #"hash_12114abc7407913b" );
-        zm_sq::start( #"hash_5e38e846ce88405b" );
-        zm_sq::start( #"hash_729a1e4eb041be9b" );
+        zm_sq::start( #"jump_scare_lighthouse" );
+        zm_sq::start( #"jump_scare_note" );
+        zm_sq::start( #"trinket_tincture" );
         level thread function_716974ba();
         level thread sq_glasses();
         level thread hidden_song_2();
@@ -139,7 +139,7 @@ function trinket_quest( var_a276c861 )
 // Size: 0x1e4
 function trinket_think()
 {
-    level endon( #"end_game", #"hell_on_earth", #"hash_198bc172b5af7f25", #"trinkets_placed" );
+    level endon( #"end_game", #"hell_on_earth", #"trials_hell_on_earth", #"trinkets_placed" );
     self endon( #"death" );
     pap_lock = undefined;
     
@@ -175,7 +175,7 @@ function trinket_think()
 // Size: 0x1a8
 function function_abf8d5ce()
 {
-    level endon( #"end_game", #"hell_on_earth", #"trinkets_placed", #"hash_198bc172b5af7f25" );
+    level endon( #"end_game", #"hell_on_earth", #"trinkets_placed", #"trials_hell_on_earth" );
     
     while ( true )
     {
@@ -559,7 +559,7 @@ function function_a2993671()
 {
     s_notify = self waittill( #"trigger_activated" );
     player = s_notify.e_who;
-    playsoundatposition( #"hash_20807cb66d31146e", self.origin );
+    playsoundatposition( #"evt_gearbox_pickup", self.origin );
     flinger = struct::get( self.target, "targetname" );
     flinger zm_orange_fasttravel_flinger::function_60325438( 0 );
     
@@ -582,7 +582,7 @@ function function_1856c416()
 {
     s_notify = self waittill( #"trigger_activated" );
     player = s_notify.e_who;
-    playsoundatposition( #"hash_30a5ec16dcd18c49", self.origin );
+    playsoundatposition( #"evt_gearbox_install", self.origin );
     flinger = struct::get( self.target, "targetname" );
     flinger zm_orange_fasttravel_flinger::function_60325438( 1 );
     player thread zm_orange_util::function_51b752a9( "vox_generic_responses_positive", -1, 0, 0 );
@@ -786,8 +786,8 @@ function on_player_connect()
 {
     if ( zm_utility::is_trials() !== 1 )
     {
-        self thread function_dbb49281();
-        self thread function_b6b24d3a();
+        self thread track_player_eyes_lighthouse();
+        self thread track_player_eyes_note();
     }
 }
 
@@ -795,11 +795,11 @@ function on_player_connect()
 // Params 1
 // Checksum 0xb3e71a2d, Offset: 0x2be8
 // Size: 0xac
-function function_30ed45c9( var_a276c861 )
+function jump_scare_lighthouse( var_a276c861 )
 {
     foreach ( player in level.players )
     {
-        player thread function_dbb49281();
+        player thread track_player_eyes_lighthouse();
     }
     
     callback::on_connect( &on_player_connect );
@@ -809,10 +809,10 @@ function function_30ed45c9( var_a276c861 )
 // Params 0
 // Checksum 0x97e2615b, Offset: 0x2ca0
 // Size: 0x258
-function function_dbb49281()
+function track_player_eyes_lighthouse()
 {
-    self notify( #"hash_2ca5123c06ec42f0" );
-    self endon( #"disconnect", #"hash_2ca5123c06ec42f0" );
+    self notify( #"track_player_eyes_lighthouse" );
+    self endon( #"disconnect", #"track_player_eyes_lighthouse" );
     b_saw_the_wth = 0;
     var_616e76c5 = struct::get( "sq_scare_lighthouse", "targetname" );
     
@@ -829,7 +829,7 @@ function function_dbb49281()
         if ( n_time >= 30 && self adsbuttonpressed() && ( self zm_zonemgr::entity_in_zone( "main_entrance" ) || self zm_zonemgr::entity_in_zone( "outer_walkway" ) || self zm_zonemgr::entity_in_zone( "loading_platform" ) ) && is_weapon_sniper( self getcurrentweapon() ) && self zm_utility::is_player_looking_at( var_616e76c5.origin, 0.9975, 0, self ) )
         {
             self zm_utility::do_player_general_vox( "general", "scare_react", undefined, 100 );
-            self clientfield::increment_to_player( "" + #"hash_12114abc7407913b", 1 );
+            self clientfield::increment_to_player( "" + #"jump_scare_lighthouse", 1 );
             j_time = 0;
             
             while ( self adsbuttonpressed() && j_time < 5 )
@@ -858,11 +858,11 @@ function function_960f84d7( var_a276c861, var_19e802fa )
 // Params 1
 // Checksum 0xf9f89646, Offset: 0x2f20
 // Size: 0xac
-function function_48a634b7( var_a276c861 )
+function jump_scare_note( var_a276c861 )
 {
     foreach ( player in level.players )
     {
-        player thread function_b6b24d3a();
+        player thread track_player_eyes_note();
     }
     
     callback::on_connect( &on_player_connect );
@@ -872,10 +872,10 @@ function function_48a634b7( var_a276c861 )
 // Params 0
 // Checksum 0xb242246b, Offset: 0x2fd8
 // Size: 0x256
-function function_b6b24d3a()
+function track_player_eyes_note()
 {
-    self notify( #"hash_7bbb3fe051fd6c74" );
-    self endon( #"disconnect", #"hash_7bbb3fe051fd6c74" );
+    self notify( #"track_player_eyes_note" );
+    self endon( #"disconnect", #"track_player_eyes_note" );
     var_11dc5e9d = 144;
     b_saw_the_wth = 0;
     var_616e76c5 = struct::get( "sq_scare_note", "targetname" );
@@ -893,7 +893,7 @@ function function_b6b24d3a()
         if ( n_time >= 30 && distance( self.origin, var_616e76c5.origin ) <= var_11dc5e9d && self zm_zonemgr::entity_in_zone( "forecastle" ) && self zm_utility::is_player_looking_at( var_616e76c5.origin, 0.9975, 0, self ) && self getstance() === "crouch" )
         {
             self zm_utility::do_player_general_vox( "general", "scare_react", undefined, 100 );
-            self clientfield::increment_to_player( "" + #"hash_5e38e846ce88405b", 1 );
+            self clientfield::increment_to_player( "" + #"jump_scare_note", 1 );
             b_saw_the_wth = 1;
         }
         
@@ -1024,7 +1024,7 @@ function function_bc1ff036()
 // Size: 0x188
 function function_8bc27fd3( var_5ea5c94d )
 {
-    level endon( #"end_game", #"hell_on_earth", #"hash_198bc172b5af7f25" );
+    level endon( #"end_game", #"hell_on_earth", #"trials_hell_on_earth" );
     
     if ( !var_5ea5c94d )
     {
@@ -1065,7 +1065,7 @@ function security_balcony_time_( var_5ea5c94d, ended_early )
     
     level flag::set( #"edge_of_the_world_complete" );
     s_exit = struct::get( "edge_exit", "targetname" );
-    player = s_exit zm_unitrigger::function_fac87205( zm_utility::function_d6046228( #"hash_2f168c7542029caa", #"hash_71bb91d3e3e956ee" ) );
+    player = s_exit zm_unitrigger::function_fac87205( zm_utility::function_d6046228( #"zm_orange/edge_exit", #"hash_71bb91d3e3e956ee" ) );
     player notify( #"edge_exit" );
 }
 
@@ -1086,7 +1086,7 @@ function function_1b0e51b5()
             self forceoffhandend();
         }
         
-        self notify( #"hash_53bfad7081c69dee" );
+        self notify( #"water_player_freeze_broken" );
         self zm_bgb_anywhere_but_here::activation( 0 );
         
         if ( getplayers().size == 1 )
@@ -1119,7 +1119,7 @@ function edge_exit_watcher()
             self forceoffhandend();
         }
         
-        self notify( #"hash_53bfad7081c69dee" );
+        self notify( #"water_player_freeze_broken" );
         self zm_bgb_anywhere_but_here::activation( 0 );
         
         if ( getplayers().size == 1 )
@@ -1198,9 +1198,9 @@ function hidden_song_2()
     s_location = struct::spawn( ( -528, 1196, 320 ) );
     s_unitrigger = s_location zm_unitrigger::create( "", 32 );
     s_location thread function_cabcfdd2();
-    waitresult = level flag::wait_till_any( array( #"hash_778a2b8282d704f", #"hash_431a5026505d71aa" ) );
+    waitresult = level flag::wait_till_any( array( #"hash_778a2b8282d704f", #"hidden_song_2_activated" ) );
     
-    if ( waitresult._notify === #"hash_431a5026505d71aa" )
+    if ( waitresult._notify === #"hidden_song_2_activated" )
     {
         if ( level.musicsystem.currentplaytype < 4 )
         {
@@ -1220,7 +1220,7 @@ function hidden_song_2()
 function function_cabcfdd2()
 {
     level endon( #"hash_778a2b8282d704f" );
-    level endon( #"hash_431a5026505d71aa" );
+    level endon( #"hidden_song_2_activated" );
     var_b3ee22cc = 0;
     
     while ( true )
@@ -1234,7 +1234,7 @@ function function_cabcfdd2()
         {
             playsoundatposition( #"hash_4d9caefa6e6dd2e7", self.origin );
             wait 3;
-            level flag::set( #"hash_431a5026505d71aa" );
+            level flag::set( #"hidden_song_2_activated" );
         }
     }
 }

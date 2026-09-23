@@ -1,12 +1,12 @@
 {
-    "name": "#hash_7b1e1dc15848a40b",
+    "name": "#loot_emote_exotic_shared_bottle_rocket",
     "type": "#gesture",
-    "gesture": "#hash_69008a4c303d75ec",
-    "gesture2": "#hash_4d2b3d70b00c7f1f",
+    "gesture": "#boast_bottle_rocket",
+    "gesture2": "#boast_bottle_rocket_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_5886d6c2800eddff",
-        "icon": "image#hash_4a0ccb3501889560",
+        "title": "localized18#emotes/rocketeer",
+        "icon": "image#ui_icon_emotes_bottlerocket",
         "isdefault": 0
     }
 }

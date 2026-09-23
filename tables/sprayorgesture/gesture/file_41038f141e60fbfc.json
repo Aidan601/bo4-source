@@ -1,12 +1,12 @@
 {
-    "name": "#hash_41038f141e60fbfc",
+    "name": "#loot_emote_shared_thumbs_up",
     "type": "#gesture",
-    "gesture": "#hash_5d21420f76cbbac2",
-    "gesture2": "#hash_1bafbcc58d9fc39d",
+    "gesture": "#boast_thumbs_up",
+    "gesture2": "#boast_thumbs_up_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_3e8ef80b59137cd4",
-        "icon": "image#hash_404e1c58fc281a3f",
+        "icon": "image#ui_icon_emotes_thumbs_up",
         "isdefault": 1
     }
 }

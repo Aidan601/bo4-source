@@ -10,10 +10,10 @@
     "vehicleRidersBundle": "#veh_bo3_mil_apc_riders",
     "deathFx": "#explosions/fx_vexp_truck_pickup",
     "deathFxTag": "tag_origin",
-    "deathFxSound": "#hash_2149db0c502305e3",
+    "deathFxSound": "#exp_armor_vehicle",
     "lightFx": [
-        "#hash_1dc451a16def3d6",
-        "#hash_1dc451a16def3d6"
+        "#vehicle/fx_headlight_hemtt_left",
+        "#vehicle/fx_headlight_hemtt_left"
     ],
     "lightFxTag": [
         "tag_fx_headlight_left",
@@ -58,6 +58,6 @@
     "rumbletype": "tank_rumble",
     "bundle": {
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

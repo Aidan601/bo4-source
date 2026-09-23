@@ -1,5 +1,5 @@
 {
-    "name": "#hash_1519b7131242305e",
+    "name": "#dlog_event_keybinds_gp",
     "ddlDef": "#gamedata/ddl/generated/dlog_event_keybinds_gp.ddl",
     "unk18": 0,
     "unk19": 1,
@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -71,7 +71,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -98,7 +98,7 @@
         },
         {
             "name": "#vehiclemoveup",
-            "scrName": "#hash_411d546c",
+            "scrName": "#vehiclemoveup",
             "type": "STRING",
             "len": 24
         },
@@ -343,7 +343,7 @@
         },
         {
             "name": "#breath_holdsprint",
-            "scrName": "#hash_ebf6b2cf",
+            "scrName": "#breath_holdsprint",
             "type": "STRING",
             "len": 24
         },
@@ -409,7 +409,7 @@
         },
         {
             "name": "#vehiclemovedown",
-            "scrName": "#hash_c84fa172",
+            "scrName": "#vehiclemovedown",
             "type": "STRING",
             "len": 24
         },
@@ -426,8 +426,8 @@
             "len": 24
         },
         {
-            "name": "#hash_54c88672dfdcc78a",
-            "scrName": "#hash_163c76a7",
+            "name": "#toggleads_throw",
+            "scrName": "#toggleads_throw",
             "type": "STRING",
             "len": 24
         },
@@ -480,8 +480,8 @@
             "len": 24
         },
         {
-            "name": "#hash_5d0b479ede0393d4",
-            "scrName": "#hash_e05a9619",
+            "name": "#spraygesturewheel",
+            "scrName": "#spraygesturewheel",
             "type": "STRING",
             "len": 24
         },
@@ -552,8 +552,8 @@
             "len": 24
         },
         {
-            "name": "#hash_6a928eea40351a0f",
-            "scrName": "#hash_28efa829",
+            "name": "#vehicleattacksecond",
+            "scrName": "#vehicleattacksecond",
             "type": "STRING",
             "len": 24
         },
@@ -672,32 +672,32 @@
             "len": 24
         },
         {
-            "name": "#hash_78ac9e7c35c462a6",
-            "scrName": "#hash_676102f1",
+            "name": "#vehicleseat4",
+            "scrName": "#vehicleseat4",
             "type": "STRING",
             "len": 24
         },
         {
-            "name": "#hash_78ac9f7c35c46459",
-            "scrName": "#hash_dd2bee95",
+            "name": "#vehicleseat5",
+            "scrName": "#vehicleseat5",
             "type": "STRING",
             "len": 24
         },
         {
             "name": "#vehicleseat2",
-            "scrName": "#hash_cb8c4b3a",
+            "scrName": "#vehicleseat2",
             "type": "STRING",
             "len": 24
         },
         {
-            "name": "#hash_78aca17c35c467bf",
-            "scrName": "#hash_95215e71",
+            "name": "#vehicleseat3",
+            "scrName": "#vehicleseat3",
             "type": "STRING",
             "len": 24
         },
         {
-            "name": "#hash_78aca37c35c46b25",
-            "scrName": "#hash_798ca748",
+            "name": "#vehicleseat1",
+            "scrName": "#vehicleseat1",
             "type": "STRING",
             "len": 24
         },

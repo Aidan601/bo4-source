@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_635096aad241b550",
+                            "anim": "anim#p8_fxanim_mp_gridlock_highway_collapse_lantern_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -33,12 +33,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_683919b94140b363",
+            "model": "model#p8_fxanim_mp_gridlock_highway_collapse_lantern_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -60,7 +60,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_47edda3c6b7d6f5a",
+                            "anim": "anim#p8_fxanim_mp_gridlock_highway_collapse_road_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -88,12 +88,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_50b303d569139211",
+            "model": "model#p8_fxanim_mp_gridlock_highway_collapse_road_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

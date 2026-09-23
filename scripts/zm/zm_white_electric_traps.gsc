@@ -175,7 +175,7 @@ function function_d12e5ff9( e_player )
         return 1;
     }
     
-    self sethintstring( #"hash_23c1c09e94181fdb", 1000 );
+    self sethintstring( #"zombie/button_buy_trap", 1000 );
     return 1;
 }
 
@@ -226,7 +226,7 @@ function electric_trap_think()
                 continue;
             }
             
-            self.stub.related_parent.trap_struct notify( #"hash_5c14ac54b628d28" );
+            self.stub.related_parent.trap_struct notify( #"electric_trap_activated" );
             self.stub.related_parent.trap_struct.e_activator = e_who;
             
             if ( !( isdefined( level.var_3c9cfd6f ) && level.var_3c9cfd6f ) && zm_audio::can_speak() )
@@ -248,7 +248,7 @@ function function_f118c57a( e_player )
     
     while ( true )
     {
-        self waittill( #"hash_5c14ac54b628d28" );
+        self waittill( #"electric_trap_activated" );
         function_91ecec97( self.a_e_lights, "p8_zm_off_trap_switch_light_red_on" );
         self.var_6b64b967 = 1;
         e_who = self.e_activator;
@@ -301,8 +301,8 @@ function function_193dbfbb()
     n_check_time = 0.1;
     n_sequence = 1;
     var_34e4f6b8 = spawn( "script_origin", self.origin );
-    var_34e4f6b8 playsound( #"hash_1fb395621513432f" );
-    var_34e4f6b8 playloopsound( #"hash_177d7a6df8ed0d7b" );
+    var_34e4f6b8 playsound( #"wpn_electric_trap_start" );
+    var_34e4f6b8 playloopsound( #"wpn_electric_trap_loop" );
     
     foreach ( var_131f4c21 in self.var_5aecd907 )
     {
@@ -334,7 +334,7 @@ function function_193dbfbb()
     
     if ( isdefined( var_34e4f6b8 ) )
     {
-        playsoundatposition( #"hash_3819c6cd06a27f15", var_34e4f6b8.origin );
+        playsoundatposition( #"wpn_electric_trap_stop", var_34e4f6b8.origin );
         var_34e4f6b8 delete();
     }
     
@@ -517,7 +517,7 @@ function electrocute_zombie( e_activator, e_volume )
         refs[ 5 ] = "no_legs";
         refs[ 6 ] = "head";
         self.a.gib_ref = refs[ randomint( refs.size ) ];
-        playsoundatposition( #"hash_5183b687ad8d715a", self.origin );
+        playsoundatposition( #"wpn_electric_trap_hit", self.origin );
         
         if ( randomint( 100 ) > 50 )
         {
@@ -527,7 +527,7 @@ function electrocute_zombie( e_activator, e_volume )
         bhtnactionstartevent( self, "electrocute" );
         self notify( #"bhtn_action_notify", { #action:"electrocute" } );
         wait randomfloat( 1.25 );
-        self playsound( #"hash_5183b687ad8d715a" );
+        self playsound( #"wpn_electric_trap_hit" );
     }
     
     self dodamage( self.health + 666, self.origin, e_activator, e_volume );
@@ -590,7 +590,7 @@ function function_9492f89b( v_volume, var_1e034eed )
     
     if ( self.var_58538bef && ( self zm_utility::is_jumping() || self issliding() ) )
     {
-        self notify( #"hash_15541419dbbe7e1a" );
+        self notify( #"avoid_electric_trap" );
     }
     
     self.var_58538bef = undefined;

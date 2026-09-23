@@ -62,7 +62,7 @@ function init_level_vars()
     level.var_d7853f35 = 18;
     level.var_ecdf38f = 12;
     level.var_55e562f9 = 18;
-    level.zombie_hints[ #"default_treasure_chest" ] = #"hash_57a34375dddce337";
+    level.zombie_hints[ #"default_treasure_chest" ] = #"zombie/random_weapon_free";
     level thread defend_areas();
     level thread init_crafting();
     level thread init_traps();
@@ -197,7 +197,7 @@ function defend_areas()
     zm_utility::function_33798535( s_defend_area.var_39c44288, s_defend_area.a_str_zones, s_defend_area.var_ed1db1a7, undefined, undefined, 45 );
     level flag::set( #"hash_13bc135937af9be2" );
     level flag::set( "power_on2" );
-    level flag::set( #"hash_7d9f8ec3cb9af87e" );
+    level flag::set( #"zipline_handle_picked_up" );
     level flag::clear( "fasttravel_disabled" );
     level flag::set( "ship_flinger_fixed" );
     level flag::set( #"facility_available" );
@@ -258,7 +258,7 @@ function function_c87db3f7( str_next_defend )
     level waittill( #"creating_zone_defend_area" );
     level flag::wait_till( "started_defend_area" );
     level flag::set( "fasttravel_disabled" );
-    level waittill( #"hash_7a04a7fb98fa4e4d" );
+    level waittill( #"end_defend_area" );
     wait 2;
     level flag::clear( "fasttravel_disabled" );
 }
@@ -285,7 +285,7 @@ function function_ae7c2601( n_max )
 // Params 0
 // Checksum 0x4e43ac1e, Offset: 0x1b98
 // Size: 0x86
-function function_74872db6()
+function on_round_begin()
 {
     if ( level.round_number <= 7 )
     {
@@ -328,7 +328,7 @@ function function_7b3abf7b()
 // Size: 0x9c
 function intro_zombie_dog( n_round_number )
 {
-    level endon( #"hash_7a04a7fb98fa4e4d" );
+    level endon( #"end_defend_area" );
     n_spawn_count = 0;
     
     while ( n_spawn_count < 3 )
@@ -362,7 +362,7 @@ function function_b4cae8b9()
 // Size: 0x94
 function intro_electric_zombie( n_round_number )
 {
-    level endon( #"hash_7a04a7fb98fa4e4d" );
+    level endon( #"end_defend_area" );
     n_spawn_count = 0;
     
     while ( n_spawn_count < 3 )
@@ -422,7 +422,7 @@ function function_a39e7a56()
         
         if ( isdefined( ai ) )
         {
-            n_delay = isdefined( zombie_utility::get_zombie_var( #"zombie_spawn_delay" ) ) ? zombie_utility::get_zombie_var( #"zombie_spawn_delay" ) : zombie_utility::get_zombie_var( #"hash_7d5a25e2463f7fc5" );
+            n_delay = isdefined( zombie_utility::get_zombie_var( #"zombie_spawn_delay" ) ) ? zombie_utility::get_zombie_var( #"zombie_spawn_delay" ) : zombie_utility::get_zombie_var( #"zombie_spawn_delay_base" );
             level.defend_spawns++;
             wait n_delay;
             return true;
@@ -611,7 +611,7 @@ function registerlast_truck_headshot_()
 function function_a97f7327()
 {
     level zm_utility::function_7a35b1d7( #"hash_299d0a3534135476" );
-    level thread zm_audio::sndannouncerplayvox( #"hash_3acd6d72567def3a", undefined, undefined, undefined, 1 );
+    level thread zm_audio::sndannouncerplayvox( #"door_open_all", undefined, undefined, undefined, 1 );
 }
 
 // Namespace zm_orange_zstandard/zm_orange_zstandard
@@ -652,7 +652,7 @@ function function_80a9077f()
             
             s_zipline_crank.var_3bc09679 thread scene::play( "move_down_9" );
             s_zipline_crank.var_68a09be4 = 1;
-            s_zipline_crank notify( #"hash_6c3e5c135959d4ec" );
+            s_zipline_crank notify( #"zipline_in_place" );
         }
     }
 }
@@ -686,7 +686,7 @@ function function_f8dc2ddb( n_obj_id )
     
     while ( true )
     {
-        s_results = self waittill( #"hash_702a9c7f10066b19", #"death" );
+        s_results = self waittill( #"zipline_use_detected", #"death" );
         
         if ( s_results.str_location === "lighthouse_to_facility" || s_results._notify === "death" )
         {

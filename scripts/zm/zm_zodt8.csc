@@ -1,4 +1,4 @@
-#using script_54a67b7ed7b385e6;
+#using scripts\zm\zm_zodt8_wonder_weapon_quest;
 #using scripts\core_common\audio_shared;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\clientfield_shared;
@@ -75,7 +75,7 @@ function event_handler[level_init] main( eventstruct )
     level._effect[ #"pap_projectile_end" ] = #"hash_6c0eb029adb5f6c6";
     level.var_24cb6ae8 = findvolumedecalindexarray( "cargo_hold_water_puddles" );
     level.var_ec4c3b67 = findvolumedecalindexarray( "engine_room_water_puddles" );
-    level.var_59d3631c = #"hash_129339f4a4da8ea2";
+    level.var_59d3631c = #"p8_fxanim_zm_pap_mod";
     level.var_d0ab70a2 = #"gamedata/weapons/zm/zm_zodt8_weapons.csv";
     zodt8_pap_quest::init();
     zodt8_sentinel::init();
@@ -331,7 +331,7 @@ function function_5b0384a( localclientnum, oldval, newval, bnewent, binitialsnap
 // Size: 0x9c
 function function_53da552d( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    var_a1b31107 = #"hash_d3b7cb6eb2177fb";
+    var_a1b31107 = #"wpn_t8_zm_broadside_cannon_prop_animate";
     ww_base = getweapon( #"ww_tricannon_t8" );
     addzombieboxweapon( ww_base, var_a1b31107, 0 );
 }
@@ -484,7 +484,7 @@ function update_wave_water( localclientnum )
     
     if ( !self flag::get( "water_drained" ) )
     {
-        function_c1129a39( var_b965688c, ( 0, 0, -1 ), 30 );
+        puppying( var_b965688c, ( 0, 0, -1 ), 30 );
     }
     
     while ( isdefined( self ) && self flag::get( "update_water" ) )
@@ -494,7 +494,7 @@ function update_wave_water( localclientnum )
         waitframe( 1 );
     }
     
-    function_c1129a39( var_b965688c, ( 0, 0, 0 ), 0 );
+    puppying( var_b965688c, ( 0, 0, 0 ), 0 );
 }
 
 // Namespace zm_zodt8/zm_zodt8
@@ -639,7 +639,7 @@ function pap_projectile_fx( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( !isdefined( self.var_353ff2a ) )
         {
-            self.var_353ff2a = self playloopsound( #"hash_2ac2bbbfef2face4" );
+            self.var_353ff2a = self playloopsound( #"zmb_sentinel_trial_pap_projectile" );
         }
         
         return;
@@ -683,7 +683,7 @@ function sentinel_artifact_activated( localclientnum, oldval, newval, bnewent, b
     {
         self.fx = util::playfxontag( localclientnum, level._effect[ #"sentinel_aura" ], self, "tag_fx_x_pos" );
         self playrenderoverridebundle( #"hash_1589a47f2fdc6c67" );
-        self.sfx_id = self playloopsound( #"hash_66df9cab2c64f968" );
+        self.sfx_id = self playloopsound( #"zmb_sentinel_artifact_ghosted_lp" );
         return;
     }
     
@@ -694,7 +694,7 @@ function sentinel_artifact_activated( localclientnum, oldval, newval, bnewent, b
             self stoploopsound( self.sfx_id );
         }
         
-        self playsound( localclientnum, #"hash_75b9c9ad6ebe8af2" );
+        self playsound( localclientnum, #"zmb_sentinel_artifact_activate" );
         self stoprenderoverridebundle( #"hash_1589a47f2fdc6c67" );
         
         if ( isdefined( self.fx ) )
@@ -705,7 +705,7 @@ function sentinel_artifact_activated( localclientnum, oldval, newval, bnewent, b
         
         util::playfxontag( localclientnum, level._effect[ #"sentinel_activate" ], self, "tag_fx_x_pos" );
         
-        while ( isdefined( self ) && self.model !== #"hash_2c0078538e398b4f" )
+        while ( isdefined( self ) && self.model !== #"p8_zm_zod_artifact_combined_fire_all" )
         {
             waitframe( 1 );
         }
@@ -722,8 +722,8 @@ function sentinel_artifact_activated( localclientnum, oldval, newval, bnewent, b
         self.fx = undefined;
     }
     
-    self playsound( localclientnum, #"hash_5de064f33e9e49b8" );
-    self playsound( localclientnum, #"hash_3d8fef5997663b17" );
+    self playsound( localclientnum, #"zmb_sentinel_artifact_explode" );
+    self playsound( localclientnum, #"zmb_sentinel_trial_activate_2d" );
 }
 
 // Namespace zm_zodt8/zm_zodt8
@@ -794,7 +794,7 @@ function function_b7fc06b2( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x5c
 function water_splashies( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    self postfx::playpostfxbundle( #"hash_50d5d465e2b9b355" );
+    self postfx::playpostfxbundle( #"pstfx_sprite_rain_splash" );
 }
 
 // Namespace zm_zodt8/zm_zodt8

@@ -47,11 +47,11 @@ function function_27473e44()
 {
     if ( function_8b1a219a() )
     {
-        zm_perks::register_perk_basic_info( #"specialty_wolf_protector", #"perk_wolf_protector", 3000, #"hash_4cacb949ec1378", getweapon( "zombie_perk_bottle_wolf_protector" ), getweapon( "zombie_perk_totem_wolf_protector" ), #"zmperkswolfprotector" );
+        zm_perks::register_perk_basic_info( #"specialty_wolf_protector", #"perk_wolf_protector", 3000, #"zombie/perk_wolf_protector_keyboard", getweapon( "zombie_perk_bottle_wolf_protector" ), getweapon( "zombie_perk_totem_wolf_protector" ), #"zmperkswolfprotector" );
     }
     else
     {
-        zm_perks::register_perk_basic_info( #"specialty_wolf_protector", #"perk_wolf_protector", 3000, #"hash_5b2099ef891bc954", getweapon( "zombie_perk_bottle_wolf_protector" ), getweapon( "zombie_perk_totem_wolf_protector" ), #"zmperkswolfprotector" );
+        zm_perks::register_perk_basic_info( #"specialty_wolf_protector", #"perk_wolf_protector", 3000, #"zombie/perk_wolf_protector", getweapon( "zombie_perk_bottle_wolf_protector" ), getweapon( "zombie_perk_totem_wolf_protector" ), #"zmperkswolfprotector" );
     }
     
     zm_perks::register_perk_clientfields( #"specialty_wolf_protector", &register_clientfield, &set_clientfield );
@@ -216,7 +216,7 @@ function on_disconnect()
     {
         self.var_5e8ff98e val::reset( #"wolf_protector", "takedamage" );
         self.var_5e8ff98e clientfield::set( "wolf_protector_fx", 0 );
-        self.var_5e8ff98e playsound( #"hash_55c72512f51a5e87" );
+        self.var_5e8ff98e playsound( #"evt_wolf_protector_despawn" );
         self.var_5e8ff98e thread util::delayed_delete( 0.1 );
     }
 }
@@ -260,7 +260,7 @@ function function_f3cd6eac()
                 iprintlnbold( "<dev string:x58>" );
             #/
             
-            self playsound( #"hash_7c5128882f070d07" );
+            self playsound( #"fly_dog_whistle_call" );
             self notify( #"wolf_protector_spawn" );
             wait 1.5;
             
@@ -350,7 +350,7 @@ function spawn_shockwave()
     {
         if ( isactor( ai ) )
         {
-            ai playsound( #"hash_22ff6701cf652785" );
+            ai playsound( #"zmb_bgb_abh_zombie_explode" );
             ai.marked_for_recycle = 1;
             ai.has_been_damaged_by_player = 0;
             ai dodamage( ai.health + 1000, self.origin, self );
@@ -453,7 +453,7 @@ function function_6d80c359()
         self thread function_166fb685( self.var_9a054c95 );
         self.var_5e8ff98e val::reset( #"wolf_protector", "takedamage" );
         self.var_5e8ff98e clientfield::set( "wolf_protector_fx", 0 );
-        self.var_5e8ff98e playsound( #"hash_55c72512f51a5e87" );
+        self.var_5e8ff98e playsound( #"evt_wolf_protector_despawn" );
         self.var_5e8ff98e thread util::delayed_delete( 0.1 );
     }
 }

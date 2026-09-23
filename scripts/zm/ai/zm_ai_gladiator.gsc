@@ -199,8 +199,8 @@ function registerbehaviorscriptfunctions()
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_1d96f193711e7602", &function_61e7d5f5 );
     assert( isscriptfunctionptr( &function_6bbfa1a0 ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_753bdf09b9b21d9a", &function_6bbfa1a0 );
-    assert( isscriptfunctionptr( &function_dd674e3c ) );
-    behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_649ab6146cce9955", &function_dd674e3c );
+    assert( isscriptfunctionptr( &gladiatorisrunning ) );
+    behaviortreenetworkutility::registerbehaviortreescriptapi( #"gladiatorisrunning", &gladiatorisrunning );
     assert( isscriptfunctionptr( &function_7468904d ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_19966227fe912af8", &function_7468904d );
     assert( isscriptfunctionptr( &gladiatorshouldreact ) );
@@ -215,8 +215,8 @@ function registerbehaviorscriptfunctions()
     behaviorstatemachine::registerbsmscriptapiinternal( #"gladiatorpickaxe", &gladiatorpickaxe );
     assert( isscriptfunctionptr( &function_7891bd9b ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_2ec3db12905e5ef2", &function_7891bd9b );
-    assert( isscriptfunctionptr( &function_490a290d ) );
-    behaviortreenetworkutility::registerbehaviortreescriptapi( #"gladiatormeleeend", &function_490a290d );
+    assert( isscriptfunctionptr( &gladiatormeleeend ) );
+    behaviortreenetworkutility::registerbehaviortreescriptapi( #"gladiatormeleeend", &gladiatormeleeend );
     assert( isscriptfunctionptr( &function_6719445a ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_7a99cf7ed75b85d4", &function_6719445a );
     assert( isscriptfunctionptr( &function_fced00e1 ) );
@@ -227,8 +227,8 @@ function registerbehaviorscriptfunctions()
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_1c6cfcf6fdb404ff", &function_dfbf9d5e );
     assert( isscriptfunctionptr( &function_8d49edfa ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_50e5d4b2634f5877", &function_8d49edfa );
-    assert( isscriptfunctionptr( &function_990c9627 ) );
-    behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_52aa25564f02b9a1", &function_990c9627 );
+    assert( isscriptfunctionptr( &amias ) );
+    behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_52aa25564f02b9a1", &amias );
     assert( isscriptfunctionptr( &function_6ba071ff ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_2d6fdeb321d8ce80", &function_6ba071ff );
     assert( isscriptfunctionptr( &function_3ca98f5a ) );
@@ -239,7 +239,7 @@ function registerbehaviorscriptfunctions()
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_3378ea427701f557", &function_c6c44df1 );
     assert( isscriptfunctionptr( &function_c6c44df1 ) );
     behaviorstatemachine::registerbsmscriptapiinternal( #"hash_3378ea427701f557", &function_c6c44df1 );
-    animationstatenetwork::registeranimationmocomp( "mocomp_gladiator_leap", &registerhud_message_electricity_, &function_3f15e557, &function_96f1cbf6 );
+    animationstatenetwork::registeranimationmocomp( "mocomp_gladiator_leap", &registerhud_message_electricity_, &function_3f15e557, &mocompgladiatorleapend );
     animationstatenetwork::registeranimationmocomp( "mocomp_gladiator_throw", &function_3137174f, &function_64cd870, &function_d9e4ebc8 );
     animationstatenetwork::registeranimationmocomp( "mocomp_gladiator_run_melee", &function_37d33f09, &function_3f7c46a, &function_2bc1ffb8 );
     animationstatenetwork::registernotetrackhandlerfunction( "gladiator_melee", &function_cdef55f0 );
@@ -834,7 +834,7 @@ function private function_7891bd9b( entity )
 // Params 1, eflags: 0x4
 // Checksum 0x132b15c7, Offset: 0x2e78
 // Size: 0x2c
-function private function_490a290d( entity )
+function private gladiatormeleeend( entity )
 {
     entity pathmode( "move allowed" );
 }
@@ -871,7 +871,7 @@ function private function_6bbfa1a0( entity )
 // Params 1, eflags: 0x4
 // Checksum 0x2eb3b0f1, Offset: 0x2f30
 // Size: 0x50, Type: bool
-function private function_dd674e3c( entity )
+function private gladiatorisrunning( entity )
 {
     locomotionspeed = entity getblackboardattribute( "_locomotion_speed" );
     
@@ -992,7 +992,7 @@ function private function_dfbf9d5e( entity )
 // Params 1, eflags: 0x4
 // Checksum 0x2ecb368c, Offset: 0x3248
 // Size: 0x2c
-function private function_990c9627( entity )
+function private amias( entity )
 {
     entity pathmode( "dont move", 1 );
 }
@@ -1191,7 +1191,7 @@ function function_3f15e557( entity, mocompanim, mocompanimblendouttime, mocompan
 // Params 5
 // Checksum 0x6d797814, Offset: 0x4080
 // Size: 0xbe
-function function_96f1cbf6( entity, mocompanim, mocompanimblendouttime, mocompanimflag, mocompduration )
+function mocompgladiatorleapend( entity, mocompanim, mocompanimblendouttime, mocompanimflag, mocompduration )
 {
     entity.blockingpain = 0;
     entity.var_5dd07a80 = undefined;
@@ -1511,7 +1511,7 @@ function private function_75f32da6( inflictor, attacker, damage, idflags, meanso
                 if ( isdefined( level.var_36fff581 ) && !var_a7d0fdac )
                 {
                     self [[ level.var_36fff581 ]]( attacker );
-                    playsoundatposition( #"hash_10711c56d7aa52d5", self.origin + ( 0, 0, 30 ) );
+                    playsoundatposition( #"zmb_ai_gladiator_damage_armor", self.origin + ( 0, 0, 30 ) );
                 }
                 
                 if ( var_dd54fdb1.hitloc == "helmet" )
@@ -1781,7 +1781,7 @@ function private function_88d65504( axe, var_7900b267, move_pos )
     if ( trace[ #"fraction" ] < 1 )
     {
         hit_ent = trace[ #"entity" ];
-        level notify( #"hash_435816ec8f13c19b", { #var_f1445bd6:trace, #ai_gladiator:self, #mdl_axe:axe, #hit_ent:hit_ent } );
+        level notify( #"gladiator_axe_hit", { #var_f1445bd6:trace, #ai_gladiator:self, #mdl_axe:axe, #hit_ent:hit_ent } );
         
         if ( isdefined( hit_ent ) )
         {
@@ -2267,7 +2267,7 @@ function function_831dd6bd()
         while ( true )
         {
             waitframe( 1 );
-            string = getdvarstring( #"hash_1a45d40a78c47d72", "<dev string:x41>" );
+            string = getdvarstring( #"gladiator_devgui_cmd", "<dev string:x41>" );
             cmd = strtok( string, "<dev string:x228>" );
             gladiators = getaiarchetypearray( #"gladiator" );
             
@@ -2311,7 +2311,7 @@ function function_831dd6bd()
                 }
             }
             
-            setdvar( #"hash_1a45d40a78c47d72", "<dev string:x41>" );
+            setdvar( #"gladiator_devgui_cmd", "<dev string:x41>" );
         }
     }
 

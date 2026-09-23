@@ -1,11 +1,11 @@
 {
-    "name": "#hash_519c031339388456",
+    "name": "#loot_tags_poster_prophet",
     "type": "#tag",
-    "material": "#hash_33d75033878f191a",
+    "material": "#vd/mtl_loot_ui_icon_tags_poster_prophet",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_7a9b1ff0ba187254",
-        "icon": "image#hash_692c948203c1c133",
+        "icon": "image#loot_ui_icon_tags_poster_prophet",
         "isdefault": 0
     }
 }

@@ -1,7 +1,7 @@
 {
-    "name": "#hash_490c53da5c473e11",
-    "model": "#hash_3ccd55b5ed76c41b",
-    "unk20": "#hash_56969d3163e40a15",
+    "name": "#destructible_t8_civ_car_classic_muscle_dirty_blu_california",
+    "model": "#veh_t8_civ_car_classic_muscle_dest_dirty_blu_california",
+    "unk20": "#veh_t8_civ_car_classic_muscle_dead_blu",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [
@@ -11,14 +11,14 @@
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_21d849eee4d897a",
+                    "name": "#dst_car_rad_steam",
                     "unk28": "tag_body_d0"
                 },
                 {
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_5eb690639ce50eba",
+                    "name": "#dst_car_fire",
                     "unk28": "tag_body_d0"
                 },
                 {

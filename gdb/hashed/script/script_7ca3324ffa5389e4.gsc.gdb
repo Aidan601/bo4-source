@@ -1,4 +1,4 @@
-NAME script_7ca3324ffa5389e4
+NAME scripts/core_common/player/player_free_fall_util.csc
 VERSION 0
 CHECKSUM 0x2c52dc04
 ######################################################

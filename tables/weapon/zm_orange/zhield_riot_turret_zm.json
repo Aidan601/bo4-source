@@ -29,12 +29,12 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound140": "#hash_1f1d143c192cb526",
-    "sound150": "#hash_1685733c5c476e4b",
-    "sound180": "#hash_3b2202fcb577fdf3",
-    "sound190": "#hash_3d2552f30c8fd950",
-    "sound3e0": "#hash_60f9893b7fbb721d",
-    "gadgetreadysoundplayer": "#hash_e4fc19c0c8c3b87",
+    "sound140": "#wpn_pistol_fullauto_fire_npc",
+    "sound150": "#wpn_pistol_fullauto_fire_plr",
+    "sound180": "#wpn_pistol_npc_full_decay",
+    "sound190": "#wpn_pistol_plr_full_decay",
+    "sound3e0": "#mpl_hero_weap_lose",
+    "gadgetreadysoundplayer": "#uin_hero_notify_general",
     "sound660": "#uin_unavailable_charging",
     "sound670": "#hash_2f3bcd050faf2acb",
     "sound680": "#hash_5e8660540cb00c6",
@@ -51,10 +51,10 @@
         "#pistol_enemy"
     ],
     "viewmodel": [
-        "#hash_10c4ac12157186cc"
+        "#wpn_t8_zm_classified_shield_turret_view"
     ],
     "worldModel": [
-        "#hash_511638854c2cd007"
+        "#wpn_t8_zm_classified_shield_turret_world"
     ],
     "gadgetIconAvailable": "#ui_icon_weapons_zm_shield_buckler",
     "gadgetIconUnavailable": "#ui_icon_weapons_zm_shield_buckler",
@@ -78,10 +78,10 @@
     "exitImpactSounds": "#bullet_exit",
     "#hash_21329beb": [
         {
-            "model": "#hash_511638854c2cd007"
+            "model": "#wpn_t8_zm_classified_shield_turret_world"
         },
         {
-            "model": "#hash_511638854c2cd007"
+            "model": "#wpn_t8_zm_classified_shield_turret_world"
         }
     ]
 }

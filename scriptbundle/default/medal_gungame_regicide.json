@@ -5,6 +5,6 @@
     "name": "medal_gungame_regicide",
     "backinglarge": "image#$whitetransparent",
     "iconsmall": "image#ui_icon_medal_gungame_regicide",
-    "stringref": "localized17#hash_272bc65953e06aaa",
+    "stringref": "localized17#medal/medal_gungame_regicide",
     "iconlarge": "image#ui_icon_medal_gungame_regicide_large"
 }

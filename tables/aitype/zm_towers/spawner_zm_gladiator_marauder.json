@@ -18,17 +18,17 @@
         "#c_t8_zmb_dlc0_zombie_marauder1"
     ],
     "animMappingTables": [
-        "#hash_715898036aa8e6d1"
+        "#zm_gladiator_marauder.ai_am"
     ],
     "meleeWeapon": "#gladiator_melee",
     "aimTable": "#soldier_aim",
-    "footstepTable": "#hash_5cfd6196b2b2b763",
+    "footstepTable": "#ai_gladiator_step_table",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_7154a1036aa50d45",
-    "animStateMachine": "#hash_4292edce3d1cc846",
-    "animSelectorTable": "#hash_429306ce3d1cf2c1",
+    "behaviorTree": "#zm_gladiator_marauder.ai_bt",
+    "animStateMachine": "#zm_gladiator_marauder.ai_asm",
+    "animSelectorTable": "#zm_gladiator_marauder.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_marauder_settings",

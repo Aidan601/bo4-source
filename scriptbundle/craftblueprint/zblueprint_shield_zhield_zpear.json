@@ -1,6 +1,6 @@
 {
-    "hash_103a33623dc189e2:hash_4050486a": "localized18#hash_6adaea9a0756a29e",
-    "craftingprompt": "localized18#hash_45ac048d97119e00",
+    "hash_103a33623dc189e2:hash_4050486a": "localized18#zombie/craft_riot_multiple",
+    "craftingprompt": "localized18#zombie/craft_shield_spear",
     "resultangleyaw": -90,
     "configstringfiletype": "scriptbundle",
     "purchasehint": "localized18#hash_5ed001ba2e3c097",
@@ -13,11 +13,11 @@
     "component03": "weapon#zitem_zhield_zpear_part_3_zm",
     "name": "zblueprint_shield_zhield_zpear",
     "displayname": "Spear and Shield",
-    "purchaseprompt": "localized18#hash_44897e9801153878",
-    "repairprompt": "localized18#hash_3a74252088bdde6d",
+    "purchaseprompt": "localized18#zombie/grab_shield_spear",
+    "repairprompt": "localized18#zombie/repair_shield_spear",
     "postcraft": "persistent_buy",
-    "hash_64869b7d451b2fbe:hash_abd9b2d0": "localized18#hash_3e27be7b0510a43b",
+    "purchasepromptfree": "localized18#hash_3e27be7b0510a43b",
     "componentcount": 3,
-    "hash_6d856d2f8b4a5911:hash_c028dcfe": 1,
+    "firstonefree": 1,
     "inventorysection": "section_shield"
 }

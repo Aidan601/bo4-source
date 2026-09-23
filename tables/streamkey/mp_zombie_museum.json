@@ -20,7 +20,7 @@
             "keyFlags": 3
         },
         {
-            "name": "#hash_38ff2f8b94d61950",
+            "name": "#mp_zombie_museum_all_loaded",
             "xPakEntry": {
                 "key": "#hash_e9ebd1fdd7178289",
                 "offset": 0,
@@ -58996,7 +58996,7 @@
             "keyFlags": 0
         },
         {
-            "name": "#hash_13383216473d88d9",
+            "name": "#mp_zombie_museum_sst_0_0",
             "xPakEntry": {
                 "key": "#hash_fcdd2406b1a29fa7",
                 "offset": 0,

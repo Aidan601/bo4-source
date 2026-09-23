@@ -1,7 +1,7 @@
 {
-    "name": "#hash_3b7097e3780a6461",
+    "name": "#dlog_event_mpspawninfluencers",
     "unk28": "#mpspawninfluencers",
-    "ddlDef": "#hash_1ec3596da2a73cad",
+    "ddlDef": "#gamedata/ddl/generated/dlog_event_mpspawninfluencers.ddl",
     "unk18": 1,
     "unk19": 1,
     "unk1a": 1,
@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -136,7 +136,7 @@
         },
         {
             "name": "#spawninfluencerid",
-            "scrName": "#hash_8b39edc3",
+            "scrName": "#spawninfluencerid",
             "type": "INT32",
             "len": 48
         },
@@ -162,17 +162,17 @@
         },
         {
             "name": "#teammask0",
-            "scrName": "#hash_75ecb6a5",
+            "scrName": "#teammask0",
             "type": "INT32"
         },
         {
             "name": "#teammask1",
-            "scrName": "#hash_63af122a",
+            "scrName": "#teammask1",
             "type": "INT32"
         },
         {
             "name": "#presetid",
-            "scrName": "#hash_634342a0",
+            "scrName": "#presetid",
             "type": "INT32"
         }
     ],

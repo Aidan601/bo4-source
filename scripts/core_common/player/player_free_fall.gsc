@@ -1,4 +1,4 @@
-#using script_1d29de500c266470;
+#using scripts\core_common\player\player_free_fall_util;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\system_shared;
@@ -41,10 +41,10 @@ function function_d2a1520c()
     
     if ( self util::is_female() )
     {
-        return wingsuit.var_5677bd3d;
+        return wingsuit.model_female;
     }
     
-    return wingsuit.var_94166112;
+    return wingsuit.model_male;
 }
 
 // Namespace player_free_fall/player_free_fall

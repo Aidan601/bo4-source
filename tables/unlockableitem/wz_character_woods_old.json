@@ -1,8 +1,8 @@
 {
     "name": "#wz_character_woods_old",
     "nameStr": "",
-    "displayName": "#hash_35d01c0cde16ad8a",
-    "displayNameShort": "#hash_35d01c0cde16ad8a",
+    "displayName": "#heroes/woods_old",
+    "displayNameShort": "#heroes/woods_old",
     "wzDescription": "#hash_2405e17f8771fd9",
     "refHash": "#hash_c3dc38b",
     "previewImage": "#blacktransparent",
@@ -36,8 +36,8 @@
         "talismanrarity": 0,
         "hash_52616a8f1602bb4b:hash_fe242d4b": 0,
         "bgbrarity": 0,
-        "hash_574c7ec1a4019f56:hash_c874ab9e": 0,
-        "hash_62dc0ff35042f577:hash_3f2c4d2f": 0,
+        "isupgradeavailable": 0,
+        "bgblimittype": 0,
         "sortindexzm": 0,
         "hash_6c190a0450674b42:hash_4d850f47": 0,
         "talismantype": 0

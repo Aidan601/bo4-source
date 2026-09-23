@@ -1,4 +1,4 @@
-#using script_cb32d07c95e5628;
+#using scripts\mp_common\item_spawn_groups_util;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\math_shared;
@@ -80,7 +80,7 @@ function private __init__()
                 setdvar( #"wz_flare_drop", 0 );
             }
             
-            if ( getdvarint( #"hash_5dc24c61c66f6fee", 0 ) > 0 )
+            if ( getdvarint( #"wz_debug_supply_drop", 0 ) > 0 )
             {
                 debug_supply_drop();
             }
@@ -264,15 +264,15 @@ function private function_c7bd0aa8( point, startpoint )
 function private function_13339b58( istank )
 {
     self endon( #"death" );
-    open_anim = #"hash_4f2b2f1b4df13119";
-    idle_anim = #"hash_39265b4ed372175a";
-    var_e1c31bea = #"hash_32ad963f25f115d2";
+    open_anim = #"p8_fxanim_wz_parachute_supplydrop_open_anim";
+    idle_anim = #"p8_fxanim_wz_parachute_supplydrop_open_idle_anim";
+    var_e1c31bea = #"p8_fxanim_wz_parachute_supplydrop_drop_anim";
     
     if ( isdefined( istank ) && istank )
     {
-        open_anim = #"hash_77322c90462ba8c";
-        idle_anim = #"hash_780b50c0a9393f1d";
-        var_e1c31bea = #"hash_ac2d4936b932903";
+        open_anim = #"p8_fxanim_wz_parachute_supplydrop_tank_open_anim";
+        idle_anim = #"p8_fxanim_wz_parachute_supplydrop_tank_open_idle_anim";
+        var_e1c31bea = #"p8_fxanim_wz_parachute_supplydrop_tank_drop_anim";
     }
     
     self animscripted( "parachute_open", self.origin, self.angles, open_anim, "normal", "root", 1, 0 );

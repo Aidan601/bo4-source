@@ -1,5 +1,5 @@
 {
-    "name": "#hash_8139d62e9de1c21",
+    "name": "#dlog_event_performance",
     "ddlDef": "#gamedata/ddl/generated/dlog_event_performance.ddl",
     "unk18": 0,
     "unk19": 1,
@@ -93,7 +93,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -123,8 +123,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -249,7 +249,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -543,12 +543,12 @@
     "members": [
         {
             "name": "#streamer_forced",
-            "scrName": "#hash_4a74466a",
+            "scrName": "#streamer_forced",
             "type": "FLOAT"
         },
         {
-            "name": "#hash_b8a5310b16895f8",
-            "scrName": "#hash_dafe17b4",
+            "name": "#streamer_mesh_quality",
+            "scrName": "#streamer_mesh_quality",
             "type": "FLOAT"
         },
         {
@@ -557,8 +557,8 @@
             "type": "FLOAT"
         },
         {
-            "name": "#hash_41c61675e9a0b2d1",
-            "scrName": "#hash_c83e48bf",
+            "name": "#streamer_mbytes",
+            "scrName": "#streamer_mbytes",
             "type": "INT32"
         },
         {
@@ -568,7 +568,7 @@
         },
         {
             "name": "#streamer_image_quality",
-            "scrName": "#hash_53e9ab74",
+            "scrName": "#streamer_image_quality",
             "type": "FLOAT"
         },
         {
@@ -577,8 +577,8 @@
             "type": "BOOL"
         },
         {
-            "name": "#hash_6535fe3e4fdf1dab",
-            "scrName": "#hash_e4049955",
+            "name": "#game_clock_ms",
+            "scrName": "#game_clock_ms",
             "type": "INT32"
         },
         {
@@ -593,12 +593,12 @@
         },
         {
             "name": "#streamer_waste",
-            "scrName": "#hash_8702a494",
+            "scrName": "#streamer_waste",
             "type": "FLOAT"
         },
         {
             "name": "#streamer_reads",
-            "scrName": "#hash_3bbaf8ee",
+            "scrName": "#streamer_reads",
             "type": "INT32"
         }
     ],

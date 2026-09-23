@@ -8,7 +8,7 @@
 299,7,2000,#weapon_pistol,#headshots,&#hash_686bea774664e2b4,3500,0,u3?0,#camo_hotel_zm,#,0,&#,u3?1,0,FALSE,camo_hotel_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 300,8,2400,#weapon_pistol,#headshots,&#hash_686bea774664e2b4,5000,0,u3?0,#camo_india_zm,#challenges,0,&#,u3?1,0,FALSE,camo_india_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 301,0,1500,#weapon_pistol,#packedkills,&#hash_7672595e7184fd2b,2500,300,u3?0,#camo_juliett_zm,#challenges,0,&#,u3?1,0,FALSE,camo_juliett_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
-302,0,1500,#weapon_pistol,#hash_72add9adadcd524b,&#hash_715560969e8de6f3,2500,300,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?1,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
+302,0,1500,#weapon_pistol,#kills_noatt,&#hash_715560969e8de6f3,2500,300,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?1,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 303,0,1500,#weapon_pistol,#kills_loaded,&#hash_704097a2cc8e63e5,2500,300,u3?0,#camo_lima_zm,#challenges,0,&#,u3?1,0,FALSE,camo_lima_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 304,0,50,#weapon_pistol,#heavykills,&#hash_47c434412f73222,2500,300,u3?0,#camo_mike_zm,#challenges,0,&#,u3?1,0,FALSE,camo_mike_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 305,0,10,#weapon_pistol,#minibosskills,&#hash_6e57d74f2585c9e1,2500,300,u3?0,#camo_november_zm,#challenges,0,&#,u3?1,0,FALSE,camo_november_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
@@ -23,7 +23,7 @@
 314,7,2800,#weapon_smg,#headshots,&#hash_686bea774664e2b4,3500,0,u3?0,#camo_hotel_zm,#,0,&#,u3?6,0,FALSE,camo_hotel_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 315,8,3600,#weapon_smg,#headshots,&#hash_686bea774664e2b4,5000,0,u3?0,#camo_india_zm,#challenges,0,&#,u3?6,0,FALSE,camo_india_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 316,0,2000,#weapon_smg,#packedkills,&#hash_7672595e7184fd2b,2500,315,u3?0,#camo_juliett_zm,#challenges,0,&#,u3?6,0,FALSE,camo_juliett_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
-317,0,2000,#weapon_smg,#hash_72add9adadcd524b,&#hash_715560969e8de6f3,2500,315,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?6,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
+317,0,2000,#weapon_smg,#kills_noatt,&#hash_715560969e8de6f3,2500,315,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?6,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 318,0,2000,#weapon_smg,#kills_loaded,&#hash_704097a2cc8e63e5,2500,315,u3?0,#camo_lima_zm,#challenges,0,&#,u3?6,0,FALSE,camo_lima_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 319,0,50,#weapon_smg,#heavykills,&#hash_47c434412f73222,2500,315,u3?0,#camo_mike_zm,#challenges,0,&#,u3?6,0,FALSE,camo_mike_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 320,0,10,#weapon_smg,#minibosskills,&#hash_6e57d74f2585c9e1,2500,315,u3?0,#camo_november_zm,#challenges,0,&#,u3?6,0,FALSE,camo_november_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
@@ -38,7 +38,7 @@
 329,7,2800,#weapon_assault,#headshots,&#hash_686bea774664e2b4,3500,0,u3?0,#camo_hotel_zm,#,0,&#,u3?12,0,FALSE,camo_hotel_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 330,8,3600,#weapon_assault,#headshots,&#hash_686bea774664e2b4,5000,0,u3?0,#camo_india_zm,#challenges,0,&#,u3?12,0,FALSE,camo_india_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 331,0,2000,#weapon_assault,#packedkills,&#hash_7672595e7184fd2b,2500,330,u3?0,#camo_juliett_zm,#challenges,0,&#,u3?12,0,FALSE,camo_juliett_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
-332,0,2000,#weapon_assault,#hash_72add9adadcd524b,&#hash_715560969e8de6f3,2500,330,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?12,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
+332,0,2000,#weapon_assault,#kills_noatt,&#hash_715560969e8de6f3,2500,330,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?12,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 333,0,2000,#weapon_assault,#kills_loaded,&#hash_704097a2cc8e63e5,2500,330,u3?0,#camo_lima_zm,#challenges,0,&#,u3?12,0,FALSE,camo_lima_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 334,0,50,#weapon_assault,#heavykills,&#hash_47c434412f73222,2500,330,u3?0,#camo_mike_zm,#challenges,0,&#,u3?12,0,FALSE,camo_mike_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 335,0,10,#weapon_assault,#minibosskills,&#hash_6e57d74f2585c9e1,2500,330,u3?0,#camo_november_zm,#challenges,0,&#,u3?12,0,FALSE,camo_november_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
@@ -53,7 +53,7 @@
 344,7,2800,#weapon_lmg,#headshots,&#hash_686bea774664e2b4,3500,0,u3?0,#camo_hotel_zm,#,0,&#,u3?18,0,FALSE,camo_hotel_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 345,8,3600,#weapon_lmg,#headshots,&#hash_686bea774664e2b4,5000,0,u3?0,#camo_india_zm,#challenges,0,&#,u3?18,0,FALSE,camo_india_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 346,0,2000,#weapon_lmg,#packedkills,&#hash_7672595e7184fd2b,2500,345,u3?0,#camo_juliett_zm,#challenges,0,&#,u3?18,0,FALSE,camo_juliett_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
-347,0,2000,#weapon_lmg,#hash_72add9adadcd524b,&#hash_715560969e8de6f3,2500,345,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?18,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
+347,0,2000,#weapon_lmg,#kills_noatt,&#hash_715560969e8de6f3,2500,345,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?18,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 348,0,2000,#weapon_lmg,#kills_loaded,&#hash_704097a2cc8e63e5,2500,345,u3?0,#camo_lima_zm,#challenges,0,&#,u3?18,0,FALSE,camo_lima_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 349,0,50,#weapon_lmg,#heavykills,&#hash_47c434412f73222,2500,345,u3?0,#camo_mike_zm,#challenges,0,&#,u3?18,0,FALSE,camo_mike_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 350,0,10,#weapon_lmg,#minibosskills,&#hash_6e57d74f2585c9e1,2500,345,u3?0,#camo_november_zm,#challenges,0,&#,u3?18,0,FALSE,camo_november_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
@@ -68,7 +68,7 @@
 359,7,3600,#weapon_cqb,#kills,&#hash_72708762fbbd1b52,3500,0,u3?0,#camo_hotel_zm,#,0,&#,u3?21,0,FALSE,camo_hotel_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 360,8,4800,#weapon_cqb,#kills,&#hash_72708762fbbd1b52,5000,0,u3?0,#camo_india_zm,#challenges,0,&#,u3?21,0,FALSE,camo_india_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 361,0,1500,#weapon_cqb,#packedkills,&#hash_7672595e7184fd2b,2500,360,u3?0,#camo_juliett_zm,#challenges,0,&#,u3?21,0,FALSE,camo_juliett_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
-362,0,1500,#weapon_cqb,#hash_72add9adadcd524b,&#hash_715560969e8de6f3,2500,360,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?21,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
+362,0,1500,#weapon_cqb,#kills_noatt,&#hash_715560969e8de6f3,2500,360,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?21,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 363,0,1500,#weapon_cqb,#kills_loaded,&#hash_704097a2cc8e63e5,2500,360,u3?0,#camo_lima_zm,#challenges,0,&#,u3?21,0,FALSE,camo_lima_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 364,0,50,#weapon_cqb,#heavykills,&#hash_47c434412f73222,2500,360,u3?0,#camo_mike_zm,#challenges,0,&#,u3?21,0,FALSE,camo_mike_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 365,0,10,#weapon_cqb,#minibosskills,&#hash_6e57d74f2585c9e1,2500,360,u3?0,#camo_november_zm,#challenges,0,&#,u3?21,0,FALSE,camo_november_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
@@ -83,7 +83,7 @@
 374,7,2000,#weapon_sniper,#headshots,&#hash_686bea774664e2b4,3500,0,u3?0,#camo_hotel_zm,#,0,&#,u3?24,0,FALSE,camo_hotel_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 375,8,2400,#weapon_sniper,#headshots,&#hash_686bea774664e2b4,5000,0,u3?0,#camo_india_zm,#challenges,0,&#,u3?24,0,FALSE,camo_india_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 376,0,1500,#weapon_sniper,#packedkills,&#hash_7672595e7184fd2b,2500,375,u3?0,#camo_juliett_zm,#challenges,0,&#,u3?24,0,FALSE,camo_juliett_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
-377,0,1500,#weapon_sniper,#hash_72add9adadcd524b,&#hash_715560969e8de6f3,2500,375,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?24,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
+377,0,1500,#weapon_sniper,#kills_noatt,&#hash_715560969e8de6f3,2500,375,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?24,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 378,0,1500,#weapon_sniper,#kills_loaded,&#hash_704097a2cc8e63e5,2500,375,u3?0,#camo_lima_zm,#challenges,0,&#,u3?24,0,FALSE,camo_lima_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 379,0,50,#weapon_sniper,#heavykills,&#hash_47c434412f73222,2500,375,u3?0,#camo_mike_zm,#challenges,0,&#,u3?24,0,FALSE,camo_mike_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 380,0,10,#weapon_sniper,#minibosskills,&#hash_6e57d74f2585c9e1,2500,375,u3?0,#camo_november_zm,#challenges,0,&#,u3?24,0,FALSE,camo_november_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
@@ -98,7 +98,7 @@
 389,7,2800,#weapon_tactical,#headshots,&#hash_686bea774664e2b4,3500,0,u3?0,#camo_hotel_zm,#,0,&#,u3?27,0,FALSE,camo_hotel_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 390,8,3600,#weapon_tactical,#headshots,&#hash_686bea774664e2b4,5000,0,u3?0,#camo_india_zm,#challenges,0,&#,u3?27,0,FALSE,camo_india_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 391,0,2000,#weapon_tactical,#packedkills,&#hash_7672595e7184fd2b,2500,390,u3?0,#camo_juliett_zm,#challenges,0,&#,u3?27,0,FALSE,camo_juliett_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
-392,0,2000,#weapon_tactical,#hash_72add9adadcd524b,&#hash_715560969e8de6f3,2500,390,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?27,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
+392,0,2000,#weapon_tactical,#kills_noatt,&#hash_715560969e8de6f3,2500,390,u3?0,#camo_kilo_zm,#challenges,0,&#,u3?27,0,FALSE,camo_kilo_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 393,0,2000,#weapon_tactical,#kills_loaded,&#hash_704097a2cc8e63e5,2500,390,u3?0,#camo_lima_zm,#challenges,0,&#,u3?27,0,FALSE,camo_lima_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 394,0,50,#weapon_tactical,#heavykills,&#hash_47c434412f73222,2500,390,u3?0,#camo_mike_zm,#challenges,0,&#,u3?27,0,FALSE,camo_mike_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
 395,0,10,#weapon_tactical,#minibosskills,&#hash_6e57d74f2585c9e1,2500,390,u3?0,#camo_november_zm,#challenges,0,&#,u3?27,0,FALSE,camo_november_zm,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0
@@ -244,7 +244,7 @@
 535,0,28,#group,#challenges,&#hash_1c5f11e8ddb9d93e,5000,0,u3?0,#camo_diamond,#weapons_mastery_sniper,0,&#,u3?67,0,FALSE,camo_diamond,FALSE,FALSE,FALSE,FALSE,TRUE,#,#,0
 536,0,28,#group,#challenges,&#hash_1c5f11e8ddb9d93e,5000,0,u3?0,#camo_diamond,#weapons_mastery_tactical,0,&#,u3?70,0,FALSE,camo_diamond,FALSE,FALSE,FALSE,FALSE,TRUE,#,#,0
 537,0,28,#group,#challenges,&#hash_1c5f11e8ddb9d93e,5000,0,u3?0,#camo_diamond,#secondary_mastery_pistol,0,&#,u3?73,0,FALSE,camo_diamond,FALSE,FALSE,FALSE,FALSE,TRUE,#,#,0
-538,0,21,#group,#challenges,&#hash_1c5f11e8ddb9d93e,5000,0,u3?0,#camo_diamond,#hash_517bf5c8991ad97a,0,&#,u3?76,0,FALSE,camo_diamond,FALSE,FALSE,FALSE,FALSE,TRUE,#,#,0
+538,0,21,#group,#challenges,&#hash_1c5f11e8ddb9d93e,5000,0,u3?0,#camo_diamond,#secondary_mastery_cqb,0,&#,u3?76,0,FALSE,camo_diamond,FALSE,FALSE,FALSE,FALSE,TRUE,#,#,0
 539,0,7,#group,#challenges,&#hash_1c5f11e8ddb9d93e,0,0,u3?0,#,#secondary_mastery,0,&#,u3?79,0,FALSE,,FALSE,FALSE,FALSE,FALSE,TRUE,#,#,0
 540,0,7,#group,#challenges,&#hash_1c5f11e8ddb9d93e,0,0,u3?0,#,#secondary_mastery,0,&#,u3?82,0,FALSE,,FALSE,FALSE,FALSE,FALSE,TRUE,#,#,0
 541,0,4,#global,#secondary_mastery,&#hash_45d42db6c2bc5573,5000,0,u3?0,#camo_diamond,#secondary_mastery,0,&#,u3?55,0,FALSE,camo_diamond,FALSE,FALSE,FALSE,FALSE,FALSE,#,#,0

@@ -7,7 +7,7 @@
     "entries": [
         {
             "name": "#hash_7ac66c9ad92051ff",
-            "description": "#hash_6fdcc66d6ac640ff",
+            "description": "#playlist/zm_zod",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_gauntlet",
             "imageBackground": "#hash_c33394350e965ad8",
@@ -469,7 +469,7 @@
         },
         {
             "name": "#hash_d6866ee9e12320f",
-            "description": "#hash_1c6c7f02f2a5c119",
+            "description": "#zmtrials/dotn",
             "unique_name": "#hash_708ca3393b7322ab",
             "dlcName": "dlc1zm",
             "lobbyMainMode": "CAMPAIGN",
@@ -703,7 +703,7 @@
         },
         {
             "name": "#hash_51055b01e3fb17fd",
-            "description": "#hash_6fdcc66d6ac640ff",
+            "description": "#playlist/zm_zod",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_gauntlet",
             "imageBackground": "#hash_c33394350e965ad8",

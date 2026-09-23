@@ -1,8 +1,8 @@
 {
-    "name": "#hash_3de97428b08ef1b3",
+    "name": "#loot_emote_shared_clapping",
     "type": "#gesture",
-    "gesture": "#hash_89a684d01e726a5",
-    "gesture2": "#hash_23d23bc626d7ed5e",
+    "gesture": "#boast_clapping",
+    "gesture2": "#boast_clapping_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/bravo",

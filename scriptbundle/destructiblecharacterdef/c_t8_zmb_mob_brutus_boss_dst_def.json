@@ -8,7 +8,7 @@
     "piece1_gibtag": "j_helmet",
     "hash_a6b80ec93c6faeb:hash_20a1cc0c": -1,
     "configstringfiletype": "scriptbundle",
-    "piece1_detachmodel": "model#hash_5187f9f275e94c64",
+    "piece1_detachmodel": "model#c_t8_zmb_mob_brutus_boss_helmet",
     "type": "destructiblecharacterdef",
     "piece2_gibtag": "tag_weapon_right",
     "piece1_hitlocation": "helmet",
@@ -17,6 +17,6 @@
     "piece2_gibmodel": "model#c_t8_zmb_mob_brutus_boss_baton",
     "hash_4eeca967e2fd6221:hash_55d2a6b2": 1,
     "piececount": 2,
-    "piece1_gibmodel": "model#hash_5187f9f275e94c64",
+    "piece1_gibmodel": "model#c_t8_zmb_mob_brutus_boss_helmet",
     "hash_71517085465fea4f:hash_56d63213": "tag_weapon_right"
 }

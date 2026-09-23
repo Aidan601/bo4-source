@@ -1,10 +1,10 @@
 {
-    "buttonimage": "image#hash_5986f5700bd23c6",
-    "popupimage": "image#hash_b5152f43fd65862",
-    "nametext": "localized17#hash_3c3daa7993ced02",
+    "buttonimage": "image#ui_menu_blackmarket_shamrockandawe_01",
+    "popupimage": "image#ui_menu_blackmarket_shamrockandawe_large_01",
+    "nametext": "localized17#menu/shamrock_and_awe_2019",
     "categorytext": "localized17#hash_30951b5b7749b8df",
     "name": "shamrock_shock_and_awe_2019",
-    "desctext": "localized17#hash_6528fd38cc10bf92",
-    "previewimage": "image#hash_1b8d576bd3ea244f",
-    "reserveimage": "image#hash_4048d1252c591a68"
+    "desctext": "localized17#menu/shamrock_and_awe_2019_desc",
+    "previewimage": "image#ui_menu_blackmarket_shamrockandawe_preview_01",
+    "reserveimage": "image#ui_menu_blackmarket_shamrockandawe_wide_01"
 }

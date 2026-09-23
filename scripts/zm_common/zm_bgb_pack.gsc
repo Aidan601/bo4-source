@@ -329,7 +329,7 @@ function activate_elixir( n_index )
                 
                 if ( has_succeeded )
                 {
-                    self notify( #"hash_27b238d082f65849", str_bgb );
+                    self notify( #"bgb_gumball_anim_activate", str_bgb );
                     self bgb::activation_start();
                     self thread bgb::run_activation_func( str_bgb );
                 }
@@ -395,7 +395,7 @@ function function_23b7cdd8( n_index )
     if ( !( isdefined( self.var_7148f2c ) && self.var_7148f2c ) )
     {
         self.var_7148f2c = 1;
-        self playlocalsound( #"hash_678b4eee9797e94f" );
+        self playlocalsound( #"zmb_elixir_common_deny" );
         
         switch ( n_index )
         {
@@ -664,7 +664,7 @@ function global_cooldown( n_index )
     }
     else
     {
-        self playlocalsound( #"hash_2a9d100a5cbc7dbe" );
+        self playlocalsound( #"zmb_elixir_common_cooldown_all_end" );
     }
     
     self.var_bd0d5874 = 0;
@@ -807,7 +807,7 @@ function slot_cooldown( n_index )
     
     if ( self.var_2d8082a0[ n_index ] <= 0 || isdefined( var_10b7b97a ) && var_10b7b97a )
     {
-        self playsoundtoplayer( #"hash_78bd6c84a567b714", self );
+        self playsoundtoplayer( #"zmb_elixir_common_cooldown_solo_end", self );
         self notify( "end_slot_cooldown" + n_index );
         self function_1d5d39b0( n_index, 1 );
         self function_b2308cd( n_index, 0 );
@@ -1080,11 +1080,11 @@ function private function_f2173c97( var_607319eb )
 {
     if ( var_607319eb )
     {
-        self playsoundtoplayer( #"hash_54adb87d474be3d2", self );
+        self playsoundtoplayer( #"zmb_elixir_common_lockdown", self );
     }
     else
     {
-        self playsoundtoplayer( #"hash_686b41e25622cb04", self );
+        self playsoundtoplayer( #"zmb_elixir_common_lockdown_end", self );
     }
     
     for ( x = 0; x < 4 ; x++ )
@@ -1225,7 +1225,7 @@ function function_59004002( str_bgb, b_disable = 1 )
             case #"hash_972ca08eb9fbf0c":
                 level.var_4af38aa3 = 0;
                 break;
-            case #"hash_628ffe45aab5f07":
+            case #"dev_cooldowns_on":
                 level.var_7c3d4959 = 1;
                 break;
             case #"default_cooldowns":

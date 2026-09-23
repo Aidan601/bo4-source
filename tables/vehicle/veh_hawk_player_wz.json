@@ -52,21 +52,21 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_29f6a908f9b269ad",
+                        "displaystring": "localized17#menu/hud_vehicle_flydown",
                         "buttondirection": "left",
                         "prompt": "+speed_throw"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_2577b757c1ca9678",
+                        "displaystring": "localized17#menu/hud_vehicle_flyup",
                         "buttondirection": "right",
                         "prompt": "+attack"
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 1,
+                "hideplayerinfo": 1,
                 "hideweaponinfo": 1,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VHUDHawk",
@@ -75,6 +75,6 @@
             }
         ],
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

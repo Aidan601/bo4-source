@@ -1,5 +1,5 @@
 {
-    "name": "#hash_7b54b28d94014744",
+    "name": "#camo_t8_melee_actionfigure",
     "camoMaterials": [
         {
             "materials": [
@@ -89,7 +89,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2ba9b94ef5c23a6f",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_splinter_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -115,7 +115,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2ba9b84ef5c238bc",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_splinter_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -141,7 +141,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2ba9b54ef5c233a3",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_splinter_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -293,7 +293,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_14d53580e65022a4",
+                            "camoMaterial": "#mc/mtl_t8_camo_topology_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -319,7 +319,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_14d53380e6501f3e",
+                            "camoMaterial": "#mc/mtl_t8_camo_topology_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -345,7 +345,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_14d53480e65020f1",
+                            "camoMaterial": "#mc/mtl_t8_camo_topology_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -371,7 +371,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_50494e21f40ad49e",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_wmd_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -397,7 +397,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_50494521f40ac553",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_wmd_08",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -423,7 +423,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_50495321f40add1d",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_wmd_06",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -530,7 +530,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_1151f820dc089ccc",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_tiger_06",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4.5,
@@ -543,7 +543,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2936a02c1d424e18",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_tiger_06_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -572,7 +572,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_1151f520dc0897b3",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_tiger_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4.5,
@@ -585,7 +585,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_294c80658924e3c7",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_tiger_03_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -614,7 +614,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_330d25614df2ba51",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_shatter_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4.5,
@@ -627,7 +627,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_5c66568c092319c9",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_shatter_03_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -653,7 +653,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4eea193064c510bb",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -679,7 +679,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6d061764a3f26c52",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -705,7 +705,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6d061164a3f26220",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -734,7 +734,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_7c74916852c14032",
+                            "camoMaterial": "#mc/mtl_t8_camo_tiger_stripe_classic_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -747,49 +747,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_7c74916852c14032",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 6,
-                            "scaleY": 6,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "materials": [
-                {
-                    "baseMaterials": [
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
-                        },
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
-                        }
-                    ],
-                    "camoMaterialChannels": [
-                        {
-                            "camoMaterial": "#hash_7c748c6852c137b3",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 6,
-                            "scaleY": 6,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        },
-                        {
-                            "camoMaterial": "#hash_7c748c6852c137b3",
+                            "camoMaterial": "#mc/mtl_t8_camo_tiger_stripe_classic_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -818,7 +776,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_7c748b6852c13600",
+                            "camoMaterial": "#mc/mtl_t8_camo_tiger_stripe_classic_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -831,7 +789,49 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_7c748b6852c13600",
+                            "camoMaterial": "#mc/mtl_t8_camo_tiger_stripe_classic_04",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 6,
+                            "scaleY": 6,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "baseMaterials": [
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
+                        },
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
+                        }
+                    ],
+                    "camoMaterialChannels": [
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_tiger_stripe_classic_05",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 6,
+                            "scaleY": 6,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        },
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_tiger_stripe_classic_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -1064,7 +1064,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3dfe5bc9f326309f",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_10",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -1077,7 +1077,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_53540c3ac54e795b",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_10_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -1106,7 +1106,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4bd0215e4cabc686",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_10_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -1119,7 +1119,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_53540c3ac54e795b",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_10_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -1148,7 +1148,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4bd0225e4cabc839",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_10_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -1161,7 +1161,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_53540c3ac54e795b",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_10_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -1190,7 +1190,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3dfad4c9f3231563",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -1203,49 +1203,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2a281534360509f7",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 1,
-                            "scaleY": 1,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "materials": [
-                {
-                    "baseMaterials": [
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
-                        },
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
-                        }
-                    ],
-                    "camoMaterialChannels": [
-                        {
-                            "camoMaterial": "#hash_2ee0591f501a745a",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 1,
-                            "scaleY": 1,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        },
-                        {
-                            "camoMaterial": "#hash_2c072f29a22fa6e2",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_03_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -1274,7 +1232,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2ee05a1f501a760d",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_03_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -1287,7 +1245,49 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_314e55593fb90b7d",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_03_02_alt",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 1,
+                            "scaleY": 1,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "baseMaterials": [
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
+                        },
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
+                        }
+                    ],
+                    "camoMaterialChannels": [
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_03_03",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 1,
+                            "scaleY": 1,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        },
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_03_03_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -1505,7 +1505,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4e933fa23ee5fb6a",
+                            "camoMaterial": "#mc/mtl_t8_camo_diamond_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -1667,7 +1667,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_742c605b18558bd3",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_benjamins",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 3,
@@ -1680,7 +1680,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2fc0f36cb39b6f27",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_benjamins_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -1751,7 +1751,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3dfaddc9f32324ae",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_08",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 7,
@@ -1764,7 +1764,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_3e55a0d4f215d7a9",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black_glossy",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -1903,7 +1903,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -1916,7 +1916,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -1945,7 +1945,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_77934ac17f99afad",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_vintage_film_stage1",
                             "translationX": 0,
                             "translationY": 0.16,
                             "scaleX": 2,
@@ -1987,7 +1987,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_779347c17f99aa94",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_vintage_film_stage2",
                             "translationX": 0,
                             "translationY": 0.16,
                             "scaleX": 2,
@@ -2029,7 +2029,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_779348c17f99ac47",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_vintage_film_stage3",
                             "translationX": 0,
                             "translationY": 0.16,
                             "scaleX": 2,
@@ -2071,7 +2071,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_779345c17f99a72e",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_vintage_film_stage4",
                             "translationX": 0,
                             "translationY": 0.16,
                             "scaleX": 2,
@@ -2113,7 +2113,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2126,7 +2126,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2323,7 +2323,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2336,7 +2336,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2365,7 +2365,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4951c2c21b1cb77",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 3,
@@ -2378,7 +2378,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_42ac592c5fadc2d4",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_alt_dark",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2407,7 +2407,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4951e2c21b1cedd",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 3,
@@ -2420,7 +2420,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_42b437a88167eae",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_alt_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2449,7 +2449,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_495172c21b1c2f8",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 3,
@@ -2462,7 +2462,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_4e0e46fbbcd55c07",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2491,7 +2491,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4951d2c21b1cd2a",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 3,
@@ -2504,7 +2504,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_4e0e46fbbcd55c07",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2533,7 +2533,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2546,7 +2546,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2701,7 +2701,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_495182c21b1c4ab",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 3,
@@ -2714,7 +2714,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_42b447a88168061",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_alt_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2743,7 +2743,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_495192c21b1c65e",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_06",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 3,
@@ -2756,7 +2756,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_42b457a88168214",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_retro_vegas_alt_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2785,7 +2785,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_7cd5f99eb5066a88",
+                            "camoMaterial": "#mc/mtl_t8_camo_zm_pap_greek",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2811,7 +2811,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3f1d62150d79f9f7",
+                            "camoMaterial": "#mc/mtl_t8_camo_zm_pap_greek_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2837,7 +2837,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3f1d61150d79f844",
+                            "camoMaterial": "#mc/mtl_t8_camo_zm_pap_greek_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2863,7 +2863,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3f1d60150d79f691",
+                            "camoMaterial": "#mc/mtl_t8_camo_zm_pap_greek_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -2889,7 +2889,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3f1d5f150d79f4de",
+                            "camoMaterial": "#mc/mtl_t8_camo_zm_pap_greek_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3002,7 +3002,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_7c5478e367c98468",
+                            "camoMaterial": "#mc/mtl_t8_dlc3_blowfish",
                             "translationX": 0,
                             "translationY": 0.07,
                             "scaleX": 2,
@@ -3015,7 +3015,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_c22edec280150c",
+                            "camoMaterial": "#mc/mtl_t8_dlc3_blowfish_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 8,
@@ -3070,7 +3070,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_b58b81afcb12330",
+                            "camoMaterial": "#mc/mtl_t8_camo_dlc3_deco_geometric",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -3083,7 +3083,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_6f0b0be8a8d5ce34",
+                            "camoMaterial": "#mc/mtl_t8_camo_dlc3_deco_geometric_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 8,
@@ -3183,7 +3183,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3196,7 +3196,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3293,7 +3293,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3306,7 +3306,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3419,7 +3419,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3432,7 +3432,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3608,7 +3608,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4d23027a22a356be",
+                            "camoMaterial": "#mc/mtl_t8_camo_dlc3_bacon",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3621,7 +3621,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_3cb4afa581f5456e",
+                            "camoMaterial": "#mc/mtl_t8_camo_dlc3_bacon_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 7,
@@ -3944,7 +3944,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -3957,7 +3957,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -4070,7 +4070,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -4083,7 +4083,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -4154,7 +4154,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -4167,7 +4167,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -4322,7 +4322,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_16c4d49ab3f5e1c4",
+                            "camoMaterial": "#mc/mtl_t8_camo_smoke_blast",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -4335,7 +4335,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_16c4d49ab3f5e1c4",
+                            "camoMaterial": "#mc/mtl_t8_camo_smoke_blast",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 8,
@@ -4553,7 +4553,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2e727cc2466349f3",
+                            "camoMaterial": "#mc/mtl_t8_camo_zod_pap_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -4566,7 +4566,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2b3fe821f11b4567",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_gold_silver_smooth",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -4595,7 +4595,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2e727dc246634ba6",
+                            "camoMaterial": "#mc/mtl_t8_camo_zod_pap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -4608,7 +4608,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2b3fe821f11b4567",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_gold_silver_smooth",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -4637,7 +4637,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2e727ec246634d59",
+                            "camoMaterial": "#mc/mtl_t8_camo_zod_pap_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -4650,7 +4650,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_6b8f6bc95350c824",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_gold_copper",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -4679,7 +4679,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2e727fc246634f0c",
+                            "camoMaterial": "#mc/mtl_t8_camo_zod_pap_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -4692,7 +4692,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2b3fe821f11b4567",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_gold_silver_smooth",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -4721,7 +4721,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2e7280c2466350bf",
+                            "camoMaterial": "#mc/mtl_t8_camo_zod_pap_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -4734,7 +4734,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_6b8f6bc95350c824",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_gold_copper",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -4970,7 +4970,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3d2998a634b107c0",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_lava_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -4996,7 +4996,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3d299ba634b10cd9",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_lava_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5022,7 +5022,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3d299aa634b10b26",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_lava_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5048,7 +5048,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3d299da634b1103f",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_lava_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5074,7 +5074,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3d299ca634b10e8c",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_lava_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5103,7 +5103,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_632d38fbb26c41b6",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_pentagon_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5145,7 +5145,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_632d37fbb26c4003",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_pentagon_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5187,7 +5187,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_632d36fbb26c3e50",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_pentagon_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5229,7 +5229,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_632d3dfbb26c4a35",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_pentagon_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5271,7 +5271,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_632d3cfbb26c4882",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_pentagon_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5313,7 +5313,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362db934d7d24d0",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5326,7 +5326,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_753a464d923ab670",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5397,7 +5397,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2814b5a875282100",
+                            "camoMaterial": "#mc/mtl_t8_camo_headshot_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5410,7 +5410,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2814b5a875282100",
+                            "camoMaterial": "#mc/mtl_t8_camo_headshot_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5439,7 +5439,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5452,7 +5452,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5494,7 +5494,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5578,7 +5578,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5607,7 +5607,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_5c0b477b299c0403",
+                            "camoMaterial": "#mc/mtl_t8_camo_dyn_vanguard_samurai_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5620,7 +5620,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_6a4c7246cc02464b",
+                            "camoMaterial": "#mc/mtl_t8_camo_dyn_vanguard_samurai_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -5652,7 +5652,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5665,49 +5665,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 5,
-                            "scaleY": 5,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "materials": [
-                {
-                    "baseMaterials": [
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
-                        },
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
-                        }
-                    ],
-                    "camoMaterialChannels": [
-                        {
-                            "camoMaterial": "#hash_f174d706d225d56",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 5,
-                            "scaleY": 5,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        },
-                        {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5736,7 +5694,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5749,49 +5707,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 5,
-                            "scaleY": 5,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "materials": [
-                {
-                    "baseMaterials": [
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
-                        },
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
-                        }
-                    ],
-                    "camoMaterialChannels": [
-                        {
-                            "camoMaterial": "#hash_f174d706d225d56",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 5,
-                            "scaleY": 5,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        },
-                        {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5820,7 +5736,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5833,7 +5749,91 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 5,
+                            "scaleY": 5,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "baseMaterials": [
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
+                        },
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
+                        }
+                    ],
+                    "camoMaterialChannels": [
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 5,
+                            "scaleY": 5,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        },
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 5,
+                            "scaleY": 5,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "baseMaterials": [
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
+                        },
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
+                        }
+                    ],
+                    "camoMaterialChannels": [
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 5,
+                            "scaleY": 5,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        },
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5949,7 +5949,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -5962,7 +5962,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -6075,7 +6075,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2814b5a875282100",
+                            "camoMaterial": "#mc/mtl_t8_camo_headshot_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -6088,7 +6088,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2814b5a875282100",
+                            "camoMaterial": "#mc/mtl_t8_camo_headshot_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -6130,7 +6130,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -6172,7 +6172,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -6214,7 +6214,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -6256,7 +6256,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -6298,7 +6298,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -6925,7 +6925,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4e933ea23ee5f9b7",
+                            "camoMaterial": "#mc/mtl_t8_camo_diamond_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -6984,7 +6984,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4e933da23ee5f804",
+                            "camoMaterial": "#mc/mtl_t8_camo_diamond_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -7052,7 +7052,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7081,7 +7081,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_5c0b487b299c05b6",
+                            "camoMaterial": "#mc/mtl_t8_camo_dyn_vanguard_samurai_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7094,7 +7094,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_6a4c7246cc02464b",
+                            "camoMaterial": "#mc/mtl_t8_camo_dyn_vanguard_samurai_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7141,7 +7141,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362dc934d7d2683",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7154,7 +7154,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_38bb8eba0e9132b2",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7183,7 +7183,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362e2934d7d30b5",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7196,7 +7196,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_38bb8dba0e9130ff",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7225,7 +7225,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362e1934d7d2f02",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7238,7 +7238,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_38bb8cba0e912f4c",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7267,7 +7267,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362db934d7d24d0",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7280,7 +7280,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_38bb8cba0e912f4c",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7354,7 +7354,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -7367,7 +7367,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -7409,7 +7409,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -7560,7 +7560,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4e933fa23ee5fb6a",
+                            "camoMaterial": "#mc/mtl_t8_camo_diamond_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -7619,7 +7619,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4e933ea23ee5f9b7",
+                            "camoMaterial": "#mc/mtl_t8_camo_diamond_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -7678,7 +7678,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4e933da23ee5f804",
+                            "camoMaterial": "#mc/mtl_t8_camo_diamond_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -8375,7 +8375,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362db934d7d24d0",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -8388,7 +8388,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_753a464d923ab670",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -8459,7 +8459,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2814b5a875282100",
+                            "camoMaterial": "#mc/mtl_t8_camo_headshot_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8472,7 +8472,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2814b5a875282100",
+                            "camoMaterial": "#mc/mtl_t8_camo_headshot_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8501,7 +8501,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8514,7 +8514,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8556,7 +8556,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -8640,7 +8640,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -8669,7 +8669,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_5c0b477b299c0403",
+                            "camoMaterial": "#mc/mtl_t8_camo_dyn_vanguard_samurai_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -8682,7 +8682,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_6a4c7246cc02464b",
+                            "camoMaterial": "#mc/mtl_t8_camo_dyn_vanguard_samurai_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -8714,7 +8714,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8727,49 +8727,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 5,
-                            "scaleY": 5,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "materials": [
-                {
-                    "baseMaterials": [
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
-                        },
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
-                        }
-                    ],
-                    "camoMaterialChannels": [
-                        {
-                            "camoMaterial": "#hash_f174d706d225d56",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 5,
-                            "scaleY": 5,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        },
-                        {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8798,7 +8756,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8811,49 +8769,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 5,
-                            "scaleY": 5,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "materials": [
-                {
-                    "baseMaterials": [
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
-                        },
-                        {
-                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
-                        }
-                    ],
-                    "camoMaterialChannels": [
-                        {
-                            "camoMaterial": "#hash_f174d706d225d56",
-                            "translationX": 0,
-                            "translationY": 0,
-                            "scaleX": 5,
-                            "scaleY": 5,
-                            "rotation": 0,
-                            "normalBlend": 1,
-                            "glossBlend": 1,
-                            "detailHeight": 0,
-                            "detailScale": "(0, 0)",
-                            "albedoTint": 0
-                        },
-                        {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8882,7 +8798,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -8895,7 +8811,91 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 5,
+                            "scaleY": 5,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "baseMaterials": [
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
+                        },
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
+                        }
+                    ],
+                    "camoMaterialChannels": [
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 5,
+                            "scaleY": 5,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        },
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 5,
+                            "scaleY": 5,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "baseMaterials": [
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_cape"
+                        },
+                        {
+                            "material": "#mc/mtl_wpn_t8_loot_melee_action_figure_body"
+                        }
+                    ],
+                    "camoMaterialChannels": [
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
+                            "translationX": 0,
+                            "translationY": 0,
+                            "scaleX": 5,
+                            "scaleY": 5,
+                            "rotation": 0,
+                            "normalBlend": 1,
+                            "glossBlend": 1,
+                            "detailHeight": 0,
+                            "detailScale": "(0, 0)",
+                            "albedoTint": 0
+                        },
+                        {
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9011,7 +9011,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9024,7 +9024,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9137,7 +9137,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_2814b5a875282100",
+                            "camoMaterial": "#mc/mtl_t8_camo_headshot_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9150,7 +9150,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_2814b5a875282100",
+                            "camoMaterial": "#mc/mtl_t8_camo_headshot_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9192,7 +9192,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9234,7 +9234,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9276,7 +9276,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9318,7 +9318,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9360,7 +9360,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9402,7 +9402,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9431,7 +9431,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_5c0b487b299c05b6",
+                            "camoMaterial": "#mc/mtl_t8_camo_dyn_vanguard_samurai_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9444,7 +9444,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_6a4c7246cc02464b",
+                            "camoMaterial": "#mc/mtl_t8_camo_dyn_vanguard_samurai_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9491,7 +9491,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362dc934d7d2683",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9504,7 +9504,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_38bb8eba0e9132b2",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9533,7 +9533,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362e2934d7d30b5",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9546,7 +9546,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_38bb8dba0e9130ff",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9575,7 +9575,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362e1934d7d2f02",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9588,7 +9588,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_38bb8cba0e912f4c",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9617,7 +9617,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6362db934d7d24d0",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9630,7 +9630,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_38bb8cba0e912f4c",
+                            "camoMaterial": "#mc/mtl_wpn_t8_camo_hotrod_alt_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9659,7 +9659,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9672,7 +9672,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9714,7 +9714,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_439f71a28db2062f",
+                            "camoMaterial": "#mc/mtl_t8_camo_solid_color_black",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9743,7 +9743,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_a45f3eba93b2f41",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9756,7 +9756,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_562ff3c5534c2e39",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_01_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9785,7 +9785,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_a45f0eba93b2a28",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9798,7 +9798,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_562ff3c5534c2e39",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_01_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9827,7 +9827,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_a45f1eba93b2bdb",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9840,7 +9840,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_562ff3c5534c2e39",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_01_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9869,7 +9869,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_a45f6eba93b345a",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9882,7 +9882,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_562ff3c5534c2e39",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_01_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9911,7 +9911,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_a45f7eba93b360d",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9924,7 +9924,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_562ff3c5534c2e39",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_zm_mansion_01_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,
@@ -9953,7 +9953,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9966,7 +9966,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -9995,7 +9995,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_76df44912ea21134",
+                            "camoMaterial": "#mc/mtl_t8_camo_mathworks",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -10037,7 +10037,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_471e4bc257451520",
+                            "camoMaterial": "#mc/mtl_t8_camo_mathworks_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -10079,7 +10079,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_471e52c257452105",
+                            "camoMaterial": "#mc/mtl_t8_camo_mathworks_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -10121,7 +10121,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_471e4fc257451bec",
+                            "camoMaterial": "#mc/mtl_t8_camo_mathworks_07",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -10205,7 +10205,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_76df44912ea21134",
+                            "camoMaterial": "#mc/mtl_t8_camo_mathworks",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -10247,7 +10247,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10260,7 +10260,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10331,7 +10331,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10344,7 +10344,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10373,7 +10373,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4d1befb7d04b5f1a",
+                            "camoMaterial": "#mc/mtl_t8_camo_tank_scroll_01",
                             "translationX": 0,
                             "translationY": 0.1,
                             "scaleX": 1.5,
@@ -10415,7 +10415,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4df40cd7d8d3aab4",
+                            "camoMaterial": "#mc/mtl_t8_camo_sub_scroll_01",
                             "translationX": 0,
                             "translationY": 0.1,
                             "scaleX": 1.5,
@@ -10457,7 +10457,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_5530da0f55d86a61",
+                            "camoMaterial": "#mc/mtl_t8_camo_bomber_scroll_01",
                             "translationX": 0,
                             "translationY": 0.1,
                             "scaleX": 1.5,
@@ -10541,7 +10541,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10554,7 +10554,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10687,7 +10687,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10700,7 +10700,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10897,7 +10897,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -10910,7 +10910,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -11191,7 +11191,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4545f131861064f7",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_sequin_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -11204,7 +11204,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_4545f3318610685d",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_sequin_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -11233,7 +11233,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_3dfad3c9f32313b0",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 3,
@@ -11246,7 +11246,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_495a075fb67d06b4",
+                            "camoMaterial": "#mc/mtl_t8_camo_geometric_02_alt",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -11377,7 +11377,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4e933fa23ee5fb6a",
+                            "camoMaterial": "#mc/mtl_t8_camo_diamond_01",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -11673,7 +11673,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_36f9b8796605dc19",
+                            "camoMaterial": "#mc/mtl_t8_camo_zm_pap_white",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -11786,7 +11786,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_1e15110729e264d0",
+                            "camoMaterial": "#mc/mtl_t8_camo_rain_ghost_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -11799,7 +11799,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_1e15110729e264d0",
+                            "camoMaterial": "#mc/mtl_t8_camo_rain_ghost_05",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -11954,7 +11954,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_1db4bd064c57d448",
+                            "camoMaterial": "#mc/mtl_t8_camo_green_gradient",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 2,
@@ -11967,7 +11967,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_1db4bd064c57d448",
+                            "camoMaterial": "#mc/mtl_t8_camo_green_gradient",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 8,
@@ -12038,7 +12038,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_1a2f09134afb7ae5",
+                            "camoMaterial": "#mc/mtl_t8_camo_digital_barbed",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -12051,7 +12051,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_1a2f09134afb7ae5",
+                            "camoMaterial": "#mc/mtl_t8_camo_digital_barbed",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 8,
@@ -12122,7 +12122,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12135,7 +12135,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12164,7 +12164,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_1146773a87ba8649",
+                            "camoMaterial": "#mc/mtl_t8_camo_circle_slice",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -12177,7 +12177,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_1146773a87ba8649",
+                            "camoMaterial": "#mc/mtl_t8_camo_circle_slice",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -12206,7 +12206,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12219,7 +12219,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12374,7 +12374,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12387,7 +12387,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12416,7 +12416,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_6ec5cb28d1c24416",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_shattered_phase",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -12429,7 +12429,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_6ec5cb28d1c24416",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_shattered_phase",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -12458,7 +12458,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_440ba72f639be990",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_shattered_original",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -12471,7 +12471,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_440ba72f639be990",
+                            "camoMaterial": "#mc/mtl_t8_camo_w_shattered_original",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -12623,7 +12623,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12636,7 +12636,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12875,7 +12875,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12888,7 +12888,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12959,7 +12959,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -12972,7 +12972,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_f174d706d225d56",
+                            "camoMaterial": "#mc/mtl_t8_camo_bubble_wrap_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,
@@ -13001,7 +13001,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_25a860fce127fa45",
+                            "camoMaterial": "#mc/mtl_t8_camo_dlc3_venomous",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -13014,7 +13014,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_25a860fce127fa45",
+                            "camoMaterial": "#mc/mtl_t8_camo_dlc3_venomous",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 8,
@@ -13043,7 +13043,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4f85674b252153d8",
+                            "camoMaterial": "#mc/mtl_t8_camo_dlc3_venomous_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 4,
@@ -13056,7 +13056,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_4f85674b252153d8",
+                            "camoMaterial": "#mc/mtl_t8_camo_dlc3_venomous_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 8,
@@ -13085,7 +13085,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_47095a2b104d49ec",
+                            "camoMaterial": "#mc/mtl_t8_camo_circle_slice_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -13098,7 +13098,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_47095a2b104d49ec",
+                            "camoMaterial": "#mc/mtl_t8_camo_circle_slice_02",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -13127,7 +13127,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_47095b2b104d4b9f",
+                            "camoMaterial": "#mc/mtl_t8_camo_circle_slice_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -13140,7 +13140,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_47095b2b104d4b9f",
+                            "camoMaterial": "#mc/mtl_t8_camo_circle_slice_03",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -13169,7 +13169,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4709582b104d4686",
+                            "camoMaterial": "#mc/mtl_t8_camo_circle_slice_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -13182,7 +13182,7 @@
                             "albedoTint": 0
                         },
                         {
-                            "camoMaterial": "#hash_4709582b104d4686",
+                            "camoMaterial": "#mc/mtl_t8_camo_circle_slice_04",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 6,
@@ -13208,7 +13208,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_4edd791ad5e24036",
+                            "camoMaterial": "#mc/mtl_t8_camo_zm_pap_orange",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 5,

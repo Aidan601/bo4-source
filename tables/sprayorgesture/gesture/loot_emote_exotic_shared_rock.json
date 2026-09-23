@@ -6,7 +6,7 @@
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/rock",
-        "icon": "image#hash_58a955cd1bea93bb",
+        "icon": "image#ui_icon_emotes_s2_rock",
         "isdefault": 0
     }
 }

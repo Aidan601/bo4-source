@@ -18,7 +18,7 @@
         "#c_t8_zmb_mob_brutus"
     ],
     "animMappingTables": [
-        "#hash_6340acf92722dab3"
+        "#zm_brutus.ai_am"
     ],
     "meleeWeapon": "#brutus_melee",
     "aimTable": "#soldier_aim",
@@ -26,9 +26,9 @@
     "footstepScriptCallback": true,
     "footstepFXTable1": "#zm_brutus_footstep",
     "footstepFXTable2": "#zm_brutus_footstep",
-    "behaviorTree": "#hash_634bb5f9272cf183",
-    "animStateMachine": "#hash_4a26a55d80905d40",
-    "animSelectorTable": "#hash_4a26be5d809087bb",
+    "behaviorTree": "#zm_brutus.ai_bt",
+    "animStateMachine": "#zm_brutus.ai_asm",
+    "animSelectorTable": "#zm_brutus.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#fxb8_zm_char_brutus",
     "aiSettingsBundle": "#zm_brutus_settings",

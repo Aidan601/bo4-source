@@ -3,7 +3,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_destroyed_mini_turret",
     "backinglarge": "image#t7_hud_medal_backing_badassery_lrg",
-    "iconsmall": "image#hash_2761483e9905dab0",
+    "iconsmall": "image#hud_medal_empty",
     "stringref": "localized17#hash_6c23128c1e224199",
-    "iconlarge": "image#hash_2761483e9905dab0"
+    "iconlarge": "image#hud_medal_empty"
 }

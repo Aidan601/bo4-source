@@ -20,7 +20,7 @@
             "keyFlags": 3
         },
         {
-            "name": "#hash_7cb70b365ae6ada5",
+            "name": "#mp_offshore_alt_all_loaded",
             "xPakEntry": {
                 "key": "#hash_ed488fd2ed3dc463",
                 "offset": 0,
@@ -15562,7 +15562,7 @@
             "keyFlags": 0
         },
         {
-            "name": "#hash_120a1175700eae92",
+            "name": "#mp_offshore_alt_sst_0_0",
             "xPakEntry": {
                 "key": "#hash_e2dc34bbd91be42e",
                 "offset": 0,

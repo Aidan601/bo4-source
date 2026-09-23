@@ -1,4 +1,4 @@
-#using script_cb32d07c95e5628;
+#using scripts\mp_common\item_spawn_groups_util;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\flagsys_shared;
@@ -357,7 +357,7 @@ function function_6c71782a( dynent )
 {
     self notify( "48d65f5f22c36da2" );
     self endon( "48d65f5f22c36da2" );
-    self endon( #"death", #"hash_61bb9580151c93d5", #"hash_667fd08050e0942b" );
+    self endon( #"death", #"hash_61bb9580151c93d5", #"fishing_force_end" );
     
     if ( !isplayer( self ) )
     {

@@ -167,7 +167,7 @@ function function_25f97da0()
     
     while ( true )
     {
-        s_result = self waittill( #"hash_1c35eb15aa210d6" );
+        s_result = self waittill( #"player_begin_fasttravel_rail" );
         
         if ( isdefined( s_result.var_9fa6220c ) && isdefined( s_result.var_9fa6220c.script_string ) && s_result.var_9fa6220c.script_string == "spartan_monument" )
         {
@@ -188,7 +188,7 @@ function function_e968fd4f()
     
     while ( true )
     {
-        s_result = self waittill( #"hash_1c35eb15aa210d6" );
+        s_result = self waittill( #"player_begin_fasttravel_rail" );
         
         if ( isdefined( s_result.var_9fa6220c ) && isdefined( s_result.var_9fa6220c.script_string ) && s_result.var_9fa6220c.script_string == "center_of_the_world" )
         {
@@ -290,11 +290,11 @@ function function_c52e8ba( e_player, var_8d5d092c )
     {
         switch ( self.stub.var_a4134e51 )
         {
-            case #"hash_4083e9da0ba41dec":
+            case #"pegasus_ride_started":
                 self.hint_string[ n_player_index ] = #"hash_5455a9d3a45a75ab";
                 break;
-            case #"hash_718fe784e4ddaa70":
-                if ( !level flag::get( #"hash_4083e9da0ba41dec" ) )
+            case #"flag_fasttravel_serpent_pass_enabled":
+                if ( !level flag::get( #"pegasus_ride_started" ) )
                 {
                     self.hint_string[ n_player_index ] = #"hash_5455a9d3a45a75ab";
                 }
@@ -304,8 +304,8 @@ function function_c52e8ba( e_player, var_8d5d092c )
                 }
                 
                 break;
-            case #"hash_42322632a02d834d":
-                if ( !level flag::get( #"hash_4083e9da0ba41dec" ) )
+            case #"flag_fasttravel_cliff_forge_enabled":
+                if ( !level flag::get( #"pegasus_ride_started" ) )
                 {
                     self.hint_string[ n_player_index ] = #"hash_5455a9d3a45a75ab";
                 }
@@ -315,7 +315,7 @@ function function_c52e8ba( e_player, var_8d5d092c )
                 }
                 
                 break;
-            case #"hash_6a9e3d8abf194ccc":
+            case #"flag_fasttravel_marketplace_enabled":
                 if ( !level flag::get( #"zm_red_fasttravel_open" ) )
                 {
                     self.hint_string[ n_player_index ] = #"hash_1f91f960f0f25452";
@@ -326,7 +326,7 @@ function function_c52e8ba( e_player, var_8d5d092c )
                 }
                 
                 break;
-            case #"hash_594bc19e3aca5c49":
+            case #"flag_fasttravel_terrace_enabled":
                 if ( !level flag::get( #"zm_red_fasttravel_open" ) )
                 {
                     self.hint_string[ n_player_index ] = #"hash_1f91f960f0f25452";
@@ -357,7 +357,7 @@ function function_c52e8ba( e_player, var_8d5d092c )
         }
         else
         {
-            self.hint_string[ n_player_index ] = #"hash_7667bd0f83307360";
+            self.hint_string[ n_player_index ] = #"zombie/generic_fasttravel_cooldown";
         }
         
         b_result = 1;
@@ -440,7 +440,7 @@ function function_c52e8ba( e_player, var_8d5d092c )
                 self.hint_string[ n_player_index ] = zm_utility::function_d6046228( #"hash_746e33772cb75300", #"hash_67f9ed805de4782c" );
                 break;
             default:
-                self.hint_string[ n_player_index ] = zm_utility::function_d6046228( #"hash_2731cc5c1208e2e4", #"hash_47b20f457b370888" );
+                self.hint_string[ n_player_index ] = zm_utility::function_d6046228( #"zombie/fasttravel_generic_use", #"zombie/fasttravel_generic_use_keyboard" );
                 break;
         }
         
@@ -457,10 +457,10 @@ function function_c52e8ba( e_player, var_8d5d092c )
 function function_706b7928()
 {
     level endon( #"end_game" );
-    level flag::init( #"hash_718fe784e4ddaa70" );
+    level flag::init( #"flag_fasttravel_serpent_pass_enabled" );
     level flag::wait_till( "start_zombie_round_logic" );
     level flag::wait_till_any( array( "connect_river_acheron_to_serpents_pass", "connect_serpents_pass_to_drakaina_arena" ) );
-    level flag::set( #"hash_718fe784e4ddaa70" );
+    level flag::set( #"flag_fasttravel_serpent_pass_enabled" );
 }
 
 // Namespace zm_red_fasttravel/zm_red_fasttravel
@@ -470,10 +470,10 @@ function function_706b7928()
 function function_63cbb9f()
 {
     level endon( #"end_game" );
-    level flag::init( #"hash_42322632a02d834d" );
+    level flag::init( #"flag_fasttravel_cliff_forge_enabled" );
     level flag::wait_till( "start_zombie_round_logic" );
     level flag::wait_till_any( array( "connect_river_acheron_to_cliff_tombs", "connect_cliff_tombs_to_drakaina_arena" ) );
-    level flag::set( #"hash_42322632a02d834d" );
+    level flag::set( #"flag_fasttravel_cliff_forge_enabled" );
 }
 
 // Namespace zm_red_fasttravel/zm_red_fasttravel
@@ -483,10 +483,10 @@ function function_63cbb9f()
 function function_7ebbc601()
 {
     level endon( #"end_game" );
-    level flag::init( #"hash_6a9e3d8abf194ccc" );
+    level flag::init( #"flag_fasttravel_marketplace_enabled" );
     level flag::wait_till( "start_zombie_round_logic" );
     level flag::wait_till_any( array( "connect_apollo_temple_to_western_plaza", "connect_western_plaza_to_monument_of_craterus", "connect_western_plaza_to_bathhouse_upper" ) );
-    level flag::set( #"hash_6a9e3d8abf194ccc" );
+    level flag::set( #"flag_fasttravel_marketplace_enabled" );
 }
 
 // Namespace zm_red_fasttravel/zm_red_fasttravel
@@ -496,10 +496,10 @@ function function_7ebbc601()
 function function_b3bfd869()
 {
     level endon( #"end_game" );
-    level flag::init( #"hash_594bc19e3aca5c49" );
+    level flag::init( #"flag_fasttravel_terrace_enabled" );
     level flag::wait_till( "start_zombie_round_logic" );
     level flag::wait_till_any( array( "connect_apollo_temple_to_eastern_plaza", "connect_eastern_plaza_to_upper_road", "connect_eastern_plaza_to_temple_terrace" ) );
-    level flag::set( #"hash_594bc19e3aca5c49" );
+    level flag::set( #"flag_fasttravel_terrace_enabled" );
 }
 
 // Namespace zm_red_fasttravel/zm_red_fasttravel

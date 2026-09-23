@@ -49,7 +49,7 @@
     ],
     "actionlist": [
         {
-            "name": "#hash_78881ac649c38041"
+            "name": "#look_traversal_end"
         },
         {
             "name": "#use_gameobject"
@@ -73,10 +73,10 @@
             "name": "#scan_for_threats"
         }
     ],
-    "hash_a950ee0c3937:hash_6ef48dfa": 0.25,
+    "sniperquickscopechance": 0.25,
     "aimtagbody": "j_spineupper",
-    "hash_5a8d258cb5484ec:hash_48aa05a1": 400,
-    "hash_5c3e058cb6b646e:hash_1f5429aa": 200,
+    "slidedistmax": 400,
+    "slidedistmin": 200,
     "fovbusy": 110,
     "longrange": 1750,
     "seedquery": "bot_tacquery_space_seeds",
@@ -88,8 +88,8 @@
     "pacifistwait": 1,
     "hash_25723166d1a33077:hash_4333f343": 0.1,
     "type": "bottacticalstate",
-    "hash_2af6efccce8040c6:hash_1f8a6a2": 4,
-    "hash_2b1201ccce972714:hash_2fc77943": 8,
+    "nextpositiontimemin": 4,
+    "nextpositiontimemax": 8,
     "pitchacceleration": 10,
     "hash_2d559e5b50d76615:hash_b9f05fc": 0.5,
     "hash_2d71885b50efbb6b:hash_c850085f": 1,
@@ -98,7 +98,7 @@
     "medrange": 1000,
     "pitchsensitivity": 1,
     "yawacceleration": 20,
-    "hash_32a6a46b25f781d0:hash_b4c8298c": 0.9,
+    "adsfiredot": 0.9,
     "vmtype": "server",
     "lowhealthratio": 0.7,
     "sprintdist": 300,
@@ -119,8 +119,8 @@
     "hash_6b79a930f5e2923f:hash_f58a14bd": 0.8,
     "hash_7163eada047b66e2:hash_69610dbe": 25,
     "pathenemyfightdist": 0,
-    "hash_73cf1d5843e3f5c5:hash_5eaa9e02": 2,
-    "hash_73ea275843face7b:hash_bc0b2a06": 3,
+    "nextactiontimemin": 2,
+    "nextactiontimemax": 3,
     "accuracy": 1,
     "hash_79a22a0fafd2279a:hash_d1fb2f1a": 0
 }

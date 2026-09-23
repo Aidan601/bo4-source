@@ -50,7 +50,7 @@ function function_13dda28a( var_5ea5c94d )
 {
     if ( !var_5ea5c94d )
     {
-        level notify( #"hash_50b21267cdd893be" );
+        level notify( #"mq_campfire_start" );
         level flag::clear( #"hash_43c116bdb3a96e16" );
         level.var_f1907c72 thread function_561d9cff();
         level waittill( #"hash_e8247a060147428" );
@@ -71,7 +71,7 @@ function function_a874e5d0( var_5ea5c94d, ended_early )
         level.var_f1907c72.vessel clientfield::set( "" + #"hash_1b72c208f2964e24", 0 );
     }
     
-    level notify( #"hash_1f0238cda598f6e9" );
+    level notify( #"blood_event_done" );
     level.var_96eedc2a++;
     
     if ( level.var_96eedc2a >= 4 )
@@ -88,7 +88,7 @@ function function_a874e5d0( var_5ea5c94d, ended_early )
 // Size: 0x436
 function function_1ad84248()
 {
-    level endon( #"end_game", #"hash_50b21267cdd893be" );
+    level endon( #"end_game", #"mq_campfire_start" );
     
     switch ( level.var_96eedc2a )
     {
@@ -250,7 +250,7 @@ function function_561d9cff()
     
     if ( level.var_96eedc2a === 2 )
     {
-        e_who thread zm_orange_util::function_51b752a9( #"hash_6f774fe92d5d01b6", -1, 1, 0 );
+        e_who thread zm_orange_util::function_51b752a9( #"vox_device_pickup", -1, 1, 0 );
     }
     
     self.vessel hide();

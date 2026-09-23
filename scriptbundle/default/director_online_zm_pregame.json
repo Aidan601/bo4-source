@@ -13,7 +13,7 @@
     "menumusic": "lobby_zm",
     "room": "zombie",
     "maxlaunchclients": 4,
-    "kicker": "localized17#hash_5dd231fd15db7531",
+    "kicker": "localized17#menu/fileshare_customgames",
     "isadvertised": 0,
     "maxclients": 4,
     "name": "director_online_zm_pregame",
@@ -21,7 +21,7 @@
     "errtarget": "director_online_zm_pregame",
     "egamemodes": 2,
     "lobbytimertype": 0,
-    "title": "localized17#hash_27307830087a401",
+    "title": "localized17#menu/customgames_caps",
     "maxcodcasterclients": 2,
     "isgame": 0,
     "maxlocalclients": 2

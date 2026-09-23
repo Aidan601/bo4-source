@@ -24,7 +24,7 @@ function __init__()
 {
     callback::on_killcam_begin( &function_330a13a6 );
     callback::on_killcam_end( &function_330a13a6 );
-    callback::add_callback( #"hash_2fc4cfecaed47583", &function_bd054816 );
+    callback::add_callback( #"localclientusingoffhand", &function_bd054816 );
     clientfield::register( "missile", "tripwire_state", 1, 2, "int", &function_6868fab3, 1, 1 );
     clientfield::register( "scriptmover", "tripwire_solo_beam_fx", 1, 1, "int", &function_9233eb94, 0, 0 );
     level.tripwireweapon = getweapon( "eq_tripwire" );
@@ -252,7 +252,7 @@ function function_9233eb94( localclientnum, oldval, newval, bnewent, binitialsna
     {
         self endon( #"death" );
         self util::waittill_dobj( localclientnum );
-        self.beam_fx = util::playfxontag( localclientnum, #"hash_253c31a9114d6029", self, "tag_origin" );
+        self.beam_fx = util::playfxontag( localclientnum, #"weapon/fx8_equip_ied_active", self, "tag_origin" );
         return;
     }
     

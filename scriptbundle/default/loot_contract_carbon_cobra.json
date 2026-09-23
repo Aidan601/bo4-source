@@ -1,10 +1,10 @@
 {
     "contracticon": "image#hash_39b17a14c2eda9f0",
     "relateditemname": "localized17#hash_6fc5dee2fa8af3cb",
-    "contracttitle": "localized17#hash_284e9f57619d25a4",
+    "contracttitle": "localized17#mpui/fall_firearms",
     "name": "loot_contract_carbon_cobra",
     "contractdescription": "localized17#hash_738a2461289378cd",
     "hash_69014841451a5872:hash_f15e270f": "#white",
-    "hash_6b3de4579d73ceb6:hash_1c057e8c": "image#hash_6b09d4f4af932d8e",
-    "hash_7883881b5c75bf5e:hash_e08fc162": "localized17#hash_476721b285b530dd"
+    "contracticoninventory": "image#hash_6b09d4f4af932d8e",
+    "contentsdetaileddesc": "localized17#hash_476721b285b530dd"
 }

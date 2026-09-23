@@ -20,16 +20,16 @@ function init_clientfields()
 {
     clientfield::register( "scriptmover", "" + #"candle_light", 8000, 1, "int", &function_7b2555da, 0, 0 );
     clientfield::register( "scriptmover", "" + #"monolith_water", 8000, 1, "int", &function_5755829d, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"hash_4d45dc65a8307183", 8000, 1, "counter", &function_7fb1dad8, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"soul_possess_orb", 8000, 1, "counter", &function_7fb1dad8, 0, 0 );
     clientfield::register( "actor", "" + #"soul_possess", 8000, 1, "int", &function_46354b9d, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_3d7d4c5e6ed616e9", 8000, 1, "int", &function_5790d8f, 0, 1 );
     clientfield::register( "scriptmover", "" + #"jewelry_dropped", 8000, 1, "int", &function_4e782d34, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_3d5a64bed5e39d24", 8000, 1, "int", &function_3f039efc, 0, 0 );
     clientfield::register( "world", "" + #"hash_73123721764d7374", 8000, 1, "int", &function_12852d1a, 0, 0 );
-    level._effect[ #"candle_light" ] = #"hash_7c3ce9a7a1d0be65";
+    level._effect[ #"candle_light" ] = #"fire/fx8_fire_candle_sml_melt_on";
     level._effect[ #"candle_extinguish" ] = #"hash_46177358e1ae4e80";
     level._effect[ #"monolith_water" ] = #"hash_4290601f9ae7b873";
-    level._effect[ #"hash_4d45dc65a8307183" ] = #"hash_59977c4c851916e0";
+    level._effect[ #"soul_possess_orb" ] = #"hash_59977c4c851916e0";
     level._effect[ #"soul_possess" ] = #"hash_5ea48c095e439dd3";
     level._effect[ #"jewelry_dropped" ] = #"hash_69fe2bd378e08226";
 }
@@ -54,7 +54,7 @@ function function_7b2555da( localclientnum, oldval, newval, bnewent, binitialsna
     {
         killfx( localclientnum, self.var_55e883de );
         playfx( localclientnum, level._effect[ #"candle_extinguish" ], self.origin, anglestoforward( self.angles ), anglestoup( self.angles ) );
-        playsound( localclientnum, #"hash_50692f39387dddd", self.origin );
+        playsound( localclientnum, #"zmb_candle_out", self.origin );
         self.var_55e883de = undefined;
     }
 }
@@ -93,8 +93,8 @@ function function_46354b9d( localclientnum, oldval, newval, bnewent, binitialsna
         if ( !isdefined( self.var_c3a33b28 ) )
         {
             self.var_c3a33b28 = util::playfxontag( localclientnum, level._effect[ #"soul_possess" ], self, "j_spine4" );
-            self playsound( localclientnum, #"hash_4826261b01f96036" );
-            zmb_soul = self playloopsound( #"hash_298631572be3dd79" );
+            self playsound( localclientnum, #"zmb_ghost_appear" );
+            zmb_soul = self playloopsound( #"zmb_ghost_loop" );
         }
         
         return;
@@ -113,9 +113,9 @@ function function_46354b9d( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0xc6
 function function_7fb1dad8( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    util::playfxontag( localclientnum, level._effect[ #"hash_4d45dc65a8307183" ], self, "tag_origin" );
-    self playsound( localclientnum, #"hash_72a28324d62874cc" );
-    var_3e97d494 = self playloopsound( #"hash_298631572be3dd79" );
+    util::playfxontag( localclientnum, level._effect[ #"soul_possess_orb" ], self, "tag_origin" );
+    self playsound( localclientnum, #"zmb_ghost_disappear" );
+    var_3e97d494 = self playloopsound( #"zmb_ghost_loop" );
 }
 
 // Namespace mansion_impaler/zm_mansion_impaler
@@ -158,11 +158,11 @@ function function_4e782d34( localclientnum, oldval, newval, bnewent, binitialsna
         if ( !isdefined( self.var_dd761cc9 ) )
         {
             self.var_dd761cc9 = util::playfxontag( localclientnum, level._effect[ #"jewelry_dropped" ], self, "tag_origin" );
-            playsound( localclientnum, #"hash_6dda9e544bcd6f0d", self.origin );
+            playsound( localclientnum, #"zmb_jewelry_drop", self.origin );
             
             if ( self.model == #"p8_zm_man_watch_pocket_gold" )
             {
-                var_a0cc5b31 = self playloopsound( #"hash_5354467970ab7b00" );
+                var_a0cc5b31 = self playloopsound( #"zmb_gold_watch_loop" );
             }
             
             if ( self.model == #"p8_zm_man_jewelry_ring" )
@@ -177,7 +177,7 @@ function function_4e782d34( localclientnum, oldval, newval, bnewent, binitialsna
             
             if ( self.model == #"p8_zm_man_jewelry_bracelet" )
             {
-                var_a0cc5b31 = self playloopsound( #"hash_35715829aad8de55" );
+                var_a0cc5b31 = self playloopsound( #"zmb_gold_bracelet_loop" );
             }
         }
         
@@ -202,7 +202,7 @@ function function_3f039efc( localclientnum, oldval, newval, bnewent, binitialsna
         self stoprenderoverridebundle( #"hash_3b7b44b7a440e5f" );
         self playrenderoverridebundle( #"hash_3d9f08ef1b60239e" );
         
-        if ( self.model == #"hash_2b87b734e194ea79" )
+        if ( self.model == #"p8_zm_man_mausoleum_symbols_base" )
         {
             level notify( #"hash_5a1a7e205b6f5b88" );
         }

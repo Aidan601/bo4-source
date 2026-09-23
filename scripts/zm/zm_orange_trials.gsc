@@ -1,9 +1,9 @@
-#using script_28bfe6df1650ab79;
+#using scripts\zm_common\trials\zm_trial_death_from_above;
 #using script_3d07a022f5c96f45;
 #using script_4109fe9f86c53247;
-#using script_4f1abd7be75f8a2f;
+#using scripts\zm\zm_orange_trial_kills_with_flinger;
 #using script_67da0c3654a906b6;
-#using script_ddbbb750404a64b;
+#using scripts\zm_common\trials\zm_trial_round_ending_zone;
 #using scripts\core_common\ai\zombie_utility;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\callbacks_shared;
@@ -49,10 +49,10 @@
 // Size: 0xde
 function preload()
 {
-    clientfield::register( "scriptmover", "" + #"hash_71906a124221219", 24000, 1, "int" );
+    clientfield::register( "scriptmover", "" + #"blood_buff_aura", 24000, 1, "int" );
     clientfield::register( "scriptmover", "" + #"trials_lighthouse_beam", 24000, 1, "int" );
     level flag::init( #"hash_4466889733a90df2" );
-    level flag::init( #"hash_198bc172b5af7f25" );
+    level flag::init( #"trials_hell_on_earth" );
     level.var_43216bdf = &function_ff59ba7a;
 }
 
@@ -68,7 +68,7 @@ function main()
     
     while ( true )
     {
-        level waittill( #"hash_5d42d8ee7a08b543" );
+        level waittill( #"trial_round_start" );
         
         switch ( level.round_number )
         {
@@ -117,7 +117,7 @@ function main()
             level.var_c3a029eb = 0;
         }
         
-        level waittill( #"hash_7646638df88a3656" );
+        level waittill( #"trial_round_end" );
         
         if ( level.var_c3a029eb === 1 && level.round_number >= 29 )
         {
@@ -141,7 +141,7 @@ function main()
             level clientfield::set( "" + #"lava_control", 0 );
             level clientfield::set( "" + #"hash_5e69ee96304ec40b", 0 );
             level.var_71435e8 = 0;
-            level flag::clear( #"hash_198bc172b5af7f25" );
+            level flag::clear( #"trials_hell_on_earth" );
             level flag::clear( #"hash_69a9d00e65ee6c40" );
         }
         
@@ -154,11 +154,11 @@ function main()
             if ( player.var_7dc2d507 === 1 )
             {
                 waitframe( 2 );
-                player notify( #"hash_53bfad7081c69dee" );
+                player notify( #"water_player_freeze_broken" );
                 player.var_7dc2d507 = 0;
                 player zm_orange_water::function_46c3bbf7();
-                player clientfield::set( "" + #"hash_55543319943057f1", 0 );
-                player clientfield::set_to_player( "" + #"hash_5160727729fd57a2", 0 );
+                player clientfield::set( "" + #"water_player_freeze_fx", 0 );
+                player clientfield::set_to_player( "" + #"water_player_freeze_sfx", 0 );
                 player clientfield::set_to_player( "" + #"hash_603fc9d210bdbc4d", 1 );
                 waitframe( 2 );
                 player clientfield::set_to_player( "" + #"hash_603fc9d210bdbc4d", 0 );
@@ -348,7 +348,7 @@ function function_b4bd25ef()
 function function_ff0b7907()
 {
     level clientfield::set( "" + #"hash_72b5b0359ca48427", 1 );
-    playsoundatposition( #"hash_431cadb65b1777ce", ( 0, 0, 0 ) );
+    playsoundatposition( #"evt_turn_to_hell", ( 0, 0, 0 ) );
     level thread lui::screen_flash( 0.2, 0.5, 1, 0.8, "white" );
     wait 0.2;
     setlightingstate( 1 );
@@ -373,7 +373,7 @@ function function_ff0b7907()
             level.var_43c25ad2 = 1;
         }
         
-        level flag::set( #"hash_198bc172b5af7f25" );
+        level flag::set( #"trials_hell_on_earth" );
         level flag::set( #"hash_69a9d00e65ee6c40" );
     }
     
@@ -391,11 +391,11 @@ function function_7206d28()
     
     if ( self.var_7dc2d507 === 1 )
     {
-        self notify( #"hash_53bfad7081c69dee" );
+        self notify( #"water_player_freeze_broken" );
         self.var_7dc2d507 = 0;
         self zm_orange_water::function_46c3bbf7();
-        self clientfield::set( "" + #"hash_55543319943057f1", 0 );
-        self clientfield::set_to_player( "" + #"hash_5160727729fd57a2", 0 );
+        self clientfield::set( "" + #"water_player_freeze_fx", 0 );
+        self clientfield::set_to_player( "" + #"water_player_freeze_sfx", 0 );
         self clientfield::set_to_player( "" + #"hash_603fc9d210bdbc4d", 1 );
         waitframe( 2 );
         self clientfield::set_to_player( "" + #"hash_603fc9d210bdbc4d", 0 );
@@ -430,8 +430,8 @@ function function_b93ad88d()
 // Size: 0x7c
 function function_53a1ecb9()
 {
-    level endon( #"hash_7646638df88a3656" );
-    level waittill( #"hash_715188521b564b16" );
+    level endon( #"trial_round_end" );
+    level waittill( #"player_reached_defend_area" );
     ai = zombie_utility::spawn_zombie( level.zombie_spawners[ 0 ], undefined );
     
     if ( isdefined( ai ) )
@@ -469,7 +469,7 @@ function blood_buff()
     
     self thread function_8532d13f();
     self zombie_utility::set_zombie_run_cycle( "run" );
-    level waittill( #"hash_7646638df88a3656" );
+    level waittill( #"trial_round_end" );
     self val::reset( #"bludy", "takedamage" );
     self val::reset( #"bludy", "allowdeath" );
     

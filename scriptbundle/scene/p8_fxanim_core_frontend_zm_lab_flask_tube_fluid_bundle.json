@@ -5,11 +5,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7a3bc314d39d5a4e",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_flask_tube_fluid_fill_anim",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_74e02749db84608b",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_flask_tube_fluid_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -38,7 +38,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c082ee474081ef4",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_flask_tube_fluid_finish_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -66,7 +66,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

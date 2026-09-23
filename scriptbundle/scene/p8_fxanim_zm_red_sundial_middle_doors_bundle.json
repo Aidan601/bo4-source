@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_153788fed1d4c9ef",
+                            "anim": "anim#p8_fxanim_zm_red_sundial_middle_doors_01_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_29fe22b9c72b1975",
+                            "anim": "anim#p8_fxanim_zm_red_sundial_middle_doors_01_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6fb75493a4ac6eb2",
+                            "anim": "anim#p8_fxanim_zm_red_sundial_middle_doors_02_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -92,7 +92,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2302a7496c96993e",
+                            "anim": "anim#p8_fxanim_zm_red_sundial_middle_doors_02_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -121,7 +121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_11b290d7c6fb5909",
+                            "anim": "anim#p8_fxanim_zm_red_sundial_middle_doors_03_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -150,7 +150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_ea572631e13bc67",
+                            "anim": "anim#p8_fxanim_zm_red_sundial_middle_doors_03_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -179,7 +179,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_73205d805b4b28a4",
+                            "anim": "anim#p8_fxanim_zm_red_sundial_middle_doors_04_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -208,7 +208,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7ff646ae49295bc8",
+                            "anim": "anim#p8_fxanim_zm_red_sundial_middle_doors_04_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -236,7 +236,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

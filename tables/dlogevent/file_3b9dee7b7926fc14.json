@@ -1,5 +1,5 @@
 {
-    "name": "#hash_3b9dee7b7926fc14",
+    "name": "#dlog_event_message_size",
     "unk28": "#message_size",
     "ddlDef": "#gamedata/ddl/generated/dlog_event_message_size.ddl",
     "unk18": 0,
@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -110,8 +110,8 @@
     ],
     "members": [
         {
-            "name": "#hash_410e02df5064f43",
-            "scrName": "#hash_5bb006c8",
+            "name": "#max_compressed",
+            "scrName": "#max_compressed",
             "type": "INT32"
         },
         {
@@ -120,8 +120,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_158f176cc1f5249c",
-            "scrName": "#hash_6e002e02",
+            "name": "#max_data_transfer",
+            "scrName": "#max_data_transfer",
             "type": "INT32"
         },
         {
@@ -145,8 +145,8 @@
             "type": "UINT32"
         },
         {
-            "name": "#hash_53c7dcda3f87b0b8",
-            "scrName": "#hash_3b704a14",
+            "name": "#max_uncompressed",
+            "scrName": "#max_uncompressed",
             "type": "INT32"
         },
         {

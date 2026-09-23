@@ -59,7 +59,7 @@ function function_4827d817( weapon )
     
     weapindex = self.pers[ #"dynamic_loadout" ].clientfields[ slot ].val - 1;
     package = struct::get_script_bundle( "bountyhunterpackage", level.bountypackagelist[ weapindex ] );
-    var_e6e3de63 = package.var_ef921c3c;
+    var_e6e3de63 = package.refillpickup;
     maxammo = package.refillammo;
     
     if ( !isdefined( maxammo ) || maxammo == 0 )

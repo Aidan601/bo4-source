@@ -1,4 +1,4 @@
-#using script_1d29de500c266470;
+#using scripts\core_common\player\player_free_fall_util;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\challenges_shared;
@@ -102,9 +102,9 @@ function function_cfc02934()
 // Size: 0xac
 function event_handler[player_medal] codecallback_medal( eventstruct )
 {
-    if ( isdefined( eventstruct ) && isdefined( eventstruct.var_7fcb97e3 ) && isdefined( level.scoreinfo ) && isdefined( level.scoreinfo[ eventstruct.var_7fcb97e3 ] ) )
+    if ( isdefined( eventstruct ) && isdefined( eventstruct.medal_name ) && isdefined( level.scoreinfo ) && isdefined( level.scoreinfo[ eventstruct.medal_name ] ) )
     {
-        medalinfo = level.scoreinfo[ eventstruct.var_7fcb97e3 ];
+        medalinfo = level.scoreinfo[ eventstruct.medal_name ];
         self give_xp( "medal", #"medalxp", medalinfo[ #"xp" ] );
     }
 }
@@ -169,7 +169,7 @@ function give_xp( var_c14ca2e6, xpstat, amount )
     
     var_a402c6e3 = curxp - prevxp;
     player stats::function_dad108fa( xpstat, var_a402c6e3 );
-    player.pers[ #"hash_6344af0b142ed0b6" ] = 1;
+    player.pers[ #"loot_tier_skip" ] = 1;
 }
 
 // Namespace wz_progression/wz_progression
@@ -228,7 +228,7 @@ function player_connected()
     player.pers[ #"teameliminatedtime" ] = 0;
     player.pers[ #"meritkills" ] = 0;
     player.pers[ #"meritprogression" ] = 0;
-    player.pers[ #"hash_39220b202c67c56b" ] = 0;
+    player.pers[ #"meritscommitted" ] = 0;
     player.pers[ #"placement_player" ] = 0;
     player.pers[ #"placement_team" ] = 0;
 }
@@ -247,7 +247,7 @@ function function_2c8aac6()
         return;
     }
     
-    if ( isdefined( player.pers[ #"hash_39220b202c67c56b" ] ) && player.pers[ #"hash_39220b202c67c56b" ] )
+    if ( isdefined( player.pers[ #"meritscommitted" ] ) && player.pers[ #"meritscommitted" ] )
     {
         println( "<dev string:x38>" + ( isdefined( player.name ) ? player.name : "<dev string:x46>" ) + "<dev string:x57>" );
         return;
@@ -267,7 +267,7 @@ function function_2c8aac6()
     player challenges::function_659f7dc( var_1ef5a3ba, var_87ecbce6, var_7f6396f0 );
     player function_4835d26a();
     println( "<dev string:x77>" + ( isdefined( player.name ) ? player.name : "<dev string:x46>" ) + "<dev string:x9d>" + player.pers[ #"placement_player" ] + "<dev string:xb4>" + "<dev string:xb8>" + player.pers[ #"placement_team" ] + "<dev string:xb4>" + "<dev string:xcd>" + player.pers[ #"kills" ] + "<dev string:xb4>" + "<dev string:xd9>" + player.pers[ #"meritprogression" ] + "<dev string:xb4>" );
-    player.pers[ #"hash_39220b202c67c56b" ] = 1;
+    player.pers[ #"meritscommitted" ] = 1;
 }
 
 // Namespace wz_progression/wz_progression
@@ -287,9 +287,9 @@ function function_59c85637()
     
     var_1ef5a3ba = 0;
     
-    if ( isdefined( self.pers[ #"hash_150795bee4d46ce4" ] ) )
+    if ( isdefined( self.pers[ #"first_connect_time" ] ) )
     {
-        var_1ef5a3ba = max( gettime() - self.pers[ #"hash_150795bee4d46ce4" ] - var_c06441ec, 0 );
+        var_1ef5a3ba = max( gettime() - self.pers[ #"first_connect_time" ] - var_c06441ec, 0 );
     }
     
     return var_1ef5a3ba;
@@ -313,7 +313,7 @@ function private function_fb20ad56()
 {
     player = self;
     assert( isplayer( player ) );
-    player stats::function_d40764f3( #"hash_6d5e162204f447f4", 1 );
+    player stats::function_d40764f3( #"top_25_placement_player", 1 );
 }
 
 // Namespace wz_progression/wz_progression
@@ -324,7 +324,7 @@ function private function_d61fdbef()
 {
     player = self;
     assert( isplayer( player ) );
-    player stats::function_d40764f3( #"hash_25f4611fc9d40aa8", 1 );
+    player stats::function_d40764f3( #"top_10_placement_player", 1 );
 }
 
 // Namespace wz_progression/wz_progression
@@ -335,7 +335,7 @@ function private function_67949803()
 {
     player = self;
     assert( isplayer( player ) );
-    player stats::function_d40764f3( #"hash_63307a0460c698ac", 1 );
+    player stats::function_d40764f3( #"top_5_placement_player", 1 );
 }
 
 // Namespace wz_progression/wz_progression
@@ -419,7 +419,7 @@ function private function_3217b0d2()
 {
     player = self;
     assert( isplayer( player ) );
-    player stats::function_d40764f3( #"hash_7b8d2c77874a1c24", 1 );
+    player stats::function_d40764f3( #"top_10_placement_team", 1 );
     
     if ( player function_ec3a8858() )
     {
@@ -440,11 +440,11 @@ function private function_6a7970fe()
 {
     player = self;
     assert( isplayer( player ) );
-    player stats::function_d40764f3( #"hash_5e9a745460a10f80", 1 );
+    player stats::function_d40764f3( #"top_5_placement_team", 1 );
     
     if ( isdefined( player.avenger ) && player.avenger )
     {
-        player stats::function_d40764f3( #"hash_5387d5e6f15c6b55", 1 );
+        player stats::function_d40764f3( #"top_5_avenger", 1 );
     }
     
     if ( isdefined( player.items_picked_up ) && player.items_picked_up.size <= 1 )
@@ -476,12 +476,12 @@ function team_eliminated( team, team_placement )
     
     foreach ( player in a_players )
     {
-        if ( !isdefined( player.pers ) || isdefined( player.pers[ #"hash_2283e9384383a6e9" ] ) && player.pers[ #"hash_2283e9384383a6e9" ] )
+        if ( !isdefined( player.pers ) || isdefined( player.pers[ #"placement_finalized" ] ) && player.pers[ #"placement_finalized" ] )
         {
             continue;
         }
         
-        player.pers[ #"hash_2283e9384383a6e9" ] = 1;
+        player.pers[ #"placement_finalized" ] = 1;
         player.pers[ #"teameliminatedtime" ] = gettime();
         player.pers[ #"placement_team" ] = team_placement;
         player match_record::set_player_stat( #"team_placement", team_placement );
@@ -523,12 +523,12 @@ function function_5648f82( team )
                 continue;
             }
             
-            if ( !isdefined( player.pers ) || isdefined( player.pers[ #"hash_2283e9384383a6e9" ] ) && player.pers[ #"hash_2283e9384383a6e9" ] )
+            if ( !isdefined( player.pers ) || isdefined( player.pers[ #"placement_finalized" ] ) && player.pers[ #"placement_finalized" ] )
             {
                 continue;
             }
             
-            player.pers[ #"hash_2283e9384383a6e9" ] = 1;
+            player.pers[ #"placement_finalized" ] = 1;
             player.pers[ #"placement_team" ] = 1;
             player.pers[ #"placement_player" ] = 1;
             player function_a0fea1a9();
@@ -998,7 +998,7 @@ function function_35ac33e1( attacker, victim, var_c5948a69 = {} )
             attacker stats::function_d40764f3( #"kills_after_revive", 1 );
         }
         
-        var_2fba6abe = attacker.var_37ef8626;
+        var_2fba6abe = attacker.deployment_land_time;
         currenttime = gettime();
         
         if ( isdefined( var_2fba6abe ) && currenttime - var_2fba6abe <= 60000 )
@@ -1064,7 +1064,7 @@ function function_35ac33e1( attacker, victim, var_c5948a69 = {} )
                             
                             if ( maxteamplayers == 2 )
                             {
-                                scoreevents::processscoreevent( #"hash_36b13ed6e99e6f06", attacker, undefined, var_c5948a69.sweapon );
+                                scoreevents::processscoreevent( #"squad_wipe_duo", attacker, undefined, var_c5948a69.sweapon );
                             }
                             
                             break;
@@ -1074,7 +1074,7 @@ function function_35ac33e1( attacker, victim, var_c5948a69 = {} )
                         case 4:
                             attacker stats::function_d40764f3( #"hash_736fa2bcc0b0bf62", 1 );
                             attacker stats::function_d40764f3( #"squads_eliminated_unassisted", 1 );
-                            scoreevents::processscoreevent( #"hash_6f41f79a13199c79", attacker, undefined, var_c5948a69.sweapon );
+                            scoreevents::processscoreevent( #"squad_wipe_quad", attacker, undefined, var_c5948a69.sweapon );
                             break;
                         default:
                             break;
@@ -1171,7 +1171,7 @@ function function_35ac33e1( attacker, victim, var_c5948a69 = {} )
             
             if ( height >= 240 )
             {
-                attacker stats::function_dad108fa( #"hash_35020c395a89befb", 1 );
+                attacker stats::function_dad108fa( #"kills_high_ground", 1 );
                 attacker callback::callback( #"hash_7a9bdd3ee0ae95af" );
             }
             
@@ -1517,7 +1517,7 @@ function on_challenge_complete( params )
         player.pers[ #"meritprogression" ] += params.reward;
     }
     
-    player.pers[ #"hash_6344af0b142ed0b6" ] = 1;
+    player.pers[ #"loot_tier_skip" ] = 1;
     
     if ( !isdefined( player.pers[ #"participation" ] ) )
     {

@@ -15,10 +15,10 @@
     "typeSuffix": "_zombie",
     "spawnerType": "zombie",
     "character": [
-        "#hash_7337aeb379996092"
+        "#c_t8_zmb_ora_zombie_male1"
     ],
     "animMappingTables": [
-        "#hash_309b0a08ff43015d"
+        "#zm_zombie_orange.ai_am"
     ],
     "meleeWeapon": "#zombie_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
@@ -26,9 +26,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_30982308ff40f601",
-    "animStateMachine": "#hash_5a7a2149bee0f3aa",
-    "animSelectorTable": "#hash_5a7a2a49bee102f5",
+    "behaviorTree": "#zm_zombie_orange.ai_bt",
+    "animStateMachine": "#zm_zombie_orange.ai_asm",
+    "animSelectorTable": "#zm_zombie_orange.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_escape_zombie_settings",

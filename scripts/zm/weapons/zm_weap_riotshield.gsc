@@ -1,4 +1,4 @@
-#using script_301f64a4090c381a;
+#using scripts\zm_common\zm_faction_buffs;
 #using scripts\core_common\ai\zombie_death;
 #using scripts\core_common\ai\zombie_utility;
 #using scripts\core_common\ai_shared;
@@ -162,7 +162,7 @@ function player_init_shield_health( weapon, var_cd9d17e0 = 0 )
             break;
     }
     
-    var_2aaf6cdb = zombie_utility::get_zombie_var( #"hash_cc85b961f25c2ff" );
+    var_2aaf6cdb = zombie_utility::get_zombie_var( #"shield_damage_mult" );
     
     if ( isdefined( var_2aaf6cdb ) )
     {

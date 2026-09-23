@@ -2,7 +2,7 @@
     "hash_47b6a970f44aaaf:hash_fb8bfacd": 1,
     "resistanceicon": "image#hash_4d2e79e54e1c2b67",
     "configstringfiletype": "scriptbundle",
-    "hash_2773f39c4a413c5c:hash_5d66bb63": "localized17#hash_67e1869756918772",
+    "resistancenameref": "localized17#mpui/resistance_damage",
     "type": "resistance",
     "hash_3975948d6c4961b0:hash_a079a0f6": "none",
     "hash_39759d8d6c4970fb:hash_215422c5": "explosive_damage",

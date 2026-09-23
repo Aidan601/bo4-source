@@ -22,8 +22,8 @@ function autoexec __init__system__()
 // Size: 0x84
 function init()
 {
-    zm_sq::register( #"hash_32f778a60edd89af", #"step_1", #"hash_703e7ca00bf77f59", &function_5d6ee8e9, &function_65937bee );
-    zm_sq::start( #"hash_32f778a60edd89af" );
+    zm_sq::register( #"ee_lullaby", #"step_1", #"hash_703e7ca00bf77f59", &function_5d6ee8e9, &function_65937bee );
+    zm_sq::start( #"ee_lullaby" );
 }
 
 // Namespace namespace_35b7c648/namespace_35b7c648

@@ -6,7 +6,7 @@
     "checksum": 0,
     "streamerworld": "#hash_613a9fa7a0db713c",
     "lighting": "#maps/wz/wz_escape.d3dbsp",
-    "lutMaterial": "#hash_6f84ab13bee899ac",
+    "lutMaterial": "#mtl_lut_wz_escape",
     "volumeDecalRevealTexture": "#vdreveal",
     "draw": {
         "blubIESprofileCNT": 0,

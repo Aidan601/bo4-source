@@ -1,6 +1,6 @@
 {
-    "name": "#hash_5a60266e0a41d276",
-    "model": "#hash_72b51b82ac901d1c",
+    "name": "#destructible_veh_t8_mil_truck_technical_militia_covered",
+    "model": "#veh_t8_mil_truck_technical_mp_militia_covered_dest",
     "unk20": "#hash_181c44615c6245d8",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
@@ -14,11 +14,11 @@
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_94b5f3bad73031",
+                    "name": "#dst_car_fire_frnt",
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_5eb690639ce50eba",
+                    "name": "#dst_car_fire",
                     "unk28": "tag_body_d0"
                 },
                 {

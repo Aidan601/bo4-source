@@ -72,13 +72,13 @@ function function_b2755499( weapon, entity )
         case #"gun_ultimate_turret":
             returnweapon = getweapon( "ultimate_turret" );
             break;
-        case #"hash_17df39d53492b0bf":
+        case #"ac130_main_cannon":
             returnweapon = getweapon( "ac130" );
             break;
         case #"straferun_gun":
             returnweapon = getweapon( "straferun" );
             break;
-        case #"hash_26ffb92552ae26be":
+        case #"drone_squadron_turret":
             returnweapon = getweapon( "drone_squadron" );
             break;
         case #"player_air_vehicle1_main_turret_3rd_person":
@@ -144,7 +144,7 @@ function function_d3c5b110( local_client_num, oldval, newval, bnewent, binitials
     {
         if ( !isdefined( level.var_1a8113a7[ local_client_num ] ) )
         {
-            level.var_1a8113a7[ local_client_num ] = function_604c9983( local_client_num, #"hash_7c507989ceae567f" );
+            level.var_1a8113a7[ local_client_num ] = function_604c9983( local_client_num, #"mpl_ice_pick_hacking_loop" );
         }
         
         return;
@@ -154,7 +154,7 @@ function function_d3c5b110( local_client_num, oldval, newval, bnewent, binitials
     {
         function_d48752e( local_client_num, level.var_1a8113a7[ local_client_num ] );
         level.var_1a8113a7[ local_client_num ] = undefined;
-        playsound( local_client_num, #"hash_1d4f78480965b59d" );
+        playsound( local_client_num, #"mpl_ice_pick_hacking_done" );
     }
 }
 
@@ -468,7 +468,7 @@ function function_868adc20( local_client_num, oldval, newval, bnewent, binitials
     {
         if ( !isdefined( level.var_422c4695[ local_client_num ] ) )
         {
-            level.var_422c4695[ local_client_num ] = function_604c9983( local_client_num, #"hash_48af3a16cdf94e6f" );
+            level.var_422c4695[ local_client_num ] = function_604c9983( local_client_num, #"mpl_ice_pick_loop" );
         }
         
         return;
@@ -481,7 +481,7 @@ function function_868adc20( local_client_num, oldval, newval, bnewent, binitials
         
         if ( !bwastimejump )
         {
-            playsound( local_client_num, #"hash_b5e00bf57762b86" );
+            playsound( local_client_num, #"mpl_ice_pick_off" );
         }
     }
 }
@@ -511,13 +511,13 @@ function icepick_on( local_client_num, oldval, newval, bnewent, binitialsnap, fi
 // Size: 0xf4
 function function_4a82368f( local_client_num, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    isplaying = postfx::function_556665f2( #"hash_108c587fdd95588a" );
+    isplaying = postfx::function_556665f2( #"pstfx_dni_screen_futz_lp" );
     
     if ( newval == 1 )
     {
         if ( !isplaying && self isremotecontrolling( local_client_num ) )
         {
-            self postfx::playpostfxbundle( #"hash_108c587fdd95588a" );
+            self postfx::playpostfxbundle( #"pstfx_dni_screen_futz_lp" );
         }
         
         return;
@@ -527,7 +527,7 @@ function function_4a82368f( local_client_num, oldval, newval, bnewent, binitials
     {
         if ( isplaying )
         {
-            self postfx::stoppostfxbundle( #"hash_108c587fdd95588a" );
+            self postfx::stoppostfxbundle( #"pstfx_dni_screen_futz_lp" );
         }
     }
 }

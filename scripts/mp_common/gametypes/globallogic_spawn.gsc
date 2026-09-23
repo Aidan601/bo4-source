@@ -133,21 +133,21 @@ function function_82ca1565( spawnpoint, gametype )
             return ( isdefined( spawnpoint.domination_flag_b ) && spawnpoint.domination_flag_b );
         case #"dom_flag_c":
             return ( isdefined( spawnpoint.domination_flag_c ) && spawnpoint.domination_flag_c );
-        case #"hash_6056c310624d5afd":
+        case #"dem_attacker_a":
             return ( isdefined( spawnpoint.demolition_attacker_a ) && spawnpoint.demolition_attacker_a );
-        case #"hash_6056c010624d55e4":
+        case #"dem_attacker_b":
             return ( isdefined( spawnpoint.demolition_attacker_b ) && spawnpoint.demolition_attacker_b );
-        case #"hash_6ef2d89ce8ee9a32":
+        case #"dem_remove_a":
             return ( isdefined( spawnpoint.demolition_remove_a ) && spawnpoint.demolition_remove_a );
-        case #"hash_6ef2d79ce8ee987f":
+        case #"dem_remove_b":
             return ( isdefined( spawnpoint.demolition_remove_b ) && spawnpoint.demolition_remove_b );
         case #"dem_overtime":
             return ( isdefined( spawnpoint.demolition_overtime ) && spawnpoint.demolition_overtime );
-        case #"hash_7cb9d0a58715cebe":
+        case #"dem_start_spawn":
             return ( isdefined( spawnpoint.demolition_start_spawn ) && spawnpoint.demolition_start_spawn );
-        case #"hash_6d83e5f1bdefa7dd":
+        case #"dem_defender_a":
             return ( isdefined( spawnpoint.demolition_defender_a ) && spawnpoint.demolition_defender_a );
-        case #"hash_6d83e2f1bdefa2c4":
+        case #"dem_defender_b":
             return ( isdefined( spawnpoint.demolition_defender_b ) && spawnpoint.demolition_defender_b );
         case #"control_attack_add_0":
             return ( isdefined( spawnpoint.control_attack_add_a ) && spawnpoint.control_attack_add_a );
@@ -965,20 +965,20 @@ function spawnplayer()
         var_8fa79650 = self getcharacterwarpaintlootid();
         decallootid = self getcharacterdecallootid();
         var_b3d9cfaa = self function_11d0e790();
-        var_f8e6b703 = self match_record::get_player_stat( #"current_life_index" );
+        current_life_index = self match_record::get_player_stat( #"current_life_index" );
         
-        if ( isdefined( var_f8e6b703 ) )
+        if ( isdefined( current_life_index ) )
         {
-            self match_record::set_stat( #"lives", var_f8e6b703, #"character_gender", gender );
-            self match_record::set_stat( #"lives", var_f8e6b703, #"character_decal_lootid", decallootid );
-            self match_record::set_stat( #"lives", var_f8e6b703, #"character_outfit_lootid", var_be574bd8 );
-            self match_record::set_stat( #"lives", var_f8e6b703, #"character_warpaint_lootid", var_8fa79650 );
-            self match_record::set_stat( #"lives", var_f8e6b703, #"character_outfit", outfitindex );
-            self match_record::set_stat( #"lives", var_f8e6b703, #"character_warpaint_outfit", warpaintoutfitindex );
+            self match_record::set_stat( #"lives", current_life_index, #"character_gender", gender );
+            self match_record::set_stat( #"lives", current_life_index, #"character_decal_lootid", decallootid );
+            self match_record::set_stat( #"lives", current_life_index, #"character_outfit_lootid", var_be574bd8 );
+            self match_record::set_stat( #"lives", current_life_index, #"character_warpaint_lootid", var_8fa79650 );
+            self match_record::set_stat( #"lives", current_life_index, #"character_outfit", outfitindex );
+            self match_record::set_stat( #"lives", current_life_index, #"character_warpaint_outfit", warpaintoutfitindex );
             
             for ( i = 0; i < var_b3d9cfaa.size ; i++ )
             {
-                self match_record::set_stat( #"lives", var_f8e6b703, #"hash_20d6751cb2f9ca09", i, var_b3d9cfaa[ i ] );
+                self match_record::set_stat( #"lives", current_life_index, #"hash_20d6751cb2f9ca09", i, var_b3d9cfaa[ i ] );
             }
         }
     }

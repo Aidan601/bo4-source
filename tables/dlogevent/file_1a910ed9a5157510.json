@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -95,7 +95,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -123,8 +123,8 @@
                         "type": "BOOL"
                     },
                     {
-                        "name": "#hash_22bebb24c7131b96",
-                        "scrName": "#hash_a15e4438",
+                        "name": "#party_member_count",
+                        "scrName": "#party_member_count",
                         "type": "INT8"
                     },
                     {
@@ -144,8 +144,8 @@
                         "type": "UINT64"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT64"
                     }
                 ]
@@ -159,7 +159,7 @@
                 "members": [
                     {
                         "name": "#lobby_id_joined",
-                        "scrName": "#hash_8abecb03",
+                        "scrName": "#lobby_id_joined",
                         "type": "UINT64"
                     },
                     {
@@ -223,7 +223,7 @@
                 "members": [
                     {
                         "name": "#utc_timestamp_joined_party",
-                        "scrName": "#hash_bab6b3b5",
+                        "scrName": "#utc_timestamp_joined_party",
                         "type": "UINT64"
                     },
                     {
@@ -234,7 +234,7 @@
                     },
                     {
                         "name": "#utc_timestamp_left_party",
-                        "scrName": "#hash_341b7446",
+                        "scrName": "#utc_timestamp_left_party",
                         "type": "UINT64"
                     }
                 ]

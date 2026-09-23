@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_radiation_field_shutdown",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_3445612bb71a4857",
-    "stringref": "localized17#hash_5e744a5c05680b46",
-    "iconlarge": "image#hash_421a9fc370f756a7"
+    "iconsmall": "image#ui_icon_medal_kill_switch",
+    "stringref": "localized17#medal/radiation_field_shutdown",
+    "iconlarge": "image#ui_icon_medal_kill_switch_large"
 }

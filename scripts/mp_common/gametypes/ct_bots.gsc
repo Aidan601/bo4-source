@@ -150,14 +150,14 @@ function function_fa0d912f( var_7b4ae7d1 )
                 fields = getcharacterfields( role_index, currentsessionmode() );
                 count += 1;
                 
-                if ( isdefined( fields ) && isdefined( fields.var_49a55967 ) && fields.var_49a55967 )
+                if ( isdefined( fields ) && isdefined( fields.iscombattrainingenabled ) && fields.iscombattrainingenabled )
                 {
                     break;
                 }
             }
             while ( count < var_5ec2386a );
             
-            if ( !isdefined( fields ) || !( isdefined( fields.var_49a55967 ) && fields.var_49a55967 ) )
+            if ( !isdefined( fields ) || !( isdefined( fields.iscombattrainingenabled ) && fields.iscombattrainingenabled ) )
             {
                 role_index = 1;
             }
@@ -1011,7 +1011,7 @@ function function_956b904a()
                 self thread function_eca43db6();
                 break;
             case 1:
-                self thread function_4b111722();
+                self thread bot_wander_state();
                 break;
             case 3:
                 self thread bot_chase_state();
@@ -1155,7 +1155,7 @@ function registerspecialty_earnmoremomentumspawnstart()
         wait randomfloatrange( 0.01, 0.5 );
     }
     
-    self notify( #"hash_1213d70444c626d4", "stop_wander" );
+    self notify( #"bot_goal_timeout", "stop_wander" );
     self.navmeshpoint = undefined;
     self.var_86ba7e6d = 0;
 }
@@ -1166,7 +1166,7 @@ function registerspecialty_earnmoremomentumspawnstart()
 // Size: 0xc6
 function function_eff20434()
 {
-    self endon( #"death", #"disconnect", #"joined_team", #"joined_spectators", #"hash_1213d70444c626d4", #"reset_pathing" );
+    self endon( #"death", #"disconnect", #"joined_team", #"joined_spectators", #"bot_goal_timeout", #"reset_pathing" );
     self thread registerspecialty_earnmoremomentumspawnstart();
     self waittill( #"bot_goal_reached", #"stop_wander", #"stop_chase" );
     self.navmeshpoint = undefined;
@@ -1179,7 +1179,7 @@ function function_eff20434()
 // Size: 0xf4
 function function_6390598e()
 {
-    self endon( #"death", #"disconnect", #"joined_team", #"joined_spectators", #"hash_1213d70444c626d4", #"reset_pathing" );
+    self endon( #"death", #"disconnect", #"joined_team", #"joined_spectators", #"bot_goal_timeout", #"reset_pathing" );
     self waittill( #"bot_goal_reached", #"stop_wander", #"stop_chase" );
     self val::set( #"revived_bot", "ignoreme", 1 );
     self val::set( #"revived_bot", "ignoreall", 1 );
@@ -1191,8 +1191,8 @@ function function_6390598e()
 // Size: 0x132
 function function_f83f2862()
 {
-    self endon( #"death", #"disconnect", #"joined_team", #"joined_spectators", #"hash_1213d70444c626d4", #"reset_pathing" );
-    self waittill( #"hash_69dbfbd660f8c53e" );
+    self endon( #"death", #"disconnect", #"joined_team", #"joined_spectators", #"bot_goal_timeout", #"reset_pathing" );
+    self waittill( #"supply_pod_used" );
     
     if ( !( isdefined( self.var_9f73d035 ) && self.var_9f73d035 ) )
     {
@@ -1354,10 +1354,10 @@ function function_3abfdc6b()
 // Params 0
 // Checksum 0xfe03145b, Offset: 0x3c98
 // Size: 0x2ce
-function function_4b111722()
+function bot_wander_state()
 {
     self endon( #"death", #"disconnect", #"joined_team", #"joined_spectators", #"stop_wander", #"reset_pathing", #"hash_658257c9e391c92c" );
-    self notify( #"hash_37ed6c252b08c1a4" );
+    self notify( #"bot_wander_state" );
     
     if ( !isdefined( self.navmeshpoint ) )
     {
@@ -1575,7 +1575,7 @@ function function_9125af5f()
         case 3:
             if ( !isdefined( self.navmeshpoint ) )
             {
-                self notify( #"hash_5c9e0bd318ff091e" );
+                self notify( #"moving_to_exfil" );
                 self.navmeshpoint = level.var_caeb46b7.origin;
                 
                 if ( !( isdefined( self.var_224386e9 ) && self.var_224386e9 ) )
@@ -1615,7 +1615,7 @@ function function_ae20926a()
     level notify( #"hash_4974b99613386da1" );
     level.var_88024dd9++;
     self clientfield::set( "player_keyline_render", 1 );
-    self waittill( #"hash_5c9e0bd318ff091e" );
+    self waittill( #"moving_to_exfil" );
     
     while ( true )
     {
@@ -1663,7 +1663,7 @@ function function_ae20926a()
     e_player = getplayers()[ 0 ];
     e_player thread ct_utils::function_329f9ba6( #"hash_30cf2650faf0b7fb", 4, "green", 2 );
     e_player thread ct_utils::function_d471f8fa( 30, undefined, 1 );
-    level notify( #"hash_4467c8999d018835" );
+    level notify( #"soldier_rescued" );
 }
 
 // Namespace ct_bots/ct_bots

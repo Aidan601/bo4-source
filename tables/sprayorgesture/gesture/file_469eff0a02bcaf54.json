@@ -1,12 +1,12 @@
 {
-    "name": "#hash_469eff0a02bcaf54",
+    "name": "#loot_emote_shared_mad_respect",
     "type": "#gesture",
-    "gesture": "#hash_49e5f571b0e2765e",
-    "gesture2": "#hash_6cf63edae8ce1049",
+    "gesture": "#boast_mad_respect",
+    "gesture2": "#boast_mad_respect_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_40251baf80178330",
-        "icon": "image#hash_18eae8ebdf14b5d7",
+        "icon": "image#ui_icon_emotes_mad_respect",
         "isdefault": 0
     }
 }

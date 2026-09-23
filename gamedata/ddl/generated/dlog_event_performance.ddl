@@ -17,7 +17,7 @@ version 21 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
         uint64 game_session_id;
     };
@@ -111,9 +111,9 @@ version 21 {
     // offset 0x5d8, size 0x20
     float streamer_forced;
     // offset 0x5f8, size 0x20
-    int hash_41c61675e9a0b2d1;
+    int streamer_mbytes;
     // offset 0x618, size 0x20
-    float hash_b8a5310b16895f8;
+    float streamer_mesh_quality;
     // offset 0x638, size 0x20
     int streamer_reads;
     // offset 0x658, size 0x20
@@ -139,7 +139,7 @@ version 21 {
     // offset 0xa58, size 0x80
     hash_4bc2231ce039ad50 clientupdate;
     // offset 0xad8, size 0x20
-    int hash_6535fe3e4fdf1dab;
+    int game_clock_ms;
     // offset 0xaf8, size 0x60
     hash_3ea575a2be6523f8 stream_fx;
     // offset 0xb58, size 0x60

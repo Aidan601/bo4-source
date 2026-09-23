@@ -1,7 +1,7 @@
 {
     "name": "#helicopter_gunner_turret_primary",
     "baseWeapon": "#helicopter_gunner_turret_primary",
-    "displayname": "#hash_276bedd5c64d7245",
+    "displayname": "#killstreak/helicopter_gunner",
     "weapon70": "#killstreak_helicopter_player_gunner",
     "soundbank": "#helicopter_gunner_turret_primary_soundbank",
     "worldModelTagRight": "tag_weapon_right",
@@ -30,9 +30,9 @@
     "#hash_554be9f7": false,
     "sound140": "#hash_30a9e382f8c95915",
     "sound150": "#hash_6fb55883652219bc",
-    "sound180": "#hash_6224b7e674c8a525",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound180": "#wpn_assault_npc_decay",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound5e0": "#hash_21cfea621573025a",
     "sound670": "#hash_3dfd87f8e52fdf00",
     "sound680": "#hash_7f0e22f878efb441",
@@ -50,7 +50,7 @@
     "image_e90": "#t7_hud_obit_gunship",
     "fireRumble": "#heavygun_fire",
     "fx_bc8": "#weapon/fx_muz_chppr_vtol",
-    "fx_bd0": "#hash_164c32da69bb27cc",
+    "fx_bd0": "#weapon/fx8_muz_chppr_flash_3p",
     "normalImpactFX": "#bullet_xtreme_enter",
     "normalImpactSounds": "#heavy_bullet_impact"
 }

@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_gravity_slam_multikill_x2",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_24c51cea243dfa9f",
+    "iconsmall": "image#ui_icon_medal_blast_radius",
     "stringref": "localized17#hash_632c82c8c8b73ac8",
     "iconlarge": "image#ui_icon_medal_blast_radius_large"
 }

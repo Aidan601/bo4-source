@@ -80,7 +80,7 @@ function init_flags()
 // Size: 0x34
 function init_announcer()
 {
-    zm_audio::sndannouncervoxadd( #"catwalk_warden_0_0", #"hash_53687fb8d75cd0d" );
+    zm_audio::sndannouncervoxadd( #"catwalk_warden_0_0", #"catwalk_warden_0" );
 }
 
 // Namespace zm_escape_vo_hooks/zm_escape_vo_hooks
@@ -118,7 +118,7 @@ function function_29543c()
     
     if ( isdefined( b_say ) && b_say && e_player zm_characters::is_character( array( #"prt_zm_dempsey", #"prt_zm_dempsey_ofc" ) ) )
     {
-        wait soundgetplaybacktime( #"hash_6598db6cd61c4aad" ) / 1000;
+        wait soundgetplaybacktime( #"vox_docks_react_0_plr_6_0" ) / 1000;
         e_nikolai = undefined;
         
         foreach ( var_a7cf1037 in level.players )
@@ -134,7 +134,7 @@ function function_29543c()
         {
             if ( distancesquared( e_nikolai.origin, e_player.origin ) < 589824 )
             {
-                var_9a0250b7 = #"hash_465a6e7feb94a61d";
+                var_9a0250b7 = #"vox_docks_react_1_plr_7_0";
                 e_nikolai zm_vo::vo_say( var_9a0250b7, 0, 0, 9999 );
             }
         }
@@ -430,7 +430,7 @@ function function_22101968()
         s_info = var_d756a0b4 waittill( #"trigger" );
         e_player = s_info.activator;
         
-        if ( isplayer( e_player ) && e_player flag::get( #"hash_30ae3926b2d211db" ) )
+        if ( isplayer( e_player ) && e_player flag::get( #"roof_battle_step_completed" ) )
         {
             break;
         }

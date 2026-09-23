@@ -1,11 +1,11 @@
 {
-    "contracticon": "image#hash_50859150eea5507e",
+    "contracticon": "image#loot02_ui_icon_blackmarket_contracts_cyberpunk",
     "relateditemname": "localized17#weapon/ar_damage_t8",
-    "contracttitle": "localized17#hash_77dce7635423ba68",
+    "contracttitle": "localized17#menu/camo_loot_cyberpunk",
     "name": "loot_contract_zero_cyberpunk",
-    "hash_5d63fbb2bf3f4957:hash_4b258f2c": "image#hash_3b86a4613844a741",
-    "contractdescription": "localized17#hash_7e40f1e9f5f5b22",
+    "hash_5d63fbb2bf3f4957:hash_4b258f2c": "image#loot02_ui_icon_blackmarket_contracts_preview_cyberpunk",
+    "contractdescription": "localized17#menu/contract_reactive_camo_desc",
     "hash_69014841451a5872:hash_f15e270f": "#white",
-    "hash_6b3de4579d73ceb6:hash_1c057e8c": "image#hash_41a3f668aeccea04",
-    "hash_7883881b5c75bf5e:hash_e08fc162": "localized17#hash_7c2edbadf564a94"
+    "contracticoninventory": "image#loot02_ui_icon_blackmarket_contracts_cyberpunk_tall",
+    "contentsdetaileddesc": "localized17#hash_7c2edbadf564a94"
 }

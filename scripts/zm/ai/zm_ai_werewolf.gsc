@@ -547,7 +547,7 @@ function private function_ebf85268( inflictor, attacker, damage, idflags, meanso
         self.var_4bb78ac7 = gettime() + 1000;
         attacker playhitmarker( undefined, 5, undefined, 1, 0 );
         
-        if ( var_786d7e06.var_84ed9a13.var_51e8b151 === "tag_chest_ws" )
+        if ( var_786d7e06.var_84ed9a13.hittag1 === "tag_chest_ws" )
         {
             clientfield::increment( "wrwlf_weakpoint_fx", 1 );
         }
@@ -712,7 +712,7 @@ function private werewolfshouldshowpain( entity )
 function private function_4014790a( entity )
 {
     entity.var_1cfbbe3d = undefined;
-    entity.var_b7ba7211 = gettime() + int( entity ai::function_9139c839().var_bd87ef4d * 1000 );
+    entity.var_b7ba7211 = gettime() + int( entity ai::function_9139c839().staggercooldown * 1000 );
     entity.blockingpain = 1;
     function_43f02cf0( entity );
 }
@@ -1574,7 +1574,7 @@ function private function_43f02cf0( entity )
         return 0;
     }
     
-    if ( randomintrangeinclusive( 0, 100 ) < entity ai::function_9139c839().var_d9838997 )
+    if ( randomintrangeinclusive( 0, 100 ) < entity ai::function_9139c839().summonwolvespercentchance )
     {
         entity.summon_wolves = 1;
     }
@@ -1597,7 +1597,7 @@ function private function_f8912291( entity )
 {
     entity.var_48baa747 = 1;
     entity.summon_wolves = undefined;
-    entity.var_1a60ad62 = gettime() + entity ai::function_9139c839().var_fe050356;
+    entity.var_1a60ad62 = gettime() + entity ai::function_9139c839().summonwolvescooldown;
     entity.blockingpain = 1;
 }
 
@@ -1609,7 +1609,7 @@ function private function_fcc1c537( entity )
 {
     entity.var_48baa747 = 0;
     entity.ai.var_d6cd1d4e = gettime() + int( entity ai::function_9139c839().var_6d4b0dd6 * 1000 );
-    entity.var_1a60ad62 = gettime() + entity ai::function_9139c839().var_fe050356;
+    entity.var_1a60ad62 = gettime() + entity ai::function_9139c839().summonwolvescooldown;
     entity.blockingpain = 0;
 }
 
@@ -1673,7 +1673,7 @@ function private summonwolves( entity )
         
         foreach ( var_dd54fdb1 in var_d480edb7.weakpoints )
         {
-            hittag = isdefined( var_dd54fdb1.var_51e8b151 ) ? var_dd54fdb1.var_51e8b151 : var_dd54fdb1.var_910e2f9b;
+            hittag = isdefined( var_dd54fdb1.hittag1 ) ? var_dd54fdb1.hittag1 : var_dd54fdb1.hittag2;
             
             if ( isdefined( hittag ) )
             {
@@ -1728,7 +1728,7 @@ function private summonwolves( entity )
         while ( true )
         {
             waitframe( 1 );
-            string = getdvarstring( #"hash_4fe745cc8a7d9b8c", "<dev string:x41>" );
+            string = getdvarstring( #"werewolf_devgui_cmd", "<dev string:x41>" );
             cmd = strtok( string, "<dev string:x30a>" );
             
             if ( cmd.size > 0 )
@@ -1771,7 +1771,7 @@ function private summonwolves( entity )
                 }
             }
             
-            setdvar( #"hash_4fe745cc8a7d9b8c", "<dev string:x41>" );
+            setdvar( #"werewolf_devgui_cmd", "<dev string:x41>" );
         }
     }
 
@@ -1836,7 +1836,7 @@ function function_8fa45bb0()
         tag_origin = self gettagorigin( "tag_eye" );
         self.var_db792001 = spawn( "script_origin", tag_origin );
         self.var_db792001 linkto( self );
-        self.var_db792001 playloopsound( #"hash_6875b34c441a8695" );
+        self.var_db792001 playloopsound( #"zmb_vocals_werewolf_sprint_lp" );
         self thread function_dfe1236();
         self thread function_10ac98a8();
     }
@@ -1902,7 +1902,7 @@ function function_dfe1236()
                 wait 0.5;
             }
             
-            self.var_db792001 playloopsound( #"hash_6875b34c441a8695" );
+            self.var_db792001 playloopsound( #"zmb_vocals_werewolf_sprint_lp" );
         }
         
         wait 0.5;

@@ -114,7 +114,7 @@ function function_c2e32275()
                 continue;
             }
             
-            self notify( #"hash_35807fa157a46934" );
+            self notify( #"freeze_trap_activated" );
             self.e_activator = e_who;
             level.s_freeze_trap.activated_by_player = e_who;
             
@@ -150,7 +150,7 @@ function function_270aecf7()
     
     while ( true )
     {
-        self waittill( #"hash_35807fa157a46934" );
+        self waittill( #"freeze_trap_activated" );
         function_91ecec97( level.s_freeze_trap.a_e_lights, "p8_zm_off_trap_switch_light_red_on" );
         level.s_freeze_trap.var_6b64b967 = 1;
         e_who = self.e_activator;
@@ -183,7 +183,7 @@ function function_4bbed101( e_player )
     n_total_time = 0;
     self thread freeze_trap_fx( 1 );
     sndent = spawn( "script_origin", self.origin );
-    sndent playloopsound( #"hash_1df9464f442b0b6d", 1 );
+    sndent playloopsound( #"evt_freeze_trap_shower", 1 );
     
     if ( isdefined( level.s_soapstone ) && isdefined( level.s_soapstone.s_placement ) )
     {
@@ -360,7 +360,7 @@ function function_be814134()
     }
     
     self clientfield::set_to_player( "player_freeze_trap_post_fx", 1 );
-    self playsoundtoplayer( #"hash_35baaf86bb47b64d", self );
+    self playsoundtoplayer( #"evt_freeze_trap_overlay", self );
     wait 0.25;
     self clientfield::set_to_player( "player_freeze_trap_post_fx", 0 );
     wait 1;
@@ -456,11 +456,11 @@ function function_67b12ae8( e_player )
     
     if ( level flag::get( #"half_price_traps" ) )
     {
-        self sethintstring( #"hash_23c1c09e94181fdb", int( 500 ) );
+        self sethintstring( #"zombie/button_buy_trap", int( 500 ) );
         return 1;
     }
     
-    self sethintstring( #"hash_23c1c09e94181fdb", 1000 );
+    self sethintstring( #"zombie/button_buy_trap", 1000 );
     return 1;
 }
 

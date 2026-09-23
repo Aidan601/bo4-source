@@ -108,7 +108,7 @@ function function_6957c745( str_archetype, n_round, var_b2239dab )
     {
         level thread function_36c1dcca( n_round, var_b2239dab );
         level flag::wait_till( var_b2239dab );
-        level waittill( #"hash_5d3012139f083ccb" );
+        level waittill( #"round_spawns_constructed" );
         n_round = level.round_number;
     }
     
@@ -137,7 +137,7 @@ function function_36c1dcca( n_round, var_b2239dab )
 // Size: 0x2c
 function function_3dab3302()
 {
-    level notify( #"hash_21672c4f6ccf13d0" );
+    level notify( #"special_round_starting" );
     level thread function_93eab559();
 }
 
@@ -147,7 +147,7 @@ function function_3dab3302()
 // Size: 0x84
 function function_93eab559()
 {
-    level clientfield::set( "" + #"hash_42e03f9ae74a1070", 1 );
+    level clientfield::set( "" + #"special_round_postfx", 1 );
     
     if ( zm_utility::is_standard() )
     {
@@ -170,8 +170,8 @@ function function_41509519( var_d25bbdd5 )
         level.var_4c350e72++;
     }
     
-    level notify( #"hash_7b9245ff51f3d4f7" );
-    level clientfield::set( "" + #"hash_42e03f9ae74a1070", 0 );
+    level notify( #"special_round_ending" );
+    level clientfield::set( "" + #"special_round_postfx", 0 );
 }
 
 // Namespace zm_mansion_special_rounds/zm_mansion_special_rounds

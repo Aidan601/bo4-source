@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_wz_revives",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_14a64ee6877e19e2",
+    "iconsmall": "image#ui_icon_medal_wz_revives",
     "stringref": "localized17#hash_4a517a364ab2346a",
-    "iconlarge": "image#hash_6cd2d2653454ab62"
+    "iconlarge": "image#ui_icon_medal_wz_revives_large"
 }

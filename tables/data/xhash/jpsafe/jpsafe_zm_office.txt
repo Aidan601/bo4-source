@@ -193,7 +193,7 @@ mc/mtl_c_t8_zmb_eyes
 hash_19d5887f273158d2
 hash_9ad43f68bfe23089
 mc/mtl_c_t8_zmb_male_torso1
-hash_1fd516fb7e1a5a35
+mc/mtl_c_t8_zmb_ofc_mp_zombie_boots_graphic
 hash_a2c95b74bbe79ad2
 mc/mtl_c_t8_zmb_male_torso1_lod
 mc/mtl_c_t8_zmb_male_head1
@@ -208,7 +208,7 @@ hash_d5b212072fe9283e
 hash_d5d40e07300607d8
 mc/mtl_c_t8_zmb_male_head1_lod
 hash_e109b3c818b1c5f0
-hash_62005b213dcf4873
+mc/mtl_c_t8_gen_gib_gore_leg_calf_graphic
 hash_e4ead771860e28fb
 mc/global_invisible
 hash_7fba903b62a48b29
@@ -220,7 +220,7 @@ c_t8_zmb_3rdclass_male_head3
 p7_gib_chunk_flesh_01
 p7_gib_chunk_flesh_03
 c_t8_zmb_3rdclass_male_body1
-hash_3f5567c59c9a906a
+p8_zm_off_cadaver_morgue
 p7_gib_chunk_bone_03
 c_t8_zmb_3rdclass_male_body1_g_larmoff
 c_t8_zmb_3rdclass_male_body1_split

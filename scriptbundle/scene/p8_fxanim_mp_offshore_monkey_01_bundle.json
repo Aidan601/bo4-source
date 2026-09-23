@@ -62,7 +62,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -88,7 +88,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7bda5a6b2938bdba",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_idle01",
                             "entrytype": "anim"
                         }
                     ],
@@ -117,7 +117,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1ea469f272d84043",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_run01",
                             "entrytype": "anim"
                         }
                     ],
@@ -145,7 +145,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -173,7 +173,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7bda596b2938bc07",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_idle02",
                             "entrytype": "anim"
                         }
                     ],
@@ -202,7 +202,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1ea469f272d84043",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_run01",
                             "entrytype": "anim"
                         }
                     ],
@@ -230,7 +230,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -258,7 +258,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7bda586b2938ba54",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_idle03",
                             "entrytype": "anim"
                         }
                     ],
@@ -287,7 +287,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1ea46af272d841f6",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_run02",
                             "entrytype": "anim"
                         }
                     ],
@@ -315,7 +315,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -343,7 +343,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7bda596b2938bc07",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_idle02",
                             "entrytype": "anim"
                         }
                     ],
@@ -372,7 +372,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1ea469f272d84043",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_run01",
                             "entrytype": "anim"
                         }
                     ],
@@ -400,7 +400,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

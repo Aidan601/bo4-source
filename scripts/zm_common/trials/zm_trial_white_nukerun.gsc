@@ -48,7 +48,7 @@ function private on_begin()
     level.var_8c018a0e = 1;
     level.var_4f7df1ac = 1;
     level flag::clear( #"hash_745ef45972843bd3" );
-    callback::function_33f0ddd3( &function_33f0ddd3 );
+    callback::on_player_loadout_changed( &on_player_loadout_changed );
     level zm_trial::function_25ee130( 1 );
     level thread nuke_loop();
     
@@ -64,7 +64,7 @@ function private on_begin()
 // Size: 0x488
 function nuke_loop()
 {
-    level endon( #"hash_7646638df88a3656" );
+    level endon( #"trial_round_end" );
     wait 5;
     
     while ( true )
@@ -162,8 +162,8 @@ function nuke_loop()
 // Size: 0x3a0
 function function_fe74909( drop_point )
 {
-    playsoundatposition( #"hash_1fc67d7ad7445bbf", ( -521, -1972, -82 ) );
-    playsoundatposition( #"hash_1fc67c7ad7445a0c", ( -1146, -1956, -92 ) );
+    playsoundatposition( #"evt_nuke_siren_0", ( -521, -1972, -82 ) );
+    playsoundatposition( #"evt_nuke_siren_1", ( -1146, -1956, -92 ) );
     wait 3;
     level.var_dcd1e798 = getent( "perk_machine_mover", "targetname" );
     level.var_dcd1e798 useanimtree( "generic" );
@@ -221,7 +221,7 @@ function private on_end( round_reset )
     level.var_8c018a0e = undefined;
     level.var_4f7df1ac = undefined;
     level flag::set( #"hash_745ef45972843bd3" );
-    callback::function_824d206( &function_33f0ddd3 );
+    callback::function_824d206( &on_player_loadout_changed );
     level zm_trial::function_25ee130( 0 );
     
     foreach ( player in getplayers() )
@@ -234,7 +234,7 @@ function private on_end( round_reset )
 // Params 1, eflags: 0x4
 // Checksum 0xed6fe273, Offset: 0xd38
 // Size: 0xb4
-function private function_33f0ddd3( s_event )
+function private on_player_loadout_changed( s_event )
 {
     if ( s_event.event === "give_weapon" )
     {

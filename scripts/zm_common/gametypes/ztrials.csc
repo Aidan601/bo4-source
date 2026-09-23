@@ -1,6 +1,6 @@
-#using script_1793e0dffb81a6c8;
-#using script_45657e86e8f90414;
-#using script_5afd8ff8f8304cc4;
+#using scripts\zm_common\trials\zm_trial_pack_a_punch_sacrifice;
+#using scripts\zm_common\trials\zm_trial_attack_during_movement;
+#using scripts\zm_common\trials\zm_trial_kill_enemies_for_health;
 #using script_70ab01a7690ea256;
 #using scripts\core_common\flag_shared;
 #using scripts\core_common\struct;

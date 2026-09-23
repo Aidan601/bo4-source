@@ -247,18 +247,18 @@ function function_b18074d0( name )
             }
             
             blueprint.w_result = get_component( blueprint.result, blueprint );
-            x = isdefined( blueprint.var_2206e7ed ) ? float( blueprint.var_2206e7ed ) : 0;
+            x = isdefined( blueprint.resultoffsetx ) ? float( blueprint.resultoffsetx ) : 0;
             y = isdefined( blueprint.var_e414062 ) ? float( blueprint.var_e414062 ) : 0;
-            z = isdefined( blueprint.var_3c809ce0 ) ? float( blueprint.var_3c809ce0 ) : 0;
+            z = isdefined( blueprint.resultoffsetz ) ? float( blueprint.resultoffsetz ) : 0;
             blueprint.v_offset = ( x, y, z );
             x = isdefined( blueprint.prj_scr_round_pause ) ? float( blueprint.prj_scr_round_pause ) : 0;
-            y = isdefined( blueprint.var_11928e3b ) ? float( blueprint.var_11928e3b ) : 0;
+            y = isdefined( blueprint.resultangleyaw ) ? float( blueprint.resultangleyaw ) : 0;
             z = isdefined( blueprint.var_71c8b937 ) ? float( blueprint.var_71c8b937 ) : 0;
             blueprint.v_angles = ( x, y, z );
             
-            if ( !isdefined( blueprint.var_4dbc4aee ) )
+            if ( !isdefined( blueprint.craftingprompt ) )
             {
-                blueprint.var_4dbc4aee = "ERROR: Missing Prompt String";
+                blueprint.craftingprompt = "ERROR: Missing Prompt String";
             }
             
             setup_blueprint( blueprint );
@@ -528,7 +528,7 @@ function function_735c3a67( player, unitrigger )
     {
         unitrigger.locked = 1;
         unitrigger.blueprint.locked = 1;
-        player playsound( #"hash_1fff2aa71bff91fa" );
+        player playsound( #"zmb_crafting_start" );
     }
 }
 
@@ -541,7 +541,7 @@ function function_f7dbfdf9( player, unitrigger )
     if ( isdefined( player ) )
     {
         player notify( #"crafting_fail" );
-        player playsound( #"hash_15b7f680d9f65b62" );
+        player playsound( #"zmb_crafting_fail" );
     }
 }
 
@@ -554,7 +554,7 @@ function function_d95a600f( player, unitrigger )
     if ( isdefined( player ) )
     {
         player notify( #"crafting_success" );
-        player playsound( #"hash_421a00cb329b2a45" );
+        player playsound( #"zmb_crafting_success" );
     }
 }
 
@@ -754,7 +754,7 @@ function function_f665fde0( trig )
     unitrigger_stub.script_parameters = trig.script_parameters;
     unitrigger_stub.script_string = trig.script_string;
     unitrigger_stub.cursor_hint = "HINT_NOICON";
-    unitrigger_stub.hint_string = #"hash_a502ccb8fec4c7a";
+    unitrigger_stub.hint_string = #"zombie/build_piece_missing";
     unitrigger_stub.script_unitrigger_type = "unitrigger_box_use";
     unitrigger_stub.require_look_at = 1;
     unitrigger_stub.require_look_toward = 0;
@@ -1001,7 +1001,7 @@ function function_86531922( e_holder, w_item )
         self thread zm_audio::create_and_play_dialog( #"shield_piece", #"pickup" );
     }
     
-    self playsound( #"hash_230737b2535a3374" );
+    self playsound( #"zmb_crafting_pickup_generic" );
     
     if ( w_item.var_f56ac2bd !== "" )
     {
@@ -1026,7 +1026,7 @@ function function_d56724a6( e_holder, w_item )
     }
     else
     {
-        self playsound( #"hash_230737b2535a3374" );
+        self playsound( #"zmb_crafting_pickup_generic" );
     }
     
     if ( isdefined( w_item.gadgetreadysoundplayer ) )
@@ -1259,7 +1259,7 @@ function private function_8109ae21( player )
     }
     else
     {
-        self.hint_string = self.blueprint.var_4dbc4aee;
+        self.hint_string = self.blueprint.craftingprompt;
     }
     
     if ( zm_utility::get_story() == 1 && isdefined( self.var_c2f40a58 ) )
@@ -1571,7 +1571,7 @@ function private function_9693e041( player )
 {
     if ( player function_7bffa1ac( self.blueprint.w_result ) )
     {
-        self.hint_string = #"hash_718d32f9e8cea17";
+        self.hint_string = #"zombie/build_piece_only_one";
         self.cost = undefined;
         return true;
     }
@@ -1586,23 +1586,23 @@ function private function_9693e041( player )
         if ( isdefined( self.blueprint.w_result.isriotshield ) && self.blueprint.w_result.isriotshield && isdefined( player.player_shield_reset_health ) && isdefined( player.var_d3345483 ) && player.var_d3345483 )
         {
             self.cost = function_ceac3bf9( player, 1 );
-            str = self.blueprint.var_1238231a;
+            str = self.blueprint.repairprompt;
             str_pc = function_c9163c5d( str );
             hint_str = zm_utility::function_d6046228( str, str_pc );
-            backup_str = zm_utility::function_d6046228( #"zombie/repair_shield", #"hash_197687e8f04962c9" );
+            backup_str = zm_utility::function_d6046228( #"zombie/repair_shield", #"zombie/repair_shield_keyboard" );
             self.hint_string = isdefined( hint_str ) ? hint_str : backup_str;
             _shad_turret_debug_server = 1;
         }
         else
         {
-            self.hint_string = #"hash_53fd856df9288be7";
+            self.hint_string = #"zombie/build_piece_have_one";
             self.cost = undefined;
             return true;
         }
     }
-    else if ( !player function_2d53738e( self.blueprint.w_result ) && ( isdefined( self.blueprint.var_c028dcfe ) && self.blueprint.var_c028dcfe && !player function_48ce9379( self.blueprint.w_result ) || isdefined( level.var_905507c3 ) && level.var_905507c3 ) )
+    else if ( !player function_2d53738e( self.blueprint.w_result ) && ( isdefined( self.blueprint.firstonefree ) && self.blueprint.firstonefree && !player function_48ce9379( self.blueprint.w_result ) || isdefined( level.var_905507c3 ) && level.var_905507c3 ) )
     {
-        str = self.blueprint.var_abd9b2d0;
+        str = self.blueprint.purchasepromptfree;
         str_pc = function_c9163c5d( str );
         hint_str = zm_utility::function_d6046228( str, str_pc );
         self.hint_string = isdefined( hint_str ) ? hint_str : "";
@@ -1625,7 +1625,7 @@ function private function_9693e041( player )
         
         if ( self.cost == 0 )
         {
-            str = self.blueprint.var_abd9b2d0;
+            str = self.blueprint.purchasepromptfree;
             str_pc = function_c9163c5d( str );
             hint_str = zm_utility::function_d6046228( str, str_pc );
             self.hint_string = isdefined( hint_str ) ? hint_str : "";
@@ -1857,7 +1857,7 @@ function private function_df8ce6e2( player )
     
     if ( isdefined( var_f66d1847 ) && var_f66d1847 > 0 )
     {
-        if ( isdefined( self.stub.blueprint.var_c028dcfe ) && self.stub.blueprint.var_c028dcfe && !player function_48ce9379( self.stub.blueprint.w_result ) )
+        if ( isdefined( self.stub.blueprint.firstonefree ) && self.stub.blueprint.firstonefree && !player function_48ce9379( self.stub.blueprint.w_result ) )
         {
             if ( !isdefined( player.var_4e90ce0c ) )
             {
@@ -1885,7 +1885,7 @@ function private function_df8ce6e2( player )
         }
     }
     
-    if ( isdefined( self.stub.blueprint.var_fe8a5e39 ) )
+    if ( isdefined( self.stub.blueprint.purchasehint ) )
     {
         if ( !isdefined( player.var_2f3339f0 ) )
         {
@@ -1894,7 +1894,7 @@ function private function_df8ce6e2( player )
         
         if ( !( isdefined( player.var_2f3339f0[ self.stub.blueprint.w_result ] ) && player.var_2f3339f0[ self.stub.blueprint.w_result ] ) )
         {
-            player thread zm_equipment::show_hint_text( self.stub.blueprint.var_fe8a5e39 );
+            player thread zm_equipment::show_hint_text( self.stub.blueprint.purchasehint );
             player.var_2f3339f0[ self.stub.blueprint.w_result ] = 1;
         }
     }
@@ -1917,7 +1917,7 @@ function private function_df8ce6e2( player )
     }
     else
     {
-        player playsound( #"hash_230737b2535a3374" );
+        player playsound( #"zmb_crafting_pickup_generic" );
     }
     
     player notify( #"hash_77d44943fb143b18", { #weapon:self.stub.blueprint.w_result } );
@@ -2179,13 +2179,13 @@ function private function_42673a26( player )
                 setdvar( #"hash_43086839e587cc6c", "<dev string:x1be>" );
             }
             
-            component = getdvarstring( #"hash_3a357be22156749e" );
+            component = getdvarstring( #"devgui_crafting_component" );
             
             if ( component != "<dev string:x1be>" )
             {
                 w_comp = get_component( component );
                 array::thread_all( devgui_get_players(), &function_3e29352d, w_comp );
-                setdvar( #"hash_3a357be22156749e", "<dev string:x1be>" );
+                setdvar( #"devgui_crafting_component", "<dev string:x1be>" );
             }
             
             wait 1;

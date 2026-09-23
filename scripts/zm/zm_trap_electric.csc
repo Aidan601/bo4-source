@@ -29,7 +29,7 @@ function __init__()
     }
     
     clientfield::register( "actor", "electrocute_ai_fx", 1, 1, "int", &electrocute_ai, 0, 0 );
-    level._effect[ #"hash_6a97de5de4ae14a" ] = #"zombie/fx_tesla_shock_zmb";
+    level._effect[ #"electric_shock_ai" ] = #"zombie/fx_tesla_shock_zmb";
     level._effect[ #"hash_21e93d9faa37cad" ] = #"zombie/fx_tesla_shock_eyes_zmb";
 }
 
@@ -76,7 +76,7 @@ function electrocute_ai( localclientnum, oldval, newval, bnewent, binitialsnap, 
             setfxignorepause( localclientnum, self.n_shock_eyes_fx, 1 );
         }
         
-        self.n_shock_fx = util::playfxontag( localclientnum, level._effect[ #"hash_6a97de5de4ae14a" ], self, str_tag );
+        self.n_shock_fx = util::playfxontag( localclientnum, level._effect[ #"electric_shock_ai" ], self, str_tag );
         
         if ( isdefined( self ) && isdefined( self.n_shock_eyes_fx ) )
         {

@@ -28,10 +28,10 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "soundc0": "#hash_752a41aef020d63e",
+    "soundc0": "#wpn_waterball_pullback",
     "firesound": "#wpn_grenade_throw",
     "firesoundplayer": "#wpn_grenade_throw",
-    "projexplosionsound": "#hash_2098136e33ca0a8a",
+    "projexplosionsound": "#wpn_waterball_impact_3d",
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
     "tunables1": "#waterballoon_tunables_wz",
@@ -40,7 +40,7 @@
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_4d816fc8fb6aa735"
+        "#au_waterballoon_none"
     ],
     "sharedWeaponSounds": "#equipment",
     "projectilemodel": "#wpn_t8_wz_water_balloon_world",
@@ -51,13 +51,13 @@
         "#wpn_t8_wz_water_balloon_world"
     ],
     "gadgetIconAvailable": "#hash_91abb1e6891602cd",
-    "reticleCenter": "#hash_4a01581a475a64fb",
+    "reticleCenter": "#ui_icon_reticles_water_balloon",
     "inventoryIconZm": "#hash_91abb1e6891602cd",
     "hudIcon": "#hash_91abb1e6891602cd",
     "image_e90": "#hash_e6ad0c97da775c12",
     "image_1048": "#hash_91abb1e6891602cd",
     "fireRumble": "#defaultweapon_melee",
     "fx_ed8": "#hash_5ecb415812805fdb",
-    "fx_f00": "#hash_604da0fdbc9511cf",
+    "fx_f00": "#weapon/fx8_trail_balloon",
     "bounceImpactFX": "#grenade_bounce"
 }

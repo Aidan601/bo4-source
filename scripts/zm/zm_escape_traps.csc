@@ -37,10 +37,10 @@ function __init__()
     level._effect[ #"acid_spray" ] = #"hash_3a65c86ea64668f5";
     level._effect[ #"acid_spray_death" ] = #"hash_78c487ac760f594c";
     level._effect[ #"hash_294b19c300d1b482" ] = #"hash_45008cc138e3bba3";
-    level._effect[ #"hash_4391e5c4b43c63c9" ] = #"hash_215c779c48fd6856";
-    level._effect[ #"hash_5647f8e593893bce" ] = #"hash_4d61168f93739083";
-    level._effect[ #"zombie_eye_trail" ] = #"hash_526060b70ce93d7e";
-    level._effect[ #"spinning_blood" ] = #"hash_358533e8293f131d";
+    level._effect[ #"hash_4391e5c4b43c63c9" ] = #"player/fx8_plyr_pstfx_acid_screen";
+    level._effect[ #"hash_5647f8e593893bce" ] = #"player/fx8_plyr_pstfx_acid_smoke";
+    level._effect[ #"zombie_eye_trail" ] = #"zm_ai/fx8_zombie_eye_glow_red_trail";
+    level._effect[ #"spinning_blood" ] = #"maps/zm_escape/fx8_spinning_trap_blood";
 }
 
 // Namespace zm_escape_traps/zm_escape_traps
@@ -60,7 +60,7 @@ function fan_trap_blood_fx( localclientnum, oldval, newval, bnewent, binitialsna
             self.n_fan_trap_blood_fx = util::playfxontag( localclientnum, level._effect[ #"fan_blood" ], self, "j_spinelower" );
         }
         
-        playsound( localclientnum, #"hash_5840ac12dd5f08cd", self.origin );
+        playsound( localclientnum, #"zmb_exp_jib_fan_zombie", self.origin );
         return;
     }
     
@@ -81,7 +81,7 @@ function rumble_fan_trap( localclientnum, oldval, newval, bnewent, binitialsnap,
     
     if ( newval == 1 )
     {
-        self endon( #"hash_583695c3e21830e7" );
+        self endon( #"rumble_fan_trap_finished" );
         
         while ( true )
         {
@@ -96,7 +96,7 @@ function rumble_fan_trap( localclientnum, oldval, newval, bnewent, binitialsnap,
         return;
     }
     
-    self notify( #"hash_583695c3e21830e7" );
+    self notify( #"rumble_fan_trap_finished" );
 }
 
 // Namespace zm_escape_traps/zm_escape_traps
@@ -112,13 +112,13 @@ function acid_trap_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fi
             self.var_91180673 delete();
         }
         
-        playsound( localclientnum, #"hash_68f3e5dbc3422363", self.origin );
+        playsound( localclientnum, #"zmb_trap_acid_start", self.origin );
         audio::playloopat( "zmb_trap_acid_loop", self.origin );
         self.var_91180673 = util::playfxontag( localclientnum, level._effect[ #"acid_spray" ], self, "tag_origin" );
         return;
     }
     
-    playsound( localclientnum, #"hash_4da8231bc8767676", self.origin );
+    playsound( localclientnum, #"zmb_trap_acid_end", self.origin );
     audio::stoploopat( "zmb_trap_acid_loop", self.origin );
     
     if ( isdefined( self.var_91180673 ) )
@@ -139,7 +139,7 @@ function acid_trap_death_fx( localclientnum, oldval, newval, bnewent, binitialsn
     if ( newval == 1 )
     {
         self.n_acid_trap_death_fx = util::playfxontag( localclientnum, level._effect[ #"hash_294b19c300d1b482" ], self, "tag_stowed_back" );
-        playsound( localclientnum, #"hash_4d4c9f8ad239b61f", self.origin );
+        playsound( localclientnum, #"zmb_exp_jib_acid_zombie", self.origin );
         return;
     }
     
@@ -169,11 +169,11 @@ function player_acid_trap_post_fx( localclientnum, oldval, newval, bnewent, bini
         }
         
         self notify( #"player_acid_trap_post_fx_complete" );
-        self.var_431ddde9 = self playloopsound( #"hash_341a3fa00975f232" );
+        self.var_431ddde9 = self playloopsound( #"zmb_trap_acid_loop_plr" );
         self thread function_17956e93( localclientnum );
         self thread postfx::playpostfxbundle( #"pstfx_zm_acid_dmg" );
         self.var_b1409d8f = playfxoncamera( localclientnum, level._effect[ #"hash_4391e5c4b43c63c9" ] );
-        self playrenderoverridebundle( #"hash_6efc465a2da0373a" );
+        self playrenderoverridebundle( #"rob_zm_viewarm_acid" );
         
         if ( self zm_utility::function_f8796df3( localclientnum ) )
         {
@@ -223,7 +223,7 @@ function function_17956e93( localclientnum )
             self.var_431ddde9 = undefined;
         }
         
-        self stoprenderoverridebundle( #"hash_6efc465a2da0373a" );
+        self stoprenderoverridebundle( #"rob_zm_viewarm_acid" );
     }
 }
 
@@ -260,7 +260,7 @@ function function_502136a5( str_notify )
             self.var_7a7fac87 = undefined;
         }
         
-        self stoprenderoverridebundle( #"hash_6efc465a2da0373a" );
+        self stoprenderoverridebundle( #"rob_zm_viewarm_acid" );
     }
 }
 
@@ -286,7 +286,7 @@ function spinning_trap_blood_fx( localclientnum, oldval, newval, bnewent, biniti
         }
         
         self.n_spinning_trap_blood_fx = util::playfxontag( localclientnum, level._effect[ #"spinning_blood" ], self, var_1f694afe );
-        playsound( localclientnum, #"hash_5840ac12dd5f08cd", self.origin );
+        playsound( localclientnum, #"zmb_exp_jib_fan_zombie", self.origin );
     }
 }
 
@@ -318,7 +318,7 @@ function rumble_spinning_trap( localclientnum, oldval, newval, bnewent, binitial
     
     if ( newval == 1 )
     {
-        self endon( #"hash_6fb55d3438a8d5fa" );
+        self endon( #"rumble_spinning_trap_finished" );
         
         while ( true )
         {
@@ -333,6 +333,6 @@ function rumble_spinning_trap( localclientnum, oldval, newval, bnewent, binitial
         return;
     }
     
-    self notify( #"hash_6fb55d3438a8d5fa" );
+    self notify( #"rumble_spinning_trap_finished" );
 }
 

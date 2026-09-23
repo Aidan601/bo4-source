@@ -5,6 +5,6 @@
     "name": "medal_kill_flag_carrier",
     "backinglarge": "image#$whitetransparent",
     "iconsmall": "image#ui_icon_medal_takedown",
-    "stringref": "localized17#hash_3667d396475533b7",
+    "stringref": "localized17#medal/kill_flag_carrier",
     "iconlarge": "image#ui_icon_medal_takedown_large"
 }

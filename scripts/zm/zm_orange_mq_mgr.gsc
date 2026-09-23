@@ -50,7 +50,7 @@ function preload()
     namespace_4b68b2b3::preload();
     zm_orange_mq_hell::preload();
     zm_orange_mq_sendoff::preload();
-    clientfield::register( "toplayer", "" + #"hash_668f474410d5c1d0", 24000, 1, "int" );
+    clientfield::register( "toplayer", "" + #"gehen_clear_hud", 24000, 1, "int" );
 }
 
 // Namespace zm_orange_mq_mgr/zm_orange_mq_mgr
@@ -68,11 +68,11 @@ function main()
     zm_orange_mq_sendoff::init();
     level flag::init( "sam_music_done" );
     level flag::init( #"hash_18b94410e3b6b0bf" );
-    zm_sq::register( #"main_quest", #"hash_86e283359f19a5f", #"main_quest_step1", &zm_orange_mq_dials::function_77ed3bab, &zm_orange_mq_dials::function_51ecc801 );
-    zm_sq::register( #"main_quest", #"hash_467104204a4803ad", #"main_quest_step2", &zm_orange_mq_vessel::function_a5254494, &zm_orange_mq_vessel::function_77e4073b );
+    zm_sq::register( #"main_quest", #"step_1_dials", #"main_quest_step1", &zm_orange_mq_dials::function_77ed3bab, &zm_orange_mq_dials::function_51ecc801 );
+    zm_sq::register( #"main_quest", #"step_2_vessel", #"main_quest_step2", &zm_orange_mq_vessel::function_a5254494, &zm_orange_mq_vessel::function_77e4073b );
     zm_sq::register( #"main_quest", #"hash_7c16d3a3e4250b9a", #"main_quest_step3", &zm_orange_mq_blood::function_8d43b840, &zm_orange_mq_blood::function_2d9e1e29 );
     zm_sq::register( #"main_quest", #"hash_2dfcd4264b2c2340", #"main_quest_step4", &zm_orange_mq_campfire::function_13dda28a, &zm_orange_mq_campfire::function_a874e5d0 );
-    zm_sq::register( #"main_quest", #"hash_c2e45a40a675911", #"main_quest_step5", &zm_orange_mq_soapstone::function_d878e1ee, &zm_orange_mq_soapstone::function_9ee4c8c3 );
+    zm_sq::register( #"main_quest", #"step_5_soapstones", #"main_quest_step5", &zm_orange_mq_soapstone::function_d878e1ee, &zm_orange_mq_soapstone::function_9ee4c8c3 );
     zm_sq::register( #"main_quest", #"hash_72bc0ec65f4afcca", #"hash_6289c5eef32eca15", &zm_orange_mq_fuse::function_742dfdb5, &zm_orange_mq_fuse::function_9e34b0d4 );
     zm_sq::register( #"main_quest", #"hash_28c88f40ace27a7b", #"hash_6289c2eef32ec4fc", &zm_orange_mq_fuse::function_c723e684, &zm_orange_mq_fuse::function_3d5a45fb );
     zm_sq::register( #"main_quest", #"hash_382d731d4de07ed3", #"main_quest_step7", &zm_orange_mq_blood::function_8d43b840, &zm_orange_mq_blood::function_2d9e1e29 );
@@ -215,7 +215,7 @@ function function_d4147875( var_5ea5c94d )
     namespace_3b9dec72::function_303ab700();
     println( "<dev string:x157>" );
     level.var_9441bf02 = spawn( "script_origin", ( 0, 0, 0 ) );
-    level.var_9441bf02 playloopsound( #"hash_503b99b370ac70b9" );
+    level.var_9441bf02 playloopsound( #"amb_eddie_sam" );
     println( "<dev string:x172>" );
     wait 5;
     println( "<dev string:x1a3>" );
@@ -305,7 +305,7 @@ function hud_disable()
         player showcrosshair( 0 );
         player allowcrouch( 0 );
         player thread function_b20c4898();
-        player clientfield::set_to_player( "" + #"hash_668f474410d5c1d0", 1 );
+        player clientfield::set_to_player( "" + #"gehen_clear_hud", 1 );
         player val::set( #"gehen", "disable_weapons", 1 );
     }
 }
@@ -320,7 +320,7 @@ function hud_enable()
     {
         player showcrosshair( 1 );
         player allowcrouch( 1 );
-        player clientfield::set_to_player( "" + #"hash_668f474410d5c1d0", 0 );
+        player clientfield::set_to_player( "" + #"gehen_clear_hud", 0 );
     }
 }
 

@@ -1,7 +1,7 @@
 {
-    "name": "#hash_243346aa5c04911",
+    "name": "#dlog_event_demostreamstats",
     "unk28": "#demostreamstats",
-    "ddlDef": "#hash_61a70d8ef9b4f569",
+    "ddlDef": "#gamedata/ddl/generated/dlog_event_demostreamstats.ddl",
     "unk18": 0,
     "unk19": 1,
     "unk1a": 1,
@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -110,8 +110,8 @@
     ],
     "members": [
         {
-            "name": "#hash_e81c88c99afcc49",
-            "scrName": "#hash_8fcd2c5d",
+            "name": "#kb_per_min_per_player",
+            "scrName": "#kb_per_min_per_player",
             "type": "FLOAT"
         },
         {
@@ -120,8 +120,8 @@
             "type": "UINT64"
         },
         {
-            "name": "#hash_24f9bae53a3be81b",
-            "scrName": "#hash_e6c9a159",
+            "name": "#kb_per_min",
+            "scrName": "#kb_per_min",
             "type": "FLOAT"
         },
         {
@@ -131,7 +131,7 @@
         },
         {
             "name": "#game_time_sec",
-            "scrName": "#hash_2fb6c781",
+            "scrName": "#game_time_sec",
             "type": "FLOAT"
         },
         {

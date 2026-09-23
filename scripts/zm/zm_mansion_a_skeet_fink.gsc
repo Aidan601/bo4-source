@@ -226,7 +226,7 @@ function function_abf0bf8c()
         {
             if ( isdefined( s_waitresult.position ) && distancesquared( s_waitresult.position, self.origin ) < 100 )
             {
-                level.var_d5f74526 notify( #"hash_5a5c7c802e5f3037", { #var_c8407ea2:self.script_int, #mdl_rune:self.mdl_rune, #attacker:s_waitresult.attacker } );
+                level.var_d5f74526 notify( #"rune_obj_destroyed", { #var_c8407ea2:self.script_int, #mdl_rune:self.mdl_rune, #attacker:s_waitresult.attacker } );
                 self.mdl_rune ghost();
                 wait 1;
                 
@@ -254,7 +254,7 @@ function function_29a3aca4()
     
     while ( var_1fc5672 < level.var_6d3c8378.size )
     {
-        s_waitresult = self waittill( #"hash_5a5c7c802e5f3037" );
+        s_waitresult = self waittill( #"rune_obj_destroyed" );
         
         if ( s_waitresult.var_c8407ea2 !== var_1fc5672 )
         {
@@ -268,7 +268,7 @@ function function_29a3aca4()
         playsoundatposition( "zmb_sk_stones_dest_correct", s_waitresult.mdl_rune.origin );
     }
     
-    s_waitresult.attacker thread zm_vo::function_a2bd5a0c( #"hash_307199a2e20f6edc", 1 );
+    s_waitresult.attacker thread zm_vo::function_a2bd5a0c( #"vox_stone_symbol_destroy", 1 );
     return true;
 }
 
@@ -303,7 +303,7 @@ function function_834e6f7()
 // Size: 0x424
 function function_39e0636( var_a276c861 )
 {
-    level flag::init( #"hash_6df692c4073d421b" );
+    level flag::init( #"a_skeet_fink_chunk_picked_up" );
     level clientfield::set( "" + #"hash_155407a9010f2b23", 1 );
     a_s_damage = struct::get_array( #"a_skeet_fink_damage", "targetname" );
     a_s_damage = array::sort_by_script_int( a_s_damage, 1 );
@@ -322,7 +322,7 @@ function function_39e0636( var_a276c861 )
             var_f2dc13a0 = struct::get( "a_skeet_fink_chunk_start", "targetname" );
             var_ae18fb21 = struct::get( "a_skeet_fink_chunk", "targetname" );
             var_5901d1c9 = struct::get( var_ae18fb21.target, "targetname" );
-            mdl_stake = util::spawn_model( #"hash_1a8e66a7966f8086", var_f2dc13a0.origin, var_f2dc13a0.angles );
+            mdl_stake = util::spawn_model( #"p8_zm_man_tree_branch", var_f2dc13a0.origin, var_f2dc13a0.angles );
             mdl_stake moveto( var_ae18fb21.origin, 3.6, 3.6 );
             mdl_stake rotateto( var_ae18fb21.angles, 3.6, 3.6 );
             wait 3.6 * 0.7;
@@ -379,7 +379,7 @@ function function_4fccc01f( var_a276c861, ended_early )
     
     if ( var_a276c861 || ended_early )
     {
-        level flag::set( #"hash_6df692c4073d421b" );
+        level flag::set( #"a_skeet_fink_chunk_picked_up" );
     }
 }
 
@@ -402,7 +402,7 @@ function function_6941c919()
         {
             if ( w_base_weapon === level.w_bowie_knife )
             {
-                level.var_d5f74526 notify( #"hash_15ccd1fdda38284a", { #var_c8407ea2:self.script_int, #attacker:s_waitresult.attacker } );
+                level.var_d5f74526 notify( #"rune_slashed", { #var_c8407ea2:self.script_int, #attacker:s_waitresult.attacker } );
                 continue;
             }
             
@@ -426,9 +426,9 @@ function function_1dc8ad86()
     
     while ( true )
     {
-        s_waitresult = self waittill( #"hash_15ccd1fdda38284a", #"rune_bashed" );
+        s_waitresult = self waittill( #"rune_slashed", #"rune_bashed" );
         
-        if ( s_waitresult._notify == #"hash_15ccd1fdda38284a" )
+        if ( s_waitresult._notify == #"rune_slashed" )
         {
             if ( s_waitresult.var_c8407ea2 == var_1fc5672 )
             {
@@ -462,8 +462,8 @@ function function_c4542a0c( t_trig )
     waitresult = t_trig waittill( #"trigger" );
     e_player = waitresult.activator;
     e_player playsound( "zmb_sk_tree_pickup" );
-    level flag::set( #"hash_6df692c4073d421b" );
-    e_player thread zm_vo::function_a2bd5a0c( #"hash_191dec8da1ad1b1f", 1 );
+    level flag::set( #"a_skeet_fink_chunk_picked_up" );
+    e_player thread zm_vo::function_a2bd5a0c( #"vox_wood_piece_react", 1 );
     
     if ( isdefined( t_trig.mdl_stake ) )
     {
@@ -482,10 +482,10 @@ function function_c4542a0c( t_trig )
 // Size: 0x39c
 function function_15c82a8a( var_a276c861 )
 {
-    if ( level flag::get( #"hash_6df692c4073d421b" ) )
+    if ( level flag::get( #"a_skeet_fink_chunk_picked_up" ) )
     {
         var_4b9c76d7 = struct::get( #"a_skeet_fink_charge", "targetname" );
-        var_4b9c76d7.mdl_stake = util::spawn_model( #"hash_1a8e66a7966f8086", var_4b9c76d7.origin, var_4b9c76d7.angles );
+        var_4b9c76d7.mdl_stake = util::spawn_model( #"p8_zm_man_tree_branch", var_4b9c76d7.origin, var_4b9c76d7.angles );
         var_4b9c76d7.mdl_stake notsolid();
         var_4b9c76d7.mdl_stake hide();
         var_fb11d383 = struct::get( var_4b9c76d7.target, "targetname" );
@@ -643,7 +643,7 @@ function function_ed59d8e4()
 // Size: 0x12c
 function function_2879cfed( var_a276c861 )
 {
-    if ( level flag::get( #"hash_6df692c4073d421b" ) )
+    if ( level flag::get( #"a_skeet_fink_chunk_picked_up" ) )
     {
         foreach ( s_unitrigger_stub in level.a_t_crafting[ #"zblueprint_mansion_a_skeet_fink" ] )
         {
@@ -728,7 +728,7 @@ function function_7aa50bb7( e_player )
 // Size: 0x4c
 function function_db526700()
 {
-    self thread zm_vo::function_a2bd5a0c( #"hash_445d4e233806a7cf", 1 );
+    self thread zm_vo::function_a2bd5a0c( #"vox_stake_bowie_pickup", 1 );
     self zm_melee_weapon::award_melee_weapon( #"stake_knife" );
 }
 

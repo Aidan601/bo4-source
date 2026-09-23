@@ -1,5 +1,5 @@
 {
-    "name": "#hash_4cb37bd801a58532",
+    "name": "#ammo_weapon_45_wz",
     "baseWeapon": "#hash_4ea26b289b4f7a4e",
     "displayname": "#hash_7793b727a6a89304",
     "soundbank": "#hash_7b9ab3fefa1fb0c4",
@@ -27,10 +27,10 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound830": "#hash_2cecf881da509b4f",
-    "tunables1": "#hash_78c07a59ea145935",
+    "tunables1": "#ammo_weapon_45_tunables_wz",
     "worldModel": [
         "#p8_wz_ammo_pickup_45acp"
     ]

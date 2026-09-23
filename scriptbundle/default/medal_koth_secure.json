@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_koth_secure",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_1178393ce0b9dbf1",
+    "iconsmall": "image#ui_icon_medal_hardpoint_secure",
     "stringref": "localized17#medal/koth_secure",
     "iconlarge": "image#ui_icon_medal_hardpoint_secure_large"
 }

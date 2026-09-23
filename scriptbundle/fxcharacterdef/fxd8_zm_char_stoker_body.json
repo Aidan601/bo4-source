@@ -7,7 +7,7 @@
     "vmtype": "client",
     "name": "fxd8_zm_char_stoker_body",
     "effect1_attachtag": "j_spine4",
-    "effect1_fx": "fx#hash_637c58a55751d9e6",
-    "effect3_fx": "fx#hash_185cdaabe8b1c840",
+    "effect1_fx": "fx#zm_ai/fx8_stoker_amb_torso",
+    "effect3_fx": "fx#zm_ai/fx8_stoker_amb_shovel",
     "effect2_attachtag": "tag_fx_foot_l"
 }

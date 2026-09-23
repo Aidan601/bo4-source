@@ -1,12 +1,12 @@
 {
-    "name": "#hash_3494bac462965bb9",
+    "name": "#loot_emote_shared_all_done",
     "type": "#gesture",
     "gesture": "#boast_all_done",
     "gesture2": "#boast_all_done_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_2b8f4edff761d0d1",
-        "icon": "image#hash_103da5781ee05534",
+        "title": "localized18#emotes/cake",
+        "icon": "image#ui_icon_emotes_all_done",
         "isdefault": 0
     }
 }

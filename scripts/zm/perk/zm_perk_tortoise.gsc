@@ -43,7 +43,7 @@ function enable_tortoise_perk_for_level()
 {
     if ( function_8b1a219a() )
     {
-        zm_perks::register_perk_basic_info( #"specialty_shield", #"perk_tortoise", 2500, #"hash_61f2a9db3bdc745a", getweapon( "zombie_perk_bottle_tortoise" ), getweapon( "zombie_perk_totem_tortoise" ), #"zmperksvictorious" );
+        zm_perks::register_perk_basic_info( #"specialty_shield", #"perk_tortoise", 2500, #"zombie/perk_tortoise_keyboard", getweapon( "zombie_perk_bottle_tortoise" ), getweapon( "zombie_perk_totem_tortoise" ), #"zmperksvictorious" );
     }
     else
     {
@@ -155,7 +155,7 @@ function function_81058b09( w_riotshield )
         }
     }
     
-    self playsound( #"hash_14f5104610856f3e" );
+    self playsound( #"zmb_vapor_tortoise_explo" );
     self thread explosion_fx();
     v_explosion_origin = self.origin;
     

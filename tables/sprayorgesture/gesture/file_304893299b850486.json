@@ -1,12 +1,12 @@
 {
-    "name": "#hash_304893299b850486",
+    "name": "#loot_emote_exotic_shared_drone_control",
     "type": "#gesture",
-    "gesture": "#hash_3d502452cda97979",
-    "gesture2": "#hash_7137b4e9acb02482",
+    "gesture": "#boast_drone_control",
+    "gesture2": "#boast_drone_control_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_45ea5b692fe5a314",
-        "icon": "image#hash_2a263510fff72d5",
+        "title": "localized18#emotes/muav",
+        "icon": "image#ui_icon_emotes_s3_drone_control",
         "isdefault": 0
     }
 }

@@ -24,8 +24,8 @@
     "skidSpeedMin": 100,
     "skidSpeedMax": 600,
     "peelSpeedMax": 600,
-    "model": "#hash_69d37e96eca2adde",
-    "enemyModel": "#hash_44312120c2b44666",
+    "model": "#veh_t8_mil_air_razorback_mp_light",
+    "enemyModel": "#veh_t8_mil_air_razorback_mp_dark",
     "soundDef": "#hash_1003ed8ac5a00a12",
     "compassIconMaterial": "#compass_lightningstrike",
     "steerAxisName": "AXIS_LSTICK",
@@ -36,6 +36,6 @@
     "attackSecondaryButtonName": "BUTTON_RSHLDR",
     "bundle": {
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

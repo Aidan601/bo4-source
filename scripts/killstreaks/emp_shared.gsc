@@ -35,7 +35,7 @@ function init_shared()
         callback::on_spawned( &onplayerspawned );
         callback::on_connect( &onplayerconnect );
         vehicle::add_main_callback( "emp_turret", &initturretvehicle );
-        callback::add_callback( #"hash_425352b435722271", &fx_flesh_hit_neck_fatal );
+        callback::add_callback( #"killstreak_process_assist", &fx_flesh_hit_neck_fatal );
     }
 }
 

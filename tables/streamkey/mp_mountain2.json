@@ -20,7 +20,7 @@
             "keyFlags": 3
         },
         {
-            "name": "#hash_70abc70c18183ec",
+            "name": "#mp_mountain2_all_loaded",
             "xPakEntry": {
                 "key": "#hash_e811e997e439ff4f",
                 "offset": 0,
@@ -172,7 +172,7 @@
             "keyFlags": 0
         },
         {
-            "name": "#hash_509106675bb6c175",
+            "name": "#mp_mountain2_sst_0_0",
             "xPakEntry": {
                 "key": "#hash_f1ef9ca1b501f87d",
                 "offset": 0,

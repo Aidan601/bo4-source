@@ -15,8 +15,8 @@
 // Size: 0x2da
 function init()
 {
-    clientfield::register( "allplayers", "" + #"hash_55543319943057f1", 24000, 1, "int", &function_e8d94580, 0, 0 );
-    clientfield::register( "toplayer", "" + #"hash_5160727729fd57a2", 24000, 1, "int", &function_a2d360f1, 0, 0 );
+    clientfield::register( "allplayers", "" + #"water_player_freeze_fx", 24000, 1, "int", &water_player_freeze_fx, 0, 0 );
+    clientfield::register( "toplayer", "" + #"water_player_freeze_sfx", 24000, 1, "int", &water_player_freeze_sfx, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_13f1aaee7ebf9986", 24000, 2, "int", &function_3c820626, 0, 1 );
     clientfield::register( "toplayer", "" + #"hash_603fc9d210bdbc4d", 24000, 1, "int", &function_45df4c17, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_67340426cd141891", 24000, 2, "int", &function_6b5ed7f9, 0, 0 );
@@ -56,7 +56,7 @@ function on_player_spawned( localclientnum )
 // Params 7
 // Checksum 0x4f942a5c, Offset: 0x4d8
 // Size: 0xf6
-function function_e8d94580( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function water_player_freeze_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -75,14 +75,14 @@ function function_e8d94580( localclientnum, oldval, newval, bnewent, binitialsna
     }
     
     self stoprenderoverridebundle( "rob_tricannon_classified_zombie_ice" );
-    self notify( #"hash_5ab24a026f132ea4" );
+    self notify( #"snd_stop_frozen" );
 }
 
 // Namespace zm_orange_water/zm_orange_water
 // Params 7
 // Checksum 0xebd7b0a9, Offset: 0x5d8
 // Size: 0x5c
-function function_a2d360f1( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function water_player_freeze_sfx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -362,7 +362,7 @@ function function_88fdd1ff()
     self endoncallback( &function_2473f73e, #"death" );
     self endon( #"death", #"disconnect" );
     self.var_2591ed7c = spawn( 0, self.origin + ( 0, 0, 1000 ), "script_origin" );
-    self.var_2591ed7c.var_2e95bcd3 = self.var_2591ed7c playloopsound( #"hash_58b77ae9e2d258e1" );
+    self.var_2591ed7c.var_2e95bcd3 = self.var_2591ed7c playloopsound( #"evt_freeze_lp" );
     
     if ( !isdefined( self.var_cdb19015 ) )
     {
@@ -403,9 +403,9 @@ function function_7da5e6a2()
 {
     self endon( #"death", #"disconnect" );
     self.var_cdb19015 = 0;
-    self playsound( 0, #"hash_71f59624b7f67f22" );
-    self.var_1ab2df8c = self playloopsound( #"hash_34fa9c6b99cc772e" );
-    self waittill( #"hash_5ab24a026f132ea4" );
+    self playsound( 0, #"evt_freeze_complete" );
+    self.var_1ab2df8c = self playloopsound( #"evt_frozen_lp" );
+    self waittill( #"snd_stop_frozen" );
     self stoploopsound( self.var_1ab2df8c );
     self.var_1ab2df8c = undefined;
 }

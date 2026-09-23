@@ -1,9 +1,9 @@
 {
-    "name": "#hash_2a968d8a80fb5331",
+    "name": "#c_t8_zmb_hero_stanton1_igc",
     "skeleton": "base",
     "voice": "american",
     "headImpactType": 1,
     "bodyImpactType": 1,
-    "body": "#hash_49d459ffcfcb7a82",
+    "body": "#c_t8_zmb_hero_stanton_body1_igc",
     "head": "#c_t8_zmb_hero_stanton_head1_igc"
 }

@@ -56,7 +56,7 @@ function __init__()
     level.var_c8de519d.var_ec391d55 = &function_3ee91387;
     level.var_7897141a = [];
     level.var_7897141a[ getweapon( #"hash_66401df7cd6bf292" ) ] = 1;
-    level.var_7897141a[ getweapon( #"hash_3f62a872201cd1ce" ) ] = 1;
+    level.var_7897141a[ getweapon( #"swat_grenade_payload" ) ] = 1;
     level.var_ca4ce464 = [];
     level.var_ca4ce464[ getweapon( #"ability_smart_cover" ) ] = 1;
 }
@@ -713,7 +713,7 @@ function function_a79ea08b( einflictor, victim, idamage, weapon )
                             {
                                 case #"ability_smart_cover":
                                 case #"eq_swat_grenade":
-                                case #"hash_3f62a872201cd1ce":
+                                case #"swat_grenade_payload":
                                 case #"eq_seeker_mine":
                                 case #"eq_concertina_wire":
                                 case #"eq_slow_grenade":
@@ -1232,7 +1232,7 @@ function function_a79ea08b( einflictor, victim, idamage, weapon )
                     case #"shock_rifle":
                     case #"ability_smart_cover":
                     case #"eq_swat_grenade":
-                    case #"hash_3f62a872201cd1ce":
+                    case #"swat_grenade_payload":
                     case #"eq_seeker_mine":
                     case #"eq_concertina_wire":
                     case #"hero_flamethrower":
@@ -1495,7 +1495,7 @@ function challengekills( data )
                     
                     if ( player.pers[ #"kill_enemy_one_bullet_sniper" ] % 10 == 0 )
                     {
-                        player stats::function_dad108fa( #"hash_2ebd387ffb67e1dc", 1 );
+                        player stats::function_dad108fa( #"kill_enemy_one_bullet_sniper_10", 1 );
                     }
                 }
             }
@@ -2482,10 +2482,10 @@ function function_223ff464()
         array::add( marksmanarray, #"gold_any_smg" );
         array::add( marksmanarray, #"hash_70cd6c54d1c07272" );
         array::add( marksmanarray, #"gold_any_lmg" );
-        array::add( marksmanarray, #"hash_2ea8a6bab2364c58" );
+        array::add( marksmanarray, #"gold_any_sniper" );
         array::add( marksmanarray, #"gold_any_pistol" );
         array::add( marksmanarray, #"hash_3b30f98820bc20cf" );
-        array::add( marksmanarray, #"hash_18816731b999fbfb" );
+        array::add( marksmanarray, #"gold_any_launcher" );
         array::add( marksmanarray, #"hash_6c1c399dcbe1af97" );
         array::add( marksmanarray, #"hash_5630ec40181e1db3" );
         array::add( marksmanarray, #"hash_354bfe5c140365bf" );
@@ -3050,7 +3050,7 @@ function function_2f462ffd( victim, weapon, inflictor, objective )
                 break;
             case #"recon_car":
             case #"inventory_recon_car":
-                self stats::function_dad108fa( #"hash_7daf653f5e86b75", 1 );
+                self stats::function_dad108fa( #"rcxd_objective_ekia", 1 );
             case #"ultimate_turret":
             case #"inventory_ultimate_turret":
             case #"tank_robot":
@@ -3065,11 +3065,11 @@ function function_2f462ffd( victim, weapon, inflictor, objective )
     {
         if ( level.hardcoremode )
         {
-            self stats::function_dad108fa( #"hash_753f02ea48b19cd", 1 );
+            self stats::function_dad108fa( #"objective_ekia_hc", 1 );
         }
         else if ( !level.arenamatch )
         {
-            self stats::function_dad108fa( #"hash_45fca5cee12d8bdb", 1 );
+            self stats::function_dad108fa( #"objective_ekia_core", 1 );
         }
         
         self contracts::player_contract_event( #"objective_ekia" );
@@ -3078,7 +3078,7 @@ function function_2f462ffd( victim, weapon, inflictor, objective )
         
         if ( var_8a4cfbd )
         {
-            self stats::function_dad108fa( #"hash_d4a989a2da3fa72", 1 );
+            self stats::function_dad108fa( #"objective_ekia_specialized_equipment", 1 );
         }
         else if ( weapon.issignatureweapon )
         {
@@ -3117,7 +3117,7 @@ function function_2f462ffd( victim, weapon, inflictor, objective )
             {
                 if ( var_d72bd991.var_46a82df0 === 1 )
                 {
-                    self stats::function_dad108fa( #"hash_47c5c8af0f105c71", 1 );
+                    self stats::function_dad108fa( #"objective_ekia_full_heal_medicalinjectiongun", 1 );
                 }
             }
             else if ( gear == #"gear_equipmentcharge" )
@@ -3145,7 +3145,7 @@ function function_2f462ffd( victim, weapon, inflictor, objective )
             {
                 if ( self util::is_item_purchased( #"eq_slow_grenade" ) )
                 {
-                    self stats::function_dad108fa( #"hash_1a02c128bae3a6a0", 1 );
+                    self stats::function_dad108fa( #"objective_ekia_concussed_enemy", 1 );
                 }
             }
         }
@@ -3285,11 +3285,11 @@ function killedbaseoffender( objective, weapon, inflictor )
                 break;
             case #"swat_team":
             case #"inventory_swat_team":
-                self stats::function_dad108fa( #"hash_103a235d7563069c", 1 );
+                self stats::function_dad108fa( #"ground_assault_defender", 1 );
                 break;
             case #"ultimate_turret":
             case #"inventory_ultimate_turret":
-                self stats::function_dad108fa( #"hash_103a235d7563069c", 1 );
+                self stats::function_dad108fa( #"ground_assault_defender", 1 );
                 
                 if ( isdefined( inflictor ) )
                 {
@@ -3326,7 +3326,7 @@ function killedbaseoffender( objective, weapon, inflictor )
     
     if ( self.challenge_offenderkillcount > 1 )
     {
-        self stats::function_dad108fa( #"hash_4b3049ba027dd495", 1 );
+        self stats::function_dad108fa( #"double_kill_attackers_defenders", 1 );
     }
     
     self.challenge_offenderkillcount = 0;
@@ -3361,7 +3361,7 @@ function killedbasedefender( objective )
     
     if ( self.challenge_defenderkillcount > 1 )
     {
-        self stats::function_dad108fa( #"hash_4b3049ba027dd495", 1 );
+        self stats::function_dad108fa( #"double_kill_attackers_defenders", 1 );
     }
     
     self.challenge_defenderkillcount = 0;

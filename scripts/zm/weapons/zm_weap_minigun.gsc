@@ -47,8 +47,8 @@ function __init__()
     zm_loadout::register_hero_weapon_for_level( #"hero_minigun_t8_lv1" );
     zm_loadout::register_hero_weapon_for_level( #"hero_minigun_t8_lv2" );
     zm_loadout::register_hero_weapon_for_level( #"hero_minigun_t8_lv3" );
-    zm_hero_weapon::function_7eabd65d( getweapon( #"hash_492e530f9862f6cc" ) );
-    zm_hero_weapon::function_7eabd65d( getweapon( #"hash_628d99860c78650f" ) );
+    zm_hero_weapon::function_7eabd65d( getweapon( #"hero_minigun_t8_lv2_grenade" ) );
+    zm_hero_weapon::function_7eabd65d( getweapon( #"hero_minigun_t8_lv3_grenade" ) );
     level._effect[ #"launcher_flash" ] = #"hash_65b54823a8e8631e";
     
     if ( !isdefined( level.var_90e0e2a0 ) )
@@ -61,8 +61,8 @@ function __init__()
     zm::function_84d343d( #"hero_minigun_t8_lv1", &function_34a75fed );
     zm::function_84d343d( #"hero_minigun_t8_lv2", &function_34a75fed );
     zm::function_84d343d( #"hero_minigun_t8_lv3", &function_34a75fed );
-    zm::function_84d343d( #"hash_492e530f9862f6cc", &function_34a75fed );
-    zm::function_84d343d( #"hash_628d99860c78650f", &function_34a75fed );
+    zm::function_84d343d( #"hero_minigun_t8_lv2_grenade", &function_34a75fed );
+    zm::function_84d343d( #"hero_minigun_t8_lv3_grenade", &function_34a75fed );
 }
 
 // Namespace zm_weap_minigun/zm_weap_minigun
@@ -199,7 +199,7 @@ function function_34a75fed( inflictor, attacker, damage, flags, meansofdeath, we
     
     switch ( weapon.name )
     {
-        case #"hash_492e530f9862f6cc":
+        case #"hero_minigun_t8_lv2_grenade":
             if ( isalive( self ) )
             {
                 switch ( self.zm_ai_category )
@@ -223,7 +223,7 @@ function function_34a75fed( inflictor, attacker, damage, flags, meansofdeath, we
             }
             
             break;
-        case #"hash_628d99860c78650f":
+        case #"hero_minigun_t8_lv3_grenade":
             if ( isalive( self ) )
             {
                 switch ( self.zm_ai_category )
@@ -398,7 +398,7 @@ function function_ebaedcdd( w_minigun )
             var_5a76439b = v_forward_angles[ 1 ] * 1650;
             var_4bbea62c = v_forward_angles[ 2 ] * 1650 + 250;
             var_a460aa94 = ( var_70346f17, var_5a76439b, var_4bbea62c );
-            self magicgrenadetype( getweapon( #"hash_492e530f9862f6cc" ), var_79db2feb + var_98739a5 + var_52594630, var_a460aa94 );
+            self magicgrenadetype( getweapon( #"hero_minigun_t8_lv2_grenade" ), var_79db2feb + var_98739a5 + var_52594630, var_a460aa94 );
             waitframe( 1 );
         }
     }
@@ -429,7 +429,7 @@ function function_9d166ae8( w_minigun )
             var_4bbea62c = v_forward_angles[ 2 ] * 850 + 150;
             var_a460aa94 = ( var_70346f17, var_5a76439b, var_4bbea62c );
             var_40076092 = ( 0, 0, 12 );
-            e_grenade = self magicgrenadetype( getweapon( #"hash_628d99860c78650f" ), var_79db2feb, var_a460aa94, 2 );
+            e_grenade = self magicgrenadetype( getweapon( #"hero_minigun_t8_lv3_grenade" ), var_79db2feb, var_a460aa94, 2 );
             
             while ( isdefined( e_grenade ) )
             {

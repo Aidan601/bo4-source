@@ -1,7 +1,7 @@
 {
     "nameStr": "custom_games_zm",
     "name": "#custom_games_zm",
-    "ddlPath": "#hash_23e03d96e7cf1901",
+    "ddlPath": "#gamedata/ddl/generated/zm_custom_game.ddl",
     "files": [
         {
             "fileName": "custom_games_zm"

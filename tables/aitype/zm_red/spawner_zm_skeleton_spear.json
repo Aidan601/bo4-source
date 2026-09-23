@@ -15,20 +15,20 @@
     "typeSuffix": "_zombie",
     "spawnerType": "spartoi",
     "character": [
-        "#hash_261012a1e1a57f4"
+        "#c_t8_zmb_dlc2_skeleton1_spear"
     ],
     "animMappingTables": [
-        "#hash_a50db61e6e6acd3"
+        "#zm_skeleton_spear.ai_am"
     ],
-    "meleeWeapon": "#hash_cefc023f78e833b",
+    "meleeWeapon": "#skeleton_spear_melee",
     "aimTable": "#soldier_aim",
     "footstepTable": "#skeletonfootstep",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_8ecaaed25a2f33d",
-    "animStateMachine": "#hash_546bcdf6f7a77ede",
-    "animSelectorTable": "#hash_546bd6f6f7a78e29",
+    "behaviorTree": "#zm_skeleton.ai_bt",
+    "animStateMachine": "#zm_skeleton.ai_asm",
+    "animSelectorTable": "#zm_skeleton.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_skeleton_settings",

@@ -1,7 +1,7 @@
 {
     "name": "#amws_gun_turret_mp",
     "baseWeapon": "#amws_gun_turret",
-    "displayname": "#hash_780c03071ddf119d",
+    "displayname": "#killstreak/ai_tank_drop",
     "weapon70": "#killstreak_ai_tank_drop",
     "soundbank": "#amws_gun_turret_soundbank",
     "worldModelTagRight": "tag_weapon_right",
@@ -47,8 +47,8 @@
     "sound180": "#hash_1a02c97db8a27162",
     "sound190": "#hash_601102d06ff56a4a",
     "sound1c0": "#hash_4c2a772a1095d63a",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound5e0": "#hash_2d2fd6378860eddd",
     "sound670": "#hash_3dfd87f8e52fdf00",
     "sound680": "#hash_7f0e22f878efb441",
@@ -63,7 +63,7 @@
     "tunables1": "#amws_gun_turret_tunables_mp",
     "tracers": [
         "#amws_bullet",
-        "#hash_51f6453b67bab6bd"
+        "#amws_bullet_enemy"
     ],
     "reticleCenter": "#hud_rts_mech_reticle",
     "inventoryIconZm": "#hud_hind_minigun",

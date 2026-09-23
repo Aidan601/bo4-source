@@ -58,11 +58,11 @@ function init_flags()
 {
     level flag::init( #"hash_5102447bf4bd73fa" );
     level flag::init( #"hash_21de703d81d1bcc3" );
-    level flag::init( #"hash_2923f30473421396" );
+    level flag::init( #"island_event_active" );
     level flag::init( #"hash_b0eb2954517bcc0" );
     level flag::init( #"hash_4b098ade9fc33501" );
     level flag::init( #"hash_352e983079eccab6" );
-    level flag::init( #"hash_3b7cff73fa5e7121" );
+    level flag::init( #"heat_pack_crafted" );
 }
 
 // Namespace zm_orange_fasttravel_flinger/zm_orange_fasttravel_flinger
@@ -207,7 +207,7 @@ function function_a913e7bc( e_player )
         zm_ui_inventory::function_7df6bb60( "heat_pack_part_tube", 0 );
         zm_ui_inventory::function_7df6bb60( "heat_pack_part_canister", 0 );
         level zm_ui_inventory::function_7df6bb60( "heat_pack_phase", 1 );
-        level flag::set( #"hash_3b7cff73fa5e7121" );
+        level flag::set( #"heat_pack_crafted" );
         
         if ( level.var_98138d6b > 1 )
         {
@@ -226,7 +226,7 @@ function function_5d984ff3()
     {
         s_activation = self waittill( #"trigger_activated" );
         e_who = s_activation.e_who;
-        self playsound( #"hash_4941036cc35e4751" );
+        self playsound( #"zmb_heatpack_pickup" );
         
         if ( !isdefined( e_who.var_2e6aa97d ) )
         {
@@ -296,7 +296,7 @@ function function_26384c47()
     
     if ( zm_utility::is_classic() || zm_utility::is_trials() )
     {
-        level flag::wait_till_all( array( #"hash_3028604821838259", #"hash_5a3d0402a5557739" ) );
+        level flag::wait_till_all( array( #"golden_pap_active", #"hash_5a3d0402a5557739" ) );
         self thread function_d8d2ddc6();
     }
 }
@@ -472,7 +472,7 @@ function function_d8d2ddc6()
     {
         s_touching = self function_1036f994();
         
-        if ( level flag::get( #"hash_3028604821838259" ) )
+        if ( level flag::get( #"golden_pap_active" ) )
         {
             self.var_28a430ac function_c0df509( s_touching.n_touching );
             
@@ -542,7 +542,7 @@ function function_4578fdfd()
         wait 0.1;
         s_touching = self function_1036f994();
         
-        if ( level flag::get( #"hash_3028604821838259" ) && s_touching.var_50d20c23 )
+        if ( level flag::get( #"golden_pap_active" ) && s_touching.var_50d20c23 )
         {
             self.var_cd75ce36 -= 0.1;
             
@@ -557,7 +557,7 @@ function function_4578fdfd()
                     level flag::set( #"hash_f14d343f59fc897" );
                 }
                 
-                level flag::set( #"hash_2923f30473421396" );
+                level flag::set( #"island_event_active" );
                 self function_ceb5bc97();
                 self thread function_5fb97eb1();
                 self notify( #"launcher_activated" );
@@ -694,7 +694,7 @@ function fling_player( v_flinger )
     
     self.var_3456a2d2 = spawn( "script_origin", self.origin );
     self.var_3456a2d2 linkto( self );
-    self.var_3456a2d2 playloopsound( #"hash_7870648fa8bc7f" );
+    self.var_3456a2d2 playloopsound( #"fly_flinger_wind" );
     self clientfield::set_to_player( "blur_post_fx", 1 );
     
     if ( v_flinger.str_location === "island_return" )
@@ -880,7 +880,7 @@ function function_57806638( v_flinger )
     }
     
     e_planks = getent( v_flinger.var_48abac67.target, "targetname" );
-    e_planks playsound( #"hash_157ec960f5af0676" );
+    e_planks playsound( #"zmb_wood_planks_break" );
     e_planks clientfield::set( "flinger_impact_wood", 1 );
     
     if ( v_flinger.var_ad63608b >= var_61cb960b )
@@ -1113,7 +1113,7 @@ function function_9b196e4f()
         }
     }
     
-    self playsound( #"hash_7f9983381e1b2921" );
+    self playsound( #"evt_flinger_fling" );
     self.var_28a430ac flinger_launch();
     
     foreach ( var_2c9017c8 in self.var_12d831a6 )
@@ -1218,11 +1218,11 @@ function function_c0df509( index )
 // Size: 0xf4
 function function_ac9a3646()
 {
-    playsoundatposition( #"hash_5474570f37d75aa7", self.origin );
+    playsoundatposition( #"evt_flinger_start", self.origin );
     e_snd = spawn( "script_origin", self.origin );
-    e_snd playsound( #"hash_5913634c5007a95" );
+    e_snd playsound( #"evt_flinger_tension" );
     self waittill( #"launcher_activated", #"hash_1a5c6352ea49c8ff" );
-    playsoundatposition( #"hash_3db70e71d59b6393", self.origin );
+    playsoundatposition( #"evt_flinger_cancel", self.origin );
     e_snd stopsounds();
     waitframe( 1 );
     e_snd delete();

@@ -1,6 +1,6 @@
 {
     "name": "#hash_2f921feeb98352f2",
-    "model": "#hash_6f9d235db7d67480",
+    "model": "#veh_t8_mil_helicopter_light_transport_warzone_dark_dest",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [
@@ -13,11 +13,11 @@
                     "unk28": "tag_origin"
                 },
                 {
-                    "name": "#hash_21d849eee4d897a",
+                    "name": "#dst_car_rad_steam",
                     "unk28": "tag_origin"
                 },
                 {
-                    "name": "#hash_4d024c686b015e3d",
+                    "name": "#pfx_car_fire",
                     "unk28": "tag_origin"
                 },
                 {},

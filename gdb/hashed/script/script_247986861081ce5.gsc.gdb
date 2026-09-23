@@ -1,4 +1,4 @@
-NAME script_247986861081ce5
+NAME scripts/zm/zm_office_groom_lake_challenges.gsc
 VERSION 0
 CHECKSUM 0x865f3d3e
 ######################################################

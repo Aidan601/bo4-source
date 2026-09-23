@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_infect_3_enemies",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_545bb47068833784",
+    "iconsmall": "image#ui_icon_medal_plagued",
     "stringref": "localized17#hash_27c8335e19e93f95",
-    "iconlarge": "image#hash_3284ce1a2c287770"
+    "iconlarge": "image#ui_icon_medal_plagued_large"
 }

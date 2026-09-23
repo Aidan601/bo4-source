@@ -1,5 +1,5 @@
 {
-    "name": "#hash_726654fa44075f96",
+    "name": "#ammo_weapon_762_wz",
     "baseWeapon": "#hash_7637baffed0925ea",
     "displayname": "#hash_239b4d30eb78175e",
     "soundbank": "#hash_409e6ab7746bc440",
@@ -27,10 +27,10 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound830": "#hash_571a12038dc944c1",
-    "tunables1": "#hash_73b99ec5708d8271",
+    "tunables1": "#ammo_weapon_762_tunables_wz",
     "worldModel": [
         "#p8_wz_ammo_pickup_762"
     ]

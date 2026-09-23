@@ -513,7 +513,7 @@ function function_9e147e0c( s_params )
         return;
     }
     
-    if ( self.archetype === #"nosferatu" && isplayer( s_params.eattacker ) && !( isdefined( level.var_f1028094[ #"hash_2464612c580fec24" ] ) && level.var_f1028094[ #"hash_2464612c580fec24" ] ) )
+    if ( self.archetype === #"nosferatu" && isplayer( s_params.eattacker ) && !( isdefined( level.var_f1028094[ #"player_killed_nosferatu" ] ) && level.var_f1028094[ #"player_killed_nosferatu" ] ) )
     {
         s_params.eattacker thread function_9e4c5bfb();
     }
@@ -530,13 +530,13 @@ function function_9e4c5bfb()
         self.var_aed1893c = [];
     }
     
-    if ( ( !( isdefined( self.var_aed1893c[ #"hash_2464612c580fec24" ] ) && self.var_aed1893c[ #"hash_2464612c580fec24" ] ) || math::cointoss( 20 ) ) && !( isdefined( level.var_f1028094[ #"hash_2464612c580fec24" ] ) && level.var_f1028094[ #"hash_2464612c580fec24" ] ) && zm_utility::is_player_valid( self ) )
+    if ( ( !( isdefined( self.var_aed1893c[ #"player_killed_nosferatu" ] ) && self.var_aed1893c[ #"player_killed_nosferatu" ] ) || math::cointoss( 20 ) ) && !( isdefined( level.var_f1028094[ #"player_killed_nosferatu" ] ) && level.var_f1028094[ #"player_killed_nosferatu" ] ) && zm_utility::is_player_valid( self ) )
     {
-        self.var_aed1893c[ #"hash_2464612c580fec24" ] = 1;
-        level.var_f1028094[ #"hash_2464612c580fec24" ] = 1;
+        self.var_aed1893c[ #"player_killed_nosferatu" ] = 1;
+        level.var_f1028094[ #"player_killed_nosferatu" ] = 1;
         self zm_audio::create_and_play_dialog( #"nosferatu", #"kill", undefined, 1 );
         wait randomintrange( 30, 3 * 30 );
-        level.var_f1028094[ #"hash_2464612c580fec24" ] = 0;
+        level.var_f1028094[ #"player_killed_nosferatu" ] = 0;
     }
 }
 
@@ -951,7 +951,7 @@ function function_f15c4657()
     if ( self zm_characters::is_character( array( #"prt_zm_butler" ) ) && level.sam_clue_dig_traversal == 3 )
     {
         self zm_vo::function_a2bd5a0c( #"hash_4c470787fc7738eb" );
-        self playsoundtoplayer( #"hash_663346a99e3bdffc", self );
+        self playsoundtoplayer( #"vox_revive_down_4_butd_1", self );
         return;
     }
     

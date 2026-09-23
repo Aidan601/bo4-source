@@ -45,9 +45,9 @@ function function_c7c05a13()
     var_21249230 = getscriptbundle( fields.zm_inventory );
     level.var_a16c38d9 = [];
     
-    if ( isdefined( var_21249230.challenges ) && isdefined( var_21249230.var_5a90928f ) )
+    if ( isdefined( var_21249230.challenges ) && isdefined( var_21249230.challengesclientfield ) )
     {
-        function_cb96f01d( var_21249230.var_5a90928f, "ChallengesInfo.stage", 5, 1 );
+        function_cb96f01d( var_21249230.challengesclientfield, "ChallengesInfo.stage", 5, 1 );
         
         if ( isdefined( var_21249230.var_f7d932ea ) )
         {
@@ -95,7 +95,7 @@ function function_c7c05a13()
             if ( isdefined( item.clientfield ) )
             {
                 clientfield = "PaPItems." + i + 1 + ".stage";
-                function_cb96f01d( item.clientfield, clientfield, 2, item.var_7db3435c );
+                function_cb96f01d( item.clientfield, clientfield, 2, item.ispersonalitem );
             }
         }
     }
@@ -122,13 +122,13 @@ function function_c7c05a13()
                 if ( isdefined( component.clientfield ) )
                 {
                     var_2641997d = "WonderWeaponItems." + index + ".stage";
-                    function_cb96f01d( component.clientfield, var_2641997d, 3, component.var_7db3435c );
+                    function_cb96f01d( component.clientfield, var_2641997d, 3, component.ispersonalitem );
                 }
                 
                 if ( isdefined( component.var_9f618001 ) )
                 {
                     var_9f618001 = "WonderWeaponItems." + index + ".numAcquired";
-                    function_cb96f01d( component.var_9f618001, var_9f618001, 2, component.var_7db3435c );
+                    function_cb96f01d( component.var_9f618001, var_9f618001, 2, component.ispersonalitem );
                 }
                 
                 index++;
@@ -143,7 +143,7 @@ function function_c7c05a13()
             if ( isdefined( var_21249230.shieldpieces[ p ].clientfield ) )
             {
                 clientfield = "ShieldPieces." + p + 1 + ".stage";
-                function_cb96f01d( var_21249230.shieldpieces[ p ].clientfield, clientfield, 1, var_21249230.shieldpieces[ p ].var_7db3435c );
+                function_cb96f01d( var_21249230.shieldpieces[ p ].clientfield, clientfield, 1, var_21249230.shieldpieces[ p ].ispersonalitem );
             }
         }
     }
@@ -157,7 +157,7 @@ function function_c7c05a13()
             if ( isdefined( quest.var_a0ebe517 ) )
             {
                 var_e7e5896d = "QuestPhaseInfos." + q + 1 + ".phase";
-                function_cb96f01d( var_21249230.quests[ q ].var_a0ebe517, var_e7e5896d, 2, var_21249230.quests[ q ].var_7db3435c );
+                function_cb96f01d( var_21249230.quests[ q ].var_a0ebe517, var_e7e5896d, 2, var_21249230.quests[ q ].ispersonalitem );
             }
             
             var_d4cb13fd = "Quest" + q + 1;
@@ -172,7 +172,7 @@ function function_c7c05a13()
                     if ( isdefined( phase.items[ i ].clientfield ) )
                     {
                         var_2641997d = var_d4cb13fd + "." + index + ".stage";
-                        function_cb96f01d( phase.items[ i ].clientfield, var_2641997d, 2, phase.items[ i ].var_7db3435c );
+                        function_cb96f01d( phase.items[ i ].clientfield, var_2641997d, 2, phase.items[ i ].ispersonalitem );
                     }
                     
                     index++;

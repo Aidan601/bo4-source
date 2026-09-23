@@ -1,6 +1,6 @@
 {
     "lootid": "#charm_bullet",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_bullet",
     "name": "charm_sniper_round",
     "displayname": "localized17#hash_5357112528ffcfb9",

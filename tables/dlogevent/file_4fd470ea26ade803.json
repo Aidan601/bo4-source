@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -95,7 +95,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -120,7 +120,7 @@
         },
         {
             "name": "#max_occupants",
-            "scrName": "#hash_efe98761",
+            "scrName": "#max_occupants",
             "type": "UINT8"
         },
         {
@@ -151,7 +151,7 @@
         },
         {
             "name": "#vehicle_id",
-            "scrName": "#hash_c87538d9",
+            "scrName": "#vehicle_id",
             "type": "UINT32"
         },
         {
@@ -170,18 +170,18 @@
             "type": "UINT32"
         },
         {
-            "name": "#hash_4b57cc6a0164c1b2",
-            "scrName": "#hash_1ff15d37",
+            "name": "#start_pos_y",
+            "scrName": "#start_pos_y",
             "type": "FLOAT"
         },
         {
-            "name": "#hash_4b57cd6a0164c365",
-            "scrName": "#hash_2dbaf8ca",
+            "name": "#start_pos_x",
+            "scrName": "#start_pos_x",
             "type": "FLOAT"
         },
         {
             "name": "#passenger_damage_taken",
-            "scrName": "#hash_ffb0c509",
+            "scrName": "#passenger_damage_taken",
             "type": "UINT16"
         },
         {
@@ -205,13 +205,13 @@
             "type": "UINT16"
         },
         {
-            "name": "#hash_6373313e132d49b8",
-            "scrName": "#hash_16f7d5d0",
+            "name": "#end_pos_x",
+            "scrName": "#end_pos_x",
             "type": "FLOAT"
         },
         {
-            "name": "#hash_6373323e132d4b6b",
-            "scrName": "#hash_4ba3155",
+            "name": "#end_pos_y",
+            "scrName": "#end_pos_y",
             "type": "FLOAT"
         },
         {

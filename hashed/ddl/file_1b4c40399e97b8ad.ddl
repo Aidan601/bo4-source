@@ -17,15 +17,15 @@ version 21 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 3 size 0xc0
     struct client_header {
         // offset 0x0, size 0x40
-        uint64 hash_4016bed15f9183f7;
+        uint64 user_session_id;
         // offset 0x40, size 0x40
         uint64 uno_id;
         // offset 0x80, size 0x40
@@ -93,31 +93,31 @@ version 21 {
     // offset 0x120, size 0xc0
     match_header match;
     // offset 0x1e0, size 0x20
-    float hash_5cf4c0068a2adb7e;
+    float streamer_image_quality;
     // offset 0x200, size 0x1f8
     telemetry_header telemetry;
     // offset 0x3f8, size 0x60
     hash_3ea575a2be6523f8 stream_weapons;
     // offset 0x458, size 0x80
-    hash_4bc2231ce039ad50 hash_26305944fdfcc648;
+    hash_4bc2231ce039ad50 clientdraw;
     // offset 0x4d8, size 0x60
-    hash_3ea575a2be6523f8 hash_607533ecc8220817;
+    hash_3ea575a2be6523f8 stream_anim;
     // offset 0x538, size 0x60
-    hash_3ea575a2be6523f8 hash_5a1df273e5117ae4;
+    hash_3ea575a2be6523f8 stream_none;
     // offset 0x598, size 0x20
     float hash_320012f3ddbd42e1;
     // offset 0x5b8, size 0x20
     float hash_694ebf1c86e2b370;
     // offset 0x5d8, size 0x20
-    float hash_26a1c4d27438e76;
+    float streamer_forced;
     // offset 0x5f8, size 0x20
-    int hash_41c61675e9a0b2d1;
+    int streamer_mbytes;
     // offset 0x618, size 0x20
-    float hash_b8a5310b16895f8;
+    float streamer_mesh_quality;
     // offset 0x638, size 0x20
-    int hash_7efd3977838c2844;
+    int streamer_reads;
     // offset 0x658, size 0x20
-    float hash_786854d23639d4ff;
+    float streamer_waste;
     // offset 0x678, size 0x60
     hash_3ea575a2be6523f8 stream_terrain;
     // offset 0x6d8, size 0x60
@@ -125,23 +125,23 @@ version 21 {
     // offset 0x738, size 0xc0
     client_header client;
     // offset 0x7f8, size 0x60
-    hash_3ea575a2be6523f8 hash_16d0c24c643fe661;
+    hash_3ea575a2be6523f8 stream_env;
     // offset 0x858, size 0x80
     hash_4bc2231ce039ad50 gpuframe;
     // offset 0x8d8, size 0x60
-    hash_3ea575a2be6523f8 hash_706875ff12b295b8;
+    hash_3ea575a2be6523f8 stream_audio;
     // offset 0x938, size 0x60
-    hash_3ea575a2be6523f8 hash_4eede5ccff6cdeb2;
+    hash_3ea575a2be6523f8 stream_light;
     // offset 0x998, size 0x60
-    hash_3ea575a2be6523f8 hash_38670452ab856e5e;
+    hash_3ea575a2be6523f8 stream_characters;
     // offset 0x9f8, size 0x60
     hash_3ea575a2be6523f8 stream_vehicles;
     // offset 0xa58, size 0x80
     hash_4bc2231ce039ad50 clientupdate;
     // offset 0xad8, size 0x20
-    int hash_6535fe3e4fdf1dab;
+    int game_clock_ms;
     // offset 0xaf8, size 0x60
-    hash_3ea575a2be6523f8 hash_79d557e80bf7a8a0;
+    hash_3ea575a2be6523f8 stream_fx;
     // offset 0xb58, size 0x60
     hash_3ea575a2be6523f8 stream_ui;
     // offset 0xbb8, size 0x1

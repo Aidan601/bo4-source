@@ -1,4 +1,4 @@
-NAME script_6b221588ece2c4aa
+NAME scripts/weapons/weaponobjects_crap.gsc
 VERSION 0
 CHECKSUM 0xd67163d
 ######################################################

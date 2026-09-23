@@ -159,7 +159,7 @@ function activation( var_fad9ed02 = 1 )
                 playfx( level._effect[ #"teleport_aoe_kill" ], ai.origin );
             }
             
-            ai playsound( #"hash_22ff6701cf652785" );
+            ai playsound( #"zmb_bgb_abh_zombie_explode" );
             ai.marked_for_recycle = 1;
             ai.has_been_damaged_by_player = 0;
             ai dodamage( ai.health + 1000, self.origin, self );
@@ -177,7 +177,7 @@ function activation( var_fad9ed02 = 1 )
     self.var_ffe2c4d7 = undefined;
     wait 3;
     self val::reset( #"bgb_anywhere_but_here", "ignoreme" );
-    self notify( #"hash_3e4335abc3d58a0b" );
+    self notify( #"bgb_anywhere_but_here_complete" );
 }
 
 // Namespace zm_bgb_anywhere_but_here/zm_bgb_anywhere_but_here

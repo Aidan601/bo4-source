@@ -18,7 +18,7 @@ function init()
     level._effect[ #"fx8_toxic_gas_lg" ] = "maps/zm_white/fx8_toxic_gas_lg";
     level._effect[ #"fx8_toxic_gas_venting_lg" ] = "maps/zm_white/fx8_toxic_gas_venting_lg";
     level._effect[ #"fx8_special_round_green_gas_md" ] = "maps/zm_towers/fx8_special_round_green_gas_md";
-    level._effect[ #"hash_670acb2528e7f014" ] = #"hash_67f59250cb33cc07";
+    level._effect[ #"goo_location_indicator" ] = #"hash_67f59250cb33cc07";
     function_aa1e486e();
 }
 
@@ -348,7 +348,7 @@ function function_88991669( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x9c
 function play_generator_sound_sweetner( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    audio::playloopat( #"hash_3f579b3632b29a2", ( -158, -352, -379 ) );
-    audio::playloopat( #"hash_3f579b3632b29a2", ( 86, -345, -367 ) );
+    audio::playloopat( #"amb_bunker_generator_fans", ( -158, -352, -379 ) );
+    audio::playloopat( #"amb_bunker_generator_fans", ( 86, -345, -367 ) );
 }
 

@@ -49,7 +49,7 @@ function on_player_damage( params )
         str_current_anim = params.einflictor.str_current_anim;
     }
     
-    if ( var_e72cb811 === #"crimson_nosferatu" && str_current_anim === #"hash_30a3ae992c453f0c" )
+    if ( var_e72cb811 === #"crimson_nosferatu" && str_current_anim === #"ai_t8_zm_mnsn_nfrtu_attack_latch_01_succeed" )
     {
         self notify( #"hash_6938bc311a1a893e" );
     }
@@ -108,7 +108,7 @@ function on_ai_killed( params )
 function function_51e43f4f()
 {
     level endon( #"end_game" );
-    level flagsys::wait_till( #"hash_25d8c88ff3f91ee5" );
+    level flagsys::wait_till( #"boss_fight_all_complete" );
     
     /#
         iprintlnbold( "<dev string:x38>" );
@@ -194,7 +194,7 @@ function function_c91cfd5a()
     
     for ( var_532a9491 = 0; var_532a9491 < 3 ; var_532a9491++ )
     {
-        level waittill( #"hash_144b3192f03325f3" );
+        level waittill( #"prima_materia_created" );
     }
     
     /#

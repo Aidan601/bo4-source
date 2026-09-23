@@ -6,7 +6,7 @@
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/waiting",
-        "icon": "image#hash_69d08939d3cd366f",
+        "icon": "image#ui_icon_emotes_waiting",
         "isdefault": 0
     }
 }

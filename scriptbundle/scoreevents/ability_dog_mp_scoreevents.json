@@ -4,7 +4,7 @@
     "killscoreevent": "#attack_dog_kill",
     "configstringfiletype": "scriptbundle",
     "type": "scoreevents",
-    "saviorscoreevent": "#hash_1bf180f8945b240d",
+    "saviorscoreevent": "#attack_dog_savior",
     "vmtype": "both",
     "hash_3c9a57250734ff5c:hash_16abf654": "#hash_629aa64fb8f1aec7",
     "name": "ability_dog_mp_scoreevents",

@@ -52,7 +52,7 @@ function private on_end( round_reset )
 {
     foreach ( player in getplayers() )
     {
-        player notify( #"hash_17c41292130032eb" );
+        player notify( #"stop_movement_watch" );
     }
 }
 
@@ -72,7 +72,7 @@ function is_active()
 // Size: 0x2c2
 function private movement_watcher()
 {
-    self endon( #"disconnect", #"hash_17c41292130032eb" );
+    self endon( #"disconnect", #"stop_movement_watch" );
     wait zm_round_logic::get_delay_between_rounds() - 2;
     
     while ( true )
@@ -88,14 +88,14 @@ function private movement_watcher()
             {
                 if ( !zm_trial_defend_area::is_active() || zm_trial_defend_area::is_active() && isdefined( self.var_ccee13fc ) && self.var_ccee13fc )
                 {
-                    self playsoundtoplayer( #"hash_6df374d848ba6a60", self );
+                    self playsoundtoplayer( #"zmb_player_health_drain", self );
                     self dodamage( 11, self.origin );
                     var_89276ce9 = 1;
                 }
             }
             else if ( !zm_trial_defend_area::is_active() || zm_trial_defend_area::is_active() && isdefined( self.var_ccee13fc ) && self.var_ccee13fc )
             {
-                self playsoundtoplayer( #"hash_6df374d848ba6a60", self );
+                self playsoundtoplayer( #"zmb_player_health_drain", self );
                 self dodamage( 6, self.origin );
                 var_89276ce9 = 1;
             }

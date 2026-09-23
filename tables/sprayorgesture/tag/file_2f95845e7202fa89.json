@@ -1,11 +1,11 @@
 {
-    "name": "#hash_2f95845e7202fa89",
+    "name": "#loot_tags_poster_battery",
     "type": "#tag",
-    "material": "#hash_79884b09ae8d1ecd",
+    "material": "#vd/mtl_loot_ui_icon_tags_poster_battery",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_2f973fa6cb4c4c6f",
-        "icon": "image#hash_5950c70b20cef9c8",
+        "icon": "image#loot_ui_icon_tags_poster_battery",
         "isdefault": 0
     }
 }

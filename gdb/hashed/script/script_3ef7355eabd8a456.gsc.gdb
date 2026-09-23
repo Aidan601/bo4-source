@@ -1,4 +1,4 @@
-NAME script_3ef7355eabd8a456
+NAME scripts/zm/zm_office_ee_pernell_archive.gsc
 VERSION 0
 CHECKSUM 0xbe13a336
 ######################################################

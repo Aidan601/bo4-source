@@ -30,7 +30,7 @@ function init()
     level flag::init( #"hash_3e90f82a2802b3" );
     level flag::init( #"hash_26c9e53e0e558572" );
     level flag::init( #"hash_4863d7214aa660e2" );
-    level flag::init( #"hash_5ee1f3505b34a52d" );
+    level flag::init( #"remus_started" );
     
     if ( !zm_utility::is_ee_enabled() )
     {
@@ -41,11 +41,11 @@ function init()
     
     mdl_frame = getent( "narsho", "targetname" );
     mdl_frame hide();
-    a_s_scrolls = struct::get_array( #"hash_4ff4d74fc1ff150d" );
+    a_s_scrolls = struct::get_array( #"s_narrative_scroll" );
     array::thread_all( a_s_scrolls, &function_58c9a8b3, 1 );
-    a_s_skulls = struct::get_array( #"hash_70b8946b02777c1d" );
+    a_s_skulls = struct::get_array( #"s_narrative_skull" );
     array::thread_all( a_s_skulls, &function_58c9a8b3 );
-    level thread function_c2e32573( "narrative_whispers", array( #"hash_609c2bdb6def129f", #"hash_4af81ddd4ad3f4d1", #"hash_23a8e8f61c4fc32c", #"hash_7f6bf79b60f1e8d4" ), 1, #"hash_46aec984fab973b8", #"hash_46ddcfa7b8081e89", 1.5 );
+    level thread function_c2e32573( "narrative_whispers", array( #"hash_609c2bdb6def129f", #"hash_4af81ddd4ad3f4d1", #"hash_23a8e8f61c4fc32c", #"hash_7f6bf79b60f1e8d4" ), 1, #"zmb_sq_audiolog_oracle_start", #"zmb_sq_audiolog_oracle_end", 1.5 );
     level thread function_c2e32573( "narrative_warning", array( #"hash_5c9150da16c41e10", #"hash_66dd1564ba1e9474", #"hash_4489363f604b439c", #"hash_4e2811c0bd19be20", #"hash_7101f8d31ad66888" ), 1 );
     level thread function_a38e222b();
     level thread function_831dcf3e();
@@ -208,8 +208,8 @@ function function_a38e222b()
         waitresult = level waittill( #"narrative_explore" );
         level flag::set( #"hash_64e187377acec152" );
         var_e25ba3b3 = spawn( "script_origin", waitresult.v_origin );
-        var_e25ba3b3 playsound( #"hash_d4b330503498b0f" );
-        var_e25ba3b3 playloopsound( #"hash_1da1dccdd4a06b31" );
+        var_e25ba3b3 playsound( #"zmb_sq_audiolog_scroll_start" );
+        var_e25ba3b3 playloopsound( #"zmb_sq_audiolog_scroll_lp" );
         wait 2;
         
         switch ( i )
@@ -250,7 +250,7 @@ function function_a38e222b()
         }
         
         var_e25ba3b3 stoploopsound();
-        var_e25ba3b3 playsound( #"hash_4242c92643cc6775" );
+        var_e25ba3b3 playsound( #"zmb_sq_audiolog_scroll_stop" );
         waitframe( 1 );
         var_e25ba3b3 delete();
         level flag::clear( #"hash_64e187377acec152" );
@@ -320,56 +320,56 @@ function function_b116e882( var_237f80b0, var_54bb7f87, var_5876458 )
             case 0:
                 if ( var_54bb7f87 == 0 )
                 {
-                    var_d34b6d2b = #"hash_1ac8c014caa1f64d";
+                    var_d34b6d2b = #"zmb_sq_audiolog_quest_sfx_zombies";
                 }
                 
                 if ( var_54bb7f87 == 1 )
                 {
-                    var_d34b6d2b = #"hash_4e8555d4b9f67fb5";
+                    var_d34b6d2b = #"zmb_sq_audiolog_quest_sfx_1";
                 }
                 
                 if ( var_54bb7f87 == 3 )
                 {
-                    var_d34b6d2b = #"hash_4e8552d4b9f67a9c";
+                    var_d34b6d2b = #"zmb_sq_audiolog_quest_sfx_2";
                 }
                 
                 if ( var_54bb7f87 == 4 )
                 {
-                    var_d34b6d2b = #"hash_4e8553d4b9f67c4f";
+                    var_d34b6d2b = #"zmb_sq_audiolog_quest_sfx_3";
                 }
                 
                 break;
             case 2:
                 if ( var_54bb7f87 == 9 )
                 {
-                    var_d34b6d2b = #"hash_70155a583c7b3ae2";
+                    var_d34b6d2b = #"zmb_sq_audiolog_sacrifice_sfx_1";
                 }
                 
                 if ( var_54bb7f87 == 11 )
                 {
-                    var_d34b6d2b = #"hash_701559583c7b392f";
+                    var_d34b6d2b = #"zmb_sq_audiolog_sacrifice_sfx_2";
                 }
                 
                 if ( var_54bb7f87 == 12 )
                 {
-                    var_d34b6d2b = #"hash_701558583c7b377c";
+                    var_d34b6d2b = #"zmb_sq_audiolog_sacrifice_sfx_3";
                 }
                 
                 if ( var_54bb7f87 == 13 )
                 {
-                    var_d34b6d2b = #"hash_701557583c7b35c9";
+                    var_d34b6d2b = #"zmb_sq_audiolog_sacrifice_sfx_4";
                 }
                 
                 if ( var_54bb7f87 == 14 )
                 {
-                    var_d34b6d2b = #"hash_701556583c7b3416";
+                    var_d34b6d2b = #"zmb_sq_audiolog_sacrifice_sfx_5";
                 }
                 
                 break;
             case 3:
                 if ( var_54bb7f87 == 2 )
                 {
-                    var_d34b6d2b = #"hash_481d86c03825cd82";
+                    var_d34b6d2b = #"zmb_sq_audiolog_appease_sfx_1";
                 }
                 
                 break;
@@ -426,7 +426,7 @@ function function_831dcf3e()
         
         if ( zm_utility::is_ee_enabled() )
         {
-            mdl_fx clientfield::set( "" + #"hash_5afda864f8b64f5c", 0 );
+            mdl_fx clientfield::set( "" + #"narrative_brazier_fire", 0 );
         }
         
         mdl_fx delete();
@@ -451,13 +451,13 @@ function function_51f7da68()
     
     if ( self flag::get( #"hash_6e4b1162d4626a6e" ) )
     {
-        mdl_fx clientfield::set( "" + #"hash_5afda864f8b64f5c", 0 );
+        mdl_fx clientfield::set( "" + #"narrative_brazier_fire", 0 );
         self flag::clear( #"hash_6e4b1162d4626a6e" );
     }
     
     while ( true )
     {
-        s_waitresult = level waittill( #"hash_3042a9bf2f57ea0a" );
+        s_waitresult = level waittill( #"wraith_fire_impact" );
         v_origin = s_waitresult.var_814c9389;
         
         if ( istouching( v_origin, self ) )
@@ -472,7 +472,7 @@ function function_51f7da68()
     {
         level.var_75fb83c = var_d34eaa6e;
         self flag::set( #"hash_6e4b1162d4626a6e" );
-        mdl_fx clientfield::set( "" + #"hash_5afda864f8b64f5c", 1 );
+        mdl_fx clientfield::set( "" + #"narrative_brazier_fire", 1 );
         
         if ( level.var_75fb83c >= level.var_3d8b20c0 )
         {
@@ -575,8 +575,8 @@ function function_7c66ee1b()
 {
     level endon( #"end_game" );
     var_8a88c4c8 = getent( "mdl_narrative_flop", "targetname" );
-    s_loc = struct::get( #"hash_41008b60aedc6f40" );
-    s_hand = struct::get( #"hash_723303fe45c13f65" );
+    s_loc = struct::get( #"s_narrative_hand_unitrigger" );
+    s_hand = struct::get( #"s_narrative_hand" );
     
     if ( !zm_utility::is_ee_enabled() )
     {
@@ -612,7 +612,7 @@ function function_f3c29d33( a_ents )
 // Size: 0xc8, Type: bool
 function function_bc24a9ea( e_player )
 {
-    s_hand = struct::get( #"hash_723303fe45c13f65" );
+    s_hand = struct::get( #"s_narrative_hand" );
     str_stance = e_player getstance();
     var_39b20ef6 = e_player zm_utility::is_player_looking_at( s_hand.origin, 0.99, 0 );
     var_4e28e4e2 = str_stance == "crouch" || str_stance == "prone";

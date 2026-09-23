@@ -28,17 +28,17 @@
     "#hash_554be9f7": false,
     "soundb0": "#hash_321e0616ad37f67d",
     "firesound": "#hash_2058b0dbb3d49daa",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound4e0": "#hash_7de02f3f0a5f070b",
-    "tunables1": "#hash_2c79f27fac9515c3",
+    "tunables1": "#zombie_perk_totem_tunables",
     "gestureTables": [
-        "#hash_5b04303388c73792"
+        "#gestable_zombie_perk_totem_tortoise"
     ],
     "viewmodel": [
-        "#hash_1f76439a7cc716fe"
+        "#wpn_t8_zm_perk_totem_victorious_tortoise_view"
     ],
     "worldModel": [
-        "#hash_4fe70b2de9830ba1"
+        "#wpn_t8_zm_perk_totem_victorious_tortoise_world"
     ]
 }

@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_ice_cream",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_ice_cream",
     "name": "charm_ice_cream",
-    "displayname": "localized17#hash_3d8374123cfe2207",
+    "displayname": "localized17#menu/charm_ice_cream",
     "icon": "ui_icon_weapon_charms_ice_cream",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_ice_cream"

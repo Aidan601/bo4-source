@@ -28,7 +28,7 @@ function __init__()
     
     bgb::register( #"zm_bgb_now_you_see_me", "activated" );
     visionset_mgr::register_visionset_info( "zm_bgb_now_you_see_me", 1, 31, undefined, "zm_bgb_in_plain_sight" );
-    clientfield::register( "toplayer", "" + #"hash_18be2b4b3936ee1f", 1, 1, "int", &function_387d8f36, 0, 0 );
+    clientfield::register( "toplayer", "" + #"zm_bgb_now_you_see_me_postfx", 1, 1, "int", &function_387d8f36, 0, 0 );
 }
 
 // Namespace zm_bgb_now_you_see_me/zm_bgb_now_you_see_me
@@ -43,8 +43,8 @@ function function_387d8f36( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( !isdefined( self.var_ab7bde88 ) )
         {
-            self playsound( localclientnum, #"hash_7b2800dd9e263794" );
-            self.var_ab7bde88 = self playloopsound( #"hash_3045ef348e47e6b4" );
+            self playsound( localclientnum, #"zmb_bgb_nysm_start_plr" );
+            self.var_ab7bde88 = self playloopsound( #"zmb_bgb_nysm_loop_plr" );
         }
         
         return;
@@ -55,7 +55,7 @@ function function_387d8f36( localclientnum, oldval, newval, bnewent, binitialsna
     if ( isdefined( self.var_ab7bde88 ) )
     {
         self stoploopsound( self.var_ab7bde88 );
-        self playsound( localclientnum, #"hash_15703d934c79add1" );
+        self playsound( localclientnum, #"zmb_bgb_nysm_end_plr" );
     }
 }
 

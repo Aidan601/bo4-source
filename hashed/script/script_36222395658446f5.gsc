@@ -44,10 +44,10 @@ function __init__()
     clientfield::register( "toplayer", "" + #"hash_37c33178198d54e4", 1, 1, "int" );
     clientfield::register( "toplayer", "" + #"hash_5d9808a62579e894", 1, 1, "int" );
     clientfield::register( "toplayer", "" + #"hash_4ec2b359458774e4", 1, 1, "int" );
-    clientfield::register( "toplayer", "" + #"hash_4724376be4e925a3", 1, 1, "int" );
+    clientfield::register( "toplayer", "" + #"place_blue_rock", 1, 1, "int" );
     clientfield::register( "toplayer", "" + #"hash_1aa1c7790dc67d1e", 1, 1, "int" );
     clientfield::register( "toplayer", "" + #"hash_7cdfc8f4819bab2e", 1, 1, "int" );
-    clientfield::register( "toplayer", "" + #"hash_61ed2f45564d54f9", 1, 1, "int" );
+    clientfield::register( "toplayer", "" + #"explode_blue_rock", 1, 1, "int" );
     clientfield::register( "toplayer", "" + #"totem_fall", 1, 1, "int" );
     clientfield::register( "scriptmover", "" + #"hash_2a7ceb22f84e5aa9", 1, 1, "int" );
     level flag::init( #"hash_6ee51d9a7d37aecc" );
@@ -282,7 +282,7 @@ function function_7d6c1805( e_player )
             level.var_3e7cd669 setvisibletoplayer( e_player );
             e_player.var_b3076a2d = undefined;
             e_player flag::set( #"hash_d41f651bb868608" );
-            e_player playsoundtoplayer( #"hash_197a1f4b39686315", e_player );
+            e_player playsoundtoplayer( #"zmb_step_success", e_player );
         }
     }
 }
@@ -439,7 +439,7 @@ function private function_f23ddf20( e_player )
 {
     e_player endoncallback( &function_905f55bb, #"disconnect" );
     level notify( #"hash_421aca00fd70d9ea" );
-    playsoundatposition( #"hash_5077c643bb3c5f9e", level.var_4024aaf6.origin );
+    playsoundatposition( #"zmb_spknifeork_pickup", level.var_4024aaf6.origin );
     w_current = e_player.currentweapon;
     e_player thread zm_melee_weapon::award_melee_weapon( #"spknifeork" );
     
@@ -500,7 +500,7 @@ function private function_455ede41( e_player )
 {
     level.var_4024aaf6 clientfield::set( "" + #"hash_2a7ceb22f84e5aa9", 1 );
     level.var_4024aaf6 movez( level.var_4024aaf6.var_bab19cbf, 1 );
-    playsoundatposition( #"hash_157cd287d6504d0e", level.var_4024aaf6.origin );
+    playsoundatposition( #"zmb_skeleton_spoon_hand", level.var_4024aaf6.origin );
     level.var_4024aaf6 waittill( #"movedone" );
 }
 
@@ -714,7 +714,7 @@ function acid_trap_think()
     self clientfield::set_to_player( "" + #"hash_7cdfc8f4819bab2e", 1 );
     self clientfield::set_to_player( "" + #"hash_5d9808a62579e894", 0 );
     level.var_288dc330 setvisibletoplayer( self );
-    level.var_288dc330 playloopsound( #"hash_3129e04ec52b7ef2" );
+    level.var_288dc330 playloopsound( #"zmb_gems_loop" );
     self thread zm_audio::create_and_play_dialog( #"success_resp", #"generic" );
 }
 
@@ -756,7 +756,7 @@ function function_352a977a()
         {
             level.var_288dc330 setinvisibletoplayer( e_player );
             e_player flag::set( #"hash_1c96d8540b5d8c50" );
-            playsoundatposition( #"hash_7cfaf85826852b1f", level.var_288dc330.origin );
+            playsoundatposition( #"zmb_gem_pickup", level.var_288dc330.origin );
             level.var_288dc330 stoploopsound();
             return;
         }
@@ -785,7 +785,7 @@ function function_5a8a4082()
     self clientfield::set_to_player( "" + #"hash_1aa1c7790dc67d1e", 1 );
     self clientfield::set_to_player( "" + #"hash_4ec2b359458774e4", 0 );
     level.var_57808c93 setvisibletoplayer( self );
-    level.var_57808c93 playloopsound( #"hash_3129e04ec52b7ef2" );
+    level.var_57808c93 playloopsound( #"zmb_gems_loop" );
     self thread zm_audio::create_and_play_dialog( #"success_resp", #"generic" );
 }
 
@@ -827,7 +827,7 @@ function function_139dd88c()
         {
             level.var_57808c93 setinvisibletoplayer( e_player );
             e_player flag::set( #"hash_59f3be0494c4801f" );
-            playsoundatposition( #"hash_7cfaf85826852b1f", level.var_57808c93.origin );
+            playsoundatposition( #"zmb_gem_pickup", level.var_57808c93.origin );
             level.var_57808c93 stoploopsound();
             return;
         }
@@ -853,10 +853,10 @@ function fan_trap_think()
     
     self.var_27738b05 = 0;
     self flag::wait_till( #"hash_7e372a60b99a89e0" );
-    self clientfield::set_to_player( "" + #"hash_61ed2f45564d54f9", 1 );
-    self clientfield::set_to_player( "" + #"hash_4724376be4e925a3", 0 );
+    self clientfield::set_to_player( "" + #"explode_blue_rock", 1 );
+    self clientfield::set_to_player( "" + #"place_blue_rock", 0 );
     level.var_dc120ff3 setvisibletoplayer( self );
-    level.var_dc120ff3 playloopsound( #"hash_3129e04ec52b7ef2" );
+    level.var_dc120ff3 playloopsound( #"zmb_gems_loop" );
     self thread zm_audio::create_and_play_dialog( #"success_resp", #"generic" );
 }
 
@@ -892,13 +892,13 @@ function function_34759490( e_player )
         
         if ( e_player flag::get( #"hash_7317dfbae4fa0df5" ) && !e_player flag::get( #"hash_7e372a60b99a89e0" ) )
         {
-            e_player clientfield::set_to_player( "" + #"hash_4724376be4e925a3", 1 );
+            e_player clientfield::set_to_player( "" + #"place_blue_rock", 1 );
         }
         else if ( e_player flag::get( #"hash_7e372a60b99a89e0" ) && !e_player flag::get( #"hash_29001ce64677a5cf" ) )
         {
             level.var_dc120ff3 setinvisibletoplayer( e_player );
             e_player flag::set( #"hash_29001ce64677a5cf" );
-            playsoundatposition( #"hash_7cfaf85826852b1f", level.var_dc120ff3.origin );
+            playsoundatposition( #"zmb_gem_pickup", level.var_dc120ff3.origin );
             level.var_dc120ff3 stoploopsound();
             return;
         }
@@ -917,11 +917,11 @@ function function_d291665f()
     
     while ( !self flag::get( #"hash_1213756b45a941f0" ) )
     {
-        waitresult = level waittill( #"hash_148b3ce521088846", #"hash_317f58ba0d580c27", #"hash_528d7b7f7d6c51a1" );
+        waitresult = level waittill( #"spin_trap_kill", #"acid_trap_kill", #"fan_trap_kill" );
         
         switch ( waitresult._notify )
         {
-            case #"hash_148b3ce521088846":
+            case #"spin_trap_kill":
                 if ( isdefined( self.var_8d32f494 ) )
                 {
                     self.var_8d32f494++;
@@ -938,7 +938,7 @@ function function_d291665f()
                 }
                 
                 break;
-            case #"hash_317f58ba0d580c27":
+            case #"acid_trap_kill":
                 if ( isdefined( self.var_78b705d8 ) )
                 {
                     self.var_78b705d8++;
@@ -955,7 +955,7 @@ function function_d291665f()
                 }
                 
                 break;
-            case #"hash_528d7b7f7d6c51a1":
+            case #"fan_trap_kill":
                 if ( isdefined( self.var_27738b05 ) )
                 {
                     self.var_27738b05++;
@@ -1049,7 +1049,7 @@ function function_ca9bfe21( a_ents, e_player )
     self waittill( #"scene_done" );
     e_nugget.s_unitrigger_stub = e_nugget zm_unitrigger::function_fac87205( &function_45c5ebfb, 64 );
     e_player flag::set( #"hash_21827937692e2aba" );
-    playsoundatposition( #"hash_7cfaf85826852b1f", e_nugget.origin );
+    playsoundatposition( #"zmb_gem_pickup", e_nugget.origin );
     e_nugget delete();
 }
 
@@ -1123,7 +1123,7 @@ function function_858b2d2f()
                 mdl_piece setvisibletoplayer( e_player );
             }
             
-            playsoundatposition( #"hash_35c5e590e88c66e9", e_player.origin );
+            playsoundatposition( #"zmb_gems_drop", e_player.origin );
             
             if ( e_player hasweapon( getweapon( #"spork_alcatraz" ) ) )
             {
@@ -1152,13 +1152,13 @@ function function_858b2d2f()
             
             level waittill( #"smelter_show" );
             level.var_8e667d9c setvisibletoplayer( e_player );
-            playsoundatposition( #"hash_7e581306db035797", level.var_8e667d9c.origin );
+            playsoundatposition( #"zmb_spknifeork_appear", level.var_8e667d9c.origin );
             e_player flag::set( #"hash_3043d41614094af2" );
         }
         else if ( !e_player flag::get( #"hash_f3f31bee1b786f2" ) && e_player flag::get( #"hash_3043d41614094af2" ) )
         {
             level.var_8e667d9c setinvisibletoplayer( e_player );
-            playsoundatposition( #"hash_5077c643bb3c5f9e", level.var_8e667d9c.origin );
+            playsoundatposition( #"zmb_spknifeork_pickup", level.var_8e667d9c.origin );
             
             if ( isdefined( e_player.var_1c4683c4 ) && e_player hasweapon( e_player.var_1c4683c4 ) )
             {

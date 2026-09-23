@@ -1,5 +1,5 @@
 {
-    "name": "#hash_66f337c5153aa289",
+    "name": "#dlog_event_graphics_options",
     "ddlDef": "#gamedata/ddl/generated/dlog_event_graphics_options.ddl",
     "unk18": 0,
     "unk19": 1,
@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -71,7 +71,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -101,12 +101,12 @@
         },
         {
             "name": "#auto_detect_has_run",
-            "scrName": "#hash_ef78241d",
+            "scrName": "#auto_detect_has_run",
             "type": "BOOL"
         },
         {
             "name": "#mouse_ads_pitch_ads_multiplier",
-            "scrName": "#hash_c366d2e8",
+            "scrName": "#mouse_ads_pitch_ads_multiplier",
             "type": "FLOAT"
         },
         {
@@ -121,7 +121,7 @@
         },
         {
             "name": "#mouse_ads_pitch_ads_multiplier_high_zoom",
-            "scrName": "#hash_b04e1958",
+            "scrName": "#mouse_ads_pitch_ads_multiplier_high_zoom",
             "type": "FLOAT"
         },
         {
@@ -131,12 +131,12 @@
         },
         {
             "name": "#mouse_ads_yaw_ads_multiplier_high_zoom",
-            "scrName": "#hash_16261fb6",
+            "scrName": "#mouse_ads_yaw_ads_multiplier_high_zoom",
             "type": "FLOAT"
         },
         {
             "name": "#voice_output_device",
-            "scrName": "#hash_7522a48d",
+            "scrName": "#voice_output_device",
             "type": "STRING",
             "len": 64
         },
@@ -158,12 +158,12 @@
         },
         {
             "name": "#mouse_vertical_sensitivity",
-            "scrName": "#hash_74d4f922",
+            "scrName": "#mouse_vertical_sensitivity",
             "type": "FLOAT"
         },
         {
             "name": "#auto_config",
-            "scrName": "#hash_4e92fd6d",
+            "scrName": "#auto_config",
             "type": "BOOL"
         },
         {
@@ -178,7 +178,7 @@
         },
         {
             "name": "#local_ambient_lighting",
-            "scrName": "#hash_8d1ff5e2",
+            "scrName": "#local_ambient_lighting",
             "type": "BOOL"
         },
         {
@@ -284,7 +284,7 @@
         },
         {
             "name": "#mouse_ads_sensitivity_fully_scoped",
-            "scrName": "#hash_94720287",
+            "scrName": "#mouse_ads_sensitivity_fully_scoped",
             "type": "BOOL"
         },
         {
@@ -294,7 +294,7 @@
         },
         {
             "name": "#threaded_rendering",
-            "scrName": "#hash_34704f3d",
+            "scrName": "#threaded_rendering",
             "type": "BOOL"
         },
         {
@@ -364,7 +364,7 @@
         },
         {
             "name": "#mouse_ads_yaw_ads_multiplier",
-            "scrName": "#hash_8f8b6d53",
+            "scrName": "#mouse_ads_yaw_ads_multiplier",
             "type": "FLOAT"
         },
         {
@@ -394,17 +394,17 @@
         },
         {
             "name": "#spot_shadow_texture_size",
-            "scrName": "#hash_6bc6546b",
+            "scrName": "#spot_shadow_texture_size",
             "type": "INT32"
         },
         {
             "name": "#texture_quality_probes",
-            "scrName": "#hash_f82c6e4d",
+            "scrName": "#texture_quality_probes",
             "type": "INT32"
         },
         {
             "name": "#texture_quality_fx",
-            "scrName": "#hash_7bd4c4a6",
+            "scrName": "#texture_quality_fx",
             "type": "INT32"
         },
         {
@@ -454,7 +454,7 @@
         },
         {
             "name": "#texture_quality_baked_sun_shadows",
-            "scrName": "#hash_314d0c8d",
+            "scrName": "#texture_quality_baked_sun_shadows",
             "type": "INT32"
         },
         {
@@ -529,7 +529,7 @@
         },
         {
             "name": "#omni_shadow_texture_size",
-            "scrName": "#hash_e1fced9a",
+            "scrName": "#omni_shadow_texture_size",
             "type": "INT32"
         },
         {

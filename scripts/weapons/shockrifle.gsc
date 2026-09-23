@@ -169,7 +169,7 @@ function function_aa6e2f52( watcher, owner )
     }
     
     playfxontag( "weapon/fx8_hero_sig_shockrifle_spike_active", self, "tag_fx" );
-    wait isdefined( level.var_a5ff950.var_aded392d ) ? level.var_a5ff950.var_aded392d : 0;
+    wait isdefined( level.var_a5ff950.shockdelay ) ? level.var_a5ff950.shockdelay : 0;
     
     if ( isdefined( waitresult.hitent ) && isdefined( owner ) && util::function_fbce7263( waitresult.hitent.team, owner.team ) )
     {
@@ -225,7 +225,7 @@ function function_5fff8c45( watcher, hitent )
     up = anglestoup( self.angles );
     traceorigin = self.origin + up;
     
-    while ( self.var_7471e7b7 < level.var_a5ff950.var_1fb6bd43 )
+    while ( self.var_7471e7b7 < level.var_a5ff950.submunitioncharges )
     {
         waitresult = damagearea waittill( #"trigger" );
         ent = waitresult.activator;
@@ -432,7 +432,7 @@ function function_c80bac1f( shockcharge, var_51415470, shockduration )
     }
     
     shocked_hands = getweapon( #"shocked_hands" );
-    var_cb36e12 = getweapon( #"hash_19abd3767bd1566d" );
+    var_cb36e12 = getweapon( #"force_crawl_hands" );
     self giveweapon( shocked_hands );
     self switchtoweaponimmediate( shocked_hands, 1 );
     prevstance = self getstance();
@@ -457,7 +457,7 @@ function function_c80bac1f( shockcharge, var_51415470, shockduration )
     {
         if ( var_51415470 )
         {
-            scoreevents::processscoreevent( #"hash_6f0ec202863eacd", owner, self, level.shockrifleweapon );
+            scoreevents::processscoreevent( #"tempest_paralyzed_enemy", owner, self, level.shockrifleweapon );
         }
         else
         {
@@ -474,7 +474,7 @@ function function_c80bac1f( shockcharge, var_51415470, shockduration )
     
     self.var_beee9523 = 0;
     self function_3474c820();
-    playsoundatposition( #"hash_f2b6a97233cbeb2", self.origin );
+    playsoundatposition( #"wpn_shockrifle_electrocution_end", self.origin );
     
     if ( isplayer( self ) )
     {
@@ -601,7 +601,7 @@ function function_7ce0a335( attacker, weapon, target )
     }
     
     self.detonating = 1;
-    playfx( #"hash_788f36f3ae067065", self.origin );
+    playfx( #"weapon/fx8_hero_sig_shockrifle_spike_exp", self.origin );
     self ghost();
     self notsolid();
     self stoploopsound( 0.5 );

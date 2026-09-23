@@ -1,5 +1,5 @@
 mp_slums2.fr
-hash_45196b0583686cc7
+mp_slums2_fr_stream
 hash_1419c9849628538e
 hash_69334c57247cc4d1
 hash_11f0d52d6248e72c

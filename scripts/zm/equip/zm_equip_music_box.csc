@@ -21,7 +21,7 @@ function __init__()
 {
     clientfield::register( "scriptmover", "" + #"music_box_light_fx", 24000, 1, "int", &music_box_light_fx, 0, 0 );
     clientfield::register( "scriptmover", "" + #"music_box_teleport", 1, 1, "int", &music_box_teleport, 0, 0 );
-    clientfield::register( "actor", "" + #"hash_4881cb6bc59fdc49", 24000, 1, "int", &function_e722a4fd, 0, 0 );
+    clientfield::register( "actor", "" + #"music_box_zombie_flame_trail_fx", 24000, 1, "int", &music_box_zombie_flame_trail_fx, 0, 0 );
 }
 
 // Namespace music_box/zm_equip_music_box
@@ -38,8 +38,8 @@ function function_3224694( localclientnum, oldval, newval, bnewent, binitialsnap
             
             if ( !isdefined( self.var_30b8668 ) )
             {
-                self playsound( localclientnum, #"hash_1780eaf4c052b271" );
-                self.var_30b8668 = self playloopsound( #"hash_13b5daba3191a299" );
+                self playsound( localclientnum, #"wpn_musicbox_portal_open" );
+                self.var_30b8668 = self playloopsound( #"wpn_musicbox_portal_lp" );
             }
             
             return;
@@ -55,7 +55,7 @@ function function_3224694( localclientnum, oldval, newval, bnewent, binitialsnap
             
             if ( isdefined( self.var_30b8668 ) )
             {
-                self playsound( localclientnum, #"hash_63bbef4e60ff503b" );
+                self playsound( localclientnum, #"wpn_musicbox_portal_close" );
                 self stoploopsound( self.var_30b8668 );
                 self.var_30b8668 = undefined;
             }
@@ -115,7 +115,7 @@ function music_box_teleport( localclientnum, oldval, newval, bnewent, binitialsn
         if ( isdefined( self ) )
         {
             playfx( localclientnum, "maps/zm_white/fx8_monkey_bomb_reveal", self.origin, v_forward, v_up );
-            self playsound( localclientnum, #"hash_21206f1b7fb27f81" );
+            self playsound( localclientnum, #"wpn_homunculus_spawn_explo" );
         }
     }
 }
@@ -124,7 +124,7 @@ function music_box_teleport( localclientnum, oldval, newval, bnewent, binitialsn
 // Params 7
 // Checksum 0xe1c370d, Offset: 0x698
 // Size: 0xbe
-function function_e722a4fd( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function music_box_zombie_flame_trail_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( isdefined( self ) )
     {

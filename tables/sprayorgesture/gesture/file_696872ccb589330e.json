@@ -1,12 +1,12 @@
 {
-    "name": "#hash_696872ccb589330e",
+    "name": "#loot_emote_exotic_shared_heartattack",
     "type": "#gesture",
-    "gesture": "#hash_4cf4b39a11c4877d",
-    "gesture2": "#hash_1f21b2750e203c16",
+    "gesture": "#boast_heartattack",
+    "gesture2": "#boast_heartattack_fem",
     "sub": [
         {
-            "gesture": "#hash_5c9aca75312f2b6d",
-            "gesture2": "#hash_6d6d045448c4d2e6",
+            "gesture": "#boast_heartattack_alt",
+            "gesture2": "#boast_heartattack_alt_fem",
             "roles": [
                 "#prt_mp_firebreak",
                 "#prt_wz_firebreak",
@@ -17,18 +17,18 @@
                 "#prt_wz_soldier_land_male",
                 "#prt_wz_soldier_sea_male",
                 "#prt_wz_soldier_seal_female",
-                "#hash_76ccdd2bfc985ae8",
+                "#prt_wz_reaper_bo3",
                 "#prt_wz_spectre",
                 "#prt_mp_spectre",
                 "#prt_mp_reaper",
-                "#hash_76cce42bfc9866cd"
+                "#prt_wz_reaper_bo4"
             ]
         }
     ],
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_7873bfca75e799a3",
-        "icon": "image#hash_198ed1985ad6af49",
+        "icon": "image#ui_icon_emotes_s3_heartattack",
         "isdefault": 0
     }
 }

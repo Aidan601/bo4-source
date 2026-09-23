@@ -51,27 +51,27 @@
                 ],
                 "destinationLabelList": [
                     {
-                        "displayname": "localized17#hash_2ed1ab161f59fd14",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_array",
                         "targetname": "map_dest_array"
                     },
                     {
-                        "displayname": "localized17#hash_20c52f2113f5efac",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_asylum",
                         "targetname": "map_dest_asylum"
                     },
                     {
-                        "displayname": "localized17#hash_229e2dccd52df66f",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_dam",
                         "targetname": "map_dest_dam"
                     },
                     {
-                        "displayname": "localized17#hash_57c3886fc10863d8",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_dockyard",
                         "targetname": "map_dest_dockyard"
                     },
                     {
-                        "displayname": "localized17#hash_38af2dcd256ec5e8",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_estates",
                         "targetname": "map_dest_estates"
                     },
                     {
-                        "displayname": "localized17#hash_4d12073f1b8752d3",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_factory",
                         "targetname": "map_dest_factory"
                     },
                     {
@@ -79,46 +79,46 @@
                         "targetname": "map_dest_firing_range"
                     },
                     {
-                        "displayname": "localized17#hash_2d331fe38cfbb43c",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_fracking",
                         "targetname": "map_dest_fracking"
                     },
                     {
-                        "displayname": "localized17#hash_5953a65ed24e9fd2",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_skyscraper",
                         "targetname": "map_dest_skyscraper"
                     },
                     {
-                        "displayname": "localized17#hash_6f5c6daff2aeaa6a",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_nuketown",
                         "targetname": "map_dest_nuketown"
                     },
                     {
-                        "displayname": "localized17#hash_1a74a1865b75e953",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_town",
                         "targetname": "map_dest_town"
                     },
                     {
-                        "displayname": "localized17#hash_3313903f16a2a47c",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_train_station",
                         "targetname": "map_dest_train_station"
                     },
                     {
-                        "displayname": "localized17#hash_3a5c3d0bebe534de",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_wind_farm",
                         "targetname": "map_dest_wind_farm"
                     },
                     {
-                        "displayname": "localized17#hash_4e2788ef8257f8b7",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_lighthouse",
                         "targetname": "map_dest_lighthouse"
                     },
                     {
-                        "displayname": "localized17#hash_69fbda3c81d226ee",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_hijacked",
                         "targetname": "map_dest_hijacked"
                     },
                     {
-                        "displayname": "localized17#hash_5b39e262a5ec4163",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_ghost_town",
                         "targetname": "map_dest_ghost_town"
                     }
                 ],
                 "hash_5154c514171fee9:hash_31b0159a": 0,
                 "hash_d126b224d84608c:hash_5c4df0a8": 0,
                 "fadetowhite": 0,
-                "hash_fa00800acb8fee0:hash_8856c581": 0,
+                "axisnumobjzones": 0,
                 "hash_14846b829c224aa0:hash_bf53c95d": 1,
                 "hash_14846c829c224c53:hash_a61b96ed": 1,
                 "hash_14846d829c224e06:hash_262216f8": 1,
@@ -127,9 +127,9 @@
                 "hash_148472829c225685:hash_70ccac4c": 1,
                 "hash_148477829c225f04:hash_8a405f33": 1,
                 "hash_148478829c2260b7:hash_8d0664bf": 1,
-                "hash_18000c12d08de02d:hash_cc72c7d": 0,
+                "axisnumenemyobj": 0,
                 "hash_19272d0e220cfafa:hash_9a71216a": 0,
-                "hash_207d09b4506a0228:hash_55a0d3ca": 0,
+                "alliesnumenemyobj": 0,
                 "hash_2eb06d82ab02adc6:hash_6d17b79f": 1,
                 "hash_2eb06e82ab02af79:hash_3b00d36a": 1,
                 "hash_2eb07382ab02b7f8:hash_7a66cae": 1,
@@ -148,7 +148,7 @@
                 "hash_34d30fdb194b48dd:hash_17181ee1": 0,
                 "cast": "#story1",
                 "hash_37eea154a1d4f3c1:hash_4943e31b": 0,
-                "hash_3a3627d705b66cde:hash_eb04b9dd": 0,
+                "storyloadouttype": 0,
                 "hash_3b4820db1c538400:hash_15314f4b": 0,
                 "hash_3b4821db1c5385b3:hash_219be820": 0,
                 "hash_3b4824db1c538acc:hash_369c121c": 0,
@@ -159,7 +159,7 @@
                 "hash_3b482bdb1c5396b1:hash_6a4a7978": 0,
                 "missiontype": "none",
                 "hash_4b1b381de2adc014:hash_b44c5352": 0,
-                "hash_5c5d20a59c404b3d:hash_9cb1cc96": 0,
+                "alliesnumobjzones": 0,
                 "showaar": 0,
                 "hash_63c3c4a322dd1a2e:hash_7af7ecdb": "load_wz_common",
                 "hash_64d5e4ca4ac8afeb:hash_848712cc": 0,
@@ -228,27 +228,27 @@
                 ],
                 "destinationLabelList": [
                     {
-                        "displayname": "localized17#hash_2ed1ab161f59fd14",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_array",
                         "targetname": "map_dest_array"
                     },
                     {
-                        "displayname": "localized17#hash_20c52f2113f5efac",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_asylum",
                         "targetname": "map_dest_asylum"
                     },
                     {
-                        "displayname": "localized17#hash_229e2dccd52df66f",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_dam",
                         "targetname": "map_dest_dam"
                     },
                     {
-                        "displayname": "localized17#hash_57c3886fc10863d8",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_dockyard",
                         "targetname": "map_dest_dockyard"
                     },
                     {
-                        "displayname": "localized17#hash_38af2dcd256ec5e8",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_estates",
                         "targetname": "map_dest_estates"
                     },
                     {
-                        "displayname": "localized17#hash_4d12073f1b8752d3",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_factory",
                         "targetname": "map_dest_factory"
                     },
                     {
@@ -256,46 +256,46 @@
                         "targetname": "map_dest_firing_range"
                     },
                     {
-                        "displayname": "localized17#hash_2d331fe38cfbb43c",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_fracking",
                         "targetname": "map_dest_fracking"
                     },
                     {
-                        "displayname": "localized17#hash_5953a65ed24e9fd2",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_skyscraper",
                         "targetname": "map_dest_skyscraper"
                     },
                     {
-                        "displayname": "localized17#hash_6f5c6daff2aeaa6a",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_nuketown",
                         "targetname": "map_dest_nuketown"
                     },
                     {
-                        "displayname": "localized17#hash_1a74a1865b75e953",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_town",
                         "targetname": "map_dest_town"
                     },
                     {
-                        "displayname": "localized17#hash_3313903f16a2a47c",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_train_station",
                         "targetname": "map_dest_train_station"
                     },
                     {
-                        "displayname": "localized17#hash_3a5c3d0bebe534de",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_wind_farm",
                         "targetname": "map_dest_wind_farm"
                     },
                     {
-                        "displayname": "localized17#hash_4e2788ef8257f8b7",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_lighthouse",
                         "targetname": "map_dest_lighthouse"
                     },
                     {
-                        "displayname": "localized17#hash_69fbda3c81d226ee",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_hijacked",
                         "targetname": "map_dest_hijacked"
                     },
                     {
-                        "displayname": "localized17#hash_5b39e262a5ec4163",
+                        "displayname": "localized17#wz_open_skyscrapers/map_dest_ghost_town",
                         "targetname": "map_dest_ghost_town"
                     }
                 ],
                 "hash_5154c514171fee9:hash_31b0159a": 0,
                 "hash_d126b224d84608c:hash_5c4df0a8": 0,
                 "fadetowhite": 0,
-                "hash_fa00800acb8fee0:hash_8856c581": 0,
+                "axisnumobjzones": 0,
                 "hash_14846b829c224aa0:hash_bf53c95d": 1,
                 "hash_14846c829c224c53:hash_a61b96ed": 1,
                 "hash_14846d829c224e06:hash_262216f8": 1,
@@ -304,9 +304,9 @@
                 "hash_148472829c225685:hash_70ccac4c": 1,
                 "hash_148477829c225f04:hash_8a405f33": 1,
                 "hash_148478829c2260b7:hash_8d0664bf": 1,
-                "hash_18000c12d08de02d:hash_cc72c7d": 0,
+                "axisnumenemyobj": 0,
                 "hash_19272d0e220cfafa:hash_9a71216a": 0,
-                "hash_207d09b4506a0228:hash_55a0d3ca": 0,
+                "alliesnumenemyobj": 0,
                 "hash_2eb06d82ab02adc6:hash_6d17b79f": 1,
                 "hash_2eb06e82ab02af79:hash_3b00d36a": 1,
                 "hash_2eb07382ab02b7f8:hash_7a66cae": 1,
@@ -325,7 +325,7 @@
                 "hash_34d30fdb194b48dd:hash_17181ee1": 0,
                 "cast": "#story1",
                 "hash_37eea154a1d4f3c1:hash_4943e31b": 0,
-                "hash_3a3627d705b66cde:hash_eb04b9dd": 0,
+                "storyloadouttype": 0,
                 "hash_3b4820db1c538400:hash_15314f4b": 0,
                 "hash_3b4821db1c5385b3:hash_219be820": 0,
                 "hash_3b4824db1c538acc:hash_369c121c": 0,
@@ -336,7 +336,7 @@
                 "hash_3b482bdb1c5396b1:hash_6a4a7978": 0,
                 "missiontype": "none",
                 "hash_4b1b381de2adc014:hash_b44c5352": 0,
-                "hash_5c5d20a59c404b3d:hash_9cb1cc96": 0,
+                "alliesnumobjzones": 0,
                 "showaar": 0,
                 "hash_63c3c4a322dd1a2e:hash_7af7ecdb": "load_wz_common",
                 "hash_64d5e4ca4ac8afeb:hash_848712cc": 0,
@@ -378,54 +378,54 @@
                 ],
                 "destinationLabelList": [
                     {
-                        "displayname": "localized17#hash_645483dbca61e087",
+                        "displayname": "localized17#wz_escape/map_dest_cellhouse",
                         "targetname": "map_dest_cellhouse"
                     },
                     {
-                        "displayname": "localized17#hash_50fd111f7725f087",
+                        "displayname": "localized17#wz_escape/map_dest_docks",
                         "targetname": "map_dest_docks"
                     },
                     {
-                        "displayname": "localized17#hash_ecbc81163c4443",
+                        "displayname": "localized17#wz_escape/map_dest_industries",
                         "targetname": "map_dest_industries"
                     },
                     {
-                        "displayname": "localized17#hash_6b8368287e48fb",
+                        "displayname": "localized17#wz_escape/map_dest_parade_grounds",
                         "targetname": "map_dest_parade_grounds"
                     },
                     {
-                        "displayname": "localized17#hash_739752ad8689c4ea",
+                        "displayname": "localized17#wz_escape/map_dest_powerhouse",
                         "targetname": "map_dest_powerhouse"
                     },
                     {
-                        "displayname": "localized17#hash_7daa625ac74f9b1d",
+                        "displayname": "localized17#wz_escape/map_dest_model_industries",
                         "targetname": "map_dest_model_industries"
                     },
                     {
-                        "displayname": "localized17#hash_69eb7e1dbd619340",
+                        "displayname": "localized17#wz_escape/map_dest_ruins",
                         "targetname": "map_dest_ruins"
                     },
                     {
-                        "displayname": "localized17#hash_59975174f62226f7",
+                        "displayname": "localized17#wz_escape/map_dest_officers_club",
                         "targetname": "map_dest_officers_club"
                     },
                     {
-                        "displayname": "localized17#hash_1bf28ecee015411a",
+                        "displayname": "localized17#wz_escape/map_dest_wardens_house",
                         "targetname": "map_dest_wardens_house"
                     },
                     {
-                        "displayname": "localized17#hash_285b23654d326c03",
+                        "displayname": "localized17#wz_escape/map_dest_shipwreck",
                         "targetname": "map_dest_shipwreck"
                     },
                     {
-                        "displayname": "localized17#hash_6e7f2c7454e1f483",
+                        "displayname": "localized17#wz_escape/map_dest_submarine",
                         "targetname": "map_dest_submarine"
                     }
                 ],
                 "hash_5154c514171fee9:hash_31b0159a": 0,
                 "hash_d126b224d84608c:hash_5c4df0a8": 0,
                 "fadetowhite": 0,
-                "hash_fa00800acb8fee0:hash_8856c581": 0,
+                "axisnumobjzones": 0,
                 "hash_14846b829c224aa0:hash_bf53c95d": 1,
                 "hash_14846c829c224c53:hash_a61b96ed": 1,
                 "hash_14846d829c224e06:hash_262216f8": 1,
@@ -434,9 +434,9 @@
                 "hash_148472829c225685:hash_70ccac4c": 1,
                 "hash_148477829c225f04:hash_8a405f33": 1,
                 "hash_148478829c2260b7:hash_8d0664bf": 1,
-                "hash_18000c12d08de02d:hash_cc72c7d": 0,
+                "axisnumenemyobj": 0,
                 "hash_19272d0e220cfafa:hash_9a71216a": 0,
-                "hash_207d09b4506a0228:hash_55a0d3ca": 0,
+                "alliesnumenemyobj": 0,
                 "hash_2eb06d82ab02adc6:hash_6d17b79f": 1,
                 "hash_2eb06e82ab02af79:hash_3b00d36a": 1,
                 "hash_2eb07382ab02b7f8:hash_7a66cae": 1,
@@ -455,7 +455,7 @@
                 "hash_34d30fdb194b48dd:hash_17181ee1": 0,
                 "cast": "#story1",
                 "hash_37eea154a1d4f3c1:hash_4943e31b": 0,
-                "hash_3a3627d705b66cde:hash_eb04b9dd": 0,
+                "storyloadouttype": 0,
                 "hash_3b4820db1c538400:hash_15314f4b": 0,
                 "hash_3b4821db1c5385b3:hash_219be820": 0,
                 "hash_3b4824db1c538acc:hash_369c121c": 0,
@@ -466,7 +466,7 @@
                 "hash_3b482bdb1c5396b1:hash_6a4a7978": 0,
                 "missiontype": "none",
                 "hash_4b1b381de2adc014:hash_b44c5352": 0,
-                "hash_5c5d20a59c404b3d:hash_9cb1cc96": 0,
+                "alliesnumobjzones": 0,
                 "showaar": 0,
                 "hash_63c3c4a322dd1a2e:hash_7af7ecdb": "load_wz_common",
                 "hash_64d5e4ca4ac8afeb:hash_848712cc": 0,
@@ -508,54 +508,54 @@
                 ],
                 "destinationLabelList": [
                     {
-                        "displayname": "localized17#hash_645483dbca61e087",
+                        "displayname": "localized17#wz_escape/map_dest_cellhouse",
                         "targetname": "map_dest_cellhouse"
                     },
                     {
-                        "displayname": "localized17#hash_50fd111f7725f087",
+                        "displayname": "localized17#wz_escape/map_dest_docks",
                         "targetname": "map_dest_docks"
                     },
                     {
-                        "displayname": "localized17#hash_ecbc81163c4443",
+                        "displayname": "localized17#wz_escape/map_dest_industries",
                         "targetname": "map_dest_industries"
                     },
                     {
-                        "displayname": "localized17#hash_6b8368287e48fb",
+                        "displayname": "localized17#wz_escape/map_dest_parade_grounds",
                         "targetname": "map_dest_parade_grounds"
                     },
                     {
-                        "displayname": "localized17#hash_739752ad8689c4ea",
+                        "displayname": "localized17#wz_escape/map_dest_powerhouse",
                         "targetname": "map_dest_powerhouse"
                     },
                     {
-                        "displayname": "localized17#hash_7daa625ac74f9b1d",
+                        "displayname": "localized17#wz_escape/map_dest_model_industries",
                         "targetname": "map_dest_model_industries"
                     },
                     {
-                        "displayname": "localized17#hash_69eb7e1dbd619340",
+                        "displayname": "localized17#wz_escape/map_dest_ruins",
                         "targetname": "map_dest_ruins"
                     },
                     {
-                        "displayname": "localized17#hash_59975174f62226f7",
+                        "displayname": "localized17#wz_escape/map_dest_officers_club",
                         "targetname": "map_dest_officers_club"
                     },
                     {
-                        "displayname": "localized17#hash_1bf28ecee015411a",
+                        "displayname": "localized17#wz_escape/map_dest_wardens_house",
                         "targetname": "map_dest_wardens_house"
                     },
                     {
-                        "displayname": "localized17#hash_285b23654d326c03",
+                        "displayname": "localized17#wz_escape/map_dest_shipwreck",
                         "targetname": "map_dest_shipwreck"
                     },
                     {
-                        "displayname": "localized17#hash_6e7f2c7454e1f483",
+                        "displayname": "localized17#wz_escape/map_dest_submarine",
                         "targetname": "map_dest_submarine"
                     }
                 ],
                 "hash_5154c514171fee9:hash_31b0159a": 0,
                 "hash_d126b224d84608c:hash_5c4df0a8": 0,
                 "fadetowhite": 0,
-                "hash_fa00800acb8fee0:hash_8856c581": 0,
+                "axisnumobjzones": 0,
                 "hash_14846b829c224aa0:hash_bf53c95d": 1,
                 "hash_14846c829c224c53:hash_a61b96ed": 1,
                 "hash_14846d829c224e06:hash_262216f8": 1,
@@ -564,9 +564,9 @@
                 "hash_148472829c225685:hash_70ccac4c": 1,
                 "hash_148477829c225f04:hash_8a405f33": 1,
                 "hash_148478829c2260b7:hash_8d0664bf": 1,
-                "hash_18000c12d08de02d:hash_cc72c7d": 0,
+                "axisnumenemyobj": 0,
                 "hash_19272d0e220cfafa:hash_9a71216a": 0,
-                "hash_207d09b4506a0228:hash_55a0d3ca": 0,
+                "alliesnumenemyobj": 0,
                 "hash_2eb06d82ab02adc6:hash_6d17b79f": 1,
                 "hash_2eb06e82ab02af79:hash_3b00d36a": 1,
                 "hash_2eb07382ab02b7f8:hash_7a66cae": 1,
@@ -585,7 +585,7 @@
                 "hash_34d30fdb194b48dd:hash_17181ee1": 0,
                 "cast": "#story1",
                 "hash_37eea154a1d4f3c1:hash_4943e31b": 0,
-                "hash_3a3627d705b66cde:hash_eb04b9dd": 0,
+                "storyloadouttype": 0,
                 "hash_3b4820db1c538400:hash_15314f4b": 0,
                 "hash_3b4821db1c5385b3:hash_219be820": 0,
                 "hash_3b4824db1c538acc:hash_369c121c": 0,
@@ -596,7 +596,7 @@
                 "hash_3b482bdb1c5396b1:hash_6a4a7978": 0,
                 "missiontype": "none",
                 "hash_4b1b381de2adc014:hash_b44c5352": 0,
-                "hash_5c5d20a59c404b3d:hash_9cb1cc96": 0,
+                "alliesnumobjzones": 0,
                 "showaar": 0,
                 "hash_63c3c4a322dd1a2e:hash_7af7ecdb": "load_wz_common",
                 "hash_64d5e4ca4ac8afeb:hash_848712cc": 0,
@@ -632,7 +632,7 @@
                 "hash_5154c514171fee9:hash_31b0159a": 0,
                 "hash_d126b224d84608c:hash_5c4df0a8": 0,
                 "fadetowhite": 0,
-                "hash_fa00800acb8fee0:hash_8856c581": 0,
+                "axisnumobjzones": 0,
                 "hash_14846b829c224aa0:hash_bf53c95d": 1,
                 "hash_14846c829c224c53:hash_a61b96ed": 1,
                 "hash_14846d829c224e06:hash_262216f8": 1,
@@ -641,9 +641,9 @@
                 "hash_148472829c225685:hash_70ccac4c": 1,
                 "hash_148477829c225f04:hash_8a405f33": 1,
                 "hash_148478829c2260b7:hash_8d0664bf": 1,
-                "hash_18000c12d08de02d:hash_cc72c7d": 0,
+                "axisnumenemyobj": 0,
                 "hash_19272d0e220cfafa:hash_9a71216a": 0,
-                "hash_207d09b4506a0228:hash_55a0d3ca": 0,
+                "alliesnumenemyobj": 0,
                 "hash_2eb06d82ab02adc6:hash_6d17b79f": 1,
                 "hash_2eb06e82ab02af79:hash_3b00d36a": 1,
                 "hash_2eb07382ab02b7f8:hash_7a66cae": 1,
@@ -663,7 +663,7 @@
                 "hash_34d30fdb194b48dd:hash_17181ee1": 0,
                 "cast": "#story1",
                 "hash_37eea154a1d4f3c1:hash_4943e31b": 0,
-                "hash_3a3627d705b66cde:hash_eb04b9dd": 0,
+                "storyloadouttype": 0,
                 "hash_3b4820db1c538400:hash_15314f4b": 0,
                 "hash_3b4821db1c5385b3:hash_219be820": 0,
                 "hash_3b4824db1c538acc:hash_369c121c": 0,
@@ -674,7 +674,7 @@
                 "hash_3b482bdb1c5396b1:hash_6a4a7978": 0,
                 "missiontype": "none",
                 "hash_4b1b381de2adc014:hash_b44c5352": 0,
-                "hash_5c5d20a59c404b3d:hash_9cb1cc96": 0,
+                "alliesnumobjzones": 0,
                 "showaar": 0,
                 "hash_64d5e4ca4ac8afeb:hash_848712cc": 0,
                 "oowheightmax": 0,

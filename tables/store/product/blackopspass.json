@@ -1,7 +1,7 @@
 {
     "name": "#blackopspass",
-    "productName": "#hash_5d103382b94326bf",
-    "productDesc": "#hash_15a18a17f7ee95c2",
+    "productName": "#store/product_season_pass_title",
+    "productDesc": "#store/product_season_pass_desc",
     "previewImage": "#ui_menu_store_product_b04_blops_pass_new_large",
     "productImage": "#ui_menu_store_product_b04_blops_pass_new_large",
     "blackMarketImage": "#t7_store_product_bo4",

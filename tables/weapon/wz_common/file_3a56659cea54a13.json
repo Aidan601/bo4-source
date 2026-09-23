@@ -1,5 +1,5 @@
 {
-    "name": "#hash_3a56659cea54a13",
+    "name": "#ammo_weapon_338_wz",
     "baseWeapon": "#hash_524112ffd84ad4a5",
     "displayname": "#hash_2f951a0817f78b9d",
     "soundbank": "#hash_24fc88d689591a9f",
@@ -27,10 +27,10 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound830": "#hash_5431c728cf567ad4",
-    "tunables1": "#hash_4b3f29bee2e03596",
+    "tunables1": "#ammo_weapon_338_tunables_wz",
     "worldModel": [
         "#p7_ammo_resupply_02_box"
     ]

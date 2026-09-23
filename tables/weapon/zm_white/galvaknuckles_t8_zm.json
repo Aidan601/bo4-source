@@ -50,5 +50,5 @@
     "fx_c88": "#weapon/fx_shellejects_pistol",
     "fx_c90": "#weapon/fx_shellejects_pistol",
     "fx_c98": "#weapon/fx_shellejects_pistol",
-    "normalImpactFX": "#hash_7dafc40ae5fd9e1e"
+    "normalImpactFX": "#melee_galvaknuckles_enter"
 }

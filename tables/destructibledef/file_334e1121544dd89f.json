@@ -1,7 +1,7 @@
 {
-    "name": "#hash_334e1121544dd89f",
-    "model": "#hash_690a906b19b6852b",
-    "unk20": "#hash_6f893343e77deb1f",
+    "name": "#destructible_veh_t8_civ_van_utility_tv_news",
+    "model": "#veh_t8_civ_van_utility_tv_news_dest",
+    "unk20": "#veh_t8_civ_van_utility_dead_tv_news",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [
@@ -14,11 +14,11 @@
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_94b5f3bad73031",
+                    "name": "#dst_car_fire_frnt",
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_5eb690639ce50eba",
+                    "name": "#dst_car_fire",
                     "unk28": "tag_body_d0"
                 },
                 {

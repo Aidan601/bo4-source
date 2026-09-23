@@ -29,7 +29,7 @@ version 1 {
     // idx 0 members 3
     enum hash_5a1a6feae655a2fa {
         hash_47fba947fb3dd638, // 0x0,
-        hash_5fe815c098116dc5, // 0x1,
+        eid_invalid, // 0x1,
         hash_6946fd6149126560, // 0x2
     };
 

@@ -1,7 +1,7 @@
 {
-    "detailsicon": "image#hash_7b7b63906d4c0edc",
-    "shopicon": "image#hash_2275c3fe3954c5a7",
-    "nametext": "localized17#hash_32dc94fba031bc78",
+    "detailsicon": "image#loot07_ui_icon_blackmarket_itemdetail_ar_modular_mk2",
+    "shopicon": "image#loot07_ui_icon_blackmarket_itemshop_ar_modular_mk2",
+    "nametext": "localized17#weapon/ar_modular_t8_mk2",
     "name": "ar_modular_mk2_sunset_bundle_shop",
     "desctext": "localized17#hash_2425540c4351c45a"
 }

@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_grapple_gun_multikill_x2_summary",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_3dfe535fd2c8f01d",
+    "iconsmall": "image#ui_icon_medal_cominginhot",
     "stringref": "localized17#hash_10d6cf489450cb46",
     "iconlarge": "image#ui_icon_medal_cominginhot_large"
 }

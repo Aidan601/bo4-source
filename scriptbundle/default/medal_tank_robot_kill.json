@@ -5,6 +5,6 @@
     "name": "medal_tank_robot_kill",
     "backinglarge": "image#$whitetransparent",
     "iconsmall": "image#ui_icon_medal_mantis_kill",
-    "stringref": "localized17#hash_d745e530f9ad21f",
+    "stringref": "localized17#medal/tank_robot_kill",
     "iconlarge": "image#ui_icon_medal_mantis_kill_large"
 }

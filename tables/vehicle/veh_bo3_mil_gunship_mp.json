@@ -35,35 +35,35 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5e774929c0bba30e",
+                        "displaystring": "localized17#menu/hud_vehicle_switch_camera",
                         "buttondirection": "left",
                         "prompt": "+gostand"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_4c7d903a026627fc",
+                        "displaystring": "localized17#menu/hud_vehicle_exit",
                         "buttondirection": "left",
                         "prompt": "+activate"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5f6588c74f549827",
+                        "displaystring": "localized17#menu/hud_vehicle_fire_machine_gun",
                         "buttondirection": "left",
                         "prompt": "+vehicleattack"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_64d22aa20ae809f",
+                        "displaystring": "localized17#menu/hud_vehicle_zoom",
                         "buttondirection": "left",
                         "prompt": "+speed_throw"
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VHUD_MS_Gunner",
@@ -73,55 +73,55 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5e774929c0bba30e",
+                        "displaystring": "localized17#menu/hud_vehicle_switch_camera",
                         "buttondirection": "left",
                         "prompt": "+gostand"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_4c7d903a026627fc",
+                        "displaystring": "localized17#menu/hud_vehicle_exit",
                         "buttondirection": "left",
                         "prompt": "+activate"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_7eb83df88eccff19",
+                        "displaystring": "localized17#menu/hud_vehicle_move",
                         "buttondirection": "left",
                         "prompt": "+smoke"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5f6588c74f549827",
+                        "displaystring": "localized17#menu/hud_vehicle_fire_machine_gun",
                         "buttondirection": "left",
                         "prompt": "+vehicleattack"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_1a14ac950dd062ca",
+                        "displaystring": "localized17#menu/hud_vehicle_fire_rockets",
                         "buttondirection": "left",
                         "prompt": "+vehicleattacksecond"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_64d22aa20ae809f",
+                        "displaystring": "localized17#menu/hud_vehicle_zoom",
                         "buttondirection": "left",
                         "prompt": "+speed_throw"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
                         "buttondirection": "left",
                         "prompt": "+attack"
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VHUD_MS",
@@ -130,6 +130,6 @@
             }
         ],
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

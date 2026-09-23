@@ -111,9 +111,9 @@ function function_da600615( bot )
 // Params 2
 // Checksum 0xc8866853, Offset: 0xa60
 // Size: 0x3c
-function function_b5b6ef3e( func, obj )
+function on_init_killstreaks( func, obj )
 {
-    callback::add_callback( #"hash_45f35669076bc317", func, obj );
+    callback::add_callback( #"on_init_killstreaks", func, obj );
 }
 
 // Namespace killstreaks/killstreaks_shared
@@ -263,7 +263,7 @@ function private function_656f23d5( killstreaktype )
 function private function_e48aca4d( type, bundle, weapon, vehicle, killstreak_use_function, isinventoryweapon )
 {
     killstreak_init( type );
-    menukey = bundle.var_a99ef6da;
+    menukey = bundle.ksmenukey;
     
     if ( !isdefined( menukey ) )
     {
@@ -295,7 +295,7 @@ function private function_e48aca4d( type, bundle, weapon, vehicle, killstreak_us
         register_vehicle( type, vehicle );
     }
     
-    function_7e46eaea( type, bundle.var_b45be9e6, bundle.var_502a0e23, bundle.var_667c638e, bundle.var_a56710c6, bundle.var_bc2f6af9, bundle.var_6417048f, isdefined( bundle.var_65d707d0 ) ? bundle.var_65d707d0 : 0, isdefined( bundle.var_a9b0c301 ) ? bundle.var_a9b0c301 : 0 );
+    function_7e46eaea( type, bundle.var_b45be9e6, bundle.var_502a0e23, bundle.var_667c638e, bundle.var_a56710c6, bundle.var_bc2f6af9, bundle.var_6417048f, isdefined( bundle.ksutilizesairspace ) ? bundle.ksutilizesairspace : 0, isdefined( bundle.var_a9b0c301 ) ? bundle.var_a9b0c301 : 0 );
     level.killstreaks[ type ].var_4a5906fd = bundle.var_3211a185;
     
     if ( isdefined( level.cratetypes ) )
@@ -329,7 +329,7 @@ function private function_e48aca4d( type, bundle, weapon, vehicle, killstreak_us
     level.killstreaks[ type ].script_bundle = bundle;
     killstreak_bundles::register_bundle( type, bundle );
     
-    if ( isdefined( bundle.var_1bc9830d ) && bundle.var_1bc9830d && !( isdefined( isinventoryweapon ) && isinventoryweapon ) )
+    if ( isdefined( bundle.ksregisterdvars ) && bundle.ksregisterdvars && !( isdefined( isinventoryweapon ) && isinventoryweapon ) )
     {
         register_dev_dvars( type );
     }
@@ -1617,8 +1617,8 @@ function remove_when_done( killstreak, haskillstreakbeenused, isfrominventory )
         
         if ( isdefined( level.usingscorestreaks ) && level.usingscorestreaks )
         {
-            var_ad8ae78f = { #gametime:function_f8d53445(), #killstreak:killstreak, #activatedby:getplayerspawnid( self ) };
-            function_92d1707f( #"hash_1aa07f199266e0c7", var_ad8ae78f );
+            scorestreakdata = { #gametime:function_f8d53445(), #killstreak:killstreak, #activatedby:getplayerspawnid( self ) };
+            function_92d1707f( #"dlog_event_scorestreakdata", scorestreakdata );
             
             if ( isdefined( isfrominventory ) && isfrominventory )
             {
@@ -2285,7 +2285,7 @@ function display_unavailable_time()
         timeleft = 1;
     }
     
-    self iprintlnbold( #"hash_55a79f95e07a10bc", " " + timeleft + " ", #"exe/seconds" );
+    self iprintlnbold( #"mp/unavailable_for_n", " " + timeleft + " ", #"exe/seconds" );
 }
 
 // Namespace killstreaks/killstreaks_shared
@@ -2719,7 +2719,7 @@ function get_killstreak_usage( usagekey )
 function on_player_spawned()
 {
     profilestart();
-    pixbeginevent( #"hash_1d81325f0403ec55" );
+    pixbeginevent( #"_killstreaks.gsc/onplayerspawned" );
     self thread give_owned();
     self.killcamkilledbyent = undefined;
     self callback::on_weapon_change( &function_4f415d8e );
@@ -3645,7 +3645,7 @@ function destroyactivevehicles( attacker, team, weapon, radius )
             if ( isdefined( attacker ) && ( !isdefined( robot.owner ) || robot.owner util::isenemyplayer( attacker ) ) )
             {
                 scoreevents::processscoreevent( #"destroyed_combat_robot", attacker, robot.owner, weapon );
-                luinotifyevent( #"player_callout", 2, #"hash_3b274c8c3c961f3", attacker.entnum );
+                luinotifyevent( #"player_callout", 2, #"killstreak/destroyed_combat_robot", attacker.entnum );
             }
             
             robot kill();
@@ -3872,7 +3872,7 @@ function init_ride_killstreak_internal( streak, always_allow )
     else if ( isdefined( streak ) && streak == "remote_missile" )
     {
         laptopwait = "timeout";
-        var_5df1cb97 = getdvarfloat( #"hash_409036e81396b597", 0.075 );
+        var_5df1cb97 = getdvarfloat( #"aku_tweak", 0.075 );
     }
     else
     {

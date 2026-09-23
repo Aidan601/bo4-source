@@ -34,12 +34,12 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound340": "#hash_5fc0829d11f0fee1",
-    "sound3d0": "#hash_5a3eaf9d57abe7e8",
-    "gadgetreadysoundplayer": "#hash_9ef965e78ebe5a4",
+    "sound340": "#mpl_spawn_beacon_planting_npc",
+    "sound3d0": "#mpl_spawn_beacon_planting_plr",
+    "gadgetreadysoundplayer": "#uin_equip_notify_spawnbeacon",
     "sound660": "#uin_unavailable_charging",
     "tunables1": "#gadget_spawnbeacon_tunables_mp",
-    "cacWeaponXCam": "#hash_56ac2651a5923b2a",
+    "cacWeaponXCam": "#ui_cam_cac_equip_spawnbeacon",
     "sharedWeaponSounds": "#equipment",
     "#hash_2e4a8800": "#gadget_spawnbeacon_scoreevents",
     "#hash_22082a57": "#wpn_t8_eqp_spawnbeacon_world",
@@ -58,6 +58,6 @@
     "hudIcon": "#ui_icon_ability_spawnbeacon",
     "image_e90": "#ui_icon_ability_spawnbeacon",
     "image_1048": "#ui_icon_ability_spawnbeacon",
-    "#hash_96850284": "#hash_3e56b37b08bd36ab",
-    "#hash_26f68e75": "#hash_3c2f38a1f9ed99df"
+    "#hash_96850284": "#jammer_spwnbcn",
+    "#hash_26f68e75": "#icepick_spwnbcn"
 }

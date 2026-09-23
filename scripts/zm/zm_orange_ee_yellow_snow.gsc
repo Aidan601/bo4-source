@@ -46,7 +46,7 @@ function preload()
     zm_sq_modules::function_d8383812( #"snowball_campfire_1", 24000, "snowball_campfire_1", &is_soul_capture, &soul_captured, 1 );
     zm_sq_modules::function_d8383812( #"snowball_campfire_2", 24000, "snowball_campfire_2", &is_soul_capture, &soul_captured, 1 );
     zm_sq_modules::function_d8383812( #"snowball_campfire_3", 24000, "snowball_campfire_3", &is_soul_capture, &soul_captured, 1 );
-    level flag::init( #"hash_5e095d53ae9513f5" );
+    level flag::init( #"yellow_snowballs_granted" );
     level flag::init( #"hash_2b7269d8e32bf3d7" );
 }
 
@@ -58,10 +58,10 @@ function main()
 {
     level function_47274b1e();
     level function_19f2a68d();
-    zm_sq::register( #"yellow_snowballs", #"step_1", #"hash_2ed342ae0266e20", &function_8ba3d474, &function_f5a84740 );
-    zm_sq::register( #"yellow_snowballs", #"step_2", #"hash_2ed342ae0266e20", &function_37507fb7, &function_6ad60943 );
-    zm_sq::register( #"yellow_snowballs", #"step_3", #"hash_2ed342ae0266e20", &function_80794c22, &function_2b9f7a47 );
-    zm_sq::register( #"yellow_snowballs", #"step_4", #"hash_2ed342ae0266e20", &function_985dbc38, &function_256ebdea );
+    zm_sq::register( #"yellow_snowballs", #"step_1", #"yellow_snowballs_quest", &function_8ba3d474, &function_f5a84740 );
+    zm_sq::register( #"yellow_snowballs", #"step_2", #"yellow_snowballs_quest", &function_37507fb7, &function_6ad60943 );
+    zm_sq::register( #"yellow_snowballs", #"step_3", #"yellow_snowballs_quest", &function_80794c22, &function_2b9f7a47 );
+    zm_sq::register( #"yellow_snowballs", #"step_4", #"yellow_snowballs_quest", &function_985dbc38, &function_256ebdea );
     level waittill( #"all_players_spawned" );
     level function_698e6ba();
     
@@ -276,7 +276,7 @@ function function_37507fb7( var_a276c861 )
             s_campfire.e_snd = spawn( "script_origin", s_campfire.origin );
             s_campfire.e_snd playloopsound( #"amb_blue_fire" );
             zm_sq_modules::function_3f808d3d( s_campfire.var_b9989e12 );
-            s_campfire waittill( #"hash_1f9b852104ab2c13" );
+            s_campfire waittill( #"soul_capture_complete" );
             s_campfire.e_fire setmodel( "p8_zm_gla_nor_fire_pit_01_wood_pile" );
             
             switch ( s_campfire.script_noteworthy )
@@ -342,7 +342,7 @@ function soul_captured( var_f0e6c7a2, ent )
 function function_a66f0de2()
 {
     zm_sq_modules::function_2a94055d( self.var_b9989e12 );
-    self notify( #"hash_1f9b852104ab2c13" );
+    self notify( #"soul_capture_complete" );
 }
 
 // Namespace zm_orange_ee_yellow_snow/zm_orange_ee_yellow_snow
@@ -373,7 +373,7 @@ function function_80794c22( var_a276c861 )
 {
     if ( !var_a276c861 )
     {
-        level.var_292feb3b playsound( #"hash_455262d440576e2c" );
+        level.var_292feb3b playsound( #"evt_vessel_crack" );
         level.var_292feb3b setcandamage( 1 );
         level.var_292feb3b val::set( "yellow_snowball_quest", "allowDeath", 0 );
         level.var_292feb3b thread function_7c1a1d9a();
@@ -431,7 +431,7 @@ function function_7c1a1d9a()
         if ( isplayer( s_result.attacker ) && !isbot( s_result.attacker ) )
         {
             self setmodel( "p8_zm_ora_specimen_container_lrg_dmg" );
-            self playsound( #"hash_4284a1b7bc4ce7df" );
+            self playsound( #"evt_vessel_shatter" );
             level exploder::kill_exploder( "fxexp_spleen_idle" );
             level exploder::exploder( "fxexp_inf_tank_water_gush_fx_yllw_snow_quest" );
             level exploder::exploder( "fxexp_containment_exp" );
@@ -472,7 +472,7 @@ function function_985dbc38( var_a276c861 )
         level.var_3af3c634 thread function_c0ee8171();
         level flag::wait_till( #"hash_3ff453a959b4445b" );
         zm_orange_pablo::function_d83490c5( 2 );
-        level flag::wait_till( #"hash_5e095d53ae9513f5" );
+        level flag::wait_till( #"yellow_snowballs_granted" );
     }
 }
 
@@ -505,7 +505,7 @@ function function_c0ee8171()
         level.var_27f2245a = 1;
     }
     
-    playsoundatposition( #"hash_16a225866d646305", level.var_3af3c634.origin );
+    playsoundatposition( #"evt_spleen_pickup", level.var_3af3c634.origin );
     level.var_3af3c634 hide();
     level.var_733d6b98 = e_who;
     level zm_ui_inventory::function_7df6bb60( "zm_orange_spleen", 1, level.var_733d6b98 );
@@ -537,7 +537,7 @@ function function_c9195d31()
 {
     level endon( #"hash_4e1c4cd8c0b0a609" );
     level endon( #"hash_3ff453a959b4445b" );
-    level.pablo_npc waittill( #"hash_276524e7f5657e50" );
+    level.pablo_npc waittill( #"dumbwaiter_interact_started" );
     
     if ( level.pablo_npc.var_df3d62aa == 10 )
     {
@@ -663,7 +663,7 @@ function function_17567d83()
     {
         if ( isdefined( level.var_733d6b98 ) )
         {
-            level.var_733d6b98 playsoundtoplayer( #"hash_2c0513350d4300f3", level.var_733d6b98 );
+            level.var_733d6b98 playsoundtoplayer( #"evt_spleen_clock_tick", level.var_733d6b98 );
         }
         
         if ( level.var_74f3565a >= 22.5 )
@@ -702,7 +702,7 @@ function function_901d1798()
 // Size: 0x64
 function function_ae42be1()
 {
-    level flag::set( #"hash_5e095d53ae9513f5" );
+    level flag::set( #"yellow_snowballs_granted" );
     level thread function_b51a6dd7();
     
     if ( isdefined( level.var_d1206a2b ) )
@@ -736,7 +736,7 @@ function function_256ebdea( var_a276c861, var_19e802fa )
     {
         level thread function_b51a6dd7();
         level flag::set( #"hash_3ff453a959b4445b" );
-        level flag::set( #"hash_5e095d53ae9513f5" );
+        level flag::set( #"yellow_snowballs_granted" );
     }
 }
 

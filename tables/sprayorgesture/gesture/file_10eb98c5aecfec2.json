@@ -1,12 +1,12 @@
 {
-    "name": "#hash_10eb98c5aecfec2",
+    "name": "#loot_emote_seraph_cowboy",
     "type": "#gesture",
     "gesture": "#hash_5fd4063f6de09a70",
-    "gesture2": "#hash_57e4b03a9daf8158",
+    "gesture2": "#boast_seraph_cowboy",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/annihilation",
-        "icon": "image#hash_6a9ff81f3c4d6649",
+        "icon": "image#ui_icon_emotes_seraph_cowboy",
         "isdefault": 0
     }
 }

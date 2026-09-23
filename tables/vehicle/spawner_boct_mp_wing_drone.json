@@ -30,10 +30,10 @@
     "skidSpeedMin": 100,
     "skidSpeedMax": 600,
     "peelSpeedMax": 600,
-    "model": "#hash_5e4e32ae8eb3f6e6",
-    "viewModel": "#hash_5e4e32ae8eb3f6e6",
+    "model": "#vehicle_t8_drone_swarm_sub_mp_light",
+    "viewModel": "#vehicle_t8_drone_swarm_sub_mp_light",
     "deathModel": "#hash_17eccbba0c8ea93e",
-    "enemyModel": "#hash_4498988c792da97e",
+    "enemyModel": "#vehicle_t8_drone_swarm_sub_mp_dark",
     "soundDef": "#hash_7436337b9ee0ffac",
     "lightCollisionRumble": "#veh_collision_light",
     "heavyCollisionRumble": "#veh_collision_heavy",
@@ -46,7 +46,7 @@
     "bundle": {
         "huds": [
             {
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VHUD_Sentinel",
@@ -55,6 +55,6 @@
             }
         ],
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 3
+        "healthpools": 3
     }
 }

@@ -30,22 +30,22 @@
     "#hash_554be9f7": false,
     "firesound": "#wpn_grenade_throw",
     "firesoundplayer": "#wpn_grenade_throw",
-    "gadgetreadysoundplayer": "#hash_6f5b79a1a69b43a8",
-    "sound5a0": "#hash_4665f7a5c480c131",
-    "sound5b0": "#hash_27e124a569faca18",
+    "gadgetreadysoundplayer": "#uin_equip_notify",
+    "sound5a0": "#wpn_c4_click_npc",
+    "sound5b0": "#wpn_c4_click_plr",
     "sound660": "#uin_unavailable_charging",
     "projexplosionsound": "#wpn_grenade_explode",
-    "tunables1": "#hash_4d2c9136329162f3",
+    "tunables1": "#gadget_jammer_mp_tunables",
     "cacWeaponXCam": "#ui_cam_cac_equip_trophy",
     "sharedWeaponSounds": "#equipment",
     "weaponHeadObjective": "#inworld_trophysystem",
     "customsettings": "#gadget_jammer_settings",
-    "projectilemodel": "#hash_788ee73fa8e934a4",
+    "projectilemodel": "#wpn_t8_eqp_disruptor_world",
     "viewmodel": [
-        "#hash_1a6f90af8d4b64d1"
+        "#wpn_t8_eqp_disruptor_view"
     ],
     "worldModel": [
-        "#hash_788ee73fa8e934a4"
+        "#wpn_t8_eqp_disruptor_world"
     ],
     "gadgetIconAvailable": "#ui_icon_equipment_trophysystem",
     "gadgetIconUnavailable": "#ui_icon_equipment_trophysystem_dark",

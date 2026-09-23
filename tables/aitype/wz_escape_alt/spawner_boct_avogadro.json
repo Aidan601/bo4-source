@@ -19,7 +19,7 @@
         "#c_t8_c_zom_avagadro"
     ],
     "animMappingTables": [
-        "#hash_6f36f6868342e151"
+        "#wz_avogadro.ai_am"
     ],
     "meleeWeapon": "#zombie_ai_defaultmelee_wz",
     "aimTable": "#soldier_aim",
@@ -27,9 +27,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_6f32ff86833f07c5",
-    "animStateMachine": "#hash_3d6806910ac16fc6",
-    "animSelectorTable": "#hash_3d681f910ac19a41",
+    "behaviorTree": "#wz_avogadro.ai_bt",
+    "animStateMachine": "#wz_avogadro.ai_asm",
+    "animSelectorTable": "#wz_avogadro.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "ignoresDamageHitLocations": false,

@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_67f4c0b96e9e3559",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_init_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -38,7 +38,7 @@
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_2394f170287e552e",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_fill_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -67,11 +67,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_284e7c79fe4bc555",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_fill_finish_anim",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_3122c31521f45370",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_idle_full_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -100,7 +100,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_40ef18a579f9acc8",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_drain_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -129,7 +129,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -156,7 +156,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6c4e01303c510809",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_03_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -189,7 +189,7 @@
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_342192eef5f5c479",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_03_fill_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -218,11 +218,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_772f5f34ebd2d89e",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_03_fill_finish_anim",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_331d2594623d53bb",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_03_idle_full_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -251,7 +251,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_19dcca5a96c3f38b",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_mixer_03_drain_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -279,7 +279,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

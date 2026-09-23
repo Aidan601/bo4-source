@@ -326,7 +326,7 @@ function callback_playerkilled( einflictor, attacker, idamage, smeansofdeath, we
     attacker callback::callback( #"on_killed_player" );
     self thread globallogic_audio::flush_leader_dialog_key_on_player( "equipmentDestroyed" );
     weapon = update_weapon( einflictor, weapon );
-    pixbeginevent( #"hash_47eb123ec5413349" );
+    pixbeginevent( #"playerkilled pre constants" );
     self thread audio::function_30d4f8c4( attacker, smeansofdeath, weapon );
     wasinlaststand = 0;
     bledout = 0;
@@ -605,7 +605,7 @@ function callback_playerkilled( einflictor, attacker, idamage, smeansofdeath, we
         }
         else
         {
-            pixbeginevent( #"hash_3c7e54851be0668" );
+            pixbeginevent( #"playerkilled attacker" );
             lpattacknum = attacker getentitynumber();
             dokillcam = 1;
             
@@ -737,7 +737,7 @@ function callback_playerkilled( einflictor, attacker, idamage, smeansofdeath, we
         self function_48a1200f( einflictor, attacker, weapon, lpattackteam );
     }
     
-    pixbeginevent( #"hash_6f37a114f9261138" );
+    pixbeginevent( #"playerkilled post constants" );
     self.lastattacker = attacker;
     self.lastdeathpos = self.origin;
     
@@ -907,7 +907,7 @@ function callback_playerkilled( einflictor, attacker, idamage, smeansofdeath, we
     
     self weapons::detach_carry_object_model();
     pixendevent();
-    pixbeginevent( #"hash_6a07afbdee38d766" );
+    pixbeginevent( #"playerkilled body and gibbing" );
     vattackerorigin = undefined;
     
     if ( isdefined( attacker ) )
@@ -1139,7 +1139,7 @@ function callback_playerkilled( einflictor, attacker, idamage, smeansofdeath, we
         
         if ( sessionmodeiswarzonegame() )
         {
-            self luinotifyevent( #"hash_5b2d65a026de792d", 0 );
+            self luinotifyevent( #"quick_fade_up", 0 );
         }
     }
     else if ( self.cancelkillcam )
@@ -1904,7 +1904,7 @@ function private wait_and_suicide()
 // Size: 0x2fc
 function private function_48a1200f( einflictor, attacker, weapon, lpattackteam )
 {
-    pixbeginevent( #"hash_115d2072d5ab2061" );
+    pixbeginevent( #"playerkilled assists" );
     
     if ( isdefined( self.attackers ) )
     {
@@ -1931,7 +1931,7 @@ function private function_48a1200f( einflictor, attacker, weapon, lpattackteam )
             
             if ( sessionmodeismultiplayergame() && isdefined( player.currentweapon ) )
             {
-                function_92d1707f( #"hash_d1357992f4715f0", { #gametime:function_f8d53445(), #assistspawnid:getplayerspawnid( player ), #assistspecialist:function_b14806c6( player player_role::get(), currentsessionmode() ), #assistweapon:player.currentweapon.name } );
+                function_92d1707f( #"dlog_event_mpassists", { #gametime:function_f8d53445(), #assistspawnid:getplayerspawnid( player ), #assistspecialist:function_b14806c6( player player_role::get(), currentsessionmode() ), #assistweapon:player.currentweapon.name } );
             }
             
             player thread globallogic_score::processassist( self, damage_done, self.attackerdamage[ player.clientid ].weapon, self.attackerdamage[ player.clientid ].time, self.attackerdamage[ player.clientid ].meansofdeath );
@@ -1973,7 +1973,7 @@ function function_f632c17e( weapon )
     switch ( weapon.name )
     {
         case #"ar_accurate_t8_swat":
-        case #"hash_17df39d53492b0bf":
+        case #"ac130_main_cannon":
         case #"tank_robot_launcher_turret":
         case #"ac130_chaingun":
         case #"ac130_autocannon":
@@ -2160,7 +2160,7 @@ function private function_395ef176()
             
             foreach ( player in teammates )
             {
-                player luinotifyevent( #"hash_6b67aa04e378d681", 1, 7 );
+                player luinotifyevent( #"game_update_notification", 1, 7 );
             }
             
             util::function_5a68c330( 24, self.team );
@@ -2181,7 +2181,7 @@ function private function_395ef176()
                 
                 foreach ( player in teammates )
                 {
-                    player luinotifyevent( #"hash_6b67aa04e378d681", 2, 1, level.var_9161927e[ self.team ] );
+                    player luinotifyevent( #"game_update_notification", 2, 1, level.var_9161927e[ self.team ] );
                 }
             }
             
@@ -2228,7 +2228,7 @@ function private function_395ef176()
                     continue;
                 }
                 
-                player luinotifyevent( #"hash_6b67aa04e378d681", 3, 2, var_e6caaa48, var_5724b72f );
+                player luinotifyevent( #"game_update_notification", 3, 2, var_e6caaa48, var_5724b72f );
             }
         }
     }
@@ -2959,7 +2959,7 @@ function updatekillstreak( einflictor, attacker, weapon )
                             }
                             
                             attacker.var_ea1458aa.var_2bad4cbb++;
-                            attacker challenges::function_a4db0a4c();
+                            attacker challenges::multikill_2_killstreak_5();
                         }
                     }
                 }

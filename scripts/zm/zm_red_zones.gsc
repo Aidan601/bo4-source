@@ -32,7 +32,7 @@ function init()
 // Size: 0xa4
 function cliff_forge_vo()
 {
-    level flag::wait_till( #"hash_7943879f3be8ccc6" );
+    level flag::wait_till( #"dark_side_open" );
     
     for ( a_players = function_6645d04c(); a_players.size == 0 ; a_players = function_6645d04c() )
     {
@@ -85,7 +85,7 @@ function function_6645d04c()
 // Size: 0xb6c
 function zone_init()
 {
-    level flag::init( #"hash_4083e9da0ba41dec" );
+    level flag::init( #"pegasus_ride_started" );
     level flag::init( "always_on" );
     level flag::set( "always_on" );
     zm_zonemgr::zone_init( "zone_temple_of_apollo" );
@@ -126,7 +126,7 @@ function zone_init()
     zm_zonemgr::add_adjacent_zone( "zone_spartan_monument_east", "zone_spartan_monument_upper", #"hash_cfcbf5509bfbc1b", 0 );
     zm_zonemgr::add_adjacent_zone( "zone_spartan_monument_east", "zone_spartan_monument_west", #"hash_cfcbf5509bfbc1b", 0 );
     zm_zonemgr::add_adjacent_zone( "zone_spartan_monument_upper", "zone_spartan_monument_west", #"hash_cfcbf5509bfbc1b", 0 );
-    zm_zonemgr::add_adjacent_zone( "zone_river_upper", "zone_river_lower", #"hash_4083e9da0ba41dec", 0 );
+    zm_zonemgr::add_adjacent_zone( "zone_river_upper", "zone_river_lower", #"pegasus_ride_started", 0 );
     zm_zonemgr::add_adjacent_zone( "zone_river_lower", "zone_cliff_tombs_upper", "connect_river_acheron_to_cliff_tombs", 0 );
     zm_zonemgr::add_adjacent_zone( "zone_cliff_tombs_upper", "zone_cliff_tombs_forge", #"connect_cliff_zones", 0 );
     zm_zonemgr::add_adjacent_zone( "zone_cliff_tombs_upper", "zone_cliff_tombs_center", #"connect_cliff_zones", 0 );
@@ -529,15 +529,15 @@ function function_27028b8e( str_zone )
 function function_17ac86f7()
 {
     self thread zm_audio::function_713192b1( #"hash_187fe3987a160b42", #"market" );
-    self thread zm_audio::function_713192b1( #"hash_70363674b3e9a47c", #"hash_237b36f7aeb1a896" );
-    self thread zm_audio::function_713192b1( #"hash_6268d50ff53b29d4", #"hash_4576fb3345db827b" );
+    self thread zm_audio::function_713192b1( #"hash_70363674b3e9a47c", #"statue_crat" );
+    self thread zm_audio::function_713192b1( #"hash_6268d50ff53b29d4", #"temp_attalid" );
     self thread zm_audio::function_713192b1( #"hash_27a6b15e094c02f1", #"bathhouse" );
     self thread zm_audio::function_713192b1( #"hash_4785d4d350f36326", #"treasur" );
     self thread zm_audio::function_713192b1( #"hash_12a9743a3b9f2236", #"hash_2d65510066aca8d" );
-    self thread zm_audio::function_713192b1( #"hash_303ce0aa4cf6a23e", #"hash_1b3475683eff03ae" );
+    self thread zm_audio::function_713192b1( #"hash_303ce0aa4cf6a23e", #"statue_spart" );
     self thread function_f7a190a8( undefined, 60, #"hash_106d425e41e8c240", #"temp_apollo" );
     self thread function_f7a190a8( #"hash_3dba794053dea40e", 60, #"hash_654702bdca18105", #"amphi" );
-    self thread zm_audio::function_713192b1( #"hash_4f55839413fe0046", #"hash_185c7ca2794dd39" );
+    self thread zm_audio::function_713192b1( #"hash_4f55839413fe0046", #"serp_pass" );
     self thread function_f7a190a8( #"pap_quest_completed", 30, #"hash_78d4c8eb48aabd66", #"center_world" );
 }
 

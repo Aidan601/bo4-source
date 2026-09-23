@@ -17,7 +17,7 @@ version 1 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
         uint64 game_session_id;
     };
@@ -51,6 +51,6 @@ version 1 {
     // offset 0x238, size 0xc0
     client_header client;
     // offset 0x2f8, size 0x20
-    int hash_1c822ebe3e105e4d;
+    int friends_in_title;
 }
 

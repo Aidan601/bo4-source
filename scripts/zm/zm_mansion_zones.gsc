@@ -196,7 +196,7 @@ function get_location_string( e_player )
             str_display = #"hash_39314f35659fff4b";
             break;
         case #"zone_cellar":
-            str_display = #"hash_5d4530599612a24a";
+            str_display = #"zm_mansion/location_cellar";
             break;
         case #"zone_cemetery_path_right":
         case #"zone_cemetery_entrance":
@@ -219,7 +219,7 @@ function get_location_string( e_player )
             str_display = #"hash_7085496da10debc3";
             break;
         case #"zone_dining_room":
-            str_display = #"hash_4cfb09573e278f6a";
+            str_display = #"zm_mansion/location_dining_room";
             break;
         case #"zone_foyer_east":
             str_display = #"hash_2d30bd945675677f";
@@ -239,7 +239,7 @@ function get_location_string( e_player )
         case #"zone_forest_center":
         case #"zone_forest_n":
         case #"zone_forest_s":
-            str_display = #"hash_1b96528add0fc9c0";
+            str_display = #"zm_mansion/location_forest";
             break;
         case #"zone_greenhouse_entrance":
             str_display = #"hash_3ea748d6a647de7b";
@@ -285,7 +285,7 @@ function get_location_string( e_player )
             str_display = #"hash_1da61d307197c763";
             break;
         case #"zone_arena":
-            str_display = #"hash_517224645b7ac008";
+            str_display = #"zm_mansion/location_arena";
             break;
         case #"zone_underground":
             str_display = #"hash_ce97d364ff4b9c6";
@@ -304,12 +304,12 @@ function get_location_string( e_player )
 // Size: 0x214
 function function_17ac86f7()
 {
-    self thread zm_audio::function_713192b1( #"hash_4cfb09573e278f6a", #"dining_room" );
+    self thread zm_audio::function_713192b1( #"zm_mansion/location_dining_room", #"dining_room" );
     self thread zm_audio::function_713192b1( #"hash_14a22fcc9cae07e", #"garden" );
     self thread zm_audio::function_713192b1( #"hash_4e4c72cec577f4b6", #"billiards_room" );
-    self thread zm_audio::function_713192b1( #"hash_1b96528add0fc9c0", #"forest" );
+    self thread zm_audio::function_713192b1( #"zm_mansion/location_forest", #"forest" );
     self thread zm_audio::function_713192b1( #"hash_b91dba12f5681cb", #"cemetary" );
-    self thread zm_audio::function_713192b1( #"hash_517224645b7ac008", #"druid_arena" );
+    self thread zm_audio::function_713192b1( #"zm_mansion/location_arena", #"druid_arena" );
     self thread zm_audio::function_713192b1( #"hash_ce97d364ff4b9c6", #"catacomb" );
     self thread zm_audio::function_713192b1( #"hash_4fa0217a1bf4ccdc", #"greenhouse" );
     self thread zm_audio::function_713192b1( #"hash_430969697efda742", #"library" );

@@ -1,7 +1,7 @@
 {
-    "shopicon": "image#hash_3828e8f7a5308585",
+    "shopicon": "image#loot04_ui_icon_blackmarket_itemshop_assassin_epic1_battery",
     "nametext": "localized17#hash_774a850bb51691fb",
     "name": "outfit_warrior_epic1_wetworks_battery_sunset_bundle_shop",
-    "desctext": "localized17#hash_2b7f2d614d161f1d",
+    "desctext": "localized17#menu/outfit_warpaint_desc",
     "hash_5705c4c12fe1d66a:hash_975cc0d1": "localized17#heroes/battery"
 }

@@ -1,5 +1,5 @@
 {
-    "hash_103a33623dc189e2:hash_4050486a": "localized18#hash_3e6da11174f09627",
+    "hash_103a33623dc189e2:hash_4050486a": "localized18#zombie/craft_shield_multiple",
     "craftingprompt": "localized18#zombie/craft_shield",
     "resultangleyaw": -90,
     "configstringfiletype": "scriptbundle",
@@ -17,8 +17,8 @@
     "purchaseprompt": "localized18#hash_2aaa58d195779a1c",
     "repairprompt": "localized18#zombie/repair_shield",
     "postcraft": "persistent_buy",
-    "hash_64869b7d451b2fbe:hash_abd9b2d0": "localized18#hash_73c79353123c37c7",
+    "purchasepromptfree": "localized18#hash_73c79353123c37c7",
     "componentcount": 3,
-    "hash_6d856d2f8b4a5911:hash_c028dcfe": 1,
+    "firstonefree": 1,
     "inventorysection": "section_shield"
 }

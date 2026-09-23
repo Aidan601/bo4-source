@@ -169,11 +169,11 @@ function function_a5254494( var_5ea5c94d )
     
     if ( !var_5ea5c94d )
     {
-        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"hash_13b606b34fa64ed5", 0, 0, 1 );
-        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"hash_13b606b34fa64ed5", 1, 0, 1 );
-        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"hash_13b606b34fa64ed5", 2, 0, 1 );
-        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"hash_13b606b34fa64ed5", 3, 0, 1 );
-        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"hash_13b606b34fa64ed5", 4, 0, 1 );
+        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"vox_colored_dials_insert", 0, 0, 1 );
+        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"vox_colored_dials_insert", 1, 0, 1 );
+        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"vox_colored_dials_insert", 2, 0, 1 );
+        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"vox_colored_dials_insert", 3, 0, 1 );
+        level.var_60b08c24 zm_hms_util::function_6a0d675d( #"vox_colored_dials_insert", 4, 0, 1 );
         
         foreach ( hint in level.var_54d62431 )
         {
@@ -299,7 +299,7 @@ function private cover_think()
     {
         self.var_f0d6ee1f = 1;
         createdynentandlaunch( self.dyn, self.origin, self.angles, self.origin, v_force );
-        playsoundatposition( #"hash_1ff16e6eb6a9dfed", self.origin );
+        playsoundatposition( #"evt_painting_fall", self.origin );
     }
 }
 
@@ -313,12 +313,12 @@ function private function_9c223c27()
     self endon( #"death" );
     self.e_vessel show();
     self zm_orange_ee_dynamite::function_170afe2c( 1 );
-    self waittill( #"hash_126c823a82e09010" );
+    self waittill( #"dynamite_bomb_detonated" );
     self.e_safe hide();
     
     if ( level.var_98138d6b > 1 )
     {
-        level.var_1c53964e zm_hms_util::function_6a0d675d( #"hash_497ec7e9ca9ca204", -1, 0, 1 );
+        level.var_1c53964e zm_hms_util::function_6a0d675d( #"vox_seal_dynamite", -1, 0, 1 );
     }
     
     player = self zm_unitrigger::function_fac87205( zm_utility::function_d6046228( #"hash_3be823a04b5cca2d", #"hash_25cb84d1af883c53" ), 64 );

@@ -43,7 +43,7 @@
     "steptoenemysize": 40,
     "hash_43c4a17dfa26fd78:hash_74701269": 0,
     "name": "rcxdsettings_mp",
-    "hash_453d6d4a6ac04709:hash_e7260470": 65,
+    "vis_cone_angle": 65,
     "rocketcooldown": 5,
     "targeting_radius": 200,
     "meleedist": 50,

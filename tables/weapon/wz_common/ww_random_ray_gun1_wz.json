@@ -44,16 +44,16 @@
             "1 0.05"
         ]
     ],
-    "sound90": "#hash_1842954b617ff408",
+    "sound90": "#prj_wkud_lp",
     "firesound": "#hash_4ecfba47ecf213df",
     "firesoundplayer": "#hash_6a09bb4844abf7da",
     "sound220": "#hash_4ecfba47ecf213df",
     "sound230": "#hash_6a09bb4844abf7da",
-    "sound240": "#hash_6329b05b647edd44",
-    "sound250": "#hash_7ed0935bbc956025",
+    "sound240": "#wpn_revolver_dryfire_npc",
+    "sound250": "#wpn_revolver_dryfire_plr",
     "sound4f0": "#gear_player",
     "sound510": "#gear_player",
-    "projexplosionsound": "#hash_1c021061edf09166",
+    "projexplosionsound": "#prj_wkud_impact",
     "sound800": "#hash_6f5f990a945df8f8",
     "sound810": "#hash_21cba6ae89a3493c",
     "tunables1": "#ww_random_ray_gun1_tunables_wz",
@@ -61,7 +61,7 @@
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_31a8ef0f06d738a0"
+        "#au_ww_random_ray_gun1_none"
     ],
     "sharedWeaponSounds": "#pistol",
     "ballisticDesc": "#45_fmj",
@@ -85,10 +85,10 @@
     "fireRumble": "#defaultweapon_fire",
     "fx_bc8": "#hash_41ec10ff09debe0b",
     "fx_bd0": "#hash_41e504ff09d88af9",
-    "fx_ed8": "#hash_374a9f6cf9f9420e",
+    "fx_ed8": "#zm_weapons/fx8_www_impact",
     "fx_f00": "#hash_5d8233ecf44eb12c",
     "viewPersistentEffectSet": "#hash_3dac8e41f79bb6ca",
     "worldPersistentEffectSet": "#hash_3da68241f79736b8",
     "normalImpactFX": "#hash_5340411d9b6ebfbd",
-    "normalImpactSounds": "#hash_33f9ba0c3247c201"
+    "normalImpactSounds": "#wkud_impact"
 }

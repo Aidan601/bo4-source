@@ -187,7 +187,7 @@
         "constants": {
             "#key": {
                 "type": "xhash",
-                "value": "#hash_1a25f2c4feaf60cf"
+                "value": "#pathable_valid_squads"
             }
         }
     },
@@ -199,7 +199,7 @@
         "constants": {
             "#key": {
                 "type": "xhash",
-                "value": "#hash_1a25f2c4feaf60cf"
+                "value": "#pathable_valid_squads"
             }
         }
     },

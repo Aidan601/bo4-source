@@ -18,7 +18,7 @@
             "devonly": 0,
             "randomizebuttonorder": 0,
             "title": "localized17#hash_1871a9be264ce732",
-            "hash_660d268723518cdf:hash_33ba47f0": 0,
+            "playlistrestriction": 0,
             "enabled": 0
         }
     ],
@@ -41,7 +41,7 @@
             "devonly": 0,
             "randomizebuttonorder": 0,
             "title": "localized17#hash_1871a9be264ce732",
-            "hash_660d268723518cdf:hash_33ba47f0": 0,
+            "playlistrestriction": 0,
             "enabled": 0
         }
     ],
@@ -73,7 +73,7 @@
             "devonly": 1,
             "randomizebuttonorder": 1,
             "title": "localized17#hash_7130895060cfded6",
-            "hash_660d268723518cdf:hash_33ba47f0": 0,
+            "playlistrestriction": 0,
             "enabled": 0
         }
     ],
@@ -96,7 +96,7 @@
             "devonly": 0,
             "randomizebuttonorder": 0,
             "title": "localized17#hash_1871a9be264ce732",
-            "hash_660d268723518cdf:hash_33ba47f0": 0,
+            "playlistrestriction": 0,
             "enabled": 0
         }
     ],
@@ -119,7 +119,7 @@
             "devonly": 0,
             "randomizebuttonorder": 0,
             "title": "localized17#hash_1871a9be264ce732",
-            "hash_660d268723518cdf:hash_33ba47f0": 501,
+            "playlistrestriction": 501,
             "enabled": 0
         }
     ],
@@ -151,7 +151,7 @@
             "devonly": 1,
             "randomizebuttonorder": 1,
             "title": "localized17#hash_380a0eaf6220607e",
-            "hash_660d268723518cdf:hash_33ba47f0": 0,
+            "playlistrestriction": 0,
             "enabled": 0
         }
     ],
@@ -183,7 +183,7 @@
             "devonly": 1,
             "randomizebuttonorder": 1,
             "title": "localized17#hash_7de72c11a18dc504",
-            "hash_660d268723518cdf:hash_33ba47f0": 0,
+            "playlistrestriction": 0,
             "enabled": 0
         }
     ],
@@ -215,7 +215,7 @@
             "devonly": 1,
             "randomizebuttonorder": 1,
             "title": "localized17#hash_4b5964d0ada3421e",
-            "hash_660d268723518cdf:hash_33ba47f0": 0,
+            "playlistrestriction": 0,
             "enabled": 0
         }
     ],

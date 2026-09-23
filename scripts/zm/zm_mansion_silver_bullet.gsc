@@ -67,11 +67,11 @@ function function_3088962c()
     while ( true )
     {
         var_255fe317 = 0;
-        s_notify = self waittill( #"weapon_change", #"hash_3cc002901b983064" );
+        s_notify = self waittill( #"weapon_change", #"silver_bullets_given" );
         
         if ( s_notify._notify === #"weapon_change" )
         {
-            self clientfield::set_to_player( "" + #"hash_6a4f537da00ae3f9", 0 );
+            self clientfield::set_to_player( "" + #"silver_bullet_weapon_fx", 0 );
             self mansion_util::function_268efa09( 0 );
             s_notify = self waittilltimeout( 1.2, #"weapon_change_complete" );
         }
@@ -92,7 +92,7 @@ function function_3088962c()
         
         if ( var_255fe317 || isdefined( s_notify.weapon ) && zm_utility::function_aa45670f( s_notify.weapon, 0 ) )
         {
-            self clientfield::set_to_player( "" + #"hash_6a4f537da00ae3f9", 1 );
+            self clientfield::set_to_player( "" + #"silver_bullet_weapon_fx", 1 );
             self mansion_util::function_268efa09( 1 );
         }
     }
@@ -112,7 +112,7 @@ function function_766980a4()
         
         if ( s_result.produced == getweapon( #"zitem_silver_bullet_part_4" ) )
         {
-            level zm_ui_inventory::function_7df6bb60( #"hash_26da6ef83af4ba62", 1 );
+            level zm_ui_inventory::function_7df6bb60( #"q_silver_bullets_phase", 1 );
             break;
         }
     }
@@ -311,7 +311,7 @@ function function_252cf612( player )
         {
             if ( player function_ec89dca9() )
             {
-                self sethintstring( #"hash_4731c9534a6055b" );
+                self sethintstring( #"zm_mansion/silver_bullets_have" );
             }
             else if ( isdefined( self.stub.var_6646a22 ) && self.stub.var_6646a22 )
             {
@@ -327,12 +327,12 @@ function function_252cf612( player )
         }
         else if ( !player flag::get( #"hash_56504ef435e17076" ) )
         {
-            str_prompt = zm_utility::function_d6046228( #"hash_558dab41980bd79b", #"hash_7bc5748f7802e011" );
+            str_prompt = zm_utility::function_d6046228( #"zm_mansion/silver_bullets_free", #"hash_7bc5748f7802e011" );
             self sethintstring( str_prompt );
         }
         else if ( isdefined( self.stub.var_6646a22 ) && self.stub.var_6646a22 )
         {
-            str_prompt = zm_utility::function_d6046228( #"hash_558dab41980bd79b", #"hash_7bc5748f7802e011" );
+            str_prompt = zm_utility::function_d6046228( #"zm_mansion/silver_bullets_free", #"hash_7bc5748f7802e011" );
             self sethintstring( str_prompt );
         }
         else
@@ -341,7 +341,7 @@ function function_252cf612( player )
             
             if ( isdefined( n_cost ) )
             {
-                self sethintstring( #"hash_9c2f7742abf6acb", n_cost );
+                self sethintstring( #"zm_mansion/silver_bullets_buy", n_cost );
             }
             else
             {
@@ -423,7 +423,7 @@ function function_dad1960c()
         
         if ( !level.var_c9fce264 )
         {
-            player thread zm_vo::function_a2bd5a0c( #"hash_400e358c3529b05f", 1 );
+            player thread zm_vo::function_a2bd5a0c( #"vox_silver_bullets_build", 1 );
             level.var_c9fce264 = 1;
         }
         
@@ -489,7 +489,7 @@ function function_4e849ab()
     
     if ( isdefined( var_ff915b1d ) && var_ff915b1d )
     {
-        self notify( #"hash_3cc002901b983064" );
+        self notify( #"silver_bullets_given" );
     }
     
     return var_ff915b1d;

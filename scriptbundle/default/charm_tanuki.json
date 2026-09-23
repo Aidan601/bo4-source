@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_tanuki",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_tanuki",
     "name": "charm_tanuki",
-    "displayname": "localized17#hash_2b2234600f38738d",
+    "displayname": "localized17#menu/charm_tanuki",
     "icon": "ui_icon_weapon_charms_tanuki",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_tanuki"

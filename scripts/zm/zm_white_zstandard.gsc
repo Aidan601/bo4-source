@@ -64,7 +64,7 @@ function init_level_vars()
     level.var_d7853f35 = 18;
     level.var_ecdf38f = 12;
     level.var_55e562f9 = 18;
-    level.zombie_hints[ #"default_treasure_chest" ] = #"hash_57a34375dddce337";
+    level.zombie_hints[ #"default_treasure_chest" ] = #"zombie/random_weapon_free";
     level thread defend_areas();
     level thread init_crafting();
     level thread init_traps();
@@ -94,7 +94,7 @@ function defend_areas()
     level endon( #"end_game" );
     function_84139b27();
     level flag::init( #"hash_1643995c3d7501b0" );
-    level flag::init( #"hash_40856b65dff0f6eb" );
+    level flag::init( #"power_room_event_complete" );
     level flag::init( #"hash_50990d5b9376f50d" );
     level flag::init( #"hash_3bb140702c2b1323" );
     level.defend_spawns = 0;
@@ -205,7 +205,7 @@ function defend_areas()
     zm_utility::function_33798535( s_defend_area.var_39c44288, s_defend_area.a_str_zones, s_defend_area.var_ed1db1a7, undefined, undefined, 45 );
     level flag::set( "power_on3" );
     level flag::set( "bunker_power_event" );
-    level flag::set( #"hash_40856b65dff0f6eb" );
+    level flag::set( #"power_room_event_complete" );
     level flag::set( #"hash_1643995c3d7501b0" );
     level.var_bcaf8591 = 3;
     zm_utility::function_fef4b36a( str_next_defend );
@@ -306,7 +306,7 @@ function function_c87db3f7( str_next_defend )
     level flag::wait_till( "started_defend_area" );
     level.s_portal_power thread zm_white_portals::disable_teleporter();
     level.s_portal_street_mid thread zm_white_portals::disable_teleporter();
-    level waittill( #"hash_7a04a7fb98fa4e4d" );
+    level waittill( #"end_defend_area" );
     wait 2;
     level.s_portal_power thread zm_white_portals::reenable_teleporter();
     level.s_portal_street_mid thread zm_white_portals::reenable_teleporter();
@@ -334,7 +334,7 @@ function function_aee9d1fb( n_max )
 // Params 0
 // Checksum 0xd20d8902, Offset: 0x1ee0
 // Size: 0x86
-function function_74872db6()
+function on_round_begin()
 {
     if ( level.round_number <= 7 )
     {
@@ -378,7 +378,7 @@ function function_8daf4de5()
 function function_54b015d9()
 {
     level zm_utility::function_e64ac3b6( 16, #"hash_1de54db35ad2c33a" );
-    level thread zm_audio::sndannouncerplayvox( #"hash_6acb03a0373891c1", undefined, undefined, undefined, 1 );
+    level thread zm_audio::sndannouncerplayvox( #"jolting_jacks", undefined, undefined, undefined, 1 );
 }
 
 // Namespace zm_white_zstandard/zm_white_zstandard
@@ -387,7 +387,7 @@ function function_54b015d9()
 // Size: 0x9c
 function intro_zombie_dog( n_round_number )
 {
-    level endon( #"hash_7a04a7fb98fa4e4d" );
+    level endon( #"end_defend_area" );
     n_spawn_count = 0;
     
     while ( n_spawn_count < 3 )
@@ -421,7 +421,7 @@ function function_b4cae8b9()
 // Size: 0xa4
 function intro_nova_crawler( n_round_number )
 {
-    level endon( #"hash_7a04a7fb98fa4e4d" );
+    level endon( #"end_defend_area" );
     n_spawn_count = 0;
     
     while ( n_spawn_count < 3 )
@@ -501,7 +501,7 @@ function function_a39e7a56()
             
             if ( isdefined( ai ) )
             {
-                n_delay = isdefined( zombie_utility::get_zombie_var( #"zombie_spawn_delay" ) ) ? zombie_utility::get_zombie_var( #"zombie_spawn_delay" ) : zombie_utility::get_zombie_var( #"hash_7d5a25e2463f7fc5" );
+                n_delay = isdefined( zombie_utility::get_zombie_var( #"zombie_spawn_delay" ) ) ? zombie_utility::get_zombie_var( #"zombie_spawn_delay" ) : zombie_utility::get_zombie_var( #"zombie_spawn_delay_base" );
                 level.defend_spawns++;
             }
             
@@ -689,6 +689,6 @@ function registerlast_truck_headshot_()
 function function_a97f7327()
 {
     level zm_utility::function_7a35b1d7( #"hash_299d0a3534135476" );
-    level thread zm_audio::sndannouncerplayvox( #"hash_3acd6d72567def3a", undefined, undefined, undefined, 1 );
+    level thread zm_audio::sndannouncerplayvox( #"door_open_all", undefined, undefined, undefined, 1 );
 }
 

@@ -1,5 +1,5 @@
 mp_offshore.fr
-hash_c003161080d6e26
+vox_tvoi_tutor_batt_drown_nag
 hash_463ed3a0a1d8e908
 hash_11d9a9d8991bb4
 mp_offshore.fr
@@ -7,7 +7,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_c003161080d6e26
+vox_tvoi_tutor_batt_drown_nag
 hash_36a307186af8fca1
 hash_1313a04eeeb4b559
 mp_offshore.fr
@@ -15,7 +15,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_c003161080d6e26
+vox_tvoi_tutor_batt_drown_nag
 hash_70410eb0470f1162
 hash_63051d091810d2ee
 mp_offshore.fr
@@ -23,7 +23,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_c003161080d6e26
+vox_tvoi_tutor_batt_drown_nag
 hash_660e3ca0779c3e6b
 hash_290bd9f6b0a9440b
 mp_offshore.fr
@@ -31,7 +31,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_c003161080d6e26
+vox_tvoi_tutor_batt_drown_nag
 vox_tvoi_tutor_batt_end_0
 hash_4e20a47643c28f89
 hash_7f063853031b1449
@@ -70,7 +70,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_batt_end_1
-hash_1cefb7225c27f1f5
+vox_tvoi_tutor_batt_final_event_0
 hash_248e8fbca6478bbb
 hash_30d2e125c93ae1e3
 mp_offshore.fr
@@ -78,8 +78,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_1cefb7225c27f1f5
-hash_1e4ccf71b4216e7b
+vox_tvoi_tutor_batt_final_event_0
+vox_tvoi_tutor_batt_final_streak_0
 hash_353faa6fe68e0f59
 hash_a46a6e737cb31e7
 mp_offshore.fr
@@ -88,7 +88,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_1e4ccf71b4216e7b
+vox_tvoi_tutor_batt_final_streak_0
 hash_1741c578021ed373
 hash_73d8a5a5504d856d
 mp_offshore.fr
@@ -97,8 +97,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_1e4ccf71b4216e7b
-hash_1e4cce71b4216cc8
+vox_tvoi_tutor_batt_final_streak_0
+vox_tvoi_tutor_batt_final_streak_1
 hash_43bafde53790d926
 hash_4b6c510a3327ae28
 mp_offshore.fr
@@ -107,7 +107,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_1e4cce71b4216cc8
+vox_tvoi_tutor_batt_final_streak_1
 hash_66f0dc1d09fba238
 hash_655129b673924e46
 mp_offshore.fr
@@ -116,8 +116,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_1e4cce71b4216cc8
-hash_1e4cd171b42171e1
+vox_tvoi_tutor_batt_final_streak_1
+vox_tvoi_tutor_batt_final_streak_2
 hash_2f1c504aa4b033cb
 hash_1a9c5c89b8496611
 mp_offshore.fr
@@ -126,7 +126,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_1e4cd171b42171e1
+vox_tvoi_tutor_batt_final_streak_2
 hash_1698e05d051bc57d
 hash_14f1039da23d0157
 mp_offshore.fr
@@ -135,8 +135,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_1e4cd171b42171e1
-hash_1e4cd071b421702e
+vox_tvoi_tutor_batt_final_streak_2
+vox_tvoi_tutor_batt_final_streak_3
 hash_756ea6eb8e2f6760
 hash_1a31b5d512cbfd8a
 mp_offshore.fr
@@ -145,7 +145,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_1e4cd071b421702e
+vox_tvoi_tutor_batt_final_streak_3
 hash_5373422c9ca3261a
 hash_58f8bdc8cef956b0
 mp_offshore.fr
@@ -154,8 +154,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_1e4cd071b421702e
-hash_224c6765bca56be4
+vox_tvoi_tutor_batt_final_streak_3
+vox_tvoi_tutor_batt_final_streak_active_0
 hash_73dfbeb7a57e3da2
 hash_3f69e3aebe5a1a86
 mp_offshore.fr
@@ -164,7 +164,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_224c6765bca56be4
+vox_tvoi_tutor_batt_final_streak_active_0
 hash_790b2924ee28b77c
 hash_6b3b89a776238d4
 mp_offshore.fr
@@ -173,8 +173,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_224c6765bca56be4
-hash_224c6865bca56d97
+vox_tvoi_tutor_batt_final_streak_active_0
+vox_tvoi_tutor_batt_final_streak_active_1
 hash_141785b42f4e8ff5
 hash_4400d2b6785f5a5d
 mp_offshore.fr
@@ -182,8 +182,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_224c6865bca56d97
-hash_7dfd3741e740a503
+vox_tvoi_tutor_batt_final_streak_active_1
+vox_tvoi_tutor_batt_final_streak_dead
 hash_3798794af4a32fad
 hash_3c6cb691a6c6ac99
 mp_offshore.fr
@@ -191,7 +191,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7dfd3741e740a503
+vox_tvoi_tutor_batt_final_streak_dead
 hash_32ba73b0ac0dae24
 hash_518f457de41c64f4
 mp_offshore.fr
@@ -199,7 +199,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7dfd3741e740a503
+vox_tvoi_tutor_batt_final_streak_dead
 hash_1866f4ddd8ccb3d7
 hash_5428ad49dbb3264b
 mp_offshore.fr
@@ -207,7 +207,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7dfd3741e740a503
+vox_tvoi_tutor_batt_final_streak_dead
 hash_4b1764a9a07463fe
 hash_457492f0ff06f02e
 mp_offshore.fr
@@ -215,8 +215,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7dfd3741e740a503
-hash_6ca8fb135975685a
+vox_tvoi_tutor_batt_final_streak_dead
+vox_tvoi_tutor_batt_final_streak_earned
 hash_47ba0dcaeaea9f74
 hash_3976a5086759e7f8
 mp_offshore.fr
@@ -224,7 +224,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_6ca8fb135975685a
+vox_tvoi_tutor_batt_final_streak_earned
 hash_4a520cee873e8bbd
 hash_e031711f146894d
 mp_offshore.fr
@@ -233,7 +233,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_6ca8fb135975685a
+vox_tvoi_tutor_batt_final_streak_earned
 hash_51db1d9d36d289cf
 hash_36c6aa5c3af701fb
 mp_offshore.fr
@@ -242,7 +242,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_6ca8fb135975685a
+vox_tvoi_tutor_batt_final_streak_earned
 hash_74c38521b0ed7ce
 hash_257dc6933b3399e2
 mp_offshore.fr
@@ -251,7 +251,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_6ca8fb135975685a
+vox_tvoi_tutor_batt_final_streak_earned
 hash_22607c422da78c30
 hash_4c4378bd602e7378
 mp_offshore.fr
@@ -260,7 +260,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_6ca8fb135975685a
+vox_tvoi_tutor_batt_final_streak_earned
 hash_3eb8ef32faafa27
 hash_14fe3a965b64179f
 mp_offshore.fr
@@ -268,8 +268,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_6ca8fb135975685a
-hash_bebb353e21b47f1
+vox_tvoi_tutor_batt_final_streak_earned
+vox_tvoi_tutor_batt_final_streak_fail
 hash_564f7c1afd778b27
 hash_32ae3fef86572a13
 mp_offshore.fr
@@ -278,7 +278,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_bebb353e21b47f1
+vox_tvoi_tutor_batt_final_streak_fail
 hash_9f64d02afc03b61
 hash_37f1592a512a671
 mp_offshore.fr
@@ -287,8 +287,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_bebb353e21b47f1
-hash_791a82dcb88e4978
+vox_tvoi_tutor_batt_final_streak_fail
+vox_tvoi_tutor_batt_final_streak_half
 hash_26526b68a3d3291e
 hash_4ddc01d2dad55a9a
 mp_offshore.fr
@@ -296,7 +296,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_791a82dcb88e4978
+vox_tvoi_tutor_batt_final_streak_half
 hash_2385888063409277
 hash_664d9dbf5c699c77
 mp_offshore.fr
@@ -304,7 +304,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_791a82dcb88e4978
+vox_tvoi_tutor_batt_final_streak_half
 hash_666772148ecc5b44
 hash_2ca4bbdf7faee730
 mp_offshore.fr
@@ -312,7 +312,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_791a82dcb88e4978
+vox_tvoi_tutor_batt_final_streak_half
 hash_6b4677aed7638fcd
 hash_705e78393b1141a5
 mp_offshore.fr
@@ -320,8 +320,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_791a82dcb88e4978
-hash_11895f57fb2ed05
+vox_tvoi_tutor_batt_final_streak_half
+vox_tvoi_tutor_batt_final_streak_incoming
 hash_241f724746ecdfeb
 hash_3ed6089272b3c443
 mp_offshore.fr
@@ -330,7 +330,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_11895f57fb2ed05
+vox_tvoi_tutor_batt_final_streak_incoming
 hash_102a9a2825b4235d
 hash_4474dccf94ba3621
 mp_offshore.fr
@@ -339,8 +339,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_11895f57fb2ed05
-hash_417649333d51a8d1
+vox_tvoi_tutor_batt_final_streak_incoming
+vox_tvoi_tutor_batt_final_streak_nag
 hash_bb671c089f3cecf
 hash_3e9673ec2a8448e5
 mp_offshore.fr
@@ -349,7 +349,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_417649333d51a8d1
+vox_tvoi_tutor_batt_final_streak_nag
 hash_1a947910e555e559
 hash_22906cbab2adb603
 mp_offshore.fr
@@ -358,7 +358,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_417649333d51a8d1
+vox_tvoi_tutor_batt_final_streak_nag
 hash_29f057d65cab4616
 hash_2c62c7e1ea209570
 mp_offshore.fr
@@ -367,7 +367,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_417649333d51a8d1
+vox_tvoi_tutor_batt_final_streak_nag
 hash_15ea61d74353b5e8
 hash_66e02ac518a2f6be
 mp_offshore.fr
@@ -376,7 +376,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_417649333d51a8d1
+vox_tvoi_tutor_batt_final_streak_nag
 hash_678f01fa6170f505
 hash_792276d8bd13bcb7
 mp_offshore.fr
@@ -385,7 +385,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_417649333d51a8d1
+vox_tvoi_tutor_batt_final_streak_nag
 hash_4a6ca362af598fc7
 hash_6f40538678e07bfd
 mp_offshore.fr
@@ -394,7 +394,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_417649333d51a8d1
+vox_tvoi_tutor_batt_final_streak_nag
 hash_137b01c5ddd9221c
 hash_5a2f736831155ada
 mp_offshore.fr
@@ -403,7 +403,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_417649333d51a8d1
+vox_tvoi_tutor_batt_final_streak_nag
 hash_1f40fb1a55ad95de
 hash_3965a3a67b246180
 mp_offshore.fr
@@ -412,8 +412,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_417649333d51a8d1
-hash_70c47bde48968268
+vox_tvoi_tutor_batt_final_streak_nag
+vox_tvoi_tutor_batt_semtex_0
 hash_201558b0a094c012
 hash_56ec504e2de1f180
 mp_offshore.fr
@@ -422,7 +422,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_70c47bde48968268
+vox_tvoi_tutor_batt_semtex_0
 hash_47f68ed71ef0bcac
 hash_73906baa16c4d04e
 mp_offshore.fr
@@ -431,8 +431,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_70c47bde48968268
-hash_70c47cde4896841b
+vox_tvoi_tutor_batt_semtex_0
+vox_tvoi_tutor_batt_semtex_1
 hash_74ea7252a65c62a5
 hash_77d6edae4f06f97f
 mp_offshore.fr
@@ -441,7 +441,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_70c47cde4896841b
+vox_tvoi_tutor_batt_semtex_1
 hash_79ee707956836b27
 hash_242de2a63e65475
 mp_offshore.fr
@@ -450,8 +450,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_70c47cde4896841b
-hash_14876e22977a8688
+vox_tvoi_tutor_batt_semtex_1
+vox_tvoi_tutor_batt_semtex_arc
 hash_3380d8c0b4951e32
 hash_1b1af3f273b65ec4
 mp_offshore.fr
@@ -459,8 +459,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_14876e22977a8688
-hash_4a3fa914d1ccc37c
+vox_tvoi_tutor_batt_semtex_arc
+vox_tvoi_tutor_batt_semtex_cover_0
 hash_207300c16e8231ea
 hash_13803ab59590fd88
 mp_offshore.fr
@@ -469,7 +469,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_4a3fa914d1ccc37c
+vox_tvoi_tutor_batt_semtex_cover_0
 hash_22870bfc88582e34
 hash_260c337dc7b29466
 mp_offshore.fr
@@ -478,8 +478,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_4a3fa914d1ccc37c
-hash_4a3faa14d1ccc52f
+vox_tvoi_tutor_batt_semtex_cover_0
+vox_tvoi_tutor_batt_semtex_cover_1
 hash_27d5e2cb19ec399d
 hash_367fdff8581e1247
 mp_offshore.fr
@@ -488,7 +488,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_4a3faa14d1ccc52f
+vox_tvoi_tutor_batt_semtex_cover_1
 hash_1b3b195c119095ef
 hash_59cfe4f2a1f2a48d
 mp_offshore.fr
@@ -497,8 +497,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_4a3faa14d1ccc52f
-hash_4a3fab14d1ccc6e2
+vox_tvoi_tutor_batt_semtex_cover_1
+vox_tvoi_tutor_batt_semtex_cover_2
 hash_3c146365191293f4
 hash_2333686be88c206a
 mp_offshore.fr
@@ -507,7 +507,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_4a3fab14d1ccc6e2
+vox_tvoi_tutor_batt_semtex_cover_2
 hash_1c083591a440d106
 hash_1852026ddba5ecd0
 mp_offshore.fr
@@ -516,8 +516,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_4a3fab14d1ccc6e2
-hash_5dd04af8bb689afe
+vox_tvoi_tutor_batt_semtex_cover_2
+vox_tvoi_tutor_batt_semtex_cover_nag
 hash_67825b9fbd749a6c
 hash_3c7a41849b4e9e3a
 mp_offshore.fr
@@ -526,7 +526,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_5dd04af8bb689afe
+vox_tvoi_tutor_batt_semtex_cover_nag
 hash_26684f7cf0ce3e6e
 hash_4546441e12bdefa0
 mp_offshore.fr
@@ -535,7 +535,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_5dd04af8bb689afe
+vox_tvoi_tutor_batt_semtex_cover_nag
 hash_6c9962411ec24115
 hash_6027d10ee2626317
 mp_offshore.fr
@@ -543,7 +543,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_5dd04af8bb689afe
+vox_tvoi_tutor_batt_semtex_cover_nag
 hash_7f981c6caebe1a26
 hash_613e3c3b95d37d0
 mp_offshore.fr
@@ -552,7 +552,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_5dd04af8bb689afe
+vox_tvoi_tutor_batt_semtex_cover_nag
 hash_1761ccd6c2de0b38
 hash_5bfa00697b4e6e5e
 mp_offshore.fr
@@ -561,7 +561,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_5dd04af8bb689afe
+vox_tvoi_tutor_batt_semtex_cover_nag
 hash_10c192074746611f
 hash_3a49b25b44e05f45
 mp_offshore.fr
@@ -570,7 +570,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_5dd04af8bb689afe
+vox_tvoi_tutor_batt_semtex_cover_nag
 hash_260ad8ea95013d29
 hash_7df6a71a0601dda3
 mp_offshore.fr
@@ -579,8 +579,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_5dd04af8bb689afe
-hash_652da27d15a2fbe3
+vox_tvoi_tutor_batt_semtex_cover_nag
+vox_tvoi_tutor_batt_semtex_enemy_0
 hash_5abd1bca2b425d85
 hash_199a0c942b9105bf
 mp_offshore.fr
@@ -589,7 +589,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_652da27d15a2fbe3
+vox_tvoi_tutor_batt_semtex_enemy_0
 hash_7a749941828ccc47
 hash_76b477e3f17a53b5
 mp_offshore.fr
@@ -598,8 +598,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_652da27d15a2fbe3
-hash_652da17d15a2fa30
+vox_tvoi_tutor_batt_semtex_enemy_0
+vox_tvoi_tutor_batt_semtex_enemy_1
 hash_531c461782e66672
 hash_48a626f7a76a73c0
 mp_offshore.fr
@@ -608,7 +608,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_652da17d15a2fa30
+vox_tvoi_tutor_batt_semtex_enemy_1
 hash_6d1993a30fd980cc
 hash_591185658607488e
 mp_offshore.fr
@@ -617,8 +617,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_652da17d15a2fa30
-hash_652da47d15a2ff49
+vox_tvoi_tutor_batt_semtex_enemy_1
+vox_tvoi_tutor_batt_semtex_enemy_2
 hash_4f4a4c9a6dc5a0d7
 hash_472d5aa0887ed609
 mp_offshore.fr
@@ -626,8 +626,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_652da47d15a2ff49
-hash_6dd8907f24c397a9
+vox_tvoi_tutor_batt_semtex_enemy_2
+vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_189d374eccbdd5fb
 hash_4133c41be109ce8d
 mp_offshore.fr
@@ -636,7 +636,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_6dd8907f24c397a9
+vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_6be1dfa6ca1ff9ed
 hash_37bd0e654c20413b
 mp_offshore.fr
@@ -645,7 +645,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_6dd8907f24c397a9
+vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_478d35bb72ec8272
 hash_5f12499ccfa78838
 mp_offshore.fr
@@ -653,7 +653,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_6dd8907f24c397a9
+vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_40a4570567d10bf1
 hash_6b2cacd383a32edf
 mp_offshore.fr
@@ -662,7 +662,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_6dd8907f24c397a9
+vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_2f380d8e153278bb
 hash_a189f9b65085715
 mp_offshore.fr
@@ -671,7 +671,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_6dd8907f24c397a9
+vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_74672be8bc6c3458
 hash_7929e1a7a62f522
 mp_offshore.fr
@@ -679,8 +679,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_6dd8907f24c397a9
-hash_374bbcc2c0a73764
+vox_tvoi_tutor_batt_semtex_enemy_nag
+vox_tvoi_tutor_batt_semtex_enemy_success
 hash_452704ad019f573a
 hash_54090ab493e59cc0
 mp_offshore.fr
@@ -688,8 +688,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_374bbcc2c0a73764
-hash_34021a82d739daed
+vox_tvoi_tutor_batt_semtex_enemy_success
+vox_tvoi_tutor_batt_semtex_miss_nag
 hash_49684f139b473767
 hash_1d3032febf2d769b
 mp_offshore.fr
@@ -698,7 +698,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_34021a82d739daed
+vox_tvoi_tutor_batt_semtex_miss_nag
 hash_63a2c66272ced6a1
 hash_31fb4fbc671a94a9
 mp_offshore.fr
@@ -707,7 +707,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_34021a82d739daed
+vox_tvoi_tutor_batt_semtex_miss_nag
 hash_5aea1a94bb3bb20e
 hash_15430b0bdf0a66be
 mp_offshore.fr
@@ -715,7 +715,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_34021a82d739daed
+vox_tvoi_tutor_batt_semtex_miss_nag
 hash_1521c4b8bd1c84fd
 hash_640aba1d9ab57969
 mp_offshore.fr
@@ -724,7 +724,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_34021a82d739daed
+vox_tvoi_tutor_batt_semtex_miss_nag
 hash_4808467f9c70c70f
 hash_4eacde6ddd3d993f
 mp_offshore.fr
@@ -733,8 +733,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_34021a82d739daed
-hash_7b37d7228954ffca
+vox_tvoi_tutor_batt_semtex_miss_nag
+vox_tvoi_tutor_batt_semtex_nag
 hash_652e500132682924
 hash_3501eed1f530d462
 mp_offshore.fr
@@ -743,7 +743,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_7b37d7228954ffca
+vox_tvoi_tutor_batt_semtex_nag
 hash_6256b7b3c26d75b6
 hash_5d69fdaf299c51f8
 mp_offshore.fr
@@ -752,7 +752,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_7b37d7228954ffca
+vox_tvoi_tutor_batt_semtex_nag
 hash_6a0c559b7afdaaad
 hash_248262d51561521f
 mp_offshore.fr
@@ -760,7 +760,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7b37d7228954ffca
+vox_tvoi_tutor_batt_semtex_nag
 hash_7d8b40fa26cedefe
 hash_48facd4721572278
 mp_offshore.fr
@@ -769,7 +769,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_7b37d7228954ffca
+vox_tvoi_tutor_batt_semtex_nag
 hash_2076f91763cceda0
 hash_3127ec3cbf463fd6
 mp_offshore.fr
@@ -778,7 +778,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_7b37d7228954ffca
+vox_tvoi_tutor_batt_semtex_nag
 hash_4adad12e5f272ed7
 hash_1d873f50ab43c3cd
 mp_offshore.fr
@@ -787,7 +787,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_7b37d7228954ffca
+vox_tvoi_tutor_batt_semtex_nag
 hash_4f06e01b589998d1
 hash_47ed2f4e0464e07b
 mp_offshore.fr
@@ -796,8 +796,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_7b37d7228954ffca
-hash_56aeece2ec363494
+vox_tvoi_tutor_batt_semtex_nag
+vox_tvoi_tutor_batt_semtex_room_0
 hash_649f0ac08b96013a
 hash_55ef896d1e8bb212
 mp_offshore.fr
@@ -805,8 +805,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_56aeece2ec363494
-hash_56aeede2ec363647
+vox_tvoi_tutor_batt_semtex_room_0
+vox_tvoi_tutor_batt_semtex_room_1
 hash_4e4e47267c29452d
 hash_7008832e5b8624b9
 mp_offshore.fr
@@ -815,7 +815,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_56aeede2ec363647
+vox_tvoi_tutor_batt_semtex_room_1
 hash_43eef89506144ebf
 hash_1291cff876af24cf
 mp_offshore.fr
@@ -824,8 +824,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_56aeede2ec363647
-hash_56aeeee2ec3637fa
+vox_tvoi_tutor_batt_semtex_room_1
+vox_tvoi_tutor_batt_semtex_room_2
 hash_2e37c29df5de3004
 hash_190e6f859fd7c830
 mp_offshore.fr
@@ -833,8 +833,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_56aeeee2ec3637fa
-hash_581e7d390944eea6
+vox_tvoi_tutor_batt_semtex_room_2
+vox_tvoi_tutor_batt_semtex_room_nag
 hash_53deaf02699a185c
 hash_419e6a7230d0bbc4
 mp_offshore.fr
@@ -842,7 +842,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_581e7d390944eea6
+vox_tvoi_tutor_batt_semtex_room_nag
 hash_731a6dbd259d845
 hash_b60f064bca72ce9
 mp_offshore.fr
@@ -851,7 +851,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_581e7d390944eea6
+vox_tvoi_tutor_batt_semtex_room_nag
 hash_5008d46e0b36fa07
 hash_622fe6cf061dd8bf
 mp_offshore.fr
@@ -860,7 +860,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_581e7d390944eea6
+vox_tvoi_tutor_batt_semtex_room_nag
 hash_3ed7da959be6b556
 hash_3c99415300fc1a3e
 mp_offshore.fr
@@ -868,8 +868,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_581e7d390944eea6
-hash_fb7019d42721bca
+vox_tvoi_tutor_batt_semtex_room_nag
+vox_tvoi_tutor_batt_slide_2_0
 hash_17f44c345b3ac160
 hash_1371ddbf077d4d1c
 mp_offshore.fr
@@ -878,7 +878,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_fb7019d42721bca
+vox_tvoi_tutor_batt_slide_2_0
 hash_3ad7e2bd3842901a
 hash_514f40981ee15bc2
 mp_offshore.fr
@@ -887,8 +887,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_fb7019d42721bca
-hash_fb7029d42721d7d
+vox_tvoi_tutor_batt_slide_2_0
+vox_tvoi_tutor_batt_slide_2_1
 hash_51a1f59371bb8dcb
 hash_5f8b7c133294f9eb
 mp_offshore.fr
@@ -897,7 +897,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_fb7029d42721d7d
+vox_tvoi_tutor_batt_slide_2_1
 hash_7dfd80eda0bb2f7d
 hash_726f71ee14556e79
 mp_offshore.fr
@@ -906,8 +906,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_fb7029d42721d7d
-hash_52d732004d3b4bcc
+vox_tvoi_tutor_batt_slide_2_1
+vox_tvoi_tutor_batt_slide_2_nag
 hash_787987e14eac9e7a
 hash_2adf81fcaf25355e
 mp_offshore.fr
@@ -915,7 +915,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_52d732004d3b4bcc
+vox_tvoi_tutor_batt_slide_2_nag
 hash_54dc40a993adb23
 hash_1710f9b05bb01ebb
 mp_offshore.fr
@@ -924,7 +924,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_52d732004d3b4bcc
+vox_tvoi_tutor_batt_slide_2_nag
 hash_5c46790772043b25
 hash_408db6aec0bd4409
 mp_offshore.fr
@@ -933,7 +933,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_52d732004d3b4bcc
+vox_tvoi_tutor_batt_slide_2_nag
 hash_20ed9797ea1c8b20
 hash_6d3b31465f8922e4
 mp_offshore.fr
@@ -942,7 +942,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_52d732004d3b4bcc
+vox_tvoi_tutor_batt_slide_2_nag
 hash_24ba5b24e541dada
 hash_63071dec4eca0dba
 mp_offshore.fr
@@ -951,8 +951,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_52d732004d3b4bcc
-hash_281160c4a36c9dd0
+vox_tvoi_tutor_batt_slide_2_nag
+vox_tvoi_tutor_batt_swim_0
 hash_72375bbf7be5874e
 hash_34081e6f4bc1345c
 mp_offshore.fr
@@ -960,8 +960,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_281160c4a36c9dd0
-hash_281161c4a36c9f83
+vox_tvoi_tutor_batt_swim_0
+vox_tvoi_tutor_batt_swim_1
 hash_473d09450cd2bd21
 hash_54bc84d1a3f2772b
 mp_offshore.fr
@@ -969,8 +969,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_281161c4a36c9f83
-hash_4ab40574c0003197
+vox_tvoi_tutor_batt_swim_1
+vox_tvoi_tutor_batt_swim_comp
 hash_2d1d2d5fcedd3ce1
 hash_9277e27c402253d
 mp_offshore.fr
@@ -978,8 +978,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_4ab40574c0003197
-hash_7a2f183f7483bbe2
+vox_tvoi_tutor_batt_swim_comp
+vox_tvoi_tutor_batt_swim_nag
 hash_7585f20888699d20
 hash_3f550220a1a3111e
 mp_offshore.fr
@@ -987,7 +987,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7a2f183f7483bbe2
+vox_tvoi_tutor_batt_swim_nag
 hash_1ec3e31d2997019
 hash_6ba646e17467637b
 mp_offshore.fr
@@ -995,7 +995,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7a2f183f7483bbe2
+vox_tvoi_tutor_batt_swim_nag
 hash_4d11e251ecf9b07a
 hash_16512747d0d54ca4
 mp_offshore.fr
@@ -1003,8 +1003,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7a2f183f7483bbe2
-hash_5f6e6dc213939355
+vox_tvoi_tutor_batt_swim_nag
+vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_31e6ddb090f76a6b
 hash_1f2352ffd400c439
 mp_offshore.fr
@@ -1012,7 +1012,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_5f6e6dc213939355
+vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_3c19afc0606a3d62
 hash_3c2d0741c7b8ce14
 mp_offshore.fr
@@ -1021,7 +1021,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_5f6e6dc213939355
+vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_5292f7221fcb323c
 hash_20a4fbc00c15002a
 mp_offshore.fr
@@ -1030,7 +1030,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_5f6e6dc213939355
+vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_27ba828845428a1
 hash_3fb0fa719227296b
 mp_offshore.fr
@@ -1039,7 +1039,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_5f6e6dc213939355
+vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_5f8a677c23d050eb
 hash_61a81cee61dd89f9
 mp_offshore.fr
@@ -1048,7 +1048,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_5f6e6dc213939355
+vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_121774b0bb341508
 hash_4a2164bf2aae984e
 mp_offshore.fr
@@ -1056,8 +1056,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_5f6e6dc213939355
-hash_6385b89e518f7792
+vox_tvoi_tutor_batt_swim_to_marker_nag
+vox_tvoi_tutor_batt_war_mach_0
 hash_12e73dfb859ad2f0
 hash_4898c88853a6523e
 mp_offshore.fr
@@ -1065,8 +1065,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_6385b89e518f7792
-hash_6385b99e518f7945
+vox_tvoi_tutor_batt_war_mach_0
+vox_tvoi_tutor_batt_war_mach_1
 hash_2b69368d3c4ab1b
 hash_16cba70ad09c42f5
 mp_offshore.fr
@@ -1075,7 +1075,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_6385b99e518f7945
+vox_tvoi_tutor_batt_war_mach_1
 hash_58cec21aa4e57d4d
 hash_562e60a73f0f8693
 mp_offshore.fr
@@ -1084,8 +1084,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_6385b99e518f7945
-hash_3dc8e508b25425a5
+vox_tvoi_tutor_batt_war_mach_1
+vox_tvoi_tutor_batt_war_mach_arc_0
 hash_46190663d0b90ecf
 hash_70776c7dec82a9f1
 mp_offshore.fr
@@ -1094,7 +1094,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_3dc8e508b25425a5
+vox_tvoi_tutor_batt_war_mach_arc_0
 hash_5ef19c82a2ad2559
 hash_48619a217aba5cf7
 mp_offshore.fr
@@ -1103,8 +1103,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_3dc8e508b25425a5
-hash_6923d897f72b52d4
+vox_tvoi_tutor_batt_war_mach_arc_0
+vox_tvoi_tutor_batt_war_mach_arc_comp
 hash_17e7c8e339defb9a
 hash_17cd1604e35008e2
 mp_offshore.fr
@@ -1113,7 +1113,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_6923d897f72b52d4
+vox_tvoi_tutor_batt_war_mach_arc_comp
 hash_38a6a772f58017a4
 hash_2e864a3b61293a78
 mp_offshore.fr
@@ -1122,8 +1122,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_6923d897f72b52d4
-hash_3a85e22c955daf0b
+vox_tvoi_tutor_batt_war_mach_arc_comp
+vox_tvoi_tutor_batt_war_mach_arc_nag
 hash_4d0a6a2465845bfd
 hash_623f6d9eab8a7a4f
 mp_offshore.fr
@@ -1131,7 +1131,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_3a85e22c955daf0b
+vox_tvoi_tutor_batt_war_mach_arc_nag
 hash_20f86afbe13377b4
 hash_21c7b3cf41bd8d52
 mp_offshore.fr
@@ -1139,7 +1139,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_3a85e22c955daf0b
+vox_tvoi_tutor_batt_war_mach_arc_nag
 hash_150f47f43af0e67
 hash_271f5644e01e263d
 mp_offshore.fr
@@ -1148,7 +1148,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_3a85e22c955daf0b
+vox_tvoi_tutor_batt_war_mach_arc_nag
 hash_52150bc42d1545a1
 hash_4a7128f000d7baeb
 mp_offshore.fr
@@ -1157,8 +1157,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_3a85e22c955daf0b
-hash_5b2fd295bb5869fc
+vox_tvoi_tutor_batt_war_mach_arc_nag
+vox_tvoi_tutor_batt_war_mach_area_0
 hash_6d9c92a9417bfbde
 hash_4c9d543faa31f726
 mp_offshore.fr
@@ -1167,7 +1167,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_5b2fd295bb5869fc
+vox_tvoi_tutor_batt_war_mach_area_0
 hash_622a882463e0c0c0
 hash_310896a6a22b82b4
 mp_offshore.fr
@@ -1176,8 +1176,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_5b2fd295bb5869fc
-hash_5b2fd395bb586baf
+vox_tvoi_tutor_batt_war_mach_area_0
+vox_tvoi_tutor_batt_war_mach_area_1
 hash_1458f7740a3db1
 hash_7bba9fb9d7cc13fd
 mp_offshore.fr
@@ -1185,8 +1185,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_5b2fd395bb586baf
-hash_5b2fd495bb586d62
+vox_tvoi_tutor_batt_war_mach_area_1
+vox_tvoi_tutor_batt_war_mach_area_2
 hash_6a57d22eae5009d8
 hash_6165156707bc12b4
 mp_offshore.fr
@@ -1194,8 +1194,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_5b2fd495bb586d62
-hash_5b2fd595bb586f15
+vox_tvoi_tutor_batt_war_mach_area_2
+vox_tvoi_tutor_batt_war_mach_area_3
 hash_58d26738109da223
 hash_490011065d4ed5e3
 mp_offshore.fr
@@ -1203,8 +1203,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_5b2fd595bb586f15
-hash_73ed12cc4469c57e
+vox_tvoi_tutor_batt_war_mach_area_3
+vox_tvoi_tutor_batt_war_mach_area_nag
 hash_61391a801aa086d0
 hash_76f050cb1f3cc748
 mp_offshore.fr
@@ -1212,7 +1212,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_73ed12cc4469c57e
+vox_tvoi_tutor_batt_war_mach_area_nag
 hash_1888cab006864cc9
 hash_19024a77d2c13edd
 mp_offshore.fr
@@ -1220,7 +1220,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_73ed12cc4469c57e
+vox_tvoi_tutor_batt_war_mach_area_nag
 hash_622d358ad8349faa
 hash_663b29c3dc71ca72
 mp_offshore.fr
@@ -1229,7 +1229,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_73ed12cc4469c57e
+vox_tvoi_tutor_batt_war_mach_area_nag
 hash_1267ec5c8a2dbcf4
 hash_6d9a747c16e2de08
 mp_offshore.fr
@@ -1238,7 +1238,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_73ed12cc4469c57e
+vox_tvoi_tutor_batt_war_mach_area_nag
 hash_70826af96b745d13
 hash_53fa1e6574569eef
 mp_offshore.fr
@@ -1246,8 +1246,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_73ed12cc4469c57e
-hash_4e12d56aa916db41
+vox_tvoi_tutor_batt_war_mach_area_nag
+vox_tvoi_tutor_batt_war_mach_bounce_0
 hash_33306768cf4be57f
 hash_513fd4578123807
 mp_offshore.fr
@@ -1256,7 +1256,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_4e12d56aa916db41
+vox_tvoi_tutor_batt_war_mach_bounce_0
 hash_59ee913149928f49
 hash_35d8a9f7f889574d
 mp_offshore.fr
@@ -1265,8 +1265,8 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_4e12d56aa916db41
-hash_4e12d46aa916d98e
+vox_tvoi_tutor_batt_war_mach_bounce_0
+vox_tvoi_tutor_batt_war_mach_bounce_1
 hash_2676dd3ade43fc84
 hash_6b206f6b81660c48
 mp_offshore.fr
@@ -1274,8 +1274,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_4e12d46aa916d98e
-hash_ac50883aac8488
+vox_tvoi_tutor_batt_war_mach_bounce_1
+vox_tvoi_tutor_batt_war_mach_bounce_comp
 hash_6630890b7012d22a
 hash_6774e2062970eaa4
 mp_offshore.fr
@@ -1283,8 +1283,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_ac50883aac8488
-hash_6d25f9768578adff
+vox_tvoi_tutor_batt_war_mach_bounce_comp
+vox_tvoi_tutor_batt_war_mach_bounce_miss
 hash_1b247f568387a3c9
 hash_161bfdd2467fe0f
 mp_offshore.fr
@@ -1292,7 +1292,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_6d25f9768578adff
+vox_tvoi_tutor_batt_war_mach_bounce_miss
 hash_63d4cf2697a1ddd0
 hash_53e838fba97e2112
 mp_offshore.fr
@@ -1300,7 +1300,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_6d25f9768578adff
+vox_tvoi_tutor_batt_war_mach_bounce_miss
 hash_731e1f9fe875b413
 hash_4f0ca6496864f6fd
 mp_offshore.fr
@@ -1308,8 +1308,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_6d25f9768578adff
-hash_216720671b1b0bd8
+vox_tvoi_tutor_batt_war_mach_bounce_miss
+vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_54d562d1f9be4d2
 hash_64b0245ab986a774
 mp_offshore.fr
@@ -1318,7 +1318,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_216720671b1b0bd8
+vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_63de8a7914bb246c
 hash_3f76621fdd18daca
 mp_offshore.fr
@@ -1327,7 +1327,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_216720671b1b0bd8
+vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_287af55556defadb
 hash_4f8d956e7c30ef19
 mp_offshore.fr
@@ -1336,7 +1336,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_216720671b1b0bd8
+vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_35432f7096e1150d
 hash_603141c8b0e0ceef
 mp_offshore.fr
@@ -1345,7 +1345,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_216720671b1b0bd8
+vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_35854abb6d97cb8
 hash_589571cdd47132ae
 mp_offshore.fr
@@ -1354,7 +1354,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_216720671b1b0bd8
+vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_240abb561c649602
 hash_12aadcee053e2a8c
 mp_offshore.fr
@@ -1363,7 +1363,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_216720671b1b0bd8
+vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_4f957fc8623e5451
 hash_67498c26b11d68cb
 mp_offshore.fr
@@ -1371,8 +1371,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_216720671b1b0bd8
-hash_324ec2f3d371715e
+vox_tvoi_tutor_batt_war_mach_direct_miss
+vox_tvoi_tutor_batt_war_mach_gear_0
 hash_593239cbb51087b4
 hash_4a46e09a93c7a58c
 mp_offshore.fr
@@ -1380,8 +1380,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_324ec2f3d371715e
-hash_324ec3f3d3717311
+vox_tvoi_tutor_batt_war_mach_gear_0
+vox_tvoi_tutor_batt_war_mach_gear_1
 hash_472724e15e5d3af
 hash_216015c2d049e55b
 mp_offshore.fr
@@ -1389,8 +1389,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_324ec3f3d3717311
-hash_74ef556ec3948300
+vox_tvoi_tutor_batt_war_mach_gear_1
+vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_25666007f3b5cbee
 hash_102e467d91dd5c2e
 mp_offshore.fr
@@ -1399,7 +1399,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_74ef556ec3948300
+vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_56d7c8cbd31d7210
 hash_3d253ce2975d500c
 mp_offshore.fr
@@ -1408,7 +1408,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_74ef556ec3948300
+vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_1c9d8c30a0e63647
 hash_1ee260d66e89924b
 mp_offshore.fr
@@ -1416,7 +1416,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_74ef556ec3948300
+vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_e62a0421bdc6214
 hash_1c48f90a76f2d0f4
 mp_offshore.fr
@@ -1424,7 +1424,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_74ef556ec3948300
+vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_63040a2bf879c7dd
 hash_7266a1e399d1899
 mp_offshore.fr
@@ -1432,8 +1432,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_74ef556ec3948300
-hash_fbb33cda7463db4
+vox_tvoi_tutor_batt_war_mach_gear_nag
+vox_tvoi_tutor_batt_war_mach_gib
 hash_45ddf0f185f54c2
 hash_e9eed44e9b6ace0
 mp_offshore.fr
@@ -1441,8 +1441,8 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_fbb33cda7463db4
-hash_707aff02c0ababb9
+vox_tvoi_tutor_batt_war_mach_gib
+vox_tvoi_tutor_batt_war_mach_gib_nag
 hash_165e4f0813054d03
 hash_7d3718f11875fd21
 mp_offshore.fr
@@ -1450,7 +1450,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_707aff02c0ababb9
+vox_tvoi_tutor_batt_war_mach_gib_nag
 hash_5e0ce8617befd65a
 hash_53850b9f110f0a3c
 mp_offshore.fr
@@ -1458,7 +1458,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_707aff02c0ababb9
+vox_tvoi_tutor_batt_war_mach_gib_nag
 hash_3d77d97b1e62f379
 hash_78d1b4a9575bfa53
 mp_offshore.fr
@@ -1466,7 +1466,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_707aff02c0ababb9
+vox_tvoi_tutor_batt_war_mach_gib_nag
 vox_tvoi_tutor_fire_archway_attack
 hash_1d339f910a8ceb6
 hash_39e2d00653f26188
@@ -1686,7 +1686,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_fire_core_enemy1_kill
-hash_7b33a3f827ddaef1
+vox_tvoi_tutor_fire_core_enemy2_0
 hash_40fceb92a632c38f
 hash_723bd267fdbc8353
 mp_offshore.fr
@@ -1694,7 +1694,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_7b33a3f827ddaef1
+vox_tvoi_tutor_fire_core_enemy2_0
 vox_tvoi_tutor_fire_core_enemy2_1
 hash_190788f25f555314
 hash_2e279f14276cae24
@@ -1985,7 +1985,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_fire_final_player_dead
-hash_f9b7edd1ef40353
+vox_tvoi_tutor_fire_final_start
 hash_38387454475c1699
 hash_65a7ca41f666e3d
 mp_offshore.fr
@@ -1993,7 +1993,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_f9b7edd1ef40353
+vox_tvoi_tutor_fire_final_start
 vox_tvoi_tutor_fire_gas_gauge_00
 hash_9aeb1b74ce097a0
 hash_2de632fab041f2a2
@@ -2347,7 +2347,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_fire_score_strafe_1
-hash_3a83ea2bf1734d85
+vox_tvoi_tutor_fire_score_strafe_2
 hash_45192093b59e60a3
 hash_49f8630c89d7a905
 mp_offshore.fr
@@ -2355,7 +2355,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_3a83ea2bf1734d85
+vox_tvoi_tutor_fire_score_strafe_2
 vox_tvoi_tutor_fire_slide_10_1
 hash_5d2ae14f6d22ece9
 hash_10c5466e5715a7e3
@@ -2464,7 +2464,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_fire_slide_2_nag
-hash_142d992b89233804
+vox_tvoi_tutor_fire_slide_3_0
 hash_e064b1e240510be
 hash_322c627443d1da42
 mp_offshore.fr
@@ -2473,7 +2473,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 explicit
-hash_142d992b89233804
+vox_tvoi_tutor_fire_slide_3_0
 hash_21367cce6488e060
 hash_164b91449d0ba898
 mp_offshore.fr
@@ -2482,7 +2482,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 safe
-hash_142d992b89233804
+vox_tvoi_tutor_fire_slide_3_0
 vox_tvoi_tutor_fire_slide_4_0
 hash_48d401be462a6de3
 hash_3b428a281f2e8ad7
@@ -2553,7 +2553,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_fire_slide_5_1
-hash_495f012ba79c98fc
+vox_tvoi_tutor_fire_slide_5_2
 hash_6e08a8b4ea370506
 hash_60f7e91b478e83d2
 mp_offshore.fr
@@ -2561,7 +2561,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_495f012ba79c98fc
+vox_tvoi_tutor_fire_slide_5_2
 vox_tvoi_tutor_fire_slide_5_fail
 hash_1ae54b95532f1224
 hash_7908845ee4d32932
@@ -2674,7 +2674,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_fire_slide_6_0
-hash_300c7d2b9974fcb0
+vox_tvoi_tutor_fire_slide_6_1
 hash_3dd609e80a75368a
 hash_3642744dc47a526
 mp_offshore.fr
@@ -2682,7 +2682,7 @@ mp_offshore.fr
 mp_offshore.fr
 mpl_announcer
 mature
-hash_300c7d2b9974fcb0
+vox_tvoi_tutor_fire_slide_6_1
 vox_tvoi_tutor_fire_slide_7_0
 hash_58276bd357e58952
 hash_5defb8e0403049be
@@ -2719,7 +2719,7 @@ mp_offshore.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_fire_start_1
-hash_2b079b9bf1d081fd
+mp_offshore_fr_stream
 hash_1da186a94a642948
 hash_4136679d9b199dab
 hash_2caa8c763ccd462

@@ -32,13 +32,13 @@ function _init_()
     zombie_utility::add_zombie_gib_weapon_callback( #"ww_freezegun_t8_upgraded", &function_3eedf19c, &function_3eedf19c );
     clientfield::register( "actor", "" + #"freezegun_shatter_fx", 1, 1, "int" );
     clientfield::register( "actor", "" + #"freezegun_crumple_fx", 1, 1, "int" );
-    clientfield::register( "actor", "" + #"hash_26d3eeef96a2291e", 1, 1, "int" );
-    clientfield::register( "actor", "" + #"hash_32ec41222f58aa75", 1, 1, "int" );
+    clientfield::register( "actor", "" + #"freezegun_shatter_upgraded_fx", 1, 1, "int" );
+    clientfield::register( "actor", "" + #"freezegun_crumple_upgraded_fx", 1, 1, "int" );
     clientfield::register( "actor", "" + #"hash_259cdeffe60fe48f", 1, 1, "int" );
     clientfield::register( "actor", "" + #"hash_1aa3522b88c2b76f", 1, 1, "int" );
     clientfield::register( "actor", "" + #"hash_5ad28d5f104a6e3b", 1, 1, "int" );
     namespace_9ff9f642::register_slowdown( #"freezegun_slowdown", 0.85, 10 );
-    namespace_9ff9f642::register_slowdown( #"hash_5a1a7bceb3b8fded", 0.65, 15 );
+    namespace_9ff9f642::register_slowdown( #"freezegun_slowdown_big", 0.65, 15 );
     level.var_58e6238 = &mp_dom_flag_d_captured_byinterfaceattributes;
     level.var_f975b6ae = &function_9a01c5b0;
 }
@@ -102,7 +102,7 @@ function function_b65fd5ae( params )
     
     if ( self.var_4592c713 || params.weapon == level.w_freezegun_upgraded )
     {
-        var_bdbde2d2 = #"hash_5a1a7bceb3b8fded";
+        var_bdbde2d2 = #"freezegun_slowdown_big";
     }
     
     if ( self.archetype != #"zombie_dog" )
@@ -128,7 +128,7 @@ function slow_watcher( var_bdbde2d2 )
     self.var_4592c713 = 1;
     n_wait = 10;
     
-    if ( var_bdbde2d2 == #"hash_5a1a7bceb3b8fded" )
+    if ( var_bdbde2d2 == #"freezegun_slowdown_big" )
     {
         n_wait = 15;
     }
@@ -409,7 +409,7 @@ function freezegun_death( params )
     self.skip_death_notetracks = 1;
     self.nodeathragdoll = 1;
     self.var_606a4641 = params;
-    self playsound( #"hash_2039f8c77ff89659" );
+    self playsound( #"prj_winters_howl_freeze" );
 }
 
 // Namespace zm_weap_freezegun/zm_weap_freezegun
@@ -680,13 +680,13 @@ function function_1cdfba74( is_upgraded )
 {
     if ( is_upgraded )
     {
-        self clientfield::set( "" + #"hash_26d3eeef96a2291e", 1 );
-        self playsound( #"hash_3bed1320e59a493c" );
+        self clientfield::set( "" + #"freezegun_shatter_upgraded_fx", 1 );
+        self playsound( #"evt_winters_howl_shatter" );
         return;
     }
     
     self clientfield::set( "" + #"freezegun_shatter_fx", 1 );
-    self playsound( #"hash_3bed1320e59a493c" );
+    self playsound( #"evt_winters_howl_shatter" );
 }
 
 // Namespace zm_weap_freezegun/zm_weap_freezegun
@@ -697,13 +697,13 @@ function function_c61abffb( is_upgraded )
 {
     if ( is_upgraded )
     {
-        self clientfield::set( "" + #"hash_32ec41222f58aa75", 1 );
-        self playsound( #"hash_55070bed4172e08c" );
+        self clientfield::set( "" + #"freezegun_crumple_upgraded_fx", 1 );
+        self playsound( #"evt_winters_howl_collapse" );
         return;
     }
     
     self clientfield::set( "" + #"freezegun_crumple_fx", 1 );
-    self playsound( #"hash_55070bed4172e08c" );
+    self playsound( #"evt_winters_howl_collapse" );
 }
 
 // Namespace zm_weap_freezegun/zm_weap_freezegun

@@ -158,7 +158,7 @@
                 {
                     if ( isplayer( player ) )
                     {
-                        player luinotifyevent( #"score_event", 2, #"hash_60899927812586a1", score );
+                        player luinotifyevent( #"score_event", 2, #"zmscore/alive_round_end", score );
                         break;
                     }
                 }
@@ -1202,12 +1202,12 @@
     // Size: 0x370, Type: dev
     function function_3b534f9c()
     {
-        level.zombie_devgui_gun = getdvarstring( #"hash_1c9225f4f6e82068" );
+        level.zombie_devgui_gun = getdvarstring( #"zombie_devgui_gun_player1" );
         
         for ( ;; )
         {
             wait 0.1;
-            cmd = getdvarstring( #"hash_1c9225f4f6e82068" );
+            cmd = getdvarstring( #"zombie_devgui_gun_player1" );
             
             if ( isdefined( cmd ) && cmd.size > 0 )
             {
@@ -1219,11 +1219,11 @@
                     players[ 0 ] thread zombie_devgui_weapon_give( level.zombie_devgui_gun );
                 }
                 
-                setdvar( #"hash_1c9225f4f6e82068", "<dev string:x38>" );
+                setdvar( #"zombie_devgui_gun_player1", "<dev string:x38>" );
             }
             
             wait 0.1;
-            cmd = getdvarstring( #"hash_1c9228f4f6e82581" );
+            cmd = getdvarstring( #"zombie_devgui_gun_player2" );
             
             if ( isdefined( cmd ) && cmd.size > 0 )
             {
@@ -1235,11 +1235,11 @@
                     players[ 1 ] thread zombie_devgui_weapon_give( level.zombie_devgui_gun );
                 }
                 
-                setdvar( #"hash_1c9228f4f6e82581", "<dev string:x38>" );
+                setdvar( #"zombie_devgui_gun_player2", "<dev string:x38>" );
             }
             
             wait 0.1;
-            cmd = getdvarstring( #"hash_1c9227f4f6e823ce" );
+            cmd = getdvarstring( #"zombie_devgui_gun_player3" );
             
             if ( isdefined( cmd ) && cmd.size > 0 )
             {
@@ -1251,11 +1251,11 @@
                     players[ 2 ] thread zombie_devgui_weapon_give( level.zombie_devgui_gun );
                 }
                 
-                setdvar( #"hash_1c9227f4f6e823ce", "<dev string:x38>" );
+                setdvar( #"zombie_devgui_gun_player3", "<dev string:x38>" );
             }
             
             wait 0.1;
-            cmd = getdvarstring( #"hash_1c922af4f6e828e7" );
+            cmd = getdvarstring( #"zombie_devgui_gun_player4" );
             
             if ( isdefined( cmd ) && cmd.size > 0 )
             {
@@ -1267,7 +1267,7 @@
                     players[ 3 ] thread zombie_devgui_weapon_give( level.zombie_devgui_gun );
                 }
                 
-                setdvar( #"hash_1c922af4f6e828e7", "<dev string:x38>" );
+                setdvar( #"zombie_devgui_gun_player4", "<dev string:x38>" );
             }
         }
     }
@@ -1734,7 +1734,7 @@
                     players = getplayers();
                     array::thread_all( players, &function_dc7312be );
                     break;
-                case #"hash_428dbd0a89fc5d32":
+                case #"player1_ammodown":
                     players = getplayers();
                     
                     if ( players.size >= 1 )
@@ -1743,7 +1743,7 @@
                     }
                     
                     break;
-                case #"hash_119220b211e16ba9":
+                case #"player2_ammodown":
                     players = getplayers();
                     
                     if ( players.size >= 2 )
@@ -1752,7 +1752,7 @@
                     }
                     
                     break;
-                case #"hash_6cdf097974c7bcd0":
+                case #"player3_ammodown":
                     players = getplayers();
                     
                     if ( players.size >= 3 )
@@ -1761,7 +1761,7 @@
                     }
                     
                     break;
-                case #"hash_5e281497ef267e37":
+                case #"player4_ammodown":
                     players = getplayers();
                     
                     if ( players.size >= 4 )
@@ -2111,7 +2111,7 @@
                     }
                     
                     break;
-                case #"hash_2c320318aed843b2":
+                case #"100_self_revives":
                     array::thread_all( getplayers(), &zm_laststand::function_3d685b5f, 100 );
                     break;
                 case #"hash_72783b08840a3ab7":
@@ -2289,7 +2289,7 @@
                 case #"pack_current_weapon":
                     zombie_devgui_pack_current_weapon();
                     break;
-                case #"hash_f9c9f7dd75a4047":
+                case #"rank_up_player":
                     function_8c9f2dea();
                     break;
                 case #"hash_5605531ad17b5408":
@@ -2307,7 +2307,7 @@
                 case #"unpack_current_weapon":
                     zombie_devgui_unpack_current_weapon();
                     break;
-                case #"hash_3c2b067b1510118c":
+                case #"rank_up_current_weapon":
                     function_c8949116();
                     break;
                 case #"hash_769c6d03952dd107":
@@ -2439,7 +2439,7 @@
                 case #"keyline_always":
                     zombie_devgui_keyline_always();
                     break;
-                case #"hash_1e51dfcdbebdf936":
+                case #"toggle_round_timeout":
                     robotsupportsovercover_manager_();
                     break;
                 case #"debug_counts":
@@ -2469,19 +2469,19 @@
                 case #"hash_3f826ccc785705ba":
                     function_26417ea7();
                     break;
-                case #"hash_683b625d2ace3726":
-                    function_fb88b423();
+                case #"knockdown_all_ai":
+                    knockdown_all_ai();
                     break;
                 case #"hash_3f9e70ff9f34194a":
                     function_1b531660();
                     break;
-                case #"hash_4369eeba583c6d2d":
+                case #"give_weapon_charm":
                     function_61a7bb28();
                     break;
-                case #"hash_757311298fe0366e":
+                case #"cycle_weapon_charm":
                     function_184b9c6a();
                     break;
-                case #"hash_27a8af524430a8e1":
+                case #"reset_weapon_charm":
                     function_986a2585();
                     break;
                 case #"cycle_death_fx":
@@ -4004,7 +4004,7 @@
                     players[ i ] takeweapon( weap );
                     weapon = players[ i ] zm_weapons::give_build_kit_weapon( weapon );
                     players[ i ] thread aat::remove( weapon );
-                    players[ i ] zm_weapons::function_7c5dd4bd( weapon );
+                    players[ i ] zm_weapons::give_full_ammo( weapon );
                     players[ i ] switchtoweapon( weapon );
                 }
             }
@@ -4054,7 +4054,7 @@
                 weapon = zm_weapons::get_base_weapon( weap );
                 players[ i ] takeweapon( weap );
                 weapon = players[ i ] zm_weapons::give_build_kit_weapon( weapon );
-                players[ i ] zm_weapons::function_7c5dd4bd( weapon );
+                players[ i ] zm_weapons::give_full_ammo( weapon );
                 players[ i ] switchtoweapon( weapon );
             }
         }
@@ -4448,7 +4448,7 @@
                 
                 players[ i ] takeweapon( weapon );
                 weapon = players[ i ] zm_weapons::give_build_kit_weapon( weapon );
-                players[ i ] zm_weapons::function_7c5dd4bd( weapon );
+                players[ i ] zm_weapons::give_full_ammo( weapon );
                 players[ i ] switchtoweapon( weapon );
             }
         }
@@ -5602,7 +5602,7 @@
     // Params 0
     // Checksum 0x3054d939, Offset: 0x103a0
     // Size: 0xa8, Type: dev
-    function function_fb88b423()
+    function knockdown_all_ai()
     {
         zombies = getaiarray();
         
@@ -5695,13 +5695,13 @@
         self notify( "<dev string:x12e5>" );
         self endon( "<dev string:x12e5>" );
         function_7c9dd642();
-        setdvar( #"hash_46eec505e691414c", "<dev string:x38>" );
+        setdvar( #"scr_zm_inventory_clientfield", "<dev string:x38>" );
         setdvar( #"hash_74f1952a0f93d08e", -1 );
         
         while ( true )
         {
             wait 0.1;
-            var_9261da43 = getdvar( #"hash_46eec505e691414c", "<dev string:x38>" );
+            var_9261da43 = getdvar( #"scr_zm_inventory_clientfield", "<dev string:x38>" );
             var_10acd4fa = getdvar( #"hash_74f1952a0f93d08e", -1 );
             
             if ( var_9261da43 == "<dev string:x38>" && var_10acd4fa == -1 )
@@ -5732,7 +5732,7 @@
                 }
             }
             
-            setdvar( #"hash_46eec505e691414c", "<dev string:x38>" );
+            setdvar( #"scr_zm_inventory_clientfield", "<dev string:x38>" );
             setdvar( #"hash_74f1952a0f93d08e", -1 );
         }
     }

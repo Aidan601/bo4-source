@@ -1,5 +1,5 @@
 {
-    "name": "#hash_445814b424a54866",
+    "name": "#bare_hands_bounty_tier_two_mp",
     "baseWeapon": "#hash_7932008294f0d876",
     "displayname": "#weapon/bare_hands",
     "weapon70": "#bare_hands",
@@ -30,7 +30,7 @@
     "#hash_554be9f7": false,
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
-    "tunables1": "#hash_4607d63321961635",
+    "tunables1": "#bare_hands_bounty_tier_two_tunables_mp",
     "sharedWeaponSounds": "#fist",
     "viewmodel": [
         "#wpn_t7_none_view"

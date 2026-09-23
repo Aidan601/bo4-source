@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_grenade",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_grenade",
     "name": "charm_grenade",
-    "displayname": "localized17#hash_1fbb95fc21a2e733",
+    "displayname": "localized17#menu/charm_grenade",
     "icon": "ui_icon_weapon_charms_grenade",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_grenade"

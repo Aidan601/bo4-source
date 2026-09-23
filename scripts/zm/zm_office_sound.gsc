@@ -54,7 +54,7 @@ function function_f71796ca()
     {
         s_notify = self waittill( #"trigger_activated" );
         playsoundatposition( str_alias, self.origin );
-        level notify( #"hash_66f9802695ce6503", { #var_6831e121:self.script_int } );
+        level notify( #"morse_code_activated", { #var_6831e121:self.script_int } );
         wait n_wait;
     }
 }
@@ -85,7 +85,7 @@ function function_bc327ddf()
     
     for ( var_5ffc6bcc = 0; true ; var_5ffc6bcc = 0 )
     {
-        s_result = level waittill( #"hash_66f9802695ce6503" );
+        s_result = level waittill( #"morse_code_activated" );
         
         if ( s_result.var_6831e121 === var_f0f25516[ var_5ffc6bcc ] )
         {
@@ -144,7 +144,7 @@ function function_43e2a503()
     }
     
     var_26d86758 = spawn( "script_origin", self.origin );
-    var_26d86758 playloopsound( #"hash_368d31ed538206b0" );
+    var_26d86758 playloopsound( #"zmb_mus_bottle_lp" );
     e_activator = self zm_unitrigger::function_fac87205( undefined, 40 );
     
     if ( !isdefined( level.var_ec4c747a ) )
@@ -152,7 +152,7 @@ function function_43e2a503()
         level.var_ec4c747a = 0;
     }
     
-    playsoundatposition( #"hash_58a7d90061e86ced", self.origin );
+    playsoundatposition( #"zmb_mus_bottle_activate", self.origin );
     var_26d86758 delete();
     level.var_ec4c747a++;
     

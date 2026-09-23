@@ -407,7 +407,7 @@ function private event_handler[grenade_fire] function_4776caf4( eventstruct )
             {
                 camoindex = getcamoindex( self getweaponoptions( eventstruct.weapon ) );
                 var_f94ce554 = array( 111, 112, 113, 114, 115, 116 );
-                var_af7d7388 = array( #"hash_7306b72d120049f8", #"hash_27ae7cb403d5365b", #"hash_6add258ae958d31c", #"hash_6eb8f7ceb4627d9f", #"hash_228bf15c70137b61", #"hash_10c0ee53a36783e9" );
+                var_af7d7388 = array( #"wpn_t8_wz_water_balloon_red_world", #"wpn_t8_wz_water_balloon_blue_world", #"wpn_t8_wz_water_balloon_green_world", #"wpn_t8_wz_water_balloon_yellow_world", #"wpn_t8_wz_water_balloon_orange_world", #"wpn_t8_wz_water_balloon_purple_world" );
                 assert( var_f94ce554.size == var_af7d7388.size );
                 
                 for ( index = 0; index < var_f94ce554.size && index < var_af7d7388.size ; index++ )
@@ -830,7 +830,7 @@ function private function_2e10e66e( var_ab9610ad = undefined )
         return;
     }
     
-    item = function_434d0c2b( #"backpack", array( #"hash_7c3701ba5f0879c2" ), var_ab9610ad );
+    item = function_434d0c2b( #"backpack", array( #"backpack_item_fast" ), var_ab9610ad );
     
     if ( isdefined( item ) )
     {
@@ -1538,7 +1538,7 @@ function consume_item( item )
     {
         foreach ( talent in consumeditem.itementry.talents )
         {
-            if ( talent.talent == #"hash_6b4f1f8c0c22026f" )
+            if ( talent.talent == #"talent_stimulant_wz" )
             {
                 self thread function_299d2131( 300, 100, 0.1 );
                 break;
@@ -1593,11 +1593,11 @@ function function_6d647220( item )
     
     if ( isdefined( self.var_3f1410dd ) )
     {
-        self.var_3f1410dd.repair_amount += int( min( isdefined( armoritem.itementry.var_a3aa1ca2 ) ? armoritem.itementry.var_a3aa1ca2 : 0, self.maxarmor - self.armor ) );
-        self.var_3f1410dd.var_7352c057++;
+        self.var_3f1410dd.repair_amount += int( min( isdefined( armoritem.itementry.shardrepair ) ? armoritem.itementry.shardrepair : 0, self.maxarmor - self.armor ) );
+        self.var_3f1410dd.repair_count++;
     }
     
-    self.armor = int( min( self.armor + ( isdefined( armoritem.itementry.var_a3aa1ca2 ) ? armoritem.itementry.var_a3aa1ca2 : 0 ), self.maxarmor ) );
+    self.armor = int( min( self.armor + ( isdefined( armoritem.itementry.shardrepair ) ? armoritem.itementry.shardrepair : 0 ), self.maxarmor ) );
     function_bdc03d88();
     self function_6c36ab6b();
     self function_db2abc4( item );
@@ -2291,7 +2291,7 @@ function function_4cde30fa( inventoryitem, itementry )
         return;
     }
     
-    self.var_3f1410dd = { #player_xuid:int( self getxuid( 1 ) ), #start_time:function_f8d53445(), #end_time:0, #var_4550558c:isdefined( inventoryitem.amount ) ? inventoryitem.amount : 0, #tier:isdefined( itementry.armortier ) ? itementry.armortier : 1, #damage_taken:0, #var_7352c057:0, #repair_amount:0, #broken:0, #died:0 };
+    self.var_3f1410dd = { #player_xuid:int( self getxuid( 1 ) ), #start_time:function_f8d53445(), #end_time:0, #starting_armor:isdefined( inventoryitem.amount ) ? inventoryitem.amount : 0, #tier:isdefined( itementry.armortier ) ? itementry.armortier : 1, #damage_taken:0, #repair_count:0, #repair_amount:0, #broken:0, #died:0 };
 }
 
 // Namespace item_inventory/item_inventory
@@ -2327,7 +2327,7 @@ function equip_armor( item )
     }
     
     self function_db2abc4( item );
-    self armor::set_armor( inventoryitem.amount, isdefined( itementry.amount ) ? itementry.amount : 0, isdefined( itementry.armortier ) ? itementry.armortier : 1, isdefined( itementry.var_99c0cb08 ) ? itementry.var_99c0cb08 : 1, isdefined( itementry.var_2ee21ae6 ) ? itementry.var_2ee21ae6 : 1, isdefined( itementry.var_c690c73d ) ? itementry.var_c690c73d : 1, isdefined( itementry.var_99edb6a3 ) ? itementry.var_99edb6a3 : 1, isdefined( itementry.var_22c3ab38 ) ? itementry.var_22c3ab38 : 1, isdefined( itementry.var_9f307988 ) ? itementry.var_9f307988 : 1, isdefined( itementry.var_7a80f06e ) ? itementry.var_7a80f06e : 1, isdefined( itementry.explosivedamagescale ) ? itementry.explosivedamagescale : 1, isdefined( itementry.var_f2902d7b ) ? itementry.var_f2902d7b : 1, itementry.var_19f48bbe );
+    self armor::set_armor( inventoryitem.amount, isdefined( itementry.amount ) ? itementry.amount : 0, isdefined( itementry.armortier ) ? itementry.armortier : 1, isdefined( itementry.var_99c0cb08 ) ? itementry.var_99c0cb08 : 1, isdefined( itementry.var_2ee21ae6 ) ? itementry.var_2ee21ae6 : 1, isdefined( itementry.var_c690c73d ) ? itementry.var_c690c73d : 1, isdefined( itementry.var_99edb6a3 ) ? itementry.var_99edb6a3 : 1, isdefined( itementry.var_22c3ab38 ) ? itementry.var_22c3ab38 : 1, isdefined( itementry.var_9f307988 ) ? itementry.var_9f307988 : 1, isdefined( itementry.var_7a80f06e ) ? itementry.var_7a80f06e : 1, isdefined( itementry.explosivedamagescale ) ? itementry.explosivedamagescale : 1, isdefined( itementry.armorexplosivedamagescale ) ? itementry.armorexplosivedamagescale : 1, itementry.armorlocations );
     self function_4cde30fa( inventoryitem, itementry );
     self.inventory.items[ 11 ] = inventoryitem;
     self function_b00db06( 6, item.networkid );
@@ -4921,7 +4921,7 @@ function function_956a8ecd()
         return;
     }
     
-    self waittill( #"hash_363004a4e0ccc1f", #"hawk_settled", #"death", #"stationary" );
+    self waittill( #"recon_car_settled", #"hawk_settled", #"death", #"stationary" );
     var_d783088e = [];
     
     foreach ( sensordart in level.sensor_darts )
@@ -5142,7 +5142,7 @@ function use_killstreak( networkid, item )
         return;
     }
     
-    self sethintstring( #"hash_37605398dce96965" );
+    self sethintstring( #"weapon/cant_plant_equipment" );
     wait 1.5;
     
     if ( isdefined( self ) )

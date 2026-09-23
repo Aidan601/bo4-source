@@ -669,7 +669,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_prop_score_active
-hash_7472ee0680fbe7af
+vox_tvoi_tutor_prop_score_active_fail
 hash_76e1932a70ba8a35
 hash_6083e28b3e0df113
 mp_seaside.fr
@@ -677,7 +677,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_7472ee0680fbe7af
+vox_tvoi_tutor_prop_score_active_fail
 hash_73cbb70173f3bf8c
 hash_2323eec6f0552796
 mp_seaside.fr
@@ -685,7 +685,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_7472ee0680fbe7af
+vox_tvoi_tutor_prop_score_active_fail
 hash_4599582a561054bf
 hash_29fda5eb4c500ce1
 mp_seaside.fr
@@ -693,7 +693,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_7472ee0680fbe7af
+vox_tvoi_tutor_prop_score_active_fail
 hash_346fe28fbd880dc6
 hash_16fb6403320d37fc
 mp_seaside.fr
@@ -701,7 +701,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_7472ee0680fbe7af
+vox_tvoi_tutor_prop_score_active_fail
 vox_tvoi_tutor_prop_score_earn
 hash_40cc57b1d7854180
 hash_2f1ce39a0005d024
@@ -936,7 +936,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_prop_score_plyr_dead
-hash_587654df1eb82b80
+vox_tvoi_tutor_prop_score_start
 hash_8f8fd36dd5a2d7e
 hash_1dc4a6abf13aa01c
 mp_seaside.fr
@@ -945,7 +945,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_587654df1eb82b80
+vox_tvoi_tutor_prop_score_start
 hash_283461c4c3b80020
 hash_5aa7554714cca6c2
 mp_seaside.fr
@@ -954,7 +954,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_587654df1eb82b80
+vox_tvoi_tutor_prop_score_start
 vox_tvoi_tutor_prop_seeker_enemy_dead_0
 hash_725fba7c82bb4cab
 hash_1848f9f8d26c0401
@@ -973,7 +973,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_prop_seeker_enemy_dead_1
-hash_53ea2f2d1129a3d7
+vox_tvoi_tutor_prop_seeker_enemy_dead_2
 hash_420547e1c4d531b9
 hash_7a6dce67d9389217
 mp_seaside.fr
@@ -981,7 +981,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_53ea2f2d1129a3d7
+vox_tvoi_tutor_prop_seeker_enemy_dead_2
 vox_tvoi_tutor_prop_seeker_follow_nag
 hash_320a74bd5a8d6723
 hash_44cb13d45c8df5d9
@@ -1035,7 +1035,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_prop_seeker_follow_nag
-hash_8a03ccf54e65209
+vox_tvoi_tutor_prop_seeker_mine_0
 hash_2821e995b8ebd993
 hash_4cad04213caa1c9d
 mp_seaside.fr
@@ -1043,8 +1043,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_8a03ccf54e65209
-hash_8a03bcf54e65056
+vox_tvoi_tutor_prop_seeker_mine_0
+vox_tvoi_tutor_prop_seeker_mine_1
 hash_5a503f3089288248
 hash_242939f1ea0321c6
 mp_seaside.fr
@@ -1052,7 +1052,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_8a03bcf54e65056
+vox_tvoi_tutor_prop_seeker_mine_1
 vox_tvoi_tutor_prop_seeker_mine_2
 hash_144fcf09262d3521
 hash_5f41573050008583
@@ -1210,7 +1210,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_prop_start_0
-hash_44bc8ed5568a81b6
+vox_tvoi_tutor_prop_start_0_arb
 hash_7f6ffb93dcfa6e08
 hash_392cfd9d5608bf4e
 mp_seaside.fr
@@ -1218,7 +1218,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_44bc8ed5568a81b6
+vox_tvoi_tutor_prop_start_0_arb
 vox_tvoi_tutor_prop_start_1
 hash_35e58edeb31b803b
 hash_7e06b5f9a66ee1bd
@@ -1500,7 +1500,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_prop_wine_seeker_follow_nag
-hash_75250dd5dd02c873
+vox_tvoi_tutor_reco_blightfather_dead_0
 hash_2a6bb3b86b37a211
 hash_94c53f9d9069373
 mp_seaside.fr
@@ -1508,8 +1508,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_75250dd5dd02c873
-hash_75250cd5dd02c6c0
+vox_tvoi_tutor_reco_blightfather_dead_0
+vox_tvoi_tutor_reco_blightfather_dead_1
 hash_1a9068e4c1044fbe
 hash_7fe51109a6c46f44
 mp_seaside.fr
@@ -1517,8 +1517,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_75250cd5dd02c6c0
-hash_75d35181fe648687
+vox_tvoi_tutor_reco_blightfather_dead_1
+vox_tvoi_tutor_reco_blightfather_enter_0
 hash_4cb3cdcd4556e1a9
 hash_3fe198916233da79
 mp_seaside.fr
@@ -1527,7 +1527,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_75d35181fe648687
+vox_tvoi_tutor_reco_blightfather_enter_0
 hash_17cdf809e9340f03
 hash_1ea4aa862de44e8f
 mp_seaside.fr
@@ -1536,8 +1536,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_75d35181fe648687
-hash_75d35081fe6484d4
+vox_tvoi_tutor_reco_blightfather_enter_0
+vox_tvoi_tutor_reco_blightfather_enter_1
 hash_4836299f2e61bbf6
 hash_2d6799b172ec76d2
 mp_seaside.fr
@@ -1545,8 +1545,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_75d35081fe6484d4
-hash_5eee0745d94d4b04
+vox_tvoi_tutor_reco_blightfather_enter_1
+vox_tvoi_tutor_reco_blightfather_nag
 hash_604c68d5f5fc95ca
 hash_2629c49f7626cb1a
 mp_seaside.fr
@@ -1555,7 +1555,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_5eee0745d94d4b04
+vox_tvoi_tutor_reco_blightfather_nag
 hash_6336fa5c89416054
 hash_19904488a9f98ec0
 mp_seaside.fr
@@ -1564,7 +1564,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_5eee0745d94d4b04
+vox_tvoi_tutor_reco_blightfather_nag
 hash_1c8400afabca90b3
 hash_3e9b608bf7bb0cf7
 mp_seaside.fr
@@ -1573,7 +1573,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_5eee0745d94d4b04
+vox_tvoi_tutor_reco_blightfather_nag
 hash_7a1b40c43cb3d35
 hash_e6c9cb6b6ed373d
 mp_seaside.fr
@@ -1582,7 +1582,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_5eee0745d94d4b04
+vox_tvoi_tutor_reco_blightfather_nag
 hash_d3ab0365af6ba70
 hash_4f27eac1b0057b0
 mp_seaside.fr
@@ -1591,7 +1591,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_5eee0745d94d4b04
+vox_tvoi_tutor_reco_blightfather_nag
 hash_5ceac4accf92eaa
 hash_760ed6f62f2bf6fe
 mp_seaside.fr
@@ -1600,8 +1600,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_5eee0745d94d4b04
-hash_18bcfb5b91b80370
+vox_tvoi_tutor_reco_blightfather_nag
+vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_248e9bf1a0f38906
 hash_339952a0250c52da
 mp_seaside.fr
@@ -1609,7 +1609,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_18bcfb5b91b80370
+vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_6d3e70eea0fb9ff
 hash_528c5610b10ab4b7
 mp_seaside.fr
@@ -1617,7 +1617,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_18bcfb5b91b80370
+vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_10df3d8aea37e8cc
 hash_5cca719de178d70
 mp_seaside.fr
@@ -1626,7 +1626,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_18bcfb5b91b80370
+vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_22cc605ee7547f0e
 hash_27036ffd1918aebe
 mp_seaside.fr
@@ -1635,7 +1635,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_18bcfb5b91b80370
+vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_3a1e4c8769427e75
 hash_180053241e7b40e5
 mp_seaside.fr
@@ -1643,8 +1643,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_18bcfb5b91b80370
-hash_5fb571057d1baaaf
+vox_tvoi_tutor_reco_blightfather_plyr_dead
+vox_tvoi_tutor_reco_blightfather_squad_dead
 hash_78cf435e5e2e3d79
 hash_1791b5082a7b3c0b
 mp_seaside.fr
@@ -1652,7 +1652,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_5fb571057d1baaaf
+vox_tvoi_tutor_reco_blightfather_squad_dead
 hash_1948f739fede8b80
 hash_518af81a91e2caee
 mp_seaside.fr
@@ -1661,7 +1661,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_5fb571057d1baaaf
+vox_tvoi_tutor_reco_blightfather_squad_dead
 hash_7db38e063f689d7a
 hash_6b998c8c46a23acc
 mp_seaside.fr
@@ -1670,7 +1670,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_5fb571057d1baaaf
+vox_tvoi_tutor_reco_blightfather_squad_dead
 hash_51b5b8eb52d09703
 hash_1997b606886ad59
 mp_seaside.fr
@@ -1678,8 +1678,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_5fb571057d1baaaf
-hash_2bbf8e33da4471bc
+vox_tvoi_tutor_reco_blightfather_squad_dead
+vox_tvoi_tutor_reco_church_comp
 hash_27330ddaec88638a
 hash_19c9458d679b8e0c
 mp_seaside.fr
@@ -1688,7 +1688,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_2bbf8e33da4471bc
+vox_tvoi_tutor_reco_church_comp
 hash_2b71bbdd9a074f14
 hash_729fb70a686241f2
 mp_seaside.fr
@@ -1697,7 +1697,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_2bbf8e33da4471bc
+vox_tvoi_tutor_reco_church_comp
 hash_2487fd596a57632f
 hash_aab6247d2771ff5
 hash_4e2146b391a3bf4f
@@ -1745,7 +1745,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 hash_37a8de4d53277755
-hash_3941a65c4e672253
+vox_tvoi_tutor_reco_church_nag
 hash_5078a1cc54caaa6d
 hash_5d2f92cbde91e62d
 mp_seaside.fr
@@ -1754,7 +1754,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_3941a65c4e672253
+vox_tvoi_tutor_reco_church_nag
 hash_5cc83d7e9dc2d7ff
 hash_26c897ec7eb3871b
 mp_seaside.fr
@@ -1763,7 +1763,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_3941a65c4e672253
+vox_tvoi_tutor_reco_church_nag
 hash_7716c6af58baafe4
 hash_520f7985e10d9558
 mp_seaside.fr
@@ -1772,7 +1772,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_3941a65c4e672253
+vox_tvoi_tutor_reco_church_nag
 hash_436772381f2edc76
 hash_2f7391d9ff80a976
 mp_seaside.fr
@@ -1781,7 +1781,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_3941a65c4e672253
+vox_tvoi_tutor_reco_church_nag
 hash_2df4502dd3379b97
 hash_f1615f4c77d8c7f
 mp_seaside.fr
@@ -1790,7 +1790,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_3941a65c4e672253
+vox_tvoi_tutor_reco_church_nag
 hash_1afea3105a99fe91
 hash_435bf31f93cdf75
 mp_seaside.fr
@@ -1799,8 +1799,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_3941a65c4e672253
-hash_6ece745489e4c50a
+vox_tvoi_tutor_reco_church_nag
+vox_tvoi_tutor_reco_dart_hide_0
 hash_7003a025e9e4fed4
 hash_400573b532f14fc2
 mp_seaside.fr
@@ -1808,8 +1808,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_6ece745489e4c50a
-hash_6ece755489e4c6bd
+vox_tvoi_tutor_reco_dart_hide_0
+vox_tvoi_tutor_reco_dart_hide_1
 hash_46acf9c02976f94f
 hash_154d66babd4bc229
 mp_seaside.fr
@@ -1817,8 +1817,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_6ece755489e4c6bd
-hash_6ece725489e4c1a4
+vox_tvoi_tutor_reco_dart_hide_1
+vox_tvoi_tutor_reco_dart_hide_2
 hash_2958916da334d94a
 hash_51cedef8baa9ea60
 mp_seaside.fr
@@ -1826,8 +1826,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_6ece725489e4c1a4
-hash_510731dfbe637192
+vox_tvoi_tutor_reco_dart_hide_2
+vox_tvoi_tutor_reco_dart_hide_enemy
 hash_61f28089d9f86608
 hash_11a00774674c3cc2
 mp_seaside.fr
@@ -1835,8 +1835,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_510731dfbe637192
-hash_4846299866b4a63f
+vox_tvoi_tutor_reco_dart_hide_enemy
+vox_tvoi_tutor_reco_dart_hide_hit
 hash_5ae3eb0aec5b2d01
 hash_6647d62cd1e0a0cb
 mp_seaside.fr
@@ -1845,7 +1845,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_4846299866b4a63f
+vox_tvoi_tutor_reco_dart_hide_hit
 hash_5a2eb00b0e90b78b
 hash_384723711cbf4019
 mp_seaside.fr
@@ -1854,8 +1854,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_4846299866b4a63f
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_hide_hit
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_7103ddcb3442fd7a
 hash_7fc203434d78aaa4
 mp_seaside.fr
@@ -1863,7 +1863,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_7dd819f47ed13a23
 hash_760b609485ad7f49
 mp_seaside.fr
@@ -1871,7 +1871,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_1977ed81cfb2ea20
 hash_28c5de1c1e466f1e
 mp_seaside.fr
@@ -1879,7 +1879,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_25de39ab19e2bd19
 hash_551722dcf10ac17b
 mp_seaside.fr
@@ -1888,7 +1888,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_204b9b20adb0a233
 hash_13f5ec2999f28cc9
 mp_seaside.fr
@@ -1897,7 +1897,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_6ae447b36333d2ae
 hash_6e9c906218512908
 mp_seaside.fr
@@ -1906,7 +1906,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_3869c6197d3b34d0
 hash_1cbbe98f760c0be6
 mp_seaside.fr
@@ -1915,7 +1915,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_10ff9e595fd05307
 hash_1616b4873341589d
 mp_seaside.fr
@@ -1923,7 +1923,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_59357f97559f8ad4
 hash_6a67617714e4b032
 mp_seaside.fr
@@ -1932,7 +1932,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_628d31adb5e65260
+vox_tvoi_tutor_reco_dart_miss_nag
 hash_69b7be68437c8e26
 hash_7651174d84d2d0c8
 mp_seaside.fr
@@ -1941,8 +1941,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_628d31adb5e65260
-hash_3da84622f4be7b95
+vox_tvoi_tutor_reco_dart_miss_nag
+vox_tvoi_tutor_reco_dart_missed_nag
 hash_6391509cf9f9addf
 hash_1d9d22a0467deccd
 mp_seaside.fr
@@ -1951,7 +1951,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_3da84622f4be7b95
+vox_tvoi_tutor_reco_dart_missed_nag
 hash_719c81bfc8d60ce9
 hash_21f36426c510717b
 mp_seaside.fr
@@ -1960,7 +1960,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_3da84622f4be7b95
+vox_tvoi_tutor_reco_dart_missed_nag
 hash_a04fd297e0261e6
 hash_4910b096bc914b78
 mp_seaside.fr
@@ -1968,7 +1968,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_3da84622f4be7b95
+vox_tvoi_tutor_reco_dart_missed_nag
 hash_482418809e9dd8d5
 hash_24984624b09b7b1f
 mp_seaside.fr
@@ -1977,7 +1977,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_3da84622f4be7b95
+vox_tvoi_tutor_reco_dart_missed_nag
 hash_2e67c17b0f5d4c17
 hash_5916a359a5398955
 mp_seaside.fr
@@ -1986,8 +1986,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_3da84622f4be7b95
-hash_233e42de1d3dc67d
+vox_tvoi_tutor_reco_dart_missed_nag
+vox_tvoi_tutor_reco_dart_nag
 hash_562ef893b4ae312f
 hash_1e1ef6699ba8ccb3
 mp_seaside.fr
@@ -1996,7 +1996,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_233e42de1d3dc67d
+vox_tvoi_tutor_reco_dart_nag
 hash_611aa53ac89bee79
 hash_175c574096e880d1
 mp_seaside.fr
@@ -2005,7 +2005,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_233e42de1d3dc67d
+vox_tvoi_tutor_reco_dart_nag
 hash_49d9496fca93fdf6
 hash_35e0d7d2749eea36
 mp_seaside.fr
@@ -2013,7 +2013,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_233e42de1d3dc67d
+vox_tvoi_tutor_reco_dart_nag
 hash_776f393cf57f9e5
 hash_6306c77a38f8dd81
 mp_seaside.fr
@@ -2022,7 +2022,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_233e42de1d3dc67d
+vox_tvoi_tutor_reco_dart_nag
 hash_ddf3d372afba967
 hash_4ccc7429d84b0d07
 mp_seaside.fr
@@ -2031,8 +2031,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_233e42de1d3dc67d
-hash_398e7ff7d4d056d5
+vox_tvoi_tutor_reco_dart_nag
+vox_tvoi_tutor_reco_end_0
 hash_6ffb7dfd44ab843b
 hash_6cbaf7f304e8dc39
 mp_seaside.fr
@@ -2041,7 +2041,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_398e7ff7d4d056d5
+vox_tvoi_tutor_reco_end_0
 hash_4fe4d5cb1ea45d2d
 hash_2dd7386f8f35084f
 mp_seaside.fr
@@ -2050,8 +2050,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_398e7ff7d4d056d5
-hash_398e7ef7d4d05522
+vox_tvoi_tutor_reco_end_0
+vox_tvoi_tutor_reco_end_1
 hash_7532cb91c6bd4790
 hash_52a1fe31c7ee6992
 mp_seaside.fr
@@ -2060,7 +2060,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_398e7ef7d4d05522
+vox_tvoi_tutor_reco_end_1
 hash_28d1f60d3a9b2a0a
 hash_7172a63bfbaf2ee8
 mp_seaside.fr
@@ -2069,8 +2069,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_398e7ef7d4d05522
-hash_2ab197f91d18834a
+vox_tvoi_tutor_reco_end_1
+vox_tvoi_tutor_reco_enemy_dart_0
 hash_7fe21a15d1d4a664
 hash_1fb862d725dc6834
 mp_seaside.fr
@@ -2078,8 +2078,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_2ab197f91d18834a
-hash_2ab198f91d1884fd
+vox_tvoi_tutor_reco_enemy_dart_0
+vox_tvoi_tutor_reco_enemy_dart_1
 hash_33c9ef86e28dd05f
 hash_7535e767b6f2b63
 mp_seaside.fr
@@ -2087,8 +2087,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_2ab198f91d1884fd
-hash_2ab195f91d187fe4
+vox_tvoi_tutor_reco_enemy_dart_1
+vox_tvoi_tutor_reco_enemy_dart_2
 hash_320f8c63a882bd1a
 hash_af0a1afc8524ca6
 mp_seaside.fr
@@ -2097,7 +2097,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_2ab195f91d187fe4
+vox_tvoi_tutor_reco_enemy_dart_2
 hash_35f9b667654e9524
 hash_77ba492cc29b434
 mp_seaside.fr
@@ -2106,8 +2106,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_2ab195f91d187fe4
-hash_2ab196f91d188197
+vox_tvoi_tutor_reco_enemy_dart_2
+vox_tvoi_tutor_reco_enemy_dart_3
 hash_707ed9284aa4048d
 hash_3a0ded29f5ec697d
 mp_seaside.fr
@@ -2115,8 +2115,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_2ab196f91d188197
-hash_8c16ee4aea85f4c
+vox_tvoi_tutor_reco_enemy_dart_3
+vox_tvoi_tutor_reco_enemy_dart_nag
 hash_299a7b34cb9e527e
 hash_4211b4e3e9eaef66
 mp_seaside.fr
@@ -2124,7 +2124,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_8c16ee4aea85f4c
+vox_tvoi_tutor_reco_enemy_dart_nag
 hash_76ea0b6903f6a257
 hash_1c8523d22cd04e63
 mp_seaside.fr
@@ -2132,7 +2132,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_8c16ee4aea85f4c
+vox_tvoi_tutor_reco_enemy_dart_nag
 hash_113d8a3bd7379ca4
 hash_642ceaebf5f4070c
 mp_seaside.fr
@@ -2140,7 +2140,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_8c16ee4aea85f4c
+vox_tvoi_tutor_reco_enemy_dart_nag
 hash_161b8fd61fcd1e2d
 hash_62a0a2787e037b31
 mp_seaside.fr
@@ -2148,8 +2148,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_8c16ee4aea85f4c
-hash_76711f94e9fc32da
+vox_tvoi_tutor_reco_enemy_dart_nag
+vox_tvoi_tutor_reco_first_group_0
 hash_171ea385eef37c00
 hash_4d21881ea7b3e34a
 mp_seaside.fr
@@ -2158,7 +2158,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_76711f94e9fc32da
+vox_tvoi_tutor_reco_first_group_0
 hash_1e9e5c3c2504a1fa
 hash_8a1ad3c3c158470
 mp_seaside.fr
@@ -2167,8 +2167,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_76711f94e9fc32da
-hash_76712094e9fc348d
+vox_tvoi_tutor_reco_first_group_0
+vox_tvoi_tutor_reco_first_group_1
 hash_4001a59bbe458eb
 hash_483cf6e65f6816d1
 mp_seaside.fr
@@ -2176,8 +2176,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_76712094e9fc348d
-hash_2a475119c0c9d7db
+vox_tvoi_tutor_reco_first_group_1
+vox_tvoi_tutor_reco_first_group_candy
 hash_7a14ba2cbf20912c
 hash_69869cf8e13b6aa6
 mp_seaside.fr
@@ -2185,8 +2185,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_2a475119c0c9d7db
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_candy
+vox_tvoi_tutor_reco_first_group_nag
 hash_1c4c6fb834719c1a
 hash_4cb5b7057b1ac6ac
 mp_seaside.fr
@@ -2194,7 +2194,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_291fabe17efe25c3
 hash_24c636b2723afd51
 mp_seaside.fr
@@ -2203,7 +2203,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_370ef3b4fd45e705
 hash_2364d5ca34cadf97
 mp_seaside.fr
@@ -2212,7 +2212,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_6d4dea30282aa440
 hash_2f38d55070fa8a86
 mp_seaside.fr
@@ -2221,7 +2221,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_564510a9869a193a
 hash_efe3225366428d4
 mp_seaside.fr
@@ -2230,7 +2230,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_289860d6c1c68d39
 hash_1aeb17e168baeb03
 mp_seaside.fr
@@ -2239,7 +2239,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_247be6c532f9c413
 hash_476cafb6b79013e1
 mp_seaside.fr
@@ -2248,7 +2248,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_3fa7d9a54b611c4e
 hash_745e1622a579f590
 mp_seaside.fr
@@ -2257,7 +2257,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_408b7712669204b0
 hash_62004e79499b8a1e
 mp_seaside.fr
@@ -2266,7 +2266,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_420be74d275dec7c
+vox_tvoi_tutor_reco_first_group_nag
 hash_3c4730465ffd3ea7
 hash_53d3a1cf8bf56605
 mp_seaside.fr
@@ -2274,8 +2274,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_420be74d275dec7c
-hash_4a8d1e7e7e423b65
+vox_tvoi_tutor_reco_first_group_nag
+vox_tvoi_tutor_reco_flank_attack_0
 hash_2f82ac769f49a553
 hash_522c5036b358c8d3
 mp_seaside.fr
@@ -2283,8 +2283,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_4a8d1e7e7e423b65
-hash_4a8d1d7e7e4239b2
+vox_tvoi_tutor_reco_flank_attack_0
+vox_tvoi_tutor_reco_flank_attack_1
 hash_63ce2d3e8d9c6d08
 hash_e181ce2dd08f3a4
 mp_seaside.fr
@@ -2293,7 +2293,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_4a8d1d7e7e4239b2
+vox_tvoi_tutor_reco_flank_attack_1
 hash_44364ccf3daf5812
 hash_76436ef59789357a
 mp_seaside.fr
@@ -2302,8 +2302,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_4a8d1d7e7e4239b2
-hash_4a8d1c7e7e4237ff
+vox_tvoi_tutor_reco_flank_attack_1
+vox_tvoi_tutor_reco_flank_attack_2
 hash_266bb40c3e3874e1
 hash_17c3146a82b1f96d
 mp_seaside.fr
@@ -2311,8 +2311,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_4a8d1c7e7e4237ff
-hash_4a8d1b7e7e42364c
+vox_tvoi_tutor_reco_flank_attack_2
+vox_tvoi_tutor_reco_flank_attack_3
 hash_4c2d0f919c95600e
 hash_706b2a9067f78316
 mp_seaside.fr
@@ -2320,8 +2320,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_4a8d1b7e7e42364c
-hash_3a29a5f77a7cb68a
+vox_tvoi_tutor_reco_flank_attack_3
+vox_tvoi_tutor_reco_flank_comp_0
 hash_71947042772fd7e8
 hash_626d18d840370474
 mp_seaside.fr
@@ -2329,8 +2329,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_3a29a5f77a7cb68a
-hash_3a29a6f77a7cb83d
+vox_tvoi_tutor_reco_flank_comp_0
+vox_tvoi_tutor_reco_flank_comp_1
 hash_50f7b7824f630ab3
 hash_2c3d11ada541fca3
 mp_seaside.fr
@@ -2338,7 +2338,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_3a29a6f77a7cb83d
+vox_tvoi_tutor_reco_flank_comp_1
 hash_41a9b2d29deeeda
 hash_5b32337ab9757758
 hash_5f2a42c78d3abe8a
@@ -2367,7 +2367,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 hash_41a9a2d29deed27
-hash_46c4843e8f5d2451
+vox_tvoi_tutor_reco_move_nag
 hash_1cb9fce68afab16f
 hash_23ad84a748b13f
 mp_seaside.fr
@@ -2375,7 +2375,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_46c4843e8f5d2451
+vox_tvoi_tutor_reco_move_nag
 hash_66e94dbdb8e1d336
 hash_47dab2a808625c02
 mp_seaside.fr
@@ -2384,7 +2384,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_46c4843e8f5d2451
+vox_tvoi_tutor_reco_move_nag
 hash_6b3ea316817269c8
 hash_51105e9170323258
 mp_seaside.fr
@@ -2393,7 +2393,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_46c4843e8f5d2451
+vox_tvoi_tutor_reco_move_nag
 hash_5004225f0a2d0925
 hash_11c0cab68c95bbed
 mp_seaside.fr
@@ -2401,7 +2401,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_46c4843e8f5d2451
+vox_tvoi_tutor_reco_move_nag
 hash_4df98cf0c6deafbc
 hash_2cb7de27cf10ce18
 mp_seaside.fr
@@ -2410,7 +2410,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_46c4843e8f5d2451
+vox_tvoi_tutor_reco_move_nag
 hash_289023a4af66913e
 hash_7591d34830ea8836
 mp_seaside.fr
@@ -2419,8 +2419,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_46c4843e8f5d2451
-hash_6d4bf4b06eb5cef1
+vox_tvoi_tutor_reco_move_nag
+vox_tvoi_tutor_reco_noise_bullseye
 hash_5ccbfd7ec2f1382b
 hash_500eb6f6dda1b6cb
 mp_seaside.fr
@@ -2428,8 +2428,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_6d4bf4b06eb5cef1
-hash_ce515264013b887
+vox_tvoi_tutor_reco_noise_bullseye
+vox_tvoi_tutor_reco_ray_gun_kill
 hash_6a9c7bf7e51dc101
 hash_65baa6887f2da865
 mp_seaside.fr
@@ -2438,7 +2438,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_ce515264013b887
+vox_tvoi_tutor_reco_ray_gun_kill
 hash_6c11f81896f66b8b
 hash_2d029307c8183
 mp_seaside.fr
@@ -2447,7 +2447,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_ce515264013b887
+vox_tvoi_tutor_reco_ray_gun_kill
 hash_6f7c265dea4e8668
 hash_5386fa7e3ec9f4f0
 mp_seaside.fr
@@ -2456,7 +2456,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_ce515264013b887
+vox_tvoi_tutor_reco_ray_gun_kill
 hash_19c1bb6b34038732
 hash_44528e339671c23e
 mp_seaside.fr
@@ -2465,7 +2465,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_ce515264013b887
+vox_tvoi_tutor_reco_ray_gun_kill
 hash_66bc249c67c55a4b
 hash_2046a97511bd1c37
 mp_seaside.fr
@@ -2474,7 +2474,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_ce515264013b887
+vox_tvoi_tutor_reco_ray_gun_kill
 hash_41f0e79b51a26ffd
 hash_4cb2b6f4f6af477d
 mp_seaside.fr
@@ -2483,7 +2483,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_ce515264013b887
+vox_tvoi_tutor_reco_ray_gun_kill
 hash_4774f6a74f3b3542
 hash_153a60485beba5a
 mp_seaside.fr
@@ -2491,7 +2491,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_ce515264013b887
+vox_tvoi_tutor_reco_ray_gun_kill
 vox_tvoi_tutor_reco_sensor_dart_0
 hash_4a01fc1c5c5909e8
 hash_57d8add672af3d4a
@@ -2520,7 +2520,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_reco_sensor_dart_1
-hash_a8bcd8c98df0294
+vox_tvoi_tutor_reco_sensor_dart_2
 hash_14991088b5b26aee
 hash_6d47eba539daafe8
 mp_seaside.fr
@@ -2528,8 +2528,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_a8bcd8c98df0294
-hash_63c5e2c0cbf46688
+vox_tvoi_tutor_reco_sensor_dart_2
+vox_tvoi_tutor_reco_start_0
 hash_3d22d450dabe65a2
 hash_3f3a4c7f95c1e894
 mp_seaside.fr
@@ -2537,8 +2537,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_63c5e2c0cbf46688
-hash_63c5e3c0cbf4683b
+vox_tvoi_tutor_reco_start_0
+vox_tvoi_tutor_reco_start_1
 hash_5d5a9b4d648eb7f5
 hash_7bf697ae1fb78043
 mp_seaside.fr
@@ -2546,8 +2546,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_63c5e3c0cbf4683b
-hash_63c5e4c0cbf469ee
+vox_tvoi_tutor_reco_start_1
+vox_tvoi_tutor_reco_start_2
 hash_1361def2d5cd808c
 hash_557ff04d388a1d86
 mp_seaside.fr
@@ -2555,7 +2555,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_63c5e4c0cbf469ee
+vox_tvoi_tutor_reco_start_2
 hash_194e5758679eed5a
 hash_6be0961bd7d77ce8
 hash_6fe491a2f2b34958
@@ -2574,7 +2574,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 hash_194e5858679eef0d
-hash_71c199093aa347bd
+vox_tvoi_tutor_reco_strange_noise_0
 hash_74325c3a21e6a49f
 hash_214b88f27d870f1
 mp_seaside.fr
@@ -2583,7 +2583,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_71c199093aa347bd
+vox_tvoi_tutor_reco_strange_noise_0
 hash_5031082c3b868ca9
 hash_2f72872c98ec3bf7
 mp_seaside.fr
@@ -2592,8 +2592,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_71c199093aa347bd
-hash_71c198093aa3460a
+vox_tvoi_tutor_reco_strange_noise_0
+vox_tvoi_tutor_reco_strange_noise_1
 hash_114c5b97083587a4
 hash_6c1c346daf9626a
 mp_seaside.fr
@@ -2601,8 +2601,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_71c198093aa3460a
-hash_71c197093aa34457
+vox_tvoi_tutor_reco_strange_noise_1
+vox_tvoi_tutor_reco_strange_noise_2
 hash_2d8145db8719afcd
 hash_1a0e3ad34a8b5447
 mp_seaside.fr
@@ -2610,8 +2610,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_71c197093aa34457
-hash_603d9fbe8af4a8b3
+vox_tvoi_tutor_reco_strange_noise_2
+vox_tvoi_tutor_reco_strange_noise_nag
 hash_67f6952b859cacad
 hash_49505aa9c9bc594f
 mp_seaside.fr
@@ -2620,7 +2620,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_603d9fbe8af4a8b3
+vox_tvoi_tutor_reco_strange_noise_nag
 hash_6ad901abad56623f
 hash_744bbc97c88afd05
 mp_seaside.fr
@@ -2629,7 +2629,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_603d9fbe8af4a8b3
+vox_tvoi_tutor_reco_strange_noise_nag
 hash_63188f913d072b24
 hash_8d8a0da5fef6c52
 mp_seaside.fr
@@ -2638,7 +2638,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_603d9fbe8af4a8b3
+vox_tvoi_tutor_reco_strange_noise_nag
 hash_2323b46e78aac7b6
 hash_4694e186d21574a8
 mp_seaside.fr
@@ -2647,7 +2647,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_603d9fbe8af4a8b3
+vox_tvoi_tutor_reco_strange_noise_nag
 hash_48c510be69c630d7
 hash_e30434ffe50053d
 mp_seaside.fr
@@ -2656,7 +2656,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_603d9fbe8af4a8b3
+vox_tvoi_tutor_reco_strange_noise_nag
 hash_fd3dcd60ed6ead1
 hash_244837e1cd9171eb
 mp_seaside.fr
@@ -2665,7 +2665,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_603d9fbe8af4a8b3
+vox_tvoi_tutor_reco_strange_noise_nag
 hash_7b75808a316de0fe
 hash_4ff28a36af443a8
 mp_seaside.fr
@@ -2674,7 +2674,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_603d9fbe8af4a8b3
+vox_tvoi_tutor_reco_strange_noise_nag
 hash_6143f5d21a0a3fa0
 hash_4645fd53f6e6bfc6
 mp_seaside.fr
@@ -2683,8 +2683,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_603d9fbe8af4a8b3
-hash_339eb8312fdc25d4
+vox_tvoi_tutor_reco_strange_noise_nag
+vox_tvoi_tutor_reco_vis_pulse_0
 hash_53e75ee4413d7366
 hash_75ec86dec4e4ded4
 mp_seaside.fr
@@ -2692,7 +2692,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_339eb8312fdc25d4
+vox_tvoi_tutor_reco_vis_pulse_0
 hash_dd77a0770d28e66
 hash_4b9240a048700048
 hash_444f6c013e65b186
@@ -2754,7 +2754,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 hash_dd77a0770d28e66
-hash_7c8c366945d5ee61
+vox_tvoi_tutor_reco_wine_cellar_0
 hash_73e880fbf903878f
 hash_b2bc93551a6c6fd
 mp_seaside.fr
@@ -2763,7 +2763,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_7c8c366945d5ee61
+vox_tvoi_tutor_reco_wine_cellar_0
 hash_3c207b30129d7719
 hash_7ab10a2e2aa3d0ab
 mp_seaside.fr
@@ -2772,8 +2772,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_7c8c366945d5ee61
-hash_7c8c356945d5ecae
+vox_tvoi_tutor_reco_wine_cellar_0
+vox_tvoi_tutor_reco_wine_cellar_1
 hash_4bf31e5bb2261714
 hash_5c0e7dbb240caa26
 mp_seaside.fr
@@ -2781,8 +2781,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_7c8c356945d5ecae
-hash_4ec3d082638c7030
+vox_tvoi_tutor_reco_wine_cellar_1
+vox_tvoi_tutor_reco_zomb_nag
 hash_413d6ea31d932e72
 hash_49a6f1585204b48a
 mp_seaside.fr
@@ -2791,7 +2791,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_4ec3d082638c7030
+vox_tvoi_tutor_reco_zomb_nag
 hash_7824117f9add88cc
 hash_1b75254ea753a5b0
 mp_seaside.fr
@@ -2800,7 +2800,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_4ec3d082638c7030
+vox_tvoi_tutor_reco_zomb_nag
 hash_124d7036776481fb
 hash_5f5eb86751fc8aa7
 mp_seaside.fr
@@ -2808,7 +2808,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_4ec3d082638c7030
+vox_tvoi_tutor_reco_zomb_nag
 hash_6e1764d06712e058
 hash_3bb36c4a7a418e20
 mp_seaside.fr
@@ -2816,7 +2816,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_4ec3d082638c7030
+vox_tvoi_tutor_reco_zomb_nag
 hash_3a548fed1277b7f1
 hash_10f4317fa8450c15
 mp_seaside.fr
@@ -2825,7 +2825,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_4ec3d082638c7030
+vox_tvoi_tutor_reco_zomb_nag
 hash_4d3dec478c6804bb
 hash_7e655b9b40fdc073
 mp_seaside.fr
@@ -2834,8 +2834,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_4ec3d082638c7030
-hash_77c6ce9bf6da35f4
+vox_tvoi_tutor_reco_zomb_nag
+vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_95df965b72a1d0e
 hash_46bec3b69d45804a
 mp_seaside.fr
@@ -2843,7 +2843,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_77c6ce9bf6da35f4
+vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_77dc2de49735a267
 hash_6c2857dc90945267
 mp_seaside.fr
@@ -2851,7 +2851,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_77c6ce9bf6da35f4
+vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_1783a46134ba0bb4
 hash_6284ac159f11a8e0
 mp_seaside.fr
@@ -2860,7 +2860,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_77c6ce9bf6da35f4
+vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_c1a61c68232f9c6
 hash_1cc5ed8a688b486e
 mp_seaside.fr
@@ -2869,7 +2869,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_77c6ce9bf6da35f4
+vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_4395a389b90aeffd
 hash_3e43ac1c7c99b2d5
 mp_seaside.fr
@@ -2877,8 +2877,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_77c6ce9bf6da35f4
-hash_373e680ef615b078
+vox_tvoi_tutor_reco_zomb_plyr_dead
+vox_tvoi_tutor_reco_zomb_score_active_0
 hash_36e09dbf2c0390be
 hash_5e84c6bd1bea7b68
 mp_seaside.fr
@@ -2887,7 +2887,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_373e680ef615b078
+vox_tvoi_tutor_reco_zomb_score_active_0
 hash_4fb492ac57cb6060
 hash_1bd55b537aef5986
 mp_seaside.fr
@@ -2896,8 +2896,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_373e680ef615b078
-hash_373e690ef615b22b
+vox_tvoi_tutor_reco_zomb_score_active_0
+vox_tvoi_tutor_reco_zomb_score_active_1
 hash_46bbe892d636e311
 hash_1468f7bcce4a8027
 mp_seaside.fr
@@ -2905,8 +2905,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_373e690ef615b22b
-hash_2613f24ad4fa5cbc
+vox_tvoi_tutor_reco_zomb_score_active_1
+vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_4a4b64e36dc0e52a
 hash_6701b6be17315bfa
 mp_seaside.fr
@@ -2914,7 +2914,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_2613f24ad4fa5cbc
+vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_58a09a520100a293
 hash_267ca3aeb778c4d7
 mp_seaside.fr
@@ -2923,7 +2923,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_2613f24ad4fa5cbc
+vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_7874eb06ff0d4d55
 hash_6fedfb58641ac0dd
 mp_seaside.fr
@@ -2932,7 +2932,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_2613f24ad4fa5cbc
+vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_495749d8b02ccc50
 hash_512460d725e26890
 mp_seaside.fr
@@ -2940,7 +2940,7 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_2613f24ad4fa5cbc
+vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_a6fa089c129249
 hash_3099ec840c5dd905
 mp_seaside.fr
@@ -2948,8 +2948,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_2613f24ad4fa5cbc
-hash_2216c1d3d66ce
+vox_tvoi_tutor_reco_zomb_score_active_fail
+vox_tvoi_tutor_reco_zomb_score_earned
 hash_65b77a5781973190
 hash_7e2b14047d033ee6
 mp_seaside.fr
@@ -2957,8 +2957,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_2216c1d3d66ce
-hash_5b00936def7e0205
+vox_tvoi_tutor_reco_zomb_score_earned
+vox_tvoi_tutor_reco_zomb_vis_pulse_0
 hash_77046a96410b3a83
 hash_38711cad6a89f487
 mp_seaside.fr
@@ -2967,7 +2967,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_5b00936def7e0205
+vox_tvoi_tutor_reco_zomb_vis_pulse_0
 hash_796c4ad3d5b534c5
 hash_2c06c28d72dc07cd
 mp_seaside.fr
@@ -2976,8 +2976,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_5b00936def7e0205
-hash_5b00926def7e0052
+vox_tvoi_tutor_reco_zomb_vis_pulse_0
+vox_tvoi_tutor_reco_zomb_vis_pulse_1
 hash_690eebfb42f33fb8
 hash_1e7d8ed373ddc8c8
 mp_seaside.fr
@@ -2986,7 +2986,7 @@ mp_seaside.fr
 mpl_announcer
 mature
 explicit
-hash_5b00926def7e0052
+vox_tvoi_tutor_reco_zomb_vis_pulse_1
 hash_11c59881ea6dd102
 hash_357137850400caa6
 mp_seaside.fr
@@ -2995,8 +2995,8 @@ mp_seaside.fr
 mpl_announcer
 mature
 safe
-hash_5b00926def7e0052
-hash_5b00916def7dfe9f
+vox_tvoi_tutor_reco_zomb_vis_pulse_1
+vox_tvoi_tutor_reco_zomb_vis_pulse_2
 hash_25a9f74e68512f11
 hash_7009c7256fd51f31
 mp_seaside.fr
@@ -3004,8 +3004,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_5b00916def7dfe9f
-hash_5b00906def7dfcec
+vox_tvoi_tutor_reco_zomb_vis_pulse_2
+vox_tvoi_tutor_reco_zomb_vis_pulse_3
 hash_15ceac7abe1ddcbe
 hash_385264c36acf91aa
 mp_seaside.fr
@@ -3013,8 +3013,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_5b00906def7dfcec
-hash_5b008f6def7dfb39
+vox_tvoi_tutor_reco_zomb_vis_pulse_3
+vox_tvoi_tutor_reco_zomb_vis_pulse_4
 hash_7dca6205888677ff
 hash_15e3e2d5fc592b9b
 mp_seaside.fr
@@ -3022,8 +3022,8 @@ mp_seaside.fr
 mp_seaside.fr
 mpl_announcer
 mature
-hash_5b008f6def7dfb39
-hash_71e3201091761895
+vox_tvoi_tutor_reco_zomb_vis_pulse_4
+mp_seaside_fr_stream
 hash_204f730eb3d866b0
 hash_6d4eaa2c279d773
 hash_317b8b10b08c511a

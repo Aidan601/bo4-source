@@ -16,7 +16,7 @@
     "misstimeresetdelay": 8000,
     "vmtype": "server",
     "player_respawndelay": 30,
-    "hash_414adea090ff0c00:hash_c5c20d41": 5,
+    "player_respawnpenalty": 5,
     "name": "gamedifficulty_realistic",
     "longregentime": 3500,
     "autoaimregionwidth": 30,

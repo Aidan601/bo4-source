@@ -1,6 +1,6 @@
 {
-    "lootid": "#hash_3075688a5007f00",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "lootid": "#charm_duck_base",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_duck_base",
     "name": "charm_duck",
     "displayname": "localized17#hash_1c6bb00d1953309e",

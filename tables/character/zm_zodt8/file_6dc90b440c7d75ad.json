@@ -1,9 +1,9 @@
 {
-    "name": "#hash_6dc90b440c7d75ad",
+    "name": "#c_t8_zmb_crew6_igc",
     "skeleton": "base",
     "voice": "american",
     "headImpactType": 1,
     "bodyImpactType": 1,
-    "body": "#hash_6a905f227281a5c4",
-    "head": "#hash_17f36df34ac7b40e"
+    "body": "#c_t8_zmb_crew_body6_igc",
+    "head": "#c_t8_zmb_crew_head6_igc"
 }

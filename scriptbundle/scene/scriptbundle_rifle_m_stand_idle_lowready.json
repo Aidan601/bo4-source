@@ -1,7 +1,7 @@
 {
     "objects": [
         {
-            "mainanim": "playeranim#hash_2de9020c72665e3c",
+            "mainanim": "playeranim#pb_rifle_m_stand_idle_lowready",
             "model": "model#c_t7_ally_fb",
             "type": "fakeplayer",
             "vmtype": "server",

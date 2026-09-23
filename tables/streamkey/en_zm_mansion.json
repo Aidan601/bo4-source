@@ -1,7 +1,7 @@
 {
     "keys": [
         {
-            "name": "#hash_a7c6ecfa898cd4d",
+            "name": "#zm_mansion_en_stream",
             "xPakEntry": {
                 "key": "#hash_f22e54f9b1ece72d",
                 "offset": 0,
@@ -20,7 +20,7 @@
             "keyFlags": 3
         },
         {
-            "name": "#hash_7b31047e67e1a778",
+            "name": "#zm_mansion_en_loaded",
             "xPakEntry": {
                 "key": "#hash_fe2039e300044687",
                 "offset": 0,

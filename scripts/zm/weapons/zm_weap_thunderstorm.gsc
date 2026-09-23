@@ -35,8 +35,8 @@ function __init__()
     zm_loadout::register_lethal_grenade_for_level( #"thunderstorm" );
     clientfield::register( "scriptmover", "" + #"aoe_indicator", 16000, 1, "counter" );
     clientfield::register( "scriptmover", "" + #"electric_storm", 16000, 1, "int" );
-    clientfield::register( "scriptmover", "" + #"hash_7006a7d528a6f05c", 16000, 3, "int" );
-    clientfield::register( "actor", "" + #"hash_51b05e5d116438a9", 16000, 3, "int" );
+    clientfield::register( "scriptmover", "" + #"pegasus_beam_start", 16000, 3, "int" );
+    clientfield::register( "actor", "" + #"pegasus_beam_target", 16000, 3, "int" );
     clientfield::register( "actor", "" + #"hash_561a1fd86bc1a53a", 16000, 1, "int" );
     clientfield::register( "scriptmover", "" + #"hash_43cf6c236d2e9ba", 16000, 1, "counter" );
     clientfield::register( "scriptmover", "" + #"pegasus_staff_fx", 16000, 1, "int" );
@@ -105,7 +105,7 @@ function function_6c5cb6e()
         }
         
         self val::reset( #"pegasus_strike", "freezecontrols" );
-        self notify( #"hash_2938992396267cf3" );
+        self notify( #"thunderstorm_change" );
     }
 }
 
@@ -115,8 +115,8 @@ function function_6c5cb6e()
 // Size: 0xd0
 function function_feb1573e()
 {
-    self notify( #"hash_2938992396267cf3" );
-    self endon( #"disconnect", #"hash_2938992396267cf3" );
+    self notify( #"thunderstorm_change" );
+    self endon( #"disconnect", #"thunderstorm_change" );
     
     while ( true )
     {
@@ -399,7 +399,7 @@ function function_5d44b698( v_origin )
 function function_b603ab34( e_player, mdl_pegasus )
 {
     level scene::function_27f5972e( #"p8_fxanim_zm_zod_staff_ra_bundle" );
-    e_player playsound( #"hash_178614dae860a551" );
+    e_player playsound( #"wpn_scepter_plant_activate_npc" );
     
     if ( isdefined( level.var_338bae81 ) )
     {
@@ -409,7 +409,7 @@ function function_b603ab34( e_player, mdl_pegasus )
     v_forward = anglestoforward( e_player.angles );
     v_pos = e_player.origin + v_forward * 30;
     v_pos = util::ground_position( v_pos + ( 0, 0, 30 ), 1000, 12 );
-    mdl_temp = util::spawn_model( #"hash_30b0badbca0a10de", v_pos + ( 0, 0, -5 ), ( 0, 0, 0 ) );
+    mdl_temp = util::spawn_model( #"wpn_t8_zm_eqp_lightning_rod_world", v_pos + ( 0, 0, -5 ), ( 0, 0, 0 ) );
     waitframe( 1 );
     mdl_temp clientfield::set( "" + #"pegasus_staff_fx", 1 );
     mdl_pegasus waittill( #"hash_7a19b162c9e303dc" );
@@ -436,12 +436,12 @@ function function_57011892( e_player )
 // Size: 0x12c
 function pegasus_think()
 {
-    self clientfield::set( "" + #"hash_7006a7d528a6f05c", self.player getentitynumber() + 1 );
+    self clientfield::set( "" + #"pegasus_beam_start", self.player getentitynumber() + 1 );
     self thread scene::play( "aib_zm_red_vign_peg_inair_flapattack_01", "loop", self );
     self clientfield::set( "" + #"electric_storm", 1 );
     self waittill( #"hash_7a19b162c9e303dc" );
     self clientfield::set( "" + #"electric_storm", 0 );
-    self clientfield::set( "" + #"hash_7006a7d528a6f05c", 5 );
+    self clientfield::set( "" + #"pegasus_beam_start", 5 );
     wait 0.1;
     self delete();
 }
@@ -573,7 +573,7 @@ function function_7c333a0f( mdl_pegasus, var_5d7b4163, n_player_index )
     while ( isalive( self ) )
     {
         self function_97429d68( n_player_index );
-        self playsound( #"hash_3a99f739009a77fa" );
+        self playsound( #"wpn_homunculus_melee_imp" );
         self dodamage( var_5d7b4163, self.origin, e_player, e_player, "none", "MOD_UNKNOWN", 0, level.w_thunderstorm );
         wait 0.5;
     }
@@ -683,9 +683,9 @@ function function_97429d68( n_player_index )
     }
     
     self.var_c6aafbdb = 1;
-    self clientfield::set( "" + #"hash_51b05e5d116438a9", n_player_index );
+    self clientfield::set( "" + #"pegasus_beam_target", n_player_index );
     wait 0.3;
-    self clientfield::set( "" + #"hash_51b05e5d116438a9", 0 );
+    self clientfield::set( "" + #"pegasus_beam_target", 0 );
     self.var_c6aafbdb = 0;
     self ai::clear_stun();
 }

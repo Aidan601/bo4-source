@@ -1,12 +1,12 @@
 {
-    "name": "#hash_4ee193c79104441e",
+    "name": "#loot_emote_shared_finger_wag",
     "type": "#gesture",
-    "gesture": "#hash_4cd25733652c6ab0",
-    "gesture2": "#hash_5bfb1d012877bb33",
+    "gesture": "#boast_finger_wag",
+    "gesture2": "#boast_finger_wag_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_3bb3014ac2a55c0d",
-        "icon": "image#hash_2a8b0097a58122b7",
+        "icon": "image#ui_icon_emotes_finger_wag",
         "isdefault": 0
     }
 }

@@ -22,7 +22,7 @@ function autoexec __init__system__()
 // Size: 0x83a
 function __init__()
 {
-    clientfield::register( "allplayers", "" + #"firestorm_shot_fx", 1, 1, "counter", &function_618e1db4, 0, 0 );
+    clientfield::register( "allplayers", "" + #"firestorm_shot_fx", 1, 1, "counter", &firestorm_shot_fx, 0, 0 );
     clientfield::register( "allplayers", "" + #"hash_18fc1da5f1785e6b", 1, 1, "counter", &function_311767a6, 0, 0 );
     clientfield::register( "allplayers", "" + #"charge_gem", 1, 2, "int", &function_8a2b203b, 0, 1 );
     clientfield::register( "allplayers", "" + #"hash_275debebcd185ea1", 1, 1, "int", &function_467afa20, 0, 1 );
@@ -36,11 +36,11 @@ function __init__()
     clientfield::register( "toplayer", "" + #"hash_2cd1bb15f71aedb8", 1, 1, "counter", &function_7faf18dd, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_1769e95fdb10dfae", 1, 1, "counter", &function_f2c5818e, 0, 0 );
     level._effect[ #"charged_eyes" ] = #"hash_2d151fbde925d3e";
-    level._effect[ #"hash_5a722d93fee71051" ] = #"hash_7a37d99aaa7057cf";
+    level._effect[ #"upgraded_charged_eyes" ] = #"hash_7a37d99aaa7057cf";
     level._effect[ #"firestorm_1p" ] = #"hash_5a45cca38c2dd6c8";
     level._effect[ #"firestorm_3p" ] = #"hash_5a4cd8a38c3409da";
-    level._effect[ #"hash_7f665a0db122bf39" ] = #"hash_2c36c10b1ca1f825";
-    level._effect[ #"hash_7f6c660db1273f4b" ] = #"hash_9dd3174f1e4d47b";
+    level._effect[ #"upgraded_firestorm_1p" ] = #"hash_2c36c10b1ca1f825";
+    level._effect[ #"upgraded_firestorm_3p" ] = #"hash_9dd3174f1e4d47b";
     level._effect[ #"hash_75cfc1cd4cd9154" ] = #"hash_2eeb08ff15dbd6b1";
     level._effect[ #"hash_75cff1cd4cd966d" ] = #"hash_5a07c709253f930e";
     level._effect[ #"hash_75cfe1cd4cd94ba" ] = #"hash_75bbd0f87c4680f";
@@ -61,12 +61,12 @@ function __init__()
 // Params 7
 // Checksum 0xe4f20d02, Offset: 0x9a0
 // Size: 0x16a
-function function_618e1db4( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function firestorm_shot_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( self.weapon == getweapon( #"zhield_zword_turret_upgraded" ) )
     {
-        var_27aa6343 = level._effect[ #"hash_7f665a0db122bf39" ];
-        var_a1f103c8 = level._effect[ #"hash_7f6c660db1273f4b" ];
+        var_27aa6343 = level._effect[ #"upgraded_firestorm_1p" ];
+        var_a1f103c8 = level._effect[ #"upgraded_firestorm_3p" ];
     }
     else
     {
@@ -211,7 +211,7 @@ function function_8a2b203b( localclientnum, oldval, newval, bnewent, binitialsna
                 var_2b01a8ab = level._effect[ #"hash_75cfc1cd4cd9154" ];
             }
             
-            str_sound = #"hash_5bdfbb591ff7e29d";
+            str_sound = #"wpn_zhield_melee_upgrade_gem_1";
             break;
         case 2:
             if ( var_515e20e6 )
@@ -223,7 +223,7 @@ function function_8a2b203b( localclientnum, oldval, newval, bnewent, binitialsna
                 var_2b01a8ab = level._effect[ #"hash_75cff1cd4cd966d" ];
             }
             
-            str_sound = #"hash_5bdfb8591ff7dd84";
+            str_sound = #"wpn_zhield_melee_upgrade_gem_2";
             break;
         case 3:
             if ( var_515e20e6 )
@@ -241,17 +241,17 @@ function function_8a2b203b( localclientnum, oldval, newval, bnewent, binitialsna
             
             if ( oldval != 0 )
             {
-                str_sound = #"hash_5bdfb9591ff7df37";
+                str_sound = #"wpn_zhield_melee_upgrade_gem_3";
             }
             
             if ( !isdefined( self.var_dc255e3b ) )
             {
                 if ( oldval != 0 )
                 {
-                    self playsound( localclientnum, #"hash_54365a8985bf4da9" );
+                    self playsound( localclientnum, #"wpn_zhield_melee_ignite" );
                 }
                 
-                self.var_dc255e3b = self playloopsound( #"hash_5452ecceeecdc217" );
+                self.var_dc255e3b = self playloopsound( #"wpn_zhield_melee_burn_lp" );
             }
             
             break;
@@ -284,7 +284,7 @@ function function_8a2b203b( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( var_515e20e6 )
         {
-            self.var_d16b03db = util::playfxontag( localclientnum, level._effect[ #"hash_5a722d93fee71051" ], self, "tag_barrels_fx" );
+            self.var_d16b03db = util::playfxontag( localclientnum, level._effect[ #"upgraded_charged_eyes" ], self, "tag_barrels_fx" );
             return;
         }
         
@@ -302,7 +302,7 @@ function function_b975154f( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( newval )
     {
-        s_start = struct::get( #"hash_8f1fa9142d272b6" );
+        s_start = struct::get( #"s_shield_quest_upgraded_shield_lower" );
         self thread function_103be84b( localclientnum, #"lower", s_start );
     }
 }
@@ -341,7 +341,7 @@ function function_200650fb( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( newval )
     {
-        s_start = struct::get( #"hash_6ef4fc9a0ac3e3bc" );
+        s_start = struct::get( #"s_shield_quest_upgraded_shield_katar" );
         self thread function_103be84b( localclientnum, #"katar", s_start );
     }
 }
@@ -380,7 +380,7 @@ function function_bee087e9( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( newval )
     {
-        s_start = struct::get( #"hash_3c2d004790b50543" );
+        s_start = struct::get( #"s_shield_quest_upgraded_shield_upper" );
         self thread function_103be84b( localclientnum, #"upper", s_start );
     }
 }
@@ -486,7 +486,7 @@ function function_103be84b( localclientnum, str_piece, s_start )
     
     if ( isdefined( self ) )
     {
-        self playsound( localclientnum, #"hash_230737b2535a3374" );
+        self playsound( localclientnum, #"zmb_crafting_pickup_generic" );
     }
     
     mdl_piece delete();

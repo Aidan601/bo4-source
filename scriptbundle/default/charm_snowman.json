@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_snowman",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_snowman",
     "name": "charm_snowman",
-    "displayname": "localized17#hash_63f35710dbfc23bc",
+    "displayname": "localized17#menu/charm_snowman",
     "icon": "ui_icon_weapon_charms_snowman",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_snowman"

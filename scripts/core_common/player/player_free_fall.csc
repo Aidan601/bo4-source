@@ -1,4 +1,4 @@
-#using script_7ca3324ffa5389e4;
+#using scripts\core_common\player\player_free_fall_util;
 #using scripts\core_common\animation_shared;
 #using scripts\core_common\audio_shared;
 #using scripts\core_common\callbacks_shared;
@@ -26,7 +26,7 @@ function autoexec __init__system__()
 // Size: 0x13e
 function __init__()
 {
-    level._effect[ #"hash_2d7e36f50e763c4a" ] = #"hash_3cb3a6fc9eb00337";
+    level._effect[ #"free_fall_ambient" ] = #"hash_3cb3a6fc9eb00337";
     level._effect[ #"hash_71f4fac26bef1997" ] = #"hash_3919b64dc762cab2";
     callback::add_callback( #"freefall", &function_c9a18304 );
     callback::add_callback( #"parachute", &function_26d46af3 );
@@ -422,7 +422,7 @@ function function_a993866( localclientnum, var_9a17b15c )
     {
         if ( isdefined( trail_fx.( "body_trail" ) ) )
         {
-            self.var_636d5543 = self play_fx_on_tag( localclientnum, trail_fx.( "body_trail" ), trail_fx.var_82aadb9b );
+            self.var_636d5543 = self play_fx_on_tag( localclientnum, trail_fx.( "body_trail" ), trail_fx.tag_body_trail );
         }
         
         return;
@@ -432,8 +432,8 @@ function function_a993866( localclientnum, var_9a17b15c )
     {
         if ( isdefined( trail_fx.( "body_trail_3p" ) ) )
         {
-            tag = trail_fx.var_82aadb9b;
-            self.var_d7cbaf63 = self play_fx_on_tag( localclientnum, trail_fx.( "body_trail_3p" ), trail_fx.var_82aadb9b );
+            tag = trail_fx.tag_body_trail;
+            self.var_d7cbaf63 = self play_fx_on_tag( localclientnum, trail_fx.( "body_trail_3p" ), trail_fx.tag_body_trail );
         }
     }
 }
@@ -513,7 +513,7 @@ function function_3a56fe1b( localclientnum )
 {
     if ( !isdefined( self.var_1c0f821e ) )
     {
-        self.var_1c0f821e = play_fx_on_tag( localclientnum, level._effect[ #"hash_2d7e36f50e763c4a" ], "tag_origin" );
+        self.var_1c0f821e = play_fx_on_tag( localclientnum, level._effect[ #"free_fall_ambient" ], "tag_origin" );
         self thread function_ba7365ff( localclientnum, 6000, self.var_1c0f821e );
     }
     
@@ -564,7 +564,7 @@ function function_2bdd64a4( localclientnum )
     
     if ( self.origin[ 2 ] > 30000 )
     {
-        self playsound( localclientnum, #"hash_214da797e3f63ec5" );
+        self playsound( localclientnum, #"evt_deploy_plr" );
     }
 }
 

@@ -18,7 +18,7 @@
         "#c_t8_zmb_dlc0_tiger1"
     ],
     "animMappingTables": [
-        "#hash_33fdf2f467f642a3"
+        "#zm_tiger.ai_am"
     ],
     "meleeWeapon": "#dog_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
@@ -26,9 +26,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_3407dbf467fe7013",
-    "animStateMachine": "#hash_4ebfbf4ca76d94f0",
-    "animSelectorTable": "#hash_4ebfb84ca76d890b",
+    "behaviorTree": "#zm_tiger.ai_bt",
+    "animStateMachine": "#zm_tiger.ai_asm",
+    "animSelectorTable": "#zm_tiger.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_tiger_settings",

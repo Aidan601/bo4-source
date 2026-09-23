@@ -1,8 +1,8 @@
 {
-    "name": "#hash_7d499a495dd9ac9c",
+    "name": "#loot_emote_exotic_shared_police_badge",
     "type": "#gesture",
-    "gesture": "#hash_793534cd12ab7955",
-    "gesture2": "#hash_4d335954f656db2e",
+    "gesture": "#boast_police_badge",
+    "gesture2": "#boast_police_badge_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_5663135f177591c6",

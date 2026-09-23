@@ -37,7 +37,7 @@ function autoexec __init__system__()
 function __init__()
 {
     /#
-        if ( getdvarint( #"hash_79f58c97fc43e423", 0 ) )
+        if ( getdvarint( #"show_ent_counts", 0 ) )
         {
             level thread function_774b42ac();
         }
@@ -47,7 +47,7 @@ function __init__()
             level.var_df9f1a00 = [];
             callback::on_ai_spawned( &function_df54cbcd );
             callback::on_ai_killed( &function_86b062a6 );
-            callback::function_74872db6( &function_acd2ba83 );
+            callback::on_round_begin( &function_acd2ba83 );
             level thread function_84b292b4();
         }
         
@@ -263,7 +263,7 @@ function function_6a0d675d( str_alias, n_variant = int( -1 ), b_wait_if_busy = 0
 // Size: 0x54
 function function_3c173d37()
 {
-    level notify( #"hash_1a91b42d31e0b28d" );
+    level notify( #"stop_all_vo" );
     level zm_vo::function_3c173d37( ( 0, 0, 0 ), 2147483647 );
     level function_29fe9a5d();
 }
@@ -468,7 +468,7 @@ function function_b2e1326( var_58df9892, var_1dc9c1bf = 1 )
             }
             else
             {
-                self sethintstring( #"hash_23c1c09e94181fdb", var_1dc9c1bf );
+                self sethintstring( #"zombie/button_buy_trap", var_1dc9c1bf );
             }
             
             break;
@@ -1014,7 +1014,7 @@ function function_df67a12d( category, subcategory )
         while ( true )
         {
             waitframe( 1 );
-            str_command = getdvarstring( #"hash_6c7113bf98c41367", "<dev string:x9d>" );
+            str_command = getdvarstring( #"zm_hms_util_cmd", "<dev string:x9d>" );
             
             switch ( str_command )
             {
@@ -1025,7 +1025,7 @@ function function_df67a12d( category, subcategory )
                     break;
             }
             
-            setdvar( #"hash_6c7113bf98c41367", "<dev string:x9d>" );
+            setdvar( #"zm_hms_util_cmd", "<dev string:x9d>" );
         }
     }
 

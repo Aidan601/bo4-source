@@ -1044,12 +1044,12 @@ function function_90185171( totaltimeplayed, credits, casexp )
             {
                 if ( getdvarint( #"loot_tier_skips_enabled", 0 ) == 1 && getdvarint( #"lootcontracts_daily_tier_skip", 0 ) != 1 )
                 {
-                    if ( !isdefined( player.pers[ #"hash_6344af0b142ed0b6" ] ) )
+                    if ( !isdefined( player.pers[ #"loot_tier_skip" ] ) )
                     {
-                        player.pers[ #"hash_6344af0b142ed0b6" ] = 0;
+                        player.pers[ #"loot_tier_skip" ] = 0;
                     }
                     
-                    if ( player.pers[ #"hash_6344af0b142ed0b6" ] )
+                    if ( player.pers[ #"loot_tier_skip" ] )
                     {
                         player function_cce105c8( #"tier_skip", 1, 1, 2, modeindex );
                     }
@@ -1066,7 +1066,7 @@ function function_90185171( totaltimeplayed, credits, casexp )
             {
                 if ( sessionmodeismultiplayergame() && getdvarint( #"hash_107f9b52b0455b54", 1 ) || sessionmodeiswarzonegame() && getdvarint( #"hash_10d78d52b08fb960", 1 ) )
                 {
-                    var_ae857992 = getdvarint( #"hash_60d812bef0f782fb", 2 );
+                    var_ae857992 = getdvarint( #"loot_season_number", 2 );
                     println( "<dev string:x1ce>" + casexp );
                     player function_cce105c8( #"hash_7c81ccc32581870e", 1, int( casexp ), 2, modeindex, 3, int( totaltimeplayed ), 4, int( var_ae857992 ) );
                 }
@@ -1109,9 +1109,9 @@ function private function_d6f929d6()
     
     foreach ( player in level.players )
     {
-        if ( isdefined( player.pers[ #"hash_150795bee4d46ce4" ] ) )
+        if ( isdefined( player.pers[ #"first_connect_time" ] ) )
         {
-            var_28ee869a = gettime() - player.pers[ #"hash_150795bee4d46ce4" ];
+            var_28ee869a = gettime() - player.pers[ #"first_connect_time" ];
             player function_659f7dc( var_28ee869a, var_b50d0caa, var_7f6396f0 );
         }
     }
@@ -1239,7 +1239,7 @@ function controllerparticipationcheck()
                 if ( !self.pers[ #"controllerparticipationinactivitywarnings" ] )
                 {
                     self.pers[ #"controllerparticipationinactivitywarnings" ]++;
-                    self iprintlnbold( #"hash_59bd89e170a924ac" );
+                    self iprintlnbold( #"game/inactivedropwarning" );
                 }
                 else
                 {
@@ -1272,7 +1272,7 @@ function function_57d8515c()
     
     var_37c0d246 = 25;
     level.var_5b7e9056 = isdefined( getgametypesetting( #"hash_410c5c7c1e60b534" ) ) ? getgametypesetting( #"hash_410c5c7c1e60b534" ) : 0;
-    level.var_df437ed2 = isdefined( getgametypesetting( #"hash_451245a24412d90f" ) ) ? getgametypesetting( #"hash_451245a24412d90f" ) : 0;
+    level.controllerparticipationcheckinterval = isdefined( getgametypesetting( #"controllerparticipationcheckinterval" ) ) ? getgametypesetting( #"controllerparticipationcheckinterval" ) : 0;
     level.var_42dca1dd = isdefined( getgametypesetting( #"hash_6ae29c8144cb7659" ) ) ? getgametypesetting( #"hash_6ae29c8144cb7659" ) : 0;
     level.var_8e1c2aa1 = isdefined( getgametypesetting( #"hash_35e9fc8eee6881e0" ) ) ? getgametypesetting( #"hash_35e9fc8eee6881e0" ) : 0;
     level.var_5d96cc20 = isdefined( getgametypesetting( #"hash_7adb62a64c6d963" ) ) ? getgametypesetting( #"hash_7adb62a64c6d963" ) : 0;
@@ -1281,7 +1281,7 @@ function function_57d8515c()
     
     for ( ;; )
     {
-        wait level.var_df437ed2;
+        wait level.controllerparticipationcheckinterval;
         playerschecked = 0;
         players = getplayers();
         
@@ -1905,7 +1905,7 @@ function multikill( killcount, weapon )
         }
         
         self.var_ea1458aa.var_e0bfa611++;
-        self function_a4db0a4c();
+        self multikill_2_killstreak_5();
     }
     
     if ( isdefined( level.var_c8de519d ) && isdefined( level.var_c8de519d.multikill ) )
@@ -1918,7 +1918,7 @@ function multikill( killcount, weapon )
 // Params 0
 // Checksum 0xc70db754, Offset: 0x5950
 // Size: 0xaa
-function function_a4db0a4c()
+function multikill_2_killstreak_5()
 {
     if ( !isdefined( self.var_ea1458aa.var_e0bfa611 ) )
     {
@@ -1932,7 +1932,7 @@ function function_a4db0a4c()
     
     if ( self.var_ea1458aa.var_e0bfa611 > 0 && self.var_ea1458aa.var_2bad4cbb > 0 )
     {
-        self stats::function_dad108fa( #"hash_5803a1b332accd42", 1 );
+        self stats::function_dad108fa( #"multikill_2_killstreak_5", 1 );
         self.var_ea1458aa.var_e0bfa611 = undefined;
         self.var_ea1458aa.var_2bad4cbb = undefined;
     }
@@ -2091,7 +2091,7 @@ function multi_rcbomb_kill()
 // Size: 0x2c
 function function_46754062()
 {
-    self stats::function_dad108fa( #"hash_709699a31c8f89f7", 1 );
+    self stats::function_dad108fa( #"multikill_2_rcxd", 1 );
 }
 
 // Namespace challenges/challenges_shared

@@ -32,7 +32,7 @@ function init()
 // Size: 0x8cc
 function init_clientfields()
 {
-    clientfield::register( "world", "" + #"hash_3c58464f16d8a1be", 1, 1, "int", &function_503f6096, 0, 0 );
+    clientfield::register( "world", "" + #"reveal_ee_space", 1, 1, "int", &function_503f6096, 0, 0 );
     clientfield::register( "scriptmover", "" + #"land_fx", 1, 1, "int", &function_48719840, 0, 0 );
     clientfield::register( "scriptmover", "" + #"essence_fx", 1, 1, "int", &function_92436a06, 0, 0 );
     clientfield::register( "scriptmover", "" + #"planet_light", 1, getminbitcountfornum( 9 ), "int", &function_e7c0fb8c, 0, 0 );
@@ -42,19 +42,19 @@ function init_clientfields()
     clientfield::register( "scriptmover", "" + #"ice_damage_fx", 1, 2, "int", &function_49661954, 0, 0 );
     clientfield::register( "scriptmover", "" + #"ice_rising_fx", 1, 1, "int", &function_25a6443, 0, 0 );
     clientfield::register( "scriptmover", "" + #"blocker_fx", 1, 1, "int", &function_74e395f7, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"hash_68e2384b254175da", 1, 1, "counter", &function_9a686624, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"planet_glyph_activate", 1, 1, "counter", &planet_glyph_activate, 0, 0 );
     clientfield::register( "scriptmover", "" + #"pipe_fx", 1, 2, "int", &pipe_fx, 0, 0 );
     clientfield::register( "scriptmover", "" + #"teleport_sigil", 1, 1, "int", &teleport_sigil, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_46e2ed49fb0f55c6", 1, 1, "int", &function_9f92e675, 0, 0 );
     clientfield::register( "scriptmover", "" + #"water_props", 1, 1, "int", &function_2d798d9a, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_6e41de51a0092771", 1, 1, "int", &function_dd0c6ccb, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"artifact_element_fx", 1, getminbitcountfornum( 4 ), "int", &function_33aa16f0, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"artifact_element_fx", 1, getminbitcountfornum( 4 ), "int", &artifact_element_fx, 0, 0 );
     clientfield::register( "toplayer", "" + #"boiler_fx", 1, 1, "int", &function_d592393d, 0, 0 );
     clientfield::register( "toplayer", "" + #"main_flash", 1, 1, "int", &function_94822f89, 0, 0 );
     clientfield::register( "toplayer", "" + #"iceberg_rumbles", 1, 1, "int", &function_ac4395b, 0, 0 );
-    clientfield::register( "toplayer", "" + #"cold_time_fx", 1, 1, "counter", &function_9491a41e, 0, 0 );
+    clientfield::register( "toplayer", "" + #"cold_time_fx", 1, 1, "counter", &cold_time_fx, 0, 0 );
     clientfield::register( "toplayer", "" + #"icy_bubbles", 1, 1, "int", &function_c6880d07, 0, 0 );
-    clientfield::register( "toplayer", "" + #"hash_58b44c320123e829", 1, 1, "int", &function_1697bc59, 0, 0 );
+    clientfield::register( "toplayer", "" + #"water_ragdolls", 1, 1, "int", &water_ragdolls, 0, 0 );
     clientfield::register( "toplayer", "" + #"camera_snow", 1, 1, "int", &camera_snow, 0, 0 );
     clientfield::register( "vehicle", "" + #"orb_fx", 1, 1, "int", &function_57196646, 0, 0 );
 }
@@ -74,17 +74,17 @@ function init_flags()
 // Size: 0x9f2
 function init_fx()
 {
-    level._effect[ #"hash_2e7f9a3bff90af4a" ] = #"hash_7b0d80c48289dd0b";
-    level._effect[ #"hash_573af1567956ac69" ] = #"hash_661da9149933ecf9";
-    level._effect[ #"hash_538a9337bb9927da" ] = #"zm_ai/fx8_cata_elec_aura";
-    level._effect[ #"hash_3dba8e7d212e4382" ] = #"hash_641c2257723638c2";
-    level._effect[ #"hash_59916e76378fa3d8" ] = #"hash_62eafc17a432322a";
-    level._effect[ #"hash_1e6b4bfa36f9487b" ] = #"hash_1832a0ef5af0040d";
-    level._effect[ #"hash_4b9011909a431ac8" ] = #"hash_619361bb6a9a5d2d";
-    level._effect[ #"hash_50a595992ac285d0" ] = #"hash_3009e42178ffd484";
-    level._effect[ #"hash_4ab2496c89a7d871" ] = #"hash_4a305119bc50ca3d";
+    level._effect[ #"soul_fx_earth" ] = #"hash_7b0d80c48289dd0b";
+    level._effect[ #"soul_fx_water" ] = #"zm_ai/fx8_cata_water_purify_trail";
+    level._effect[ #"soul_fx_air" ] = #"zm_ai/fx8_cata_elec_aura";
+    level._effect[ #"soul_fx_fire" ] = #"hash_641c2257723638c2";
+    level._effect[ #"soul_capture_earth" ] = #"zm_ai/fx8_cata_cor_death";
+    level._effect[ #"soul_capture_water" ] = #"zm_ai/fx8_cata_water_death";
+    level._effect[ #"soul_capture_air" ] = #"zm_ai/fx8_cata_elec_death";
+    level._effect[ #"soul_capture_fire" ] = #"zm_ai/fx8_cata_plasma_transform";
+    level._effect[ #"hash_4ab2496c89a7d871" ] = #"fire/fx8_line_md";
     level._effect[ #"packed_artifact" ] = #"zombie/fx_ritual_glow_relic_zod_zmb";
-    level._effect[ #"catalyst_blocker" ] = #"hash_5b773dbbac0012ff";
+    level._effect[ #"catalyst_blocker" ] = #"zombie/fx8_power_door_amb_quest";
     level._effect[ #"sentinel_aura" ] = #"hash_3def678deb7f4078";
     level._effect[ #"sentinel_activate" ] = #"hash_464f27bfbf0ce7bf";
     level._effect[ #"sentinel_glow" ] = #"hash_41b2c270f26faabc";
@@ -99,14 +99,14 @@ function init_fx()
     level._effect[ #"glyph_activate" ] = #"hash_6a4db7ffc84cf7fc";
     level._effect[ #"orb_trail" ] = #"hash_6d900123df67f4ce";
     level._effect[ #"orb_essence" ] = #"hash_2aac2efa85bfb786";
-    level._effect[ #"hash_2dd4629ae81753e5" ] = #"hash_203548b984de70a4";
+    level._effect[ #"orb_essence_neptune" ] = #"hash_203548b984de70a4";
     level._effect[ #"orb_landing_fx" ] = #"hash_43cec289a09441e9";
-    level._effect[ #"hash_2bb182b164a2d789" ] = #"hash_71fc8c15d53b5fe2";
+    level._effect[ #"orb_water_landing_fx" ] = #"hash_71fc8c15d53b5fe2";
     level._effect[ #"orb_shot_fx" ] = #"hash_2f27882b95a820fd";
     level._effect[ #"ice_blocker" ] = #"hash_55a1d3ce6c554a7a";
-    level._effect[ #"hash_53533bf74eb74209" ] = #"hash_2909be1122353509";
-    level._effect[ #"hash_535338f74eb73cf0" ] = #"hash_28b4c41121ecff3c";
-    level._effect[ #"hash_452505f92d084e74" ] = #"hash_7fb7de4ea65f1b9d";
+    level._effect[ #"ice_blocker_dmg1" ] = #"hash_2909be1122353509";
+    level._effect[ #"ice_blocker_dmg2" ] = #"hash_28b4c41121ecff3c";
+    level._effect[ #"ice_blocker_death" ] = #"hash_7fb7de4ea65f1b9d";
     level._effect[ #"iceberg_ocean_fx" ] = #"hash_369788360ca4879d";
     level._effect[ #"iceberg_waterfall_fx" ] = #"hash_56e16e07d428fead";
     level._effect[ #"step7_snow" ] = #"hash_d778729ca762c5a";
@@ -135,14 +135,14 @@ function init_fx()
 // Size: 0x344
 function function_91be5845()
 {
-    zm_sq_modules::function_d8383812( #"hash_41a5c5168ffb2a97", 1, #"hash_3d7f94e7862a63ab", 50, level._effect[ #"hash_2e7f9a3bff90af4a" ], level._effect[ #"hash_59916e76378fa3d8" ], undefined, &function_7729e81c );
-    zm_sq_modules::function_d8383812( #"hash_400a481490a4e390", 1, #"hash_3d7f94e7862a63ab", 50, level._effect[ #"hash_573af1567956ac69" ], level._effect[ #"hash_1e6b4bfa36f9487b" ], undefined, &function_7729e81c );
-    zm_sq_modules::function_d8383812( #"hash_5562e324d230f057", 1, #"hash_3d7f94e7862a63ab", 50, level._effect[ #"hash_538a9337bb9927da" ], level._effect[ #"hash_4b9011909a431ac8" ], undefined, &function_7729e81c );
-    zm_sq_modules::function_d8383812( #"hash_41fae186552f1259", 1, #"hash_3d7f94e7862a63ab", 50, level._effect[ #"hash_3dba8e7d212e4382" ], level._effect[ #"hash_50a595992ac285d0" ], undefined, &function_7729e81c );
-    zm_sq_modules::function_d8383812( #"hash_7182a46bb3cdf577", 1, #"hash_7182a46bb3cdf577", 111, level._effect[ #"hash_2e7f9a3bff90af4a" ], level._effect[ #"hash_59916e76378fa3d8" ], undefined );
-    zm_sq_modules::function_d8383812( #"hash_466c2764cc790370", 1, #"hash_466c2764cc790370", 111, level._effect[ #"hash_573af1567956ac69" ], level._effect[ #"hash_1e6b4bfa36f9487b" ], undefined );
-    zm_sq_modules::function_d8383812( #"hash_34f2b4c4f7d74137", 1, #"hash_34f2b4c4f7d74137", 111, level._effect[ #"hash_538a9337bb9927da" ], level._effect[ #"hash_4b9011909a431ac8" ], undefined );
-    zm_sq_modules::function_d8383812( #"hash_49ad34a64ecaebb9", 1, #"hash_49ad34a64ecaebb9", 111, level._effect[ #"hash_3dba8e7d212e4382" ], level._effect[ #"hash_50a595992ac285d0" ], undefined );
+    zm_sq_modules::function_d8383812( #"catalyst_spark_earth", 1, #"catalyst_spark_portal", 50, level._effect[ #"soul_fx_earth" ], level._effect[ #"soul_capture_earth" ], undefined, &function_7729e81c );
+    zm_sq_modules::function_d8383812( #"catalyst_spark_water", 1, #"catalyst_spark_portal", 50, level._effect[ #"soul_fx_water" ], level._effect[ #"soul_capture_water" ], undefined, &function_7729e81c );
+    zm_sq_modules::function_d8383812( #"catalyst_spark_air", 1, #"catalyst_spark_portal", 50, level._effect[ #"soul_fx_air" ], level._effect[ #"soul_capture_air" ], undefined, &function_7729e81c );
+    zm_sq_modules::function_d8383812( #"catalyst_spark_fire", 1, #"catalyst_spark_portal", 50, level._effect[ #"soul_fx_fire" ], level._effect[ #"soul_capture_fire" ], undefined, &function_7729e81c );
+    zm_sq_modules::function_d8383812( #"catalyst_encounter_earth", 1, #"catalyst_encounter_earth", 111, level._effect[ #"soul_fx_earth" ], level._effect[ #"soul_capture_earth" ], undefined );
+    zm_sq_modules::function_d8383812( #"catalyst_encounter_water", 1, #"catalyst_encounter_water", 111, level._effect[ #"soul_fx_water" ], level._effect[ #"soul_capture_water" ], undefined );
+    zm_sq_modules::function_d8383812( #"catalyst_encounter_air", 1, #"catalyst_encounter_air", 111, level._effect[ #"soul_fx_air" ], level._effect[ #"soul_capture_air" ], undefined );
+    zm_sq_modules::function_d8383812( #"catalyst_encounter_fire", 1, #"catalyst_encounter_fire", 111, level._effect[ #"soul_fx_fire" ], level._effect[ #"soul_capture_fire" ], undefined );
 }
 
 // Namespace zodt8_sentinel/zm_zodt8_sentinel_trial
@@ -158,21 +158,21 @@ function function_7729e81c( localclientnum, def, s_capture_point )
 // Params 7
 // Checksum 0x208f7165, Offset: 0x1898
 // Size: 0x124
-function function_33aa16f0( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function artifact_element_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     switch ( newval )
     {
         case 1:
-            str_fx = #"hash_2e7f9a3bff90af4a";
+            str_fx = #"soul_fx_earth";
             break;
         case 2:
-            str_fx = #"hash_573af1567956ac69";
+            str_fx = #"soul_fx_water";
             break;
         case 3:
-            str_fx = #"hash_538a9337bb9927da";
+            str_fx = #"soul_fx_air";
             break;
         case 4:
-            str_fx = #"hash_3dba8e7d212e4382";
+            str_fx = #"soul_fx_fire";
             break;
     }
     
@@ -294,7 +294,7 @@ function function_2d798d9a( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xd3e81c66, Offset: 0x1f30
 // Size: 0x236
-function function_1697bc59( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function water_ragdolls( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -308,7 +308,7 @@ function function_1697bc59( localclientnum, oldval, newval, bnewent, binitialsna
             waitframe( 1 );
         }
         
-        s_loc = struct::get( #"hash_1f307b5cf6d83aff" );
+        s_loc = struct::get( #"physics_jolter" );
         n_z_offset = 400;
         
         while ( level flag::get( #"hash_13dc8f128d50bada" ) )
@@ -417,7 +417,7 @@ function function_9ecc1074( localclientnum )
         {
             if ( self util::function_50ed1561( localclientnum ) )
             {
-                self.var_733dd716 = playfxoncamera( localclientnum, level._effect[ #"hash_1e7095084eda811c" ], ( 0, 0, 0 ), ( 1, 0, 0 ), ( 0, 0, 1 ) );
+                self.var_733dd716 = playfxoncamera( localclientnum, level._effect[ #"water_player_jump_in_new" ], ( 0, 0, 0 ), ( 1, 0, 0 ), ( 0, 0, 1 ) );
             }
             
             wait randomintrange( 15, 20 );
@@ -429,7 +429,7 @@ function function_9ecc1074( localclientnum )
 // Params 7
 // Checksum 0xcd4c9917, Offset: 0x2610
 // Size: 0xb0
-function function_9491a41e( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function cold_time_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( !self postfx::function_556665f2( #"pstfx_frost_loop" ) )
     {
@@ -601,14 +601,14 @@ function function_49661954( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval == 2 )
     {
         self playsound( localclientnum, #"hash_1892310a436314b2" );
-        util::playfxontag( localclientnum, level._effect[ #"hash_53533bf74eb74209" ], self, "tag_origin" );
+        util::playfxontag( localclientnum, level._effect[ #"ice_blocker_dmg1" ], self, "tag_origin" );
         return;
     }
     
     if ( newval == 3 )
     {
         self playsound( localclientnum, #"hash_1892310a436314b2" );
-        util::playfxontag( localclientnum, level._effect[ #"hash_535338f74eb73cf0" ], self, "tag_origin" );
+        util::playfxontag( localclientnum, level._effect[ #"ice_blocker_dmg2" ], self, "tag_origin" );
         return;
     }
     
@@ -624,8 +624,8 @@ function function_49661954( localclientnum, oldval, newval, bnewent, binitialsna
     }
     
     self playsound( localclientnum, #"hash_28d76e47e3d57bf6" );
-    util::playfxontag( localclientnum, level._effect[ #"hash_535338f74eb73cf0" ], self, "tag_origin" );
-    util::playfxontag( localclientnum, level._effect[ #"hash_452505f92d084e74" ], self, "tag_origin" );
+    util::playfxontag( localclientnum, level._effect[ #"ice_blocker_dmg2" ], self, "tag_origin" );
+    util::playfxontag( localclientnum, level._effect[ #"ice_blocker_death" ], self, "tag_origin" );
 }
 
 // Namespace zodt8_sentinel/zm_zodt8_sentinel_trial
@@ -662,12 +662,12 @@ function function_ac4395b( localclientnum, oldval, newval, bnewent, binitialsnap
 // Params 7
 // Checksum 0x6bf2ab46, Offset: 0x3120
 // Size: 0xd4
-function function_9a686624( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function planet_glyph_activate( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
         fx = util::playfxontag( localclientnum, level._effect[ #"glyph_activate" ], self, "tag_origin" );
-        playsound( localclientnum, #"hash_6dfc68e5f7739824", self.origin );
+        playsound( localclientnum, #"zmb_planet_glyph_activate", self.origin );
         wait 3.5;
         
         if ( isdefined( fx ) )
@@ -690,8 +690,8 @@ function function_74e395f7( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( !isdefined( self.var_99a9007b ) )
         {
-            self playsound( localclientnum, #"hash_2c71df73b17cd28a" );
-            self.var_99a9007b = self playloopsound( #"hash_7e4a7312ab58161e" );
+            self playsound( localclientnum, #"zmb_sentinel_trial_blocker_start" );
+            self.var_99a9007b = self playloopsound( #"zmb_sentinel_trial_blocker_lp" );
         }
         
         return;
@@ -704,7 +704,7 @@ function function_74e395f7( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( isdefined( self.var_99a9007b ) )
     {
-        self playsound( localclientnum, #"hash_3366b1b903dc96bf" );
+        self playsound( localclientnum, #"zmb_sentinel_trial_blocker_end" );
         self stoploopsound( self.var_99a9007b );
         self.var_99a9007b = undefined;
     }
@@ -739,7 +739,7 @@ function function_d592393d( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( newval )
     {
-        self thread postfx::playpostfxbundle( #"hash_5513ce472ffeb0f3" );
+        self thread postfx::playpostfxbundle( #"pstfx_heat_distortion_zm" );
         
         if ( !b_underwater )
         {
@@ -754,7 +754,7 @@ function function_d592393d( localclientnum, oldval, newval, bnewent, binitialsna
         setpbgactivebank( localclientnum, 1 );
     }
     
-    self postfx::stoppostfxbundle( #"hash_5513ce472ffeb0f3" );
+    self postfx::stoppostfxbundle( #"pstfx_heat_distortion_zm" );
 }
 
 // Namespace zodt8_sentinel/zm_zodt8_sentinel_trial
@@ -770,7 +770,7 @@ function function_48719840( localclientnum, oldval, newval, bnewent, binitialsna
         return;
     }
     
-    playfx( localclientnum, level._effect[ #"hash_2bb182b164a2d789" ], self.origin );
+    playfx( localclientnum, level._effect[ #"orb_water_landing_fx" ], self.origin );
 }
 
 // Namespace zodt8_sentinel/zm_zodt8_sentinel_trial
@@ -792,7 +792,7 @@ function function_92436a06( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( self.origin[ 2 ] < 2000 )
         {
-            self.var_92d5024f = util::playfxontag( localclientnum, level._effect[ #"hash_2dd4629ae81753e5" ], self, "tag_origin" );
+            self.var_92d5024f = util::playfxontag( localclientnum, level._effect[ #"orb_essence_neptune" ], self, "tag_origin" );
         }
         else
         {
@@ -922,8 +922,8 @@ function function_9f92e675( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval == 1 )
     {
         util::playfxontag( localclientnum, level._effect[ #"tree_activate" ], self, "tag_origin" );
-        self playsound( localclientnum, #"hash_35bdc93fbbad3294" );
-        self.var_3765ceb0 = self playloopsound( #"hash_453bd80432d8f383" );
+        self playsound( localclientnum, #"zmb_step8_artifact_explode" );
+        self.var_3765ceb0 = self playloopsound( #"zmb_step8_water_surge_lp" );
         wait 0.25;
         
         while ( isdefined( self ) )
@@ -943,12 +943,12 @@ function function_57196646( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval == 1 )
     {
         util::playfxontag( localclientnum, level._effect[ #"tree_trail" ], self, "tag_origin" );
-        self playsound( localclientnum, #"hash_c5737dedcdad3a8" );
+        self playsound( localclientnum, #"zmb_step8_planet_release" );
         return;
     }
     
     util::playfxontag( localclientnum, level._effect[ #"tree_impact" ], self, "tag_origin" );
-    self playsound( localclientnum, #"hash_3d9dcef3d979480b" );
+    self playsound( localclientnum, #"zmb_step8_planet_poof" );
     function_36e4ebd4( localclientnum, #"zm_zodt8_planet_impact" );
 }
 

@@ -1,10 +1,10 @@
 {
-    "description": "localized17#hash_2f359d30d4a3f48e",
+    "description": "localized17#medal/clean_multi_deny_tacos_desc",
     "backingsmall": "image#$whitetransparent",
     "widget": "BadasseryMedal",
     "name": "medal_clean_multi_deny_tacos",
     "backinglarge": "image#$whitetransparent",
     "iconsmall": "image#ui_icon_medal_allgone",
-    "stringref": "localized17#hash_5e6ac7d0baf1bd3e",
+    "stringref": "localized17#medal/clean_multi_deny_tacos",
     "iconlarge": "image#ui_icon_medal_allgone_large"
 }

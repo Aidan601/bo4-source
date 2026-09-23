@@ -1,5 +1,5 @@
 {
-    "name": "#hash_6e32a63dfb46f8d2",
+    "name": "#p8_ven_hotdog_cart_01_ddef",
     "model": "#p8_ven_hotdog_cart_01_allstates",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
@@ -7,7 +7,7 @@
         {
             "stages": [
                 {
-                    "physPreset": "#hash_365d9cdb35f2959c",
+                    "physPreset": "#metal_heavy",
                     "unk28": "tag_base_d0"
                 },
                 {

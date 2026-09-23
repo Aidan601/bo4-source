@@ -2,7 +2,7 @@
     "name": "#sniper_powerbolt_t8_upgraded_zm",
     "baseWeapon": "#sniper_powerbolt_t8_upgraded",
     "displayname": "#zmweapon/sniper_powerbolt_t8_upgraded",
-    "xhash_60": "#hash_5705de554842193b",
+    "xhash_60": "#au_sniper_powerbolt_t8",
     "weapon70": "#sniper_powerbolt_t8",
     "soundbank": "#sniper_powerbolt_t8_upgraded_soundbank",
     "scrstr_8c8": [
@@ -57,17 +57,17 @@
             "1 0"
         ]
     ],
-    "firesounddistant": "#hash_5f022cd68aefd198",
-    "firesound": "#hash_310d98e1eff13bca",
-    "firesoundplayer": "#hash_5a61ffe1bed718cf",
-    "sound1d0": "#hash_3740a6a3662d9d58",
+    "firesounddistant": "#wpn_rifle_fire_distant",
+    "firesound": "#wpn_sniper_powerbolt_fire_pap_npc",
+    "firesoundplayer": "#wpn_sniper_powerbolt_fire_pap_plr",
+    "sound1d0": "#wpn_sniper_powerbolt_fire_npc",
     "sound1e0": "#hash_5c696f2c3d313f78",
-    "sound200": "#hash_1a6dd1a3e7684ef9",
+    "sound200": "#wpn_sniper_powerbolt_fire_plr",
     "sound210": "#hash_3f969a2cbe6bf119",
-    "sound240": "#hash_474a10cd847c7803",
-    "sound250": "#hash_146e19cd67fe19de",
-    "sound260": "#hash_515f54aa1f553686",
-    "sound310": "#hash_553957b278d8e879",
+    "sound240": "#wpn_rifle_dryfire_npc",
+    "sound250": "#wpn_rifle_dryfire_plr",
+    "sound260": "#prj_crack_supersonic",
+    "sound310": "#mpl_sniper_skullshot_plr",
     "sound5e0": "#fly_scope_zoom",
     "sound600": "#hash_5c9addf2686f77e2",
     "sound610": "#hash_5c9addf2686f77e2",
@@ -80,12 +80,12 @@
     "weaponIconXCam": "#ui_cam_icon_sniper_powerbolt",
     "attachments": [
         "#defaultattachment",
-        "#hash_1847195a90eddc18",
+        "#acog_sniper_upgraded",
         "#adsreload"
     ],
     "attachmentUniques": [
         "#hash_db6380a47ef9aa8e",
-        "#hash_281aaff35ca3d74d",
+        "#au_sniper_powerbolt_t8_acog_sniper_upgraded",
         "#hash_cd57664314f1a783"
     ],
     "sharedWeaponSounds": "#rifle",

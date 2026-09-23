@@ -2,7 +2,7 @@
     "name": "#zhield_zword_turret_upgraded_zm",
     "baseWeapon": "#zhield_zword_turret_upgraded",
     "displayname": "#hash_31c1e6747f6070b2",
-    "altWeapon": "#hash_7fcc9f73649d03f7",
+    "altWeapon": "#zhield_zword_dw_upgraded_zm",
     "weapon70": "#zhield_zword_dw",
     "soundbank": "#zhield_zword_turret_upgraded_soundbank",
     "worldModelTagRight": "tag_weapon_left",
@@ -29,14 +29,14 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound100": "#hash_48b8785c4ac59202",
-    "sound110": "#hash_68f04f5bcc6c59c7",
-    "sound140": "#hash_1f1d143c192cb526",
-    "sound150": "#hash_1685733c5c476e4b",
-    "sound180": "#hash_3b2202fcb577fdf3",
-    "sound190": "#hash_3d2552f30c8fd950",
-    "sound3e0": "#hash_60f9893b7fbb721d",
-    "gadgetreadysoundplayer": "#hash_e4fc19c0c8c3b87",
+    "sound100": "#wpn_zhield_fire_npc",
+    "sound110": "#wpn_zhield_fire_plr",
+    "sound140": "#wpn_pistol_fullauto_fire_npc",
+    "sound150": "#wpn_pistol_fullauto_fire_plr",
+    "sound180": "#wpn_pistol_npc_full_decay",
+    "sound190": "#wpn_pistol_plr_full_decay",
+    "sound3e0": "#mpl_hero_weap_lose",
+    "gadgetreadysoundplayer": "#uin_hero_notify_general",
     "sound660": "#uin_unavailable_charging",
     "sound670": "#hash_2f3bcd050faf2acb",
     "sound680": "#hash_5e8660540cb00c6",
@@ -46,13 +46,13 @@
     "sound6c0": "#hash_1e69091865bbdbb8",
     "sound800": "#hash_21cba6ae89a3493c",
     "sound810": "#hash_21cba6ae89a3493c",
-    "tunables1": "#hash_6c8f66474e548be3",
-    "sharedWeaponSounds": "#hash_7ed5a8a63848a4a8",
+    "tunables1": "#zhield_zword_turret_tunables_upgraded_zm",
+    "sharedWeaponSounds": "#zhield_towers_shield",
     "viewmodel": [
-        "#hash_2dbaa84bdc3f8864"
+        "#wpn_t8_zm_tower_shield_combined_lvl2_view"
     ],
     "worldModel": [
-        "#hash_e4becf499896c7f"
+        "#wpn_t8_zm_tower_shield_combined_lvl2_world"
     ],
     "gadgetIconAvailable": "#ui_icon_weapons_zm_shield_buckler",
     "gadgetIconUnavailable": "#ui_icon_weapons_zm_shield_buckler",
@@ -69,10 +69,10 @@
     "exitImpactSounds": "#bullet_exit",
     "#hash_21329beb": [
         {
-            "model": "#hash_2e66e889356753b5"
+            "model": "#wpn_t8_zm_tower_shield_combined_lvl2_d1_world"
         },
         {
-            "model": "#hash_453007fe24e9df4"
+            "model": "#wpn_t8_zm_tower_shield_combined_lvl2_d2_world"
         }
     ]
 }

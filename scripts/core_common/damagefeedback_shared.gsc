@@ -162,11 +162,11 @@ function hit_alert_sfx_mp( mod, inflictor, perkfeedback, weapon, victim, psoffse
         }
         else if ( weapon.name == #"waterballoon" )
         {
-            hitalias = #"hash_1fd605562fb1fd3a";
+            hitalias = #"mpl_hit_alert_waterball";
         }
         else if ( isvehicle( victim ) )
         {
-            hitalias = #"hash_2ce81d103e923201";
+            hitalias = #"mpl_hit_vehicle";
         }
         else if ( isdefined( victim ) && isdefined( victim.victimsoundmod ) )
         {
@@ -176,7 +176,7 @@ function hit_alert_sfx_mp( mod, inflictor, perkfeedback, weapon, victim, psoffse
                     hitalias = #"mpl_hit_alert_escort";
                     break;
                 case #"vehicle":
-                    hitalias = #"hash_2ce81d103e923201";
+                    hitalias = #"mpl_hit_vehicle";
                     break;
                 default:
                     hitalias = #"mpl_hit_alert";
@@ -227,16 +227,16 @@ function hit_alert_sfx_mp( mod, inflictor, perkfeedback, weapon, victim, psoffse
                     {
                         if ( weapons::isheadshot( shitloc, mod ) )
                         {
-                            hitalias = #"hash_616dd8ea01d089ac";
+                            hitalias = #"mpl_hit_head_fatal";
                         }
                         else
                         {
-                            hitalias = #"hash_31e38d8520839566";
+                            hitalias = #"mpl_hit_body_fatal";
                         }
                     }
                     else if ( weapons::isheadshot( shitloc, mod ) )
                     {
-                        hitalias = #"hash_29ca1afa9209bfc6";
+                        hitalias = #"mpl_hit_head_nf";
                     }
                     else if ( mod == "MOD_MELEE_WEAPON_BUTT" )
                     {
@@ -247,7 +247,7 @@ function hit_alert_sfx_mp( mod, inflictor, perkfeedback, weapon, victim, psoffse
                     }
                     else
                     {
-                        hitalias = #"hash_205c83ac75849f80";
+                        hitalias = #"mpl_hit_body_nf";
                     }
                     
                     break;
@@ -299,7 +299,7 @@ function hit_alert_sfx_mp( mod, inflictor, perkfeedback, weapon, victim, psoffse
     {
         if ( fatal === 1 )
         {
-            hitalias = #"hash_27781beb722b7488";
+            hitalias = #"mpl_hit_melee_fatal";
         }
     }
     else if ( isdefined( inflictor ) && isdefined( inflictor.owner ) && isdefined( inflictor.owner.soundmod ) )

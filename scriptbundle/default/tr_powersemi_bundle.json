@@ -1,10 +1,10 @@
 {
-    "buttonimage": "image#hash_6a2af1b76d0643b6",
-    "popupimage": "image#hash_2153da8b2bb17122",
+    "buttonimage": "image#ui_icon_blackmarket_promos_auger_button_small",
+    "popupimage": "image#ui_icon_blackmarket_promos_auger_large_preview",
     "nametext": "localized17#hash_29755dff3363137e",
     "categorytext": "localized17#hash_30951b5b7749b8df",
     "name": "tr_powersemi_bundle",
-    "desctext": "localized17#hash_7a25c68e19a680ce",
-    "previewimage": "image#hash_37abdf0a6e70131b",
-    "reserveimage": "image#hash_49bf63610893f042"
+    "desctext": "localized17#menu/bundle_tr_powersemi_desc",
+    "previewimage": "image#ui_icon_blackmarket_promos_auger_item_detail",
+    "reserveimage": "image#ui_icon_blackmarket_promos_auger_button_large"
 }

@@ -1,4 +1,4 @@
-#using script_cb32d07c95e5628;
+#using scripts\mp_common\item_spawn_groups_util;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\gamestate;
@@ -142,7 +142,7 @@ function function_613448ed( player, bathtub )
         golden_spork.angles = ( 0, -50, -90 );
         var_45f173ec = ( golden_spork.origin[ 0 ], golden_spork.origin[ 1 ], golden_spork.origin[ 2 ] + 24 );
         zombie_arm show();
-        zombie_arm playsound( #"hash_2b9e3e8f3a11bcdb" );
+        zombie_arm playsound( #"evt_spk_reveal" );
         level clientfield::increment( "zombie_arm_blood_splash", 1 );
         level thread function_ca44f5a5( zombie_arm, var_4805bfaa );
         level thread function_b413daad( golden_spork, var_45f173ec );
@@ -233,7 +233,7 @@ function function_1deb2b38( var_b721e8a9 )
         self notify( "<dev string:x89>" );
         self endon( "<dev string:x89>" );
         level endon( #"game_ended" );
-        level endon( #"hash_671b150516dd9870" );
+        level endon( #"golden_spork_debugged" );
         
         while ( true )
         {
@@ -242,7 +242,7 @@ function function_1deb2b38( var_b721e8a9 )
                 players = getplayers();
                 bathtub = struct::get( #"zombie_bathub", "<dev string:x9c>" );
                 function_613448ed( players[ 0 ], bathtub );
-                level notify( #"hash_671b150516dd9870" );
+                level notify( #"golden_spork_debugged" );
                 break;
             }
             

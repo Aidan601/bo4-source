@@ -2,7 +2,7 @@
     "hash_47b6a970f44aaaf:hash_fb8bfacd": 2,
     "resistanceicon": "image#hash_4e5c42d11fe1b5b8",
     "configstringfiletype": "scriptbundle",
-    "hash_2773f39c4a413c5c:hash_5d66bb63": "localized17#hash_2f90063d90eecadb",
+    "resistancenameref": "localized17#mpui/resistance_shock",
     "type": "resistance",
     "hash_3975948d6c4961b0:hash_a079a0f6": "none",
     "hash_39759d8d6c4970fb:hash_215422c5": "shock",
@@ -12,6 +12,6 @@
     "hash_3975a18d6c4977c7:hash_6aa3b54b": "none",
     "hash_3975a28d6c49797a:hash_7cedd9df": "none",
     "hash_3975a38d6c497b2d:hash_8e287c54": "none",
-    "hash_41ad3f8bee85f716:hash_3cf30434": "localized17#hash_4ac4e6df00b1e08d",
+    "hash_41ad3f8bee85f716:hash_3cf30434": "localized17#mpui/resistance_shock_desc",
     "name": "mp_resist_shock"
 }

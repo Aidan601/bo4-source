@@ -10,11 +10,11 @@
     "spawnInfluencers1": "#none",
     "spawnInfluencers2": "#none",
     "scriptBundleSettings": "#settings_seeker_mine_mp",
-    "deathFx": "#hash_18cc44d7128eefe7",
+    "deathFx": "#weapon/fx8_equip_seeker_exp",
     "deathFxTag": "tag_body",
-    "deathFxSound": "#hash_30d12b0cffc117f4",
+    "deathFxSound": "#veh_seeker_explode",
     "lightFx": [
-        "#hash_57f70f0edff008aa"
+        "#weapon/fx8_equip_seeker_idle"
     ],
     "lightFxTag": [
         "tag_body_animate"
@@ -30,9 +30,9 @@
     "skidSpeedMin": 100,
     "skidSpeedMax": 600,
     "peelSpeedMax": 600,
-    "model": "#hash_4487a2cf426f091",
-    "enemyModel": "#hash_9d09397a1ba5c2f",
-    "soundDef": "#hash_cfbae44f0df54d0",
+    "model": "#veh_t8_drone_seeker_mp_light",
+    "enemyModel": "#veh_t8_drone_seeker_mp_dark",
+    "soundDef": "#veh_seeker_mine",
     "compassIconMaterial": "#t7_hud_minimap_enemy_quad",
     "lightCollisionRumble": "#veh_collision_light",
     "heavyCollisionRumble": "#veh_collision_heavy",
@@ -45,6 +45,6 @@
     "rumbletype": "raps_rumble",
     "bundle": {
         "healthpoolsize": 100,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 1
+        "healthpools": 1
     }
 }

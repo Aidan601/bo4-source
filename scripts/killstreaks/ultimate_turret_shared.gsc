@@ -467,7 +467,7 @@ function function_7f9eb7f()
     else if ( self.damagetaken > self.health )
     {
         arrayremovevalue( owner.var_85988a58, self );
-        self.owner luinotifyevent( #"hash_126effa63f6e04bd" );
+        self.owner luinotifyevent( #"mini_turret_destroyed" );
     }
     
     owner clientfield::set_player_uimodel( "hudItems.ultimateTurretCount", owner.var_85988a58.size );
@@ -545,7 +545,7 @@ function onplaceturret( turret )
     }
     
     player deployable::function_6ec9ee30( turret.vehicle, getweapon( "ultimate_turret" ) );
-    turret.vehicle playloopsound( #"hash_69240c6db92da5bf", 0.25 );
+    turret.vehicle playloopsound( #"mpl_turret_amb_loop", 0.25 );
     
     foreach ( player in level.players )
     {
@@ -1241,7 +1241,7 @@ function turretscanning()
     veh.do_not_clear_targets_during_think = 1;
     wait 0.8;
     veh playsound( #"mpl_turret_startup" );
-    veh playloopsound( #"hash_69240c6db92da5bf" );
+    veh playloopsound( #"mpl_turret_amb_loop" );
     bundle = get_killstreak_bundle();
     min_burst_time = bundle.ksburstfiremintime;
     max_burst_time = bundle.ksburstfiremaxtime;
@@ -1334,28 +1334,28 @@ function turretscanning()
                     fire_time = min_burst_time > max_burst_time ? min_burst_time : randomfloatrange( min_burst_time, max_burst_time );
                     var_fc9f290e = veh.enemy;
                     veh vehicle_ai::fire_for_time( fire_time, 0, veh.enemy );
-                    var_afae28e0 = !isdefined( var_fc9f290e ) || !isalive( var_fc9f290e );
+                    enemy_died = !isdefined( var_fc9f290e ) || !isalive( var_fc9f290e );
                     
-                    if ( min_pause_time > 0 && !var_afae28e0 )
+                    if ( min_pause_time > 0 && !enemy_died )
                     {
                         pause_time = min_pause_time > max_pause_time ? min_pause_time : randomfloatrange( min_pause_time, max_pause_time );
                         waitresult = veh.turret_target waittilltimeout( pause_time, #"death", #"disconnect" );
-                        var_afae28e0 = waitresult._notify === "death";
+                        enemy_died = waitresult._notify === "death";
                     }
                 }
                 else
                 {
                     var_fc9f290e = veh.enemy;
                     veh vehicle_ai::fire_for_rounds( 10, 0, veh.enemy );
-                    var_afae28e0 = !isdefined( var_fc9f290e ) || !isalive( var_fc9f290e );
+                    enemy_died = !isdefined( var_fc9f290e ) || !isalive( var_fc9f290e );
                 }
                 
-                if ( var_afae28e0 && isdefined( veh.turret_target ) && isdefined( veh.turret_target.var_e78602fc ) && veh.turret_target.var_e78602fc == veh )
+                if ( enemy_died && isdefined( veh.turret_target ) && isdefined( veh.turret_target.var_e78602fc ) && veh.turret_target.var_e78602fc == veh )
                 {
                     if ( isdefined( veh.owner ) )
                     {
                         veh.owner luinotifyevent( #"mini_turret_kill" );
-                        veh.owner playsoundtoplayer( #"hash_7ea486136cd776c", veh.owner );
+                        veh.owner playsoundtoplayer( #"mpl_turret_kill", veh.owner );
                     }
                     
                     veh.turretrotscale = 1;
@@ -1580,9 +1580,9 @@ function function_59ce22f9( attacker, callback_data )
     self playsound( "mpl_turret_exp" );
     bundle = level.killstreakbundle[ #"ultimate_turret" ];
     
-    if ( isdefined( bundle.var_bb6c29b4 ) && isdefined( self.var_d02ddb8e ) && self.var_d02ddb8e == getweapon( #"shock_rifle" ) )
+    if ( isdefined( bundle.shockrifledestructionfx ) && isdefined( self.var_d02ddb8e ) && self.var_d02ddb8e == getweapon( #"shock_rifle" ) )
     {
-        playfx( bundle.var_bb6c29b4, self.origin );
+        playfx( bundle.shockrifledestructionfx, self.origin );
     }
     
     self stoploopsound( 0.5 );
@@ -1687,7 +1687,7 @@ function on_player_killed()
     
     foreach ( player in var_f60ab10f )
     {
-        player playsoundtoplayer( #"hash_37ffaa04e3f898fa", player );
+        player playsoundtoplayer( #"mpl_turret_kill_assist", player );
     }
 }
 

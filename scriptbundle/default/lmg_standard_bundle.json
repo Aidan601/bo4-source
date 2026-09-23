@@ -1,10 +1,10 @@
 {
-    "buttonimage": "image#hash_2c8cf00fd9f3ebc3",
-    "popupimage": "image#hash_222a7e46f9eefadc",
+    "buttonimage": "image#ui_icon_blackmarket_promos_bundle_blackknight_button_small",
+    "popupimage": "image#ui_icon_blackmarket_promos_blackknight_large_preview",
     "nametext": "localized17#menu/bundle_titan",
     "categorytext": "localized17#hash_30951b5b7749b8df",
     "name": "lmg_standard_bundle",
-    "desctext": "localized17#hash_523b5f07b353fb02",
-    "previewimage": "image#hash_6ef32b8f20039199",
-    "reserveimage": "image#hash_6c115d8432fe058b"
+    "desctext": "localized17#menu/bundle_titan_desc",
+    "previewimage": "image#ui_icon_blackmarket_promos_blackknight_item_detail",
+    "reserveimage": "image#ui_icon_blackmarket_promos_bundle_blackknight_button_large"
 }

@@ -22,7 +22,7 @@
         "#c_t8_zmb_dlc0_zombie_female1_skin2"
     ],
     "animMappingTables": [
-        "#hash_13b1ea38b9421ce0"
+        "#zm_zombie.ai_am"
     ],
     "meleeWeapon": "#zombie_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
@@ -32,7 +32,7 @@
     "footstepFXTable2": "#player_footstep",
     "behaviorTree": "#zm_zombie.ai_bt",
     "animStateMachine": "#zm_zombie.ai_asm",
-    "animSelectorTable": "#hash_39d3a662cbad64aa",
+    "animSelectorTable": "#zm_zombie.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_zod_zombie_settings",

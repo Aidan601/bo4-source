@@ -1,10 +1,10 @@
 #using script_11c9779550732489;
-#using script_3c345dd878d144b7;
-#using script_43de70169069c6ab;
-#using script_4f8f41168a7c3ea8;
-#using script_5db30ea2f37108d;
-#using script_675455e5e6c0c5ad;
-#using script_711bbbba637da80;
+#using scripts\zm\zm_escape_fast_travel_hellholes;
+#using scripts\zm\zm_escape_weap_quest_spoon;
+#using scripts\zm\zm_escape_weap_quest_mg;
+#using scripts\zm\zm_escape_weap_quest_spork;
+#using scripts\zm\zm_escape_nixie_clock;
+#using scripts\zm\zm_escape_paschal_s3;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\exploder_shared;
 #using scripts\core_common\struct;
@@ -64,11 +64,11 @@ function event_handler[level_init] main( eventstruct )
     clientfield::register( "clientuimodel", "" + #"player_lives", 1, 2, "int", undefined, 0, 0 );
     clientfield::register( "toplayer", "" + #"rumble_gondola", 1, 1, "int", &rumble_gondola, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_51b0de5e2b184c28", 1, 1, "int", &function_1bccf046, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"hash_4be2ce4248d80d22", 1, 1, "int", &function_e6537e9f, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"broken_powerbox_fx", 1, 1, "int", &broken_powerbox_fx, 0, 0 );
     clientfield::register( "world", "" + #"hash_24deaa9795e06d41", 1, 1, "int", &function_eef4ae09, 0, 0 );
-    clientfield::register( "world", "" + #"hash_4a8a7b58bf6cd5d8", 1, 1, "int", &function_516663f8, 0, 0 );
-    clientfield::register( "world", "" + #"hash_29fea4571b8649a0", 1, 1, "int", &function_d8b90aba, 0, 0 );
-    clientfield::register( "world", "" + #"hash_cd028842e18845e", 1, 1, "counter", &function_a104a4cb, 0, 0 );
+    clientfield::register( "world", "" + #"sound_building_64", 1, 1, "int", &sound_building_64, 0, 0 );
+    clientfield::register( "world", "" + #"exploder_building_64", 1, 1, "int", &exploder_building_64, 0, 0 );
+    clientfield::register( "world", "" + #"rumble_water_tower", 1, 1, "counter", &rumble_water_tower, 0, 0 );
     clientfield::register( "allplayers", "" + #"hash_500a87b29014ef02", 1, 1, "int", &function_5e901c8c, 0, 1 );
     clientfield::register( "toplayer", "" + #"player_pbg_bank", 1, 1, "int", &set_player_pbg_bank, 0, 1 );
     clientfield::register( "vehicle", "" + #"gondola_light", 1, 1, "int", &gondola_light, 0, 1 );
@@ -83,7 +83,7 @@ function event_handler[level_init] main( eventstruct )
     level._effect[ #"headshot_nochunks" ] = #"zombie/fx_bul_flesh_head_nochunks_zmb";
     level._effect[ #"bloodspurt" ] = #"zombie/fx_bul_flesh_neck_spurt_zmb";
     level._effect[ #"animscript_gibtrail_fx" ] = #"blood/fx_blood_gib_limb_trail";
-    level._effect[ #"hash_4d2e5c87bde94856" ] = #"hash_4948d849a833ddd5";
+    level._effect[ #"hash_4d2e5c87bde94856" ] = #"maps/zm_escape/fx8_shield_residue";
     level._effect[ #"hash_6dcb1f6ae15079d5" ] = #"hash_52f9d9bb5648c0f3";
     level._effect[ #"gondola_light" ] = #"hash_45dbe6888cf8a19c";
     zm_escape_catwalk_event::init_fx();
@@ -91,10 +91,10 @@ function event_handler[level_init] main( eventstruct )
     level._uses_sticky_grenades = 1;
     level._uses_taser_knuckles = 1;
     level.var_d0ab70a2 = #"gamedata/weapons/zm/zm_escape_weapons.csv";
-    level._effect[ #"hash_2bba72fdcc5508b5" ] = #"hash_2ac7ec38d265c496";
+    level._effect[ #"hash_2bba72fdcc5508b5" ] = #"maps/zm_escape/fx8_magicbox_opened";
     level._effect[ #"chest_light_closed" ] = #"hash_5b118cefec864e37";
-    level._effect[ #"hash_9d26763cbe16490" ] = #"hash_5a9159bef624d260";
-    level._effect[ #"magic_box_leave" ] = #"hash_2b008afec3e70add";
+    level._effect[ #"magic_box_arrive" ] = #"maps/zm_escape/fx8_magicbox_arrival";
+    level._effect[ #"magic_box_leave" ] = #"maps/zm_escape/fx8_magicbox_depart";
     level._effect[ #"switch_sparks" ] = #"hash_26f37488feec03c3";
     level.var_5603a802 = "pstfx_zm_hellhole";
     namespace_9d58c1cd::init();
@@ -117,7 +117,7 @@ function rumble_gondola( localclientnum, oldval, newval, bnewent, binitialsnap, 
     
     if ( newval == 1 )
     {
-        self endon( #"hash_6d7afe7c92e095d8" );
+        self endon( #"rumble_gondola_finished" );
         
         while ( true )
         {
@@ -132,7 +132,7 @@ function rumble_gondola( localclientnum, oldval, newval, bnewent, binitialsnap, 
         return;
     }
     
-    self notify( #"hash_6d7afe7c92e095d8" );
+    self notify( #"rumble_gondola_finished" );
     
     if ( isinarray( getlocalplayers(), self ) )
     {
@@ -179,7 +179,7 @@ function function_eef4ae09( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0x53879e99, Offset: 0x1068
 // Size: 0xe4
-function function_a104a4cb( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function rumble_water_tower( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
     var_83771283 = struct::get( "s_break_large_metal" );
     playrumbleonposition( localclientnum, "zm_escape_metal_rumble1", var_83771283.origin );
@@ -193,14 +193,14 @@ function function_a104a4cb( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0x7beceaae, Offset: 0x1158
 // Size: 0x60
-function function_516663f8( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function sound_building_64( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
     if ( newval )
     {
         return;
     }
     
-    level notify( #"hash_46a6202f04dd1722" );
+    level notify( #"end_sound_building_64" );
 }
 
 // Namespace zm_escape/zm_escape
@@ -209,7 +209,7 @@ function function_516663f8( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x70
 function private function_37c86e6e( localclientnum )
 {
-    level endon( #"hash_46a6202f04dd1722" );
+    level endon( #"end_sound_building_64" );
     s_sound_origin = struct::get( "s_b_64_sound" );
     
     while ( true )
@@ -222,7 +222,7 @@ function private function_37c86e6e( localclientnum )
 // Params 7
 // Checksum 0xefbdd6f9, Offset: 0x1238
 // Size: 0x78
-function function_d8b90aba( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function exploder_building_64( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
     if ( newval )
     {
@@ -252,7 +252,7 @@ function private function_b2b92c61( localclientnum )
 // Params 7
 // Checksum 0x807cec85, Offset: 0x1328
 // Size: 0x13a
-function function_e6537e9f( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function broken_powerbox_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
     if ( isdefined( self.n_fx_id ) )
     {

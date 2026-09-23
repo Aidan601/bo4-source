@@ -279,7 +279,7 @@ function function_9c2d463d( t_damage )
     {
         self.marked_for_death = 1;
         self clientfield::set( "fan_trap_blood_fx", 1 );
-        level notify( #"hash_528d7b7f7d6c51a1", { #e_player:t_damage.activated_by_player } );
+        level notify( #"fan_trap_kill", { #e_player:t_damage.activated_by_player } );
         self zombie_utility::gib_random_parts();
         playsoundatposition( "zmb_trap_fan_grind", self.origin );
         self thread stop_fan_trap_blood_fx();
@@ -317,7 +317,7 @@ function function_9c2d463d( t_damage )
         return;
     }
     
-    level notify( #"hash_528d7b7f7d6c51a1", { #e_player:t_damage.activated_by_player } );
+    level notify( #"fan_trap_kill", { #e_player:t_damage.activated_by_player } );
     
     if ( isdefined( t_damage.activated_by_player ) && isplayer( t_damage.activated_by_player ) )
     {
@@ -760,7 +760,7 @@ function function_9699194a( t_damage )
     {
         self.marked_for_death = 1;
         self clientfield::set( "acid_trap_death_fx", 1 );
-        level notify( #"hash_317f58ba0d580c27", { #e_player:t_damage.activated_by_player } );
+        level notify( #"acid_trap_kill", { #e_player:t_damage.activated_by_player } );
         wait randomfloatrange( 0.25, 2 );
         
         if ( isalive( self ) )
@@ -800,7 +800,7 @@ function function_9699194a( t_damage )
         return;
     }
     
-    level notify( #"hash_317f58ba0d580c27", { #e_player:t_damage.activated_by_player } );
+    level notify( #"acid_trap_kill", { #e_player:t_damage.activated_by_player } );
     
     if ( isdefined( t_damage.activated_by_player ) && isplayer( t_damage.activated_by_player ) )
     {
@@ -1072,7 +1072,7 @@ function function_1f7e661f( t_damage )
         self clientfield::set( "spinning_trap_blood_fx", 1 );
     }
     
-    self playsound( #"hash_42c6cc2204b7fbbd" );
+    self playsound( #"evt_spin_trap_hit" );
     v_hook = t_damage.mdl_trap gettagorigin( "tag_weapon_3" );
     n_dist = distance2d( self.origin, v_hook );
     
@@ -1127,7 +1127,7 @@ function function_1f7e661f( t_damage )
             self launchragdoll( 150 * anglestoup( self.angles ) + ( v_away_from_source[ 0 ], v_away_from_source[ 1 ], 0 ) );
         }
         
-        level notify( #"hash_148b3ce521088846", { #e_player:t_damage.activated_by_player } );
+        level notify( #"spin_trap_kill", { #e_player:t_damage.activated_by_player } );
         self dodamage( self.health + 1000, self.origin, undefined, t_damage );
         
         if ( isdefined( t_damage.activated_by_player ) && isplayer( t_damage.activated_by_player ) )
@@ -1141,7 +1141,7 @@ function function_1f7e661f( t_damage )
     
     if ( self.zm_ai_category === #"popcorn" )
     {
-        level notify( #"hash_148b3ce521088846", { #e_player:t_damage.activated_by_player } );
+        level notify( #"spin_trap_kill", { #e_player:t_damage.activated_by_player } );
         self dodamage( self.health + 1000, self.origin, undefined, t_damage );
         
         if ( isdefined( t_damage.activated_by_player ) && isplayer( t_damage.activated_by_player ) )
@@ -1299,7 +1299,7 @@ function function_864365ef( t_damage, var_e72c9959 )
     self setteam( util::get_enemy_team( self.team ) );
     self zombie_utility::makezombiecrawler( 1 );
     var_e72c9959 thread scene::init( #"aib_vign_zm_mob_hook_trap_zombie", self );
-    playsoundatposition( #"hash_42c6cc2204b7fbbd", self.origin );
+    playsoundatposition( #"evt_spin_trap_hit", self.origin );
     t_damage waittill( #"trap_finished" );
     var_44342e79 = var_e72c9959 scene::function_8582657c( #"p8_fxanim_zm_esc_trap_fan_play", "Shot 2" );
     var_e72c9959 scene::play( #"aib_vign_zm_mob_hook_trap_zombie", self );
@@ -1420,8 +1420,8 @@ function zapper_light_red()
     for ( i = 0; i < self.var_cd6ebde4.size ; i++ )
     {
         self.var_cd6ebde4[ i ] setmodel( #"p7_zm_mob_trap_control_base_red" );
-        self.var_cd6ebde4[ i ] playsound( #"hash_6c4aadc21a173f8b" );
-        self.var_cd6ebde4[ i ] playsound( #"hash_6c4cdf83585f2851" );
+        self.var_cd6ebde4[ i ] playsound( #"zmb_switch_flip_trap" );
+        self.var_cd6ebde4[ i ] playsound( #"zmb_switch_flip_trap_alarm" );
     }
     
     level flag::wait_till( "start_zombie_round_logic" );
@@ -1452,8 +1452,8 @@ function zapper_light_green()
     for ( i = 0; i < self.var_cd6ebde4.size ; i++ )
     {
         self.var_cd6ebde4[ i ] setmodel( #"p7_zm_mob_trap_control_base" );
-        self.var_cd6ebde4[ i ] playsound( #"hash_27343b1084481dcb" );
-        self.var_cd6ebde4[ i ] playsound( #"hash_57154349da449cd" );
+        self.var_cd6ebde4[ i ] playsound( #"zmb_switch_flip_trap_reset" );
+        self.var_cd6ebde4[ i ] playsound( #"zmb_switch_flip_trap_alarm_reset" );
     }
     
     switch ( self.script_noteworthy )

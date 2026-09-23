@@ -151,7 +151,7 @@ function function_959bac94()
         {
             var_2798314b = party_member getparty();
             
-            if ( var_2798314b.var_a15e4438 != party.var_a15e4438 )
+            if ( var_2798314b.party_member_count != party.party_member_count )
             {
                 assertmsg( "<dev string:xa5>" );
             }

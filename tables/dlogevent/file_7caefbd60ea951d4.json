@@ -1,5 +1,5 @@
 {
-    "name": "#hash_7caefbd60ea951d4",
+    "name": "#dlog_event_loadouts",
     "unk28": "#loadouts",
     "ddlDef": "#gamedata/ddl/generated/dlog_event_loadouts.ddl",
     "unk18": 0,
@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -84,12 +84,12 @@
                     },
                     {
                         "name": "#talent9",
-                        "scrName": "#hash_890578e8",
+                        "scrName": "#talent9",
                         "type": "XHASH"
                     },
                     {
                         "name": "#talent8",
-                        "scrName": "#hash_1c3f1f5d",
+                        "scrName": "#talent8",
                         "type": "XHASH"
                     },
                     {
@@ -109,12 +109,12 @@
                     },
                     {
                         "name": "#talent0",
-                        "scrName": "#hash_942f949",
+                        "scrName": "#talent0",
                         "type": "XHASH"
                     },
                     {
                         "name": "#talent7",
-                        "scrName": "#hash_f6cdd47b",
+                        "scrName": "#talent7",
                         "type": "XHASH"
                     },
                     {
@@ -321,7 +321,7 @@
                     },
                     {
                         "name": "#specialistability",
-                        "scrName": "#hash_9911e1f2",
+                        "scrName": "#specialistability",
                         "type": "XHASH"
                     },
                     {
@@ -384,7 +384,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {

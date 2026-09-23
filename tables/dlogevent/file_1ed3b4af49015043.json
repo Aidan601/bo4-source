@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -95,7 +95,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -110,7 +110,7 @@
     "members": [
         {
             "name": "#given_item",
-            "scrName": "#hash_6789038",
+            "scrName": "#given_item",
             "type": "XHASH"
         },
         {
@@ -121,7 +121,7 @@
         },
         {
             "name": "#given_amount",
-            "scrName": "#hash_d1f97c0f",
+            "scrName": "#given_amount",
             "type": "INT32"
         },
         {
@@ -131,7 +131,7 @@
         },
         {
             "name": "#dropped_amount",
-            "scrName": "#hash_5b8ff5e9",
+            "scrName": "#dropped_amount",
             "type": "INT32"
         },
         {

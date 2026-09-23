@@ -30,8 +30,8 @@
     "#hash_554be9f7": false,
     "firesound": "#hash_788242aad7df6e21",
     "firesoundplayer": "#hash_6f996fab1ab57b28",
-    "sound240": "#hash_fc4ca27d80d6d52",
-    "sound250": "#hash_4232e127f42d7cf7",
+    "sound240": "#wpn_rpg_dryfire_npc",
+    "sound250": "#wpn_rpg_dryfire_plr",
     "tunables1": "#ww_tricannon_air_t8_tunables_zm",
     "cacWeaponXCam": "#ui_cam_cac_shotgun_energy",
     "cacAttachmentsXCam": "#ui_cam_cac_shotgun_energy",
@@ -44,9 +44,9 @@
         "#wpn_t8_zm_broadside_cannon_world"
     ],
     "clipmodel": [
-        "#hash_2d0cb552b77d70ce"
+        "#wpn_t8_zm_broadside_cannon_grape_mag_world"
     ],
-    "reticleCenter": "#hash_1439ce5fc334afa9",
+    "reticleCenter": "#i_reticle_discgun",
     "inventoryIconZm": "#hash_a5740919ad0c89d7",
     "image_e90": "#t7_icon_weapon_shotgun_energy_kf",
     "fireRumble": "#artillery_rumble",

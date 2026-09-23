@@ -128,7 +128,7 @@
     },
     {
         "id": 13,
-        "name": "#hash_3ed9287b5cc1ec2c",
+        "name": "#squadtargetfocus",
         "index": 13,
         "type": "precondition",
         "constants": {
@@ -175,7 +175,7 @@
     },
     {
         "id": 17,
-        "name": "#hash_3ed9287b5cc1ec2c",
+        "name": "#squadtargetfocus",
         "index": 17,
         "type": "precondition",
         "constants": {
@@ -222,7 +222,7 @@
     },
     {
         "id": 21,
-        "name": "#hash_3ed9287b5cc1ec2c",
+        "name": "#squadtargetfocus",
         "index": 21,
         "type": "precondition",
         "constants": {
@@ -269,7 +269,7 @@
     },
     {
         "id": 25,
-        "name": "#hash_3ed9287b5cc1ec2c",
+        "name": "#squadtargetfocus",
         "index": 25,
         "type": "precondition",
         "constants": {

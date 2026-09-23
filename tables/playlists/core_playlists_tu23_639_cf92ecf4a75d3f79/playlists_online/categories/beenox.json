@@ -340,7 +340,7 @@
         },
         {
             "name": "#hash_246fc249aedf0abf",
-            "description": "#hash_6ad4c3e45839018d",
+            "description": "#playlist/beenox",
             "unique_name": "#hash_1da58296cd29f9b7",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",
@@ -1231,7 +1231,7 @@
                 },
                 {
                     "type": "GAMETYPE_SETTINGS",
-                    "name": "#hash_6eb44149a8ac6dd1",
+                    "name": "#wzenablevehicledrops",
                     "value": "0",
                     "platformMask": 7,
                     "environmentMask": 7,
@@ -1239,7 +1239,7 @@
                     "utcEndTime": 0,
                     "unk40": [
                         {
-                            "unk0": "#hash_6eb44149a8ac6dd1",
+                            "unk0": "#wzenablevehicledrops",
                             "unk10": 0
                         }
                     ]

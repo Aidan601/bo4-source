@@ -43,7 +43,7 @@ function preload()
     clientfield::register( "scriptmover", "" + #"hash_5e1264789183cde1", 20000, 1, "int" );
     clientfield::register( "toplayer", "" + #"hash_72a33f6d2cc925c5", 20000, 1, "int" );
     clientfield::register( "toplayer", "" + #"hash_1df297369e47699a", 20000, 1, "counter" );
-    clientfield::register( "toplayer", "" + #"hash_7d631c764117de1e", 20000, 1, "counter" );
+    clientfield::register( "toplayer", "" + #"prime_jump_scare", 20000, 1, "counter" );
     clientfield::register( "toplayer", "" + #"hash_f2d0b920043dbbd", 20000, 1, "counter" );
     clientfield::register( "toplayer", "" + #"delete_model", 20000, 1, "counter" );
     callback::on_spawned( &function_ba51762d );
@@ -95,7 +95,7 @@ function init_quests()
     zm_sq::register( #"mee_mixed", #"step_1", #"mee_mixed_step1", &mee_mixed_step1_setup, &mee_mixed_step1_cleanup );
     level flag::init( #"hash_502f2e83a538c679" );
     level flag::init( #"hash_7346ae8e42a74ce6" );
-    zm_sq::register( #"jump_scare", #"step_1", #"hash_3203b932029a4e0b", &jump_scare, &jump_scare_cleanup );
+    zm_sq::register( #"jump_scare", #"step_1", #"jump_scare_quest", &jump_scare, &jump_scare_cleanup );
     level flag::wait_till( #"all_players_spawned" );
     
     if ( zm_utility::is_ee_enabled() )
@@ -450,7 +450,7 @@ function function_8d3f2364( waitresult )
                 }
             #/
             
-            playsoundatposition( #"hash_8b7db1eb1a3365b", ( 0, 0, 0 ) );
+            playsoundatposition( #"zmb_mannequin_failure_2d", ( 0, 0, 0 ) );
             zm_sq::start( #"mee_mixed" );
             level.var_e80139f = 4;
             waitresult.attacker zm_audio::create_and_play_dialog( "generic", "response_negative" );
@@ -472,7 +472,7 @@ function function_8d3f2364( waitresult )
     
     if ( level.var_561ae1f8 <= 0 )
     {
-        playsoundatposition( #"hash_a24b8d649da9f00", ( 0, 0, 0 ) );
+        playsoundatposition( #"zmb_mannequin_success_2d", ( 0, 0, 0 ) );
         
         if ( zm_utility::is_trials() )
         {
@@ -624,7 +624,7 @@ function function_f05235a0()
 {
     self endon( #"death" );
     self clientfield::set( "" + #"hash_5e1264789183cde1", 1 );
-    playsoundatposition( #"hash_452b9f142d5f6352", self.origin );
+    playsoundatposition( #"fly_mannequin_head_hit", self.origin );
     wait 1;
     self delete();
 }
@@ -740,7 +740,7 @@ function function_61e129a8()
     
     do
     {
-        if ( level flag::get( #"hash_7cc3b03eefb11fc" ) && !level flag::get( #"crawler_step_complete" ) || level flag::get( #"hash_6ebb9d0d0539bf68" ) && !level flag::get( #"hash_7c2ae917559738ec" ) )
+        if ( level flag::get( #"hash_7cc3b03eefb11fc" ) && !level flag::get( #"crawler_step_complete" ) || level flag::get( #"mannequin_step_started" ) && !level flag::get( #"hash_7c2ae917559738ec" ) )
         {
             b_delayed = 1;
             wait 1;
@@ -1398,7 +1398,7 @@ function function_3117c10()
         unitrigger_stub.hint_parm1 = undefined;
         unitrigger_stub.hint_parm2 = undefined;
         unitrigger_stub.e_model = var_7da32058;
-        unitrigger_stub.e_model playloopsound( #"hash_1fd4928ce5489175" );
+        unitrigger_stub.e_model playloopsound( #"zmb_mann_head_lp" );
         zm_unitrigger::register_static_unitrigger( unitrigger_stub, &function_15534b78 );
         var_7da32058.unitrigger_stub = unitrigger_stub;
     }
@@ -1416,7 +1416,7 @@ function function_15534b78()
     waitresult = self waittill( #"trigger" );
     player = waitresult.activator;
     self.stub.e_model stoploopsound();
-    self.stub.e_model playsound( #"hash_20284b79e543698c" );
+    self.stub.e_model playsound( #"zmb_mann_head_activate" );
     level.meteor_counter++;
     
     if ( level.meteor_counter == 3 )
@@ -1487,12 +1487,12 @@ function track_player_eyes()
 {
     self notify( #"track_player_eyes" );
     self endon( #"disconnect", #"track_player_eyes" );
-    level endon( #"hash_10a56459715cd20e", #"insanity_mode_triggered" );
+    level endon( #"reset_all_clocks", #"insanity_mode_triggered" );
     self thread function_cbeb9a33();
     b_saw_the_wth = 0;
     var_616e76c5 = struct::get( "sq_gl_scare", "targetname" );
     waitframe( 1 );
-    self clientfield::increment_to_player( "" + #"hash_7d631c764117de1e", 1 );
+    self clientfield::increment_to_player( "" + #"prime_jump_scare", 1 );
     
     while ( !b_saw_the_wth )
     {

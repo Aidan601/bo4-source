@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_mesh_mine_multikill_x2_summary",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_3326ea14004a72d3",
+    "iconsmall": "image#ui_icon_medal_ambushed",
     "stringref": "localized17#hash_54c4a054da59b063",
     "iconlarge": "image#ui_icon_medal_ambushed_large"
 }

@@ -2,7 +2,7 @@
     "hash_47b6a970f44aaaf:hash_fb8bfacd": 2,
     "resistanceicon": "image#hash_2668aeeec5bed896",
     "configstringfiletype": "scriptbundle",
-    "hash_2773f39c4a413c5c:hash_5d66bb63": "localized17#hash_426758cb22a6aa7f",
+    "resistancenameref": "localized17#mpui/resistance_shellshock",
     "type": "resistance",
     "hash_3975948d6c4961b0:hash_a079a0f6": "none",
     "hash_39759d8d6c4970fb:hash_215422c5": "stagger",

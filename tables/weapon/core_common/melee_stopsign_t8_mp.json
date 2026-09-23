@@ -36,15 +36,15 @@
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
     "tunables1": "#melee_stopsign_t8_tunables_mp",
-    "weaponCamo": "#hash_22f209e630a12c33",
-    "cacWeaponXCam": "#hash_19b0136d0b752c5e",
-    "cacAttachmentsXCam": "#hash_19b0136d0b752c5e",
-    "weaponIconXCam": "#hash_7c6f1d8717f77fe6",
+    "weaponCamo": "#camo_t8_melee_stopsign",
+    "cacWeaponXCam": "#ui_cam_cac_melee_stopsign",
+    "cacAttachmentsXCam": "#ui_cam_cac_melee_stopsign",
+    "weaponIconXCam": "#ui_cam_icon_melee_stopsign",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_6a3752e919cd6324"
+        "#au_melee_stopsign_t8_none"
     ],
     "sharedWeaponSounds": "#stopsign",
     "viewmodel": [

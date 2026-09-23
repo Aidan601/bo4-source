@@ -6,6 +6,6 @@
     "surfacefxtable_footstep": "surface_fx_table#zm_brutus_footstep",
     "name": "fxb8_zm_char_brutus",
     "surfacefxtable_landing": "surface_fx_table#player_jump_start",
-    "hash_75d65bc19b8cc14c:hash_306eaa3a": "surface_fx_table#zm_brutus_footstep",
+    "surfacefxtable_footstepleft": "surface_fx_table#zm_brutus_footstep",
     "surfacefxtable_jumping": "surface_fx_table#player_jump_start"
 }

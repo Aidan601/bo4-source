@@ -97,7 +97,7 @@ function private function_213aaacc( localclientnum, oldvalue, newvalue, bnewent,
 function private function_b3c2dc1c( localclientnum, oldvalue, newvalue, bnewent, binitialsnap, fieldname, wasdemojump )
 {
     util::playfxontag( localclientnum, level._effect[ #"fx8_aat_opposite_exp" ], self, "j_spine4" );
-    playsound( 0, #"hash_7d7c027e3b78c5b6", self.origin );
+    playsound( 0, #"zmb_ai_catalyst_plasma_explode", self.origin );
 }
 
 // Namespace zm_ai_catalyst/zm_ai_catalyst
@@ -149,8 +149,8 @@ function private function_72d9d9e7( localclientnum, oldvalue, newvalue, bnewent,
         
         if ( !isdefined( self.var_983b7af9 ) )
         {
-            self playsound( localclientnum, #"hash_56157e961854c964" );
-            self.var_983b7af9 = self playloopsound( #"hash_4d16df16d08f6404" );
+            self playsound( localclientnum, #"zmb_ai_catalyst_water_buff_start" );
+            self.var_983b7af9 = self playloopsound( #"zmb_ai_catalyst_water_buff_lp" );
         }
         
         return;
@@ -164,7 +164,7 @@ function private function_72d9d9e7( localclientnum, oldvalue, newvalue, bnewent,
     
     if ( isdefined( self.var_983b7af9 ) )
     {
-        self playsound( localclientnum, #"hash_58e6fac48dd8515d" );
+        self playsound( localclientnum, #"zmb_ai_catalyst_water_buff_end" );
         self stoploopsound( self.var_983b7af9 );
         self.var_983b7af9 = undefined;
     }
@@ -178,7 +178,7 @@ function private function_dce55f49( localclientnum, oldvalue, newvalue, bnewent,
 {
     if ( newvalue === 1 )
     {
-        self playsound( localclientnum, #"hash_579a9e520b10d768" );
+        self playsound( localclientnum, #"zmb_ai_catalyst_electric_burst" );
         self thread function_8c78e227( localclientnum );
         return;
     }
@@ -220,7 +220,7 @@ function private function_8c78e227( localclientnum )
 function private function_1578a764( localclientnum, oldvalue, newvalue, bnewent, binitialsnap, fieldname, wasdemojump )
 {
     util::playfxontag( localclientnum, level._effect[ #"fx8_cata_plasma_blast" ], self, "j_spine4" );
-    playsound( 0, #"hash_7d7c027e3b78c5b6", self.origin );
+    playsound( 0, #"zmb_ai_catalyst_plasma_explode", self.origin );
     function_2a9101fe( localclientnum, #"hash_528115ad9eebc84f", self.origin );
 }
 

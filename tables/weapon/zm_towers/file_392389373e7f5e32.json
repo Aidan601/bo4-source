@@ -1,5 +1,5 @@
 {
-    "name": "#hash_392389373e7f5e32",
+    "name": "#zitem_traps_hellpools_part_3_zm",
     "baseWeapon": "#hash_72cbab6681a7b27e",
     "soundbank": "#hash_5b1cafcac5062c94",
     "worldModelTagRight": "tag_weapon_right",
@@ -26,8 +26,8 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "tunables1": "#hash_57dc5d02a96d7267",
     "viewmodel": [
         "#viewmodel_default"

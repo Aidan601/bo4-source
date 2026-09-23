@@ -20,7 +20,7 @@
             "keyFlags": 3
         },
         {
-            "name": "#hash_3a283ffd70fc80d2",
+            "name": "#mp_militia_all_loaded",
             "xPakEntry": {
                 "key": "#hash_ed3cc5aee0ed6223",
                 "offset": 0,
@@ -201344,7 +201344,7 @@
             "keyFlags": 0
         },
         {
-            "name": "#hash_45067b357fe213d7",
+            "name": "#mp_militia_sst_0_0",
             "xPakEntry": {
                 "key": "#hash_e8614488aa83dcf4",
                 "offset": 0,

@@ -46,14 +46,14 @@
 // Size: 0x5fc
 function function_84139b27()
 {
-    zm_utility::function_c492c4d6( #"cellar", #"hash_1b5f923615231b33", array( #"zone_cellar" ), array( #"billiards_room", #"library", #"greenhouse", #"cemetery" ), #"hash_d991d688c218647", #"hash_2b2357a02d83b291" );
-    zm_utility::function_c492c4d6( #"main_hall", #"hash_7a9b6ecf9efe213d", array( #"zone_main_hall" ), array( #"library", #"dining_room", #"grand_staircase" ), #"hash_23e3f0727cf654e1", #"hash_56ee5965eeb986f7" );
-    zm_utility::function_c492c4d6( #"grand_staircase", #"hash_385f3c24f5a215a0", array( #"zone_grand_staircase", #"zone_entrance_hall" ), array( #"billiards_room", #"greenhouse", #"dining_room", #"library" ), #"hash_17eb32ca84395d46", #"hash_63182288b2fa8fe2" );
-    zm_utility::function_c492c4d6( #"library", #"hash_1ed56b51775c6337", array( #"zone_library" ), array( #"grand_staircase", #"main_hall", #"cemetery" ), #"hash_18ccedb519d08fdb", #"hash_3d3024b021773e75" );
-    zm_utility::function_c492c4d6( #"greenhouse", #"hash_6ca6299c59dc3611", array( #"zone_greenhouse_lab" ), array( #"main_hall", #"cellar", #"grand_staircase", #"dining_room" ), #"hash_1eab9450a8098785", #"hash_11659cb4f681fe2b" );
-    zm_utility::function_c492c4d6( #"dining_room", #"hash_630110b8f5ec36d9", array( #"zone_dining_room" ), array( #"greenhouse", #"cellar", #"cemetery" ), #"hash_59f4621f89897419", #"hash_9374fbb3272c53f" );
-    zm_utility::function_c492c4d6( #"billiards_room", #"hash_1d07f6440958f050", array( #"zone_library_hallway_upper", #"zone_foyer_westend" ), array( #"cemetery", #"grand_staircase", #"greenhouse" ), #"hash_3d69c72a393f3836", #"hash_3d83f27f0bfd3a72" );
-    zm_utility::function_c492c4d6( #"cemetery", #"hash_551b339e17319aa0", array( #"zone_cemetery_mausoleum" ), array( #"library", #"billiards_room", #"main_hall", #"cellar" ), #"hash_2b4478e34d38202", #"hash_a3797801599641e" );
+    zm_utility::function_c492c4d6( #"cellar", #"s_defend_area_obj_cellar", array( #"zone_cellar" ), array( #"billiards_room", #"library", #"greenhouse", #"cemetery" ), #"hash_d991d688c218647", #"hash_2b2357a02d83b291" );
+    zm_utility::function_c492c4d6( #"main_hall", #"s_defend_area_obj_main_hall", array( #"zone_main_hall" ), array( #"library", #"dining_room", #"grand_staircase" ), #"hash_23e3f0727cf654e1", #"hash_56ee5965eeb986f7" );
+    zm_utility::function_c492c4d6( #"grand_staircase", #"s_defend_area_obj_grand_staircase", array( #"zone_grand_staircase", #"zone_entrance_hall" ), array( #"billiards_room", #"greenhouse", #"dining_room", #"library" ), #"hash_17eb32ca84395d46", #"hash_63182288b2fa8fe2" );
+    zm_utility::function_c492c4d6( #"library", #"s_defend_area_obj_library", array( #"zone_library" ), array( #"grand_staircase", #"main_hall", #"cemetery" ), #"hash_18ccedb519d08fdb", #"hash_3d3024b021773e75" );
+    zm_utility::function_c492c4d6( #"greenhouse", #"s_defend_area_obj_greenhouse", array( #"zone_greenhouse_lab" ), array( #"main_hall", #"cellar", #"grand_staircase", #"dining_room" ), #"hash_1eab9450a8098785", #"hash_11659cb4f681fe2b" );
+    zm_utility::function_c492c4d6( #"dining_room", #"s_defend_area_obj_dining_room", array( #"zone_dining_room" ), array( #"greenhouse", #"cellar", #"cemetery" ), #"hash_59f4621f89897419", #"hash_9374fbb3272c53f" );
+    zm_utility::function_c492c4d6( #"billiards_room", #"s_defend_area_obj_billiards_room", array( #"zone_library_hallway_upper", #"zone_foyer_westend" ), array( #"cemetery", #"grand_staircase", #"greenhouse" ), #"hash_3d69c72a393f3836", #"hash_3d83f27f0bfd3a72" );
+    zm_utility::function_c492c4d6( #"cemetery", #"s_defend_area_obj_cemetery", array( #"zone_cemetery_mausoleum" ), array( #"library", #"billiards_room", #"main_hall", #"cellar" ), #"hash_2b4478e34d38202", #"hash_a3797801599641e" );
     
     /#
         zm_utility::function_1e856719();
@@ -69,7 +69,7 @@ function main()
     level thread function_fe69176c();
     function_edd5bb1a();
     function_ac904e5e();
-    callback::function_74872db6( &function_74872db6 );
+    callback::on_round_begin( &on_round_begin );
     level.fn_custom_round_ai_spawn = undefined;
     level.var_3f86fd35 = 8;
     level.var_d7853f35 = 14;
@@ -80,7 +80,7 @@ function main()
     zm_round_spawning::function_306ce518( #"werewolf", &function_124d3657 );
     zm_utility::function_2959a3cb( #"nosferatu", &function_c22d1f6a );
     zm_utility::function_2959a3cb( #"werewolf", &function_9ab66ae8 );
-    level.zombie_hints[ #"default_treasure_chest" ] = #"hash_57a34375dddce337";
+    level.zombie_hints[ #"default_treasure_chest" ] = #"zombie/random_weapon_free";
     level thread defend_areas();
     var_4ce6fa3d = getent( "connect_forest_entrance_to_forest", "script_flag" );
     var_4ce6fa3d.script_noteworthy = "";
@@ -121,7 +121,7 @@ function function_5f03f689()
 // Params 0
 // Checksum 0xb860cb9b, Offset: 0x1068
 // Size: 0x3e
-function function_74872db6()
+function on_round_begin()
 {
     level.var_2e3a6cbe = undefined;
     level.var_d614a8b4 = undefined;
@@ -136,7 +136,7 @@ function function_74872db6()
 // Size: 0x54
 function function_c22d1f6a()
 {
-    level zm_utility::function_e64ac3b6( 11, #"hash_7f4287cceb84c614" );
+    level zm_utility::function_e64ac3b6( 11, #"zm_mansion/announce_nosferatu" );
     level thread zm_audio::sndannouncerplayvox( #"nosferatu", undefined, undefined, undefined, 1 );
 }
 
@@ -146,7 +146,7 @@ function function_c22d1f6a()
 // Size: 0x54
 function function_9ab66ae8()
 {
-    level zm_utility::function_e64ac3b6( 10, #"hash_44ee4f30644e71ec" );
+    level zm_utility::function_e64ac3b6( 10, #"zm_mansion/announce_werewolf" );
     level thread zm_audio::sndannouncerplayvox( #"werewolf", undefined, undefined, undefined, 1 );
 }
 
@@ -156,7 +156,7 @@ function function_9ab66ae8()
 // Size: 0x4c
 function registerlast_truck_headshot_()
 {
-    level zm_utility::function_7a35b1d7( #"hash_4ebcbd3655fdceb0" );
+    level zm_utility::function_7a35b1d7( #"zm_mansion/announce_pack" );
     level thread zm_audio::sndannouncerplayvox( #"pap_avail", undefined, undefined, undefined, 1 );
 }
 
@@ -167,7 +167,7 @@ function registerlast_truck_headshot_()
 function function_a97f7327()
 {
     level zm_utility::function_7a35b1d7( #"hash_60f7952659026bea" );
-    level thread zm_audio::sndannouncerplayvox( #"hash_3acd6d72567def3a", undefined, undefined, undefined, 1 );
+    level thread zm_audio::sndannouncerplayvox( #"door_open_all", undefined, undefined, undefined, 1 );
 }
 
 // Namespace zm_mansion_zstandard/zm_mansion_zstandard
@@ -279,7 +279,7 @@ function defend_areas()
     level thread zm_utility::function_33798535( s_defend_area.var_39c44288, s_defend_area.a_str_zones, s_defend_area.var_ed1db1a7 );
     level flag::wait_till( "started_defend_area" );
     level util::delay( 5, undefined, &zm_round_spawning::function_376e51ef, #"werewolf" );
-    level waittill( #"hash_7a04a7fb98fa4e4d" );
+    level waittill( #"end_defend_area" );
     zm_utility::function_fef4b36a( str_next_defend );
     a_zbarriers = getzbarrierarray();
     

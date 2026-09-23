@@ -7,7 +7,7 @@
     "vmtype": "client",
     "name": "fxd8_zm_char_cata_water_body",
     "effect1_attachtag": "j_elbow_le",
-    "effect4_fx": "fx#hash_5eb45bff0d4ecf49",
+    "effect4_fx": "fx#zm_ai/fx8_cata_water_aura_head",
     "effect1_fx": "fx#hash_6ce60bc4b64e793",
     "effect3_fx": "fx#zm_ai/fx8_cata_water_aura",
     "effect2_attachtag": "j_shoulder_ri",

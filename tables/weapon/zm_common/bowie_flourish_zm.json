@@ -2,7 +2,7 @@
     "name": "#bowie_flourish_zm",
     "baseWeapon": "#bowie_flourish",
     "displayname": "#zmweapon/bowie",
-    "xhash_60": "#hash_15ed4cc1acafbdb4",
+    "xhash_60": "#au_bowie_knife",
     "weapon70": "#bowie_knife",
     "soundbank": "#bowie_flourish_soundbank",
     "scrstr_8c8": [
@@ -36,11 +36,11 @@
     "#hash_554be9f7": false,
     "soundb0": "#hash_321e0616ad37f67d",
     "firesound": "#hash_2058b0dbb3d49daa",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound4e0": "#hash_7de02f3f0a5f070b",
     "tunables1": "#bowie_flourish_tunables_zm",
-    "weaponCamo": "#hash_511c3f983cd01165",
+    "weaponCamo": "#camo_t8_zm_bowie_knife",
     "viewmodel": [
         "#wpn_t8_zm_knife_bowie_view"
     ],

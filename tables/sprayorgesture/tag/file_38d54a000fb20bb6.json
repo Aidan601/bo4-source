@@ -1,11 +1,11 @@
 {
-    "name": "#hash_38d54a000fb20bb6",
+    "name": "#loot_tags_hiphop_seraph",
     "type": "#tag",
-    "material": "#hash_3610d69cd2c41ec2",
+    "material": "#vd/mtl_loot_ui_icon_tags_hiphop_seraph",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_111262ac5a8acb0f",
-        "icon": "image#hash_64bd68f9e0dd86f9",
+        "icon": "image#loot_ui_icon_tags_hiphop_seraph",
         "isdefault": 0
     }
 }

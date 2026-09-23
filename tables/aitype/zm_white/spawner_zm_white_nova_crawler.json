@@ -6,7 +6,7 @@
     "team": "TEAM_AXIS",
     "species": "#zombie",
     "archeType": "#nova_crawler",
-    "scoreType": "#hash_3be93038a7261d6e",
+    "scoreType": "#white_nova_crawler",
     "movementType": "#zombie",
     "spawnInfluencers": [
         "#none",
@@ -18,17 +18,17 @@
         "#hash_44b38f849094dde1"
     ],
     "animMappingTables": [
-        "#hash_1448cef0ccfeb2d3"
+        "#zm_nova_crawler.ai_am"
     ],
     "meleeWeapon": "#zombie_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
-    "footstepTable": "#hash_3368aeee6dad5cf",
+    "footstepTable": "#zombfootstep_quad",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
     "behaviorTree": "#hash_6a4c5de8082e458d",
-    "animStateMachine": "#hash_76d03d2c55202ee0",
-    "animSelectorTable": "#hash_76d0562c5520595b",
+    "animStateMachine": "#zm_nova_crawler.ai_asm",
+    "animSelectorTable": "#zm_nova_crawler.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_nova_crawler_settings",

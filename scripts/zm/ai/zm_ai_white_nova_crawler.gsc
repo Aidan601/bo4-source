@@ -231,9 +231,9 @@ function private function_ee3e7dc8()
     self.var_349e111e = 0;
     self.var_f1f44412 = 0;
     self._effect[ #"nova_crawler_aura_fx" ] = "zm_ai/fx8_nova_crawler_elec_aura";
-    self._effect[ #"hash_571a3bab8b805854" ] = "zm_ai/fx8_nova_crawler_elec_teleport_flash";
+    self._effect[ #"nova_crawler_phase_teleport_start_fx" ] = "zm_ai/fx8_nova_crawler_elec_teleport_flash";
     self._effect[ #"nova_crawler_phase_teleport_end_fx" ] = "zm_ai/fx8_nova_crawler_elec_teleport_appear";
-    self playsound( #"hash_27b6a39054ad63ec" );
+    self playsound( #"zmb_ai_crawler_elec_bolt_spawn" );
 }
 
 // Namespace zm_ai_white_nova_crawler/zm_ai_white_nova_crawler
@@ -667,7 +667,7 @@ function private function_46660930()
 {
     self endon( #"death" );
     origin = self gettagorigin( "j_spine4" );
-    playfx( self._effect[ #"hash_571a3bab8b805854" ], origin );
+    playfx( self._effect[ #"nova_crawler_phase_teleport_start_fx" ], origin );
     self hide();
     self collidewithactors( 0 );
     self waittilltimeout( 1, #"phase_end" );
@@ -890,7 +890,7 @@ function private function_c708afa4( entity )
     
     if ( isdefined( var_96820b80 ) )
     {
-        playfx( self._effect[ #"hash_571a3bab8b805854" ], entity.origin );
+        playfx( self._effect[ #"nova_crawler_phase_teleport_start_fx" ], entity.origin );
         entity forceteleport( var_96820b80.origin, var_96820b80.angles );
         function_c33d4387();
         entity.var_b421bafe = 0;

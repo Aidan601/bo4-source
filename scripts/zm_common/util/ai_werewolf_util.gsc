@@ -324,7 +324,7 @@ function function_47a88a0c( n_to_spawn = 1, func_on_spawned, b_force_spawn = 0, 
                 ai thread [[ func_on_spawned ]]();
             }
             
-            ai playsound( #"hash_63299a75a97f9678" );
+            ai playsound( #"zmb_ai_stoker_spawn" );
             bhtnactionstartevent( ai, "spawn" );
         }
         
@@ -388,7 +388,7 @@ function function_d7a8d5a8( n_round_number )
     
     while ( true )
     {
-        level waittill( #"hash_5d3012139f083ccb" );
+        level waittill( #"round_spawns_constructed" );
         
         if ( zm_round_spawning::function_d0db51fc( #"werewolf" ) && !( isdefined( level.var_153e9058 ) && level.var_153e9058 ) )
         {

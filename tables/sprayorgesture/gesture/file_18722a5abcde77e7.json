@@ -1,8 +1,8 @@
 {
-    "name": "#hash_18722a5abcde77e7",
+    "name": "#loot_emote_juggle_soccer_ball",
     "type": "#gesture",
-    "gesture": "#hash_75ef8444e50d8765",
-    "gesture2": "#hash_19010b47e0f5351e",
+    "gesture": "#boast_juggle_soccer_ball",
+    "gesture2": "#boast_juggle_soccer_ball_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_381121ab0dea523a",

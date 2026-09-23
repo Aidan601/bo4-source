@@ -58,7 +58,7 @@ hash_e0a7d5dc4a189ab
 hash_e0a7d5dc4a189ab
 hash_3275be6cbeabf668
 hash_3275be6cbeabf668
-hash_52391377bc2aba11
+wc/lit_decal_diffuse_spec_gloss#fa261733
 hash_46af52463b847335
 hash_278a34140ddef48
 hash_5b94ea6fc4769625
@@ -114,8 +114,8 @@ $white_reveal
 $gray_32_one_channel
 $blacktransparent_color
 k15safe_mp_madagascar
-hash_4df18d1bd17323fb
+wc/t8_decal_blood_puddle_floor_01_hard_dry
 mc/global_invisible
-hash_7adb5713bdaed333
+vd/t8_decal_blood_puddle_floor_01_hard_dry
 p7_skulls_bones_pile_02
-hash_6954b15592456dd7
+p8_mad_medical_syringes

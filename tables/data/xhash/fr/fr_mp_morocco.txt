@@ -1,5 +1,5 @@
 mp_morocco.fr
-hash_4a362f4091a7302f
+mp_morocco_fr_stream
 hash_5df695a2d8343aa6
 hash_26e7b5897b050689
 hash_26ad69689b6765d4

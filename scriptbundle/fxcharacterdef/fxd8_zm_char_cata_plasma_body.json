@@ -7,8 +7,8 @@
     "vmtype": "client",
     "name": "fxd8_zm_char_cata_plasma_body",
     "effect1_attachtag": "j_spine4",
-    "effect4_fx": "fx#hash_1b9a5e0c33750abe",
-    "effect1_fx": "fx#hash_28415d2eb0d4074b",
+    "effect4_fx": "fx#zm_ai/fx8_cata_plasma_aura_head",
+    "effect1_fx": "fx#zm_ai/fx8_cata_plasma_aura",
     "effect3_fx": "fx#hash_6931b098cb2b2086",
     "effect2_attachtag": "j_elbow_le",
     "effect4_attachtag": "j_head"

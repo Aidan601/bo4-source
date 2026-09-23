@@ -1,0 +1,7 @@
+{
+    "name": "#gsol_mp_fastlockon_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#scope_fastlockon_launcher_standard_restriction"
+    ]
+}

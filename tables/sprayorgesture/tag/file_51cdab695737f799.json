@@ -1,11 +1,11 @@
 {
-    "name": "#hash_51cdab695737f799",
+    "name": "#loot_tags_caricature_crash",
     "type": "#tag",
-    "material": "#hash_58603a6628fe6825",
+    "material": "#vd/mtl_loot_ui_icon_tags_caricature_crash",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_8dd18ec94e476ba",
-        "icon": "image#hash_69f3865975a0b478",
+        "icon": "image#loot_ui_icon_tags_caricature_crash",
         "isdefault": 0
     }
 }

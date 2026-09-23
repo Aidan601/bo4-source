@@ -49,7 +49,7 @@ version 111 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -105,7 +105,7 @@ version 111 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -147,7 +147,7 @@ version 111 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -155,7 +155,7 @@ version 111 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -211,7 +211,7 @@ version 111 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -219,13 +219,13 @@ version 111 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2310
@@ -233,11 +233,11 @@ version 111 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1a40
         hash_768aeb6b928320d outfit_breadcrumbs[35];
         // offset 0x1a50, size 0x8c0
-        characteroutfit hash_e5c77948998e49[35];
+        characteroutfit selectedoutfititems[35];
     };
 
     // idx 15 members 4 size 0x58
@@ -257,7 +257,7 @@ version 111 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -275,7 +275,7 @@ version 111 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -315,7 +315,7 @@ version 111 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -359,15 +359,15 @@ version 111 {
     // offset 0x11a8, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x11b0, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x11b8, size 0x20
     uint com_first_time;
     // offset 0x11d8, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x11e0, size 0x20
     uint party_privacystatus;
     // offset 0x1200, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1220, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1230, size 0x8
@@ -413,7 +413,7 @@ version 111 {
     // offset 0x3498, size 0x20
     float snd_voicechat_record_level;
     // offset 0x34b8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x34c0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x34e0, size 0x20
@@ -423,7 +423,7 @@ version 111 {
     // offset 0x3520, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x3540, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x3548, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x3568, size 0x8
@@ -441,7 +441,7 @@ version 111 {
     // offset 0x35b0, size 0x20
     float snd_voicechat_volume;
     // offset 0x35d0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x35d8, size 0x10
     uint:11 playlist_mp;
     // offset 0x35e8, size 0x10
@@ -465,9 +465,9 @@ version 111 {
     // offset 0x3688, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x3690, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x36b0, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x36b8, size 0x20
     float speaker_right_surround_back;
     // offset 0x36d8, size 0x20
@@ -497,7 +497,7 @@ version 111 {
     // offset 0x38c8, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x38d0, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x38f0, size 0x20
     float snd_menu_sfx;
     // offset 0x3910, size 0x100
@@ -563,7 +563,7 @@ version 111 {
     // offset 0x4a40, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4a60, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4a61, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4a62, size 0x1
@@ -853,7 +853,7 @@ version 111 {
     // offset 0x4b6f, size 0x1
     bool launch_settings;
     // offset 0x4b70, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4b71, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4b72, size 0x1
@@ -918,7 +918,7 @@ version 110 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -974,7 +974,7 @@ version 110 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -1016,7 +1016,7 @@ version 110 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -1024,7 +1024,7 @@ version 110 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -1080,7 +1080,7 @@ version 110 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -1088,13 +1088,13 @@ version 110 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2310
@@ -1102,11 +1102,11 @@ version 110 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1a40
         hash_768aeb6b928320d outfit_breadcrumbs[35];
         // offset 0x1a50, size 0x8c0
-        characteroutfit hash_e5c77948998e49[35];
+        characteroutfit selectedoutfititems[35];
     };
 
     // idx 15 members 4 size 0x58
@@ -1126,7 +1126,7 @@ version 110 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -1144,7 +1144,7 @@ version 110 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -1184,7 +1184,7 @@ version 110 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -1228,15 +1228,15 @@ version 110 {
     // offset 0x11a8, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x11b0, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x11b8, size 0x20
     uint com_first_time;
     // offset 0x11d8, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x11e0, size 0x20
     uint party_privacystatus;
     // offset 0x1200, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1220, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1230, size 0x8
@@ -1282,7 +1282,7 @@ version 110 {
     // offset 0x3498, size 0x20
     float snd_voicechat_record_level;
     // offset 0x34b8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x34c0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x34e0, size 0x20
@@ -1292,7 +1292,7 @@ version 110 {
     // offset 0x3520, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x3540, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x3548, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x3568, size 0x8
@@ -1310,7 +1310,7 @@ version 110 {
     // offset 0x35b0, size 0x20
     float snd_voicechat_volume;
     // offset 0x35d0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x35d8, size 0x10
     uint:11 playlist_mp;
     // offset 0x35e8, size 0x10
@@ -1334,9 +1334,9 @@ version 110 {
     // offset 0x3688, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x3690, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x36b0, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x36b8, size 0x20
     float speaker_right_surround_back;
     // offset 0x36d8, size 0x20
@@ -1366,7 +1366,7 @@ version 110 {
     // offset 0x38c8, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x38d0, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x38f0, size 0x20
     float snd_menu_sfx;
     // offset 0x3910, size 0x100
@@ -1432,7 +1432,7 @@ version 110 {
     // offset 0x48c0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x48e0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x48e1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x48e2, size 0x1
@@ -1722,7 +1722,7 @@ version 110 {
     // offset 0x49ef, size 0x1
     bool launch_settings;
     // offset 0x49f0, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x49f1, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x49f2, size 0x1
@@ -1787,7 +1787,7 @@ version 109 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -1843,7 +1843,7 @@ version 109 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -1885,7 +1885,7 @@ version 109 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -1893,7 +1893,7 @@ version 109 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -1949,7 +1949,7 @@ version 109 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -1957,13 +1957,13 @@ version 109 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -1971,11 +1971,11 @@ version 109 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -1995,7 +1995,7 @@ version 109 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -2013,7 +2013,7 @@ version 109 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -2053,7 +2053,7 @@ version 109 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -2097,15 +2097,15 @@ version 109 {
     // offset 0x11a8, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x11b0, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x11b8, size 0x20
     uint com_first_time;
     // offset 0x11d8, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x11e0, size 0x20
     uint party_privacystatus;
     // offset 0x1200, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1220, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1230, size 0x8
@@ -2151,7 +2151,7 @@ version 109 {
     // offset 0x3498, size 0x20
     float snd_voicechat_record_level;
     // offset 0x34b8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x34c0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x34e0, size 0x20
@@ -2161,7 +2161,7 @@ version 109 {
     // offset 0x3520, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x3540, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x3548, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x3568, size 0x8
@@ -2179,7 +2179,7 @@ version 109 {
     // offset 0x35b0, size 0x20
     float snd_voicechat_volume;
     // offset 0x35d0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x35d8, size 0x10
     uint:11 playlist_mp;
     // offset 0x35e8, size 0x10
@@ -2203,9 +2203,9 @@ version 109 {
     // offset 0x3688, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x3690, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x36b0, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x36b8, size 0x20
     float speaker_right_surround_back;
     // offset 0x36d8, size 0x20
@@ -2235,7 +2235,7 @@ version 109 {
     // offset 0x38c8, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x38d0, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x38f0, size 0x20
     float snd_menu_sfx;
     // offset 0x3910, size 0x100
@@ -2301,7 +2301,7 @@ version 109 {
     // offset 0x48c0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x48e0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x48e1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x48e2, size 0x1
@@ -2591,7 +2591,7 @@ version 109 {
     // offset 0x49ef, size 0x1
     bool launch_settings;
     // offset 0x49f0, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x49f1, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x49f2, size 0x1
@@ -2656,7 +2656,7 @@ version 108 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -2712,7 +2712,7 @@ version 108 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -2754,7 +2754,7 @@ version 108 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -2762,7 +2762,7 @@ version 108 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -2818,7 +2818,7 @@ version 108 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -2826,13 +2826,13 @@ version 108 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -2840,11 +2840,11 @@ version 108 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -2864,7 +2864,7 @@ version 108 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -2882,7 +2882,7 @@ version 108 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -2922,7 +2922,7 @@ version 108 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -2966,15 +2966,15 @@ version 108 {
     // offset 0x11a8, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x11b0, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x11b8, size 0x20
     uint com_first_time;
     // offset 0x11d8, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x11e0, size 0x20
     uint party_privacystatus;
     // offset 0x1200, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1220, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1230, size 0x8
@@ -3020,7 +3020,7 @@ version 108 {
     // offset 0x3498, size 0x20
     float snd_voicechat_record_level;
     // offset 0x34b8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x34c0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x34e0, size 0x20
@@ -3030,7 +3030,7 @@ version 108 {
     // offset 0x3520, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x3540, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x3548, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x3568, size 0x8
@@ -3048,7 +3048,7 @@ version 108 {
     // offset 0x35b0, size 0x20
     float snd_voicechat_volume;
     // offset 0x35d0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x35d8, size 0x10
     uint:11 playlist_mp;
     // offset 0x35e8, size 0x10
@@ -3072,9 +3072,9 @@ version 108 {
     // offset 0x3688, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x3690, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x36b0, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x36b8, size 0x20
     float speaker_right_surround_back;
     // offset 0x36d8, size 0x20
@@ -3104,7 +3104,7 @@ version 108 {
     // offset 0x38c8, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x38d0, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x38f0, size 0x20
     float snd_menu_sfx;
     // offset 0x3910, size 0x100
@@ -3170,7 +3170,7 @@ version 108 {
     // offset 0x48c0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x48e0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x48e1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x48e2, size 0x1
@@ -3460,7 +3460,7 @@ version 108 {
     // offset 0x49ef, size 0x1
     bool launch_settings;
     // offset 0x49f0, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x49f1, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x49f2, size 0x1
@@ -3525,7 +3525,7 @@ version 107 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -3581,7 +3581,7 @@ version 107 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -3623,7 +3623,7 @@ version 107 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -3631,7 +3631,7 @@ version 107 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -3687,7 +3687,7 @@ version 107 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -3695,13 +3695,13 @@ version 107 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -3709,11 +3709,11 @@ version 107 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -3733,7 +3733,7 @@ version 107 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -3751,7 +3751,7 @@ version 107 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -3791,7 +3791,7 @@ version 107 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -3835,15 +3835,15 @@ version 107 {
     // offset 0x11a8, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x11b0, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x11b8, size 0x20
     uint com_first_time;
     // offset 0x11d8, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x11e0, size 0x20
     uint party_privacystatus;
     // offset 0x1200, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1220, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1230, size 0x8
@@ -3889,7 +3889,7 @@ version 107 {
     // offset 0x3498, size 0x20
     float snd_voicechat_record_level;
     // offset 0x34b8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x34c0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x34e0, size 0x20
@@ -3899,7 +3899,7 @@ version 107 {
     // offset 0x3520, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x3540, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x3548, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x3568, size 0x8
@@ -3917,7 +3917,7 @@ version 107 {
     // offset 0x35b0, size 0x20
     float snd_voicechat_volume;
     // offset 0x35d0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x35d8, size 0x10
     uint:11 playlist_mp;
     // offset 0x35e8, size 0x10
@@ -3941,9 +3941,9 @@ version 107 {
     // offset 0x3688, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x3690, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x36b0, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x36b8, size 0x20
     float speaker_right_surround_back;
     // offset 0x36d8, size 0x20
@@ -3973,7 +3973,7 @@ version 107 {
     // offset 0x38c8, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x38d0, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x38f0, size 0x20
     float snd_menu_sfx;
     // offset 0x3910, size 0x100
@@ -4039,7 +4039,7 @@ version 107 {
     // offset 0x48c0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x48e0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x48e1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x48e2, size 0x1
@@ -4329,7 +4329,7 @@ version 107 {
     // offset 0x49ef, size 0x1
     bool launch_settings;
     // offset 0x49f0, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x49f1, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x49f2, size 0x1
@@ -4394,7 +4394,7 @@ version 106 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -4450,7 +4450,7 @@ version 106 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -4492,7 +4492,7 @@ version 106 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -4500,7 +4500,7 @@ version 106 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -4556,7 +4556,7 @@ version 106 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -4564,13 +4564,13 @@ version 106 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -4578,11 +4578,11 @@ version 106 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -4602,7 +4602,7 @@ version 106 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -4620,7 +4620,7 @@ version 106 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -4660,7 +4660,7 @@ version 106 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -4704,15 +4704,15 @@ version 106 {
     // offset 0x1148, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x1150, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x1158, size 0x20
     uint com_first_time;
     // offset 0x1178, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1180, size 0x20
     uint party_privacystatus;
     // offset 0x11a0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11c0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11d0, size 0x8
@@ -4758,7 +4758,7 @@ version 106 {
     // offset 0x3438, size 0x20
     float snd_voicechat_record_level;
     // offset 0x3458, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x3460, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x3480, size 0x20
@@ -4768,7 +4768,7 @@ version 106 {
     // offset 0x34c0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x34e0, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x34e8, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x3508, size 0x8
@@ -4786,7 +4786,7 @@ version 106 {
     // offset 0x3550, size 0x20
     float snd_voicechat_volume;
     // offset 0x3570, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x3578, size 0x10
     uint:11 playlist_mp;
     // offset 0x3588, size 0x10
@@ -4810,9 +4810,9 @@ version 106 {
     // offset 0x3628, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x3630, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x3650, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x3658, size 0x20
     float speaker_right_surround_back;
     // offset 0x3678, size 0x20
@@ -4842,7 +4842,7 @@ version 106 {
     // offset 0x3868, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3870, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3890, size 0x20
     float snd_menu_sfx;
     // offset 0x38b0, size 0x100
@@ -4908,7 +4908,7 @@ version 106 {
     // offset 0x4860, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4880, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4881, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4882, size 0x1
@@ -5198,7 +5198,7 @@ version 106 {
     // offset 0x498f, size 0x1
     bool launch_settings;
     // offset 0x4990, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4991, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4992, size 0x1
@@ -5263,7 +5263,7 @@ version 105 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -5319,7 +5319,7 @@ version 105 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -5361,7 +5361,7 @@ version 105 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -5369,7 +5369,7 @@ version 105 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -5425,7 +5425,7 @@ version 105 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -5433,13 +5433,13 @@ version 105 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -5447,11 +5447,11 @@ version 105 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -5471,7 +5471,7 @@ version 105 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -5489,7 +5489,7 @@ version 105 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -5529,7 +5529,7 @@ version 105 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -5573,15 +5573,15 @@ version 105 {
     // offset 0x1148, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x1150, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x1158, size 0x20
     uint com_first_time;
     // offset 0x1178, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1180, size 0x20
     uint party_privacystatus;
     // offset 0x11a0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11c0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11d0, size 0x8
@@ -5627,7 +5627,7 @@ version 105 {
     // offset 0x2c58, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c78, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c80, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2ca0, size 0x20
@@ -5637,7 +5637,7 @@ version 105 {
     // offset 0x2ce0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x2d00, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x2d08, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x2d28, size 0x8
@@ -5655,7 +5655,7 @@ version 105 {
     // offset 0x2d70, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d90, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d98, size 0x10
     uint:11 playlist_mp;
     // offset 0x2da8, size 0x10
@@ -5679,9 +5679,9 @@ version 105 {
     // offset 0x2e48, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e50, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e70, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x2e78, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e98, size 0x20
@@ -5711,7 +5711,7 @@ version 105 {
     // offset 0x3088, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3090, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x30b0, size 0x20
     float snd_menu_sfx;
     // offset 0x30d0, size 0x100
@@ -5777,7 +5777,7 @@ version 105 {
     // offset 0x4080, size 0x20
     uint weapon_cycle_delay;
     // offset 0x40a0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x40a1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x40a2, size 0x1
@@ -6067,7 +6067,7 @@ version 105 {
     // offset 0x41af, size 0x1
     bool launch_settings;
     // offset 0x41b0, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x41b1, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x41b2, size 0x1
@@ -6132,7 +6132,7 @@ version 104 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -6188,7 +6188,7 @@ version 104 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -6230,7 +6230,7 @@ version 104 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -6238,7 +6238,7 @@ version 104 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -6294,7 +6294,7 @@ version 104 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -6302,13 +6302,13 @@ version 104 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -6316,11 +6316,11 @@ version 104 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -6340,7 +6340,7 @@ version 104 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -6358,7 +6358,7 @@ version 104 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -6398,7 +6398,7 @@ version 104 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -6442,15 +6442,15 @@ version 104 {
     // offset 0x1148, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x1150, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x1158, size 0x20
     uint com_first_time;
     // offset 0x1178, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1180, size 0x20
     uint party_privacystatus;
     // offset 0x11a0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11c0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11d0, size 0x8
@@ -6496,7 +6496,7 @@ version 104 {
     // offset 0x2c58, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c78, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c80, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2ca0, size 0x20
@@ -6506,7 +6506,7 @@ version 104 {
     // offset 0x2ce0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x2d00, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x2d08, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x2d28, size 0x8
@@ -6524,7 +6524,7 @@ version 104 {
     // offset 0x2d70, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d90, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d98, size 0x10
     uint:11 playlist_mp;
     // offset 0x2da8, size 0x10
@@ -6548,9 +6548,9 @@ version 104 {
     // offset 0x2e48, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e50, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e70, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x2e78, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e98, size 0x20
@@ -6580,7 +6580,7 @@ version 104 {
     // offset 0x3088, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3090, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x30b0, size 0x20
     float snd_menu_sfx;
     // offset 0x30d0, size 0x100
@@ -6646,7 +6646,7 @@ version 104 {
     // offset 0x4080, size 0x20
     uint weapon_cycle_delay;
     // offset 0x40a0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x40a1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x40a2, size 0x1
@@ -6910,7 +6910,7 @@ version 104 {
     // offset 0x41a2, size 0x1
     bool launch_settings;
     // offset 0x41a3, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x41a4, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x41a5, size 0x1
@@ -6973,7 +6973,7 @@ version 103 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -7029,7 +7029,7 @@ version 103 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -7071,7 +7071,7 @@ version 103 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -7079,7 +7079,7 @@ version 103 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -7135,7 +7135,7 @@ version 103 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -7143,13 +7143,13 @@ version 103 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1810
@@ -7157,11 +7157,11 @@ version 103 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x1210, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -7181,7 +7181,7 @@ version 103 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -7199,7 +7199,7 @@ version 103 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -7239,7 +7239,7 @@ version 103 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -7283,15 +7283,15 @@ version 103 {
     // offset 0x1148, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x1150, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x1158, size 0x20
     uint com_first_time;
     // offset 0x1178, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1180, size 0x20
     uint party_privacystatus;
     // offset 0x11a0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11c0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11d0, size 0x8
@@ -7337,7 +7337,7 @@ version 103 {
     // offset 0x2c58, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c78, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c80, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2ca0, size 0x20
@@ -7347,7 +7347,7 @@ version 103 {
     // offset 0x2ce0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x2d00, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x2d08, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x2d28, size 0x8
@@ -7365,7 +7365,7 @@ version 103 {
     // offset 0x2d70, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d90, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d98, size 0x10
     uint:11 playlist_mp;
     // offset 0x2da8, size 0x10
@@ -7389,9 +7389,9 @@ version 103 {
     // offset 0x2e48, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e50, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e70, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x2e78, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e98, size 0x20
@@ -7421,7 +7421,7 @@ version 103 {
     // offset 0x3088, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3090, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x30b0, size 0x20
     float snd_menu_sfx;
     // offset 0x30d0, size 0x100
@@ -7487,7 +7487,7 @@ version 103 {
     // offset 0x4080, size 0x20
     uint weapon_cycle_delay;
     // offset 0x40a0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x40a1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x40a2, size 0x1
@@ -7751,7 +7751,7 @@ version 103 {
     // offset 0x41a2, size 0x1
     bool launch_settings;
     // offset 0x41a3, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x41a4, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x41a5, size 0x1
@@ -7814,7 +7814,7 @@ version 102 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -7870,7 +7870,7 @@ version 102 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -7912,7 +7912,7 @@ version 102 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -7920,7 +7920,7 @@ version 102 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -7976,7 +7976,7 @@ version 102 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -7984,13 +7984,13 @@ version 102 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 5 size 0x1840
@@ -8000,11 +8000,11 @@ version 102 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x1240, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -8024,7 +8024,7 @@ version 102 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -8042,7 +8042,7 @@ version 102 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -8082,7 +8082,7 @@ version 102 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -8126,15 +8126,15 @@ version 102 {
     // offset 0x1148, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x1150, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x1158, size 0x20
     uint com_first_time;
     // offset 0x1178, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1180, size 0x20
     uint party_privacystatus;
     // offset 0x11a0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11c0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11d0, size 0x8
@@ -8180,7 +8180,7 @@ version 102 {
     // offset 0x2c58, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c78, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c80, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2ca0, size 0x20
@@ -8190,7 +8190,7 @@ version 102 {
     // offset 0x2ce0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x2d00, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x2d08, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x2d28, size 0x8
@@ -8208,7 +8208,7 @@ version 102 {
     // offset 0x2d70, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d90, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d98, size 0x10
     uint:11 playlist_mp;
     // offset 0x2da8, size 0x10
@@ -8232,9 +8232,9 @@ version 102 {
     // offset 0x2e48, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e50, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e70, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x2e78, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e98, size 0x20
@@ -8264,7 +8264,7 @@ version 102 {
     // offset 0x3088, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3090, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x30b0, size 0x20
     float snd_menu_sfx;
     // offset 0x30d0, size 0x100
@@ -8330,7 +8330,7 @@ version 102 {
     // offset 0x4080, size 0x20
     uint weapon_cycle_delay;
     // offset 0x40a0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x40a1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x40a2, size 0x1
@@ -8594,7 +8594,7 @@ version 102 {
     // offset 0x41a2, size 0x1
     bool launch_settings;
     // offset 0x41a3, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x41a4, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x41a5, size 0x1
@@ -8657,7 +8657,7 @@ version 101 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -8713,7 +8713,7 @@ version 101 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -8755,7 +8755,7 @@ version 101 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -8763,7 +8763,7 @@ version 101 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -8819,7 +8819,7 @@ version 101 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -8827,13 +8827,13 @@ version 101 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -8843,13 +8843,13 @@ version 101 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -8869,7 +8869,7 @@ version 101 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -8887,7 +8887,7 @@ version 101 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -8927,7 +8927,7 @@ version 101 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -8971,15 +8971,15 @@ version 101 {
     // offset 0x1148, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x1150, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x1158, size 0x20
     uint com_first_time;
     // offset 0x1178, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1180, size 0x20
     uint party_privacystatus;
     // offset 0x11a0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11c0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11d0, size 0x8
@@ -9025,7 +9025,7 @@ version 101 {
     // offset 0x2c58, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c78, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c80, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2ca0, size 0x20
@@ -9035,7 +9035,7 @@ version 101 {
     // offset 0x2ce0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x2d00, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x2d08, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x2d28, size 0x8
@@ -9053,7 +9053,7 @@ version 101 {
     // offset 0x2d70, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d90, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d98, size 0x10
     uint:11 playlist_mp;
     // offset 0x2da8, size 0x10
@@ -9077,9 +9077,9 @@ version 101 {
     // offset 0x2e48, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e50, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e70, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x2e78, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e98, size 0x20
@@ -9109,7 +9109,7 @@ version 101 {
     // offset 0x3088, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3090, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x30b0, size 0x20
     float snd_menu_sfx;
     // offset 0x30d0, size 0x100
@@ -9175,7 +9175,7 @@ version 101 {
     // offset 0x4080, size 0x20
     uint weapon_cycle_delay;
     // offset 0x40a0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x40a1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x40a2, size 0x1
@@ -9439,7 +9439,7 @@ version 101 {
     // offset 0x41a2, size 0x1
     bool launch_settings;
     // offset 0x41a3, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x41a4, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x41a5, size 0x1
@@ -9502,7 +9502,7 @@ version 100 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -9558,7 +9558,7 @@ version 100 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -9600,7 +9600,7 @@ version 100 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -9608,7 +9608,7 @@ version 100 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -9664,7 +9664,7 @@ version 100 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -9672,13 +9672,13 @@ version 100 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -9688,13 +9688,13 @@ version 100 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -9714,7 +9714,7 @@ version 100 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -9732,7 +9732,7 @@ version 100 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -9772,7 +9772,7 @@ version 100 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -9816,15 +9816,15 @@ version 100 {
     // offset 0x1148, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x1150, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x1158, size 0x20
     uint com_first_time;
     // offset 0x1178, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1180, size 0x20
     uint party_privacystatus;
     // offset 0x11a0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11c0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11d0, size 0x8
@@ -9870,7 +9870,7 @@ version 100 {
     // offset 0x2c58, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c78, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c80, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2ca0, size 0x20
@@ -9880,7 +9880,7 @@ version 100 {
     // offset 0x2ce0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x2d00, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x2d08, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x2d28, size 0x8
@@ -9898,7 +9898,7 @@ version 100 {
     // offset 0x2d70, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d90, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d98, size 0x10
     uint:11 playlist_mp;
     // offset 0x2da8, size 0x10
@@ -9922,9 +9922,9 @@ version 100 {
     // offset 0x2e48, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e50, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e70, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x2e78, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e98, size 0x20
@@ -9954,7 +9954,7 @@ version 100 {
     // offset 0x3088, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3090, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x30b0, size 0x20
     float snd_menu_sfx;
     // offset 0x30d0, size 0x100
@@ -10020,7 +10020,7 @@ version 100 {
     // offset 0x4080, size 0x20
     uint weapon_cycle_delay;
     // offset 0x40a0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x40a1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x40a2, size 0x1
@@ -10284,7 +10284,7 @@ version 100 {
     // offset 0x41a2, size 0x1
     bool launch_settings;
     // offset 0x41a3, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x41a4, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x41a5, size 0x1
@@ -10347,7 +10347,7 @@ version 99 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -10403,7 +10403,7 @@ version 99 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -10445,7 +10445,7 @@ version 99 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -10453,7 +10453,7 @@ version 99 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -10509,7 +10509,7 @@ version 99 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -10517,13 +10517,13 @@ version 99 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -10533,13 +10533,13 @@ version 99 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -10559,7 +10559,7 @@ version 99 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -10577,7 +10577,7 @@ version 99 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -10617,7 +10617,7 @@ version 99 {
     // offset 0x970, size 0x8
     uint:2 gpad_sticksconfig;
     // offset 0x978, size 0x8
-    uint:2 hash_4d5341da0eee459e;
+    uint:2 warzonehidealtimeter;
     // offset 0x980, size 0x20
     uint party_maxplayers;
     // offset 0x9a0, size 0x10
@@ -10661,15 +10661,15 @@ version 99 {
     // offset 0x1148, size 0x8
     uint:2 warzonehidecompass;
     // offset 0x1150, size 0x8
-    uint:2 hash_617398e1cc04288c;
+    uint:2 warzonehideconsole;
     // offset 0x1158, size 0x20
     uint com_first_time;
     // offset 0x1178, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1180, size 0x20
     uint party_privacystatus;
     // offset 0x11a0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11c0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11d0, size 0x8
@@ -10715,7 +10715,7 @@ version 99 {
     // offset 0x2c58, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c78, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c80, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2ca0, size 0x20
@@ -10725,7 +10725,7 @@ version 99 {
     // offset 0x2ce0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x2d00, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x2d08, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x2d28, size 0x8
@@ -10743,7 +10743,7 @@ version 99 {
     // offset 0x2d70, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d90, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d98, size 0x10
     uint:11 playlist_mp;
     // offset 0x2da8, size 0x10
@@ -10767,9 +10767,9 @@ version 99 {
     // offset 0x2e48, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e50, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e70, size 0x8
-    uint:2 hash_77a57fbe49d3b1ae;
+    uint:2 warzonehideactiveperks;
     // offset 0x2e78, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e98, size 0x20
@@ -10799,7 +10799,7 @@ version 99 {
     // offset 0x3088, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3090, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x30b0, size 0x20
     float snd_menu_sfx;
     // offset 0x30d0, size 0x100
@@ -10865,7 +10865,7 @@ version 99 {
     // offset 0x4080, size 0x20
     uint weapon_cycle_delay;
     // offset 0x40a0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x40a1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x40a2, size 0x1
@@ -11127,7 +11127,7 @@ version 99 {
     // offset 0x41a1, size 0x1
     bool launch_settings;
     // offset 0x41a2, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x41a3, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x41a4, size 0x1
@@ -11192,7 +11192,7 @@ version 98 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -11248,7 +11248,7 @@ version 98 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -11290,7 +11290,7 @@ version 98 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -11298,7 +11298,7 @@ version 98 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -11354,7 +11354,7 @@ version 98 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -11362,13 +11362,13 @@ version 98 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -11378,13 +11378,13 @@ version 98 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -11404,7 +11404,7 @@ version 98 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -11422,7 +11422,7 @@ version 98 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -11506,11 +11506,11 @@ version 98 {
     // offset 0x1148, size 0x20
     uint com_first_time;
     // offset 0x1168, size 0x8
-    uint:2 hash_730de09abf8c8f79;
+    uint:2 warzonehideweaponequipment;
     // offset 0x1170, size 0x20
     uint party_privacystatus;
     // offset 0x1190, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11b0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11c0, size 0x8
@@ -11556,7 +11556,7 @@ version 98 {
     // offset 0x2c48, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c68, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c70, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c90, size 0x20
@@ -11566,7 +11566,7 @@ version 98 {
     // offset 0x2cd0, size 0x20
     uint eliteregistrationpopuptimesshown;
     // offset 0x2cf0, size 0x8
-    uint:2 hash_4655c19380b24524;
+    uint:2 warzonehideplayerhealth;
     // offset 0x2cf8, size 0x20
     float gpad_button_lstick_deflect_max;
     // offset 0x2d18, size 0x8
@@ -11582,7 +11582,7 @@ version 98 {
     // offset 0x2d58, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d78, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d80, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d90, size 0x10
@@ -11606,7 +11606,7 @@ version 98 {
     // offset 0x2e30, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e38, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e58, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e78, size 0x20
@@ -11636,7 +11636,7 @@ version 98 {
     // offset 0x3068, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3070, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3090, size 0x20
     float snd_menu_sfx;
     // offset 0x30b0, size 0x100
@@ -11702,7 +11702,7 @@ version 98 {
     // offset 0x4060, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4080, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4081, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4082, size 0x1
@@ -11964,7 +11964,7 @@ version 98 {
     // offset 0x4181, size 0x1
     bool launch_settings;
     // offset 0x4182, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4183, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4184, size 0x1
@@ -12029,7 +12029,7 @@ version 97 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -12085,7 +12085,7 @@ version 97 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -12127,7 +12127,7 @@ version 97 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -12135,7 +12135,7 @@ version 97 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -12191,7 +12191,7 @@ version 97 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -12199,13 +12199,13 @@ version 97 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -12215,13 +12215,13 @@ version 97 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -12241,7 +12241,7 @@ version 97 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -12259,7 +12259,7 @@ version 97 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -12343,7 +12343,7 @@ version 97 {
     // offset 0x1160, size 0x20
     uint party_privacystatus;
     // offset 0x1180, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11a0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11b0, size 0x8
@@ -12389,7 +12389,7 @@ version 97 {
     // offset 0x2c38, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c58, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c60, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c80, size 0x20
@@ -12411,7 +12411,7 @@ version 97 {
     // offset 0x2d38, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d58, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d60, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d70, size 0x10
@@ -12435,7 +12435,7 @@ version 97 {
     // offset 0x2e10, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e18, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e38, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e58, size 0x20
@@ -12465,7 +12465,7 @@ version 97 {
     // offset 0x3048, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3050, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3070, size 0x20
     float snd_menu_sfx;
     // offset 0x3090, size 0x100
@@ -12531,7 +12531,7 @@ version 97 {
     // offset 0x4040, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4060, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4061, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4062, size 0x1
@@ -12793,7 +12793,7 @@ version 97 {
     // offset 0x4161, size 0x1
     bool launch_settings;
     // offset 0x4162, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4163, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4164, size 0x1
@@ -12858,7 +12858,7 @@ version 96 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -12914,7 +12914,7 @@ version 96 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -12956,7 +12956,7 @@ version 96 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -12964,7 +12964,7 @@ version 96 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -13018,7 +13018,7 @@ version 96 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -13026,13 +13026,13 @@ version 96 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -13042,13 +13042,13 @@ version 96 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -13068,7 +13068,7 @@ version 96 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -13086,7 +13086,7 @@ version 96 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -13170,7 +13170,7 @@ version 96 {
     // offset 0x1160, size 0x20
     uint party_privacystatus;
     // offset 0x1180, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x11a0, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11b0, size 0x8
@@ -13216,7 +13216,7 @@ version 96 {
     // offset 0x2c38, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c58, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c60, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c80, size 0x20
@@ -13238,7 +13238,7 @@ version 96 {
     // offset 0x2d38, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d58, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d60, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d70, size 0x10
@@ -13262,7 +13262,7 @@ version 96 {
     // offset 0x2e10, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2e18, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e38, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e58, size 0x20
@@ -13292,7 +13292,7 @@ version 96 {
     // offset 0x3048, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3050, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3070, size 0x20
     float snd_menu_sfx;
     // offset 0x3090, size 0x100
@@ -13358,7 +13358,7 @@ version 96 {
     // offset 0x4040, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4060, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4061, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4062, size 0x1
@@ -13620,7 +13620,7 @@ version 96 {
     // offset 0x4161, size 0x1
     bool launch_settings;
     // offset 0x4162, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4163, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4164, size 0x1
@@ -13685,7 +13685,7 @@ version 95 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -13741,7 +13741,7 @@ version 95 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -13783,7 +13783,7 @@ version 95 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -13791,7 +13791,7 @@ version 95 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -13845,7 +13845,7 @@ version 95 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -13853,13 +13853,13 @@ version 95 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -13869,13 +13869,13 @@ version 95 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -13895,7 +13895,7 @@ version 95 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -13913,7 +13913,7 @@ version 95 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -13993,7 +13993,7 @@ version 95 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -14035,7 +14035,7 @@ version 95 {
     // offset 0x2c18, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c38, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c40, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c60, size 0x20
@@ -14055,7 +14055,7 @@ version 95 {
     // offset 0x2d10, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d30, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d38, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d48, size 0x10
@@ -14079,7 +14079,7 @@ version 95 {
     // offset 0x2de8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2df0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e10, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e30, size 0x20
@@ -14105,7 +14105,7 @@ version 95 {
     // offset 0x3010, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3018, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3038, size 0x20
     float snd_menu_sfx;
     // offset 0x3058, size 0x100
@@ -14165,7 +14165,7 @@ version 95 {
     // offset 0x3ff0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4010, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4011, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4012, size 0x1
@@ -14427,7 +14427,7 @@ version 95 {
     // offset 0x4111, size 0x1
     bool launch_settings;
     // offset 0x4112, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4113, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4114, size 0x1
@@ -14492,7 +14492,7 @@ version 94 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -14548,7 +14548,7 @@ version 94 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -14590,7 +14590,7 @@ version 94 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -14598,7 +14598,7 @@ version 94 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -14652,7 +14652,7 @@ version 94 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -14660,13 +14660,13 @@ version 94 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x10d0
@@ -14676,13 +14676,13 @@ version 94 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xcd0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 15 members 4 size 0x58
@@ -14702,7 +14702,7 @@ version 94 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -14720,7 +14720,7 @@ version 94 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -14800,7 +14800,7 @@ version 94 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -14842,7 +14842,7 @@ version 94 {
     // offset 0x2c18, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c38, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c40, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c60, size 0x20
@@ -14862,7 +14862,7 @@ version 94 {
     // offset 0x2d10, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d30, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d38, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d48, size 0x10
@@ -14886,7 +14886,7 @@ version 94 {
     // offset 0x2de8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2df0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e10, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e30, size 0x20
@@ -14912,7 +14912,7 @@ version 94 {
     // offset 0x3010, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3018, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3038, size 0x20
     float snd_menu_sfx;
     // offset 0x3058, size 0x100
@@ -14972,7 +14972,7 @@ version 94 {
     // offset 0x3ff0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4010, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4011, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4012, size 0x1
@@ -15234,7 +15234,7 @@ version 94 {
     // offset 0x4111, size 0x1
     bool launch_settings;
     // offset 0x4112, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4113, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4114, size 0x1
@@ -15299,7 +15299,7 @@ version 93 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -15355,7 +15355,7 @@ version 93 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -15397,7 +15397,7 @@ version 93 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -15405,7 +15405,7 @@ version 93 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -15459,7 +15459,7 @@ version 93 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -15467,13 +15467,13 @@ version 93 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x10d0
@@ -15483,13 +15483,13 @@ version 93 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xcd0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 15 members 4 size 0x58
@@ -15509,7 +15509,7 @@ version 93 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -15527,7 +15527,7 @@ version 93 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -15607,7 +15607,7 @@ version 93 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -15649,7 +15649,7 @@ version 93 {
     // offset 0x2c18, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c38, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c40, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c60, size 0x20
@@ -15669,7 +15669,7 @@ version 93 {
     // offset 0x2d10, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d30, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d38, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d48, size 0x10
@@ -15693,7 +15693,7 @@ version 93 {
     // offset 0x2de8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2df0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e10, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e30, size 0x20
@@ -15719,7 +15719,7 @@ version 93 {
     // offset 0x3010, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3018, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3038, size 0x20
     float snd_menu_sfx;
     // offset 0x3058, size 0x100
@@ -15779,7 +15779,7 @@ version 93 {
     // offset 0x3ff0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4010, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4011, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4012, size 0x1
@@ -16041,7 +16041,7 @@ version 93 {
     // offset 0x4111, size 0x1
     bool launch_settings;
     // offset 0x4112, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4113, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4114, size 0x1
@@ -16106,7 +16106,7 @@ version 92 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -16162,7 +16162,7 @@ version 92 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -16204,7 +16204,7 @@ version 92 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -16212,7 +16212,7 @@ version 92 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -16266,7 +16266,7 @@ version 92 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -16274,13 +16274,13 @@ version 92 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x10d0
@@ -16290,13 +16290,13 @@ version 92 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xcd0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 15 members 4 size 0x58
@@ -16316,7 +16316,7 @@ version 92 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -16334,7 +16334,7 @@ version 92 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -16414,7 +16414,7 @@ version 92 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -16456,7 +16456,7 @@ version 92 {
     // offset 0x2c18, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c38, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c40, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c60, size 0x20
@@ -16476,7 +16476,7 @@ version 92 {
     // offset 0x2d10, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d30, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d38, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d48, size 0x10
@@ -16500,7 +16500,7 @@ version 92 {
     // offset 0x2de8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2df0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e10, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e30, size 0x20
@@ -16526,7 +16526,7 @@ version 92 {
     // offset 0x3010, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3018, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3038, size 0x20
     float snd_menu_sfx;
     // offset 0x3058, size 0x100
@@ -16586,7 +16586,7 @@ version 92 {
     // offset 0x3ff0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4010, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4011, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4012, size 0x1
@@ -16828,7 +16828,7 @@ version 92 {
     // offset 0x4107, size 0x1
     bool launch_settings;
     // offset 0x4108, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4109, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x410a, size 0x1
@@ -16893,7 +16893,7 @@ version 91 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -16949,7 +16949,7 @@ version 91 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -16991,7 +16991,7 @@ version 91 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -16999,7 +16999,7 @@ version 91 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -17053,7 +17053,7 @@ version 91 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -17061,13 +17061,13 @@ version 91 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x10d0
@@ -17077,13 +17077,13 @@ version 91 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xcd0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 15 members 4 size 0x58
@@ -17103,7 +17103,7 @@ version 91 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -17121,7 +17121,7 @@ version 91 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -17201,7 +17201,7 @@ version 91 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -17243,7 +17243,7 @@ version 91 {
     // offset 0x2c18, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c38, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c40, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c60, size 0x20
@@ -17263,7 +17263,7 @@ version 91 {
     // offset 0x2d10, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d30, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d38, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d48, size 0x10
@@ -17287,7 +17287,7 @@ version 91 {
     // offset 0x2de8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2df0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e10, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e30, size 0x20
@@ -17313,7 +17313,7 @@ version 91 {
     // offset 0x3010, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3018, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3038, size 0x20
     float snd_menu_sfx;
     // offset 0x3058, size 0x100
@@ -17373,7 +17373,7 @@ version 91 {
     // offset 0x3ff0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4010, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4011, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4012, size 0x1
@@ -17611,7 +17611,7 @@ version 91 {
     // offset 0x4105, size 0x1
     bool launch_settings;
     // offset 0x4106, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4107, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4108, size 0x1
@@ -17676,7 +17676,7 @@ version 90 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -17732,7 +17732,7 @@ version 90 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -17774,7 +17774,7 @@ version 90 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -17782,7 +17782,7 @@ version 90 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -17836,7 +17836,7 @@ version 90 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -17844,7 +17844,7 @@ version 90 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -17852,13 +17852,13 @@ version 90 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -17878,7 +17878,7 @@ version 90 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -17896,7 +17896,7 @@ version 90 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -17969,7 +17969,7 @@ version 90 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -18011,7 +18011,7 @@ version 90 {
     // offset 0x2c18, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c38, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c40, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c60, size 0x20
@@ -18031,7 +18031,7 @@ version 90 {
     // offset 0x2d10, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d30, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d38, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d48, size 0x10
@@ -18055,7 +18055,7 @@ version 90 {
     // offset 0x2de8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2df0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e10, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e30, size 0x20
@@ -18081,7 +18081,7 @@ version 90 {
     // offset 0x3010, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x3018, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3038, size 0x20
     float snd_menu_sfx;
     // offset 0x3058, size 0x100
@@ -18141,7 +18141,7 @@ version 90 {
     // offset 0x3ff0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x4010, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x4011, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x4012, size 0x1
@@ -18379,7 +18379,7 @@ version 90 {
     // offset 0x4105, size 0x1
     bool launch_settings;
     // offset 0x4106, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x4107, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x4108, size 0x1
@@ -18444,7 +18444,7 @@ version 89 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -18500,7 +18500,7 @@ version 89 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -18542,7 +18542,7 @@ version 89 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -18550,7 +18550,7 @@ version 89 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -18604,7 +18604,7 @@ version 89 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -18612,7 +18612,7 @@ version 89 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -18620,13 +18620,13 @@ version 89 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -18646,7 +18646,7 @@ version 89 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -18664,7 +18664,7 @@ version 89 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -18737,7 +18737,7 @@ version 89 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -18779,7 +18779,7 @@ version 89 {
     // offset 0x2c18, size 0x20
     float snd_voicechat_record_level;
     // offset 0x2c38, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2c40, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2c60, size 0x20
@@ -18799,7 +18799,7 @@ version 89 {
     // offset 0x2d10, size 0x20
     float snd_voicechat_volume;
     // offset 0x2d30, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2d38, size 0x10
     uint:11 playlist_mp;
     // offset 0x2d48, size 0x10
@@ -18823,7 +18823,7 @@ version 89 {
     // offset 0x2de8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2df0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2e10, size 0x20
     float speaker_right_surround_back;
     // offset 0x2e30, size 0x20
@@ -18847,7 +18847,7 @@ version 89 {
     // offset 0x2ff0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2ff8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x3018, size 0x20
     float snd_menu_sfx;
     // offset 0x3038, size 0x100
@@ -18907,7 +18907,7 @@ version 89 {
     // offset 0x3fd0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3ff0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3ff1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x3ff2, size 0x1
@@ -19143,7 +19143,7 @@ version 89 {
     // offset 0x40e4, size 0x1
     bool launch_settings;
     // offset 0x40e5, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x40e6, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x40e7, size 0x1
@@ -19208,7 +19208,7 @@ version 88 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -19264,7 +19264,7 @@ version 88 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -19306,7 +19306,7 @@ version 88 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -19314,7 +19314,7 @@ version 88 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -19368,7 +19368,7 @@ version 88 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -19376,7 +19376,7 @@ version 88 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -19384,13 +19384,13 @@ version 88 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -19410,7 +19410,7 @@ version 88 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -19428,7 +19428,7 @@ version 88 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -19501,7 +19501,7 @@ version 88 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -19543,7 +19543,7 @@ version 88 {
     // offset 0x26d8, size 0x20
     float snd_voicechat_record_level;
     // offset 0x26f8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2700, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2720, size 0x20
@@ -19563,7 +19563,7 @@ version 88 {
     // offset 0x27d0, size 0x20
     float snd_voicechat_volume;
     // offset 0x27f0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x27f8, size 0x10
     uint:11 playlist_mp;
     // offset 0x2808, size 0x10
@@ -19587,7 +19587,7 @@ version 88 {
     // offset 0x28a8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x28b0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x28d0, size 0x20
     float speaker_right_surround_back;
     // offset 0x28f0, size 0x20
@@ -19611,7 +19611,7 @@ version 88 {
     // offset 0x2ab0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2ab8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2ad8, size 0x20
     float snd_menu_sfx;
     // offset 0x2af8, size 0x100
@@ -19671,7 +19671,7 @@ version 88 {
     // offset 0x3a90, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3ab0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3ab1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x3ab2, size 0x1
@@ -19907,7 +19907,7 @@ version 88 {
     // offset 0x3ba4, size 0x1
     bool launch_settings;
     // offset 0x3ba5, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3ba6, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3ba7, size 0x1
@@ -19972,7 +19972,7 @@ version 87 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -20028,7 +20028,7 @@ version 87 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -20070,7 +20070,7 @@ version 87 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -20078,7 +20078,7 @@ version 87 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -20132,7 +20132,7 @@ version 87 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -20140,7 +20140,7 @@ version 87 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -20148,13 +20148,13 @@ version 87 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -20174,7 +20174,7 @@ version 87 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -20192,7 +20192,7 @@ version 87 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -20265,7 +20265,7 @@ version 87 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -20307,7 +20307,7 @@ version 87 {
     // offset 0x26d8, size 0x20
     float snd_voicechat_record_level;
     // offset 0x26f8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2700, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2720, size 0x20
@@ -20327,7 +20327,7 @@ version 87 {
     // offset 0x27d0, size 0x20
     float snd_voicechat_volume;
     // offset 0x27f0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x27f8, size 0x10
     uint:11 playlist_mp;
     // offset 0x2808, size 0x10
@@ -20351,7 +20351,7 @@ version 87 {
     // offset 0x28a8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x28b0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x28d0, size 0x20
     float speaker_right_surround_back;
     // offset 0x28f0, size 0x20
@@ -20375,7 +20375,7 @@ version 87 {
     // offset 0x2ab0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2ab8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2ad8, size 0x20
     float snd_menu_sfx;
     // offset 0x2af8, size 0x100
@@ -20435,7 +20435,7 @@ version 87 {
     // offset 0x3a90, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3ab0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3ab1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x3ab2, size 0x1
@@ -20669,7 +20669,7 @@ version 87 {
     // offset 0x3ba3, size 0x1
     bool launch_settings;
     // offset 0x3ba4, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3ba5, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3ba6, size 0x1
@@ -20734,7 +20734,7 @@ version 86 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -20790,7 +20790,7 @@ version 86 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -20832,7 +20832,7 @@ version 86 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -20840,7 +20840,7 @@ version 86 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -20894,7 +20894,7 @@ version 86 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -20902,7 +20902,7 @@ version 86 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -20910,13 +20910,13 @@ version 86 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -20936,7 +20936,7 @@ version 86 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -20954,7 +20954,7 @@ version 86 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -21027,7 +21027,7 @@ version 86 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -21069,7 +21069,7 @@ version 86 {
     // offset 0x26d8, size 0x20
     float snd_voicechat_record_level;
     // offset 0x26f8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2700, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2720, size 0x20
@@ -21089,7 +21089,7 @@ version 86 {
     // offset 0x27d0, size 0x20
     float snd_voicechat_volume;
     // offset 0x27f0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x27f8, size 0x10
     uint:11 playlist_mp;
     // offset 0x2808, size 0x10
@@ -21113,7 +21113,7 @@ version 86 {
     // offset 0x28a8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x28b0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x28d0, size 0x20
     float speaker_right_surround_back;
     // offset 0x28f0, size 0x20
@@ -21137,7 +21137,7 @@ version 86 {
     // offset 0x2ab0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2ab8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2ad8, size 0x20
     float snd_menu_sfx;
     // offset 0x2af8, size 0x100
@@ -21197,7 +21197,7 @@ version 86 {
     // offset 0x3a90, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3ab0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3ab1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x3ab2, size 0x1
@@ -21429,7 +21429,7 @@ version 86 {
     // offset 0x3ba2, size 0x1
     bool launch_settings;
     // offset 0x3ba3, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3ba4, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3ba5, size 0x1
@@ -21492,7 +21492,7 @@ version 85 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -21548,7 +21548,7 @@ version 85 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -21590,7 +21590,7 @@ version 85 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -21598,7 +21598,7 @@ version 85 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -21652,7 +21652,7 @@ version 85 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -21660,7 +21660,7 @@ version 85 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -21668,13 +21668,13 @@ version 85 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -21694,7 +21694,7 @@ version 85 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -21712,7 +21712,7 @@ version 85 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -21785,7 +21785,7 @@ version 85 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -21827,7 +21827,7 @@ version 85 {
     // offset 0x26d8, size 0x20
     float snd_voicechat_record_level;
     // offset 0x26f8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2700, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2720, size 0x20
@@ -21847,7 +21847,7 @@ version 85 {
     // offset 0x27d0, size 0x20
     float snd_voicechat_volume;
     // offset 0x27f0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x27f8, size 0x10
     uint:11 playlist_mp;
     // offset 0x2808, size 0x10
@@ -21871,7 +21871,7 @@ version 85 {
     // offset 0x28a8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x28b0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x28d0, size 0x20
     float speaker_right_surround_back;
     // offset 0x28f0, size 0x20
@@ -21895,7 +21895,7 @@ version 85 {
     // offset 0x2ab0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2ab8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2ad8, size 0x20
     float snd_menu_sfx;
     // offset 0x2af8, size 0x100
@@ -21955,7 +21955,7 @@ version 85 {
     // offset 0x3a90, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3ab0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3ab1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x3ab2, size 0x1
@@ -22185,7 +22185,7 @@ version 85 {
     // offset 0x3ba1, size 0x1
     bool launch_settings;
     // offset 0x3ba2, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3ba3, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3ba4, size 0x1
@@ -22250,7 +22250,7 @@ version 84 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -22306,7 +22306,7 @@ version 84 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -22348,7 +22348,7 @@ version 84 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -22356,7 +22356,7 @@ version 84 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -22410,7 +22410,7 @@ version 84 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -22418,7 +22418,7 @@ version 84 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -22426,13 +22426,13 @@ version 84 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -22452,7 +22452,7 @@ version 84 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -22470,7 +22470,7 @@ version 84 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -22543,7 +22543,7 @@ version 84 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -22585,7 +22585,7 @@ version 84 {
     // offset 0x26d8, size 0x20
     float snd_voicechat_record_level;
     // offset 0x26f8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2700, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2720, size 0x20
@@ -22605,7 +22605,7 @@ version 84 {
     // offset 0x27d0, size 0x20
     float snd_voicechat_volume;
     // offset 0x27f0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x27f8, size 0x10
     uint:11 playlist_mp;
     // offset 0x2808, size 0x10
@@ -22629,7 +22629,7 @@ version 84 {
     // offset 0x28a8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x28b0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x28d0, size 0x20
     float speaker_right_surround_back;
     // offset 0x28f0, size 0x20
@@ -22653,7 +22653,7 @@ version 84 {
     // offset 0x2ab0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2ab8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2ad8, size 0x20
     float snd_menu_sfx;
     // offset 0x2af8, size 0x100
@@ -22713,7 +22713,7 @@ version 84 {
     // offset 0x3a90, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3ab0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3ab1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x3ab2, size 0x1
@@ -22941,7 +22941,7 @@ version 84 {
     // offset 0x3ba0, size 0x1
     bool launch_settings;
     // offset 0x3ba1, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3ba2, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3ba3, size 0x1
@@ -23006,7 +23006,7 @@ version 83 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -23062,7 +23062,7 @@ version 83 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -23104,7 +23104,7 @@ version 83 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -23112,7 +23112,7 @@ version 83 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -23166,7 +23166,7 @@ version 83 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -23174,7 +23174,7 @@ version 83 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -23182,13 +23182,13 @@ version 83 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -23208,7 +23208,7 @@ version 83 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -23226,7 +23226,7 @@ version 83 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -23299,7 +23299,7 @@ version 83 {
     // offset 0x1150, size 0x20
     uint party_privacystatus;
     // offset 0x1170, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1190, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x11a0, size 0x40
@@ -23341,7 +23341,7 @@ version 83 {
     // offset 0x26d8, size 0x20
     float snd_voicechat_record_level;
     // offset 0x26f8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x2700, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2720, size 0x20
@@ -23361,7 +23361,7 @@ version 83 {
     // offset 0x27d0, size 0x20
     float snd_voicechat_volume;
     // offset 0x27f0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x27f8, size 0x10
     uint:11 playlist_mp;
     // offset 0x2808, size 0x10
@@ -23385,7 +23385,7 @@ version 83 {
     // offset 0x28a8, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x28b0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x28d0, size 0x20
     float speaker_right_surround_back;
     // offset 0x28f0, size 0x20
@@ -23409,7 +23409,7 @@ version 83 {
     // offset 0x2ab0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2ab8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2ad8, size 0x20
     float snd_menu_sfx;
     // offset 0x2af8, size 0x100
@@ -23469,7 +23469,7 @@ version 83 {
     // offset 0x3a90, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3ab0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3ab1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x3ab2, size 0x1
@@ -23697,7 +23697,7 @@ version 83 {
     // offset 0x3ba0, size 0x1
     bool launch_settings;
     // offset 0x3ba1, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3ba2, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3ba3, size 0x1
@@ -23762,7 +23762,7 @@ version 82 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -23818,7 +23818,7 @@ version 82 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -23860,7 +23860,7 @@ version 82 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -23868,7 +23868,7 @@ version 82 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -23922,13 +23922,13 @@ version 82 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -23940,7 +23940,7 @@ version 82 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -23960,7 +23960,7 @@ version 82 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -23976,7 +23976,7 @@ version 82 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -24049,7 +24049,7 @@ version 82 {
     // offset 0x10d0, size 0x20
     uint party_privacystatus;
     // offset 0x10f0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1110, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1120, size 0x40
@@ -24091,7 +24091,7 @@ version 82 {
     // offset 0x24c8, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24e8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24f0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x2510, size 0x20
@@ -24111,7 +24111,7 @@ version 82 {
     // offset 0x25c0, size 0x20
     float snd_voicechat_volume;
     // offset 0x25e0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25e8, size 0x10
     uint:11 playlist_mp;
     // offset 0x25f8, size 0x10
@@ -24135,7 +24135,7 @@ version 82 {
     // offset 0x2698, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x26a0, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x26c0, size 0x20
     float speaker_right_surround_back;
     // offset 0x26e0, size 0x20
@@ -24159,7 +24159,7 @@ version 82 {
     // offset 0x28a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x28a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28c8, size 0x20
     float snd_menu_sfx;
     // offset 0x28e8, size 0x100
@@ -24219,7 +24219,7 @@ version 82 {
     // offset 0x37c0, size 0x20
     uint weapon_cycle_delay;
     // offset 0x37e0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x37e1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x37e2, size 0x1
@@ -24447,7 +24447,7 @@ version 82 {
     // offset 0x38d0, size 0x1
     bool launch_settings;
     // offset 0x38d1, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x38d2, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x38d3, size 0x1
@@ -24512,7 +24512,7 @@ version 81 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -24568,7 +24568,7 @@ version 81 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -24610,7 +24610,7 @@ version 81 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -24618,7 +24618,7 @@ version 81 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -24672,13 +24672,13 @@ version 81 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -24690,7 +24690,7 @@ version 81 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -24710,7 +24710,7 @@ version 81 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -24726,7 +24726,7 @@ version 81 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -24799,7 +24799,7 @@ version 81 {
     // offset 0x10d0, size 0x20
     uint party_privacystatus;
     // offset 0x10f0, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1110, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1120, size 0x40
@@ -24839,7 +24839,7 @@ version 81 {
     // offset 0x24a8, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24c8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24d0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24f0, size 0x20
@@ -24859,7 +24859,7 @@ version 81 {
     // offset 0x25a0, size 0x20
     float snd_voicechat_volume;
     // offset 0x25c0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25c8, size 0x10
     uint:11 playlist_mp;
     // offset 0x25d8, size 0x10
@@ -24883,7 +24883,7 @@ version 81 {
     // offset 0x2678, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2680, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x26a0, size 0x20
     float speaker_right_surround_back;
     // offset 0x26c0, size 0x20
@@ -24907,7 +24907,7 @@ version 81 {
     // offset 0x2880, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2888, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28a8, size 0x20
     float snd_menu_sfx;
     // offset 0x28c8, size 0x100
@@ -24965,7 +24965,7 @@ version 81 {
     // offset 0x3780, size 0x20
     uint weapon_cycle_delay;
     // offset 0x37a0, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x37a1, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x37a2, size 0x1
@@ -25193,7 +25193,7 @@ version 81 {
     // offset 0x3890, size 0x1
     bool launch_settings;
     // offset 0x3891, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3892, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3893, size 0x1
@@ -25258,7 +25258,7 @@ version 80 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -25314,7 +25314,7 @@ version 80 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -25356,7 +25356,7 @@ version 80 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -25364,7 +25364,7 @@ version 80 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -25418,13 +25418,13 @@ version 80 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -25436,7 +25436,7 @@ version 80 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -25456,7 +25456,7 @@ version 80 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -25472,7 +25472,7 @@ version 80 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -25543,7 +25543,7 @@ version 80 {
     // offset 0x10c8, size 0x20
     uint party_privacystatus;
     // offset 0x10e8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1108, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1118, size 0x40
@@ -25583,7 +25583,7 @@ version 80 {
     // offset 0x24a0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24c0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24c8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24e8, size 0x20
@@ -25603,7 +25603,7 @@ version 80 {
     // offset 0x2598, size 0x20
     float snd_voicechat_volume;
     // offset 0x25b8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25c0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25d0, size 0x10
@@ -25627,7 +25627,7 @@ version 80 {
     // offset 0x2670, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2678, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2698, size 0x20
     float speaker_right_surround_back;
     // offset 0x26b8, size 0x20
@@ -25651,7 +25651,7 @@ version 80 {
     // offset 0x2878, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2880, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28a0, size 0x20
     float snd_menu_sfx;
     // offset 0x28c0, size 0x100
@@ -25709,7 +25709,7 @@ version 80 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -25937,7 +25937,7 @@ version 80 {
     // offset 0x3888, size 0x1
     bool launch_settings;
     // offset 0x3889, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x388a, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x388b, size 0x1
@@ -26002,7 +26002,7 @@ version 79 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -26058,7 +26058,7 @@ version 79 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -26100,7 +26100,7 @@ version 79 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -26108,7 +26108,7 @@ version 79 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -26162,13 +26162,13 @@ version 79 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -26180,7 +26180,7 @@ version 79 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -26200,7 +26200,7 @@ version 79 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -26216,7 +26216,7 @@ version 79 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -26287,7 +26287,7 @@ version 79 {
     // offset 0x10c8, size 0x20
     uint party_privacystatus;
     // offset 0x10e8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1108, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1118, size 0x40
@@ -26327,7 +26327,7 @@ version 79 {
     // offset 0x24a0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24c0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24c8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24e8, size 0x20
@@ -26347,7 +26347,7 @@ version 79 {
     // offset 0x2598, size 0x20
     float snd_voicechat_volume;
     // offset 0x25b8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25c0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25d0, size 0x10
@@ -26371,7 +26371,7 @@ version 79 {
     // offset 0x2670, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2678, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2698, size 0x20
     float speaker_right_surround_back;
     // offset 0x26b8, size 0x20
@@ -26395,7 +26395,7 @@ version 79 {
     // offset 0x2878, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2880, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28a0, size 0x20
     float snd_menu_sfx;
     // offset 0x28c0, size 0x100
@@ -26453,7 +26453,7 @@ version 79 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -26679,7 +26679,7 @@ version 79 {
     // offset 0x3887, size 0x1
     bool launch_settings;
     // offset 0x3888, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3889, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x388a, size 0x1
@@ -26744,7 +26744,7 @@ version 78 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -26800,7 +26800,7 @@ version 78 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -26842,7 +26842,7 @@ version 78 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -26850,7 +26850,7 @@ version 78 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -26904,13 +26904,13 @@ version 78 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -26922,7 +26922,7 @@ version 78 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -26942,7 +26942,7 @@ version 78 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -26958,7 +26958,7 @@ version 78 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -27029,7 +27029,7 @@ version 78 {
     // offset 0x10c8, size 0x20
     uint party_privacystatus;
     // offset 0x10e8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1108, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1118, size 0x40
@@ -27069,7 +27069,7 @@ version 78 {
     // offset 0x24a0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24c0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24c8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24e8, size 0x20
@@ -27089,7 +27089,7 @@ version 78 {
     // offset 0x2598, size 0x20
     float snd_voicechat_volume;
     // offset 0x25b8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25c0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25d0, size 0x10
@@ -27113,7 +27113,7 @@ version 78 {
     // offset 0x2670, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2678, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2698, size 0x20
     float speaker_right_surround_back;
     // offset 0x26b8, size 0x20
@@ -27137,7 +27137,7 @@ version 78 {
     // offset 0x2878, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2880, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28a0, size 0x20
     float snd_menu_sfx;
     // offset 0x28c0, size 0x100
@@ -27195,7 +27195,7 @@ version 78 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -27419,7 +27419,7 @@ version 78 {
     // offset 0x3886, size 0x1
     bool launch_settings;
     // offset 0x3887, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3888, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3889, size 0x1
@@ -27484,7 +27484,7 @@ version 77 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -27538,7 +27538,7 @@ version 77 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -27578,7 +27578,7 @@ version 77 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -27586,7 +27586,7 @@ version 77 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -27640,13 +27640,13 @@ version 77 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -27658,7 +27658,7 @@ version 77 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -27678,7 +27678,7 @@ version 77 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -27694,7 +27694,7 @@ version 77 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -27765,7 +27765,7 @@ version 77 {
     // offset 0x10c8, size 0x20
     uint party_privacystatus;
     // offset 0x10e8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1108, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1118, size 0x40
@@ -27805,7 +27805,7 @@ version 77 {
     // offset 0x24a0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24c0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24c8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24e8, size 0x20
@@ -27825,7 +27825,7 @@ version 77 {
     // offset 0x2598, size 0x20
     float snd_voicechat_volume;
     // offset 0x25b8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25c0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25d0, size 0x10
@@ -27849,7 +27849,7 @@ version 77 {
     // offset 0x2670, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2678, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2698, size 0x20
     float speaker_right_surround_back;
     // offset 0x26b8, size 0x20
@@ -27873,7 +27873,7 @@ version 77 {
     // offset 0x2878, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2880, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28a0, size 0x20
     float snd_menu_sfx;
     // offset 0x28c0, size 0x100
@@ -27931,7 +27931,7 @@ version 77 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -28155,7 +28155,7 @@ version 77 {
     // offset 0x3886, size 0x1
     bool launch_settings;
     // offset 0x3887, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3888, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3889, size 0x1
@@ -28220,7 +28220,7 @@ version 76 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -28274,7 +28274,7 @@ version 76 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -28314,7 +28314,7 @@ version 76 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -28322,7 +28322,7 @@ version 76 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -28376,13 +28376,13 @@ version 76 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -28394,7 +28394,7 @@ version 76 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -28414,7 +28414,7 @@ version 76 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -28430,7 +28430,7 @@ version 76 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -28501,7 +28501,7 @@ version 76 {
     // offset 0x10c8, size 0x20
     uint party_privacystatus;
     // offset 0x10e8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1108, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1118, size 0x40
@@ -28541,7 +28541,7 @@ version 76 {
     // offset 0x24a0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24c0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24c8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24e8, size 0x20
@@ -28561,7 +28561,7 @@ version 76 {
     // offset 0x2598, size 0x20
     float snd_voicechat_volume;
     // offset 0x25b8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25c0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25d0, size 0x10
@@ -28585,7 +28585,7 @@ version 76 {
     // offset 0x2670, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2678, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2698, size 0x20
     float speaker_right_surround_back;
     // offset 0x26b8, size 0x20
@@ -28609,7 +28609,7 @@ version 76 {
     // offset 0x2878, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2880, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28a0, size 0x20
     float snd_menu_sfx;
     // offset 0x28c0, size 0x100
@@ -28667,7 +28667,7 @@ version 76 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -28887,7 +28887,7 @@ version 76 {
     // offset 0x3884, size 0x1
     bool launch_settings;
     // offset 0x3885, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3886, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3887, size 0x1
@@ -28952,7 +28952,7 @@ version 75 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -29006,7 +29006,7 @@ version 75 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -29046,7 +29046,7 @@ version 75 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -29054,7 +29054,7 @@ version 75 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -29108,13 +29108,13 @@ version 75 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -29126,7 +29126,7 @@ version 75 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -29146,7 +29146,7 @@ version 75 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -29162,7 +29162,7 @@ version 75 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -29235,7 +29235,7 @@ version 75 {
     // offset 0x10d8, size 0x20
     uint party_privacystatus;
     // offset 0x10f8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1118, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1128, size 0x40
@@ -29275,7 +29275,7 @@ version 75 {
     // offset 0x24b0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24d0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24d8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24f8, size 0x20
@@ -29295,7 +29295,7 @@ version 75 {
     // offset 0x25a8, size 0x20
     float snd_voicechat_volume;
     // offset 0x25c8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25d0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25e0, size 0x10
@@ -29319,7 +29319,7 @@ version 75 {
     // offset 0x2680, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2688, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x26a8, size 0x20
     float speaker_right_surround_back;
     // offset 0x26c8, size 0x20
@@ -29343,7 +29343,7 @@ version 75 {
     // offset 0x2888, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2890, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28b0, size 0x20
     float snd_menu_sfx;
     // offset 0x28d0, size 0x100
@@ -29399,7 +29399,7 @@ version 75 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -29619,7 +29619,7 @@ version 75 {
     // offset 0x3884, size 0x1
     bool launch_settings;
     // offset 0x3885, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3886, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3887, size 0x1
@@ -29684,7 +29684,7 @@ version 74 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -29738,7 +29738,7 @@ version 74 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -29778,7 +29778,7 @@ version 74 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -29786,7 +29786,7 @@ version 74 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -29840,13 +29840,13 @@ version 74 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -29858,7 +29858,7 @@ version 74 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -29878,7 +29878,7 @@ version 74 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -29894,7 +29894,7 @@ version 74 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -29967,7 +29967,7 @@ version 74 {
     // offset 0x10d8, size 0x20
     uint party_privacystatus;
     // offset 0x10f8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1118, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1128, size 0x40
@@ -30007,7 +30007,7 @@ version 74 {
     // offset 0x24b0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24d0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24d8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24f8, size 0x20
@@ -30027,7 +30027,7 @@ version 74 {
     // offset 0x25a8, size 0x20
     float snd_voicechat_volume;
     // offset 0x25c8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25d0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25e0, size 0x10
@@ -30051,7 +30051,7 @@ version 74 {
     // offset 0x2680, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2688, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x26a8, size 0x20
     float speaker_right_surround_back;
     // offset 0x26c8, size 0x20
@@ -30075,7 +30075,7 @@ version 74 {
     // offset 0x2888, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2890, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28b0, size 0x20
     float snd_menu_sfx;
     // offset 0x28d0, size 0x100
@@ -30131,7 +30131,7 @@ version 74 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -30345,7 +30345,7 @@ version 74 {
     // offset 0x3881, size 0x1
     bool launch_settings;
     // offset 0x3882, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3883, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3884, size 0x1
@@ -30410,7 +30410,7 @@ version 73 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -30464,7 +30464,7 @@ version 73 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -30504,7 +30504,7 @@ version 73 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -30512,7 +30512,7 @@ version 73 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -30566,13 +30566,13 @@ version 73 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -30584,7 +30584,7 @@ version 73 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -30604,7 +30604,7 @@ version 73 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -30620,7 +30620,7 @@ version 73 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -30693,7 +30693,7 @@ version 73 {
     // offset 0x10d8, size 0x20
     uint party_privacystatus;
     // offset 0x10f8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1118, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1128, size 0x40
@@ -30733,7 +30733,7 @@ version 73 {
     // offset 0x24b0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24d0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24d8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24f8, size 0x20
@@ -30753,7 +30753,7 @@ version 73 {
     // offset 0x25a8, size 0x20
     float snd_voicechat_volume;
     // offset 0x25c8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25d0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25e0, size 0x10
@@ -30777,7 +30777,7 @@ version 73 {
     // offset 0x2680, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2688, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x26a8, size 0x20
     float speaker_right_surround_back;
     // offset 0x26c8, size 0x20
@@ -30801,7 +30801,7 @@ version 73 {
     // offset 0x2888, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2890, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28b0, size 0x20
     float snd_menu_sfx;
     // offset 0x28d0, size 0x100
@@ -30857,7 +30857,7 @@ version 73 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -31069,7 +31069,7 @@ version 73 {
     // offset 0x3880, size 0x1
     bool launch_settings;
     // offset 0x3881, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3882, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3883, size 0x1
@@ -31134,7 +31134,7 @@ version 72 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -31188,7 +31188,7 @@ version 72 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -31228,7 +31228,7 @@ version 72 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -31236,7 +31236,7 @@ version 72 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -31290,13 +31290,13 @@ version 72 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -31308,7 +31308,7 @@ version 72 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -31330,7 +31330,7 @@ version 72 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -31346,7 +31346,7 @@ version 72 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -31419,7 +31419,7 @@ version 72 {
     // offset 0x10d8, size 0x20
     uint party_privacystatus;
     // offset 0x10f8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1118, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1128, size 0x40
@@ -31459,7 +31459,7 @@ version 72 {
     // offset 0x24b0, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24d0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24d8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24f8, size 0x20
@@ -31479,7 +31479,7 @@ version 72 {
     // offset 0x25a8, size 0x20
     float snd_voicechat_volume;
     // offset 0x25c8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25d0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25e0, size 0x10
@@ -31503,7 +31503,7 @@ version 72 {
     // offset 0x2680, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2688, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x26a8, size 0x20
     float speaker_right_surround_back;
     // offset 0x26c8, size 0x20
@@ -31527,7 +31527,7 @@ version 72 {
     // offset 0x2888, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2890, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x28b0, size 0x20
     float snd_menu_sfx;
     // offset 0x28d0, size 0x100
@@ -31583,7 +31583,7 @@ version 72 {
     // offset 0x3778, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3798, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3799, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x379a, size 0x1
@@ -31795,7 +31795,7 @@ version 72 {
     // offset 0x3880, size 0x1
     bool launch_settings;
     // offset 0x3881, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3882, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3883, size 0x1
@@ -31860,7 +31860,7 @@ version 71 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -31914,7 +31914,7 @@ version 71 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -31954,7 +31954,7 @@ version 71 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -31962,7 +31962,7 @@ version 71 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -32016,13 +32016,13 @@ version 71 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -32034,7 +32034,7 @@ version 71 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -32056,7 +32056,7 @@ version 71 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -32072,7 +32072,7 @@ version 71 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -32143,7 +32143,7 @@ version 71 {
     // offset 0x10b8, size 0x20
     uint party_privacystatus;
     // offset 0x10d8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x10f8, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1108, size 0x40
@@ -32183,7 +32183,7 @@ version 71 {
     // offset 0x2490, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24d8, size 0x20
@@ -32203,7 +32203,7 @@ version 71 {
     // offset 0x2588, size 0x20
     float snd_voicechat_volume;
     // offset 0x25a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25b0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25c0, size 0x10
@@ -32227,7 +32227,7 @@ version 71 {
     // offset 0x2660, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2668, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2688, size 0x20
     float speaker_right_surround_back;
     // offset 0x26a8, size 0x20
@@ -32251,7 +32251,7 @@ version 71 {
     // offset 0x2868, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2870, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2890, size 0x20
     float snd_menu_sfx;
     // offset 0x28b0, size 0x100
@@ -32307,7 +32307,7 @@ version 71 {
     // offset 0x3758, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3778, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3779, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x377a, size 0x1
@@ -32519,7 +32519,7 @@ version 71 {
     // offset 0x3860, size 0x1
     bool launch_settings;
     // offset 0x3861, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3862, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3863, size 0x1
@@ -32584,7 +32584,7 @@ version 70 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -32638,7 +32638,7 @@ version 70 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -32678,7 +32678,7 @@ version 70 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -32686,7 +32686,7 @@ version 70 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -32740,13 +32740,13 @@ version 70 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -32758,7 +32758,7 @@ version 70 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -32780,7 +32780,7 @@ version 70 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -32796,7 +32796,7 @@ version 70 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -32867,7 +32867,7 @@ version 70 {
     // offset 0x10b8, size 0x20
     uint party_privacystatus;
     // offset 0x10d8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x10f8, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1108, size 0x40
@@ -32907,7 +32907,7 @@ version 70 {
     // offset 0x2490, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24d8, size 0x20
@@ -32927,7 +32927,7 @@ version 70 {
     // offset 0x2588, size 0x20
     float snd_voicechat_volume;
     // offset 0x25a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25b0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25c0, size 0x10
@@ -32951,7 +32951,7 @@ version 70 {
     // offset 0x2660, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2668, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2688, size 0x20
     float speaker_right_surround_back;
     // offset 0x26a8, size 0x20
@@ -32975,7 +32975,7 @@ version 70 {
     // offset 0x2868, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2870, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2890, size 0x20
     float snd_menu_sfx;
     // offset 0x28b0, size 0x100
@@ -33031,7 +33031,7 @@ version 70 {
     // offset 0x3758, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3778, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3779, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x377a, size 0x1
@@ -33243,7 +33243,7 @@ version 70 {
     // offset 0x3860, size 0x1
     bool launch_settings;
     // offset 0x3861, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3862, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3863, size 0x1
@@ -33308,7 +33308,7 @@ version 63 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -33362,7 +33362,7 @@ version 63 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -33402,7 +33402,7 @@ version 63 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -33410,7 +33410,7 @@ version 63 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -33464,13 +33464,13 @@ version 63 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -33482,7 +33482,7 @@ version 63 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -33504,7 +33504,7 @@ version 63 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -33520,7 +33520,7 @@ version 63 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -33591,7 +33591,7 @@ version 63 {
     // offset 0x10b8, size 0x20
     uint party_privacystatus;
     // offset 0x10d8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x10f8, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1108, size 0x40
@@ -33631,7 +33631,7 @@ version 63 {
     // offset 0x2490, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24d8, size 0x20
@@ -33651,7 +33651,7 @@ version 63 {
     // offset 0x2588, size 0x20
     float snd_voicechat_volume;
     // offset 0x25a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25b0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25c0, size 0x10
@@ -33675,7 +33675,7 @@ version 63 {
     // offset 0x2660, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2668, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2688, size 0x20
     float speaker_right_surround_back;
     // offset 0x26a8, size 0x20
@@ -33699,7 +33699,7 @@ version 63 {
     // offset 0x2868, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2870, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2890, size 0x20
     float snd_menu_sfx;
     // offset 0x28b0, size 0x100
@@ -33755,7 +33755,7 @@ version 63 {
     // offset 0x3758, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3778, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3779, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x377a, size 0x1
@@ -33965,7 +33965,7 @@ version 63 {
     // offset 0x385f, size 0x1
     bool launch_settings;
     // offset 0x3860, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3861, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3862, size 0x1
@@ -34030,7 +34030,7 @@ version 62 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -34084,7 +34084,7 @@ version 62 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -34124,7 +34124,7 @@ version 62 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -34132,7 +34132,7 @@ version 62 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -34186,13 +34186,13 @@ version 62 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -34204,7 +34204,7 @@ version 62 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -34226,7 +34226,7 @@ version 62 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -34242,7 +34242,7 @@ version 62 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -34313,7 +34313,7 @@ version 62 {
     // offset 0x10b8, size 0x20
     uint party_privacystatus;
     // offset 0x10d8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x10f8, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1108, size 0x40
@@ -34353,7 +34353,7 @@ version 62 {
     // offset 0x2490, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24d8, size 0x20
@@ -34373,7 +34373,7 @@ version 62 {
     // offset 0x2588, size 0x20
     float snd_voicechat_volume;
     // offset 0x25a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25b0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25c0, size 0x10
@@ -34397,7 +34397,7 @@ version 62 {
     // offset 0x2660, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2668, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2688, size 0x20
     float speaker_right_surround_back;
     // offset 0x26a8, size 0x20
@@ -34421,7 +34421,7 @@ version 62 {
     // offset 0x2868, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2870, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2890, size 0x20
     float snd_menu_sfx;
     // offset 0x28b0, size 0x100
@@ -34477,7 +34477,7 @@ version 62 {
     // offset 0x3758, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3778, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3779, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x377a, size 0x1
@@ -34685,7 +34685,7 @@ version 62 {
     // offset 0x385e, size 0x1
     bool launch_settings;
     // offset 0x385f, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3860, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3861, size 0x1
@@ -34750,7 +34750,7 @@ version 61 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -34804,7 +34804,7 @@ version 61 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -34844,7 +34844,7 @@ version 61 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -34852,7 +34852,7 @@ version 61 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -34906,13 +34906,13 @@ version 61 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -34924,7 +34924,7 @@ version 61 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -34946,7 +34946,7 @@ version 61 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -34962,7 +34962,7 @@ version 61 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -35033,7 +35033,7 @@ version 61 {
     // offset 0x10b8, size 0x20
     uint party_privacystatus;
     // offset 0x10d8, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x10f8, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1108, size 0x40
@@ -35073,7 +35073,7 @@ version 61 {
     // offset 0x2490, size 0x20
     float snd_voicechat_record_level;
     // offset 0x24b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x24b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x24d8, size 0x20
@@ -35093,7 +35093,7 @@ version 61 {
     // offset 0x2588, size 0x20
     float snd_voicechat_volume;
     // offset 0x25a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x25b0, size 0x10
     uint:11 playlist_mp;
     // offset 0x25c0, size 0x10
@@ -35117,7 +35117,7 @@ version 61 {
     // offset 0x2660, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2668, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2688, size 0x20
     float speaker_right_surround_back;
     // offset 0x26a8, size 0x20
@@ -35141,7 +35141,7 @@ version 61 {
     // offset 0x2868, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2870, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2890, size 0x20
     float snd_menu_sfx;
     // offset 0x28b0, size 0x100
@@ -35197,7 +35197,7 @@ version 61 {
     // offset 0x3758, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3778, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3779, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x377a, size 0x1
@@ -35403,7 +35403,7 @@ version 61 {
     // offset 0x385d, size 0x1
     bool launch_settings;
     // offset 0x385e, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x385f, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3860, size 0x1
@@ -35468,7 +35468,7 @@ version 60 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -35522,7 +35522,7 @@ version 60 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -35562,7 +35562,7 @@ version 60 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -35570,7 +35570,7 @@ version 60 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -35624,13 +35624,13 @@ version 60 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -35642,7 +35642,7 @@ version 60 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -35664,7 +35664,7 @@ version 60 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -35676,7 +35676,7 @@ version 60 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -35747,7 +35747,7 @@ version 60 {
     // offset 0x1038, size 0x20
     uint party_privacystatus;
     // offset 0x1058, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1078, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1088, size 0x40
@@ -35787,7 +35787,7 @@ version 60 {
     // offset 0x2280, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22a0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22a8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22c8, size 0x20
@@ -35807,7 +35807,7 @@ version 60 {
     // offset 0x2378, size 0x20
     float snd_voicechat_volume;
     // offset 0x2398, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23a0, size 0x10
     uint:11 playlist_mp;
     // offset 0x23b0, size 0x10
@@ -35831,7 +35831,7 @@ version 60 {
     // offset 0x2450, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2458, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2478, size 0x20
     float speaker_right_surround_back;
     // offset 0x2498, size 0x20
@@ -35855,7 +35855,7 @@ version 60 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -35911,7 +35911,7 @@ version 60 {
     // offset 0x3488, size 0x20
     uint weapon_cycle_delay;
     // offset 0x34a8, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x34a9, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x34aa, size 0x1
@@ -36117,7 +36117,7 @@ version 60 {
     // offset 0x358d, size 0x1
     bool launch_settings;
     // offset 0x358e, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x358f, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3590, size 0x1
@@ -36182,7 +36182,7 @@ version 59 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -36236,7 +36236,7 @@ version 59 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -36276,7 +36276,7 @@ version 59 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -36284,7 +36284,7 @@ version 59 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -36338,13 +36338,13 @@ version 59 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -36356,7 +36356,7 @@ version 59 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -36378,7 +36378,7 @@ version 59 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -36390,7 +36390,7 @@ version 59 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -36463,7 +36463,7 @@ version 59 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -36503,7 +36503,7 @@ version 59 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -36523,7 +36523,7 @@ version 59 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -36543,7 +36543,7 @@ version 59 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -36569,7 +36569,7 @@ version 59 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -36625,7 +36625,7 @@ version 59 {
     // offset 0x3488, size 0x20
     uint weapon_cycle_delay;
     // offset 0x34a8, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x34a9, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x34aa, size 0x1
@@ -36831,7 +36831,7 @@ version 59 {
     // offset 0x358d, size 0x1
     bool launch_settings;
     // offset 0x358e, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x358f, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3590, size 0x1
@@ -36896,7 +36896,7 @@ version 58 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -36950,7 +36950,7 @@ version 58 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -36990,7 +36990,7 @@ version 58 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -36998,7 +36998,7 @@ version 58 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -37052,13 +37052,13 @@ version 58 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -37070,7 +37070,7 @@ version 58 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -37092,7 +37092,7 @@ version 58 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -37104,7 +37104,7 @@ version 58 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -37177,7 +37177,7 @@ version 58 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -37217,7 +37217,7 @@ version 58 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -37237,7 +37237,7 @@ version 58 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -37257,7 +37257,7 @@ version 58 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -37283,7 +37283,7 @@ version 58 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -37339,7 +37339,7 @@ version 58 {
     // offset 0x3488, size 0x20
     uint weapon_cycle_delay;
     // offset 0x34a8, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x34a9, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x34aa, size 0x1
@@ -37543,7 +37543,7 @@ version 58 {
     // offset 0x358c, size 0x1
     bool launch_settings;
     // offset 0x358d, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x358e, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x358f, size 0x1
@@ -37608,7 +37608,7 @@ version 57 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -37662,7 +37662,7 @@ version 57 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -37702,7 +37702,7 @@ version 57 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -37710,7 +37710,7 @@ version 57 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -37764,13 +37764,13 @@ version 57 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -37782,7 +37782,7 @@ version 57 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -37804,7 +37804,7 @@ version 57 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -37816,7 +37816,7 @@ version 57 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -37889,7 +37889,7 @@ version 57 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -37929,7 +37929,7 @@ version 57 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -37949,7 +37949,7 @@ version 57 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -37969,7 +37969,7 @@ version 57 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -37995,7 +37995,7 @@ version 57 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -38051,7 +38051,7 @@ version 57 {
     // offset 0x3488, size 0x20
     uint weapon_cycle_delay;
     // offset 0x34a8, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x34a9, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x34aa, size 0x1
@@ -38253,7 +38253,7 @@ version 57 {
     // offset 0x358b, size 0x1
     bool launch_settings;
     // offset 0x358c, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x358d, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x358e, size 0x1
@@ -38318,7 +38318,7 @@ version 56 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -38372,7 +38372,7 @@ version 56 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -38412,7 +38412,7 @@ version 56 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -38420,7 +38420,7 @@ version 56 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -38474,13 +38474,13 @@ version 56 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -38492,7 +38492,7 @@ version 56 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -38514,7 +38514,7 @@ version 56 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -38526,7 +38526,7 @@ version 56 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -38599,7 +38599,7 @@ version 56 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -38639,7 +38639,7 @@ version 56 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -38659,7 +38659,7 @@ version 56 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -38679,7 +38679,7 @@ version 56 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -38705,7 +38705,7 @@ version 56 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -38759,7 +38759,7 @@ version 56 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -38961,7 +38961,7 @@ version 56 {
     // offset 0x357b, size 0x1
     bool launch_settings;
     // offset 0x357c, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x357d, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x357e, size 0x1
@@ -39116,7 +39116,7 @@ version 55 {
     };
 
     // idx 6 members 1 size 0x47a0
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x47a0
         layerinformation layerinfo;
     };
@@ -39124,7 +39124,7 @@ version 55 {
     // idx 7 members 1 size 0x8f40
     struct paintshop {
         // offset 0x0, size 0x8f40
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9050
@@ -39178,13 +39178,13 @@ version 55 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -39196,7 +39196,7 @@ version 55 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -39218,7 +39218,7 @@ version 55 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -39230,7 +39230,7 @@ version 55 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -39303,7 +39303,7 @@ version 55 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -39343,7 +39343,7 @@ version 55 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -39363,7 +39363,7 @@ version 55 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -39383,7 +39383,7 @@ version 55 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -39409,7 +39409,7 @@ version 55 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -39463,7 +39463,7 @@ version 55 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -39665,7 +39665,7 @@ version 55 {
     // offset 0x357b, size 0x1
     bool launch_settings;
     // offset 0x357c, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x357d, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x357e, size 0x1
@@ -39820,7 +39820,7 @@ version 54 {
     };
 
     // idx 6 members 1 size 0x47a0
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x47a0
         layerinformation layerinfo;
     };
@@ -39828,7 +39828,7 @@ version 54 {
     // idx 7 members 1 size 0x8f40
     struct paintshop {
         // offset 0x0, size 0x8f40
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9050
@@ -39882,13 +39882,13 @@ version 54 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -39900,7 +39900,7 @@ version 54 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -39922,7 +39922,7 @@ version 54 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -39934,7 +39934,7 @@ version 54 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -40007,7 +40007,7 @@ version 54 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -40047,7 +40047,7 @@ version 54 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -40067,7 +40067,7 @@ version 54 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -40087,7 +40087,7 @@ version 54 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -40113,7 +40113,7 @@ version 54 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -40167,7 +40167,7 @@ version 54 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -40367,7 +40367,7 @@ version 54 {
     // offset 0x357a, size 0x1
     bool swatgrenade_toggle;
     // offset 0x357b, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x357c, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x357d, size 0x1
@@ -40520,7 +40520,7 @@ version 53 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -40528,7 +40528,7 @@ version 53 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -40582,13 +40582,13 @@ version 53 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -40600,7 +40600,7 @@ version 53 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -40622,7 +40622,7 @@ version 53 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -40634,7 +40634,7 @@ version 53 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -40707,7 +40707,7 @@ version 53 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -40747,7 +40747,7 @@ version 53 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -40767,7 +40767,7 @@ version 53 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -40787,7 +40787,7 @@ version 53 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -40813,7 +40813,7 @@ version 53 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -40867,7 +40867,7 @@ version 53 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -41067,7 +41067,7 @@ version 53 {
     // offset 0x357a, size 0x1
     bool swatgrenade_toggle;
     // offset 0x357b, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x357c, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x357d, size 0x1
@@ -41220,7 +41220,7 @@ version 52 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -41228,7 +41228,7 @@ version 52 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -41282,13 +41282,13 @@ version 52 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -41300,7 +41300,7 @@ version 52 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -41322,7 +41322,7 @@ version 52 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -41334,7 +41334,7 @@ version 52 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -41407,7 +41407,7 @@ version 52 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -41447,7 +41447,7 @@ version 52 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -41467,7 +41467,7 @@ version 52 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -41487,7 +41487,7 @@ version 52 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -41513,7 +41513,7 @@ version 52 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -41567,7 +41567,7 @@ version 52 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -41765,7 +41765,7 @@ version 52 {
     // offset 0x3579, size 0x1
     bool swatgrenade_toggle;
     // offset 0x357a, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x357b, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x357c, size 0x1
@@ -41920,7 +41920,7 @@ version 51 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -41928,7 +41928,7 @@ version 51 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -41982,13 +41982,13 @@ version 51 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -42000,7 +42000,7 @@ version 51 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -42022,7 +42022,7 @@ version 51 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -42034,7 +42034,7 @@ version 51 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -42107,7 +42107,7 @@ version 51 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -42147,7 +42147,7 @@ version 51 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -42167,7 +42167,7 @@ version 51 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -42187,7 +42187,7 @@ version 51 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -42213,7 +42213,7 @@ version 51 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -42267,7 +42267,7 @@ version 51 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -42463,7 +42463,7 @@ version 51 {
     // offset 0x3578, size 0x1
     bool swatgrenade_toggle;
     // offset 0x3579, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x357a, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x357b, size 0x1
@@ -42618,7 +42618,7 @@ version 50 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -42626,7 +42626,7 @@ version 50 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -42680,13 +42680,13 @@ version 50 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -42698,7 +42698,7 @@ version 50 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -42720,7 +42720,7 @@ version 50 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -42732,7 +42732,7 @@ version 50 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -42805,7 +42805,7 @@ version 50 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -42845,7 +42845,7 @@ version 50 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -42865,7 +42865,7 @@ version 50 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -42885,7 +42885,7 @@ version 50 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -42911,7 +42911,7 @@ version 50 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -42965,7 +42965,7 @@ version 50 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -43159,7 +43159,7 @@ version 50 {
     // offset 0x3577, size 0x1
     bool swatgrenade_toggle;
     // offset 0x3578, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3579, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x357a, size 0x1
@@ -43314,7 +43314,7 @@ version 49 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -43322,7 +43322,7 @@ version 49 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -43376,13 +43376,13 @@ version 49 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -43394,7 +43394,7 @@ version 49 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -43416,7 +43416,7 @@ version 49 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -43428,7 +43428,7 @@ version 49 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -43501,7 +43501,7 @@ version 49 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -43541,7 +43541,7 @@ version 49 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -43561,7 +43561,7 @@ version 49 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -43581,7 +43581,7 @@ version 49 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -43607,7 +43607,7 @@ version 49 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -43661,7 +43661,7 @@ version 49 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -43853,7 +43853,7 @@ version 49 {
     // offset 0x3576, size 0x1
     bool swatgrenade_toggle;
     // offset 0x3577, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3578, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3579, size 0x1
@@ -44008,7 +44008,7 @@ version 48 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -44016,7 +44016,7 @@ version 48 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -44070,13 +44070,13 @@ version 48 {
     // idx 11 members 1 size 0x40
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x40
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1498
@@ -44088,7 +44088,7 @@ version 48 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x898, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
         // offset 0x1098, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -44102,13 +44102,13 @@ version 48 {
     // idx 15 members 1 size 0x8
     struct hash_1b8c44968f4c52b6 {
         // offset 0x0, size 0x8
-        hash_75ef0562f1cc95c9 parts[hash_5ab26f037efe82c];
+        hash_75ef0562f1cc95c9 parts[outfitparts_e];
     };
 
     // idx 16 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 17 members 4 size 0x350
@@ -44120,7 +44120,7 @@ version 48 {
         // offset 0x108, size 0x148
         variant showcaseweapon;
         // offset 0x250, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 18 members 4 size 0x58
@@ -44140,7 +44140,7 @@ version 48 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -44152,7 +44152,7 @@ version 48 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -44225,7 +44225,7 @@ version 48 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -44265,7 +44265,7 @@ version 48 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -44285,7 +44285,7 @@ version 48 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -44305,7 +44305,7 @@ version 48 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -44331,7 +44331,7 @@ version 48 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -44385,7 +44385,7 @@ version 48 {
     // offset 0x3478, size 0x20
     uint weapon_cycle_delay;
     // offset 0x3498, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x3499, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x349a, size 0x1
@@ -44577,7 +44577,7 @@ version 48 {
     // offset 0x3576, size 0x1
     bool swatgrenade_toggle;
     // offset 0x3577, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x3578, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x3579, size 0x1
@@ -44732,7 +44732,7 @@ version 47 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -44740,7 +44740,7 @@ version 47 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -44794,13 +44794,13 @@ version 47 {
     // idx 11 members 1 size 0x40
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x40
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1498
@@ -44812,7 +44812,7 @@ version 47 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x898, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
         // offset 0x1098, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -44826,13 +44826,13 @@ version 47 {
     // idx 15 members 1 size 0x8
     struct hash_1b8c44968f4c52b6 {
         // offset 0x0, size 0x8
-        hash_75ef0562f1cc95c9 parts[hash_5ab26f037efe82c];
+        hash_75ef0562f1cc95c9 parts[outfitparts_e];
     };
 
     // idx 16 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 17 members 4 size 0x350
@@ -44844,7 +44844,7 @@ version 47 {
         // offset 0x108, size 0x148
         variant showcaseweapon;
         // offset 0x250, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 18 members 4 size 0x58
@@ -44864,7 +44864,7 @@ version 47 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -44876,7 +44876,7 @@ version 47 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -44949,7 +44949,7 @@ version 47 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -44989,7 +44989,7 @@ version 47 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -45009,7 +45009,7 @@ version 47 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -45029,7 +45029,7 @@ version 47 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -45055,7 +45055,7 @@ version 47 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -45107,7 +45107,7 @@ version 47 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -45299,7 +45299,7 @@ version 47 {
     // offset 0x2df6, size 0x1
     bool swatgrenade_toggle;
     // offset 0x2df7, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x2df8, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x2df9, size 0x1
@@ -45454,7 +45454,7 @@ version 46 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -45462,7 +45462,7 @@ version 46 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -45516,13 +45516,13 @@ version 46 {
     // idx 11 members 1 size 0x40
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x40
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1498
@@ -45534,7 +45534,7 @@ version 46 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x898, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
         // offset 0x1098, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -45548,13 +45548,13 @@ version 46 {
     // idx 15 members 1 size 0x8
     struct hash_1b8c44968f4c52b6 {
         // offset 0x0, size 0x8
-        hash_75ef0562f1cc95c9 parts[hash_5ab26f037efe82c];
+        hash_75ef0562f1cc95c9 parts[outfitparts_e];
     };
 
     // idx 16 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 17 members 4 size 0x350
@@ -45566,7 +45566,7 @@ version 46 {
         // offset 0x108, size 0x148
         variant showcaseweapon;
         // offset 0x250, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 18 members 4 size 0x58
@@ -45586,7 +45586,7 @@ version 46 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -45598,7 +45598,7 @@ version 46 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -45671,7 +45671,7 @@ version 46 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -45711,7 +45711,7 @@ version 46 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -45731,7 +45731,7 @@ version 46 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -45751,7 +45751,7 @@ version 46 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -45777,7 +45777,7 @@ version 46 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -45829,7 +45829,7 @@ version 46 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -46019,7 +46019,7 @@ version 46 {
     // offset 0x2df5, size 0x1
     bool swatgrenade_toggle;
     // offset 0x2df6, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x2df7, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x2df8, size 0x1
@@ -46174,7 +46174,7 @@ version 45 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -46182,7 +46182,7 @@ version 45 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -46236,13 +46236,13 @@ version 45 {
     // idx 11 members 1 size 0x40
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x40
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1498
@@ -46254,7 +46254,7 @@ version 45 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x898, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
         // offset 0x1098, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -46268,13 +46268,13 @@ version 45 {
     // idx 15 members 1 size 0x8
     struct hash_1b8c44968f4c52b6 {
         // offset 0x0, size 0x8
-        hash_75ef0562f1cc95c9 parts[hash_5ab26f037efe82c];
+        hash_75ef0562f1cc95c9 parts[outfitparts_e];
     };
 
     // idx 16 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 17 members 4 size 0x350
@@ -46286,7 +46286,7 @@ version 45 {
         // offset 0x108, size 0x148
         variant showcaseweapon;
         // offset 0x250, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 18 members 4 size 0x58
@@ -46306,7 +46306,7 @@ version 45 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -46318,7 +46318,7 @@ version 45 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -46391,7 +46391,7 @@ version 45 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -46431,7 +46431,7 @@ version 45 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -46451,7 +46451,7 @@ version 45 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -46471,7 +46471,7 @@ version 45 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -46497,7 +46497,7 @@ version 45 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -46549,7 +46549,7 @@ version 45 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -46739,7 +46739,7 @@ version 45 {
     // offset 0x2df5, size 0x1
     bool swatgrenade_toggle;
     // offset 0x2df6, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x2df7, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x2df8, size 0x1
@@ -46892,7 +46892,7 @@ version 44 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -46900,7 +46900,7 @@ version 44 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -46954,13 +46954,13 @@ version 44 {
     // idx 11 members 1 size 0x40
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x40
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1488
@@ -46972,7 +46972,7 @@ version 44 {
         // offset 0x88, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
         // offset 0x1088, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -46986,13 +46986,13 @@ version 44 {
     // idx 15 members 1 size 0x8
     struct hash_1b8c44968f4c52b6 {
         // offset 0x0, size 0x8
-        hash_75ef0562f1cc95c9 parts[hash_5ab26f037efe82c];
+        hash_75ef0562f1cc95c9 parts[outfitparts_e];
     };
 
     // idx 16 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 17 members 4 size 0x350
@@ -47004,7 +47004,7 @@ version 44 {
         // offset 0x108, size 0x148
         variant showcaseweapon;
         // offset 0x250, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 18 members 4 size 0x58
@@ -47024,7 +47024,7 @@ version 44 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -47036,7 +47036,7 @@ version 44 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -47109,7 +47109,7 @@ version 44 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -47149,7 +47149,7 @@ version 44 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -47169,7 +47169,7 @@ version 44 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -47189,7 +47189,7 @@ version 44 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -47215,7 +47215,7 @@ version 44 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -47267,7 +47267,7 @@ version 44 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -47457,7 +47457,7 @@ version 44 {
     // offset 0x2df5, size 0x1
     bool swatgrenade_toggle;
     // offset 0x2df6, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x2df7, size 0x1
     bool snd_voicechat_open_mic;
     // offset 0x2df8, size 0x1
@@ -47610,7 +47610,7 @@ version 43 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -47618,7 +47618,7 @@ version 43 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -47672,13 +47672,13 @@ version 43 {
     // idx 11 members 1 size 0x40
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x40
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1488
@@ -47690,7 +47690,7 @@ version 43 {
         // offset 0x88, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
         // offset 0x1088, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -47704,13 +47704,13 @@ version 43 {
     // idx 15 members 1 size 0x8
     struct hash_1b8c44968f4c52b6 {
         // offset 0x0, size 0x8
-        hash_75ef0562f1cc95c9 parts[hash_5ab26f037efe82c];
+        hash_75ef0562f1cc95c9 parts[outfitparts_e];
     };
 
     // idx 16 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 17 members 4 size 0x350
@@ -47722,7 +47722,7 @@ version 43 {
         // offset 0x108, size 0x148
         variant showcaseweapon;
         // offset 0x250, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 18 members 4 size 0x58
@@ -47742,7 +47742,7 @@ version 43 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -47754,7 +47754,7 @@ version 43 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -47827,7 +47827,7 @@ version 43 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -47867,7 +47867,7 @@ version 43 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -47887,7 +47887,7 @@ version 43 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -47907,7 +47907,7 @@ version 43 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -47933,7 +47933,7 @@ version 43 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -47985,7 +47985,7 @@ version 43 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -48326,7 +48326,7 @@ version 42 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -48334,7 +48334,7 @@ version 42 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -48394,13 +48394,13 @@ version 42 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -48412,7 +48412,7 @@ version 42 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -48424,13 +48424,13 @@ version 42 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -48442,7 +48442,7 @@ version 42 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -48462,7 +48462,7 @@ version 42 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -48474,7 +48474,7 @@ version 42 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -48547,7 +48547,7 @@ version 42 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -48587,7 +48587,7 @@ version 42 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -48607,7 +48607,7 @@ version 42 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -48627,7 +48627,7 @@ version 42 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -48653,7 +48653,7 @@ version 42 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -48705,7 +48705,7 @@ version 42 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -49046,7 +49046,7 @@ version 41 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -49054,7 +49054,7 @@ version 41 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -49114,13 +49114,13 @@ version 41 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -49132,7 +49132,7 @@ version 41 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -49144,13 +49144,13 @@ version 41 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -49162,7 +49162,7 @@ version 41 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -49182,7 +49182,7 @@ version 41 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -49194,7 +49194,7 @@ version 41 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -49267,7 +49267,7 @@ version 41 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -49307,7 +49307,7 @@ version 41 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -49327,7 +49327,7 @@ version 41 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -49347,7 +49347,7 @@ version 41 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -49373,7 +49373,7 @@ version 41 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -49425,7 +49425,7 @@ version 41 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -49762,7 +49762,7 @@ version 40 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -49770,7 +49770,7 @@ version 40 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -49830,13 +49830,13 @@ version 40 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -49848,7 +49848,7 @@ version 40 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -49860,13 +49860,13 @@ version 40 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -49878,7 +49878,7 @@ version 40 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -49898,7 +49898,7 @@ version 40 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -49910,7 +49910,7 @@ version 40 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -49983,7 +49983,7 @@ version 40 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -50023,7 +50023,7 @@ version 40 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -50043,7 +50043,7 @@ version 40 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -50063,7 +50063,7 @@ version 40 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -50089,7 +50089,7 @@ version 40 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -50141,7 +50141,7 @@ version 40 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -50474,7 +50474,7 @@ version 39 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -50482,7 +50482,7 @@ version 39 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -50542,13 +50542,13 @@ version 39 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -50560,7 +50560,7 @@ version 39 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -50572,13 +50572,13 @@ version 39 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -50590,7 +50590,7 @@ version 39 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -50610,7 +50610,7 @@ version 39 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -50622,7 +50622,7 @@ version 39 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -50695,7 +50695,7 @@ version 39 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -50735,7 +50735,7 @@ version 39 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -50755,7 +50755,7 @@ version 39 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -50775,7 +50775,7 @@ version 39 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -50801,7 +50801,7 @@ version 39 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -50853,7 +50853,7 @@ version 39 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_2de6ac57f5398d81;
     // offset 0x2d1a, size 0x1
@@ -51184,7 +51184,7 @@ version 38 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -51192,7 +51192,7 @@ version 38 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -51252,13 +51252,13 @@ version 38 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -51270,7 +51270,7 @@ version 38 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -51282,13 +51282,13 @@ version 38 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -51300,7 +51300,7 @@ version 38 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -51320,7 +51320,7 @@ version 38 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -51332,7 +51332,7 @@ version 38 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -51405,7 +51405,7 @@ version 38 {
     // offset 0x1048, size 0x20
     uint party_privacystatus;
     // offset 0x1068, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1088, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1098, size 0x40
@@ -51445,7 +51445,7 @@ version 38 {
     // offset 0x2290, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22b0, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b8, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d8, size 0x20
@@ -51465,7 +51465,7 @@ version 38 {
     // offset 0x2388, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a8, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23b0, size 0x10
     uint:11 playlist_wz;
     // offset 0x23c0, size 0x8
@@ -51485,7 +51485,7 @@ version 38 {
     // offset 0x2440, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2448, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2468, size 0x20
     float speaker_right_surround_back;
     // offset 0x2488, size 0x20
@@ -51511,7 +51511,7 @@ version 38 {
     // offset 0x2658, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2660, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2680, size 0x20
     float snd_menu_sfx;
     // offset 0x26a0, size 0x100
@@ -51563,7 +51563,7 @@ version 38 {
     // offset 0x2cf8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2d18, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2d19, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x2d1a, size 0x1
@@ -51890,7 +51890,7 @@ version 37 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -51898,7 +51898,7 @@ version 37 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -51958,13 +51958,13 @@ version 37 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -51976,7 +51976,7 @@ version 37 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -51988,13 +51988,13 @@ version 37 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -52006,7 +52006,7 @@ version 37 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -52026,7 +52026,7 @@ version 37 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -52038,7 +52038,7 @@ version 37 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -52109,7 +52109,7 @@ version 37 {
     // offset 0x1040, size 0x20
     uint party_privacystatus;
     // offset 0x1060, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1080, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1090, size 0x40
@@ -52149,7 +52149,7 @@ version 37 {
     // offset 0x2288, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22a8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d0, size 0x20
@@ -52169,7 +52169,7 @@ version 37 {
     // offset 0x2380, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23a8, size 0x10
     uint:11 playlist_wz;
     // offset 0x23b8, size 0x8
@@ -52185,7 +52185,7 @@ version 37 {
     // offset 0x2428, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2430, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2450, size 0x20
     float speaker_right_surround_back;
     // offset 0x2470, size 0x20
@@ -52211,7 +52211,7 @@ version 37 {
     // offset 0x2640, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2648, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2668, size 0x20
     float snd_menu_sfx;
     // offset 0x2688, size 0x100
@@ -52261,7 +52261,7 @@ version 37 {
     // offset 0x2cd8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2cf8, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2cf9, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x2cfa, size 0x1
@@ -52586,7 +52586,7 @@ version 36 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -52594,7 +52594,7 @@ version 36 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -52654,13 +52654,13 @@ version 36 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -52672,7 +52672,7 @@ version 36 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -52684,13 +52684,13 @@ version 36 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -52702,7 +52702,7 @@ version 36 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -52722,7 +52722,7 @@ version 36 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -52734,7 +52734,7 @@ version 36 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -52805,7 +52805,7 @@ version 36 {
     // offset 0x1040, size 0x20
     uint party_privacystatus;
     // offset 0x1060, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1080, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1090, size 0x40
@@ -52845,7 +52845,7 @@ version 36 {
     // offset 0x2288, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22a8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d0, size 0x20
@@ -52865,7 +52865,7 @@ version 36 {
     // offset 0x2380, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23a8, size 0x10
     uint:11 playlist_wz;
     // offset 0x23b8, size 0x8
@@ -52881,7 +52881,7 @@ version 36 {
     // offset 0x2428, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2430, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2450, size 0x20
     float speaker_right_surround_back;
     // offset 0x2470, size 0x20
@@ -52907,7 +52907,7 @@ version 36 {
     // offset 0x2640, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2648, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2668, size 0x20
     float snd_menu_sfx;
     // offset 0x2688, size 0x100
@@ -52957,7 +52957,7 @@ version 36 {
     // offset 0x2cd8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2cf8, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2cf9, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x2cfa, size 0x1
@@ -53278,7 +53278,7 @@ version 35 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -53286,7 +53286,7 @@ version 35 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -53344,13 +53344,13 @@ version 35 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -53362,7 +53362,7 @@ version 35 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -53374,13 +53374,13 @@ version 35 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -53392,7 +53392,7 @@ version 35 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -53412,7 +53412,7 @@ version 35 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -53424,7 +53424,7 @@ version 35 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -53495,7 +53495,7 @@ version 35 {
     // offset 0x1040, size 0x20
     uint party_privacystatus;
     // offset 0x1060, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1080, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1090, size 0x40
@@ -53535,7 +53535,7 @@ version 35 {
     // offset 0x2288, size 0x20
     float snd_voicechat_record_level;
     // offset 0x22a8, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x22b0, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x22d0, size 0x20
@@ -53555,7 +53555,7 @@ version 35 {
     // offset 0x2380, size 0x20
     float snd_voicechat_volume;
     // offset 0x23a0, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x23a8, size 0x10
     uint:11 playlist_wz;
     // offset 0x23b8, size 0x8
@@ -53571,7 +53571,7 @@ version 35 {
     // offset 0x2428, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2430, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2450, size 0x20
     float speaker_right_surround_back;
     // offset 0x2470, size 0x20
@@ -53597,7 +53597,7 @@ version 35 {
     // offset 0x2640, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2648, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2668, size 0x20
     float snd_menu_sfx;
     // offset 0x2688, size 0x100
@@ -53647,7 +53647,7 @@ version 35 {
     // offset 0x2cd8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x2cf8, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x2cf9, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x2cfa, size 0x1
@@ -53968,7 +53968,7 @@ version 34 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -53976,7 +53976,7 @@ version 34 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -54034,13 +54034,13 @@ version 34 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -54052,7 +54052,7 @@ version 34 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -54064,13 +54064,13 @@ version 34 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -54082,7 +54082,7 @@ version 34 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -54102,7 +54102,7 @@ version 34 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -54114,7 +54114,7 @@ version 34 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -54185,7 +54185,7 @@ version 34 {
     // offset 0x1040, size 0x20
     uint party_privacystatus;
     // offset 0x1060, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0x1080, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0x1090, size 0x40
@@ -54225,7 +54225,7 @@ version 34 {
     // offset 0x1f68, size 0x20
     float snd_voicechat_record_level;
     // offset 0x1f88, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0x1f90, size 0x20
     float safeareatweakable_horizontal;
     // offset 0x1fb0, size 0x20
@@ -54245,7 +54245,7 @@ version 34 {
     // offset 0x2060, size 0x20
     float snd_voicechat_volume;
     // offset 0x2080, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0x2088, size 0x10
     uint:11 playlist_wz;
     // offset 0x2098, size 0x8
@@ -54261,7 +54261,7 @@ version 34 {
     // offset 0x2108, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0x2110, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0x2130, size 0x20
     float speaker_right_surround_back;
     // offset 0x2150, size 0x20
@@ -54287,7 +54287,7 @@ version 34 {
     // offset 0x2320, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x2328, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x2348, size 0x20
     float snd_menu_sfx;
     // offset 0x2368, size 0x100
@@ -54337,7 +54337,7 @@ version 34 {
     // offset 0x29b8, size 0x20
     uint weapon_cycle_delay;
     // offset 0x29d8, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x29d9, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x29da, size 0x1
@@ -54575,7 +54575,7 @@ version 33 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -54613,7 +54613,7 @@ version 33 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -54633,7 +54633,7 @@ version 33 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -54647,7 +54647,7 @@ version 33 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -54673,7 +54673,7 @@ version 33 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -54725,7 +54725,7 @@ version 33 {
     // offset 0x1840, size 0x20
     uint weapon_cycle_delay;
     // offset 0x1860, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1861, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1862, size 0x1
@@ -54967,7 +54967,7 @@ version 32 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -55005,7 +55005,7 @@ version 32 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -55025,7 +55025,7 @@ version 32 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -55039,7 +55039,7 @@ version 32 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -55065,7 +55065,7 @@ version 32 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -55117,7 +55117,7 @@ version 32 {
     // offset 0x1840, size 0x20
     uint weapon_cycle_delay;
     // offset 0x1860, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1861, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1862, size 0x1
@@ -55355,7 +55355,7 @@ version 31 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -55393,7 +55393,7 @@ version 31 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -55413,7 +55413,7 @@ version 31 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -55427,7 +55427,7 @@ version 31 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -55453,7 +55453,7 @@ version 31 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -55505,7 +55505,7 @@ version 31 {
     // offset 0x1840, size 0x20
     uint weapon_cycle_delay;
     // offset 0x1860, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1861, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1862, size 0x1
@@ -55743,7 +55743,7 @@ version 30 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -55781,7 +55781,7 @@ version 30 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -55801,7 +55801,7 @@ version 30 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -55815,7 +55815,7 @@ version 30 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -55841,7 +55841,7 @@ version 30 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -55893,7 +55893,7 @@ version 30 {
     // offset 0x1840, size 0x20
     uint weapon_cycle_delay;
     // offset 0x1860, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1861, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1862, size 0x1
@@ -56127,7 +56127,7 @@ version 29 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -56165,7 +56165,7 @@ version 29 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -56185,7 +56185,7 @@ version 29 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -56199,7 +56199,7 @@ version 29 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -56225,7 +56225,7 @@ version 29 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -56275,7 +56275,7 @@ version 29 {
     // offset 0x1820, size 0x20
     float speaker_right;
     // offset 0x1840, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1841, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1842, size 0x1
@@ -56509,7 +56509,7 @@ version 28 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -56547,7 +56547,7 @@ version 28 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -56567,7 +56567,7 @@ version 28 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -56581,7 +56581,7 @@ version 28 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -56607,7 +56607,7 @@ version 28 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -56657,7 +56657,7 @@ version 28 {
     // offset 0x1820, size 0x20
     float speaker_right;
     // offset 0x1840, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1841, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1842, size 0x1
@@ -56887,7 +56887,7 @@ version 27 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -56925,7 +56925,7 @@ version 27 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -56945,7 +56945,7 @@ version 27 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -56959,7 +56959,7 @@ version 27 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -56985,7 +56985,7 @@ version 27 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -57035,7 +57035,7 @@ version 27 {
     // offset 0x1820, size 0x20
     float speaker_right;
     // offset 0x1840, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1841, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1842, size 0x1
@@ -57263,7 +57263,7 @@ version 26 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -57301,7 +57301,7 @@ version 26 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -57321,7 +57321,7 @@ version 26 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -57335,7 +57335,7 @@ version 26 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -57361,7 +57361,7 @@ version 26 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -57411,7 +57411,7 @@ version 26 {
     // offset 0x1820, size 0x20
     float speaker_right;
     // offset 0x1840, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1841, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1842, size 0x1
@@ -57637,7 +57637,7 @@ version 25 {
     // offset 0xb48, size 0x20
     uint party_privacystatus;
     // offset 0xb68, size 0x20
-    float hash_3803283ce6ff32ec;
+    float hudboundstweakable_vertical;
     // offset 0xb88, size 0x10
     uint:10 demo_autodollykeyframeinterval;
     // offset 0xb98, size 0x40
@@ -57675,7 +57675,7 @@ version 25 {
     // offset 0xdf0, size 0x20
     float snd_voicechat_record_level;
     // offset 0xe10, size 0x8
-    uint:3 hash_718cc53067a79ec1;
+    uint:3 g_gameskill_offline_cpzm;
     // offset 0xe18, size 0x20
     float safeareatweakable_horizontal;
     // offset 0xe38, size 0x20
@@ -57695,7 +57695,7 @@ version 25 {
     // offset 0xee8, size 0x20
     float snd_voicechat_volume;
     // offset 0xf08, size 0x8
-    uint:3 hash_1980e37ca1296da8;
+    uint:3 g_gameskill_offline_cp;
     // offset 0xf10, size 0x10
     uint:11 playlist_wz;
     // offset 0xf20, size 0x8
@@ -57709,7 +57709,7 @@ version 25 {
     // offset 0xf88, size 0x8
     uint:2 snd_frontendtracksstate;
     // offset 0xf90, size 0x20
-    float hash_17664e60a992dfda;
+    float hudboundstweakable_horizontal;
     // offset 0xfb0, size 0x20
     float speaker_right_surround_back;
     // offset 0xfd0, size 0x20
@@ -57735,7 +57735,7 @@ version 25 {
     // offset 0x11a0, size 0x8
     uint:5 hash_72ea0b45481e9999;
     // offset 0x11a8, size 0x20
-    uint hash_7755e4ffd673fedf;
+    uint com_first_time_mp;
     // offset 0x11c8, size 0x20
     float snd_menu_sfx;
     // offset 0x11e8, size 0x100
@@ -57785,7 +57785,7 @@ version 25 {
     // offset 0x1820, size 0x20
     float speaker_right;
     // offset 0x1840, size 0x1
-    bool hash_6f242bed68cf7c42;
+    bool snd_defaultfrontendtracksinitialized2;
     // offset 0x1841, size 0x1
     bool hash_48772e9392c621a2;
     // offset 0x1842, size 0x1

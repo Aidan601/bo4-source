@@ -15,15 +15,15 @@ function init()
     clientfield::register( "missile", "" + #"chaos_bolt_fx", 16000, 2, "int", &function_6e3ecc82, 0, 0 );
     clientfield::register( "scriptmover", "" + #"pegasus_emerge", 16000, 1, "counter", &pegasus_emerge, 0, 0 );
     clientfield::register( "scriptmover", "" + #"pegasus_storm", 16000, 1, "int", &function_272aa016, 0, 0 );
-    clientfield::register( "allplayers", "" + #"hash_73e309ffb25bf63d", 16000, 1, "int", &function_a27b945a, 0, 0 );
+    clientfield::register( "allplayers", "" + #"boss_lightning_bolt", 16000, 1, "int", &function_a27b945a, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_3bb8b5cda11eecc6", 16000, 1, "counter", &function_b9329291, 0, 0 );
     clientfield::register( "scriptmover", "" + #"lightning_impact_fx", 16000, 1, "int", &function_ed1d0231, 0, 0 );
     clientfield::register( "scriptmover", "" + #"lightning_arc_fx", 16000, 1, "int", &function_37d1ee2e, 0, 0 );
     clientfield::register( "scriptmover", "" + #"viper_bite_bitten_fx", 16000, 1, "int", &function_5091797, 0, 0 );
     clientfield::register( "scriptmover", "" + #"viper_bite_projectile_impact", 16000, 1, "counter", &function_e2680ff3, 0, 0 );
-    level._effect[ #"hash_52f038f656770d3f" ] = #"hash_433034414b39f1ef";
+    level._effect[ #"chaos_bolt_1" ] = #"hash_433034414b39f1ef";
     level._effect[ #"chaos_bolt_2" ] = #"hash_433035414b39f3a2";
-    level._effect[ #"hash_52f03af6567710a5" ] = #"hash_7a9a94bbcf902878";
+    level._effect[ #"chaos_bolt_3" ] = #"hash_7a9a94bbcf902878";
     level._effect[ #"pegasus_emerge" ] = #"hash_9c7935d1106ec1d";
     level._effect[ #"storm_radius" ] = #"hash_4dd46a244305d465";
     level.s_boss_battle = spawnstruct();
@@ -79,7 +79,7 @@ function function_272aa016( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( !isdefined( self.sfx_id ) )
         {
-            self.sfx_id = self playloopsound( #"hash_5760b615b9b749d2" );
+            self.sfx_id = self playloopsound( #"wpn_pegasus_storm_lp" );
         }
         
         return;
@@ -110,7 +110,7 @@ function function_a27b945a( localclientnum, oldval, newval, bnewent, binitialsna
     
     str_tag = "tag_origin";
     level beam::launch( level.s_boss_battle.var_4475b443, str_tag, self, "j_spine4", "beam8_zm_red_peg_lightning_strike", 1 );
-    self playsound( localclientnum, #"hash_61c057ffadb7a5af" );
+    self playsound( localclientnum, #"wpn_pegasus_electric_bolt" );
     wait 1.5;
     level beam::kill( level.s_boss_battle.var_4475b443, str_tag, self, "j_spine4", "beam8_zm_red_peg_lightning_strike" );
 }
@@ -141,7 +141,7 @@ function function_ed1d0231( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval == 1 )
     {
         self.var_89d8285 = util::playfxontag( localclientnum, level._effect[ #"lightning_impact" ], self, str_fx_tag );
-        self playsound( localclientnum, #"hash_63d588d1f28ecdc1" );
+        self playsound( localclientnum, #"wpn_hammer_electrocution_impact" );
     }
 }
 
@@ -243,12 +243,12 @@ function function_5091797( localclientnum, oldval, newval, bnewent, binitialsnap
     
     if ( newval == 1 )
     {
-        self.var_cc9c5baa = util::playfxontag( localclientnum, level._effect[ #"hash_206a58239ffb5e0f" ], self, str_fx_tag );
+        self.var_cc9c5baa = util::playfxontag( localclientnum, level._effect[ #"viper_bite_attack" ], self, str_fx_tag );
         
         if ( !isdefined( self.var_6450813b ) )
         {
-            self playsound( localclientnum, #"hash_76feff9b8f93c3d9" );
-            self.var_6450813b = self playloopsound( #"hash_117558f0dda6471f" );
+            self playsound( localclientnum, #"wpn_viper_bite_start" );
+            self.var_6450813b = self playloopsound( #"wpn_viper_bite_lp" );
         }
         
         return;
@@ -261,7 +261,7 @@ function function_5091797( localclientnum, oldval, newval, bnewent, binitialsnap
     
     if ( isdefined( self.var_6450813b ) )
     {
-        self playsound( localclientnum, #"hash_ae4b548c1d4a748" );
+        self playsound( localclientnum, #"wpn_viper_bite_end" );
         self stoploopsound( self.var_6450813b );
         self.var_6450813b = undefined;
     }
@@ -277,6 +277,6 @@ function function_e2680ff3( localclientnum, oldval, newval, bnewent, binitialsna
 {
     str_fx_tag = isdefined( self gettagorigin( "j_mainroot" ) ) ? "j_mainroot" : "tag_driver";
     util::playfxontag( localclientnum, level._effect[ #"viper_bite_projectile_impact" ], self, str_fx_tag );
-    self playsound( 0, #"hash_3098cba1f74bb5d1" );
+    self playsound( 0, #"wpn_viper_bite_impact" );
 }
 

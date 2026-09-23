@@ -676,7 +676,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -798,7 +798,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1a9fc0cd685a8ff4",
+                            "anim": "anim#ch_cin_zm_red_outro_sh415_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1243,11 +1243,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_463d1ce6f13590cc",
+            "model": "character#c_t8_zmb_dlc2_medusa1",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -1411,7 +1411,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_637f2bb669c27acb",
+                            "anim": "anim#ch_cin_zm_red_outro_sh430_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1441,7 +1441,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7461de624ca4973e",
+                            "anim": "anim#ch_cin_zm_red_outro_sh440_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1470,7 +1470,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_680408646e4c55d5",
+                            "anim": "anim#ch_cin_zm_red_outro_sh450_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1523,7 +1523,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_726ec5ba302ee285",
+                            "anim": "anim#ch_cin_zm_red_outro_sh465_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1577,7 +1577,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_42fb8791c9d1fe12",
+                            "anim": "anim#ch_cin_zm_red_outro_sh480_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1607,7 +1607,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_bdb56d4e8499a39",
+                            "anim": "anim#ch_cin_zm_red_outro_sh490_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1660,7 +1660,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_ab94a95ee4bfd1c",
+                            "anim": "anim#ch_cin_zm_red_outro_sh510_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1690,7 +1690,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_118e79cfa7433701",
+                            "anim": "anim#ch_cin_zm_red_outro_sh520_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1744,7 +1744,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_647191cf8e31d7bf",
+                            "anim": "anim#ch_cin_zm_red_outro_sh540_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1774,7 +1774,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1cad39c0bf9a2a10",
+                            "anim": "anim#ch_cin_zm_red_outro_sh550_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1803,7 +1803,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_a7d17da92cab0c5",
+                            "anim": "anim#ch_cin_zm_red_outro_sh560_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1832,7 +1832,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_43c689cda6d2822e",
+                            "anim": "anim#ch_cin_zm_red_outro_sh570_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -1885,7 +1885,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -2007,7 +2007,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2b61e9f24c1bd3ac",
+                            "anim": "anim#ch_cin_zm_red_outro_sh415_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2061,7 +2061,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5f24261a190df40b",
+                            "anim": "anim#ch_cin_zm_red_outro_sh430_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2091,7 +2091,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_65a6a568283696ee",
+                            "anim": "anim#ch_cin_zm_red_outro_sh440_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2120,7 +2120,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_65b3e90394644ced",
+                            "anim": "anim#ch_cin_zm_red_outro_sh450_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2149,7 +2149,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3510baf1e5637c40",
+                            "anim": "anim#ch_cin_zm_red_outro_sh460_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2178,7 +2178,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2a3e14fdc491afd",
+                            "anim": "anim#ch_cin_zm_red_outro_sh465_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2277,7 +2277,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5ee4e565ba70e1b",
+                            "anim": "anim#ch_cin_zm_red_outro_sh500_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2470,7 +2470,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_148f30a3ea038f73",
+                            "anim": "anim#ch_cin_zm_red_outro_sh580_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2500,7 +2500,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -2645,7 +2645,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7cd8da3c11f98bd6",
+                            "anim": "anim#ch_cin_zm_red_outro_sh420_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2699,7 +2699,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_30d48376fce532b0",
+                            "anim": "anim#ch_cin_zm_red_outro_sh440_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2799,7 +2799,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_427a02d14090e35f",
+                            "anim": "anim#ch_cin_zm_red_outro_sh470_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2876,7 +2876,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_554afee38a11ca4b",
+                            "anim": "anim#ch_cin_zm_red_outro_sh500_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -3069,7 +3069,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5c330c8d4623b5a3",
+                            "anim": "anim#ch_cin_zm_red_outro_sh580_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -3099,11 +3099,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_23c71e93a1c1579e",
+            "model": "character#c_t8_zmb_hero_diego1_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -3173,7 +3173,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5a3203a44b910af1",
+                            "anim": "anim#ch_cin_zm_red_outro_sh408_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -3204,7 +3204,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_401fdb3710cc1620",
+                            "anim": "anim#ch_cin_zm_red_outro_sh410_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -3672,7 +3672,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -3746,7 +3746,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_14f00ca064fc148",
+                            "anim": "anim#ch_cin_zm_red_outro_sh408_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -3777,7 +3777,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3c6612bfb6ed3dc9",
+                            "anim": "anim#ch_cin_zm_red_outro_sh410_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -4245,11 +4245,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_6421ebb04e6b9a74",
+            "model": "character#c_t8_zmb_dlc2_hero_bruno1_glow_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -4271,7 +4271,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_58b71368b4ae58c5",
+                            "anim": "anim#ch_cin_zm_red_outro_sh400_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -4302,7 +4302,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_14d31464a825c088",
+                            "anim": "anim#ch_cin_zm_red_outro_sh405_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -4332,7 +4332,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_79fb6c5db69ec9ad",
+                            "anim": "anim#ch_cin_zm_red_outro_sh408_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -4832,7 +4832,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -4858,7 +4858,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5810515bcf88f5ed",
+                            "anim": "anim#ch_cin_zm_red_outro_sh400_acolyte_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -4914,7 +4914,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2ee42affb2d2a8e5",
+                            "anim": "anim#ch_cin_zm_red_outro_sh408_acolyte_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -5415,7 +5415,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -5441,7 +5441,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_58104e5bcf88f0d4",
+                            "anim": "anim#ch_cin_zm_red_outro_sh400_acolyte_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5497,7 +5497,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2ee427ffb2d2a3cc",
+                            "anim": "anim#ch_cin_zm_red_outro_sh408_acolyte_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5998,7 +5998,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -6024,7 +6024,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_58104f5bcf88f287",
+                            "anim": "anim#ch_cin_zm_red_outro_sh400_acolyte_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -6080,7 +6080,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2ee428ffb2d2a57f",
+                            "anim": "anim#ch_cin_zm_red_outro_sh408_acolyte_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -6573,7 +6573,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -6647,7 +6647,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2ee425ffb2d2a066",
+                            "anim": "anim#ch_cin_zm_red_outro_sh408_acolyte_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -7140,7 +7140,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -7222,7 +7222,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_21b31ac1d79bf3ae",
+                            "anim": "anim#o_cin_zm_red_outro_sh408_rifle",
                             "entrytype": "anim"
                         }
                     ],
@@ -7715,11 +7715,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_6fe5730e0086ccf3",
+            "model": "model#wpn_t8_zm_ar_lever_action_prop_animate_stone",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -7797,7 +7797,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6faffd579ef6db0f",
+                            "anim": "anim#o_cin_zm_red_outro_sh408_pistol",
                             "entrytype": "anim"
                         }
                     ],
@@ -8290,11 +8290,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_32da4f4d25584f01",
+            "model": "model#wpn_t8_zm_pistol_webly_prop_animate_lrg_stone",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -8388,7 +8388,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4b4751e578135f5f",
+                            "anim": "anim#o_cin_zm_red_outro_sh410_torch",
                             "entrytype": "anim"
                         }
                     ],
@@ -8857,7 +8857,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -9494,11 +9494,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_6348fa31c3c34ae3",
+            "model": "model#p8_zm_gla_mask_acolyte_01_face",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -10087,11 +10087,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -10674,11 +10674,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -11253,11 +11253,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -11826,11 +11826,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -12399,11 +12399,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -12972,11 +12972,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -13538,11 +13538,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -14104,11 +14104,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -14185,7 +14185,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_146cb8ba2fd8454d",
+                            "anim": "anim#o_cin_zm_red_outro_sh408_book",
                             "entrytype": "anim"
                         }
                     ],
@@ -14686,7 +14686,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -14877,7 +14877,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_78655b5b134ef711",
+                            "anim": "anim#o_cin_zm_red_outro_sh440_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -15252,7 +15252,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -15829,7 +15829,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -16406,7 +16406,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -16978,7 +16978,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -17550,7 +17550,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -18121,7 +18121,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -18692,7 +18692,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -19269,7 +19269,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -19506,7 +19506,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5fc69eda817e6420",
+                            "anim": "anim#ch_cin_zm_red_outro_sh460_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -19560,7 +19560,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4e72fb700100bc8f",
+                            "anim": "anim#ch_cin_zm_red_outro_sh470_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -19822,7 +19822,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_35701168ba2f9343",
+                            "anim": "anim#ch_cin_zm_red_outro_sh580_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -19851,7 +19851,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

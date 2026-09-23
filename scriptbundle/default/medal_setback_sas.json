@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_setback_sas",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_4f3d99dbfeeb302c",
+    "iconsmall": "image#ui_icon_medal_bankrupted",
     "stringref": "localized17#medal/setback_sas",
-    "iconlarge": "image#hash_40a9b61af1917878"
+    "iconlarge": "image#ui_icon_medal_bankrupted_large"
 }

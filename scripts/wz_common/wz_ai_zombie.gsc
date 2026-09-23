@@ -118,7 +118,7 @@ function private __main__()
     {
         callback::add_callback( #"hash_70eeb7d813f149b2", &function_cf065988 );
         callback::add_callback( #"hash_15858698313c5f32", &function_b0503d98 );
-        callback::add_callback( #"hash_6d9bdacc6c29cfa5", &function_68cc8bce );
+        callback::add_callback( #"on_turret_placed", &on_turret_placed );
         callback::add_callback( #"on_turret_destroyed", &on_turret_destroyed );
         turretweapon = getweapon( #"gun_ultimate_turret" );
         
@@ -143,7 +143,7 @@ function private __main__()
 // Params 1
 // Checksum 0x868e613c, Offset: 0x1038
 // Size: 0x122
-function function_68cc8bce( params )
+function on_turret_placed( params )
 {
     owner = params.owner;
     turret = params.turret;
@@ -194,7 +194,7 @@ function function_cf065988( params )
     cover = params.cover;
     owner endon( #"death" );
     cover endon( #"death" );
-    slots = wz_ai_utils::function_bdb2b85b( cover, owner.smartcover.lastvalid.origin, owner.smartcover.lastvalid.angles, owner.smartcover.lastvalid.width / 2 + 12, 6, level.smartcoversettings.bundle.var_b345c668 );
+    slots = wz_ai_utils::function_bdb2b85b( cover, owner.smartcover.lastvalid.origin, owner.smartcover.lastvalid.angles, owner.smartcover.lastvalid.width / 2 + 12, 6, level.smartcoversettings.bundle.microwaveradius );
     
     if ( !isdefined( slots ) || slots.size <= 0 )
     {
@@ -520,8 +520,8 @@ function initzombiebehaviors()
     behaviortreenetworkutility::registerbehaviortreeaction( #"hash_5bd00a38dffd47e", &function_7c8e35e8, &function_fee7d867, &function_3f71b9c2 );
     assert( isscriptfunctionptr( &zombieknockdownactionstart ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"wzzombieknockdownactionstart", &zombieknockdownactionstart );
-    assert( isscriptfunctionptr( &function_c8939973 ) );
-    behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_7a21325931f5ca2f", &function_c8939973 );
+    assert( isscriptfunctionptr( &zombieknockdownactionterminate ) );
+    behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_7a21325931f5ca2f", &zombieknockdownactionterminate );
     assert( isscriptfunctionptr( &zombiegetupactionterminate ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"wzzombiegetupactionterminate", &zombiegetupactionterminate );
     assert( !isdefined( undefined ) || isscriptfunctionptr( undefined ) );
@@ -815,7 +815,7 @@ function private function_e91d8371( entity )
 // Size: 0x79e, Type: bool
 function private zombieshouldmelee( entity )
 {
-    if ( isdefined( entity.var_8a96267d ) && entity.var_8a96267d || isdefined( entity.var_8ba6ede3 ) && entity.var_8ba6ede3 )
+    if ( isdefined( entity.var_8a96267d ) && entity.var_8a96267d || isdefined( entity.shoulddigup ) && entity.shoulddigup )
     {
         return false;
     }
@@ -986,7 +986,7 @@ function private function_e8f3596d( entity )
 // Size: 0x28, Type: bool
 function private function_cc184b8b( entity )
 {
-    return isdefined( entity.var_8ba6ede3 ) && entity.var_8ba6ede3;
+    return isdefined( entity.shoulddigup ) && entity.shoulddigup;
 }
 
 // Namespace wz_ai_zombie/wz_ai_zombie
@@ -1236,7 +1236,7 @@ function private function_55b7ea22( entity )
 {
     entity solid();
     entity clientfield::set( "zombie_riser_fx", 1 );
-    entity.var_8ba6ede3 = undefined;
+    entity.shoulddigup = undefined;
 }
 
 // Namespace wz_ai_zombie/wz_ai_zombie
@@ -1432,7 +1432,7 @@ function private showzombie( entity )
 // Size: 0x5c
 function private function_78106a79( entity, asmstatename )
 {
-    if ( entity ai::is_stunned() || isdefined( entity.var_85c3882d ) && entity.var_85c3882d )
+    if ( entity ai::is_stunned() || isdefined( entity.inconcertinawire ) && entity.inconcertinawire )
     {
         return 5;
     }
@@ -1584,7 +1584,7 @@ function function_e261b81d()
                 self function_36151fe3();
                 break;
             case 5:
-                self function_101763c9();
+                self ai_cleanup_state();
                 break;
             case 6:
                 self function_936718a8();
@@ -2308,7 +2308,7 @@ function function_54fc0f3e()
         }
         
         /#
-            if ( isdefined( self.current_state ) && getdvarint( #"hash_7c11c6eba2f88f9f", 0 ) )
+            if ( isdefined( self.current_state ) && getdvarint( #"sr_ai_debug", 0 ) )
             {
                 if ( getdvarint( #"recorder_enablerec", 0 ) )
                 {
@@ -2675,8 +2675,8 @@ function private function_cc9c6a13( state )
             
             break;
         case 5:
-            self function_d1e55248( #"hash_5780e28b762b831a", 0 );
-            val::reset( #"hash_5780e28b762b831a", "ignoreall" );
+            self function_d1e55248( #"ai_cleanup_state", 0 );
+            val::reset( #"ai_cleanup_state", "ignoreall" );
             self pathmode( "move allowed" );
             break;
         default:
@@ -2731,8 +2731,8 @@ function private function_b8eff92a( state )
             
             break;
         case 5:
-            self function_d1e55248( #"hash_5780e28b762b831a", !self.isonnavmesh );
-            val::set( #"hash_5780e28b762b831a", "ignoreall", 1 );
+            self function_d1e55248( #"ai_cleanup_state", !self.isonnavmesh );
+            val::set( #"ai_cleanup_state", "ignoreall", 1 );
             
             if ( !self.isonnavmesh )
             {
@@ -3115,7 +3115,7 @@ function private function_b793bca2()
 // Params 0, eflags: 0x4
 // Checksum 0xa5ed7066, Offset: 0xa048
 // Size: 0x356
-function private function_101763c9()
+function private ai_cleanup_state()
 {
     self endon( #"death" );
     
@@ -3189,7 +3189,7 @@ function private function_101763c9()
             wait 0.2;
         }
         
-        self.var_8ba6ede3 = 1;
+        self.shoulddigup = 1;
         self waittill( #"not_underground" );
         self.var_ef59b90 = 1;
     }
@@ -3494,7 +3494,7 @@ function private function_b9b03294( entity )
 // Size: 0x1c, Type: bool
 function private function_2a7b4aab( entity )
 {
-    return entity.var_85c3882d === 1;
+    return entity.inconcertinawire === 1;
 }
 
 // Namespace wz_ai_zombie/wz_ai_zombie
@@ -3523,7 +3523,7 @@ function zombieknockdownactionstart( behaviortreeentity )
 // Params 1, eflags: 0x4
 // Checksum 0x4e2745cc, Offset: 0xb058
 // Size: 0x54
-function private function_c8939973( behaviortreeentity )
+function private zombieknockdownactionterminate( behaviortreeentity )
 {
     if ( isdefined( behaviortreeentity.missinglegs ) && behaviortreeentity.missinglegs )
     {

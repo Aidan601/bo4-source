@@ -1,4 +1,4 @@
-NAME script_40556c4400b0a478
+NAME scripts/zm/ai/zm_ai_brutus_special.gsc
 VERSION 0
 CHECKSUM 0x545634c3
 ######################################################

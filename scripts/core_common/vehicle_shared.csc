@@ -284,17 +284,17 @@ function function_a87e7c22( subtarget )
         {
             self.var_d2c05029[ subtarget ] = time + 150;
             bone = self submodelboneforsubtarget( subtarget );
-            self playrenderoverridebundle( #"hash_20bdbaa0db5eb57d", bone );
+            self playrenderoverridebundle( #"rob_vehicle_target", bone );
             wait 0.1;
-            self stoprenderoverridebundle( #"hash_20bdbaa0db5eb57d", bone );
+            self stoprenderoverridebundle( #"rob_vehicle_target", bone );
         }
         
         return;
     }
     
-    self playrenderoverridebundle( #"hash_20bdbaa0db5eb57d" );
+    self playrenderoverridebundle( #"rob_vehicle_target" );
     wait 0.15;
-    self stoprenderoverridebundle( #"hash_20bdbaa0db5eb57d" );
+    self stoprenderoverridebundle( #"rob_vehicle_target" );
 }
 
 // Namespace vehicle/vehicle_shared
@@ -847,7 +847,7 @@ function function_34105b89( localclientnum, groupid, ison )
         return;
     }
     
-    num_slots = settings.var_e08bc957;
+    num_slots = settings.control_numgroups;
     
     if ( isdefined( num_slots ) && groupid > num_slots )
     {
@@ -1889,12 +1889,12 @@ function function_7d1d0e65( localclientnum, oldval, newval, bnewent, binitialsna
     {
         foreach ( var_b5ddf091 in self.settings.malfunction_effects )
         {
-            tag = var_b5ddf091.var_454a4e08;
+            tag = var_b5ddf091.tag_transition;
             effect = var_b5ddf091.transition;
             
-            if ( isdefined( var_b5ddf091.transition ) && isdefined( var_b5ddf091.var_454a4e08 ) )
+            if ( isdefined( var_b5ddf091.transition ) && isdefined( var_b5ddf091.tag_transition ) )
             {
-                util::playfxontag( localclientnum, var_b5ddf091.transition, self, var_b5ddf091.var_454a4e08 );
+                util::playfxontag( localclientnum, var_b5ddf091.transition, self, var_b5ddf091.tag_transition );
             }
             
             switch ( newval )
@@ -1920,9 +1920,9 @@ function function_7d1d0e65( localclientnum, oldval, newval, bnewent, binitialsna
                     
                     break;
                 case 2:
-                    if ( isdefined( var_b5ddf091.active ) && isdefined( var_b5ddf091.var_2f451e59 ) )
+                    if ( isdefined( var_b5ddf091.active ) && isdefined( var_b5ddf091.tag_active ) )
                     {
-                        handle = util::playfxontag( localclientnum, var_b5ddf091.active, self, var_b5ddf091.var_2f451e59 );
+                        handle = util::playfxontag( localclientnum, var_b5ddf091.active, self, var_b5ddf091.tag_active );
                         
                         if ( !isdefined( self.fx_handles[ #"malfunction" ] ) )
                         {
@@ -1938,9 +1938,9 @@ function function_7d1d0e65( localclientnum, oldval, newval, bnewent, binitialsna
                     
                     break;
                 case 3:
-                    if ( isdefined( var_b5ddf091.fatal ) && isdefined( var_b5ddf091.var_ceeccc7a ) )
+                    if ( isdefined( var_b5ddf091.fatal ) && isdefined( var_b5ddf091.tag_fatal ) )
                     {
-                        handle = util::playfxontag( localclientnum, var_b5ddf091.fatal, self, var_b5ddf091.var_ceeccc7a );
+                        handle = util::playfxontag( localclientnum, var_b5ddf091.fatal, self, var_b5ddf091.tag_fatal );
                         
                         if ( !isdefined( self.fx_handles[ #"malfunction" ] ) )
                         {

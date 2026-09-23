@@ -2,10 +2,10 @@
     "effectcount": 2,
     "configstringfiletype": "scriptbundle",
     "type": "fxcharacterdef",
-    "effect2_fx": "fx#hash_6675a54c73addf25",
+    "effect2_fx": "fx#zm_ai/fx8_spartoi_amb_head",
     "vmtype": "client",
     "name": "fxd8_zm_char_spartoi_body",
     "effect1_attachtag": "j_spine4",
-    "effect1_fx": "fx#hash_70c604c24563ff7a",
+    "effect1_fx": "fx#zm_ai/fx8_spartoi_amb_torso",
     "effect2_attachtag": "j_head"
 }

@@ -42,7 +42,7 @@ function preload()
     zm_sq_modules::function_d8383812( #"little_bird_2", 24000, "little_bird_2", &is_soul_capture, &soul_captured, 1 );
     zm_sq_modules::function_d8383812( #"little_bird_3", 24000, "little_bird_3", &is_soul_capture, &soul_captured, 1 );
     clientfield::register( "scriptmover", "elemental_shard_glow", 24000, 1, "int" );
-    level flag::init( #"hash_4923165da58bf5cf" );
+    level flag::init( #"fuse_step_complete" );
 }
 
 // Namespace zm_orange_mq_fuse/zm_orange_mq_fuse
@@ -97,7 +97,7 @@ function function_6bd2a719()
     
     level.a_s_generators = a_s_generators;
     e_shard = getent( "chicken_nugget", "targetname" );
-    e_shard playloopsound( #"hash_52058ae478647502" );
+    e_shard playloopsound( #"zmb_elemental_shard_loop" );
     e_shard setscale( 0.5 );
     e_shard clientfield::set( "elemental_shard_glow", 1 );
 }
@@ -156,7 +156,7 @@ function function_95dff91b()
 function function_afa2f621()
 {
     s_activation = self waittill( #"trigger_activated" );
-    playsoundatposition( #"hash_fdb4c0b271c6e36", self.origin );
+    playsoundatposition( #"evt_fuse_place", self.origin );
 }
 
 // Namespace zm_orange_mq_fuse/zm_orange_mq_fuse
@@ -222,7 +222,7 @@ function function_16386d70()
 function shard_think()
 {
     s_activation = self waittill( #"trigger_activated" );
-    playsoundatposition( #"hash_2e9ec816b70bb70e", self.origin );
+    playsoundatposition( #"evt_shard_pickup", self.origin );
     self delete();
     level shard_vo( s_activation.e_who );
 }
@@ -257,7 +257,7 @@ function function_d6a4619a()
                 exploder::exploder( "fxexp_electric_arcs_fx_to_lighthouse_right" );
             }
             
-            self playsound( #"hash_47433d730d8027ed" );
+            self playsound( #"evt_trans_exp_far" );
             e_target = getent( self.target, "targetname" );
             level.var_d02bca0 -= 1;
             e_target hide();
@@ -380,9 +380,9 @@ function function_a66f0de2()
     }
     
     zm_sq_modules::function_2a94055d( self.var_b9989e12 );
-    playsoundatposition( #"hash_7cef2cb8d950a50", self.origin );
+    playsoundatposition( #"evt_trans_exp_close", self.origin );
     level.var_6b43507a -= 1;
-    self notify( #"hash_1f9b852104ab2c13" );
+    self notify( #"soul_capture_complete" );
 }
 
 // Namespace zm_orange_mq_fuse/zm_orange_mq_fuse

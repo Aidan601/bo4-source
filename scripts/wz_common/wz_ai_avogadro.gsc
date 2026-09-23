@@ -36,7 +36,7 @@ function __init__()
     spawner::add_archetype_spawn_function( #"avogadro", &function_f34df3c );
     spawner::function_89a2cd87( #"avogadro", &function_c41e67c );
     level.var_8791f7c5 = &function_ac94df05;
-    level.var_a35afcb2 = &function_7d5cf0e4;
+    level.var_a35afcb2 = &bohorok;
     assert( isscriptfunctionptr( &avogadrodespawn ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"avogadrodespawn", &avogadrodespawn );
     assert( isscriptfunctionptr( &avogadrorespawn ) );
@@ -205,7 +205,7 @@ function function_edc8c459( entity )
     entity endon( #"death" );
     entity solid();
     entity show();
-    entity.var_8ba6ede3 = undefined;
+    entity.shoulddigup = undefined;
     function_905d3c1a( entity );
     
     if ( !isdefined( entity ) )
@@ -312,7 +312,7 @@ function function_ac94df05( entity )
 // Params 1
 // Checksum 0x71fd686d, Offset: 0xfa0
 // Size: 0x80
-function function_7d5cf0e4( entity )
+function bohorok( entity )
 {
     if ( !getdvarint( #"survival_prototype", 0 ) )
     {

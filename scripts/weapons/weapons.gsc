@@ -37,8 +37,8 @@ function init_shared()
     level.weaponriotshield = getweapon( #"riotshield" );
     level.weaponflashgrenade = getweapon( #"flash_grenade" );
     level.weaponsatchelcharge = getweapon( #"satchel_charge" );
-    level.var_43a51921 = getweapon( #"hash_5a7fd1af4a1d5c9" );
-    level.var_387e902c = getweapon( #"hash_31be8125c7d0f273" );
+    level.var_43a51921 = getweapon( #"null_offhand_hero_gadget" );
+    level.var_387e902c = getweapon( #"null_offhand_ultimate" );
     level.var_34d27b26 = getweapon( #"null_offhand_primary" );
     level.var_6388e216 = getweapon( #"null_offhand_secondary" );
     
@@ -1300,22 +1300,22 @@ function begin_grenade_tracking()
     }
     
     blackboxeventname = #"mpequipmentuses";
-    eventname = #"hash_7cbbee88c5db5494";
+    eventname = #"dlog_event_mpequipmentuses";
     
     if ( sessionmodeiscampaigngame() )
     {
         blackboxeventname = #"cpequipmentuses";
-        eventname = #"hash_4b0d58055ad60c5a";
+        eventname = #"dlog_event_cpequipmentuses";
     }
     else if ( sessionmodeiszombiesgame() )
     {
         blackboxeventname = #"zmequipmentuses";
-        eventname = #"hash_637ce41bcec9842c";
+        eventname = #"dlog_event_zmequipmentuses";
     }
     else if ( sessionmodeiswarzonegame() )
     {
         blackboxeventname = #"wzequipmentuses";
-        eventname = #"hash_4f877fbf665a36d8";
+        eventname = #"dlog_event_wzequipmentuses";
     }
     
     function_92d1707f( eventname, blackboxeventname, { #gametime:gettime(), #spawnid:getplayerspawnid( self ), #weaponname:weapon.name } );
@@ -1436,7 +1436,7 @@ function event_handler[offhand_fire] function_97023fdf( eventstruct )
 // Size: 0x2c
 function event_handler[grenade_launcher_fire] function_aa7da3a( eventstruct )
 {
-    self callback::callback( #"hash_198a389d6b65f68d", eventstruct );
+    self callback::callback( #"grenade_launcher_fired", eventstruct );
 }
 
 // Namespace weapons/weapons
@@ -1655,11 +1655,11 @@ function turn_grenade_into_a_dud( weapon, isthrowngrenade, player )
             
             if ( isthrowngrenade )
             {
-                player iprintlnbold( #"hash_10012bedb9f60e99", " " + timeleft + " ", #"exe/seconds" );
+                player iprintlnbold( #"mp/grenade_unavailable_for_n", " " + timeleft + " ", #"exe/seconds" );
             }
             else
             {
-                player iprintlnbold( #"hash_255050263c8cd26d", " " + timeleft + " ", #"exe/seconds" );
+                player iprintlnbold( #"mp/launcher_unavailable_for_n", " " + timeleft + " ", #"exe/seconds" );
             }
             
             self makegrenadedud();

@@ -22,7 +22,7 @@
         "#c_t8_zmb_dlc1_werewolf1"
     ],
     "animMappingTables": [
-        "#hash_26f702461b3521ef"
+        "#zm_werewolf.ai_am"
     ],
     "meleeWeapon": "#werewolf_melee",
     "aimTable": "#soldier_aim",
@@ -30,9 +30,9 @@
     "footstepScriptCallback": true,
     "footstepFXTable1": "#zm_werewolf_footstep",
     "footstepFXTable2": "#zm_werewolf_footstep",
-    "behaviorTree": "#hash_2700eb461b3d4f5f",
-    "animStateMachine": "#hash_6ab87b203b2b3914",
-    "animSelectorTable": "#hash_6ab864203b2b11ff",
+    "behaviorTree": "#zm_werewolf.ai_bt",
+    "animStateMachine": "#zm_werewolf.ai_asm",
+    "animSelectorTable": "#zm_werewolf.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#fxb8_zm_char_werewolf",
     "aiSettingsBundle": "#zm_werewolf_settings",

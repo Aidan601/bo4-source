@@ -14,11 +14,11 @@ STRING "<dev string:xae>" 0xa1c 0xc0c
 STRING "<dev string:xb1>" 0xa00 0xbf8 0xe60
 # zm_ai_zipline::function_dedfe444@ac
 STRING "<dev string:xba>" 0xe74
-# zm_ai_zipline::function_d31cb502@168
+# zm_ai_zipline::ui_reticle_preview_hybrid_03_vday@168
 STRING "<dev string:xd7>" 0x1120
-# zm_ai_zipline::function_d31cb502@14c zm_ai_zipline::function_d31cb502@188
+# zm_ai_zipline::ui_reticle_preview_hybrid_03_vday@14c zm_ai_zipline::ui_reticle_preview_hybrid_03_vday@188
 STRING "<dev string:xe0>" 0x1104 0x1140
-# zm_ai_zipline::function_d31cb502@1a4
+# zm_ai_zipline::ui_reticle_preview_hybrid_03_vday@1a4
 STRING "<dev string:xf4>" 0x115c
 ######################################################
 ####################  DEV BLOCKS  ####################
@@ -51,5 +51,5 @@ DEVBLOCK 0xb14
 DEVBLOCK 0xc6c
 # zm_ai_zipline::function_dedfe444@8e
 DEVBLOCK 0xe56
-# zm_ai_zipline::function_d31cb502@142
+# zm_ai_zipline::ui_reticle_preview_hybrid_03_vday@142
 DEVBLOCK 0x10fa

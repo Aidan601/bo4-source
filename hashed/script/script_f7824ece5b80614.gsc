@@ -68,7 +68,7 @@ function function_aa3a05b1( index )
 function function_6452f9c5( index )
 {
     kit = function_550c6257( index );
-    return getscriptbundle( kit.var_4fa85a25 );
+    return getscriptbundle( kit.dropfxtrail );
 }
 
 // Namespace namespace_eb06e24d/namespace_eb06e24d

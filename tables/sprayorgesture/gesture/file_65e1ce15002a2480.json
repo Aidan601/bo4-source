@@ -5,8 +5,8 @@
     "gesture2": "#hash_6a34568beed5f965",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_78fe4e376a36039b",
-        "icon": "image#hash_371e927d573403d8",
+        "title": "localized18#emotes/tea_time",
+        "icon": "image#ui_icon_emotes_s2_tea_time",
         "isdefault": 0
     }
 }

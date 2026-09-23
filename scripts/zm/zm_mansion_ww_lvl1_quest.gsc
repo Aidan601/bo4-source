@@ -172,7 +172,7 @@ function function_7706457d( e_player )
         {
             if ( zombie_utility::is_player_valid( e_player ) && e_player function_8b4cc6ae( e_lock.origin, 10, 1, e_lock ) )
             {
-                str_prompt = zm_utility::function_d6046228( #"hash_170f427c6f774cc6", #"hash_182213d7353c3062" );
+                str_prompt = zm_utility::function_d6046228( #"zm_mansion/rotate_lock", #"hash_182213d7353c3062" );
                 self sethintstringforplayer( e_player, str_prompt );
                 return true;
             }
@@ -231,10 +231,10 @@ function lock_rotate()
     self endon( #"death", #"destroyed" );
     self.var_86dbb82b = 1;
     self rotateroll( -90, 0.5 );
-    self playsound( #"hash_1902d49433a38eba" );
+    self playsound( #"zmb_combo_case_turn" );
     self notify( #"rotate_lock" );
     self waittill( #"rotatedone" );
-    self playsound( #"hash_41879bbde78fcc85" );
+    self playsound( #"zmb_combo_case_stop" );
     self.var_86dbb82b = 0;
 }
 
@@ -296,7 +296,7 @@ function function_7e7626b5()
         
         if ( zombie_utility::is_player_valid( player ) )
         {
-            player thread zm_vo::function_a2bd5a0c( #"hash_28aa1fc068bb2e3b", 1 );
+            player thread zm_vo::function_a2bd5a0c( #"vox_folly_pistol_interact_first", 1 );
             self delete();
         }
         
@@ -340,7 +340,7 @@ function function_f4f7650b()
         if ( zm_utility::can_use( e_player, 1 ) )
         {
             e_player zm_weapons::weapon_give( level.var_f086136b );
-            e_player thread zm_vo::function_a2bd5a0c( #"hash_74ba2bf90063e6c6", 1 );
+            e_player thread zm_vo::function_a2bd5a0c( #"vox_wonder_interact_first", 1 );
             level flag::set( "ww_obtained" );
         }
     }

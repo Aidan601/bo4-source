@@ -1,4 +1,4 @@
-NAME script_7be39c34f66312aa
+NAME scripts/zm/zm_office_magicbox_screens.gsc
 VERSION 0
 CHECKSUM 0x8c754859
 ######################################################

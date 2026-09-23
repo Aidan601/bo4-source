@@ -97,8 +97,8 @@ function init_fx()
     level._effect[ #"hash_14c7ae107e96344f" ] = #"hash_35345b470c26af97";
     level._effect[ #"hash_7f40415d2fd7eca7" ] = #"hash_140d0b129306d6bf";
     level._effect[ #"hash_139a09a4b1249370" ] = #"hash_7881fc0381feec68";
-    level._effect[ #"hash_76da38284b0c73ed" ] = #"hash_153286962fe0c0c5";
-    level._effect[ #"hash_76e124284b12709f" ] = #"hash_153992962fe6f3d7";
+    level._effect[ #"hash_76da38284b0c73ed" ] = #"player/fx8_plyr_breath_steam_1p";
+    level._effect[ #"hash_76e124284b12709f" ] = #"player/fx8_plyr_breath_steam_3p";
     level._effect[ #"hash_6788a08fe46cb4c4" ] = #"hash_6bb32223711e216c";
     level._effect[ #"hash_2b51d1fecfaa7ae6" ] = #"hash_682ef6e33412958e";
     level._effect[ #"hash_3a6842a4656de818" ] = #"hash_2b2be81e66f5e3ea";
@@ -653,7 +653,7 @@ function function_f5116ee2( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x17e
 function function_8c5b87a7( localclientnum )
 {
-    self notify( #"hash_2bb8be6b846aed93" );
+    self notify( #"boss_attack_beam_end" );
     
     if ( isdefined( self.var_ca2681ca ) )
     {
@@ -661,7 +661,7 @@ function function_8c5b87a7( localclientnum )
         level beam::kill( self.var_ca2681ca, "tag_origin", level.var_90bda347, "tag_origin", "beam8_zm_be_a_t_a" );
         level beam::kill( self.var_ca2681ca, "tag_origin", level.var_90bda347, "tag_origin", "beam8_zm_be_a_t_b" );
         var_62b51ea6 = spawn( localclientnum, self.origin, "script_origin" );
-        var_62b51ea6 playsound( localclientnum, #"hash_15ca81cba1081bc2" );
+        var_62b51ea6 playsound( localclientnum, #"zmb_eyeball_laser_stop" );
         var_62b51ea6 thread function_e8a1c9e1();
         self.var_ca2681ca delete();
         self.var_ca2681ca = undefined;
@@ -702,8 +702,8 @@ function function_c6932c3b( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x304
 function function_e8071e64( localclientnum )
 {
-    self notify( #"hash_2bb8be6b846aed93" );
-    self endon( #"hash_2bb8be6b846aed93", #"death" );
+    self notify( #"boss_attack_beam_end" );
+    self endon( #"boss_attack_beam_end", #"death" );
     assert( isdefined( level.var_90bda347 ) );
     
     if ( !isdefined( level.var_90bda347 ) )
@@ -743,7 +743,7 @@ function function_e8071e64( localclientnum )
         level beam::function_cfb2f62a( localclientnum, self.var_ca2681ca, "tag_origin", level.var_90bda347, "tag_origin", "beam8_zm_be_a" );
     }
     
-    self playsound( localclientnum, #"hash_65dbdd02d1dccf42" );
+    self playsound( localclientnum, #"zmb_eyeball_laser_start" );
     self thread function_ff52ba5a( localclientnum );
 }
 
@@ -768,7 +768,7 @@ function function_a96b063f()
 // Size: 0x86
 function function_da0759d0()
 {
-    self endon( #"hash_2bb8be6b846aed93" );
+    self endon( #"boss_attack_beam_end" );
     
     while ( isdefined( self.var_ca2681ca ) && isdefined( level.var_90bda347 ) )
     {
@@ -806,7 +806,7 @@ function function_ff52ba5a( localclientnum )
     if ( !( isdefined( self.var_4f7e3c84 ) && self.var_4f7e3c84 ) )
     {
         self.var_4f7e3c84 = 1;
-        soundlineemitter( #"hash_3d5a33369bbe2308", self.var_da4fd8df, self.var_608d2b77 );
+        soundlineemitter( #"zmb_eyeball_laser_loop", self.var_da4fd8df, self.var_608d2b77 );
         self thread function_1c341163( localclientnum );
         self thread function_2585c107();
     }
@@ -818,7 +818,7 @@ function function_ff52ba5a( localclientnum )
 // Size: 0x150
 function function_2585c107()
 {
-    self endon( #"hash_2bb8be6b846aed93" );
+    self endon( #"boss_attack_beam_end" );
     level endon( #"intermission" );
     
     while ( true )
@@ -831,7 +831,7 @@ function function_2585c107()
             var_37b53ba7 = self.var_608d2b77;
             self.var_da4fd8df = self.var_ca2681ca gettagorigin( "tag_origin" );
             self.var_608d2b77 = var_79fd35f9;
-            soundupdatelineemitter( #"hash_3d5a33369bbe2308", var_f370dc28, var_37b53ba7, self.var_da4fd8df, self.var_608d2b77 );
+            soundupdatelineemitter( #"zmb_eyeball_laser_loop", var_f370dc28, var_37b53ba7, self.var_da4fd8df, self.var_608d2b77 );
         }
         
         wait 0.1;
@@ -845,8 +845,8 @@ function function_2585c107()
 function function_1c341163( localclientnum )
 {
     level endon( #"intermission" );
-    self waittill( #"hash_2bb8be6b846aed93" );
-    soundstoplineemitter( #"hash_3d5a33369bbe2308", self.var_da4fd8df, self.var_608d2b77 );
+    self waittill( #"boss_attack_beam_end" );
+    soundstoplineemitter( #"zmb_eyeball_laser_loop", self.var_da4fd8df, self.var_608d2b77 );
     
     if ( isdefined( self ) )
     {
@@ -890,8 +890,8 @@ function function_e1af20d7( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( self zm_utility::function_f8796df3( localclientnum ) )
         {
-            self playsound( localclientnum, #"hash_6448985393417e0c" );
-            self.var_8ff4b42c = self playloopsound( #"hash_3c4934dafbb5efee" );
+            self playsound( localclientnum, #"zmb_eyeball_plr_frozen_start" );
+            self.var_8ff4b42c = self playloopsound( #"zmb_eyeball_plr_frozen_loop" );
         }
         
         return;
@@ -905,7 +905,7 @@ function function_e1af20d7( localclientnum, oldval, newval, bnewent, binitialsna
             self.var_8ff4b42c = undefined;
         }
         
-        self playsound( localclientnum, #"hash_286c32a151d527cf" );
+        self playsound( localclientnum, #"zmb_eyeball_plr_frozen_break" );
     }
     
     self function_116b95e5( #"hash_349a56ada2bc0bc8", "Reveal Threshold", 0 );
@@ -993,7 +993,7 @@ function function_b415e676( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x124
 function function_e3c6c272( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    self notify( #"hash_7541447588c20db8" );
+    self notify( #"boss_end_breath_fx" );
     
     if ( isdefined( self.var_c605c611 ) && self zm_utility::function_f8796df3( localclientnum ) )
     {
@@ -1024,7 +1024,7 @@ function function_e3c6c272( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x118
 function function_ae2a3a29( localclientnum )
 {
-    self endon( #"hash_7541447588c20db8", #"death" );
+    self endon( #"boss_end_breath_fx", #"death" );
     
     while ( true )
     {

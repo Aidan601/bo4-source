@@ -111,13 +111,13 @@ function init_clientfields()
 function init_fx()
 {
     level._effect[ #"portal_ready" ] = #"maps/zm_office/fx8_teleporter_ready";
-    level._effect[ #"portal_cooldown" ] = #"hash_7793c4c65b08e6ed";
-    level._effect[ #"hash_32b0f959e6b81272" ] = #"hash_4860741425dc1daa";
-    level._effect[ #"hash_44687d6082f9a0a4" ] = #"hash_a4954ed961d6327";
-    level._effect[ #"hash_2e43973bc23c661d" ] = #"hash_28fc28160d26395e";
-    level._effect[ #"hash_69091fb60c4fb574" ] = #"hash_35e8a88a4a4563b4";
-    level._effect[ #"hash_690922b60c4fba8d" ] = #"hash_205d49f043463dd2";
-    level._effect[ #"hash_690921b60c4fb8da" ] = #"hash_19301646fb93e04c";
+    level._effect[ #"portal_cooldown" ] = #"maps/zm_office/fx8_teleporter_cooldown";
+    level._effect[ #"portal_dest_random" ] = #"hash_4860741425dc1daa";
+    level._effect[ #"portal_dest_panic" ] = #"hash_a4954ed961d6327";
+    level._effect[ #"portal_dest_groom" ] = #"hash_28fc28160d26395e";
+    level._effect[ #"portal_dest_floor1" ] = #"hash_35e8a88a4a4563b4";
+    level._effect[ #"portal_dest_floor2" ] = #"hash_205d49f043463dd2";
+    level._effect[ #"portal_dest_floor3" ] = #"hash_19301646fb93e04c";
     level._effect[ #"hash_3ae2cb0d50ae8e3e" ] = #"hash_2cafcfa899f12c0";
 }
 
@@ -145,23 +145,23 @@ function function_e4ea441( localclientnum, oldval, newval, bnewent, binitialsnap
     switch ( newval )
     {
         case 1:
-            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"hash_69091fb60c4fb574" ], self, "tag_origin" );
+            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"portal_dest_floor1" ], self, "tag_origin" );
             self.var_81884612 = self playloopsound( #"evt_teleporter_loop", 1.75 );
             break;
         case 2:
-            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"hash_690922b60c4fba8d" ], self, "tag_origin" );
+            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"portal_dest_floor2" ], self, "tag_origin" );
             self.var_81884612 = self playloopsound( #"evt_teleporter_loop", 1.75 );
             break;
         case 3:
-            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"hash_690921b60c4fb8da" ], self, "tag_origin" );
+            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"portal_dest_floor3" ], self, "tag_origin" );
             self.var_81884612 = self playloopsound( #"evt_teleporter_loop", 1.75 );
             break;
         case 4:
-            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"hash_44687d6082f9a0a4" ], self, "tag_origin" );
+            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"portal_dest_panic" ], self, "tag_origin" );
             self thread play_packa_special_looper( localclientnum );
             break;
         case 5:
-            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"hash_2e43973bc23c661d" ], self, "tag_origin" );
+            self.effect_id = util::playfxontag( localclientnum, level._effect[ #"portal_dest_groom" ], self, "tag_origin" );
             break;
     }
 }
@@ -246,7 +246,7 @@ function cage_portal_fx( localclientnum, oldval, newval, bnewent, binitialsnap, 
             self.fx_ids = array( self.fx_ids );
         }
         
-        var_330a603a = util::playfxontag( localclientnum, level._effect[ #"hash_690922b60c4fba8d" ], self, "tag_origin" );
+        var_330a603a = util::playfxontag( localclientnum, level._effect[ #"portal_dest_floor2" ], self, "tag_origin" );
         
         if ( !isdefined( self.fx_ids ) )
         {

@@ -1,11 +1,11 @@
 {
-    "name": "#hash_782776f6a01e45e3",
+    "name": "#loot_tags_random_set_2_4_torque",
     "type": "#tag",
-    "material": "#hash_4ccbf2eea2f3254f",
+    "material": "#vd/mtl_loot_ui_icon_tags_random_set_2_4_torque",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_1caa589a90d1586",
-        "icon": "image#hash_e364c7530a77a8c",
+        "icon": "image#loot_ui_icon_tags_random_set_2_4_torque",
         "isdefault": 0
     }
 }

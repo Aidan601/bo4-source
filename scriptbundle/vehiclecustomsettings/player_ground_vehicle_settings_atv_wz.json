@@ -1,7 +1,7 @@
 {
     "lightgroups_1_slots": [
         {
-            "fx": "fx#hash_18e87bec4fdb27d1",
+            "fx": "fx#vehicle/fx8_headlight_atv",
             "tag": "tag_fx_headlight_center"
         }
     ],
@@ -68,7 +68,7 @@
     "steptoenemysize": 40,
     "hash_43c4a17dfa26fd78:hash_74701269": 0,
     "name": "player_ground_vehicle_settings_atv_wz",
-    "hash_453d6d4a6ac04709:hash_e7260470": 65,
+    "vis_cone_angle": 65,
     "damagestate_lv1_numslots": 1,
     "rocketcooldown": 5,
     "targeting_radius": 200,

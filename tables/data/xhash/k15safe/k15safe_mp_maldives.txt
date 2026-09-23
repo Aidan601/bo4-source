@@ -53,8 +53,8 @@ $gray_32_one_channel
 $blacktransparent_color
 k15safe_mp_maldives
 mc/global_invisible
-hash_6d01de1a7e153d3f
-hash_7e7045264b823f7f
+wc/t8_sta_decal_blood_splatter_wall_directional_02
+wc/t8_sta_decal_blood_splatter_floor_01
 p7_gib_chunk_flesh_01
 p7_gib_chunk_flesh_03
 p7_gib_chunk_bone_03

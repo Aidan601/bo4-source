@@ -1,8 +1,8 @@
 {
-    "name": "#hash_21891542ebc7cf1b",
+    "name": "#loot_emote_wetwork_joker_gun",
     "type": "#gesture",
-    "gesture": "#hash_179463a7c99b37c3",
-    "gesture2": "#hash_656d857fe23bde76",
+    "gesture": "#boast_wetwork_joker_gun_male",
+    "gesture2": "#boast_wetwork_joker_gun_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_52f59f14ca8c261e",

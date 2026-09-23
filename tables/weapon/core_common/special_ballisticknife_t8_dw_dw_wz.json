@@ -3,7 +3,7 @@
     "baseWeapon": "#special_ballisticknife_t8_dw_dw",
     "displayname": "#hash_73f926dd393ef4df",
     "weapon70": "#special_ballisticknife_t8_dw",
-    "dualwieldWeaponName": "#hash_665510bee7104988",
+    "dualwieldWeaponName": "#special_ballisticknife_t8_lh_lh_wz",
     "soundbank": "#special_ballisticknife_t8_dw_dw_soundbank",
     "scrstr_8c8": [
         "tag_camo_darkmatter",
@@ -36,18 +36,18 @@
     "#hash_2cf49821": true,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound90": "#hash_216f906579fc3e07",
-    "firesound": "#hash_6fb83eb099d08f17",
-    "firesoundplayer": "#hash_5d898619c6dc1a15",
-    "sound240": "#hash_5993e31af4dd53ec",
-    "sound250": "#hash_55a9361a61a0ccad",
+    "sound90": "#wpn_hatchet_projectile_lp",
+    "firesound": "#wpn_ballistic_knife_fire_npc",
+    "firesoundplayer": "#wpn_ballistic_knife_fire_plr_rh",
+    "sound240": "#wpn_pistol_dryfire_npc",
+    "sound250": "#wpn_pistol_dryfire_plr",
     "tunables1": "#special_ballisticknife_t8_dw_dw_tunables_wz",
-    "weaponCamo": "#hash_1389711caf25c0a3",
+    "weaponCamo": "#camo_t8_special_ballisticknife",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_6b5af65db8be708c"
+        "#au_special_ballisticknife_t8_dw_dw_none"
     ],
     "sharedWeaponSounds": "#ballistic",
     "projectilemodel": "#wpn_t8_loot_knife_ballistic_blade_projectile",
@@ -66,7 +66,7 @@
     "meleeImpactRumble": "#defaultweapon_melee",
     "fx_bc8": "#hash_3e3caddc73aa8167",
     "fx_bd0": "#hash_3e35a1dc73a44e55",
-    "fx_f00": "#hash_5fdd021d80dd8fc6",
+    "fx_f00": "#weapon/fx8_trail_grenade",
     "normalImpactFX": "#knife_large_enter",
     "bounceImpactFX": "#bullet_small_enter",
     "bounceImpactSounds": "#hatchet_bounce"

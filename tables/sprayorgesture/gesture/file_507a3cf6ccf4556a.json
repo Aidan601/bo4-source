@@ -1,8 +1,8 @@
 {
-    "name": "#hash_507a3cf6ccf4556a",
+    "name": "#loot_emote_shared_popnlock_08",
     "type": "#gesture",
-    "gesture": "#hash_64df0785144007d4",
-    "gesture2": "#hash_51ae4262799b0b67",
+    "gesture": "#boast_popnlock_08",
+    "gesture2": "#boast_popnlock_08_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_2552eb07692ef3fa",

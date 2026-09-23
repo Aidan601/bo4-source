@@ -36,15 +36,15 @@
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
     "tunables1": "#melee_zombiearm_t8_tunables_mp",
-    "weaponCamo": "#hash_c4ee6bf675bce3e",
-    "cacWeaponXCam": "#hash_260474c4e2fe2689",
-    "cacAttachmentsXCam": "#hash_260474c4e2fe2689",
-    "weaponIconXCam": "#hash_3387fe4e35c99821",
+    "weaponCamo": "#camo_t8_melee_zombiearm",
+    "cacWeaponXCam": "#ui_cam_cac_melee_zombiearm",
+    "cacAttachmentsXCam": "#ui_cam_cac_melee_zombiearm",
+    "weaponIconXCam": "#ui_cam_icon_melee_zombiearm",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_478b6d6a5df2fef"
+        "#au_melee_zombiearm_t8_none"
     ],
     "sharedWeaponSounds": "#zombiearm",
     "viewmodel": [

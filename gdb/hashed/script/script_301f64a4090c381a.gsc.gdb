@@ -1,4 +1,4 @@
-NAME script_301f64a4090c381a
+NAME scripts/zm_common/zm_faction_buffs.gsc
 VERSION 0
 CHECKSUM 0xf1c9952c
 ######################################################

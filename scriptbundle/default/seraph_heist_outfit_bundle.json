@@ -1,10 +1,10 @@
 {
-    "buttonimage": "image#hash_53a82a0702465e21",
-    "popupimage": "image#hash_25656f201f13edd3",
-    "nametext": "localized17#hash_3c87adcaa0945c33",
+    "buttonimage": "image#ui_icon_blackmarket_promos_the_professional_button_small",
+    "popupimage": "image#ui_icon_blackmarket_promos_the_professional_large_preview",
+    "nametext": "localized17#menu/seraph_heist_outfit_bundle",
     "categorytext": "localized17#hash_30951b5b7749b8df",
     "name": "seraph_heist_outfit_bundle",
-    "desctext": "localized17#hash_2ed1f37a79f5cd25",
-    "previewimage": "image#hash_a955b2aa21920d2",
-    "reserveimage": "image#hash_43e9cb5699e9c71d"
+    "desctext": "localized17#menu/seraph_heist_outfit_bundle_desc",
+    "previewimage": "image#ui_icon_blackmarket_promos_the_professional_item_detail",
+    "reserveimage": "image#ui_icon_blackmarket_promos_the_professional_button_large"
 }

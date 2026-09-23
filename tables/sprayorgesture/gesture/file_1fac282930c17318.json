@@ -1,12 +1,12 @@
 {
-    "name": "#hash_1fac282930c17318",
+    "name": "#loot_emote_exotic_shared_slapshot",
     "type": "#gesture",
-    "gesture": "#hash_82c00a765307761",
-    "gesture2": "#hash_790db926d78cd0ca",
+    "gesture": "#boast_slapshot",
+    "gesture2": "#boast_slapshot_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_54f1c7237f7f0f1b",
-        "icon": "image#hash_3fa485589451a84d",
+        "icon": "image#ui_icon_emotes_s3_slapshot",
         "isdefault": 0
     }
 }

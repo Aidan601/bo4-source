@@ -62,10 +62,10 @@ function autoexec registerbehaviorscriptfunctions()
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_6263cd4f7b34692e", &function_fdde7116 );
     assert( isscriptfunctionptr( &function_fdde7116 ) );
     behaviorstatemachine::registerbsmscriptapiinternal( #"hash_6263cd4f7b34692e", &function_fdde7116 );
-    assert( isscriptfunctionptr( &function_66063225 ) );
-    behaviortreenetworkutility::registerbehaviortreescriptapi( #"tigershouldrun", &function_66063225 );
-    assert( isscriptfunctionptr( &function_66063225 ) );
-    behaviorstatemachine::registerbsmscriptapiinternal( #"tigershouldrun", &function_66063225 );
+    assert( isscriptfunctionptr( &tigershouldrun ) );
+    behaviortreenetworkutility::registerbehaviortreescriptapi( #"tigershouldrun", &tigershouldrun );
+    assert( isscriptfunctionptr( &tigershouldrun ) );
+    behaviorstatemachine::registerbsmscriptapiinternal( #"tigershouldrun", &tigershouldrun );
     assert( !isdefined( &function_e0f73303 ) || isscriptfunctionptr( &function_e0f73303 ) );
     assert( !isdefined( undefined ) || isscriptfunctionptr( undefined ) );
     assert( !isdefined( &function_351bcb1b ) || isscriptfunctionptr( &function_351bcb1b ) );
@@ -118,7 +118,7 @@ function function_1637910a()
 // Size: 0x16
 function function_8747b993()
 {
-    self.var_86152978 = gettime() + 15000;
+    self.pouncedelay = gettime() + 15000;
 }
 
 // Namespace tigerbehavior/archetype_tiger
@@ -617,7 +617,7 @@ function function_36b5df8c( behaviortreeentity )
         return false;
     }
     
-    if ( gettime() <= self.var_86152978 )
+    if ( gettime() <= self.pouncedelay )
     {
         return false;
     }
@@ -660,7 +660,7 @@ function function_fdde7116( behaviortreeentity )
 // Params 1
 // Checksum 0xbfd39178, Offset: 0x2330
 // Size: 0x4c, Type: bool
-function function_66063225( behaviortreeentity )
+function tigershouldrun( behaviortreeentity )
 {
     if ( isdefined( behaviortreeentity.aat_turned ) && behaviortreeentity.aat_turned )
     {
@@ -1410,7 +1410,7 @@ function function_b708cfe7()
         {
             if ( isalive( enemy ) )
             {
-                enemy.var_86152978 = gettime();
+                enemy.pouncedelay = gettime();
             }
         }
     }
@@ -1428,7 +1428,7 @@ function function_b708cfe7()
         while ( true )
         {
             waitframe( 1 );
-            string = getdvarstring( #"hash_3b467d1615c469f8", "<dev string:x60>" );
+            string = getdvarstring( #"tiger_devgui_cmd", "<dev string:x60>" );
             cmd = strtok( string, "<dev string:x185>" );
             
             if ( cmd.size > 0 )
@@ -1454,7 +1454,7 @@ function function_b708cfe7()
                 }
             }
             
-            setdvar( #"hash_3b467d1615c469f8", "<dev string:x60>" );
+            setdvar( #"tiger_devgui_cmd", "<dev string:x60>" );
         }
     }
 

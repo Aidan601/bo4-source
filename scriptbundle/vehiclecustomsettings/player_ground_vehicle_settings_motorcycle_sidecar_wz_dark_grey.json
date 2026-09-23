@@ -15,7 +15,7 @@
         }
     ],
     "retention_distance": 400,
-    "death_dynmodel0": "model#hash_416174a6fe429da1",
+    "death_dynmodel0": "model#veh_t8_civ_motorcycle_sidecar_spawn_dark_grey",
     "hash_8b302f69aa9fbc1:hash_efc15586": 10,
     "hash_9275fbc7a75ff78:hash_e1d36c37": 300,
     "hash_96fe350753322b6:hash_6754976b": 0,
@@ -71,7 +71,7 @@
     "steptoenemysize": 40,
     "hash_43c4a17dfa26fd78:hash_74701269": 0,
     "name": "player_ground_vehicle_settings_motorcycle_sidecar_wz_dark_grey",
-    "hash_453d6d4a6ac04709:hash_e7260470": 65,
+    "vis_cone_angle": 65,
     "damagestate_lv1_numslots": 1,
     "rocketcooldown": 5,
     "targeting_radius": 200,

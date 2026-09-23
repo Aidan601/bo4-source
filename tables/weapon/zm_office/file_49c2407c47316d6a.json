@@ -1,5 +1,5 @@
 {
-    "name": "#hash_49c2407c47316d6a",
+    "name": "#zitem_office_teleporter_modifier_part_3_zm",
     "baseWeapon": "#hash_46a10fe5f2b5c396",
     "soundbank": "#hash_6ebcb4c0af4926fc",
     "worldModelTagRight": "tag_weapon_right",
@@ -26,8 +26,8 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "gadgetreadysoundplayer": "#hash_322907f92aa0449b",
     "tunables1": "#hash_4aec377b61d4307e",
     "viewmodel": [

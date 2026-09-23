@@ -108,16 +108,16 @@ function function_7b7ba154( s_params )
     
     switch ( e_attacker.script_string )
     {
-        case #"hash_7ebf57684b9746dc":
+        case #"hellpool_arena_to_tower_nw":
             var_378e29b9 = "towers_acid_trap_built_ra";
             break;
-        case #"hash_7eae57684b88d3a9":
+        case #"hellpool_arena_to_tower_sw":
             var_378e29b9 = "towers_acid_trap_built_danu";
             break;
-        case #"hash_7ebf49684b972f12":
+        case #"hellpool_arena_to_tower_ne":
             var_378e29b9 = "towers_acid_trap_built_odin";
             break;
-        case #"hash_7eae45684b88b513":
+        case #"hellpool_arena_to_tower_se":
             var_378e29b9 = "towers_acid_trap_built_zeus";
             break;
         default:

@@ -625,7 +625,7 @@ function function_365c39ef( awareness_action, bundle )
             return bundle.var_6ae8117c;
         case #"doublejump_boosted":
             return bundle.var_37bac39d;
-        case #"hash_589eac8b592bcb4d":
+        case #"melee_missed":
             return bundle.var_3b22f5be;
         case #"weapon_fired":
             return bundle.var_abea5dd8;
@@ -664,7 +664,7 @@ function monitor_detectnearbyenemies( local_client_num )
     while ( true )
     {
         /#
-            if ( getdvarint( #"hash_340cb17d497f0877", 0 ) > 0 )
+            if ( getdvarint( #"live_update_awareness", 0 ) > 0 )
             {
                 level.var_6fc25f5c = getscriptbundle( #"awareness" );
                 var_55336d8d = level.var_6fc25f5c;
@@ -777,7 +777,7 @@ function monitor_detectnearbyenemies( local_client_num )
             
             if ( !var_7aeac1e7 )
             {
-                if ( speed >= bundle.var_293163bd )
+                if ( speed >= bundle.detectionminspeed )
                 {
                     movement_type = sixthsenseent getmovementtype();
                     
@@ -896,15 +896,15 @@ function monitor_detectnearbyenemies( local_client_num )
                 }
                 
                 localplayeranglestoright = anglestoright( playerangles );
-                var_21060744 = vectordot( vectorflat, localplayeranglestoright ) < 0;
+                onleftside = vectordot( vectorflat, localplayeranglestoright ) < 0;
                 
                 if ( cosangle > 0 )
                 {
-                    enemydetectedbitfield |= var_c729e60c << ( var_21060744 ? 15 : 3 );
+                    enemydetectedbitfield |= var_c729e60c << ( onleftside ? 15 : 3 );
                     continue;
                 }
                 
-                enemydetectedbitfield |= var_c729e60c << ( var_21060744 ? 12 : 6 );
+                enemydetectedbitfield |= var_c729e60c << ( onleftside ? 12 : 6 );
             }
         }
         
@@ -918,7 +918,7 @@ function monitor_detectnearbyenemies( local_client_num )
                 
                 for ( i = 0; i < 6 ; i++ )
                 {
-                    self thread function_c90f8547( var_c948d7f9[ i ], bitfields & ( 1 << 4 ) - 1, bundle.var_a3d426e6 );
+                    self thread function_c90f8547( var_c948d7f9[ i ], bitfields & ( 1 << 4 ) - 1, bundle.awarenessdelay );
                     bitfields >>= 3;
                 }
                 
@@ -952,7 +952,7 @@ function monitor_detectnearbyenemies( local_client_num )
             {
                 for ( i = 0; i < 6 ; i++ )
                 {
-                    self thread function_c90f8547( var_c948d7f9[ i ], 0, bundle.var_a3d426e6 );
+                    self thread function_c90f8547( var_c948d7f9[ i ], 0, bundle.awarenessdelay );
                 }
                 
                 previousenemydetectedbitfield = 0;
@@ -998,14 +998,14 @@ function function_c2b5b27c( local_client_num )
         
         if ( isdefined( waitresult.var_53714565 ) )
         {
-            var_9f19a239 = waitresult.var_53714565;
+            performer = waitresult.var_53714565;
             
-            if ( !isdefined( var_9f19a239.var_629d0f94 ) )
+            if ( !isdefined( performer.var_629d0f94 ) )
             {
-                var_9f19a239.var_629d0f94 = [];
+                performer.var_629d0f94 = [];
             }
             
-            var_9f19a239.var_629d0f94[ waitresult.action ] = gettime();
+            performer.var_629d0f94[ waitresult.action ] = gettime();
         }
     }
 }

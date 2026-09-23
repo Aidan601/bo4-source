@@ -1,7 +1,7 @@
 {
-    "shopicon": "image#hash_490f5cf28828cab0",
+    "shopicon": "image#loot04_ui_icon_blackmarket_itemshop_assassin_epic1_spectre",
     "nametext": "localized17#hash_3b0767ee4125d1b4",
     "name": "outfit_warrior_epic1_wetworks_spectre_sunset_bundle_shop",
-    "desctext": "localized17#hash_2b7f2d614d161f1d",
+    "desctext": "localized17#menu/outfit_warpaint_desc",
     "hash_5705c4c12fe1d66a:hash_975cc0d1": "localized17#heroes/spectre"
 }

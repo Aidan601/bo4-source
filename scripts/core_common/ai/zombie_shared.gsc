@@ -381,7 +381,7 @@ function handlenotetrack( note, flagname, customfunction, var1 )
         case #"no pain":
             self.allowpain = 0;
             break;
-        case #"hash_50c6c08f5de3ec2a":
+        case #"allow pain":
             self.allowpain = 1;
             break;
         case #"anim_melee = right":

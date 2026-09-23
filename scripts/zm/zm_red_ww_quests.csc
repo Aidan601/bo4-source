@@ -26,7 +26,7 @@ function init()
     clientfield::register( "scriptmover", "" + #"hash_1cdf2252d9f82767", 16000, 1, "int", &function_dcfcbf53, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_1d886dddf28e80bc", 16000, 1, "int", &function_9d8dd7, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_1bf7e7b03fec9e45", 16000, 1, "int", &function_3d5367c, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"hash_776a3c21050eaa0", 16000, 1, "int", &function_66bf3a98, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"tall_brazier_fire_fx", 16000, 1, "int", &tall_brazier_fire_fx, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_4e65af2ec1b830f7", 16000, 1, "int", &function_d152d13c, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_7f97409952dd051b", 16000, 1, "int", &function_58806d4f, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_4ff047c7bc266fd7", 16000, 1, "int", &function_b2beae83, 0, 0 );
@@ -79,25 +79,25 @@ function init()
     level._effect[ #"charon_combat_fx" ] = #"hash_7b7ba0ac0755a064";
     level._effect[ #"hemera_combat_fx" ] = #"hash_7e9736ee8b5ec443";
     level._effect[ #"ouranos_combat_fx" ] = #"hash_194fead3457d21f5";
-    level._effect[ #"hash_4024dfc409879380" ] = #"hash_570e356dcecf7c0f";
-    level._effect[ #"hash_18794d000c118e97" ] = #"hash_131f7254a32ca20e";
-    level._effect[ #"hash_799b84ee296b448d" ] = #"hash_690957421115776c";
-    level._effect[ #"hash_25540559b2b0c1b4" ] = #"hash_3f2f5721b1727993";
-    level._effect[ #"hash_3c9246be63bb58bd" ] = #"hash_5199aa40f704fb10";
-    level._effect[ #"hash_23f796cb2dcb35c3" ] = #"hash_1dfbcfd9b38812ed";
-    level._effect[ #"hash_3c9241be63bb503e" ] = #"hash_56c34b9c914d89a7";
-    level._effect[ #"hash_32278e3b7ad26e0" ] = #"hash_1185a069551613dc";
-    level._effect[ #"hash_3c9256be63bb73ed" ] = #"maps/zm_red/fx8_soul_red";
-    level._effect[ #"hash_70ef864effe35b13" ] = #"maps/zm_red/fx8_soul_charge_red";
-    level._effect[ #"hash_3c924bbe63bb613c" ] = #"hash_36d2617efc112fc";
-    level._effect[ #"hash_2c33b0af2f93389e" ] = #"hash_7425021c14828449";
+    level._effect[ #"charon_teleport_3p" ] = #"hash_570e356dcecf7c0f";
+    level._effect[ #"gaia_teleport_3p" ] = #"hash_131f7254a32ca20e";
+    level._effect[ #"hemera_teleport_3p" ] = #"hash_690957421115776c";
+    level._effect[ #"ouranos_teleport_3p" ] = #"hash_3f2f5721b1727993";
+    level._effect[ #"pap_projectile_b" ] = #"maps/zm_red/fx8_soul_blue";
+    level._effect[ #"hash_23f796cb2dcb35c3" ] = #"maps/zm_red/fx8_soul_charge_blue";
+    level._effect[ #"pap_projectile_g" ] = #"maps/zm_red/fx8_soul_green";
+    level._effect[ #"hash_32278e3b7ad26e0" ] = #"maps/zm_red/fx8_soul_charge_green";
+    level._effect[ #"pap_projectile_r" ] = #"maps/zm_red/fx8_soul_red";
+    level._effect[ #"pap_projectile_r_end" ] = #"maps/zm_red/fx8_soul_charge_red";
+    level._effect[ #"pap_projectile_y" ] = #"maps/zm_red/fx8_soul_yellow";
+    level._effect[ #"pap_projectile_y_end" ] = #"maps/zm_red/fx8_soul_charge_yellow";
     level._effect[ #"gaia_sprout_fx" ] = #"hash_4ee71079fa3bd589";
     level._effect[ #"hash_28b5e7d929f598ee" ] = #"hash_7d10580c812fce51";
     level._effect[ #"hash_3f03e0537e170fc4" ] = #"hash_647338beb2cb34ec";
-    zm_sq_modules::function_d8383812( #"ww_sc_earth", 16000, #"ww_sc_g", 100, level._effect[ #"hash_3c9241be63bb503e" ], level._effect[ #"hash_32278e3b7ad26e0" ], undefined, undefined, 1 );
-    zm_sq_modules::function_d8383812( #"ww_sc_death", 16000, #"ww_sc_c", 100, level._effect[ #"hash_3c9256be63bb73ed" ], level._effect[ #"hash_70ef864effe35b13" ], undefined, undefined, 1 );
-    zm_sq_modules::function_d8383812( #"ww_sc_light", 16000, #"ww_sc_h", 100, level._effect[ #"hash_3c924bbe63bb613c" ], level._effect[ #"hash_2c33b0af2f93389e" ], undefined, undefined, 1 );
-    zm_sq_modules::function_d8383812( #"ww_sc_air", 16000, #"ww_sc_o", 100, level._effect[ #"hash_3c9246be63bb58bd" ], level._effect[ #"hash_23f796cb2dcb35c3" ], undefined, undefined, 1 );
+    zm_sq_modules::function_d8383812( #"ww_sc_earth", 16000, #"ww_sc_g", 100, level._effect[ #"pap_projectile_g" ], level._effect[ #"hash_32278e3b7ad26e0" ], undefined, undefined, 1 );
+    zm_sq_modules::function_d8383812( #"ww_sc_death", 16000, #"ww_sc_c", 100, level._effect[ #"pap_projectile_r" ], level._effect[ #"pap_projectile_r_end" ], undefined, undefined, 1 );
+    zm_sq_modules::function_d8383812( #"ww_sc_light", 16000, #"ww_sc_h", 100, level._effect[ #"pap_projectile_y" ], level._effect[ #"pap_projectile_y_end" ], undefined, undefined, 1 );
+    zm_sq_modules::function_d8383812( #"ww_sc_air", 16000, #"ww_sc_o", 100, level._effect[ #"pap_projectile_b" ], level._effect[ #"hash_23f796cb2dcb35c3" ], undefined, undefined, 1 );
 }
 
 // Namespace zm_red_ww_quests/zm_red_ww_quests
@@ -390,7 +390,7 @@ function function_d152d13c( localclientnum, oldval, newval, bnewent, binitialsna
 {
     if ( newval )
     {
-        if ( self.model === #"hash_31a411dafa5678e2" )
+        if ( self.model === #"p8_zm_red_rune_circle_hemera" )
         {
             self.var_97486d35 = playfx( localclientnum, level._effect[ #"hash_1ba95bf40a5e2422" ], self.origin );
         }
@@ -474,7 +474,7 @@ function charon_portal_fx( localclientnum, oldval, newval, bnewent, binitialsnap
     if ( newval )
     {
         self.var_8eb4e749 = util::playfxontag( localclientnum, level._effect[ #"charon_portal_active" ], self, "tag_origin" );
-        playsound( localclientnum, #"hash_2545ab11d0e8966a", self.origin );
+        playsound( localclientnum, #"zmb_portal_open", self.origin );
         return;
     }
     
@@ -483,7 +483,7 @@ function charon_portal_fx( localclientnum, oldval, newval, bnewent, binitialsnap
         stopfx( localclientnum, self.var_8eb4e749 );
     }
     
-    playsound( localclientnum, #"hash_15e7e9734cce421e", self.origin );
+    playsound( localclientnum, #"zmb_portal_close", self.origin );
 }
 
 // Namespace zm_red_ww_quests/zm_red_ww_quests
@@ -573,7 +573,7 @@ function charon_teleport_postfx( localclientnum, oldval, newval, bnewent, biniti
         }
         else
         {
-            self.var_f252bba1[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"hash_4024dfc409879380" ], self, "j_spine4" );
+            self.var_f252bba1[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"charon_teleport_3p" ], self, "j_spine4" );
         }
         
         return;
@@ -667,7 +667,7 @@ function function_162c09a8( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval == 1 )
     {
         self playrenderoverridebundle( "rob_gaia_bush_transform_start" );
-        util::lock_model( #"hash_3cb03679991cf4ad" );
+        util::lock_model( #"p8_zm_red_gaia_bush_01_script" );
         return;
     }
     
@@ -679,7 +679,7 @@ function function_162c09a8( localclientnum, oldval, newval, bnewent, binitialsna
         self playrenderoverridebundle( "rob_gaia_bush_transform_finish" );
     }
     
-    util::unlock_model( #"hash_3cb03679991cf4ad" );
+    util::unlock_model( #"p8_zm_red_gaia_bush_01_script" );
 }
 
 // Namespace zm_red_ww_quests/zm_red_ww_quests
@@ -690,7 +690,7 @@ function gaia_portal_fx( localclientnum, oldval, newval, bnewent, binitialsnap, 
 {
     if ( newval )
     {
-        playsound( localclientnum, #"hash_2545ab11d0e8966a", self.origin );
+        playsound( localclientnum, #"zmb_portal_open", self.origin );
         wait 0.5;
         
         if ( isdefined( self ) )
@@ -708,7 +708,7 @@ function gaia_portal_fx( localclientnum, oldval, newval, bnewent, binitialsnap, 
     }
     
     self stoprenderoverridebundle( "rob_zm_gaia_portal_dissolve" );
-    playsound( localclientnum, #"hash_15e7e9734cce421e", self.origin );
+    playsound( localclientnum, #"zmb_portal_close", self.origin );
 }
 
 // Namespace zm_red_ww_quests/zm_red_ww_quests
@@ -743,7 +743,7 @@ function hemera_teleport_postfx( localclientnum, oldval, newval, bnewent, biniti
         }
         else
         {
-            self.var_f252bba1[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"hash_799b84ee296b448d" ], self, "j_spine4" );
+            self.var_f252bba1[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"hemera_teleport_3p" ], self, "j_spine4" );
         }
         
         return;
@@ -793,7 +793,7 @@ function gaia_teleport_postfx( localclientnum, oldval, newval, bnewent, binitial
         }
         else
         {
-            self.var_f252bba1[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"hash_18794d000c118e97" ], self, "j_spine4" );
+            self.var_f252bba1[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"gaia_teleport_3p" ], self, "j_spine4" );
         }
         
         return;
@@ -843,7 +843,7 @@ function ouranos_teleport_postfx( localclientnum, oldval, newval, bnewent, binit
         }
         else
         {
-            self.var_f252bba1[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"hash_25540559b2b0c1b4" ], self, "j_spine4" );
+            self.var_f252bba1[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"ouranos_teleport_3p" ], self, "j_spine4" );
         }
         
         return;
@@ -894,7 +894,7 @@ function function_3d5367c( localclientnum, oldval, newval, bnewent, binitialsnap
 // Params 7
 // Checksum 0x597a1446, Offset: 0x3b10
 // Size: 0x13c
-function function_66bf3a98( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function tall_brazier_fire_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
     if ( newval )
     {
@@ -930,13 +930,13 @@ function function_251065bc( localclientnum, oldval, newval, bnewent, binitialsna
     {
         switch ( self.model )
         {
-            case #"hash_17ff8b184015c0d0":
+            case #"p8_zm_red_gaia_bush_01_chaos_01":
                 str_tag = "tag_center_01";
                 break;
-            case #"hash_17ff8e184015c5e9":
+            case #"p8_zm_red_gaia_bush_01_chaos_02":
                 str_tag = "tag_center_02";
                 break;
-            case #"hash_17ff8d184015c436":
+            case #"p8_zm_red_gaia_bush_01_chaos_03":
                 str_tag = "tag_center_03";
                 break;
         }
@@ -970,13 +970,13 @@ function gaia_chaos_destroy( localclientnum, oldval, newval, bnewent, binitialsn
     {
         switch ( self.model )
         {
-            case #"hash_17ff8b184015c0d0":
+            case #"p8_zm_red_gaia_bush_01_chaos_01":
                 str_tag = "tag_center_01";
                 break;
-            case #"hash_17ff8e184015c5e9":
+            case #"p8_zm_red_gaia_bush_01_chaos_02":
                 str_tag = "tag_center_02";
                 break;
-            case #"hash_17ff8d184015c436":
+            case #"p8_zm_red_gaia_bush_01_chaos_03":
                 str_tag = "tag_center_03";
                 break;
         }

@@ -57,7 +57,7 @@ function autoexec function_313e9d31()
     {
         var_43645456 = wildcard.playerloadoutrestrictions;
         playerloadoutrestrictions = getscriptbundle( var_43645456 );
-        level.playerloadoutrestrictions[ playerloadoutrestrictions.var_9bb0ceab ] = playerloadoutrestrictions;
+        level.playerloadoutrestrictions[ playerloadoutrestrictions.wildcarditemname ] = playerloadoutrestrictions;
     }
 }
 
@@ -789,9 +789,9 @@ function private give_talents()
     
     foreach ( var_ebdddedf in self.var_c8836f02 )
     {
-        if ( var_ebdddedf.namehash == #"hash_6be738527a4213aa" && level.hardcoremode )
+        if ( var_ebdddedf.namehash == #"gear_armor_mp" && level.hardcoremode )
         {
-            var_ebdddedf.namehash = #"hash_5c9c79c25b74b7bb";
+            var_ebdddedf.namehash = #"gear_armor_hardcore_mp";
         }
         
         var_b3ed76f5 = function_c84c77d8( var_ebdddedf.loadoutslot );
@@ -1161,9 +1161,9 @@ function private function_3aa744b9( slot, weapon )
     
     if ( slot === "primary" )
     {
-        self.playerloadoutrestrictions.var_355c3581 -= num_attachments;
+        self.playerloadoutrestrictions.numprimaryattachments -= num_attachments;
         
-        if ( self.playerloadoutrestrictions.var_355c3581 < 0 )
+        if ( self.playerloadoutrestrictions.numprimaryattachments < 0 )
         {
             return false;
         }
@@ -1180,9 +1180,9 @@ function private function_3aa744b9( slot, weapon )
     }
     else if ( slot === "secondary" )
     {
-        self.playerloadoutrestrictions.var_934131b6 -= num_attachments;
+        self.playerloadoutrestrictions.numsecondaryattachments -= num_attachments;
         
-        if ( self.playerloadoutrestrictions.var_934131b6 < 0 )
+        if ( self.playerloadoutrestrictions.numsecondaryattachments < 0 )
         {
             return false;
         }
@@ -1212,12 +1212,12 @@ function private function_d126318c( slot, weapon )
     
     if ( slot === "primary" )
     {
-        var_b5bd8bd9 = self.playerloadoutrestrictions.var_355c3581;
+        var_b5bd8bd9 = self.playerloadoutrestrictions.numprimaryattachments;
         remove_uber = self.playerloadoutrestrictions.var_882b6b71 < 0;
     }
     else if ( slot === "secondary" )
     {
-        var_b5bd8bd9 = self.playerloadoutrestrictions.var_934131b6;
+        var_b5bd8bd9 = self.playerloadoutrestrictions.numsecondaryattachments;
         remove_uber = self.playerloadoutrestrictions.var_c3fc8c73 < 0;
     }
     
@@ -1536,7 +1536,7 @@ function function_c3448ab0( slot, previous_weapon, force_give_gadget_health_rege
     
     if ( globallogic_utils::function_308e3379() )
     {
-        secondaryoffhand = getweapon( #"hash_28323cd36d8b5f93" );
+        secondaryoffhand = getweapon( #"gadget_health_regen_bb" );
         secondaryoffhandcount = 0;
     }
     else if ( force_give_gadget_health_regen === 1 && level.new_health_model )
@@ -1862,11 +1862,11 @@ function private function_b61852e1()
     self notify( "25e412c683e8d36" );
     self endon( "25e412c683e8d36" );
     waitframe( 1 );
-    self luinotifyevent( #"hash_21e30e91084f7e66", 0 );
+    self luinotifyevent( #"post_loadout_given", 0 );
     wait 0.1;
-    self luinotifyevent( #"hash_21e30e91084f7e66", 0 );
+    self luinotifyevent( #"post_loadout_given", 0 );
     wait 0.5;
-    self luinotifyevent( #"hash_21e30e91084f7e66", 0 );
+    self luinotifyevent( #"post_loadout_given", 0 );
 }
 
 // Namespace loadout/player_loadout
@@ -2229,10 +2229,10 @@ function private function_8aa3ff4e()
     wildcards = self function_6f2c0492( self.class_num );
     self.playerloadoutrestrictions = spawnstruct();
     self.playerloadoutrestrictions.numprimaryweapons = isdefined( level.playerloadoutrestrictions[ 0 ].numprimaryweapons ) ? level.playerloadoutrestrictions[ 0 ].numprimaryweapons : 0;
-    self.playerloadoutrestrictions.var_355c3581 = isdefined( level.playerloadoutrestrictions[ 0 ].var_355c3581 ) ? level.playerloadoutrestrictions[ 0 ].var_355c3581 : 0;
+    self.playerloadoutrestrictions.numprimaryattachments = isdefined( level.playerloadoutrestrictions[ 0 ].numprimaryattachments ) ? level.playerloadoutrestrictions[ 0 ].numprimaryattachments : 0;
     self.playerloadoutrestrictions.var_882b6b71 = isdefined( level.playerloadoutrestrictions[ 0 ].var_882b6b71 ) ? level.playerloadoutrestrictions[ 0 ].var_882b6b71 : 0;
     self.playerloadoutrestrictions.var_ab1984e9 = isdefined( level.playerloadoutrestrictions[ 0 ].var_ab1984e9 ) ? level.playerloadoutrestrictions[ 0 ].var_ab1984e9 : 0;
-    self.playerloadoutrestrictions.var_934131b6 = isdefined( level.playerloadoutrestrictions[ 0 ].var_934131b6 ) ? level.playerloadoutrestrictions[ 0 ].var_934131b6 : 0;
+    self.playerloadoutrestrictions.numsecondaryattachments = isdefined( level.playerloadoutrestrictions[ 0 ].numsecondaryattachments ) ? level.playerloadoutrestrictions[ 0 ].numsecondaryattachments : 0;
     self.playerloadoutrestrictions.var_c3fc8c73 = isdefined( level.playerloadoutrestrictions[ 0 ].var_c3fc8c73 ) ? level.playerloadoutrestrictions[ 0 ].var_c3fc8c73 : 0;
     self.playerloadoutrestrictions.var_a2ef45f8 = isdefined( level.playerloadoutrestrictions[ 0 ].var_a2ef45f8 ) ? level.playerloadoutrestrictions[ 0 ].var_a2ef45f8 : 0;
     self.playerloadoutrestrictions.var_cd3db98c = isdefined( level.playerloadoutrestrictions[ 0 ].var_cd3db98c ) ? level.playerloadoutrestrictions[ 0 ].var_cd3db98c : 0;
@@ -2240,17 +2240,17 @@ function private function_8aa3ff4e()
     
     if ( isdefined( wildcards ) && wildcards.size > 0 )
     {
-        foreach ( var_9bb0ceab in wildcards )
+        foreach ( wildcarditemname in wildcards )
         {
-            var_47dbd1c3 = level.playerloadoutrestrictions[ var_9bb0ceab ];
+            var_47dbd1c3 = level.playerloadoutrestrictions[ wildcarditemname ];
             
             if ( isdefined( var_47dbd1c3 ) )
             {
                 self.playerloadoutrestrictions.numprimaryweapons += isdefined( var_47dbd1c3.numprimaryweapons ) ? var_47dbd1c3.numprimaryweapons : 0;
-                self.playerloadoutrestrictions.var_355c3581 += isdefined( var_47dbd1c3.var_355c3581 ) ? var_47dbd1c3.var_355c3581 : 0;
+                self.playerloadoutrestrictions.numprimaryattachments += isdefined( var_47dbd1c3.numprimaryattachments ) ? var_47dbd1c3.numprimaryattachments : 0;
                 self.playerloadoutrestrictions.var_882b6b71 += isdefined( var_47dbd1c3.var_882b6b71 ) ? var_47dbd1c3.var_882b6b71 : 0;
                 self.playerloadoutrestrictions.var_ab1984e9 += isdefined( var_47dbd1c3.var_ab1984e9 ) ? var_47dbd1c3.var_ab1984e9 : 0;
-                self.playerloadoutrestrictions.var_934131b6 += isdefined( var_47dbd1c3.var_934131b6 ) ? var_47dbd1c3.var_934131b6 : 0;
+                self.playerloadoutrestrictions.numsecondaryattachments += isdefined( var_47dbd1c3.numsecondaryattachments ) ? var_47dbd1c3.numsecondaryattachments : 0;
                 self.playerloadoutrestrictions.var_c3fc8c73 += isdefined( var_47dbd1c3.var_c3fc8c73 ) ? var_47dbd1c3.var_c3fc8c73 : 0;
                 self.playerloadoutrestrictions.var_a2ef45f8 += isdefined( var_47dbd1c3.var_a2ef45f8 ) ? var_47dbd1c3.var_a2ef45f8 : 0;
                 self.playerloadoutrestrictions.var_cd3db98c += isdefined( var_47dbd1c3.var_cd3db98c ) ? var_47dbd1c3.var_cd3db98c : 0;

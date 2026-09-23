@@ -10,8 +10,8 @@
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                    "clientfield": "#hash_6608231515ad6e93"
+                    "ispersonalitem": 0,
+                    "clientfield": "#teleporter_modifier_item_1"
                 },
                 {
                     "stages": [
@@ -21,8 +21,8 @@
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                    "clientfield": "#hash_6608241515ad7046"
+                    "ispersonalitem": 0,
+                    "clientfield": "#teleporter_modifier_item_2"
                 },
                 {
                     "stages": [
@@ -32,8 +32,8 @@
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                    "clientfield": "#hash_6608251515ad71f9"
+                    "ispersonalitem": 0,
+                    "clientfield": "#teleporter_modifier_item_3"
                 }
             ],
             "list_components": 3
@@ -48,7 +48,7 @@
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#teleporter_pad_1"
                 },
                 {
@@ -59,7 +59,7 @@
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#teleporter_pad_2"
                 }
             ],
@@ -68,17 +68,17 @@
     ],
     "shieldpieces": [
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_57735462a52670f9",
             "clientfield": "#shield_1"
         },
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_57735162a5266be0",
             "clientfield": "#shield_2"
         },
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_57735262a5266d93",
             "clientfield": "#shield_3"
         }
@@ -91,14 +91,14 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_49fbd930fd38166f"
+                                    "stageimage": "image#ui_icon_inventory_zm_white_fuse_pickup_yellow_low"
                                 },
                                 {
                                     "stageimage": "image#ui_icon_inventory_zm_white_fuse_pickup_yellow"
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+                            "ispersonalitem": 1,
                             "clientfield": "#zm_white_ww_mk2v_ammo"
                         }
                     ],
@@ -109,14 +109,14 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_330e014291b6ff39"
+                                    "stageimage": "image#ui_icon_inventory_zm_white_fuse_pickup_purple_low"
                                 },
                                 {
-                                    "stageimage": "image#hash_53a64436ec4d6140"
+                                    "stageimage": "image#ui_icon_inventory_zm_white_fuse_pickup_purple"
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+                            "ispersonalitem": 1,
                             "clientfield": "#zm_white_ww_mk2x_ammo"
                         }
                     ],
@@ -127,14 +127,14 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_55e54799fed1ca2d"
+                                    "stageimage": "image#ui_icon_inventory_zm_white_fuse_pickup_orange_low"
                                 },
                                 {
-                                    "stageimage": "image#hash_460ca6a260f318c4"
+                                    "stageimage": "image#ui_icon_inventory_zm_white_fuse_pickup_orange"
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+                            "ispersonalitem": 1,
                             "clientfield": "#zm_white_ww_mk2y_ammo"
                         }
                     ],
@@ -145,21 +145,21 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_296d50be40f77ca3"
+                                    "stageimage": "image#ui_icon_inventory_zm_white_fuse_pickup_pink_low"
                                 },
                                 {
-                                    "stageimage": "image#hash_4c928b221443789e"
+                                    "stageimage": "image#ui_icon_inventory_zm_white_fuse_pickup_pink"
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+                            "ispersonalitem": 1,
                             "clientfield": "#zm_white_ww_mk2z_ammo"
                         }
                     ],
                     "list_items": 1
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+            "ispersonalitem": 1,
             "list_phases": 4,
             "name": "zm_white_ww_mod",
             "hash_629ce50b0115bfc1:hash_a0ebe517": "#zm_white_ww_mod_phase"
@@ -175,14 +175,14 @@
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+                            "ispersonalitem": 1,
                             "clientfield": "#zm_white_ww_husk_part"
                         }
                     ],
                     "list_items": 1
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+            "ispersonalitem": 1,
             "list_phases": 1,
             "name": "zm_white_ww_husk"
         },
@@ -193,18 +193,18 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_5cc7e44a03efab70"
+                                    "stageimage": "image#ui_icon_inventory_zm_white_desk_key"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#zm_white_private_mannequin_key_part"
                         }
                     ],
                     "list_items": 1
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "list_phases": 1,
             "name": "zm_white_private_mannequin_key"
         }
@@ -251,37 +251,37 @@
         {
             "stages": [
                 {
-                    "stageimage": "image#hash_35c94057300e0eac"
+                    "stageimage": "image#ui_icon_inventory_zm_white_chemistry_kit_cables_02"
                 }
             ],
             "list_stages": 1,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-            "clientfield": "#hash_133f5935959cbd21"
+            "ispersonalitem": 0,
+            "clientfield": "#zm_white_ww_modkit_part1"
         },
         {
             "stages": [
                 {
-                    "stageimage": "image#hash_125dcc445cdead9"
+                    "stageimage": "image#ui_icon_inventory_zm_white_chemistry_kit_02"
                 }
             ],
             "list_stages": 1,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-            "clientfield": "#hash_133f5635959cb808"
+            "ispersonalitem": 0,
+            "clientfield": "#zm_white_ww_modkit_part2"
         },
         {
             "stages": [
                 {
-                    "stageimage": "image#hash_125d9c445cde5c0"
+                    "stageimage": "image#ui_icon_inventory_zm_white_chemistry_kit_01"
                 }
             ],
             "list_stages": 1,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-            "clientfield": "#hash_133f5735959cb9bb"
+            "ispersonalitem": 0,
+            "clientfield": "#zm_white_ww_modkit_part3"
         }
     ],
     "objectivebackground": "image#hash_71aaa3fae51b94e2",
     "configstringfiletype": "scriptbundle",
-    "hash_18f4a9668000591d:hash_aa76b7dd": 9,
+    "list_objprogitems": 9,
     "hash_1dd088b99b7444ff:hash_3e38620e": 0,
     "list_quests": 3,
     "type": "zminventory",
@@ -289,10 +289,10 @@
     "hash_3f9ea9d3b1ed0e8f:hash_b10f2611": "#zm_whiteteleporter_phase_num",
     "name": "zm_inventory_white",
     "hash_46ae6385a01aa163:hash_f128673a": "image#hash_1b86326ea73c0d46",
-    "hash_4cc5530197ae7206:hash_a05daa90": 3,
-    "hash_55c625aa7c011e55:hash_c029b82f": 2,
+    "list_packapunchitems": 3,
+    "list_wonderweaponphases": 2,
     "hash_5964032c6ccd2477:hash_846fa8e": "#zm_white_breakfast_trial",
     "hash_65b46d8804cb3bba:hash_f3d39d90": 0,
-    "hash_6ef84b6e3c25015d:hash_38b9613": 0,
+    "isobjprogressnonlinear": 0,
     "hash_7563aee2ccae246c:hash_16fb993f": "image#hash_1ebd66c5e00ca2ef"
 }

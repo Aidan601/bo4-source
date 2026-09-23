@@ -1,7 +1,7 @@
 {
-    "name": "#hash_49018d9a1497e4b",
-    "model": "#hash_1eed89e4bcf6f20d",
-    "unk20": "#hash_7d6f3638e451e73",
+    "name": "#destructible_veh_t8_civ_crossover_police_monaco",
+    "model": "#veh_t8_civ_crossover_police_dest_monaco",
+    "unk20": "#veh_t8_civ_crossover_dead_police_monaco",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [
@@ -14,11 +14,11 @@
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_94b5f3bad73031",
+                    "name": "#dst_car_fire_frnt",
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_5eb690639ce50eba",
+                    "name": "#dst_car_fire",
                     "unk28": "tag_body_d0"
                 },
                 {

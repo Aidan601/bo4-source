@@ -1,8 +1,8 @@
 {
-    "name": "#hash_210bb07fc268e94a",
+    "name": "#loot_emote_shared_guitar_playing",
     "type": "#gesture",
-    "gesture": "#hash_1a5707ad00ade89c",
-    "gesture2": "#hash_733920c74d461def",
+    "gesture": "#boast_guitar_playing",
+    "gesture2": "#boast_guitar_playing_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_223148679f16e65a",

@@ -227,7 +227,7 @@ function on_tripwire_spawn( watcher, player )
     self.entityenemyinfluencer = self influencers::create_entity_enemy_influencer( "claymore", player.team );
     self.destroyablebytrophysystem = 0;
     self.detonating = 0;
-    wait level.var_c72e8c51.var_e14f5fca;
+    wait level.var_c72e8c51.tripwireactivationdelay;
     player notify( #"tripwire_spawn", { #tripwire:self } );
     self clientfield::set( "tripwire_state", 1 );
     arrayinsert( level.tripwires, self, level.tripwires.size );
@@ -341,7 +341,7 @@ function function_b9549a9()
     if ( !isdefined( self.activated ) )
     {
         self playsound( #"hash_58a0696fb1726978" );
-        self playloopsound( #"hash_3e09d676ac6291c1", 0.25 );
+        self playloopsound( #"wpn_tripwire_active_loop", 0.25 );
         self.activated = 1;
     }
     
@@ -414,7 +414,7 @@ function function_55c50f15()
                 if ( !isdefined( self.activated ) )
                 {
                     self playsound( #"hash_58a0696fb1726978" );
-                    self playloopsound( #"hash_3e09d676ac6291c1", 0.25 );
+                    self playloopsound( #"wpn_tripwire_active_loop", 0.25 );
                     self.activated = 1;
                 }
             }
@@ -748,7 +748,7 @@ function function_9e546fb3( attacker, weapon, target, var_2f6adbe3, tripper )
     }
     else
     {
-        self playsound( #"hash_1f0de5f27d29d3aa" );
+        self playsound( #"wpn_tripwire_alert" );
         self.detonating = 1;
         
         if ( isdefined( var_2f6adbe3 ) )
@@ -756,7 +756,7 @@ function function_9e546fb3( attacker, weapon, target, var_2f6adbe3, tripper )
             var_2f6adbe3.detonating = 1;
         }
         
-        wait level.var_c72e8c51.var_7f1fc1ee;
+        wait level.var_c72e8c51.tripwiredetonationdelay;
         
         if ( !isdefined( self ) )
         {
@@ -776,8 +776,8 @@ function function_9e546fb3( attacker, weapon, target, var_2f6adbe3, tripper )
             explosiondist = isdefined( level.var_c72e8c51.var_13e9ceba ) ? level.var_c72e8c51.var_13e9ceba : 0;
             nearradius = isdefined( level.var_c72e8c51.var_d0a598a5 ) ? level.var_c72e8c51.var_d0a598a5 : 0;
             farradius = isdefined( level.var_c72e8c51.var_fcb3348e ) ? level.var_c72e8c51.var_fcb3348e : 0;
-            maxdamage = isdefined( level.var_c72e8c51.var_aebac5e5 ) ? level.var_c72e8c51.var_aebac5e5 : 0;
-            mindamage = isdefined( level.var_c72e8c51.var_69bf01c2 ) ? level.var_c72e8c51.var_69bf01c2 : 0;
+            maxdamage = isdefined( level.var_c72e8c51.tripwiremaxdamage ) ? level.var_c72e8c51.tripwiremaxdamage : 0;
+            mindamage = isdefined( level.var_c72e8c51.tripwiremindamage ) ? level.var_c72e8c51.tripwiremindamage : 0;
         }
         
         explosiondir = self.hitnormal;
@@ -791,7 +791,7 @@ function function_9e546fb3( attacker, weapon, target, var_2f6adbe3, tripper )
             perpvec = perpendicularvector( explosiondir );
             owner = isdefined( var_2f6adbe3.owner ) && isentity( var_2f6adbe3.owner ) ? var_2f6adbe3.owner : undefined;
             var_2f6adbe3 cylinderdamage( explosiondir * explosiondist, var_2f6adbe3.origin, nearradius, farradius, maxdamage, mindamage, owner, "MOD_EXPLOSIVE", self.weapon );
-            playfx( #"hash_69455dfeef0311c2", var_2f6adbe3.origin, explosiondir, perpvec );
+            playfx( #"weapon/fx8_equip_tripwire_exp", var_2f6adbe3.origin, explosiondir, perpvec );
             playsoundatposition( explosionsound, self.origin );
             playsoundatposition( explosionsound, var_2f6adbe3.origin );
             var_2f6adbe3 ghost();
@@ -816,7 +816,7 @@ function function_9e546fb3( attacker, weapon, target, var_2f6adbe3, tripper )
             }
             
             perpvec = perpendicularvector( explosiondir );
-            playfx( #"hash_69455dfeef0311c2", self.origin, explosiondir, perpvec );
+            playfx( #"weapon/fx8_equip_tripwire_exp", self.origin, explosiondir, perpvec );
             self playsound( explosionsound );
             
             if ( !isdefined( self.hitnormal ) )
@@ -934,12 +934,12 @@ function function_9b3a657f( weapon )
     self clientfield::set( "friendlyequip", 1 );
     playfx( #"hash_65c5042becfbaa7d", self.origin );
     
-    if ( isdefined( level.var_c72e8c51.var_bb6c29b4 ) && isdefined( weapon ) && weapon == getweapon( #"shock_rifle" ) )
+    if ( isdefined( level.var_c72e8c51.shockrifledestructionfx ) && isdefined( weapon ) && weapon == getweapon( #"shock_rifle" ) )
     {
-        playfx( level.var_c72e8c51.var_bb6c29b4, self.origin );
+        playfx( level.var_c72e8c51.shockrifledestructionfx, self.origin );
     }
     
-    playsoundatposition( #"hash_5a530df2bd2b027c", self.origin );
+    playsoundatposition( #"wpn_tripwire_remove", self.origin );
     self stoploopsound( 0.5 );
     arrayremovevalue( level.tripwires, self );
     var_886bd8dc = self.var_886bd8dc;

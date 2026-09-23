@@ -5,6 +5,6 @@
     "name": "medal_prop_killed_all_props",
     "backinglarge": "image#$whitetransparent",
     "iconsmall": "image#ui_icon_medal_clean_sweep",
-    "stringref": "localized17#hash_408f4f947f4df5d9",
+    "stringref": "localized17#medal/prop_killed_all_props",
     "iconlarge": "image#ui_icon_medal_clean_sweep_large"
 }

@@ -48,7 +48,7 @@ function init()
     elevator1.active = 0;
     elevator1.var_5a3b55a3 = getvehiclenode( "elev1_level3_start", "targetname" );
     elevator1.var_7237c31e = getvehiclenode( "elev1_level2_start", "targetname" );
-    elevator1.var_243802fa = #"hash_7041e0919c53eb4e";
+    elevator1.var_243802fa = #"evt_elevator_freight_call";
     elevator1.takedamage = 0;
     elevator1 setmovingplatformenabled( 1 );
     elevator2.cost = 500;
@@ -57,7 +57,7 @@ function init()
     elevator2.active = 0;
     elevator2.var_5a3b55a3 = getvehiclenode( "elev2_level2_start", "targetname" );
     elevator2.var_7237c31e = getvehiclenode( "elev2_level1_start", "targetname" );
-    elevator2.var_243802fa = #"hash_5a26031141f5cc33";
+    elevator2.var_243802fa = #"evt_elevator_office_call";
     elevator2.takedamage = 0;
     elevator2 setmovingplatformenabled( 1 );
     elevator1 init_elevator1_doors();
@@ -87,8 +87,8 @@ function init()
 // Size: 0x1e6
 function function_3d4e24ea()
 {
-    level._effect[ #"hash_4a38c13e2040d160" ] = #"hash_11e609d597dcebf2";
-    level.fx_elevator_light = level._effect[ #"hash_4a38c13e2040d160" ];
+    level._effect[ #"fxref_elevator_light" ] = #"hash_11e609d597dcebf2";
+    level.fx_elevator_light = level._effect[ #"fxref_elevator_light" ];
     level._effect[ #"hash_336249bfea00c9ea" ] = #"hash_48ec8658075edc9d";
     level.var_dca712ff = level._effect[ #"hash_336249bfea00c9ea" ];
     level._effect[ #"hash_3718db938f7babf7" ] = #"hash_142b1b8f881ae741";
@@ -783,7 +783,7 @@ function elevator_move_to( elevator )
     elevator.active = 0;
     elevator enable_elevator_buys();
     elevator enable_callboxes();
-    elevator notify( #"hash_26d932820f7f5373" );
+    elevator notify( #"elevator_use_complete" );
 }
 
 // Namespace zm_office_elevators/zm_office_elevators
@@ -1117,7 +1117,7 @@ function open_elev_doors()
                 }
                 
                 self.doors[ m ] thread relink_elev_doors( newpos2, self, 1 );
-                playsoundatposition( #"hash_5ef3b0941ea2aa74", newpos2 );
+                playsoundatposition( #"evt_elevator_office_door_open", newpos2 );
             }
             
             nd_elev2_in_war_room = getnode( "nd_elev2_in_war_room", "targetname" );
@@ -1173,7 +1173,7 @@ function open_elev_doors()
             pos3 = self.doors[ m ].startpos + self.doors[ m ].script_vector;
             newpos3 = ( pos3[ 0 ], pos3[ 1 ], self.doors[ m ].origin[ 2 ] );
             self.doors[ m ] thread relink_elev_doors( newpos3, self, 1 );
-            playsoundatposition( #"hash_5ef3b0941ea2aa74", newpos3 );
+            playsoundatposition( #"evt_elevator_office_door_open", newpos3 );
         }
         
         nd_elev2_in_level1 = getnode( "nd_elev2_in_level1", "targetname" );
@@ -1283,7 +1283,7 @@ function elevator1_3d_audio()
         self waittill( #"reached_end_node" );
         ent delete();
         playsoundatposition( #"evt_elevator_freight_stop", self.origin );
-        playsoundatposition( #"hash_5bbffe8bd9e541a7", self.origin + ( 0, 0, 120 ) );
+        playsoundatposition( #"evt_elevator_freight_bell", self.origin + ( 0, 0, 120 ) );
     }
 }
 
@@ -1299,10 +1299,10 @@ function elevator2_3d_audio()
         ent = spawn( "script_origin", self.origin + ( 0, 0, 30 ) );
         ent linkto( self );
         ent playsound( #"evt_elevator_office_start" );
-        ent playloopsound( #"hash_3a6fc5051c04a776" );
+        ent playloopsound( #"evt_elevator_office_run_3d" );
         self waittill( #"reached_end_node" );
         ent delete();
-        playsoundatposition( #"hash_b696d1d50b35e32", self.origin + ( 0, 0, 120 ) );
+        playsoundatposition( #"evt_elevator_office_bell", self.origin + ( 0, 0, 120 ) );
     }
 }
 

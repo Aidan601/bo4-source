@@ -1,0 +1,11 @@
+{
+    "name": "#gsol_mp_perk2_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#perk_lightweight_restriction",
+        "#gamesettings/#perk_skulker_restriction",
+        "#gamesettings/#perk_coldblooded_restriction",
+        "#gamesettings/#perk_gungho_restriction",
+        "#gamesettings/#perk_dexterity_restriction"
+    ]
+}

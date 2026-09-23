@@ -1,7 +1,7 @@
 {
-    "detailsicon": "image#hash_2b9891672da8068f",
-    "shopicon": "image#hash_2afb58350cc3ba2e",
+    "detailsicon": "image#loot05_ui_icon_blackmarket_itemdetail_bundle_grinder_reaper",
+    "shopicon": "image#loot05_ui_icon_blackmarket_itemshop_bundle_grinder_reaper",
     "nametext": "localized17#mpui/reaper_zombie",
     "name": "outfit_zombie_epic1_reaper_bundle_shop",
-    "desctext": "localized17#hash_7f28cb19ccc52d25"
+    "desctext": "localized17#mpui/reaper_zombie_desc"
 }

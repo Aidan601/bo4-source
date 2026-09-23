@@ -89,7 +89,7 @@ function init_clientfields()
 {
     clientfield::register( "scriptmover", "lighthouse_on", 24000, 3, "int" );
     clientfield::register( "vehicle", "" + #"lighthouse_beam_fx", 24000, 1, "int" );
-    clientfield::register( "actor", "" + #"hash_5af1cd27f90895ae", 24000, 1, "counter" );
+    clientfield::register( "actor", "" + #"lighthouse_beam_hit_fx", 24000, 1, "counter" );
 }
 
 // Namespace zm_orange_lighthouse/zm_orange_lighthouse
@@ -119,7 +119,7 @@ function function_da304f6e( n_state )
 {
     if ( level.var_ab11c23d.var_3931cef9 !== n_state )
     {
-        level.var_ab11c23d notify( #"hash_78fc5bbd712046b0" );
+        level.var_ab11c23d notify( #"lighthouse_state_change" );
         level.var_ab11c23d.var_3931cef9 = n_state;
         
         if ( !is_trap_active() )
@@ -158,7 +158,7 @@ function function_d85bd834()
 // Size: 0x84
 function function_dbad2f5a()
 {
-    self endon( #"death", #"hash_78fc5bbd712046b0" );
+    self endon( #"death", #"lighthouse_state_change" );
     level endon( #"end_game" );
     self thread function_1b488412( level.var_3428b470.origin, 1 );
     wait 5;
@@ -171,7 +171,7 @@ function function_dbad2f5a()
 // Size: 0x13e
 function function_1aeab14e()
 {
-    self endon( #"death", #"hash_78fc5bbd712046b0" );
+    self endon( #"death", #"lighthouse_state_change" );
     var_14c78bd5 = 2;
     var_223dfca3 = 0.2;
     var_d4cb0c1 = var_223dfca3 / 2;
@@ -200,7 +200,7 @@ function function_1aeab14e()
 // Size: 0xce
 function lighthouse_freakout()
 {
-    self endon( #"death", #"hash_78fc5bbd712046b0" );
+    self endon( #"death", #"lighthouse_state_change" );
     
     while ( true )
     {
@@ -263,14 +263,14 @@ function function_45489835( str_flag )
     switch ( str_flag )
     {
         case #"power_on1":
-            playsoundatposition( #"hash_5f9ff903d1e07acb", ( 0, 0, 0 ) );
+            playsoundatposition( #"evt_power_docks", ( 0, 0, 0 ) );
             break;
         case #"power_on2":
-            playsoundatposition( #"hash_7bb9774ddb11bc9f", ( 0, 0, 0 ) );
-            playsoundatposition( #"hash_957e90e703a238a", ( 1311, -1971, 1102 ) );
+            playsoundatposition( #"evt_power_ship", ( 0, 0, 0 ) );
+            playsoundatposition( #"evt_power_ship_swt", ( 1311, -1971, 1102 ) );
             break;
         case #"power_on3":
-            playsoundatposition( #"hash_4760ffee46ef7f74", ( 0, 0, 0 ) );
+            playsoundatposition( #"evt_power_lab", ( 0, 0, 0 ) );
             break;
     }
 }
@@ -331,7 +331,7 @@ function function_602d605()
     level.var_ab11c23d clientfield::set( "lighthouse_on", 2 );
     level.var_ab11c23d.b_blue = 1;
     
-    if ( level flag::get( #"hash_3028604821838259" ) )
+    if ( level flag::get( #"golden_pap_active" ) )
     {
         exploder::exploder( "fxexp_pap_light_icefloe" );
     }
@@ -379,7 +379,7 @@ function function_ad646ef8( n_state )
     
     if ( e_lighthouse.var_58df9892 !== n_state )
     {
-        e_lighthouse notify( #"hash_1aa56851d9d4ec0d" );
+        e_lighthouse notify( #"trap_state_change" );
         e_lighthouse.var_58df9892 = n_state;
         
         /#
@@ -392,7 +392,7 @@ function function_ad646ef8( n_state )
                 array::thread_all( level.var_f92c8836, &function_76adab5e );
                 break;
             case 1:
-                e_lighthouse notify( #"hash_6e9ab520bd7ba3c" );
+                e_lighthouse notify( #"stop_trap_timers" );
                 function_d85bd834();
                 array::run_all( level.var_f92c8836, &function_f7e6bf61, 0 );
                 n_cooldown = zm_traps::function_da13db45( 60, e_lighthouse.var_d9ae30d6 );
@@ -406,7 +406,7 @@ function function_ad646ef8( n_state )
                 array::thread_all( level.var_f92c8836, &function_76adab5e );
                 break;
             case 3:
-                e_lighthouse notify( #"hash_78fc5bbd712046b0" );
+                e_lighthouse notify( #"lighthouse_state_change" );
                 e_lighthouse thread function_71399d9c();
                 break;
             case 4:
@@ -439,7 +439,7 @@ function function_ad646ef8( n_state )
 // Size: 0x94
 function function_74b930af( n_time, n_state )
 {
-    self endon( #"death", #"hash_6e9ab520bd7ba3c" );
+    self endon( #"death", #"stop_trap_timers" );
     wait n_time;
     
     while ( n_state == 1 && ( self.var_58df9892 == 5 || self.var_58df9892 == 6 ) )
@@ -456,7 +456,7 @@ function function_74b930af( n_time, n_state )
 // Size: 0x21c
 function function_71399d9c()
 {
-    self endon( #"death", #"hash_1aa56851d9d4ec0d" );
+    self endon( #"death", #"trap_state_change" );
     
     for ( vh_target = spawner::simple_spawn_single( getent( "virgil", "targetname" ) ); !isdefined( vh_target ) ; vh_target = spawner::simple_spawn_single( getent( "virgil", "targetname" ) ) )
     {
@@ -572,7 +572,7 @@ function function_56b9aca4( e_activator )
 // Size: 0x7c
 function function_72ff128e( v_target )
 {
-    self endon( #"death", #"hash_1aa56851d9d4ec0d" );
+    self endon( #"death", #"trap_state_change" );
     self function_1b488412( v_target, 1 );
     self waittill( #"rotatedone" );
     level thread function_ad646ef8( 6 );
@@ -584,7 +584,7 @@ function function_72ff128e( v_target )
 // Size: 0x74
 function shoot_trap_target( v_target, e_activator )
 {
-    self endon( #"death", #"hash_1aa56851d9d4ec0d" );
+    self endon( #"death", #"trap_state_change" );
     wait 0.5;
     trigger_trap_explosion( v_target, e_activator );
     level thread function_ad646ef8( 7 );
@@ -655,7 +655,7 @@ function function_27304b98( var_a5a067c5, var_a75e9b3b )
 // Size: 0xdc
 function function_ef69a891( var_a5a067c5, e_activator )
 {
-    self endon( #"death", #"hash_1aa56851d9d4ec0d" );
+    self endon( #"death", #"trap_state_change" );
     e_target = var_a5a067c5 function_56b9aca4( e_activator );
     
     if ( !isdefined( e_target ) )
@@ -679,7 +679,7 @@ function function_ef69a891( var_a5a067c5, e_activator )
 // Size: 0x6e
 function function_ea089392()
 {
-    self endon( #"death", #"hash_1aa56851d9d4ec0d" );
+    self endon( #"death", #"trap_state_change" );
     
     while ( true )
     {
@@ -725,7 +725,7 @@ function electrocute_zombie()
         refs[ 5 ] = "no_legs";
         refs[ 6 ] = "head";
         self.a.gib_ref = refs[ randomint( refs.size ) ];
-        playsoundatposition( #"hash_5183b687ad8d715a", self.origin );
+        playsoundatposition( #"wpn_electric_trap_hit", self.origin );
         
         if ( math::cointoss() )
         {
@@ -735,7 +735,7 @@ function electrocute_zombie()
         bhtnactionstartevent( self, "electrocute" );
         self notify( #"bhtn_action_notify", { #action:"electrocute" } );
         wait randomfloat( 1.25 );
-        self playsound( #"hash_5183b687ad8d715a" );
+        self playsound( #"wpn_electric_trap_hit" );
     }
     
     self dodamage( self.health + 666, self.origin );
@@ -917,7 +917,7 @@ function is_trap_active()
 function function_2853c44e( e_trap )
 {
     self endon( #"death" );
-    self clientfield::increment( "" + #"hash_5af1cd27f90895ae", 1 );
+    self clientfield::increment( "" + #"lighthouse_beam_hit_fx", 1 );
     
     if ( isdefined( self.fire_damage_func ) )
     {
@@ -1011,11 +1011,11 @@ function function_b00e24fb()
 // Size: 0x80
 function function_fcbb2307()
 {
-    level endon( #"hash_9a7b18e2622af5d" );
+    level endon( #"lighthouse_power_on" );
     self endon( #"death" );
     waitresult = self waittill( #"trigger" );
     level.var_9a8dee15 = waitresult.activator;
-    level notify( #"hash_9a7b18e2622af5d" );
+    level notify( #"lighthouse_power_on" );
 }
 
 /#

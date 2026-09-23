@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_sensor_dart_multikill_x2_summary",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_82f17770433f1e1",
+    "iconsmall": "image#ui_icon_medal_litandhit",
     "stringref": "localized17#hash_7f75eb30514e5382",
     "iconlarge": "image#ui_icon_medal_litandhit_large"
 }

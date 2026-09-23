@@ -1,11 +1,11 @@
 {
-    "name": "#hash_1916e46b6dc13dbf",
+    "name": "#loot_tags_muertos_nomad",
     "type": "#tag",
-    "material": "#hash_67b9d75c95dd86a3",
+    "material": "#vd/mtl_loot_ui_icon_tags_muertos_nomad",
     "bundle": {
         "type": "#tag",
-        "title": "localized18#hash_5c376eb21b184a3e",
-        "icon": "image#hash_51dbd5b655fa0bd8",
+        "title": "localized18#tags/muertos_nomad",
+        "icon": "image#loot_ui_icon_tags_muertos_nomad",
         "isdefault": 0
     }
 }

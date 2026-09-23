@@ -180,7 +180,7 @@ function on_player_damage( params )
     {
         if ( isdefined( self.reviving_player ) && isdefined( self.reviving_player.var_d75a6ff5 ) )
         {
-            self.reviving_player.var_d75a6ff5.var_d733f8d7 += params.idamage;
+            self.reviving_player.var_d75a6ff5.reviver_damage += params.idamage;
             
             if ( self.health <= params.idamage )
             {
@@ -896,10 +896,10 @@ function bleed_out()
         self suicide();
     }
     
-    if ( getdvarint( #"hash_62b8db0428755a32", 1 ) && isplayer( self ) )
+    if ( getdvarint( #"enable_new_death_cam", 1 ) && isplayer( self ) )
     {
-        bleed_out_fade_time = getdvarfloat( #"hash_44de9418bb6289ac", 1.5 );
-        self playsoundtoplayer( #"hash_11d39dca0f911535", self );
+        bleed_out_fade_time = getdvarfloat( #"bleed_out_screen_fade_speed", 1.5 );
+        self playsoundtoplayer( #"chr_health_laststand_die", self );
         self lui::screen_fade( bleed_out_fade_time, 1, 0, "black", 0 );
         wait bleed_out_fade_time + 0.2;
         self lui::screen_fade( bleed_out_fade_time, 0, 1, "black", 0 );
@@ -1006,7 +1006,7 @@ function revive_trigger_think()
             
             if ( players[ i ] can_revive( self ) )
             {
-                self.revivetrigger setrevivehintstring( #"hash_51a0f083a5566a3", self.team );
+                self.revivetrigger setrevivehintstring( #"coop/button_to_revive_player", self.team );
                 break;
             }
         }
@@ -1104,7 +1104,7 @@ function function_356caede( team )
     }
     
     players = getplayers( team, self.revivetrigger.origin, self.revivetrigger.radius );
-    height = getdvarint( #"hash_48068f92d21e2a64", 15 );
+    height = getdvarint( #"finisher_trigger_height", 15 );
     
     foreach ( player in players )
     {
@@ -1484,7 +1484,7 @@ function revive_do_revive( playerbeingrevived )
     
     if ( isdefined( playerbeingrevived.var_d75a6ff5 ) )
     {
-        playerbeingrevived.var_d75a6ff5.var_d10f3b9a++;
+        playerbeingrevived.var_d75a6ff5.revive_attempts++;
     }
     
     self.reviving_player = playerbeingrevived;
@@ -1543,7 +1543,7 @@ function revive_do_revive( playerbeingrevived )
             }
         }
         
-        playerbeingrevived.revivetrigger sethintstring( #"hash_51a0f083a5566a3" );
+        playerbeingrevived.revivetrigger sethintstring( #"coop/button_to_revive_player" );
         playerbeingrevived.revivetrigger.beingrevived = 0;
         
         if ( isdefined( revived ) && revived && isdefined( level.var_f80fdd3f ) )
@@ -1779,7 +1779,7 @@ function revive_hud_think()
 // Size: 0x3c
 function faderevivemessageover( playertorevive, time )
 {
-    self thread laststand::revive_hud_show_n_fade( #"hash_14cc93f11ba8334a", time, playertorevive );
+    self thread laststand::revive_hud_show_n_fade( #"coop/player_needs_to_be_revived", time, playertorevive );
 }
 
 // Namespace laststand_mp/laststand
@@ -1793,7 +1793,7 @@ function function_ecdd4b27()
         return;
     }
     
-    self.var_d75a6ff5 = { #player_xuid:int( self getxuid( 1 ) ), #start_time:gettime(), #end_time:0, #damage:0, #death:0, #bleed_out:0, #var_d10f3b9a:0, #var_d733f8d7:0, #var_35b89428:0 };
+    self.var_d75a6ff5 = { #player_xuid:int( self getxuid( 1 ) ), #start_time:gettime(), #end_time:0, #damage:0, #death:0, #bleed_out:0, #revive_attempts:0, #reviver_damage:0, #reviver_death:0 };
 }
 
 // Namespace laststand_mp/laststand

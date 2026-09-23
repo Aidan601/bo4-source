@@ -2,7 +2,7 @@
     "name": "#sniper_locus_t8_upgraded_zm",
     "baseWeapon": "#sniper_locus_t8_upgraded",
     "displayname": "#zmweapon/sniper_locus_t8_upgraded",
-    "xhash_60": "#hash_5dc6749320169bff",
+    "xhash_60": "#au_sniper_locus_t8",
     "weapon70": "#sniper_locus_t8",
     "soundbank": "#sniper_locus_t8_upgraded_soundbank",
     "scrstr_8c8": [
@@ -55,16 +55,16 @@
             "1 0"
         ]
     ],
-    "firesounddistant": "#hash_5f022cd68aefd198",
-    "firesound": "#hash_32a1a3e3fa691083",
-    "firesoundplayer": "#hash_32a1a3e3fa691083",
-    "sound1d0": "#hash_94f9f21b8c5c7af",
-    "sound200": "#hash_eed602173233aca",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
-    "sound260": "#hash_515f54aa1f553686",
+    "firesounddistant": "#wpn_rifle_fire_distant",
+    "firesound": "#wpn_fast_bolt_fire_pap_plr",
+    "firesoundplayer": "#wpn_fast_bolt_fire_pap_plr",
+    "sound1d0": "#wpn_sfb_fire_npc",
+    "sound200": "#wpn_sfb_fire_plr",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
+    "sound260": "#prj_crack_supersonic",
     "sound270": "#prj_whizby",
-    "sound310": "#hash_553957b278d8e879",
+    "sound310": "#mpl_sniper_skullshot_plr",
     "sound5e0": "#fly_scope_zoom",
     "sound600": "#hash_5c9addf2686f77e2",
     "sound610": "#hash_5c9addf2686f77e2",
@@ -77,11 +77,11 @@
     "weaponIconXCam": "#hash_da36991b2da1ef84",
     "attachments": [
         "#defaultattachment",
-        "#hash_1847195a90eddc18"
+        "#acog_sniper_upgraded"
     ],
     "attachmentUniques": [
         "#hash_d72406b9984b3712",
-        "#hash_32cf0fbc5e381a59"
+        "#au_sniper_locus_t8_acog_sniper_upgraded"
     ],
     "sharedWeaponSounds": "#rifle",
     "tracers": [

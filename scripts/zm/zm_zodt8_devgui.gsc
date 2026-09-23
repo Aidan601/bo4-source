@@ -1,4 +1,4 @@
-#using script_7893277eec698972;
+#using scripts\zm\zm_zodt8_wonder_weapon_quest;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\flag_shared;
 #using scripts\zm\zm_zodt8;
@@ -48,7 +48,7 @@
     {
         switch ( cmd )
         {
-            case #"hash_50d92ca3c6c7c2a8":
+            case #"super_open_sesame":
                 level thread function_4110a06f();
                 return 1;
             case #"gear_up":
@@ -63,17 +63,17 @@
             case #"move_pap":
                 level thread function_10dafedb();
                 return 1;
-            case #"hash_74823c0e0a29545b":
+            case #"give_flare_red":
                 give_flare( "<dev string:x567>" );
                 return 1;
-            case #"hash_130280144168a5e7":
+            case #"give_flare_green":
                 give_flare( "<dev string:x56d>" );
                 return 1;
-            case #"hash_2972e55f40fe8050":
+            case #"give_flare_blue":
                 give_flare( "<dev string:x575>" );
                 return 1;
-            case #"hash_59b568ce3fe548b6":
-                level thread function_649d5f75();
+            case #"craft_distiller":
+                level thread craft_distiller();
                 return 1;
             case #"hash_be17a68845640e4":
                 level thread function_a368f5ed( "<dev string:x57c>" );
@@ -220,7 +220,7 @@
     // Params 0
     // Checksum 0x12987a31, Offset: 0x9a0
     // Size: 0x44, Type: dev
-    function function_649d5f75()
+    function craft_distiller()
     {
         a_e_players = getplayers();
         namespace_4a807bff::function_8498110e( a_e_players[ 0 ] );
@@ -297,7 +297,7 @@
         if ( round_number >= 7 )
         {
             level flag::set( "<dev string:x67e>" );
-            level flag::set( #"hash_3e80d503318a5674" );
+            level flag::set( #"artifact_picked_up" );
         }
         
         if ( round_number >= 8 )

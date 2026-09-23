@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_55ae5572388e745",
+                            "anim": "anim#p8_fxanim_mp_mal_laser_weapon_01_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_143704b69479b56e",
+                            "anim": "anim#p8_fxanim_mp_mal_laser_weapon_02_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_27abe444d68a4c17",
+                            "anim": "anim#p8_fxanim_mp_mal_laser_weapon_03_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -120,7 +120,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

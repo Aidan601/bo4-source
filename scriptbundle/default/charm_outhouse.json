@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_outhouse",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_outhouse",
     "name": "charm_outhouse",
-    "displayname": "localized17#hash_45cba18fff70aa4b",
+    "displayname": "localized17#menu/charm_outhouse",
     "icon": "ui_icon_weapon_charms_outhouse",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_outhouse"

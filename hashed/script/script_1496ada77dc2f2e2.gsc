@@ -12,9 +12,9 @@
 #using scripts\zm_common\zm_trial_util;
 #using scripts\zm_common\zm_utility;
 
-#namespace namespace_c1466447;
+#namespace zm_trial_damage_during_movement;
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 0, eflags: 0x2
 // Checksum 0xc83fd5c6, Offset: 0x158
 // Size: 0x3c
@@ -23,7 +23,7 @@ function autoexec __init__system__()
     system::register( #"hash_2c983afcd92a9970", &__init__, undefined, undefined );
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 0
 // Checksum 0xc0a41501, Offset: 0x1a0
 // Size: 0x11c
@@ -34,13 +34,13 @@ function __init__()
         return;
     }
     
-    clientfield::register( "toplayer", "" + #"hash_b905d796914b710", 14000, 1, "int" );
+    clientfield::register( "toplayer", "" + #"zm_trial_silent_film", 14000, 1, "int" );
     clientfield::register( "toplayer", "" + #"hash_1b9477ddcf30191f", 16000, 1, "int" );
-    clientfield::register( "toplayer", "" + #"hash_52347bec3f1339fd", 16000, 4, "int" );
+    clientfield::register( "toplayer", "" + #"zm_trial_perk_drunk", 16000, 4, "int" );
     zm_trial::register_challenge( #"hash_6c768f3c15d55377", &on_begin, &on_end );
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 1, eflags: 0x4
 // Checksum 0xc009e6eb, Offset: 0x2c8
 // Size: 0x26c
@@ -81,7 +81,7 @@ function private on_begin( str_style )
     callback::on_spawned( &on_player_spawned );
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 1, eflags: 0x4
 // Checksum 0x8ae116c9, Offset: 0x540
 // Size: 0x304
@@ -92,7 +92,7 @@ function private on_end( round_reset )
         case #"silent_film":
             foreach ( player in getplayers() )
             {
-                player thread clientfield::set_to_player( "" + #"hash_b905d796914b710", 0 );
+                player thread clientfield::set_to_player( "" + #"zm_trial_silent_film", 0 );
             }
             
             setslowmotion( 1.25, 1 );
@@ -117,7 +117,7 @@ function private on_end( round_reset )
         case #"perk_drunk":
             foreach ( player in getplayers() )
             {
-                player clientfield::set_to_player( "" + #"hash_52347bec3f1339fd", 0 );
+                player clientfield::set_to_player( "" + #"zm_trial_perk_drunk", 0 );
             }
             
             break;
@@ -130,7 +130,7 @@ function private on_end( round_reset )
     callback::remove_on_spawned( &on_player_spawned );
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 0, eflags: 0x4
 // Checksum 0xab802ae8, Offset: 0x850
 // Size: 0x4c
@@ -138,38 +138,38 @@ function private on_player_spawned()
 {
     if ( level.var_4ecf5754 === #"silent_film" )
     {
-        self clientfield::set_to_player( "" + #"hash_b905d796914b710", 1 );
+        self clientfield::set_to_player( "" + #"zm_trial_silent_film", 1 );
     }
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 0
 // Checksum 0x254be58f, Offset: 0x8a8
 // Size: 0x144
 function function_40c7a8fd()
 {
-    level endon( #"hash_7646638df88a3656", #"end_game" );
+    level endon( #"trial_round_end", #"end_game" );
     wait 3.5;
     
     foreach ( player in getplayers() )
     {
-        player clientfield::set_to_player( "" + #"hash_b905d796914b710", 1 );
+        player clientfield::set_to_player( "" + #"zm_trial_silent_film", 1 );
     }
     
     wait 2;
     setslowmotion( 1, 1.25 );
     level.var_79514f31 = spawn( "script_origin", ( 0, 0, 0 ) );
-    level.var_79514f31 playloopsound( #"hash_1eafdf46ffbf2308" );
+    level.var_79514f31 playloopsound( #"zmb_trials_round_silent_movie" );
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 0, eflags: 0x4
 // Checksum 0x7ff411f2, Offset: 0x9f8
 // Size: 0x144
 function private function_69fa75f8()
 {
     self endon( #"disconnect" );
-    level endon( #"hash_7646638df88a3656" );
+    level endon( #"trial_round_end" );
     
     while ( true )
     {
@@ -192,24 +192,24 @@ function private function_69fa75f8()
     }
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 0
 // Checksum 0x8cedf99b, Offset: 0xb48
 // Size: 0x96
 function function_6d8cf829()
 {
     self endon( #"disconnect" );
-    level endon( #"hash_7646638df88a3656", #"end_game" );
+    level endon( #"trial_round_end", #"end_game" );
     
     while ( true )
     {
         n_perks = self.var_67ba1237.size + self.var_466b927f.size;
-        self clientfield::set_to_player( "" + #"hash_52347bec3f1339fd", n_perks );
+        self clientfield::set_to_player( "" + #"zm_trial_perk_drunk", n_perks );
         wait 1;
     }
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 0, eflags: 0x4
 // Checksum 0x96c59c4, Offset: 0xbe8
 // Size: 0x210
@@ -218,7 +218,7 @@ function private function_ad641569()
     self notify( "3d0a827cbf03ae74" );
     self endon( "3d0a827cbf03ae74" );
     self endon( #"disconnect" );
-    level endoncallback( &function_1a109202, #"hash_7646638df88a3656", #"host_migration_begin" );
+    level endoncallback( &function_1a109202, #"trial_round_end", #"host_migration_begin" );
     
     while ( true )
     {
@@ -243,7 +243,7 @@ function private function_ad641569()
     }
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 1
 // Checksum 0x7eff4626, Offset: 0xe00
 // Size: 0x168
@@ -269,13 +269,13 @@ function function_1a109202( str_notify )
     }
 }
 
-// Namespace namespace_c1466447/namespace_a6aea2c6
+// Namespace zm_trial_damage_during_movement/namespace_a6aea2c6
 // Params 0, eflags: 0x4
 // Checksum 0x8f050a61, Offset: 0xf70
 // Size: 0xb0
 function private function_604ff1eb()
 {
-    level endon( #"hash_7646638df88a3656", #"end_game" );
+    level endon( #"trial_round_end", #"end_game" );
     wait 5;
     
     foreach ( player in getplayers() )

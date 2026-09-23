@@ -33,7 +33,7 @@
     "#hash_554be9f7": false,
     "sound660": "#uin_unavailable_charging",
     "tunables1": "#zhield_zpear_lh_tunables_zm",
-    "sharedWeaponSounds": "#hash_7ed5a8a63848a4a8",
+    "sharedWeaponSounds": "#zhield_towers_shield",
     "viewmodel": [
         "#wpn_t8_zm_red_shield_view"
     ],
@@ -49,10 +49,10 @@
     "fireRumble": "#defaultweapon_fire",
     "#hash_21329beb": [
         {
-            "model": "#hash_1c041d670c2923c8"
+            "model": "#wpn_t8_zm_red_shield_dw_d1_world"
         },
         {
-            "model": "#hash_507d2315ba090279"
+            "model": "#wpn_t8_zm_red_shield_dw_d2_world"
         }
     ]
 }

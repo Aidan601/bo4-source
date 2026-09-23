@@ -30,7 +30,7 @@
 // Size: 0x24
 function function_a81f02e5()
 {
-    callback::function_33f0ddd3( &function_33f0ddd3 );
+    callback::on_player_loadout_changed( &on_player_loadout_changed );
 }
 
 // Namespace zm_pap_util/zm_pack_a_punch_util
@@ -160,7 +160,7 @@ function update_hint_string( player )
         }
         else
         {
-            self sethintstring( #"hash_5b77a8f33d352c37" );
+            self sethintstring( #"zombie/perk_packapunch_busy" );
             return true;
         }
     }
@@ -264,16 +264,16 @@ function update_hint_string( player )
             }
             else
             {
-                self sethintstring( #"hash_673794817f9c09b4", current_cost );
+                self sethintstring( #"zombie/perk_packapunch_aat", current_cost );
             }
         }
         else if ( function_8b1a219a() )
         {
-            self sethintstring( #"hash_4ded27bb7bc35a8d", current_cost );
+            self sethintstring( #"zombie/perk_packapunch_damage_keyboard", current_cost );
         }
         else
         {
-            self sethintstring( #"hash_4c9d507af46126af", current_cost );
+            self sethintstring( #"zombie/perk_packapunch_damage", current_cost );
         }
     }
     else if ( isdefined( level.var_e4e8d300 ) && level.var_e4e8d300 )
@@ -284,12 +284,12 @@ function update_hint_string( player )
         }
         else
         {
-            self sethintstring( #"hash_6c8cfa12133d4a58" );
+            self sethintstring( #"zombie/perk_packapunch_free" );
         }
     }
     else if ( function_8b1a219a() )
     {
-        self sethintstring( #"hash_4b18cdd522ca58f7", current_cost );
+        self sethintstring( #"zombie/perk_packapunch_keyboard", current_cost );
     }
     else
     {
@@ -595,7 +595,7 @@ function function_6d45375a( weapon )
 // Params 1, eflags: 0x4
 // Checksum 0x8c81d713, Offset: 0x15d0
 // Size: 0x54
-function private function_33f0ddd3( s_event )
+function private on_player_loadout_changed( s_event )
 {
     if ( s_event.event === "take_weapon" && isdefined( s_event.weapon ) )
     {

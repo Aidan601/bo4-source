@@ -17,15 +17,15 @@ version 32 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 3 size 0xc0
     struct client_header {
         // offset 0x0, size 0x40
-        uint64 hash_4016bed15f9183f7;
+        uint64 user_session_id;
         // offset 0x40, size 0x40
         uint64 uno_id;
         // offset 0x80, size 0x40
@@ -49,13 +49,13 @@ version 32 {
     // offset 0x40, size 0x20
     int backbuffer_count;
     // offset 0x60, size 0x200
-    string(64) hash_e5ae34dc2fc2a8e;
+    string(64) voice_output_device;
     // offset 0x260, size 0x20
-    float hash_479281cb96c5c29;
+    float mouse_ads_pitch_ads_multiplier;
     // offset 0x280, size 0x20
     float voice_scale;
     // offset 0x2a0, size 0x20
-    int hash_535789c84c7b3551;
+    int texture_quality_fx;
     // offset 0x2c0, size 0x20
     int ssao_technique;
     // offset 0x2e0, size 0x20
@@ -65,7 +65,7 @@ version 32 {
     // offset 0x320, size 0x20
     int dedicated_player_shadow;
     // offset 0x340, size 0x20
-    int hash_519c9a1c0f342950;
+    int texture_quality_probes;
     // offset 0x360, size 0x20
     int texture_quality;
     // offset 0x380, size 0x20
@@ -81,9 +81,9 @@ version 32 {
     // offset 0x5f8, size 0x20
     int hdr_display_mode;
     // offset 0x618, size 0x20
-    int hash_5fe1d750a2b763f5;
+    int texture_quality_baked_sun_shadows;
     // offset 0x638, size 0x20
-    float hash_4c21c0b60674426a;
+    float mouse_ads_yaw_ads_multiplier;
     // offset 0x658, size 0x20
     int monitor;
     // offset 0x678, size 0x20
@@ -99,7 +99,7 @@ version 32 {
     // offset 0x718, size 0x20
     float mouse_filter;
     // offset 0x738, size 0x20
-    float hash_c33472150c59327;
+    float mouse_ads_yaw_ads_multiplier_high_zoom;
     // offset 0x758, size 0x20
     float sfx_scale;
     // offset 0x778, size 0x80
@@ -123,7 +123,7 @@ version 32 {
     // offset 0x8f8, size 0x20
     int voice_va_sensitivity;
     // offset 0x918, size 0x20
-    float hash_636fa57dc7c7380;
+    float mouse_ads_pitch_ads_multiplier_high_zoom;
     // offset 0x938, size 0x400
     string(128) voice_input_device;
     // offset 0xd38, size 0x20
@@ -137,7 +137,7 @@ version 32 {
     // offset 0xe58, size 0x20
     int mesh_quality;
     // offset 0xe78, size 0x20
-    int hash_5099e577769a5d26;
+    int spot_shadow_texture_size;
     // offset 0xe98, size 0x20
     int worker_threads;
     // offset 0xeb8, size 0x20
@@ -155,13 +155,13 @@ version 32 {
     // offset 0xf78, size 0x20
     int motion_blur;
     // offset 0xf98, size 0x20
-    float hash_142c297539db271b;
+    float mouse_vertical_sensitivity;
     // offset 0xfb8, size 0x20
     float master_scale;
     // offset 0xfd8, size 0x20
     int window_width;
     // offset 0xff8, size 0x20
-    int hash_77afa9e0a9f1e113;
+    int omni_shadow_texture_size;
     // offset 0x1018, size 0x20
     int config_version;
     // offset 0x1038, size 0x20
@@ -185,7 +185,7 @@ version 32 {
     // offset 0x10fb, size 0x1
     bool vsync;
     // offset 0x10fc, size 0x1
-    bool hash_2e3aa1f8f9b20ec3;
+    bool mouse_ads_sensitivity_fully_scoped;
     // offset 0x10fd, size 0x1
     bool play_intro_movies;
     // offset 0x10fe, size 0x1
@@ -205,17 +205,17 @@ version 32 {
     // offset 0x1105, size 0x1
     bool mute_voice;
     // offset 0x1106, size 0x1
-    bool hash_3f8ede290237f45;
+    bool auto_detect_has_run;
     // offset 0x1107, size 0x1
     bool relative_ads_fov;
     // offset 0x1108, size 0x1
-    bool hash_1626188c0e090458;
+    bool local_ambient_lighting;
     // offset 0x1109, size 0x1
     bool shadow_filtering;
     // offset 0x110a, size 0x1
     bool mute_master;
     // offset 0x110b, size 0x1
-    bool hash_147e6efaa5286f59;
+    bool auto_config;
     // offset 0x110c, size 0x1
     bool enable_voice;
     // offset 0x110d, size 0x1
@@ -227,7 +227,7 @@ version 32 {
     // offset 0x1110, size 0x1
     bool disable_dynamic_sun_shadows;
     // offset 0x1111, size 0x1
-    bool hash_30d8f5939d58ba43;
+    bool threaded_rendering;
     // offset 0x1112, size 0x1
     bool fx_shadows;
     // offset 0x1113, size 0x1

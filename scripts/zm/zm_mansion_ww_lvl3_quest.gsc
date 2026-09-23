@@ -160,7 +160,7 @@ function function_3da8da85( params )
 // Size: 0x32c
 function function_e217ba73( v_pos, v_velocity )
 {
-    var_26420508 = util::spawn_model( #"hash_6f97a0d9c769da03", v_pos );
+    var_26420508 = util::spawn_model( #"c_t8_zmb_dlc1_nosferatu_chaos_drop", v_pos );
     util::wait_network_frame();
     var_26420508 setscale( 2 );
     var_26420508 clientfield::set( "" + #"hash_c0e8acbde8dbc06", 1 );
@@ -658,7 +658,7 @@ function function_44a776ee()
     }
     
     level.var_5f2726dc = groundtrace( level.var_5f2726dc + ( 0, 0, 8 ), level.var_5f2726dc + ( 0, 0, -100000 ), 0, undefined )[ #"position" ];
-    var_b434e769 = util::spawn_model( #"hash_6f97a0d9c769da03", level.var_5f2726dc );
+    var_b434e769 = util::spawn_model( #"c_t8_zmb_dlc1_nosferatu_chaos_drop", level.var_5f2726dc );
     util::wait_network_frame();
     s_loc = spawnstruct();
     s_loc.origin = level.var_5f2726dc + ( 0, 0, 8 );
@@ -962,7 +962,7 @@ function function_c7c9f8d3( player )
 // Size: 0x68, Type: bool
 function function_21db5b62( player )
 {
-    str_prompt = zm_utility::function_d6046228( #"hash_1ad9cccccf49590a", #"hash_43ddac2161b2260e" );
+    str_prompt = zm_utility::function_d6046228( #"zm_mansion/bile_pickup", #"hash_43ddac2161b2260e" );
     self sethintstringforplayer( player, str_prompt );
     return true;
 }
@@ -1022,7 +1022,7 @@ function function_5ce9ff7a( s_notify )
 // Size: 0x68, Type: bool
 function function_13547ea4( player )
 {
-    str_prompt = zm_utility::function_d6046228( #"hash_1c45ec9f9414b664", #"hash_7d81ba22ba54bb08" );
+    str_prompt = zm_utility::function_d6046228( #"zm_mansion/nosferatu_summon", #"hash_7d81ba22ba54bb08" );
     self sethintstringforplayer( player, str_prompt );
     return true;
 }
@@ -1676,7 +1676,7 @@ function function_7aa50bb7( e_player )
     }
     else if ( e_player zm_weapons::has_weapon_or_upgrade( level.var_6fe89212 ) )
     {
-        self sethintstring( self.stub.blueprint.var_4dbc4aee );
+        self sethintstring( self.stub.blueprint.craftingprompt );
     }
     else
     {

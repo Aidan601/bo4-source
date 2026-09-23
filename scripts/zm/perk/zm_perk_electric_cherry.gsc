@@ -1,4 +1,4 @@
-#using script_6951ea86fdae9ae0;
+#using scripts\zm_common\trials\zm_trial_attack_during_movement;
 #using scripts\core_common\ai\zombie_utility;
 #using scripts\core_common\ai_shared;
 #using scripts\core_common\array_shared;
@@ -46,7 +46,7 @@ function enable_electric_cherry_perk_for_level()
 {
     if ( function_8b1a219a() )
     {
-        zm_perks::register_perk_basic_info( #"specialty_electriccherry", #"perk_electric_cherry", 3000, #"hash_2355bebe5034477a", getweapon( "zombie_perk_bottle_cherry" ), getweapon( "zombie_perk_totem_electric_burst" ), #"zmperkselectricburst" );
+        zm_perks::register_perk_basic_info( #"specialty_electriccherry", #"perk_electric_cherry", 3000, #"zombie/perk_electric_cherry_keyboard", getweapon( "zombie_perk_bottle_cherry" ), getweapon( "zombie_perk_totem_electric_burst" ), #"zmperkselectricburst" );
     }
     else
     {
@@ -79,7 +79,7 @@ function electric_cherry_precache()
         return;
     }
     
-    level._effect[ #"electric_cherry_light" ] = #"hash_1442db17b83460ad";
+    level._effect[ #"electric_cherry_light" ] = #"_t6/misc/fx_zombie_cola_revive_on";
     level.machine_assets[ #"specialty_electriccherry" ] = spawnstruct();
     level.machine_assets[ #"specialty_electriccherry" ].weapon = getweapon( "zombie_perk_bottle_cherry" );
     level.machine_assets[ #"specialty_electriccherry" ].off_model = "p7_zm_vending_nuke";
@@ -169,7 +169,7 @@ function electric_cherry_laststand()
     if ( isdefined( self ) )
     {
         playfx( level._effect[ #"electric_cherry_explode" ], self.origin );
-        self playsound( #"hash_75ba32e48680203a" );
+        self playsound( #"zmb_vapor_electriccherry_activate" );
         self notify( #"electric_cherry_start" );
         waitframe( 1 );
         a_zombies = zombie_utility::get_round_enemy_array();
@@ -374,7 +374,7 @@ function electric_cherry_reload_attack()
             
             self thread electric_cherry_reload_fx( n_fraction );
             self notify( #"electric_cherry_start" );
-            self playsound( #"hash_75ba32e48680203a" );
+            self playsound( #"zmb_vapor_electriccherry_activate" );
             a_zombies = getaiteamarray( level.zombie_team );
             a_zombies = util::get_array_of_closest( self.origin, a_zombies, undefined, undefined, perk_radius );
             n_zombies_hit = 0;
@@ -461,7 +461,7 @@ function check_for_reload_complete( weapon )
     
     while ( true )
     {
-        self waittill( #"reload", #"hash_278526d0bbdb4ce7" );
+        self waittill( #"reload", #"give_full_ammo" );
         current_weapon = self getcurrentweapon();
         
         if ( current_weapon == weapon )

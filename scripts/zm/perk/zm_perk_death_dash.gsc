@@ -1,6 +1,6 @@
 #using script_24c32478acf44108;
-#using script_2f9a68261f6a17be;
-#using script_6951ea86fdae9ae0;
+#using scripts\zm_common\trials\zm_trial_trap_kills_only;
+#using scripts\zm_common\trials\zm_trial_attack_during_movement;
 #using scripts\core_common\ai\systems\gib;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\clientfield_shared;
@@ -45,7 +45,7 @@ function function_27473e44()
 {
     if ( function_8b1a219a() )
     {
-        zm_perks::register_perk_basic_info( #"specialty_death_dash", #"perk_death_dash", 2000, #"hash_2f712a7c17494226", getweapon( "zombie_perk_bottle_death_dash" ), getweapon( "zombie_perk_totem_death_dash" ), #"zmperksdeathdash" );
+        zm_perks::register_perk_basic_info( #"specialty_death_dash", #"perk_death_dash", 2000, #"zombie/perk_death_dash_keyboard", getweapon( "zombie_perk_bottle_death_dash" ), getweapon( "zombie_perk_totem_death_dash" ), #"zmperksdeathdash" );
     }
     else
     {
@@ -129,11 +129,11 @@ function private function_3b2d1c3e()
     
     while ( true )
     {
-        self waittill( #"hash_1790edc896f02840" );
+        self waittill( #"perform_death_dash" );
         
         if ( !self.var_d675d730.var_d566ea4 )
         {
-            self thread function_b1d12202();
+            self thread perform_death_dash();
         }
     }
 }
@@ -206,7 +206,7 @@ function private function_607b1eb0()
             
             if ( self.var_d675d730.var_af84e9df && self.var_d675d730.var_ec50ac8e > 0.2 )
             {
-                self notify( #"hash_1790edc896f02840" );
+                self notify( #"perform_death_dash" );
             }
             else
             {
@@ -259,7 +259,7 @@ function private function_f3d1b75c()
 // Params 0
 // Checksum 0xc5c87da2, Offset: 0xdd8
 // Size: 0x1b4
-function function_b1d12202()
+function perform_death_dash()
 {
     self endon( #"hash_34c48ce219158e58", #"death" );
     self clientfield::set( "death_dash_trail", 1 );
@@ -276,8 +276,8 @@ function function_b1d12202()
         var_23322f89 = 5;
     }
     
-    self waittilltimeout( var_23322f89, #"hash_ba882779cc9c10d" );
-    self function_38139f98();
+    self waittilltimeout( var_23322f89, #"abort_death_dash" );
+    self end_death_dash();
 }
 
 // Namespace zm_perk_death_dash/zm_perk_death_dash
@@ -291,7 +291,7 @@ function function_aeda9580( var_8e317f6c )
         return;
     }
     
-    self endon( #"hash_6e2a731bbdb686b8", #"hash_34c48ce219158e58", #"death", #"disconnect", #"bled_out" );
+    self endon( #"end_death_dash", #"hash_34c48ce219158e58", #"death", #"disconnect", #"bled_out" );
     level endon( #"end_game" );
     self.var_d675d730.var_4aee0032 = 1;
     self.var_d675d730.var_e09a4919 = gettime();
@@ -315,7 +315,7 @@ function function_aeda9580( var_8e317f6c )
             
             if ( n_dot < var_fa1d6773 )
             {
-                self notify( #"hash_ba882779cc9c10d" );
+                self notify( #"abort_death_dash" );
             }
         }
         
@@ -323,7 +323,7 @@ function function_aeda9580( var_8e317f6c )
         
         if ( var_44cc0c10 > 0 )
         {
-            self notify( #"hash_ba882779cc9c10d" );
+            self notify( #"abort_death_dash" );
         }
     }
 }
@@ -352,7 +352,7 @@ function function_d5fc01cc()
 // Size: 0x1ea
 function function_749be7c5()
 {
-    self endon( #"hash_6e2a731bbdb686b8", #"hash_34c48ce219158e58", #"death", #"disconnect", #"bled_out" );
+    self endon( #"end_death_dash", #"hash_34c48ce219158e58", #"death", #"disconnect", #"bled_out" );
     level endon( #"end_game" );
     
     while ( true )
@@ -449,12 +449,12 @@ function function_c1c51837( e_player )
 // Params 0
 // Checksum 0x1b7b4958, Offset: 0x1898
 // Size: 0xfc
-function function_38139f98()
+function end_death_dash()
 {
     self endon( #"hash_34c48ce219158e58", #"death", #"disconnect", #"bled_out" );
     self clientfield::set( "death_dash_trail", 0 );
     self clientfield::set_to_player( "death_dash_dash_postfx", 0 );
-    self notify( #"hash_6e2a731bbdb686b8" );
+    self notify( #"end_death_dash" );
     self setvelocity( ( 0, 0, 0 ) );
     self.var_d675d730.var_4aee0032 = 0;
     n_cooldown_time = level.var_969fe3f1 === 1 ? 1 : 60;

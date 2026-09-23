@@ -1,13 +1,13 @@
 {
-    "name": "#hash_54c382e94429a878",
+    "name": "#loot_emote_firebreak_dance",
     "type": "#gesture",
-    "gesture": "#hash_2906e264713e828e",
-    "gesture2": "#hash_27ce9f79fedba699",
+    "gesture": "#boast_firebreak_dance",
+    "gesture2": "#boast_firebreak_dance_fem",
     "bundle": {
         "type": "#gesture",
         "entitlement": "#hash_62f68e1583c62c6a",
-        "title": "localized18#hash_88cf96becdaac0b",
-        "icon": "image#hash_45bb2b9f69c2739e",
+        "title": "localized18#emotes/firebreakin",
+        "icon": "image#ui_icon_emotes_firebreakdance",
         "isdefault": 0
     }
 }

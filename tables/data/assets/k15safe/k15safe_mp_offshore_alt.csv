@@ -19,12 +19,12 @@ xmodelmesh,#hash_63f6c736bc7909f8
 xmodelmesh,d#hash_6d0e5ff109f50f2d
 xmodelmesh,d#hash_6e7ffc8f5c0683f7
 xmodelmesh,d#hash_7d274a15c664f6f0
-techset,d#hash_33832cd9511a3ad
+techset,d#mc/lit#cc85bc05
 techset,#hash_56ad8624086bdbe
-techset,d#hash_2656ab69d7e5b667
+techset,d#mc/lit_decal_diffuse#b92af314
 techset,#hash_26f73809dabe1b10
-techset,d#hash_5c620bec3ab6c90d
-techset,d#hash_600124f3d78a9d7a
+techset,d#mc/lit_transparent#b5a8609c
+techset,d#mc/lit#91e33966
 image,d#$black_reveal
 image,d#i_t7_snow_powder_01_n
 image,d#$identitynormalmap
@@ -75,5 +75,5 @@ xmodel,#p8_brick_cocaine_lg_stack_02_plastic
 xmodel,#p8_brick_cocaine_lg_stack_02_white
 xmodel,#p8_brick_cocaine_lg_stack_01_brown
 xmodel,d#p8_brick_cocaine_lg_stack_02_brown
-xmodel,#hash_6b2500de2ff0805b
-xmodel,#hash_76c1e4c1e5e19d6a
+xmodel,#p8_brick_cocaine_lg_stack_02_mix
+xmodel,#p8_brick_cocaine_lg_stack_01_mix

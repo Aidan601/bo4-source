@@ -1,8 +1,8 @@
 {
-    "name": "#hash_7d8f1b96e9c6157c",
+    "name": "#loot_emote_ghost_dance",
     "type": "#gesture",
-    "gesture": "#hash_4eafabcb77497dda",
-    "gesture2": "#hash_539bf1603dda1e15",
+    "gesture": "#boast_ghost_dance",
+    "gesture2": "#boast_ghost_dance_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_f775f344a38d560",

@@ -109,7 +109,7 @@ function function_8227cec3( localclientnum )
     if ( self function_21c0fa55() )
     {
         self postfx::stoppostfxbundle( "pstfx_burn_loop" );
-        self playsound( 0, #"hash_41520794c2fd8aa" );
+        self playsound( 0, #"chr_burn_start_light_end" );
     }
 }
 
@@ -156,7 +156,7 @@ function burn_on_postfx()
     self endon( #"death" );
     self notify( #"burn_on_postfx" );
     self endon( #"burn_on_postfx" );
-    self playsound( 0, #"hash_791f349cb716e078" );
+    self playsound( 0, #"chr_burn_start_light" );
     self thread postfx::playpostfxbundle( #"pstfx_burn_loop" );
 }
 

@@ -190,7 +190,7 @@ function function_216d0545( s_notify )
 // Size: 0x94
 function function_c9e23896()
 {
-    level endon( #"hash_3b0bcf867c23b993" );
+    level endon( #"ww_lvl2_quest_completed" );
     level waittill( #"hash_879562bd9e764a4" );
     var_9e030909 = getweapon( #"ww_random_ray_gun1" );
     level flag::init( "ww_lvl2_crafting_completed" );
@@ -364,7 +364,7 @@ function function_672eb1dc( var_21839a96, var_57ec466d )
     wait 5;
     var_58b3e56b = mansion_util::function_89e9bca5( var_21839a96, s_loc.origin, s_loc.angles );
     playsoundatposition( var_57ec466d, var_58b3e56b.origin );
-    level notify( #"hash_144b3192f03325f3" );
+    level notify( #"prima_materia_created" );
 }
 
 // Namespace ww_lvl2_quest/zm_mansion_ww_lvl2_quest
@@ -432,7 +432,7 @@ function function_7aa50bb7( e_player )
     }
     else if ( e_player zm_weapons::has_weapon_or_upgrade( level.var_f086136b ) )
     {
-        self sethintstring( self.stub.blueprint.var_4dbc4aee );
+        self sethintstring( self.stub.blueprint.craftingprompt );
     }
     else
     {

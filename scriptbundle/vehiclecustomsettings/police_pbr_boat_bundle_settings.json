@@ -1,19 +1,19 @@
 {
     "lightgroups_1_slots": [
         {
-            "fx": "fx#hash_45212649bf4162b3",
+            "fx": "fx#light/fx_light_headlight_pbr",
             "tag": "tag_fx_light_01"
         },
         {
-            "fx": "fx#hash_45212649bf4162b3",
+            "fx": "fx#light/fx_light_headlight_pbr",
             "tag": "tag_fx_light_02"
         },
         {
-            "fx": "fx#hash_45212649bf4162b3",
+            "fx": "fx#light/fx_light_headlight_pbr",
             "tag": "tag_fx_light_03"
         },
         {
-            "fx": "fx#hash_45212649bf4162b3",
+            "fx": "fx#light/fx_light_headlight_pbr",
             "tag": "tag_fx_light_04"
         }
     ],
@@ -76,7 +76,7 @@
     "steptoenemysize": 40,
     "hash_43c4a17dfa26fd78:hash_74701269": 0,
     "name": "police_pbr_boat_bundle_settings",
-    "hash_453d6d4a6ac04709:hash_e7260470": 65,
+    "vis_cone_angle": 65,
     "rocketcooldown": 5,
     "targeting_radius": 200,
     "meleedist": 50,

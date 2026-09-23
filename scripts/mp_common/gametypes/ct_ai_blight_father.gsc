@@ -150,7 +150,7 @@ function private function_7c52f40()
     
     self callback::function_d8abfc3d( #"hash_45b50cc48ee7f9d8", &function_4b103bc4 );
     self hide();
-    self.var_8ba6ede3 = 1;
+    self.shoulddigup = 1;
     util::wait_network_frame();
     self clientfield::set( "blight_father_weakpoint_l_elbow_fx", 1 );
     self clientfield::set( "blight_father_weakpoint_r_elbow_fx", 1 );
@@ -309,7 +309,7 @@ function function_af7555b9( entity )
 // Size: 0x28, Type: bool
 function blightfathershouldspawn( entity )
 {
-    return isdefined( entity.var_8ba6ede3 ) && entity.var_8ba6ede3;
+    return isdefined( entity.shoulddigup ) && entity.shoulddigup;
 }
 
 // Namespace ct_ai_blight_father/ct_ai_blight_father
@@ -320,7 +320,7 @@ function blightfatherspawnstart( entity )
 {
     entity solid();
     entity clientfield::set( "zombie_riser_fx", 1 );
-    entity.var_8ba6ede3 = undefined;
+    entity.shoulddigup = undefined;
 }
 
 // Namespace ct_ai_blight_father/ct_ai_blight_father
@@ -564,7 +564,7 @@ function private blightfatherdeathstart( entity )
             return;
         }
         
-        gib_model animscripted( #"hash_56a346d1e0dd61cd", gib_model.origin, gib_model.angles, #"hash_3e937fff0e0a4362", "normal" );
+        gib_model animscripted( #"hash_56a346d1e0dd61cd", gib_model.origin, gib_model.angles, #"ai_t8_zm_zod_bltfthr_dth_destroy_head_01_nofx", "normal" );
         gib_model thread function_529b7fb9();
         entity.gib_model = gib_model;
     }
@@ -816,15 +816,15 @@ function private function_cacd1506( var_84ed9a13, entity, inflictor, attacker, d
     
     if ( namespace_81245006::function_f29756fe( var_84ed9a13 ) == 3 )
     {
-        if ( isdefined( level.var_c2981ce9[ var_84ed9a13.var_51e8b151 ] ) )
+        if ( isdefined( level.var_c2981ce9[ var_84ed9a13.hittag1 ] ) )
         {
-            entity [[ level.var_c2981ce9[ var_84ed9a13.var_51e8b151 ] ]]( entity, inflictor, attacker, damage, flags, meansofdamage, weapon, point, dir, hitloc, offsettime, boneindex, modelindex );
+            entity [[ level.var_c2981ce9[ var_84ed9a13.hittag1 ] ]]( entity, inflictor, attacker, damage, flags, meansofdamage, weapon, point, dir, hitloc, offsettime, boneindex, modelindex );
         }
         
         if ( !entity isplayinganimscripted() && !entity.blockingpain )
         {
-            entity.var_fbec06fa = var_84ed9a13.var_51e8b151;
-            entity setblackboardattribute( "_blight_father_weak_point", var_84ed9a13.var_51e8b151 );
+            entity.var_fbec06fa = var_84ed9a13.hittag1;
+            entity setblackboardattribute( "_blight_father_weak_point", var_84ed9a13.hittag1 );
         }
         
         bone = boneindex;
@@ -1256,7 +1256,7 @@ function private blightfatherlaunchchaosmissile( var_f794172e, var_61622673, var
     max_trail_iterations = int( self ai::function_9139c839().var_652a36f2 / self ai::function_9139c839().var_52bddd4 * self ai::function_9139c839().var_9e5ebf3c );
     var_892397fd.missile_target = var_f794172e;
     var_892397fd thread function_5f3390fd( var_61622673, 60 );
-    var_892397fd playloopsound( #"hash_5b21b7c645692f8", 0.1 );
+    var_892397fd playloopsound( #"zmb_ai_bfather_chaos_missile_flying", 0.1 );
     var_892397fd moveto( self gettagorigin( var_f3486358 ) + var_61622673, self ai::function_9139c839().var_20c6e4ca );
     var_eb325a79 = self ai::function_9139c839().var_9e5ebf3c;
     var_b446b077 = self ai::function_9139c839().var_94fefe66;
@@ -1558,7 +1558,7 @@ function private function_44e3e0d1( var_51a7ab9c )
             v_dir = player.origin - var_51a7ab9c;
             v_dir = ( v_dir[ 0 ], v_dir[ 1 ], 0.1 );
             v_dir = vectornormalize( v_dir );
-            n_push_strength = getdvarint( #"hash_708ca0a943843f57", 500 );
+            n_push_strength = getdvarint( #"blightfather_n_push_strength", 500 );
             n_push_strength = 200 + randomint( n_push_strength - 200 );
             v_player_velocity = player getvelocity();
             player setvelocity( v_player_velocity + v_dir * n_push_strength );

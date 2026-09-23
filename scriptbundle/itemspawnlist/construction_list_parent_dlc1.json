@@ -13,7 +13,7 @@
     "type": "itemspawnlist",
     "list_itemlist": 1,
     "vehiclespawner": 0,
-    "hash_3ddace39cf864a1f:hash_9b009839": -1,
+    "supplystashmaxspawns": -1,
     "hash_42d149b1b6c12f78:hash_dc7ffbef": 0,
     "name": "construction_list_parent_dlc1",
     "supplystashweight": 100,

@@ -32,8 +32,8 @@
 function init()
 {
     clientfield::register( "scriptmover", "" + #"dynamite_explosion_fx", 24000, 1, "counter" );
-    clientfield::register( "actor", "" + #"hash_6adfdd12c9656e1c", 24000, 1, "int" );
-    clientfield::register( "actor", "" + #"hash_147a734966a62e10", 24000, 1, "counter" );
+    clientfield::register( "actor", "" + #"dynamite_zombie_aura_fx", 24000, 1, "int" );
+    clientfield::register( "actor", "" + #"dynamite_zombie_explosion_fx", 24000, 1, "counter" );
 }
 
 // Namespace zm_orange_ee_dynamite/zm_orange_ee_dynamite
@@ -46,7 +46,7 @@ function main()
     level flag::init( #"hash_16c15e4538336bb5" );
     level.var_d867b9f3 = array( zm_crafting::get_component( "zitem_orange_dynamite_bomb_part_1" ), zm_crafting::get_component( "zitem_orange_dynamite_bomb_part_2" ), zm_crafting::get_component( "zitem_orange_dynamite_bomb_part_3" ) );
     level.var_1daa43ee = 1;
-    callback::function_74872db6( &function_74872db6 );
+    callback::on_round_begin( &on_round_begin );
     zm_items::function_4d230236( level.var_d867b9f3[ 0 ], &function_168f686b );
     zm_items::function_4d230236( level.var_d867b9f3[ 1 ], &function_168f686b );
     zm_items::function_4d230236( level.var_d867b9f3[ 2 ], &function_168f686b );
@@ -138,12 +138,12 @@ function function_70f4c8c3( str_targetname )
 // Params 0
 // Checksum 0xb6f22ad0, Offset: 0xb68
 // Size: 0x54
-function function_74872db6()
+function on_round_begin()
 {
     if ( level.round_number > 2 )
     {
         callback::on_ai_spawned( &function_e3203a2 );
-        callback::function_50fdac80( &function_74872db6 );
+        callback::function_50fdac80( &on_round_begin );
     }
 }
 
@@ -278,10 +278,10 @@ function function_8427e524()
     level.var_1daa43ee = 0;
     level flag::clear( #"debug_dynamite_zombie" );
     self.var_f3908ae9 = 1;
-    self clientfield::set( "" + #"hash_6adfdd12c9656e1c", 1 );
+    self clientfield::set( "" + #"dynamite_zombie_aura_fx", 1 );
     self function_4baeb885();
     self.ignoremelee = 1;
-    self playloopsound( #"hash_494dd6f60ab1e3a8" );
+    self playloopsound( #"evt_dynamite_fuse_zombie_lp" );
     self thread function_e58f823f();
     
     /#
@@ -292,7 +292,7 @@ function function_8427e524()
     
     if ( isdefined( self ) )
     {
-        self clientfield::set( "" + #"hash_6adfdd12c9656e1c", 0 );
+        self clientfield::set( "" + #"dynamite_zombie_aura_fx", 0 );
         
         if ( self.water_damage === 1 )
         {
@@ -304,9 +304,9 @@ function function_8427e524()
             if ( self.b_cleaned_up !== 1 )
             {
                 gibserverutils::annihilate( self );
-                self clientfield::increment( "" + #"hash_147a734966a62e10", 1 );
+                self clientfield::increment( "" + #"dynamite_zombie_explosion_fx", 1 );
                 level function_d8f300c3( self.origin );
-                playsoundatposition( #"hash_7b838586b7ef0d9d", self.origin );
+                playsoundatposition( #"evt_dynamite_explode_zombie", self.origin );
             }
             else
             {
@@ -400,7 +400,7 @@ function function_8f6cb08()
     
     if ( level.var_b4fe6eed && b_spawned && isdefined( self.e_killer ) )
     {
-        self.e_killer thread zm_orange_util::function_51b752a9( #"hash_4c18ae1377d349ed" );
+        self.e_killer thread zm_orange_util::function_51b752a9( #"vox_dynamite_zombie_drop" );
         level.var_b4fe6eed = 0;
     }
     
@@ -443,7 +443,7 @@ function function_4c525901()
 {
     self endon( #"death" );
     s_waitresult = self waittill( #"trigger_activated" );
-    self playsound( #"hash_55c30dada4e624a2" );
+    self playsound( #"evt_dynamite_bomb_pickup" );
     s_waitresult.e_who zm_audio::create_and_play_dialog( #"explosive", #"pickup" );
     level.var_518d6e34 = 1;
     zm_ui_inventory::function_7df6bb60( "orange_dynamite_bomb_complete", 1 );
@@ -469,7 +469,7 @@ function function_2a27ccb9( e_player )
 {
     if ( level.var_518d6e34 )
     {
-        str_hint = zm_utility::function_d6046228( #"hash_619666ebfb26ad4", #"hash_cb4301a3d4b0ff8" );
+        str_hint = zm_utility::function_d6046228( #"zm_orange/dynamite_bomb_place", #"hash_cb4301a3d4b0ff8" );
         self sethintstring( str_hint );
         return true;
     }
@@ -511,8 +511,8 @@ function function_2e1427a3()
 {
     level endon( #"end_game" );
     e_bomb = util::spawn_model( "p8_zm_ora_dynamite_bundle", self.origin, self.angles );
-    playsoundatposition( #"hash_34d44148875755b0", e_bomb.origin );
-    e_bomb playloopsound( #"hash_3e8cb0a639b5a355" );
+    playsoundatposition( #"evt_dynamite_place", e_bomb.origin );
+    e_bomb playloopsound( #"evt_dynamite_fuse_lp" );
     
     /#
         iprintln( "<dev string:x53>" );
@@ -533,11 +533,11 @@ function function_2e1427a3()
     wait 1;
     e_bomb clientfield::increment( "" + #"dynamite_explosion_fx", 1 );
     level function_d8f300c3( self.origin );
-    playsoundatposition( #"hash_2b694b905abf1892", e_bomb.origin );
+    playsoundatposition( #"evt_dynamite_explode", e_bomb.origin );
     e_bomb playrumbleonentity( "zm_orange_dynamite_bomb_explosion" );
     wait 0.1;
     e_bomb hide();
-    self notify( #"hash_126c823a82e09010" );
+    self notify( #"dynamite_bomb_detonated" );
     wait 2.5;
     e_bomb delete();
 }
@@ -561,7 +561,7 @@ function place_dynamite_bomb()
     }
     
     array::run_all( var_b3e4b8b8, &zm_hms_util::function_7a5ba111 );
-    self waittill( #"hash_126c823a82e09010" );
+    self waittill( #"dynamite_bomb_detonated" );
     level thread function_61511fcf( self.script_int );
 }
 
@@ -575,7 +575,7 @@ function function_61511fcf( n_index )
     {
         case 0:
             function_70f4c8c3( "outer_walkway_blocker" );
-            level flag::set( #"hash_52d967f4fc8b12fc" );
+            level flag::set( #"outer_walkway_open" );
             break;
         case 1:
             function_70f4c8c3( "sunken_path_blocker" );

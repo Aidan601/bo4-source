@@ -1,4 +1,4 @@
-NAME script_73aaf54a7fda2755
+NAME scripts/zm/ai/zm_ai_zombie_electric.gsc
 VERSION 0
 CHECKSUM 0x34d8f8f7
 ######################################################

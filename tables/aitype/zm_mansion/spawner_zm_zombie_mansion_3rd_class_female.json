@@ -15,13 +15,13 @@
     "typeSuffix": "_zombie",
     "spawnerType": "zombie",
     "character": [
-        "#hash_2db3bced95d68a5f",
-        "#hash_2db3bded95d68c12",
-        "#hash_2f8cfb7114ae9789",
-        "#hash_2db3beed95d68dc5"
+        "#c_t8_zmb_dlc1_zombie_3rdclass_female1",
+        "#c_t8_zmb_dlc1_zombie_3rdclass_female2",
+        "#c_t8_zmb_dlc1_zombie_3rdclass_female2_nohat",
+        "#c_t8_zmb_dlc1_zombie_3rdclass_female3"
     ],
     "animMappingTables": [
-        "#hash_13b1ea38b9421ce0"
+        "#zm_zombie.ai_am"
     ],
     "meleeWeapon": "#zombie_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
@@ -31,7 +31,7 @@
     "footstepFXTable2": "#player_footstep",
     "behaviorTree": "#zm_zombie.ai_bt",
     "animStateMachine": "#zm_zombie.ai_asm",
-    "animSelectorTable": "#hash_39d3a662cbad64aa",
+    "animSelectorTable": "#zm_zombie.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_mansion_zombie_settings",

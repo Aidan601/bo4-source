@@ -1,5 +1,5 @@
 {
-    "name": "#hash_d6e47ccbb869706",
+    "name": "#zitem_office_punch_card_6_zm",
     "baseWeapon": "#hash_72231f2adfd282a",
     "soundbank": "#hash_1d100cf68e74f380",
     "worldModelTagRight": "tag_weapon_right",
@@ -26,9 +26,9 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
-    "tunables1": "#hash_70135bd5b23940c8",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
+    "tunables1": "#zitem_office_punch_card_tunables_zm",
     "viewmodel": [
         "#viewmodel_default"
     ],

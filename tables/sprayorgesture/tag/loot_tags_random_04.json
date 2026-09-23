@@ -1,11 +1,11 @@
 {
     "name": "#loot_tags_random_04",
     "type": "#tag",
-    "material": "#hash_23a2aa43d1d47d3e",
+    "material": "#vd/mtl_loot_ui_icon_tags_random_04",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_5c6338fa9f3bfdbb",
-        "icon": "image#hash_22186e50d5966e6d",
+        "icon": "image#loot_ui_icon_tags_random_04",
         "isdefault": 0
     }
 }

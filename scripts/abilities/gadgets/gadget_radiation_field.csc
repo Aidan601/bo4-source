@@ -56,14 +56,14 @@ function self_destruct_start( localclientnum, oldval, newval, bnewent, binitials
             sound = function_604c9983( localclientnum, "mpl_rad_field_critical_loop" );
             self thread function_e9e14905( localclientnum, sound, 1 );
             
-            if ( isdefined( level.var_2e0bd467.var_13ce982a ) )
+            if ( isdefined( level.var_2e0bd467.stage1rumble ) )
             {
-                self stoprumble( localclientnum, level.var_2e0bd467.var_13ce982a );
+                self stoprumble( localclientnum, level.var_2e0bd467.stage1rumble );
             }
             
-            if ( isdefined( level.var_2e0bd467.var_bb74ddeb ) )
+            if ( isdefined( level.var_2e0bd467.stage2rumble ) )
             {
-                function_fe0ad36e( localclientnum, level.var_2e0bd467.var_bb74ddeb );
+                function_fe0ad36e( localclientnum, level.var_2e0bd467.stage2rumble );
             }
         }
         else
@@ -206,9 +206,9 @@ function function_671d7ad5( localclientnum, attacker_entnum )
     self endon( #"hash_31934c905f88261b" );
     self endon( #"death" );
     var_4c6480bf = level.var_2e0bd467.var_641f6852 * level.var_2e0bd467.var_641f6852;
-    var_572ced0c = level.var_2e0bd467.var_cbe3d2b8 * level.var_2e0bd467.var_cbe3d2b8;
-    var_8acd204b = #"hash_1a49fb45be903460";
-    var_daa90ad6 = #"hash_1cc8ef91832fa038";
+    var_572ced0c = level.var_2e0bd467.finalradius * level.var_2e0bd467.finalradius;
+    var_8acd204b = #"mpl_rad_field_inside";
+    var_daa90ad6 = #"mpl_rad_field_close";
     
     while ( true )
     {
@@ -241,7 +241,7 @@ function function_671d7ad5( localclientnum, attacker_entnum )
                 }
                 
                 player.var_8992c69a = attacker_entnum;
-                player.var_71545089 = player playloopsound( #"hash_1a49fb45be903460" );
+                player.var_71545089 = player playloopsound( #"mpl_rad_field_inside" );
                 player.var_2d887425 = var_8acd204b;
             }
         }
@@ -253,7 +253,7 @@ function function_671d7ad5( localclientnum, attacker_entnum )
             }
             
             player.var_8992c69a = attacker_entnum;
-            player.var_71545089 = player playloopsound( #"hash_1cc8ef91832fa038" );
+            player.var_71545089 = player playloopsound( #"mpl_rad_field_close" );
             player.var_2d887425 = var_daa90ad6;
         }
         
@@ -346,7 +346,7 @@ function function_7bf69748( localclientnum )
     self endon( #"disconnect" );
     var_e60f94d0 = 0;
     var_4c6480bf = level.var_2e0bd467.var_641f6852 * level.var_2e0bd467.var_641f6852;
-    var_572ced0c = level.var_2e0bd467.var_cbe3d2b8 * level.var_2e0bd467.var_cbe3d2b8;
+    var_572ced0c = level.var_2e0bd467.finalradius * level.var_2e0bd467.finalradius;
     
     while ( true )
     {
@@ -534,13 +534,13 @@ function function_e6cf396d( localclientnum, oldval, newval, bnewent, binitialsna
             }
         }
         
-        if ( isdefined( level.var_2e0bd467.var_13ce982a ) )
+        if ( isdefined( level.var_2e0bd467.stage1rumble ) )
         {
             player = function_5c10bd79( localclientnum );
             
             if ( player getentitynumber() === var_7e4d34a7 )
             {
-                function_fe0ad36e( localclientnum, level.var_2e0bd467.var_13ce982a );
+                function_fe0ad36e( localclientnum, level.var_2e0bd467.stage1rumble );
             }
         }
         
@@ -612,14 +612,14 @@ function function_6a1db576( localclientnum, var_7e4d34a7, var_3880aff8 )
 // Size: 0x8c
 function function_3caac9e( localclientnum )
 {
-    if ( isdefined( level.var_2e0bd467.var_13ce982a ) )
+    if ( isdefined( level.var_2e0bd467.stage1rumble ) )
     {
-        self stoprumble( localclientnum, level.var_2e0bd467.var_13ce982a );
+        self stoprumble( localclientnum, level.var_2e0bd467.stage1rumble );
     }
     
-    if ( isdefined( level.var_2e0bd467.var_bb74ddeb ) )
+    if ( isdefined( level.var_2e0bd467.stage2rumble ) )
     {
-        self stoprumble( localclientnum, level.var_2e0bd467.var_bb74ddeb );
+        self stoprumble( localclientnum, level.var_2e0bd467.stage2rumble );
     }
 }
 

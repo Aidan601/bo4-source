@@ -1,8 +1,8 @@
 {
     "name": "#loot_emote_shared_shuffle_dance",
     "type": "#gesture",
-    "gesture": "#hash_11c1a42bcb66c384",
-    "gesture2": "#hash_6fd2fc18861e6577",
+    "gesture": "#boast_shuffle_dance",
+    "gesture2": "#boast_shuffle_dance_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_3ecf71c085b7d9ee",

@@ -162,7 +162,7 @@ function private function_5bb13b48( player )
         }
         else
         {
-            player iprintlnbold( #"hash_5a11b7ef0cd7e33b" );
+            player iprintlnbold( #"mpui/health_full" );
             player playsoundtoplayer( #"uin_unavailable_charging", player );
         }
     }

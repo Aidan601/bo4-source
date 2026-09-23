@@ -24,17 +24,17 @@
         "#c_t8_zmb_blightfather1"
     ],
     "animMappingTables": [
-        "#hash_269ff22bc33a5489"
+        "#zm_blight_father.ai_am"
     ],
     "meleeWeapon": "#blight_father_melee",
     "aimTable": "#soldier_aim",
-    "footstepTable": "#hash_1e4bee88a4cf05d8",
+    "footstepTable": "#ai_bfather_step_table",
     "footstepScriptCallback": true,
     "footstepFXTable1": "#hash_36a0995dddf6bde9",
     "footstepFXTable2": "#hash_48c266414feaddbc",
-    "behaviorTree": "#hash_269ceb2bc33812cd",
-    "animStateMachine": "#hash_5c08885cbc0c208e",
-    "animSelectorTable": "#hash_5c08715cbc0bf979",
+    "behaviorTree": "#zm_blight_father.ai_bt",
+    "animStateMachine": "#zm_blight_father.ai_asm",
+    "animSelectorTable": "#zm_blight_father.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#fxb8_zm_char_blightfather",
     "aiNotetrackBoneMappingBundle": "#blightfather_footstep_notetrack_bones",

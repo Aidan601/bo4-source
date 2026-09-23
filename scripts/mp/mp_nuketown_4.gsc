@@ -47,7 +47,7 @@ function event_handler[level_init] main( eventstruct )
         adddebugcommand( "<dev string:x38>" + "<dev string:x51>" );
     #/
     
-    level thread function_b3e0f5e0();
+    level thread nuketown_mannequin_debug();
     kill_triggers = getentarray( "ee_kill", "targetname" );
     
     foreach ( trigger in kill_triggers )
@@ -57,7 +57,7 @@ function event_handler[level_init] main( eventstruct )
     
     level thread function_2cdcf5c3();
     
-    if ( getdvarint( #"hash_774f95460ca50d49", 1 ) )
+    if ( getdvarint( #"nuketown_end_movie", 1 ) )
     {
         level.end_game_video = hash( "mp_nuketown_4_outro" );
         level.var_48ea0e8c = 8;
@@ -184,13 +184,13 @@ function on_connect()
 // Params 0
 // Checksum 0x97651c0c, Offset: 0x12f8
 // Size: 0x96
-function function_b3e0f5e0()
+function nuketown_mannequin_debug()
 {
     while ( level.mannequin_mode === 0 )
     {
-        if ( getdvarint( #"hash_519c2711f2f609f", 0 ) && level.mannequin_mode == 0 )
+        if ( getdvarint( #"nuketown_mannequin_debug", 0 ) && level.mannequin_mode == 0 )
         {
-            setdvar( #"hash_519c2711f2f609f", 0 );
+            setdvar( #"nuketown_mannequin_debug", 0 );
             level thread mannequin_mode();
         }
         
@@ -685,7 +685,7 @@ function mannequin_falling( var_e5031929 )
     self notify( #"landed" );
     self unlink();
     var_e5031929 delete();
-    animation::play( #"hash_4c2aa742b1aeb780", self.origin, self.angles, 1, 0.4, 0.2, 0, 0, 0, 0 );
+    animation::play( #"ai_nuketown_ee_landing", self.origin, self.angles, 1, 0.4, 0.2, 0, 0, 0, 0 );
 }
 
 // Namespace mp_nuketown_4/mp_nuketown_4
@@ -710,7 +710,7 @@ function function_4eca5590()
     
     while ( true )
     {
-        animation::play( #"hash_1f02283eb11fce2a", self.origin, self.angles, 1, 0.2, 0.2, 0, 0, 0, 0 );
+        animation::play( #"ai_nuketown_ee_flail_loop", self.origin, self.angles, 1, 0.2, 0.2, 0, 0, 0, 0 );
     }
 }
 

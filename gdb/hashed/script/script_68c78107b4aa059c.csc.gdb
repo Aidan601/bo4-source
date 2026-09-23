@@ -1,4 +1,4 @@
-NAME script_68c78107b4aa059c
+NAME scripts/mp_common/item_spawn_groups_util.csc
 VERSION 0
 CHECKSUM 0xcca77fc7
 ######################################################

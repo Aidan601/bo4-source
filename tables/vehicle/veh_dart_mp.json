@@ -9,13 +9,13 @@
     "spawnerType": "#none",
     "spawnInfluencers1": "#none",
     "spawnInfluencers2": "#none",
-    "exhaustFx": "#hash_50e269dfa9bb6a69",
+    "exhaustFx": "#killstreaks/fx8_dart_thruster",
     "exhaustFxTag1": "tag_fx_thruster",
-    "deathFx": "#hash_2ab8bcf86391b223",
+    "deathFx": "#killstreaks/fx8_dart_explosion",
     "deathFxTag": "tag_body_animate",
-    "deathFxSound": "#hash_36798f1cfbcaec95",
+    "deathFxSound": "#veh_dart_explo",
     "lightFx": [
-        "#hash_8862d9565589bb9"
+        "#killstreaks/fx8_dart_lights"
     ],
     "lightFxTag": [
         "tag_laser"
@@ -30,9 +30,9 @@
     "skidSpeedMin": 100,
     "skidSpeedMax": 600,
     "peelSpeedMax": 600,
-    "model": "#hash_181fe85848ab066",
+    "model": "#veh_t8_mil_drone_dart_mp_light",
     "deathModel": "#veh_t8_mil_drone_dart",
-    "enemyModel": "#hash_7daeb58f525049fe",
+    "enemyModel": "#veh_t8_mil_drone_dart_mp_dark",
     "soundDef": "#veh_drn_dart_mp",
     "compassIconMaterial": "#compass_hk",
     "steerAxisName": "AXIS_RSTICK",
@@ -45,35 +45,35 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_b1a03f2448a49d9",
+                        "displaystring": "localized17#menu/hud_vehicle_slow",
                         "buttondirection": "left",
                         "prompt": "+speed_throw"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5dba026ffa1d58cd",
+                        "displaystring": "localized17#menu/hud_vehicle_steer",
                         "buttondirection": "left",
                         "prompt": "+lookstick"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5627dec5036bc76c",
+                        "displaystring": "localized17#menu/hud_vehicle_detonate",
                         "buttondirection": "left",
                         "prompt": "+vehicleattack"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_79d336e3dd657b0a",
+                        "displaystring": "localized17#menu/hud_vehicle_speedboost",
                         "buttondirection": "left",
                         "prompt": "+breath_sprint"
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VHUD_Dart",
@@ -82,6 +82,6 @@
             }
         ],
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

@@ -34,7 +34,7 @@ function enable_ethereal_razor_perk_for_level()
 {
     if ( function_8b1a219a() )
     {
-        zm_perks::register_perk_basic_info( #"specialty_etherealrazor", #"perk_ethereal_razor", 4000, #"hash_1e8ce5bc6963fb34", getweapon( "zombie_perk_bottle_ethereal_razor" ), getweapon( "zombie_perk_totem_ethereal_razor" ), #"zmperksetherealrazor" );
+        zm_perks::register_perk_basic_info( #"specialty_etherealrazor", #"perk_ethereal_razor", 4000, #"zombie/perk_ethereal_razor_keyboard", getweapon( "zombie_perk_bottle_ethereal_razor" ), getweapon( "zombie_perk_totem_ethereal_razor" ), #"zmperksetherealrazor" );
     }
     else
     {
@@ -75,7 +75,7 @@ function function_ee114cab()
         return;
     }
     
-    level._effect[ #"ethereal_razor_light" ] = #"hash_1442db17b83460ad";
+    level._effect[ #"ethereal_razor_light" ] = #"_t6/misc/fx_zombie_cola_revive_on";
     level.machine_assets[ #"specialty_etherealrazor" ] = spawnstruct();
     level.machine_assets[ #"specialty_etherealrazor" ].weapon = getweapon( "zombie_perk_bottle_ethereal_razor" );
     level.machine_assets[ #"specialty_etherealrazor" ].off_model = "p7_zm_vending_nuke";
@@ -88,7 +88,7 @@ function function_ee114cab()
 // Size: 0xc4
 function function_f20b4260()
 {
-    clientfield::register( "actor", "" + #"hash_29c26fb019da89f3", 13000, 1, "counter" );
+    clientfield::register( "actor", "" + #"ethereal_melee_impact", 13000, 1, "counter" );
     clientfield::register( "allplayers", "" + #"hash_450d9f824068dcc2", 13000, 1, "counter" );
     clientfield::register( "allplayers", "" + #"hash_4de2dbcd551f1fb7", 13000, 1, "counter" );
 }
@@ -245,11 +245,11 @@ function function_1f7c6bb9( w_melee, var_2b9d3880, var_48e9b3cc, is_lunge = 0 )
         
         e_target.var_39c64392 = undefined;
         e_target dodamage( n_total_damage, self.origin, self, undefined, e_target.var_39c64392, "MOD_MELEE", 0, w_melee );
-        e_target playsound( #"hash_444f738bd1d3fd8" );
+        e_target playsound( #"zmb_vapor_ethereal_razor_impact" );
         
         if ( isactor( e_target ) )
         {
-            e_target clientfield::increment( "" + #"hash_29c26fb019da89f3" );
+            e_target clientfield::increment( "" + #"ethereal_melee_impact" );
         }
         
         var_5f96a3db++;

@@ -1,5 +1,5 @@
 mp_militia.fr
-hash_15a01ecd5dbc54f0
+mp_militia_fr_stream
 hash_7ca97e9159a1f9bd
 hash_63f4aff78734740a
 hash_55372c88cb67f79b

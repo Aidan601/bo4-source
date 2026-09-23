@@ -115,7 +115,7 @@ function function_653412f4( var_a276c861 )
     
     if ( !var_a276c861 )
     {
-        level waittill( #"hash_75e5d46ef453bd62" );
+        level waittill( #"jordans_reward_step_1_done" );
     }
 }
 
@@ -282,7 +282,7 @@ function function_dd162dbf()
 {
     self notify( "21a67d99777d1f78" );
     self endon( "21a67d99777d1f78" );
-    level endon( #"hash_75e5d46ef453bd62" );
+    level endon( #"jordans_reward_step_1_done" );
     self endon( #"disconnect" );
     
     if ( !isdefined( self.var_c859fa3a ) )
@@ -311,7 +311,7 @@ function grenade_throw_watcher()
 {
     self notify( "3cf135e64119b4db" );
     self endon( "3cf135e64119b4db" );
-    level endon( #"hash_75e5d46ef453bd62" );
+    level endon( #"jordans_reward_step_1_done" );
     self endon( #"disconnect" );
     
     while ( true )
@@ -387,7 +387,7 @@ function function_fefbf8c2( e_grenade )
                         
                         if ( level.var_46169cd9 >= level.var_22aacd56 )
                         {
-                            level notify( #"hash_75e5d46ef453bd62" );
+                            level notify( #"jordans_reward_step_1_done" );
                         }
                     }
                 }
@@ -544,7 +544,7 @@ function function_3a57d343()
     self notify( "69c331ec544efd5c" );
     self endon( "69c331ec544efd5c" );
     self endon( #"death" );
-    level endon( #"hash_33d9d5dbe3f1e8c2" );
+    level endon( #"jordans_reward_step_2_completed" );
     w_wraith_fire = getweapon( #"eq_wraith_fire" );
     
     while ( true )
@@ -579,7 +579,7 @@ function function_b094be90( var_5cae7dc6 = 0 )
         self.mdl_candle setcandamage( 0 );
         self.b_lit = 1;
         level notify( #"hash_13411a5231901c2e", { #var_8ee6e347:self.script_int } );
-        self notify( #"hash_4b152ceaa6708e09" );
+        self notify( #"candle_relit" );
     }
     
     if ( var_5cae7dc6 )
@@ -991,7 +991,7 @@ function function_9215e9d( t_unitrigger, var_711067a4 )
     }
     
     wait n_time;
-    self notify( #"hash_36de4efbe292709d" );
+    self notify( #"stop_trigger_watcher" );
     return true;
 }
 
@@ -1001,7 +1001,7 @@ function function_9215e9d( t_unitrigger, var_711067a4 )
 // Size: 0xae
 function function_123c7022( t_unitrigger, var_711067a4 )
 {
-    self endon( #"hash_36de4efbe292709d", #"death" );
+    self endon( #"stop_trigger_watcher", #"death" );
     t_unitrigger endon( #"death" );
     
     do
@@ -1375,9 +1375,9 @@ function function_64b50b8c( var_c2415b72 )
 // Size: 0x3be
 function function_6366a177( s_lookat, var_3ac8690f, var_149b3205 )
 {
-    self val::set( #"hash_69fe6012338fa244", #"freezecontrols" );
-    self val::set( #"hash_69fe6012338fa244", "ignoreme", 1 );
-    self val::set( #"hash_69fe6012338fa244", "takedamage", 0 );
+    self val::set( #"placeholder_jump_scare", #"freezecontrols" );
+    self val::set( #"placeholder_jump_scare", "ignoreme", 1 );
+    self val::set( #"placeholder_jump_scare", "takedamage", 0 );
     var_6c759f99 = util::spawn_model( #"hash_3ae1ad382a5ec0c8", s_lookat.origin + ( 0, 0, -62 ), s_lookat.angles );
     var_6c759f99 hide();
     var_6c759f99 showtoplayer( self );
@@ -1412,9 +1412,9 @@ function function_6366a177( s_lookat, var_3ac8690f, var_149b3205 )
     
     if ( isdefined( self ) )
     {
-        self val::reset( #"hash_69fe6012338fa244", #"freezecontrols" );
-        self val::reset( #"hash_69fe6012338fa244", "ignoreme" );
-        self val::reset( #"hash_69fe6012338fa244", "takedamage" );
+        self val::reset( #"placeholder_jump_scare", #"freezecontrols" );
+        self val::reset( #"placeholder_jump_scare", "ignoreme" );
+        self val::reset( #"placeholder_jump_scare", "takedamage" );
         self notify( #"hash_5fa4964a839dbe6d" );
     }
 }
@@ -1531,7 +1531,7 @@ function function_dc123817( str_notify )
 // Size: 0xbc
 function function_da604bc0( t_unitrigger, var_1611e2c0 )
 {
-    self endon( #"hash_36de4efbe292709d", #"death" );
+    self endon( #"stop_trigger_watcher", #"death" );
     
     /#
         iprintlnbold( "<dev string:x15f>" + self.playernum );
@@ -1727,7 +1727,7 @@ function function_533ca98d( t_unitrigger, var_1611e2c0 )
     // Size: 0x12c, Type: dev
     function function_95b6c945()
     {
-        if ( !getdvarint( #"hash_7919e37cd5d57659", 0 ) )
+        if ( !getdvarint( #"zm_debug_ee_system", 0 ) )
         {
             return;
         }

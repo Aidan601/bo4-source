@@ -40,9 +40,9 @@ function __init__()
     level.var_9d47488.script = &function_c3d93fc;
     level.var_9d47488.weapon = getweapon( "eq_seeker_mine" );
     level.var_9d47488.prompt = seeker_mine_prompt::register( "seeker_mine_prompt" );
-    level.var_9d47488.var_8e526d12 = getweapon( #"hash_27d90cc12712230f" );
-    level.var_9d47488.var_42f768ff = getweapon( #"hash_1ca0e9052a71989" );
-    level.var_9d47488.var_4bbc3170 = getweapon( #"hash_597ead6ff2ce9284" );
+    level.var_9d47488.var_8e526d12 = getweapon( #"seeker_mine_loop" );
+    level.var_9d47488.var_42f768ff = getweapon( #"seeker_mine_fail" );
+    level.var_9d47488.var_4bbc3170 = getweapon( #"seeker_mine_success" );
     level.var_f93c9e9c = &function_b6ee86e3;
     function_5aa948ab();
     callback::on_connect( &onplayerconnect );
@@ -82,14 +82,14 @@ function function_5aa948ab()
         level.var_9d47488.tunables.prompttime = 0;
     }
     
-    if ( !isdefined( level.var_9d47488.tunables.var_b9cf9139 ) )
+    if ( !isdefined( level.var_9d47488.tunables.perceptiontime ) )
     {
-        level.var_9d47488.tunables.var_b9cf9139 = 0;
+        level.var_9d47488.tunables.perceptiontime = 0;
     }
     
-    if ( !isdefined( level.var_9d47488.tunables.var_5ee35075 ) )
+    if ( !isdefined( level.var_9d47488.tunables.latencytime ) )
     {
-        level.var_9d47488.tunables.var_5ee35075 = 0;
+        level.var_9d47488.tunables.latencytime = 0;
     }
     
     if ( !isdefined( level.var_9d47488.tunables.var_9bdbf8df ) )
@@ -107,17 +107,17 @@ function function_5aa948ab()
         level.var_9d47488.tunables.var_9abfd5cf = 0;
     }
     
-    if ( !isdefined( level.var_9d47488.tunables.var_e8e9a9cc ) )
+    if ( !isdefined( level.var_9d47488.tunables.rootedtime ) )
     {
-        level.var_9d47488.tunables.var_e8e9a9cc = 0;
+        level.var_9d47488.tunables.rootedtime = 0;
     }
     
-    if ( !isdefined( level.var_9d47488.tunables.var_a06eff0b ) )
+    if ( !isdefined( level.var_9d47488.tunables.successdelaytime ) )
     {
-        level.var_9d47488.tunables.var_a06eff0b = 0;
+        level.var_9d47488.tunables.successdelaytime = 0;
     }
     
-    level.var_9d47488.tunables.var_1f80b74 = level.var_9d47488.tunables.prompttime + level.var_9d47488.tunables.var_b9cf9139 + level.var_9d47488.tunables.var_5ee35075 + level.var_9d47488.tunables.var_9bdbf8df + level.var_9d47488.tunables.var_2fa95b34;
+    level.var_9d47488.tunables.var_1f80b74 = level.var_9d47488.tunables.prompttime + level.var_9d47488.tunables.perceptiontime + level.var_9d47488.tunables.latencytime + level.var_9d47488.tunables.var_9bdbf8df + level.var_9d47488.tunables.var_2fa95b34;
     level.var_9d47488.tunables.maxduration = level.var_9d47488.tunables.var_1f80b74 + level.var_9d47488.tunables.failedtime;
     
     if ( !isdefined( level.var_9d47488.tunables.yaw ) )
@@ -420,9 +420,9 @@ function function_f43b3686( originalowner )
         }
     }
     
-    if ( isdefined( level.var_4b3541d4.var_bb6c29b4 ) && isdefined( weapon ) && weapon == getweapon( #"shock_rifle" ) )
+    if ( isdefined( level.var_4b3541d4.shockrifledestructionfx ) && isdefined( weapon ) && weapon == getweapon( #"shock_rifle" ) )
     {
-        playfx( level.var_4b3541d4.var_bb6c29b4, self.origin );
+        playfx( level.var_4b3541d4.shockrifledestructionfx, self.origin );
     }
     
     arrayremovevalue( level.seeker_mine[ originalownerentnum ].mines, self );
@@ -721,7 +721,7 @@ function function_724e8f1c( var_26b2b1bb, arcsource, depth )
             self.var_8103e91a = var_26b2b1bb;
         }
         
-        function_1750438e( level.var_9d47488.tunables.var_1aab44e0, arcsource.arcweapon, arcsource.owner );
+        function_1750438e( level.var_9d47488.tunables.sestart, arcsource.arcweapon, arcsource.owner );
         return self.seeker_mine_se.seduration;
     }
     
@@ -791,7 +791,7 @@ function function_afd97197()
 // Size: 0x15c
 function minigame_start( var_26b2b1bb, seekermine )
 {
-    self notify( #"hash_3319597daca726ad" );
+    self notify( #"seeker_minigame_start" );
     self.var_dda9b735.state = 0;
     self.var_dda9b735.prompt = 0;
     self.var_dda9b735.isshocked = 1;
@@ -877,11 +877,11 @@ function function_dfbbefb8()
     wait level.var_9d47488.tunables.prompttime;
     self.var_dda9b735.prompt = 2;
     self.var_dda9b735.var_aacd5e7c = gettime();
-    wait level.var_9d47488.tunables.var_5ee35075;
-    wait level.var_9d47488.tunables.var_b9cf9139;
+    wait level.var_9d47488.tunables.latencytime;
+    wait level.var_9d47488.tunables.perceptiontime;
     self.var_dda9b735.prompt = 0;
     wait level.var_9d47488.tunables.var_9bdbf8df;
-    self notify( #"hash_13bc4f053f8da5b0" );
+    self notify( #"seeker_mine_prompt_closed" );
     self.var_dda9b735.prompt = 3;
 }
 
@@ -917,7 +917,7 @@ function function_6c023d11()
         waitframe( 1 );
     }
     
-    self notify( #"hash_89051c7805b3d19" );
+    self notify( #"seeker_mine_death" );
 }
 
 // Namespace seeker_mine_mp/seeker_mine
@@ -999,7 +999,7 @@ function function_f6f0c876( var_26b2b1bb, seekermine )
         return;
     }
     
-    self notify( #"hash_13bc4f053f8da5b0" );
+    self notify( #"seeker_mine_prompt_closed" );
     gesturetable = "gestable_shocked_reaction";
     var_84a7f98e = undefined;
     waitduration = 0;
@@ -1018,9 +1018,9 @@ function function_f6f0c876( var_26b2b1bb, seekermine )
             println( "<dev string:x38>" );
             self playsoundtoplayer( #"uin_seeker_qte_fail", self );
             
-            if ( isdefined( level.var_9d47488.tunables.var_a60d049b ) )
+            if ( isdefined( level.var_9d47488.tunables.failrumble ) )
             {
-                self playrumbleonentity( level.var_9d47488.tunables.var_a60d049b );
+                self playrumbleonentity( level.var_9d47488.tunables.failrumble );
             }
             
             self battlechatter::pain_vox( "MOD_ELECTROCUTED", self.arcweapon );
@@ -1028,24 +1028,24 @@ function function_f6f0c876( var_26b2b1bb, seekermine )
             break;
         case 1:
             gesturetable = "gestable_shocked_success";
-            var_84a7f98e = getweapon( #"hash_597ead6ff2ce9284" );
+            var_84a7f98e = getweapon( #"seeker_mine_success" );
             islooping = 0;
             self playsoundtoplayer( #"uin_seeker_qte_success", self );
             self battlechatter::function_72b65730();
             function_1750438e( level.var_9d47488.tunables.sesuccess, seekermine.arcweapon, seekermine.owner );
-            animdelay = level.var_9d47488.tunables.var_a06eff0b;
+            animdelay = level.var_9d47488.tunables.successdelaytime;
             println( "<dev string:x59>" );
             break;
         case 2:
             waitduration = level.var_9d47488.tunables.failedtime;
             self playsoundtoplayer( #"uin_seeker_qte_fail", self );
             self battlechatter::pain_vox( "MOD_ELECTROCUTED", self.arcweapon );
-            function_1750438e( level.var_9d47488.tunables.var_292fba11, seekermine.arcweapon, seekermine.owner );
+            function_1750438e( level.var_9d47488.tunables.sefail, seekermine.arcweapon, seekermine.owner );
             println( "<dev string:x76>" );
             break;
         case 3:
             gesturetable = "gestable_shocked_success";
-            var_84a7f98e = getweapon( #"hash_597ead6ff2ce9284" );
+            var_84a7f98e = getweapon( #"seeker_mine_success" );
             islooping = 0;
             self playsoundtoplayer( #"uin_seeker_qte_success", self );
             println( "<dev string:x92>" );
@@ -1068,11 +1068,11 @@ function function_24d08109( seekermine, waitduration, var_26b2b1bb, state )
     self notify( "d5876c031211735" );
     self endon( "d5876c031211735" );
     self endon( #"death" );
-    self waittilltimeout( waitduration, #"hash_89051c7805b3d19" );
+    self waittilltimeout( waitduration, #"seeker_mine_death" );
     
     if ( state == 1 )
     {
-        wait level.var_9d47488.tunables.var_e8e9a9cc;
+        wait level.var_9d47488.tunables.rootedtime;
     }
     else
     {
@@ -1143,7 +1143,7 @@ function function_e380fde7( var_84a7f98e, gesturetable, waitduration, islooping,
     
     if ( isdefined( self.var_dda9b735.islooping ) && self.var_dda9b735.islooping )
     {
-        self waittilltimeout( waitduration, #"hash_89051c7805b3d19" );
+        self waittilltimeout( waitduration, #"seeker_mine_death" );
         
         if ( isdefined( self ) && isdefined( self.var_dda9b735.gesture ) )
         {

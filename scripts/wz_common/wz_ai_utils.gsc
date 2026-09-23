@@ -1,4 +1,4 @@
-#using script_cb32d07c95e5628;
+#using scripts\mp_common\item_spawn_groups_util;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\infection;
@@ -91,7 +91,7 @@ function private __init__()
     {
         level endon( #"game_ended" );
         aitypes = array( #"spawner_boct_zombie_wz", #"spawner_boct_zombie_mob_wz", #"spawner_wz_blight_father", #"spawner_boct_zombie_dog_wz", #"spawner_boct_brutus_special_wz", #"spawner_boct_brutus_wz", #"spawner_boct_avogadro" );
-        setdvar( #"hash_209287456d55fca1", "<dev string:x38>" );
+        setdvar( #"wz_ai_devgui_cmd", "<dev string:x38>" );
         
         foreach ( type in aitypes )
         {
@@ -107,7 +107,7 @@ function private __init__()
         while ( true )
         {
             wait 0.1;
-            cmd = getdvarstring( #"hash_209287456d55fca1", "<dev string:x38>" );
+            cmd = getdvarstring( #"wz_ai_devgui_cmd", "<dev string:x38>" );
             
             if ( cmd == "<dev string:x38>" )
             {
@@ -118,7 +118,7 @@ function private __init__()
             
             switch ( cmd_tokens[ 0 ] )
             {
-                case #"hash_c0b89e8d4a71cff":
+                case #"debug_spawn_ai":
                     player = level.players[ 0 ];
                     direction = player getplayerangles();
                     direction_vec = anglestoforward( direction );
@@ -131,7 +131,7 @@ function private __init__()
                     break;
             }
             
-            setdvar( #"hash_209287456d55fca1", "<dev string:x38>" );
+            setdvar( #"wz_ai_devgui_cmd", "<dev string:x38>" );
         }
     }
 
@@ -588,7 +588,7 @@ function function_a679f9b( params )
         {
             if ( self.archetype == #"zombie" )
             {
-                self.ai_zone.var_58ba2ab7++;
+                self.ai_zone.ai_killed_zombie++;
                 return;
             }
             
@@ -1571,12 +1571,12 @@ function function_16e2f075( params )
         return;
     }
     
-    if ( !( isdefined( self.var_85c3882d ) && self.var_85c3882d ) )
+    if ( !( isdefined( self.inconcertinawire ) && self.inconcertinawire ) )
     {
         self.var_1b5e8136 = gettime();
     }
     
-    self.var_85c3882d = 1;
+    self.inconcertinawire = 1;
     
     if ( !( isdefined( self.var_a9d9d11b ) && self.var_a9d9d11b ) || self.var_a9d9d11b < gettime() )
     {
@@ -1634,14 +1634,14 @@ function function_7a87d2a7( damageduration )
             
             if ( timesincestart > 1000 )
             {
-                ai.var_85c3882d = undefined;
+                ai.inconcertinawire = undefined;
             }
             
             timesincelast = gettime() - ai.var_cd7665dd;
             
             if ( timesincelast > 250 )
             {
-                ai.var_85c3882d = undefined;
+                ai.inconcertinawire = undefined;
                 ai.var_1b5e8136 = undefined;
                 var_202d087b[ var_202d087b.size ] = ai;
             }

@@ -18,18 +18,18 @@
         "#c_t8_zmb_catalyst_decay"
     ],
     "animMappingTables": [
-        "#hash_13b1ea38b9421ce0",
-        "#hash_4aa266d36b656264"
+        "#zm_zombie.ai_am",
+        "#zm_catalyst_corrosive.ai_am"
     ],
     "meleeWeapon": "#zombie_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
-    "footstepTable": "#hash_1803e9915f7fd7be",
+    "footstepTable": "#zombfootstep_catalyst_corrosive",
     "footstepScriptCallback": false,
-    "footstepFXTable1": "#hash_4453ce90eb698e00",
-    "footstepFXTable2": "#hash_4453ce90eb698e00",
+    "footstepFXTable1": "#zm_cata_cor_footstep",
+    "footstepFXTable2": "#zm_cata_cor_footstep",
     "behaviorTree": "#zm_zombie.ai_bt",
     "animStateMachine": "#zm_zombie.ai_asm",
-    "animSelectorTable": "#hash_39d3a662cbad64aa",
+    "animSelectorTable": "#zm_zombie.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#fxb8_zm_char_cata_cor",
     "aiSettingsBundle": "#zm_catalyst_settings",

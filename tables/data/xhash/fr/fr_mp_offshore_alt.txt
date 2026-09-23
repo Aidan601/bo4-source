@@ -1,5 +1,5 @@
 mp_offshore_alt.fr
-hash_538d13cb2571eb9
+mp_offshore_alt_fr_stream
 hash_329658661892b1e4
 hash_75448af5ea8100ef
 hash_af1e901f86c9e66

@@ -47,10 +47,10 @@
             "1 0.0507"
         ]
     ],
-    "firesound": "#hash_4e6d8966b3c7f5c2",
-    "firesoundplayer": "#hash_6b406066328d4787",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "firesound": "#wpn_firegat_fire_pap_npc",
+    "firesoundplayer": "#wpn_firegat_fire_pap_plr",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound800": "#hash_54f28bb508a46096",
     "sound810": "#hash_54f28bb508a46096",
     "tunables1": "#ww_blundergat_fire_t8_upgraded_tunables_zm",
@@ -71,8 +71,8 @@
     "image_e90": "#ui_icon_weapons_zm_blundergat_red",
     "image_1048": "#ui_icon_weapons_zm_blundergat_red",
     "fireRumble": "#damage_heavy",
-    "fx_bc8": "#hash_52171f7e87d102f",
-    "fx_bd0": "#hash_43d6485ff720120b",
-    "fx_ed8": "#hash_26d0dc927aee6793",
+    "fx_bc8": "#zm_weapons/fx8_blundersplat_muzzleflash_ug",
+    "fx_bd0": "#zm_weapons/fx8_blundersplat_muzzleflash_ug_3p",
+    "fx_ed8": "#zm_weapons/fx8_magmagat_explosion",
     "fx_f00": "#hash_53c0bb17712386bf"
 }

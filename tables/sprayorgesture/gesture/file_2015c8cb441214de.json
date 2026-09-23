@@ -1,12 +1,12 @@
 {
-    "name": "#hash_2015c8cb441214de",
+    "name": "#loot_emote_exotic_shared_white_flag",
     "type": "#gesture",
-    "gesture": "#hash_19ac44cb85f99837",
-    "gesture2": "#hash_43a539ca66ad9c00",
+    "gesture": "#boast_white_flag",
+    "gesture2": "#boast_white_flag_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/surrender",
-        "icon": "image#hash_3a7d56c49c62a848",
+        "icon": "image#ui_icon_emotes_white_flag",
         "isdefault": 0
     }
 }

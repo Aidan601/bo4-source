@@ -5,8 +5,8 @@ xmodelmesh,#hash_4cb00942dc4a3fd0
 xmodelmesh,#hash_73872f7ca8a768ee
 xmodelmesh,#hash_77779ebdc006c248
 xmodelmesh,#hash_7e21e118b4a7f806
-techset,d#hash_33832cd9511a3ad
-techset,d#hash_7c74ccec2904cee4
+techset,d#mc/lit#cc85bc05
+techset,d#mc/lit#f840f400
 image,d#$occlusion
 image,d#$white_gloss
 image,d#$white_diffuse

@@ -22,17 +22,17 @@ function init()
 {
     var_7551dff2 = getminbitcountfornum( 4 );
     var_b7863a03 = getminbitcountfornum( 3 );
-    clientfield::register( "allplayers", "" + #"spear_fire_fx", 16000, 1, "int", &function_d087b08c, 0, 1 );
-    clientfield::register( "allplayers", "" + #"hash_4a149c9daff159cd", 16000, 1, "int", &function_d02ccc7c, 0, 1 );
-    clientfield::register( "toplayer", "" + #"hash_7343b1cdab1f31c5", 16000, 1, "counter", &function_3d3614aa, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"hash_2a17f2993036fab4", 16000, 1, "counter", &function_6a9e68bf, 0, 0 );
+    clientfield::register( "allplayers", "" + #"spear_fire_fx", 16000, 1, "int", &spear_fire_fx, 0, 1 );
+    clientfield::register( "allplayers", "" + #"spear_greek_fire_fx", 16000, 1, "int", &spear_greek_fire_fx, 0, 1 );
+    clientfield::register( "toplayer", "" + #"spear_fire_rumble", 16000, 1, "counter", &spear_fire_rumble, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"greek_fire_annihilate", 16000, 1, "counter", &greek_fire_annihilate, 0, 0 );
     clientfield::register( "scriptmover", "" + #"rune_fire", 16000, 1, "int", &function_659d8180, 0, 0 );
     clientfield::register( "scriptmover", "" + #"monument_eyes", 16000, var_7551dff2, "int", &monument_eyes, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_78fa79d021d86cb6", 16000, 1, "int", &function_27f4136d, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_4f90c0f4c5bc1c42", 16000, 1, "int", &function_31d064c0, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_784f06b253332f8f", 16000, 1, "counter", &function_148f3698, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_491027931a3fc18f", 16000, 1, "int", &function_efc5ca9d, 0, 0 );
-    clientfield::register( "world", "" + #"hash_682b7b65432b7746", 16000, var_b7863a03, "int", &function_fb3b37f4, 0, 0 );
+    clientfield::register( "world", "" + #"oil_trail_decal", 16000, var_b7863a03, "int", &oil_trail_decal, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_214549d33d068451", 16000, 1, "counter", &function_405ead09, 0, 0 );
     clientfield::register( "world", "" + #"hash_51858e923e750c33", 16000, 2, "int", &function_8d3c45d8, 0, 0 );
     clientfield::register( "world", "" + #"hash_2b05d4c6217bac22", 16000, 2, "int", &function_e8ce5b81, 0, 0 );
@@ -49,20 +49,20 @@ function init()
     clientfield::register( "toplayer", "" + #"hash_11480c2b11f0c92f", 16000, 1, "counter", &function_b1017eda, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_6d76e4b7a31537af", 16000, 1, "int", &function_ddf8e6d7, 0, 0 );
     clientfield::register( "world", "" + #"hash_4d77ba61cd7f3eb7", 16000, 1, "counter", &function_81289c69, 0, 0 );
-    clientfield::register( "world", "" + #"hash_43972920fa314daa", 16000, 2, "int", &function_73a5ca1a, 0, 0 );
+    clientfield::register( "world", "" + #"light_hemera_beam", 16000, 2, "int", &light_hemera_beam, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_25cfe5e9786d97e7", 16000, 1, "int", &function_4d61e8ab, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_125706eb7b363924", 16000, 1, "int", &function_c6c41fb1, 0, 0 );
     clientfield::register( "vehicle", "" + #"hash_7fc7f7b5958831d4", 16000, 1, "int", &function_ad6b5484, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_431f319e4b8fe9db", 16000, 1, "int", &function_f3c6c429, 0, 0 );
     clientfield::register( "world", "" + #"hash_158233cdc645bef6", 16000, 1, "int", &function_6fd9deaa, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_492a33037a532fe0", 16000, 1, "counter", &function_6d38ea52, 0, 0 );
-    clientfield::register( "toplayer", "" + #"hash_4aeb7fcdd8302eaa", 16000, 1, "int", &function_70e5b4bd, 0, 0 );
+    clientfield::register( "toplayer", "" + #"play_death_selected", 16000, 1, "int", &play_death_selected, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_7a99ff005314c5fc", 16000, 1, "int", &function_f648d45a, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_7f85dc0ce20a6f2c", 16000, 1, "int", &function_40cc4833, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_4e3e66f200f76f34", 16000, 1, "int", &function_83c7dece, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_565ca9982285f23e", 16000, 1, "int", &function_530c191c, 0, 0 );
-    clientfield::register( "actor", "" + #"hash_415416bf220de94", 16000, 1, "int", &function_cb766634, 0, 0 );
-    clientfield::register( "actor", "" + #"hash_3e2b1092de25c2dd", 16000, 1, "int", &function_3e4aa1cc, 0, 0 );
+    clientfield::register( "actor", "" + #"play_death_uncharged", 16000, 1, "int", &play_death_uncharged, 0, 0 );
+    clientfield::register( "actor", "" + #"play_death_charged", 16000, 1, "int", &play_death_charged, 0, 0 );
     clientfield::register( "actor", "" + #"hash_24b5302c2f39ebc2", 16000, 1, "int", &function_fac1b5c7, 0, 0 );
     clientfield::register( "actor", "" + #"hash_6a8479b5a5b359a7", 16000, 1, "int", &function_106dc737, 0, 0 );
     clientfield::register( "actor", "" + #"hash_4feb66128e57d092", 16000, 1, "int", &function_343099ca, 0, 0 );
@@ -70,7 +70,7 @@ function init()
     clientfield::register( "actor", "" + #"hash_4e1b58f05f69a65a", 16000, 1, "int", &function_f39e44d7, 0, 0 );
     clientfield::register( "actor", "" + #"hash_5a6761fe764bdccf", 16000, 1, "int", &function_6bd8c915, 0, 0 );
     var_ff76a259 = getminbitcountfornum( 5 );
-    clientfield::register( "world", "" + #"hash_74aaba5c17a71e0d", 16000, var_ff76a259, "int", &function_af9f249c, 0, 0 );
+    clientfield::register( "world", "" + #"play_death_spotlight", 16000, var_ff76a259, "int", &play_death_spotlight, 0, 0 );
     clientfield::register( "world", "" + #"hash_7e49e921c4dd052f", 16000, var_ff76a259, "int", &function_704042f5, 0, 0 );
     clientfield::register( "world", "" + #"hash_9d4aab5c25b93ff", 16000, var_ff76a259, "int", &function_a1833637, 0, 0 );
     clientfield::register( "world", "" + #"hash_58e58259618537e7", 16000, var_ff76a259, "int", &function_52659f14, 0, 0 );
@@ -82,8 +82,8 @@ function init()
     var_995dd8bf = getminbitcountfornum( 9 );
     clientfield::register( "world", "" + #"play_fanfare", 16000, var_995dd8bf, "int", &play_fanfare, 0, 0 );
     clientfield::register( "scriptmover", "" + #"blood_teleport", 16000, 1, "counter", &blood_teleport, 0, 0 );
-    clientfield::register( "allplayers", "" + #"hash_67b317587e795ec2", 16000, 1, "int", &function_bb7443e, 0, 0 );
-    clientfield::register( "allplayers", "" + #"hash_10275bcd47e53936", 16000, 1, "int", &function_f5ec271e, 0, 0 );
+    clientfield::register( "allplayers", "" + #"blood_disable_keyline", 16000, 1, "int", &function_bb7443e, 0, 0 );
+    clientfield::register( "allplayers", "" + #"blood_graphic_content", 16000, 1, "int", &blood_graphic_content, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_49068d48a9eb7b89", 16000, 2, "int", &function_9b5699b4, 0, 0 );
     clientfield::register( "world", "" + #"hash_51e28147388ee3d8", 16000, 1, "int", &function_59ea1144, 0, 0 );
     clientfield::register( "world", "" + #"hash_16e27bea0cc1b56b", 16000, 1, "int", &function_806b16b7, 0, 0 );
@@ -96,19 +96,19 @@ function init()
     level._effect[ #"hash_7210806af22770bb" ] = #"hash_527b5ca4206503fd";
     level._effect[ #"hash_48f9a29daf00294a" ] = #"hash_752bfcf80c9da234";
     level._effect[ #"hash_48f3969daefba938" ] = #"hash_7531e8f80ca1ebe6";
-    level._effect[ #"hash_2a17f2993036fab4" ] = #"hash_6638fd8cf4876df";
+    level._effect[ #"greek_fire_annihilate" ] = #"hash_6638fd8cf4876df";
     level._effect[ #"rune_fire" ] = #"hash_7504bcf503817eb2";
     level._effect[ #"hash_784f06b253332f8f" ] = #"hash_7d24820ee5231fef";
     level._effect[ #"hash_797e7381ba62ff8a" ] = #"hash_795ee7d89d6f10d2";
     level._effect[ #"hash_30660c47aae060a9" ] = #"zm_ai/fx8_elec_bolt";
     level._effect[ #"hash_22acf133b0aa208a" ] = #"hash_4d09e042a77cfba3";
     level._effect[ #"hash_530e1caa1a8c81d2" ] = #"hash_4bbfe2d612f8393d";
-    level._effect[ #"hash_6d76e4b7a31537af" ] = #"hash_2b71a6c9f08cfe3b";
+    level._effect[ #"hash_6d76e4b7a31537af" ] = #"maps/zm_escape/fx8_lightning_trail_red";
     level._effect[ #"hash_4d77ba61cd7f3eb7" ] = #"hash_25c4a39b373bfc67";
     level._effect[ #"hash_7fc7f7b5958831d4" ] = #"hash_520fd2427c5fcea3";
     level._effect[ #"hash_431f319e4b8fe9db" ] = #"hash_37bc7da216893b77";
-    level._effect[ #"hash_415416bf220de94" ] = #"hash_7b7ba0ac0755a064";
-    level._effect[ #"hash_3e2b1092de25c2dd" ] = #"hash_318aaa12f9dc7fd4";
+    level._effect[ #"play_death_uncharged" ] = #"hash_7b7ba0ac0755a064";
+    level._effect[ #"play_death_charged" ] = #"hash_318aaa12f9dc7fd4";
     level._effect[ #"hash_24b5302c2f39ebc2" ] = #"hash_569b6effe4db6f54";
     level._effect[ #"hash_6a8479b5a5b359a7" ] = #"hash_513bda1b67490064";
     level._effect[ #"hash_4feb66128e57d092" ] = #"hash_194fead3457d21f5";
@@ -213,28 +213,28 @@ function function_70f269cd( localclientnum, newval, str_step )
     switch ( str_step )
     {
         case #"oil":
-            a_s_points = function_cc7e9fc3( #"hash_219b4f20890b177b" );
+            a_s_points = function_cc7e9fc3( #"s_progress_oil" );
             break;
         case #"reflect":
-            a_s_points = function_cc7e9fc3( #"hash_6ae79ecdde61ddea", #"hash_219b4f20890b177b" );
+            a_s_points = function_cc7e9fc3( #"s_progress_reflect", #"s_progress_oil" );
             break;
         case #"split_prophecy":
-            a_s_points = function_cc7e9fc3( #"hash_64f85050330547ca", #"hash_6ae79ecdde61ddea" );
+            a_s_points = function_cc7e9fc3( #"s_progress_split_prophecy", #"s_progress_reflect" );
             break;
         case #"split_light":
-            a_s_points = function_cc7e9fc3( #"hash_218b3395cd5cfd78", #"hash_6ae79ecdde61ddea" );
+            a_s_points = function_cc7e9fc3( #"s_progress_split_light", #"s_progress_reflect" );
             break;
         case #"prophecy":
-            a_s_points = function_cc7e9fc3( #"hash_215626beb36c1b07", #"hash_64f85050330547ca" );
+            a_s_points = function_cc7e9fc3( #"s_progress_prophecy", #"s_progress_split_prophecy" );
             break;
         case #"light":
-            a_s_points = function_cc7e9fc3( #"hash_20ba31ada21bdeaf", #"hash_218b3395cd5cfd78" );
+            a_s_points = function_cc7e9fc3( #"s_progress_light", #"s_progress_split_light" );
             break;
         case #"play":
-            a_s_points = function_cc7e9fc3( #"hash_30d4d7a6ef033383" );
+            a_s_points = function_cc7e9fc3( #"s_progress_play" );
             break;
         case #"blood":
-            a_s_points = function_cc7e9fc3( #"hash_196c59af72f28307", #"hash_30d4d7a6ef033383" );
+            a_s_points = function_cc7e9fc3( #"s_progress_blood", #"s_progress_play" );
             break;
     }
     
@@ -249,7 +249,7 @@ function function_70f269cd( localclientnum, newval, str_step )
         case 2:
             if ( str_step == #"blood" )
             {
-                s_final = struct::get( #"hash_74c74fa352fbfa70" );
+                s_final = struct::get( #"s_progress_blood_final" );
                 a_s_points[ a_s_points.size - 1 ] = s_final;
             }
             
@@ -421,8 +421,8 @@ function function_31d064c0( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( !isdefined( self.var_1cfdd45e ) )
         {
-            self playsound( localclientnum, #"hash_10f7dee939554f61" );
-            self.var_1cfdd45e = self playloopsound( #"hash_474d2ea03ea86530" );
+            self playsound( localclientnum, #"zmb_perseus_energy_release" );
+            self.var_1cfdd45e = self playloopsound( #"zmb_perseus_energy_lp" );
         }
         
         return;
@@ -445,7 +445,7 @@ function function_31d064c0( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0x8e560646, Offset: 0x3220
 // Size: 0x1fe
-function function_d087b08c( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function spear_fire_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -491,7 +491,7 @@ function function_d087b08c( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xb96653b1, Offset: 0x3428
 // Size: 0x1fe
-function function_d02ccc7c( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function spear_greek_fire_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -537,18 +537,18 @@ function function_d02ccc7c( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xb94ea77e, Offset: 0x3630
 // Size: 0x64
-function function_3d3614aa( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function spear_fire_rumble( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    self playrumbleonentity( localclientnum, #"hash_230077451d7197c1" );
+    self playrumbleonentity( localclientnum, #"zm_red_spear_fire_rumble" );
 }
 
 // Namespace zm_red_main_quest/zm_red_main_quest
 // Params 7
 // Checksum 0x15965299, Offset: 0x36a0
 // Size: 0x74
-function function_6a9e68bf( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function greek_fire_annihilate( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    util::playfxontag( localclientnum, level._effect[ #"hash_2a17f2993036fab4" ], self, "tag_origin" );
+    util::playfxontag( localclientnum, level._effect[ #"greek_fire_annihilate" ], self, "tag_origin" );
 }
 
 // Namespace zm_red_main_quest/zm_red_main_quest
@@ -619,7 +619,7 @@ function function_9dbc7c12( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0xd4
 function function_613a43b6( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    s_fx = struct::get( #"hash_1ccb47ff147a81f4" );
+    s_fx = struct::get( #"s_prophecy_line" );
     playfx( localclientnum, level._effect[ #"hash_530e1caa1a8c81d2" ], s_fx.origin, anglestoforward( s_fx.angles ), anglestoup( s_fx.angles ) );
 }
 
@@ -636,7 +636,7 @@ function function_b1017eda( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xde46c10a, Offset: 0x3b40
 // Size: 0xe0
-function function_fb3b37f4( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function oil_trail_decal( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -778,7 +778,7 @@ function function_ddf8e6d7( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0xd4
 function function_81289c69( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    s_fx = struct::get( #"hash_16d7f49b344088ee" );
+    s_fx = struct::get( #"s_light_key_ignite_end" );
     playfx( localclientnum, level._effect[ #"hash_4d77ba61cd7f3eb7" ], s_fx.origin, anglestoforward( s_fx.angles ), anglestoup( s_fx.angles ) );
 }
 
@@ -786,7 +786,7 @@ function function_81289c69( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xa3dc9f64, Offset: 0x4278
 // Size: 0x53c
-function function_73a5ca1a( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function light_hemera_beam( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( !isdefined( level.var_94068374 ) )
     {
@@ -836,7 +836,7 @@ function function_73a5ca1a( localclientnum, oldval, newval, bnewent, binitialsna
                 mdl_end.var_85c90678 = undefined;
             }
             
-            s_end = struct::get( #"hash_120883658590601c" );
+            s_end = struct::get( #"s_light_fuel_end" );
             break;
         case 2:
             if ( !isdefined( mdl_end.var_85c90678 ) )
@@ -844,7 +844,7 @@ function function_73a5ca1a( localclientnum, oldval, newval, bnewent, binitialsna
                 mdl_end.var_85c90678 = mdl_end playloopsound( #"hash_11855496f2ae0456" );
             }
             
-            s_end = struct::get( #"hash_7e325197a32f4394" );
+            s_end = struct::get( #"s_light_fuel_end_blocked_close" );
             break;
         case 3:
             if ( !isdefined( mdl_end.var_85c90678 ) )
@@ -852,11 +852,11 @@ function function_73a5ca1a( localclientnum, oldval, newval, bnewent, binitialsna
                 mdl_end.var_85c90678 = mdl_end playloopsound( #"hash_11855496f2ae0456" );
             }
             
-            s_end = struct::get( #"hash_394e0d84e8666511" );
+            s_end = struct::get( #"s_light_fuel_end_blocked_far" );
             break;
     }
     
-    s_start = struct::get( #"hash_28652987572c5885" );
+    s_start = struct::get( #"s_light_fuel_start" );
     v_start_origin = s_start.origin;
     var_e64db026 = s_end.origin;
     v_start_angles = vectortoangles( v_start_origin - var_e64db026 );
@@ -949,8 +949,8 @@ function function_6fd9deaa( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( newval )
     {
-        s_start = struct::get( #"hash_6873469a7f41e2af" );
-        s_end = struct::get( #"hash_258b38a5968b7b5a" );
+        s_start = struct::get( #"s_light_gold_start" );
+        s_end = struct::get( #"s_light_gold_end" );
         v_start_origin = s_start.origin;
         var_e64db026 = s_end.origin;
         v_start_angles = vectortoangles( var_e64db026 - v_start_origin );
@@ -986,7 +986,7 @@ function function_6d38ea52( localclientnum, oldval, newval, bnewent, binitialsna
 {
     level endon( #"end_game" );
     self endon( #"disconnect" );
-    s_center = struct::get( #"hash_258b38a5968b7b5a" );
+    s_center = struct::get( #"s_light_gold_end" );
     v_center = s_center.origin;
     mdl_rumble = util::spawn_model( localclientnum, #"tag_origin", v_center );
     var_90b58ce = 0;
@@ -1041,7 +1041,7 @@ function function_6d38ea52( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xbab7fe49, Offset: 0x5170
 // Size: 0x146
-function function_70e5b4bd( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function play_death_selected( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -1184,9 +1184,9 @@ function function_530c191c( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0x5772277e, Offset: 0x57a8
 // Size: 0x7c
-function function_cb766634( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function play_death_uncharged( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    str_fx = level._effect[ #"hash_415416bf220de94" ];
+    str_fx = level._effect[ #"play_death_uncharged" ];
     self function_95d76b40( localclientnum, newval, str_fx );
 }
 
@@ -1194,9 +1194,9 @@ function function_cb766634( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0x9218b016, Offset: 0x5830
 // Size: 0x7c
-function function_3e4aa1cc( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function play_death_charged( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    str_fx = level._effect[ #"hash_3e2b1092de25c2dd" ];
+    str_fx = level._effect[ #"play_death_charged" ];
     self function_95d76b40( localclientnum, newval, str_fx );
 }
 
@@ -1288,7 +1288,7 @@ function function_95d76b40( localclientnum, newval, str_fx )
 // Params 7
 // Checksum 0x1e05f915, Offset: 0x5cb8
 // Size: 0x64
-function function_af9f249c( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function play_death_spotlight( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     function_b750bd91( localclientnum, newval, #"death" );
 }
@@ -1371,19 +1371,19 @@ function function_b750bd91( localclientnum, newval, str_ww )
             switch ( str_ww )
             {
                 case #"death":
-                    s_pos = struct::get( #"hash_11302005e130b7eb" );
+                    s_pos = struct::get( #"s_play_damned_home" );
                     str_fx = level._effect[ #"hash_579a1ad0a61119fc" ];
                     break;
                 case #"earth":
-                    s_pos = struct::get( #"hash_2b292979020933aa" );
+                    s_pos = struct::get( #"s_play_life_home" );
                     str_fx = level._effect[ #"hash_79910e1d73c43922" ];
                     break;
                 case #"air":
-                    s_pos = struct::get( #"hash_286a392e24892dee" );
+                    s_pos = struct::get( #"s_play_clouds_home" );
                     str_fx = level._effect[ #"hash_2b1f96b3ed3451d2" ];
                     break;
                 case #"light":
-                    s_pos = struct::get( #"hash_5ae30fa5823821ee" );
+                    s_pos = struct::get( #"s_play_sun_home" );
                     str_fx = level._effect[ #"hash_151f6238e261520a" ];
                     break;
             }
@@ -1397,16 +1397,16 @@ function function_b750bd91( localclientnum, newval, str_ww )
             switch ( newval )
             {
                 case 2:
-                    s_pos = struct::get( #"hash_2038ad2a6cbb9188" );
+                    s_pos = struct::get( #"s_play_away_1" );
                     break;
                 case 3:
-                    s_pos = struct::get( #"hash_2038b02a6cbb96a1" );
+                    s_pos = struct::get( #"s_play_away_2" );
                     break;
                 case 4:
-                    s_pos = struct::get( #"hash_2038af2a6cbb94ee" );
+                    s_pos = struct::get( #"s_play_away_3" );
                     break;
                 case 5:
-                    s_pos = struct::get( #"hash_2038b22a6cbb9a07" );
+                    s_pos = struct::get( #"s_play_away_4" );
                     break;
             }
             
@@ -1462,7 +1462,7 @@ function function_985f4598( str_ww )
             var_cfc545ad = #"p8_zm_red_rune_circle_ouranos";
             break;
         case #"light":
-            var_cfc545ad = #"hash_31a411dafa5678e2";
+            var_cfc545ad = #"p8_zm_red_rune_circle_hemera";
             break;
     }
     
@@ -1569,7 +1569,7 @@ function function_67b43987( localclientnum, newval, str_ww )
 // Size: 0x346
 function function_141a55a4( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    a_s_glyphs = struct::get_array( #"hash_61ba778e4f6ae3e" );
+    a_s_glyphs = struct::get_array( #"s_play_warn" );
     
     if ( newval )
     {
@@ -1739,7 +1739,7 @@ function function_180e26e2()
     level.var_bbe677e8[ #"close" ] = [];
     level.var_bbe677e8[ #"far" ] = [];
     level.var_bbe677e8[ #"all" ] = [];
-    a_s_pos = struct::get_array( #"hash_7c9fecc7da908461" );
+    a_s_pos = struct::get_array( #"s_play_react" );
     
     foreach ( s_pos in a_s_pos )
     {
@@ -1827,7 +1827,7 @@ function function_bb7443e( localclientnum, oldval, newval, bnewent, binitialsnap
 // Params 7
 // Checksum 0x190e0c7a, Offset: 0x76d8
 // Size: 0x124
-function function_f5ec271e( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function blood_graphic_content( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -1901,7 +1901,7 @@ function function_9b5699b4( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x12c
 function function_59ea1144( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    s_omphalos = struct::get( #"hash_2ea39900a13a8305" );
+    s_omphalos = struct::get( #"s_cleanse_dest" );
     
     if ( newval )
     {
@@ -1925,7 +1925,7 @@ function function_59ea1144( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x1a0
 function function_806b16b7( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    s_omphalos = struct::get( #"hash_2ea39900a13a8305" );
+    s_omphalos = struct::get( #"s_cleanse_dest" );
     
     if ( !isdefined( s_omphalos.mdl_rumble ) )
     {
@@ -2028,7 +2028,7 @@ function function_83a7c416( localclientnum )
     self notify( "4cde9c02a6d66818" );
     self endon( "4cde9c02a6d66818" );
     level endon( #"end_game" );
-    s_fx = struct::get( #"hash_3ad02ac72362ec5c" );
+    s_fx = struct::get( #"s_cleanse_electrify" );
     b_swap = 0;
     var_43997e53 = 2;
     
@@ -2052,7 +2052,7 @@ function function_83a7c416( localclientnum )
             
             if ( var_43997e53 >= 2 )
             {
-                self playsound( localclientnum, #"hash_61c057ffadb7a5af" );
+                self playsound( localclientnum, #"wpn_pegasus_electric_bolt" );
                 var_43997e53 = 0;
             }
             
@@ -2101,7 +2101,7 @@ function function_842fb5d0( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x18c
 function cleanse_portal( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    s_fx = struct::get( #"hash_2ea39900a13a8305" );
+    s_fx = struct::get( #"s_cleanse_dest" );
     
     if ( newval )
     {
@@ -2110,7 +2110,7 @@ function cleanse_portal( localclientnum, oldval, newval, bnewent, binitialsnap, 
             s_fx.var_8928e499 = playfx( localclientnum, level._effect[ #"cleanse_portal" ], s_fx.origin, anglestoforward( s_fx.angles ), anglestoup( s_fx.angles ) );
         }
         
-        audio::playloopat( #"hash_6ebedb6190c4ee87", s_fx.origin );
+        audio::playloopat( #"evt_egg_portal", s_fx.origin );
         return;
     }
     
@@ -2120,7 +2120,7 @@ function cleanse_portal( localclientnum, oldval, newval, bnewent, binitialsnap, 
         s_fx.var_8928e499 = undefined;
     }
     
-    audio::stoploopat( #"hash_6ebedb6190c4ee87", s_fx.origin );
+    audio::stoploopat( #"evt_egg_portal", s_fx.origin );
 }
 
 // Namespace zm_red_main_quest/zm_red_main_quest

@@ -1,4 +1,4 @@
-NAME script_4bae07eadc57bb51
+NAME scripts/zm/zm_office_groom_lake_quest.gsc
 VERSION 0
 CHECKSUM 0xee023f0d
 ######################################################

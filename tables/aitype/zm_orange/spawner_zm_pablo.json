@@ -16,10 +16,10 @@
     "typeSuffix": "_assault",
     "spawnerType": "vox_ax",
     "character": [
-        "#hash_6dd3a653b4254093"
+        "#c_t8_zmb_ora_pablo"
     ],
     "animMappingTables": [
-        "#hash_2d792a60c628fdc"
+        "#zm_npc_orange.ai_am"
     ],
     "grenadeWeapon": "#molotov_fire_cp",
     "aimTable": "#soldier_aim",
@@ -27,9 +27,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_2cd79a60c5a10dc",
-    "animStateMachine": "#hash_36bbe5270b5d4a29",
-    "animSelectorTable": "#hash_36bbdc270b5d3ade",
+    "behaviorTree": "#zm_npc_orange.ai_bt",
+    "animStateMachine": "#zm_npc_orange.ai_asm",
+    "animSelectorTable": "#zm_npc_orange.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "assassinationBundle": "#aiassassination_human",
     "aiFxBundle": "#c_54i_grunt_fx_table",

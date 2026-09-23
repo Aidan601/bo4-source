@@ -1,0 +1,8 @@
+{
+    "name": "#gsol_mp_speedreloader_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#attachment_speedreloader_pistol_revolver_restriction",
+        "#gamesettings/#attachment_speedreloader_shotgun_pump_restriction"
+    ]
+}

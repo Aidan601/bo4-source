@@ -17,15 +17,15 @@ version 10 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 3 size 0xc0
     struct client_header {
         // offset 0x0, size 0x40
-        uint64 hash_4016bed15f9183f7;
+        uint64 user_session_id;
         // offset 0x40, size 0x40
         uint64 uno_id;
         // offset 0x80, size 0x40
@@ -77,7 +77,7 @@ version 10 {
         // offset 0x540, size 0x40
         xhash wildcard1;
         // offset 0x580, size 0x40
-        xhash hash_58c97dd32ef2d7a7;
+        xhash wildcard2;
         // offset 0x5c0, size 0x200
         string(64) talisman1;
         // offset 0x7c0, size 0x20
@@ -85,7 +85,7 @@ version 10 {
         // offset 0x7e0, size 0x20
         int specialistindex;
         // offset 0x800, size 0x40
-        xhash hash_e88f8f1dc4ab5c1;
+        xhash talent0;
         // offset 0x840, size 0x40
         xhash talent1;
         // offset 0x880, size 0x40
@@ -99,11 +99,11 @@ version 10 {
         // offset 0x980, size 0x40
         xhash talent6;
         // offset 0x9c0, size 0x40
-        xhash hash_e88f9f1dc4ab774;
+        xhash talent7;
         // offset 0xa00, size 0x40
-        xhash hash_e88f0f1dc4aa829;
+        xhash talent8;
         // offset 0xa40, size 0x40
-        xhash hash_e88eff1dc4aa676;
+        xhash talent9;
         // offset 0xa80, size 0x200
         string(64) specialgrenade;
         // offset 0xc80, size 0x20
@@ -131,7 +131,7 @@ version 10 {
         // offset 0x22a0, size 0x40
         xhash secondary;
         // offset 0x22e0, size 0x40
-        xhash hash_7af4c73d11d6e762;
+        xhash specialistability;
         // offset 0x2320, size 0x40
         xhash primary;
         // offset 0x2360, size 0x40

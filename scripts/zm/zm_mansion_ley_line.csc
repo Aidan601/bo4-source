@@ -18,7 +18,7 @@
 // Size: 0x62a
 function init_clientfields()
 {
-    clientfield::register( "allplayers", "" + #"shield_elec_fx", 8000, 1, "int", &function_bdecc239, 0, 1 );
+    clientfield::register( "allplayers", "" + #"shield_elec_fx", 8000, 1, "int", &shield_elec_fx, 0, 1 );
     clientfield::register( "scriptmover", "" + #"ley_lines", 8000, 2, "int", &ley_lines, 0, 0 );
     clientfield::register( "scriptmover", "" + #"power_beam", 8000, 2, "int", &power_beam, 0, 0 );
     clientfield::register( "scriptmover", "" + #"red_ray", 8000, 2, "int", &red_ray, 0, 0 );
@@ -28,15 +28,15 @@ function init_clientfields()
     clientfield::register( "scriptmover", "" + #"stone_despawn", 8000, 1, "counter", &function_dea9fad1, 0, 0 );
     clientfield::register( "scriptmover", "" + #"stone_soul", 8000, 1, "int", &function_6628d887, 0, 0 );
     clientfield::register( "scriptmover", "" + #"atlas_crystal_fx", 8000, 1, "int", &crystal_fx, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"coil_hit_fx", 8000, 1, "counter", &function_a0d4ae11, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"coil_hit_fx", 8000, 1, "counter", &coil_hit_fx, 0, 0 );
     clientfield::register( "toplayer", "" + #"mansion_mq_rumble", 8000, 1, "counter", &mansion_mq_rumble, 0, 0 );
     clientfield::register( "world", "" + #"skybox_stream", 8000, 1, "int", &function_bca55d4e, 0, 0 );
     level._effect[ #"red_ray" ] = #"hash_7046110ad3c65161";
     level._effect[ #"green_ray" ] = #"hash_532ac819595d9bb5";
     level._effect[ #"blue_ray" ] = #"hash_4a495cef0ef4aee2";
-    level._effect[ #"hash_415a43ea0ce519d0" ] = #"hash_6a1ab09280787b72";
-    level._effect[ #"hash_52032416326181f0" ] = #"hash_2cd1f480eb43a66e";
-    level._effect[ #"hash_4588a89d6156133b" ] = #"hash_547b680a63dd5023";
+    level._effect[ #"red_ray_sm" ] = #"hash_6a1ab09280787b72";
+    level._effect[ #"green_ray_sm" ] = #"hash_2cd1f480eb43a66e";
+    level._effect[ #"blue_ray_sm" ] = #"hash_547b680a63dd5023";
     level._effect[ #"stone_despawn_fx" ] = #"zombie/fx8_doorbuy_death";
     level._effect[ #"hash_52d102bc9f3a4964" ] = #"hash_1e6d673cdbbf3f40";
     level._effect[ #"hash_52d7eebc9f404616" ] = #"hash_1e74733cdbc57252";
@@ -46,11 +46,11 @@ function init_clientfields()
 // Params 7
 // Checksum 0x8a8ad572, Offset: 0x888
 // Size: 0x74
-function function_a0d4ae11( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function coil_hit_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
     if ( newval )
     {
-        self util::playfxontag( localclientnum, #"hash_71f448e1a71c505d", self, "tag_origin" );
+        self util::playfxontag( localclientnum, #"maps/zm_mansion/fx8_silver_hit_coil", self, "tag_origin" );
     }
 }
 
@@ -187,7 +187,7 @@ function red_ray( localclientnum, oldval, newval, bnewent, binitialsnap, fieldna
     
     if ( newval == 2 )
     {
-        self.var_a5575986 = util::playfxontag( localclientnum, level._effect[ #"hash_415a43ea0ce519d0" ], self, "tag_origin" );
+        self.var_a5575986 = util::playfxontag( localclientnum, level._effect[ #"red_ray_sm" ], self, "tag_origin" );
         playsound( localclientnum, #"hash_21707843209589cf", self.origin );
     }
 }
@@ -219,7 +219,7 @@ function green_ray( localclientnum, oldval, newval, bnewent, binitialsnap, field
     
     if ( newval == 2 )
     {
-        self.var_5092defe = util::playfxontag( localclientnum, level._effect[ #"hash_52032416326181f0" ], self, "tag_origin" );
+        self.var_5092defe = util::playfxontag( localclientnum, level._effect[ #"green_ray_sm" ], self, "tag_origin" );
         playsound( localclientnum, #"hash_2170794320958b82", self.origin );
     }
 }
@@ -251,7 +251,7 @@ function blue_ray( localclientnum, oldval, newval, bnewent, binitialsnap, fieldn
     
     if ( newval == 2 )
     {
-        self.var_47ae8f53 = util::playfxontag( localclientnum, level._effect[ #"hash_4588a89d6156133b" ], self, "tag_origin" );
+        self.var_47ae8f53 = util::playfxontag( localclientnum, level._effect[ #"blue_ray_sm" ], self, "tag_origin" );
         playsound( localclientnum, #"hash_21707a4320958d35", self.origin );
     }
 }
@@ -490,7 +490,7 @@ function power_beam( localclientnum, oldval, newval, bnewent, binitialsnap, fiel
 // Params 7
 // Checksum 0xb6b91e32, Offset: 0x1e50
 // Size: 0x1ec
-function function_bdecc239( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function shield_elec_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {

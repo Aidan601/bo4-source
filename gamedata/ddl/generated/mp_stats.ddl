@@ -105,7 +105,7 @@ version 129 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -149,13 +149,13 @@ version 129 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -173,7 +173,7 @@ version 129 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -195,13 +195,13 @@ version 129 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -233,7 +233,7 @@ version 129 {
     };
 
     // idx 19 members 2 size 0x40
-    struct hash_6fa063681576be01 {
+    struct bribestackhistory {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -266,7 +266,7 @@ version 129 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -308,7 +308,7 @@ version 129 {
         pistol_standard_t8, // 0x2d,
         null_offhand_secondary, // 0x2e,
         gadget_health_regen, // 0x2f,
-        hash_31be8125c7d0f273, // 0x30,
+        null_offhand_ultimate, // 0x30,
         drone_squadron, // 0x31,
         sniper_damagesemi_t8, // 0x32,
         null_offhand_primary, // 0x33,
@@ -388,7 +388,7 @@ version 129 {
         hash_7932008294f0d876, // 0x7d,
         smg_handling_t8, // 0x7e,
         shotgun_fullauto_t8, // 0x7f,
-        hash_7ab3f9a730359659, // 0x80,
+        spawn_beacon_held, // 0x80,
         tr_flechette_t8, // 0x81,
         melee_secretsanta_t8, // 0x82,
         gadget_icepick, // 0x83,
@@ -537,21 +537,21 @@ version 129 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -559,7 +559,7 @@ version 129 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -574,7 +574,7 @@ version 129 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -596,12 +596,12 @@ version 129 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -625,18 +625,18 @@ version 129 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -657,7 +657,7 @@ version 129 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -671,9 +671,9 @@ version 129 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -695,13 +695,13 @@ version 129 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x280
-    hash_6fa063681576be01 hash_1c26da773971edbe[10];
+    bribestackhistory hash_1c26da773971edbe[10];
     // offset 0x6a0, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1820, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1860, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1880, size 0x1860
     hash_76635fe9df6f908a hash_53e1f85dd83451b4[hash_7ed08925eaf8565c];
     // offset 0x30e0, size 0x100
@@ -723,15 +723,15 @@ version 129 {
     // offset 0x19018, size 0x30
     string(6) validationevent;
     // offset 0x19048, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x19068, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x1908c, size 0x1
-    bool hash_23d454a06e666aa7;
+    bool completedblackmarketsunsetflow;
     // offset 0x1908d, size 0x87
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x19114, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x19115, size 0x10
     bool extrabools[16];
     // offset 0x19125, size 0x1
@@ -739,45 +739,45 @@ version 129 {
     // offset 0x19126, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x19127, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x19132, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x19133, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x19134, size 0x400
-    bool hash_1d45b221dee76ee4[1024];
+    bool calling_card_owned[1024];
     // offset 0x19534, size 0x20
     bool musicunlocks[32];
     // offset 0x19554, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x19555, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x19955, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x19956, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x19957, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x19958, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x19959, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x1995a, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x19d5a, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x19d5b, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x19d5c, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x19d5d, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x19d5e, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x19d88, size 0x1
     bool completedfirsttimeflow;
     // offset 0x19d89, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x19d94, size 0x400
     bool icon_owned[1024];
     // offset 0x1a194, size 0x1
@@ -894,7 +894,7 @@ version 128 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -938,13 +938,13 @@ version 128 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -962,7 +962,7 @@ version 128 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -984,13 +984,13 @@ version 128 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -1022,7 +1022,7 @@ version 128 {
     };
 
     // idx 19 members 2 size 0x40
-    struct hash_6fa063681576be01 {
+    struct bribestackhistory {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -1055,7 +1055,7 @@ version 128 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -1097,7 +1097,7 @@ version 128 {
         pistol_standard_t8, // 0x2d,
         null_offhand_secondary, // 0x2e,
         gadget_health_regen, // 0x2f,
-        hash_31be8125c7d0f273, // 0x30,
+        null_offhand_ultimate, // 0x30,
         drone_squadron, // 0x31,
         sniper_damagesemi_t8, // 0x32,
         null_offhand_primary, // 0x33,
@@ -1177,7 +1177,7 @@ version 128 {
         hash_7932008294f0d876, // 0x7d,
         smg_handling_t8, // 0x7e,
         shotgun_fullauto_t8, // 0x7f,
-        hash_7ab3f9a730359659, // 0x80,
+        spawn_beacon_held, // 0x80,
         tr_flechette_t8, // 0x81,
         melee_secretsanta_t8, // 0x82,
         gadget_icepick, // 0x83,
@@ -1326,21 +1326,21 @@ version 128 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -1348,7 +1348,7 @@ version 128 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -1363,7 +1363,7 @@ version 128 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -1385,12 +1385,12 @@ version 128 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -1414,18 +1414,18 @@ version 128 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -1446,7 +1446,7 @@ version 128 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -1460,9 +1460,9 @@ version 128 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -1484,13 +1484,13 @@ version 128 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x280
-    hash_6fa063681576be01 hash_1c26da773971edbe[10];
+    bribestackhistory hash_1c26da773971edbe[10];
     // offset 0x6a0, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1820, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1860, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1880, size 0x1860
     hash_76635fe9df6f908a hash_53e1f85dd83451b4[hash_7ed08925eaf8565c];
     // offset 0x30e0, size 0x100
@@ -1512,13 +1512,13 @@ version 128 {
     // offset 0x19018, size 0x30
     string(6) validationevent;
     // offset 0x19048, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x19068, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x1908c, size 0x87
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x19113, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x19114, size 0x10
     bool extrabools[16];
     // offset 0x19124, size 0x1
@@ -1526,45 +1526,45 @@ version 128 {
     // offset 0x19125, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x19126, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x19131, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x19132, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x19133, size 0x400
-    bool hash_1d45b221dee76ee4[1024];
+    bool calling_card_owned[1024];
     // offset 0x19533, size 0x20
     bool musicunlocks[32];
     // offset 0x19553, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x19554, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x19954, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x19955, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x19956, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x19957, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x19958, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x19959, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x19d59, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x19d5a, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x19d5b, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x19d5c, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x19d5d, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x19d87, size 0x1
     bool completedfirsttimeflow;
     // offset 0x19d88, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x19d93, size 0x400
     bool icon_owned[1024];
     // offset 0x1a193, size 0x1
@@ -1681,7 +1681,7 @@ version 127 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -1725,13 +1725,13 @@ version 127 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -1749,7 +1749,7 @@ version 127 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -1771,13 +1771,13 @@ version 127 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -1809,7 +1809,7 @@ version 127 {
     };
 
     // idx 19 members 2 size 0x40
-    struct hash_6fa063681576be01 {
+    struct bribestackhistory {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -1840,7 +1840,7 @@ version 127 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -1882,7 +1882,7 @@ version 127 {
         pistol_standard_t8, // 0x2d,
         null_offhand_secondary, // 0x2e,
         gadget_health_regen, // 0x2f,
-        hash_31be8125c7d0f273, // 0x30,
+        null_offhand_ultimate, // 0x30,
         drone_squadron, // 0x31,
         sniper_damagesemi_t8, // 0x32,
         null_offhand_primary, // 0x33,
@@ -1962,7 +1962,7 @@ version 127 {
         hash_7932008294f0d876, // 0x7d,
         smg_handling_t8, // 0x7e,
         shotgun_fullauto_t8, // 0x7f,
-        hash_7ab3f9a730359659, // 0x80,
+        spawn_beacon_held, // 0x80,
         tr_flechette_t8, // 0x81,
         melee_secretsanta_t8, // 0x82,
         gadget_icepick, // 0x83,
@@ -2111,21 +2111,21 @@ version 127 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -2133,7 +2133,7 @@ version 127 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -2148,7 +2148,7 @@ version 127 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -2170,12 +2170,12 @@ version 127 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -2199,18 +2199,18 @@ version 127 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -2231,7 +2231,7 @@ version 127 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -2245,9 +2245,9 @@ version 127 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -2269,13 +2269,13 @@ version 127 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x280
-    hash_6fa063681576be01 hash_1c26da773971edbe[10];
+    bribestackhistory hash_1c26da773971edbe[10];
     // offset 0x6a0, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1820, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1860, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1880, size 0x10e0
     hash_76635fe9df6f908a hash_53e1f85dd83451b4[hash_7ed08925eaf8565c];
     // offset 0x2960, size 0x100
@@ -2297,13 +2297,13 @@ version 127 {
     // offset 0x18898, size 0x30
     string(6) validationevent;
     // offset 0x188c8, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x188e8, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x1890c, size 0x87
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x18993, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x18994, size 0x10
     bool extrabools[16];
     // offset 0x189a4, size 0x1
@@ -2311,45 +2311,45 @@ version 127 {
     // offset 0x189a5, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x189a6, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x189b1, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x189b2, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x189b3, size 0x400
-    bool hash_1d45b221dee76ee4[1024];
+    bool calling_card_owned[1024];
     // offset 0x18db3, size 0x20
     bool musicunlocks[32];
     // offset 0x18dd3, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x18dd4, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x191d4, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x191d5, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x191d6, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x191d7, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x191d8, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x191d9, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x195d9, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x195da, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x195db, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x195dc, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x195dd, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x19607, size 0x1
     bool completedfirsttimeflow;
     // offset 0x19608, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x19613, size 0x400
     bool icon_owned[1024];
     // offset 0x19a13, size 0x1
@@ -2466,7 +2466,7 @@ version 126 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -2510,13 +2510,13 @@ version 126 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -2534,7 +2534,7 @@ version 126 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -2556,13 +2556,13 @@ version 126 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -2594,7 +2594,7 @@ version 126 {
     };
 
     // idx 19 members 2 size 0x40
-    struct hash_6fa063681576be01 {
+    struct bribestackhistory {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -2609,7 +2609,7 @@ version 126 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -2651,7 +2651,7 @@ version 126 {
         pistol_standard_t8, // 0x2d,
         null_offhand_secondary, // 0x2e,
         gadget_health_regen, // 0x2f,
-        hash_31be8125c7d0f273, // 0x30,
+        null_offhand_ultimate, // 0x30,
         drone_squadron, // 0x31,
         sniper_damagesemi_t8, // 0x32,
         null_offhand_primary, // 0x33,
@@ -2731,7 +2731,7 @@ version 126 {
         hash_7932008294f0d876, // 0x7d,
         smg_handling_t8, // 0x7e,
         shotgun_fullauto_t8, // 0x7f,
-        hash_7ab3f9a730359659, // 0x80,
+        spawn_beacon_held, // 0x80,
         tr_flechette_t8, // 0x81,
         melee_secretsanta_t8, // 0x82,
         gadget_icepick, // 0x83,
@@ -2880,21 +2880,21 @@ version 126 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -2902,7 +2902,7 @@ version 126 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -2917,7 +2917,7 @@ version 126 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -2939,12 +2939,12 @@ version 126 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -2968,18 +2968,18 @@ version 126 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -2993,7 +2993,7 @@ version 126 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -3007,9 +3007,9 @@ version 126 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -3031,13 +3031,13 @@ version 126 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x280
-    hash_6fa063681576be01 hash_1c26da773971edbe[10];
+    bribestackhistory hash_1c26da773971edbe[10];
     // offset 0x6a0, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1820, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1860, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1880, size 0x100
     byte demonwareflags[32];
     // offset 0x1980, size 0x20
@@ -3057,13 +3057,13 @@ version 126 {
     // offset 0x177b8, size 0x30
     string(6) validationevent;
     // offset 0x177e8, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x17808, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x1782c, size 0x87
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x178b3, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x178b4, size 0x10
     bool extrabools[16];
     // offset 0x178c4, size 0x1
@@ -3071,45 +3071,45 @@ version 126 {
     // offset 0x178c5, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x178c6, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x178d1, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x178d2, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x178d3, size 0x400
-    bool hash_1d45b221dee76ee4[1024];
+    bool calling_card_owned[1024];
     // offset 0x17cd3, size 0x20
     bool musicunlocks[32];
     // offset 0x17cf3, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x17cf4, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x180f4, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x180f5, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x180f6, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x180f7, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x180f8, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x180f9, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x184f9, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x184fa, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x184fb, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x184fc, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x184fd, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x18527, size 0x1
     bool completedfirsttimeflow;
     // offset 0x18528, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x18533, size 0x400
     bool icon_owned[1024];
     // offset 0x18933, size 0x1
@@ -3226,7 +3226,7 @@ version 125 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -3270,13 +3270,13 @@ version 125 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -3294,7 +3294,7 @@ version 125 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -3316,13 +3316,13 @@ version 125 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -3361,7 +3361,7 @@ version 125 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -3403,7 +3403,7 @@ version 125 {
         pistol_standard_t8, // 0x2d,
         null_offhand_secondary, // 0x2e,
         gadget_health_regen, // 0x2f,
-        hash_31be8125c7d0f273, // 0x30,
+        null_offhand_ultimate, // 0x30,
         drone_squadron, // 0x31,
         sniper_damagesemi_t8, // 0x32,
         null_offhand_primary, // 0x33,
@@ -3483,7 +3483,7 @@ version 125 {
         hash_7932008294f0d876, // 0x7d,
         smg_handling_t8, // 0x7e,
         shotgun_fullauto_t8, // 0x7f,
-        hash_7ab3f9a730359659, // 0x80,
+        spawn_beacon_held, // 0x80,
         tr_flechette_t8, // 0x81,
         melee_secretsanta_t8, // 0x82,
         gadget_icepick, // 0x83,
@@ -3632,21 +3632,21 @@ version 125 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -3654,7 +3654,7 @@ version 125 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -3669,7 +3669,7 @@ version 125 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -3691,12 +3691,12 @@ version 125 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -3720,18 +3720,18 @@ version 125 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -3745,7 +3745,7 @@ version 125 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -3759,9 +3759,9 @@ version 125 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -3783,11 +3783,11 @@ version 125 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -3807,13 +3807,13 @@ version 125 {
     // offset 0x17538, size 0x30
     string(6) validationevent;
     // offset 0x17568, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x17588, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x175ac, size 0x87
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x17633, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x17634, size 0x10
     bool extrabools[16];
     // offset 0x17644, size 0x1
@@ -3821,45 +3821,45 @@ version 125 {
     // offset 0x17645, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x17646, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x17651, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x17652, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x17653, size 0x400
-    bool hash_1d45b221dee76ee4[1024];
+    bool calling_card_owned[1024];
     // offset 0x17a53, size 0x20
     bool musicunlocks[32];
     // offset 0x17a73, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x17a74, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x17e74, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x17e75, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x17e76, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x17e77, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x17e78, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x17e79, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x18279, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x1827a, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x1827b, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x1827c, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x1827d, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x182a7, size 0x1
     bool completedfirsttimeflow;
     // offset 0x182a8, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x182b3, size 0x400
     bool icon_owned[1024];
     // offset 0x186b3, size 0x1
@@ -3976,7 +3976,7 @@ version 124 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -4020,13 +4020,13 @@ version 124 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -4044,7 +4044,7 @@ version 124 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -4066,13 +4066,13 @@ version 124 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -4111,7 +4111,7 @@ version 124 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -4152,7 +4152,7 @@ version 124 {
         pistol_standard_t8, // 0x2c,
         null_offhand_secondary, // 0x2d,
         gadget_health_regen, // 0x2e,
-        hash_31be8125c7d0f273, // 0x2f,
+        null_offhand_ultimate, // 0x2f,
         drone_squadron, // 0x30,
         sniper_damagesemi_t8, // 0x31,
         null_offhand_primary, // 0x32,
@@ -4231,7 +4231,7 @@ version 124 {
         hash_7932008294f0d876, // 0x7b,
         smg_handling_t8, // 0x7c,
         shotgun_fullauto_t8, // 0x7d,
-        hash_7ab3f9a730359659, // 0x7e,
+        spawn_beacon_held, // 0x7e,
         tr_flechette_t8, // 0x7f,
         melee_secretsanta_t8, // 0x80,
         gadget_icepick, // 0x81,
@@ -4378,21 +4378,21 @@ version 124 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -4400,7 +4400,7 @@ version 124 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -4415,7 +4415,7 @@ version 124 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -4437,12 +4437,12 @@ version 124 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -4466,18 +4466,18 @@ version 124 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -4491,7 +4491,7 @@ version 124 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -4505,9 +4505,9 @@ version 124 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -4529,11 +4529,11 @@ version 124 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -4553,13 +4553,13 @@ version 124 {
     // offset 0x16bc8, size 0x30
     string(6) validationevent;
     // offset 0x16bf8, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x16c18, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x16c3c, size 0x85
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x16cc1, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x16cc2, size 0x10
     bool extrabools[16];
     // offset 0x16cd2, size 0x1
@@ -4567,45 +4567,45 @@ version 124 {
     // offset 0x16cd3, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x16cd4, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x16cdf, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x16ce0, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x16ce1, size 0x400
-    bool hash_1d45b221dee76ee4[1024];
+    bool calling_card_owned[1024];
     // offset 0x170e1, size 0x20
     bool musicunlocks[32];
     // offset 0x17101, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x17102, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x17502, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x17503, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x17504, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x17505, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x17506, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x17507, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x17907, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x17908, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x17909, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x1790a, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x1790b, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x17935, size 0x1
     bool completedfirsttimeflow;
     // offset 0x17936, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x17941, size 0x400
     bool icon_owned[1024];
     // offset 0x17d41, size 0x1
@@ -4722,7 +4722,7 @@ version 123 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -4766,13 +4766,13 @@ version 123 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -4790,7 +4790,7 @@ version 123 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -4812,13 +4812,13 @@ version 123 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -4857,7 +4857,7 @@ version 123 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -4898,7 +4898,7 @@ version 123 {
         pistol_standard_t8, // 0x2c,
         null_offhand_secondary, // 0x2d,
         gadget_health_regen, // 0x2e,
-        hash_31be8125c7d0f273, // 0x2f,
+        null_offhand_ultimate, // 0x2f,
         drone_squadron, // 0x30,
         sniper_damagesemi_t8, // 0x31,
         null_offhand_primary, // 0x32,
@@ -4976,7 +4976,7 @@ version 123 {
         hash_7932008294f0d876, // 0x7a,
         smg_handling_t8, // 0x7b,
         shotgun_fullauto_t8, // 0x7c,
-        hash_7ab3f9a730359659, // 0x7d,
+        spawn_beacon_held, // 0x7d,
         tr_flechette_t8, // 0x7e,
         melee_secretsanta_t8, // 0x7f,
         gadget_icepick, // 0x80,
@@ -5122,21 +5122,21 @@ version 123 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -5144,7 +5144,7 @@ version 123 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -5159,7 +5159,7 @@ version 123 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -5181,12 +5181,12 @@ version 123 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -5210,18 +5210,18 @@ version 123 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -5235,7 +5235,7 @@ version 123 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -5249,9 +5249,9 @@ version 123 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -5273,11 +5273,11 @@ version 123 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -5297,13 +5297,13 @@ version 123 {
     // offset 0x16710, size 0x30
     string(6) validationevent;
     // offset 0x16740, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x16760, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x16784, size 0x84
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x16808, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x16809, size 0x10
     bool extrabools[16];
     // offset 0x16819, size 0x1
@@ -5311,45 +5311,45 @@ version 123 {
     // offset 0x1681a, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x1681b, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x16826, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x16827, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x16828, size 0x400
-    bool hash_1d45b221dee76ee4[1024];
+    bool calling_card_owned[1024];
     // offset 0x16c28, size 0x20
     bool musicunlocks[32];
     // offset 0x16c48, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x16c49, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x17049, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x1704a, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x1704b, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x1704c, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x1704d, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x1704e, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x1744e, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x1744f, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x17450, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x17451, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x17452, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x1747c, size 0x1
     bool completedfirsttimeflow;
     // offset 0x1747d, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x17488, size 0x400
     bool icon_owned[1024];
     // offset 0x17888, size 0x1
@@ -5466,7 +5466,7 @@ version 122 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -5510,13 +5510,13 @@ version 122 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -5534,7 +5534,7 @@ version 122 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -5556,13 +5556,13 @@ version 122 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -5601,7 +5601,7 @@ version 122 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -5642,7 +5642,7 @@ version 122 {
         pistol_standard_t8, // 0x2c,
         null_offhand_secondary, // 0x2d,
         gadget_health_regen, // 0x2e,
-        hash_31be8125c7d0f273, // 0x2f,
+        null_offhand_ultimate, // 0x2f,
         drone_squadron, // 0x30,
         sniper_damagesemi_t8, // 0x31,
         null_offhand_primary, // 0x32,
@@ -5720,7 +5720,7 @@ version 122 {
         hash_7932008294f0d876, // 0x7a,
         smg_handling_t8, // 0x7b,
         shotgun_fullauto_t8, // 0x7c,
-        hash_7ab3f9a730359659, // 0x7d,
+        spawn_beacon_held, // 0x7d,
         tr_flechette_t8, // 0x7e,
         melee_secretsanta_t8, // 0x7f,
         gadget_icepick, // 0x80,
@@ -5866,21 +5866,21 @@ version 122 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -5888,7 +5888,7 @@ version 122 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -5903,7 +5903,7 @@ version 122 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -5925,12 +5925,12 @@ version 122 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -5954,18 +5954,18 @@ version 122 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -5979,7 +5979,7 @@ version 122 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -5993,9 +5993,9 @@ version 122 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -6017,11 +6017,11 @@ version 122 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -6041,13 +6041,13 @@ version 122 {
     // offset 0x16710, size 0x30
     string(6) validationevent;
     // offset 0x16740, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x16760, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x16784, size 0x84
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x16808, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x16809, size 0x10
     bool extrabools[16];
     // offset 0x16819, size 0x1
@@ -6055,43 +6055,43 @@ version 122 {
     // offset 0x1681a, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x1681b, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x16826, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x16827, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x16828, size 0x20
     bool musicunlocks[32];
     // offset 0x16848, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x16849, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x16c49, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x16c4a, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x16c4b, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x16c4c, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x16c4d, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x16c4e, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x1704e, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x1704f, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x17050, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x17051, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x17052, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x1707c, size 0x1
     bool completedfirsttimeflow;
     // offset 0x1707d, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x17088, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x17089, size 0x7
@@ -6206,7 +6206,7 @@ version 121 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -6250,13 +6250,13 @@ version 121 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -6274,7 +6274,7 @@ version 121 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -6296,13 +6296,13 @@ version 121 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -6341,7 +6341,7 @@ version 121 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -6380,7 +6380,7 @@ version 121 {
         pistol_standard_t8, // 0x2a,
         null_offhand_secondary, // 0x2b,
         gadget_health_regen, // 0x2c,
-        hash_31be8125c7d0f273, // 0x2d,
+        null_offhand_ultimate, // 0x2d,
         drone_squadron, // 0x2e,
         sniper_damagesemi_t8, // 0x2f,
         null_offhand_primary, // 0x30,
@@ -6458,7 +6458,7 @@ version 121 {
         hash_7932008294f0d876, // 0x78,
         smg_handling_t8, // 0x79,
         shotgun_fullauto_t8, // 0x7a,
-        hash_7ab3f9a730359659, // 0x7b,
+        spawn_beacon_held, // 0x7b,
         tr_flechette_t8, // 0x7c,
         melee_secretsanta_t8, // 0x7d,
         gadget_icepick, // 0x7e,
@@ -6602,21 +6602,21 @@ version 121 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -6624,7 +6624,7 @@ version 121 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -6639,7 +6639,7 @@ version 121 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -6661,12 +6661,12 @@ version 121 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -6690,18 +6690,18 @@ version 121 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -6715,7 +6715,7 @@ version 121 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -6729,9 +6729,9 @@ version 121 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -6753,11 +6753,11 @@ version 121 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -6777,13 +6777,13 @@ version 121 {
     // offset 0x15da0, size 0x30
     string(6) validationevent;
     // offset 0x15dd0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x15df0, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x15e14, size 0x82
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x15e96, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x15e97, size 0x10
     bool extrabools[16];
     // offset 0x15ea7, size 0x1
@@ -6791,43 +6791,43 @@ version 121 {
     // offset 0x15ea8, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x15ea9, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x15eb4, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x15eb5, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x15eb6, size 0x20
     bool musicunlocks[32];
     // offset 0x15ed6, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x15ed7, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x162d7, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x162d8, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x162d9, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x162da, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x162db, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x162dc, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x166dc, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x166dd, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x166de, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x166df, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x166e0, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x1670a, size 0x1
     bool completedfirsttimeflow;
     // offset 0x1670b, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x16716, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x16717, size 0x1
@@ -6942,7 +6942,7 @@ version 120 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -6986,13 +6986,13 @@ version 120 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -7010,7 +7010,7 @@ version 120 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -7032,13 +7032,13 @@ version 120 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -7077,7 +7077,7 @@ version 120 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -7116,7 +7116,7 @@ version 120 {
         pistol_standard_t8, // 0x2a,
         null_offhand_secondary, // 0x2b,
         gadget_health_regen, // 0x2c,
-        hash_31be8125c7d0f273, // 0x2d,
+        null_offhand_ultimate, // 0x2d,
         drone_squadron, // 0x2e,
         sniper_damagesemi_t8, // 0x2f,
         null_offhand_primary, // 0x30,
@@ -7193,7 +7193,7 @@ version 120 {
         hash_7932008294f0d876, // 0x77,
         smg_handling_t8, // 0x78,
         shotgun_fullauto_t8, // 0x79,
-        hash_7ab3f9a730359659, // 0x7a,
+        spawn_beacon_held, // 0x7a,
         tr_flechette_t8, // 0x7b,
         melee_secretsanta_t8, // 0x7c,
         gadget_icepick, // 0x7d,
@@ -7336,21 +7336,21 @@ version 120 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -7358,7 +7358,7 @@ version 120 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -7373,7 +7373,7 @@ version 120 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -7395,12 +7395,12 @@ version 120 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -7424,18 +7424,18 @@ version 120 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -7449,7 +7449,7 @@ version 120 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -7463,9 +7463,9 @@ version 120 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -7487,11 +7487,11 @@ version 120 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -7511,13 +7511,13 @@ version 120 {
     // offset 0x158e8, size 0x30
     string(6) validationevent;
     // offset 0x15918, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x15938, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x1595c, size 0x81
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x159dd, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x159de, size 0x10
     bool extrabools[16];
     // offset 0x159ee, size 0x1
@@ -7525,43 +7525,43 @@ version 120 {
     // offset 0x159ef, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x159f0, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x159fb, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x159fc, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x159fd, size 0x20
     bool musicunlocks[32];
     // offset 0x15a1d, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x15a1e, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x15e1e, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x15e1f, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x15e20, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x15e21, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x15e22, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x15e23, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x16223, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x16224, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x16225, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x16226, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x16227, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x16251, size 0x1
     bool completedfirsttimeflow;
     // offset 0x16252, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x1625d, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x1625e, size 0x2
@@ -7676,7 +7676,7 @@ version 119 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -7720,13 +7720,13 @@ version 119 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -7744,7 +7744,7 @@ version 119 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -7766,13 +7766,13 @@ version 119 {
         // offset 0x2f, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x37, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x77, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x277, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b7, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b7, size 0x1
         uint:1 __pad[1];
     };
@@ -7811,7 +7811,7 @@ version 119 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -7850,7 +7850,7 @@ version 119 {
         pistol_standard_t8, // 0x2a,
         null_offhand_secondary, // 0x2b,
         gadget_health_regen, // 0x2c,
-        hash_31be8125c7d0f273, // 0x2d,
+        null_offhand_ultimate, // 0x2d,
         drone_squadron, // 0x2e,
         sniper_damagesemi_t8, // 0x2f,
         null_offhand_primary, // 0x30,
@@ -7927,7 +7927,7 @@ version 119 {
         hash_7932008294f0d876, // 0x77,
         smg_handling_t8, // 0x78,
         shotgun_fullauto_t8, // 0x79,
-        hash_7ab3f9a730359659, // 0x7a,
+        spawn_beacon_held, // 0x7a,
         tr_flechette_t8, // 0x7b,
         melee_secretsanta_t8, // 0x7c,
         gadget_icepick, // 0x7d,
@@ -8071,21 +8071,21 @@ version 119 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -8093,7 +8093,7 @@ version 119 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -8108,7 +8108,7 @@ version 119 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -8130,12 +8130,12 @@ version 119 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -8159,18 +8159,18 @@ version 119 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -8184,7 +8184,7 @@ version 119 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -8198,9 +8198,9 @@ version 119 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -8222,11 +8222,11 @@ version 119 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -8246,13 +8246,13 @@ version 119 {
     // offset 0x158e8, size 0x30
     string(6) validationevent;
     // offset 0x15918, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x15938, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x1595c, size 0x81
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x159dd, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x159de, size 0x10
     bool extrabools[16];
     // offset 0x159ee, size 0x1
@@ -8260,43 +8260,43 @@ version 119 {
     // offset 0x159ef, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x159f0, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x159fb, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x159fc, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x159fd, size 0x20
     bool musicunlocks[32];
     // offset 0x15a1d, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x15a1e, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x15e1e, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x15e1f, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x15e20, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x15e21, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x15e22, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x15e23, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x16223, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x16224, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x16225, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x16226, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x16227, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x16251, size 0x1
     bool completedfirsttimeflow;
     // offset 0x16252, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x1625d, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x1625e, size 0x2
@@ -8411,7 +8411,7 @@ version 118 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -8455,13 +8455,13 @@ version 118 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -8479,7 +8479,7 @@ version 118 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -8501,13 +8501,13 @@ version 118 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -8546,7 +8546,7 @@ version 118 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -8583,7 +8583,7 @@ version 118 {
         pistol_standard_t8, // 0x28,
         null_offhand_secondary, // 0x29,
         gadget_health_regen, // 0x2a,
-        hash_31be8125c7d0f273, // 0x2b,
+        null_offhand_ultimate, // 0x2b,
         drone_squadron, // 0x2c,
         sniper_damagesemi_t8, // 0x2d,
         null_offhand_primary, // 0x2e,
@@ -8660,7 +8660,7 @@ version 118 {
         hash_7932008294f0d876, // 0x75,
         smg_handling_t8, // 0x76,
         shotgun_fullauto_t8, // 0x77,
-        hash_7ab3f9a730359659, // 0x78,
+        spawn_beacon_held, // 0x78,
         tr_flechette_t8, // 0x79,
         melee_secretsanta_t8, // 0x7a,
         gadget_icepick, // 0x7b,
@@ -8801,21 +8801,21 @@ version 118 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -8823,7 +8823,7 @@ version 118 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -8838,7 +8838,7 @@ version 118 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -8860,12 +8860,12 @@ version 118 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -8889,18 +8889,18 @@ version 118 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -8914,7 +8914,7 @@ version 118 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -8928,9 +8928,9 @@ version 118 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -8952,11 +8952,11 @@ version 118 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -8976,13 +8976,13 @@ version 118 {
     // offset 0x14f78, size 0x30
     string(6) validationevent;
     // offset 0x14fa8, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x14fc8, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x14fec, size 0x7f
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x1506b, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x1506c, size 0x10
     bool extrabools[16];
     // offset 0x1507c, size 0x1
@@ -8990,43 +8990,43 @@ version 118 {
     // offset 0x1507d, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x1507e, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x15089, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x1508a, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x1508b, size 0x20
     bool musicunlocks[32];
     // offset 0x150ab, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x150ac, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x154ac, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x154ad, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x154ae, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x154af, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x154b0, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x154b1, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x158b1, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x158b2, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x158b3, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x158b4, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x158b5, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x158df, size 0x1
     bool completedfirsttimeflow;
     // offset 0x158e0, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x158eb, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x158ec, size 0x4
@@ -9141,7 +9141,7 @@ version 117 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -9185,13 +9185,13 @@ version 117 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -9209,7 +9209,7 @@ version 117 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -9231,13 +9231,13 @@ version 117 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -9276,7 +9276,7 @@ version 117 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -9312,7 +9312,7 @@ version 117 {
         pistol_standard_t8, // 0x27,
         null_offhand_secondary, // 0x28,
         gadget_health_regen, // 0x29,
-        hash_31be8125c7d0f273, // 0x2a,
+        null_offhand_ultimate, // 0x2a,
         drone_squadron, // 0x2b,
         sniper_damagesemi_t8, // 0x2c,
         null_offhand_primary, // 0x2d,
@@ -9389,7 +9389,7 @@ version 117 {
         hash_7932008294f0d876, // 0x74,
         smg_handling_t8, // 0x75,
         shotgun_fullauto_t8, // 0x76,
-        hash_7ab3f9a730359659, // 0x77,
+        spawn_beacon_held, // 0x77,
         tr_flechette_t8, // 0x78,
         melee_secretsanta_t8, // 0x79,
         gadget_icepick, // 0x7a,
@@ -9530,21 +9530,21 @@ version 117 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -9552,7 +9552,7 @@ version 117 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -9567,7 +9567,7 @@ version 117 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -9589,12 +9589,12 @@ version 117 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -9618,18 +9618,18 @@ version 117 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -9643,7 +9643,7 @@ version 117 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -9657,9 +9657,9 @@ version 117 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -9681,11 +9681,11 @@ version 117 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -9705,13 +9705,13 @@ version 117 {
     // offset 0x14f78, size 0x30
     string(6) validationevent;
     // offset 0x14fa8, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x14fc8, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x14fec, size 0x7e
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x1506a, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x1506b, size 0x10
     bool extrabools[16];
     // offset 0x1507b, size 0x1
@@ -9719,43 +9719,43 @@ version 117 {
     // offset 0x1507c, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x1507d, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x15088, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x15089, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x1508a, size 0x20
     bool musicunlocks[32];
     // offset 0x150aa, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x150ab, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x154ab, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x154ac, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x154ad, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x154ae, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x154af, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x154b0, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x158b0, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x158b1, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x158b2, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x158b3, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x158b4, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x158de, size 0x1
     bool completedfirsttimeflow;
     // offset 0x158df, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x158ea, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x158eb, size 0x5
@@ -9870,7 +9870,7 @@ version 116 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -9914,13 +9914,13 @@ version 116 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -9938,7 +9938,7 @@ version 116 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -9960,13 +9960,13 @@ version 116 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -10005,7 +10005,7 @@ version 116 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -10040,7 +10040,7 @@ version 116 {
         pistol_standard_t8, // 0x26,
         null_offhand_secondary, // 0x27,
         gadget_health_regen, // 0x28,
-        hash_31be8125c7d0f273, // 0x29,
+        null_offhand_ultimate, // 0x29,
         drone_squadron, // 0x2a,
         null_offhand_primary, // 0x2b,
         pistol_revolver_t8, // 0x2c,
@@ -10114,7 +10114,7 @@ version 116 {
         hash_7932008294f0d876, // 0x70,
         smg_handling_t8, // 0x71,
         shotgun_fullauto_t8, // 0x72,
-        hash_7ab3f9a730359659, // 0x73,
+        spawn_beacon_held, // 0x73,
         tr_flechette_t8, // 0x74,
         melee_secretsanta_t8, // 0x75,
         gadget_icepick, // 0x76,
@@ -10249,21 +10249,21 @@ version 116 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -10271,7 +10271,7 @@ version 116 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -10286,7 +10286,7 @@ version 116 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -10308,12 +10308,12 @@ version 116 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -10337,18 +10337,18 @@ version 116 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -10362,7 +10362,7 @@ version 116 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -10376,9 +10376,9 @@ version 116 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -10400,11 +10400,11 @@ version 116 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -10424,13 +10424,13 @@ version 116 {
     // offset 0x137e0, size 0x30
     string(6) validationevent;
     // offset 0x13810, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x13830, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x13854, size 0x79
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x138cd, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x138ce, size 0x10
     bool extrabools[16];
     // offset 0x138de, size 0x1
@@ -10438,43 +10438,43 @@ version 116 {
     // offset 0x138df, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x138e0, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x138eb, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x138ec, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x138ed, size 0x20
     bool musicunlocks[32];
     // offset 0x1390d, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x1390e, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x13d0e, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x13d0f, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x13d10, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x13d11, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x13d12, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x13d13, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x14113, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x14114, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x14115, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x14116, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x14117, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x14141, size 0x1
     bool completedfirsttimeflow;
     // offset 0x14142, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x1414d, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x1414e, size 0x2
@@ -10589,7 +10589,7 @@ version 115 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -10633,13 +10633,13 @@ version 115 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -10657,7 +10657,7 @@ version 115 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -10679,13 +10679,13 @@ version 115 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x40
-        bool hash_6790ae6a6414898a[64];
+        bool deathfx_marked_old[64];
         // offset 0x76, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x276, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x2b6, size 0x200
-        bool hash_46f3e7d5ffaa28e0[512];
+        bool charms_marked_old[512];
         // offset 0x4b6, size 0x2
         uint:1 __pad[2];
     };
@@ -10724,7 +10724,7 @@ version 115 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -10758,7 +10758,7 @@ version 115 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -10832,7 +10832,7 @@ version 115 {
         hash_7932008294f0d876, // 0x6f,
         smg_handling_t8, // 0x70,
         shotgun_fullauto_t8, // 0x71,
-        hash_7ab3f9a730359659, // 0x72,
+        spawn_beacon_held, // 0x72,
         tr_flechette_t8, // 0x73,
         melee_secretsanta_t8, // 0x74,
         gadget_icepick, // 0x75,
@@ -10967,21 +10967,21 @@ version 115 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -10989,7 +10989,7 @@ version 115 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -11004,7 +11004,7 @@ version 115 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -11026,12 +11026,12 @@ version 115 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -11055,18 +11055,18 @@ version 115 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -11080,7 +11080,7 @@ version 115 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -11094,9 +11094,9 @@ version 115 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -11118,11 +11118,11 @@ version 115 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -11142,13 +11142,13 @@ version 115 {
     // offset 0x137e0, size 0x30
     string(6) validationevent;
     // offset 0x13810, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0x13830, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x13854, size 0x78
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x138cc, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x138cd, size 0x10
     bool extrabools[16];
     // offset 0x138dd, size 0x1
@@ -11156,43 +11156,43 @@ version 115 {
     // offset 0x138de, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x138df, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x138ea, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x138eb, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x138ec, size 0x20
     bool musicunlocks[32];
     // offset 0x1390c, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0x1390d, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x13d0d, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0x13d0e, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x13d0f, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x13d10, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0x13d11, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0x13d12, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x14112, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0x14113, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x14114, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0x14115, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0x14116, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0x14140, size 0x1
     bool completedfirsttimeflow;
     // offset 0x14141, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x1414c, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x1414d, size 0x3
@@ -11307,7 +11307,7 @@ version 114 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -11351,13 +11351,13 @@ version 114 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -11375,7 +11375,7 @@ version 114 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -11397,9 +11397,9 @@ version 114 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x236, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x276, size 0x2
         uint:1 __pad[2];
     };
@@ -11438,7 +11438,7 @@ version 114 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -11472,7 +11472,7 @@ version 114 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -11546,7 +11546,7 @@ version 114 {
         hash_7932008294f0d876, // 0x6f,
         smg_handling_t8, // 0x70,
         shotgun_fullauto_t8, // 0x71,
-        hash_7ab3f9a730359659, // 0x72,
+        spawn_beacon_held, // 0x72,
         tr_flechette_t8, // 0x73,
         melee_secretsanta_t8, // 0x74,
         gadget_icepick, // 0x75,
@@ -11681,21 +11681,21 @@ version 114 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -11703,7 +11703,7 @@ version 114 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -11718,7 +11718,7 @@ version 114 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -11740,12 +11740,12 @@ version 114 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -11769,18 +11769,18 @@ version 114 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -11794,7 +11794,7 @@ version 114 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -11808,9 +11808,9 @@ version 114 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -11832,11 +11832,11 @@ version 114 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -11856,13 +11856,13 @@ version 114 {
     // offset 0xd060, size 0x30
     string(6) validationevent;
     // offset 0xd090, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xd0b0, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xd0d4, size 0x78
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xd14c, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xd14d, size 0x10
     bool extrabools[16];
     // offset 0xd15d, size 0x1
@@ -11870,43 +11870,43 @@ version 114 {
     // offset 0xd15e, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xd15f, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xd16a, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xd16b, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xd16c, size 0x20
     bool musicunlocks[32];
     // offset 0xd18c, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xd18d, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xd58d, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xd58e, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xd58f, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xd590, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xd591, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xd592, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xd992, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0xd993, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xd994, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xd995, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xd996, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xd9c0, size 0x1
     bool completedfirsttimeflow;
     // offset 0xd9c1, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xd9cc, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xd9cd, size 0x3
@@ -12021,7 +12021,7 @@ version 113 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -12065,13 +12065,13 @@ version 113 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -12089,7 +12089,7 @@ version 113 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -12111,9 +12111,9 @@ version 113 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x236, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x276, size 0x2
         uint:1 __pad[2];
     };
@@ -12152,7 +12152,7 @@ version 113 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -12186,7 +12186,7 @@ version 113 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -12259,7 +12259,7 @@ version 113 {
         hash_7932008294f0d876, // 0x6e,
         smg_handling_t8, // 0x6f,
         shotgun_fullauto_t8, // 0x70,
-        hash_7ab3f9a730359659, // 0x71,
+        spawn_beacon_held, // 0x71,
         tr_flechette_t8, // 0x72,
         melee_secretsanta_t8, // 0x73,
         gadget_icepick, // 0x74,
@@ -12393,21 +12393,21 @@ version 113 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -12415,7 +12415,7 @@ version 113 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -12430,7 +12430,7 @@ version 113 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -12452,12 +12452,12 @@ version 113 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -12481,18 +12481,18 @@ version 113 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -12506,7 +12506,7 @@ version 113 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -12520,9 +12520,9 @@ version 113 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -12544,11 +12544,11 @@ version 113 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -12568,13 +12568,13 @@ version 113 {
     // offset 0xcde8, size 0x30
     string(6) validationevent;
     // offset 0xce18, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xce38, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xce5c, size 0x77
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xced3, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xced4, size 0x10
     bool extrabools[16];
     // offset 0xcee4, size 0x1
@@ -12582,43 +12582,43 @@ version 113 {
     // offset 0xcee5, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xcee6, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xcef1, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xcef2, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xcef3, size 0x20
     bool musicunlocks[32];
     // offset 0xcf13, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xcf14, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xd314, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xd315, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xd316, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xd317, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xd318, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xd319, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xd719, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0xd71a, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xd71b, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xd71c, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xd71d, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xd747, size 0x1
     bool completedfirsttimeflow;
     // offset 0xd748, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xd753, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xd754, size 0x4
@@ -12733,7 +12733,7 @@ version 112 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -12777,13 +12777,13 @@ version 112 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -12801,7 +12801,7 @@ version 112 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -12823,9 +12823,9 @@ version 112 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x236, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x276, size 0x2
         uint:1 __pad[2];
     };
@@ -12864,7 +12864,7 @@ version 112 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -12898,7 +12898,7 @@ version 112 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -12970,7 +12970,7 @@ version 112 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -13103,21 +13103,21 @@ version 112 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -13125,7 +13125,7 @@ version 112 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -13140,7 +13140,7 @@ version 112 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -13162,12 +13162,12 @@ version 112 {
     };
 
     // idx 6 members 36
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
         hash_12eda6dc2d0d4a00, // 0x3,
-        hash_16582f0e479c96e9, // 0x4,
+        spectreeditiongame, // 0x4,
         hash_16d83fd17a87c96b, // 0x5,
         enhancedgame, // 0x6,
         beta_reward, // 0x7,
@@ -13191,18 +13191,18 @@ version 112 {
         hash_61abfa80dd80d262, // 0x19,
         hash_62f6851583c61d1f, // 0x1a,
         hash_62f68e1583c62c6a, // 0x1b,
-        hash_69df29d0839a1be1, // 0x1c,
+        black_ops_pass, // 0x1c,
         hash_6a38b1ff8a50a167, // 0x1d,
         hash_6a89b0043762730b, // 0x1e,
-        hash_6f7c1ff18a02ed4e, // 0x1f,
+        retail_pro_pack, // 0x1f,
         hash_744d387c398d82ad, // 0x20,
-        hash_7541976a426adb94, // 0x21,
-        hash_754c2b9dddd8a254, // 0x22,
+        predigitalgame, // 0x21,
+        deluxegame, // 0x22,
         hash_76c3d78317b27b11, // 0x23
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -13216,7 +13216,7 @@ version 112 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -13230,9 +13230,9 @@ version 112 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -13254,11 +13254,11 @@ version 112 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -13278,13 +13278,13 @@ version 112 {
     // offset 0xcb70, size 0x30
     string(6) validationevent;
     // offset 0xcba0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xcbc0, size 0x24
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xcbe4, size 0x76
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xcc5a, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xcc5b, size 0x10
     bool extrabools[16];
     // offset 0xcc6b, size 0x1
@@ -13292,43 +13292,43 @@ version 112 {
     // offset 0xcc6c, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xcc6d, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xcc78, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xcc79, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xcc7a, size 0x20
     bool musicunlocks[32];
     // offset 0xcc9a, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xcc9b, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xd09b, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xd09c, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xd09d, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xd09e, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xd09f, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xd0a0, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xd4a0, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0xd4a1, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xd4a2, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xd4a3, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xd4a4, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xd4ce, size 0x1
     bool completedfirsttimeflow;
     // offset 0xd4cf, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xd4da, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xd4db, size 0x5
@@ -13443,7 +13443,7 @@ version 111 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -13487,13 +13487,13 @@ version 111 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -13511,7 +13511,7 @@ version 111 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -13533,9 +13533,9 @@ version 111 {
         // offset 0x2e, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x36, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x236, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x276, size 0x2
         uint:1 __pad[2];
     };
@@ -13574,7 +13574,7 @@ version 111 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -13608,7 +13608,7 @@ version 111 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -13680,7 +13680,7 @@ version 111 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -13813,21 +13813,21 @@ version 111 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -13835,7 +13835,7 @@ version 111 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -13850,7 +13850,7 @@ version 111 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -13872,7 +13872,7 @@ version 111 {
     };
 
     // idx 6 members 35
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
@@ -13900,18 +13900,18 @@ version 111 {
         hash_61abfa80dd80d262, // 0x18,
         hash_62f6851583c61d1f, // 0x19,
         hash_62f68e1583c62c6a, // 0x1a,
-        hash_69df29d0839a1be1, // 0x1b,
+        black_ops_pass, // 0x1b,
         hash_6a38b1ff8a50a167, // 0x1c,
         hash_6a89b0043762730b, // 0x1d,
-        hash_6f7c1ff18a02ed4e, // 0x1e,
+        retail_pro_pack, // 0x1e,
         hash_744d387c398d82ad, // 0x1f,
-        hash_7541976a426adb94, // 0x20,
-        hash_754c2b9dddd8a254, // 0x21,
+        predigitalgame, // 0x20,
+        deluxegame, // 0x21,
         hash_76c3d78317b27b11, // 0x22
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -13925,7 +13925,7 @@ version 111 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -13939,9 +13939,9 @@ version 111 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -13963,11 +13963,11 @@ version 111 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -13987,13 +13987,13 @@ version 111 {
     // offset 0xcb70, size 0x30
     string(6) validationevent;
     // offset 0xcba0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xcbc0, size 0x23
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xcbe3, size 0x76
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xcc59, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xcc5a, size 0x10
     bool extrabools[16];
     // offset 0xcc6a, size 0x1
@@ -14001,43 +14001,43 @@ version 111 {
     // offset 0xcc6b, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xcc6c, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xcc77, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xcc78, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xcc79, size 0x20
     bool musicunlocks[32];
     // offset 0xcc99, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xcc9a, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xd09a, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xd09b, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xd09c, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xd09d, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xd09e, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xd09f, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xd49f, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0xd4a0, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xd4a1, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xd4a2, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xd4a3, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xd4cd, size 0x1
     bool completedfirsttimeflow;
     // offset 0xd4ce, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xd4d9, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xd4da, size 0x6
@@ -14152,7 +14152,7 @@ version 110 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -14196,13 +14196,13 @@ version 110 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -14220,7 +14220,7 @@ version 110 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -14242,9 +14242,9 @@ version 110 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -14283,7 +14283,7 @@ version 110 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -14317,7 +14317,7 @@ version 110 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -14389,7 +14389,7 @@ version 110 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -14521,21 +14521,21 @@ version 110 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -14543,7 +14543,7 @@ version 110 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -14558,7 +14558,7 @@ version 110 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -14580,7 +14580,7 @@ version 110 {
     };
 
     // idx 6 members 35
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
@@ -14608,18 +14608,18 @@ version 110 {
         hash_61abfa80dd80d262, // 0x18,
         hash_62f6851583c61d1f, // 0x19,
         hash_62f68e1583c62c6a, // 0x1a,
-        hash_69df29d0839a1be1, // 0x1b,
+        black_ops_pass, // 0x1b,
         hash_6a38b1ff8a50a167, // 0x1c,
         hash_6a89b0043762730b, // 0x1d,
-        hash_6f7c1ff18a02ed4e, // 0x1e,
+        retail_pro_pack, // 0x1e,
         hash_744d387c398d82ad, // 0x1f,
-        hash_7541976a426adb94, // 0x20,
-        hash_754c2b9dddd8a254, // 0x21,
+        predigitalgame, // 0x20,
+        deluxegame, // 0x21,
         hash_76c3d78317b27b11, // 0x22
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -14633,7 +14633,7 @@ version 110 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -14647,9 +14647,9 @@ version 110 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -14671,11 +14671,11 @@ version 110 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -14695,13 +14695,13 @@ version 110 {
     // offset 0xcb70, size 0x30
     string(6) validationevent;
     // offset 0xcba0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xcbc0, size 0x23
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xcbe3, size 0x76
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xcc59, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xcc5a, size 0x10
     bool extrabools[16];
     // offset 0xcc6a, size 0x1
@@ -14709,43 +14709,43 @@ version 110 {
     // offset 0xcc6b, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xcc6c, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xcc77, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xcc78, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xcc79, size 0x20
     bool musicunlocks[32];
     // offset 0xcc99, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xcc9a, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xd09a, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xd09b, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xd09c, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xd09d, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xd09e, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xd09f, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xd49f, size 0x1
-    bool hash_4bfb4b2d10866d54;
+    bool completedupdatedgestureflow;
     // offset 0xd4a0, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xd4a1, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xd4a2, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xd4a3, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xd4cd, size 0x1
     bool completedfirsttimeflow;
     // offset 0xd4ce, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xd4d9, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xd4da, size 0x6
@@ -14860,7 +14860,7 @@ version 109 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -14904,13 +14904,13 @@ version 109 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -14928,7 +14928,7 @@ version 109 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -14950,9 +14950,9 @@ version 109 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -14991,7 +14991,7 @@ version 109 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -15025,7 +15025,7 @@ version 109 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -15097,7 +15097,7 @@ version 109 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -15229,21 +15229,21 @@ version 109 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -15251,7 +15251,7 @@ version 109 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -15266,7 +15266,7 @@ version 109 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -15288,7 +15288,7 @@ version 109 {
     };
 
     // idx 6 members 35
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
@@ -15316,18 +15316,18 @@ version 109 {
         hash_61abfa80dd80d262, // 0x18,
         hash_62f6851583c61d1f, // 0x19,
         hash_62f68e1583c62c6a, // 0x1a,
-        hash_69df29d0839a1be1, // 0x1b,
+        black_ops_pass, // 0x1b,
         hash_6a38b1ff8a50a167, // 0x1c,
         hash_6a89b0043762730b, // 0x1d,
-        hash_6f7c1ff18a02ed4e, // 0x1e,
+        retail_pro_pack, // 0x1e,
         hash_744d387c398d82ad, // 0x1f,
-        hash_7541976a426adb94, // 0x20,
-        hash_754c2b9dddd8a254, // 0x21,
+        predigitalgame, // 0x20,
+        deluxegame, // 0x21,
         hash_76c3d78317b27b11, // 0x22
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -15341,7 +15341,7 @@ version 109 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -15355,9 +15355,9 @@ version 109 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -15379,11 +15379,11 @@ version 109 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -15403,13 +15403,13 @@ version 109 {
     // offset 0xcb70, size 0x30
     string(6) validationevent;
     // offset 0xcba0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xcbc0, size 0x23
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xcbe3, size 0x76
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xcc59, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xcc5a, size 0x10
     bool extrabools[16];
     // offset 0xcc6a, size 0x1
@@ -15417,9 +15417,9 @@ version 109 {
     // offset 0xcc6b, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xcc6c, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xcc77, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xcc78, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xcc79, size 0x1
@@ -15427,33 +15427,33 @@ version 109 {
     // offset 0xcc7a, size 0x20
     bool musicunlocks[32];
     // offset 0xcc9a, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xcc9b, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xd09b, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xd09c, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xd09d, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xd09e, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xd09f, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xd0a0, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xd4a0, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xd4a1, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xd4a2, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xd4a3, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xd4cd, size 0x1
     bool completedfirsttimeflow;
     // offset 0xd4ce, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xd4d9, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xd4da, size 0x6
@@ -15568,7 +15568,7 @@ version 108 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -15612,13 +15612,13 @@ version 108 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -15636,7 +15636,7 @@ version 108 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -15658,9 +15658,9 @@ version 108 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -15699,7 +15699,7 @@ version 108 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -15733,7 +15733,7 @@ version 108 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -15805,7 +15805,7 @@ version 108 {
         hash_7932008294f0d876, // 0x6d,
         smg_handling_t8, // 0x6e,
         shotgun_fullauto_t8, // 0x6f,
-        hash_7ab3f9a730359659, // 0x70,
+        spawn_beacon_held, // 0x70,
         tr_flechette_t8, // 0x71,
         melee_secretsanta_t8, // 0x72,
         gadget_icepick, // 0x73,
@@ -15936,21 +15936,21 @@ version 108 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -15958,7 +15958,7 @@ version 108 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -15973,7 +15973,7 @@ version 108 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -15995,7 +15995,7 @@ version 108 {
     };
 
     // idx 6 members 35
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
@@ -16023,18 +16023,18 @@ version 108 {
         hash_61abfa80dd80d262, // 0x18,
         hash_62f6851583c61d1f, // 0x19,
         hash_62f68e1583c62c6a, // 0x1a,
-        hash_69df29d0839a1be1, // 0x1b,
+        black_ops_pass, // 0x1b,
         hash_6a38b1ff8a50a167, // 0x1c,
         hash_6a89b0043762730b, // 0x1d,
-        hash_6f7c1ff18a02ed4e, // 0x1e,
+        retail_pro_pack, // 0x1e,
         hash_744d387c398d82ad, // 0x1f,
-        hash_7541976a426adb94, // 0x20,
-        hash_754c2b9dddd8a254, // 0x21,
+        predigitalgame, // 0x20,
+        deluxegame, // 0x21,
         hash_76c3d78317b27b11, // 0x22
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -16048,7 +16048,7 @@ version 108 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -16062,9 +16062,9 @@ version 108 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -16086,11 +16086,11 @@ version 108 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -16110,13 +16110,13 @@ version 108 {
     // offset 0xc8f8, size 0x30
     string(6) validationevent;
     // offset 0xc928, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc948, size 0x23
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc96b, size 0x76
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc9e1, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc9e2, size 0x10
     bool extrabools[16];
     // offset 0xc9f2, size 0x1
@@ -16124,9 +16124,9 @@ version 108 {
     // offset 0xc9f3, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc9f4, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc9ff, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xca00, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xca01, size 0x1
@@ -16134,33 +16134,33 @@ version 108 {
     // offset 0xca02, size 0x20
     bool musicunlocks[32];
     // offset 0xca22, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xca23, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xce23, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xce24, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xce25, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xce26, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xce27, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xce28, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xd228, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xd229, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xd22a, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xd22b, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xd255, size 0x1
     bool completedfirsttimeflow;
     // offset 0xd256, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xd261, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xd262, size 0x6
@@ -16275,7 +16275,7 @@ version 107 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -16319,13 +16319,13 @@ version 107 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -16343,7 +16343,7 @@ version 107 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -16365,9 +16365,9 @@ version 107 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -16406,7 +16406,7 @@ version 107 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -16440,7 +16440,7 @@ version 107 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -16511,7 +16511,7 @@ version 107 {
         hash_7932008294f0d876, // 0x6c,
         smg_handling_t8, // 0x6d,
         shotgun_fullauto_t8, // 0x6e,
-        hash_7ab3f9a730359659, // 0x6f,
+        spawn_beacon_held, // 0x6f,
         tr_flechette_t8, // 0x70,
         melee_secretsanta_t8, // 0x71,
         gadget_icepick, // 0x72,
@@ -16642,21 +16642,21 @@ version 107 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -16664,7 +16664,7 @@ version 107 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -16679,7 +16679,7 @@ version 107 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -16701,7 +16701,7 @@ version 107 {
     };
 
     // idx 6 members 35
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
@@ -16729,18 +16729,18 @@ version 107 {
         hash_61abfa80dd80d262, // 0x18,
         hash_62f6851583c61d1f, // 0x19,
         hash_62f68e1583c62c6a, // 0x1a,
-        hash_69df29d0839a1be1, // 0x1b,
+        black_ops_pass, // 0x1b,
         hash_6a38b1ff8a50a167, // 0x1c,
         hash_6a89b0043762730b, // 0x1d,
-        hash_6f7c1ff18a02ed4e, // 0x1e,
+        retail_pro_pack, // 0x1e,
         hash_744d387c398d82ad, // 0x1f,
-        hash_7541976a426adb94, // 0x20,
-        hash_754c2b9dddd8a254, // 0x21,
+        predigitalgame, // 0x20,
+        deluxegame, // 0x21,
         hash_76c3d78317b27b11, // 0x22
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -16754,7 +16754,7 @@ version 107 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -16768,9 +16768,9 @@ version 107 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -16792,11 +16792,11 @@ version 107 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -16816,13 +16816,13 @@ version 107 {
     // offset 0xc8f8, size 0x30
     string(6) validationevent;
     // offset 0xc928, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc948, size 0x23
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc96b, size 0x75
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc9e0, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc9e1, size 0x10
     bool extrabools[16];
     // offset 0xc9f1, size 0x1
@@ -16830,9 +16830,9 @@ version 107 {
     // offset 0xc9f2, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc9f3, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc9fe, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc9ff, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xca00, size 0x1
@@ -16840,33 +16840,33 @@ version 107 {
     // offset 0xca01, size 0x20
     bool musicunlocks[32];
     // offset 0xca21, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xca22, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xce22, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xce23, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xce24, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xce25, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xce26, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xce27, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xd227, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xd228, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xd229, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xd22a, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xd254, size 0x1
     bool completedfirsttimeflow;
     // offset 0xd255, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xd260, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xd261, size 0x7
@@ -16981,7 +16981,7 @@ version 106 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -17025,13 +17025,13 @@ version 106 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -17049,7 +17049,7 @@ version 106 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -17071,9 +17071,9 @@ version 106 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -17112,7 +17112,7 @@ version 106 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -17146,7 +17146,7 @@ version 106 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -17216,7 +17216,7 @@ version 106 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -17346,21 +17346,21 @@ version 106 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -17368,7 +17368,7 @@ version 106 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -17383,7 +17383,7 @@ version 106 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -17405,7 +17405,7 @@ version 106 {
     };
 
     // idx 6 members 35
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_7152f1598a5c3de, // 0x1,
         hash_b4cdbec9f5007d3, // 0x2,
@@ -17433,18 +17433,18 @@ version 106 {
         hash_61abfa80dd80d262, // 0x18,
         hash_62f6851583c61d1f, // 0x19,
         hash_62f68e1583c62c6a, // 0x1a,
-        hash_69df29d0839a1be1, // 0x1b,
+        black_ops_pass, // 0x1b,
         hash_6a38b1ff8a50a167, // 0x1c,
         hash_6a89b0043762730b, // 0x1d,
-        hash_6f7c1ff18a02ed4e, // 0x1e,
+        retail_pro_pack, // 0x1e,
         hash_744d387c398d82ad, // 0x1f,
-        hash_7541976a426adb94, // 0x20,
-        hash_754c2b9dddd8a254, // 0x21,
+        predigitalgame, // 0x20,
+        deluxegame, // 0x21,
         hash_76c3d78317b27b11, // 0x22
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -17458,7 +17458,7 @@ version 106 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -17472,9 +17472,9 @@ version 106 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -17496,11 +17496,11 @@ version 106 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -17520,13 +17520,13 @@ version 106 {
     // offset 0xc680, size 0x30
     string(6) validationevent;
     // offset 0xc6b0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc6d0, size 0x23
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc6f3, size 0x74
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc767, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc768, size 0x10
     bool extrabools[16];
     // offset 0xc778, size 0x1
@@ -17534,9 +17534,9 @@ version 106 {
     // offset 0xc779, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc77a, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc785, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc786, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc787, size 0x1
@@ -17544,33 +17544,33 @@ version 106 {
     // offset 0xc788, size 0x20
     bool musicunlocks[32];
     // offset 0xc7a8, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xc7a9, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xcba9, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xcbaa, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xcbab, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xcbac, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xcbad, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xcbae, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcfae, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xcfaf, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xcfb0, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xcfb1, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xcfdb, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcfdc, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcfe7, size 0x1
     bool hash_7d22494ddebb227f;
 }
@@ -17683,7 +17683,7 @@ version 105 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -17727,13 +17727,13 @@ version 105 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -17751,7 +17751,7 @@ version 105 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -17773,9 +17773,9 @@ version 105 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -17814,7 +17814,7 @@ version 105 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -17848,7 +17848,7 @@ version 105 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -17918,7 +17918,7 @@ version 105 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -18048,21 +18048,21 @@ version 105 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -18070,7 +18070,7 @@ version 105 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -18085,7 +18085,7 @@ version 105 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -18107,7 +18107,7 @@ version 105 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -18130,18 +18130,18 @@ version 105 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -18155,7 +18155,7 @@ version 105 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -18169,9 +18169,9 @@ version 105 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -18193,11 +18193,11 @@ version 105 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -18217,13 +18217,13 @@ version 105 {
     // offset 0xc680, size 0x30
     string(6) validationevent;
     // offset 0xc6b0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc6d0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc6ee, size 0x74
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc762, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc763, size 0x10
     bool extrabools[16];
     // offset 0xc773, size 0x1
@@ -18231,9 +18231,9 @@ version 105 {
     // offset 0xc774, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc775, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc780, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc781, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc782, size 0x1
@@ -18241,33 +18241,33 @@ version 105 {
     // offset 0xc783, size 0x20
     bool musicunlocks[32];
     // offset 0xc7a3, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xc7a4, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xcba4, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xcba5, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xcba6, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xcba7, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xcba8, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xcba9, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcfa9, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xcfaa, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xcfab, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xcfac, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xcfd6, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcfd7, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcfe2, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcfe3, size 0x5
@@ -18382,7 +18382,7 @@ version 104 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -18426,13 +18426,13 @@ version 104 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -18450,7 +18450,7 @@ version 104 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -18472,9 +18472,9 @@ version 104 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -18513,7 +18513,7 @@ version 104 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -18547,7 +18547,7 @@ version 104 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -18617,7 +18617,7 @@ version 104 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -18747,21 +18747,21 @@ version 104 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -18769,7 +18769,7 @@ version 104 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -18784,7 +18784,7 @@ version 104 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 16
@@ -18808,7 +18808,7 @@ version 104 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -18831,18 +18831,18 @@ version 104 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -18856,7 +18856,7 @@ version 104 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -18870,9 +18870,9 @@ version 104 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -18894,11 +18894,11 @@ version 104 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -18918,13 +18918,13 @@ version 104 {
     // offset 0xc680, size 0x30
     string(6) validationevent;
     // offset 0xc6b0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc6d0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc6ee, size 0x74
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc762, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc763, size 0x10
     bool extrabools[16];
     // offset 0xc773, size 0x1
@@ -18932,9 +18932,9 @@ version 104 {
     // offset 0xc774, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc775, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc780, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc781, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc782, size 0x1
@@ -18942,33 +18942,33 @@ version 104 {
     // offset 0xc783, size 0x20
     bool musicunlocks[32];
     // offset 0xc7a3, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xc7a4, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xcba4, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xcba5, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xcba6, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xcba7, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xcba8, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xcba9, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcfa9, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xcfaa, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xcfab, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xcfac, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xcfd6, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcfd7, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcfe2, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcfe3, size 0x5
@@ -19083,7 +19083,7 @@ version 103 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -19127,13 +19127,13 @@ version 103 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -19151,7 +19151,7 @@ version 103 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -19173,9 +19173,9 @@ version 103 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -19214,7 +19214,7 @@ version 103 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -19248,7 +19248,7 @@ version 103 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -19318,7 +19318,7 @@ version 103 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -19448,21 +19448,21 @@ version 103 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -19470,7 +19470,7 @@ version 103 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -19485,7 +19485,7 @@ version 103 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -19507,7 +19507,7 @@ version 103 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -19530,18 +19530,18 @@ version 103 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -19555,7 +19555,7 @@ version 103 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -19569,9 +19569,9 @@ version 103 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -19593,11 +19593,11 @@ version 103 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -19617,13 +19617,13 @@ version 103 {
     // offset 0xc680, size 0x30
     string(6) validationevent;
     // offset 0xc6b0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc6d0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc6ee, size 0x74
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc762, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc763, size 0x10
     bool extrabools[16];
     // offset 0xc773, size 0x1
@@ -19631,9 +19631,9 @@ version 103 {
     // offset 0xc774, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc775, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc780, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc781, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc782, size 0x1
@@ -19641,33 +19641,33 @@ version 103 {
     // offset 0xc783, size 0x20
     bool musicunlocks[32];
     // offset 0xc7a3, size 0x1
-    bool hash_6d0dfba9cb92c2b5;
+    bool completedshamrockpromopopup;
     // offset 0xc7a4, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xcba4, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xcba5, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xcba6, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xcba7, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xcba8, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xcba9, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcfa9, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xcfaa, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xcfab, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xcfac, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xcfd6, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcfd7, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcfe2, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcfe3, size 0x5
@@ -19782,7 +19782,7 @@ version 102 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -19826,13 +19826,13 @@ version 102 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -19850,7 +19850,7 @@ version 102 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -19872,9 +19872,9 @@ version 102 {
         // offset 0x2d, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x35, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x235, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x275, size 0x3
         uint:1 __pad[3];
     };
@@ -19913,7 +19913,7 @@ version 102 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -19947,7 +19947,7 @@ version 102 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -20017,7 +20017,7 @@ version 102 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -20147,21 +20147,21 @@ version 102 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -20169,7 +20169,7 @@ version 102 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -20184,7 +20184,7 @@ version 102 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -20206,7 +20206,7 @@ version 102 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -20229,18 +20229,18 @@ version 102 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -20254,7 +20254,7 @@ version 102 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -20268,9 +20268,9 @@ version 102 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -20292,11 +20292,11 @@ version 102 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -20316,13 +20316,13 @@ version 102 {
     // offset 0xc680, size 0x30
     string(6) validationevent;
     // offset 0xc6b0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc6d0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc6ee, size 0x74
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc762, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc763, size 0x10
     bool extrabools[16];
     // offset 0xc773, size 0x1
@@ -20330,9 +20330,9 @@ version 102 {
     // offset 0xc774, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc775, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc780, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc781, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc782, size 0x1
@@ -20342,29 +20342,29 @@ version 102 {
     // offset 0xc7a3, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xcba3, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xcba4, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xcba5, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xcba6, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xcba7, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xcba8, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcfa8, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xcfa9, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xcfaa, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xcfab, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xcfd5, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcfd6, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcfe1, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcfe2, size 0x6
@@ -20479,7 +20479,7 @@ version 101 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -20523,13 +20523,13 @@ version 101 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -20547,7 +20547,7 @@ version 101 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -20569,9 +20569,9 @@ version 101 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -20610,7 +20610,7 @@ version 101 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -20644,7 +20644,7 @@ version 101 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -20714,7 +20714,7 @@ version 101 {
         hash_7932008294f0d876, // 0x6b,
         smg_handling_t8, // 0x6c,
         shotgun_fullauto_t8, // 0x6d,
-        hash_7ab3f9a730359659, // 0x6e,
+        spawn_beacon_held, // 0x6e,
         tr_flechette_t8, // 0x6f,
         melee_secretsanta_t8, // 0x70,
         gadget_icepick, // 0x71,
@@ -20843,21 +20843,21 @@ version 101 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -20865,7 +20865,7 @@ version 101 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -20880,7 +20880,7 @@ version 101 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -20902,7 +20902,7 @@ version 101 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -20925,18 +20925,18 @@ version 101 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -20950,7 +20950,7 @@ version 101 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -20964,9 +20964,9 @@ version 101 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -20988,11 +20988,11 @@ version 101 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -21012,13 +21012,13 @@ version 101 {
     // offset 0xc680, size 0x30
     string(6) validationevent;
     // offset 0xc6b0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc6d0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc6ee, size 0x74
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc762, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc763, size 0x10
     bool extrabools[16];
     // offset 0xc773, size 0x1
@@ -21026,9 +21026,9 @@ version 101 {
     // offset 0xc774, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc775, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc780, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc781, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc782, size 0x1
@@ -21038,29 +21038,29 @@ version 101 {
     // offset 0xc7a3, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xcba3, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xcba4, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xcba5, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xcba6, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xcba7, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xcba8, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcfa8, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xcfa9, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xcfaa, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xcfab, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xcfd5, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcfd6, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcfe1, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcfe2, size 0x6
@@ -21175,7 +21175,7 @@ version 100 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -21219,13 +21219,13 @@ version 100 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -21243,7 +21243,7 @@ version 100 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -21265,9 +21265,9 @@ version 100 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -21306,7 +21306,7 @@ version 100 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         melee_club_t8, // 0x8,
         tr_midburst_t8, // 0x9,
@@ -21340,7 +21340,7 @@ version 100 {
         pistol_standard_t8, // 0x25,
         null_offhand_secondary, // 0x26,
         gadget_health_regen, // 0x27,
-        hash_31be8125c7d0f273, // 0x28,
+        null_offhand_ultimate, // 0x28,
         drone_squadron, // 0x29,
         null_offhand_primary, // 0x2a,
         pistol_revolver_t8, // 0x2b,
@@ -21409,7 +21409,7 @@ version 100 {
         hash_7932008294f0d876, // 0x6a,
         smg_handling_t8, // 0x6b,
         shotgun_fullauto_t8, // 0x6c,
-        hash_7ab3f9a730359659, // 0x6d,
+        spawn_beacon_held, // 0x6d,
         tr_flechette_t8, // 0x6e,
         melee_secretsanta_t8, // 0x6f,
         gadget_icepick, // 0x70,
@@ -21538,21 +21538,21 @@ version 100 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -21560,7 +21560,7 @@ version 100 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -21575,7 +21575,7 @@ version 100 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -21597,7 +21597,7 @@ version 100 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -21620,18 +21620,18 @@ version 100 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -21645,7 +21645,7 @@ version 100 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -21659,9 +21659,9 @@ version 100 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -21683,11 +21683,11 @@ version 100 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -21707,13 +21707,13 @@ version 100 {
     // offset 0xc680, size 0x30
     string(6) validationevent;
     // offset 0xc6b0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc6d0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc6ee, size 0x73
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc761, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc762, size 0x10
     bool extrabools[16];
     // offset 0xc772, size 0x1
@@ -21721,9 +21721,9 @@ version 100 {
     // offset 0xc773, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc774, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc77f, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc780, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc781, size 0x1
@@ -21733,29 +21733,29 @@ version 100 {
     // offset 0xc7a2, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xcba2, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xcba3, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xcba4, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xcba5, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xcba6, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xcba7, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcfa7, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xcfa8, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xcfa9, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xcfaa, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xcfd4, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcfd5, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcfe0, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcfe1, size 0x7
@@ -21870,7 +21870,7 @@ version 99 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -21914,13 +21914,13 @@ version 99 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -21938,7 +21938,7 @@ version 99 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -21960,9 +21960,9 @@ version 99 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -22001,7 +22001,7 @@ version 99 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -22033,7 +22033,7 @@ version 99 {
         pistol_standard_t8, // 0x23,
         null_offhand_secondary, // 0x24,
         gadget_health_regen, // 0x25,
-        hash_31be8125c7d0f273, // 0x26,
+        null_offhand_ultimate, // 0x26,
         drone_squadron, // 0x27,
         null_offhand_primary, // 0x28,
         pistol_revolver_t8, // 0x29,
@@ -22068,7 +22068,7 @@ version 99 {
         shotgun_pump_t8, // 0x46,
         gadget_health_boost, // 0x47,
         bare_hands, // 0x48,
-        hash_578fac7f7b2db62b, // 0x49,
+        ar_slowfire_t8, // 0x49,
         trophy_system, // 0x4a,
         sniper_mini14_t8, // 0x4b,
         eq_cluster_semtex_grenade, // 0x4c,
@@ -22101,7 +22101,7 @@ version 99 {
         hash_7932008294f0d876, // 0x67,
         smg_handling_t8, // 0x68,
         shotgun_fullauto_t8, // 0x69,
-        hash_7ab3f9a730359659, // 0x6a,
+        spawn_beacon_held, // 0x6a,
         tr_flechette_t8, // 0x6b,
         melee_secretsanta_t8, // 0x6c,
         gadget_icepick, // 0x6d,
@@ -22128,7 +22128,7 @@ version 99 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -22228,21 +22228,21 @@ version 99 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -22250,7 +22250,7 @@ version 99 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -22265,7 +22265,7 @@ version 99 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -22287,7 +22287,7 @@ version 99 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -22310,18 +22310,18 @@ version 99 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -22335,7 +22335,7 @@ version 99 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -22349,9 +22349,9 @@ version 99 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -22373,11 +22373,11 @@ version 99 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -22397,13 +22397,13 @@ version 99 {
     // offset 0xc190, size 0x30
     string(6) validationevent;
     // offset 0xc1c0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc1e0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc1fe, size 0x70
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc26e, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc26f, size 0x10
     bool extrabools[16];
     // offset 0xc27f, size 0x1
@@ -22411,9 +22411,9 @@ version 99 {
     // offset 0xc280, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc281, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc28c, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc28d, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc28e, size 0x1
@@ -22423,29 +22423,29 @@ version 99 {
     // offset 0xc2af, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xc6af, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xc6b0, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc6b1, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc6b2, size 0x1
-    bool hash_5ff972a708a8dfcf;
+    bool completedblackmarketseasonthreefirsttimeflow;
     // offset 0xc6b3, size 0x1
-    bool hash_6ab5782b83d0099d;
+    bool completedblackjackshopfirsttimeflow;
     // offset 0xc6b4, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcab4, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xcab5, size 0x1
-    bool hash_275860cf9febcc96;
+    bool completedblackjackreservesfirsttimeflow;
     // offset 0xcab6, size 0x1
-    bool hash_4ee9bcf41dbb633a;
+    bool completedblackmarketinventoryfirsttimeflow;
     // offset 0xcab7, size 0x2a
     bool hash_5a4b44a7cb161266[mpspecialties];
     // offset 0xcae1, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcae2, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcaed, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcaee, size 0x2
@@ -22560,7 +22560,7 @@ version 98 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -22604,13 +22604,13 @@ version 98 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -22628,7 +22628,7 @@ version 98 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -22650,9 +22650,9 @@ version 98 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -22691,7 +22691,7 @@ version 98 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -22723,7 +22723,7 @@ version 98 {
         pistol_standard_t8, // 0x23,
         null_offhand_secondary, // 0x24,
         gadget_health_regen, // 0x25,
-        hash_31be8125c7d0f273, // 0x26,
+        null_offhand_ultimate, // 0x26,
         drone_squadron, // 0x27,
         null_offhand_primary, // 0x28,
         pistol_revolver_t8, // 0x29,
@@ -22758,7 +22758,7 @@ version 98 {
         shotgun_pump_t8, // 0x46,
         gadget_health_boost, // 0x47,
         bare_hands, // 0x48,
-        hash_578fac7f7b2db62b, // 0x49,
+        ar_slowfire_t8, // 0x49,
         trophy_system, // 0x4a,
         sniper_mini14_t8, // 0x4b,
         eq_cluster_semtex_grenade, // 0x4c,
@@ -22791,7 +22791,7 @@ version 98 {
         hash_7932008294f0d876, // 0x67,
         smg_handling_t8, // 0x68,
         shotgun_fullauto_t8, // 0x69,
-        hash_7ab3f9a730359659, // 0x6a,
+        spawn_beacon_held, // 0x6a,
         tr_flechette_t8, // 0x6b,
         melee_secretsanta_t8, // 0x6c,
         gadget_icepick, // 0x6d,
@@ -22818,7 +22818,7 @@ version 98 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -22918,21 +22918,21 @@ version 98 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -22940,7 +22940,7 @@ version 98 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -22955,7 +22955,7 @@ version 98 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -22977,7 +22977,7 @@ version 98 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -23000,18 +23000,18 @@ version 98 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -23025,7 +23025,7 @@ version 98 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -23039,9 +23039,9 @@ version 98 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -23063,11 +23063,11 @@ version 98 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -23087,13 +23087,13 @@ version 98 {
     // offset 0xc190, size 0x30
     string(6) validationevent;
     // offset 0xc1c0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc1e0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc1fe, size 0x70
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc26e, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc26f, size 0x10
     bool extrabools[16];
     // offset 0xc27f, size 0x1
@@ -23101,9 +23101,9 @@ version 98 {
     // offset 0xc280, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc281, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc28c, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc28d, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc28e, size 0x1
@@ -23113,11 +23113,11 @@ version 98 {
     // offset 0xc2af, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xc6af, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xc6b0, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc6b1, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc6b2, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcab2, size 0x1
@@ -23127,7 +23127,7 @@ version 98 {
     // offset 0xcadd, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcade, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcae9, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcaea, size 0x6
@@ -23242,7 +23242,7 @@ version 97 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -23286,13 +23286,13 @@ version 97 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -23310,7 +23310,7 @@ version 97 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -23332,9 +23332,9 @@ version 97 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -23373,7 +23373,7 @@ version 97 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -23404,7 +23404,7 @@ version 97 {
         pistol_standard_t8, // 0x22,
         null_offhand_secondary, // 0x23,
         gadget_health_regen, // 0x24,
-        hash_31be8125c7d0f273, // 0x25,
+        null_offhand_ultimate, // 0x25,
         drone_squadron, // 0x26,
         null_offhand_primary, // 0x27,
         pistol_revolver_t8, // 0x28,
@@ -23439,7 +23439,7 @@ version 97 {
         shotgun_pump_t8, // 0x45,
         gadget_health_boost, // 0x46,
         bare_hands, // 0x47,
-        hash_578fac7f7b2db62b, // 0x48,
+        ar_slowfire_t8, // 0x48,
         trophy_system, // 0x49,
         sniper_mini14_t8, // 0x4a,
         eq_cluster_semtex_grenade, // 0x4b,
@@ -23472,7 +23472,7 @@ version 97 {
         hash_7932008294f0d876, // 0x66,
         smg_handling_t8, // 0x67,
         shotgun_fullauto_t8, // 0x68,
-        hash_7ab3f9a730359659, // 0x69,
+        spawn_beacon_held, // 0x69,
         tr_flechette_t8, // 0x6a,
         melee_secretsanta_t8, // 0x6b,
         gadget_icepick, // 0x6c,
@@ -23499,7 +23499,7 @@ version 97 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -23599,21 +23599,21 @@ version 97 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -23621,7 +23621,7 @@ version 97 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -23636,7 +23636,7 @@ version 97 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -23658,7 +23658,7 @@ version 97 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -23681,18 +23681,18 @@ version 97 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -23706,7 +23706,7 @@ version 97 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -23720,9 +23720,9 @@ version 97 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -23744,11 +23744,11 @@ version 97 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -23768,13 +23768,13 @@ version 97 {
     // offset 0xc190, size 0x30
     string(6) validationevent;
     // offset 0xc1c0, size 0x20
-    uint hash_730dca25bc735a45;
+    uint lastlootcasecountseen;
     // offset 0xc1e0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc1fe, size 0x6f
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc26d, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc26e, size 0x10
     bool extrabools[16];
     // offset 0xc27e, size 0x1
@@ -23782,9 +23782,9 @@ version 97 {
     // offset 0xc27f, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc280, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc28b, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc28c, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc28d, size 0x1
@@ -23794,11 +23794,11 @@ version 97 {
     // offset 0xc2ae, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xc6ae, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xc6af, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc6b0, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc6b1, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xcab1, size 0x1
@@ -23808,7 +23808,7 @@ version 97 {
     // offset 0xcadc, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcadd, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcae8, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcae9, size 0x7
@@ -23923,7 +23923,7 @@ version 96 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -23967,13 +23967,13 @@ version 96 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -23991,7 +23991,7 @@ version 96 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -24013,9 +24013,9 @@ version 96 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -24054,7 +24054,7 @@ version 96 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -24085,7 +24085,7 @@ version 96 {
         pistol_standard_t8, // 0x22,
         null_offhand_secondary, // 0x23,
         gadget_health_regen, // 0x24,
-        hash_31be8125c7d0f273, // 0x25,
+        null_offhand_ultimate, // 0x25,
         drone_squadron, // 0x26,
         null_offhand_primary, // 0x27,
         pistol_revolver_t8, // 0x28,
@@ -24120,7 +24120,7 @@ version 96 {
         shotgun_pump_t8, // 0x45,
         gadget_health_boost, // 0x46,
         bare_hands, // 0x47,
-        hash_578fac7f7b2db62b, // 0x48,
+        ar_slowfire_t8, // 0x48,
         trophy_system, // 0x49,
         sniper_mini14_t8, // 0x4a,
         eq_cluster_semtex_grenade, // 0x4b,
@@ -24153,7 +24153,7 @@ version 96 {
         hash_7932008294f0d876, // 0x66,
         smg_handling_t8, // 0x67,
         shotgun_fullauto_t8, // 0x68,
-        hash_7ab3f9a730359659, // 0x69,
+        spawn_beacon_held, // 0x69,
         tr_flechette_t8, // 0x6a,
         melee_secretsanta_t8, // 0x6b,
         gadget_icepick, // 0x6c,
@@ -24180,7 +24180,7 @@ version 96 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -24280,21 +24280,21 @@ version 96 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -24302,7 +24302,7 @@ version 96 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -24317,7 +24317,7 @@ version 96 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -24339,7 +24339,7 @@ version 96 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -24362,18 +24362,18 @@ version 96 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -24387,7 +24387,7 @@ version 96 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -24401,9 +24401,9 @@ version 96 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -24425,11 +24425,11 @@ version 96 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -24449,11 +24449,11 @@ version 96 {
     // offset 0xc190, size 0x30
     string(6) validationevent;
     // offset 0xc1c0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xc1de, size 0x6f
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xc24d, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xc24e, size 0x10
     bool extrabools[16];
     // offset 0xc25e, size 0x1
@@ -24461,9 +24461,9 @@ version 96 {
     // offset 0xc25f, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xc260, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xc26b, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xc26c, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xc26d, size 0x1
@@ -24473,11 +24473,11 @@ version 96 {
     // offset 0xc28e, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xc68e, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xc68f, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc690, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc691, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xca91, size 0x1
@@ -24487,7 +24487,7 @@ version 96 {
     // offset 0xcabc, size 0x1
     bool completedfirsttimeflow;
     // offset 0xcabd, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xcac8, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xcac9, size 0x7
@@ -24602,7 +24602,7 @@ version 95 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -24646,13 +24646,13 @@ version 95 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -24670,7 +24670,7 @@ version 95 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -24692,9 +24692,9 @@ version 95 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -24723,7 +24723,7 @@ version 95 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -24754,7 +24754,7 @@ version 95 {
         pistol_standard_t8, // 0x22,
         null_offhand_secondary, // 0x23,
         gadget_health_regen, // 0x24,
-        hash_31be8125c7d0f273, // 0x25,
+        null_offhand_ultimate, // 0x25,
         drone_squadron, // 0x26,
         null_offhand_primary, // 0x27,
         pistol_revolver_t8, // 0x28,
@@ -24789,7 +24789,7 @@ version 95 {
         shotgun_pump_t8, // 0x45,
         gadget_health_boost, // 0x46,
         bare_hands, // 0x47,
-        hash_578fac7f7b2db62b, // 0x48,
+        ar_slowfire_t8, // 0x48,
         trophy_system, // 0x49,
         sniper_mini14_t8, // 0x4a,
         eq_cluster_semtex_grenade, // 0x4b,
@@ -24822,7 +24822,7 @@ version 95 {
         hash_7932008294f0d876, // 0x66,
         smg_handling_t8, // 0x67,
         shotgun_fullauto_t8, // 0x68,
-        hash_7ab3f9a730359659, // 0x69,
+        spawn_beacon_held, // 0x69,
         tr_flechette_t8, // 0x6a,
         melee_secretsanta_t8, // 0x6b,
         gadget_icepick, // 0x6c,
@@ -24849,7 +24849,7 @@ version 95 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -24949,21 +24949,21 @@ version 95 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -24971,7 +24971,7 @@ version 95 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -24986,7 +24986,7 @@ version 95 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -25008,7 +25008,7 @@ version 95 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -25031,18 +25031,18 @@ version 95 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -25056,7 +25056,7 @@ version 95 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -25070,9 +25070,9 @@ version 95 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -25094,11 +25094,11 @@ version 95 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -25116,11 +25116,11 @@ version 95 {
     // offset 0xbec0, size 0x30
     string(6) validationevent;
     // offset 0xbef0, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xbf0e, size 0x6f
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xbf7d, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xbf7e, size 0x10
     bool extrabools[16];
     // offset 0xbf8e, size 0x1
@@ -25128,9 +25128,9 @@ version 95 {
     // offset 0xbf8f, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xbf90, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xbf9b, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xbf9c, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xbf9d, size 0x1
@@ -25140,11 +25140,11 @@ version 95 {
     // offset 0xbfbe, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xc3be, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xc3bf, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc3c0, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc3c1, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xc7c1, size 0x1
@@ -25154,7 +25154,7 @@ version 95 {
     // offset 0xc7ec, size 0x1
     bool completedfirsttimeflow;
     // offset 0xc7ed, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xc7f8, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xc7f9, size 0x7
@@ -25269,7 +25269,7 @@ version 94 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -25313,13 +25313,13 @@ version 94 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -25337,7 +25337,7 @@ version 94 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -25359,9 +25359,9 @@ version 94 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -25390,7 +25390,7 @@ version 94 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -25421,7 +25421,7 @@ version 94 {
         pistol_standard_t8, // 0x22,
         null_offhand_secondary, // 0x23,
         gadget_health_regen, // 0x24,
-        hash_31be8125c7d0f273, // 0x25,
+        null_offhand_ultimate, // 0x25,
         drone_squadron, // 0x26,
         null_offhand_primary, // 0x27,
         pistol_revolver_t8, // 0x28,
@@ -25456,7 +25456,7 @@ version 94 {
         shotgun_pump_t8, // 0x45,
         gadget_health_boost, // 0x46,
         bare_hands, // 0x47,
-        hash_578fac7f7b2db62b, // 0x48,
+        ar_slowfire_t8, // 0x48,
         trophy_system, // 0x49,
         sniper_mini14_t8, // 0x4a,
         eq_cluster_semtex_grenade, // 0x4b,
@@ -25488,7 +25488,7 @@ version 94 {
         hash_7932008294f0d876, // 0x65,
         smg_handling_t8, // 0x66,
         shotgun_fullauto_t8, // 0x67,
-        hash_7ab3f9a730359659, // 0x68,
+        spawn_beacon_held, // 0x68,
         tr_flechette_t8, // 0x69,
         melee_secretsanta_t8, // 0x6a,
         gadget_icepick, // 0x6b,
@@ -25515,7 +25515,7 @@ version 94 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -25614,21 +25614,21 @@ version 94 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -25636,7 +25636,7 @@ version 94 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -25651,7 +25651,7 @@ version 94 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -25673,7 +25673,7 @@ version 94 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -25696,18 +25696,18 @@ version 94 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -25721,7 +25721,7 @@ version 94 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -25735,9 +25735,9 @@ version 94 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -25759,11 +25759,11 @@ version 94 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -25781,11 +25781,11 @@ version 94 {
     // offset 0xbc48, size 0x30
     string(6) validationevent;
     // offset 0xbc78, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xbc96, size 0x6e
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xbd04, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xbd05, size 0x10
     bool extrabools[16];
     // offset 0xbd15, size 0x1
@@ -25793,9 +25793,9 @@ version 94 {
     // offset 0xbd16, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xbd17, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xbd22, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xbd23, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xbd24, size 0x1
@@ -25805,11 +25805,11 @@ version 94 {
     // offset 0xbd45, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xc145, size 0x1
-    bool hash_6e38117666817880;
+    bool completedarenafirsttimeflow;
     // offset 0xc146, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc147, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc148, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xc548, size 0x1
@@ -25819,7 +25819,7 @@ version 94 {
     // offset 0xc573, size 0x1
     bool completedfirsttimeflow;
     // offset 0xc574, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xc57f, size 0x1
     bool hash_7d22494ddebb227f;
 }
@@ -25932,7 +25932,7 @@ version 93 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -25976,13 +25976,13 @@ version 93 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -26000,7 +26000,7 @@ version 93 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -26022,9 +26022,9 @@ version 93 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -26053,7 +26053,7 @@ version 93 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -26084,7 +26084,7 @@ version 93 {
         pistol_standard_t8, // 0x22,
         null_offhand_secondary, // 0x23,
         gadget_health_regen, // 0x24,
-        hash_31be8125c7d0f273, // 0x25,
+        null_offhand_ultimate, // 0x25,
         drone_squadron, // 0x26,
         null_offhand_primary, // 0x27,
         pistol_revolver_t8, // 0x28,
@@ -26119,7 +26119,7 @@ version 93 {
         shotgun_pump_t8, // 0x45,
         gadget_health_boost, // 0x46,
         bare_hands, // 0x47,
-        hash_578fac7f7b2db62b, // 0x48,
+        ar_slowfire_t8, // 0x48,
         trophy_system, // 0x49,
         sniper_mini14_t8, // 0x4a,
         eq_cluster_semtex_grenade, // 0x4b,
@@ -26151,7 +26151,7 @@ version 93 {
         hash_7932008294f0d876, // 0x65,
         smg_handling_t8, // 0x66,
         shotgun_fullauto_t8, // 0x67,
-        hash_7ab3f9a730359659, // 0x68,
+        spawn_beacon_held, // 0x68,
         tr_flechette_t8, // 0x69,
         melee_secretsanta_t8, // 0x6a,
         gadget_icepick, // 0x6b,
@@ -26178,7 +26178,7 @@ version 93 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -26277,21 +26277,21 @@ version 93 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -26299,7 +26299,7 @@ version 93 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -26314,7 +26314,7 @@ version 93 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -26336,7 +26336,7 @@ version 93 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -26359,18 +26359,18 @@ version 93 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -26384,7 +26384,7 @@ version 93 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -26398,9 +26398,9 @@ version 93 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -26422,11 +26422,11 @@ version 93 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -26444,11 +26444,11 @@ version 93 {
     // offset 0xbc48, size 0x30
     string(6) validationevent;
     // offset 0xbc78, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0xbc96, size 0x6e
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0xbd04, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0xbd05, size 0x10
     bool extrabools[16];
     // offset 0xbd15, size 0x1
@@ -26456,9 +26456,9 @@ version 93 {
     // offset 0xbd16, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0xbd17, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0xbd22, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0xbd23, size 0x1
     bool hash_146a83be841474fa;
     // offset 0xbd24, size 0x1
@@ -26468,9 +26468,9 @@ version 93 {
     // offset 0xbd45, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0xc145, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc146, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc147, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0xc547, size 0x1
@@ -26480,7 +26480,7 @@ version 93 {
     // offset 0xc572, size 0x1
     bool completedfirsttimeflow;
     // offset 0xc573, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0xc57e, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0xc57f, size 0x1
@@ -26595,7 +26595,7 @@ version 92 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -26639,13 +26639,13 @@ version 92 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -26663,7 +26663,7 @@ version 92 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -26685,9 +26685,9 @@ version 92 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -26708,7 +26708,7 @@ version 92 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -26739,7 +26739,7 @@ version 92 {
         pistol_standard_t8, // 0x22,
         null_offhand_secondary, // 0x23,
         gadget_health_regen, // 0x24,
-        hash_31be8125c7d0f273, // 0x25,
+        null_offhand_ultimate, // 0x25,
         drone_squadron, // 0x26,
         null_offhand_primary, // 0x27,
         pistol_revolver_t8, // 0x28,
@@ -26774,7 +26774,7 @@ version 92 {
         shotgun_pump_t8, // 0x45,
         gadget_health_boost, // 0x46,
         bare_hands, // 0x47,
-        hash_578fac7f7b2db62b, // 0x48,
+        ar_slowfire_t8, // 0x48,
         trophy_system, // 0x49,
         sniper_mini14_t8, // 0x4a,
         eq_cluster_semtex_grenade, // 0x4b,
@@ -26806,7 +26806,7 @@ version 92 {
         hash_7932008294f0d876, // 0x65,
         smg_handling_t8, // 0x66,
         shotgun_fullauto_t8, // 0x67,
-        hash_7ab3f9a730359659, // 0x68,
+        spawn_beacon_held, // 0x68,
         tr_flechette_t8, // 0x69,
         melee_secretsanta_t8, // 0x6a,
         gadget_icepick, // 0x6b,
@@ -26833,7 +26833,7 @@ version 92 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -26932,21 +26932,21 @@ version 92 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -26954,7 +26954,7 @@ version 92 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -26969,7 +26969,7 @@ version 92 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -26991,7 +26991,7 @@ version 92 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -27014,18 +27014,18 @@ version 92 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -27039,7 +27039,7 @@ version 92 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -27053,9 +27053,9 @@ version 92 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -27075,11 +27075,11 @@ version 92 {
     // offset 0x3e0, size 0x20
     int design_version;
     // offset 0x400, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1580, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15c0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15e0, size 0x100
     byte demonwareflags[32];
     // offset 0x16e0, size 0x20
@@ -27095,11 +27095,11 @@ version 92 {
     // offset 0x7c28, size 0x30
     string(6) validationevent;
     // offset 0x7c58, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x7c76, size 0x6e
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x7ce4, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x7ce5, size 0x10
     bool extrabools[16];
     // offset 0x7cf5, size 0x1
@@ -27107,9 +27107,9 @@ version 92 {
     // offset 0x7cf6, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x7cf7, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x7d02, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x7d03, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x7d04, size 0x1
@@ -27119,9 +27119,9 @@ version 92 {
     // offset 0x7d25, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x8125, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x8126, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x8127, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x8527, size 0x1
@@ -27131,7 +27131,7 @@ version 92 {
     // offset 0x8552, size 0x1
     bool completedfirsttimeflow;
     // offset 0x8553, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x855e, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x855f, size 0x1
@@ -27246,7 +27246,7 @@ version 91 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -27290,13 +27290,13 @@ version 91 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -27314,7 +27314,7 @@ version 91 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -27336,9 +27336,9 @@ version 91 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -27359,7 +27359,7 @@ version 91 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         eq_hawk, // 0x7,
         tr_midburst_t8, // 0x8,
         sniper_powersemi_t8, // 0x9,
@@ -27390,7 +27390,7 @@ version 91 {
         pistol_standard_t8, // 0x22,
         null_offhand_secondary, // 0x23,
         gadget_health_regen, // 0x24,
-        hash_31be8125c7d0f273, // 0x25,
+        null_offhand_ultimate, // 0x25,
         drone_squadron, // 0x26,
         null_offhand_primary, // 0x27,
         pistol_revolver_t8, // 0x28,
@@ -27425,7 +27425,7 @@ version 91 {
         shotgun_pump_t8, // 0x45,
         gadget_health_boost, // 0x46,
         bare_hands, // 0x47,
-        hash_578fac7f7b2db62b, // 0x48,
+        ar_slowfire_t8, // 0x48,
         trophy_system, // 0x49,
         sniper_mini14_t8, // 0x4a,
         eq_cluster_semtex_grenade, // 0x4b,
@@ -27456,7 +27456,7 @@ version 91 {
         hash_7932008294f0d876, // 0x64,
         smg_handling_t8, // 0x65,
         shotgun_fullauto_t8, // 0x66,
-        hash_7ab3f9a730359659, // 0x67,
+        spawn_beacon_held, // 0x67,
         tr_flechette_t8, // 0x68,
         melee_secretsanta_t8, // 0x69,
         gadget_icepick, // 0x6a,
@@ -27482,7 +27482,7 @@ version 91 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -27579,21 +27579,21 @@ version 91 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -27601,7 +27601,7 @@ version 91 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -27616,7 +27616,7 @@ version 91 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -27638,7 +27638,7 @@ version 91 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -27661,18 +27661,18 @@ version 91 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -27686,7 +27686,7 @@ version 91 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -27700,9 +27700,9 @@ version 91 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -27722,11 +27722,11 @@ version 91 {
     // offset 0x3e0, size 0x20
     int design_version;
     // offset 0x400, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1580, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15c0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15e0, size 0x100
     byte demonwareflags[32];
     // offset 0x16e0, size 0x20
@@ -27742,11 +27742,11 @@ version 91 {
     // offset 0x7738, size 0x30
     string(6) validationevent;
     // offset 0x7768, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x7786, size 0x6c
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x77f2, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x77f3, size 0x10
     bool extrabools[16];
     // offset 0x7803, size 0x1
@@ -27754,9 +27754,9 @@ version 91 {
     // offset 0x7804, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x7805, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x7810, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x7811, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x7812, size 0x1
@@ -27766,9 +27766,9 @@ version 91 {
     // offset 0x7833, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x7c33, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x7c34, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x7c35, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x8035, size 0x1
@@ -27778,7 +27778,7 @@ version 91 {
     // offset 0x8060, size 0x1
     bool completedfirsttimeflow;
     // offset 0x8061, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x806c, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x806d, size 0x3
@@ -27893,7 +27893,7 @@ version 90 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -27937,13 +27937,13 @@ version 90 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -27961,7 +27961,7 @@ version 90 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -27983,9 +27983,9 @@ version 90 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -28006,7 +28006,7 @@ version 90 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -28036,7 +28036,7 @@ version 90 {
         pistol_standard_t8, // 0x21,
         null_offhand_secondary, // 0x22,
         gadget_health_regen, // 0x23,
-        hash_31be8125c7d0f273, // 0x24,
+        null_offhand_ultimate, // 0x24,
         drone_squadron, // 0x25,
         null_offhand_primary, // 0x26,
         pistol_revolver_t8, // 0x27,
@@ -28071,7 +28071,7 @@ version 90 {
         shotgun_pump_t8, // 0x44,
         gadget_health_boost, // 0x45,
         bare_hands, // 0x46,
-        hash_578fac7f7b2db62b, // 0x47,
+        ar_slowfire_t8, // 0x47,
         trophy_system, // 0x48,
         sniper_mini14_t8, // 0x49,
         eq_cluster_semtex_grenade, // 0x4a,
@@ -28102,7 +28102,7 @@ version 90 {
         hash_7932008294f0d876, // 0x63,
         smg_handling_t8, // 0x64,
         shotgun_fullauto_t8, // 0x65,
-        hash_7ab3f9a730359659, // 0x66,
+        spawn_beacon_held, // 0x66,
         tr_flechette_t8, // 0x67,
         melee_secretsanta_t8, // 0x68,
         gadget_icepick, // 0x69,
@@ -28128,7 +28128,7 @@ version 90 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         sniper_mini14_t8, // 0x12,
         tr_longburst_t8, // 0x13,
         smg_standard_t8, // 0x14,
@@ -28225,21 +28225,21 @@ version 90 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -28247,7 +28247,7 @@ version 90 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -28262,7 +28262,7 @@ version 90 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -28284,7 +28284,7 @@ version 90 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -28307,18 +28307,18 @@ version 90 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -28332,7 +28332,7 @@ version 90 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -28346,9 +28346,9 @@ version 90 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -28368,11 +28368,11 @@ version 90 {
     // offset 0x3e0, size 0x20
     int design_version;
     // offset 0x400, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1580, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15c0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15e0, size 0x100
     byte demonwareflags[32];
     // offset 0x16e0, size 0x20
@@ -28388,11 +28388,11 @@ version 90 {
     // offset 0x7738, size 0x30
     string(6) validationevent;
     // offset 0x7768, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x7786, size 0x6b
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x77f1, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x77f2, size 0x10
     bool extrabools[16];
     // offset 0x7802, size 0x1
@@ -28400,9 +28400,9 @@ version 90 {
     // offset 0x7803, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x7804, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x780f, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x7810, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x7811, size 0x1
@@ -28412,9 +28412,9 @@ version 90 {
     // offset 0x7832, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x7c32, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x7c33, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x7c34, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x8034, size 0x1
@@ -28424,7 +28424,7 @@ version 90 {
     // offset 0x805f, size 0x1
     bool completedfirsttimeflow;
     // offset 0x8060, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x806b, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x806c, size 0x4
@@ -28539,7 +28539,7 @@ version 89 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -28583,13 +28583,13 @@ version 89 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -28607,7 +28607,7 @@ version 89 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -28629,9 +28629,9 @@ version 89 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -28652,7 +28652,7 @@ version 89 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -28682,7 +28682,7 @@ version 89 {
         pistol_standard_t8, // 0x21,
         null_offhand_secondary, // 0x22,
         gadget_health_regen, // 0x23,
-        hash_31be8125c7d0f273, // 0x24,
+        null_offhand_ultimate, // 0x24,
         drone_squadron, // 0x25,
         null_offhand_primary, // 0x26,
         pistol_revolver_t8, // 0x27,
@@ -28717,7 +28717,7 @@ version 89 {
         shotgun_pump_t8, // 0x44,
         gadget_health_boost, // 0x45,
         bare_hands, // 0x46,
-        hash_578fac7f7b2db62b, // 0x47,
+        ar_slowfire_t8, // 0x47,
         trophy_system, // 0x48,
         eq_cluster_semtex_grenade, // 0x49,
         tr_longburst_t8, // 0x4a,
@@ -28745,7 +28745,7 @@ version 89 {
         default_specialist_equipment, // 0x60,
         hash_7932008294f0d876, // 0x61,
         smg_handling_t8, // 0x62,
-        hash_7ab3f9a730359659, // 0x63,
+        spawn_beacon_held, // 0x63,
         tr_flechette_t8, // 0x64,
         melee_secretsanta_t8, // 0x65,
         gadget_icepick, // 0x66,
@@ -28771,7 +28771,7 @@ version 89 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -28865,21 +28865,21 @@ version 89 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -28887,7 +28887,7 @@ version 89 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -28902,7 +28902,7 @@ version 89 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -28924,7 +28924,7 @@ version 89 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -28947,18 +28947,18 @@ version 89 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -28972,7 +28972,7 @@ version 89 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -28986,9 +28986,9 @@ version 89 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -29008,11 +29008,11 @@ version 89 {
     // offset 0x3e0, size 0x20
     int design_version;
     // offset 0x400, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1580, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15c0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15e0, size 0x100
     byte demonwareflags[32];
     // offset 0x16e0, size 0x20
@@ -29028,11 +29028,11 @@ version 89 {
     // offset 0x6fd0, size 0x30
     string(6) validationevent;
     // offset 0x7000, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x701e, size 0x68
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x7086, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x7087, size 0x10
     bool extrabools[16];
     // offset 0x7097, size 0x1
@@ -29040,9 +29040,9 @@ version 89 {
     // offset 0x7098, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x7099, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x70a4, size 0x1
-    bool hash_5fa3f523f8d669f3;
+    bool completedupdatedweaponpersonalizationflow;
     // offset 0x70a5, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x70a6, size 0x1
@@ -29052,9 +29052,9 @@ version 89 {
     // offset 0x70c7, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x74c7, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x74c8, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x74c9, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x78c9, size 0x1
@@ -29064,7 +29064,7 @@ version 89 {
     // offset 0x78f4, size 0x1
     bool completedfirsttimeflow;
     // offset 0x78f5, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x7900, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x7901, size 0x7
@@ -29179,7 +29179,7 @@ version 88 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -29223,13 +29223,13 @@ version 88 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -29247,7 +29247,7 @@ version 88 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -29269,9 +29269,9 @@ version 88 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -29292,7 +29292,7 @@ version 88 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -29322,7 +29322,7 @@ version 88 {
         pistol_standard_t8, // 0x21,
         null_offhand_secondary, // 0x22,
         gadget_health_regen, // 0x23,
-        hash_31be8125c7d0f273, // 0x24,
+        null_offhand_ultimate, // 0x24,
         drone_squadron, // 0x25,
         null_offhand_primary, // 0x26,
         pistol_revolver_t8, // 0x27,
@@ -29357,7 +29357,7 @@ version 88 {
         shotgun_pump_t8, // 0x44,
         gadget_health_boost, // 0x45,
         bare_hands, // 0x46,
-        hash_578fac7f7b2db62b, // 0x47,
+        ar_slowfire_t8, // 0x47,
         trophy_system, // 0x48,
         eq_cluster_semtex_grenade, // 0x49,
         tr_longburst_t8, // 0x4a,
@@ -29385,7 +29385,7 @@ version 88 {
         default_specialist_equipment, // 0x60,
         hash_7932008294f0d876, // 0x61,
         smg_handling_t8, // 0x62,
-        hash_7ab3f9a730359659, // 0x63,
+        spawn_beacon_held, // 0x63,
         tr_flechette_t8, // 0x64,
         melee_secretsanta_t8, // 0x65,
         gadget_icepick, // 0x66,
@@ -29411,7 +29411,7 @@ version 88 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -29505,21 +29505,21 @@ version 88 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -29527,7 +29527,7 @@ version 88 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -29542,7 +29542,7 @@ version 88 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -29564,7 +29564,7 @@ version 88 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -29587,18 +29587,18 @@ version 88 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -29612,7 +29612,7 @@ version 88 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -29626,9 +29626,9 @@ version 88 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -29648,11 +29648,11 @@ version 88 {
     // offset 0x3e0, size 0x20
     int design_version;
     // offset 0x400, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1580, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15c0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15e0, size 0x100
     byte demonwareflags[32];
     // offset 0x16e0, size 0x20
@@ -29668,11 +29668,11 @@ version 88 {
     // offset 0x6fd0, size 0x30
     string(6) validationevent;
     // offset 0x7000, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x701e, size 0x68
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x7086, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x7087, size 0x10
     bool extrabools[16];
     // offset 0x7097, size 0x1
@@ -29680,7 +29680,7 @@ version 88 {
     // offset 0x7098, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x7099, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x70a4, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x70a5, size 0x1
@@ -29690,9 +29690,9 @@ version 88 {
     // offset 0x70c6, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x74c6, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x74c7, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x74c8, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x78c8, size 0x1
@@ -29702,7 +29702,7 @@ version 88 {
     // offset 0x78f3, size 0x1
     bool completedfirsttimeflow;
     // offset 0x78f4, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x78ff, size 0x1
     bool hash_7d22494ddebb227f;
 }
@@ -29815,7 +29815,7 @@ version 87 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -29859,13 +29859,13 @@ version 87 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -29883,7 +29883,7 @@ version 87 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -29905,9 +29905,9 @@ version 87 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -29928,7 +29928,7 @@ version 87 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -29958,7 +29958,7 @@ version 87 {
         pistol_standard_t8, // 0x21,
         null_offhand_secondary, // 0x22,
         gadget_health_regen, // 0x23,
-        hash_31be8125c7d0f273, // 0x24,
+        null_offhand_ultimate, // 0x24,
         drone_squadron, // 0x25,
         null_offhand_primary, // 0x26,
         pistol_revolver_t8, // 0x27,
@@ -29993,7 +29993,7 @@ version 87 {
         shotgun_pump_t8, // 0x44,
         gadget_health_boost, // 0x45,
         bare_hands, // 0x46,
-        hash_578fac7f7b2db62b, // 0x47,
+        ar_slowfire_t8, // 0x47,
         trophy_system, // 0x48,
         eq_cluster_semtex_grenade, // 0x49,
         tr_longburst_t8, // 0x4a,
@@ -30021,7 +30021,7 @@ version 87 {
         default_specialist_equipment, // 0x60,
         hash_7932008294f0d876, // 0x61,
         smg_handling_t8, // 0x62,
-        hash_7ab3f9a730359659, // 0x63,
+        spawn_beacon_held, // 0x63,
         tr_flechette_t8, // 0x64,
         melee_secretsanta_t8, // 0x65,
         gadget_icepick, // 0x66,
@@ -30047,7 +30047,7 @@ version 87 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -30141,21 +30141,21 @@ version 87 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -30163,7 +30163,7 @@ version 87 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -30178,7 +30178,7 @@ version 87 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -30200,7 +30200,7 @@ version 87 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -30223,18 +30223,18 @@ version 87 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -30248,7 +30248,7 @@ version 87 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -30262,9 +30262,9 @@ version 87 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -30284,11 +30284,11 @@ version 87 {
     // offset 0x3e0, size 0x20
     int design_version;
     // offset 0x400, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1580, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15c0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15e0, size 0x100
     byte demonwareflags[32];
     // offset 0x16e0, size 0x20
@@ -30304,11 +30304,11 @@ version 87 {
     // offset 0x6fd0, size 0x30
     string(6) validationevent;
     // offset 0x7000, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x701e, size 0x68
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x7086, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x7087, size 0x10
     bool extrabools[16];
     // offset 0x7097, size 0x1
@@ -30316,7 +30316,7 @@ version 87 {
     // offset 0x7098, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x7099, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x70a4, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x70a5, size 0x20
@@ -30324,9 +30324,9 @@ version 87 {
     // offset 0x70c5, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x74c5, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x74c6, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x74c7, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x78c7, size 0x1
@@ -30336,7 +30336,7 @@ version 87 {
     // offset 0x78f2, size 0x1
     bool completedfirsttimeflow;
     // offset 0x78f3, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x78fe, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x78ff, size 0x1
@@ -30451,7 +30451,7 @@ version 86 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -30495,13 +30495,13 @@ version 86 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -30519,7 +30519,7 @@ version 86 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -30541,9 +30541,9 @@ version 86 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -30564,7 +30564,7 @@ version 86 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -30593,7 +30593,7 @@ version 86 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -30628,7 +30628,7 @@ version 86 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -30656,7 +30656,7 @@ version 86 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -30682,7 +30682,7 @@ version 86 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -30776,21 +30776,21 @@ version 86 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -30798,7 +30798,7 @@ version 86 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -30813,7 +30813,7 @@ version 86 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -30835,7 +30835,7 @@ version 86 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -30858,18 +30858,18 @@ version 86 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -30883,7 +30883,7 @@ version 86 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -30897,9 +30897,9 @@ version 86 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -30919,11 +30919,11 @@ version 86 {
     // offset 0x3e0, size 0x20
     int design_version;
     // offset 0x400, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1580, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15c0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15e0, size 0x100
     byte demonwareflags[32];
     // offset 0x16e0, size 0x20
@@ -30939,11 +30939,11 @@ version 86 {
     // offset 0x6fd0, size 0x30
     string(6) validationevent;
     // offset 0x7000, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x701e, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x7085, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x7086, size 0x10
     bool extrabools[16];
     // offset 0x7096, size 0x1
@@ -30951,7 +30951,7 @@ version 86 {
     // offset 0x7097, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x7098, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x70a3, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x70a4, size 0x20
@@ -30959,9 +30959,9 @@ version 86 {
     // offset 0x70c4, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x74c4, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x74c5, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x74c6, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x78c6, size 0x1
@@ -30971,7 +30971,7 @@ version 86 {
     // offset 0x78f1, size 0x1
     bool completedfirsttimeflow;
     // offset 0x78f2, size 0xb
-    bool hash_1ea967f4a7686bfa[11];
+    bool loot_allrngpopup[11];
     // offset 0x78fd, size 0x1
     bool hash_7d22494ddebb227f;
     // offset 0x78fe, size 0x2
@@ -31086,7 +31086,7 @@ version 85 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -31130,13 +31130,13 @@ version 85 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -31154,7 +31154,7 @@ version 85 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -31176,9 +31176,9 @@ version 85 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -31199,7 +31199,7 @@ version 85 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -31228,7 +31228,7 @@ version 85 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -31263,7 +31263,7 @@ version 85 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -31291,7 +31291,7 @@ version 85 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -31317,7 +31317,7 @@ version 85 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -31411,21 +31411,21 @@ version 85 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -31433,7 +31433,7 @@ version 85 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -31448,7 +31448,7 @@ version 85 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -31470,7 +31470,7 @@ version 85 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -31493,18 +31493,18 @@ version 85 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
     // idx 7 members 3
-    enum hash_417a964f4c3f9432 {
+    enum lootcontractslots {
         slot_event, // 0x0,
         slot_2, // 0x1,
         slot_1, // 0x2
@@ -31518,7 +31518,7 @@ version 85 {
     // offset 0x40, size 0x8
     uint:4 lastconsolesave;
     // offset 0x48, size 0xc0
-    lootcontract loot_contracts[hash_417a964f4c3f9432];
+    lootcontract loot_contracts[lootcontractslots];
     // offset 0x108, size 0x40
     uint64 player_xuid;
     // offset 0x148, size 0x8
@@ -31532,9 +31532,9 @@ version 85 {
     // offset 0x270, size 0x28
     string(5) clantag;
     // offset 0x298, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x2b8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x2d8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x2f8, size 0x20
@@ -31554,11 +31554,11 @@ version 85 {
     // offset 0x3e0, size 0x20
     int design_version;
     // offset 0x400, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1580, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15c0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15e0, size 0x100
     byte demonwareflags[32];
     // offset 0x16e0, size 0x20
@@ -31574,11 +31574,11 @@ version 85 {
     // offset 0x6fd0, size 0x30
     string(6) validationevent;
     // offset 0x7000, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x701e, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x7085, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x7086, size 0x10
     bool extrabools[16];
     // offset 0x7096, size 0x1
@@ -31586,7 +31586,7 @@ version 85 {
     // offset 0x7097, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x7098, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x70a3, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x70a4, size 0x20
@@ -31594,9 +31594,9 @@ version 85 {
     // offset 0x70c4, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x74c4, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x74c5, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x74c6, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x78c6, size 0x1
@@ -31719,7 +31719,7 @@ version 84 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -31763,13 +31763,13 @@ version 84 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -31787,7 +31787,7 @@ version 84 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -31809,9 +31809,9 @@ version 84 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -31824,7 +31824,7 @@ version 84 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -31853,7 +31853,7 @@ version 84 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -31888,7 +31888,7 @@ version 84 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -31916,7 +31916,7 @@ version 84 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -31942,7 +31942,7 @@ version 84 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -32036,21 +32036,21 @@ version 84 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -32058,7 +32058,7 @@ version 84 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -32073,7 +32073,7 @@ version 84 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -32095,7 +32095,7 @@ version 84 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -32118,13 +32118,13 @@ version 84 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
@@ -32148,9 +32148,9 @@ version 84 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x1f8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x218, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x238, size 0x20
@@ -32170,11 +32170,11 @@ version 84 {
     // offset 0x320, size 0x20
     int design_version;
     // offset 0x340, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x14c0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1500, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1520, size 0x100
     byte demonwareflags[32];
     // offset 0x1620, size 0x20
@@ -32190,11 +32190,11 @@ version 84 {
     // offset 0x6f10, size 0x30
     string(6) validationevent;
     // offset 0x6f40, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x6f5e, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x6fc5, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x6fc6, size 0x10
     bool extrabools[16];
     // offset 0x6fd6, size 0x1
@@ -32202,7 +32202,7 @@ version 84 {
     // offset 0x6fd7, size 0x1
     bool blackmarketshowbreadcrumb;
     // offset 0x6fd8, size 0xb
-    bool hash_184218561cfb02e4[11];
+    bool loot_seasoncompletedpopup[11];
     // offset 0x6fe3, size 0x1
     bool hash_146a83be841474fa;
     // offset 0x6fe4, size 0x20
@@ -32210,9 +32210,9 @@ version 84 {
     // offset 0x7004, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x7404, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x7405, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x7406, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x7806, size 0x1
@@ -32335,7 +32335,7 @@ version 83 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -32379,13 +32379,13 @@ version 83 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -32403,7 +32403,7 @@ version 83 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -32425,9 +32425,9 @@ version 83 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -32440,7 +32440,7 @@ version 83 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -32469,7 +32469,7 @@ version 83 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -32504,7 +32504,7 @@ version 83 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -32532,7 +32532,7 @@ version 83 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -32558,7 +32558,7 @@ version 83 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -32652,21 +32652,21 @@ version 83 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -32674,7 +32674,7 @@ version 83 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -32689,7 +32689,7 @@ version 83 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -32711,7 +32711,7 @@ version 83 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -32734,13 +32734,13 @@ version 83 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
@@ -32764,9 +32764,9 @@ version 83 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x1f8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x218, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x238, size 0x20
@@ -32786,11 +32786,11 @@ version 83 {
     // offset 0x320, size 0x20
     int design_version;
     // offset 0x340, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x14c0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1500, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1520, size 0x100
     byte demonwareflags[32];
     // offset 0x1620, size 0x20
@@ -32806,11 +32806,11 @@ version 83 {
     // offset 0x6f10, size 0x30
     string(6) validationevent;
     // offset 0x6f40, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x6f5e, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x6fc5, size 0x1
-    bool hash_3dc4e6e4baa0b494;
+    bool completedblackmarketfirsttimeflow;
     // offset 0x6fc6, size 0x10
     bool extrabools[16];
     // offset 0x6fd6, size 0x1
@@ -32824,9 +32824,9 @@ version 83 {
     // offset 0x6ff9, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x73f9, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x73fa, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x73fb, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x77fb, size 0x1
@@ -32947,7 +32947,7 @@ version 82 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -32991,13 +32991,13 @@ version 82 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -33015,7 +33015,7 @@ version 82 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -33037,9 +33037,9 @@ version 82 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -33052,7 +33052,7 @@ version 82 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -33081,7 +33081,7 @@ version 82 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -33116,7 +33116,7 @@ version 82 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -33144,7 +33144,7 @@ version 82 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -33170,7 +33170,7 @@ version 82 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -33264,21 +33264,21 @@ version 82 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -33286,7 +33286,7 @@ version 82 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -33301,7 +33301,7 @@ version 82 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -33323,7 +33323,7 @@ version 82 {
     };
 
     // idx 6 members 30
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -33346,13 +33346,13 @@ version 82 {
         hash_53ee7271a9a14421, // 0x13,
         hash_5a007ae024403f92, // 0x14,
         hash_61abfa80dd80d262, // 0x15,
-        hash_69df29d0839a1be1, // 0x16,
+        black_ops_pass, // 0x16,
         hash_6a38b1ff8a50a167, // 0x17,
         hash_6a89b0043762730b, // 0x18,
-        hash_6f7c1ff18a02ed4e, // 0x19,
+        retail_pro_pack, // 0x19,
         hash_744d387c398d82ad, // 0x1a,
-        hash_7541976a426adb94, // 0x1b,
-        hash_754c2b9dddd8a254, // 0x1c,
+        predigitalgame, // 0x1b,
+        deluxegame, // 0x1c,
         hash_76c3d78317b27b11, // 0x1d
     };
 
@@ -33376,9 +33376,9 @@ version 82 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x1f8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x218, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x238, size 0x20
@@ -33398,11 +33398,11 @@ version 82 {
     // offset 0x320, size 0x20
     int design_version;
     // offset 0x340, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x14c0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1500, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1520, size 0x100
     byte demonwareflags[32];
     // offset 0x1620, size 0x20
@@ -33418,9 +33418,9 @@ version 82 {
     // offset 0x6f10, size 0x30
     string(6) validationevent;
     // offset 0x6f40, size 0x1e
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x6f5e, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x6fc5, size 0x10
     bool extrabools[16];
     // offset 0x6fd5, size 0x1
@@ -33434,9 +33434,9 @@ version 82 {
     // offset 0x6ff8, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x73f8, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x73f9, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x73fa, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x77fa, size 0x1
@@ -33559,7 +33559,7 @@ version 81 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -33603,13 +33603,13 @@ version 81 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -33627,7 +33627,7 @@ version 81 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -33649,9 +33649,9 @@ version 81 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -33664,7 +33664,7 @@ version 81 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -33693,7 +33693,7 @@ version 81 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -33728,7 +33728,7 @@ version 81 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -33756,7 +33756,7 @@ version 81 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -33782,7 +33782,7 @@ version 81 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -33876,21 +33876,21 @@ version 81 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -33898,7 +33898,7 @@ version 81 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -33913,7 +33913,7 @@ version 81 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -33935,7 +33935,7 @@ version 81 {
     };
 
     // idx 6 members 29
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_12eda6dc2d0d4a00, // 0x2,
@@ -33957,13 +33957,13 @@ version 81 {
         hash_53ee7271a9a14421, // 0x12,
         hash_5a007ae024403f92, // 0x13,
         hash_61abfa80dd80d262, // 0x14,
-        hash_69df29d0839a1be1, // 0x15,
+        black_ops_pass, // 0x15,
         hash_6a38b1ff8a50a167, // 0x16,
         hash_6a89b0043762730b, // 0x17,
-        hash_6f7c1ff18a02ed4e, // 0x18,
+        retail_pro_pack, // 0x18,
         hash_744d387c398d82ad, // 0x19,
-        hash_7541976a426adb94, // 0x1a,
-        hash_754c2b9dddd8a254, // 0x1b,
+        predigitalgame, // 0x1a,
+        deluxegame, // 0x1b,
         hash_76c3d78317b27b11, // 0x1c
     };
 
@@ -33987,9 +33987,9 @@ version 81 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x1f8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x218, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x238, size 0x20
@@ -34009,11 +34009,11 @@ version 81 {
     // offset 0x320, size 0x20
     int design_version;
     // offset 0x340, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x14c0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1500, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1520, size 0x100
     byte demonwareflags[32];
     // offset 0x1620, size 0x20
@@ -34029,9 +34029,9 @@ version 81 {
     // offset 0x6f10, size 0x30
     string(6) validationevent;
     // offset 0x6f40, size 0x1d
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x6f5d, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x6fc4, size 0x10
     bool extrabools[16];
     // offset 0x6fd4, size 0x1
@@ -34045,9 +34045,9 @@ version 81 {
     // offset 0x6ff7, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x73f7, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x73f8, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x73f9, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x77f9, size 0x1
@@ -34170,7 +34170,7 @@ version 80 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -34214,13 +34214,13 @@ version 80 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -34238,7 +34238,7 @@ version 80 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -34260,9 +34260,9 @@ version 80 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -34275,7 +34275,7 @@ version 80 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -34304,7 +34304,7 @@ version 80 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -34339,7 +34339,7 @@ version 80 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -34367,7 +34367,7 @@ version 80 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -34393,7 +34393,7 @@ version 80 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -34487,21 +34487,21 @@ version 80 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -34509,7 +34509,7 @@ version 80 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -34524,7 +34524,7 @@ version 80 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -34546,7 +34546,7 @@ version 80 {
     };
 
     // idx 6 members 28
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_16d83fd17a87c96b, // 0x2,
@@ -34566,14 +34566,14 @@ version 80 {
         digitalgame, // 0x10,
         hash_5a007ae024403f92, // 0x11,
         hash_61abfa80dd80d262, // 0x12,
-        hash_69df29d0839a1be1, // 0x13,
+        black_ops_pass, // 0x13,
         hash_6a38b1ff8a50a167, // 0x14,
         hash_6a89b0043762730b, // 0x15,
-        hash_6f7c1ff18a02ed4e, // 0x16,
+        retail_pro_pack, // 0x16,
         hash_70d9a113171c8b3e, // 0x17,
         hash_744d387c398d82ad, // 0x18,
-        hash_7541976a426adb94, // 0x19,
-        hash_754c2b9dddd8a254, // 0x1a,
+        predigitalgame, // 0x19,
+        deluxegame, // 0x1a,
         hash_76c3d78317b27b11, // 0x1b
     };
 
@@ -34597,9 +34597,9 @@ version 80 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_2cad871e3d814528;
+    int prestige_icon_id;
     // offset 0x1f8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x218, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x238, size 0x20
@@ -34619,11 +34619,11 @@ version 80 {
     // offset 0x320, size 0x20
     int design_version;
     // offset 0x340, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x14c0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1500, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1520, size 0x100
     byte demonwareflags[32];
     // offset 0x1620, size 0x20
@@ -34639,9 +34639,9 @@ version 80 {
     // offset 0x6f10, size 0x30
     string(6) validationevent;
     // offset 0x6f40, size 0x1c
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x6f5c, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x6fc3, size 0x10
     bool extrabools[16];
     // offset 0x6fd3, size 0x1
@@ -34655,9 +34655,9 @@ version 80 {
     // offset 0x6ff6, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x73f6, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x73f7, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x73f8, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x77f8, size 0x1
@@ -34780,7 +34780,7 @@ version 79 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -34824,13 +34824,13 @@ version 79 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -34848,7 +34848,7 @@ version 79 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -34870,9 +34870,9 @@ version 79 {
         // offset 0x2c, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x34, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x234, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x274, size 0x4
         uint:1 __pad[4];
     };
@@ -34885,7 +34885,7 @@ version 79 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -34914,7 +34914,7 @@ version 79 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -34949,7 +34949,7 @@ version 79 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -34977,7 +34977,7 @@ version 79 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -35003,7 +35003,7 @@ version 79 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -35097,21 +35097,21 @@ version 79 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -35119,7 +35119,7 @@ version 79 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -35134,7 +35134,7 @@ version 79 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -35156,7 +35156,7 @@ version 79 {
     };
 
     // idx 6 members 28
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_16d83fd17a87c96b, // 0x2,
@@ -35176,14 +35176,14 @@ version 79 {
         digitalgame, // 0x10,
         hash_5a007ae024403f92, // 0x11,
         hash_61abfa80dd80d262, // 0x12,
-        hash_69df29d0839a1be1, // 0x13,
+        black_ops_pass, // 0x13,
         hash_6a38b1ff8a50a167, // 0x14,
         hash_6a89b0043762730b, // 0x15,
-        hash_6f7c1ff18a02ed4e, // 0x16,
+        retail_pro_pack, // 0x16,
         hash_70d9a113171c8b3e, // 0x17,
         hash_744d387c398d82ad, // 0x18,
-        hash_7541976a426adb94, // 0x19,
-        hash_754c2b9dddd8a254, // 0x1a,
+        predigitalgame, // 0x19,
+        deluxegame, // 0x1a,
         hash_76c3d78317b27b11, // 0x1b
     };
 
@@ -35207,7 +35207,7 @@ version 79 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x1f8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x218, size 0x20
@@ -35227,11 +35227,11 @@ version 79 {
     // offset 0x300, size 0x20
     int design_version;
     // offset 0x320, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x14a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x14e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1500, size 0x100
     byte demonwareflags[32];
     // offset 0x1600, size 0x20
@@ -35247,9 +35247,9 @@ version 79 {
     // offset 0x6ef0, size 0x30
     string(6) validationevent;
     // offset 0x6f20, size 0x1c
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x6f3c, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x6fa3, size 0x10
     bool extrabools[16];
     // offset 0x6fb3, size 0x1
@@ -35263,9 +35263,9 @@ version 79 {
     // offset 0x6fd6, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x73d6, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x73d7, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x73d8, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x77d8, size 0x1
@@ -35388,7 +35388,7 @@ version 78 {
     };
 
     // idx 9 members 4 size 0x20
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -35432,13 +35432,13 @@ version 78 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -35456,7 +35456,7 @@ version 78 {
     };
 
     // idx 14 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -35478,9 +35478,9 @@ version 78 {
         // offset 0x2a, size 0x8
         bool hash_5d8e0e10a5664d5c[8];
         // offset 0x32, size 0x200
-        bool hash_2e3660bdec3818fd[512];
+        bool camos_marked_old[512];
         // offset 0x232, size 0x40
-        bool hash_5f4b90954c205cde[64];
+        bool reticle_marked_old[64];
         // offset 0x272, size 0x6
         uint:1 __pad[6];
     };
@@ -35493,7 +35493,7 @@ version 78 {
         ability_smart_cover, // 0x3,
         dart, // 0x4,
         ultimate_turret, // 0x5,
-        hash_5a7fd1af4a1d5c9, // 0x6,
+        null_offhand_hero_gadget, // 0x6,
         tr_midburst_t8, // 0x7,
         sniper_powersemi_t8, // 0x8,
         counteruav, // 0x9,
@@ -35522,7 +35522,7 @@ version 78 {
         pistol_standard_t8, // 0x20,
         null_offhand_secondary, // 0x21,
         gadget_health_regen, // 0x22,
-        hash_31be8125c7d0f273, // 0x23,
+        null_offhand_ultimate, // 0x23,
         drone_squadron, // 0x24,
         null_offhand_primary, // 0x25,
         pistol_revolver_t8, // 0x26,
@@ -35557,7 +35557,7 @@ version 78 {
         shotgun_pump_t8, // 0x43,
         gadget_health_boost, // 0x44,
         bare_hands, // 0x45,
-        hash_578fac7f7b2db62b, // 0x46,
+        ar_slowfire_t8, // 0x46,
         trophy_system, // 0x47,
         eq_cluster_semtex_grenade, // 0x48,
         tr_longburst_t8, // 0x49,
@@ -35585,7 +35585,7 @@ version 78 {
         default_specialist_equipment, // 0x5f,
         hash_7932008294f0d876, // 0x60,
         smg_handling_t8, // 0x61,
-        hash_7ab3f9a730359659, // 0x62,
+        spawn_beacon_held, // 0x62,
         tr_flechette_t8, // 0x63,
         melee_secretsanta_t8, // 0x64,
         gadget_icepick, // 0x65,
@@ -35611,7 +35611,7 @@ version 78 {
         lmg_heavy_t8, // 0xe,
         ar_stealth_t8, // 0xf,
         shotgun_pump_t8, // 0x10,
-        hash_578fac7f7b2db62b, // 0x11,
+        ar_slowfire_t8, // 0x11,
         tr_longburst_t8, // 0x12,
         smg_standard_t8, // 0x13,
         lmg_spray_t8, // 0x14,
@@ -35703,21 +35703,21 @@ version 78 {
         talent_gungho, // 0x1,
         talent_engineer, // 0x2,
         talent_coldblooded, // 0x3,
-        hash_9fb2125b3e673e5, // 0x4,
+        gear_armor_one, // 0x4,
         gear_armor, // 0x5,
         talent_tracker, // 0x6,
         talent_medic, // 0x7,
         bonuscard_underkill, // 0x8,
-        hash_16cfc7f70dbd8712, // 0x9,
+        gear_armor_tier_two, // 0x9,
         bonuscard_perk_1_greed, // 0xa,
         talent_flakjacket, // 0xb,
         bonuscard_perk_3_greed, // 0xc,
         gadget_medicalinjectiongun, // 0xd,
-        hash_20290a682a974c94, // 0xe,
+        gear_thrustpack, // 0xe,
         bonuscard_primary_gunfighter_2, // 0xf,
         bonuscard_primary_gunfighter_3, // 0x10,
         talent_dexterity, // 0x11,
-        hash_249e75e962ea5275, // 0x12,
+        gear_armor_hardcore, // 0x12,
         talent_resistance, // 0x13,
         gear_awareness, // 0x14,
         bonuscard_perk_1_gluttony, // 0x15,
@@ -35725,7 +35725,7 @@ version 78 {
         gear_equipmentcharge, // 0x17,
         bonuscard_secondary_gunfighter_2, // 0x18,
         bonuscard_secondary_gunfighter_3, // 0x19,
-        hash_39045b0020cc3e00, // 0x1a,
+        gear_armor_tier_three, // 0x1a,
         talent_scavenger, // 0x1b,
         talent_skulker, // 0x1c,
         bonuscard_perk_2_greed, // 0x1d,
@@ -35740,7 +35740,7 @@ version 78 {
         bonuscard_primary_gunfighter, // 0x26,
         gear_medicalinjectiongun, // 0x27,
         bonuscard_secondary_operator_mod, // 0x28,
-        hash_7716cb3888f5dd8a, // 0x29
+        talent_extraequipment, // 0x29
     };
 
     // idx 5 members 14
@@ -35762,7 +35762,7 @@ version 78 {
     };
 
     // idx 6 members 28
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_16d83fd17a87c96b, // 0x2,
@@ -35782,14 +35782,14 @@ version 78 {
         digitalgame, // 0x10,
         hash_5a007ae024403f92, // 0x11,
         hash_61abfa80dd80d262, // 0x12,
-        hash_69df29d0839a1be1, // 0x13,
+        black_ops_pass, // 0x13,
         hash_6a38b1ff8a50a167, // 0x14,
         hash_6a89b0043762730b, // 0x15,
-        hash_6f7c1ff18a02ed4e, // 0x16,
+        retail_pro_pack, // 0x16,
         hash_70d9a113171c8b3e, // 0x17,
         hash_744d387c398d82ad, // 0x18,
-        hash_7541976a426adb94, // 0x19,
-        hash_754c2b9dddd8a254, // 0x1a,
+        predigitalgame, // 0x19,
+        deluxegame, // 0x1a,
         hash_76c3d78317b27b11, // 0x1b
     };
 
@@ -35813,7 +35813,7 @@ version 78 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x1f8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x218, size 0x20
@@ -35833,11 +35833,11 @@ version 78 {
     // offset 0x300, size 0x20
     int design_version;
     // offset 0x320, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x14a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x14e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1500, size 0x100
     byte demonwareflags[32];
     // offset 0x1600, size 0x20
@@ -35853,9 +35853,9 @@ version 78 {
     // offset 0x6ef0, size 0x30
     string(6) validationevent;
     // offset 0x6f20, size 0x1c
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x6f3c, size 0x67
-    bool hash_24b9a9540a303875[mpitems];
+    bool item_marked_old[mpitems];
     // offset 0x6fa3, size 0x10
     bool extrabools[16];
     // offset 0x6fb3, size 0x1
@@ -35869,9 +35869,9 @@ version 78 {
     // offset 0x6fd6, size 0x400
     bool hash_42799a890d40252f[1024];
     // offset 0x73d6, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x73d7, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x73d8, size 0x400
     bool hash_58bb06b8b337e385[1024];
     // offset 0x77d8, size 0x1
@@ -35896,13 +35896,13 @@ version 77 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -35920,7 +35920,7 @@ version 77 {
     };
 
     // idx 3 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -35942,7 +35942,7 @@ version 77 {
     };
 
     // idx 0 members 28
-    enum hash_76a988240b655e89 {
+    enum entitlements {
         hash_8e4ad8151c7366, // 0x0,
         hash_b4cdbec9f5007d3, // 0x1,
         hash_16d83fd17a87c96b, // 0x2,
@@ -35962,14 +35962,14 @@ version 77 {
         digitalgame, // 0x10,
         hash_5a007ae024403f92, // 0x11,
         hash_61abfa80dd80d262, // 0x12,
-        hash_69df29d0839a1be1, // 0x13,
+        black_ops_pass, // 0x13,
         hash_6a38b1ff8a50a167, // 0x14,
         hash_6a89b0043762730b, // 0x15,
-        hash_6f7c1ff18a02ed4e, // 0x16,
+        retail_pro_pack, // 0x16,
         hash_70d9a113171c8b3e, // 0x17,
         hash_744d387c398d82ad, // 0x18,
-        hash_7541976a426adb94, // 0x19,
-        hash_754c2b9dddd8a254, // 0x1a,
+        predigitalgame, // 0x19,
+        deluxegame, // 0x1a,
         hash_76c3d78317b27b11, // 0x1b
     };
 
@@ -35999,7 +35999,7 @@ version 77 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x1f8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x218, size 0x20
@@ -36021,11 +36021,11 @@ version 77 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -36039,7 +36039,7 @@ version 77 {
     // offset 0x1c00, size 0x30
     string(6) validationevent;
     // offset 0x1c30, size 0x1c
-    bool entitlementacknowledged[hash_76a988240b655e89];
+    bool entitlementacknowledged[entitlements];
     // offset 0x1c4c, size 0x10
     bool extrabools[16];
     // offset 0x1c5c, size 0x1
@@ -36051,9 +36051,9 @@ version 77 {
     // offset 0x1c5f, size 0x20
     bool musicunlocks[32];
     // offset 0x1c7f, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x1c80, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x1c81, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x1c82, size 0x1
@@ -36074,13 +36074,13 @@ version 76 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -36098,7 +36098,7 @@ version 76 {
     };
 
     // idx 3 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -36145,7 +36145,7 @@ version 76 {
     // offset 0x1b0, size 0x28
     string(5) clantag;
     // offset 0x1d8, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x1f8, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x218, size 0x20
@@ -36167,11 +36167,11 @@ version 76 {
     // offset 0x400, size 0x20
     int design_version;
     // offset 0x420, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x15a0, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x15e0, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x1600, size 0x100
     byte demonwareflags[32];
     // offset 0x1700, size 0x20
@@ -36195,9 +36195,9 @@ version 76 {
     // offset 0x1c43, size 0x20
     bool musicunlocks[32];
     // offset 0x1c63, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x1c64, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x1c65, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x1c66, size 0x1
@@ -36216,13 +36216,13 @@ version 75 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
@@ -36240,7 +36240,7 @@ version 75 {
     };
 
     // idx 3 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -36285,7 +36285,7 @@ version 75 {
     // offset 0x150, size 0x28
     string(5) clantag;
     // offset 0x178, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x198, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x1b8, size 0x20
@@ -36307,11 +36307,11 @@ version 75 {
     // offset 0x3a0, size 0x20
     int design_version;
     // offset 0x3c0, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x1540, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x1580, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x15a0, size 0x100
     byte demonwareflags[32];
     // offset 0x16a0, size 0x20
@@ -36335,9 +36335,9 @@ version 75 {
     // offset 0x1be3, size 0x20
     bool musicunlocks[32];
     // offset 0x1c03, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0x1c04, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0x1c05, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0x1c06, size 0x1
@@ -36356,19 +36356,19 @@ version 74 {
         // offset 0x0, size 0x20
         int host_consecutive_success_count_from_go;
         // offset 0x20, size 0x20
-        int hash_5da867109e469462;
+        int host_disrupted_match_count_from_go;
         // offset 0x40, size 0x20
-        int hash_5b755259ad280150;
+        int host_total_match_count_from_go;
         // offset 0x60, size 0x20
-        int hash_4c9f82ae071fec8f;
+        int host_migration_attempted_count_from_go;
         // offset 0x80, size 0x20
-        int hash_2e8ad409e4ad1243;
+        int host_migration_successful_count_from_go;
         // offset 0xa0, size 0x20
         int host_consecutive_disrupted_count_from_go;
     };
 
     // idx 2 members 4 size 0x38
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -36492,7 +36492,7 @@ version 74 {
     };
 
     // idx 9 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -36518,9 +36518,9 @@ version 74 {
     };
 
     // idx 10 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -36528,7 +36528,7 @@ version 74 {
     };
 
     // idx 11 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -36538,63 +36538,63 @@ version 74 {
     };
 
     // idx 12 members 28 size 0xe78
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x38
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x38, size 0x38
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x70, size 0x38
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0xa8, size 0x38
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xe0, size 0x38
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0x118, size 0x38
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x150, size 0x38
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x188, size 0x38
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x1c0, size 0x38
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1f8, size 0x38
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x230, size 0x38
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x268, size 0x38
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x2a0, size 0x38
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x2d8, size 0x38
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x310, size 0x38
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x348, size 0x38
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x380, size 0x38
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x3b8, size 0x38
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x3f0, size 0x38
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x428, size 0x38
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x460, size 0x38
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x498, size 0x8
         int:5 prevscoreindex;
         // offset 0x4a0, size 0x38
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x4d8, size 0x38
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x510, size 0x38
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x548, size 0x38
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x580, size 0x8c0
         prevscores_s prevscores[10];
         // offset 0xe40, size 0x38
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 13 members 7 size 0xe0
@@ -36624,13 +36624,13 @@ version 74 {
     // idx 15 members 1 size 0x460
     struct groupstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 16 members 4 size 0x468
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x460, size 0x1
         bool purchased;
         // offset 0x461, size 0x1
@@ -36640,13 +36640,13 @@ version 74 {
     };
 
     // idx 17 members 1 size 0x460
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 18 members 5 size 0x188
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -36662,7 +36662,7 @@ version 74 {
     // idx 19 members 3 size 0x2a8
     struct hash_24a4216e08f40838 {
         // offset 0x0, size 0x2a0
-        hash_6b3db80d498eb06 stats[hash_74cb2e59ab0174ea];
+        intstat_s stats[hash_74cb2e59ab0174ea];
         // offset 0x2a0, size 0x6
         bool hash_2d7ffd234fc689c6[6];
         // offset 0x2a6, size 0x2
@@ -36670,31 +36670,31 @@ version 74 {
     };
 
     // idx 20 members 1 size 0x1
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 21 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 22 members 4 size 0x748
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x400
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x400, size 0x80
-        hash_2d74f509e9d33a86 materials[128];
+        emblemlayer_s materials[128];
         // offset 0x480, size 0x2bc
-        hash_18562676c03c7954 backgrounds[700];
+        emblemicon_s backgrounds[700];
         // offset 0x73c, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
     };
 
     // idx 23 members 1 size 0x28
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
     };
@@ -36712,7 +36712,7 @@ version 74 {
     };
 
     // idx 25 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -36758,7 +36758,7 @@ version 74 {
         // offset 0x40, size 0x20
         float skill;
         // offset 0x60, size 0x80
-        hash_d42e412b1c8b06b hash_c66430efac57d2e;
+        hash_d42e412b1c8b06b invitationalstats;
         // offset 0xe0, size 0x20
         float variance;
         // offset 0x100, size 0x20
@@ -36778,7 +36778,7 @@ version 74 {
     };
 
     // idx 29 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -36824,11 +36824,11 @@ version 74 {
     };
 
     // idx 0 members 996
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         medal_frag_multikill, // 0x0,
         stats_deployable_cover_shutdown, // 0x1,
         stats_kill_flag_carrier, // 0x2,
-        hash_8df5a0637f62bc, // 0x3,
+        melee_sword_gold, // 0x3,
         hash_103be234630de92, // 0x4,
         stats_spawn_beacon_multikill_x2_summary, // 0x5,
         kill_close_deadsilence_awareness, // 0x6,
@@ -36844,7 +36844,7 @@ version 74 {
         medal_war_captured_zone, // 0x10,
         hash_23838c459efa4e1, // 0x11,
         defused_bomb_last_man_alive, // 0x12,
-        hash_279a3033ada8e39, // 0x13,
+        shotgun_energy_gold, // 0x13,
         destroy_car, // 0x14,
         stats_concussion_grenade_multikill_x2_summary, // 0x15,
         hash_2b222f6f7b6e9a2, // 0x16,
@@ -36858,7 +36858,7 @@ version 74 {
         films_shoutcasted, // 0x1e,
         hash_38df99a8f3b37d3, // 0x1f,
         medal_flag_capture, // 0x20,
-        hash_3bba76aa8987218, // 0x21,
+        kill_enemy_revealed_by_sensor, // 0x21,
         time_played_total, // 0x22,
         stats_defused_bomb, // 0x23,
         stats_kill_enemy_who_has_high_score, // 0x24,
@@ -36878,7 +36878,7 @@ version 74 {
         hash_6e8daf20aea29c7, // 0x32,
         stats_kill_enemy_injuring_teammate, // 0x33,
         perk_protection_stun_kills, // 0x34,
-        hash_74a188ece706d6e, // 0x35,
+        pistol_energy_gold, // 0x35,
         stats_cluster_semtex_stick, // 0x36,
         stats_clear_2_attackers, // 0x37,
         stats_cluster_semtex_kill, // 0x38,
@@ -36889,9 +36889,9 @@ version 74 {
         hash_87899862a43291d, // 0x3d,
         rankxp, // 0x3e,
         stats_traversal_kill, // 0x3f,
-        hash_8bf7096b44b766d, // 0x40,
+        melee_knuckles_gold, // 0x40,
         stats_attack_dog_x2_multikill_summary, // 0x41,
-        hash_8e80b2704d1cd9d, // 0x42,
+        sniper_quickscope_gold, // 0x42,
         stats_bounty_hunter_revived_teammate, // 0x43,
         stats_care_package_killjoy, // 0x44,
         medal_destroyed_microwave_turret, // 0x45,
@@ -36904,16 +36904,16 @@ version 74 {
         stats_tempest_x2_multikill_summary, // 0x4c,
         kills_after_reload_fastreload, // 0x4d,
         stats_seeker_shock_mine_paralyzed_enemy, // 0x4e,
-        hash_a35eb7542985769, // 0x4f,
+        stats_lightning_strike_killjoy, // 0x4f,
         kill_flashed_enemy, // 0x50,
         medal_destroyed_combat_robot, // 0x51,
         medal_kill_ball_carrier, // 0x52,
         medal_attack_dog_x2_multikill_summary, // 0x53,
         hash_b2a61bb3e204aab, // 0x54,
-        hash_b2eb4e274b8a01a, // 0x55,
+        medal_claymore_kill, // 0x55,
         hash_bfd840a2f49403b, // 0x56,
         medal_armblades_multikill, // 0x57,
-        hash_c7fef39814f4ea2, // 0x58,
+        launcher_multi_gold, // 0x58,
         stats_cluster_semtex_multikill_x2_summary, // 0x59,
         perk_quieter_kills, // 0x5a,
         medal_flag_carrier_kill_return_close, // 0x5b,
@@ -36940,7 +36940,7 @@ version 74 {
         stats_killstreak_25, // 0x70,
         stats_killstreak_30, // 0x71,
         sessionbans, // 0x72,
-        hash_d73110a583bac76, // 0x73,
+        kill_while_sliding, // 0x73,
         stats_deployable_cover_assist, // 0x74,
         hash_d7e9794042ddd5b, // 0x75,
         hash_dbfa1eef8facdaf, // 0x76,
@@ -36962,7 +36962,7 @@ version 74 {
         medal_swat_team_killjoy, // 0x86,
         medal_tempest_shutdown, // 0x87,
         currencyspent, // 0x88,
-        hash_1088f52fd4c0f507, // 0x89,
+        melee_crowbar_gold, // 0x89,
         emblem_version, // 0x8a,
         hash_10e13d570e79a1fc, // 0x8b,
         medal_kill_enemy_that_is_using_optic_camo, // 0x8c,
@@ -36978,7 +36978,7 @@ version 74 {
         medal_kill_enemy_with_more_ammo_oic, // 0x96,
         medal_completed_match, // 0x97,
         contracts_completed, // 0x98,
-        hash_12b047c1d9b2b2ea, // 0x99,
+        medal_mini_turret_kill, // 0x99,
         hash_12b15f63a95c35c2, // 0x9a,
         medal_destroyed_rolling_thunder, // 0x9b,
         medal_destroyed_supply_drop, // 0x9c,
@@ -37000,10 +37000,10 @@ version 74 {
         medal_killed_armblades_enemy, // 0xac,
         medal_gelgun_multikill, // 0xad,
         medal_destroyed_heli_comlink, // 0xae,
-        hash_14e8602c3df4b95d, // 0xaf,
+        sniper_quickscope_for_diamond, // 0xaf,
         mastery_lethals, // 0xb0,
         hash_154b0a4b01b8b616, // 0xb1,
-        hash_154be84bb5ecdb36, // 0xb2,
+        melee_wrench_for_diamond, // 0xb2,
         hash_1556fdc0a0bf81b1, // 0xb3,
         stats_destructions, // 0xb4,
         hash_156adf3fdb4091b7, // 0xb5,
@@ -37014,12 +37014,12 @@ version 74 {
         kill_stun_lethal, // 0xba,
         kills_counteruav_emp_hardline, // 0xbb,
         stats_annihilator_kill, // 0xbc,
-        hash_170b944d44b69f0d, // 0xbd,
+        melee_knuckles_for_diamond, // 0xbd,
         hash_1715d388ed114bcd, // 0xbe,
         hash_174beaaa686374bd, // 0xbf,
         stats_seeker_destroy, // 0xc0,
         kill_with_resupplied_lethal_grenade, // 0xc1,
-        hash_17a7743e0825687f, // 0xc2,
+        medal_forward_spawn_deactivated, // 0xc2,
         medal_lightninggun_kill, // 0xc3,
         stats_overwatch_helicopter_killjoy, // 0xc4,
         medal_ball_capture_assist, // 0xc5,
@@ -37043,23 +37043,23 @@ version 74 {
         medal_multikill_8, // 0xd7,
         medal_destroyed_dart, // 0xd8,
         medal_microwave_turret_kill, // 0xd9,
-        hash_19c4d864da056bc4, // 0xda,
+        medal_killed_paralyzed_enemy, // 0xda,
         suicides, // 0xdb,
         stats_radiation_field_kill, // 0xdc,
         medal_swat_team_kill, // 0xdd,
-        hash_1a46868379836aa4, // 0xde,
-        hash_1a760513a4d7f063, // 0xdf,
+        pistol_energy_for_diamond, // 0xde,
+        stats_kill_enemy_grenade_throwback, // 0xdf,
         medal_kill_enemy_who_is_speedbursting, // 0xe0,
         stats_completed_match, // 0xe1,
         timewhennexthost, // 0xe2,
         medal_destroyed_mini_turret, // 0xe3,
         medal_x2_score_shrp, // 0xe4,
         support_killstreak_mastery, // 0xe5,
-        hash_1b18c55e5bfab97d, // 0xe6,
+        destroy_combat_robot, // 0xe6,
         killed_dog, // 0xe7,
         kills_ads_stock_and_cpu, // 0xe8,
         kill_near_plant_engineer_hardwired, // 0xe9,
-        hash_1b5a22bbb1c029a2, // 0xea,
+        hasprestiged, // 0xea,
         medal_kill_underwater_enemy_explosive, // 0xeb,
         hash_1bb99705ba9a0e6c, // 0xec,
         hash_1bc0e2d787ec3594, // 0xed,
@@ -37124,7 +37124,7 @@ version 74 {
         escorts, // 0x128,
         hash_24f2182389a7edd0, // 0x129,
         stats_purifier_kill, // 0x12a,
-        hash_252738c01a5f5a35, // 0x12b,
+        medal_cover_kill, // 0x12b,
         hash_257e02b9fc52278b, // 0x12c,
         medal_kill_enemy_who_has_powerarmor, // 0x12d,
         killstreak_10_no_weapons_perks, // 0x12e,
@@ -37191,8 +37191,8 @@ version 74 {
         hack_enemy_target, // 0x16b,
         kill_detect_tracker, // 0x16c,
         kills_sprinting_dual_wield_and_gung_ho, // 0x16d,
-        hash_2c1c02ad575604ce, // 0x16e,
-        hash_2c48ce608bf4441e, // 0x16f,
+        pistol_shotgun_gold, // 0x16e,
+        melee_sword_for_diamond, // 0x16f,
         hash_2c4ee1b3a4f8cec3, // 0x170,
         medal_traversal_kill, // 0x171,
         medal_teammate_confirm_kill, // 0x172,
@@ -37215,7 +37215,7 @@ version 74 {
         medal_electrified, // 0x183,
         time_played_axis, // 0x184,
         pickups, // 0x185,
-        hash_2fca7627f5274fc4, // 0x186,
+        mastery_hero_weapon, // 0x186,
         medal_multiple_grenade_launcher_kill, // 0x187,
         medal_killed_enemy_while_carrying_flag, // 0x188,
         killed_dog_close_to_teammate, // 0x189,
@@ -37266,11 +37266,11 @@ version 74 {
         hash_358f1258d5231e43, // 0x1b6,
         medal_dart_kill, // 0x1b7,
         hash_365c607d9ecd3467, // 0x1b8,
-        hash_366bc13f4a44473c, // 0x1b9,
+        melee_butterfly_for_diamond, // 0x1b9,
         stats_hellstorm_missile_kill, // 0x1ba,
         destroy_turret, // 0x1bb,
         medal_armblades_multikill_2, // 0x1bc,
-        hash_3762770b322ac7fb, // 0x1bd,
+        kill_while_wallrunning, // 0x1bd,
         hash_37e875290614f1e1, // 0x1be,
         stats_seeker_shock_mine_multikill_x2_summary, // 0x1bf,
         medal_kill_enemy_with_their_hero_ability, // 0x1c0,
@@ -37284,7 +37284,7 @@ version 74 {
         stats_kill_enemy_with_care_package_crush, // 0x1c8,
         stats_radiation_field_assist, // 0x1c9,
         medal_overwatch_helicopter_kill, // 0x1ca,
-        hash_3acdc3a7d9b291b2, // 0x1cb,
+        medal_blade_kill, // 0x1cb,
         medal_kill_enemy_with_hacked_care_package, // 0x1cc,
         medal_end_enemy_psychosis, // 0x1cd,
         hash_3b9d5d597636c45c, // 0x1ce,
@@ -37320,15 +37320,15 @@ version 74 {
         hash_3f61444b89ca338f, // 0x1ec,
         medal_end_enemy_specialist_weapon, // 0x1ed,
         kill_after_resupply, // 0x1ee,
-        hash_3fdb9703c01d938c, // 0x1ef,
+        kill_while_in_air, // 0x1ef,
         medal_annihilator_x2_multikill_summary, // 0x1f0,
         medal_vision_pulse_shutdown, // 0x1f1,
         kill_enemy_through_wall, // 0x1f2,
-        hash_40230751d494a0f0, // 0x1f3,
+        launcher_multi_for_diamond, // 0x1f3,
         wlratio, // 0x1f4,
         hash_405015b29793595f, // 0x1f5,
         stats_radiation_field_shutdown, // 0x1f6,
-        hash_405fb5031abc8b78, // 0x1f7,
+        medal_trophy_defense, // 0x1f7,
         medal_plane_mortar_kill, // 0x1f8,
         diamond_club, // 0x1f9,
         teamkills_nostats, // 0x1fa,
@@ -37372,13 +37372,13 @@ version 74 {
         hash_457be5a3937a1a34, // 0x220,
         smg_mp40_gold, // 0x221,
         stats_sensor_dart_kill, // 0x222,
-        hash_462bd7640c4c4539, // 0x223,
+        medal_dirty_bomb_kill, // 0x223,
         medal_kill_x2_score_shrp, // 0x224,
         precision_master, // 0x225,
         kill_trip_mine_shocked, // 0x226,
         medal_mesh_mine_multikill_x2_summary, // 0x227,
         stats_multikill_more_than_7, // 0x228,
-        hash_46948dab3cbccc37, // 0x229,
+        stats_multikill_more_than_8, // 0x229,
         stats_mesh_mine_destroy, // 0x22a,
         stats_kill_enemy_when_injured, // 0x22b,
         hash_470c0ed4799f236a, // 0x22c,
@@ -37391,14 +37391,14 @@ version 74 {
         weapons_mastery_smg, // 0x233,
         stats_battle_shield_x2_multikill_summary, // 0x234,
         destroy_equipment_with_emp_engineer, // 0x235,
-        hash_47d0940ca9aaa556, // 0x236,
+        melee_bat_gold, // 0x236,
         medal_lightninggun_multikill, // 0x237,
         weapons_mastery_sniper, // 0x238,
         kill_sixthsense_awareness, // 0x239,
         medal_heatwave_kill, // 0x23a,
         hash_489c4d5299215099, // 0x23b,
         medal_pineapple_multikill, // 0x23c,
-        hash_48bd5b5a03a6abd2, // 0x23d,
+        bowie_knife_gold, // 0x23d,
         medal_kill_enemy_while_sliding, // 0x23e,
         medal_end_enemy_gravity_spike_attack, // 0x23f,
         stats_kill_confirmed_multi, // 0x240,
@@ -37418,7 +37418,7 @@ version 74 {
         destroy_helicopter, // 0x24e,
         kills_hipfire_rapidfire_lasersights_fasthands, // 0x24f,
         stats_deployable_cover_x2_multikill_summary, // 0x250,
-        hash_4b484cffef2ed86e, // 0x251,
+        medal_concussion_kill, // 0x251,
         hash_4b6eca29e69997c3, // 0x252,
         kill_tracker_sixthsense, // 0x253,
         contracts_purchased, // 0x254,
@@ -37430,7 +37430,7 @@ version 74 {
         hash_4ccc35efbeabec11, // 0x25a,
         medal_annihilator_kill, // 0x25b,
         medal_destroyed_cover, // 0x25c,
-        hash_4db43fdd0b45e605, // 0x25d,
+        medal_end_enemy_using_radiation_field, // 0x25d,
         destroy_scorestreak_rapidfire_fmj, // 0x25e,
         medal_molotov_kill, // 0x25f,
         master_humiliation, // 0x260,
@@ -37442,7 +37442,7 @@ version 74 {
         hash_4e7e0be202417ba8, // 0x266,
         medal_molotov_multikill_x2_summary, // 0x267,
         medal_kill_enemy_that_pulsed_you, // 0x268,
-        hash_4ec60c87df92edd7, // 0x269,
+        ar_garand_gold, // 0x269,
         hero_transmissions, // 0x26a,
         assist_score_emp, // 0x26b,
         hash_4ed745a0ed607a71, // 0x26c,
@@ -37457,18 +37457,18 @@ version 74 {
         lmg_mastery, // 0x275,
         stats_tank_robot_kill, // 0x276,
         stats_war_machine_shutdown, // 0x277,
-        hash_505cdac7594d9abe, // 0x278,
+        double_kill_defenders, // 0x278,
         losses, // 0x279,
         mastery_killer, // 0x27a,
         medal_vision_pulse_kill, // 0x27b,
         weapons_mastery, // 0x27c,
-        hash_50ea1ffd1a046630, // 0x27d,
+        medal_golden_ammo_multikill_2, // 0x27d,
         medal_kill_enemy_injuring_teammate, // 0x27e,
         stats_gravity_slam_multikill_x2, // 0x27f,
         medal_killed_flamethrower_enemy, // 0x280,
         medal_hacked, // 0x281,
         stats_rcxd_kill, // 0x282,
-        hash_52216fbbf9cd709f, // 0x283,
+        medal_end_enemy_using_blade, // 0x283,
         stats_vision_pulse_x2_multikill_summary, // 0x284,
         destructions, // 0x285,
         hash_52abffb28461993b, // 0x286,
@@ -37494,7 +37494,7 @@ version 74 {
         hasclantag, // 0x29a,
         medal_attack_dog_shutdown, // 0x29b,
         career_score_hc, // 0x29c,
-        hash_55b7abcaf7749b7c, // 0x29d,
+        melee_bat_for_diamond, // 0x29d,
         hash_55fec19a7934aaad, // 0x29e,
         destroy_equipment_with_emp_grenade, // 0x29f,
         deaths, // 0x2a0,
@@ -37597,10 +37597,10 @@ version 74 {
         stats_multikill_4, // 0x301,
         stats_multikill_3, // 0x302,
         stats_multikill_2, // 0x303,
-        hash_636e55d7c212033d, // 0x304,
+        stats_multikill_8, // 0x304,
         kill_enemy_that_blinded_you, // 0x305,
         multikill_3_lmg_or_smg_hip_fire, // 0x306,
-        hash_63d44d80ba7a84f4, // 0x307,
+        medal_tripwire_kill, // 0x307,
         hash_641f1646d7fea519, // 0x308,
         hash_64941a7011c17b39, // 0x309,
         hash_64c0bac013acc9f6, // 0x30a,
@@ -37618,11 +37618,11 @@ version 74 {
         mastery_wildcards, // 0x316,
         medal_first_kill, // 0x317,
         medal_destroyed_helicopter_agr_drop, // 0x318,
-        hash_65f463ce38d57812, // 0x319,
+        kill_concussed_enemy, // 0x319,
         field_specialist, // 0x31a,
         stats_radiation_field_multikill_x2_summary, // 0x31b,
         medal_minigun_kill, // 0x31c,
-        hash_6699452a0d7e8d40, // 0x31d,
+        bowie_knife_for_diamond, // 0x31d,
         medal_escort_robot_disable_near_goal, // 0x31e,
         kill_awareness, // 0x31f,
         wins_hc, // 0x320,
@@ -37635,19 +37635,19 @@ version 74 {
         multikill_3_near_death, // 0x327,
         kill_with_controlled_ai_tank, // 0x328,
         medal_assisted_suicide, // 0x329,
-        hash_676d3f9503f1513e, // 0x32a,
-        hash_678688fdd62207e0, // 0x32b,
+        specialist_transmissions, // 0x32a,
+        medal_mounted_kill, // 0x32b,
         destroy_aircraft_with_missile_drone, // 0x32c,
         plants, // 0x32d,
         medal_bowlauncher_multikill, // 0x32e,
         secondary_mastery, // 0x32f,
         medal_rcxd_killjoy, // 0x330,
-        hash_687fa00201834b84, // 0x331,
+        secondary_mastery_launcher, // 0x331,
         stats_kill_enemy_while_flashed_slowed_stunned, // 0x332,
-        hash_68c7a6344742c316, // 0x333,
+        melee_butterfly_gold, // 0x333,
         perk_immune_cuav_kills, // 0x334,
-        hash_690e2ef893be1ea9, // 0x335,
-        hash_692aae796a47da04, // 0x336,
+        medal_lightning_strike_killjoy, // 0x335,
+        melee_wrench_gold, // 0x336,
         medal_eliminate_sd, // 0x337,
         medal_remote_missile_kill, // 0x338,
         kill_while_underwater, // 0x339,
@@ -37667,7 +37667,7 @@ version 74 {
         kill_blindeye_ghost_aircraft, // 0x347,
         mastery_career, // 0x348,
         perk_movefaster_kills, // 0x349,
-        hash_6bbcfc2328216bf9, // 0x34a,
+        stats_dirty_bomb_kill, // 0x34a,
         medal_koth_secure, // 0x34b,
         defend_carrier, // 0x34c,
         hash_6c141d9a54256ab9, // 0x34d,
@@ -37711,9 +37711,9 @@ version 74 {
         stats_seeker_shock_mine_paralyze_assist, // 0x373,
         kill_fasthands_gungho_sprint, // 0x374,
         stats_position_secure, // 0x375,
-        hash_70c946465753e031, // 0x376,
+        shotgun_energy_for_diamond, // 0x376,
         medal_cuav_killjoy, // 0x377,
-        hash_71c1da13637fd3fb, // 0x378,
+        melee_crowbar_for_diamond, // 0x378,
         stats_kill_enemy_one_bullet, // 0x379,
         medal_radiation_field_multikill_x2_summary, // 0x37a,
         hash_72752a9adfaa2b00, // 0x37b,
@@ -37725,16 +37725,16 @@ version 74 {
         medal_kill_enemies_one_bullet, // 0x381,
         kill_specialist_with_specialist, // 0x382,
         hits, // 0x383,
-        hash_7347e683426cd120, // 0x384,
+        most_kills_least_deaths, // 0x384,
         stats_frag_multikill_x2_summary, // 0x385,
         multikill_3_with_heroability, // 0x386,
         hash_73d187ebf36663a3, // 0x387,
         stats_vision_pulse_kill, // 0x388,
         medal_annihilator_shutdown, // 0x389,
         medal_end_enemy_armblades_attack, // 0x38a,
-        hash_745148d95feec927, // 0x38b,
+        mastery_perk_1, // 0x38b,
         mastery_perk_2, // 0x38c,
-        hash_74514ad95feecc8d, // 0x38d,
+        mastery_perk_3, // 0x38d,
         medal_gravity_slam_multikill_x2, // 0x38e,
         stats_flag_capture, // 0x38f,
         stats_concertina_wire_multikill_x2_summary, // 0x390,
@@ -37752,14 +37752,14 @@ version 74 {
         hash_75ded7920072bbd6, // 0x39c,
         medal_kill_enemy_while_capping_dom, // 0x39d,
         multikill_3_with_mgl, // 0x39e,
-        hash_7723ab7cbc5265fc, // 0x39f,
+        hero_weapon_mastery, // 0x39f,
         medal_killstreak_15, // 0x3a0,
         medal_killstreak_10, // 0x3a1,
         medal_killstreak_20, // 0x3a2,
         medal_killstreak_25, // 0x3a3,
         medal_killstreak_30, // 0x3a4,
         stats_kill_enemy_after_switching_weapons, // 0x3a5,
-        hash_77a300646e7362fe, // 0x3a6,
+        double_kill_attackers, // 0x3a6,
         medal_tank_robot_kill, // 0x3a7,
         stats_longshot_kill, // 0x3a8,
         stats_attack_chopper_kill, // 0x3a9,
@@ -37775,7 +37775,7 @@ version 74 {
         accuracy, // 0x3b3,
         medal_kill_enemy_who_is_using_focus, // 0x3b4,
         hash_78de1d6f9571a31c, // 0x3b5,
-        hash_794996196e74a949, // 0x3b6,
+        monthly_timestamp, // 0x3b6,
         stats_bounty_hunter_melee_downed_enemy, // 0x3b7,
         kill_enemy_with_fists, // 0x3b8,
         score_multiteam, // 0x3b9,
@@ -37917,7 +37917,7 @@ version 74 {
     };
 
     // idx 7 members 20
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -37941,7 +37941,7 @@ version 74 {
     };
 
     // idx 8 members 23
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -38089,13 +38089,13 @@ version 74 {
     // offset 0x11b00, size 0x80
     byte extrabytes[16];
     // offset 0x11b80, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x14bd0, size 0xf500
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x240d0, size 0xc0
     short arenachallengeseasons[12];
     // offset 0x24190, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x241b0, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x241d0, size 0x20
@@ -38103,7 +38103,7 @@ version 74 {
     // offset 0x241f0, size 0xc0
     uint:24 higheststats[higheststats_e];
     // offset 0x242b0, size 0x18800
-    hash_1608f63ae729eda5 weaponstats[256];
+    weaponstat_s weaponstats[256];
     // offset 0x3cab0, size 0x100
     hash_78ac7dfcd6939c25 emblembreadcrumbs[hash_5d3fe1ad289b65a7];
     // offset 0x3cbb0, size 0x20
@@ -38131,7 +38131,7 @@ version 74 {
     // offset 0x3fe78, size 0x190
     byte statshash[50];
     // offset 0x40008, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x41188, size 0x290
     arenastats_s arenaperseasonstats;
     // offset 0x41418, size 0x200
@@ -38141,9 +38141,9 @@ version 74 {
     // offset 0x41638, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x41678, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x41698, size 0x27ca0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[mpgametypes];
+    gametypestats_s playerstatsbygametype[mpgametypes];
     // offset 0x69338, size 0x100
     byte demonwareflags[32];
     // offset 0x69438, size 0x20
@@ -38151,17 +38151,17 @@ version 74 {
     // offset 0x69458, size 0x20
     int unlocktokencount_attachment;
     // offset 0x69478, size 0x580
-    float hash_2363e7e74077b1c0[mpgametypes];
+    float gt_skill_rating[mpgametypes];
     // offset 0x699f8, size 0x20
     uint uploadbandwidth;
     // offset 0x69a18, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x69b58, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x69c18, size 0x20
     int motdviewtime;
     // offset 0x69c38, size 0x64a0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x700d8, size 0xc0
     hash_6d7a1373d79780a5 match_participation_history;
     // offset 0x70198, size 0x400
@@ -38169,13 +38169,13 @@ version 74 {
     // offset 0x70598, size 0x8
     uint:3 onboardingstate;
     // offset 0x705a0, size 0xd9e0
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x7df80, size 0x28
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x7dfa8, size 0x20
     float skill_variance;
     // offset 0x7dfc8, size 0x580
-    float hash_3a7324ad328f0e2e[mpgametypes];
+    float gt_skill_variance[mpgametypes];
     // offset 0x7e548, size 0x8
     fixed<8,7> hash_6a927decba86a3c3;
     // offset 0x7e550, size 0x1b8
@@ -38183,7 +38183,7 @@ version 74 {
     // offset 0x7e708, size 0x100
     byte unlocks[32];
     // offset 0x7e808, size 0x748
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x7ef50, size 0x46800
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0xc5750, size 0x1710
@@ -38191,7 +38191,7 @@ version 74 {
     // offset 0xc6e60, size 0x30
     string(6) validationevent;
     // offset 0xc6e90, size 0x100
-    string(32) hash_7d19b83705dea420;
+    string(32) arenabestplaylist;
     // offset 0xc6f90, size 0x10
     bool extrabools[16];
     // offset 0xc6fa0, size 0x1
@@ -38205,9 +38205,9 @@ version 74 {
     // offset 0xc6fc3, size 0x40
     bool doublexpgroups[64];
     // offset 0xc7003, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc7004, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc7005, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xc7006, size 0x1
@@ -38230,7 +38230,7 @@ version 73 {
     };
 
     // idx 2 members 4 size 0x38
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -38354,7 +38354,7 @@ version 73 {
     };
 
     // idx 9 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -38380,9 +38380,9 @@ version 73 {
     };
 
     // idx 10 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -38390,7 +38390,7 @@ version 73 {
     };
 
     // idx 11 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -38400,63 +38400,63 @@ version 73 {
     };
 
     // idx 12 members 28 size 0xe78
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x38
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x38, size 0x38
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x70, size 0x38
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0xa8, size 0x38
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xe0, size 0x38
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0x118, size 0x38
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x150, size 0x38
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x188, size 0x38
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x1c0, size 0x38
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1f8, size 0x38
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x230, size 0x38
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x268, size 0x38
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x2a0, size 0x38
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x2d8, size 0x38
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x310, size 0x38
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x348, size 0x38
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x380, size 0x38
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x3b8, size 0x38
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x3f0, size 0x38
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x428, size 0x38
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x460, size 0x38
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x498, size 0x8
         int:5 prevscoreindex;
         // offset 0x4a0, size 0x38
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x4d8, size 0x38
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x510, size 0x38
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x548, size 0x38
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x580, size 0x8c0
         prevscores_s prevscores[10];
         // offset 0xe40, size 0x38
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 13 members 7 size 0xe0
@@ -38486,13 +38486,13 @@ version 73 {
     // idx 15 members 1 size 0x460
     struct groupstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 16 members 4 size 0x468
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x460, size 0x1
         bool purchased;
         // offset 0x461, size 0x1
@@ -38502,13 +38502,13 @@ version 73 {
     };
 
     // idx 17 members 1 size 0x460
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 18 members 5 size 0x188
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -38524,7 +38524,7 @@ version 73 {
     // idx 19 members 3 size 0x2a8
     struct hash_24a4216e08f40838 {
         // offset 0x0, size 0x2a0
-        hash_6b3db80d498eb06 stats[hash_74cb2e59ab0174ea];
+        intstat_s stats[hash_74cb2e59ab0174ea];
         // offset 0x2a0, size 0x6
         bool hash_2d7ffd234fc689c6[6];
         // offset 0x2a6, size 0x2
@@ -38532,31 +38532,31 @@ version 73 {
     };
 
     // idx 20 members 1 size 0x1
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 21 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 22 members 4 size 0x748
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x400
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x400, size 0x80
-        hash_2d74f509e9d33a86 materials[128];
+        emblemlayer_s materials[128];
         // offset 0x480, size 0x2bc
-        hash_18562676c03c7954 backgrounds[700];
+        emblemicon_s backgrounds[700];
         // offset 0x73c, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
     };
 
     // idx 23 members 1 size 0x28
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
     };
@@ -38574,7 +38574,7 @@ version 73 {
     };
 
     // idx 25 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -38620,7 +38620,7 @@ version 73 {
         // offset 0x40, size 0x20
         float skill;
         // offset 0x60, size 0x80
-        hash_d42e412b1c8b06b hash_c66430efac57d2e;
+        hash_d42e412b1c8b06b invitationalstats;
         // offset 0xe0, size 0x20
         float variance;
         // offset 0x100, size 0x20
@@ -38640,7 +38640,7 @@ version 73 {
     };
 
     // idx 29 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -38686,11 +38686,11 @@ version 73 {
     };
 
     // idx 0 members 996
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         medal_frag_multikill, // 0x0,
         stats_deployable_cover_shutdown, // 0x1,
         stats_kill_flag_carrier, // 0x2,
-        hash_8df5a0637f62bc, // 0x3,
+        melee_sword_gold, // 0x3,
         hash_103be234630de92, // 0x4,
         stats_spawn_beacon_multikill_x2_summary, // 0x5,
         kill_close_deadsilence_awareness, // 0x6,
@@ -38706,7 +38706,7 @@ version 73 {
         medal_war_captured_zone, // 0x10,
         hash_23838c459efa4e1, // 0x11,
         defused_bomb_last_man_alive, // 0x12,
-        hash_279a3033ada8e39, // 0x13,
+        shotgun_energy_gold, // 0x13,
         destroy_car, // 0x14,
         stats_concussion_grenade_multikill_x2_summary, // 0x15,
         hash_2b222f6f7b6e9a2, // 0x16,
@@ -38720,7 +38720,7 @@ version 73 {
         films_shoutcasted, // 0x1e,
         hash_38df99a8f3b37d3, // 0x1f,
         medal_flag_capture, // 0x20,
-        hash_3bba76aa8987218, // 0x21,
+        kill_enemy_revealed_by_sensor, // 0x21,
         time_played_total, // 0x22,
         stats_defused_bomb, // 0x23,
         stats_kill_enemy_who_has_high_score, // 0x24,
@@ -38740,7 +38740,7 @@ version 73 {
         hash_6e8daf20aea29c7, // 0x32,
         stats_kill_enemy_injuring_teammate, // 0x33,
         perk_protection_stun_kills, // 0x34,
-        hash_74a188ece706d6e, // 0x35,
+        pistol_energy_gold, // 0x35,
         stats_cluster_semtex_stick, // 0x36,
         stats_clear_2_attackers, // 0x37,
         stats_cluster_semtex_kill, // 0x38,
@@ -38751,9 +38751,9 @@ version 73 {
         hash_87899862a43291d, // 0x3d,
         rankxp, // 0x3e,
         stats_traversal_kill, // 0x3f,
-        hash_8bf7096b44b766d, // 0x40,
+        melee_knuckles_gold, // 0x40,
         stats_attack_dog_x2_multikill_summary, // 0x41,
-        hash_8e80b2704d1cd9d, // 0x42,
+        sniper_quickscope_gold, // 0x42,
         stats_bounty_hunter_revived_teammate, // 0x43,
         stats_care_package_killjoy, // 0x44,
         medal_destroyed_microwave_turret, // 0x45,
@@ -38766,16 +38766,16 @@ version 73 {
         stats_tempest_x2_multikill_summary, // 0x4c,
         kills_after_reload_fastreload, // 0x4d,
         stats_seeker_shock_mine_paralyzed_enemy, // 0x4e,
-        hash_a35eb7542985769, // 0x4f,
+        stats_lightning_strike_killjoy, // 0x4f,
         kill_flashed_enemy, // 0x50,
         medal_destroyed_combat_robot, // 0x51,
         medal_kill_ball_carrier, // 0x52,
         medal_attack_dog_x2_multikill_summary, // 0x53,
         hash_b2a61bb3e204aab, // 0x54,
-        hash_b2eb4e274b8a01a, // 0x55,
+        medal_claymore_kill, // 0x55,
         hash_bfd840a2f49403b, // 0x56,
         medal_armblades_multikill, // 0x57,
-        hash_c7fef39814f4ea2, // 0x58,
+        launcher_multi_gold, // 0x58,
         stats_cluster_semtex_multikill_x2_summary, // 0x59,
         perk_quieter_kills, // 0x5a,
         medal_flag_carrier_kill_return_close, // 0x5b,
@@ -38802,7 +38802,7 @@ version 73 {
         stats_killstreak_25, // 0x70,
         stats_killstreak_30, // 0x71,
         sessionbans, // 0x72,
-        hash_d73110a583bac76, // 0x73,
+        kill_while_sliding, // 0x73,
         stats_deployable_cover_assist, // 0x74,
         hash_d7e9794042ddd5b, // 0x75,
         hash_dbfa1eef8facdaf, // 0x76,
@@ -38824,7 +38824,7 @@ version 73 {
         medal_swat_team_killjoy, // 0x86,
         medal_tempest_shutdown, // 0x87,
         currencyspent, // 0x88,
-        hash_1088f52fd4c0f507, // 0x89,
+        melee_crowbar_gold, // 0x89,
         emblem_version, // 0x8a,
         hash_10e13d570e79a1fc, // 0x8b,
         medal_kill_enemy_that_is_using_optic_camo, // 0x8c,
@@ -38840,7 +38840,7 @@ version 73 {
         medal_kill_enemy_with_more_ammo_oic, // 0x96,
         medal_completed_match, // 0x97,
         contracts_completed, // 0x98,
-        hash_12b047c1d9b2b2ea, // 0x99,
+        medal_mini_turret_kill, // 0x99,
         hash_12b15f63a95c35c2, // 0x9a,
         medal_destroyed_rolling_thunder, // 0x9b,
         medal_destroyed_supply_drop, // 0x9c,
@@ -38862,10 +38862,10 @@ version 73 {
         medal_killed_armblades_enemy, // 0xac,
         medal_gelgun_multikill, // 0xad,
         medal_destroyed_heli_comlink, // 0xae,
-        hash_14e8602c3df4b95d, // 0xaf,
+        sniper_quickscope_for_diamond, // 0xaf,
         mastery_lethals, // 0xb0,
         hash_154b0a4b01b8b616, // 0xb1,
-        hash_154be84bb5ecdb36, // 0xb2,
+        melee_wrench_for_diamond, // 0xb2,
         hash_1556fdc0a0bf81b1, // 0xb3,
         stats_destructions, // 0xb4,
         hash_156adf3fdb4091b7, // 0xb5,
@@ -38876,12 +38876,12 @@ version 73 {
         kill_stun_lethal, // 0xba,
         kills_counteruav_emp_hardline, // 0xbb,
         stats_annihilator_kill, // 0xbc,
-        hash_170b944d44b69f0d, // 0xbd,
+        melee_knuckles_for_diamond, // 0xbd,
         hash_1715d388ed114bcd, // 0xbe,
         hash_174beaaa686374bd, // 0xbf,
         stats_seeker_destroy, // 0xc0,
         kill_with_resupplied_lethal_grenade, // 0xc1,
-        hash_17a7743e0825687f, // 0xc2,
+        medal_forward_spawn_deactivated, // 0xc2,
         medal_lightninggun_kill, // 0xc3,
         stats_overwatch_helicopter_killjoy, // 0xc4,
         medal_ball_capture_assist, // 0xc5,
@@ -38905,23 +38905,23 @@ version 73 {
         medal_multikill_8, // 0xd7,
         medal_destroyed_dart, // 0xd8,
         medal_microwave_turret_kill, // 0xd9,
-        hash_19c4d864da056bc4, // 0xda,
+        medal_killed_paralyzed_enemy, // 0xda,
         suicides, // 0xdb,
         stats_radiation_field_kill, // 0xdc,
         medal_swat_team_kill, // 0xdd,
-        hash_1a46868379836aa4, // 0xde,
-        hash_1a760513a4d7f063, // 0xdf,
+        pistol_energy_for_diamond, // 0xde,
+        stats_kill_enemy_grenade_throwback, // 0xdf,
         medal_kill_enemy_who_is_speedbursting, // 0xe0,
         stats_completed_match, // 0xe1,
         timewhennexthost, // 0xe2,
         medal_destroyed_mini_turret, // 0xe3,
         medal_x2_score_shrp, // 0xe4,
         support_killstreak_mastery, // 0xe5,
-        hash_1b18c55e5bfab97d, // 0xe6,
+        destroy_combat_robot, // 0xe6,
         killed_dog, // 0xe7,
         kills_ads_stock_and_cpu, // 0xe8,
         kill_near_plant_engineer_hardwired, // 0xe9,
-        hash_1b5a22bbb1c029a2, // 0xea,
+        hasprestiged, // 0xea,
         medal_kill_underwater_enemy_explosive, // 0xeb,
         hash_1bb99705ba9a0e6c, // 0xec,
         hash_1bc0e2d787ec3594, // 0xed,
@@ -38986,7 +38986,7 @@ version 73 {
         escorts, // 0x128,
         hash_24f2182389a7edd0, // 0x129,
         stats_purifier_kill, // 0x12a,
-        hash_252738c01a5f5a35, // 0x12b,
+        medal_cover_kill, // 0x12b,
         hash_257e02b9fc52278b, // 0x12c,
         medal_kill_enemy_who_has_powerarmor, // 0x12d,
         killstreak_10_no_weapons_perks, // 0x12e,
@@ -39053,8 +39053,8 @@ version 73 {
         hack_enemy_target, // 0x16b,
         kill_detect_tracker, // 0x16c,
         kills_sprinting_dual_wield_and_gung_ho, // 0x16d,
-        hash_2c1c02ad575604ce, // 0x16e,
-        hash_2c48ce608bf4441e, // 0x16f,
+        pistol_shotgun_gold, // 0x16e,
+        melee_sword_for_diamond, // 0x16f,
         hash_2c4ee1b3a4f8cec3, // 0x170,
         medal_traversal_kill, // 0x171,
         medal_teammate_confirm_kill, // 0x172,
@@ -39077,7 +39077,7 @@ version 73 {
         medal_electrified, // 0x183,
         time_played_axis, // 0x184,
         pickups, // 0x185,
-        hash_2fca7627f5274fc4, // 0x186,
+        mastery_hero_weapon, // 0x186,
         medal_multiple_grenade_launcher_kill, // 0x187,
         medal_killed_enemy_while_carrying_flag, // 0x188,
         killed_dog_close_to_teammate, // 0x189,
@@ -39128,11 +39128,11 @@ version 73 {
         hash_358f1258d5231e43, // 0x1b6,
         medal_dart_kill, // 0x1b7,
         hash_365c607d9ecd3467, // 0x1b8,
-        hash_366bc13f4a44473c, // 0x1b9,
+        melee_butterfly_for_diamond, // 0x1b9,
         stats_hellstorm_missile_kill, // 0x1ba,
         destroy_turret, // 0x1bb,
         medal_armblades_multikill_2, // 0x1bc,
-        hash_3762770b322ac7fb, // 0x1bd,
+        kill_while_wallrunning, // 0x1bd,
         hash_37e875290614f1e1, // 0x1be,
         stats_seeker_shock_mine_multikill_x2_summary, // 0x1bf,
         medal_kill_enemy_with_their_hero_ability, // 0x1c0,
@@ -39146,7 +39146,7 @@ version 73 {
         stats_kill_enemy_with_care_package_crush, // 0x1c8,
         stats_radiation_field_assist, // 0x1c9,
         medal_overwatch_helicopter_kill, // 0x1ca,
-        hash_3acdc3a7d9b291b2, // 0x1cb,
+        medal_blade_kill, // 0x1cb,
         medal_kill_enemy_with_hacked_care_package, // 0x1cc,
         medal_end_enemy_psychosis, // 0x1cd,
         hash_3b9d5d597636c45c, // 0x1ce,
@@ -39182,15 +39182,15 @@ version 73 {
         hash_3f61444b89ca338f, // 0x1ec,
         medal_end_enemy_specialist_weapon, // 0x1ed,
         kill_after_resupply, // 0x1ee,
-        hash_3fdb9703c01d938c, // 0x1ef,
+        kill_while_in_air, // 0x1ef,
         medal_annihilator_x2_multikill_summary, // 0x1f0,
         medal_vision_pulse_shutdown, // 0x1f1,
         kill_enemy_through_wall, // 0x1f2,
-        hash_40230751d494a0f0, // 0x1f3,
+        launcher_multi_for_diamond, // 0x1f3,
         wlratio, // 0x1f4,
         hash_405015b29793595f, // 0x1f5,
         stats_radiation_field_shutdown, // 0x1f6,
-        hash_405fb5031abc8b78, // 0x1f7,
+        medal_trophy_defense, // 0x1f7,
         medal_plane_mortar_kill, // 0x1f8,
         diamond_club, // 0x1f9,
         teamkills_nostats, // 0x1fa,
@@ -39234,13 +39234,13 @@ version 73 {
         hash_457be5a3937a1a34, // 0x220,
         smg_mp40_gold, // 0x221,
         stats_sensor_dart_kill, // 0x222,
-        hash_462bd7640c4c4539, // 0x223,
+        medal_dirty_bomb_kill, // 0x223,
         medal_kill_x2_score_shrp, // 0x224,
         precision_master, // 0x225,
         kill_trip_mine_shocked, // 0x226,
         medal_mesh_mine_multikill_x2_summary, // 0x227,
         stats_multikill_more_than_7, // 0x228,
-        hash_46948dab3cbccc37, // 0x229,
+        stats_multikill_more_than_8, // 0x229,
         stats_mesh_mine_destroy, // 0x22a,
         stats_kill_enemy_when_injured, // 0x22b,
         hash_470c0ed4799f236a, // 0x22c,
@@ -39253,14 +39253,14 @@ version 73 {
         weapons_mastery_smg, // 0x233,
         stats_battle_shield_x2_multikill_summary, // 0x234,
         destroy_equipment_with_emp_engineer, // 0x235,
-        hash_47d0940ca9aaa556, // 0x236,
+        melee_bat_gold, // 0x236,
         medal_lightninggun_multikill, // 0x237,
         weapons_mastery_sniper, // 0x238,
         kill_sixthsense_awareness, // 0x239,
         medal_heatwave_kill, // 0x23a,
         hash_489c4d5299215099, // 0x23b,
         medal_pineapple_multikill, // 0x23c,
-        hash_48bd5b5a03a6abd2, // 0x23d,
+        bowie_knife_gold, // 0x23d,
         medal_kill_enemy_while_sliding, // 0x23e,
         medal_end_enemy_gravity_spike_attack, // 0x23f,
         stats_kill_confirmed_multi, // 0x240,
@@ -39280,7 +39280,7 @@ version 73 {
         destroy_helicopter, // 0x24e,
         kills_hipfire_rapidfire_lasersights_fasthands, // 0x24f,
         stats_deployable_cover_x2_multikill_summary, // 0x250,
-        hash_4b484cffef2ed86e, // 0x251,
+        medal_concussion_kill, // 0x251,
         hash_4b6eca29e69997c3, // 0x252,
         kill_tracker_sixthsense, // 0x253,
         contracts_purchased, // 0x254,
@@ -39292,7 +39292,7 @@ version 73 {
         hash_4ccc35efbeabec11, // 0x25a,
         medal_annihilator_kill, // 0x25b,
         medal_destroyed_cover, // 0x25c,
-        hash_4db43fdd0b45e605, // 0x25d,
+        medal_end_enemy_using_radiation_field, // 0x25d,
         destroy_scorestreak_rapidfire_fmj, // 0x25e,
         medal_molotov_kill, // 0x25f,
         master_humiliation, // 0x260,
@@ -39304,7 +39304,7 @@ version 73 {
         hash_4e7e0be202417ba8, // 0x266,
         medal_molotov_multikill_x2_summary, // 0x267,
         medal_kill_enemy_that_pulsed_you, // 0x268,
-        hash_4ec60c87df92edd7, // 0x269,
+        ar_garand_gold, // 0x269,
         hero_transmissions, // 0x26a,
         assist_score_emp, // 0x26b,
         hash_4ed745a0ed607a71, // 0x26c,
@@ -39319,18 +39319,18 @@ version 73 {
         lmg_mastery, // 0x275,
         stats_tank_robot_kill, // 0x276,
         stats_war_machine_shutdown, // 0x277,
-        hash_505cdac7594d9abe, // 0x278,
+        double_kill_defenders, // 0x278,
         losses, // 0x279,
         mastery_killer, // 0x27a,
         medal_vision_pulse_kill, // 0x27b,
         weapons_mastery, // 0x27c,
-        hash_50ea1ffd1a046630, // 0x27d,
+        medal_golden_ammo_multikill_2, // 0x27d,
         medal_kill_enemy_injuring_teammate, // 0x27e,
         stats_gravity_slam_multikill_x2, // 0x27f,
         medal_killed_flamethrower_enemy, // 0x280,
         medal_hacked, // 0x281,
         stats_rcxd_kill, // 0x282,
-        hash_52216fbbf9cd709f, // 0x283,
+        medal_end_enemy_using_blade, // 0x283,
         stats_vision_pulse_x2_multikill_summary, // 0x284,
         destructions, // 0x285,
         hash_52abffb28461993b, // 0x286,
@@ -39356,7 +39356,7 @@ version 73 {
         hasclantag, // 0x29a,
         medal_attack_dog_shutdown, // 0x29b,
         career_score_hc, // 0x29c,
-        hash_55b7abcaf7749b7c, // 0x29d,
+        melee_bat_for_diamond, // 0x29d,
         hash_55fec19a7934aaad, // 0x29e,
         destroy_equipment_with_emp_grenade, // 0x29f,
         deaths, // 0x2a0,
@@ -39459,10 +39459,10 @@ version 73 {
         stats_multikill_4, // 0x301,
         stats_multikill_3, // 0x302,
         stats_multikill_2, // 0x303,
-        hash_636e55d7c212033d, // 0x304,
+        stats_multikill_8, // 0x304,
         kill_enemy_that_blinded_you, // 0x305,
         multikill_3_lmg_or_smg_hip_fire, // 0x306,
-        hash_63d44d80ba7a84f4, // 0x307,
+        medal_tripwire_kill, // 0x307,
         hash_641f1646d7fea519, // 0x308,
         hash_64941a7011c17b39, // 0x309,
         hash_64c0bac013acc9f6, // 0x30a,
@@ -39480,11 +39480,11 @@ version 73 {
         mastery_wildcards, // 0x316,
         medal_first_kill, // 0x317,
         medal_destroyed_helicopter_agr_drop, // 0x318,
-        hash_65f463ce38d57812, // 0x319,
+        kill_concussed_enemy, // 0x319,
         field_specialist, // 0x31a,
         stats_radiation_field_multikill_x2_summary, // 0x31b,
         medal_minigun_kill, // 0x31c,
-        hash_6699452a0d7e8d40, // 0x31d,
+        bowie_knife_for_diamond, // 0x31d,
         medal_escort_robot_disable_near_goal, // 0x31e,
         kill_awareness, // 0x31f,
         wins_hc, // 0x320,
@@ -39497,19 +39497,19 @@ version 73 {
         multikill_3_near_death, // 0x327,
         kill_with_controlled_ai_tank, // 0x328,
         medal_assisted_suicide, // 0x329,
-        hash_676d3f9503f1513e, // 0x32a,
-        hash_678688fdd62207e0, // 0x32b,
+        specialist_transmissions, // 0x32a,
+        medal_mounted_kill, // 0x32b,
         destroy_aircraft_with_missile_drone, // 0x32c,
         plants, // 0x32d,
         medal_bowlauncher_multikill, // 0x32e,
         secondary_mastery, // 0x32f,
         medal_rcxd_killjoy, // 0x330,
-        hash_687fa00201834b84, // 0x331,
+        secondary_mastery_launcher, // 0x331,
         stats_kill_enemy_while_flashed_slowed_stunned, // 0x332,
-        hash_68c7a6344742c316, // 0x333,
+        melee_butterfly_gold, // 0x333,
         perk_immune_cuav_kills, // 0x334,
-        hash_690e2ef893be1ea9, // 0x335,
-        hash_692aae796a47da04, // 0x336,
+        medal_lightning_strike_killjoy, // 0x335,
+        melee_wrench_gold, // 0x336,
         medal_eliminate_sd, // 0x337,
         medal_remote_missile_kill, // 0x338,
         kill_while_underwater, // 0x339,
@@ -39529,7 +39529,7 @@ version 73 {
         kill_blindeye_ghost_aircraft, // 0x347,
         mastery_career, // 0x348,
         perk_movefaster_kills, // 0x349,
-        hash_6bbcfc2328216bf9, // 0x34a,
+        stats_dirty_bomb_kill, // 0x34a,
         medal_koth_secure, // 0x34b,
         defend_carrier, // 0x34c,
         hash_6c141d9a54256ab9, // 0x34d,
@@ -39573,9 +39573,9 @@ version 73 {
         stats_seeker_shock_mine_paralyze_assist, // 0x373,
         kill_fasthands_gungho_sprint, // 0x374,
         stats_position_secure, // 0x375,
-        hash_70c946465753e031, // 0x376,
+        shotgun_energy_for_diamond, // 0x376,
         medal_cuav_killjoy, // 0x377,
-        hash_71c1da13637fd3fb, // 0x378,
+        melee_crowbar_for_diamond, // 0x378,
         stats_kill_enemy_one_bullet, // 0x379,
         medal_radiation_field_multikill_x2_summary, // 0x37a,
         hash_72752a9adfaa2b00, // 0x37b,
@@ -39587,16 +39587,16 @@ version 73 {
         medal_kill_enemies_one_bullet, // 0x381,
         kill_specialist_with_specialist, // 0x382,
         hits, // 0x383,
-        hash_7347e683426cd120, // 0x384,
+        most_kills_least_deaths, // 0x384,
         stats_frag_multikill_x2_summary, // 0x385,
         multikill_3_with_heroability, // 0x386,
         hash_73d187ebf36663a3, // 0x387,
         stats_vision_pulse_kill, // 0x388,
         medal_annihilator_shutdown, // 0x389,
         medal_end_enemy_armblades_attack, // 0x38a,
-        hash_745148d95feec927, // 0x38b,
+        mastery_perk_1, // 0x38b,
         mastery_perk_2, // 0x38c,
-        hash_74514ad95feecc8d, // 0x38d,
+        mastery_perk_3, // 0x38d,
         medal_gravity_slam_multikill_x2, // 0x38e,
         stats_flag_capture, // 0x38f,
         stats_concertina_wire_multikill_x2_summary, // 0x390,
@@ -39614,14 +39614,14 @@ version 73 {
         hash_75ded7920072bbd6, // 0x39c,
         medal_kill_enemy_while_capping_dom, // 0x39d,
         multikill_3_with_mgl, // 0x39e,
-        hash_7723ab7cbc5265fc, // 0x39f,
+        hero_weapon_mastery, // 0x39f,
         medal_killstreak_15, // 0x3a0,
         medal_killstreak_10, // 0x3a1,
         medal_killstreak_20, // 0x3a2,
         medal_killstreak_25, // 0x3a3,
         medal_killstreak_30, // 0x3a4,
         stats_kill_enemy_after_switching_weapons, // 0x3a5,
-        hash_77a300646e7362fe, // 0x3a6,
+        double_kill_attackers, // 0x3a6,
         medal_tank_robot_kill, // 0x3a7,
         stats_longshot_kill, // 0x3a8,
         stats_attack_chopper_kill, // 0x3a9,
@@ -39637,7 +39637,7 @@ version 73 {
         accuracy, // 0x3b3,
         medal_kill_enemy_who_is_using_focus, // 0x3b4,
         hash_78de1d6f9571a31c, // 0x3b5,
-        hash_794996196e74a949, // 0x3b6,
+        monthly_timestamp, // 0x3b6,
         stats_bounty_hunter_melee_downed_enemy, // 0x3b7,
         kill_enemy_with_fists, // 0x3b8,
         score_multiteam, // 0x3b9,
@@ -39779,7 +39779,7 @@ version 73 {
     };
 
     // idx 7 members 20
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -39803,7 +39803,7 @@ version 73 {
     };
 
     // idx 8 members 23
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -39951,13 +39951,13 @@ version 73 {
     // offset 0x11b00, size 0x80
     byte extrabytes[16];
     // offset 0x11b80, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x14bd0, size 0xf500
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x240d0, size 0xc0
     short arenachallengeseasons[12];
     // offset 0x24190, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x241b0, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x241d0, size 0x20
@@ -39965,7 +39965,7 @@ version 73 {
     // offset 0x241f0, size 0xc0
     uint:24 higheststats[higheststats_e];
     // offset 0x242b0, size 0x18800
-    hash_1608f63ae729eda5 weaponstats[256];
+    weaponstat_s weaponstats[256];
     // offset 0x3cab0, size 0x100
     hash_78ac7dfcd6939c25 emblembreadcrumbs[hash_5d3fe1ad289b65a7];
     // offset 0x3cbb0, size 0x20
@@ -39995,7 +39995,7 @@ version 73 {
     // offset 0x3feb8, size 0x190
     byte statshash[50];
     // offset 0x40048, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x411c8, size 0x290
     arenastats_s arenaperseasonstats;
     // offset 0x41458, size 0x200
@@ -40005,9 +40005,9 @@ version 73 {
     // offset 0x41678, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x416b8, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x416d8, size 0x27ca0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[mpgametypes];
+    gametypestats_s playerstatsbygametype[mpgametypes];
     // offset 0x69378, size 0x100
     byte demonwareflags[32];
     // offset 0x69478, size 0x20
@@ -40015,29 +40015,29 @@ version 73 {
     // offset 0x69498, size 0x20
     int unlocktokencount_attachment;
     // offset 0x694b8, size 0x580
-    float hash_2363e7e74077b1c0[mpgametypes];
+    float gt_skill_rating[mpgametypes];
     // offset 0x69a38, size 0x20
     uint uploadbandwidth;
     // offset 0x69a58, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x69b98, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x69c58, size 0x20
     int motdviewtime;
     // offset 0x69c78, size 0x64a0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x70118, size 0x400
     uint64 gamebookmarks[16];
     // offset 0x70518, size 0x8
     uint:3 onboardingstate;
     // offset 0x70520, size 0xd9e0
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x7df00, size 0x28
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x7df28, size 0x20
     float skill_variance;
     // offset 0x7df48, size 0x580
-    float hash_3a7324ad328f0e2e[mpgametypes];
+    float gt_skill_variance[mpgametypes];
     // offset 0x7e4c8, size 0x8
     fixed<8,7> hash_6a927decba86a3c3;
     // offset 0x7e4d0, size 0x1b8
@@ -40045,7 +40045,7 @@ version 73 {
     // offset 0x7e688, size 0x100
     byte unlocks[32];
     // offset 0x7e788, size 0x748
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x7eed0, size 0x46800
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0xc56d0, size 0x1710
@@ -40053,7 +40053,7 @@ version 73 {
     // offset 0xc6de0, size 0x30
     string(6) validationevent;
     // offset 0xc6e10, size 0x100
-    string(32) hash_7d19b83705dea420;
+    string(32) arenabestplaylist;
     // offset 0xc6f10, size 0x10
     bool extrabools[16];
     // offset 0xc6f20, size 0x1
@@ -40067,9 +40067,9 @@ version 73 {
     // offset 0xc6f43, size 0x40
     bool doublexpgroups[64];
     // offset 0xc6f83, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc6f84, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc6f85, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xc6f86, size 0x1
@@ -40084,7 +40084,7 @@ version 73 {
 
 version 72 {
     // idx 1 members 4 size 0x38
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -40208,7 +40208,7 @@ version 72 {
     };
 
     // idx 8 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -40234,9 +40234,9 @@ version 72 {
     };
 
     // idx 9 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -40244,7 +40244,7 @@ version 72 {
     };
 
     // idx 10 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -40254,63 +40254,63 @@ version 72 {
     };
 
     // idx 11 members 28 size 0xe78
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x38
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x38, size 0x38
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x70, size 0x38
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0xa8, size 0x38
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xe0, size 0x38
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0x118, size 0x38
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x150, size 0x38
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x188, size 0x38
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x1c0, size 0x38
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1f8, size 0x38
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x230, size 0x38
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x268, size 0x38
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x2a0, size 0x38
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x2d8, size 0x38
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x310, size 0x38
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x348, size 0x38
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x380, size 0x38
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x3b8, size 0x38
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x3f0, size 0x38
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x428, size 0x38
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x460, size 0x38
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x498, size 0x8
         int:5 prevscoreindex;
         // offset 0x4a0, size 0x38
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x4d8, size 0x38
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x510, size 0x38
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x548, size 0x38
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x580, size 0x8c0
         prevscores_s prevscores[10];
         // offset 0xe40, size 0x38
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 12 members 7 size 0xe0
@@ -40340,13 +40340,13 @@ version 72 {
     // idx 14 members 1 size 0x460
     struct groupstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 15 members 4 size 0x468
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x460, size 0x1
         bool purchased;
         // offset 0x461, size 0x1
@@ -40356,13 +40356,13 @@ version 72 {
     };
 
     // idx 16 members 1 size 0x460
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 17 members 5 size 0x188
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -40378,7 +40378,7 @@ version 72 {
     // idx 18 members 3 size 0x2a8
     struct hash_24a4216e08f40838 {
         // offset 0x0, size 0x2a0
-        hash_6b3db80d498eb06 stats[hash_74cb2e59ab0174ea];
+        intstat_s stats[hash_74cb2e59ab0174ea];
         // offset 0x2a0, size 0x6
         bool hash_2d7ffd234fc689c6[6];
         // offset 0x2a6, size 0x2
@@ -40386,31 +40386,31 @@ version 72 {
     };
 
     // idx 19 members 1 size 0x1
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 20 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 21 members 4 size 0x748
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x400
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x400, size 0x80
-        hash_2d74f509e9d33a86 materials[128];
+        emblemlayer_s materials[128];
         // offset 0x480, size 0x2bc
-        hash_18562676c03c7954 backgrounds[700];
+        emblemicon_s backgrounds[700];
         // offset 0x73c, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
     };
 
     // idx 22 members 1 size 0x28
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
     };
@@ -40428,7 +40428,7 @@ version 72 {
     };
 
     // idx 24 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -40474,7 +40474,7 @@ version 72 {
         // offset 0x40, size 0x20
         float skill;
         // offset 0x60, size 0x80
-        hash_d42e412b1c8b06b hash_c66430efac57d2e;
+        hash_d42e412b1c8b06b invitationalstats;
         // offset 0xe0, size 0x20
         float variance;
         // offset 0x100, size 0x20
@@ -40494,7 +40494,7 @@ version 72 {
     };
 
     // idx 28 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -40540,11 +40540,11 @@ version 72 {
     };
 
     // idx 0 members 996
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         medal_frag_multikill, // 0x0,
         stats_deployable_cover_shutdown, // 0x1,
         stats_kill_flag_carrier, // 0x2,
-        hash_8df5a0637f62bc, // 0x3,
+        melee_sword_gold, // 0x3,
         hash_103be234630de92, // 0x4,
         stats_spawn_beacon_multikill_x2_summary, // 0x5,
         kill_close_deadsilence_awareness, // 0x6,
@@ -40560,7 +40560,7 @@ version 72 {
         medal_war_captured_zone, // 0x10,
         hash_23838c459efa4e1, // 0x11,
         defused_bomb_last_man_alive, // 0x12,
-        hash_279a3033ada8e39, // 0x13,
+        shotgun_energy_gold, // 0x13,
         destroy_car, // 0x14,
         stats_concussion_grenade_multikill_x2_summary, // 0x15,
         hash_2b222f6f7b6e9a2, // 0x16,
@@ -40574,7 +40574,7 @@ version 72 {
         films_shoutcasted, // 0x1e,
         hash_38df99a8f3b37d3, // 0x1f,
         medal_flag_capture, // 0x20,
-        hash_3bba76aa8987218, // 0x21,
+        kill_enemy_revealed_by_sensor, // 0x21,
         time_played_total, // 0x22,
         stats_defused_bomb, // 0x23,
         stats_kill_enemy_who_has_high_score, // 0x24,
@@ -40594,7 +40594,7 @@ version 72 {
         hash_6e8daf20aea29c7, // 0x32,
         stats_kill_enemy_injuring_teammate, // 0x33,
         perk_protection_stun_kills, // 0x34,
-        hash_74a188ece706d6e, // 0x35,
+        pistol_energy_gold, // 0x35,
         stats_cluster_semtex_stick, // 0x36,
         stats_clear_2_attackers, // 0x37,
         stats_cluster_semtex_kill, // 0x38,
@@ -40605,9 +40605,9 @@ version 72 {
         hash_87899862a43291d, // 0x3d,
         rankxp, // 0x3e,
         stats_traversal_kill, // 0x3f,
-        hash_8bf7096b44b766d, // 0x40,
+        melee_knuckles_gold, // 0x40,
         stats_attack_dog_x2_multikill_summary, // 0x41,
-        hash_8e80b2704d1cd9d, // 0x42,
+        sniper_quickscope_gold, // 0x42,
         stats_bounty_hunter_revived_teammate, // 0x43,
         stats_care_package_killjoy, // 0x44,
         medal_destroyed_microwave_turret, // 0x45,
@@ -40620,16 +40620,16 @@ version 72 {
         stats_tempest_x2_multikill_summary, // 0x4c,
         kills_after_reload_fastreload, // 0x4d,
         stats_seeker_shock_mine_paralyzed_enemy, // 0x4e,
-        hash_a35eb7542985769, // 0x4f,
+        stats_lightning_strike_killjoy, // 0x4f,
         kill_flashed_enemy, // 0x50,
         medal_destroyed_combat_robot, // 0x51,
         medal_kill_ball_carrier, // 0x52,
         medal_attack_dog_x2_multikill_summary, // 0x53,
         hash_b2a61bb3e204aab, // 0x54,
-        hash_b2eb4e274b8a01a, // 0x55,
+        medal_claymore_kill, // 0x55,
         hash_bfd840a2f49403b, // 0x56,
         medal_armblades_multikill, // 0x57,
-        hash_c7fef39814f4ea2, // 0x58,
+        launcher_multi_gold, // 0x58,
         stats_cluster_semtex_multikill_x2_summary, // 0x59,
         perk_quieter_kills, // 0x5a,
         medal_flag_carrier_kill_return_close, // 0x5b,
@@ -40656,7 +40656,7 @@ version 72 {
         stats_killstreak_25, // 0x70,
         stats_killstreak_30, // 0x71,
         sessionbans, // 0x72,
-        hash_d73110a583bac76, // 0x73,
+        kill_while_sliding, // 0x73,
         stats_deployable_cover_assist, // 0x74,
         hash_d7e9794042ddd5b, // 0x75,
         hash_dbfa1eef8facdaf, // 0x76,
@@ -40678,7 +40678,7 @@ version 72 {
         medal_swat_team_killjoy, // 0x86,
         medal_tempest_shutdown, // 0x87,
         currencyspent, // 0x88,
-        hash_1088f52fd4c0f507, // 0x89,
+        melee_crowbar_gold, // 0x89,
         emblem_version, // 0x8a,
         hash_10e13d570e79a1fc, // 0x8b,
         medal_kill_enemy_that_is_using_optic_camo, // 0x8c,
@@ -40694,7 +40694,7 @@ version 72 {
         medal_kill_enemy_with_more_ammo_oic, // 0x96,
         medal_completed_match, // 0x97,
         contracts_completed, // 0x98,
-        hash_12b047c1d9b2b2ea, // 0x99,
+        medal_mini_turret_kill, // 0x99,
         hash_12b15f63a95c35c2, // 0x9a,
         medal_destroyed_rolling_thunder, // 0x9b,
         medal_destroyed_supply_drop, // 0x9c,
@@ -40716,10 +40716,10 @@ version 72 {
         medal_killed_armblades_enemy, // 0xac,
         medal_gelgun_multikill, // 0xad,
         medal_destroyed_heli_comlink, // 0xae,
-        hash_14e8602c3df4b95d, // 0xaf,
+        sniper_quickscope_for_diamond, // 0xaf,
         mastery_lethals, // 0xb0,
         hash_154b0a4b01b8b616, // 0xb1,
-        hash_154be84bb5ecdb36, // 0xb2,
+        melee_wrench_for_diamond, // 0xb2,
         hash_1556fdc0a0bf81b1, // 0xb3,
         stats_destructions, // 0xb4,
         hash_156adf3fdb4091b7, // 0xb5,
@@ -40730,12 +40730,12 @@ version 72 {
         kill_stun_lethal, // 0xba,
         kills_counteruav_emp_hardline, // 0xbb,
         stats_annihilator_kill, // 0xbc,
-        hash_170b944d44b69f0d, // 0xbd,
+        melee_knuckles_for_diamond, // 0xbd,
         hash_1715d388ed114bcd, // 0xbe,
         hash_174beaaa686374bd, // 0xbf,
         stats_seeker_destroy, // 0xc0,
         kill_with_resupplied_lethal_grenade, // 0xc1,
-        hash_17a7743e0825687f, // 0xc2,
+        medal_forward_spawn_deactivated, // 0xc2,
         medal_lightninggun_kill, // 0xc3,
         stats_overwatch_helicopter_killjoy, // 0xc4,
         medal_ball_capture_assist, // 0xc5,
@@ -40759,23 +40759,23 @@ version 72 {
         medal_multikill_8, // 0xd7,
         medal_destroyed_dart, // 0xd8,
         medal_microwave_turret_kill, // 0xd9,
-        hash_19c4d864da056bc4, // 0xda,
+        medal_killed_paralyzed_enemy, // 0xda,
         suicides, // 0xdb,
         stats_radiation_field_kill, // 0xdc,
         medal_swat_team_kill, // 0xdd,
-        hash_1a46868379836aa4, // 0xde,
-        hash_1a760513a4d7f063, // 0xdf,
+        pistol_energy_for_diamond, // 0xde,
+        stats_kill_enemy_grenade_throwback, // 0xdf,
         medal_kill_enemy_who_is_speedbursting, // 0xe0,
         stats_completed_match, // 0xe1,
         timewhennexthost, // 0xe2,
         medal_destroyed_mini_turret, // 0xe3,
         medal_x2_score_shrp, // 0xe4,
         support_killstreak_mastery, // 0xe5,
-        hash_1b18c55e5bfab97d, // 0xe6,
+        destroy_combat_robot, // 0xe6,
         killed_dog, // 0xe7,
         kills_ads_stock_and_cpu, // 0xe8,
         kill_near_plant_engineer_hardwired, // 0xe9,
-        hash_1b5a22bbb1c029a2, // 0xea,
+        hasprestiged, // 0xea,
         medal_kill_underwater_enemy_explosive, // 0xeb,
         hash_1bb99705ba9a0e6c, // 0xec,
         hash_1bc0e2d787ec3594, // 0xed,
@@ -40840,7 +40840,7 @@ version 72 {
         escorts, // 0x128,
         hash_24f2182389a7edd0, // 0x129,
         stats_purifier_kill, // 0x12a,
-        hash_252738c01a5f5a35, // 0x12b,
+        medal_cover_kill, // 0x12b,
         hash_257e02b9fc52278b, // 0x12c,
         medal_kill_enemy_who_has_powerarmor, // 0x12d,
         killstreak_10_no_weapons_perks, // 0x12e,
@@ -40907,8 +40907,8 @@ version 72 {
         hack_enemy_target, // 0x16b,
         kill_detect_tracker, // 0x16c,
         kills_sprinting_dual_wield_and_gung_ho, // 0x16d,
-        hash_2c1c02ad575604ce, // 0x16e,
-        hash_2c48ce608bf4441e, // 0x16f,
+        pistol_shotgun_gold, // 0x16e,
+        melee_sword_for_diamond, // 0x16f,
         hash_2c4ee1b3a4f8cec3, // 0x170,
         medal_traversal_kill, // 0x171,
         medal_teammate_confirm_kill, // 0x172,
@@ -40931,7 +40931,7 @@ version 72 {
         medal_electrified, // 0x183,
         time_played_axis, // 0x184,
         pickups, // 0x185,
-        hash_2fca7627f5274fc4, // 0x186,
+        mastery_hero_weapon, // 0x186,
         medal_multiple_grenade_launcher_kill, // 0x187,
         medal_killed_enemy_while_carrying_flag, // 0x188,
         killed_dog_close_to_teammate, // 0x189,
@@ -40982,11 +40982,11 @@ version 72 {
         hash_358f1258d5231e43, // 0x1b6,
         medal_dart_kill, // 0x1b7,
         hash_365c607d9ecd3467, // 0x1b8,
-        hash_366bc13f4a44473c, // 0x1b9,
+        melee_butterfly_for_diamond, // 0x1b9,
         stats_hellstorm_missile_kill, // 0x1ba,
         destroy_turret, // 0x1bb,
         medal_armblades_multikill_2, // 0x1bc,
-        hash_3762770b322ac7fb, // 0x1bd,
+        kill_while_wallrunning, // 0x1bd,
         hash_37e875290614f1e1, // 0x1be,
         stats_seeker_shock_mine_multikill_x2_summary, // 0x1bf,
         medal_kill_enemy_with_their_hero_ability, // 0x1c0,
@@ -41000,7 +41000,7 @@ version 72 {
         stats_kill_enemy_with_care_package_crush, // 0x1c8,
         stats_radiation_field_assist, // 0x1c9,
         medal_overwatch_helicopter_kill, // 0x1ca,
-        hash_3acdc3a7d9b291b2, // 0x1cb,
+        medal_blade_kill, // 0x1cb,
         medal_kill_enemy_with_hacked_care_package, // 0x1cc,
         medal_end_enemy_psychosis, // 0x1cd,
         hash_3b9d5d597636c45c, // 0x1ce,
@@ -41036,15 +41036,15 @@ version 72 {
         hash_3f61444b89ca338f, // 0x1ec,
         medal_end_enemy_specialist_weapon, // 0x1ed,
         kill_after_resupply, // 0x1ee,
-        hash_3fdb9703c01d938c, // 0x1ef,
+        kill_while_in_air, // 0x1ef,
         medal_annihilator_x2_multikill_summary, // 0x1f0,
         medal_vision_pulse_shutdown, // 0x1f1,
         kill_enemy_through_wall, // 0x1f2,
-        hash_40230751d494a0f0, // 0x1f3,
+        launcher_multi_for_diamond, // 0x1f3,
         wlratio, // 0x1f4,
         hash_405015b29793595f, // 0x1f5,
         stats_radiation_field_shutdown, // 0x1f6,
-        hash_405fb5031abc8b78, // 0x1f7,
+        medal_trophy_defense, // 0x1f7,
         medal_plane_mortar_kill, // 0x1f8,
         diamond_club, // 0x1f9,
         teamkills_nostats, // 0x1fa,
@@ -41088,13 +41088,13 @@ version 72 {
         hash_457be5a3937a1a34, // 0x220,
         smg_mp40_gold, // 0x221,
         stats_sensor_dart_kill, // 0x222,
-        hash_462bd7640c4c4539, // 0x223,
+        medal_dirty_bomb_kill, // 0x223,
         medal_kill_x2_score_shrp, // 0x224,
         precision_master, // 0x225,
         kill_trip_mine_shocked, // 0x226,
         medal_mesh_mine_multikill_x2_summary, // 0x227,
         stats_multikill_more_than_7, // 0x228,
-        hash_46948dab3cbccc37, // 0x229,
+        stats_multikill_more_than_8, // 0x229,
         stats_mesh_mine_destroy, // 0x22a,
         stats_kill_enemy_when_injured, // 0x22b,
         hash_470c0ed4799f236a, // 0x22c,
@@ -41107,14 +41107,14 @@ version 72 {
         weapons_mastery_smg, // 0x233,
         stats_battle_shield_x2_multikill_summary, // 0x234,
         destroy_equipment_with_emp_engineer, // 0x235,
-        hash_47d0940ca9aaa556, // 0x236,
+        melee_bat_gold, // 0x236,
         medal_lightninggun_multikill, // 0x237,
         weapons_mastery_sniper, // 0x238,
         kill_sixthsense_awareness, // 0x239,
         medal_heatwave_kill, // 0x23a,
         hash_489c4d5299215099, // 0x23b,
         medal_pineapple_multikill, // 0x23c,
-        hash_48bd5b5a03a6abd2, // 0x23d,
+        bowie_knife_gold, // 0x23d,
         medal_kill_enemy_while_sliding, // 0x23e,
         medal_end_enemy_gravity_spike_attack, // 0x23f,
         stats_kill_confirmed_multi, // 0x240,
@@ -41134,7 +41134,7 @@ version 72 {
         destroy_helicopter, // 0x24e,
         kills_hipfire_rapidfire_lasersights_fasthands, // 0x24f,
         stats_deployable_cover_x2_multikill_summary, // 0x250,
-        hash_4b484cffef2ed86e, // 0x251,
+        medal_concussion_kill, // 0x251,
         hash_4b6eca29e69997c3, // 0x252,
         kill_tracker_sixthsense, // 0x253,
         contracts_purchased, // 0x254,
@@ -41146,7 +41146,7 @@ version 72 {
         hash_4ccc35efbeabec11, // 0x25a,
         medal_annihilator_kill, // 0x25b,
         medal_destroyed_cover, // 0x25c,
-        hash_4db43fdd0b45e605, // 0x25d,
+        medal_end_enemy_using_radiation_field, // 0x25d,
         destroy_scorestreak_rapidfire_fmj, // 0x25e,
         medal_molotov_kill, // 0x25f,
         master_humiliation, // 0x260,
@@ -41158,7 +41158,7 @@ version 72 {
         hash_4e7e0be202417ba8, // 0x266,
         medal_molotov_multikill_x2_summary, // 0x267,
         medal_kill_enemy_that_pulsed_you, // 0x268,
-        hash_4ec60c87df92edd7, // 0x269,
+        ar_garand_gold, // 0x269,
         hero_transmissions, // 0x26a,
         assist_score_emp, // 0x26b,
         hash_4ed745a0ed607a71, // 0x26c,
@@ -41173,18 +41173,18 @@ version 72 {
         lmg_mastery, // 0x275,
         stats_tank_robot_kill, // 0x276,
         stats_war_machine_shutdown, // 0x277,
-        hash_505cdac7594d9abe, // 0x278,
+        double_kill_defenders, // 0x278,
         losses, // 0x279,
         mastery_killer, // 0x27a,
         medal_vision_pulse_kill, // 0x27b,
         weapons_mastery, // 0x27c,
-        hash_50ea1ffd1a046630, // 0x27d,
+        medal_golden_ammo_multikill_2, // 0x27d,
         medal_kill_enemy_injuring_teammate, // 0x27e,
         stats_gravity_slam_multikill_x2, // 0x27f,
         medal_killed_flamethrower_enemy, // 0x280,
         medal_hacked, // 0x281,
         stats_rcxd_kill, // 0x282,
-        hash_52216fbbf9cd709f, // 0x283,
+        medal_end_enemy_using_blade, // 0x283,
         stats_vision_pulse_x2_multikill_summary, // 0x284,
         destructions, // 0x285,
         hash_52abffb28461993b, // 0x286,
@@ -41210,7 +41210,7 @@ version 72 {
         hasclantag, // 0x29a,
         medal_attack_dog_shutdown, // 0x29b,
         career_score_hc, // 0x29c,
-        hash_55b7abcaf7749b7c, // 0x29d,
+        melee_bat_for_diamond, // 0x29d,
         hash_55fec19a7934aaad, // 0x29e,
         destroy_equipment_with_emp_grenade, // 0x29f,
         deaths, // 0x2a0,
@@ -41313,10 +41313,10 @@ version 72 {
         stats_multikill_4, // 0x301,
         stats_multikill_3, // 0x302,
         stats_multikill_2, // 0x303,
-        hash_636e55d7c212033d, // 0x304,
+        stats_multikill_8, // 0x304,
         kill_enemy_that_blinded_you, // 0x305,
         multikill_3_lmg_or_smg_hip_fire, // 0x306,
-        hash_63d44d80ba7a84f4, // 0x307,
+        medal_tripwire_kill, // 0x307,
         hash_641f1646d7fea519, // 0x308,
         hash_64941a7011c17b39, // 0x309,
         hash_64c0bac013acc9f6, // 0x30a,
@@ -41334,11 +41334,11 @@ version 72 {
         mastery_wildcards, // 0x316,
         medal_first_kill, // 0x317,
         medal_destroyed_helicopter_agr_drop, // 0x318,
-        hash_65f463ce38d57812, // 0x319,
+        kill_concussed_enemy, // 0x319,
         field_specialist, // 0x31a,
         stats_radiation_field_multikill_x2_summary, // 0x31b,
         medal_minigun_kill, // 0x31c,
-        hash_6699452a0d7e8d40, // 0x31d,
+        bowie_knife_for_diamond, // 0x31d,
         medal_escort_robot_disable_near_goal, // 0x31e,
         kill_awareness, // 0x31f,
         wins_hc, // 0x320,
@@ -41351,19 +41351,19 @@ version 72 {
         multikill_3_near_death, // 0x327,
         kill_with_controlled_ai_tank, // 0x328,
         medal_assisted_suicide, // 0x329,
-        hash_676d3f9503f1513e, // 0x32a,
-        hash_678688fdd62207e0, // 0x32b,
+        specialist_transmissions, // 0x32a,
+        medal_mounted_kill, // 0x32b,
         destroy_aircraft_with_missile_drone, // 0x32c,
         plants, // 0x32d,
         medal_bowlauncher_multikill, // 0x32e,
         secondary_mastery, // 0x32f,
         medal_rcxd_killjoy, // 0x330,
-        hash_687fa00201834b84, // 0x331,
+        secondary_mastery_launcher, // 0x331,
         stats_kill_enemy_while_flashed_slowed_stunned, // 0x332,
-        hash_68c7a6344742c316, // 0x333,
+        melee_butterfly_gold, // 0x333,
         perk_immune_cuav_kills, // 0x334,
-        hash_690e2ef893be1ea9, // 0x335,
-        hash_692aae796a47da04, // 0x336,
+        medal_lightning_strike_killjoy, // 0x335,
+        melee_wrench_gold, // 0x336,
         medal_eliminate_sd, // 0x337,
         medal_remote_missile_kill, // 0x338,
         kill_while_underwater, // 0x339,
@@ -41383,7 +41383,7 @@ version 72 {
         kill_blindeye_ghost_aircraft, // 0x347,
         mastery_career, // 0x348,
         perk_movefaster_kills, // 0x349,
-        hash_6bbcfc2328216bf9, // 0x34a,
+        stats_dirty_bomb_kill, // 0x34a,
         medal_koth_secure, // 0x34b,
         defend_carrier, // 0x34c,
         hash_6c141d9a54256ab9, // 0x34d,
@@ -41427,9 +41427,9 @@ version 72 {
         stats_seeker_shock_mine_paralyze_assist, // 0x373,
         kill_fasthands_gungho_sprint, // 0x374,
         stats_position_secure, // 0x375,
-        hash_70c946465753e031, // 0x376,
+        shotgun_energy_for_diamond, // 0x376,
         medal_cuav_killjoy, // 0x377,
-        hash_71c1da13637fd3fb, // 0x378,
+        melee_crowbar_for_diamond, // 0x378,
         stats_kill_enemy_one_bullet, // 0x379,
         medal_radiation_field_multikill_x2_summary, // 0x37a,
         hash_72752a9adfaa2b00, // 0x37b,
@@ -41441,16 +41441,16 @@ version 72 {
         medal_kill_enemies_one_bullet, // 0x381,
         kill_specialist_with_specialist, // 0x382,
         hits, // 0x383,
-        hash_7347e683426cd120, // 0x384,
+        most_kills_least_deaths, // 0x384,
         stats_frag_multikill_x2_summary, // 0x385,
         multikill_3_with_heroability, // 0x386,
         hash_73d187ebf36663a3, // 0x387,
         stats_vision_pulse_kill, // 0x388,
         medal_annihilator_shutdown, // 0x389,
         medal_end_enemy_armblades_attack, // 0x38a,
-        hash_745148d95feec927, // 0x38b,
+        mastery_perk_1, // 0x38b,
         mastery_perk_2, // 0x38c,
-        hash_74514ad95feecc8d, // 0x38d,
+        mastery_perk_3, // 0x38d,
         medal_gravity_slam_multikill_x2, // 0x38e,
         stats_flag_capture, // 0x38f,
         stats_concertina_wire_multikill_x2_summary, // 0x390,
@@ -41468,14 +41468,14 @@ version 72 {
         hash_75ded7920072bbd6, // 0x39c,
         medal_kill_enemy_while_capping_dom, // 0x39d,
         multikill_3_with_mgl, // 0x39e,
-        hash_7723ab7cbc5265fc, // 0x39f,
+        hero_weapon_mastery, // 0x39f,
         medal_killstreak_15, // 0x3a0,
         medal_killstreak_10, // 0x3a1,
         medal_killstreak_20, // 0x3a2,
         medal_killstreak_25, // 0x3a3,
         medal_killstreak_30, // 0x3a4,
         stats_kill_enemy_after_switching_weapons, // 0x3a5,
-        hash_77a300646e7362fe, // 0x3a6,
+        double_kill_attackers, // 0x3a6,
         medal_tank_robot_kill, // 0x3a7,
         stats_longshot_kill, // 0x3a8,
         stats_attack_chopper_kill, // 0x3a9,
@@ -41491,7 +41491,7 @@ version 72 {
         accuracy, // 0x3b3,
         medal_kill_enemy_who_is_using_focus, // 0x3b4,
         hash_78de1d6f9571a31c, // 0x3b5,
-        hash_794996196e74a949, // 0x3b6,
+        monthly_timestamp, // 0x3b6,
         stats_bounty_hunter_melee_downed_enemy, // 0x3b7,
         kill_enemy_with_fists, // 0x3b8,
         score_multiteam, // 0x3b9,
@@ -41633,7 +41633,7 @@ version 72 {
     };
 
     // idx 7 members 20
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -41657,7 +41657,7 @@ version 72 {
     };
 
     // idx 8 members 23
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -41805,13 +41805,13 @@ version 72 {
     // offset 0x11b00, size 0x80
     byte extrabytes[16];
     // offset 0x11b80, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x14bd0, size 0xf500
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x240d0, size 0xc0
     short arenachallengeseasons[12];
     // offset 0x24190, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x241b0, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x241d0, size 0x20
@@ -41819,7 +41819,7 @@ version 72 {
     // offset 0x241f0, size 0xc0
     uint:24 higheststats[higheststats_e];
     // offset 0x242b0, size 0x18800
-    hash_1608f63ae729eda5 weaponstats[256];
+    weaponstat_s weaponstats[256];
     // offset 0x3cab0, size 0x100
     hash_78ac7dfcd6939c25 emblembreadcrumbs[hash_5d3fe1ad289b65a7];
     // offset 0x3cbb0, size 0x20
@@ -41847,7 +41847,7 @@ version 72 {
     // offset 0x3fe78, size 0x190
     byte statshash[50];
     // offset 0x40008, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x41188, size 0x290
     arenastats_s arenaperseasonstats;
     // offset 0x41418, size 0x200
@@ -41857,9 +41857,9 @@ version 72 {
     // offset 0x41638, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x41678, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x41698, size 0x27ca0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[mpgametypes];
+    gametypestats_s playerstatsbygametype[mpgametypes];
     // offset 0x69338, size 0x100
     byte demonwareflags[32];
     // offset 0x69438, size 0x20
@@ -41867,29 +41867,29 @@ version 72 {
     // offset 0x69458, size 0x20
     int unlocktokencount_attachment;
     // offset 0x69478, size 0x580
-    float hash_2363e7e74077b1c0[mpgametypes];
+    float gt_skill_rating[mpgametypes];
     // offset 0x699f8, size 0x20
     uint uploadbandwidth;
     // offset 0x69a18, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x69b58, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x69c18, size 0x20
     int motdviewtime;
     // offset 0x69c38, size 0x64a0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x700d8, size 0x400
     uint64 gamebookmarks[16];
     // offset 0x704d8, size 0x8
     uint:3 onboardingstate;
     // offset 0x704e0, size 0xd9e0
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x7dec0, size 0x28
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x7dee8, size 0x20
     float skill_variance;
     // offset 0x7df08, size 0x580
-    float hash_3a7324ad328f0e2e[mpgametypes];
+    float gt_skill_variance[mpgametypes];
     // offset 0x7e488, size 0x8
     fixed<8,7> hash_6a927decba86a3c3;
     // offset 0x7e490, size 0x1b8
@@ -41897,7 +41897,7 @@ version 72 {
     // offset 0x7e648, size 0x100
     byte unlocks[32];
     // offset 0x7e748, size 0x748
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x7ee90, size 0x46800
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0xc5690, size 0x1710
@@ -41905,7 +41905,7 @@ version 72 {
     // offset 0xc6da0, size 0x30
     string(6) validationevent;
     // offset 0xc6dd0, size 0x100
-    string(32) hash_7d19b83705dea420;
+    string(32) arenabestplaylist;
     // offset 0xc6ed0, size 0x10
     bool extrabools[16];
     // offset 0xc6ee0, size 0x1
@@ -41919,9 +41919,9 @@ version 72 {
     // offset 0xc6f03, size 0x40
     bool doublexpgroups[64];
     // offset 0xc6f43, size 0x1
-    bool hash_499c6aab0471a4ac;
+    bool betarewardmessageseen;
     // offset 0xc6f44, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc6f45, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xc6f46, size 0x1
@@ -41936,7 +41936,7 @@ version 72 {
 
 version 71 {
     // idx 1 members 4 size 0x38
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -42060,7 +42060,7 @@ version 71 {
     };
 
     // idx 8 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -42086,9 +42086,9 @@ version 71 {
     };
 
     // idx 9 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -42096,7 +42096,7 @@ version 71 {
     };
 
     // idx 10 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -42106,63 +42106,63 @@ version 71 {
     };
 
     // idx 11 members 28 size 0xe78
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x38
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x38, size 0x38
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x70, size 0x38
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0xa8, size 0x38
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xe0, size 0x38
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0x118, size 0x38
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x150, size 0x38
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x188, size 0x38
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x1c0, size 0x38
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1f8, size 0x38
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x230, size 0x38
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x268, size 0x38
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x2a0, size 0x38
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x2d8, size 0x38
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x310, size 0x38
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x348, size 0x38
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x380, size 0x38
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x3b8, size 0x38
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x3f0, size 0x38
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x428, size 0x38
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x460, size 0x38
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x498, size 0x8
         int:5 prevscoreindex;
         // offset 0x4a0, size 0x38
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x4d8, size 0x38
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x510, size 0x38
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x548, size 0x38
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x580, size 0x8c0
         prevscores_s prevscores[10];
         // offset 0xe40, size 0x38
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 12 members 7 size 0xe0
@@ -42192,13 +42192,13 @@ version 71 {
     // idx 14 members 1 size 0x460
     struct groupstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 15 members 4 size 0x468
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x460, size 0x1
         bool purchased;
         // offset 0x461, size 0x1
@@ -42208,13 +42208,13 @@ version 71 {
     };
 
     // idx 16 members 1 size 0x460
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 17 members 5 size 0x188
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -42230,7 +42230,7 @@ version 71 {
     // idx 18 members 3 size 0x2a8
     struct hash_24a4216e08f40838 {
         // offset 0x0, size 0x2a0
-        hash_6b3db80d498eb06 stats[hash_74cb2e59ab0174ea];
+        intstat_s stats[hash_74cb2e59ab0174ea];
         // offset 0x2a0, size 0x6
         bool hash_2d7ffd234fc689c6[6];
         // offset 0x2a6, size 0x2
@@ -42238,31 +42238,31 @@ version 71 {
     };
 
     // idx 19 members 1 size 0x1
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 20 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 21 members 4 size 0x748
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x400
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x400, size 0x80
-        hash_2d74f509e9d33a86 materials[128];
+        emblemlayer_s materials[128];
         // offset 0x480, size 0x2bc
-        hash_18562676c03c7954 backgrounds[700];
+        emblemicon_s backgrounds[700];
         // offset 0x73c, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
     };
 
     // idx 22 members 1 size 0x28
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
     };
@@ -42280,7 +42280,7 @@ version 71 {
     };
 
     // idx 24 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -42326,7 +42326,7 @@ version 71 {
         // offset 0x40, size 0x20
         float skill;
         // offset 0x60, size 0x80
-        hash_d42e412b1c8b06b hash_c66430efac57d2e;
+        hash_d42e412b1c8b06b invitationalstats;
         // offset 0xe0, size 0x20
         float variance;
         // offset 0x100, size 0x20
@@ -42346,7 +42346,7 @@ version 71 {
     };
 
     // idx 28 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -42392,11 +42392,11 @@ version 71 {
     };
 
     // idx 0 members 996
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         medal_frag_multikill, // 0x0,
         stats_deployable_cover_shutdown, // 0x1,
         stats_kill_flag_carrier, // 0x2,
-        hash_8df5a0637f62bc, // 0x3,
+        melee_sword_gold, // 0x3,
         hash_103be234630de92, // 0x4,
         stats_spawn_beacon_multikill_x2_summary, // 0x5,
         kill_close_deadsilence_awareness, // 0x6,
@@ -42412,7 +42412,7 @@ version 71 {
         medal_war_captured_zone, // 0x10,
         hash_23838c459efa4e1, // 0x11,
         defused_bomb_last_man_alive, // 0x12,
-        hash_279a3033ada8e39, // 0x13,
+        shotgun_energy_gold, // 0x13,
         destroy_car, // 0x14,
         stats_concussion_grenade_multikill_x2_summary, // 0x15,
         hash_2b222f6f7b6e9a2, // 0x16,
@@ -42426,7 +42426,7 @@ version 71 {
         films_shoutcasted, // 0x1e,
         hash_38df99a8f3b37d3, // 0x1f,
         medal_flag_capture, // 0x20,
-        hash_3bba76aa8987218, // 0x21,
+        kill_enemy_revealed_by_sensor, // 0x21,
         time_played_total, // 0x22,
         stats_defused_bomb, // 0x23,
         stats_kill_enemy_who_has_high_score, // 0x24,
@@ -42446,7 +42446,7 @@ version 71 {
         hash_6e8daf20aea29c7, // 0x32,
         stats_kill_enemy_injuring_teammate, // 0x33,
         perk_protection_stun_kills, // 0x34,
-        hash_74a188ece706d6e, // 0x35,
+        pistol_energy_gold, // 0x35,
         stats_cluster_semtex_stick, // 0x36,
         stats_clear_2_attackers, // 0x37,
         stats_cluster_semtex_kill, // 0x38,
@@ -42457,9 +42457,9 @@ version 71 {
         hash_87899862a43291d, // 0x3d,
         rankxp, // 0x3e,
         stats_traversal_kill, // 0x3f,
-        hash_8bf7096b44b766d, // 0x40,
+        melee_knuckles_gold, // 0x40,
         stats_attack_dog_x2_multikill_summary, // 0x41,
-        hash_8e80b2704d1cd9d, // 0x42,
+        sniper_quickscope_gold, // 0x42,
         stats_bounty_hunter_revived_teammate, // 0x43,
         stats_care_package_killjoy, // 0x44,
         medal_destroyed_microwave_turret, // 0x45,
@@ -42472,16 +42472,16 @@ version 71 {
         stats_tempest_x2_multikill_summary, // 0x4c,
         kills_after_reload_fastreload, // 0x4d,
         stats_seeker_shock_mine_paralyzed_enemy, // 0x4e,
-        hash_a35eb7542985769, // 0x4f,
+        stats_lightning_strike_killjoy, // 0x4f,
         kill_flashed_enemy, // 0x50,
         medal_destroyed_combat_robot, // 0x51,
         medal_kill_ball_carrier, // 0x52,
         medal_attack_dog_x2_multikill_summary, // 0x53,
         hash_b2a61bb3e204aab, // 0x54,
-        hash_b2eb4e274b8a01a, // 0x55,
+        medal_claymore_kill, // 0x55,
         hash_bfd840a2f49403b, // 0x56,
         medal_armblades_multikill, // 0x57,
-        hash_c7fef39814f4ea2, // 0x58,
+        launcher_multi_gold, // 0x58,
         stats_cluster_semtex_multikill_x2_summary, // 0x59,
         perk_quieter_kills, // 0x5a,
         medal_flag_carrier_kill_return_close, // 0x5b,
@@ -42508,7 +42508,7 @@ version 71 {
         stats_killstreak_25, // 0x70,
         stats_killstreak_30, // 0x71,
         sessionbans, // 0x72,
-        hash_d73110a583bac76, // 0x73,
+        kill_while_sliding, // 0x73,
         stats_deployable_cover_assist, // 0x74,
         hash_d7e9794042ddd5b, // 0x75,
         hash_dbfa1eef8facdaf, // 0x76,
@@ -42530,7 +42530,7 @@ version 71 {
         medal_swat_team_killjoy, // 0x86,
         medal_tempest_shutdown, // 0x87,
         currencyspent, // 0x88,
-        hash_1088f52fd4c0f507, // 0x89,
+        melee_crowbar_gold, // 0x89,
         emblem_version, // 0x8a,
         hash_10e13d570e79a1fc, // 0x8b,
         medal_kill_enemy_that_is_using_optic_camo, // 0x8c,
@@ -42546,7 +42546,7 @@ version 71 {
         medal_kill_enemy_with_more_ammo_oic, // 0x96,
         medal_completed_match, // 0x97,
         contracts_completed, // 0x98,
-        hash_12b047c1d9b2b2ea, // 0x99,
+        medal_mini_turret_kill, // 0x99,
         hash_12b15f63a95c35c2, // 0x9a,
         medal_destroyed_rolling_thunder, // 0x9b,
         medal_destroyed_supply_drop, // 0x9c,
@@ -42568,10 +42568,10 @@ version 71 {
         medal_killed_armblades_enemy, // 0xac,
         medal_gelgun_multikill, // 0xad,
         medal_destroyed_heli_comlink, // 0xae,
-        hash_14e8602c3df4b95d, // 0xaf,
+        sniper_quickscope_for_diamond, // 0xaf,
         mastery_lethals, // 0xb0,
         hash_154b0a4b01b8b616, // 0xb1,
-        hash_154be84bb5ecdb36, // 0xb2,
+        melee_wrench_for_diamond, // 0xb2,
         hash_1556fdc0a0bf81b1, // 0xb3,
         stats_destructions, // 0xb4,
         hash_156adf3fdb4091b7, // 0xb5,
@@ -42582,12 +42582,12 @@ version 71 {
         kill_stun_lethal, // 0xba,
         kills_counteruav_emp_hardline, // 0xbb,
         stats_annihilator_kill, // 0xbc,
-        hash_170b944d44b69f0d, // 0xbd,
+        melee_knuckles_for_diamond, // 0xbd,
         hash_1715d388ed114bcd, // 0xbe,
         hash_174beaaa686374bd, // 0xbf,
         stats_seeker_destroy, // 0xc0,
         kill_with_resupplied_lethal_grenade, // 0xc1,
-        hash_17a7743e0825687f, // 0xc2,
+        medal_forward_spawn_deactivated, // 0xc2,
         medal_lightninggun_kill, // 0xc3,
         stats_overwatch_helicopter_killjoy, // 0xc4,
         medal_ball_capture_assist, // 0xc5,
@@ -42611,23 +42611,23 @@ version 71 {
         medal_multikill_8, // 0xd7,
         medal_destroyed_dart, // 0xd8,
         medal_microwave_turret_kill, // 0xd9,
-        hash_19c4d864da056bc4, // 0xda,
+        medal_killed_paralyzed_enemy, // 0xda,
         suicides, // 0xdb,
         stats_radiation_field_kill, // 0xdc,
         medal_swat_team_kill, // 0xdd,
-        hash_1a46868379836aa4, // 0xde,
-        hash_1a760513a4d7f063, // 0xdf,
+        pistol_energy_for_diamond, // 0xde,
+        stats_kill_enemy_grenade_throwback, // 0xdf,
         medal_kill_enemy_who_is_speedbursting, // 0xe0,
         stats_completed_match, // 0xe1,
         timewhennexthost, // 0xe2,
         medal_destroyed_mini_turret, // 0xe3,
         medal_x2_score_shrp, // 0xe4,
         support_killstreak_mastery, // 0xe5,
-        hash_1b18c55e5bfab97d, // 0xe6,
+        destroy_combat_robot, // 0xe6,
         killed_dog, // 0xe7,
         kills_ads_stock_and_cpu, // 0xe8,
         kill_near_plant_engineer_hardwired, // 0xe9,
-        hash_1b5a22bbb1c029a2, // 0xea,
+        hasprestiged, // 0xea,
         medal_kill_underwater_enemy_explosive, // 0xeb,
         hash_1bb99705ba9a0e6c, // 0xec,
         hash_1bc0e2d787ec3594, // 0xed,
@@ -42692,7 +42692,7 @@ version 71 {
         escorts, // 0x128,
         hash_24f2182389a7edd0, // 0x129,
         stats_purifier_kill, // 0x12a,
-        hash_252738c01a5f5a35, // 0x12b,
+        medal_cover_kill, // 0x12b,
         hash_257e02b9fc52278b, // 0x12c,
         medal_kill_enemy_who_has_powerarmor, // 0x12d,
         killstreak_10_no_weapons_perks, // 0x12e,
@@ -42759,8 +42759,8 @@ version 71 {
         hack_enemy_target, // 0x16b,
         kill_detect_tracker, // 0x16c,
         kills_sprinting_dual_wield_and_gung_ho, // 0x16d,
-        hash_2c1c02ad575604ce, // 0x16e,
-        hash_2c48ce608bf4441e, // 0x16f,
+        pistol_shotgun_gold, // 0x16e,
+        melee_sword_for_diamond, // 0x16f,
         hash_2c4ee1b3a4f8cec3, // 0x170,
         medal_traversal_kill, // 0x171,
         medal_teammate_confirm_kill, // 0x172,
@@ -42783,7 +42783,7 @@ version 71 {
         medal_electrified, // 0x183,
         time_played_axis, // 0x184,
         pickups, // 0x185,
-        hash_2fca7627f5274fc4, // 0x186,
+        mastery_hero_weapon, // 0x186,
         medal_multiple_grenade_launcher_kill, // 0x187,
         medal_killed_enemy_while_carrying_flag, // 0x188,
         killed_dog_close_to_teammate, // 0x189,
@@ -42834,11 +42834,11 @@ version 71 {
         hash_358f1258d5231e43, // 0x1b6,
         medal_dart_kill, // 0x1b7,
         hash_365c607d9ecd3467, // 0x1b8,
-        hash_366bc13f4a44473c, // 0x1b9,
+        melee_butterfly_for_diamond, // 0x1b9,
         stats_hellstorm_missile_kill, // 0x1ba,
         destroy_turret, // 0x1bb,
         medal_armblades_multikill_2, // 0x1bc,
-        hash_3762770b322ac7fb, // 0x1bd,
+        kill_while_wallrunning, // 0x1bd,
         hash_37e875290614f1e1, // 0x1be,
         stats_seeker_shock_mine_multikill_x2_summary, // 0x1bf,
         medal_kill_enemy_with_their_hero_ability, // 0x1c0,
@@ -42852,7 +42852,7 @@ version 71 {
         stats_kill_enemy_with_care_package_crush, // 0x1c8,
         stats_radiation_field_assist, // 0x1c9,
         medal_overwatch_helicopter_kill, // 0x1ca,
-        hash_3acdc3a7d9b291b2, // 0x1cb,
+        medal_blade_kill, // 0x1cb,
         medal_kill_enemy_with_hacked_care_package, // 0x1cc,
         medal_end_enemy_psychosis, // 0x1cd,
         hash_3b9d5d597636c45c, // 0x1ce,
@@ -42888,15 +42888,15 @@ version 71 {
         hash_3f61444b89ca338f, // 0x1ec,
         medal_end_enemy_specialist_weapon, // 0x1ed,
         kill_after_resupply, // 0x1ee,
-        hash_3fdb9703c01d938c, // 0x1ef,
+        kill_while_in_air, // 0x1ef,
         medal_annihilator_x2_multikill_summary, // 0x1f0,
         medal_vision_pulse_shutdown, // 0x1f1,
         kill_enemy_through_wall, // 0x1f2,
-        hash_40230751d494a0f0, // 0x1f3,
+        launcher_multi_for_diamond, // 0x1f3,
         wlratio, // 0x1f4,
         hash_405015b29793595f, // 0x1f5,
         stats_radiation_field_shutdown, // 0x1f6,
-        hash_405fb5031abc8b78, // 0x1f7,
+        medal_trophy_defense, // 0x1f7,
         medal_plane_mortar_kill, // 0x1f8,
         diamond_club, // 0x1f9,
         teamkills_nostats, // 0x1fa,
@@ -42940,13 +42940,13 @@ version 71 {
         hash_457be5a3937a1a34, // 0x220,
         smg_mp40_gold, // 0x221,
         stats_sensor_dart_kill, // 0x222,
-        hash_462bd7640c4c4539, // 0x223,
+        medal_dirty_bomb_kill, // 0x223,
         medal_kill_x2_score_shrp, // 0x224,
         precision_master, // 0x225,
         kill_trip_mine_shocked, // 0x226,
         medal_mesh_mine_multikill_x2_summary, // 0x227,
         stats_multikill_more_than_7, // 0x228,
-        hash_46948dab3cbccc37, // 0x229,
+        stats_multikill_more_than_8, // 0x229,
         stats_mesh_mine_destroy, // 0x22a,
         stats_kill_enemy_when_injured, // 0x22b,
         hash_470c0ed4799f236a, // 0x22c,
@@ -42959,14 +42959,14 @@ version 71 {
         weapons_mastery_smg, // 0x233,
         stats_battle_shield_x2_multikill_summary, // 0x234,
         destroy_equipment_with_emp_engineer, // 0x235,
-        hash_47d0940ca9aaa556, // 0x236,
+        melee_bat_gold, // 0x236,
         medal_lightninggun_multikill, // 0x237,
         weapons_mastery_sniper, // 0x238,
         kill_sixthsense_awareness, // 0x239,
         medal_heatwave_kill, // 0x23a,
         hash_489c4d5299215099, // 0x23b,
         medal_pineapple_multikill, // 0x23c,
-        hash_48bd5b5a03a6abd2, // 0x23d,
+        bowie_knife_gold, // 0x23d,
         medal_kill_enemy_while_sliding, // 0x23e,
         medal_end_enemy_gravity_spike_attack, // 0x23f,
         stats_kill_confirmed_multi, // 0x240,
@@ -42986,7 +42986,7 @@ version 71 {
         destroy_helicopter, // 0x24e,
         kills_hipfire_rapidfire_lasersights_fasthands, // 0x24f,
         stats_deployable_cover_x2_multikill_summary, // 0x250,
-        hash_4b484cffef2ed86e, // 0x251,
+        medal_concussion_kill, // 0x251,
         hash_4b6eca29e69997c3, // 0x252,
         kill_tracker_sixthsense, // 0x253,
         contracts_purchased, // 0x254,
@@ -42998,7 +42998,7 @@ version 71 {
         hash_4ccc35efbeabec11, // 0x25a,
         medal_annihilator_kill, // 0x25b,
         medal_destroyed_cover, // 0x25c,
-        hash_4db43fdd0b45e605, // 0x25d,
+        medal_end_enemy_using_radiation_field, // 0x25d,
         destroy_scorestreak_rapidfire_fmj, // 0x25e,
         medal_molotov_kill, // 0x25f,
         master_humiliation, // 0x260,
@@ -43010,7 +43010,7 @@ version 71 {
         hash_4e7e0be202417ba8, // 0x266,
         medal_molotov_multikill_x2_summary, // 0x267,
         medal_kill_enemy_that_pulsed_you, // 0x268,
-        hash_4ec60c87df92edd7, // 0x269,
+        ar_garand_gold, // 0x269,
         hero_transmissions, // 0x26a,
         assist_score_emp, // 0x26b,
         hash_4ed745a0ed607a71, // 0x26c,
@@ -43025,18 +43025,18 @@ version 71 {
         lmg_mastery, // 0x275,
         stats_tank_robot_kill, // 0x276,
         stats_war_machine_shutdown, // 0x277,
-        hash_505cdac7594d9abe, // 0x278,
+        double_kill_defenders, // 0x278,
         losses, // 0x279,
         mastery_killer, // 0x27a,
         medal_vision_pulse_kill, // 0x27b,
         weapons_mastery, // 0x27c,
-        hash_50ea1ffd1a046630, // 0x27d,
+        medal_golden_ammo_multikill_2, // 0x27d,
         medal_kill_enemy_injuring_teammate, // 0x27e,
         stats_gravity_slam_multikill_x2, // 0x27f,
         medal_killed_flamethrower_enemy, // 0x280,
         medal_hacked, // 0x281,
         stats_rcxd_kill, // 0x282,
-        hash_52216fbbf9cd709f, // 0x283,
+        medal_end_enemy_using_blade, // 0x283,
         stats_vision_pulse_x2_multikill_summary, // 0x284,
         destructions, // 0x285,
         hash_52abffb28461993b, // 0x286,
@@ -43062,7 +43062,7 @@ version 71 {
         hasclantag, // 0x29a,
         medal_attack_dog_shutdown, // 0x29b,
         career_score_hc, // 0x29c,
-        hash_55b7abcaf7749b7c, // 0x29d,
+        melee_bat_for_diamond, // 0x29d,
         hash_55fec19a7934aaad, // 0x29e,
         destroy_equipment_with_emp_grenade, // 0x29f,
         deaths, // 0x2a0,
@@ -43165,10 +43165,10 @@ version 71 {
         stats_multikill_4, // 0x301,
         stats_multikill_3, // 0x302,
         stats_multikill_2, // 0x303,
-        hash_636e55d7c212033d, // 0x304,
+        stats_multikill_8, // 0x304,
         kill_enemy_that_blinded_you, // 0x305,
         multikill_3_lmg_or_smg_hip_fire, // 0x306,
-        hash_63d44d80ba7a84f4, // 0x307,
+        medal_tripwire_kill, // 0x307,
         hash_641f1646d7fea519, // 0x308,
         hash_64941a7011c17b39, // 0x309,
         hash_64c0bac013acc9f6, // 0x30a,
@@ -43186,11 +43186,11 @@ version 71 {
         mastery_wildcards, // 0x316,
         medal_first_kill, // 0x317,
         medal_destroyed_helicopter_agr_drop, // 0x318,
-        hash_65f463ce38d57812, // 0x319,
+        kill_concussed_enemy, // 0x319,
         field_specialist, // 0x31a,
         stats_radiation_field_multikill_x2_summary, // 0x31b,
         medal_minigun_kill, // 0x31c,
-        hash_6699452a0d7e8d40, // 0x31d,
+        bowie_knife_for_diamond, // 0x31d,
         medal_escort_robot_disable_near_goal, // 0x31e,
         kill_awareness, // 0x31f,
         wins_hc, // 0x320,
@@ -43203,19 +43203,19 @@ version 71 {
         multikill_3_near_death, // 0x327,
         kill_with_controlled_ai_tank, // 0x328,
         medal_assisted_suicide, // 0x329,
-        hash_676d3f9503f1513e, // 0x32a,
-        hash_678688fdd62207e0, // 0x32b,
+        specialist_transmissions, // 0x32a,
+        medal_mounted_kill, // 0x32b,
         destroy_aircraft_with_missile_drone, // 0x32c,
         plants, // 0x32d,
         medal_bowlauncher_multikill, // 0x32e,
         secondary_mastery, // 0x32f,
         medal_rcxd_killjoy, // 0x330,
-        hash_687fa00201834b84, // 0x331,
+        secondary_mastery_launcher, // 0x331,
         stats_kill_enemy_while_flashed_slowed_stunned, // 0x332,
-        hash_68c7a6344742c316, // 0x333,
+        melee_butterfly_gold, // 0x333,
         perk_immune_cuav_kills, // 0x334,
-        hash_690e2ef893be1ea9, // 0x335,
-        hash_692aae796a47da04, // 0x336,
+        medal_lightning_strike_killjoy, // 0x335,
+        melee_wrench_gold, // 0x336,
         medal_eliminate_sd, // 0x337,
         medal_remote_missile_kill, // 0x338,
         kill_while_underwater, // 0x339,
@@ -43235,7 +43235,7 @@ version 71 {
         kill_blindeye_ghost_aircraft, // 0x347,
         mastery_career, // 0x348,
         perk_movefaster_kills, // 0x349,
-        hash_6bbcfc2328216bf9, // 0x34a,
+        stats_dirty_bomb_kill, // 0x34a,
         medal_koth_secure, // 0x34b,
         defend_carrier, // 0x34c,
         hash_6c141d9a54256ab9, // 0x34d,
@@ -43279,9 +43279,9 @@ version 71 {
         stats_seeker_shock_mine_paralyze_assist, // 0x373,
         kill_fasthands_gungho_sprint, // 0x374,
         stats_position_secure, // 0x375,
-        hash_70c946465753e031, // 0x376,
+        shotgun_energy_for_diamond, // 0x376,
         medal_cuav_killjoy, // 0x377,
-        hash_71c1da13637fd3fb, // 0x378,
+        melee_crowbar_for_diamond, // 0x378,
         stats_kill_enemy_one_bullet, // 0x379,
         medal_radiation_field_multikill_x2_summary, // 0x37a,
         hash_72752a9adfaa2b00, // 0x37b,
@@ -43293,16 +43293,16 @@ version 71 {
         medal_kill_enemies_one_bullet, // 0x381,
         kill_specialist_with_specialist, // 0x382,
         hits, // 0x383,
-        hash_7347e683426cd120, // 0x384,
+        most_kills_least_deaths, // 0x384,
         stats_frag_multikill_x2_summary, // 0x385,
         multikill_3_with_heroability, // 0x386,
         hash_73d187ebf36663a3, // 0x387,
         stats_vision_pulse_kill, // 0x388,
         medal_annihilator_shutdown, // 0x389,
         medal_end_enemy_armblades_attack, // 0x38a,
-        hash_745148d95feec927, // 0x38b,
+        mastery_perk_1, // 0x38b,
         mastery_perk_2, // 0x38c,
-        hash_74514ad95feecc8d, // 0x38d,
+        mastery_perk_3, // 0x38d,
         medal_gravity_slam_multikill_x2, // 0x38e,
         stats_flag_capture, // 0x38f,
         stats_concertina_wire_multikill_x2_summary, // 0x390,
@@ -43320,14 +43320,14 @@ version 71 {
         hash_75ded7920072bbd6, // 0x39c,
         medal_kill_enemy_while_capping_dom, // 0x39d,
         multikill_3_with_mgl, // 0x39e,
-        hash_7723ab7cbc5265fc, // 0x39f,
+        hero_weapon_mastery, // 0x39f,
         medal_killstreak_15, // 0x3a0,
         medal_killstreak_10, // 0x3a1,
         medal_killstreak_20, // 0x3a2,
         medal_killstreak_25, // 0x3a3,
         medal_killstreak_30, // 0x3a4,
         stats_kill_enemy_after_switching_weapons, // 0x3a5,
-        hash_77a300646e7362fe, // 0x3a6,
+        double_kill_attackers, // 0x3a6,
         medal_tank_robot_kill, // 0x3a7,
         stats_longshot_kill, // 0x3a8,
         stats_attack_chopper_kill, // 0x3a9,
@@ -43343,7 +43343,7 @@ version 71 {
         accuracy, // 0x3b3,
         medal_kill_enemy_who_is_using_focus, // 0x3b4,
         hash_78de1d6f9571a31c, // 0x3b5,
-        hash_794996196e74a949, // 0x3b6,
+        monthly_timestamp, // 0x3b6,
         stats_bounty_hunter_melee_downed_enemy, // 0x3b7,
         kill_enemy_with_fists, // 0x3b8,
         score_multiteam, // 0x3b9,
@@ -43485,7 +43485,7 @@ version 71 {
     };
 
     // idx 7 members 20
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -43509,7 +43509,7 @@ version 71 {
     };
 
     // idx 8 members 23
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -43657,13 +43657,13 @@ version 71 {
     // offset 0x11b00, size 0x80
     byte extrabytes[16];
     // offset 0x11b80, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x14bd0, size 0xf500
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x240d0, size 0xc0
     short arenachallengeseasons[12];
     // offset 0x24190, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x241b0, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x241d0, size 0x20
@@ -43671,7 +43671,7 @@ version 71 {
     // offset 0x241f0, size 0xc0
     uint:24 higheststats[higheststats_e];
     // offset 0x242b0, size 0x18800
-    hash_1608f63ae729eda5 weaponstats[256];
+    weaponstat_s weaponstats[256];
     // offset 0x3cab0, size 0x100
     hash_78ac7dfcd6939c25 emblembreadcrumbs[hash_5d3fe1ad289b65a7];
     // offset 0x3cbb0, size 0x20
@@ -43699,7 +43699,7 @@ version 71 {
     // offset 0x3fe78, size 0x190
     byte statshash[50];
     // offset 0x40008, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x41188, size 0x290
     arenastats_s arenaperseasonstats;
     // offset 0x41418, size 0x200
@@ -43709,9 +43709,9 @@ version 71 {
     // offset 0x41638, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x41678, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x41698, size 0x27ca0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[mpgametypes];
+    gametypestats_s playerstatsbygametype[mpgametypes];
     // offset 0x69338, size 0x100
     byte demonwareflags[32];
     // offset 0x69438, size 0x20
@@ -43719,29 +43719,29 @@ version 71 {
     // offset 0x69458, size 0x20
     int unlocktokencount_attachment;
     // offset 0x69478, size 0x580
-    float hash_2363e7e74077b1c0[mpgametypes];
+    float gt_skill_rating[mpgametypes];
     // offset 0x699f8, size 0x20
     uint uploadbandwidth;
     // offset 0x69a18, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x69b58, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x69c18, size 0x20
     int motdviewtime;
     // offset 0x69c38, size 0x64a0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x700d8, size 0x400
     uint64 gamebookmarks[16];
     // offset 0x704d8, size 0x8
     uint:3 onboardingstate;
     // offset 0x704e0, size 0xd9e0
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x7dec0, size 0x28
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x7dee8, size 0x20
     float skill_variance;
     // offset 0x7df08, size 0x580
-    float hash_3a7324ad328f0e2e[mpgametypes];
+    float gt_skill_variance[mpgametypes];
     // offset 0x7e488, size 0x8
     fixed<8,7> hash_6a927decba86a3c3;
     // offset 0x7e490, size 0x1b8
@@ -43749,7 +43749,7 @@ version 71 {
     // offset 0x7e648, size 0x100
     byte unlocks[32];
     // offset 0x7e748, size 0x748
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x7ee90, size 0x46800
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0xc5690, size 0x1710
@@ -43757,7 +43757,7 @@ version 71 {
     // offset 0xc6da0, size 0x30
     string(6) validationevent;
     // offset 0xc6dd0, size 0x100
-    string(32) hash_7d19b83705dea420;
+    string(32) arenabestplaylist;
     // offset 0xc6ed0, size 0x10
     bool extrabools[16];
     // offset 0xc6ee0, size 0x1
@@ -43771,7 +43771,7 @@ version 71 {
     // offset 0xc6f03, size 0x40
     bool doublexpgroups[64];
     // offset 0xc6f43, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xc6f44, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xc6f45, size 0x1
@@ -43788,7 +43788,7 @@ version 71 {
 
 version 70 {
     // idx 1 members 4 size 0x38
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -43912,7 +43912,7 @@ version 70 {
     };
 
     // idx 8 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -43938,9 +43938,9 @@ version 70 {
     };
 
     // idx 9 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -43948,7 +43948,7 @@ version 70 {
     };
 
     // idx 10 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -43958,63 +43958,63 @@ version 70 {
     };
 
     // idx 11 members 28 size 0xe78
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x38
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x38, size 0x38
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x70, size 0x38
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0xa8, size 0x38
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xe0, size 0x38
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0x118, size 0x38
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x150, size 0x38
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x188, size 0x38
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x1c0, size 0x38
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1f8, size 0x38
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x230, size 0x38
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x268, size 0x38
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x2a0, size 0x38
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x2d8, size 0x38
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x310, size 0x38
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x348, size 0x38
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x380, size 0x38
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x3b8, size 0x38
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x3f0, size 0x38
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x428, size 0x38
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x460, size 0x38
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x498, size 0x8
         int:5 prevscoreindex;
         // offset 0x4a0, size 0x38
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x4d8, size 0x38
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x510, size 0x38
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x548, size 0x38
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x580, size 0x8c0
         prevscores_s prevscores[10];
         // offset 0xe40, size 0x38
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 12 members 7 size 0xe0
@@ -44044,13 +44044,13 @@ version 70 {
     // idx 14 members 1 size 0x460
     struct groupstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 15 members 4 size 0x468
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x460, size 0x1
         bool purchased;
         // offset 0x461, size 0x1
@@ -44060,13 +44060,13 @@ version 70 {
     };
 
     // idx 16 members 1 size 0x460
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x460
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 17 members 5 size 0x188
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -44082,7 +44082,7 @@ version 70 {
     // idx 18 members 3 size 0x2a8
     struct hash_24a4216e08f40838 {
         // offset 0x0, size 0x2a0
-        hash_6b3db80d498eb06 stats[hash_74cb2e59ab0174ea];
+        intstat_s stats[hash_74cb2e59ab0174ea];
         // offset 0x2a0, size 0x6
         bool hash_2d7ffd234fc689c6[6];
         // offset 0x2a6, size 0x2
@@ -44090,31 +44090,31 @@ version 70 {
     };
 
     // idx 19 members 1 size 0x1
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 20 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 21 members 4 size 0x748
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x400
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x400, size 0x80
-        hash_2d74f509e9d33a86 materials[128];
+        emblemlayer_s materials[128];
         // offset 0x480, size 0x2bc
-        hash_18562676c03c7954 backgrounds[700];
+        emblemicon_s backgrounds[700];
         // offset 0x73c, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
     };
 
     // idx 22 members 1 size 0x28
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
     };
@@ -44132,7 +44132,7 @@ version 70 {
     };
 
     // idx 24 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -44178,7 +44178,7 @@ version 70 {
         // offset 0x40, size 0x20
         float skill;
         // offset 0x60, size 0x80
-        hash_d42e412b1c8b06b hash_c66430efac57d2e;
+        hash_d42e412b1c8b06b invitationalstats;
         // offset 0xe0, size 0x20
         float variance;
         // offset 0x100, size 0x20
@@ -44198,7 +44198,7 @@ version 70 {
     };
 
     // idx 28 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -44244,11 +44244,11 @@ version 70 {
     };
 
     // idx 0 members 996
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         medal_frag_multikill, // 0x0,
         stats_deployable_cover_shutdown, // 0x1,
         stats_kill_flag_carrier, // 0x2,
-        hash_8df5a0637f62bc, // 0x3,
+        melee_sword_gold, // 0x3,
         hash_103be234630de92, // 0x4,
         stats_spawn_beacon_multikill_x2_summary, // 0x5,
         kill_close_deadsilence_awareness, // 0x6,
@@ -44264,7 +44264,7 @@ version 70 {
         medal_war_captured_zone, // 0x10,
         hash_23838c459efa4e1, // 0x11,
         defused_bomb_last_man_alive, // 0x12,
-        hash_279a3033ada8e39, // 0x13,
+        shotgun_energy_gold, // 0x13,
         destroy_car, // 0x14,
         stats_concussion_grenade_multikill_x2_summary, // 0x15,
         hash_2b222f6f7b6e9a2, // 0x16,
@@ -44278,7 +44278,7 @@ version 70 {
         films_shoutcasted, // 0x1e,
         hash_38df99a8f3b37d3, // 0x1f,
         medal_flag_capture, // 0x20,
-        hash_3bba76aa8987218, // 0x21,
+        kill_enemy_revealed_by_sensor, // 0x21,
         time_played_total, // 0x22,
         stats_defused_bomb, // 0x23,
         stats_kill_enemy_who_has_high_score, // 0x24,
@@ -44298,7 +44298,7 @@ version 70 {
         hash_6e8daf20aea29c7, // 0x32,
         stats_kill_enemy_injuring_teammate, // 0x33,
         perk_protection_stun_kills, // 0x34,
-        hash_74a188ece706d6e, // 0x35,
+        pistol_energy_gold, // 0x35,
         stats_cluster_semtex_stick, // 0x36,
         stats_clear_2_attackers, // 0x37,
         stats_cluster_semtex_kill, // 0x38,
@@ -44309,9 +44309,9 @@ version 70 {
         hash_87899862a43291d, // 0x3d,
         rankxp, // 0x3e,
         stats_traversal_kill, // 0x3f,
-        hash_8bf7096b44b766d, // 0x40,
+        melee_knuckles_gold, // 0x40,
         stats_attack_dog_x2_multikill_summary, // 0x41,
-        hash_8e80b2704d1cd9d, // 0x42,
+        sniper_quickscope_gold, // 0x42,
         stats_bounty_hunter_revived_teammate, // 0x43,
         stats_care_package_killjoy, // 0x44,
         medal_destroyed_microwave_turret, // 0x45,
@@ -44324,16 +44324,16 @@ version 70 {
         stats_tempest_x2_multikill_summary, // 0x4c,
         kills_after_reload_fastreload, // 0x4d,
         stats_seeker_shock_mine_paralyzed_enemy, // 0x4e,
-        hash_a35eb7542985769, // 0x4f,
+        stats_lightning_strike_killjoy, // 0x4f,
         kill_flashed_enemy, // 0x50,
         medal_destroyed_combat_robot, // 0x51,
         medal_kill_ball_carrier, // 0x52,
         medal_attack_dog_x2_multikill_summary, // 0x53,
         hash_b2a61bb3e204aab, // 0x54,
-        hash_b2eb4e274b8a01a, // 0x55,
+        medal_claymore_kill, // 0x55,
         hash_bfd840a2f49403b, // 0x56,
         medal_armblades_multikill, // 0x57,
-        hash_c7fef39814f4ea2, // 0x58,
+        launcher_multi_gold, // 0x58,
         stats_cluster_semtex_multikill_x2_summary, // 0x59,
         perk_quieter_kills, // 0x5a,
         medal_flag_carrier_kill_return_close, // 0x5b,
@@ -44360,7 +44360,7 @@ version 70 {
         stats_killstreak_25, // 0x70,
         stats_killstreak_30, // 0x71,
         sessionbans, // 0x72,
-        hash_d73110a583bac76, // 0x73,
+        kill_while_sliding, // 0x73,
         stats_deployable_cover_assist, // 0x74,
         hash_d7e9794042ddd5b, // 0x75,
         hash_dbfa1eef8facdaf, // 0x76,
@@ -44382,7 +44382,7 @@ version 70 {
         medal_swat_team_killjoy, // 0x86,
         medal_tempest_shutdown, // 0x87,
         currencyspent, // 0x88,
-        hash_1088f52fd4c0f507, // 0x89,
+        melee_crowbar_gold, // 0x89,
         emblem_version, // 0x8a,
         hash_10e13d570e79a1fc, // 0x8b,
         medal_kill_enemy_that_is_using_optic_camo, // 0x8c,
@@ -44398,7 +44398,7 @@ version 70 {
         medal_kill_enemy_with_more_ammo_oic, // 0x96,
         medal_completed_match, // 0x97,
         contracts_completed, // 0x98,
-        hash_12b047c1d9b2b2ea, // 0x99,
+        medal_mini_turret_kill, // 0x99,
         hash_12b15f63a95c35c2, // 0x9a,
         medal_destroyed_rolling_thunder, // 0x9b,
         medal_destroyed_supply_drop, // 0x9c,
@@ -44420,10 +44420,10 @@ version 70 {
         medal_killed_armblades_enemy, // 0xac,
         medal_gelgun_multikill, // 0xad,
         medal_destroyed_heli_comlink, // 0xae,
-        hash_14e8602c3df4b95d, // 0xaf,
+        sniper_quickscope_for_diamond, // 0xaf,
         mastery_lethals, // 0xb0,
         hash_154b0a4b01b8b616, // 0xb1,
-        hash_154be84bb5ecdb36, // 0xb2,
+        melee_wrench_for_diamond, // 0xb2,
         hash_1556fdc0a0bf81b1, // 0xb3,
         stats_destructions, // 0xb4,
         hash_156adf3fdb4091b7, // 0xb5,
@@ -44434,12 +44434,12 @@ version 70 {
         kill_stun_lethal, // 0xba,
         kills_counteruav_emp_hardline, // 0xbb,
         stats_annihilator_kill, // 0xbc,
-        hash_170b944d44b69f0d, // 0xbd,
+        melee_knuckles_for_diamond, // 0xbd,
         hash_1715d388ed114bcd, // 0xbe,
         hash_174beaaa686374bd, // 0xbf,
         stats_seeker_destroy, // 0xc0,
         kill_with_resupplied_lethal_grenade, // 0xc1,
-        hash_17a7743e0825687f, // 0xc2,
+        medal_forward_spawn_deactivated, // 0xc2,
         medal_lightninggun_kill, // 0xc3,
         stats_overwatch_helicopter_killjoy, // 0xc4,
         medal_ball_capture_assist, // 0xc5,
@@ -44463,23 +44463,23 @@ version 70 {
         medal_multikill_8, // 0xd7,
         medal_destroyed_dart, // 0xd8,
         medal_microwave_turret_kill, // 0xd9,
-        hash_19c4d864da056bc4, // 0xda,
+        medal_killed_paralyzed_enemy, // 0xda,
         suicides, // 0xdb,
         stats_radiation_field_kill, // 0xdc,
         medal_swat_team_kill, // 0xdd,
-        hash_1a46868379836aa4, // 0xde,
-        hash_1a760513a4d7f063, // 0xdf,
+        pistol_energy_for_diamond, // 0xde,
+        stats_kill_enemy_grenade_throwback, // 0xdf,
         medal_kill_enemy_who_is_speedbursting, // 0xe0,
         stats_completed_match, // 0xe1,
         timewhennexthost, // 0xe2,
         medal_destroyed_mini_turret, // 0xe3,
         medal_x2_score_shrp, // 0xe4,
         support_killstreak_mastery, // 0xe5,
-        hash_1b18c55e5bfab97d, // 0xe6,
+        destroy_combat_robot, // 0xe6,
         killed_dog, // 0xe7,
         kills_ads_stock_and_cpu, // 0xe8,
         kill_near_plant_engineer_hardwired, // 0xe9,
-        hash_1b5a22bbb1c029a2, // 0xea,
+        hasprestiged, // 0xea,
         medal_kill_underwater_enemy_explosive, // 0xeb,
         hash_1bb99705ba9a0e6c, // 0xec,
         hash_1bc0e2d787ec3594, // 0xed,
@@ -44544,7 +44544,7 @@ version 70 {
         escorts, // 0x128,
         hash_24f2182389a7edd0, // 0x129,
         stats_purifier_kill, // 0x12a,
-        hash_252738c01a5f5a35, // 0x12b,
+        medal_cover_kill, // 0x12b,
         hash_257e02b9fc52278b, // 0x12c,
         medal_kill_enemy_who_has_powerarmor, // 0x12d,
         killstreak_10_no_weapons_perks, // 0x12e,
@@ -44611,8 +44611,8 @@ version 70 {
         hack_enemy_target, // 0x16b,
         kill_detect_tracker, // 0x16c,
         kills_sprinting_dual_wield_and_gung_ho, // 0x16d,
-        hash_2c1c02ad575604ce, // 0x16e,
-        hash_2c48ce608bf4441e, // 0x16f,
+        pistol_shotgun_gold, // 0x16e,
+        melee_sword_for_diamond, // 0x16f,
         hash_2c4ee1b3a4f8cec3, // 0x170,
         medal_traversal_kill, // 0x171,
         medal_teammate_confirm_kill, // 0x172,
@@ -44635,7 +44635,7 @@ version 70 {
         medal_electrified, // 0x183,
         time_played_axis, // 0x184,
         pickups, // 0x185,
-        hash_2fca7627f5274fc4, // 0x186,
+        mastery_hero_weapon, // 0x186,
         medal_multiple_grenade_launcher_kill, // 0x187,
         medal_killed_enemy_while_carrying_flag, // 0x188,
         killed_dog_close_to_teammate, // 0x189,
@@ -44686,11 +44686,11 @@ version 70 {
         hash_358f1258d5231e43, // 0x1b6,
         medal_dart_kill, // 0x1b7,
         hash_365c607d9ecd3467, // 0x1b8,
-        hash_366bc13f4a44473c, // 0x1b9,
+        melee_butterfly_for_diamond, // 0x1b9,
         stats_hellstorm_missile_kill, // 0x1ba,
         destroy_turret, // 0x1bb,
         medal_armblades_multikill_2, // 0x1bc,
-        hash_3762770b322ac7fb, // 0x1bd,
+        kill_while_wallrunning, // 0x1bd,
         hash_37e875290614f1e1, // 0x1be,
         stats_seeker_shock_mine_multikill_x2_summary, // 0x1bf,
         medal_kill_enemy_with_their_hero_ability, // 0x1c0,
@@ -44704,7 +44704,7 @@ version 70 {
         stats_kill_enemy_with_care_package_crush, // 0x1c8,
         stats_radiation_field_assist, // 0x1c9,
         medal_overwatch_helicopter_kill, // 0x1ca,
-        hash_3acdc3a7d9b291b2, // 0x1cb,
+        medal_blade_kill, // 0x1cb,
         medal_kill_enemy_with_hacked_care_package, // 0x1cc,
         medal_end_enemy_psychosis, // 0x1cd,
         hash_3b9d5d597636c45c, // 0x1ce,
@@ -44740,15 +44740,15 @@ version 70 {
         hash_3f61444b89ca338f, // 0x1ec,
         medal_end_enemy_specialist_weapon, // 0x1ed,
         kill_after_resupply, // 0x1ee,
-        hash_3fdb9703c01d938c, // 0x1ef,
+        kill_while_in_air, // 0x1ef,
         medal_annihilator_x2_multikill_summary, // 0x1f0,
         medal_vision_pulse_shutdown, // 0x1f1,
         kill_enemy_through_wall, // 0x1f2,
-        hash_40230751d494a0f0, // 0x1f3,
+        launcher_multi_for_diamond, // 0x1f3,
         wlratio, // 0x1f4,
         hash_405015b29793595f, // 0x1f5,
         stats_radiation_field_shutdown, // 0x1f6,
-        hash_405fb5031abc8b78, // 0x1f7,
+        medal_trophy_defense, // 0x1f7,
         medal_plane_mortar_kill, // 0x1f8,
         diamond_club, // 0x1f9,
         teamkills_nostats, // 0x1fa,
@@ -44792,13 +44792,13 @@ version 70 {
         hash_457be5a3937a1a34, // 0x220,
         smg_mp40_gold, // 0x221,
         stats_sensor_dart_kill, // 0x222,
-        hash_462bd7640c4c4539, // 0x223,
+        medal_dirty_bomb_kill, // 0x223,
         medal_kill_x2_score_shrp, // 0x224,
         precision_master, // 0x225,
         kill_trip_mine_shocked, // 0x226,
         medal_mesh_mine_multikill_x2_summary, // 0x227,
         stats_multikill_more_than_7, // 0x228,
-        hash_46948dab3cbccc37, // 0x229,
+        stats_multikill_more_than_8, // 0x229,
         stats_mesh_mine_destroy, // 0x22a,
         stats_kill_enemy_when_injured, // 0x22b,
         hash_470c0ed4799f236a, // 0x22c,
@@ -44811,14 +44811,14 @@ version 70 {
         weapons_mastery_smg, // 0x233,
         stats_battle_shield_x2_multikill_summary, // 0x234,
         destroy_equipment_with_emp_engineer, // 0x235,
-        hash_47d0940ca9aaa556, // 0x236,
+        melee_bat_gold, // 0x236,
         medal_lightninggun_multikill, // 0x237,
         weapons_mastery_sniper, // 0x238,
         kill_sixthsense_awareness, // 0x239,
         medal_heatwave_kill, // 0x23a,
         hash_489c4d5299215099, // 0x23b,
         medal_pineapple_multikill, // 0x23c,
-        hash_48bd5b5a03a6abd2, // 0x23d,
+        bowie_knife_gold, // 0x23d,
         medal_kill_enemy_while_sliding, // 0x23e,
         medal_end_enemy_gravity_spike_attack, // 0x23f,
         stats_kill_confirmed_multi, // 0x240,
@@ -44838,7 +44838,7 @@ version 70 {
         destroy_helicopter, // 0x24e,
         kills_hipfire_rapidfire_lasersights_fasthands, // 0x24f,
         stats_deployable_cover_x2_multikill_summary, // 0x250,
-        hash_4b484cffef2ed86e, // 0x251,
+        medal_concussion_kill, // 0x251,
         hash_4b6eca29e69997c3, // 0x252,
         kill_tracker_sixthsense, // 0x253,
         contracts_purchased, // 0x254,
@@ -44850,7 +44850,7 @@ version 70 {
         hash_4ccc35efbeabec11, // 0x25a,
         medal_annihilator_kill, // 0x25b,
         medal_destroyed_cover, // 0x25c,
-        hash_4db43fdd0b45e605, // 0x25d,
+        medal_end_enemy_using_radiation_field, // 0x25d,
         destroy_scorestreak_rapidfire_fmj, // 0x25e,
         medal_molotov_kill, // 0x25f,
         master_humiliation, // 0x260,
@@ -44862,7 +44862,7 @@ version 70 {
         hash_4e7e0be202417ba8, // 0x266,
         medal_molotov_multikill_x2_summary, // 0x267,
         medal_kill_enemy_that_pulsed_you, // 0x268,
-        hash_4ec60c87df92edd7, // 0x269,
+        ar_garand_gold, // 0x269,
         hero_transmissions, // 0x26a,
         assist_score_emp, // 0x26b,
         hash_4ed745a0ed607a71, // 0x26c,
@@ -44877,18 +44877,18 @@ version 70 {
         lmg_mastery, // 0x275,
         stats_tank_robot_kill, // 0x276,
         stats_war_machine_shutdown, // 0x277,
-        hash_505cdac7594d9abe, // 0x278,
+        double_kill_defenders, // 0x278,
         losses, // 0x279,
         mastery_killer, // 0x27a,
         medal_vision_pulse_kill, // 0x27b,
         weapons_mastery, // 0x27c,
-        hash_50ea1ffd1a046630, // 0x27d,
+        medal_golden_ammo_multikill_2, // 0x27d,
         medal_kill_enemy_injuring_teammate, // 0x27e,
         stats_gravity_slam_multikill_x2, // 0x27f,
         medal_killed_flamethrower_enemy, // 0x280,
         medal_hacked, // 0x281,
         stats_rcxd_kill, // 0x282,
-        hash_52216fbbf9cd709f, // 0x283,
+        medal_end_enemy_using_blade, // 0x283,
         stats_vision_pulse_x2_multikill_summary, // 0x284,
         destructions, // 0x285,
         hash_52abffb28461993b, // 0x286,
@@ -44914,7 +44914,7 @@ version 70 {
         hasclantag, // 0x29a,
         medal_attack_dog_shutdown, // 0x29b,
         career_score_hc, // 0x29c,
-        hash_55b7abcaf7749b7c, // 0x29d,
+        melee_bat_for_diamond, // 0x29d,
         hash_55fec19a7934aaad, // 0x29e,
         destroy_equipment_with_emp_grenade, // 0x29f,
         deaths, // 0x2a0,
@@ -45017,10 +45017,10 @@ version 70 {
         stats_multikill_4, // 0x301,
         stats_multikill_3, // 0x302,
         stats_multikill_2, // 0x303,
-        hash_636e55d7c212033d, // 0x304,
+        stats_multikill_8, // 0x304,
         kill_enemy_that_blinded_you, // 0x305,
         multikill_3_lmg_or_smg_hip_fire, // 0x306,
-        hash_63d44d80ba7a84f4, // 0x307,
+        medal_tripwire_kill, // 0x307,
         hash_641f1646d7fea519, // 0x308,
         hash_64941a7011c17b39, // 0x309,
         hash_64c0bac013acc9f6, // 0x30a,
@@ -45038,11 +45038,11 @@ version 70 {
         mastery_wildcards, // 0x316,
         medal_first_kill, // 0x317,
         medal_destroyed_helicopter_agr_drop, // 0x318,
-        hash_65f463ce38d57812, // 0x319,
+        kill_concussed_enemy, // 0x319,
         field_specialist, // 0x31a,
         stats_radiation_field_multikill_x2_summary, // 0x31b,
         medal_minigun_kill, // 0x31c,
-        hash_6699452a0d7e8d40, // 0x31d,
+        bowie_knife_for_diamond, // 0x31d,
         medal_escort_robot_disable_near_goal, // 0x31e,
         kill_awareness, // 0x31f,
         wins_hc, // 0x320,
@@ -45055,19 +45055,19 @@ version 70 {
         multikill_3_near_death, // 0x327,
         kill_with_controlled_ai_tank, // 0x328,
         medal_assisted_suicide, // 0x329,
-        hash_676d3f9503f1513e, // 0x32a,
-        hash_678688fdd62207e0, // 0x32b,
+        specialist_transmissions, // 0x32a,
+        medal_mounted_kill, // 0x32b,
         destroy_aircraft_with_missile_drone, // 0x32c,
         plants, // 0x32d,
         medal_bowlauncher_multikill, // 0x32e,
         secondary_mastery, // 0x32f,
         medal_rcxd_killjoy, // 0x330,
-        hash_687fa00201834b84, // 0x331,
+        secondary_mastery_launcher, // 0x331,
         stats_kill_enemy_while_flashed_slowed_stunned, // 0x332,
-        hash_68c7a6344742c316, // 0x333,
+        melee_butterfly_gold, // 0x333,
         perk_immune_cuav_kills, // 0x334,
-        hash_690e2ef893be1ea9, // 0x335,
-        hash_692aae796a47da04, // 0x336,
+        medal_lightning_strike_killjoy, // 0x335,
+        melee_wrench_gold, // 0x336,
         medal_eliminate_sd, // 0x337,
         medal_remote_missile_kill, // 0x338,
         kill_while_underwater, // 0x339,
@@ -45087,7 +45087,7 @@ version 70 {
         kill_blindeye_ghost_aircraft, // 0x347,
         mastery_career, // 0x348,
         perk_movefaster_kills, // 0x349,
-        hash_6bbcfc2328216bf9, // 0x34a,
+        stats_dirty_bomb_kill, // 0x34a,
         medal_koth_secure, // 0x34b,
         defend_carrier, // 0x34c,
         hash_6c141d9a54256ab9, // 0x34d,
@@ -45131,9 +45131,9 @@ version 70 {
         stats_seeker_shock_mine_paralyze_assist, // 0x373,
         kill_fasthands_gungho_sprint, // 0x374,
         stats_position_secure, // 0x375,
-        hash_70c946465753e031, // 0x376,
+        shotgun_energy_for_diamond, // 0x376,
         medal_cuav_killjoy, // 0x377,
-        hash_71c1da13637fd3fb, // 0x378,
+        melee_crowbar_for_diamond, // 0x378,
         stats_kill_enemy_one_bullet, // 0x379,
         medal_radiation_field_multikill_x2_summary, // 0x37a,
         hash_72752a9adfaa2b00, // 0x37b,
@@ -45145,16 +45145,16 @@ version 70 {
         medal_kill_enemies_one_bullet, // 0x381,
         kill_specialist_with_specialist, // 0x382,
         hits, // 0x383,
-        hash_7347e683426cd120, // 0x384,
+        most_kills_least_deaths, // 0x384,
         stats_frag_multikill_x2_summary, // 0x385,
         multikill_3_with_heroability, // 0x386,
         hash_73d187ebf36663a3, // 0x387,
         stats_vision_pulse_kill, // 0x388,
         medal_annihilator_shutdown, // 0x389,
         medal_end_enemy_armblades_attack, // 0x38a,
-        hash_745148d95feec927, // 0x38b,
+        mastery_perk_1, // 0x38b,
         mastery_perk_2, // 0x38c,
-        hash_74514ad95feecc8d, // 0x38d,
+        mastery_perk_3, // 0x38d,
         medal_gravity_slam_multikill_x2, // 0x38e,
         stats_flag_capture, // 0x38f,
         stats_concertina_wire_multikill_x2_summary, // 0x390,
@@ -45172,14 +45172,14 @@ version 70 {
         hash_75ded7920072bbd6, // 0x39c,
         medal_kill_enemy_while_capping_dom, // 0x39d,
         multikill_3_with_mgl, // 0x39e,
-        hash_7723ab7cbc5265fc, // 0x39f,
+        hero_weapon_mastery, // 0x39f,
         medal_killstreak_15, // 0x3a0,
         medal_killstreak_10, // 0x3a1,
         medal_killstreak_20, // 0x3a2,
         medal_killstreak_25, // 0x3a3,
         medal_killstreak_30, // 0x3a4,
         stats_kill_enemy_after_switching_weapons, // 0x3a5,
-        hash_77a300646e7362fe, // 0x3a6,
+        double_kill_attackers, // 0x3a6,
         medal_tank_robot_kill, // 0x3a7,
         stats_longshot_kill, // 0x3a8,
         stats_attack_chopper_kill, // 0x3a9,
@@ -45195,7 +45195,7 @@ version 70 {
         accuracy, // 0x3b3,
         medal_kill_enemy_who_is_using_focus, // 0x3b4,
         hash_78de1d6f9571a31c, // 0x3b5,
-        hash_794996196e74a949, // 0x3b6,
+        monthly_timestamp, // 0x3b6,
         stats_bounty_hunter_melee_downed_enemy, // 0x3b7,
         kill_enemy_with_fists, // 0x3b8,
         score_multiteam, // 0x3b9,
@@ -45331,7 +45331,7 @@ version 70 {
     };
 
     // idx 7 members 20
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -45355,7 +45355,7 @@ version 70 {
     };
 
     // idx 8 members 23
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -45503,13 +45503,13 @@ version 70 {
     // offset 0xf640, size 0x80
     byte extrabytes[16];
     // offset 0xf6c0, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x12710, size 0xf500
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x21c10, size 0xc0
     short arenachallengeseasons[12];
     // offset 0x21cd0, size 0x20
-    int hash_5199b511aa25f017;
+    int extmsgversionviewed_cp;
     // offset 0x21cf0, size 0x20
     int extmsgversionviewed_mp;
     // offset 0x21d10, size 0x20
@@ -45517,7 +45517,7 @@ version 70 {
     // offset 0x21d30, size 0xc0
     uint:24 higheststats[higheststats_e];
     // offset 0x21df0, size 0x18800
-    hash_1608f63ae729eda5 weaponstats[256];
+    weaponstat_s weaponstats[256];
     // offset 0x3a5f0, size 0x100
     hash_78ac7dfcd6939c25 emblembreadcrumbs[hash_5d3fe1ad289b65a7];
     // offset 0x3a6f0, size 0x20
@@ -45545,7 +45545,7 @@ version 70 {
     // offset 0x3d9b8, size 0x190
     byte statshash[50];
     // offset 0x3db48, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x3ecc8, size 0x290
     arenastats_s arenaperseasonstats;
     // offset 0x3ef58, size 0x200
@@ -45555,9 +45555,9 @@ version 70 {
     // offset 0x3f178, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x3f1b8, size 0x20
-    int hash_54c694770b846433;
+    int extmsgversionviewed_arena;
     // offset 0x3f1d8, size 0x225d0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[mpgametypes];
+    gametypestats_s playerstatsbygametype[mpgametypes];
     // offset 0x617a8, size 0x100
     byte demonwareflags[32];
     // offset 0x618a8, size 0x20
@@ -45565,29 +45565,29 @@ version 70 {
     // offset 0x618c8, size 0x20
     int unlocktokencount_attachment;
     // offset 0x618e8, size 0x4c0
-    float hash_2363e7e74077b1c0[mpgametypes];
+    float gt_skill_rating[mpgametypes];
     // offset 0x61da8, size 0x20
     uint uploadbandwidth;
     // offset 0x61dc8, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x61f08, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x61fc8, size 0x20
     int motdviewtime;
     // offset 0x61fe8, size 0x64a0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x68488, size 0x400
     uint64 gamebookmarks[16];
     // offset 0x68888, size 0x8
     uint:3 onboardingstate;
     // offset 0x68890, size 0xd9e0
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x76270, size 0x28
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x76298, size 0x20
     float skill_variance;
     // offset 0x762b8, size 0x4c0
-    float hash_3a7324ad328f0e2e[mpgametypes];
+    float gt_skill_variance[mpgametypes];
     // offset 0x76778, size 0x8
     fixed<8,7> hash_6a927decba86a3c3;
     // offset 0x76780, size 0x1b8
@@ -45595,7 +45595,7 @@ version 70 {
     // offset 0x76938, size 0x100
     byte unlocks[32];
     // offset 0x76a38, size 0x748
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x77180, size 0x46800
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0xbd980, size 0x1710
@@ -45603,7 +45603,7 @@ version 70 {
     // offset 0xbf090, size 0x30
     string(6) validationevent;
     // offset 0xbf0c0, size 0x100
-    string(32) hash_7d19b83705dea420;
+    string(32) arenabestplaylist;
     // offset 0xbf1c0, size 0x10
     bool extrabools[16];
     // offset 0xbf1d0, size 0x1
@@ -45617,7 +45617,7 @@ version 70 {
     // offset 0xbf1f3, size 0x40
     bool doublexpgroups[64];
     // offset 0xbf233, size 0x1
-    bool hash_2a485540cdb72af1;
+    bool codpointmsgseen;
     // offset 0xbf234, size 0x1
     bool hash_4090306fb1961c43;
     // offset 0xbf235, size 0x1

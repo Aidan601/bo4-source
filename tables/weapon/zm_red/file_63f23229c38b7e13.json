@@ -1,6 +1,6 @@
 {
-    "name": "#hash_63f23229c38b7e13",
-    "baseWeapon": "#hash_63f23229c38b7e13",
+    "name": "#skeleton_sword_melee",
+    "baseWeapon": "#skeleton_sword_melee",
     "soundbank": "#hash_6d6413cbafdadc31",
     "worldModelTagRight": "tag_weapon_right",
     "worldModelTagLeft": "tag_weapon_left",
@@ -26,8 +26,8 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
-    "tunables1": "#hash_49defd1b93930fe4",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
+    "tunables1": "#skeleton_sword_melee_tunables",
     "sharedWeaponSounds": "#zm_zombie_melee"
 }

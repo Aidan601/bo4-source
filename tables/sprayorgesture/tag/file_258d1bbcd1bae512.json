@@ -1,11 +1,11 @@
 {
-    "name": "#hash_258d1bbcd1bae512",
+    "name": "#loot_tags_muertos_torque",
     "type": "#tag",
-    "material": "#hash_73b061b74887476e",
+    "material": "#vd/mtl_loot_ui_icon_tags_muertos_torque",
     "bundle": {
         "type": "#tag",
-        "title": "localized18#hash_211027056b27d03d",
-        "icon": "image#hash_4b9cc0e31ab208f3",
+        "title": "localized18#tags/muertos_torque",
+        "icon": "image#loot_ui_icon_tags_muertos_torque",
         "isdefault": 0
     }
 }

@@ -1,11 +1,11 @@
 1,#login_event,0,#,3,0,u9?0
-3,#mp_addxp,1,#hash_3167c7050d50cb08,3,1,u9?0
-5,#zm_addxp,1,#hash_18b261700bb73710,3,0,u9?0
+3,#mp_addxp,1,#mp_progression_achievement,3,1,u9?0
+5,#zm_addxp,1,#zm_progression_achievement,3,0,u9?0
 6,#zm_timeplayed,1,#,3,0,u9?0
 11,#hash_680a99fa024dd073,0,#hash_23ece9b17afe15ac,3,1,u9?0
 12,#hash_74ccf1507183e99f,0,#hash_1195869d5779bcba,3,0,u9?0
-13,#zm_gauntlet_reward,0,#hash_127d36f8f508810b,3,0,u9?0
-14,#tier_skip,1,#hash_704418ee3775ee79,3,0,u9?0
+13,#zm_gauntlet_reward,0,#zm_gauntlet_achievement,3,0,u9?0
+14,#tier_skip,1,#tier_skip_achievement,3,0,u9?0
 15,#trial_login,0,#,3,0,u9?0
 16,#hash_5a26ff83b4fe7c97,0,#hash_5a26ff83b4fe7c97,3,1,u9?0
 17,#hash_1f93e0248ebe0e15,0,#hash_1f93e0248ebe0e15,3,1,u9?0
@@ -91,7 +91,7 @@
 20002,#hash_1d1b3fe36f24b6ac,1,#hash_1d1b3fe36f24b6ac,3,1,u9?0
 20003,#hash_63e1c91ddca36b58,1,#hash_63e1c91ddca36b58,3,1,u9?0
 20004,#contract_wl_score_per_mode,1,#contract_wl_score_per_mode,3,1,u9?0
-20005,#hash_1075c38287814aa0,1,#hash_1075c38287814aa0,3,1,u9?0
+20005,#contract_wl_score_per_mode_hard,1,#contract_wl_score_per_mode_hard,3,1,u9?0
 20006,#hash_518ce6f8a5567a08,1,#hash_518ce6f8a5567a08,3,1,u9?0
 20007,#hash_8f83854f9aa068e,1,#hash_8f83854f9aa068e,3,1,u9?0
 20008,#hash_783240d7e11018c9,1,#hash_783240d7e11018c9,3,1,u9?0
@@ -100,8 +100,8 @@
 20011,#hash_117aee9968655de3,1,#hash_117aee9968655de3,3,1,u9?0
 20012,#hash_3ddcd024e6e13a32,1,#hash_3ddcd024e6e13a32,3,1,u9?0
 20013,#contract_wl_win_games,1,#contract_wl_win_games,3,1,u9?0
-20014,#hash_2809e14b0f3b4c5e,1,#hash_2809e14b0f3b4c5e,3,1,u9?0
-20015,#hash_4a14b348f01ad76d,1,#hash_4a14b348f01ad76d,3,1,u9?0
+20014,#contract_wl_win_games_hard,1,#contract_wl_win_games_hard,3,1,u9?0
+20015,#contract_wl_win_streak,1,#contract_wl_win_streak,3,1,u9?0
 20016,#contract_wl_win_streak_hard,1,#contract_wl_win_streak_hard,3,1,u9?0
 20017,#hash_35e52e40ab6d1223,1,#hash_35e52e40ab6d1223,3,1,u9?0
 20018,#hash_421c3b5196a40f99,1,#hash_421c3b5196a40f99,3,1,u9?0
@@ -123,7 +123,7 @@
 30012,#contract_zm_equip_kills,1,#contract_zm_equip_kills,3,0,u9?0
 30013,#contract_zm_explosive_kills,1,#contract_zm_explosive_kills,3,0,u9?0
 30014,#contract_zm_points,1,#contract_zm_points,3,0,u9?0
-30015,#hash_b6b948aac4bd4c,1,#hash_b6b948aac4bd4c,3,0,u9?0
+30015,#contract_zm_pack_a_punch,1,#contract_zm_pack_a_punch,3,0,u9?0
 30016,#contract_zm_shield_kills,1,#contract_zm_shield_kills,3,0,u9?0
 30017,#contract_zm_perks,1,#contract_zm_perks,3,0,u9?0
 30018,#contract_zm_magicbox,1,#contract_zm_magicbox,3,0,u9?0

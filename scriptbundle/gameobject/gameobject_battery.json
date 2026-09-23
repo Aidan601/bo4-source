@@ -1,7 +1,7 @@
 {
     "gameobjecttype": "use",
     "support_allow_weapons": 0,
-    "str_hint": "localized17#hash_39031c6cdac0f6ad",
+    "str_hint": "localized17#objectives_gameobject_battery",
     "slayer_carrier_speed_slow": 1,
     "hash_b59f93b3b4979ae:hash_e45035d4": 0,
     "support_carrier_speed_slow": 1,
@@ -16,7 +16,7 @@
     "objective_carrier_speed_fast": 1,
     "objective_allow_weapons": 1,
     "support_carrier_speed_normal": 1,
-    "hash_339462c65f3ac107:hash_ce7dda5f": "none",
+    "str_vo_type": "none",
     "support_userate_scaler": 1,
     "objective_userate_scaler": 1,
     "hash_428c76b72c0c628f:hash_559e6e9f": 0,

@@ -331,7 +331,7 @@ function select_character( characterindex, forceselection, var_8a239568 )
         else if ( isdefined( level.var_9205f2e8 ) )
         {
             game_time = gettime();
-            var_891e514a = { #xuid:self getxuid(), #character_index:characterindex, #game_time:game_time, #var_6fa2fd60:game_time - level.var_9205f2e8, #var_b53f57e1:var_8a239568 };
+            var_891e514a = { #xuid:self getxuid(), #character_index:characterindex, #game_time:game_time, #var_6fa2fd60:game_time - level.var_9205f2e8, #auto_draft:var_8a239568 };
             function_92d1707f( #"hash_3a95edd667fd3e7d", var_891e514a );
         }
         
@@ -727,7 +727,7 @@ function assign_remaining_players( only_assign_player )
         characters[ i ] = spawnstruct();
         characters[ i ].index = i;
         characters[ i ].available = 0;
-        characters[ i ].enabled = function_f4bf7e3f( i ) && isdefined( playerrolefields.var_422e172f ) && playerrolefields.var_422e172f && ( !util::function_8570168d() || isdefined( characterfields.var_49a55967 ) && characterfields.var_49a55967 ) && !isdefined( characterfields.requireddvar );
+        characters[ i ].enabled = function_f4bf7e3f( i ) && isdefined( playerrolefields.var_422e172f ) && playerrolefields.var_422e172f && ( !util::function_8570168d() || isdefined( characterfields.iscombattrainingenabled ) && characterfields.iscombattrainingenabled ) && !isdefined( characterfields.requireddvar );
         characters[ i ].category = player_role::get_category_for_index( i );
         characters[ i ].var_9a6db9eb = getgametypesetting( #"maxuniquerolesperteam", i );
         
@@ -998,7 +998,7 @@ function game_start()
         wait 1;
     }
     
-    level notify( #"hash_4c62fe02843b1a98" );
+    level notify( #"draft_game_start" );
     level thread globallogic::sndsetmatchsnapshot( 0 );
 }
 

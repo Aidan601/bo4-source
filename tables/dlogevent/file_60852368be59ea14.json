@@ -1,5 +1,5 @@
 {
-    "name": "#hash_60852368be59ea14",
+    "name": "#dlog_event_overhead_map",
     "unk28": "#overhead_map",
     "ddlDef": "#gamedata/ddl/generated/dlog_event_overhead_map.ddl",
     "unk18": 0,
@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -121,12 +121,12 @@
         },
         {
             "name": "#northdiry",
-            "scrName": "#hash_be8b2ebc",
+            "scrName": "#northdiry",
             "type": "FLOAT"
         },
         {
             "name": "#northdirx",
-            "scrName": "#hash_5727e013",
+            "scrName": "#northdirx",
             "type": "FLOAT"
         },
         {
@@ -136,7 +136,7 @@
         },
         {
             "name": "#upperlefty",
-            "scrName": "#hash_47612cea",
+            "scrName": "#upperlefty",
             "type": "FLOAT"
         }
     ],

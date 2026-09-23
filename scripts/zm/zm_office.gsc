@@ -1,8 +1,8 @@
-#using script_174ebb9642933bf7;
-#using script_293299be863018bb;
-#using script_4bae07eadc57bb51;
-#using script_59a783d756554a80;
-#using script_7be39c34f66312aa;
+#using scripts\zm_common\util\ai_nova_crawler_util;
+#using scripts\zm\zm_office_ee_delusional_dempsey;
+#using scripts\zm\zm_office_groom_lake_quest;
+#using scripts\zm\zm_office_vo_hooks;
+#using scripts\zm\zm_office_magicbox_screens;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\exploder_shared;
@@ -181,7 +181,7 @@ function event_handler[level_init] main( eventstruct )
     level thread function_785cadc4();
     zm_sq::register( #"main_quest", #"step1", #"main_quest_step1", &main_quest_step1_setup, &main_quest_step1_cleanup, 1 );
     zm_sq::start( #"main_quest" );
-    zm_custom::function_a00576dd( undefined, undefined, &function_c8ce0a17, &function_e5086229 );
+    zm_custom::earing( undefined, undefined, &function_c8ce0a17, &function_e5086229 );
     
     if ( zm_custom::function_901b751c( #"zmenhancedstate" ) == 2 )
     {
@@ -204,7 +204,7 @@ function main_quest_step1_setup( var_5ea5c94d )
         scene::add_scene_func( "cin_zm_office_outro", &function_a8b0b884, "play" );
         scene::add_scene_func( "cin_zm_office_outro", &function_335eca01, "done" );
         scene::add_scene_func( "cin_zm_office_outro", &function_335eca01, "stop" );
-        callback::function_74872db6( &outro_watcher );
+        callback::on_round_begin( &outro_watcher );
         level waittill( #"main_quest_complete" );
     }
 }
@@ -370,14 +370,14 @@ function function_31085f45()
 // Size: 0x16a
 function function_785cadc4()
 {
-    level.var_678333a6 = #"hash_11347f5077a17dcb";
+    level.var_678333a6 = #"maps/zm_office/fx8_barrier_buy_zmb";
     level._effect[ #"chest_light" ] = #"hash_1e8cb303d3103833";
     level._effect[ #"chest_light_closed" ] = #"hash_602f075818a2fb2e";
-    level._effect[ #"hash_2ff87d61167ea531" ] = #"hash_1eb426cfbfef7486";
-    level._effect[ #"hash_4048cb4967032c4a" ] = #"hash_7e272f1a9f143051";
+    level._effect[ #"hash_2ff87d61167ea531" ] = #"maps/zm_office/fx8_magicbox_marker";
+    level._effect[ #"hash_4048cb4967032c4a" ] = #"maps/zm_office/fx8_magicbox_marker_fl";
     level._effect[ #"lght_marker" ] = #"hash_7dec2fde8393c0f4";
-    level._effect[ #"lght_marker_flare" ] = #"hash_11347f5077a17dcb";
-    level._effect[ #"poltergeist_magicbox" ] = #"hash_11347f5077a17dcb";
+    level._effect[ #"lght_marker_flare" ] = #"maps/zm_office/fx8_barrier_buy_zmb";
+    level._effect[ #"poltergeist_magicbox" ] = #"maps/zm_office/fx8_barrier_buy_zmb";
 }
 
 // Namespace zm_office/zm_office
@@ -451,9 +451,9 @@ function sndfunctions()
 // Size: 0x64
 function custom_add_vox()
 {
-    zm_audio::loadplayervoicecategories( #"hash_41c3d60c9fdc1c1a" );
-    zm_audio::loadplayervoicecategories( #"hash_6d9aadb58948623b" );
-    zm_audio::loadplayervoicecategories( #"hash_75b01784227cb52f" );
+    zm_audio::loadplayervoicecategories( #"gamedata/audio/zm/zm_common_vox.csv" );
+    zm_audio::loadplayervoicecategories( #"gamedata/audio/zm/zm_story1_vox.csv" );
+    zm_audio::loadplayervoicecategories( #"gamedata/audio/zm/zm_office_vox.csv" );
 }
 
 // Namespace zm_office/zm_office

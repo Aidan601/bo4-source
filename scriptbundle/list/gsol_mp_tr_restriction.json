@@ -1,0 +1,9 @@
+{
+    "name": "#gsol_mp_tr_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#tr_longburst_restriction",
+        "#gamesettings/#tr_midburst_restriction",
+        "#gamesettings/#tr_powersemi_restriction"
+    ]
+}

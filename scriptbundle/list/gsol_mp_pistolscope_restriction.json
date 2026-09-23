@@ -1,0 +1,8 @@
+{
+    "name": "#gsol_mp_pistolscope_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#scope_pistolscope_pistol_revolver_restriction",
+        "#gamesettings/#scope_pistolscope_smg_fastburst_restriction"
+    ]
+}

@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4bb48287128a87a1",
+                            "anim": "anim#p8_zm_esc_turbine_generator_01_off",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,11 +34,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1c61477afcbcf058",
+                            "anim": "anim#p8_zm_esc_turbine_generator_01_starting",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_50f8383ced35d1a5",
+                            "anim": "anim#p8_zm_esc_turbine_generator_01_on",
                             "entrytype": "anim"
                         }
                     ],
@@ -66,7 +66,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

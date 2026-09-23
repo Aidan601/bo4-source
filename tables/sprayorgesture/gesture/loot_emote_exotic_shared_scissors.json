@@ -5,8 +5,8 @@
     "gesture2": "#hash_34772cc4659db49a",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_1e0c3748945313be",
-        "icon": "image#hash_5fa98e1444ddaae9",
+        "title": "localized18#emotes/scissors",
+        "icon": "image#ui_icon_emotes_s2_scissors",
         "isdefault": 0
     }
 }

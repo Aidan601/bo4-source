@@ -1,8 +1,8 @@
 {
     "name": "#loot_emote_shared_was_i_shot",
     "type": "#gesture",
-    "gesture": "#hash_6a768f8f7c7f4271",
-    "gesture2": "#hash_95dbeb7c75741fa",
+    "gesture": "#boast_was_i_shot",
+    "gesture2": "#boast_was_i_shot_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/close_call",

@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_toilet",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_toilet",
     "name": "charm_toilet",
-    "displayname": "localized17#hash_725823a25441f67a",
+    "displayname": "localized17#menu/charm_toilet",
     "icon": "ui_icon_weapon_charms_toilet",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_toilet"

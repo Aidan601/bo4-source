@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6fe49a2b72160dc9",
+                            "anim": "anim#ch_vign_cust_zm_red_amp_perseus_intro",
                             "entrytype": "anim"
                         }
                     ],
@@ -33,11 +33,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_5c06b0bb16d4efb6",
+            "model": "character#c_t8_zmb_dlc2_perseus1",
             "type": "fakeactor",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,

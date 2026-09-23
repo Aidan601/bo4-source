@@ -1,6 +1,6 @@
 {
-    "name": "#hash_55a5423bf670e7e3",
-    "baseWeapon": "#hash_19abd3767bd1566d",
+    "name": "#force_crawl_hands_mp",
+    "baseWeapon": "#force_crawl_hands",
     "displayname": "#weapon/bare_hands",
     "weapon70": "#bare_hands",
     "soundbank": "#hash_4f7adc20685b8837",
@@ -30,7 +30,7 @@
     "#hash_554be9f7": false,
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
-    "tunables1": "#hash_345c916c8179bb7a",
+    "tunables1": "#force_crawl_hands_tunables_mp",
     "sharedWeaponSounds": "#fist",
     "viewmodel": [
         "#wpn_t7_none_view"

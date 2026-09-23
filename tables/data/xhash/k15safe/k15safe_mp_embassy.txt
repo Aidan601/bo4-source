@@ -45,7 +45,7 @@ hash_e0a7d5dc4a189ab
 hash_e0a7d5dc4a189ab
 hash_3275be6cbeabf668
 hash_3275be6cbeabf668
-hash_52391377bc2aba11
+wc/lit_decal_diffuse_spec_gloss#fa261733
 hash_46af52463b847335
 hash_278a34140ddef48
 hash_5b94ea6fc4769625
@@ -98,5 +98,5 @@ i_t8_decal_blood_puddle_floor_01_r
 $white_reveal
 $gray_32_one_channel
 k15safe_mp_embassy
-hash_2907b19e1a44c529
-hash_3609a4e2901afb61
+wc/t8_decal_blood_puddle_floor_01_hard
+vd/t8_decal_blood_puddle_floor_01_hard

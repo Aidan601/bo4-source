@@ -324,7 +324,7 @@ function function_f4970a20( watcher, player )
     }
     else
     {
-        n_fuse_time = int( ( isdefined( level.var_88c99ac4.var_c4e30db1 ) ? level.var_88c99ac4.var_c4e30db1 : 0 ) * 1000 );
+        n_fuse_time = int( ( isdefined( level.var_88c99ac4.shroudlifetime ) ? level.var_88c99ac4.shroudlifetime : 0 ) * 1000 );
     }
     
     self thread weaponobjects::function_d9c08e94( n_fuse_time, &function_4db10465 );
@@ -380,7 +380,7 @@ function function_aa8bb7be()
 function function_c142e8ec( attacker, callback_data )
 {
     playfx( level._equipment_explode_fx_lg, self.origin );
-    self playsound( #"hash_330c9380b91a673" );
+    self playsound( #"dst_shroud_smash" );
     var_3c4d4b60 = isdefined( self.owner );
     
     if ( isdefined( attacker ) && ( !var_3c4d4b60 || self.owner util::isenemyplayer( attacker ) ) )
@@ -424,9 +424,9 @@ function function_4b3bc61d( attacker, weapon, target )
         playfx( level._equipment_explode_fx_lg, self.origin );
     }
     
-    if ( isdefined( level.var_88c99ac4.var_bb6c29b4 ) && isdefined( weapon ) && weapon == getweapon( #"shock_rifle" ) )
+    if ( isdefined( level.var_88c99ac4.shockrifledestructionfx ) && isdefined( weapon ) && weapon == getweapon( #"shock_rifle" ) )
     {
-        playfx( level.var_88c99ac4.var_bb6c29b4, self.origin );
+        playfx( level.var_88c99ac4.shockrifledestructionfx, self.origin );
     }
     
     if ( isdefined( attacker ) && self.owner util::isenemyplayer( attacker ) )
@@ -437,7 +437,7 @@ function function_4b3bc61d( attacker, weapon, target )
     
     if ( validateorigin( self.origin ) )
     {
-        playsoundatposition( #"hash_330c9380b91a673", self.origin );
+        playsoundatposition( #"dst_shroud_smash", self.origin );
     }
     
     if ( isdefined( level.var_d2600afc ) )

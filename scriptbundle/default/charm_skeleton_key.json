@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_skeleton_key",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_skeleton_key",
     "name": "charm_skeleton_key",
-    "displayname": "localized17#hash_2b15078b706cee50",
+    "displayname": "localized17#menu/charm_skeleton_key",
     "icon": "ui_icon_weapon_charms_skeleton_key",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_skeleton_key"

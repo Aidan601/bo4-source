@@ -489,7 +489,7 @@ function private function_1606ff3( localclientnum, var_6e51c00 )
     
     if ( perksarray.size > 1 )
     {
-        playsound( localclientnum, #"hash_4d31bd9927d823c3" );
+        playsound( localclientnum, #"uin_quick_menu_swap" );
     }
 }
 
@@ -667,7 +667,7 @@ function private function_9b83c65d( localclientnum )
             if ( inventoryitem != clientdata.inventory.var_f3518190.item )
             {
                 setuimodelvalue( createuimodel( clientdata.inventory.var_f3518190.item.itemuimodel, "castTimeFraction" ), 0, 0 );
-                playsound( localclientnum, #"hash_4d31bd9927d823c3" );
+                playsound( localclientnum, #"uin_quick_menu_swap" );
                 var_f3518190 = spawnstruct();
                 var_f3518190.item = inventoryitem;
                 var_f3518190.caststart = gettime();
@@ -689,7 +689,7 @@ function private function_9b83c65d( localclientnum )
         
         if ( !isdefined( clientdata.inventory.var_4d4ec560 ) || clientdata.inventory.var_4d4ec560 != inventoryitem.networkid )
         {
-            playsound( localclientnum, #"hash_4d31bd9927d823c3" );
+            playsound( localclientnum, #"uin_quick_menu_swap" );
             var_f3518190 = spawnstruct();
             var_f3518190.item = inventoryitem;
             var_f3518190.caststart = gettime();
@@ -839,9 +839,9 @@ function private function_96ce9058( localclientnum, var_6c2b2289, inventoryitem,
             
             for ( i = 0; i < 5 ; i++ )
             {
-                if ( isdefined( item.itementry.objectives[ i ] ) && isdefined( item.itementry.objectives[ i ].var_7e835304 ) )
+                if ( isdefined( item.itementry.objectives[ i ] ) && isdefined( item.itementry.objectives[ i ].objectivestatname ) )
                 {
-                    value = stats::get_stat_global( localclientnum, item.itementry.objectives[ i ].var_7e835304 );
+                    value = stats::get_stat_global( localclientnum, item.itementry.objectives[ i ].objectivestatname );
                     
                     if ( isdefined( value ) && value != cachedvalues[ i ] )
                     {
@@ -1181,7 +1181,7 @@ function private function_d2f05352()
                 {
                     var_95dcc077 = 1;
                     arrayremoveindex( var_3ef517e, i );
-                    playsound( localclientnum, #"hash_4c7a6e162e2f26a0" );
+                    playsound( localclientnum, #"uin_wz_perk_depleted" );
                     continue;
                 }
             }
@@ -1446,9 +1446,9 @@ function private function_1a99656a( localclientnum, inventoryitem, networkid, it
         {
             if ( isdefined( item.itementry.unlockableitemref ) )
             {
-                if ( isdefined( item.itementry.var_a51bc1f7 ) )
+                if ( isdefined( item.itementry.outfitunlockdescription ) )
                 {
-                    description = isdefined( item.itementry.var_a51bc1f7 ) ? item.itementry.var_a51bc1f7 : #"";
+                    description = isdefined( item.itementry.outfitunlockdescription ) ? item.itementry.outfitunlockdescription : #"";
                 }
             }
         }
@@ -1899,9 +1899,9 @@ function private function_39b663b7( localclientnum, inventoryitem, item )
                 
                 var_2571317b = 0;
                 
-                if ( isdefined( item.itementry.objectives[ i ].var_7e835304 ) )
+                if ( isdefined( item.itementry.objectives[ i ].objectivestatname ) )
                 {
-                    var_2571317b = setuimodelvalue( createuimodel( objectivemodel, "unlockProgress" ), stats::get_stat_global( localclientnum, item.itementry.objectives[ i ].var_7e835304 ) );
+                    var_2571317b = setuimodelvalue( createuimodel( objectivemodel, "unlockProgress" ), stats::get_stat_global( localclientnum, item.itementry.objectives[ i ].objectivestatname ) );
                 }
                 else
                 {
@@ -1921,7 +1921,7 @@ function private function_39b663b7( localclientnum, inventoryitem, item )
         }
         
         setuimodelvalue( createuimodel( inventoryitem.itemuimodel, "unlockableItemRef" ), item.itementry.unlockableitemref );
-        setuimodelvalue( createuimodel( inventoryitem.itemuimodel, "quote" ), item.itementry.var_e8b98a8a );
+        setuimodelvalue( createuimodel( inventoryitem.itemuimodel, "quote" ), item.itementry.unlockablequote );
         setuimodelvalue( createuimodel( inventoryitem.itemuimodel, "rewardName" ), item.itementry.rewardname );
     }
 }
@@ -2849,7 +2849,7 @@ function function_3bd1836f( localclientnum, networkid )
         if ( inventoryitem.networkid === networkid )
         {
             function_8063170( inventoryitem, 1 );
-            playsound( localclientnum, #"hash_4d31bd9927d823c3" );
+            playsound( localclientnum, #"uin_quick_menu_swap" );
             return;
         }
     }
@@ -3298,12 +3298,12 @@ function function_6231c19( params )
         networkid = item_world_util::function_970b8d86( self, var_a4250c2b );
         item = function_15d578f4( params.localclientnum, networkid );
         
-        if ( isdefined( item ) && isdefined( item.itementry ) && isdefined( item.itementry.var_340eac1f ) && item.itementry.var_340eac1f )
+        if ( isdefined( item ) && isdefined( item.itementry ) && isdefined( item.itementry.istacticalweapon ) && item.itementry.istacticalweapon )
         {
             setuimodelvalue( level.var_53cbbb33[ params.localclientnum ], 0 );
             setuimodelvalue( level.var_3a0390dd[ params.localclientnum ], 1 );
         }
-        else if ( isdefined( item ) && isdefined( item.itementry ) && isdefined( item.itementry.var_dc6c5d3b ) && item.itementry.var_dc6c5d3b )
+        else if ( isdefined( item ) && isdefined( item.itementry ) && isdefined( item.itementry.isoperatorweapon ) && item.itementry.isoperatorweapon )
         {
             setuimodelvalue( level.var_3a0390dd[ params.localclientnum ], 0 );
             setuimodelvalue( level.var_53cbbb33[ params.localclientnum ], 1 );
@@ -3491,22 +3491,22 @@ function function_b1136fc8( localclientnum, item )
         switch ( item.itementry.itemtype )
         {
             case #"weapon":
-                playsound( localclientnum, #"hash_67fed8a52accbb23", item.origin );
+                playsound( localclientnum, #"fly_drop_weapon", item.origin );
                 break;
             case #"ammo":
                 playsound( localclientnum, #"fly_drop_generic", item.origin );
                 break;
             case #"health":
-                playsound( localclientnum, #"hash_4d393a136d0df945", item.origin );
+                playsound( localclientnum, #"fly_drop_health", item.origin );
                 break;
             case #"equipment":
                 playsound( localclientnum, #"fly_drop_generic", item.origin );
                 break;
             case #"armor":
-                playsound( localclientnum, #"hash_6bd51d5a531ff32", item.origin );
+                playsound( localclientnum, #"fly_drop_armor", item.origin );
                 break;
             case #"backpack":
-                playsound( localclientnum, #"hash_60e9138ddc9660ed", item.origin );
+                playsound( localclientnum, #"fly_drop_backpack", item.origin );
                 break;
             case #"attachment":
                 playsound( localclientnum, #"fly_drop_generic", item.origin );
@@ -3541,13 +3541,13 @@ function function_31868137( localclientnum, item )
         switch ( item.itementry.itemtype )
         {
             case #"weapon":
-                playsound( localclientnum, #"hash_62fabedcce13774c", item.origin );
+                playsound( localclientnum, #"fly_pickup_weapon", item.origin );
                 break;
             case #"ammo":
                 playsound( localclientnum, #"fly_pickup_ammo", item.origin );
                 break;
             case #"health":
-                playsound( localclientnum, #"hash_7cb9f9cf7068ccee", item.origin );
+                playsound( localclientnum, #"fly_pickup_health", item.origin );
                 break;
             case #"equipment":
                 playsound( localclientnum, #"fly_pickup_generic", item.origin );
@@ -3556,13 +3556,13 @@ function function_31868137( localclientnum, item )
                 playsound( localclientnum, #"fly_pickup_armor", item.origin );
                 break;
             case #"backpack":
-                playsound( localclientnum, #"hash_69949bb7db9ef21e", item.origin );
+                playsound( localclientnum, #"fly_pickup_backpack", item.origin );
                 break;
             case #"attachment":
-                playsound( localclientnum, #"hash_48ae9b1190e79fc5", item.origin );
+                playsound( localclientnum, #"fly_pickup_attachment", item.origin );
                 break;
             case #"quest":
-                playsound( localclientnum, #"hash_5738a0fcb2e4efca", item.origin );
+                playsound( localclientnum, #"fly_pickup_quest", item.origin );
                 break;
             case #"generic":
                 playsound( localclientnum, #"fly_pickup_generic", item.origin );

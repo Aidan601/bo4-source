@@ -23,18 +23,18 @@
         "#c_t8_zmb_titanic_stoker"
     ],
     "animMappingTables": [
-        "#hash_2d39f55bc6d9801c"
+        "#zm_stoker.ai_am"
     ],
     "meleeWeapon": "#stoker_melee",
     "grenadeWeapon": "#stoker_coal_bomb_zm",
     "aimTable": "#soldier_aim",
-    "footstepTable": "#hash_3b5d3e2adb4ba892",
+    "footstepTable": "#ai_stoker_step_table",
     "footstepScriptCallback": true,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_2d2fdc5bc6d1011c",
-    "animStateMachine": "#hash_32da5ff2e3786069",
-    "animSelectorTable": "#hash_32da56f2e378511e",
+    "behaviorTree": "#zm_stoker.ai_bt",
+    "animStateMachine": "#zm_stoker.ai_asm",
+    "animSelectorTable": "#zm_stoker.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_stoker_settings",

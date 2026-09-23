@@ -612,7 +612,7 @@ conf
 inactivitykick
 inactivitykick
 hash_54d3e825d700ac23
-hash_1e00137b84b224a7
+mpui/search_and_destroy_classic
 sd
 inactivitykick
 inactivitykick
@@ -629,7 +629,7 @@ koth
 inactivitykick
 inactivitykick
 hash_1ee0474b3247b983
-hash_30d5f2ec9f7e1cf0
+mpui/team_deathmatch
 tdm
 inactivitykick
 inactivitykick
@@ -639,7 +639,7 @@ escort
 inactivitykick
 inactivitykick
 hash_3b415f2ebd0c392f
-hash_16d96976e0a8fb6c
+mpui/one_in_the_chamber
 oic
 inactivitykick
 inactivitykick
@@ -649,7 +649,7 @@ gun
 inactivitykick
 inactivitykick
 hash_186845d257f6c259
-hash_30d5f2ec9f7e1cf0
+mpui/team_deathmatch
 tdm
 inactivitykick
 inactivitykick
@@ -663,7 +663,7 @@ inactivitykick
 scorelimit
 scorelimit
 hash_30667fbde58f8415
-hash_30d5f2ec9f7e1cf0
+mpui/team_deathmatch
 tdm_hc
 inactivitykick
 inactivitykick
@@ -757,7 +757,7 @@ scorelimit
 timelimit
 timelimit
 hash_5cfc6bdb4b32c575
-hash_30d5f2ec9f7e1cf0
+mpui/team_deathmatch
 tdm
 inactivitykick
 inactivitykick
@@ -856,7 +856,7 @@ inactivitykick
 allowovertime
 allowovertime
 hash_40111b494edd22de
-hash_1e00137b84b224a7
+mpui/search_and_destroy_classic
 sd_cwl
 inactivitykick
 inactivitykick
@@ -925,12 +925,12 @@ infect
 inactivitykick
 inactivitykick
 hash_65c3878c312e5616
-hash_723e134bac793baa
+playlist/dom_dm
 dom_dm
 inactivitykick
 inactivitykick
 hash_7d8367413c4ea3dc
-hash_7e13e88fd9fb95a4
+mpui/prop_hunt_name
 prop
 inactivitykick
 inactivitykick
@@ -955,7 +955,7 @@ ctf
 inactivitykick
 inactivitykick
 hash_4b6e785f0a278e19
-hash_5b27b6c4e1290f35
+mpui/bb_control
 control_bb
 inactivitykick
 inactivitykick
@@ -965,7 +965,7 @@ koth_bb
 inactivitykick
 inactivitykick
 hash_4fb5aa9131b0660a
-hash_a0c32cc6a338680
+mpui/bb_escort
 escort_bb
 inactivitykick
 inactivitykick
@@ -978,7 +978,7 @@ hash_b49cf17516efb31
 hash_1f6a84783744b749
 quickplay_mp
 hash_10fd064f85a2f648
-hash_5a7f9a3b5cda9e77
+mpui/sticks_and_stones
 sas
 inactivitykick
 inactivitykick
@@ -1002,7 +1002,7 @@ dm_hc
 inactivitykick
 inactivitykick
 hash_ca607e6dced8bf5
-hash_1e00137b84b224a7
+mpui/search_and_destroy_classic
 sd_hc
 inactivitykick
 inactivitykick
@@ -1036,7 +1036,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1053,8 +1053,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1090,7 +1090,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1107,8 +1107,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1124,7 +1124,7 @@ wzenablevendetta
 maxteamplayers
 maxteamplayers
 hash_25bc3d7fa3b2b4dd
-hash_478cdde7f189a9ea
+playlist/warzone_solo
 warzone_solo
 killcamhistoryseconds
 killcamhistoryseconds
@@ -1144,7 +1144,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1161,8 +1161,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1198,7 +1198,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1215,8 +1215,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1258,7 +1258,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1275,8 +1275,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1292,7 +1292,7 @@ wzenablevendetta
 maxteamplayers
 maxteamplayers
 hash_7538cf94b86a14a5
-hash_366500dad22a6515
+playlist/warzone_deposit
 warzone_hot_pursuit
 killcamhistoryseconds
 killcamhistoryseconds
@@ -1312,7 +1312,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1329,8 +1329,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1360,7 +1360,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_70072ee20a43ae21
 hash_70072ee20a43ae21
 hash_68f4f3fd681ae3ea
@@ -1417,7 +1417,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1434,8 +1434,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1471,7 +1471,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1488,8 +1488,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1535,7 +1535,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1552,8 +1552,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1569,7 +1569,7 @@ wzenablevendetta
 maxteamplayers
 maxteamplayers
 hash_3acd3f42b1cd9dad
-hash_478cdde7f189a9ea
+playlist/warzone_solo
 warzone_ambush_v2_solo
 killcamhistoryseconds
 killcamhistoryseconds
@@ -1589,7 +1589,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1606,8 +1606,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1664,7 +1664,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1681,8 +1681,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1731,7 +1731,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1748,8 +1748,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1789,7 +1789,7 @@ allowkillcam
 maxteamplayers
 maxteamplayers
 hash_2b9c97538d85c6dc
-hash_2378f1a47f1c20f9
+playlist/warzone_heavy_metal_heroes
 warzone_heavy_metal_heroes
 killcamhistoryseconds
 killcamhistoryseconds
@@ -1809,7 +1809,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1826,8 +1826,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1863,7 +1863,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -1880,8 +1880,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -1930,7 +1930,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_70072ee20a43ae21
 hash_70072ee20a43ae21
 hash_68f4f3fd681ae3ea
@@ -1952,7 +1952,7 @@ wzenablevendetta
 maxteamplayers
 maxteamplayers
 hash_6308b75626669098
-hash_478cdde7f189a9ea
+playlist/warzone_solo
 warzone_hardcore_solo
 killcamhistoryseconds
 killcamhistoryseconds
@@ -1966,7 +1966,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_70072ee20a43ae21
 hash_70072ee20a43ae21
 hash_68f4f3fd681ae3ea
@@ -2008,7 +2008,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -2025,8 +2025,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -2079,7 +2079,7 @@ gametype_zm_ztcm_mansion
 ztcm_mansion
 hash_5e7148da0db4c4f6
 hash_4dc8028fb00656ec
-hash_478cdde7f189a9ea
+playlist/warzone_solo
 warzone_solo
 killcamhistoryseconds
 killcamhistoryseconds
@@ -2099,7 +2099,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -2116,8 +2116,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -2155,7 +2155,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -2172,8 +2172,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -2210,7 +2210,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -2227,8 +2227,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -2250,7 +2250,7 @@ hash_5e7148da0db4c4f6
 hash_7e000f33d5986319
 hash_29e281e55a8dcd19
 hash_377cecdfe4b57bb7
-hash_1e00137b84b224a7
+mpui/search_and_destroy_classic
 sd_cwl
 inactivitykick
 inactivitykick
@@ -2297,7 +2297,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -2314,8 +2314,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -2366,7 +2366,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -2383,8 +2383,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablepurifier
 wzenablepurifier
 wzenablemusclecar
@@ -2401,8 +2401,8 @@ wzenableheavymetal
 wzenableheavymetal
 wzenableheavymetalvehicles
 wzenableheavymetalvehicles
-hash_3392857d44a435b6
-hash_3392857d44a435b6
+wzenablehuey
+wzenablehuey
 wzenableatv
 wzenableatv
 wzenablehomewrecker
@@ -2458,7 +2458,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -2475,8 +2475,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -2544,7 +2544,7 @@ wzenablehomewrecker
 wzenablevendetta
 wzenablevendetta
 hash_85e8d969c3cacac
-hash_478cdde7f189a9ea
+playlist/warzone_solo
 warzone_escape_cqf_solo
 killcamhistoryseconds
 killcamhistoryseconds
@@ -2561,7 +2561,7 @@ wzenablehomewrecker
 wzenablevendetta
 wzenablevendetta
 hash_296e0b7f34359dd9
-hash_478cdde7f189a9ea
+playlist/warzone_solo
 warzone_solo
 killcamhistoryseconds
 killcamhistoryseconds
@@ -2581,7 +2581,7 @@ hash_446a66a4499c4e5d
 hash_446a66a4499c4e5d
 hash_22431a9369b5d7c0
 hash_22431a9369b5d7c0
-hash_3013a6dbeb6db37e
+wz_stash_fix
 hash_9ccb8e5d58cd832
 hash_9ccb8e5d58cd832
 hash_2491cd92f1d6a91c
@@ -2598,8 +2598,8 @@ hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
 wzenablereplacercar
 wzenablereplacercar
-hash_7695bdd7b20cdda
-hash_7695bdd7b20cdda
+wzenablereplacercarswap
+wzenablereplacercarswap
 wzenablecoinbag
 wzenablecoinbag
 wzenablepurifier
@@ -2615,7 +2615,7 @@ wzenablevendetta
 maxteamplayers
 maxteamplayers
 hash_7adb6688a15a7d5a
-hash_15f04b910d9c07ce
+mpui/bb_stockpile
 clean_bb
 inactivitykick
 inactivitykick
@@ -2647,7 +2647,7 @@ cg_hitdet_client_marker
 hash_5a03a381725cacd1
 hash_150b5586eb31eeeb
 hash_5cf1cdc9d1c545d1
-hash_3a322ce6c61298f9
+mpui/bounty_hunter_desc
 hash_5e563e6544ff9705
 scr_xpscalemp
 g_hitdet_logging
@@ -2666,14 +2666,14 @@ menu/conf_desc
 hash_5e563e6544ff9705
 hash_554fe0a85e84bc55
 hash_491b87e11827cf7
-hash_7fe554c515cc1a67
+menu/teams_take_turns_defending_no_spawn
 hash_5e563e6544ff9705
 scr_xpscalemp
 g_hitdet_logging
 cg_hitdet_client_marker
 entry_mp_core_dom
 hash_537f207e3e7d35f8
-hash_acc4fc4a376a207
+menu/capture_and_hold_the
 hash_5e563e6544ff9705
 hash_2824efd76da3c074
 hash_4714d27e6a16d752
@@ -2697,7 +2697,7 @@ hash_4aa98a5a132cfcbd
 hash_671df93732a1f207
 hash_5e563e6544ff9705
 hash_cc0d1cfcb7ad2f0
-hash_743699a3183be684
+playlist/objective_moshpit
 hash_45537e6afc7239ac
 hash_5e563e6544ff9705
 hash_10922dd373a2d0ea
@@ -2766,7 +2766,7 @@ hash_ecf2124e9108fc4
 specialistfriendlyfire_allies_1
 specialistfriendlyfire_allies_1
 hash_1fc45e4ae896f3a8
-hash_26d9318e1b5b0929
+mpui/nuketown_4
 hash_4e2c07030c3b6eb
 hash_5e563e6544ff9705
 hash_66dc48ab03d9db9e
@@ -2980,7 +2980,7 @@ hash_54708178bc484ea5
 hash_5e80be5e665dc4af
 hash_5e563e6544ff9705
 hash_4e06166d6b4a74d6
-hash_7ae7f5b6dbf17
+playlist/one_in_the_chamber
 hash_13a9ed44a7554209
 hash_5e563e6544ff9705
 hash_529c415d0a857c06
@@ -3046,7 +3046,7 @@ hash_ecf2124e9108fc4
 specialistfriendlyfire_allies_1
 specialistfriendlyfire_allies_1
 hash_7f48cdcafd06fb03
-hash_7ae7f5b6dbf17
+playlist/one_in_the_chamber
 hash_13a9ed44a7554209
 hash_5e563e6544ff9705
 hash_205e12d02c294349
@@ -3062,8 +3062,8 @@ hash_54708178bc484ea5
 hash_5e80be5e665dc4af
 hash_5e563e6544ff9705
 entry_mp_featured_prophunt
-hash_7e13e88fd9fb95a4
-hash_3669fe605d0b7af2
+mpui/prop_hunt_name
+mpui/prop_hunt_desc
 hash_5e563e6544ff9705
 scr_xpscalemp
 g_hitdet_logging
@@ -3122,7 +3122,7 @@ hash_1f6a84783744b749
 hash_57c09e48ba54a363
 hash_5e563e6544ff9705
 hash_5b93951a7480d4f3
-hash_5a7f9a3b5cda9e77
+mpui/sticks_and_stones
 hash_4d9f5ef58c5e3632
 hash_5e563e6544ff9705
 hash_330d899257bb623a
@@ -3700,7 +3700,7 @@ wzenablesentrygun
 startplayers
 startplayers
 hash_15cd626e901abac3
-hash_306b830f800bbecd
+playlist/warzone_ambush_solo
 hash_713baa4055ed0f7
 hash_72642ac141d2411d
 g_hitdet_logging
@@ -3719,7 +3719,7 @@ hash_35c2d850e39fa704
 wzenablesentrygun
 wzenablesentrygun
 hash_6f5809d6ed6fce5d
-hash_366500dad22a6515
+playlist/warzone_deposit
 hash_badf3ac0863dbf
 hash_72642ac141d2411d
 g_hitdet_logging
@@ -3749,8 +3749,8 @@ hash_68f4f3fd681ae3ea
 hash_68f4f3fd681ae3ea
 hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
-hash_6eb44149a8ac6dd1
-hash_6eb44149a8ac6dd1
+wzenablevehicledrops
+wzenablevehicledrops
 evolution_interval
 evolution_interval
 wzenablewallbuyasylum
@@ -4478,7 +4478,7 @@ wzenablemotorcycle
 startplayers
 startplayers
 entry_wz_core_prod_heavy_metal_heroes
-hash_2378f1a47f1c20f9
+playlist/warzone_heavy_metal_heroes
 hash_5e55315d8c6b64d3
 hash_72642ac141d2411d
 g_hitdet_logging
@@ -4609,7 +4609,7 @@ hash_35c2d850e39fa704
 startplayers
 startplayers
 hash_14d49a9c9df502e0
-hash_7d1bc284429bc243
+playlist/warzone_hardcore_solo
 hash_5afab0294b5284d5
 hash_72642ac141d2411d
 g_hitdet_logging
@@ -4686,7 +4686,7 @@ hash_72642ac141d2411d
 zombies public
 menu/zombies
 hash_4ef169949dbadfea
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 hash_4906aad8b00560af
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -4730,7 +4730,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 scr_max_rank
 hash_4956e4fec80115d0
-hash_258afaaa792e80a0
+playlist/zm_rush
 hash_190b1e1afd80e268
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -4839,7 +4839,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_5a7ce2c2d7a0bbd6
-hash_608fcf2dc350cb93
+playlist/zm_cave
 hash_7850ad2f674a8769
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -4850,7 +4850,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_600af4c768517855
-hash_1c6c7f02f2a5c119
+zmtrials/dotn
 hash_708ca3393b7322ab
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -4934,7 +4934,7 @@ zm_ee_enabled
 zombies classic
 menu/zombies
 hash_573c30531d8deea1
-hash_364122f25f791280
+zmui/tutorial_beginner
 zmui/ztutorial_desc
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -4944,8 +4944,8 @@ zmdifficulty
 hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 hash_44a1bb7fe630a9d2
-hash_c9580dab628ed90
-hash_9a181be33c22198
+zmui/tutorial_advanced
+zmui/ztutorial_advanced_desc
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -4954,7 +4954,7 @@ zmdifficulty
 hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 hash_2d79f8672ff9bbea
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -4964,7 +4964,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_28da6427c3fd6279
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -4974,7 +4974,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_36c12b0eb6d6097a
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -4984,7 +4984,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_14b2a98668e1fdf9
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5162,7 +5162,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_2166d88604670d56
-hash_608fcf2dc350cb93
+playlist/zm_cave
 hash_7850ad2f674a8769
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -5173,7 +5173,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_207de259a69744ad
-hash_608fcf2dc350cb93
+playlist/zm_cave
 hash_7850ad2f674a8769
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -5184,7 +5184,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_5bf250fb7591ff1e
-hash_608fcf2dc350cb93
+playlist/zm_cave
 hash_7850ad2f674a8769
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -5195,7 +5195,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_6844b37cfb86812d
-hash_608fcf2dc350cb93
+playlist/zm_cave
 hash_7850ad2f674a8769
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -5292,7 +5292,7 @@ zm_ee_enabled
 zombies standard
 menu/zombies
 hash_41ad63f32aa4db43
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5344,7 +5344,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_4d4a85e40d4bd6f
-hash_608fcf2dc350cb93
+playlist/zm_cave
 hash_7850ad2f674a8769
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -5378,7 +5378,7 @@ zm_ee_enabled
 hash_3205fd57c7116fdc
 menu/zombies
 hash_5e3516ca15ac8b76
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5422,7 +5422,7 @@ zm_ee_enabled
 zombies trials
 menu/zombies
 hash_7ac66c9ad92051ff
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5463,7 +5463,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_d6866ee9e12320f
-hash_1c6c7f02f2a5c119
+zmtrials/dotn
 hash_708ca3393b7322ab
 lobby_readyuppercentrequired
 scr_xpscalezm
@@ -5485,7 +5485,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_51055b01e3fb17fd
-hash_6fdcc66d6ac640ff
+playlist/zm_zod
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5686,7 +5686,7 @@ wzbrutuseverywhere
 zombies dev
 menu/zombies
 hash_57d58599e861ff78
-hash_46ead1dc409feba5
+playlist/zm_nuked
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5695,7 +5695,7 @@ zmdifficulty
 hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 hash_31bd0ac0f1de8cdb
-hash_46ead1dc409feba5
+playlist/zm_nuked
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5704,7 +5704,7 @@ zmdifficulty
 hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 hash_3ee2222d47b71fbc
-hash_46ead1dc409feba5
+playlist/zm_nuked
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5713,7 +5713,7 @@ zmdifficulty
 hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 hash_76c252ec7f718c33
-hash_46ead1dc409feba5
+playlist/zm_nuked
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5732,7 +5732,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_2f10964a1655f78d
-hash_c230a267188ad1e
+playlist/zm_blue
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5742,7 +5742,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_79a751c00de77eb8
-hash_c230a267188ad1e
+playlist/zm_blue
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5752,7 +5752,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_40ca131a926016d7
-hash_c230a267188ad1e
+playlist/zm_blue
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5762,7 +5762,7 @@ hash_55b202dcd35d7145
 hash_2f8a737a2a6c0989
 zm_ee_enabled
 hash_2f9c2f6d672825b4
-hash_c230a267188ad1e
+playlist/zm_blue
 lobby_readyuppercentrequired
 scr_xpscalezm
 scr_gunxpscalezm
@@ -5946,7 +5946,7 @@ hash_318662510a7c0d44
 hash_30ce36c9bb6c546c
 hash_5e563e6544ff9705
 hash_3c0331f13a6766de
-hash_772c0eca6afe73df
+playlist/warzone_weapons_test
 hash_e2871bfa7c93671
 hash_72642ac141d2411d
 g_hitdet_logging
@@ -5956,7 +5956,7 @@ hash_6b1ec01fa78af670
 hash_1afe8b91b7b953c3
 startplayers
 startplayers
-hash_574abad326242b33
+scr_wzaar_dev
 hash_70072ee20a43ae21
 hash_70072ee20a43ae21
 deathcircle
@@ -6396,7 +6396,7 @@ startplayers
 startplayers
 scr_scripterrorsarefatal
 hash_246fc249aedf0abf
-hash_6ad4c3e45839018d
+playlist/beenox
 hash_1da58296cd29f9b7
 hash_5e563e6544ff9705
 hash_6f2102be03b16b4c
@@ -6474,8 +6474,8 @@ hash_68f4f3fd681ae3ea
 hash_68f4f3fd681ae3ea
 hash_6c72667787a1fcc9
 hash_6c72667787a1fcc9
-hash_6eb44149a8ac6dd1
-hash_6eb44149a8ac6dd1
+wzenablevehicledrops
+wzenablevehicledrops
 evolution_interval
 evolution_interval
 wzenablewallbuyasylum
@@ -6539,7 +6539,7 @@ startplayers
 startplayers
 hash_2cc9b0ef1896d89a
 hash_100edd73672283cf
-hash_2378f1a47f1c20f9
+playlist/warzone_heavy_metal_heroes
 hash_5e55315d8c6b64d3
 hash_72642ac141d2411d
 g_hitdet_logging

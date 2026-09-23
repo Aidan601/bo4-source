@@ -23,17 +23,17 @@
         "#c_t8_zmb_dlc0_zombie_destroyer1"
     ],
     "animMappingTables": [
-        "#hash_1c9fab938387089f"
+        "#zm_gladiator_destroyer.ai_am"
     ],
     "meleeWeapon": "#gladiator_melee",
     "aimTable": "#soldier_aim",
-    "footstepTable": "#hash_5cfd6196b2b2b763",
+    "footstepTable": "#ai_gladiator_step_table",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_1ca9b493838f6c6f",
-    "animStateMachine": "#hash_2aa459a87eb3e184",
-    "animSelectorTable": "#hash_2aa462a87eb3f0cf",
+    "behaviorTree": "#zm_gladiator_destroyer.ai_bt",
+    "animStateMachine": "#zm_gladiator_destroyer.ai_asm",
+    "animSelectorTable": "#zm_gladiator_destroyer.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_destroyer_settings",

@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -95,7 +95,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -124,8 +124,8 @@
             "type": "INT8"
         },
         {
-            "name": "#hash_4f2369bc188f798c",
-            "scrName": "#hash_5d73b997",
+            "name": "#current_mem",
+            "scrName": "#current_mem",
             "type": "UINT32"
         },
         {
@@ -157,7 +157,7 @@
         },
         {
             "name": "#quad_caches",
-            "scrName": "#hash_2219cb71",
+            "scrName": "#quad_caches",
             "type": "INT32"
         },
         {
@@ -166,8 +166,8 @@
             "type": "BOOL"
         },
         {
-            "name": "#hash_7f4072cde37a7be8",
-            "scrName": "#hash_63b46511",
+            "name": "#subscription_count",
+            "scrName": "#subscription_count",
             "type": "INT32"
         }
     ],

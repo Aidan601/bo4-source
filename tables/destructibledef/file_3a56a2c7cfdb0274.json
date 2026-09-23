@@ -1,7 +1,7 @@
 {
-    "name": "#hash_3a56a2c7cfdb0274",
-    "model": "#hash_8c721e0c7743f14",
-    "unk20": "#hash_325f2362f43ee75a",
+    "name": "#veh_mphd_car_compact_destructible_mp_green_spain",
+    "model": "#veh_mphd_car_compact_destructible_green_spain",
+    "unk20": "#veh_mphd_car_compact_green_dead",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [
@@ -14,11 +14,11 @@
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_94b5f3bad73031",
+                    "name": "#dst_car_fire_frnt",
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_5eb690639ce50eba",
+                    "name": "#dst_car_fire",
                     "unk28": "tag_body_d0"
                 },
                 {

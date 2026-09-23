@@ -31,14 +31,14 @@ function __init__()
     clientfield::register( "actor", "hemera_proj_death", 16000, 1, "int", &function_ab086ad8, 0, 0 );
     clientfield::register( "actor", "" + #"hemera_beam_death", 16000, 1, "int", &function_3fd7be85, 0, 0 );
     level._effect[ #"hemera_shoot" ] = #"hash_520fd2427c5fcea3";
-    level._effect[ #"hash_b9d4268e0a3bccc" ] = #"hash_2de436091e3fa43c";
-    level._effect[ #"hash_ba44e68e0a9efde" ] = #"hash_2deb42091e45d74e";
+    level._effect[ #"hemera_proj_flash_1p" ] = #"hash_2de436091e3fa43c";
+    level._effect[ #"hemera_proj_flash_3p" ] = #"hash_2deb42091e45d74e";
     level._effect[ #"hemera_proj_death_head" ] = #"hash_57ff7c670774f7d";
-    level._effect[ #"hash_209c29b7e6706274" ] = #"hash_47fe9ffe78c83012";
-    level._effect[ #"hash_1c1dafe5ebd971f8" ] = #"hash_6400b8e89418b50e";
+    level._effect[ #"hemera_proj_death_torso" ] = #"hash_47fe9ffe78c83012";
+    level._effect[ #"hemera_proj_death_exp" ] = #"hash_6400b8e89418b50e";
     level._effect[ #"hemera_proj_impact" ] = #"hash_5493d96403f608c6";
-    level._effect[ #"hash_3115c2658b6e4e0" ] = #"hash_3b0b9cc4cdb70c89";
-    level._effect[ #"hash_318682658bd17f2" ] = #"hash_3b12a8c4cdbd3f9b";
+    level._effect[ #"hemera_beam_flash_1p" ] = #"hash_3b0b9cc4cdb70c89";
+    level._effect[ #"hemera_beam_flash_3p" ] = #"hash_3b12a8c4cdbd3f9b";
     level._effect[ #"hemera_beam_death" ] = #"hash_cb5ab216f90ba29";
 }
 
@@ -88,11 +88,11 @@ function function_ab086ad8( localclientnum, oldval, newval, bnewent, binitialsna
     {
         if ( isdefined( self gettagorigin( "j_spine4" ) ) )
         {
-            self.var_d3316606 = util::playfxontag( localclientnum, level._effect[ #"hash_209c29b7e6706274" ], self, "j_spine4" );
+            self.var_d3316606 = util::playfxontag( localclientnum, level._effect[ #"hemera_proj_death_torso" ], self, "j_spine4" );
         }
         else
         {
-            self.var_d3316606 = util::playfxontag( localclientnum, level._effect[ #"hash_209c29b7e6706274" ], self, zm_utility::function_467efa7b() );
+            self.var_d3316606 = util::playfxontag( localclientnum, level._effect[ #"hemera_proj_death_torso" ], self, zm_utility::function_467efa7b() );
         }
         
         if ( isdefined( self gettagorigin( "j_eyeball_le" ) ) )
@@ -122,11 +122,11 @@ function function_ab086ad8( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( isdefined( self gettagorigin( "j_spine4" ) ) )
         {
-            util::playfxontag( localclientnum, level._effect[ #"hash_1c1dafe5ebd971f8" ], self, "j_spine4" );
+            util::playfxontag( localclientnum, level._effect[ #"hemera_proj_death_exp" ], self, "j_spine4" );
             return;
         }
         
-        util::playfxontag( localclientnum, level._effect[ #"hash_1c1dafe5ebd971f8" ], self, zm_utility::function_467efa7b() );
+        util::playfxontag( localclientnum, level._effect[ #"hemera_proj_death_exp" ], self, zm_utility::function_467efa7b() );
     }
 }
 
@@ -171,7 +171,7 @@ function function_c6d1bdb0( localclientnum, oldval, newval, bnewent, binitialsna
         {
             if ( viewmodelhastag( localclientnum, "tag_flash" ) )
             {
-                playviewmodelfx( localclientnum, level._effect[ #"hash_b9d4268e0a3bccc" ], "tag_flash" );
+                playviewmodelfx( localclientnum, level._effect[ #"hemera_proj_flash_1p" ], "tag_flash" );
             }
             
             return;
@@ -179,7 +179,7 @@ function function_c6d1bdb0( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( isdefined( self gettagorigin( "tag_flash" ) ) )
         {
-            util::playfxontag( localclientnum, level._effect[ #"hash_ba44e68e0a9efde" ], self, "tag_flash" );
+            util::playfxontag( localclientnum, level._effect[ #"hemera_proj_flash_3p" ], self, "tag_flash" );
         }
     }
 }
@@ -217,7 +217,7 @@ function function_68e9fdbb( localclientnum, oldval, newval, bnewent, binitialsna
         {
             if ( viewmodelhastag( localclientnum, "tag_flash" ) )
             {
-                self.fx_muzzle_flash = playviewmodelfx( localclientnum, level._effect[ #"hash_3115c2658b6e4e0" ], "tag_flash" );
+                self.fx_muzzle_flash = playviewmodelfx( localclientnum, level._effect[ #"hemera_beam_flash_1p" ], "tag_flash" );
             }
             
             return;
@@ -225,7 +225,7 @@ function function_68e9fdbb( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( isdefined( self gettagorigin( "tag_flash" ) ) )
         {
-            self.fx_muzzle_flash = util::playfxontag( localclientnum, level._effect[ #"hash_318682658bd17f2" ], self, "tag_flash" );
+            self.fx_muzzle_flash = util::playfxontag( localclientnum, level._effect[ #"hemera_beam_flash_3p" ], self, "tag_flash" );
         }
     }
 }
@@ -256,7 +256,7 @@ function function_f1f34b1b( localclientnum )
         return;
     }
     
-    self notify( #"hash_3cbfa1076dfa868b" );
+    self notify( #"skull_turret_beam_end" );
     
     if ( isdefined( self.var_d559073 ) )
     {
@@ -288,7 +288,7 @@ function function_4662df7a( localclientnum, oldval, newval, bnewent, binitialsna
         return;
     }
     
-    self endon( #"death", #"hash_3cbfa1076dfa868b" );
+    self endon( #"death", #"skull_turret_beam_end" );
     
     if ( !isdefined( self.var_4cd8e6cb ) )
     {

@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_32034ec805413214",
+                            "anim": "anim#p8_fxanim_zm_man_ooze_clump_01_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_32034ec805413214",
+                            "anim": "anim#p8_fxanim_zm_man_ooze_clump_01_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -131,12 +131,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_5853acd72e8b52e7",
+            "model": "model#p8_fxanim_zm_man_ooze_clump_01_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -158,7 +158,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4c0eb997d9885df7",
+                            "anim": "anim#p8_fxanim_zm_man_ooze_clump_02_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -210,7 +210,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4c0eb997d9885df7",
+                            "anim": "anim#p8_fxanim_zm_man_ooze_clump_02_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -284,12 +284,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_357300c8cc0aa132",
+            "model": "model#p8_fxanim_zm_man_ooze_clump_02_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -311,7 +311,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_110cd1ae76d9624e",
+                            "anim": "anim#p8_fxanim_zm_man_ooze_clump_03_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -386,7 +386,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_110cd1ae76d9624e",
+                            "anim": "anim#p8_fxanim_zm_man_ooze_clump_03_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -437,12 +437,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_3c6f9e997e6cbf15",
+            "model": "model#p8_fxanim_zm_man_ooze_clump_03_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -556,7 +556,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4af37851c408abad",
+                            "anim": "anim#p8_fxanim_zm_man_forest_trail_01_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -584,12 +584,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_6d1c43d8b9909e38",
+            "model": "model#p8_fxanim_zm_man_forest_trail_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -704,7 +704,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5d12a01b69831cb6",
+                            "anim": "anim#p8_fxanim_zm_man_forest_trail_02_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -732,11 +732,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_6d1c43d8b9909e38",
+            "model": "model#p8_fxanim_zm_man_forest_trail_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -851,7 +851,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_54166eb9fb42891f",
+                            "anim": "anim#p8_fxanim_zm_man_forest_trail_03_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -879,11 +879,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_6d1c43d8b9909e38",
+            "model": "model#p8_fxanim_zm_man_forest_trail_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,

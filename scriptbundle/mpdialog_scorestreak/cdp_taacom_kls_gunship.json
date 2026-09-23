@@ -1,9 +1,9 @@
 {
-    "destroyed": "#hash_21da741c5fd36a1b",
-    "ready": "#hash_5b401783c8a19247",
+    "destroyed": "#vox_mta1_ult_gunship_destroyed",
+    "ready": "#vox_mta1_ult_gunship_ready",
     "configstringfiletype": "scriptbundle",
     "type": "mpdialog_scorestreak",
     "vmtype": "both",
     "name": "cdp_taacom_kls_gunship",
-    "timeoutconfirmed0": "#hash_53af49d37280f552"
+    "timeoutconfirmed0": "#vox_mta1_ult_gunship_time_00"
 }

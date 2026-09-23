@@ -1,0 +1,11 @@
+{
+    "name": "#gsol_mp_gear_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#gear_equipmentcharge_restriction",
+        "#gamesettings/#gear_medicalgun_restriction",
+        "#gamesettings/#gear_comsecdevice_restriction",
+        "#gamesettings/#gear_bodyarmor_restriction",
+        "#gamesettings/#gear_acousticsensor_restriction"
+    ]
+}

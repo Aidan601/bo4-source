@@ -389,11 +389,11 @@ function function_361e2cb0()
         player val::set( "end_game", "freezecontrols", 1 );
     }
     
-    playsoundatposition( #"hash_6a80142d79605bc6", ( 0, 0, 0 ) );
+    playsoundatposition( #"zmb_trials_success", ( 0, 0, 0 ) );
     zm_trial_util::set_game_state( 2 );
     level.var_7fe57c6b = 1;
     wait 3;
-    level notify( #"hash_4c09c9d01060d7ad" );
+    level notify( #"devgui_end_round_think" );
     level notify( #"end_game" );
 }
 
@@ -405,7 +405,7 @@ function function_18b797ec()
 {
     level flag::set( #"trial_failed" );
     level notify( #"end_round_think" );
-    playsoundatposition( #"hash_24ecb9cb90a831b7", ( 0, 0, 0 ) );
+    playsoundatposition( #"zmb_trials_fail", ( 0, 0, 0 ) );
     setmatchflag( "disableIngameMenu", 1 );
     
     foreach ( player in getplayers() )
@@ -418,7 +418,7 @@ function function_18b797ec()
     
     zm_trial_util::set_game_state( 3 );
     wait 3;
-    level notify( #"hash_4c09c9d01060d7ad" );
+    level notify( #"devgui_end_round_think" );
     level notify( #"end_game" );
 }
 
@@ -816,7 +816,7 @@ function private function_17b04fd7()
 // Params 0
 // Checksum 0xb371b243, Offset: 0x28c0
 // Size: 0x358
-function function_74872db6()
+function on_round_begin()
 {
     if ( !is_trial_mode() )
     {
@@ -834,7 +834,7 @@ function function_74872db6()
         return;
     }
     
-    playsoundatposition( #"hash_44cf63a367dbd4ff", ( 0, 0, 0 ) );
+    playsoundatposition( #"zmb_trials_round_begin", ( 0, 0, 0 ) );
     zm_trial_util::set_game_state( 0 );
     zm_trial_util::function_8cdbf9f0();
     zm_trial_util::function_96e10d88( 0 );
@@ -860,7 +860,7 @@ function function_74872db6()
         }
     }
     
-    level notify( #"hash_5d42d8ee7a08b543" );
+    level notify( #"trial_round_start" );
 }
 
 // Namespace zm_trial/zm_trial
@@ -874,8 +874,8 @@ function on_round_end()
         return;
     }
     
-    level notify( #"hash_7646638df88a3656" );
-    playsoundatposition( #"hash_351022f2dd6aba77", ( 0, 0, 0 ) );
+    level notify( #"trial_round_end" );
+    playsoundatposition( #"zmb_trials_round_end", ( 0, 0, 0 ) );
     assert( isdefined( level.var_d77a6967 ) );
     assert( isdefined( level.var_3dd975d5 ) );
     

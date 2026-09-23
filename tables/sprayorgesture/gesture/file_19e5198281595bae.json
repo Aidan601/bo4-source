@@ -1,12 +1,12 @@
 {
-    "name": "#hash_19e5198281595bae",
+    "name": "#loot_emote_shared_van_dance",
     "type": "#gesture",
-    "gesture": "#hash_7bd51c0bf9d0f6e4",
-    "gesture2": "#hash_62eb643b5b48d497",
+    "gesture": "#boast_van_dance",
+    "gesture2": "#boast_van_dance_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_3f1b4c2347307dda",
-        "icon": "image#hash_b0930f32140c10b",
+        "icon": "image#ui_icon_emotes_s2_van_dance",
         "isdefault": 0
     }
 }

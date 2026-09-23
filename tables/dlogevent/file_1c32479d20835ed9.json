@@ -1,5 +1,5 @@
 {
-    "name": "#hash_1c32479d20835ed9",
+    "name": "#dlog_event_breadcrumbs",
     "ddlDef": "#gamedata/ddl/generated/dlog_event_breadcrumbs.ddl",
     "unk18": 0,
     "unk19": 0,
@@ -42,7 +42,7 @@
         },
         {
             "name": "#sequence_num",
-            "scrName": "#hash_773a57ec",
+            "scrName": "#sequence_num",
             "type": "UINT32"
         },
         {

@@ -2,7 +2,7 @@
     "name": "#ww_hand_g_zm",
     "baseWeapon": "#ww_hand_g",
     "displayname": "#hash_5e7b4f837b6c6744",
-    "weapon50": "#hash_5998a631b4da4974",
+    "weapon50": "#ww_hand_g_charged_zm",
     "soundbank": "#ww_hand_g_soundbank",
     "worldModelTagRight": "tag_weapon_right",
     "worldModelTagLeft": "tag_weapon_left",

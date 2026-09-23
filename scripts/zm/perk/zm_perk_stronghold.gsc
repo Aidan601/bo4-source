@@ -49,7 +49,7 @@ function enable_stronghold_perk_for_level()
 {
     if ( function_8b1a219a() )
     {
-        zm_perks::register_perk_basic_info( #"specialty_camper", #"perk_stronghold", 2500, #"hash_cd87686e9c80e75", getweapon( "zombie_perk_bottle_stronghold" ), getweapon( "zombie_perk_totem_stronghold" ), #"zmperksstonecold" );
+        zm_perks::register_perk_basic_info( #"specialty_camper", #"perk_stronghold", 2500, #"zombie/perk_stronghold_keyboard", getweapon( "zombie_perk_bottle_stronghold" ), getweapon( "zombie_perk_totem_stronghold" ), #"zmperksstonecold" );
     }
     else
     {
@@ -97,7 +97,7 @@ function function_e03779ee()
 // Size: 0x44
 function function_356a31cb()
 {
-    clientfield::register( "toplayer", "" + #"hash_24e322568c9492c5", 1, 1, "int" );
+    clientfield::register( "toplayer", "" + #"perk_stronghold_circle", 1, 1, "int" );
 }
 
 // Namespace zm_perk_stronghold/zm_perk_stronghold
@@ -198,7 +198,7 @@ function function_7424eebb()
 // Size: 0x76
 function function_7b5fc171()
 {
-    self clientfield::set_to_player( "" + #"hash_24e322568c9492c5", 0 );
+    self clientfield::set_to_player( "" + #"perk_stronghold_circle", 0 );
     self zm_armor::remove( #"stronghold_armor", 1 );
     self.var_3748ec02 = undefined;
     self.var_807f94d7 = undefined;
@@ -218,7 +218,7 @@ function function_a84fcb78( var_3a553e99 )
     {
         self.var_7d0e99f3 = 1;
         self.var_3748ec02 = self.origin;
-        self clientfield::set_to_player( "" + #"hash_24e322568c9492c5", 1 );
+        self clientfield::set_to_player( "" + #"perk_stronghold_circle", 1 );
     }
     
     if ( var_3a553e99 % var_cf385861 == 0 )

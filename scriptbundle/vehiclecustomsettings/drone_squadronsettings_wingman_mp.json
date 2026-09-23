@@ -1,7 +1,7 @@
 {
     "lightgroups_1_slots": [
         {
-            "fx": "fx#hash_52eb37303494db28",
+            "fx": "fx#light/fx_light_veh_wasp_under",
             "tag": "tag_body"
         }
     ],
@@ -83,7 +83,7 @@
     "steptoenemysize": 40,
     "hash_43c4a17dfa26fd78:hash_74701269": 0,
     "name": "drone_squadronsettings_wingman_mp",
-    "hash_453d6d4a6ac04709:hash_e7260470": 65,
+    "vis_cone_angle": 65,
     "damagestate_lv1_numslots": 2,
     "rocketcooldown": 5,
     "targeting_radius": 200,

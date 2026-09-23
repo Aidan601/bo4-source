@@ -1,12 +1,12 @@
 {
     "name": "#loot_emote_shared_nay",
     "type": "#gesture",
-    "gesture": "#hash_738f836d3504129d",
-    "gesture2": "#hash_534278ff9280b376",
+    "gesture": "#boast_nay",
+    "gesture2": "#boast_nay_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_5a3359ebc5409174",
-        "icon": "image#hash_78b953bf5a49e7ea",
+        "title": "localized18#emotes/disapprove",
+        "icon": "image#ui_icon_emotes_s2_nay",
         "isdefault": 0
     }
 }

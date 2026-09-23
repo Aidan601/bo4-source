@@ -53,5 +53,5 @@ $black
 hash_6975c6bcd8735576
 hash_6975d3bcd8736b8d
 arasafe_core_common
-hash_1fabf82d64aae470
-hash_29eb44031d691bc3
+mc/mtl_c_t8_mp_spe_recon_samurai_decal4_com
+mc/mtl_c_t8_mp_spe_recon_samurai_decal5_com

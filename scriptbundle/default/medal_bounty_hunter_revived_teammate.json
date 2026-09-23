@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_bounty_hunter_revived_teammate",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_5b32eee4c37238eb",
+    "iconsmall": "image#ui_icon_medal_guardian_angel",
     "stringref": "localized17#hash_24b1f029252bde2a",
-    "iconlarge": "image#hash_3f5e81251f3ad9cb"
+    "iconlarge": "image#ui_icon_medal_guardian_angel_large"
 }

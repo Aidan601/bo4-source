@@ -1,4 +1,4 @@
-NAME script_67e37e63e177f107
+NAME scripts/core_common/vehicles/elephant_dust_ball.gsc
 VERSION 0
 CHECKSUM 0x606f8a1c
 ######################################################

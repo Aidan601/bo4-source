@@ -18,34 +18,34 @@ function init()
         return;
     }
     
-    clientfield::register( "scriptmover", "" + #"apollo_bowl_fx", 16000, 3, "int", &function_de1bffd6, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"tribute_flame_fx", 16000, 3, "int", &function_9ed71eeb, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"apollo_bowl_fx", 16000, 3, "int", &apollo_bowl_fx, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"tribute_flame_fx", 16000, 3, "int", &tribute_flame_fx, 0, 0 );
     clientfield::register( "scriptmover", "" + #"keyline_model", 16000, 1, "int", &keyline_model, 0, 0 );
     clientfield::register( "scriptmover", "" + #"pickup_glow", 16000, 1, "int", &pickup_glow, 0, 0 );
     clientfield::register( "scriptmover", "" + #"hash_8b48433c3fe40e4", 16000, 3, "int", &function_75ac8f21, 0, 0 );
-    clientfield::register( "toplayer", "" + #"hash_4bde11d71410ea67", 16000, 3, "int", &function_250bbf4e, 0, 0 );
+    clientfield::register( "toplayer", "" + #"highlight_players_tribute_bowl", 16000, 3, "int", &highlight_players_tribute_bowl, 0, 0 );
     clientfield::register( "world", "" + #"cleanup_challenges", 16000, 1, "int", &cleanup_challenges, 0, 0 );
     clientfield::register( "allplayers", "" + #"hash_47490b879090eb55", 16000, 3, "int", &function_840d5e0b, 0, 0 );
-    clientfield::register( "allplayers", "" + #"hash_7b1dd5c08e2585c", 16000, 3, "int", &function_c63a4f32, 0, 0 );
+    clientfield::register( "allplayers", "" + #"apollo_soul_capture_fx", 16000, 3, "int", &apollo_soul_capture_fx, 0, 0 );
     clientfield::register( "scriptmover", "" + #"rob_coals", 16000, 1, "int", &rob_coals, 0, 0 );
     level._effect[ #"hash_379eadfebd945316" ] = #"hash_556b5a8aa255768d";
     level._effect[ #"hash_3229d3874a037840" ] = #"hash_48053ee21dfed9c9";
     level._effect[ #"hash_31c3f08749acf655" ] = #"hash_482741e21e1bc548";
     level._effect[ #"hash_31c0cd8749aa8505" ] = #"hash_482b24e21e1f7cd8";
     level._effect[ #"hash_5f92f2e28c7ef455" ] = #"hash_13cf1738cd97717e";
-    level._effect[ #"brazier_fire_blue" ] = #"hash_487863cb3f012833";
-    level._effect[ #"brazier_fire_green" ] = #"hash_276c55785b205f4e";
-    level._effect[ #"hash_533608bb3b3407b6" ] = #"hash_4eff7803b81cd67d";
-    level._effect[ #"brazier_fire_purple" ] = #"hash_2a46ebc323110b3d";
-    level._effect[ #"hash_64a625f8e26e3699" ] = #"hash_79207c9d697f9e30";
-    level._effect[ #"hash_fa374812e6016c9" ][ 1 ] = #"hash_676d05725a4ffab9";
-    level._effect[ #"hash_eafc8632695ccef" ][ 1 ] = #"hash_511e23c849ed0926";
-    level._effect[ #"hash_fa374812e6016c9" ][ 2 ] = #"hash_5199aa40f704fb10";
-    level._effect[ #"hash_eafc8632695ccef" ][ 2 ] = #"hash_1dfbcfd9b38812ed";
-    level._effect[ #"hash_fa374812e6016c9" ][ 3 ] = #"hash_6bfc5d7fce6b2a4e";
+    level._effect[ #"brazier_fire_blue" ] = #"maps/zm_red/fx8_reward_brazier_fire_blue";
+    level._effect[ #"brazier_fire_green" ] = #"maps/zm_red/fx8_reward_brazier_fire_green";
+    level._effect[ #"brazier_fire_orange" ] = #"maps/zm_red/fx8_reward_brazier_fire_orange";
+    level._effect[ #"brazier_fire_purple" ] = #"maps/zm_red/fx8_reward_brazier_fire_purple";
+    level._effect[ #"brazier_fire_white" ] = #"maps/zm_red/fx8_reward_brazier_fire_white";
+    level._effect[ #"apollo_soul_capture" ][ 1 ] = #"maps/zm_red/fx8_soul_white";
+    level._effect[ #"hash_eafc8632695ccef" ][ 1 ] = #"maps/zm_red/fx8_soul_charge_white";
+    level._effect[ #"apollo_soul_capture" ][ 2 ] = #"maps/zm_red/fx8_soul_blue";
+    level._effect[ #"hash_eafc8632695ccef" ][ 2 ] = #"maps/zm_red/fx8_soul_charge_blue";
+    level._effect[ #"apollo_soul_capture" ][ 3 ] = #"maps/zm_red/fx8_soul_purple";
     level._effect[ #"hash_eafc8632695ccef" ][ 3 ] = #"maps/zm_red/fx8_soul_charge_purple";
-    level._effect[ #"hash_fa374812e6016c9" ][ 4 ] = #"hash_6cfbd6f08cfc2656";
-    level._effect[ #"hash_eafc8632695ccef" ][ 4 ] = #"hash_17bb97645fa8148b";
+    level._effect[ #"apollo_soul_capture" ][ 4 ] = #"maps/zm_red/fx8_soul_orange";
+    level._effect[ #"hash_eafc8632695ccef" ][ 4 ] = #"maps/zm_red/fx8_soul_charge_orange";
     level._effect[ #"pickup_glow" ] = #"zm_weapons/fx8_cymbal_monkey_light";
     zm_red_challenges_rewards::init();
     level.var_7987392b = undefined;
@@ -55,7 +55,7 @@ function init()
 // Params 7
 // Checksum 0xd7687222, Offset: 0x8b0
 // Size: 0x392
-function function_de1bffd6( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function apollo_bowl_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( isdefined( self.var_36f175fc ) )
     {
@@ -106,7 +106,7 @@ function function_de1bffd6( localclientnum, oldval, newval, bnewent, binitialsna
         var_ff01f974 = 4;
     }
     
-    self playsound( localclientnum, #"hash_4b301fe401c4f18" );
+    self playsound( localclientnum, #"zmb_challenges_apollo_ignite" );
     self.var_b7c1fb99 = self playloopsound( #"hash_6143f452bc746a62" + var_ff01f974 );
 }
 
@@ -114,7 +114,7 @@ function function_de1bffd6( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0x45a316c5, Offset: 0xc50
 // Size: 0x342
-function function_9ed71eeb( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function tribute_flame_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( isdefined( self.var_9c32107c ) )
     {
@@ -133,7 +133,7 @@ function function_9ed71eeb( localclientnum, oldval, newval, bnewent, binitialsna
         case 0:
             break;
         case 1:
-            self.var_9c32107c = playfx( localclientnum, level._effect[ #"hash_64a625f8e26e3699" ], v_pos, v_up, v_forward );
+            self.var_9c32107c = playfx( localclientnum, level._effect[ #"brazier_fire_white" ], v_pos, v_up, v_forward );
             break;
         case 2:
             self.var_9c32107c = playfx( localclientnum, level._effect[ #"brazier_fire_blue" ], v_pos, v_up, v_forward );
@@ -142,7 +142,7 @@ function function_9ed71eeb( localclientnum, oldval, newval, bnewent, binitialsna
             self.var_9c32107c = playfx( localclientnum, level._effect[ #"brazier_fire_purple" ], v_pos, v_up, v_forward );
             break;
         case 4:
-            self.var_9c32107c = playfx( localclientnum, level._effect[ #"hash_533608bb3b3407b6" ], v_pos, v_up, v_forward );
+            self.var_9c32107c = playfx( localclientnum, level._effect[ #"brazier_fire_orange" ], v_pos, v_up, v_forward );
             break;
     }
     
@@ -160,8 +160,8 @@ function function_9ed71eeb( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( !isdefined( self.var_b10399e ) )
     {
-        self playsound( localclientnum, #"hash_6845d8009f05e81c" );
-        self.var_b10399e = self playloopsound( #"hash_205cc527b5726b4d" );
+        self playsound( localclientnum, #"zmb_challenges_tribute_ignite" );
+        self.var_b10399e = self playloopsound( #"zmb_challenges_tribute_ignite_lp" );
     }
 }
 
@@ -236,7 +236,7 @@ function function_3298ba0( n_index )
 // Params 7
 // Checksum 0x5d95ac41, Offset: 0x1220
 // Size: 0xa4
-function function_250bbf4e( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function highlight_players_tribute_bowl( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( function_65b9eb0f( localclientnum ) )
     {
@@ -285,7 +285,7 @@ function function_840d5e0b( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xa8423505, Offset: 0x1428
 // Size: 0x2c4
-function function_c63a4f32( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
+function apollo_soul_capture_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
     self endon( #"death" );
     
@@ -308,7 +308,7 @@ function function_c63a4f32( localclientnum, oldval, newval, bnewent, binitialsna
         e_fx setmodel( #"tag_origin" );
         e_fx playsound( localclientnum, "zmb_sq_souls_release" );
         e_fx.sfx_id = e_fx playloopsound( #"zmb_sq_souls_lp" );
-        util::playfxontag( localclientnum, level._effect[ #"hash_fa374812e6016c9" ][ n_index ], e_fx, "tag_origin" );
+        util::playfxontag( localclientnum, level._effect[ #"apollo_soul_capture" ][ n_index ], e_fx, "tag_origin" );
         wait 0.3;
         s_target = struct::get( "s_apollo_challenge_fx_loc", "targetname" );
         power = distance( e_fx.origin, s_target.origin );
@@ -352,7 +352,7 @@ function rob_coals( localclientnum, oldval, newval, bnewent, binitialsnap, field
         return;
     }
     
-    self notify( #"hash_6bc81dae92c4902e" );
+    self notify( #"stop_rob_coals" );
     self thread function_23333a90();
 }
 
@@ -362,7 +362,7 @@ function rob_coals( localclientnum, oldval, newval, bnewent, binitialsnap, field
 // Size: 0x1c8
 function function_4eff20ff()
 {
-    self endon( #"death", #"hash_6bc81dae92c4902e" );
+    self endon( #"death", #"stop_rob_coals" );
     self playrenderoverridebundle( "rob_zm_red_cin_coals" );
     level.var_75ca8fda = 0;
     level.var_6437d5e7 = 0.002;

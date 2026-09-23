@@ -2224,7 +2224,7 @@
         },
         {
             "name": "#hash_15cd626e901abac3",
-            "description": "#hash_306b830f800bbecd",
+            "description": "#playlist/warzone_ambush_solo",
             "unique_name": "#hash_713baa4055ed0f7",
             "visibleProfileVar": "#hash_72642ac141d2411d",
             "lobbyMainMode": "WARZONE",
@@ -2387,7 +2387,7 @@
         },
         {
             "name": "#hash_6f5809d6ed6fce5d",
-            "description": "#hash_366500dad22a6515",
+            "description": "#playlist/warzone_deposit",
             "unique_name": "#hash_badf3ac0863dbf",
             "visibleProfileVar": "#hash_72642ac141d2411d",
             "lobbyMainMode": "WARZONE",
@@ -2629,7 +2629,7 @@
                 },
                 {
                     "type": "GAMETYPE_SETTINGS",
-                    "name": "#hash_6eb44149a8ac6dd1",
+                    "name": "#wzenablevehicledrops",
                     "value": "0",
                     "platformMask": 7,
                     "environmentMask": 7,
@@ -2637,7 +2637,7 @@
                     "utcEndTime": 0,
                     "unk40": [
                         {
-                            "unk0": "#hash_6eb44149a8ac6dd1",
+                            "unk0": "#wzenablevehicledrops",
                             "unk10": 0
                         }
                     ]
@@ -8324,7 +8324,7 @@
         },
         {
             "name": "#entry_wz_core_prod_heavy_metal_heroes",
-            "description": "#hash_2378f1a47f1c20f9",
+            "description": "#playlist/warzone_heavy_metal_heroes",
             "unique_name": "#hash_5e55315d8c6b64d3",
             "visibleProfileVar": "#hash_72642ac141d2411d",
             "lobbyMainMode": "WARZONE",
@@ -9360,7 +9360,7 @@
         },
         {
             "name": "#hash_14d49a9c9df502e0",
-            "description": "#hash_7d1bc284429bc243",
+            "description": "#playlist/warzone_hardcore_solo",
             "unique_name": "#hash_5afab0294b5284d5",
             "visibleProfileVar": "#hash_72642ac141d2411d",
             "lobbyMainMode": "WARZONE",

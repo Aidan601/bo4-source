@@ -23,7 +23,7 @@ ui_icon_weapon_melee_spork_render
 ui_icon_obit_sniper_damagesemi
 hash_84da802709040108
 ui_icon_weapon_sniper_fastrechamber_tactical_render
-hash_5badc60c6d95c6c
+ui_icon_weapon_hud_water_balloon
 ui_icon_weapon_hud_smg_capacity_tactical_wz
 ui_icon_weapon_hud_melee_action_figure
 ui_icon_weapon_hud_smg_accurate
@@ -34,7 +34,7 @@ hash_87546155c51fc54a
 ui_icon_obit_warmachine
 ui_icon_weapon_smg_standard_render
 hash_87b8f03895d6b802
-hash_7e7dc31ca4df9c7
+ui_icon_inventory_squadlink
 ui_icon_obit_dart
 hash_88637c16265c5e31
 ui_icon_weapon_hud_ar_modular_tactical_wz
@@ -135,7 +135,7 @@ hash_99029668077f56dc
 ui_icon_weapon_ray_gun_mk2_render
 icons_hud_ultimates_blade_dark
 ui_icon_weapon_special_crossbow_render
-hash_1ab72676e090d843
+ui_icon_inventory_cu_cap_sunglasses
 hash_1acb135199df2094
 ui_icon_weapon_hud_tr_longburst
 ui_icon_obit_smg_vmp
@@ -191,7 +191,7 @@ hash_a876f66e57b1d961
 ui_icon_weapons_zm_sniperquickscope
 ui_icon_obit_tr_longburst
 ui_icon_weapon_melee_zombie_arm_render
-hash_2891841bfac41904
+ui_icon_inventory_paranoia
 hash_a89e123d6715d8f0
 ui_icon_obit_shotgun_pump
 ui_icon_weapons_zm_armodular
@@ -308,7 +308,7 @@ ui_icon_weapon_hud_ray_gun_mk2x
 hash_c1724879cb7e03b5
 hash_c19aa17c2e3e1d16
 ui_icon_weapon_ar_fastfire_view
-hash_423f39a67d2653fa
+ui_icon_inventory_hat_tanker
 ui_icon_weapon_hud_melee_demohammer
 hash_c25a037a3bfdbb79
 ui_icon_weapon_hud_smg_handling_tactical_wz
@@ -343,7 +343,7 @@ ui_icon_equipment_drone_hawk
 hash_c7277fb08627166c
 ui_icon_blackmarket_reserves_smg_vmp
 ui_icon_weapon_tr_flechette_mk2_render
-hash_4824549ef2376a1a
+ui_icon_inventory_ironlungs
 ui_icon_attachment_laser
 ui_icon_weapon_ar_an94_render
 loot_03_ui_icon_blackmarket_stream_tr_longburst_mk2
@@ -377,7 +377,7 @@ hash_ced56fda4e5b69ab
 ui_icon_attachment_recon
 ui_icon_weapon_ray_gun_mk2z_render
 hash_cf3d3362ed625cc8
-hash_4f7427259f34215f
+ui_icon_inventory_consumer
 ui_icon_weapon_hud_sniper_powerbolt_wz
 ui_icon_inventory_hatchet
 hash_cfd3ede5dcc78c34
@@ -557,7 +557,7 @@ ui_icon_weapon_ar_accurate_sig_01_render
 ui_icon_weapon_ar_standard_render
 ui_icon_weapons_zm_shotgunpump
 hash_f29c03af307e0af2
-hash_72a85c9b46e9c864
+ui_icon_inventory_stimulant
 loot04_ui_icon_blackmarket_reserves_weapon_pistol_burst
 ui_icon_weapon_hud_smg_folding_tactical_wz
 ui_icon_weapon_ar_peacekeeper_render
@@ -627,7 +627,7 @@ hash_280e30c1437557f5
 scripts/wz_common/wz_ee_motd_plane.gsc
 scripts/wz_common/wz_loot_homunculus.gsc
 scripts/wz_common/wz_ee_zombie_bathtub.gsc
-hash_52491ccedf6f3e8d
+scripts/wz_common/wz_escape_fixup_alt.gsc
 scripts/wz_common/wz_nixie_tubes.gsc
 scripts/wz_common/wz_ai_avogadro.csc
 scripts/core_common/ai/archetype_avogadro.csc
@@ -638,7 +638,7 @@ scripts/wz_common/wz_fishing.csc
 scripts/wz_common/wz_ai_zombie_dog.csc
 scripts/wz_common/wz_ee_zombie_bathtub.csc
 scripts/wz_common/wz_loot_homunculus.csc
-hash_2e5d70cecabaee01
+scripts/wz_common/wz_escape_fixup_alt.csc
 hash_3b584c12e643589
 scripts/wz_common/wz_nixie_tubes.csc
 4k_wz_escape_alt

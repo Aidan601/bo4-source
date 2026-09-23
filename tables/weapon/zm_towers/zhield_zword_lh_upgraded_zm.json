@@ -2,7 +2,7 @@
     "name": "#zhield_zword_lh_upgraded_zm",
     "baseWeapon": "#zhield_zword_lh_upgraded",
     "displayname": "#weapon/sig_buckler_dw",
-    "dualwieldWeaponName": "#hash_7fcc9f73649d03f7",
+    "dualwieldWeaponName": "#zhield_zword_dw_upgraded_zm",
     "soundbank": "#zhield_zword_lh_upgraded_soundbank",
     "scrstr_8d8": [
         "tag_ik_loc_le_dw"
@@ -32,16 +32,16 @@
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
     "sound660": "#uin_unavailable_charging",
-    "tunables1": "#hash_1a0cc82812603d7d",
-    "sharedWeaponSounds": "#hash_7ed5a8a63848a4a8",
+    "tunables1": "#zhield_zword_lh_tunables_upgraded_zm",
+    "sharedWeaponSounds": "#zhield_towers_shield",
     "viewmodel": [
-        "#hash_224e95c98368dd46"
+        "#wpn_t8_zm_tower_shield_bull_lvl2_view"
     ],
     "worldModel": [
-        "#hash_4223616c6451bb89"
+        "#wpn_t8_zm_tower_shield_bull_lvl2_world"
     ],
     "stowedmodel": [
-        "#hash_4223616c6451bb89"
+        "#wpn_t8_zm_tower_shield_bull_lvl2_world"
     ],
     "reticleSide": "#reticle_side_round",
     "inventoryIconZm": "#hash_b8d988b1e53e3509",
@@ -49,10 +49,10 @@
     "fireRumble": "#defaultweapon_fire",
     "#hash_21329beb": [
         {
-            "model": "#hash_727ce05b59a016ff"
+            "model": "#wpn_t8_zm_tower_shield_bull_lvl2_d1_world"
         },
         {
-            "model": "#hash_4138a4e9f2ce6832"
+            "model": "#wpn_t8_zm_tower_shield_bull_lvl2_d2_world"
         }
     ]
 }

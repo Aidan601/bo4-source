@@ -2,7 +2,7 @@
     "name": "#spork_alcatraz_wz",
     "baseWeapon": "#spork_alcatraz",
     "displayname": "#zmweapon/spork_knife",
-    "xhash_60": "#hash_2b3feba25bb2e7f8",
+    "xhash_60": "#au_spork_alcatraz",
     "soundbank": "#spork_alcatraz_soundbank",
     "worldModelTagRight": "tag_weapon_right",
     "worldModelTagLeft": "tag_weapon_left",
@@ -33,11 +33,11 @@
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_175536a2e7fa7e1b"
+        "#au_spork_alcatraz_none"
     ],
     "sharedWeaponSounds": "#knife_zm_spork",
     "viewmodel": [
-        "#hash_43932e200f42a519"
+        "#wpn_t8_wz_spork_view"
     ],
     "worldModel": [
         "#wpn_t8_zm_spork_world"

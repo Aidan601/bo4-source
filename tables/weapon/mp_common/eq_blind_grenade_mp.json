@@ -29,7 +29,7 @@
     "#hash_554be9f7": false,
     "firesound": "#wpn_grenade_throw",
     "firesoundplayer": "#wpn_grenade_throw",
-    "gadgetreadysoundplayer": "#hash_6f5b79a1a69b43a8",
+    "gadgetreadysoundplayer": "#uin_equip_notify",
     "sound660": "#uin_unavailable_charging",
     "projexplosionsound": "#wpn_flash_grenade_explode",
     "tunables1": "#eq_blind_grenade_tunables_mp",
@@ -67,7 +67,7 @@
     "inventoryIconZm": "#t7_hud_icon_menu_flash_pu",
     "hudIcon": "#t7_hud_mp_inventory_flashbang",
     "image_e90": "#t7_hud_icon_menu_flash_kf",
-    "fx_ed8": "#hash_156c040d319f3398",
+    "fx_ed8": "#explosions/fx8_exp_grenade_flshbng",
     "bounceImpactFX": "#grenade_bounce",
     "bounceImpactSounds": "#flash_bounce"
 }

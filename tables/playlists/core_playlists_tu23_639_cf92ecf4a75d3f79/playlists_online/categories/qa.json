@@ -3341,7 +3341,7 @@
         },
         {
             "name": "#hash_3c0331f13a6766de",
-            "description": "#hash_772c0eca6afe73df",
+            "description": "#playlist/warzone_weapons_test",
             "unique_name": "#hash_e2871bfa7c93671",
             "visibleProfileVar": "#hash_72642ac141d2411d",
             "lobbyMainMode": "WARZONE",
@@ -3433,7 +3433,7 @@
                 },
                 {
                     "type": "SET_DVAR",
-                    "name": "#hash_574abad326242b33",
+                    "name": "#scr_wzaar_dev",
                     "value": "0",
                     "platformMask": 7,
                     "environmentMask": 7,

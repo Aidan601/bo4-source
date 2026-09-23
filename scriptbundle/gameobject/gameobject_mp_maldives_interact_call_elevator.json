@@ -15,7 +15,7 @@
     "objective_carrier_speed_fast": 1,
     "objective_allow_weapons": 0,
     "support_carrier_speed_normal": 1,
-    "hash_339462c65f3ac107:hash_ce7dda5f": "none",
+    "str_vo_type": "none",
     "support_userate_scaler": 1,
     "objective_userate_scaler": 1,
     "hash_428c76b72c0c628f:hash_559e6e9f": 0,
@@ -31,7 +31,7 @@
     "slayer_allow_weapons": 0,
     "slayer_carrier_speed_normal": 1,
     "objective_carrier_speed_slow": 1,
-    "objective": "objective#hash_6cdc62e83235d743",
+    "objective": "objective#mp_maldives_interact_call_elevator",
     "str_tag": "tag_origin",
     "n_trigger_use_time": 0.04
 }

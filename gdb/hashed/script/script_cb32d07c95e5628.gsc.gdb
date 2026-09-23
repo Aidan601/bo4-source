@@ -1,4 +1,4 @@
-NAME script_cb32d07c95e5628
+NAME scripts/mp_common/item_spawn_groups_util.gsc
 VERSION 0
 CHECKSUM 0xb8518022
 ######################################################

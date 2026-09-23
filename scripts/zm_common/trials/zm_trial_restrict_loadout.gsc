@@ -122,7 +122,7 @@ function private is_melee_allowed( weapon )
         return true;
     }
     
-    if ( ( challenge.loadout_type == "any_pistol" || challenge.loadout_type == #"hash_7416cabf26f52c5f" ) && isdefined( weapon.isriotshield ) && weapon.isriotshield && weapon.weapclass == "pistol" )
+    if ( ( challenge.loadout_type == "any_pistol" || challenge.loadout_type == #"any_pistol_no_upgrades" ) && isdefined( weapon.isriotshield ) && weapon.isriotshield && weapon.weapclass == "pistol" )
     {
         return false;
     }
@@ -253,7 +253,7 @@ function private function_10c80e10( eventstruct )
 // Params 1, eflags: 0x4
 // Checksum 0xaa5c0ee8, Offset: 0xe68
 // Size: 0x24
-function private function_33f0ddd3( eventstruct )
+function private on_player_loadout_changed( eventstruct )
 {
     self thread function_6a8979c9();
 }
@@ -335,18 +335,18 @@ function private on_begin( loadout_type, var_f5300808 )
             var_fda63ae3 = function_f1dd7bf8( array( "pistol_standard_t8", "pistol_burst_t8", "pistol_revolver_t8" ) );
             level zm_trial::function_25ee130( 1 );
             break;
-        case #"hash_7416cabf26f52c5f":
+        case #"any_pistol_no_upgrades":
             allowed_weapons = zm_weapons::function_ed29dde5( "pistol", 0, 1 );
             allowed_weapons = arraycombine( allowed_weapons, array( #"ww_random_ray_gun1", #"ww_random_ray_gun2", #"ww_random_ray_gun2_charged", #"ww_random_ray_gun3", #"ww_random_ray_gun3_charged", #"ray_gun" ), 0, 0 );
             var_fda63ae3 = function_f1dd7bf8( array( "pistol_standard_t8", "pistol_burst_t8", "pistol_revolver_t8" ) );
             level zm_trial::function_25ee130( 1 );
             break;
-        case #"hash_14468aadde60f9e1":
+        case #"any_smg_no_upgrades":
             allowed_weapons = zm_weapons::function_ed29dde5( "smg", 0, 1 );
             var_fda63ae3 = function_f1dd7bf8( array( "smg_fastfire_t8", "smg_handling_t8", "smg_drum_pistol_t8", "smg_standard_t8", "smg_accurate_t8" ) );
             level zm_trial::function_25ee130( 1 );
             break;
-        case #"hash_2d7ec445ba288abf":
+        case #"any_ar_no_upgrades":
             allowed_weapons = zm_weapons::function_ed29dde5( "ar", 0, 1 );
             var_fda63ae3 = function_f1dd7bf8( array( "ar_accurate_t8", "ar_damage_t8", "ar_fastfire_t8", "ar_galil_t8", "ar_mg1909_t8", "ar_modular_t8", "ar_standard_t8", "ar_stealth_t8" ) );
             level zm_trial::function_25ee130( 1 );
@@ -362,7 +362,7 @@ function private on_begin( loadout_type, var_f5300808 )
             var_fda63ae3 = function_f1dd7bf8( array( "sniper_quickscope_t8", "sniper_fastrechamber_t8", "sniper_powerbolt_t8", "sniper_powersemi_t8" ) );
             level zm_trial::function_25ee130( 1 );
             break;
-        case #"hash_54d4bc51239254b8":
+        case #"any_lmg_no_upgrades":
             allowed_weapons = zm_weapons::function_ed29dde5( "lmg", 0, 1 );
             var_fda63ae3 = function_f1dd7bf8( array( "lmg_double_t8", "lmg_heavy_t8", "lmg_spray_t8", "lmg_standard_t8" ) );
             level zm_trial::function_25ee130( 1 );
@@ -477,13 +477,13 @@ function private on_begin( loadout_type, var_f5300808 )
             }
             
             player enableoffhandweapons();
-            callback::function_33f0ddd3( &function_10c80e10 );
+            callback::on_player_loadout_changed( &function_10c80e10 );
         }
     }
     
-    callback::function_33f0ddd3( &function_33f0ddd3 );
+    callback::on_player_loadout_changed( &on_player_loadout_changed );
     callback::on_weapon_change( &zm_trial_util::function_79518194 );
-    zm_traps::function_6966417b();
+    zm_traps::disable_all_traps();
     self function_e20ebcfd();
     
     if ( isdefined( var_fda63ae3 ) )
@@ -539,7 +539,7 @@ function private on_end( round_reset )
     }
     
     level.b_special_weapons = undefined;
-    callback::function_824d206( &function_33f0ddd3 );
+    callback::function_824d206( &on_player_loadout_changed );
     callback::remove_on_weapon_change( &zm_trial_util::function_79518194 );
     challenge = zm_trial::function_a36e8c38( #"restrict_loadout" );
     
@@ -771,7 +771,7 @@ function private function_f3fdd8f7()
 function private monitor_objective( challenge )
 {
     self endon( #"disconnect" );
-    level endon( #"hash_7646638df88a3656" );
+    level endon( #"trial_round_end" );
     assert( isarray( challenge.a_n_objective_ids ), "<dev string:x56>" );
     
     foreach ( n_objective_id in challenge.a_n_objective_ids )

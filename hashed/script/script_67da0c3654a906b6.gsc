@@ -88,7 +88,7 @@ function is_active()
 function private movement_watcher( var_93fc795f, var_98de1f93 )
 {
     self endon( #"disconnect" );
-    level endon( #"hash_7646638df88a3656" );
+    level endon( #"trial_round_end" );
     
     while ( true )
     {
@@ -121,7 +121,7 @@ function private movement_watcher( var_93fc795f, var_98de1f93 )
 // Size: 0x94
 function private function_6b13a114( var_93fc795f, var_a7c52900 )
 {
-    self playsoundtoplayer( #"hash_6df374d848ba6a60", self );
+    self playsoundtoplayer( #"zmb_player_health_drain", self );
     
     if ( var_93fc795f === "health" )
     {
@@ -206,7 +206,7 @@ function private function_26f124d8()
 function private function_9c988cd8( var_93fc795f, var_98de1f93, var_e898f976 = 0 )
 {
     self endon( #"disconnect" );
-    level endon( #"hash_7646638df88a3656" );
+    level endon( #"trial_round_end" );
     
     if ( !var_e898f976 )
     {

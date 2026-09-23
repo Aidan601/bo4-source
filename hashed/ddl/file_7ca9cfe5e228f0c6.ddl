@@ -17,15 +17,15 @@ version 9 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 3 size 0xc0
     struct client_header {
         // offset 0x0, size 0x40
-        uint64 hash_4016bed15f9183f7;
+        uint64 user_session_id;
         // offset 0x40, size 0x40
         uint64 uno_id;
         // offset 0x80, size 0x40
@@ -81,9 +81,9 @@ version 9 {
     // offset 0xd80, size 0xc0
     string(24) chatmodeteam;
     // offset 0xe40, size 0xc0
-    string(24) hash_54c88672dfdcc78a;
+    string(24) toggleads_throw;
     // offset 0xf00, size 0xc0
-    string(24) hash_6a928eea40351a0f;
+    string(24) vehicleattacksecond;
     // offset 0xfc0, size 0xc0
     string(24) chatmodepublic;
     // offset 0x1080, size 0xc0
@@ -123,7 +123,7 @@ version 9 {
     // offset 0x1dc0, size 0xc0
     string(24) toggleinventory;
     // offset 0x1e80, size 0xc0
-    string(24) hash_127574968f6ab5b;
+    string(24) vehiclemoveup;
     // offset 0x1f40, size 0xc0
     string(24) togglescores;
     // offset 0x2000, size 0xc0
@@ -151,15 +151,15 @@ version 9 {
     // offset 0x2840, size 0xc0
     string(24) inventory;
     // offset 0x2900, size 0xc0
-    string(24) hash_78aca37c35c46b25;
+    string(24) vehicleseat1;
     // offset 0x29c0, size 0xc0
-    string(24) hash_78aca07c35c4660c;
+    string(24) vehicleseat2;
     // offset 0x2a80, size 0xc0
-    string(24) hash_78aca17c35c467bf;
+    string(24) vehicleseat3;
     // offset 0x2b40, size 0xc0
-    string(24) hash_78ac9e7c35c462a6;
+    string(24) vehicleseat4;
     // offset 0x2c00, size 0xc0
-    string(24) hash_78ac9f7c35c46459;
+    string(24) vehicleseat5;
     // offset 0x2cc0, size 0xc0
     string(24) chooseclass_10;
     // offset 0x2d80, size 0xc0
@@ -171,7 +171,7 @@ version 9 {
     // offset 0x2fc0, size 0xc0
     string(24) activate;
     // offset 0x3080, size 0xc0
-    string(24) hash_38860be8fb273455;
+    string(24) breath_holdsprint;
     // offset 0x3140, size 0xc0
     string(24) chooseclass_1;
     // offset 0x3200, size 0xc0
@@ -195,7 +195,7 @@ version 9 {
     // offset 0x38c0, size 0xc0
     client_header client;
     // offset 0x3980, size 0xc0
-    string(24) hash_4fca6732aca41b2e;
+    string(24) vehiclemovedown;
     // offset 0x3a40, size 0xc0
     string(24) holdbreath;
     // offset 0x3b00, size 0xc0
@@ -205,7 +205,7 @@ version 9 {
     // offset 0x3c80, size 0xc0
     string(24) lookup;
     // offset 0x3d40, size 0xc0
-    string(24) hash_5d0b479ede0393d4;
+    string(24) spraygesturewheel;
     // offset 0x3e00, size 0xc0
     string(24) mantle;
     // offset 0x3ec0, size 0xc0

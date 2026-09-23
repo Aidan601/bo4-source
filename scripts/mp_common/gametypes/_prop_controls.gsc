@@ -1006,7 +1006,7 @@ function get_ground_normal( traceignore, debug )
     
     tracepoints = array( self.origin );
     
-    if ( getdvarint( #"hash_32aee631b4444f90", 1 ) )
+    if ( getdvarint( #"scr_ph_useboundsforgroundnormal", 1 ) )
     {
         i = -1;
         

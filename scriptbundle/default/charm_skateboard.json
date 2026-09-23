@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_skateboard",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_skateboard",
     "name": "charm_skateboard",
-    "displayname": "localized17#hash_2756f0f9821f7e91",
+    "displayname": "localized17#menu/charm_skateboard",
     "icon": "ui_icon_weapon_charms_skateboard",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_skateboard"

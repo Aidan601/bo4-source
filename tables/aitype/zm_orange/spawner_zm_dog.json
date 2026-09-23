@@ -18,7 +18,7 @@
         "#c_zom_der_hellhound"
     ],
     "animMappingTables": [
-        "#hash_5c4ace24eae59e42"
+        "#zm_dog.ai_am"
     ],
     "meleeWeapon": "#dog_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
@@ -26,9 +26,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_5c4ec524eae977ce",
-    "animStateMachine": "#hash_388a93bb2402d5af",
-    "animSelectorTable": "#hash_388a8abb2402c664",
+    "behaviorTree": "#zm_dog.ai_bt",
+    "animStateMachine": "#zm_dog.ai_asm",
+    "animSelectorTable": "#zm_dog.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_zombie_dog_settings",

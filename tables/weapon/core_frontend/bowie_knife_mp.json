@@ -33,15 +33,15 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "tunables1": "#bowie_knife_tunables_mp",
-    "weaponCamo": "#hash_511c3f983cd01165",
+    "weaponCamo": "#camo_t8_zm_bowie_knife",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_638c7357797a4107"
+        "#au_bowie_knife_none"
     ],
     "sharedWeaponSounds": "#bowie",
     "viewmodel": [

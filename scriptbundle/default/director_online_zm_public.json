@@ -13,7 +13,7 @@
     "menumusic": "lobby_zm",
     "room": "zm_online",
     "maxlaunchclients": 4,
-    "kicker": "localized17#hash_69818a6a90daf973",
+    "kicker": "localized17#mpui/public_match_lobby",
     "isadvertised": 1,
     "maxclients": 4,
     "name": "director_online_zm_public",

@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4114d6ce3151b93c",
+                            "anim": "anim#p8_fxanim_zm_towers_banner_achievement_init_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -38,7 +38,7 @@
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_36469f71371a7d60",
+                            "anim": "anim#p8_fxanim_zm_towers_banner_achievement_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -67,12 +67,12 @@
             ],
             "nospawn": 1,
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_1db2ca3b4a27c669",
+            "model": "model#p8_fxanim_zm_towers_banner_achievement_blue_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -94,7 +94,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5b2073b2c63f9e93",
+                            "anim": "anim#p8_fxanim_zm_towers_banner_achievement_rope_init_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -123,7 +123,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_291963619cb23cdf",
+                            "anim": "anim#p8_fxanim_zm_towers_banner_achievement_rope_cut_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -151,12 +151,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_3e9501a0ab7bc225",
+            "model": "model#p8_fxanim_zm_towers_banner_achievement_rope_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

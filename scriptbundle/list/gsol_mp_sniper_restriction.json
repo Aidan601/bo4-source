@@ -1,0 +1,10 @@
+{
+    "name": "#gsol_mp_sniper_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#sniper_fastrechamber_restriction",
+        "#gamesettings/#sniper_powerbolt_restriction",
+        "#gamesettings/#sniper_powersemi_restriction",
+        "#gamesettings/#sniper_quickscope_restriction"
+    ]
+}

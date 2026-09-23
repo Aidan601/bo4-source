@@ -17,18 +17,18 @@
                 "#prt_wz_soldier_land_male",
                 "#prt_wz_soldier_sea_male",
                 "#prt_wz_soldier_seal_female",
-                "#hash_76ccdd2bfc985ae8",
+                "#prt_wz_reaper_bo3",
                 "#prt_wz_spectre",
                 "#prt_mp_spectre",
                 "#prt_mp_reaper",
-                "#hash_76cce42bfc9866cd"
+                "#prt_wz_reaper_bo4"
             ]
         }
     ],
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_2ab8834587f07ad3",
-        "icon": "image#hash_735fef17faa20ad5",
+        "title": "localized18#emotes/cheers",
+        "icon": "image#ui_icon_emotes_heres_to_you",
         "isdefault": 0
     }
 }

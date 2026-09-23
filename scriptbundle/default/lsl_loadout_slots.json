@@ -2,7 +2,7 @@
     "entries": [
         {
             "key": "herogadget",
-            "value": "localized17#hash_60a0bc550c54bd42"
+            "value": "localized17#mpui/loadoutslot_herogadget"
         },
         {
             "key": "killStreak1",
@@ -10,15 +10,15 @@
         },
         {
             "key": "primary",
-            "value": "localized17#hash_7b484d92443361d8"
+            "value": "localized17#mpui/loadoutslot_primary"
         },
         {
             "key": "primarygrenade",
-            "value": "localized17#hash_2da102a6853690e6"
+            "value": "localized17#mpui/loadoutslot_primarygrenade"
         },
         {
             "key": "secondary",
-            "value": "localized17#hash_6bb44c71d0f6b5c8"
+            "value": "localized17#mpui/loadoutslot_secondary"
         },
         {
             "key": "specialty",
@@ -42,7 +42,7 @@
         },
         {
             "key": "tacticalgear",
-            "value": "localized17#hash_305e03714ee77fc"
+            "value": "localized17#mpui/loadoutslot_tacticalgear"
         },
         {
             "key": "bonuscard",

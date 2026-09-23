@@ -70,7 +70,7 @@ function private on_localplayer_connect( localclientnum )
 function private finalize_clientfields( localclientnum )
 {
     clientfield::register( "world", "ZMHudGlobal.trials.trialIndex", 1, getminbitcountfornum( 15 ), "int", &function_741dae5b, 0, 0 );
-    clientfield::register( "toplayer", "" + #"hash_6536ca4fb2858a9f", 16000, 1, "int", &function_ff287922, 0, 0 );
+    clientfield::register( "toplayer", "" + #"zm_trial_invert_controls", 16000, 1, "int", &function_ff287922, 0, 0 );
     clientfield::register( "worlduimodel", "ZMHudGlobal.trials.roundNumber", 1, getminbitcountfornum( 30 ), "int", &function_88806df3, 0, 0 );
     clientfield::register( "worlduimodel", "ZMHudGlobal.trials.roundSuccess", 1, getminbitcountfornum( 1 ), "int", undefined, 0, 0 );
     clientfield::register( "worlduimodel", "ZMHudGlobal.trials.strikes", 1, getminbitcountfornum( 3 ), "int", undefined, 0, 0 );
@@ -161,7 +161,7 @@ function private function_686840b2( localclientnum, oldval, newval, bnewent, bin
     if ( level.var_a2859227 != 0 )
     {
         waittillframeend();
-        level notify( #"hash_7646638df88a3656" );
+        level notify( #"trial_round_end" );
     }
 }
 
@@ -226,7 +226,7 @@ function private on_challenge_end( local_client_num )
 {
     if ( isdefined( level.var_1420e3f6 ) )
     {
-        level notify( #"hash_7646638df88a3656" );
+        level notify( #"trial_round_end" );
         
         for ( i = 0; i < level.var_1420e3f6.challenges.size ; i++ )
         {
@@ -285,6 +285,6 @@ function function_97444b02( localclientnum )
     }
     
     level.var_e7295382 zm_trial_weapon_locked::function_1e74977( localclientnum );
-    self playsound( localclientnum, #"hash_17c7895c4b5180ce" );
+    self playsound( localclientnum, #"zmb_weapon_unavailable" );
 }
 

@@ -1,4 +1,4 @@
-#using script_5f9141e04e4e94a2;
+#using scripts\zm\zm_white_ww_quest_mk2y;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\flag_shared;
@@ -242,7 +242,7 @@ function function_ec34b5ee( alias )
         level.var_e356155f = 1;
         level function_2389bb7a( alias );
         level.var_e356155f = 0;
-        level notify( #"hash_62d5ef9902abf374" );
+        level notify( #"computer_done_speaking" );
     }
 }
 
@@ -667,7 +667,7 @@ function function_d1ca61a7()
     {
         if ( w_take == w_give )
         {
-            e_player zm_weapons::function_7c5dd4bd( w_give );
+            e_player zm_weapons::give_full_ammo( w_give );
             b_give_weapon = 0;
         }
         else
@@ -751,13 +751,13 @@ function function_c05cc102( s_params )
     
     if ( isdefined( s_params.projectile ) && s_waitresult._notify == "death" )
     {
-        level notify( #"hash_3042a9bf2f57ea0a", { #attacker:self, #var_814c9389:s_params.projectile.origin } );
+        level notify( #"wraith_fire_impact", { #attacker:self, #var_814c9389:s_params.projectile.origin } );
         return;
     }
     
     if ( s_waitresult._notify == "projectile_impact_explode" )
     {
-        level notify( #"hash_3042a9bf2f57ea0a", { #attacker:self, #var_814c9389:s_waitresult.position } );
+        level notify( #"wraith_fire_impact", { #attacker:self, #var_814c9389:s_waitresult.position } );
     }
 }
 

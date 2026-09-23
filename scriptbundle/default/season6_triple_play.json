@@ -1,10 +1,10 @@
 {
-    "buttonimage": "image#hash_48082a6c64b880ca",
-    "popupimage": "image#hash_5ca0556edc05406",
+    "buttonimage": "image#ui_icon_blackmarket_promos_silvera_button_small",
+    "popupimage": "image#ui_icon_blackmarket_promos_silvera_large_preview",
     "nametext": "localized17#hash_1cba159f28b3f3b8",
     "categorytext": "localized17#hash_30951b5b7749b8df",
     "name": "season6_triple_play",
     "desctext": "localized17#hash_4bbe0196ec220754",
-    "previewimage": "image#hash_ca043918f41b2ff",
-    "reserveimage": "image#hash_510d8cebc477c2c6"
+    "previewimage": "image#ui_icon_blackmarket_promos_silvera_item_detail",
+    "reserveimage": "image#ui_icon_blackmarket_promos_silvera_button_large"
 }

@@ -17,8 +17,8 @@
     "purchaseprompt": "localized18#hash_13d352a4dc034d94",
     "repairprompt": "localized18#hash_73e375f5926af646",
     "postcraft": "persistent_buy",
-    "hash_64869b7d451b2fbe:hash_abd9b2d0": "localized18#hash_1f1cd13cd89469bf",
+    "purchasepromptfree": "localized18#hash_1f1cd13cd89469bf",
     "componentcount": 3,
-    "hash_6d856d2f8b4a5911:hash_c028dcfe": 1,
+    "firstonefree": 1,
     "inventorysection": "section_shield"
 }

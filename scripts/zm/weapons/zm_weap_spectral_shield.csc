@@ -37,7 +37,7 @@ function __init__()
     clientfield::register( "vehicle", "" + #"zombie_spectral_key_stun", 1, n_bits, "int", &function_b570d455, 0, 0 );
     clientfield::register( "scriptmover", "" + #"zombie_spectral_key_stun", 1, n_bits, "int", &function_b570d455, 0, 0 );
     clientfield::register( "scriptmover", "" + #"spectral_key_essence", 1, 1, "int", &function_5655dc55, 0, 0 );
-    clientfield::register( "allplayers", "" + #"hash_7663ae2eb866d2eb", 1, 1, "counter", &function_50119cc1, 0, 0 );
+    clientfield::register( "allplayers", "" + #"spectral_key_absorb", 1, 1, "counter", &spectral_key_absorb, 0, 0 );
     clientfield::register( "allplayers", "" + #"spectral_key_charging", 1, 2, "int", &function_36c349d0, 0, 0 );
     clientfield::register( "allplayers", "" + #"spectral_shield_blast", 1, 1, "counter", &function_6b58c030, 0, 0 );
     clientfield::register( "scriptmover", "" + #"shield_crafting_fx", 1, 1, "counter", &shield_crafting_fx, 0, 0 );
@@ -48,20 +48,20 @@ function __init__()
     level._effect[ #"spectral_key_muzzle_flash1p_idle" ] = #"hash_74f3e07770b3c780";
     level._effect[ #"spectral_key_muzzle_flash3p_idle" ] = #"hash_74faec7770b9fa92";
     level._effect[ #"hash_5a834a39ce281cef" ] = #"hash_42b1e9abdde1d678";
-    level._effect[ #"hash_6ca5cf8a3ac2254a" ] = #"hash_6894b23015ff2626";
-    level._effect[ #"hash_5e08e3b80445f6d7" ] = #"hash_db890f21c0af009";
-    level._effect[ #"hash_5e01d7b8043fc3c5" ] = #"hash_dbf9cf21c11231b";
+    level._effect[ #"hash_6ca5cf8a3ac2254a" ] = #"maps/zm_escape/fx8_glow_eye_blue";
+    level._effect[ #"spectral_key_charging_1p" ] = #"hash_db890f21c0af009";
+    level._effect[ #"spectral_key_charging_3p" ] = #"hash_dbf9cf21c11231b";
     level._effect[ #"hash_3ae08d08271270d6" ] = #"hash_35b66c4bdba4f1a8";
     level._effect[ #"hash_3ad9a108270c7424" ] = #"hash_35bd784bdbab24ba";
-    level._effect[ #"hash_4a41e8484e30822e" ] = #"hash_55a201e66dbc23d3";
-    level._effect[ #"hash_4a3bdc484e2c021c" ] = #"hash_559b15e66db62721";
+    level._effect[ #"hash_4a41e8484e30822e" ] = #"maps/zm_escape/fx8_shield_glow_1p";
+    level._effect[ #"hash_4a3bdc484e2c021c" ] = #"maps/zm_escape/fx8_shield_glow_3p";
     level._effect[ #"hash_29b0420a85baa71b" ] = #"hash_4a8de7cdf2716f1b";
     level._effect[ #"hash_28b1c64bd72686eb" ] = #"hash_5e46c3cecd080eeb";
     level._effect[ #"hash_a64dd624f3d5eff" ] = #"hash_3a4825045da5aa1f";
     level._effect[ #"hash_a5ef1624f39154d" ] = #"hash_3a4139045d9fad6d";
     level._effect[ #"air_blast" ] = #"hash_70630dd76a790b4";
-    level._effect[ #"hash_3757ad652a2b0e54" ] = #"hash_382d55804b58cfcb";
-    level._effect[ #"shield_crafting" ] = #"hash_1e261e7fd620ac9e";
+    level._effect[ #"hash_3757ad652a2b0e54" ] = #"zm_weapons/fx8_spectral_shield_light_3p";
+    level._effect[ #"shield_crafting" ] = #"maps/zm_escape/fx8_shield_crafting";
     level._effect[ #"spectral_heal" ] = #"zombie/fx_bgb_near_death_3p";
 }
 
@@ -340,11 +340,11 @@ function function_a950c92c( localclientnum )
     while ( true )
     {
         level.var_443d1164 = undefined;
-        s_result = level waittill( #"hash_73ff8d0d706c332d", #"hash_527d9fdde8903b80" );
+        s_result = level waittill( #"set_beam_target", #"clear_beam_target" );
         level.var_443d1164 = 1;
         self function_4700b6cd( localclientnum );
         
-        if ( s_result._notify === #"hash_73ff8d0d706c332d" && s_result.e_attacker === self && isdefined( s_result.e_target ) )
+        if ( s_result._notify === #"set_beam_target" && s_result.e_attacker === self && isdefined( s_result.e_target ) )
         {
             var_3da509de = s_result.e_target;
             self thread function_5ab769d8( localclientnum );
@@ -373,7 +373,7 @@ function function_4700b6cd( localclientnum )
         return;
     }
     
-    self notify( #"hash_4ea2d9a0f785e09b" );
+    self notify( #"spectral_key_beam_end" );
     
     if ( isdefined( self.var_3e52c79e[ localclientnum ] ) )
     {
@@ -406,7 +406,7 @@ function function_848179f5( localclientnum )
         return;
     }
     
-    self endon( #"death", #"hash_4ea2d9a0f785e09b" );
+    self endon( #"death", #"spectral_key_beam_end" );
     
     if ( !isdefined( self.var_4cd8e6cb ) )
     {
@@ -428,7 +428,7 @@ function function_64148d8e( localclientnum )
         return;
     }
     
-    self endon( #"death", #"hash_4ea2d9a0f785e09b" );
+    self endon( #"death", #"spectral_key_beam_end" );
     wait 0.5;
     
     if ( isdefined( self ) && isdefined( self.var_4cd8e6cb ) )
@@ -450,7 +450,7 @@ function function_28291f40( localclientnum, e_target )
         return;
     }
     
-    self endon( #"death", #"hash_4ea2d9a0f785e09b" );
+    self endon( #"death", #"spectral_key_beam_end" );
     
     if ( !isdefined( self.var_4cd8e6cb ) )
     {
@@ -506,7 +506,7 @@ function function_f9a03171( localclientnum, oldval, newval, bnewent, binitialsna
     {
         if ( !e_player util::function_50ed1561( localclientnum ) )
         {
-            e_player notify( #"hash_52e05d0e2370536d" );
+            e_player notify( #"stop_shield_flash_fx" );
         }
     }
     
@@ -530,7 +530,7 @@ function function_f9a03171( localclientnum, oldval, newval, bnewent, binitialsna
         {
             if ( !e_player util::function_50ed1561( localclientnum ) )
             {
-                e_player thread zm_utility::function_ae3780f1( localclientnum, self.fx_muzzle_flash[ localclientnum ], #"hash_52e05d0e2370536d" );
+                e_player thread zm_utility::function_ae3780f1( localclientnum, self.fx_muzzle_flash[ localclientnum ], #"stop_shield_flash_fx" );
             }
         }
         
@@ -557,7 +557,7 @@ function function_f9a03171( localclientnum, oldval, newval, bnewent, binitialsna
         {
             if ( !e_player util::function_50ed1561( localclientnum ) )
             {
-                e_player thread zm_utility::function_ae3780f1( localclientnum, self.fx_muzzle_flash[ localclientnum ], #"hash_52e05d0e2370536d" );
+                e_player thread zm_utility::function_ae3780f1( localclientnum, self.fx_muzzle_flash[ localclientnum ], #"stop_shield_flash_fx" );
             }
         }
     }
@@ -616,7 +616,7 @@ function private function_5ab769d8( localclientnum )
     }
     
     self notify( #"hash_360be32d770a6eb2" );
-    self endon( #"death", #"hash_360be32d770a6eb2", #"hash_4ea2d9a0f785e09b" );
+    self endon( #"death", #"hash_360be32d770a6eb2", #"spectral_key_beam_end" );
     self playrumbleonentity( localclientnum, "zm_weap_scepter_ray_hit_rumble" );
     wait 0.5;
     
@@ -700,7 +700,7 @@ function function_b570d455( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( !isdefined( self.var_3415a5d7 ) )
     {
-        self.var_3415a5d7 = self playloopsound( #"hash_4c803bdbf30dd7fc" );
+        self.var_3415a5d7 = self playloopsound( #"wpn_spectral_key_lasso" );
     }
     
     level thread function_3dec76cb( localclientnum, self, e_attacker, 1 );
@@ -729,7 +729,7 @@ function function_3dec76cb( localclientnum, e_target, e_attacker, var_19f39a16 =
     
     if ( var_19f39a16 )
     {
-        level notify( #"hash_73ff8d0d706c332d", { #e_target:e_target, #e_attacker:e_attacker } );
+        level notify( #"set_beam_target", { #e_target:e_target, #e_attacker:e_attacker } );
         
         if ( e_target.archetype === #"zombie_dog" )
         {
@@ -739,12 +739,12 @@ function function_3dec76cb( localclientnum, e_target, e_attacker, var_19f39a16 =
         return;
     }
     
-    level notify( #"hash_527d9fdde8903b80", { #e_target:e_target, #e_attacker:e_attacker } );
+    level notify( #"clear_beam_target", { #e_target:e_target, #e_attacker:e_attacker } );
     
     if ( isdefined( e_target ) && !isalive( e_target ) && e_target.archetype === #"zombie" )
     {
         util::playfxontag( localclientnum, level._effect[ #"hash_28b1c64bd72686eb" ], e_target, "j_spinelower" );
-        playsound( localclientnum, #"hash_5eb0bbabfbde1ce8", e_target.origin );
+        playsound( localclientnum, #"wpn_spectral_key_soul_suck", e_target.origin );
     }
 }
 
@@ -765,11 +765,11 @@ function function_9c08e4b6( localclientnum, e_target, e_attacker )
         waitframe( 1 );
     }
     
-    level notify( #"hash_527d9fdde8903b80", { #e_target:e_target, #e_attacker:e_attacker } );
+    level notify( #"clear_beam_target", { #e_target:e_target, #e_attacker:e_attacker } );
     
     if ( !isalive( e_target ) && isdefined( var_545d6c28 ) )
     {
-        playsound( localclientnum, #"hash_5eb0bbabfbde1ce8", var_545d6c28 );
+        playsound( localclientnum, #"wpn_spectral_key_soul_suck", var_545d6c28 );
     }
 }
 
@@ -851,12 +851,12 @@ function function_36c349d0( localclientnum, oldval, newval, bnewent, binitialsna
     {
         if ( self zm_utility::function_f8796df3( localclientnum ) )
         {
-            self.var_2a2f2afa[ localclientnum ] = playviewmodelfx( localclientnum, level._effect[ #"hash_5e08e3b80445f6d7" ], "tag_flash" );
+            self.var_2a2f2afa[ localclientnum ] = playviewmodelfx( localclientnum, level._effect[ #"spectral_key_charging_1p" ], "tag_flash" );
             self playrenderoverridebundle( "rob_key_charging", "tag_weapon_right" );
         }
         else
         {
-            self.var_2a2f2afa[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"hash_5e01d7b8043fc3c5" ], self, "tag_flash" );
+            self.var_2a2f2afa[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"spectral_key_charging_3p" ], self, "tag_flash" );
         }
         
         self thread function_7203304d( localclientnum );
@@ -919,7 +919,7 @@ function function_7203304d( localclientnum )
 // Params 7
 // Checksum 0xedaedea6, Offset: 0x3220
 // Size: 0x11c
-function function_50119cc1( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function spectral_key_absorb( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( !function_98890cd8( self.weapon ) )
     {

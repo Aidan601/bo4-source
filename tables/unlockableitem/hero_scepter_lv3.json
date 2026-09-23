@@ -2,7 +2,7 @@
     "name": "#hero_scepter_lv3",
     "nameStr": "",
     "displayName": "#zmweapon/hero_scepter",
-    "description": "#hash_7e342cb8f8f569ec",
+    "description": "#zmweapon/hero_scepter_desc",
     "refHash": "#hash_b5924e3c",
     "previewImage": "#hash_d028021160596cc",
     "zmPreviewImage": "#ui_icon_equpiment_zm_rastaff_lv3_dark",
@@ -26,22 +26,22 @@
             {
                 "stagedisplayname": "localized17#hash_3034df36fd3201b9",
                 "stagedescription": "localized17#hash_4f3201489095f493",
-                "hash_6f8fdb4ecf60c2fe:hash_3618d112": "#hero_scepter_lv1"
+                "stageunlockableitem": "#hero_scepter_lv1"
             },
             {
                 "stagedisplayname": "localized17#hash_3034dc36fd31fca0",
                 "stagedescription": "localized17#hash_4e7a4ebac031d668",
-                "hash_6f8fdb4ecf60c2fe:hash_3618d112": "#hero_scepter_lv2"
+                "stageunlockableitem": "#hero_scepter_lv2"
             },
             {
                 "stagedisplayname": "localized17#hash_3034dd36fd31fe53",
                 "stagedescription": "localized17#hash_2e3c934c22a30305",
-                "hash_6f8fdb4ecf60c2fe:hash_3618d112": "#hero_scepter_lv3"
+                "stageunlockableitem": "#hero_scepter_lv3"
             }
         ],
         "hash_72dde61f5350e2c:hash_781a480e": 0,
         "hash_72de161f5351345:hash_d4b00140": 1,
-        "unequipsound": "#hash_58cf7a81be5ea28e",
+        "unequipsound": "#uin_cac_wpn_remove",
         "sortindex": 0,
         "bgbcamoindex": 1,
         "hash_1a9c48738bfe4409:hash_d1d9a14f": 0,
@@ -54,9 +54,9 @@
         "talismanrarity": 0,
         "hash_52616a8f1602bb4b:hash_fe242d4b": 0,
         "bgbrarity": 0,
-        "hash_574c7ec1a4019f56:hash_c874ab9e": 0,
-        "hash_62dc0ff35042f577:hash_3f2c4d2f": 0,
-        "equipsound": "#hash_61d2f373ce8e0a26",
+        "isupgradeavailable": 0,
+        "bgblimittype": 0,
+        "equipsound": "#uin_zcac_wpn_scepter",
         "sortindexzm": 13,
         "hash_6c190a0450674b42:hash_4d850f47": 0,
         "talismantype": 0

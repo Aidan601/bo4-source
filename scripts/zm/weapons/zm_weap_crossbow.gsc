@@ -47,7 +47,7 @@ function __init__()
     clientfield::register( "actor", "" + #"hash_690509b9a2ec2ef3", 1, 2, "int" );
     clientfield::register( "allplayers", "" + #"hash_290836b72f987780", 1, 1, "int" );
     clientfield::register( "allplayers", "" + #"hash_faa2f4808c12f8d", 1, 1, "int" );
-    clientfield::register( "allplayers", "" + #"hash_6c3560ab45e186ec", 1, 1, "counter" );
+    clientfield::register( "allplayers", "" + #"crossbow_fire_tail_fx", 1, 1, "counter" );
     clientfield::register( "allplayers", "" + #"crossbow_persistent_fx", 1, 1, "int" );
     callback::on_ai_damage( &function_615d8c38 );
     callback::on_connect( &function_39ffd9fc );
@@ -183,7 +183,7 @@ function crossbow_weapon_change( params )
     if ( is_crossbow( params.weapon ) && !is_crossbow_charged( params.weapon ) )
     {
         self clientfield::set( "" + #"crossbow_persistent_fx", 1 );
-        self thread function_7157628d();
+        self thread crossbow_persistent_fx();
         return;
     }
     
@@ -194,7 +194,7 @@ function crossbow_weapon_change( params )
 // Params 0
 // Checksum 0x7a4ed718, Offset: 0xe78
 // Size: 0x2e8
-function function_7157628d()
+function crossbow_persistent_fx()
 {
     self notify( "6e0a9e3b0455824" );
     self endon( "6e0a9e3b0455824" );
@@ -299,7 +299,7 @@ function function_615d8c38( params )
         return;
     }
     
-    self notify( #"hash_2fb2eddfa6a0ef3f" );
+    self notify( #"stop_grapple_attempt" );
     var_59d5af75 = self gettagorigin( "j_knee_le" );
     
     if ( isdefined( params.einflictor ) && params.shitloc === "none" && isdefined( var_59d5af75 ) )
@@ -1053,7 +1053,7 @@ function function_62d37304( weapon )
     
     if ( is_crossbow_charged( weapon, self ) )
     {
-        self clientfield::increment( "" + #"hash_6c3560ab45e186ec" );
+        self clientfield::increment( "" + #"crossbow_fire_tail_fx" );
     }
     
     if ( level flagsys::get( #"hash_cad6742c753621" ) )

@@ -10,7 +10,7 @@ hash_ed0e5ff109f50f2d
 hash_833832cd9511a3ad
 hash_8cda48ac7d89fde8
 hash_a6e394f6ac10475f
-hash_5848dd9d5569515d
+mc/lit#77c50d67
 hash_1e9161b28c7ae6b5
 hash_60a5bd12739ffe70
 hash_368b7fd12ed5c59d
@@ -72,7 +72,7 @@ hash_7b5f10fec9bc5954
 hash_3527c5e33dd67dcb
 hash_3527c5e33dd67dcb
 hash_dc620bec3ab6c90d
-hash_737c0eb68bc5aebf
+mc/lit_micro_tile_mix#9080e2c9
 hash_7de9056dd110b955
 hash_7c7f9c7bba8323f6
 hash_43f3cf9cf898099d
@@ -163,7 +163,7 @@ jpsafe_wz_escape
 mc/mtl_c_t8_zmb_mob_zombie_body1_leftleg_patch
 mc/mtl_c_t8_zmb_male_torso1
 mc/mtl_c_t8_zmb_male_head1
-hash_36098ce735f374bc
+mc/mtl_p8_zm_chaos_strands_base_01_smooth
 mc/mtl_c_t8_zmb_male_arms1
 mc/mtl_p8_zm_chaos_mount_02
 mc/mtl_c_t8_zmb_mob_zombie_body1_rightleg_patch

@@ -123,7 +123,7 @@ function electric_switch()
                 {
                     case #"elec_switch":
                         break;
-                    case #"hash_47bde376753a03c9":
+                    case #"zm_esc_pwr_switch":
                         break;
                     case #"artifact_mind":
                         break;
@@ -149,7 +149,7 @@ function electric_switch()
                 case #"elec_switch":
                     if ( function_8b1a219a() )
                     {
-                        self sethintstring( #"hash_5c4125d53451e888" );
+                        self sethintstring( #"zombie/electric_switch_keyboard" );
                     }
                     else
                     {
@@ -157,10 +157,10 @@ function electric_switch()
                     }
                     
                     break;
-                case #"hash_47bde376753a03c9":
+                case #"zm_esc_pwr_switch":
                     if ( function_8b1a219a() )
                     {
-                        self sethintstring( #"hash_5c4125d53451e888" );
+                        self sethintstring( #"zombie/electric_switch_keyboard" );
                     }
                     else
                     {
@@ -173,11 +173,11 @@ function electric_switch()
                     
                     if ( function_8b1a219a() )
                     {
-                        self sethintstring( #"hash_10cc78ab5ba5a7f2" );
+                        self sethintstring( #"zm_zodt8/artifact_mind_keyboard" );
                     }
                     else
                     {
-                        self sethintstring( #"hash_60e4802baafefe56" );
+                        self sethintstring( #"zm_zodt8/artifact_mind" );
                     }
                     
                     break;
@@ -212,7 +212,7 @@ function electric_switch()
                 case #"elec_switch":
                     elec_switch_on( master_switch, fx_pos );
                     break;
-                case #"hash_47bde376753a03c9":
+                case #"zm_esc_pwr_switch":
                     function_9d9892d2( master_switch );
                     break;
                 case #"artifact_mind":
@@ -245,7 +245,7 @@ function electric_switch()
             switch ( master_switch.script_noteworthy )
             {
                 case #"elec_switch":
-                    self sethintstring( #"hash_3071a199ee6ad7a6" );
+                    self sethintstring( #"zombie/electric_switch_off" );
                     break;
             }
         }
@@ -325,7 +325,7 @@ function function_9d9892d2( master_switch )
 // Size: 0x48
 function artifact_mind_on( master_switch, fx_pos, user )
 {
-    level notify( #"hash_3e80d503318a5674", { #player:user } );
+    level notify( #"artifact_picked_up", { #player:user } );
 }
 
 // Namespace zm_power/zm_power

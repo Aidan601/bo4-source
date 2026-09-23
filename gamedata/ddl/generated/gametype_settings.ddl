@@ -49,7 +49,7 @@ version 86 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -105,7 +105,7 @@ version 86 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -147,7 +147,7 @@ version 86 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -155,7 +155,7 @@ version 86 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -211,7 +211,7 @@ version 86 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -219,13 +219,13 @@ version 86 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2310
@@ -233,11 +233,11 @@ version 86 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1a40
         hash_768aeb6b928320d outfit_breadcrumbs[35];
         // offset 0x1a50, size 0x8c0
-        characteroutfit hash_e5c77948998e49[35];
+        characteroutfit selectedoutfititems[35];
     };
 
     // idx 15 members 4 size 0x58
@@ -257,7 +257,7 @@ version 86 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -349,7 +349,7 @@ version 86 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -371,7 +371,7 @@ version 86 {
         // offset 0x43c0, size 0x3d5c0
         character characters[28];
         // offset 0x41980, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x421f0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x42d80, size 0x500
@@ -487,7 +487,7 @@ version 86 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -583,15 +583,15 @@ version 86 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -647,15 +647,15 @@ version 86 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -665,7 +665,7 @@ version 86 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -705,7 +705,7 @@ version 86 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -735,7 +735,7 @@ version 86 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -759,7 +759,7 @@ version 86 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -785,7 +785,7 @@ version 86 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -805,7 +805,7 @@ version 86 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -875,13 +875,13 @@ version 86 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -909,7 +909,7 @@ version 86 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -967,7 +967,7 @@ version 86 {
         // offset 0xe8dd, size 0x1
         bool oldschoolmode;
         // offset 0xe8de, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8df, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8e0, size 0x1
@@ -979,7 +979,7 @@ version 86 {
         // offset 0xe8e3, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e4, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e5, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e6, size 0x1
@@ -1027,7 +1027,7 @@ version 86 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -1055,7 +1055,7 @@ version 86 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -1110,7 +1110,7 @@ version 85 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -1166,7 +1166,7 @@ version 85 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -1208,7 +1208,7 @@ version 85 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -1216,7 +1216,7 @@ version 85 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -1272,7 +1272,7 @@ version 85 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -1280,13 +1280,13 @@ version 85 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2310
@@ -1294,11 +1294,11 @@ version 85 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1a40
         hash_768aeb6b928320d outfit_breadcrumbs[35];
         // offset 0x1a50, size 0x8c0
-        characteroutfit hash_e5c77948998e49[35];
+        characteroutfit selectedoutfititems[35];
     };
 
     // idx 15 members 4 size 0x58
@@ -1318,7 +1318,7 @@ version 85 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -1410,7 +1410,7 @@ version 85 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -1432,7 +1432,7 @@ version 85 {
         // offset 0x43c0, size 0x34980
         character characters[24];
         // offset 0x38d40, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x395b0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x3a140, size 0x500
@@ -1548,7 +1548,7 @@ version 85 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -1644,15 +1644,15 @@ version 85 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -1708,15 +1708,15 @@ version 85 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -1726,7 +1726,7 @@ version 85 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -1766,7 +1766,7 @@ version 85 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -1796,7 +1796,7 @@ version 85 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -1820,7 +1820,7 @@ version 85 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -1846,7 +1846,7 @@ version 85 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -1866,7 +1866,7 @@ version 85 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -1936,13 +1936,13 @@ version 85 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -1970,7 +1970,7 @@ version 85 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -2028,7 +2028,7 @@ version 85 {
         // offset 0xe8dd, size 0x1
         bool oldschoolmode;
         // offset 0xe8de, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8df, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8e0, size 0x1
@@ -2040,7 +2040,7 @@ version 85 {
         // offset 0xe8e3, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e4, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e5, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e6, size 0x1
@@ -2088,7 +2088,7 @@ version 85 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -2116,7 +2116,7 @@ version 85 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -2171,7 +2171,7 @@ version 84 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -2227,7 +2227,7 @@ version 84 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -2269,7 +2269,7 @@ version 84 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -2277,7 +2277,7 @@ version 84 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -2333,7 +2333,7 @@ version 84 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -2341,13 +2341,13 @@ version 84 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -2355,11 +2355,11 @@ version 84 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -2379,7 +2379,7 @@ version 84 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -2471,7 +2471,7 @@ version 84 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -2493,7 +2493,7 @@ version 84 {
         // offset 0x43c0, size 0x30180
         character characters[24];
         // offset 0x34540, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x34db0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x35940, size 0x500
@@ -2609,7 +2609,7 @@ version 84 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -2705,15 +2705,15 @@ version 84 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -2769,15 +2769,15 @@ version 84 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -2787,7 +2787,7 @@ version 84 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -2827,7 +2827,7 @@ version 84 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -2857,7 +2857,7 @@ version 84 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -2881,7 +2881,7 @@ version 84 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -2907,7 +2907,7 @@ version 84 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -2927,7 +2927,7 @@ version 84 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -2997,13 +2997,13 @@ version 84 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -3031,7 +3031,7 @@ version 84 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -3089,7 +3089,7 @@ version 84 {
         // offset 0xe8dd, size 0x1
         bool oldschoolmode;
         // offset 0xe8de, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8df, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8e0, size 0x1
@@ -3101,7 +3101,7 @@ version 84 {
         // offset 0xe8e3, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e4, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e5, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e6, size 0x1
@@ -3149,7 +3149,7 @@ version 84 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -3177,7 +3177,7 @@ version 84 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -3232,7 +3232,7 @@ version 83 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -3288,7 +3288,7 @@ version 83 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -3330,7 +3330,7 @@ version 83 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -3338,7 +3338,7 @@ version 83 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -3394,7 +3394,7 @@ version 83 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -3402,13 +3402,13 @@ version 83 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -3416,11 +3416,11 @@ version 83 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -3440,7 +3440,7 @@ version 83 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -3532,7 +3532,7 @@ version 83 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -3554,7 +3554,7 @@ version 83 {
         // offset 0x43c0, size 0x30180
         character characters[24];
         // offset 0x34540, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x34db0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x35940, size 0x500
@@ -3670,7 +3670,7 @@ version 83 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -3766,15 +3766,15 @@ version 83 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -3830,15 +3830,15 @@ version 83 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -3848,7 +3848,7 @@ version 83 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -3888,7 +3888,7 @@ version 83 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -3918,7 +3918,7 @@ version 83 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -3942,7 +3942,7 @@ version 83 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -3968,7 +3968,7 @@ version 83 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -3988,7 +3988,7 @@ version 83 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -4058,13 +4058,13 @@ version 83 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -4092,7 +4092,7 @@ version 83 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -4150,7 +4150,7 @@ version 83 {
         // offset 0xe8dd, size 0x1
         bool oldschoolmode;
         // offset 0xe8de, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8df, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8e0, size 0x1
@@ -4162,7 +4162,7 @@ version 83 {
         // offset 0xe8e3, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e4, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e5, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e6, size 0x1
@@ -4210,7 +4210,7 @@ version 83 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -4238,7 +4238,7 @@ version 83 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -4293,7 +4293,7 @@ version 82 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -4349,7 +4349,7 @@ version 82 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -4391,7 +4391,7 @@ version 82 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -4399,7 +4399,7 @@ version 82 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -4455,7 +4455,7 @@ version 82 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -4463,13 +4463,13 @@ version 82 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -4477,11 +4477,11 @@ version 82 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -4501,7 +4501,7 @@ version 82 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -4593,7 +4593,7 @@ version 82 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -4615,7 +4615,7 @@ version 82 {
         // offset 0x43c0, size 0x30180
         character characters[24];
         // offset 0x34540, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x34db0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x35940, size 0x500
@@ -4731,7 +4731,7 @@ version 82 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -4827,15 +4827,15 @@ version 82 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -4891,15 +4891,15 @@ version 82 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -4909,7 +4909,7 @@ version 82 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -4949,7 +4949,7 @@ version 82 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -4979,7 +4979,7 @@ version 82 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -5003,7 +5003,7 @@ version 82 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -5029,7 +5029,7 @@ version 82 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -5049,7 +5049,7 @@ version 82 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -5119,13 +5119,13 @@ version 82 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -5153,7 +5153,7 @@ version 82 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -5209,7 +5209,7 @@ version 82 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -5221,7 +5221,7 @@ version 82 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -5271,7 +5271,7 @@ version 82 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -5299,7 +5299,7 @@ version 82 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -5354,7 +5354,7 @@ version 81 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -5410,7 +5410,7 @@ version 81 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -5452,7 +5452,7 @@ version 81 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -5460,7 +5460,7 @@ version 81 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -5516,7 +5516,7 @@ version 81 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -5524,13 +5524,13 @@ version 81 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -5538,11 +5538,11 @@ version 81 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -5562,7 +5562,7 @@ version 81 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -5654,7 +5654,7 @@ version 81 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -5676,7 +5676,7 @@ version 81 {
         // offset 0x43c0, size 0x30180
         character characters[24];
         // offset 0x34540, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x34db0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x35940, size 0x500
@@ -5792,7 +5792,7 @@ version 81 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -5888,15 +5888,15 @@ version 81 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -5952,15 +5952,15 @@ version 81 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -5970,7 +5970,7 @@ version 81 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -6010,7 +6010,7 @@ version 81 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -6040,7 +6040,7 @@ version 81 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -6064,7 +6064,7 @@ version 81 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -6090,7 +6090,7 @@ version 81 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -6110,7 +6110,7 @@ version 81 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -6180,13 +6180,13 @@ version 81 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -6214,7 +6214,7 @@ version 81 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -6270,7 +6270,7 @@ version 81 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -6282,7 +6282,7 @@ version 81 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -6332,7 +6332,7 @@ version 81 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -6360,7 +6360,7 @@ version 81 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -6415,7 +6415,7 @@ version 80 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -6471,7 +6471,7 @@ version 80 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -6513,7 +6513,7 @@ version 80 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -6521,7 +6521,7 @@ version 80 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -6577,7 +6577,7 @@ version 80 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -6585,13 +6585,13 @@ version 80 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -6599,11 +6599,11 @@ version 80 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -6623,7 +6623,7 @@ version 80 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -6715,7 +6715,7 @@ version 80 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -6737,7 +6737,7 @@ version 80 {
         // offset 0x43c0, size 0x30180
         character characters[24];
         // offset 0x34540, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x34db0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x35940, size 0x500
@@ -6853,7 +6853,7 @@ version 80 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -6949,15 +6949,15 @@ version 80 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -7013,15 +7013,15 @@ version 80 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -7031,7 +7031,7 @@ version 80 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -7071,7 +7071,7 @@ version 80 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -7101,7 +7101,7 @@ version 80 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -7125,7 +7125,7 @@ version 80 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -7151,7 +7151,7 @@ version 80 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -7171,7 +7171,7 @@ version 80 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -7241,13 +7241,13 @@ version 80 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -7275,7 +7275,7 @@ version 80 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -7331,7 +7331,7 @@ version 80 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -7343,7 +7343,7 @@ version 80 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -7393,7 +7393,7 @@ version 80 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -7421,7 +7421,7 @@ version 80 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -7476,7 +7476,7 @@ version 79 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -7532,7 +7532,7 @@ version 79 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -7574,7 +7574,7 @@ version 79 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -7582,7 +7582,7 @@ version 79 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -7638,7 +7638,7 @@ version 79 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -7646,13 +7646,13 @@ version 79 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -7660,11 +7660,11 @@ version 79 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -7684,7 +7684,7 @@ version 79 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -7776,7 +7776,7 @@ version 79 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -7798,7 +7798,7 @@ version 79 {
         // offset 0x43c0, size 0x30180
         character characters[24];
         // offset 0x34540, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x34db0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x35940, size 0x500
@@ -7914,7 +7914,7 @@ version 79 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -8010,15 +8010,15 @@ version 79 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -8074,15 +8074,15 @@ version 79 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -8092,7 +8092,7 @@ version 79 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -8132,7 +8132,7 @@ version 79 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -8162,7 +8162,7 @@ version 79 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -8186,7 +8186,7 @@ version 79 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -8212,7 +8212,7 @@ version 79 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -8232,7 +8232,7 @@ version 79 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -8302,13 +8302,13 @@ version 79 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -8336,7 +8336,7 @@ version 79 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -8392,7 +8392,7 @@ version 79 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -8404,7 +8404,7 @@ version 79 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -8454,7 +8454,7 @@ version 79 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -8482,7 +8482,7 @@ version 79 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -8537,7 +8537,7 @@ version 78 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -8593,7 +8593,7 @@ version 78 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -8635,7 +8635,7 @@ version 78 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -8643,7 +8643,7 @@ version 78 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -8699,7 +8699,7 @@ version 78 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -8707,13 +8707,13 @@ version 78 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2010
@@ -8721,11 +8721,11 @@ version 78 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x1810, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 4 size 0x58
@@ -8745,7 +8745,7 @@ version 78 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -8837,7 +8837,7 @@ version 78 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -8859,7 +8859,7 @@ version 78 {
         // offset 0x43c0, size 0x30180
         character characters[24];
         // offset 0x34540, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x34db0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x35940, size 0x500
@@ -8975,7 +8975,7 @@ version 78 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -9071,15 +9071,15 @@ version 78 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -9135,15 +9135,15 @@ version 78 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -9153,7 +9153,7 @@ version 78 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -9193,7 +9193,7 @@ version 78 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -9223,7 +9223,7 @@ version 78 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -9247,7 +9247,7 @@ version 78 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -9273,7 +9273,7 @@ version 78 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -9293,7 +9293,7 @@ version 78 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -9363,13 +9363,13 @@ version 78 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -9397,7 +9397,7 @@ version 78 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -9453,7 +9453,7 @@ version 78 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -9465,7 +9465,7 @@ version 78 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -9515,7 +9515,7 @@ version 78 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -9543,7 +9543,7 @@ version 78 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -9598,7 +9598,7 @@ version 77 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -9654,7 +9654,7 @@ version 77 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -9696,7 +9696,7 @@ version 77 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -9704,7 +9704,7 @@ version 77 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -9760,7 +9760,7 @@ version 77 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -9768,13 +9768,13 @@ version 77 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1810
@@ -9782,11 +9782,11 @@ version 77 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x1210, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -9806,7 +9806,7 @@ version 77 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -9898,7 +9898,7 @@ version 77 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -9920,7 +9920,7 @@ version 77 {
         // offset 0x43c0, size 0x24180
         character characters[24];
         // offset 0x28540, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x28db0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x29940, size 0x500
@@ -10036,7 +10036,7 @@ version 77 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -10132,15 +10132,15 @@ version 77 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -10196,15 +10196,15 @@ version 77 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -10214,7 +10214,7 @@ version 77 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -10254,7 +10254,7 @@ version 77 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -10284,7 +10284,7 @@ version 77 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -10308,7 +10308,7 @@ version 77 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -10334,7 +10334,7 @@ version 77 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -10354,7 +10354,7 @@ version 77 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -10424,13 +10424,13 @@ version 77 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -10458,7 +10458,7 @@ version 77 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -10514,7 +10514,7 @@ version 77 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -10526,7 +10526,7 @@ version 77 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -10576,7 +10576,7 @@ version 77 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -10604,7 +10604,7 @@ version 77 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -10659,7 +10659,7 @@ version 76 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -10715,7 +10715,7 @@ version 76 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -10757,7 +10757,7 @@ version 76 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -10765,7 +10765,7 @@ version 76 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -10821,7 +10821,7 @@ version 76 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -10829,13 +10829,13 @@ version 76 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 5 size 0x1840
@@ -10845,11 +10845,11 @@ version 76 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x1240, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -10869,7 +10869,7 @@ version 76 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -10961,7 +10961,7 @@ version 76 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -10983,7 +10983,7 @@ version 76 {
         // offset 0x43c0, size 0x24600
         character characters[24];
         // offset 0x289c0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x29230, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x29dc0, size 0x500
@@ -11099,7 +11099,7 @@ version 76 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -11195,15 +11195,15 @@ version 76 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -11259,15 +11259,15 @@ version 76 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -11277,7 +11277,7 @@ version 76 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -11317,7 +11317,7 @@ version 76 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -11347,7 +11347,7 @@ version 76 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -11371,7 +11371,7 @@ version 76 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -11397,7 +11397,7 @@ version 76 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -11417,7 +11417,7 @@ version 76 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -11487,13 +11487,13 @@ version 76 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -11521,7 +11521,7 @@ version 76 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -11577,7 +11577,7 @@ version 76 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -11589,7 +11589,7 @@ version 76 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -11639,7 +11639,7 @@ version 76 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -11667,7 +11667,7 @@ version 76 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -11722,7 +11722,7 @@ version 75 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -11778,7 +11778,7 @@ version 75 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -11820,7 +11820,7 @@ version 75 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -11828,7 +11828,7 @@ version 75 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -11884,7 +11884,7 @@ version 75 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -11892,13 +11892,13 @@ version 75 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -11908,13 +11908,13 @@ version 75 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -11934,7 +11934,7 @@ version 75 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -12026,7 +12026,7 @@ version 75 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -12048,7 +12048,7 @@ version 75 {
         // offset 0x43c0, size 0x25380
         character characters[24];
         // offset 0x29740, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x29fb0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x2ab40, size 0x500
@@ -12164,7 +12164,7 @@ version 75 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -12260,15 +12260,15 @@ version 75 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -12324,15 +12324,15 @@ version 75 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -12342,7 +12342,7 @@ version 75 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -12382,7 +12382,7 @@ version 75 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -12412,7 +12412,7 @@ version 75 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -12436,7 +12436,7 @@ version 75 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -12462,7 +12462,7 @@ version 75 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -12482,7 +12482,7 @@ version 75 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -12552,13 +12552,13 @@ version 75 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -12586,7 +12586,7 @@ version 75 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -12642,7 +12642,7 @@ version 75 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -12654,7 +12654,7 @@ version 75 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -12704,7 +12704,7 @@ version 75 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -12732,7 +12732,7 @@ version 75 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -12787,7 +12787,7 @@ version 74 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -12843,7 +12843,7 @@ version 74 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -12885,7 +12885,7 @@ version 74 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -12893,7 +12893,7 @@ version 74 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -12949,7 +12949,7 @@ version 74 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -12957,13 +12957,13 @@ version 74 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -12973,13 +12973,13 @@ version 74 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -12999,7 +12999,7 @@ version 74 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -13091,7 +13091,7 @@ version 74 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -13113,7 +13113,7 @@ version 74 {
         // offset 0x43c0, size 0x25380
         character characters[24];
         // offset 0x29740, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x29fb0, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x2ab40, size 0x500
@@ -13229,7 +13229,7 @@ version 74 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -13325,15 +13325,15 @@ version 74 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -13389,15 +13389,15 @@ version 74 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -13407,7 +13407,7 @@ version 74 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -13447,7 +13447,7 @@ version 74 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -13477,7 +13477,7 @@ version 74 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -13501,7 +13501,7 @@ version 74 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -13527,7 +13527,7 @@ version 74 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -13547,7 +13547,7 @@ version 74 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -13617,13 +13617,13 @@ version 74 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -13651,7 +13651,7 @@ version 74 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -13707,7 +13707,7 @@ version 74 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -13719,7 +13719,7 @@ version 74 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -13769,7 +13769,7 @@ version 74 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -13797,7 +13797,7 @@ version 74 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -13852,7 +13852,7 @@ version 73 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -13908,7 +13908,7 @@ version 73 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -13950,7 +13950,7 @@ version 73 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -13958,7 +13958,7 @@ version 73 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -14012,7 +14012,7 @@ version 73 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -14020,13 +14020,13 @@ version 73 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -14036,13 +14036,13 @@ version 73 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -14062,7 +14062,7 @@ version 73 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -14154,7 +14154,7 @@ version 73 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -14176,7 +14176,7 @@ version 73 {
         // offset 0x40a0, size 0x25380
         character characters[24];
         // offset 0x29420, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x29c90, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x2a820, size 0x500
@@ -14292,7 +14292,7 @@ version 73 {
     };
 
     // idx 28 members 265 size 0xe8f8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -14388,15 +14388,15 @@ version 73 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -14452,15 +14452,15 @@ version 73 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -14470,7 +14470,7 @@ version 73 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -14510,7 +14510,7 @@ version 73 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:3 platooncount;
         // offset 0xb1b8, size 0x8
@@ -14540,7 +14540,7 @@ version 73 {
         // offset 0xb218, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb220, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb228, size 0x8
         uint:4 pickuptime;
         // offset 0xb230, size 0x20
@@ -14564,7 +14564,7 @@ version 73 {
         // offset 0xb298, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb2a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2b0, size 0x8
@@ -14590,7 +14590,7 @@ version 73 {
         // offset 0xe7f8, size 0x8
         uint:7 drafttime;
         // offset 0xe800, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe808, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe810, size 0x8
@@ -14610,7 +14610,7 @@ version 73 {
         // offset 0xe868, size 0x8
         uint:2 charactercustomization;
         // offset 0xe870, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe878, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe880, size 0x10
@@ -14680,13 +14680,13 @@ version 73 {
         // offset 0xe8af, size 0x1
         bool fowrevealenabled;
         // offset 0xe8b0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8b1, size 0x1
         bool headshotsonly;
         // offset 0xe8b2, size 0x1
         bool disablecontracts;
         // offset 0xe8b3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8b4, size 0x1
         bool allowannouncer;
         // offset 0xe8b5, size 0x1
@@ -14714,7 +14714,7 @@ version 73 {
         // offset 0xe8c0, size 0x1
         bool teamkillpointloss;
         // offset 0xe8c1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8c2, size 0x1
         bool perksenabled;
         // offset 0xe8c3, size 0x1
@@ -14770,7 +14770,7 @@ version 73 {
         // offset 0xe8dc, size 0x1
         bool oldschoolmode;
         // offset 0xe8dd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8de, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8df, size 0x1
@@ -14782,7 +14782,7 @@ version 73 {
         // offset 0xe8e2, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8e3, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8e4, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8e5, size 0x1
@@ -14832,7 +14832,7 @@ version 73 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -14860,7 +14860,7 @@ version 73 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -14915,7 +14915,7 @@ version 72 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -14971,7 +14971,7 @@ version 72 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -15013,7 +15013,7 @@ version 72 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -15021,7 +15021,7 @@ version 72 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -15075,7 +15075,7 @@ version 72 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -15083,13 +15083,13 @@ version 72 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x18d0
@@ -15099,13 +15099,13 @@ version 72 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0x1200
         hash_768aeb6b928320d outfit_breadcrumbs[24];
         // offset 0x12d0, size 0x600
-        characteroutfit hash_e5c77948998e49[24];
+        characteroutfit selectedoutfititems[24];
     };
 
     // idx 15 members 4 size 0x58
@@ -15125,7 +15125,7 @@ version 72 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -15217,7 +15217,7 @@ version 72 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -15239,7 +15239,7 @@ version 72 {
         // offset 0x40a0, size 0x25380
         character characters[24];
         // offset 0x29420, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x29c90, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x2a820, size 0x500
@@ -15355,7 +15355,7 @@ version 72 {
     };
 
     // idx 28 members 263 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -15451,15 +15451,15 @@ version 72 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -15515,15 +15515,15 @@ version 72 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -15533,7 +15533,7 @@ version 72 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -15573,7 +15573,7 @@ version 72 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -15601,7 +15601,7 @@ version 72 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -15625,7 +15625,7 @@ version 72 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -15651,7 +15651,7 @@ version 72 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -15671,7 +15671,7 @@ version 72 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -15739,13 +15739,13 @@ version 72 {
         // offset 0xe8a6, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a7, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a8, size 0x1
         bool headshotsonly;
         // offset 0xe8a9, size 0x1
         bool disablecontracts;
         // offset 0xe8aa, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8ab, size 0x1
         bool allowannouncer;
         // offset 0xe8ac, size 0x1
@@ -15773,7 +15773,7 @@ version 72 {
         // offset 0xe8b7, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b8, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b9, size 0x1
         bool perksenabled;
         // offset 0xe8ba, size 0x1
@@ -15829,7 +15829,7 @@ version 72 {
         // offset 0xe8d3, size 0x1
         bool oldschoolmode;
         // offset 0xe8d4, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d5, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d6, size 0x1
@@ -15841,7 +15841,7 @@ version 72 {
         // offset 0xe8d9, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8da, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8db, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8dc, size 0x1
@@ -15891,7 +15891,7 @@ version 72 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -15919,7 +15919,7 @@ version 72 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -15974,7 +15974,7 @@ version 71 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -16030,7 +16030,7 @@ version 71 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -16072,7 +16072,7 @@ version 71 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -16080,7 +16080,7 @@ version 71 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -16134,7 +16134,7 @@ version 71 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -16142,13 +16142,13 @@ version 71 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x10d0
@@ -16158,13 +16158,13 @@ version 71 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xcd0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 15 members 4 size 0x58
@@ -16184,7 +16184,7 @@ version 71 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -16276,7 +16276,7 @@ version 71 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -16298,7 +16298,7 @@ version 71 {
         // offset 0x40a0, size 0x19380
         character characters[24];
         // offset 0x1d420, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1dc90, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e820, size 0x500
@@ -16414,7 +16414,7 @@ version 71 {
     };
 
     // idx 28 members 263 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -16510,15 +16510,15 @@ version 71 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -16574,15 +16574,15 @@ version 71 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -16592,7 +16592,7 @@ version 71 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -16632,7 +16632,7 @@ version 71 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -16660,7 +16660,7 @@ version 71 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -16684,7 +16684,7 @@ version 71 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -16710,7 +16710,7 @@ version 71 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -16730,7 +16730,7 @@ version 71 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -16798,13 +16798,13 @@ version 71 {
         // offset 0xe8a6, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a7, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a8, size 0x1
         bool headshotsonly;
         // offset 0xe8a9, size 0x1
         bool disablecontracts;
         // offset 0xe8aa, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8ab, size 0x1
         bool allowannouncer;
         // offset 0xe8ac, size 0x1
@@ -16832,7 +16832,7 @@ version 71 {
         // offset 0xe8b7, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b8, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b9, size 0x1
         bool perksenabled;
         // offset 0xe8ba, size 0x1
@@ -16888,7 +16888,7 @@ version 71 {
         // offset 0xe8d3, size 0x1
         bool oldschoolmode;
         // offset 0xe8d4, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d5, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d6, size 0x1
@@ -16900,7 +16900,7 @@ version 71 {
         // offset 0xe8d9, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8da, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8db, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8dc, size 0x1
@@ -16950,7 +16950,7 @@ version 71 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -16978,7 +16978,7 @@ version 71 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -17033,7 +17033,7 @@ version 70 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -17089,7 +17089,7 @@ version 70 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -17131,7 +17131,7 @@ version 70 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -17139,7 +17139,7 @@ version 70 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -17193,7 +17193,7 @@ version 70 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -17201,13 +17201,13 @@ version 70 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 6 size 0x10d0
@@ -17217,13 +17217,13 @@ version 70 {
         // offset 0x30, size 0x8
         uint:5 selectedoutfit;
         // offset 0x38, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x40, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xd0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xcd0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 15 members 4 size 0x58
@@ -17243,7 +17243,7 @@ version 70 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -17335,7 +17335,7 @@ version 70 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -17357,7 +17357,7 @@ version 70 {
         // offset 0x40a0, size 0x19380
         character characters[24];
         // offset 0x1d420, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1dc90, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e820, size 0x500
@@ -17473,7 +17473,7 @@ version 70 {
     };
 
     // idx 28 members 263 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -17569,15 +17569,15 @@ version 70 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -17633,15 +17633,15 @@ version 70 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -17651,7 +17651,7 @@ version 70 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -17691,7 +17691,7 @@ version 70 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -17719,7 +17719,7 @@ version 70 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -17743,7 +17743,7 @@ version 70 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -17769,7 +17769,7 @@ version 70 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -17789,7 +17789,7 @@ version 70 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -17857,13 +17857,13 @@ version 70 {
         // offset 0xe8a6, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a7, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a8, size 0x1
         bool headshotsonly;
         // offset 0xe8a9, size 0x1
         bool disablecontracts;
         // offset 0xe8aa, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8ab, size 0x1
         bool allowannouncer;
         // offset 0xe8ac, size 0x1
@@ -17891,7 +17891,7 @@ version 70 {
         // offset 0xe8b7, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b8, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b9, size 0x1
         bool perksenabled;
         // offset 0xe8ba, size 0x1
@@ -17947,7 +17947,7 @@ version 70 {
         // offset 0xe8d3, size 0x1
         bool oldschoolmode;
         // offset 0xe8d4, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d5, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d6, size 0x1
@@ -17959,7 +17959,7 @@ version 70 {
         // offset 0xe8d9, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8da, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8db, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8dc, size 0x1
@@ -18009,7 +18009,7 @@ version 70 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -18037,7 +18037,7 @@ version 70 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -18092,7 +18092,7 @@ version 69 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -18148,7 +18148,7 @@ version 69 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -18190,7 +18190,7 @@ version 69 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -18198,7 +18198,7 @@ version 69 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -18252,7 +18252,7 @@ version 69 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -18260,7 +18260,7 @@ version 69 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -18268,13 +18268,13 @@ version 69 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -18294,7 +18294,7 @@ version 69 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -18386,7 +18386,7 @@ version 69 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -18408,7 +18408,7 @@ version 69 {
         // offset 0x40a0, size 0x18f00
         character characters[24];
         // offset 0x1cfa0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d810, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e3a0, size 0x500
@@ -18524,7 +18524,7 @@ version 69 {
     };
 
     // idx 27 members 263 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -18620,15 +18620,15 @@ version 69 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -18684,15 +18684,15 @@ version 69 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -18702,7 +18702,7 @@ version 69 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -18742,7 +18742,7 @@ version 69 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -18770,7 +18770,7 @@ version 69 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -18794,7 +18794,7 @@ version 69 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -18820,7 +18820,7 @@ version 69 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -18840,7 +18840,7 @@ version 69 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -18908,13 +18908,13 @@ version 69 {
         // offset 0xe8a6, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a7, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a8, size 0x1
         bool headshotsonly;
         // offset 0xe8a9, size 0x1
         bool disablecontracts;
         // offset 0xe8aa, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8ab, size 0x1
         bool allowannouncer;
         // offset 0xe8ac, size 0x1
@@ -18942,7 +18942,7 @@ version 69 {
         // offset 0xe8b7, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b8, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b9, size 0x1
         bool perksenabled;
         // offset 0xe8ba, size 0x1
@@ -18998,7 +18998,7 @@ version 69 {
         // offset 0xe8d3, size 0x1
         bool oldschoolmode;
         // offset 0xe8d4, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d5, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d6, size 0x1
@@ -19010,7 +19010,7 @@ version 69 {
         // offset 0xe8d9, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8da, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8db, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8dc, size 0x1
@@ -19060,7 +19060,7 @@ version 69 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -19081,7 +19081,7 @@ version 69 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -19136,7 +19136,7 @@ version 68 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -19192,7 +19192,7 @@ version 68 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -19234,7 +19234,7 @@ version 68 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -19242,7 +19242,7 @@ version 68 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -19296,7 +19296,7 @@ version 68 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -19304,7 +19304,7 @@ version 68 {
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x10a0
@@ -19312,13 +19312,13 @@ version 68 {
         // offset 0x0, size 0x8
         uint:5 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:5 hash_4d9fceac8ff24cbd;
+        uint:5 selectedwarpaintoutfit;
         // offset 0x10, size 0x90
         uint:11 hash_20d6751cb2f9ca09[9];
         // offset 0xa0, size 0xc00
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0xca0, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -19338,7 +19338,7 @@ version 68 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -19430,7 +19430,7 @@ version 68 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -19452,7 +19452,7 @@ version 68 {
         // offset 0x40a0, size 0x18f00
         character characters[24];
         // offset 0x1cfa0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d810, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e3a0, size 0x500
@@ -19568,7 +19568,7 @@ version 68 {
     };
 
     // idx 27 members 261 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -19664,15 +19664,15 @@ version 68 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -19728,15 +19728,15 @@ version 68 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -19746,7 +19746,7 @@ version 68 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -19786,7 +19786,7 @@ version 68 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -19814,7 +19814,7 @@ version 68 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -19838,7 +19838,7 @@ version 68 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -19864,7 +19864,7 @@ version 68 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -19884,7 +19884,7 @@ version 68 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -19950,13 +19950,13 @@ version 68 {
         // offset 0xe8a5, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a7, size 0x1
         bool headshotsonly;
         // offset 0xe8a8, size 0x1
         bool disablecontracts;
         // offset 0xe8a9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8aa, size 0x1
         bool allowannouncer;
         // offset 0xe8ab, size 0x1
@@ -19984,7 +19984,7 @@ version 68 {
         // offset 0xe8b6, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b8, size 0x1
         bool perksenabled;
         // offset 0xe8b9, size 0x1
@@ -20038,7 +20038,7 @@ version 68 {
         // offset 0xe8d1, size 0x1
         bool oldschoolmode;
         // offset 0xe8d2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d4, size 0x1
@@ -20050,7 +20050,7 @@ version 68 {
         // offset 0xe8d7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8d8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8d9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8da, size 0x1
@@ -20100,7 +20100,7 @@ version 68 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -20121,7 +20121,7 @@ version 68 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -20176,7 +20176,7 @@ version 67 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -20232,7 +20232,7 @@ version 67 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -20274,7 +20274,7 @@ version 67 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -20282,7 +20282,7 @@ version 67 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -20336,13 +20336,13 @@ version 67 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -20354,7 +20354,7 @@ version 67 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -20374,7 +20374,7 @@ version 67 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -20464,7 +20464,7 @@ version 67 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -20486,7 +20486,7 @@ version 67 {
         // offset 0x40a0, size 0x12e40
         character characters[24];
         // offset 0x16ee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x17750, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x182e0, size 0x500
@@ -20602,7 +20602,7 @@ version 67 {
     };
 
     // idx 27 members 261 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -20698,15 +20698,15 @@ version 67 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -20762,15 +20762,15 @@ version 67 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -20780,7 +20780,7 @@ version 67 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -20820,7 +20820,7 @@ version 67 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -20848,7 +20848,7 @@ version 67 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -20872,7 +20872,7 @@ version 67 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -20898,7 +20898,7 @@ version 67 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -20918,7 +20918,7 @@ version 67 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -20984,13 +20984,13 @@ version 67 {
         // offset 0xe8a5, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a7, size 0x1
         bool headshotsonly;
         // offset 0xe8a8, size 0x1
         bool disablecontracts;
         // offset 0xe8a9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8aa, size 0x1
         bool allowannouncer;
         // offset 0xe8ab, size 0x1
@@ -21018,7 +21018,7 @@ version 67 {
         // offset 0xe8b6, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b8, size 0x1
         bool perksenabled;
         // offset 0xe8b9, size 0x1
@@ -21072,7 +21072,7 @@ version 67 {
         // offset 0xe8d1, size 0x1
         bool oldschoolmode;
         // offset 0xe8d2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d4, size 0x1
@@ -21084,7 +21084,7 @@ version 67 {
         // offset 0xe8d7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8d8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8d9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8da, size 0x1
@@ -21134,7 +21134,7 @@ version 67 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -21155,7 +21155,7 @@ version 67 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -21210,7 +21210,7 @@ version 66 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -21264,7 +21264,7 @@ version 66 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -21304,7 +21304,7 @@ version 66 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -21312,7 +21312,7 @@ version 66 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -21366,13 +21366,13 @@ version 66 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 4 size 0xc98
@@ -21384,7 +21384,7 @@ version 66 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
     };
 
     // idx 14 members 4 size 0x58
@@ -21404,7 +21404,7 @@ version 66 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -21494,7 +21494,7 @@ version 66 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -21516,7 +21516,7 @@ version 66 {
         // offset 0x40a0, size 0x12e40
         character characters[24];
         // offset 0x16ee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x17750, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x182e0, size 0x500
@@ -21632,7 +21632,7 @@ version 66 {
     };
 
     // idx 27 members 261 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -21728,15 +21728,15 @@ version 66 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -21792,15 +21792,15 @@ version 66 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -21810,7 +21810,7 @@ version 66 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -21850,7 +21850,7 @@ version 66 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -21878,7 +21878,7 @@ version 66 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -21902,7 +21902,7 @@ version 66 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -21928,7 +21928,7 @@ version 66 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -21948,7 +21948,7 @@ version 66 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -22014,13 +22014,13 @@ version 66 {
         // offset 0xe8a5, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a7, size 0x1
         bool headshotsonly;
         // offset 0xe8a8, size 0x1
         bool disablecontracts;
         // offset 0xe8a9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8aa, size 0x1
         bool allowannouncer;
         // offset 0xe8ab, size 0x1
@@ -22048,7 +22048,7 @@ version 66 {
         // offset 0xe8b6, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b8, size 0x1
         bool perksenabled;
         // offset 0xe8b9, size 0x1
@@ -22102,7 +22102,7 @@ version 66 {
         // offset 0xe8d1, size 0x1
         bool oldschoolmode;
         // offset 0xe8d2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d4, size 0x1
@@ -22114,7 +22114,7 @@ version 66 {
         // offset 0xe8d7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8d8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8d9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8da, size 0x1
@@ -22164,7 +22164,7 @@ version 66 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -22185,7 +22185,7 @@ version 66 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -22240,7 +22240,7 @@ version 65 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -22294,7 +22294,7 @@ version 65 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -22334,7 +22334,7 @@ version 65 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -22342,7 +22342,7 @@ version 65 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -22396,13 +22396,13 @@ version 65 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -22414,7 +22414,7 @@ version 65 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -22436,7 +22436,7 @@ version 65 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -22526,7 +22526,7 @@ version 65 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -22548,7 +22548,7 @@ version 65 {
         // offset 0x40a0, size 0x18e40
         character characters[24];
         // offset 0x1cee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d750, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e2e0, size 0x500
@@ -22664,7 +22664,7 @@ version 65 {
     };
 
     // idx 27 members 261 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -22760,15 +22760,15 @@ version 65 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -22824,15 +22824,15 @@ version 65 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -22842,7 +22842,7 @@ version 65 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -22882,7 +22882,7 @@ version 65 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -22910,7 +22910,7 @@ version 65 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -22934,7 +22934,7 @@ version 65 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -22960,7 +22960,7 @@ version 65 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -22980,7 +22980,7 @@ version 65 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -23046,13 +23046,13 @@ version 65 {
         // offset 0xe8a5, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a7, size 0x1
         bool headshotsonly;
         // offset 0xe8a8, size 0x1
         bool disablecontracts;
         // offset 0xe8a9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8aa, size 0x1
         bool allowannouncer;
         // offset 0xe8ab, size 0x1
@@ -23080,7 +23080,7 @@ version 65 {
         // offset 0xe8b6, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b8, size 0x1
         bool perksenabled;
         // offset 0xe8b9, size 0x1
@@ -23134,7 +23134,7 @@ version 65 {
         // offset 0xe8d1, size 0x1
         bool oldschoolmode;
         // offset 0xe8d2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d4, size 0x1
@@ -23146,7 +23146,7 @@ version 65 {
         // offset 0xe8d7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8d8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8d9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8da, size 0x1
@@ -23196,7 +23196,7 @@ version 65 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -23217,7 +23217,7 @@ version 65 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -23272,7 +23272,7 @@ version 64 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -23326,7 +23326,7 @@ version 64 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -23366,7 +23366,7 @@ version 64 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -23374,7 +23374,7 @@ version 64 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -23428,13 +23428,13 @@ version 64 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -23446,7 +23446,7 @@ version 64 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -23468,7 +23468,7 @@ version 64 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x1
@@ -23558,7 +23558,7 @@ version 64 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -23580,7 +23580,7 @@ version 64 {
         // offset 0x40a0, size 0x18e40
         character characters[24];
         // offset 0x1cee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d750, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e2e0, size 0x500
@@ -23696,7 +23696,7 @@ version 64 {
     };
 
     // idx 27 members 261 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -23792,15 +23792,15 @@ version 64 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -23856,15 +23856,15 @@ version 64 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -23874,7 +23874,7 @@ version 64 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -23914,7 +23914,7 @@ version 64 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -23942,7 +23942,7 @@ version 64 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -23966,7 +23966,7 @@ version 64 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -23992,7 +23992,7 @@ version 64 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -24012,7 +24012,7 @@ version 64 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -24078,13 +24078,13 @@ version 64 {
         // offset 0xe8a5, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a7, size 0x1
         bool headshotsonly;
         // offset 0xe8a8, size 0x1
         bool disablecontracts;
         // offset 0xe8a9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8aa, size 0x1
         bool allowannouncer;
         // offset 0xe8ab, size 0x1
@@ -24112,7 +24112,7 @@ version 64 {
         // offset 0xe8b6, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b8, size 0x1
         bool perksenabled;
         // offset 0xe8b9, size 0x1
@@ -24166,7 +24166,7 @@ version 64 {
         // offset 0xe8d1, size 0x1
         bool oldschoolmode;
         // offset 0xe8d2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d4, size 0x1
@@ -24178,7 +24178,7 @@ version 64 {
         // offset 0xe8d7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8d8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8d9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8da, size 0x1
@@ -24228,7 +24228,7 @@ version 64 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -24249,7 +24249,7 @@ version 64 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -24304,7 +24304,7 @@ version 63 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -24358,7 +24358,7 @@ version 63 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -24398,7 +24398,7 @@ version 63 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -24406,7 +24406,7 @@ version 63 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9500
@@ -24460,13 +24460,13 @@ version 63 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -24478,7 +24478,7 @@ version 63 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -24500,7 +24500,7 @@ version 63 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -24586,7 +24586,7 @@ version 63 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -24608,7 +24608,7 @@ version 63 {
         // offset 0x40a0, size 0x18e40
         character characters[24];
         // offset 0x1cee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d750, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e2e0, size 0x500
@@ -24724,7 +24724,7 @@ version 63 {
     };
 
     // idx 27 members 261 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -24820,15 +24820,15 @@ version 63 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -24884,15 +24884,15 @@ version 63 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -24902,7 +24902,7 @@ version 63 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -24942,7 +24942,7 @@ version 63 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -24970,7 +24970,7 @@ version 63 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -24994,7 +24994,7 @@ version 63 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -25020,7 +25020,7 @@ version 63 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -25040,7 +25040,7 @@ version 63 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -25106,13 +25106,13 @@ version 63 {
         // offset 0xe8a5, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a7, size 0x1
         bool headshotsonly;
         // offset 0xe8a8, size 0x1
         bool disablecontracts;
         // offset 0xe8a9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8aa, size 0x1
         bool allowannouncer;
         // offset 0xe8ab, size 0x1
@@ -25140,7 +25140,7 @@ version 63 {
         // offset 0xe8b6, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b8, size 0x1
         bool perksenabled;
         // offset 0xe8b9, size 0x1
@@ -25194,7 +25194,7 @@ version 63 {
         // offset 0xe8d1, size 0x1
         bool oldschoolmode;
         // offset 0xe8d2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d4, size 0x1
@@ -25206,7 +25206,7 @@ version 63 {
         // offset 0xe8d7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8d8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8d9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8da, size 0x1
@@ -25256,7 +25256,7 @@ version 63 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -25277,7 +25277,7 @@ version 63 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -25422,7 +25422,7 @@ version 62 {
     };
 
     // idx 6 members 1 size 0x47a0
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x47a0
         layerinformation layerinfo;
     };
@@ -25430,7 +25430,7 @@ version 62 {
     // idx 7 members 1 size 0x8f40
     struct paintshop {
         // offset 0x0, size 0x8f40
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9050
@@ -25484,13 +25484,13 @@ version 62 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -25502,7 +25502,7 @@ version 62 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -25524,7 +25524,7 @@ version 62 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -25610,7 +25610,7 @@ version 62 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -25632,7 +25632,7 @@ version 62 {
         // offset 0x40a0, size 0x18e40
         character characters[24];
         // offset 0x1cee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d750, size 0xb90
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e2e0, size 0x500
@@ -25748,7 +25748,7 @@ version 62 {
     };
 
     // idx 27 members 261 size 0xe8f0
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -25844,15 +25844,15 @@ version 62 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -25908,15 +25908,15 @@ version 62 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -25926,7 +25926,7 @@ version 62 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -25966,7 +25966,7 @@ version 62 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -25994,7 +25994,7 @@ version 62 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -26018,7 +26018,7 @@ version 62 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -26044,7 +26044,7 @@ version 62 {
         // offset 0xe7f0, size 0x8
         uint:7 drafttime;
         // offset 0xe7f8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe800, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe808, size 0x8
@@ -26064,7 +26064,7 @@ version 62 {
         // offset 0xe860, size 0x8
         uint:2 charactercustomization;
         // offset 0xe868, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe870, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe878, size 0x10
@@ -26130,13 +26130,13 @@ version 62 {
         // offset 0xe8a5, size 0x1
         bool fowrevealenabled;
         // offset 0xe8a6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe8a7, size 0x1
         bool headshotsonly;
         // offset 0xe8a8, size 0x1
         bool disablecontracts;
         // offset 0xe8a9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe8aa, size 0x1
         bool allowannouncer;
         // offset 0xe8ab, size 0x1
@@ -26164,7 +26164,7 @@ version 62 {
         // offset 0xe8b6, size 0x1
         bool teamkillpointloss;
         // offset 0xe8b7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe8b8, size 0x1
         bool perksenabled;
         // offset 0xe8b9, size 0x1
@@ -26218,7 +26218,7 @@ version 62 {
         // offset 0xe8d1, size 0x1
         bool oldschoolmode;
         // offset 0xe8d2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe8d3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe8d4, size 0x1
@@ -26230,7 +26230,7 @@ version 62 {
         // offset 0xe8d7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe8d8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe8d9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe8da, size 0x1
@@ -26280,7 +26280,7 @@ version 62 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -26301,7 +26301,7 @@ version 62 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe8f0
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -26446,7 +26446,7 @@ version 61 {
     };
 
     // idx 6 members 1 size 0x47a0
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x47a0
         layerinformation layerinfo;
     };
@@ -26454,7 +26454,7 @@ version 61 {
     // idx 7 members 1 size 0x8f40
     struct paintshop {
         // offset 0x0, size 0x8f40
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9050
@@ -26508,13 +26508,13 @@ version 61 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -26526,7 +26526,7 @@ version 61 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -26548,7 +26548,7 @@ version 61 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -26630,7 +26630,7 @@ version 61 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -26652,7 +26652,7 @@ version 61 {
         // offset 0x40a0, size 0x18e40
         character characters[24];
         // offset 0x1cee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d750, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e240, size 0x500
@@ -26768,7 +26768,7 @@ version 61 {
     };
 
     // idx 27 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -26864,15 +26864,15 @@ version 61 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -26928,15 +26928,15 @@ version 61 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -26946,7 +26946,7 @@ version 61 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -26986,7 +26986,7 @@ version 61 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -27014,7 +27014,7 @@ version 61 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -27038,7 +27038,7 @@ version 61 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -27064,7 +27064,7 @@ version 61 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -27084,7 +27084,7 @@ version 61 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -27150,13 +27150,13 @@ version 61 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -27184,7 +27184,7 @@ version 61 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -27238,7 +27238,7 @@ version 61 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -27250,7 +27250,7 @@ version 61 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -27300,7 +27300,7 @@ version 61 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -27321,7 +27321,7 @@ version 61 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -27466,7 +27466,7 @@ version 60 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -27474,7 +27474,7 @@ version 60 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -27528,13 +27528,13 @@ version 60 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -27546,7 +27546,7 @@ version 60 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -27568,7 +27568,7 @@ version 60 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -27650,7 +27650,7 @@ version 60 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -27672,7 +27672,7 @@ version 60 {
         // offset 0x40a0, size 0x18e40
         character characters[24];
         // offset 0x1cee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d750, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e240, size 0x500
@@ -27788,7 +27788,7 @@ version 60 {
     };
 
     // idx 27 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -27884,15 +27884,15 @@ version 60 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -27948,15 +27948,15 @@ version 60 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -27966,7 +27966,7 @@ version 60 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -28006,7 +28006,7 @@ version 60 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -28034,7 +28034,7 @@ version 60 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -28058,7 +28058,7 @@ version 60 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -28084,7 +28084,7 @@ version 60 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -28104,7 +28104,7 @@ version 60 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -28170,13 +28170,13 @@ version 60 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -28204,7 +28204,7 @@ version 60 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -28258,7 +28258,7 @@ version 60 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -28270,7 +28270,7 @@ version 60 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -28320,7 +28320,7 @@ version 60 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -28341,7 +28341,7 @@ version 60 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -28486,7 +28486,7 @@ version 59 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -28494,7 +28494,7 @@ version 59 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -28548,13 +28548,13 @@ version 59 {
     // idx 11 members 1 size 0x80
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1098
@@ -28566,7 +28566,7 @@ version 59 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[16];
         // offset 0x898, size 0x400
-        characteroutfit hash_e5c77948998e49[16];
+        characteroutfit selectedoutfititems[16];
         // offset 0xc98, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -28588,7 +28588,7 @@ version 59 {
         // offset 0x0, size 0x8
         uint:5 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -28670,7 +28670,7 @@ version 59 {
     };
 
     // idx 21 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -28692,7 +28692,7 @@ version 59 {
         // offset 0x40a0, size 0x18e40
         character characters[24];
         // offset 0x1cee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d750, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e240, size 0x500
@@ -28808,7 +28808,7 @@ version 59 {
     };
 
     // idx 27 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -28904,15 +28904,15 @@ version 59 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -28968,15 +28968,15 @@ version 59 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -28986,7 +28986,7 @@ version 59 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -29026,7 +29026,7 @@ version 59 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -29054,7 +29054,7 @@ version 59 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -29078,7 +29078,7 @@ version 59 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -29104,7 +29104,7 @@ version 59 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -29124,7 +29124,7 @@ version 59 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -29190,13 +29190,13 @@ version 59 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -29224,7 +29224,7 @@ version 59 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -29278,7 +29278,7 @@ version 59 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -29290,7 +29290,7 @@ version 59 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -29340,7 +29340,7 @@ version 59 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -29361,7 +29361,7 @@ version 59 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -29506,7 +29506,7 @@ version 58 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -29514,7 +29514,7 @@ version 58 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -29568,13 +29568,13 @@ version 58 {
     // idx 11 members 1 size 0x40
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x40
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1498
@@ -29586,7 +29586,7 @@ version 58 {
         // offset 0x98, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x898, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
         // offset 0x1098, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -29600,13 +29600,13 @@ version 58 {
     // idx 15 members 1 size 0x8
     struct hash_1b8c44968f4c52b6 {
         // offset 0x0, size 0x8
-        hash_75ef0562f1cc95c9 parts[hash_5ab26f037efe82c];
+        hash_75ef0562f1cc95c9 parts[outfitparts_e];
     };
 
     // idx 16 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 17 members 4 size 0x350
@@ -29618,7 +29618,7 @@ version 58 {
         // offset 0x108, size 0x148
         variant showcaseweapon;
         // offset 0x250, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 18 members 4 size 0x58
@@ -29638,7 +29638,7 @@ version 58 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -29720,7 +29720,7 @@ version 58 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -29742,7 +29742,7 @@ version 58 {
         // offset 0x40a0, size 0x1ee40
         character characters[24];
         // offset 0x22ee0, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x23750, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x24240, size 0x500
@@ -29858,7 +29858,7 @@ version 58 {
     };
 
     // idx 31 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -29954,15 +29954,15 @@ version 58 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -30018,15 +30018,15 @@ version 58 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -30036,7 +30036,7 @@ version 58 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -30076,7 +30076,7 @@ version 58 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -30104,7 +30104,7 @@ version 58 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -30128,7 +30128,7 @@ version 58 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -30154,7 +30154,7 @@ version 58 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -30174,7 +30174,7 @@ version 58 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -30240,13 +30240,13 @@ version 58 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -30274,7 +30274,7 @@ version 58 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -30328,7 +30328,7 @@ version 58 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -30340,7 +30340,7 @@ version 58 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -30390,7 +30390,7 @@ version 58 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -30411,7 +30411,7 @@ version 58 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -30556,7 +30556,7 @@ version 57 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -30564,7 +30564,7 @@ version 57 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -30618,13 +30618,13 @@ version 57 {
     // idx 11 members 1 size 0x40
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x40
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
     };
 
     // idx 12 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 13 members 5 size 0x1488
@@ -30636,7 +30636,7 @@ version 57 {
         // offset 0x88, size 0x800
         hash_768aeb6b928320d outfit_breadcrumbs[32];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
         // offset 0x1088, size 0x400
         bool hash_f48e22ced35e56d[1024];
     };
@@ -30650,13 +30650,13 @@ version 57 {
     // idx 15 members 1 size 0x8
     struct hash_1b8c44968f4c52b6 {
         // offset 0x0, size 0x8
-        hash_75ef0562f1cc95c9 parts[hash_5ab26f037efe82c];
+        hash_75ef0562f1cc95c9 parts[outfitparts_e];
     };
 
     // idx 16 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 17 members 4 size 0x350
@@ -30668,7 +30668,7 @@ version 57 {
         // offset 0x108, size 0x148
         variant showcaseweapon;
         // offset 0x250, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 18 members 4 size 0x58
@@ -30688,7 +30688,7 @@ version 57 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -30770,7 +30770,7 @@ version 57 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -30792,7 +30792,7 @@ version 57 {
         // offset 0x40a0, size 0x1ecc0
         character characters[24];
         // offset 0x22d60, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x235d0, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x240c0, size 0x500
@@ -30908,7 +30908,7 @@ version 57 {
     };
 
     // idx 31 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -31004,15 +31004,15 @@ version 57 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -31068,15 +31068,15 @@ version 57 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -31086,7 +31086,7 @@ version 57 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -31126,7 +31126,7 @@ version 57 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -31154,7 +31154,7 @@ version 57 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -31178,7 +31178,7 @@ version 57 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -31204,7 +31204,7 @@ version 57 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -31224,7 +31224,7 @@ version 57 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -31290,13 +31290,13 @@ version 57 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -31324,7 +31324,7 @@ version 57 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -31378,7 +31378,7 @@ version 57 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -31390,7 +31390,7 @@ version 57 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -31440,7 +31440,7 @@ version 57 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -31461,7 +31461,7 @@ version 57 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -31606,7 +31606,7 @@ version 56 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -31614,7 +31614,7 @@ version 56 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x8ba0
@@ -31674,13 +31674,13 @@ version 56 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -31692,7 +31692,7 @@ version 56 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -31704,13 +31704,13 @@ version 56 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -31722,7 +31722,7 @@ version 56 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -31742,7 +31742,7 @@ version 56 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -31824,7 +31824,7 @@ version 56 {
     };
 
     // idx 26 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -31846,7 +31846,7 @@ version 56 {
         // offset 0x40a0, size 0x18cc0
         character characters[24];
         // offset 0x1cd60, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d5d0, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e0c0, size 0x500
@@ -31962,7 +31962,7 @@ version 56 {
     };
 
     // idx 32 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -32058,15 +32058,15 @@ version 56 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -32122,15 +32122,15 @@ version 56 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -32140,7 +32140,7 @@ version 56 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -32180,7 +32180,7 @@ version 56 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -32208,7 +32208,7 @@ version 56 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -32232,7 +32232,7 @@ version 56 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -32258,7 +32258,7 @@ version 56 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -32278,7 +32278,7 @@ version 56 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -32344,13 +32344,13 @@ version 56 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -32378,7 +32378,7 @@ version 56 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -32432,7 +32432,7 @@ version 56 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -32444,7 +32444,7 @@ version 56 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -32494,7 +32494,7 @@ version 56 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -32515,7 +32515,7 @@ version 56 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -32660,7 +32660,7 @@ version 55 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -32668,7 +32668,7 @@ version 55 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -32726,13 +32726,13 @@ version 55 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -32744,7 +32744,7 @@ version 55 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -32756,13 +32756,13 @@ version 55 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -32774,7 +32774,7 @@ version 55 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -32794,7 +32794,7 @@ version 55 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -32876,7 +32876,7 @@ version 55 {
     };
 
     // idx 26 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -32898,7 +32898,7 @@ version 55 {
         // offset 0x40a0, size 0x18cc0
         character characters[24];
         // offset 0x1cd60, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d5d0, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e0c0, size 0x500
@@ -33014,7 +33014,7 @@ version 55 {
     };
 
     // idx 32 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -33110,15 +33110,15 @@ version 55 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -33174,15 +33174,15 @@ version 55 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -33192,7 +33192,7 @@ version 55 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -33232,7 +33232,7 @@ version 55 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -33260,7 +33260,7 @@ version 55 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -33284,7 +33284,7 @@ version 55 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -33310,7 +33310,7 @@ version 55 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -33330,7 +33330,7 @@ version 55 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -33396,13 +33396,13 @@ version 55 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -33430,7 +33430,7 @@ version 55 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -33484,7 +33484,7 @@ version 55 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -33496,7 +33496,7 @@ version 55 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -33546,7 +33546,7 @@ version 55 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -33567,7 +33567,7 @@ version 55 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -33712,7 +33712,7 @@ version 54 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -33720,7 +33720,7 @@ version 54 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -33778,13 +33778,13 @@ version 54 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -33796,7 +33796,7 @@ version 54 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -33808,13 +33808,13 @@ version 54 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -33826,7 +33826,7 @@ version 54 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -33846,7 +33846,7 @@ version 54 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:4 outfititems[hash_5ab26f037efe82c];
+        uint:4 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
     };
@@ -33928,7 +33928,7 @@ version 54 {
     };
 
     // idx 26 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -33950,7 +33950,7 @@ version 54 {
         // offset 0x40a0, size 0x18cc0
         character characters[24];
         // offset 0x1cd60, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1d5d0, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x1e0c0, size 0x500
@@ -34066,7 +34066,7 @@ version 54 {
     };
 
     // idx 32 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -34162,15 +34162,15 @@ version 54 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -34226,15 +34226,15 @@ version 54 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -34244,7 +34244,7 @@ version 54 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -34284,7 +34284,7 @@ version 54 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -34312,7 +34312,7 @@ version 54 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -34336,7 +34336,7 @@ version 54 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -34362,7 +34362,7 @@ version 54 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -34382,7 +34382,7 @@ version 54 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -34448,13 +34448,13 @@ version 54 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -34482,7 +34482,7 @@ version 54 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -34536,7 +34536,7 @@ version 54 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -34548,7 +34548,7 @@ version 54 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -34598,7 +34598,7 @@ version 54 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -34619,7 +34619,7 @@ version 54 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -34764,7 +34764,7 @@ version 53 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -34772,7 +34772,7 @@ version 53 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -34830,13 +34830,13 @@ version 53 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -34848,7 +34848,7 @@ version 53 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -34860,13 +34860,13 @@ version 53 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -34878,7 +34878,7 @@ version 53 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -34970,7 +34970,7 @@ version 53 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -34992,7 +34992,7 @@ version 53 {
         // offset 0x40a0, size 0xb5d8
         character characters[11];
         // offset 0xf678, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0xfee8, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x109d8, size 0x500
@@ -35108,7 +35108,7 @@ version 53 {
     };
 
     // idx 31 members 261 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -35204,15 +35204,15 @@ version 53 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -35268,15 +35268,15 @@ version 53 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -35286,7 +35286,7 @@ version 53 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -35326,7 +35326,7 @@ version 53 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -35354,7 +35354,7 @@ version 53 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -35378,7 +35378,7 @@ version 53 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -35404,7 +35404,7 @@ version 53 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -35424,7 +35424,7 @@ version 53 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -35490,13 +35490,13 @@ version 53 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -35524,7 +35524,7 @@ version 53 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -35578,7 +35578,7 @@ version 53 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -35590,7 +35590,7 @@ version 53 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -35640,7 +35640,7 @@ version 53 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -35661,7 +35661,7 @@ version 53 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -35806,7 +35806,7 @@ version 52 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -35814,7 +35814,7 @@ version 52 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -35872,13 +35872,13 @@ version 52 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -35890,7 +35890,7 @@ version 52 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -35902,13 +35902,13 @@ version 52 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -35920,7 +35920,7 @@ version 52 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -36012,7 +36012,7 @@ version 52 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -36034,7 +36034,7 @@ version 52 {
         // offset 0x40a0, size 0xb5d8
         character characters[11];
         // offset 0xf678, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0xfee8, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x109d8, size 0x500
@@ -36150,7 +36150,7 @@ version 52 {
     };
 
     // idx 31 members 260 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -36246,15 +36246,15 @@ version 52 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -36310,15 +36310,15 @@ version 52 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -36328,7 +36328,7 @@ version 52 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -36368,7 +36368,7 @@ version 52 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -36396,7 +36396,7 @@ version 52 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -36420,7 +36420,7 @@ version 52 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -36446,7 +36446,7 @@ version 52 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -36466,7 +36466,7 @@ version 52 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -36532,13 +36532,13 @@ version 52 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -36566,7 +36566,7 @@ version 52 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -36620,7 +36620,7 @@ version 52 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -36632,7 +36632,7 @@ version 52 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -36680,7 +36680,7 @@ version 52 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -36701,7 +36701,7 @@ version 52 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -36846,7 +36846,7 @@ version 51 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -36854,7 +36854,7 @@ version 51 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -36912,13 +36912,13 @@ version 51 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1088
@@ -36930,7 +36930,7 @@ version 51 {
         // offset 0x808, size 0x80
         uint:10 hash_20d6751cb2f9ca09[8];
         // offset 0x888, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -36942,13 +36942,13 @@ version 51 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -36960,7 +36960,7 @@ version 51 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -37052,7 +37052,7 @@ version 51 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -37074,7 +37074,7 @@ version 51 {
         // offset 0x40a0, size 0xb5d8
         character characters[11];
         // offset 0xf678, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0xfee8, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x109d8, size 0x500
@@ -37190,7 +37190,7 @@ version 51 {
     };
 
     // idx 31 members 260 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -37286,15 +37286,15 @@ version 51 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -37350,15 +37350,15 @@ version 51 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -37368,7 +37368,7 @@ version 51 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -37408,7 +37408,7 @@ version 51 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -37436,7 +37436,7 @@ version 51 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -37460,7 +37460,7 @@ version 51 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -37486,7 +37486,7 @@ version 51 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -37506,7 +37506,7 @@ version 51 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -37572,13 +37572,13 @@ version 51 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -37606,7 +37606,7 @@ version 51 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -37660,7 +37660,7 @@ version 51 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -37672,7 +37672,7 @@ version 51 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -37720,7 +37720,7 @@ version 51 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -37741,7 +37741,7 @@ version 51 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -37886,7 +37886,7 @@ version 50 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -37894,7 +37894,7 @@ version 50 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -37952,13 +37952,13 @@ version 50 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 5 size 0x11d0
@@ -37972,7 +37972,7 @@ version 50 {
         // offset 0x888, size 0x148
         variant showcaseweapon;
         // offset 0x9d0, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -37984,13 +37984,13 @@ version 50 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -38002,7 +38002,7 @@ version 50 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -38094,7 +38094,7 @@ version 50 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -38116,7 +38116,7 @@ version 50 {
         // offset 0x40a0, size 0xc3f0
         character characters[11];
         // offset 0x10490, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x10d00, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x117f0, size 0x500
@@ -38232,7 +38232,7 @@ version 50 {
     };
 
     // idx 31 members 260 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -38328,15 +38328,15 @@ version 50 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -38392,15 +38392,15 @@ version 50 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -38410,7 +38410,7 @@ version 50 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -38450,7 +38450,7 @@ version 50 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -38478,7 +38478,7 @@ version 50 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -38502,7 +38502,7 @@ version 50 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -38528,7 +38528,7 @@ version 50 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -38548,7 +38548,7 @@ version 50 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -38614,13 +38614,13 @@ version 50 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -38648,7 +38648,7 @@ version 50 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -38702,7 +38702,7 @@ version 50 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -38714,7 +38714,7 @@ version 50 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -38762,7 +38762,7 @@ version 50 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -38783,7 +38783,7 @@ version 50 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -38928,7 +38928,7 @@ version 49 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -38936,7 +38936,7 @@ version 49 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -38994,13 +38994,13 @@ version 49 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1150
@@ -39012,7 +39012,7 @@ version 49 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -39024,13 +39024,13 @@ version 49 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -39042,7 +39042,7 @@ version 49 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -39134,7 +39134,7 @@ version 49 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -39156,7 +39156,7 @@ version 49 {
         // offset 0x40a0, size 0xbe70
         character characters[11];
         // offset 0xff10, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x10780, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x11270, size 0x500
@@ -39272,7 +39272,7 @@ version 49 {
     };
 
     // idx 31 members 260 size 0xe710
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -39368,15 +39368,15 @@ version 49 {
         // offset 0xaea0, size 0x8
         uint:4 setbacks;
         // offset 0xaea8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaeb8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaec8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaed8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaef8, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf08, size 0x8
@@ -39432,15 +39432,15 @@ version 49 {
         // offset 0xb068, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb070, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb080, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb090, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb0c0, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb0d0, size 0x8
@@ -39450,7 +39450,7 @@ version 49 {
         // offset 0xb0e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb0e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb0f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb0f8, size 0x10
@@ -39490,7 +39490,7 @@ version 49 {
         // offset 0xb1a0, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1b0, size 0x8
         uint:5 pointsperprimarykill;
         // offset 0xb1b8, size 0x8
@@ -39518,7 +39518,7 @@ version 49 {
         // offset 0xb210, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb218, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb220, size 0x8
         uint:4 pickuptime;
         // offset 0xb228, size 0x20
@@ -39542,7 +39542,7 @@ version 49 {
         // offset 0xb290, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb298, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb2a0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb2a8, size 0x8
@@ -39568,7 +39568,7 @@ version 49 {
         // offset 0xe610, size 0x8
         uint:7 drafttime;
         // offset 0xe618, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe620, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe628, size 0x8
@@ -39588,7 +39588,7 @@ version 49 {
         // offset 0xe680, size 0x8
         uint:2 charactercustomization;
         // offset 0xe688, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe690, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe698, size 0x10
@@ -39654,13 +39654,13 @@ version 49 {
         // offset 0xe6c5, size 0x1
         bool fowrevealenabled;
         // offset 0xe6c6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe6c7, size 0x1
         bool headshotsonly;
         // offset 0xe6c8, size 0x1
         bool disablecontracts;
         // offset 0xe6c9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe6ca, size 0x1
         bool allowannouncer;
         // offset 0xe6cb, size 0x1
@@ -39688,7 +39688,7 @@ version 49 {
         // offset 0xe6d6, size 0x1
         bool teamkillpointloss;
         // offset 0xe6d7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe6d8, size 0x1
         bool perksenabled;
         // offset 0xe6d9, size 0x1
@@ -39742,7 +39742,7 @@ version 49 {
         // offset 0xe6f1, size 0x1
         bool oldschoolmode;
         // offset 0xe6f2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe6f3, size 0x1
         bool allowfinalkillcam;
         // offset 0xe6f4, size 0x1
@@ -39754,7 +39754,7 @@ version 49 {
         // offset 0xe6f7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe6f8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe6f9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe6fa, size 0x1
@@ -39802,7 +39802,7 @@ version 49 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -39823,7 +39823,7 @@ version 49 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe710
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -39968,7 +39968,7 @@ version 48 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -39976,7 +39976,7 @@ version 48 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -40034,13 +40034,13 @@ version 48 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1150
@@ -40052,7 +40052,7 @@ version 48 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -40064,13 +40064,13 @@ version 48 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -40082,7 +40082,7 @@ version 48 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -40174,7 +40174,7 @@ version 48 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -40196,7 +40196,7 @@ version 48 {
         // offset 0x40a0, size 0xbe70
         character characters[11];
         // offset 0xff10, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x10780, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x11270, size 0x500
@@ -40312,7 +40312,7 @@ version 48 {
     };
 
     // idx 31 members 267 size 0xe798
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -40412,15 +40412,15 @@ version 48 {
         // offset 0xaec8, size 0x20
         int hash_6b808ab4016cb1e1;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaef8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaf08, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaf18, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaf28, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaf38, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf48, size 0x8
@@ -40478,15 +40478,15 @@ version 48 {
         // offset 0xb0b0, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb0b8, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb0c8, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb0d8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0e8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0f8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb108, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb118, size 0x8
@@ -40496,7 +40496,7 @@ version 48 {
         // offset 0xb128, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb130, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb138, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb140, size 0x10
@@ -40536,7 +40536,7 @@ version 48 {
         // offset 0xb1e8, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1f0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1f8, size 0x20
         int deployablebarrierhealth;
         // offset 0xb218, size 0x8
@@ -40566,7 +40566,7 @@ version 48 {
         // offset 0xb278, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb280, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb288, size 0x8
         uint:4 pickuptime;
         // offset 0xb290, size 0x20
@@ -40592,7 +40592,7 @@ version 48 {
         // offset 0xb318, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb320, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb328, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb330, size 0x8
@@ -40618,7 +40618,7 @@ version 48 {
         // offset 0xe698, size 0x8
         uint:7 drafttime;
         // offset 0xe6a0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe6a8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe6b0, size 0x8
@@ -40638,7 +40638,7 @@ version 48 {
         // offset 0xe708, size 0x8
         uint:2 charactercustomization;
         // offset 0xe710, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe718, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe720, size 0x10
@@ -40706,13 +40706,13 @@ version 48 {
         // offset 0xe74e, size 0x1
         bool fowrevealenabled;
         // offset 0xe74f, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe750, size 0x1
         bool headshotsonly;
         // offset 0xe751, size 0x1
         bool disablecontracts;
         // offset 0xe752, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe753, size 0x1
         bool allowannouncer;
         // offset 0xe754, size 0x1
@@ -40740,7 +40740,7 @@ version 48 {
         // offset 0xe75f, size 0x1
         bool teamkillpointloss;
         // offset 0xe760, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe761, size 0x1
         bool perksenabled;
         // offset 0xe762, size 0x1
@@ -40794,7 +40794,7 @@ version 48 {
         // offset 0xe77a, size 0x1
         bool oldschoolmode;
         // offset 0xe77b, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe77c, size 0x1
         bool allowfinalkillcam;
         // offset 0xe77d, size 0x1
@@ -40806,7 +40806,7 @@ version 48 {
         // offset 0xe780, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe781, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe782, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe783, size 0x1
@@ -40856,7 +40856,7 @@ version 48 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -40877,7 +40877,7 @@ version 48 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe798
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -41022,7 +41022,7 @@ version 47 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -41030,7 +41030,7 @@ version 47 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -41088,13 +41088,13 @@ version 47 {
     // idx 12 members 1 size 0x40
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x1150
@@ -41106,7 +41106,7 @@ version 47 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x800
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -41118,13 +41118,13 @@ version 47 {
     // idx 16 members 1 size 0x40
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x40
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 1 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x8
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
     };
 
     // idx 18 members 4 size 0xa50
@@ -41136,7 +41136,7 @@ version 47 {
         // offset 0x808, size 0x148
         variant showcaseweapon;
         // offset 0x950, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -41228,7 +41228,7 @@ version 47 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -41250,7 +41250,7 @@ version 47 {
         // offset 0x40a0, size 0xbe70
         character characters[11];
         // offset 0xff10, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x10780, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0x11270, size 0x500
@@ -41366,7 +41366,7 @@ version 47 {
     };
 
     // idx 31 members 266 size 0xe798
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -41466,15 +41466,15 @@ version 47 {
         // offset 0xaec8, size 0x20
         int hash_6b808ab4016cb1e1;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaef8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaf08, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaf18, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaf28, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaf38, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf48, size 0x8
@@ -41532,15 +41532,15 @@ version 47 {
         // offset 0xb0b0, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb0b8, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb0c8, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb0d8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0e8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0f8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb108, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb118, size 0x8
@@ -41550,7 +41550,7 @@ version 47 {
         // offset 0xb128, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb130, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb138, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb140, size 0x10
@@ -41590,7 +41590,7 @@ version 47 {
         // offset 0xb1e8, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1f0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1f8, size 0x20
         int deployablebarrierhealth;
         // offset 0xb218, size 0x8
@@ -41620,7 +41620,7 @@ version 47 {
         // offset 0xb278, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb280, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb288, size 0x8
         uint:4 pickuptime;
         // offset 0xb290, size 0x20
@@ -41646,7 +41646,7 @@ version 47 {
         // offset 0xb318, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb320, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb328, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb330, size 0x8
@@ -41672,7 +41672,7 @@ version 47 {
         // offset 0xe698, size 0x8
         uint:7 drafttime;
         // offset 0xe6a0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe6a8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe6b0, size 0x8
@@ -41692,7 +41692,7 @@ version 47 {
         // offset 0xe708, size 0x8
         uint:2 charactercustomization;
         // offset 0xe710, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe718, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe720, size 0x10
@@ -41760,13 +41760,13 @@ version 47 {
         // offset 0xe74e, size 0x1
         bool fowrevealenabled;
         // offset 0xe74f, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe750, size 0x1
         bool headshotsonly;
         // offset 0xe751, size 0x1
         bool disablecontracts;
         // offset 0xe752, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe753, size 0x1
         bool allowannouncer;
         // offset 0xe754, size 0x1
@@ -41794,7 +41794,7 @@ version 47 {
         // offset 0xe75f, size 0x1
         bool teamkillpointloss;
         // offset 0xe760, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe761, size 0x1
         bool perksenabled;
         // offset 0xe762, size 0x1
@@ -41846,7 +41846,7 @@ version 47 {
         // offset 0xe779, size 0x1
         bool oldschoolmode;
         // offset 0xe77a, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe77b, size 0x1
         bool allowfinalkillcam;
         // offset 0xe77c, size 0x1
@@ -41858,7 +41858,7 @@ version 47 {
         // offset 0xe77f, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe780, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe781, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe782, size 0x1
@@ -41908,7 +41908,7 @@ version 47 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -41929,7 +41929,7 @@ version 47 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe798
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -42074,7 +42074,7 @@ version 46 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -42082,7 +42082,7 @@ version 46 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -42140,13 +42140,13 @@ version 46 {
     // idx 12 members 1 size 0x38
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x38
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x38
     struct characteroutfit {
         // offset 0x0, size 0x38
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0xf50
@@ -42158,7 +42158,7 @@ version 46 {
         // offset 0x708, size 0x148
         variant showcaseweapon;
         // offset 0x850, size 0x700
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -42170,13 +42170,13 @@ version 46 {
     // idx 16 members 1 size 0x38
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x38
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 2 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x7
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
         // offset 0x7, size 0x1
         uint:1 __pad[1];
     };
@@ -42190,7 +42190,7 @@ version 46 {
         // offset 0x708, size 0x148
         variant showcaseweapon;
         // offset 0x850, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -42282,7 +42282,7 @@ version 46 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -42304,7 +42304,7 @@ version 46 {
         // offset 0x40a0, size 0xa870
         character characters[11];
         // offset 0xe910, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0xf180, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0xfc70, size 0x500
@@ -42420,7 +42420,7 @@ version 46 {
     };
 
     // idx 31 members 266 size 0xe798
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -42520,15 +42520,15 @@ version 46 {
         // offset 0xaec8, size 0x20
         int hash_6b808ab4016cb1e1;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaef8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaf08, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaf18, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaf28, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaf38, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf48, size 0x8
@@ -42586,15 +42586,15 @@ version 46 {
         // offset 0xb0b0, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb0b8, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb0c8, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb0d8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0e8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0f8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb108, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb118, size 0x8
@@ -42604,7 +42604,7 @@ version 46 {
         // offset 0xb128, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb130, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb138, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb140, size 0x10
@@ -42644,7 +42644,7 @@ version 46 {
         // offset 0xb1e8, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1f0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1f8, size 0x20
         int deployablebarrierhealth;
         // offset 0xb218, size 0x8
@@ -42674,7 +42674,7 @@ version 46 {
         // offset 0xb278, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb280, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb288, size 0x8
         uint:4 pickuptime;
         // offset 0xb290, size 0x20
@@ -42700,7 +42700,7 @@ version 46 {
         // offset 0xb318, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb320, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb328, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb330, size 0x8
@@ -42726,7 +42726,7 @@ version 46 {
         // offset 0xe698, size 0x8
         uint:7 drafttime;
         // offset 0xe6a0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe6a8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe6b0, size 0x8
@@ -42746,7 +42746,7 @@ version 46 {
         // offset 0xe708, size 0x8
         uint:2 charactercustomization;
         // offset 0xe710, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe718, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe720, size 0x10
@@ -42814,13 +42814,13 @@ version 46 {
         // offset 0xe74e, size 0x1
         bool fowrevealenabled;
         // offset 0xe74f, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe750, size 0x1
         bool headshotsonly;
         // offset 0xe751, size 0x1
         bool disablecontracts;
         // offset 0xe752, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe753, size 0x1
         bool allowannouncer;
         // offset 0xe754, size 0x1
@@ -42848,7 +42848,7 @@ version 46 {
         // offset 0xe75f, size 0x1
         bool teamkillpointloss;
         // offset 0xe760, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe761, size 0x1
         bool perksenabled;
         // offset 0xe762, size 0x1
@@ -42900,7 +42900,7 @@ version 46 {
         // offset 0xe779, size 0x1
         bool oldschoolmode;
         // offset 0xe77a, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe77b, size 0x1
         bool allowfinalkillcam;
         // offset 0xe77c, size 0x1
@@ -42912,7 +42912,7 @@ version 46 {
         // offset 0xe77f, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe780, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe781, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe782, size 0x1
@@ -42962,7 +42962,7 @@ version 46 {
     };
 
     // idx 1 members 7
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -42982,7 +42982,7 @@ version 46 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe798
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -43127,7 +43127,7 @@ version 45 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -43135,7 +43135,7 @@ version 45 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -43193,13 +43193,13 @@ version 45 {
     // idx 12 members 1 size 0x38
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x38
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x38
     struct characteroutfit {
         // offset 0x0, size 0x38
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0xf50
@@ -43211,7 +43211,7 @@ version 45 {
         // offset 0x708, size 0x148
         variant showcaseweapon;
         // offset 0x850, size 0x700
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -43223,13 +43223,13 @@ version 45 {
     // idx 16 members 1 size 0x38
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x38
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 2 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x7
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
         // offset 0x7, size 0x1
         uint:1 __pad[1];
     };
@@ -43243,7 +43243,7 @@ version 45 {
         // offset 0x708, size 0x148
         variant showcaseweapon;
         // offset 0x850, size 0x100
-        hash_22abd41674c242a4 hash_e5c77948998e49[32];
+        wzcharacteroutfit selectedoutfititems[32];
     };
 
     // idx 19 members 4 size 0x58
@@ -43335,7 +43335,7 @@ version 45 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -43357,7 +43357,7 @@ version 45 {
         // offset 0x40a0, size 0xa870
         character characters[11];
         // offset 0xe910, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0xf180, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0xfc70, size 0x500
@@ -43473,7 +43473,7 @@ version 45 {
     };
 
     // idx 31 members 265 size 0xe790
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -43573,15 +43573,15 @@ version 45 {
         // offset 0xaec8, size 0x20
         int hash_6b808ab4016cb1e1;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaef8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaf08, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaf18, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaf28, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaf38, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf48, size 0x8
@@ -43639,15 +43639,15 @@ version 45 {
         // offset 0xb0b0, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb0b8, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb0c8, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb0d8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0e8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0f8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb108, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb118, size 0x8
@@ -43657,7 +43657,7 @@ version 45 {
         // offset 0xb128, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb130, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb138, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb140, size 0x10
@@ -43697,7 +43697,7 @@ version 45 {
         // offset 0xb1e8, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1f0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1f8, size 0x20
         int deployablebarrierhealth;
         // offset 0xb218, size 0x8
@@ -43727,7 +43727,7 @@ version 45 {
         // offset 0xb278, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb280, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb288, size 0x8
         uint:4 pickuptime;
         // offset 0xb290, size 0x20
@@ -43753,7 +43753,7 @@ version 45 {
         // offset 0xb318, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb320, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb328, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb330, size 0x8
@@ -43779,7 +43779,7 @@ version 45 {
         // offset 0xe698, size 0x8
         uint:7 drafttime;
         // offset 0xe6a0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe6a8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe6b0, size 0x8
@@ -43797,7 +43797,7 @@ version 45 {
         // offset 0xe700, size 0x8
         uint:2 charactercustomization;
         // offset 0xe708, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe710, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe718, size 0x10
@@ -43865,13 +43865,13 @@ version 45 {
         // offset 0xe746, size 0x1
         bool fowrevealenabled;
         // offset 0xe747, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe748, size 0x1
         bool headshotsonly;
         // offset 0xe749, size 0x1
         bool disablecontracts;
         // offset 0xe74a, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe74b, size 0x1
         bool allowannouncer;
         // offset 0xe74c, size 0x1
@@ -43899,7 +43899,7 @@ version 45 {
         // offset 0xe757, size 0x1
         bool teamkillpointloss;
         // offset 0xe758, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe759, size 0x1
         bool perksenabled;
         // offset 0xe75a, size 0x1
@@ -43951,7 +43951,7 @@ version 45 {
         // offset 0xe771, size 0x1
         bool oldschoolmode;
         // offset 0xe772, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe773, size 0x1
         bool allowfinalkillcam;
         // offset 0xe774, size 0x1
@@ -43963,7 +43963,7 @@ version 45 {
         // offset 0xe777, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe778, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe779, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe77a, size 0x1
@@ -44013,7 +44013,7 @@ version 45 {
     };
 
     // idx 1 members 7
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -44033,7 +44033,7 @@ version 45 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe790
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -44178,7 +44178,7 @@ version 44 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -44186,7 +44186,7 @@ version 44 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -44244,13 +44244,13 @@ version 44 {
     // idx 12 members 1 size 0x38
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x38
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x38
     struct characteroutfit {
         // offset 0x0, size 0x38
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0xf50
@@ -44262,7 +44262,7 @@ version 44 {
         // offset 0x708, size 0x148
         variant showcaseweapon;
         // offset 0x850, size 0x700
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -44274,13 +44274,13 @@ version 44 {
     // idx 16 members 1 size 0x38
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x38
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 2 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x7
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
         // offset 0x7, size 0x1
         uint:1 __pad[1];
     };
@@ -44294,7 +44294,7 @@ version 44 {
         // offset 0xe8, size 0x148
         variant showcaseweapon;
         // offset 0x230, size 0x20
-        hash_22abd41674c242a4 hash_e5c77948998e49[4];
+        wzcharacteroutfit selectedoutfititems[4];
     };
 
     // idx 19 members 4 size 0x58
@@ -44386,7 +44386,7 @@ version 44 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -44408,7 +44408,7 @@ version 44 {
         // offset 0x40a0, size 0xa870
         character characters[11];
         // offset 0xe910, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0xf180, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0xfc70, size 0x500
@@ -44524,7 +44524,7 @@ version 44 {
     };
 
     // idx 31 members 265 size 0xe790
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -44624,15 +44624,15 @@ version 44 {
         // offset 0xaec8, size 0x20
         int hash_6b808ab4016cb1e1;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaef8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaf08, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaf18, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaf28, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaf38, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf48, size 0x8
@@ -44690,15 +44690,15 @@ version 44 {
         // offset 0xb0b0, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb0b8, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb0c8, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb0d8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0e8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0f8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb108, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb118, size 0x8
@@ -44708,7 +44708,7 @@ version 44 {
         // offset 0xb128, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb130, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb138, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb140, size 0x10
@@ -44748,7 +44748,7 @@ version 44 {
         // offset 0xb1e8, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1f0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1f8, size 0x20
         int deployablebarrierhealth;
         // offset 0xb218, size 0x8
@@ -44778,7 +44778,7 @@ version 44 {
         // offset 0xb278, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb280, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb288, size 0x8
         uint:4 pickuptime;
         // offset 0xb290, size 0x20
@@ -44804,7 +44804,7 @@ version 44 {
         // offset 0xb318, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb320, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb328, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb330, size 0x8
@@ -44830,7 +44830,7 @@ version 44 {
         // offset 0xe698, size 0x8
         uint:7 drafttime;
         // offset 0xe6a0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe6a8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe6b0, size 0x8
@@ -44848,7 +44848,7 @@ version 44 {
         // offset 0xe700, size 0x8
         uint:2 charactercustomization;
         // offset 0xe708, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe710, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe718, size 0x10
@@ -44916,13 +44916,13 @@ version 44 {
         // offset 0xe746, size 0x1
         bool fowrevealenabled;
         // offset 0xe747, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe748, size 0x1
         bool headshotsonly;
         // offset 0xe749, size 0x1
         bool disablecontracts;
         // offset 0xe74a, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe74b, size 0x1
         bool allowannouncer;
         // offset 0xe74c, size 0x1
@@ -44950,7 +44950,7 @@ version 44 {
         // offset 0xe757, size 0x1
         bool teamkillpointloss;
         // offset 0xe758, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe759, size 0x1
         bool perksenabled;
         // offset 0xe75a, size 0x1
@@ -45002,7 +45002,7 @@ version 44 {
         // offset 0xe771, size 0x1
         bool oldschoolmode;
         // offset 0xe772, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe773, size 0x1
         bool allowfinalkillcam;
         // offset 0xe774, size 0x1
@@ -45014,7 +45014,7 @@ version 44 {
         // offset 0xe777, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe778, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe779, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe77a, size 0x1
@@ -45064,7 +45064,7 @@ version 44 {
     };
 
     // idx 1 members 7
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -45084,7 +45084,7 @@ version 44 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe790
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -45229,7 +45229,7 @@ version 43 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -45237,7 +45237,7 @@ version 43 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -45295,13 +45295,13 @@ version 43 {
     // idx 12 members 1 size 0x38
     struct hash_380775ab8e293fe7 {
         // offset 0x0, size 0x38
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 13 members 1 size 0x38
     struct characteroutfit {
         // offset 0x0, size 0x38
-        uint:4 selectedcomponent[hash_5ab26f037efe82c];
+        uint:4 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0xf50
@@ -45313,7 +45313,7 @@ version 43 {
         // offset 0x708, size 0x148
         variant showcaseweapon;
         // offset 0x850, size 0x700
-        characteroutfit hash_e5c77948998e49[32];
+        characteroutfit selectedoutfititems[32];
     };
 
     // idx 15 members 1 size 0x1
@@ -45325,13 +45325,13 @@ version 43 {
     // idx 16 members 1 size 0x38
     struct hash_3cff0c833d630ba2 {
         // offset 0x0, size 0x38
-        hash_52f9ee07d542f724 parts[hash_5ab26f037efe82c];
+        hash_52f9ee07d542f724 parts[outfitparts_e];
     };
 
     // idx 17 members 2 size 0x8
-    struct hash_22abd41674c242a4 {
+    struct wzcharacteroutfit {
         // offset 0x0, size 0x7
-        bool selectedcomponent[hash_5ab26f037efe82c];
+        bool selectedcomponent[outfitparts_e];
         // offset 0x7, size 0x1
         uint:1 __pad[1];
     };
@@ -45343,7 +45343,7 @@ version 43 {
         // offset 0x38, size 0x148
         variant showcaseweapon;
         // offset 0x180, size 0x8
-        hash_22abd41674c242a4 hash_e5c77948998e49[1];
+        wzcharacteroutfit selectedoutfititems[1];
         // offset 0x188, size 0x1
         bool selectedoutfit;
         // offset 0x189, size 0x7
@@ -45439,7 +45439,7 @@ version 43 {
     };
 
     // idx 25 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -45461,7 +45461,7 @@ version 43 {
         // offset 0x40a0, size 0xa870
         character characters[11];
         // offset 0xe910, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0xf180, size 0xaf0
         hash_639e593cf0112829 customclass[10];
         // offset 0xfc70, size 0x500
@@ -45577,7 +45577,7 @@ version 43 {
     };
 
     // idx 31 members 265 size 0xe790
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -45677,15 +45677,15 @@ version 43 {
         // offset 0xaec8, size 0x20
         int hash_6b808ab4016cb1e1;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaef8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaf08, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaf18, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaf28, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaf38, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf48, size 0x8
@@ -45743,15 +45743,15 @@ version 43 {
         // offset 0xb0b0, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb0b8, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb0c8, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb0d8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0e8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0f8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb108, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb118, size 0x8
@@ -45761,7 +45761,7 @@ version 43 {
         // offset 0xb128, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb130, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb138, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb140, size 0x10
@@ -45801,7 +45801,7 @@ version 43 {
         // offset 0xb1e8, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1f0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1f8, size 0x20
         int deployablebarrierhealth;
         // offset 0xb218, size 0x8
@@ -45831,7 +45831,7 @@ version 43 {
         // offset 0xb278, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb280, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb288, size 0x8
         uint:4 pickuptime;
         // offset 0xb290, size 0x20
@@ -45857,7 +45857,7 @@ version 43 {
         // offset 0xb318, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb320, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb328, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb330, size 0x8
@@ -45883,7 +45883,7 @@ version 43 {
         // offset 0xe698, size 0x8
         uint:7 drafttime;
         // offset 0xe6a0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe6a8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe6b0, size 0x8
@@ -45901,7 +45901,7 @@ version 43 {
         // offset 0xe700, size 0x8
         uint:2 charactercustomization;
         // offset 0xe708, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe710, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe718, size 0x10
@@ -45969,13 +45969,13 @@ version 43 {
         // offset 0xe746, size 0x1
         bool fowrevealenabled;
         // offset 0xe747, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe748, size 0x1
         bool headshotsonly;
         // offset 0xe749, size 0x1
         bool disablecontracts;
         // offset 0xe74a, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe74b, size 0x1
         bool allowannouncer;
         // offset 0xe74c, size 0x1
@@ -46003,7 +46003,7 @@ version 43 {
         // offset 0xe757, size 0x1
         bool teamkillpointloss;
         // offset 0xe758, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe759, size 0x1
         bool perksenabled;
         // offset 0xe75a, size 0x1
@@ -46055,7 +46055,7 @@ version 43 {
         // offset 0xe771, size 0x1
         bool oldschoolmode;
         // offset 0xe772, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe773, size 0x1
         bool allowfinalkillcam;
         // offset 0xe774, size 0x1
@@ -46067,7 +46067,7 @@ version 43 {
         // offset 0xe777, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe778, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe779, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe77a, size 0x1
@@ -46117,7 +46117,7 @@ version 43 {
     };
 
     // idx 1 members 7
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -46137,7 +46137,7 @@ version 43 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe790
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -46282,7 +46282,7 @@ version 42 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -46290,7 +46290,7 @@ version 42 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -46372,7 +46372,7 @@ version 42 {
     };
 
     // idx 14 members 1 size 0x100
-    struct hash_508eaeb5f638a293 {
+    struct regionmix_s {
         // offset 0x0, size 0x100
         mix_s mix[4];
     };
@@ -46380,7 +46380,7 @@ version 42 {
     // idx 15 members 2 size 0x510
     struct hash_5b3226f1816b17a {
         // offset 0x0, size 0x500
-        hash_508eaeb5f638a293 hash_506cb6b5f61bc9c5[5];
+        regionmix_s hash_506cb6b5f61bc9c5[5];
         // offset 0x500, size 0x10
         uint:5 materialindex[2];
     };
@@ -46388,7 +46388,7 @@ version 42 {
     // idx 16 members 5 size 0xa78
     struct charactercontext {
         // offset 0x0, size 0xa20
-        hash_5b3226f1816b17a hash_50ee7b4f9ae0c518[hash_7f3085f3cff25119];
+        hash_5b3226f1816b17a mixmatrix[hash_7f3085f3cff25119];
         // offset 0xa20, size 0x20
         uint characterindex;
         // offset 0xa40, size 0x8
@@ -46476,7 +46476,7 @@ version 42 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -46498,7 +46498,7 @@ version 42 {
         // offset 0x4ac0, size 0x159d0
         character characters[11];
         // offset 0x1a490, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1ad00, size 0x8
         uint:2 firstselectedloadouttype;
         // offset 0x1ad08, size 0xaf0
@@ -46622,7 +46622,7 @@ version 42 {
     };
 
     // idx 28 members 265 size 0xe7a8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -46722,15 +46722,15 @@ version 42 {
         // offset 0xaec8, size 0x20
         int hash_6b808ab4016cb1e1;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaef8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaf08, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaf18, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaf28, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaf38, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf48, size 0x8
@@ -46788,15 +46788,15 @@ version 42 {
         // offset 0xb0b0, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb0b8, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb0c8, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb0d8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0e8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0f8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb108, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb118, size 0x8
@@ -46806,7 +46806,7 @@ version 42 {
         // offset 0xb128, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb130, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb138, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb140, size 0x10
@@ -46846,7 +46846,7 @@ version 42 {
         // offset 0xb1e8, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1f0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1f8, size 0x20
         int deployablebarrierhealth;
         // offset 0xb218, size 0x8
@@ -46876,7 +46876,7 @@ version 42 {
         // offset 0xb278, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb280, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb288, size 0x8
         uint:4 pickuptime;
         // offset 0xb290, size 0x20
@@ -46902,7 +46902,7 @@ version 42 {
         // offset 0xb318, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb320, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb328, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb330, size 0x8
@@ -46928,7 +46928,7 @@ version 42 {
         // offset 0xe6b0, size 0x8
         uint:7 drafttime;
         // offset 0xe6b8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe6c0, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe6c8, size 0x8
@@ -46946,7 +46946,7 @@ version 42 {
         // offset 0xe718, size 0x8
         uint:2 charactercustomization;
         // offset 0xe720, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe728, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe730, size 0x10
@@ -47014,13 +47014,13 @@ version 42 {
         // offset 0xe75e, size 0x1
         bool fowrevealenabled;
         // offset 0xe75f, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe760, size 0x1
         bool headshotsonly;
         // offset 0xe761, size 0x1
         bool disablecontracts;
         // offset 0xe762, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe763, size 0x1
         bool allowannouncer;
         // offset 0xe764, size 0x1
@@ -47048,7 +47048,7 @@ version 42 {
         // offset 0xe76f, size 0x1
         bool teamkillpointloss;
         // offset 0xe770, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe771, size 0x1
         bool perksenabled;
         // offset 0xe772, size 0x1
@@ -47100,7 +47100,7 @@ version 42 {
         // offset 0xe789, size 0x1
         bool oldschoolmode;
         // offset 0xe78a, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe78b, size 0x1
         bool allowfinalkillcam;
         // offset 0xe78c, size 0x1
@@ -47112,7 +47112,7 @@ version 42 {
         // offset 0xe78f, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe790, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe791, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe792, size 0x1
@@ -47179,7 +47179,7 @@ version 42 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe7a8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 
 /////////////////////////////////////////////////
@@ -47324,7 +47324,7 @@ version 41 {
     };
 
     // idx 6 members 1 size 0x4548
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x4548
         layerinformation layerinfo;
     };
@@ -47332,7 +47332,7 @@ version 41 {
     // idx 7 members 1 size 0x8a90
     struct paintshop {
         // offset 0x0, size 0x8a90
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x8b60
@@ -47414,7 +47414,7 @@ version 41 {
     };
 
     // idx 14 members 1 size 0x100
-    struct hash_508eaeb5f638a293 {
+    struct regionmix_s {
         // offset 0x0, size 0x100
         mix_s mix[4];
     };
@@ -47422,7 +47422,7 @@ version 41 {
     // idx 15 members 2 size 0x510
     struct hash_5b3226f1816b17a {
         // offset 0x0, size 0x500
-        hash_508eaeb5f638a293 hash_506cb6b5f61bc9c5[5];
+        regionmix_s hash_506cb6b5f61bc9c5[5];
         // offset 0x500, size 0x10
         uint:5 materialindex[2];
     };
@@ -47430,7 +47430,7 @@ version 41 {
     // idx 16 members 5 size 0xa78
     struct charactercontext {
         // offset 0x0, size 0xa20
-        hash_5b3226f1816b17a hash_50ee7b4f9ae0c518[hash_7f3085f3cff25119];
+        hash_5b3226f1816b17a mixmatrix[hash_7f3085f3cff25119];
         // offset 0xa20, size 0x20
         uint characterindex;
         // offset 0xa40, size 0x8
@@ -47518,7 +47518,7 @@ version 41 {
     };
 
     // idx 22 members 2 size 0xd8
-    struct hash_5fdbf0fb5462cc71 {
+    struct bubblegumpack_s {
         // offset 0x0, size 0x88
         string(17) packname;
         // offset 0x88, size 0x50
@@ -47540,7 +47540,7 @@ version 41 {
         // offset 0x4ac0, size 0x159d0
         character characters[11];
         // offset 0x1a490, size 0x870
-        hash_5fdbf0fb5462cc71 bubblegumpack[10];
+        bubblegumpack_s bubblegumpack[10];
         // offset 0x1ad00, size 0x8
         uint:2 firstselectedloadouttype;
         // offset 0x1ad08, size 0xaf0
@@ -47664,7 +47664,7 @@ version 41 {
     };
 
     // idx 28 members 265 size 0xe7a8
-    struct hash_2565a0443b27b26c {
+    struct gametypesettings_s {
         // offset 0x0, size 0x8
         fixed<8,2> timelimit;
         // offset 0x8, size 0x8
@@ -47764,15 +47764,15 @@ version 41 {
         // offset 0xaec8, size 0x20
         int hash_6b808ab4016cb1e1;
         // offset 0xaee8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0xaef8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0xaf08, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0xaf18, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0xaf28, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0xaf38, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0xaf48, size 0x8
@@ -47830,15 +47830,15 @@ version 41 {
         // offset 0xb0b0, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0xb0b8, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0xb0c8, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0xb0d8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0xb0e8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0xb0f8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0xb108, size 0x10
         fixed<10,2> destroytime;
         // offset 0xb118, size 0x8
@@ -47848,7 +47848,7 @@ version 41 {
         // offset 0xb128, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0xb130, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0xb138, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0xb140, size 0x10
@@ -47888,7 +47888,7 @@ version 41 {
         // offset 0xb1e8, size 0x8
         uint:5 hash_102aeddad113f70c;
         // offset 0xb1f0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0xb1f8, size 0x20
         int deployablebarrierhealth;
         // offset 0xb218, size 0x8
@@ -47918,7 +47918,7 @@ version 41 {
         // offset 0xb278, size 0x8
         uint:5 teamscorepercleandeposit;
         // offset 0xb280, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0xb288, size 0x8
         uint:4 pickuptime;
         // offset 0xb290, size 0x20
@@ -47944,7 +47944,7 @@ version 41 {
         // offset 0xb318, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xb320, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xb328, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xb330, size 0x8
@@ -47970,7 +47970,7 @@ version 41 {
         // offset 0xe6b0, size 0x8
         uint:7 drafttime;
         // offset 0xe6b8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xe6c0, size 0x8
         uint:7 objectivespawntime;
         // offset 0xe6c8, size 0x8
@@ -47988,7 +47988,7 @@ version 41 {
         // offset 0xe718, size 0x8
         uint:2 charactercustomization;
         // offset 0xe720, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xe728, size 0x8
         uint:5 teamscoreperkilldenied;
         // offset 0xe730, size 0x10
@@ -48056,13 +48056,13 @@ version 41 {
         // offset 0xe75e, size 0x1
         bool fowrevealenabled;
         // offset 0xe75f, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xe760, size 0x1
         bool headshotsonly;
         // offset 0xe761, size 0x1
         bool disablecontracts;
         // offset 0xe762, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xe763, size 0x1
         bool allowannouncer;
         // offset 0xe764, size 0x1
@@ -48090,7 +48090,7 @@ version 41 {
         // offset 0xe76f, size 0x1
         bool teamkillpointloss;
         // offset 0xe770, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xe771, size 0x1
         bool perksenabled;
         // offset 0xe772, size 0x1
@@ -48142,7 +48142,7 @@ version 41 {
         // offset 0xe789, size 0x1
         bool oldschoolmode;
         // offset 0xe78a, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xe78b, size 0x1
         bool allowfinalkillcam;
         // offset 0xe78c, size 0x1
@@ -48154,7 +48154,7 @@ version 41 {
         // offset 0xe78f, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xe790, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xe791, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xe792, size 0x1
@@ -48221,6 +48221,6 @@ version 41 {
     // offset 0x0, size 0x20
     int loadoutversion;
     // offset 0x20, size 0xe7a8
-    hash_2565a0443b27b26c gametypesettings;
+    gametypesettings_s gametypesettings;
 }
 

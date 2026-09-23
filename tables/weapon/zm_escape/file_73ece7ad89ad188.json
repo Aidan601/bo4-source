@@ -1,5 +1,5 @@
 {
-    "name": "#hash_73ece7ad89ad188",
+    "name": "#blundergat_acid_bullet_zm",
     "baseWeapon": "#hash_3de0926b89369160",
     "grenadeWeaponName": "#hash_2f2554ceaa4eaa3f",
     "soundbank": "#hash_490722a6cb3ab9b2",
@@ -27,9 +27,9 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "tunables1": "#hash_468528d06864e303",
     "projectilemodel": "#wpn_t8_zm_blundergat_acid_projectile",
-    "fx_ed8": "#hash_303c56d9305fbba7"
+    "fx_ed8": "#zm_weapons/fx8_blundersplat_impact"
 }

@@ -1,11 +1,11 @@
 {
-    "name": "#hash_62d50353daffd4c5",
+    "name": "#loot_tags_caricature_nomad",
     "type": "#tag",
-    "material": "#hash_69758343c31e9581",
+    "material": "#vd/mtl_loot_ui_icon_tags_caricature_nomad",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_40a7bfecb265ebf6",
-        "icon": "image#hash_efb7f317dd13148",
+        "icon": "image#loot_ui_icon_tags_caricature_nomad",
         "isdefault": 0
     }
 }

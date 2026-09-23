@@ -28,7 +28,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_d796100327cfca4",
+                            "anim": "playeranim#ch_vign_zm_mob_richtofen_into_machine",
                             "entrytype": "anim"
                         },
                         {
@@ -60,12 +60,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "disabled": 1,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_45b00ade1dbcab2b",
+            "model": "character#c_t8_zmb_mob_hero_richtofen1_igc",
             "type": "player",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -87,7 +87,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_740567ac443aa4fb",
+                            "anim": "anim#p8_zm_esc_dark_machine_idle",
                             "entrytype": "anim"
                         }
                     ],
@@ -148,7 +148,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

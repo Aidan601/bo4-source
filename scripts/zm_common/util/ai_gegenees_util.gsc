@@ -78,7 +78,7 @@ function private function_b656013e()
     level flag::wait_till( #"pap_quest_completed" );
     bundle.weakpointdamagescale = 0.5;
     bundle.instakilldamagescale = 0.4;
-    bundle.var_97b22faa = 0.75;
+    bundle.instakillweakpointdamagescale = 0.75;
 }
 
 // Namespace zombie_gegenees_util/ai_gegenees_util
@@ -382,7 +382,7 @@ function spawn_single( b_force_spawn = 0, var_eb3a8721, var_bc66d64b )
             ai thread [[ level.var_18645b05 ]]( s_spawn_loc );
         }
         
-        ai playsound( #"hash_63299a75a97f9678" );
+        ai playsound( #"zmb_ai_stoker_spawn" );
         bhtnactionstartevent( ai, "spawn" );
         self util::delay( 3, "death", &zm_audio::function_bca32e49, "stoker", "cue_react" );
     }
@@ -504,7 +504,7 @@ function function_c1a0ea97( n_round_number )
     
     while ( true )
     {
-        level waittill( #"hash_5d3012139f083ccb" );
+        level waittill( #"round_spawns_constructed" );
         
         if ( zm_round_spawning::function_d0db51fc( #"gegenees" ) )
         {

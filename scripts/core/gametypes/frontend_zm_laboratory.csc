@@ -39,7 +39,7 @@ function __init__()
 function function_250232f4( localclientnum )
 {
     lui::createcustomcameramenu( #"laboratory", localclientnum, &function_a856f9dd, 1, &function_ca3a6506, &function_64c9ba5 );
-    level flag::init( #"hash_511b4468376ea105" );
+    level flag::init( #"laboratory_results_ready" );
     level flag::init( #"laboratory_activated" );
     level flag::init( #"hash_71fc63117cc5bf06" + 1 );
     level flag::init( #"hash_71fc63117cc5bf06" + 2 );
@@ -54,30 +54,30 @@ function function_250232f4( localclientnum )
     level.var_49f26c00.var_8a28a9a = array::random( level.var_49f26c00.var_ece3d654 );
     level.var_49f26c00.var_66baa9e8 = array( -1, -1, 0, 1, 3, 2 );
     level.var_49f26c00.var_9af0d684 = 1;
-    level.var_49f26c00.var_f538d7d4 = array( #"hash_a87603ded4882b1", #"hash_2c6105fec300cac", #"hash_165b9b0cd81e08af", #"hash_4f161447e88af8b9", #"hash_712426d0934a5cd4" );
-    level.var_49f26c00.var_7a5c68f2 = array( #"fx_bottle_common", #"hash_38d4f59cb78344b9", #"hash_78f0379f9bdc006", #"fx_bottle_epic", #"hash_256e8ac9ea9c8ad9" );
+    level.var_49f26c00.var_f538d7d4 = array( #"p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_common_mod", #"p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_rare_mod", #"p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_legendary_mod", #"p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_epic_mod", #"p8_fxanim_core_frontend_zm_lab_elixir_bottle_fluid_ultra_mod" );
+    level.var_49f26c00.var_7a5c68f2 = array( #"fx_bottle_common", #"fx_bottle_rare", #"fx_bottle_legendary", #"fx_bottle_epic", #"fx_bottle_ultra" );
     level.var_49f26c00.var_b273f2b6 = getent( localclientnum, "tube_liquid_01", "targetname" );
     level.var_49f26c00.var_c6761aa2 = getent( localclientnum, "tube_liquid_02", "targetname" );
     level.var_49f26c00.var_dcbe4732 = getent( localclientnum, "tube_liquid_03", "targetname" );
     level.var_49f26c00.var_f48ac46 = getent( localclientnum, "tube_liquid_04", "targetname" );
-    level.var_49f26c00.var_c6761aa2 setmodel( #"hash_147375b2a9795cd1" );
-    level.var_49f26c00.var_dcbe4732 setmodel( #"hash_789fccb680d65004" );
-    level.var_49f26c00.var_f48ac46 setmodel( #"hash_46ef488f583997fb" );
-    level._effect[ #"hash_6d42ec7a48079d27" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_bubbles_base";
+    level.var_49f26c00.var_c6761aa2 setmodel( #"p8_zm_lab_tube_02_script" );
+    level.var_49f26c00.var_dcbe4732 setmodel( #"p8_zm_lab_tube_03_script" );
+    level.var_49f26c00.var_f48ac46 setmodel( #"p8_zm_lab_tube_04_script" );
+    level._effect[ #"fx_bottle_fluid_bubbles" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_bubbles_base";
     level._effect[ #"fx_bottle_classic" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_classic";
     level._effect[ #"fx_bottle_common" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_common";
     level._effect[ #"fx_bottle_epic" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_epic";
-    level._effect[ #"hash_78f0379f9bdc006" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_legendary";
-    level._effect[ #"hash_38d4f59cb78344b9" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_rare";
-    level._effect[ #"hash_256e8ac9ea9c8ad9" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_ultra";
-    level._effect[ #"hash_56e6aeec2f0f9d1c" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_whimsical";
-    level._effect[ #"hash_3a65d1b462add54a" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_wipe";
-    level._effect[ #"hash_43b44402af23c93c" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stills_surface";
-    level._effect[ #"hash_f4b99c36c8b7232" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_common";
-    level._effect[ #"hash_8a44ebbb924768a" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_epic";
-    level._effect[ #"hash_78125560468f4188" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_legend";
-    level._effect[ #"hash_2be8010ec8776feb" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_rare";
-    level._effect[ #"hash_4dd3ac60cbb0f8ab" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_ultra";
+    level._effect[ #"fx_bottle_legendary" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_legendary";
+    level._effect[ #"fx_bottle_rare" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_rare";
+    level._effect[ #"fx_bottle_ultra" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_ultra";
+    level._effect[ #"fx_bottle_whimsical" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_whimsical";
+    level._effect[ #"fx_bottle_wipe" ] = "maps/core_frontend/fx8_frontend_zombie_lab_elixir_wipe";
+    level._effect[ #"fx_mixer_fluid_generic" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stills_surface";
+    level._effect[ #"fx_mixer_fluid_common" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_common";
+    level._effect[ #"fx_mixer_fluid_epic" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_epic";
+    level._effect[ #"fx_mixer_fluid_legendary" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_legend";
+    level._effect[ #"fx_mixer_fluid_rare" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_rare";
+    level._effect[ #"fx_mixer_fluid_ultra" ] = "maps/core_frontend/fx8_frontend_zombie_lab_stl_surface_ultra";
     scene::add_scene_func( #"p8_fxanim_core_frontend_zm_lab_bottles_bundle", &function_de0d6843, "play" );
     scene::add_scene_func( #"p8_fxanim_core_frontend_zm_lab_bottles_bundle", &function_7c1ef1e1, "done" );
     scene::add_scene_func( #"p8_fxanim_core_frontend_zm_lab_bottles_bundle", &function_7c1ef1e1, "stop" );
@@ -87,8 +87,8 @@ function function_250232f4( localclientnum )
     scene::add_scene_func( #"p8_fxanim_core_frontend_zm_lab_bottle_fluids_bundle", &function_24222bb4, "skip_to_idle" );
     
     /#
-        level.var_49f26c00.a_str_bottles = array( #"p8_zm_elixir_aftertaste_ui", #"p8_zm_elixir_alchemical_antithesis_ui", #"p8_zm_elixir_always_done_swiftly_ui", #"p8_zm_elixir_anti_entrapment_ui", #"p8_zm_elixir_anywhere_but_here_ui", #"p8_zm_elixir_arsenal_accelerator_ui", #"p8_zm_elixir_blood_debt_ui", #"hash_1a7c490a566d667", #"p8_zm_elixir_burned_out_ui", #"p8_zm_elixir_cache_back_ui", #"hash_58b3b4e50c5ad8b5", #"p8_zm_elixir_ctrl_z_ui", #"hash_5e08e862c962617a", #"p8_zm_elixir_dead_of_nuclear_winter_ui", #"p8_zm_elixir_equip_mint_ui", #"p8_zm_elixir_extra_credit_ui", #"p8_zm_elixir_free_fire_ui", #"p8_zm_elixir_head_scan_ui", #"p8_zm_elixir_immolation_liquidation_ui", #"p8_zm_elixir_in_plain_sight_ui", #"p8_zm_elixir_join_the_party_ui", #"p8_zm_elixir_kill_joy_ui", #"p8_zm_elixir_licensed_contractor_ui", #"p8_zm_elixir_newtonian_negation_ui", #"p8_zm_elixir_now_you_see_me_ui", #"p8_zm_elixir_nowhere_but_there_ui", #"hash_65291a8ef0716ac6", #"p8_zm_elixir_point_drops_ui", #"p8_zm_elixir_pop_shocks_ui", #"p8_zm_elixir_power_keg_ui", #"hash_7b8c2e9a197a1cbb", #"p8_zm_elixir_shields_up_ui", #"p8_zm_elixir_stock_option_ui", #"p8_zm_elixir_sword_flay_ui", #"p8_zm_elixir_temporal_gift_ui", #"p8_zm_elixir_undead_man_walking_ui", #"p8_zm_elixir_wall_power_ui", #"p8_zm_elixir_wall_to_wall_savings_ui", #"p8_zm_elixir_whos_keeping_score_ui" );
-        level.var_49f26c00.a_str_talismans = array( #"p8_zm_talisman_box_guarantee_box_only", #"p8_zm_talisman_box_guarantee_lmg", #"hash_199da03ac6e12953", #"p8_zm_talisman_coagulant", #"p8_zm_talisman_extra_claymore", #"p8_zm_talisman_extra_frag", #"p8_zm_talisman_extra_mini_turret", #"p8_zm_talisman_extra_molotov", #"p8_zm_talisman_extra_semtex", #"p8_zm_talisman_hero_weapon_lvl3", #"p8_zm_talisman_impatient", #"p8_zm_talisman_pap_cost", #"p8_zm_talisman_perk_mod_single", #"hash_27dae06ec588c817", #"hash_27dae16ec588c9ca", #"hash_27dae26ec588cb7d", #"hash_27dadb6ec588bf98", #"p8_zm_talisman_perk_vapor_permanent_1", #"p8_zm_talisman_perk_vapor_permanent_2", #"p8_zm_talisman_perk_vapor_permanent_3", #"p8_zm_talisman_perk_vapor_permanent_4", #"hash_22e20f33489f2582", #"hash_22e20e33489f23cf", #"hash_22e20d33489f221c", #"hash_22e20c33489f2069", #"p8_zm_talisman_shield_durability_legendary", #"p8_zm_talisman_shield_durability_rare", #"p8_zm_talisman_shield_price", #"p8_zm_talisman_spec_weapon_duration", #"p8_zm_talisman_spec_weapon_lvl2", #"hash_14e3ae5974c15925", #"p8_zm_talisman_start_weapon_ar", #"p8_zm_talisman_start_weapon_lmg", #"p8_zm_talisman_start_weapon_monkey", #"p8_zm_talisman_start_weapon_smg" );
+        level.var_49f26c00.a_str_bottles = array( #"p8_zm_elixir_aftertaste_ui", #"p8_zm_elixir_alchemical_antithesis_ui", #"p8_zm_elixir_always_done_swiftly_ui", #"p8_zm_elixir_anti_entrapment_ui", #"p8_zm_elixir_anywhere_but_here_ui", #"p8_zm_elixir_arsenal_accelerator_ui", #"p8_zm_elixir_blood_debt_ui", #"p8_zm_elixir_board_games_ui", #"p8_zm_elixir_burned_out_ui", #"p8_zm_elixir_cache_back_ui", #"p8_zm_elixir_crawl_space_ui", #"p8_zm_elixir_ctrl_z_ui", #"p8_zm_elixir_danger_closest_ui", #"p8_zm_elixir_dead_of_nuclear_winter_ui", #"p8_zm_elixir_equip_mint_ui", #"p8_zm_elixir_extra_credit_ui", #"p8_zm_elixir_free_fire_ui", #"p8_zm_elixir_head_scan_ui", #"p8_zm_elixir_immolation_liquidation_ui", #"p8_zm_elixir_in_plain_sight_ui", #"p8_zm_elixir_join_the_party_ui", #"p8_zm_elixir_kill_joy_ui", #"p8_zm_elixir_licensed_contractor_ui", #"p8_zm_elixir_newtonian_negation_ui", #"p8_zm_elixir_now_you_see_me_ui", #"p8_zm_elixir_nowhere_but_there_ui", #"p8_zm_elixir_phantom_reload_ui", #"p8_zm_elixir_point_drops_ui", #"p8_zm_elixir_pop_shocks_ui", #"p8_zm_elixir_power_keg_ui", #"p8_zm_elixir_respin_cycle_ui", #"p8_zm_elixir_shields_up_ui", #"p8_zm_elixir_stock_option_ui", #"p8_zm_elixir_sword_flay_ui", #"p8_zm_elixir_temporal_gift_ui", #"p8_zm_elixir_undead_man_walking_ui", #"p8_zm_elixir_wall_power_ui", #"p8_zm_elixir_wall_to_wall_savings_ui", #"p8_zm_elixir_whos_keeping_score_ui" );
+        level.var_49f26c00.a_str_talismans = array( #"p8_zm_talisman_box_guarantee_box_only", #"p8_zm_talisman_box_guarantee_lmg", #"p8_zm_talisman_box_guarantee_wonder_weapon", #"p8_zm_talisman_coagulant", #"p8_zm_talisman_extra_claymore", #"p8_zm_talisman_extra_frag", #"p8_zm_talisman_extra_mini_turret", #"p8_zm_talisman_extra_molotov", #"p8_zm_talisman_extra_semtex", #"p8_zm_talisman_hero_weapon_lvl3", #"p8_zm_talisman_impatient", #"p8_zm_talisman_pap_cost", #"p8_zm_talisman_perk_mod_single", #"p8_zm_talisman_perk_vapor_cost_1", #"p8_zm_talisman_perk_vapor_cost_2", #"p8_zm_talisman_perk_vapor_cost_3", #"p8_zm_talisman_perk_vapor_cost_4", #"p8_zm_talisman_perk_vapor_permanent_1", #"p8_zm_talisman_perk_vapor_permanent_2", #"p8_zm_talisman_perk_vapor_permanent_3", #"p8_zm_talisman_perk_vapor_permanent_4", #"p8_zm_talisman_perk_vapor_start_1", #"p8_zm_talisman_perk_vapor_start_2", #"p8_zm_talisman_perk_vapor_start_3", #"p8_zm_talisman_perk_vapor_start_4", #"p8_zm_talisman_shield_durability_legendary", #"p8_zm_talisman_shield_durability_rare", #"p8_zm_talisman_shield_price", #"p8_zm_talisman_spec_weapon_duration", #"p8_zm_talisman_spec_weapon_lvl2", #"p8_zm_talisman_spec_weapon_xp", #"p8_zm_talisman_start_weapon_ar", #"p8_zm_talisman_start_weapon_lmg", #"p8_zm_talisman_start_weapon_monkey", #"p8_zm_talisman_start_weapon_smg" );
     #/
     
     scene::add_scene_func( #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", &function_f8d486f8, "init" );
@@ -185,7 +185,7 @@ function function_250232f4( localclientnum )
             
             if ( var_509eb1e5 != var_596aaddb || var_74d08f2b != var_89f688b8 )
             {
-                level notify( #"hash_6d47a1e190b93eaf", { #var_800db6bf:var_74d08f2b, #var_aba5d0f5:var_509eb1e5, #b_debug:1 } );
+                level notify( #"np_item_focus_changed", { #var_800db6bf:var_74d08f2b, #var_aba5d0f5:var_509eb1e5, #b_debug:1 } );
                 var_596aaddb = var_509eb1e5;
                 var_89f688b8 = var_74d08f2b;
             }
@@ -374,7 +374,7 @@ function function_64c9ba5( localclientnum, menu_data )
     exploder::stop_exploder( #"hash_7bc4347f95dd65fc" );
     level notify( #"hash_490aea66046d4a50" );
     function_a8f6e36c( localclientnum, 0 );
-    level flag::clear( #"hash_511b4468376ea105" );
+    level flag::clear( #"laboratory_results_ready" );
     function_49dde74( 0 );
     forceambientroom( "" );
     function_d160164e();
@@ -397,24 +397,24 @@ function function_d940763b( localclientnum )
     
     while ( true )
     {
-        waitresult = level waittill( #"hash_201d829556393f76", #"hash_7e320f49f449ea9f", #"hash_6d47a1e190b93eaf", #"hash_7c3e120025ea0122", #"hash_341a5b4aa52ea814", #"talisman_show_label", #"bottle1_fill_complete", #"bottle1_leave", #"hash_1d604ddf352ddcca", #"hash_6551ceddc995b613" );
+        waitresult = level waittill( #"init_controller_model", #"invalidate_controller_model", #"np_item_focus_changed", #"np_item_play_anim", #"lab_set_rewards", #"talisman_show_label", #"bottle1_fill_complete", #"bottle1_leave", #"skip_to_reveal", #"timed_out_popup_closed" );
         
         switch ( waitresult._notify )
         {
-            case #"hash_201d829556393f76":
+            case #"init_controller_model":
                 level.var_49f26c00.controller_model = getuimodelforcontroller( waitresult.controller );
                 break;
-            case #"hash_7e320f49f449ea9f":
+            case #"invalidate_controller_model":
                 level.var_49f26c00.controller_model = undefined;
                 break;
-            case #"hash_6d47a1e190b93eaf":
+            case #"np_item_focus_changed":
                 if ( !( isdefined( level.var_ee871019 ) && level.var_ee871019 ) )
                 {
                     level thread function_7ee5e3a2( localclientnum, waitresult.var_800db6bf, waitresult.var_aba5d0f5, waitresult.b_debug );
                 }
                 
                 break;
-            case #"hash_7c3e120025ea0122":
+            case #"np_item_play_anim":
                 level thread function_365bef4( localclientnum );
                 break;
             case #"bottle1_fill_complete":
@@ -423,16 +423,16 @@ function function_d940763b( localclientnum )
             case #"bottle1_leave":
                 function_f0252f42( localclientnum );
                 break;
-            case #"hash_341a5b4aa52ea814":
-                function_2cb555c6( localclientnum );
+            case #"lab_set_rewards":
+                lab_set_rewards( localclientnum );
                 break;
             case #"talisman_show_label":
                 talisman_show_label( localclientnum );
                 break;
-            case #"hash_1d604ddf352ddcca":
-                level thread function_4053acdb( localclientnum );
+            case #"skip_to_reveal":
+                level thread skip_to_reveal( localclientnum );
                 break;
-            case #"hash_6551ceddc995b613":
+            case #"timed_out_popup_closed":
                 break;
         }
     }
@@ -481,19 +481,19 @@ function talisman_show_label( localclientnum )
     switch ( var_4deff3fa )
     {
         case 0:
-            playsound( localclientnum, #"hash_49d438d1a1ba28b9", v_origin );
+            playsound( localclientnum, #"evt_show_talisman_cmn", v_origin );
             break;
         case 1:
-            playsound( localclientnum, #"hash_7d9e04c47d70ca1d", v_origin );
+            playsound( localclientnum, #"evt_show_talisman_rare", v_origin );
             break;
         case 2:
-            playsound( localclientnum, #"hash_2ff41d0510d442c8", v_origin );
+            playsound( localclientnum, #"evt_show_talisman_epic", v_origin );
             break;
         case 3:
-            playsound( localclientnum, #"hash_2c8d10ab46ff7e64", v_origin );
+            playsound( localclientnum, #"evt_show_talisman_legend", v_origin );
             break;
         case 4:
-            playsound( localclientnum, #"hash_2409a80bfb7d6955", v_origin );
+            playsound( localclientnum, #"evt_show_talisman_ultra", v_origin );
             break;
     }
 }
@@ -669,7 +669,7 @@ function function_b3efb400( value )
 // Params 1
 // Checksum 0x143618af, Offset: 0x3a48
 // Size: 0x24c
-function function_2cb555c6( localclientnum )
+function lab_set_rewards( localclientnum )
 {
     if ( !isdefined( level.var_49f26c00.controller_model ) )
     {
@@ -688,7 +688,7 @@ function function_2cb555c6( localclientnum )
         level.var_49f26c00.var_887781fe += "_lab";
         level.var_49f26c00.var_84c77a9e += "_lab";
         function_b3efb400( !level flag::get( #"hash_4bbc47f6a0a31743" ) );
-        level flag::set( #"hash_511b4468376ea105" );
+        level flag::set( #"laboratory_results_ready" );
     }
 }
 
@@ -698,7 +698,7 @@ function function_2cb555c6( localclientnum )
 // Size: 0x52c
 function function_c7117688( localclientnum )
 {
-    level endon( #"hash_1d604ddf352ddcca", #"reward_timeout", #"laboratory_closed" );
+    level endon( #"skip_to_reveal", #"reward_timeout", #"laboratory_closed" );
     var_469e104d = function_18d7cd9b( localclientnum, 1 );
     var_7953f5b8 = function_18d7cd9b( localclientnum, 2 );
     var_6b14d93a = function_18d7cd9b( localclientnum, 3 );
@@ -757,19 +757,19 @@ function function_523d7d8b( localclientnum, str_tag, var_4deff3fa )
     switch ( var_4deff3fa )
     {
         case 0:
-            str_fx = level._effect[ #"hash_f4b99c36c8b7232" ];
+            str_fx = level._effect[ #"fx_mixer_fluid_common" ];
             break;
         case 3:
-            str_fx = level._effect[ #"hash_8a44ebbb924768a" ];
+            str_fx = level._effect[ #"fx_mixer_fluid_epic" ];
             break;
         case 2:
-            str_fx = level._effect[ #"hash_78125560468f4188" ];
+            str_fx = level._effect[ #"fx_mixer_fluid_legendary" ];
             break;
         case 1:
-            str_fx = level._effect[ #"hash_2be8010ec8776feb" ];
+            str_fx = level._effect[ #"fx_mixer_fluid_rare" ];
             break;
         case 4:
-            str_fx = level._effect[ #"hash_4dd3ac60cbb0f8ab" ];
+            str_fx = level._effect[ #"fx_mixer_fluid_ultra" ];
             break;
     }
     
@@ -1267,44 +1267,44 @@ function function_6198ffc( n_tube_index = 1, b_reverse = 0 )
         case 2:
             if ( b_reverse )
             {
-                level.var_49f26c00.var_c6761aa2 setmodel( #"hash_1d6b60d588392994" );
+                level.var_49f26c00.var_c6761aa2 setmodel( #"p8_zm_lab_tube_02_script_reverse" );
             }
             else
             {
-                level.var_49f26c00.var_c6761aa2 setmodel( #"hash_147375b2a9795cd1" );
+                level.var_49f26c00.var_c6761aa2 setmodel( #"p8_zm_lab_tube_02_script" );
             }
             
             break;
         case 3:
             if ( b_reverse )
             {
-                level.var_49f26c00.var_dcbe4732 setmodel( #"hash_7d73f1bee7a7209" );
+                level.var_49f26c00.var_dcbe4732 setmodel( #"p8_zm_lab_tube_03_script_reverse" );
             }
             else
             {
-                level.var_49f26c00.var_dcbe4732 setmodel( #"hash_789fccb680d65004" );
+                level.var_49f26c00.var_dcbe4732 setmodel( #"p8_zm_lab_tube_03_script" );
             }
             
             break;
         case 4:
             if ( b_reverse )
             {
-                level.var_49f26c00.var_f48ac46 setmodel( #"hash_17fe752ca47c080a" );
+                level.var_49f26c00.var_f48ac46 setmodel( #"p8_zm_lab_tube_04_script_reverse" );
             }
             else
             {
-                level.var_49f26c00.var_f48ac46 setmodel( #"hash_46ef488f583997fb" );
+                level.var_49f26c00.var_f48ac46 setmodel( #"p8_zm_lab_tube_04_script" );
             }
             
             break;
         case 5:
             if ( b_reverse )
             {
-                level.var_49f26c00.var_13123ed2 = #"hash_3a6d60badb3dae03";
+                level.var_49f26c00.var_13123ed2 = #"p8_zm_lab_tube_05_script_saturated_reverse";
             }
             else
             {
-                level.var_49f26c00.var_13123ed2 = #"hash_513a13fb9a123f22";
+                level.var_49f26c00.var_13123ed2 = #"p8_zm_lab_tube_05_script_saturated";
             }
             
             break;
@@ -1340,25 +1340,25 @@ function function_49dde74( b_stream = 1, var_dd5c339d = 0 )
         forcestreambundle( #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle" );
         forcestreamxmodel( #"p8_zm_lab_tube_01_liquid_01" );
         forcestreamxmodel( #"p8_zm_lab_tube_01_liquid_01_reverse" );
-        forcestreamxmodel( #"hash_147375b2a9795cd1" );
-        forcestreamxmodel( #"hash_1d6b60d588392994" );
-        forcestreamxmodel( #"hash_789fccb680d65004" );
-        forcestreamxmodel( #"hash_7d73f1bee7a7209" );
-        forcestreamxmodel( #"hash_46ef488f583997fb" );
-        forcestreamxmodel( #"hash_17fe752ca47c080a" );
-        forcestreamxmodel( #"hash_4d36008189f01e3e" );
-        forcestreamxmodel( #"hash_4cbeb6f9fd0e1277" );
+        forcestreamxmodel( #"p8_zm_lab_tube_02_script" );
+        forcestreamxmodel( #"p8_zm_lab_tube_02_script_reverse" );
+        forcestreamxmodel( #"p8_zm_lab_tube_03_script" );
+        forcestreamxmodel( #"p8_zm_lab_tube_03_script_reverse" );
+        forcestreamxmodel( #"p8_zm_lab_tube_04_script" );
+        forcestreamxmodel( #"p8_zm_lab_tube_04_script_reverse" );
+        forcestreamxmodel( #"p8_zm_lab_tube_05_script" );
+        forcestreamxmodel( #"p8_zm_lab_tube_05_script_reverse" );
         forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_base" );
         forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_common" );
         forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_rare" );
         forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_legendary" );
         forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_epic" );
-        forcestreamxmodel( #"hash_21facc9d2f29d94c" );
+        forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_ultra" );
         forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_common_empty" );
-        forcestreamxmodel( #"hash_28a2c4e744e4658c" );
-        forcestreamxmodel( #"hash_15aeae3ca1622031" );
-        forcestreamxmodel( #"hash_22c3a62824ed796d" );
-        forcestreamxmodel( #"hash_150da5db728463e2" );
+        forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_rare_empty" );
+        forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_legendary_empty" );
+        forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_epic_empty" );
+        forcestreamxmodel( #"p8_zm_lab_talisman_press_mould_lid_ultra_empty" );
         
         if ( var_dd5c339d )
         {
@@ -1374,25 +1374,25 @@ function function_49dde74( b_stream = 1, var_dd5c339d = 0 )
     function_66b6e720( #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle" );
     stopforcestreamingxmodel( #"p8_zm_lab_tube_01_liquid_01" );
     stopforcestreamingxmodel( #"p8_zm_lab_tube_01_liquid_01_reverse" );
-    stopforcestreamingxmodel( #"hash_147375b2a9795cd1" );
-    stopforcestreamingxmodel( #"hash_1d6b60d588392994" );
-    stopforcestreamingxmodel( #"hash_789fccb680d65004" );
-    stopforcestreamingxmodel( #"hash_7d73f1bee7a7209" );
-    stopforcestreamingxmodel( #"hash_46ef488f583997fb" );
-    stopforcestreamingxmodel( #"hash_17fe752ca47c080a" );
-    stopforcestreamingxmodel( #"hash_4d36008189f01e3e" );
-    stopforcestreamingxmodel( #"hash_4cbeb6f9fd0e1277" );
+    stopforcestreamingxmodel( #"p8_zm_lab_tube_02_script" );
+    stopforcestreamingxmodel( #"p8_zm_lab_tube_02_script_reverse" );
+    stopforcestreamingxmodel( #"p8_zm_lab_tube_03_script" );
+    stopforcestreamingxmodel( #"p8_zm_lab_tube_03_script_reverse" );
+    stopforcestreamingxmodel( #"p8_zm_lab_tube_04_script" );
+    stopforcestreamingxmodel( #"p8_zm_lab_tube_04_script_reverse" );
+    stopforcestreamingxmodel( #"p8_zm_lab_tube_05_script" );
+    stopforcestreamingxmodel( #"p8_zm_lab_tube_05_script_reverse" );
     stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_base" );
     stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_common" );
     stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_rare" );
     stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_legendary" );
     stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_epic" );
-    stopforcestreamingxmodel( #"hash_21facc9d2f29d94c" );
+    stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_ultra" );
     stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_common_empty" );
-    stopforcestreamingxmodel( #"hash_28a2c4e744e4658c" );
-    stopforcestreamingxmodel( #"hash_15aeae3ca1622031" );
-    stopforcestreamingxmodel( #"hash_22c3a62824ed796d" );
-    stopforcestreamingxmodel( #"hash_150da5db728463e2" );
+    stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_rare_empty" );
+    stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_legendary_empty" );
+    stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_epic_empty" );
+    stopforcestreamingxmodel( #"p8_zm_lab_talisman_press_mould_lid_ultra_empty" );
 }
 
 // Namespace zm_laboratory/frontend_zm_laboratory
@@ -1485,7 +1485,7 @@ function function_9c935526( localclientnum )
     level flag::clear( #"hash_4f26b4e33ddb3509" );
     function_b3efb400( 0 );
     function_9dee7481();
-    level flag::clear( #"hash_511b4468376ea105" );
+    level flag::clear( #"laboratory_results_ready" );
     function_a8f6e36c( localclientnum, 2 );
     function_b760318d( 2 );
 }
@@ -1496,29 +1496,29 @@ function function_9c935526( localclientnum )
 // Size: 0xd54
 function function_365bef4( localclientnum, b_debug = 0 )
 {
-    level endon( array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ) );
+    level endon( array( #"laboratory_closed", #"skip_to_reveal" ) );
     function_9c935526();
     level flag::clear( #"hash_4bbc47f6a0a31743" );
     s_cam = struct::get( #"tag_align_zm_lab" );
     playmaincamxcam( localclientnum, "ui_scene_cam_zm_lab_in", 0, "", "", s_cam.origin, s_cam.angles );
-    playsound( localclientnum, #"hash_3e1e95a35dedc6bc" );
+    playsound( localclientnum, #"evt_mach_startup" );
     level thread scene::play( level.var_49f26c00.var_42c70173, level.var_49f26c00.var_febe408a + "_exit" );
     wait 0.5;
     function_6198ffc( 1, 0 );
     level.var_49f26c00.var_b273f2b6 thread function_b05ea28d( undefined, undefined, 0.5 );
-    level thread util::delay( 0.5, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_flask_tube_fluid_bundle", "fill" );
-    level thread util::delay( #"flask_fluid_hits_centrifuge", array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_centrifuge_fluid_bundle", "fill" );
-    level util::delay( 0.5 + 1, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &function_6198ffc, 1, 1 );
-    level.var_49f26c00.var_b273f2b6 util::delay( 0.5 + 1, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &function_b05ea28d, undefined, 1, 1 );
-    level thread util::delay( 0.5 + 1 + 1, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_flask_tube_fluid_bundle", "finish" );
+    level thread util::delay( 0.5, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_flask_tube_fluid_bundle", "fill" );
+    level thread util::delay( #"flask_fluid_hits_centrifuge", array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_centrifuge_fluid_bundle", "fill" );
+    level util::delay( 0.5 + 1, array( #"laboratory_closed", #"skip_to_reveal" ), &function_6198ffc, 1, 1 );
+    level.var_49f26c00.var_b273f2b6 util::delay( 0.5 + 1, array( #"laboratory_closed", #"skip_to_reveal" ), &function_b05ea28d, undefined, 1, 1 );
+    level thread util::delay( 0.5 + 1 + 1, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_flask_tube_fluid_bundle", "finish" );
     str_shot = function_e10fba77( level.var_49f26c00.var_3e14626f );
     level thread scene::play( #"p8_fxanim_core_frontend_zm_lab_centrifuge_bundle", str_shot );
     level waittill( #"centrifuge_fluid_to_mixer" );
     function_a8188266( 1, 1 );
     var_ceb7615a = max( 1 - 0.4, 0 );
-    level thread util::delay( var_ceb7615a, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_01_bundle", "mixer_activate" );
-    level thread util::delay( var_ceb7615a + 0.2, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_02_bundle", "mixer_activate" );
-    level thread util::delay( var_ceb7615a + 0.4, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_bundle", "mixer_activate" );
+    level thread util::delay( var_ceb7615a, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_01_bundle", "mixer_activate" );
+    level thread util::delay( var_ceb7615a + 0.2, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_02_bundle", "mixer_activate" );
+    level thread util::delay( var_ceb7615a + 0.4, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_bundle", "mixer_activate" );
     level waittill( #"centrifuge_fluid_filled" );
     wait 1;
     level thread scene::play( #"p8_fxanim_core_frontend_zm_lab_centrifuge_fluid_bundle", "drain" );
@@ -1526,9 +1526,9 @@ function function_365bef4( localclientnum, b_debug = 0 )
     function_a8188266( 0, 2 );
     var_fc9cafb5 = gettime();
     
-    if ( !level flag::get( #"hash_511b4468376ea105" ) && !b_debug )
+    if ( !level flag::get( #"laboratory_results_ready" ) && !b_debug )
     {
-        waitresult = level waittilltimeout( 10, #"hash_511b4468376ea105" );
+        waitresult = level waittilltimeout( 10, #"laboratory_results_ready" );
         
         if ( waitresult._notify == #"timeout" )
         {
@@ -1566,12 +1566,12 @@ function function_365bef4( localclientnum, b_debug = 0 )
     {
         function_b760318d( 3 );
         level flag::clear( #"hash_c5112e5b6ad4e15" );
-        level util::delay( 2, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", "press_create" );
+        level util::delay( 2, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", "press_create" );
     }
     else
     {
         function_b760318d( 1 );
-        level util::delay( 2, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", "press_no_create" );
+        level util::delay( 2, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", "press_no_create" );
         level flag::set( #"hash_c5112e5b6ad4e15" );
     }
     
@@ -1644,8 +1644,8 @@ function function_205528f5( localclientnum )
     level scene::stop( #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle" );
     level scene::stop( #"p8_fxanim_core_frontend_zm_lab_bottles_bundle" );
     level scene::stop( #"p8_fxanim_core_frontend_zm_lab_bottle_fluids_bundle" );
-    level thread function_3dd68dd9( localclientnum, #"hash_6551ceddc995b613" );
-    level waittill( #"hash_6551ceddc995b613" );
+    level thread function_3dd68dd9( localclientnum, #"timed_out_popup_closed" );
+    level waittill( #"timed_out_popup_closed" );
     playmaincamxcam( localclientnum, "ui_scene_cam_zm_lab_out", 0, "", "", s_cam.origin, s_cam.angles );
     level thread scene::play( #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_01_bundle", "mixer_idle" );
     level thread scene::play( #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_02_bundle", "mixer_idle" );
@@ -1662,7 +1662,7 @@ function function_205528f5( localclientnum )
 // Params 1
 // Checksum 0xcd84267f, Offset: 0x7c98
 // Size: 0x6f4
-function function_4053acdb( localclientnum )
+function skip_to_reveal( localclientnum )
 {
     level endon( #"laboratory_closed" );
     s_cam = struct::get( #"tag_align_zm_lab" );
@@ -1756,7 +1756,7 @@ function function_4053acdb( localclientnum )
 // Size: 0x12c
 function function_3dd68dd9( localclientnum, var_8bad1c0 = 1 )
 {
-    playsound( localclientnum, #"hash_7ca34384c7d609e0" );
+    playsound( localclientnum, #"evt_magnesium_flash" );
     frontend::toggle_postfx( localclientnum, 1, #"hash_2d04a3877a927be7" );
     
     if ( ishash( var_8bad1c0 ) || isstring( var_8bad1c0 ) )
@@ -1776,7 +1776,7 @@ function function_3dd68dd9( localclientnum, var_8bad1c0 = 1 )
 // Size: 0x6d4
 function function_254a0f6d( localclientnum )
 {
-    level endon( array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ) );
+    level endon( array( #"laboratory_closed", #"skip_to_reveal" ) );
     level flag::set( #"hash_4bbc47f6a0a31743" );
     
     /#
@@ -1798,9 +1798,9 @@ function function_254a0f6d( localclientnum )
     function_9c935526();
     var_fc9cafb5 = gettime();
     
-    if ( !level flag::get( #"hash_511b4468376ea105" ) )
+    if ( !level flag::get( #"laboratory_results_ready" ) )
     {
-        waitresult = level waittilltimeout( 10, #"hash_511b4468376ea105" );
+        waitresult = level waittilltimeout( 10, #"laboratory_results_ready" );
         
         if ( waitresult._notify == #"timeout" )
         {
@@ -1818,12 +1818,12 @@ function function_254a0f6d( localclientnum )
         function_b3efb400( 0 );
         function_b760318d( 3 );
         level flag::clear( #"hash_c5112e5b6ad4e15" );
-        level util::delay( 0, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", "press_create" );
+        level util::delay( 0, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", "press_create" );
     }
     else
     {
         function_b760318d( 1 );
-        level util::delay( 0, array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", "press_no_create" );
+        level util::delay( 0, array( #"laboratory_closed", #"skip_to_reveal" ), &scene::play, #"p8_fxanim_core_frontend_zm_lab_talisman_press_bundle", "press_no_create" );
         level flag::set( #"hash_c5112e5b6ad4e15" );
     }
     
@@ -2059,19 +2059,19 @@ function function_d4f9b895( localclientnum, a_ents )
                 break;
             case 1:
                 var_bdf17b70 = #"p8_zm_lab_talisman_press_mould_lid_rare";
-                var_177f9b93 = #"hash_28a2c4e744e4658c";
+                var_177f9b93 = #"p8_zm_lab_talisman_press_mould_lid_rare_empty";
                 break;
             case 2:
                 var_bdf17b70 = #"p8_zm_lab_talisman_press_mould_lid_legendary";
-                var_177f9b93 = #"hash_15aeae3ca1622031";
+                var_177f9b93 = #"p8_zm_lab_talisman_press_mould_lid_legendary_empty";
                 break;
             case 3:
                 var_bdf17b70 = #"p8_zm_lab_talisman_press_mould_lid_epic";
-                var_177f9b93 = #"hash_22c3a62824ed796d";
+                var_177f9b93 = #"p8_zm_lab_talisman_press_mould_lid_epic_empty";
                 break;
             case 4:
-                var_bdf17b70 = #"hash_21facc9d2f29d94c";
-                var_177f9b93 = #"hash_150da5db728463e2";
+                var_bdf17b70 = #"p8_zm_lab_talisman_press_mould_lid_ultra";
+                var_177f9b93 = #"p8_zm_lab_talisman_press_mould_lid_ultra_empty";
                 break;
             default:
                 var_bdf17b70 = #"p8_zm_lab_talisman_press_mould_lid_common";
@@ -2163,9 +2163,9 @@ function function_24222bb4( localclientnum, a_ents )
     {
         level scene::stop( #"p8_fxanim_core_frontend_zm_lab_bottle_fluids_bundle" );
         function_8cd01001( localclientnum, a_ents[ #"bottle_fluid_01" ], a_ents[ #"bottle_fluid_02" ], a_ents[ #"bottle_fluid_03" ] );
-        util::playfxontag( localclientnum, level._effect[ #"hash_6d42ec7a48079d27" ], a_ents[ #"bottle_fluid_01" ], "bottle_fluid_base_jnt" );
-        util::playfxontag( localclientnum, level._effect[ #"hash_6d42ec7a48079d27" ], a_ents[ #"bottle_fluid_02" ], "bottle_fluid_base_jnt" );
-        util::playfxontag( localclientnum, level._effect[ #"hash_6d42ec7a48079d27" ], a_ents[ #"bottle_fluid_03" ], "bottle_fluid_base_jnt" );
+        util::playfxontag( localclientnum, level._effect[ #"fx_bottle_fluid_bubbles" ], a_ents[ #"bottle_fluid_01" ], "bottle_fluid_base_jnt" );
+        util::playfxontag( localclientnum, level._effect[ #"fx_bottle_fluid_bubbles" ], a_ents[ #"bottle_fluid_02" ], "bottle_fluid_base_jnt" );
+        util::playfxontag( localclientnum, level._effect[ #"fx_bottle_fluid_bubbles" ], a_ents[ #"bottle_fluid_03" ], "bottle_fluid_base_jnt" );
     }
 }
 
@@ -2175,7 +2175,7 @@ function function_24222bb4( localclientnum, a_ents )
 // Size: 0x17c
 function function_de0d6843( localclientnum, a_ents )
 {
-    self endon( #"hash_200ae59dc85ae6f" );
+    self endon( #"bottle_scene_stop" );
     setup_bottles( localclientnum, a_ents[ #"bottle1" ], a_ents[ #"bottle2" ], a_ents[ #"bottle3" ] );
     a_ents[ #"bottle1" ] thread fill_bottle( localclientnum, #"bottle1_dropped", #"bottle1_start_fill", 0.5, 1 );
     a_ents[ #"bottle2" ] thread fill_bottle( localclientnum, #"bottle2_dropped", #"bottle2_start_fill", 0.6, 2 );
@@ -2191,13 +2191,13 @@ function setup_bottles( localclientnum, var_56448842, var_cf59fa73, var_bb17d1ef
     function_6198ffc( 5, 0 );
     var_56448842.mdl_bottle = util::spawn_model( localclientnum, "tag_origin", var_56448842 gettagorigin( "bottle_01_link_jnt" ), var_56448842 gettagangles( "bottle_01_link_jnt" ) );
     var_56448842.mdl_tube = util::spawn_model( localclientnum, level.var_49f26c00.var_13123ed2, var_56448842 gettagorigin( "bottle_01_link_jnt" ), var_56448842 gettagangles( "bottle_01_link_jnt" ) );
-    var_56448842.mdl_lid = util::spawn_model( localclientnum, #"hash_cbaf587ef8564b8", var_56448842 gettagorigin( "bottlecap_01_link_jnt" ), var_56448842 gettagangles( "bottlecap_01_link_jnt" ) );
+    var_56448842.mdl_lid = util::spawn_model( localclientnum, #"p8_zm_elixir_lid_ui_lab", var_56448842 gettagorigin( "bottlecap_01_link_jnt" ), var_56448842 gettagangles( "bottlecap_01_link_jnt" ) );
     var_cf59fa73.mdl_bottle = util::spawn_model( localclientnum, "tag_origin", var_cf59fa73 gettagorigin( "bottle_02_link_jnt" ), var_cf59fa73 gettagangles( "bottle_02_link_jnt" ) );
     var_cf59fa73.mdl_tube = util::spawn_model( localclientnum, level.var_49f26c00.var_13123ed2, var_cf59fa73 gettagorigin( "bottle_02_link_jnt" ), var_cf59fa73 gettagangles( "bottle_02_link_jnt" ) );
-    var_cf59fa73.mdl_lid = util::spawn_model( localclientnum, #"hash_cbaf587ef8564b8", var_cf59fa73 gettagorigin( "bottlecap_02_link_jnt" ), var_cf59fa73 gettagangles( "bottlecap_02_link_jnt" ) );
+    var_cf59fa73.mdl_lid = util::spawn_model( localclientnum, #"p8_zm_elixir_lid_ui_lab", var_cf59fa73 gettagorigin( "bottlecap_02_link_jnt" ), var_cf59fa73 gettagangles( "bottlecap_02_link_jnt" ) );
     var_bb17d1ef.mdl_bottle = util::spawn_model( localclientnum, "tag_origin", var_bb17d1ef gettagorigin( "bottle_03_link_jnt" ), var_bb17d1ef gettagangles( "bottle_03_link_jnt" ) );
     var_bb17d1ef.mdl_tube = util::spawn_model( localclientnum, level.var_49f26c00.var_13123ed2, var_bb17d1ef gettagorigin( "bottle_03_link_jnt" ), var_bb17d1ef gettagangles( "bottle_03_link_jnt" ) );
-    var_bb17d1ef.mdl_lid = util::spawn_model( localclientnum, #"hash_cbaf587ef8564b8", var_bb17d1ef gettagorigin( "bottlecap_03_link_jnt" ), var_bb17d1ef gettagangles( "bottlecap_03_link_jnt" ) );
+    var_bb17d1ef.mdl_lid = util::spawn_model( localclientnum, #"p8_zm_elixir_lid_ui_lab", var_bb17d1ef gettagorigin( "bottlecap_03_link_jnt" ), var_bb17d1ef gettagangles( "bottlecap_03_link_jnt" ) );
     var_56448842.mdl_bottle linkto( var_56448842, "bottle_01_link_jnt" );
     var_cf59fa73.mdl_bottle linkto( var_cf59fa73, "bottle_02_link_jnt" );
     var_bb17d1ef.mdl_bottle linkto( var_bb17d1ef, "bottle_03_link_jnt" );
@@ -2222,7 +2222,7 @@ function setup_bottles( localclientnum, var_56448842, var_cf59fa73, var_bb17d1ef
 function fill_bottle( localclientnum, var_1a44a9d9, var_6d1c3912, var_7046a27c, var_6cf17519 )
 {
     self endon( #"death" );
-    level endon( array( #"laboratory_closed", #"hash_1d604ddf352ddcca" ) );
+    level endon( array( #"laboratory_closed", #"skip_to_reveal" ) );
     var_92ecfb94 = isdefined( self.mdl_bottle gettagorigin( "wpn_t8_zm_elixir_bottle_world" ) ) ? self.mdl_bottle gettagorigin( "wpn_t8_zm_elixir_bottle_world" ) : "tag_origin";
     var_55ae9403 = function_6127ea37( localclientnum, var_6cf17519 );
     self.mdl_tube setmodel( level.var_49f26c00.var_13123ed2 );
@@ -2245,7 +2245,7 @@ function fill_bottle( localclientnum, var_1a44a9d9, var_6d1c3912, var_7046a27c, 
         wait var_7046a27c;
     }
     
-    util::playfxontag( localclientnum, level._effect[ #"hash_3a65d1b462add54a" ], self.mdl_bottle, var_92ecfb94 );
+    util::playfxontag( localclientnum, level._effect[ #"fx_bottle_wipe" ], self.mdl_bottle, var_92ecfb94 );
     wait 0.5;
     self.mdl_bottle thread function_b05ea28d( #"hash_772e420e766fbc4e", 0, 0.5, undefined, undefined, &function_bf3a0fbe, var_6cf17519 );
     level thread function_6605d119( localclientnum, var_d5db956e );
@@ -2289,7 +2289,7 @@ function function_5e0db3e7( param1, param2 )
 // Size: 0x2ac
 function function_7c1ef1e1( localclientnum, a_ents )
 {
-    self notify( #"hash_200ae59dc85ae6f" );
+    self notify( #"bottle_scene_stop" );
     
     if ( isdefined( a_ents[ #"bottle1" ].mdl_bottle ) )
     {
@@ -2398,7 +2398,7 @@ function function_cdd906ed( localclientnum, a_ents )
     self endon( "18138586312830ef" );
     level endon( #"laboratory_closed" );
     a_ents[ #"centrifuge_fluid" ] thread function_7492cbc7( 0.1, #"hash_277fc24714d9ad5b", 1 );
-    level waittill( #"centrifuge_fluid_drained", #"hash_1d604ddf352ddcca" );
+    level waittill( #"centrifuge_fluid_drained", #"skip_to_reveal" );
     
     if ( isdefined( a_ents[ #"centrifuge_fluid" ] ) )
     {
@@ -2419,7 +2419,7 @@ function function_94c307e0( localclientnum, a_ents, str_shot )
     
     if ( self.scriptbundlename === #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_01_bundle" && str_shot == "mixer_activate" )
     {
-        level.var_49f26c00.var_53ec42bc.var_9270c414 = util::playfxontag( localclientnum, level._effect[ #"hash_43b44402af23c93c" ], level.var_49f26c00.var_53ec42bc, "mixer_01_bath_fluid_fx_jnt" );
+        level.var_49f26c00.var_53ec42bc.var_9270c414 = util::playfxontag( localclientnum, level._effect[ #"fx_mixer_fluid_generic" ], level.var_49f26c00.var_53ec42bc, "mixer_01_bath_fluid_fx_jnt" );
     }
     
     if ( !isdefined( level.var_49f26c00.var_1266bfca ) && self.scriptbundlename === #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_02_bundle" )
@@ -2429,7 +2429,7 @@ function function_94c307e0( localclientnum, a_ents, str_shot )
     
     if ( self.scriptbundlename === #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_02_bundle" && str_shot == "mixer_activate" )
     {
-        level.var_49f26c00.var_1266bfca.var_9270c414 = util::playfxontag( localclientnum, level._effect[ #"hash_43b44402af23c93c" ], level.var_49f26c00.var_1266bfca, "mixer_02_bath_fluid_fx_jnt" );
+        level.var_49f26c00.var_1266bfca.var_9270c414 = util::playfxontag( localclientnum, level._effect[ #"fx_mixer_fluid_generic" ], level.var_49f26c00.var_1266bfca, "mixer_02_bath_fluid_fx_jnt" );
     }
     
     if ( !isdefined( level.var_49f26c00.var_ffa61a49 ) && self.scriptbundlename === #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_bundle" )
@@ -2439,7 +2439,7 @@ function function_94c307e0( localclientnum, a_ents, str_shot )
     
     if ( self.scriptbundlename === #"p8_fxanim_core_frontend_zm_lab_mixer_fluid_03_bundle" && str_shot == "mixer_activate" )
     {
-        level.var_49f26c00.var_ffa61a49.var_9270c414 = util::playfxontag( localclientnum, level._effect[ #"hash_43b44402af23c93c" ], level.var_49f26c00.var_ffa61a49, "mixer_03_bath_fluid_fx_jnt" );
+        level.var_49f26c00.var_ffa61a49.var_9270c414 = util::playfxontag( localclientnum, level._effect[ #"fx_mixer_fluid_generic" ], level.var_49f26c00.var_ffa61a49, "mixer_03_bath_fluid_fx_jnt" );
     }
     
     if ( str_shot == "mixer_activate" )

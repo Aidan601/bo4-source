@@ -4,6 +4,6 @@
     "name": "t7_hud_medal_kill_enemy_with_fists",
     "backinglarge": "image#t7_hud_medal_backing_badassery_lrg",
     "iconsmall": "image#t7_hud_medal_kill_enemy_with_fists",
-    "stringref": "localized17#hash_3ebca51d940be3e7",
+    "stringref": "localized17#medal/kill_enemy_with_fists",
     "iconlarge": "image#t7_hud_medal_kill_enemy_with_fists_lrg"
 }

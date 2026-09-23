@@ -1,5 +1,5 @@
 {
-    "name": "#hash_6a5919c4aec0b6d8",
+    "name": "#camo_t8_zm_elixir_whimsical",
     "camoMaterials": [
         {
             "materials": []
@@ -125,7 +125,7 @@
                     ],
                     "camoMaterialChannels": [
                         {
-                            "camoMaterial": "#hash_7de83d6dc507e7d4",
+                            "camoMaterial": "#mc/mtl_p8_zm_elixir_icon_newtonian_negation",
                             "translationX": 0,
                             "translationY": 0,
                             "scaleX": 1,

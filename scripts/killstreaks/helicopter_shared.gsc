@@ -65,8 +65,8 @@ function init_shared( bundle_name )
         level.chopper_fx[ #"damage" ][ #"heavy_smoke" ] = "destruct/fx8_atk_chppr_exp_trail";
         level.chopper_fx[ #"smoke" ][ #"trail" ] = "destruct/fx8_atk_chppr_exp_trail";
         level.chopper_fx[ #"fire" ][ #"trail" ][ #"large" ] = "killstreaks/fx_heli_smk_trail_engine";
-        level._effect[ #"heli_comlink_light" ][ #"friendly" ] = #"hash_33eb8912b6c63ecd";
-        level._effect[ #"heli_comlink_light" ][ #"enemy" ] = #"hash_33eb8912b6c63ecd";
+        level._effect[ #"heli_comlink_light" ][ #"friendly" ] = #"_debug/fx_debug_deleted_fx";
+        level._effect[ #"heli_comlink_light" ][ #"enemy" ] = #"_debug/fx_debug_deleted_fx";
         bundle = struct::get_script_bundle( "killstreak", bundle_name );
         killstreaks::register_bundle( bundle, &usekillstreakhelicopter );
         killstreaks::set_team_kill_penalty_scale( "helicopter_comlink", 0 );
@@ -384,9 +384,9 @@ function heli_update_global_dvars( debug_refresh )
             level.var_a41ff83e = getdvarint( #"hash_26f6fa23a134bc05", 6 );
             level.var_78bf9902 = getdvarint( #"hash_27120423a14b94bb", 8 );
             level.heli_protect_radius = getdvarint( #"scr_heli_protect_radius", 1500 );
-            level.var_17076139 = getdvarint( #"hash_5681be4514516b7a", 1400 );
-            level.var_c2bbc18f = getdvarint( #"hash_569da8451469c0d0", 1600 );
-            level.var_d9c77d70 = getdvarint( #"hash_7e0189d9c55ba919", 350 );
+            level.var_17076139 = getdvarint( #"scr_helicopter_height_min", 1400 );
+            level.var_c2bbc18f = getdvarint( #"scr_helicopter_height_max", 1600 );
+            level.var_d9c77d70 = getdvarint( #"scr_helicopter_height_offset", 350 );
         }
         else
         {
@@ -1754,7 +1754,7 @@ function heli_damage_monitor( hardpointtype )
                 case #"helicopter_comlink":
                 case #"helicopter":
                 case #"inventory_helicopter_comlink":
-                    notifystring = #"hash_286f843fea185e5";
+                    notifystring = #"killstreak/destroyed_helicopter";
                     killstreakreference = "killstreak_helicopter_comlink";
                     break;
                 case #"supply_drop":
@@ -2947,7 +2947,7 @@ function function_656691ab()
                 self set_goal_pos( self.heligoalpos, 1 );
             }
             
-            self notify( #"hash_340ab3c2b94ff86a" );
+            self notify( #"switched_pathing" );
             break;
         }
         

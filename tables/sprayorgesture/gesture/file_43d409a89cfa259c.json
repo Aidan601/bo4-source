@@ -1,12 +1,12 @@
 {
-    "name": "#hash_43d409a89cfa259c",
+    "name": "#loot_emote_shared_disgusting",
     "type": "#gesture",
-    "gesture": "#hash_12f13a1ce414491e",
-    "gesture2": "#hash_1a5dcdb148dcd009",
+    "gesture": "#boast_disgusting",
+    "gesture2": "#boast_disgusting_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_4a9f214bd2e48f77",
-        "icon": "image#hash_650a0ac6488af35",
+        "icon": "image#ui_icon_emotes_disgusting",
         "isdefault": 1
     }
 }

@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_pizza",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_pizza",
     "name": "charm_pizza",
-    "displayname": "localized17#hash_48d9006af6b97467",
+    "displayname": "localized17#menu/charm_pizza",
     "icon": "ui_icon_weapon_charms_pizza",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_pizza"

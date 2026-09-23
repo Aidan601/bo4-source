@@ -139,7 +139,7 @@ function function_2b03f05f()
     {
         s_result = self waittill( #"damage" );
         
-        if ( s_result.weapon === getweapon( #"hash_3de0926b89369160" ) || s_result.weapon === getweapon( #"hash_127bb24f68b5df27" ) )
+        if ( s_result.weapon === getweapon( #"hash_3de0926b89369160" ) || s_result.weapon === getweapon( #"blundergat_fire_bullet" ) )
         {
             a_grenades = getentarray( "grenade", "classname" );
             
@@ -562,7 +562,7 @@ function function_482c54d5( watcher, owner )
         ai_zombie thread function_aa1b44dc( self );
     }
     
-    s_result = self waittilltimeout( 5, #"stationary", #"hash_14fd7b6a20ac8f44" );
+    s_result = self waittilltimeout( 5, #"stationary", #"stuck_to_zombie" );
     waitframe( 1 );
     
     if ( isplayer( s_result.target ) )
@@ -728,7 +728,7 @@ function private function_aa1b44dc( e_grenade )
     if ( s_result.projectile === e_grenade )
     {
         self.var_4bfa8f6c = e_grenade;
-        e_grenade notify( #"hash_14fd7b6a20ac8f44" );
+        e_grenade notify( #"stuck_to_zombie" );
     }
 }
 

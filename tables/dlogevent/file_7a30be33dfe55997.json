@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -72,12 +72,12 @@
                     },
                     {
                         "name": "#utc_timestamp_joined_lobby",
-                        "scrName": "#hash_2f4b7e3f",
+                        "scrName": "#utc_timestamp_joined_lobby",
                         "type": "UINT64"
                     },
                     {
                         "name": "#utc_timestamp_left_lobby",
-                        "scrName": "#hash_583c5c33",
+                        "scrName": "#utc_timestamp_left_lobby",
                         "type": "UINT64"
                     }
                 ]
@@ -120,7 +120,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -210,8 +210,8 @@
                         "type": "UINT64"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT64"
                     },
                     {
@@ -237,7 +237,7 @@
                     },
                     {
                         "name": "#lobby_member_count",
-                        "scrName": "#hash_f01d87c8",
+                        "scrName": "#lobby_member_count",
                         "type": "INT32"
                     },
                     {

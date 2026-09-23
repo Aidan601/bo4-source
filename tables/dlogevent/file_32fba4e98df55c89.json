@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -118,18 +118,18 @@
                 "members": [
                     {
                         "name": "#to_matchmaking_id",
-                        "scrName": "#hash_3ad80605",
+                        "scrName": "#to_matchmaking_id",
                         "type": "UINT64"
                     },
                     {
                         "name": "#to_game_mode",
-                        "scrName": "#hash_2ae53af",
+                        "scrName": "#to_game_mode",
                         "type": "INT32",
                         "len": 60
                     },
                     {
                         "name": "#from_lobby_id",
-                        "scrName": "#hash_34da3f2b",
+                        "scrName": "#from_lobby_id",
                         "type": "UINT64"
                     },
                     {
@@ -151,7 +151,7 @@
                     },
                     {
                         "name": "#to_lobby_id",
-                        "scrName": "#hash_2cfafdfd",
+                        "scrName": "#to_lobby_id",
                         "type": "UINT64"
                     },
                     {
@@ -166,7 +166,7 @@
                     },
                     {
                         "name": "#from_game_mode",
-                        "scrName": "#hash_79027805",
+                        "scrName": "#from_game_mode",
                         "type": "INT32",
                         "len": 60
                     },
@@ -176,14 +176,14 @@
                         "type": "BOOL"
                     },
                     {
-                        "name": "#hash_669ca7a9de06f403",
-                        "scrName": "#hash_467fd567",
+                        "name": "#from_lobby_type",
+                        "scrName": "#from_lobby_type",
                         "type": "INT32",
                         "len": 60
                     },
                     {
                         "name": "#from_matchmaking_id",
-                        "scrName": "#hash_c8d0d1d2",
+                        "scrName": "#from_matchmaking_id",
                         "type": "UINT64"
                     },
                     {
@@ -193,13 +193,13 @@
                         "s111u20": true
                     },
                     {
-                        "name": "#hash_7a4b7f92d7e1dc7b",
-                        "scrName": "#hash_117563a1",
+                        "name": "#to_match_lobby_id",
+                        "scrName": "#to_match_lobby_id",
                         "type": "UINT64"
                     },
                     {
-                        "name": "#hash_7d8e410d4a2c6050",
-                        "scrName": "#hash_90462f32",
+                        "name": "#to_lobby_type",
+                        "scrName": "#to_lobby_type",
                         "type": "INT32",
                         "len": 60
                     },
@@ -225,7 +225,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {

@@ -1,12 +1,12 @@
 {
-    "name": "#hash_5973b3f87bcb7a33",
+    "name": "#loot_emote_shared_arm_wave",
     "type": "#gesture",
-    "gesture": "#hash_56eccf0d4fc9fb81",
-    "gesture2": "#hash_2d1ec280e5bf512a",
+    "gesture": "#boast_arm_wave",
+    "gesture2": "#boast_arm_wave_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_19af89b7efdc0c8f",
-        "icon": "image#hash_95e9765ba218346",
+        "icon": "image#ui_icon_emotes_arm_wave",
         "isdefault": 0
     }
 }

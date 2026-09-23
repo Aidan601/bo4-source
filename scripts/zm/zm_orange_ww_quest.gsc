@@ -43,14 +43,14 @@ function init_flags()
     level flag::init( #"hash_550c8dc4c89d7873" );
     level flag::init( #"ww_icicle_melting" );
     level flag::init( #"ww_icicle_melted" );
-    level flag::init( #"hash_7f9c695cfdccd6b4" );
+    level flag::init( #"ww_key_picked_up" );
     level flag::init( #"ww_safe_opened" );
     level flag::init( #"hash_174f5682aa48c4b" );
     level flag::init( #"hash_45b20bfeff570913" );
     level flag::init( #"hash_4be0ac3f82fc9d21" );
     level flag::init( #"hash_7d53c3b51ab8c250" );
     level flag::init( #"hash_44512b5e960df8f0" );
-    level flag::init( #"hash_65f4eac55edea07f" );
+    level flag::init( #"ww_weapon_picked_up" );
     
     /#
         level flag::init( #"soul_fill" );
@@ -66,10 +66,10 @@ function main()
     level.s_ww_quest = spawnstruct();
     zm_sq::register( #"ww_quest", #"hash_48c49b81fdcdc242", #"ww_quest_step1", &ww_quest_step1_setup, &ww_quest_step1_cleanup );
     zm_sq::register( #"ww_quest", #"hash_6442e35feab8c079", #"ww_quest_step2", &ww_quest_step2_setup, &ww_quest_step2_cleanup );
-    zm_sq::register( #"ww_quest", #"hash_737f8b1503916752", #"ww_quest_step3", &ww_quest_step3_setup, &ww_quest_step3_cleanup );
+    zm_sq::register( #"ww_quest", #"step_3_pickup_key", #"ww_quest_step3", &ww_quest_step3_setup, &ww_quest_step3_cleanup );
     zm_sq::register( #"ww_quest", #"hash_60e28c4bd65d92ab", #"ww_quest_step4", &ww_quest_step4_setup, &ww_quest_step4_cleanup );
     zm_sq::register( #"ww_quest", #"hash_4a7a9c037e9a8447", #"ww_quest_step5", &ww_quest_step5_setup, &ww_quest_step5_cleanup );
-    zm_sq::register( #"ww_quest", #"hash_7230371c8fbcfec2", #"ww_quest_step6", &ww_quest_step6_setup, &ww_quest_step6_cleanup );
+    zm_sq::register( #"ww_quest", #"step_6_pickup_device", #"ww_quest_step6", &ww_quest_step6_setup, &ww_quest_step6_cleanup );
     zm_sq::register( #"ww_quest", #"hash_532d2da7fe5bfe2e", #"ww_quest_step7", &ww_quest_step7_setup, &ww_quest_step7_cleanup );
     zm_sq::register( #"ww_quest", #"hash_52f633bb8e8c32e4", #"ww_quest_step8", &ww_quest_step8_setup, &ww_quest_step8_cleanup );
     zm_sq::register( #"ww_quest", #"hash_43fb367b319214fa", #"ww_quest_step9", &ww_quest_step9_setup, &ww_quest_step9_cleanup );
@@ -155,7 +155,7 @@ function function_d997ba18()
             self setcandamage( 0 );
             self movez( self.script_int, 0.5 );
             self waittill( #"movedone" );
-            self playsound( #"hash_ad51236cdb547c4" );
+            self playsound( #"evt_icicle_fall" );
             level flag::set( #"hash_72853b82b3faf149" );
             self zm_unitrigger::create( &function_575a8040, 64 );
             self thread function_a28a5c21();
@@ -185,8 +185,8 @@ function function_a28a5c21()
     self endon( #"death" );
     s_result = self waittill( #"trigger_activated" );
     e_who = s_result.e_who;
-    self playsound( #"hash_345f1d31b52a4589" );
-    e_who thread zm_orange_util::function_51b752a9( #"hash_3b257ebd55a83e3d" );
+    self playsound( #"evt_icicle_pickup" );
+    e_who thread zm_orange_util::function_51b752a9( #"vox_icicle_pickup" );
     level zm_ui_inventory::function_7df6bb60( "zm_orange_ww_quest", 1 );
     self zm_unitrigger::unregister_unitrigger( self.s_unitrigger );
     level flag::set( #"hash_550c8dc4c89d7873" );
@@ -229,7 +229,7 @@ function ww_quest_step2_cleanup( var_5ea5c94d, ended_early )
 // Size: 0x88, Type: bool
 function function_401b015a( e_player )
 {
-    if ( level flag::get( #"hash_84593b9650c7abf" ) )
+    if ( level flag::get( #"soup_challenge_active" ) )
     {
         return false;
     }
@@ -251,7 +251,7 @@ function function_f7a8831a()
     {
         self waittill( #"trigger_activated" );
         
-        if ( level flag::get( #"hash_84593b9650c7abf" ) )
+        if ( level flag::get( #"soup_challenge_active" ) )
         {
             continue;
         }
@@ -282,7 +282,7 @@ function ww_quest_step3_setup( var_5ea5c94d )
     {
         level.s_ww_quest.s_campfire zm_unitrigger::create( &function_10aa0f27, 64 );
         level.s_ww_quest.s_campfire thread function_993730f4();
-        level flag::wait_till( #"hash_7f9c695cfdccd6b4" );
+        level flag::wait_till( #"ww_key_picked_up" );
     }
 }
 
@@ -295,7 +295,7 @@ function ww_quest_step3_cleanup( var_5ea5c94d, ended_early )
     if ( var_5ea5c94d || ended_early )
     {
         level zm_ui_inventory::function_7df6bb60( "zm_orange_ww_quest", 2 );
-        level flag::set( #"hash_7f9c695cfdccd6b4" );
+        level flag::set( #"ww_key_picked_up" );
     }
     
     level.s_ww_quest.s_campfire zm_unitrigger::unregister_unitrigger( level.s_ww_quest.s_campfire.s_unitrigger );
@@ -318,14 +318,14 @@ function function_10aa0f27( e_player )
 // Size: 0x10c
 function function_993730f4()
 {
-    level endon( #"end_game", #"hash_7f9c695cfdccd6b4" );
+    level endon( #"end_game", #"ww_key_picked_up" );
     s_result = self waittill( #"trigger_activated" );
     e_who = s_result.e_who;
     level zm_ui_inventory::function_7df6bb60( "zm_orange_ww_quest", 2 );
     playsoundatposition( #"evt_key_pickup", self.origin );
     level.s_ww_quest.var_27a40ea3 hidepart( "tag_key" );
     self thread function_a67de655( e_who );
-    level flag::set( #"hash_7f9c695cfdccd6b4" );
+    level flag::set( #"ww_key_picked_up" );
 }
 
 // Namespace zm_orange_ww_quest/zm_orange_ww_quest
@@ -334,12 +334,12 @@ function function_993730f4()
 // Size: 0x6c
 function function_a67de655( e_player )
 {
-    e_player zm_orange_util::function_51b752a9( #"hash_7e030fccc2c5a121" );
+    e_player zm_orange_util::function_51b752a9( #"vox_pickup_generic" );
     wait 1;
     
     if ( level.var_98138d6b > 1 )
     {
-        level.var_1c53964e thread zm_hms_util::function_6a0d675d( #"hash_7cc5c64ef2e9f6bf" );
+        level.var_1c53964e thread zm_hms_util::function_6a0d675d( #"vox_key_pickup" );
     }
 }
 
@@ -568,7 +568,7 @@ function function_2187358d()
     level endon( #"end_game", #"hash_45b20bfeff570913" );
     s_result = self waittill( #"trigger_activated" );
     e_who = s_result.e_who;
-    playsoundatposition( #"hash_565a70d2b5a64e2", self.origin );
+    playsoundatposition( #"evt_device_pickup", self.origin );
     level thread function_53bfbec4( e_who );
     level flag::set( #"hash_45b20bfeff570913" );
 }
@@ -742,7 +742,7 @@ function function_735037d4()
     
     wait 0.5;
     self.e_lid rotatepitch( -90, 2, 0, 0.666667 );
-    self.e_lid playsound( #"hash_1cfa90c531f36b92" );
+    self.e_lid playsound( #"zmb_tundra_gun_crate" );
     self.e_lid waittill( #"rotatedone" );
     self.e_weapon movez( 24, 2 );
     
@@ -763,7 +763,7 @@ function registertank_activatedtargetservice( var_5ea5c94d )
     if ( !var_5ea5c94d )
     {
         var_16c37c7f.e_weapon zm_orange_util::start_zombies_collision_manager( getweapon( "ww_tesla_sniper_t8" ), &function_b8f6f344 );
-        level flag::wait_till( #"hash_65f4eac55edea07f" );
+        level flag::wait_till( #"ww_weapon_picked_up" );
     }
 }
 
@@ -792,7 +792,7 @@ function ww_quest_step10_cleanup( var_5ea5c94d, ended_early )
             }
         }
         
-        level flag::set( #"hash_65f4eac55edea07f" );
+        level flag::set( #"ww_weapon_picked_up" );
     }
 }
 
@@ -807,6 +807,6 @@ function function_b8f6f344( e_player, b_get_weapon )
         e_player thread zm_orange_util::function_51b752a9( #"hash_8afeb4b44d0add" );
     }
     
-    level flag::set( #"hash_65f4eac55edea07f" );
+    level flag::set( #"ww_weapon_picked_up" );
 }
 

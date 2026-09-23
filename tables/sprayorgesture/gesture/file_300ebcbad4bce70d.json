@@ -1,13 +1,13 @@
 {
-    "name": "#hash_300ebcbad4bce70d",
+    "name": "#loot_emote_shared_sitting_bull",
     "type": "#gesture",
-    "gesture": "#hash_3084931092e10317",
-    "gesture2": "#hash_2ad8052fcde67620",
+    "gesture": "#boast_sitting_bull",
+    "gesture2": "#boast_sitting_bull_fem",
     "bundle": {
         "type": "#gesture",
         "entitlement": "#blackops_pack",
-        "title": "localized18#hash_5edb09f3ccf07741",
-        "icon": "image#hash_165de405caa0a10",
+        "title": "localized18#emotes/sitting_bull",
+        "icon": "image#ui_icon_emotes_sitting_bull",
         "isdefault": 0
     }
 }

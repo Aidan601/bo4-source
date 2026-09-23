@@ -18,7 +18,7 @@
         "#c_t8_c_zom_avagadro"
     ],
     "animMappingTables": [
-        "#hash_267bde230ac028d"
+        "#zm_avogadro.ai_am"
     ],
     "meleeWeapon": "#avogadro_ai_defaultmelee_zm",
     "aimTable": "#soldier_aim",
@@ -26,9 +26,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_264b6e230a9c0d1",
-    "animStateMachine": "#hash_41e4ab58b3f26c9a",
-    "animSelectorTable": "#hash_41e49458b3f24585",
+    "behaviorTree": "#zm_avogadro.ai_bt",
+    "animStateMachine": "#zm_avogadro.ai_asm",
+    "animSelectorTable": "#zm_avogadro.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_avogadro_settings",

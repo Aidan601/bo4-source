@@ -49,7 +49,7 @@ version 15 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -103,7 +103,7 @@ version 15 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -143,7 +143,7 @@ version 15 {
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
         layerinformation layerinfo;
     };
@@ -151,7 +151,7 @@ version 15 {
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7086
@@ -199,7 +199,7 @@ version 15 {
     };
 
     // idx 10 members 5 size 0xdf28
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f78
         paintshop primaryweaponpaintshop;
         // offset 0x6f78, size 0x20
@@ -213,9 +213,9 @@ version 15 {
     };
 
     // idx 11 members 1 size 0x37ca0
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x37ca0
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -226,7 +226,7 @@ version 15 {
 
     // idx 0 members 1 size 0x37ca0
     // offset 0x0, size 0x37ca0
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -281,7 +281,7 @@ version 14 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -335,7 +335,7 @@ version 14 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -375,7 +375,7 @@ version 14 {
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
         layerinformation layerinfo;
     };
@@ -383,7 +383,7 @@ version 14 {
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7086
@@ -431,7 +431,7 @@ version 14 {
     };
 
     // idx 10 members 5 size 0xdf20
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f78
         paintshop primaryweaponpaintshop;
         // offset 0x6f78, size 0x20
@@ -445,9 +445,9 @@ version 14 {
     };
 
     // idx 11 members 1 size 0x37c80
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x37c80
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -458,7 +458,7 @@ version 14 {
 
     // idx 0 members 1 size 0x37c80
     // offset 0x0, size 0x37c80
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -513,7 +513,7 @@ version 13 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -567,7 +567,7 @@ version 13 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -607,7 +607,7 @@ version 13 {
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
         layerinformation layerinfo;
     };
@@ -615,7 +615,7 @@ version 13 {
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7082
@@ -663,7 +663,7 @@ version 13 {
     };
 
     // idx 10 members 5 size 0xdf20
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f78
         paintshop primaryweaponpaintshop;
         // offset 0x6f78, size 0x20
@@ -677,9 +677,9 @@ version 13 {
     };
 
     // idx 11 members 1 size 0x37c80
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x37c80
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -690,7 +690,7 @@ version 13 {
 
     // idx 0 members 1 size 0x37c80
     // offset 0x0, size 0x37c80
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -745,7 +745,7 @@ version 12 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -799,7 +799,7 @@ version 12 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -839,7 +839,7 @@ version 12 {
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
         layerinformation layerinfo;
     };
@@ -847,7 +847,7 @@ version 12 {
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7082
@@ -893,7 +893,7 @@ version 12 {
     };
 
     // idx 10 members 5 size 0xdf20
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f78
         paintshop primaryweaponpaintshop;
         // offset 0x6f78, size 0x20
@@ -907,9 +907,9 @@ version 12 {
     };
 
     // idx 11 members 1 size 0x37c80
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x37c80
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -920,7 +920,7 @@ version 12 {
 
     // idx 0 members 1 size 0x37c80
     // offset 0x0, size 0x37c80
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -975,7 +975,7 @@ version 11 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -1027,7 +1027,7 @@ version 11 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -1065,7 +1065,7 @@ version 11 {
     };
 
     // idx 6 members 1 size 0x3771
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3771
         layerinformation layerinfo;
     };
@@ -1073,7 +1073,7 @@ version 11 {
     // idx 7 members 1 size 0x6ee2
     struct paintshop {
         // offset 0x0, size 0x6ee2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6fec
@@ -1119,7 +1119,7 @@ version 11 {
     };
 
     // idx 10 members 5 size 0xddf4
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6ee2
         paintshop primaryweaponpaintshop;
         // offset 0x6ee2, size 0x20
@@ -1133,9 +1133,9 @@ version 11 {
     };
 
     // idx 11 members 1 size 0x377d0
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x377d0
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -1146,7 +1146,7 @@ version 11 {
 
     // idx 0 members 1 size 0x377d0
     // offset 0x0, size 0x377d0
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -1201,7 +1201,7 @@ version 10 {
         // offset 0xaf, size 0x7
         uint:7 materialid;
         // offset 0xb6, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbd, size 0x1
         bool flip;
         // offset 0xbe, size 0x1
@@ -1253,7 +1253,7 @@ version 10 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -1291,7 +1291,7 @@ version 10 {
     };
 
     // idx 6 members 1 size 0x37b1
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37b1
         layerinformation layerinfo;
     };
@@ -1299,7 +1299,7 @@ version 10 {
     // idx 7 members 1 size 0x6f62
     struct paintshop {
         // offset 0x0, size 0x6f62
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x706c
@@ -1345,7 +1345,7 @@ version 10 {
     };
 
     // idx 10 members 5 size 0xdef4
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f62
         paintshop primaryweaponpaintshop;
         // offset 0x6f62, size 0x20
@@ -1359,9 +1359,9 @@ version 10 {
     };
 
     // idx 11 members 1 size 0x37bd0
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x37bd0
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -1372,7 +1372,7 @@ version 10 {
 
     // idx 0 members 1 size 0x37bd0
     // offset 0x0, size 0x37bd0
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -1513,7 +1513,7 @@ version 9 {
     };
 
     // idx 6 members 1 size 0x35a4
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x35a4
         layerinformation layerinfo;
     };
@@ -1521,7 +1521,7 @@ version 9 {
     // idx 7 members 1 size 0x6b48
     struct paintshop {
         // offset 0x0, size 0x6b48
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6c52
@@ -1567,7 +1567,7 @@ version 9 {
     };
 
     // idx 10 members 5 size 0xd6c0
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6b48
         paintshop primaryweaponpaintshop;
         // offset 0x6b48, size 0x20
@@ -1581,9 +1581,9 @@ version 9 {
     };
 
     // idx 11 members 1 size 0x35b00
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x35b00
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -1594,7 +1594,7 @@ version 9 {
 
     // idx 0 members 1 size 0x35b00
     // offset 0x0, size 0x35b00
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -1735,7 +1735,7 @@ version 8 {
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
         layerinformation layerinfo;
     };
@@ -1743,7 +1743,7 @@ version 8 {
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6bbc
@@ -1789,7 +1789,7 @@ version 8 {
     };
 
     // idx 10 members 5 size 0xd594
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6ab2
         paintshop primaryweaponpaintshop;
         // offset 0x6ab2, size 0x20
@@ -1803,9 +1803,9 @@ version 8 {
     };
 
     // idx 11 members 1 size 0x35650
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x35650
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -1816,7 +1816,7 @@ version 8 {
 
     // idx 0 members 1 size 0x35650
     // offset 0x0, size 0x35650
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -1957,7 +1957,7 @@ version 7 {
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
         layerinformation layerinfo;
     };
@@ -1965,7 +1965,7 @@ version 7 {
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x6b7c
@@ -2009,7 +2009,7 @@ version 7 {
     };
 
     // idx 10 members 5 size 0xd594
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6ab2
         paintshop primaryweaponpaintshop;
         // offset 0x6ab2, size 0x20
@@ -2023,9 +2023,9 @@ version 7 {
     };
 
     // idx 11 members 1 size 0x35650
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x35650
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -2036,7 +2036,7 @@ version 7 {
 
     // idx 0 members 1 size 0x35650
     // offset 0x0, size 0x35650
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 
 /////////////////////////////////////////////////
@@ -2177,7 +2177,7 @@ version 6 {
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
         layerinformation layerinfo;
     };
@@ -2185,7 +2185,7 @@ version 6 {
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x6b7c
@@ -2229,7 +2229,7 @@ version 6 {
     };
 
     // idx 10 members 5 size 0xd594
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6ab2
         paintshop primaryweaponpaintshop;
         // offset 0x6ab2, size 0x20
@@ -2243,9 +2243,9 @@ version 6 {
     };
 
     // idx 11 members 1 size 0x35650
-    struct hash_52df71d0e3022b9a {
+    struct cacpaintshoplist {
         // offset 0x0, size 0x35650
-        hash_30241e465e2ee2d2 loadoutpaintshop[4];
+        cacloadoutpaintshop loadoutpaintshop[4];
     };
 
     // idx 0 members 2
@@ -2256,6 +2256,6 @@ version 6 {
 
     // idx 0 members 1 size 0x35650
     // offset 0x0, size 0x35650
-    hash_52df71d0e3022b9a paintshoplist;
+    cacpaintshoplist paintshoplist;
 }
 

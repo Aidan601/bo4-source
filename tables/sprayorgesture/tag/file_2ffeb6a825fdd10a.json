@@ -1,11 +1,11 @@
 {
-    "name": "#hash_2ffeb6a825fdd10a",
+    "name": "#loot_tags_hiphop_crash",
     "type": "#tag",
-    "material": "#hash_15236afd64e13d56",
+    "material": "#vd/mtl_loot_ui_icon_tags_hiphop_crash",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_d87b9e21dbfba71",
-        "icon": "image#hash_5eff4aa814ad0c23",
+        "icon": "image#loot_ui_icon_tags_hiphop_crash",
         "isdefault": 0
     }
 }

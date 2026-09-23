@@ -3,7 +3,7 @@
 
 version 19 {
     // idx 1 members 2 size 0x30
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -73,7 +73,7 @@ version 19 {
         // offset 0x2c0, size 0x10
         short assists;
         // offset 0x2d0, size 0x10
-        short hash_59ef59765ff3f049;
+        short prvrank;
         // offset 0x2e0, size 0x1
         bool isactive;
         // offset 0x2e1, size 0x7
@@ -81,7 +81,7 @@ version 19 {
     };
 
     // idx 6 members 6 size 0x22e8
-    struct hash_6b411bb770fc8f6c {
+    struct aarstats_s {
         // offset 0x0, size 0x22e0
         hash_656bfcb3838e2907 playerstats[12];
         // offset 0x22e0, size 0x1
@@ -127,7 +127,7 @@ version 19 {
     };
 
     // idx 10 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -153,9 +153,9 @@ version 19 {
     };
 
     // idx 11 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -163,7 +163,7 @@ version 19 {
     };
 
     // idx 12 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -173,63 +173,63 @@ version 19 {
     };
 
     // idx 13 members 28 size 0x628
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x30
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x30, size 0x30
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x60, size 0x30
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0x90, size 0x30
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xc0, size 0x30
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0xf0, size 0x30
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x120, size 0x30
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x150, size 0x30
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x180, size 0x30
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1b0, size 0x30
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x1e0, size 0x30
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x210, size 0x30
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x240, size 0x30
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x270, size 0x30
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x2a0, size 0x30
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x2d0, size 0x30
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x300, size 0x30
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x330, size 0x30
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x360, size 0x30
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x390, size 0x30
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x3c0, size 0x30
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x3f0, size 0x8
         int:5 prevscoreindex;
         // offset 0x3f8, size 0x30
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x428, size 0x30
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x458, size 0x30
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x488, size 0x30
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x4b8, size 0x140
         prevscores_s prevscores[10];
         // offset 0x5f8, size 0x30
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 14 members 3 size 0x48
@@ -245,7 +245,7 @@ version 19 {
     // idx 15 members 17 size 0x758
     struct hash_2e0567490210dd82 {
         // offset 0x0, size 0x8
-        uint:3 hash_bf847c54dac3b;
+        uint:3 lastcompleteddifficulty;
         // offset 0x8, size 0xc0
         uint higheststats[hash_10edf09b258e1986];
         // offset 0xc8, size 0xc0
@@ -275,13 +275,13 @@ version 19 {
         // offset 0x74f, size 0x1
         bool hasbeencompleted;
         // offset 0x750, size 0x6
-        bool hash_233621878f97486b[6];
+        bool previousreceivedxpfordifficulty[6];
         // offset 0x756, size 0x2
         uint:1 __pad[2];
     };
 
     // idx 16 members 7 size 0x90
-    struct hash_5cb2d75a230a501f {
+    struct trainingsimstats_s {
         // offset 0x0, size 0x8
         uint:5 highestround;
         // offset 0x8, size 0x20
@@ -301,23 +301,23 @@ version 19 {
     // idx 17 members 15 size 0x1e0
     struct hash_722a4055916df1ff {
         // offset 0x0, size 0x20
-        uint hash_2b12202dea292a78;
+        uint silverbackkills;
         // offset 0x20, size 0x20
         uint roundachieved;
         // offset 0x40, size 0x20
         uint hash_256e550d360e7cf6;
         // offset 0x60, size 0x20
-        uint hash_34212151b945069b;
+        uint goldencowsexploded;
         // offset 0x80, size 0x20
         uint numplayers;
         // offset 0xa0, size 0x20
-        uint hash_477109e1674d778e;
+        uint gemsearned;
         // offset 0xc0, size 0x20
         uint cowsexploded;
         // offset 0xe0, size 0x20
-        uint hash_52086efefda6cd87;
+        uint redinswins;
         // offset 0x100, size 0x20
-        uint hash_4c59bf00eb8047c0;
+        uint chickenstamed;
         // offset 0x120, size 0x20
         uint enemykills;
         // offset 0x140, size 0x20
@@ -327,7 +327,7 @@ version 19 {
         // offset 0x180, size 0x20
         uint hash_6e3edce84270ac4c;
         // offset 0x1a0, size 0x20
-        uint hash_3ed0ae0744c78900;
+        uint silverbackkillsround;
         // offset 0x1c0, size 0x20
         uint skullsearned;
     };
@@ -335,13 +335,13 @@ version 19 {
     // idx 18 members 1 size 0x390
     struct groupstats_s {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 19 members 5 size 0x3a0
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x390, size 0x8
         bool challengecompleted[8];
         // offset 0x398, size 0x1
@@ -353,15 +353,15 @@ version 19 {
     };
 
     // idx 20 members 2 size 0x398
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x390, size 0x8
         bool challengecompleted[8];
     };
 
     // idx 21 members 5 size 0x188
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -381,7 +381,7 @@ version 19 {
     };
 
     // idx 23 members 4 size 0x8
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool purchased;
         // offset 0x1, size 0x1
@@ -393,27 +393,27 @@ version 19 {
     };
 
     // idx 24 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 25 members 5 size 0x3418
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x2000
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x2000, size 0x8
         uint:4 layerspurchased;
         // offset 0x2008, size 0x1400
-        hash_18562676c03c7954 backgrounds[640];
+        emblemicon_s backgrounds[640];
         // offset 0x3408, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
         // offset 0x3414, size 0x4
         uint:1 __pad[4];
     };
 
     // idx 26 members 3 size 0x8
-    struct hash_118b324c3f145926 {
+    struct clantagfeatures_s {
         // offset 0x0, size 0x1
         bool purchased;
         // offset 0x1, size 0x1
@@ -423,13 +423,13 @@ version 19 {
     };
 
     // idx 27 members 3 size 0xa0
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
         // offset 0x28, size 0x8
         byte selectedfeature;
         // offset 0x30, size 0x70
-        hash_118b324c3f145926 features[hash_118b444c3f1477bc];
+        clantagfeatures_s features[clantagfeatures_e];
     };
 
     // idx 28 members 4 size 0x20
@@ -445,7 +445,7 @@ version 19 {
     };
 
     // idx 29 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -461,7 +461,7 @@ version 19 {
     };
 
     // idx 30 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -493,7 +493,7 @@ version 19 {
     };
 
     // idx 33 members 1 size 0xd20
-    struct hash_78a2c506849f9dda {
+    struct bunkcollectibles_s {
         // offset 0x0, size 0xd20
         hash_2efa05c484e77181 collectibles[bunkcollectibleslots_e];
     };
@@ -505,7 +505,7 @@ version 19 {
     };
 
     // idx 0 members 379
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         hash_bf36041b40b541, // 0x0,
         hash_103be234630de92, // 0x1,
         kill_with_cooked_grenade, // 0x2,
@@ -519,7 +519,7 @@ version 19 {
         shotgun_mastery, // 0xa,
         films_shoutcasted, // 0xb,
         medal_flag_capture, // 0xc,
-        hash_3bba76aa8987218, // 0xd,
+        kill_enemy_revealed_by_sensor, // 0xd,
         coop_medal_scavenger_streak, // 0xe,
         time_played_total, // 0xf,
         hash_495a843c176b50c, // 0x10,
@@ -591,7 +591,7 @@ version 19 {
         medal_x2_score_shrp, // 0x52,
         support_killstreak_mastery, // 0x53,
         killed_dog, // 0x54,
-        hash_1b5a22bbb1c029a2, // 0x55,
+        hasprestiged, // 0x55,
         hash_1bb99705ba9a0e6c, // 0x56,
         hash_1bc0e2d787ec3594, // 0x57,
         hash_1be36c00d02a3702, // 0x58,
@@ -805,7 +805,7 @@ version 19 {
         hash_657cf19d17d5b366, // 0x128,
         last_escrow, // 0x129,
         medal_first_kill, // 0x12a,
-        hash_65f463ce38d57812, // 0x12b,
+        kill_concussed_enemy, // 0x12b,
         field_specialist, // 0x12c,
         coop_medal_actor_kill_warlord, // 0x12d,
         hash_668c1bd08c419f31, // 0x12e,
@@ -857,11 +857,11 @@ version 19 {
         medal_killstreak_20, // 0x15c,
         medal_killstreak_25, // 0x15d,
         medal_killstreak_30, // 0x15e,
-        hash_77728de853e5ac67, // 0x15f,
+        career_difficulty_hard, // 0x15f,
         medal_kill_in_3_seconds_gun, // 0x160,
         gametypeban, // 0x161,
         accuracy, // 0x162,
-        hash_794996196e74a949, // 0x163,
+        monthly_timestamp, // 0x163,
         score_multiteam, // 0x164,
         multikill_2_zone_attackers, // 0x165,
         defend_teammate_who_captured_package, // 0x166,
@@ -900,7 +900,7 @@ version 19 {
     // idx 2 members 2
     enum achievements_e {
         hash_f08aa26fabae647, // 0x0,
-        hash_5740a8698a4d0345, // 0x1
+        cp_distance_kill, // 0x1
     };
 
     // idx 3 members 2
@@ -936,16 +936,16 @@ version 19 {
 
     // idx 6 members 10
     enum mission_e {
-        hash_118a6332af43d97c, // 0x0,
-        hash_1868403ad767bcd5, // 0x1,
+        cp_ws_prophet, // 0x0,
+        cp_ws_nomad, // 0x1,
         hash_192de2ac4a272b77, // 0x2,
-        hash_1d9ec2a919018090, // 0x3,
-        hash_28514534e1fdc6b7, // 0x4,
-        hash_2aea61f2cc17fd2b, // 0x5,
-        hash_364f981808c6bfc9, // 0x6,
-        hash_46386949c31ed6c7, // 0x7,
-        hash_551c2ad25d755c39, // 0x8,
-        hash_79103217c50277f4, // 0x9
+        cp_ws_ruin, // 0x3,
+        cp_ws_seraph, // 0x4,
+        cp_ws_engineer, // 0x5,
+        cp_ws_firebreak, // 0x6,
+        cp_ws_battery, // 0x7,
+        cp_ws_recon, // 0x8,
+        cp_ws_breacher, // 0x9
     };
 
     // idx 7 members 6
@@ -959,7 +959,7 @@ version 19 {
     };
 
     // idx 8 members 19
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -982,7 +982,7 @@ version 19 {
     };
 
     // idx 9 members 21
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -1079,7 +1079,7 @@ version 19 {
     };
 
     // idx 12 members 14
-    enum hash_118b444c3f1477bc {
+    enum clantagfeatures_e {
         yellow, // 0x0,
         red, // 0x1,
         move, // 0x2,
@@ -1107,7 +1107,7 @@ version 19 {
     // idx 14 members 10
     enum bunkcollectibleslots_e {
         bunk_collectible_medium_1, // 0x0,
-        hash_1f95ed7440770262, // 0x1,
+        bunk_collectible_medium_3, // 0x1,
         bunk_collectible_medium_2, // 0x2,
         bunk_collectible_large_1, // 0x3,
         bunk_collectible_small_3, // 0x4,
@@ -1147,13 +1147,13 @@ version 19 {
     // offset 0xed0, size 0x40
     uint64 hash_37aeca4d39214e62;
     // offset 0xf10, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x3f60, size 0xc940
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x108a0, size 0x90
     uint:24 higheststats[higheststats_e];
     // offset 0x10930, size 0x13240
-    hash_1608f63ae729eda5 weaponstats[200];
+    weaponstat_s weaponstats[200];
     // offset 0x23b70, size 0x320
     hash_1a52129598e71dab recentscores[10];
     // offset 0x23e90, size 0x20
@@ -1181,15 +1181,15 @@ version 19 {
     // offset 0x34e38, size 0x4970
     hash_2e0567490210dd82 playerstatsbymap[mission_e];
     // offset 0x397a8, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x3a928, size 0xd20
-    hash_78a2c506849f9dda bunkcollectibles;
+    bunkcollectibles_s bunkcollectibles;
     // offset 0x3b648, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x3b688, size 0x40
     uint achievements[achievements_e];
     // offset 0x3b6c8, size 0x49e0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[gametypes_e];
+    gametypestats_s playerstatsbygametype[gametypes_e];
     // offset 0x400a8, size 0x100
     byte demonwareflags[32];
     // offset 0x401a8, size 0x8
@@ -1201,41 +1201,41 @@ version 19 {
     // offset 0x401f0, size 0x20
     uint hash_3313a30250a39ec5;
     // offset 0x40210, size 0x180
-    float hash_2363e7e74077b1c0[gametypes_e];
+    float gt_skill_rating[gametypes_e];
     // offset 0x40390, size 0x20
     uint uploadbandwidth;
     // offset 0x403b0, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x404f0, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x405b0, size 0x20
     int motdviewtime;
     // offset 0x405d0, size 0x8
     uint:3 faction;
     // offset 0x405d8, size 0x90
-    hash_5cb2d75a230a501f trainingsimstats;
+    trainingsimstats_s trainingsimstats;
     // offset 0x40668, size 0x4ad0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x45138, size 0x8
     uint:4 hash_191fbfb9e1a3acf3;
     // offset 0x45140, size 0x20
     float storyprogress;
     // offset 0x45160, size 0x4710
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x49870, size 0xa0
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x49910, size 0x20
     float skill_variance;
     // offset 0x49930, size 0x180
-    float hash_3a7324ad328f0e2e[gametypes_e];
+    float gt_skill_variance[gametypes_e];
     // offset 0x49ab0, size 0x22e8
-    hash_6b411bb770fc8f6c afteractionreportstats;
+    aarstats_s afteractionreportstats;
     // offset 0x4bd98, size 0x100
     byte unlocks[32];
     // offset 0x4be98, size 0x40
     uint64 playerxuid;
     // offset 0x4bed8, size 0x3418
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x4f2f0, size 0x3a000
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0x892f0, size 0x20
@@ -1249,7 +1249,7 @@ version 19 {
     // offset 0x89332, size 0x40
     bool doublexpgroups[64];
     // offset 0x89372, size 0x1
-    bool hash_46e7db8ceaba5b2f;
+    bool scoreboard_migrated;
     // offset 0x89373, size 0x14
     bool currentplayercpdecorations[20];
     // offset 0x89387, size 0x14
@@ -1270,7 +1270,7 @@ version 19 {
 
 version 18 {
     // idx 1 members 2 size 0x30
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -1340,7 +1340,7 @@ version 18 {
         // offset 0x2c0, size 0x10
         short assists;
         // offset 0x2d0, size 0x10
-        short hash_59ef59765ff3f049;
+        short prvrank;
         // offset 0x2e0, size 0x1
         bool isactive;
         // offset 0x2e1, size 0x7
@@ -1348,7 +1348,7 @@ version 18 {
     };
 
     // idx 6 members 6 size 0x22e8
-    struct hash_6b411bb770fc8f6c {
+    struct aarstats_s {
         // offset 0x0, size 0x22e0
         hash_656bfcb3838e2907 playerstats[12];
         // offset 0x22e0, size 0x1
@@ -1394,7 +1394,7 @@ version 18 {
     };
 
     // idx 10 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -1420,9 +1420,9 @@ version 18 {
     };
 
     // idx 11 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -1430,7 +1430,7 @@ version 18 {
     };
 
     // idx 12 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -1440,63 +1440,63 @@ version 18 {
     };
 
     // idx 13 members 28 size 0x628
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x30
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x30, size 0x30
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x60, size 0x30
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0x90, size 0x30
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xc0, size 0x30
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0xf0, size 0x30
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x120, size 0x30
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x150, size 0x30
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x180, size 0x30
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1b0, size 0x30
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x1e0, size 0x30
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x210, size 0x30
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x240, size 0x30
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x270, size 0x30
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x2a0, size 0x30
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x2d0, size 0x30
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x300, size 0x30
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x330, size 0x30
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x360, size 0x30
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x390, size 0x30
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x3c0, size 0x30
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x3f0, size 0x8
         int:5 prevscoreindex;
         // offset 0x3f8, size 0x30
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x428, size 0x30
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x458, size 0x30
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x488, size 0x30
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x4b8, size 0x140
         prevscores_s prevscores[10];
         // offset 0x5f8, size 0x30
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 14 members 3 size 0x48
@@ -1512,7 +1512,7 @@ version 18 {
     // idx 15 members 17 size 0x758
     struct hash_2e0567490210dd82 {
         // offset 0x0, size 0x8
-        uint:3 hash_bf847c54dac3b;
+        uint:3 lastcompleteddifficulty;
         // offset 0x8, size 0xc0
         uint higheststats[hash_10edf09b258e1986];
         // offset 0xc8, size 0xc0
@@ -1542,13 +1542,13 @@ version 18 {
         // offset 0x74f, size 0x1
         bool hasbeencompleted;
         // offset 0x750, size 0x6
-        bool hash_233621878f97486b[6];
+        bool previousreceivedxpfordifficulty[6];
         // offset 0x756, size 0x2
         uint:1 __pad[2];
     };
 
     // idx 16 members 7 size 0x90
-    struct hash_5cb2d75a230a501f {
+    struct trainingsimstats_s {
         // offset 0x0, size 0x8
         uint:5 highestround;
         // offset 0x8, size 0x20
@@ -1568,23 +1568,23 @@ version 18 {
     // idx 17 members 15 size 0x1e0
     struct hash_722a4055916df1ff {
         // offset 0x0, size 0x20
-        uint hash_2b12202dea292a78;
+        uint silverbackkills;
         // offset 0x20, size 0x20
         uint roundachieved;
         // offset 0x40, size 0x20
         uint hash_256e550d360e7cf6;
         // offset 0x60, size 0x20
-        uint hash_34212151b945069b;
+        uint goldencowsexploded;
         // offset 0x80, size 0x20
         uint numplayers;
         // offset 0xa0, size 0x20
-        uint hash_477109e1674d778e;
+        uint gemsearned;
         // offset 0xc0, size 0x20
         uint cowsexploded;
         // offset 0xe0, size 0x20
-        uint hash_52086efefda6cd87;
+        uint redinswins;
         // offset 0x100, size 0x20
-        uint hash_4c59bf00eb8047c0;
+        uint chickenstamed;
         // offset 0x120, size 0x20
         uint enemykills;
         // offset 0x140, size 0x20
@@ -1594,7 +1594,7 @@ version 18 {
         // offset 0x180, size 0x20
         uint hash_6e3edce84270ac4c;
         // offset 0x1a0, size 0x20
-        uint hash_3ed0ae0744c78900;
+        uint silverbackkillsround;
         // offset 0x1c0, size 0x20
         uint skullsearned;
     };
@@ -1602,13 +1602,13 @@ version 18 {
     // idx 18 members 1 size 0x390
     struct groupstats_s {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 19 members 5 size 0x3a0
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x390, size 0x8
         bool challengecompleted[8];
         // offset 0x398, size 0x1
@@ -1620,15 +1620,15 @@ version 18 {
     };
 
     // idx 20 members 2 size 0x398
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x390, size 0x8
         bool challengecompleted[8];
     };
 
     // idx 21 members 5 size 0x188
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -1648,7 +1648,7 @@ version 18 {
     };
 
     // idx 23 members 4 size 0x8
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool purchased;
         // offset 0x1, size 0x1
@@ -1660,27 +1660,27 @@ version 18 {
     };
 
     // idx 24 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 25 members 5 size 0x3418
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x2000
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x2000, size 0x8
         uint:4 layerspurchased;
         // offset 0x2008, size 0x1400
-        hash_18562676c03c7954 backgrounds[640];
+        emblemicon_s backgrounds[640];
         // offset 0x3408, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
         // offset 0x3414, size 0x4
         uint:1 __pad[4];
     };
 
     // idx 26 members 3 size 0x8
-    struct hash_118b324c3f145926 {
+    struct clantagfeatures_s {
         // offset 0x0, size 0x1
         bool purchased;
         // offset 0x1, size 0x1
@@ -1690,13 +1690,13 @@ version 18 {
     };
 
     // idx 27 members 3 size 0xa0
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
         // offset 0x28, size 0x8
         byte selectedfeature;
         // offset 0x30, size 0x70
-        hash_118b324c3f145926 features[hash_118b444c3f1477bc];
+        clantagfeatures_s features[clantagfeatures_e];
     };
 
     // idx 28 members 4 size 0x20
@@ -1712,7 +1712,7 @@ version 18 {
     };
 
     // idx 29 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -1728,7 +1728,7 @@ version 18 {
     };
 
     // idx 30 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -1760,7 +1760,7 @@ version 18 {
     };
 
     // idx 33 members 1 size 0xd20
-    struct hash_78a2c506849f9dda {
+    struct bunkcollectibles_s {
         // offset 0x0, size 0xd20
         hash_2efa05c484e77181 collectibles[bunkcollectibleslots_e];
     };
@@ -1772,7 +1772,7 @@ version 18 {
     };
 
     // idx 0 members 379
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         hash_bf36041b40b541, // 0x0,
         hash_103be234630de92, // 0x1,
         kill_with_cooked_grenade, // 0x2,
@@ -1786,7 +1786,7 @@ version 18 {
         shotgun_mastery, // 0xa,
         films_shoutcasted, // 0xb,
         medal_flag_capture, // 0xc,
-        hash_3bba76aa8987218, // 0xd,
+        kill_enemy_revealed_by_sensor, // 0xd,
         coop_medal_scavenger_streak, // 0xe,
         time_played_total, // 0xf,
         hash_495a843c176b50c, // 0x10,
@@ -1858,7 +1858,7 @@ version 18 {
         medal_x2_score_shrp, // 0x52,
         support_killstreak_mastery, // 0x53,
         killed_dog, // 0x54,
-        hash_1b5a22bbb1c029a2, // 0x55,
+        hasprestiged, // 0x55,
         hash_1bb99705ba9a0e6c, // 0x56,
         hash_1bc0e2d787ec3594, // 0x57,
         hash_1be36c00d02a3702, // 0x58,
@@ -2072,7 +2072,7 @@ version 18 {
         hash_657cf19d17d5b366, // 0x128,
         last_escrow, // 0x129,
         medal_first_kill, // 0x12a,
-        hash_65f463ce38d57812, // 0x12b,
+        kill_concussed_enemy, // 0x12b,
         field_specialist, // 0x12c,
         coop_medal_actor_kill_warlord, // 0x12d,
         hash_668c1bd08c419f31, // 0x12e,
@@ -2124,11 +2124,11 @@ version 18 {
         medal_killstreak_20, // 0x15c,
         medal_killstreak_25, // 0x15d,
         medal_killstreak_30, // 0x15e,
-        hash_77728de853e5ac67, // 0x15f,
+        career_difficulty_hard, // 0x15f,
         medal_kill_in_3_seconds_gun, // 0x160,
         gametypeban, // 0x161,
         accuracy, // 0x162,
-        hash_794996196e74a949, // 0x163,
+        monthly_timestamp, // 0x163,
         score_multiteam, // 0x164,
         multikill_2_zone_attackers, // 0x165,
         defend_teammate_who_captured_package, // 0x166,
@@ -2167,7 +2167,7 @@ version 18 {
     // idx 2 members 2
     enum achievements_e {
         hash_f08aa26fabae647, // 0x0,
-        hash_5740a8698a4d0345, // 0x1
+        cp_distance_kill, // 0x1
     };
 
     // idx 3 members 2
@@ -2203,16 +2203,16 @@ version 18 {
 
     // idx 6 members 10
     enum mission_e {
-        hash_118a6332af43d97c, // 0x0,
-        hash_1868403ad767bcd5, // 0x1,
+        cp_ws_prophet, // 0x0,
+        cp_ws_nomad, // 0x1,
         hash_192de2ac4a272b77, // 0x2,
-        hash_1d9ec2a919018090, // 0x3,
-        hash_28514534e1fdc6b7, // 0x4,
-        hash_2aea61f2cc17fd2b, // 0x5,
-        hash_364f981808c6bfc9, // 0x6,
-        hash_46386949c31ed6c7, // 0x7,
-        hash_551c2ad25d755c39, // 0x8,
-        hash_79103217c50277f4, // 0x9
+        cp_ws_ruin, // 0x3,
+        cp_ws_seraph, // 0x4,
+        cp_ws_engineer, // 0x5,
+        cp_ws_firebreak, // 0x6,
+        cp_ws_battery, // 0x7,
+        cp_ws_recon, // 0x8,
+        cp_ws_breacher, // 0x9
     };
 
     // idx 7 members 6
@@ -2226,7 +2226,7 @@ version 18 {
     };
 
     // idx 8 members 19
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -2249,7 +2249,7 @@ version 18 {
     };
 
     // idx 9 members 21
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -2346,7 +2346,7 @@ version 18 {
     };
 
     // idx 12 members 14
-    enum hash_118b444c3f1477bc {
+    enum clantagfeatures_e {
         yellow, // 0x0,
         red, // 0x1,
         move, // 0x2,
@@ -2374,7 +2374,7 @@ version 18 {
     // idx 14 members 10
     enum bunkcollectibleslots_e {
         bunk_collectible_medium_1, // 0x0,
-        hash_1f95ed7440770262, // 0x1,
+        bunk_collectible_medium_3, // 0x1,
         bunk_collectible_medium_2, // 0x2,
         bunk_collectible_large_1, // 0x3,
         bunk_collectible_small_3, // 0x4,
@@ -2414,13 +2414,13 @@ version 18 {
     // offset 0xed0, size 0x40
     uint64 hash_37aeca4d39214e62;
     // offset 0xf10, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x3f60, size 0xc940
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x108a0, size 0x90
     uint:24 higheststats[higheststats_e];
     // offset 0x10930, size 0x13240
-    hash_1608f63ae729eda5 weaponstats[200];
+    weaponstat_s weaponstats[200];
     // offset 0x23b70, size 0x320
     hash_1a52129598e71dab recentscores[10];
     // offset 0x23e90, size 0x20
@@ -2448,15 +2448,15 @@ version 18 {
     // offset 0x34e38, size 0x4970
     hash_2e0567490210dd82 playerstatsbymap[mission_e];
     // offset 0x397a8, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x3a928, size 0xd20
-    hash_78a2c506849f9dda bunkcollectibles;
+    bunkcollectibles_s bunkcollectibles;
     // offset 0x3b648, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x3b688, size 0x40
     uint achievements[achievements_e];
     // offset 0x3b6c8, size 0x49e0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[gametypes_e];
+    gametypestats_s playerstatsbygametype[gametypes_e];
     // offset 0x400a8, size 0x100
     byte demonwareflags[32];
     // offset 0x401a8, size 0x8
@@ -2468,41 +2468,41 @@ version 18 {
     // offset 0x401f0, size 0x20
     uint hash_3313a30250a39ec5;
     // offset 0x40210, size 0x180
-    float hash_2363e7e74077b1c0[gametypes_e];
+    float gt_skill_rating[gametypes_e];
     // offset 0x40390, size 0x20
     uint uploadbandwidth;
     // offset 0x403b0, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x404f0, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x405b0, size 0x20
     int motdviewtime;
     // offset 0x405d0, size 0x8
     uint:3 faction;
     // offset 0x405d8, size 0x90
-    hash_5cb2d75a230a501f trainingsimstats;
+    trainingsimstats_s trainingsimstats;
     // offset 0x40668, size 0x4ad0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x45138, size 0x8
     uint:4 hash_191fbfb9e1a3acf3;
     // offset 0x45140, size 0x20
     float storyprogress;
     // offset 0x45160, size 0x4710
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x49870, size 0xa0
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x49910, size 0x20
     float skill_variance;
     // offset 0x49930, size 0x180
-    float hash_3a7324ad328f0e2e[gametypes_e];
+    float gt_skill_variance[gametypes_e];
     // offset 0x49ab0, size 0x22e8
-    hash_6b411bb770fc8f6c afteractionreportstats;
+    aarstats_s afteractionreportstats;
     // offset 0x4bd98, size 0x100
     byte unlocks[32];
     // offset 0x4be98, size 0x40
     uint64 playerxuid;
     // offset 0x4bed8, size 0x3418
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x4f2f0, size 0x3a000
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0x892f0, size 0x20
@@ -2516,7 +2516,7 @@ version 18 {
     // offset 0x89332, size 0x40
     bool doublexpgroups[64];
     // offset 0x89372, size 0x1
-    bool hash_46e7db8ceaba5b2f;
+    bool scoreboard_migrated;
     // offset 0x89373, size 0x14
     bool currentplayercpdecorations[20];
     // offset 0x89387, size 0x14
@@ -2537,7 +2537,7 @@ version 18 {
 
 version 17 {
     // idx 1 members 2 size 0x30
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -2607,7 +2607,7 @@ version 17 {
         // offset 0x2c0, size 0x10
         short assists;
         // offset 0x2d0, size 0x10
-        short hash_59ef59765ff3f049;
+        short prvrank;
         // offset 0x2e0, size 0x1
         bool isactive;
         // offset 0x2e1, size 0x7
@@ -2615,7 +2615,7 @@ version 17 {
     };
 
     // idx 6 members 6 size 0x22e8
-    struct hash_6b411bb770fc8f6c {
+    struct aarstats_s {
         // offset 0x0, size 0x22e0
         hash_656bfcb3838e2907 playerstats[12];
         // offset 0x22e0, size 0x1
@@ -2661,7 +2661,7 @@ version 17 {
     };
 
     // idx 10 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -2687,9 +2687,9 @@ version 17 {
     };
 
     // idx 11 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -2697,7 +2697,7 @@ version 17 {
     };
 
     // idx 12 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -2707,63 +2707,63 @@ version 17 {
     };
 
     // idx 13 members 28 size 0x628
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x30
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x30, size 0x30
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x60, size 0x30
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0x90, size 0x30
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xc0, size 0x30
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0xf0, size 0x30
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x120, size 0x30
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x150, size 0x30
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x180, size 0x30
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1b0, size 0x30
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x1e0, size 0x30
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x210, size 0x30
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x240, size 0x30
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x270, size 0x30
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x2a0, size 0x30
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x2d0, size 0x30
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x300, size 0x30
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x330, size 0x30
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x360, size 0x30
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x390, size 0x30
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x3c0, size 0x30
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x3f0, size 0x8
         int:5 prevscoreindex;
         // offset 0x3f8, size 0x30
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x428, size 0x30
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x458, size 0x30
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x488, size 0x30
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x4b8, size 0x140
         prevscores_s prevscores[10];
         // offset 0x5f8, size 0x30
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 14 members 3 size 0x48
@@ -2779,7 +2779,7 @@ version 17 {
     // idx 15 members 17 size 0x758
     struct hash_2e0567490210dd82 {
         // offset 0x0, size 0x8
-        uint:3 hash_bf847c54dac3b;
+        uint:3 lastcompleteddifficulty;
         // offset 0x8, size 0xc0
         uint higheststats[hash_10edf09b258e1986];
         // offset 0xc8, size 0xc0
@@ -2809,13 +2809,13 @@ version 17 {
         // offset 0x74f, size 0x1
         bool hasbeencompleted;
         // offset 0x750, size 0x6
-        bool hash_233621878f97486b[6];
+        bool previousreceivedxpfordifficulty[6];
         // offset 0x756, size 0x2
         uint:1 __pad[2];
     };
 
     // idx 16 members 7 size 0x90
-    struct hash_5cb2d75a230a501f {
+    struct trainingsimstats_s {
         // offset 0x0, size 0x8
         uint:5 highestround;
         // offset 0x8, size 0x20
@@ -2835,23 +2835,23 @@ version 17 {
     // idx 17 members 15 size 0x1e0
     struct hash_722a4055916df1ff {
         // offset 0x0, size 0x20
-        uint hash_2b12202dea292a78;
+        uint silverbackkills;
         // offset 0x20, size 0x20
         uint roundachieved;
         // offset 0x40, size 0x20
         uint hash_256e550d360e7cf6;
         // offset 0x60, size 0x20
-        uint hash_34212151b945069b;
+        uint goldencowsexploded;
         // offset 0x80, size 0x20
         uint numplayers;
         // offset 0xa0, size 0x20
-        uint hash_477109e1674d778e;
+        uint gemsearned;
         // offset 0xc0, size 0x20
         uint cowsexploded;
         // offset 0xe0, size 0x20
-        uint hash_52086efefda6cd87;
+        uint redinswins;
         // offset 0x100, size 0x20
-        uint hash_4c59bf00eb8047c0;
+        uint chickenstamed;
         // offset 0x120, size 0x20
         uint enemykills;
         // offset 0x140, size 0x20
@@ -2861,7 +2861,7 @@ version 17 {
         // offset 0x180, size 0x20
         uint hash_6e3edce84270ac4c;
         // offset 0x1a0, size 0x20
-        uint hash_3ed0ae0744c78900;
+        uint silverbackkillsround;
         // offset 0x1c0, size 0x20
         uint skullsearned;
     };
@@ -2869,13 +2869,13 @@ version 17 {
     // idx 18 members 1 size 0x390
     struct groupstats_s {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 19 members 5 size 0x3a0
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x390, size 0x8
         bool challengecompleted[8];
         // offset 0x398, size 0x1
@@ -2887,15 +2887,15 @@ version 17 {
     };
 
     // idx 20 members 2 size 0x398
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x390, size 0x8
         bool challengecompleted[8];
     };
 
     // idx 21 members 5 size 0x188
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -2915,7 +2915,7 @@ version 17 {
     };
 
     // idx 23 members 4 size 0x8
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool purchased;
         // offset 0x1, size 0x1
@@ -2927,27 +2927,27 @@ version 17 {
     };
 
     // idx 24 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 25 members 5 size 0x3418
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x2000
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x2000, size 0x8
         uint:4 layerspurchased;
         // offset 0x2008, size 0x1400
-        hash_18562676c03c7954 backgrounds[640];
+        emblemicon_s backgrounds[640];
         // offset 0x3408, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
         // offset 0x3414, size 0x4
         uint:1 __pad[4];
     };
 
     // idx 26 members 3 size 0x8
-    struct hash_118b324c3f145926 {
+    struct clantagfeatures_s {
         // offset 0x0, size 0x1
         bool purchased;
         // offset 0x1, size 0x1
@@ -2957,13 +2957,13 @@ version 17 {
     };
 
     // idx 27 members 3 size 0xa0
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
         // offset 0x28, size 0x8
         byte selectedfeature;
         // offset 0x30, size 0x70
-        hash_118b324c3f145926 features[hash_118b444c3f1477bc];
+        clantagfeatures_s features[clantagfeatures_e];
     };
 
     // idx 28 members 4 size 0x20
@@ -2979,7 +2979,7 @@ version 17 {
     };
 
     // idx 29 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -2995,7 +2995,7 @@ version 17 {
     };
 
     // idx 30 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -3027,7 +3027,7 @@ version 17 {
     };
 
     // idx 33 members 1 size 0xd20
-    struct hash_78a2c506849f9dda {
+    struct bunkcollectibles_s {
         // offset 0x0, size 0xd20
         hash_2efa05c484e77181 collectibles[bunkcollectibleslots_e];
     };
@@ -3039,7 +3039,7 @@ version 17 {
     };
 
     // idx 0 members 378
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         hash_bf36041b40b541, // 0x0,
         hash_103be234630de92, // 0x1,
         kill_with_cooked_grenade, // 0x2,
@@ -3053,7 +3053,7 @@ version 17 {
         shotgun_mastery, // 0xa,
         films_shoutcasted, // 0xb,
         medal_flag_capture, // 0xc,
-        hash_3bba76aa8987218, // 0xd,
+        kill_enemy_revealed_by_sensor, // 0xd,
         coop_medal_scavenger_streak, // 0xe,
         time_played_total, // 0xf,
         hash_495a843c176b50c, // 0x10,
@@ -3125,7 +3125,7 @@ version 17 {
         medal_x2_score_shrp, // 0x52,
         support_killstreak_mastery, // 0x53,
         killed_dog, // 0x54,
-        hash_1b5a22bbb1c029a2, // 0x55,
+        hasprestiged, // 0x55,
         hash_1bb99705ba9a0e6c, // 0x56,
         hash_1bc0e2d787ec3594, // 0x57,
         hash_1be36c00d02a3702, // 0x58,
@@ -3338,7 +3338,7 @@ version 17 {
         hash_657cf19d17d5b366, // 0x127,
         last_escrow, // 0x128,
         medal_first_kill, // 0x129,
-        hash_65f463ce38d57812, // 0x12a,
+        kill_concussed_enemy, // 0x12a,
         field_specialist, // 0x12b,
         coop_medal_actor_kill_warlord, // 0x12c,
         hash_668c1bd08c419f31, // 0x12d,
@@ -3390,11 +3390,11 @@ version 17 {
         medal_killstreak_20, // 0x15b,
         medal_killstreak_25, // 0x15c,
         medal_killstreak_30, // 0x15d,
-        hash_77728de853e5ac67, // 0x15e,
+        career_difficulty_hard, // 0x15e,
         medal_kill_in_3_seconds_gun, // 0x15f,
         gametypeban, // 0x160,
         accuracy, // 0x161,
-        hash_794996196e74a949, // 0x162,
+        monthly_timestamp, // 0x162,
         score_multiteam, // 0x163,
         multikill_2_zone_attackers, // 0x164,
         defend_teammate_who_captured_package, // 0x165,
@@ -3433,7 +3433,7 @@ version 17 {
     // idx 2 members 2
     enum achievements_e {
         hash_f08aa26fabae647, // 0x0,
-        hash_5740a8698a4d0345, // 0x1
+        cp_distance_kill, // 0x1
     };
 
     // idx 3 members 2
@@ -3469,16 +3469,16 @@ version 17 {
 
     // idx 6 members 10
     enum mission_e {
-        hash_118a6332af43d97c, // 0x0,
-        hash_1868403ad767bcd5, // 0x1,
+        cp_ws_prophet, // 0x0,
+        cp_ws_nomad, // 0x1,
         hash_192de2ac4a272b77, // 0x2,
-        hash_1d9ec2a919018090, // 0x3,
-        hash_28514534e1fdc6b7, // 0x4,
-        hash_2aea61f2cc17fd2b, // 0x5,
-        hash_364f981808c6bfc9, // 0x6,
-        hash_46386949c31ed6c7, // 0x7,
-        hash_551c2ad25d755c39, // 0x8,
-        hash_79103217c50277f4, // 0x9
+        cp_ws_ruin, // 0x3,
+        cp_ws_seraph, // 0x4,
+        cp_ws_engineer, // 0x5,
+        cp_ws_firebreak, // 0x6,
+        cp_ws_battery, // 0x7,
+        cp_ws_recon, // 0x8,
+        cp_ws_breacher, // 0x9
     };
 
     // idx 7 members 6
@@ -3492,7 +3492,7 @@ version 17 {
     };
 
     // idx 8 members 19
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -3515,7 +3515,7 @@ version 17 {
     };
 
     // idx 9 members 21
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -3612,7 +3612,7 @@ version 17 {
     };
 
     // idx 12 members 14
-    enum hash_118b444c3f1477bc {
+    enum clantagfeatures_e {
         yellow, // 0x0,
         red, // 0x1,
         move, // 0x2,
@@ -3640,7 +3640,7 @@ version 17 {
     // idx 14 members 10
     enum bunkcollectibleslots_e {
         bunk_collectible_medium_1, // 0x0,
-        hash_1f95ed7440770262, // 0x1,
+        bunk_collectible_medium_3, // 0x1,
         bunk_collectible_medium_2, // 0x2,
         bunk_collectible_large_1, // 0x3,
         bunk_collectible_small_3, // 0x4,
@@ -3680,13 +3680,13 @@ version 17 {
     // offset 0xed0, size 0x40
     uint64 hash_37aeca4d39214e62;
     // offset 0xf10, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x3f60, size 0xc940
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x108a0, size 0x90
     uint:24 higheststats[higheststats_e];
     // offset 0x10930, size 0x13240
-    hash_1608f63ae729eda5 weaponstats[200];
+    weaponstat_s weaponstats[200];
     // offset 0x23b70, size 0x320
     hash_1a52129598e71dab recentscores[10];
     // offset 0x23e90, size 0x20
@@ -3714,15 +3714,15 @@ version 17 {
     // offset 0x34e38, size 0x4970
     hash_2e0567490210dd82 playerstatsbymap[mission_e];
     // offset 0x397a8, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x3a928, size 0xd20
-    hash_78a2c506849f9dda bunkcollectibles;
+    bunkcollectibles_s bunkcollectibles;
     // offset 0x3b648, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x3b688, size 0x40
     uint achievements[achievements_e];
     // offset 0x3b6c8, size 0x49e0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[gametypes_e];
+    gametypestats_s playerstatsbygametype[gametypes_e];
     // offset 0x400a8, size 0x100
     byte demonwareflags[32];
     // offset 0x401a8, size 0x8
@@ -3734,41 +3734,41 @@ version 17 {
     // offset 0x401f0, size 0x20
     uint hash_3313a30250a39ec5;
     // offset 0x40210, size 0x180
-    float hash_2363e7e74077b1c0[gametypes_e];
+    float gt_skill_rating[gametypes_e];
     // offset 0x40390, size 0x20
     uint uploadbandwidth;
     // offset 0x403b0, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x404f0, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x405b0, size 0x20
     int motdviewtime;
     // offset 0x405d0, size 0x8
     uint:3 faction;
     // offset 0x405d8, size 0x90
-    hash_5cb2d75a230a501f trainingsimstats;
+    trainingsimstats_s trainingsimstats;
     // offset 0x40668, size 0x4ad0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x45138, size 0x8
     uint:4 hash_191fbfb9e1a3acf3;
     // offset 0x45140, size 0x20
     float storyprogress;
     // offset 0x45160, size 0x46e0
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x49840, size 0xa0
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x498e0, size 0x20
     float skill_variance;
     // offset 0x49900, size 0x180
-    float hash_3a7324ad328f0e2e[gametypes_e];
+    float gt_skill_variance[gametypes_e];
     // offset 0x49a80, size 0x22e8
-    hash_6b411bb770fc8f6c afteractionreportstats;
+    aarstats_s afteractionreportstats;
     // offset 0x4bd68, size 0x100
     byte unlocks[32];
     // offset 0x4be68, size 0x40
     uint64 playerxuid;
     // offset 0x4bea8, size 0x3418
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x4f2c0, size 0x3a000
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0x892c0, size 0x20
@@ -3782,7 +3782,7 @@ version 17 {
     // offset 0x89302, size 0x40
     bool doublexpgroups[64];
     // offset 0x89342, size 0x1
-    bool hash_46e7db8ceaba5b2f;
+    bool scoreboard_migrated;
     // offset 0x89343, size 0x14
     bool currentplayercpdecorations[20];
     // offset 0x89357, size 0x14
@@ -3803,7 +3803,7 @@ version 17 {
 
 version 16 {
     // idx 1 members 2 size 0x30
-    struct hash_6b3db80d498eb06 {
+    struct intstat_s {
         // offset 0x0, size 0x10
         short challengevalue;
         // offset 0x10, size 0x20
@@ -3873,7 +3873,7 @@ version 16 {
         // offset 0x2c0, size 0x10
         short assists;
         // offset 0x2d0, size 0x10
-        short hash_59ef59765ff3f049;
+        short prvrank;
         // offset 0x2e0, size 0x1
         bool isactive;
         // offset 0x2e1, size 0x7
@@ -3881,7 +3881,7 @@ version 16 {
     };
 
     // idx 6 members 6 size 0x22e8
-    struct hash_6b411bb770fc8f6c {
+    struct aarstats_s {
         // offset 0x0, size 0x22e0
         hash_656bfcb3838e2907 playerstats[12];
         // offset 0x22e0, size 0x1
@@ -3927,7 +3927,7 @@ version 16 {
     };
 
     // idx 10 members 11 size 0xb8
-    struct hash_5fafb39a86bc6dc7 {
+    struct matchhistorystats_s {
         // offset 0x0, size 0x10
         short kills;
         // offset 0x10, size 0x18
@@ -3953,9 +3953,9 @@ version 16 {
     };
 
     // idx 11 members 3 size 0x1828
-    struct hash_503eb0de8f9cf7c2 {
+    struct gamehistorystats_s {
         // offset 0x0, size 0x1700
-        hash_5fafb39a86bc6dc7 matchhistory[32];
+        matchhistorystats_s matchhistory[32];
         // offset 0x1700, size 0x120
         hash_b5aec1419b9a02d modehistory;
         // offset 0x1820, size 0x8
@@ -3963,7 +3963,7 @@ version 16 {
     };
 
     // idx 12 members 3 size 0x60
-    struct hash_4bb25d7ad41fb449 {
+    struct probation_s {
         // offset 0x0, size 0x20
         uint count;
         // offset 0x20, size 0x20
@@ -3973,63 +3973,63 @@ version 16 {
     };
 
     // idx 13 members 28 size 0x628
-    struct hash_2e1d3d3bb036d22c {
+    struct gametypestats_s {
         // offset 0x0, size 0x30
-        hash_6b3db80d498eb06 ties;
+        intstat_s ties;
         // offset 0x30, size 0x30
-        hash_6b3db80d498eb06 wins;
+        intstat_s wins;
         // offset 0x60, size 0x30
-        hash_6b3db80d498eb06 assists;
+        intstat_s assists;
         // offset 0x90, size 0x30
-        hash_6b3db80d498eb06 crush;
+        intstat_s crush;
         // offset 0xc0, size 0x30
-        hash_6b3db80d498eb06 kills;
+        intstat_s kills;
         // offset 0xf0, size 0x30
-        hash_6b3db80d498eb06 score;
+        intstat_s score;
         // offset 0x120, size 0x30
-        hash_6b3db80d498eb06 time_played_total;
+        intstat_s time_played_total;
         // offset 0x150, size 0x30
-        hash_6b3db80d498eb06 challenge1;
+        intstat_s challenge1;
         // offset 0x180, size 0x30
-        hash_6b3db80d498eb06 challenge2;
+        intstat_s challenge2;
         // offset 0x1b0, size 0x30
-        hash_6b3db80d498eb06 challenge3;
+        intstat_s challenge3;
         // offset 0x1e0, size 0x30
-        hash_6b3db80d498eb06 challenge4;
+        intstat_s challenge4;
         // offset 0x210, size 0x30
-        hash_6b3db80d498eb06 challenge5;
+        intstat_s challenge5;
         // offset 0x240, size 0x30
-        hash_6b3db80d498eb06 challenge6;
+        intstat_s challenge6;
         // offset 0x270, size 0x30
-        hash_6b3db80d498eb06 challenge7;
+        intstat_s challenge7;
         // offset 0x2a0, size 0x30
-        hash_6b3db80d498eb06 challenge8;
+        intstat_s challenge8;
         // offset 0x2d0, size 0x30
-        hash_6b3db80d498eb06 challenge9;
+        intstat_s challenge9;
         // offset 0x300, size 0x30
-        hash_6b3db80d498eb06 win_streak;
+        intstat_s win_streak;
         // offset 0x330, size 0x30
-        hash_6b3db80d498eb06 cur_win_streak;
+        intstat_s cur_win_streak;
         // offset 0x360, size 0x30
-        hash_6b3db80d498eb06 kill_streak;
+        intstat_s kill_streak;
         // offset 0x390, size 0x30
-        hash_6b3db80d498eb06 deaths;
+        intstat_s deaths;
         // offset 0x3c0, size 0x30
-        hash_6b3db80d498eb06 wlratio;
+        intstat_s wlratio;
         // offset 0x3f0, size 0x8
         int:5 prevscoreindex;
         // offset 0x3f8, size 0x30
-        hash_6b3db80d498eb06 losses;
+        intstat_s losses;
         // offset 0x428, size 0x30
-        hash_6b3db80d498eb06 defends;
+        intstat_s defends;
         // offset 0x458, size 0x30
-        hash_6b3db80d498eb06 offends;
+        intstat_s offends;
         // offset 0x488, size 0x30
-        hash_6b3db80d498eb06 challenge10;
+        intstat_s challenge10;
         // offset 0x4b8, size 0x140
         prevscores_s prevscores[10];
         // offset 0x5f8, size 0x30
-        hash_6b3db80d498eb06 kdratio;
+        intstat_s kdratio;
     };
 
     // idx 14 members 3 size 0x48
@@ -4045,7 +4045,7 @@ version 16 {
     // idx 15 members 17 size 0x758
     struct hash_2e0567490210dd82 {
         // offset 0x0, size 0x8
-        uint:3 hash_bf847c54dac3b;
+        uint:3 lastcompleteddifficulty;
         // offset 0x8, size 0xc0
         uint higheststats[hash_10edf09b258e1986];
         // offset 0xc8, size 0xc0
@@ -4075,13 +4075,13 @@ version 16 {
         // offset 0x74f, size 0x1
         bool hasbeencompleted;
         // offset 0x750, size 0x6
-        bool hash_233621878f97486b[6];
+        bool previousreceivedxpfordifficulty[6];
         // offset 0x756, size 0x2
         uint:1 __pad[2];
     };
 
     // idx 16 members 7 size 0x90
-    struct hash_5cb2d75a230a501f {
+    struct trainingsimstats_s {
         // offset 0x0, size 0x8
         uint:5 highestround;
         // offset 0x8, size 0x20
@@ -4101,23 +4101,23 @@ version 16 {
     // idx 17 members 15 size 0x1e0
     struct hash_722a4055916df1ff {
         // offset 0x0, size 0x20
-        uint hash_2b12202dea292a78;
+        uint silverbackkills;
         // offset 0x20, size 0x20
         uint roundachieved;
         // offset 0x40, size 0x20
         uint hash_256e550d360e7cf6;
         // offset 0x60, size 0x20
-        uint hash_34212151b945069b;
+        uint goldencowsexploded;
         // offset 0x80, size 0x20
         uint numplayers;
         // offset 0xa0, size 0x20
-        uint hash_477109e1674d778e;
+        uint gemsearned;
         // offset 0xc0, size 0x20
         uint cowsexploded;
         // offset 0xe0, size 0x20
-        uint hash_52086efefda6cd87;
+        uint redinswins;
         // offset 0x100, size 0x20
-        uint hash_4c59bf00eb8047c0;
+        uint chickenstamed;
         // offset 0x120, size 0x20
         uint enemykills;
         // offset 0x140, size 0x20
@@ -4127,7 +4127,7 @@ version 16 {
         // offset 0x180, size 0x20
         uint hash_6e3edce84270ac4c;
         // offset 0x1a0, size 0x20
-        uint hash_3ed0ae0744c78900;
+        uint silverbackkillsround;
         // offset 0x1c0, size 0x20
         uint skullsearned;
     };
@@ -4135,13 +4135,13 @@ version 16 {
     // idx 18 members 1 size 0x390
     struct groupstats_s {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
     };
 
     // idx 19 members 5 size 0x3a0
     struct hash_48cae9b9fcff7a5e {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x390, size 0x8
         bool challengecompleted[8];
         // offset 0x398, size 0x1
@@ -4153,15 +4153,15 @@ version 16 {
     };
 
     // idx 20 members 2 size 0x398
-    struct hash_67b00e3091cde2fd {
+    struct attachmentstats_s {
         // offset 0x0, size 0x390
-        hash_6b3db80d498eb06 stats[hash_1609003ae729fea3];
+        intstat_s stats[weaponstat_e];
         // offset 0x390, size 0x8
         bool challengecompleted[8];
     };
 
     // idx 21 members 5 size 0x190
-    struct hash_1608f63ae729eda5 {
+    struct weaponstat_s {
         // offset 0x0, size 0x18
         uint:24 xp;
         // offset 0x18, size 0x8
@@ -4181,7 +4181,7 @@ version 16 {
     };
 
     // idx 23 members 4 size 0x8
-    struct hash_18562676c03c7954 {
+    struct emblemicon_s {
         // offset 0x0, size 0x1
         bool purchased;
         // offset 0x1, size 0x1
@@ -4193,27 +4193,27 @@ version 16 {
     };
 
     // idx 24 members 1 size 0x1
-    struct hash_2d74f509e9d33a86 {
+    struct emblemlayer_s {
         // offset 0x0, size 0x1
         bool markedold;
     };
 
     // idx 25 members 5 size 0x3418
-    struct hash_790a163d0959fa18 {
+    struct emblemstats_s {
         // offset 0x0, size 0x2000
-        hash_18562676c03c7954 icons[1024];
+        emblemicon_s icons[1024];
         // offset 0x2000, size 0x8
         uint:4 layerspurchased;
         // offset 0x2008, size 0x1400
-        hash_18562676c03c7954 backgrounds[640];
+        emblemicon_s backgrounds[640];
         // offset 0x3408, size 0xc
-        hash_2d74f509e9d33a86 layers[12];
+        emblemlayer_s layers[12];
         // offset 0x3414, size 0x4
         uint:1 __pad[4];
     };
 
     // idx 26 members 3 size 0x8
-    struct hash_118b324c3f145926 {
+    struct clantagfeatures_s {
         // offset 0x0, size 0x1
         bool purchased;
         // offset 0x1, size 0x1
@@ -4223,13 +4223,13 @@ version 16 {
     };
 
     // idx 27 members 3 size 0xa0
-    struct hash_402baff65ae9b838 {
+    struct clantagstats_s {
         // offset 0x0, size 0x28
         string(5) clanname;
         // offset 0x28, size 0x8
         byte selectedfeature;
         // offset 0x30, size 0x70
-        hash_118b324c3f145926 features[hash_118b444c3f1477bc];
+        clantagfeatures_s features[clantagfeatures_e];
     };
 
     // idx 28 members 4 size 0x20
@@ -4245,7 +4245,7 @@ version 16 {
     };
 
     // idx 29 members 6 size 0x1c0
-    struct hash_4976dab983b23e8c {
+    struct consoleinfo_s {
         // offset 0x0, size 0x20
         uint timestamp;
         // offset 0x20, size 0x20
@@ -4261,7 +4261,7 @@ version 16 {
     };
 
     // idx 30 members 4 size 0x10
-    struct hash_4f6f299a12577aa4 {
+    struct prestigetokens_s {
         // offset 0x0, size 0x8
         byte itemunlocked;
         // offset 0x8, size 0x1
@@ -4293,7 +4293,7 @@ version 16 {
     };
 
     // idx 33 members 1 size 0xd20
-    struct hash_78a2c506849f9dda {
+    struct bunkcollectibles_s {
         // offset 0x0, size 0xd20
         hash_2efa05c484e77181 collectibles[bunkcollectibleslots_e];
     };
@@ -4305,7 +4305,7 @@ version 16 {
     };
 
     // idx 0 members 378
-    enum hash_44d262eb4cb5ed61 {
+    enum globalstats_e {
         hash_bf36041b40b541, // 0x0,
         hash_103be234630de92, // 0x1,
         kill_with_cooked_grenade, // 0x2,
@@ -4319,7 +4319,7 @@ version 16 {
         shotgun_mastery, // 0xa,
         films_shoutcasted, // 0xb,
         medal_flag_capture, // 0xc,
-        hash_3bba76aa8987218, // 0xd,
+        kill_enemy_revealed_by_sensor, // 0xd,
         coop_medal_scavenger_streak, // 0xe,
         time_played_total, // 0xf,
         hash_495a843c176b50c, // 0x10,
@@ -4391,7 +4391,7 @@ version 16 {
         medal_x2_score_shrp, // 0x52,
         support_killstreak_mastery, // 0x53,
         killed_dog, // 0x54,
-        hash_1b5a22bbb1c029a2, // 0x55,
+        hasprestiged, // 0x55,
         hash_1bb99705ba9a0e6c, // 0x56,
         hash_1bc0e2d787ec3594, // 0x57,
         hash_1be36c00d02a3702, // 0x58,
@@ -4604,7 +4604,7 @@ version 16 {
         hash_657cf19d17d5b366, // 0x127,
         last_escrow, // 0x128,
         medal_first_kill, // 0x129,
-        hash_65f463ce38d57812, // 0x12a,
+        kill_concussed_enemy, // 0x12a,
         field_specialist, // 0x12b,
         coop_medal_actor_kill_warlord, // 0x12c,
         hash_668c1bd08c419f31, // 0x12d,
@@ -4656,11 +4656,11 @@ version 16 {
         medal_killstreak_20, // 0x15b,
         medal_killstreak_25, // 0x15c,
         medal_killstreak_30, // 0x15d,
-        hash_77728de853e5ac67, // 0x15e,
+        career_difficulty_hard, // 0x15e,
         medal_kill_in_3_seconds_gun, // 0x15f,
         gametypeban, // 0x160,
         accuracy, // 0x161,
-        hash_794996196e74a949, // 0x162,
+        monthly_timestamp, // 0x162,
         score_multiteam, // 0x163,
         multikill_2_zone_attackers, // 0x164,
         defend_teammate_who_captured_package, // 0x165,
@@ -4699,7 +4699,7 @@ version 16 {
     // idx 2 members 2
     enum achievements_e {
         hash_f08aa26fabae647, // 0x0,
-        hash_5740a8698a4d0345, // 0x1
+        cp_distance_kill, // 0x1
     };
 
     // idx 3 members 2
@@ -4735,16 +4735,16 @@ version 16 {
 
     // idx 6 members 10
     enum mission_e {
-        hash_118a6332af43d97c, // 0x0,
-        hash_1868403ad767bcd5, // 0x1,
+        cp_ws_prophet, // 0x0,
+        cp_ws_nomad, // 0x1,
         hash_192de2ac4a272b77, // 0x2,
-        hash_1d9ec2a919018090, // 0x3,
-        hash_28514534e1fdc6b7, // 0x4,
-        hash_2aea61f2cc17fd2b, // 0x5,
-        hash_364f981808c6bfc9, // 0x6,
-        hash_46386949c31ed6c7, // 0x7,
-        hash_551c2ad25d755c39, // 0x8,
-        hash_79103217c50277f4, // 0x9
+        cp_ws_ruin, // 0x3,
+        cp_ws_seraph, // 0x4,
+        cp_ws_engineer, // 0x5,
+        cp_ws_firebreak, // 0x6,
+        cp_ws_battery, // 0x7,
+        cp_ws_recon, // 0x8,
+        cp_ws_breacher, // 0x9
     };
 
     // idx 7 members 6
@@ -4758,7 +4758,7 @@ version 16 {
     };
 
     // idx 8 members 19
-    enum hash_1609003ae729fea3 {
+    enum weaponstat_e {
         destroyed, // 0x0,
         combatrecordstat, // 0x1,
         backstabber_kill, // 0x2,
@@ -4781,7 +4781,7 @@ version 16 {
     };
 
     // idx 9 members 21
-    enum hash_5075e11eecf4d03d {
+    enum weapongroups_e {
         weapon_flamethrower, // 0x0,
         specialty, // 0x1,
         bonuscard, // 0x2,
@@ -4886,7 +4886,7 @@ version 16 {
     };
 
     // idx 12 members 14
-    enum hash_118b444c3f1477bc {
+    enum clantagfeatures_e {
         yellow, // 0x0,
         red, // 0x1,
         move, // 0x2,
@@ -4914,7 +4914,7 @@ version 16 {
     // idx 14 members 10
     enum bunkcollectibleslots_e {
         bunk_collectible_medium_1, // 0x0,
-        hash_1f95ed7440770262, // 0x1,
+        bunk_collectible_medium_3, // 0x1,
         bunk_collectible_medium_2, // 0x2,
         bunk_collectible_large_1, // 0x3,
         bunk_collectible_small_3, // 0x4,
@@ -4954,13 +4954,13 @@ version 16 {
     // offset 0xed0, size 0x40
     uint64 hash_37aeca4d39214e62;
     // offset 0xf10, size 0x3050
-    hash_503eb0de8f9cf7c2 gamehistory[gamemodes_e];
+    gamehistorystats_s gamehistory[gamemodes_e];
     // offset 0x3f60, size 0xe600
-    hash_67b00e3091cde2fd attachments[attachments_e];
+    attachmentstats_s attachments[attachments_e];
     // offset 0x12560, size 0x90
     uint:24 higheststats[higheststats_e];
     // offset 0x125f0, size 0x13880
-    hash_1608f63ae729eda5 weaponstats[200];
+    weaponstat_s weaponstats[200];
     // offset 0x25e70, size 0x320
     hash_1a52129598e71dab recentscores[10];
     // offset 0x26190, size 0x20
@@ -4988,15 +4988,15 @@ version 16 {
     // offset 0x37138, size 0x4970
     hash_2e0567490210dd82 playerstatsbymap[mission_e];
     // offset 0x3baa8, size 0x1180
-    hash_4976dab983b23e8c consoleinfo[10];
+    consoleinfo_s consoleinfo[10];
     // offset 0x3cc28, size 0xd20
-    hash_78a2c506849f9dda bunkcollectibles;
+    bunkcollectibles_s bunkcollectibles;
     // offset 0x3d948, size 0x40
     uint64 hash_188ecc3aca50f93d;
     // offset 0x3d988, size 0x40
     uint achievements[achievements_e];
     // offset 0x3d9c8, size 0x49e0
-    hash_2e1d3d3bb036d22c playerstatsbygametype[gametypes_e];
+    gametypestats_s playerstatsbygametype[gametypes_e];
     // offset 0x423a8, size 0x100
     byte demonwareflags[32];
     // offset 0x424a8, size 0x8
@@ -5008,41 +5008,41 @@ version 16 {
     // offset 0x424f0, size 0x20
     uint hash_3313a30250a39ec5;
     // offset 0x42510, size 0x180
-    float hash_2363e7e74077b1c0[gametypes_e];
+    float gt_skill_rating[gametypes_e];
     // offset 0x42690, size 0x20
     uint uploadbandwidth;
     // offset 0x426b0, size 0x140
-    hash_4f6f299a12577aa4 prestigetokens[20];
+    prestigetokens_s prestigetokens[20];
     // offset 0x427f0, size 0xc0
-    hash_4bb25d7ad41fb449 probation[gamemodes_e];
+    probation_s probation[gamemodes_e];
     // offset 0x428b0, size 0x20
     int motdviewtime;
     // offset 0x428d0, size 0x8
     uint:3 faction;
     // offset 0x428d8, size 0x90
-    hash_5cb2d75a230a501f trainingsimstats;
+    trainingsimstats_s trainingsimstats;
     // offset 0x42968, size 0x4ad0
-    groupstats_s groupstats[hash_5075e11eecf4d03d];
+    groupstats_s groupstats[weapongroups_e];
     // offset 0x47438, size 0x8
     uint:4 hash_191fbfb9e1a3acf3;
     // offset 0x47440, size 0x20
     float storyprogress;
     // offset 0x47460, size 0x46e0
-    hash_6b3db80d498eb06 playerstatslist[hash_44d262eb4cb5ed61];
+    intstat_s playerstatslist[globalstats_e];
     // offset 0x4bb40, size 0xa0
-    hash_402baff65ae9b838 clantagstats;
+    clantagstats_s clantagstats;
     // offset 0x4bbe0, size 0x20
     float skill_variance;
     // offset 0x4bc00, size 0x180
-    float hash_3a7324ad328f0e2e[gametypes_e];
+    float gt_skill_variance[gametypes_e];
     // offset 0x4bd80, size 0x22e8
-    hash_6b411bb770fc8f6c afteractionreportstats;
+    aarstats_s afteractionreportstats;
     // offset 0x4e068, size 0x100
     byte unlocks[32];
     // offset 0x4e168, size 0x40
     uint64 playerxuid;
     // offset 0x4e1a8, size 0x3418
-    hash_790a163d0959fa18 emblemstats;
+    emblemstats_s emblemstats;
     // offset 0x515c0, size 0x3a000
     hash_48cae9b9fcff7a5e itemstats[256];
     // offset 0x8b5c0, size 0x20
@@ -5056,7 +5056,7 @@ version 16 {
     // offset 0x8b602, size 0x40
     bool doublexpgroups[64];
     // offset 0x8b642, size 0x1
-    bool hash_46e7db8ceaba5b2f;
+    bool scoreboard_migrated;
     // offset 0x8b643, size 0x14
     bool currentplayercpdecorations[20];
     // offset 0x8b657, size 0x14

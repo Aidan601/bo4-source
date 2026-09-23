@@ -126,7 +126,7 @@ function widows_wine_explosion( localclientnum, oldval, newval, bnewent, binitia
         }
         
         playfx( localclientnum, level._effect[ #"winters_wail_explosion" ], origin, anglestoforward( self.angles ) );
-        self playsound( localclientnum, #"hash_3b59d3c99bac4071" );
+        self playsound( localclientnum, #"zmb_vapor_winterswail_activate" );
     }
 }
 

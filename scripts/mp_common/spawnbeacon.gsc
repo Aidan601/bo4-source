@@ -43,8 +43,8 @@ function __init__()
     globallogic_score::function_82fb1afa( level.spawnbeaconsettings.beaconweapon, &function_5bfd1343 );
     globallogic_score::function_2b2c09db( level.spawnbeaconsettings.beaconweapon, &function_3e8ff788 );
     globallogic_score::function_b150f9ac( level.spawnbeaconsettings.beaconweapon, &function_cdeb9089 );
-    deployable::register_deployable( getweapon( #"hash_7ab3f9a730359659" ), &function_9aafb7bb, undefined );
-    weaponobjects::function_e6400478( #"hash_7ab3f9a730359659", &function_d80ff6a7, 1 );
+    deployable::register_deployable( getweapon( #"spawn_beacon_held" ), &function_9aafb7bb, undefined );
+    weaponobjects::function_e6400478( #"spawn_beacon_held", &function_d80ff6a7, 1 );
     function_50e42513();
     setupspawnlists();
 }
@@ -81,7 +81,7 @@ function function_3e8ff788( attacker, victim, var_f5db414c, killtime, weapon, sp
     
     if ( attacker != attacker.var_7c18e526 && ( isdefined( attacker.var_1a6703cc ) ? attacker.var_1a6703cc : 0 ) + 5000 > killtime )
     {
-        scoreevents::processscoreevent( #"hash_62131f4647f7c61a", attacker.var_7c18e526, undefined, spawnbeaconweapon );
+        scoreevents::processscoreevent( #"spawn_beacon_savior", attacker.var_7c18e526, undefined, spawnbeaconweapon );
     }
 }
 
@@ -115,7 +115,7 @@ function function_5bfd1343( attacker, var_f231d134, killtime, capturedobjective,
     
     if ( attacker != attacker.var_7c18e526 && ( isdefined( attacker.var_1a6703cc ) ? attacker.var_1a6703cc : 0 ) + 5000 > killtime )
     {
-        scoreevents::processscoreevent( #"hash_5ce122c3419f6a58", attacker.var_7c18e526, undefined, spawnbeaconweapon );
+        scoreevents::processscoreevent( #"spawn_beacon_vanguard", attacker.var_7c18e526, undefined, spawnbeaconweapon );
     }
 }
 
@@ -215,7 +215,7 @@ function playerspawnedfromspawnbeacon( spawnbeacon, var_d8f817bc )
     
     if ( level.gametype === "dm" || level.gametype === "dm_hc" )
     {
-        spawnbeacon.health -= isdefined( level.spawnbeaconsettings.settingsbundle.var_ebe18d92 ) ? level.spawnbeaconsettings.settingsbundle.var_ebe18d92 : 0;
+        spawnbeacon.health -= isdefined( level.spawnbeaconsettings.settingsbundle.dmhealthdeductionperspawn ) ? level.spawnbeaconsettings.settingsbundle.dmhealthdeductionperspawn : 0;
     }
     else
     {
@@ -240,11 +240,11 @@ function playerspawnedfromspawnbeacon( spawnbeacon, var_d8f817bc )
         
         player.var_1a6703cc = gettime();
         player.var_7c18e526 = spawnbeacon.owner;
-        var_f8e6b703 = player match_record::get_player_stat( #"current_life_index" );
+        current_life_index = player match_record::get_player_stat( #"current_life_index" );
         
-        if ( isdefined( var_f8e6b703 ) )
+        if ( isdefined( current_life_index ) )
         {
-            player match_record::set_stat( #"lives", var_f8e6b703, #"hash_674598aa9fe3d19a", 1 );
+            player match_record::set_stat( #"lives", current_life_index, #"hash_674598aa9fe3d19a", 1 );
         }
     }
     
@@ -389,13 +389,13 @@ function private function_4ddddf03( placedspawnbeacon )
     
     if ( isdefined( level.spawnbeaconsettings.settingsbundle.var_6ee7f72 ) ? level.spawnbeaconsettings.settingsbundle.var_6ee7f72 : 0 )
     {
-        function_6c529d0b( placedspawnbeacon, level.spawnbeaconsettings.settingsbundle.var_ac0a9508, player getteam(), #"enemy", #"hash_10169ccdcca54ccf", &function_741d9675, &function_70ca26fc, &function_d77d0cbb );
+        function_6c529d0b( placedspawnbeacon, level.spawnbeaconsettings.settingsbundle.disableobjective, player getteam(), #"enemy", #"hash_10169ccdcca54ccf", &function_741d9675, &function_70ca26fc, &function_d77d0cbb );
         placedspawnbeacon.var_d7cf6658[ #"enemy" ] gameobjects::set_use_time( isdefined( level.spawnbeaconsettings.settingsbundle.deactivatetime ) ? level.spawnbeaconsettings.settingsbundle.deactivatetime : 0 );
     }
     
     if ( isdefined( level.spawnbeaconsettings.settingsbundle.canbepickedup ) ? level.spawnbeaconsettings.settingsbundle.canbepickedup : 0 )
     {
-        function_6c529d0b( placedspawnbeacon, level.spawnbeaconsettings.settingsbundle.var_69fd6325, player getteam(), #"friendly", #"spawnbeacon/pickup", &function_e67b6bd, &function_4f5f518a, &function_d77d0cbb );
+        function_6c529d0b( placedspawnbeacon, level.spawnbeaconsettings.settingsbundle.pickupobjective, player getteam(), #"friendly", #"spawnbeacon/pickup", &function_e67b6bd, &function_4f5f518a, &function_d77d0cbb );
         player clientclaimtrigger( placedspawnbeacon.var_d7cf6658[ #"friendly" ].trigger );
         placedspawnbeacon.var_d7cf6658[ #"friendly" ] gameobjects::set_use_time( isdefined( level.spawnbeaconsettings.settingsbundle.pickuptime ) ? level.spawnbeaconsettings.settingsbundle.pickuptime : 0 );
     }
@@ -441,7 +441,7 @@ function function_6c529d0b( beacon, objective, team, var_d1653c48, hinttext, onu
 {
     upangle = vectorscale( vectornormalize( anglestoup( beacon.angles ) ), 5 );
     var_40989bda = beacon.origin + upangle;
-    usetrigger = spawn( "trigger_radius_use", var_40989bda, 0, isdefined( level.spawnbeaconsettings.settingsbundle.var_ec05f9d4 ) ? level.spawnbeaconsettings.settingsbundle.var_ec05f9d4 : 0, isdefined( level.spawnbeaconsettings.settingsbundle.var_53e44ebc ) ? level.spawnbeaconsettings.settingsbundle.var_53e44ebc : 0 );
+    usetrigger = spawn( "trigger_radius_use", var_40989bda, 0, isdefined( level.spawnbeaconsettings.settingsbundle.deactivatetriggerradius ) ? level.spawnbeaconsettings.settingsbundle.deactivatetriggerradius : 0, isdefined( level.spawnbeaconsettings.settingsbundle.deactivatetriggerheight ) ? level.spawnbeaconsettings.settingsbundle.deactivatetriggerheight : 0 );
     usetrigger triggerignoreteam();
     usetrigger setvisibletoall();
     usetrigger setteamfortrigger( #"none" );
@@ -472,7 +472,7 @@ function private function_e67b6bd( player )
     spawnbeacon.alivetime = ( isdefined( spawnbeacon.alivetime ) ? spawnbeacon.alivetime : 0 ) + float( gettime() - ( isdefined( spawnbeacon.var_1df612a0 ) ? spawnbeacon.var_1df612a0 : spawnbeacon.birthtime ) ) / 1000;
     remainingtime = ( isdefined( level.spawnbeaconsettings.settingsbundle.timeout ) ? level.spawnbeaconsettings.settingsbundle.timeout : 0 ) - spawnbeacon.alivetime;
     
-    if ( remainingtime <= ( isdefined( level.spawnbeaconsettings.settingsbundle.var_a0ffd0e4 ) ? level.spawnbeaconsettings.settingsbundle.var_a0ffd0e4 : 0 ) )
+    if ( remainingtime <= ( isdefined( level.spawnbeaconsettings.settingsbundle.minimumalivetime ) ? level.spawnbeaconsettings.settingsbundle.minimumalivetime : 0 ) )
     {
         return;
     }
@@ -497,7 +497,7 @@ function private function_e67b6bd( player )
     level.spawnbeaconsettings.beacons[ spawnbeacon.objectiveid ] = undefined;
     userspawnselection::removespawnbeacon( spawnbeacon.objectiveid );
     objective_delete( spawnbeacon.objectiveid );
-    heldweapon = getweapon( #"hash_7ab3f9a730359659" );
+    heldweapon = getweapon( #"spawn_beacon_held" );
     spawnbeacon.owner giveweapon( heldweapon );
     spawnbeacon.owner switchtoweapon( heldweapon, 1 );
     spawnbeacon.owner disableweaponcycling();
@@ -551,7 +551,7 @@ function function_f989dc0a( watcher, owner )
             createspawngroupforspawnbeacon( spawnbeacon, spawnbeacon.var_9bab32d9.spawns );
         }
         
-        owner takeweapon( getweapon( #"hash_7ab3f9a730359659" ) );
+        owner takeweapon( getweapon( #"spawn_beacon_held" ) );
         owner enableweaponcycling();
         owner enableoffhandweapons();
         owner enableoffhandspecial();
@@ -611,9 +611,9 @@ function function_d80ff6a7( watcher )
 // Size: 0x5c
 function private function_ebac785e( player )
 {
-    if ( isdefined( level.spawnbeaconsettings.settingsbundle.var_82360099 ) )
+    if ( isdefined( level.spawnbeaconsettings.settingsbundle.removingaudio ) )
     {
-        player playloopsound( level.spawnbeaconsettings.settingsbundle.var_82360099 );
+        player playloopsound( level.spawnbeaconsettings.settingsbundle.removingaudio );
     }
 }
 
@@ -662,7 +662,7 @@ function private function_741d9675( player )
 // Size: 0xe4
 function private function_d77d0cbb( team, player, result )
 {
-    if ( isdefined( level.spawnbeaconsettings.settingsbundle.var_82360099 ) )
+    if ( isdefined( level.spawnbeaconsettings.settingsbundle.removingaudio ) )
     {
         player stoploopsound();
     }

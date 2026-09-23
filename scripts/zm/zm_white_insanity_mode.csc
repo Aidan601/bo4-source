@@ -18,7 +18,7 @@ function init_clientfields()
 // Size: 0x32
 function init_fx()
 {
-    level._effect[ #"fx8_insanity_wisp" ] = #"hash_75046ca8114af653";
+    level._effect[ #"fx8_insanity_wisp" ] = #"maps/zm_white/fx8_insanity_wisp";
 }
 
 // Namespace zm_white_insanity_mode/zm_white_insanity_mode
@@ -33,8 +33,8 @@ function function_4b104fc5( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( !isdefined( self.sfx ) )
         {
-            self playsound( 0, #"hash_7867b5508ce25848" );
-            self.sfx = self playloopsound( #"hash_2c5ad3d4cdc507c" );
+            self playsound( 0, #"zmb_wisp_appear" );
+            self.sfx = self playloopsound( #"zmb_wisp_close_lp" );
         }
         
         return;
@@ -44,7 +44,7 @@ function function_4b104fc5( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( isdefined( self.sfx ) )
     {
-        self playsound( 0, #"hash_6e263590089ef88e" );
+        self playsound( 0, #"zmb_wisp_disappear" );
         self stoploopsound( self.sfx );
         self.sfx = undefined;
     }

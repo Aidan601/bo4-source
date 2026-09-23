@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_pineapple",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_pineapple",
     "name": "charm_plant_pineapple",
-    "displayname": "localized17#hash_8daf2a7b05147b1",
+    "displayname": "localized17#menu/charm_plant_pineapple",
     "icon": "ui_icon_weapon_charms_pineapple",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_pineapple"

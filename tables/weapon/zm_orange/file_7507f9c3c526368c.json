@@ -1,6 +1,6 @@
 {
-    "name": "#hash_7507f9c3c526368c",
-    "baseWeapon": "#hash_492e530f9862f6cc",
+    "name": "#hero_minigun_t8_lv2_grenade_zm",
+    "baseWeapon": "#hero_minigun_t8_lv2_grenade",
     "displayname": "#hash_4e6ad0a0aed9c99",
     "weapon70": "#hero_minigun_t8_lv1",
     "soundbank": "#hash_3170be53c39258be",
@@ -34,12 +34,12 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound90": "#hash_28da5e9c8c6fdb90",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
-    "projexplosionsound": "#hash_4e25b7e8e6211763",
-    "tunables1": "#hash_25fcb25802a1553f",
-    "cacWeaponXCam": "#hash_9c4ea39463d14ac",
+    "sound90": "#wpn_pineapple_mini_loop",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
+    "projexplosionsound": "#wpn_pineapple_explode",
+    "tunables1": "#hero_minigun_t8_lv2_grenade_tunables_zm",
+    "cacWeaponXCam": "#ui_cam_cac_special_overkill",
     "statusEffects": [
         {
             "effect": "#hash_a608bf886a137e8e",

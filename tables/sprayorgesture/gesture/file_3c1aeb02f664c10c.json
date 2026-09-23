@@ -1,12 +1,12 @@
 {
-    "name": "#hash_3c1aeb02f664c10c",
+    "name": "#loot_emote_firebreak_campfire",
     "type": "#gesture",
-    "gesture": "#hash_7fe46920b6be1822",
+    "gesture": "#boast_firebreak_campfire",
     "gesture2": "#boast_campfire_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/campfire",
-        "icon": "image#hash_162f7cc74063006a",
+        "icon": "image#ui_icon_emotes_camp_fire",
         "isdefault": 0
     }
 }

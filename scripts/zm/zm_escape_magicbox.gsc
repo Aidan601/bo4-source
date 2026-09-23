@@ -39,7 +39,7 @@ function __init__()
 // Size: 0x36
 function __main__()
 {
-    level.chest_joker_model = #"hash_4b77dcb67eb0dc91";
+    level.chest_joker_model = #"p8_zm_esc_magic_lock_lrg_red";
     level.chest_joker_custom_movement = &custom_joker_movement;
 }
 
@@ -62,7 +62,7 @@ function custom_joker_movement()
     mdl_lock setcandamage( 1 );
     level.var_c7626f2a[ #"box_lock" ] = &pebble::function_bdd1bac8;
     level notify( #"hash_219aba01ff2d6de4" );
-    playsoundatposition( #"hash_7c7d8771a48e8871", mdl_lock.origin );
+    playsoundatposition( #"zmb_hellbox_leave_lock", mdl_lock.origin );
     wait 0.5;
     level notify( #"weapon_fly_away_start" );
     wait 1;

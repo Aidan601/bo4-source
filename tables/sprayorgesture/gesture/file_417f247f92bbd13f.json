@@ -5,8 +5,8 @@
     "gesture2": "#hash_52012f7ea22e79c5",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_3d9661e4e44606c0",
-        "icon": "image#hash_faa65c02f51b9c4",
+        "title": "localized18#emotes/one_shot_one_kill",
+        "icon": "image#ui_icon_emotes_s2_bullet_toss",
         "isdefault": 0
     }
 }

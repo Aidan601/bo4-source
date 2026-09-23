@@ -56,7 +56,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -112,7 +112,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_97ec57cff49c5ab",
+                            "anim": "anim#ch_vign_zm_mob_spoon_ghost_victim",
                             "entrytype": "anim"
                         }
                     ],
@@ -140,7 +140,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

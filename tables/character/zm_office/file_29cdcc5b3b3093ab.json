@@ -1,9 +1,9 @@
 {
-    "name": "#hash_29cdcc5b3b3093ab",
+    "name": "#c_t8_zmb_mob_hero_takeo1_igc",
     "skeleton": "base",
     "voice": "american",
     "headImpactType": 1,
     "bodyImpactType": 1,
-    "body": "#hash_3aa259c692642a7c",
+    "body": "#c_t8_zmb_mob_hero_takeo_body1_igc",
     "head": "#c_t8_zmb_mob_hero_takeo_head1"
 }

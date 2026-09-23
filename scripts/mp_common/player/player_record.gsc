@@ -232,19 +232,19 @@ function function_96d38b95( result )
         endingteam = player.team;
     }
     
-    var_906bdcf3 = spawnstruct();
-    var_906bdcf3.session_mode = currentsessionmode();
-    var_906bdcf3.game_type = hash( level.gametype );
-    var_906bdcf3.private_match = sessionmodeisprivate();
-    var_906bdcf3.esports_flag = level.leaguematch;
-    var_906bdcf3.ranked_play_flag = level.arenamatch;
-    var_906bdcf3.game_map = util::get_map_name();
-    var_906bdcf3.player_xuid = player getxuid( 1 );
-    var_906bdcf3.player_ip = player getipaddress();
-    var_906bdcf3.season_pass_owned = player hasseasonpass( 0 );
-    var_906bdcf3.dlc_owned = player getdlcavailable();
-    var_906bdcf3.starting_team = startingteam;
-    var_906bdcf3.ending_team = endingteam;
+    end_match_info = spawnstruct();
+    end_match_info.session_mode = currentsessionmode();
+    end_match_info.game_type = hash( level.gametype );
+    end_match_info.private_match = sessionmodeisprivate();
+    end_match_info.esports_flag = level.leaguematch;
+    end_match_info.ranked_play_flag = level.arenamatch;
+    end_match_info.game_map = util::get_map_name();
+    end_match_info.player_xuid = player getxuid( 1 );
+    end_match_info.player_ip = player getipaddress();
+    end_match_info.season_pass_owned = player hasseasonpass( 0 );
+    end_match_info.dlc_owned = player getdlcavailable();
+    end_match_info.starting_team = startingteam;
+    end_match_info.ending_team = endingteam;
     var_811ed119 = spawnstruct();
     var_811ed119.match_kills = killcount;
     var_811ed119.match_deaths = player.deaths;
@@ -268,49 +268,49 @@ function function_96d38b95( result )
     var_811ed119.prestige_max = player.pers[ #"plevel" ];
     var_811ed119.level_max = player.pers[ #"rank" ];
     var_811ed119.specialist_kills = player.heavyweaponkillcount;
-    var_a14ea2be = spawnstruct();
-    var_a14ea2be.player_gender = player getplayergendertype( currentsessionmode() );
-    var_a14ea2be.specialist_used = function_b14806c6( player player_role::get(), currentsessionmode() );
-    var_a14ea2be.loadout_perks = perkstr;
-    var_a14ea2be.loadout_lethal = grenadeprimaryname;
-    var_a14ea2be.loadout_tactical = grenadesecondaryname;
-    var_a14ea2be.loadout_scorestreaks = killstreakstr;
-    var_a14ea2be.loadout_primary_weapon = primaryweaponname;
-    var_a14ea2be.loadout_secondary_weapon = secondaryweaponname;
-    var_a14ea2be.loadout_primary_attachments = primaryweaponattachstr;
-    var_a14ea2be.loadout_secondary_attachments = secondaryweaponattachstr;
-    var_b65d83f5 = spawnstruct();
-    var_b65d83f5.best_score = bestscore;
-    var_b65d83f5.best_kills = bestkills;
-    var_b65d83f5.best_kd = bestkdratio;
-    var_b65d83f5.total_kills = totalkills;
-    var_b65d83f5.total_deaths = totaldeaths;
-    var_b65d83f5.total_wins = totalwins;
-    var_b65d83f5.total_xp = totalxp;
-    var_6e81e3c3 = spawnstruct();
-    var_6e81e3c3.daily_contract_id = dailycontractid;
-    var_6e81e3c3.daily_contract_target = dailycontracttarget;
-    var_6e81e3c3.daily_contract_current = dailycontractcurrent;
-    var_6e81e3c3.daily_contract_completed = dailycontractcompleted;
-    var_6e81e3c3.weeklya_contract_id = weeklyacontractid;
-    var_6e81e3c3.weeklya_contract_target = weeklyacontracttarget;
-    var_6e81e3c3.weeklya_contract_current = weeklyacontractcurrent;
-    var_6e81e3c3.weeklya_contract_completed = weeklyacontractcompleted;
-    var_6e81e3c3.weeklyb_contract_id = weeklybcontractid;
-    var_6e81e3c3.weeklyb_contract_target = weeklybcontracttarget;
-    var_6e81e3c3.weeklyb_contract_current = weeklybcontractcurrent;
-    var_6e81e3c3.weeklyb_contract_completed = weeklybcontractcompleted;
-    var_6e81e3c3.special_contract_id = specialcontractid;
-    var_6e81e3c3.special_contract_target = specialcontracttarget;
-    var_6e81e3c3.special_contract_curent = specialcontractcurent;
-    var_6e81e3c3.special_contract_completed = specialcontractcompleted;
-    var_8607894c = spawnstruct();
-    var_8607894c.var_3cc73d67 = player function_5d23af5b();
-    var_8607894c.specialist_head = player startquantity();
-    var_8607894c.specialist_legs = player function_cde23658();
-    var_8607894c.specialist_torso = player function_92ea4100();
-    var_8607894c.specialist_showcase = showcaseweapon.weapon.name;
-    function_92d1707f( #"hash_4c5946fa1191bc64", #"hash_71960e91f80c3365", var_906bdcf3, #"hash_4682ee0eb5071d2", var_811ed119, #"hash_209c80d657442a83", var_a14ea2be, #"hash_43cb38816354c3aa", var_b65d83f5, #"hash_11fcb8f188ed5050", var_6e81e3c3, #"hash_78a6c018d9f82184", var_8607894c );
+    end_match_loadout = spawnstruct();
+    end_match_loadout.player_gender = player getplayergendertype( currentsessionmode() );
+    end_match_loadout.specialist_used = function_b14806c6( player player_role::get(), currentsessionmode() );
+    end_match_loadout.loadout_perks = perkstr;
+    end_match_loadout.loadout_lethal = grenadeprimaryname;
+    end_match_loadout.loadout_tactical = grenadesecondaryname;
+    end_match_loadout.loadout_scorestreaks = killstreakstr;
+    end_match_loadout.loadout_primary_weapon = primaryweaponname;
+    end_match_loadout.loadout_secondary_weapon = secondaryweaponname;
+    end_match_loadout.loadout_primary_attachments = primaryweaponattachstr;
+    end_match_loadout.loadout_secondary_attachments = secondaryweaponattachstr;
+    end_match_totals = spawnstruct();
+    end_match_totals.best_score = bestscore;
+    end_match_totals.best_kills = bestkills;
+    end_match_totals.best_kd = bestkdratio;
+    end_match_totals.total_kills = totalkills;
+    end_match_totals.total_deaths = totaldeaths;
+    end_match_totals.total_wins = totalwins;
+    end_match_totals.total_xp = totalxp;
+    end_match_contracts = spawnstruct();
+    end_match_contracts.daily_contract_id = dailycontractid;
+    end_match_contracts.daily_contract_target = dailycontracttarget;
+    end_match_contracts.daily_contract_current = dailycontractcurrent;
+    end_match_contracts.daily_contract_completed = dailycontractcompleted;
+    end_match_contracts.weeklya_contract_id = weeklyacontractid;
+    end_match_contracts.weeklya_contract_target = weeklyacontracttarget;
+    end_match_contracts.weeklya_contract_current = weeklyacontractcurrent;
+    end_match_contracts.weeklya_contract_completed = weeklyacontractcompleted;
+    end_match_contracts.weeklyb_contract_id = weeklybcontractid;
+    end_match_contracts.weeklyb_contract_target = weeklybcontracttarget;
+    end_match_contracts.weeklyb_contract_current = weeklybcontractcurrent;
+    end_match_contracts.weeklyb_contract_completed = weeklybcontractcompleted;
+    end_match_contracts.special_contract_id = specialcontractid;
+    end_match_contracts.special_contract_target = specialcontracttarget;
+    end_match_contracts.special_contract_curent = specialcontractcurent;
+    end_match_contracts.special_contract_completed = specialcontractcompleted;
+    end_match_specialist = spawnstruct();
+    end_match_specialist.specialist_arms = player function_5d23af5b();
+    end_match_specialist.specialist_head = player startquantity();
+    end_match_specialist.specialist_legs = player function_cde23658();
+    end_match_specialist.specialist_torso = player function_92ea4100();
+    end_match_specialist.specialist_showcase = showcaseweapon.weapon.name;
+    function_92d1707f( #"dlog_event_end_match", #"end_match_info", end_match_info, #"hash_4682ee0eb5071d2", var_811ed119, #"end_match_loadout", end_match_loadout, #"end_match_totals", end_match_totals, #"end_match_contracts", end_match_contracts, #"end_match_specialist", end_match_specialist );
 }
 
 // Namespace player_record/player_record
@@ -472,7 +472,7 @@ function record_misc_player_stats()
 // Size: 0x104
 function function_ea5da381()
 {
-    if ( !isdefined( self.pers[ #"hash_76fbbcf94dab5536" ] ) )
+    if ( !isdefined( self.pers[ #"recent_stat_index" ] ) )
     {
         self persistence::function_acac764e();
     }
@@ -491,7 +491,7 @@ function function_ea5da381()
 // Size: 0x75a
 function function_7569c0fb()
 {
-    if ( !isdefined( self.pers[ #"hash_76fbbcf94dab5536" ] ) )
+    if ( !isdefined( self.pers[ #"recent_stat_index" ] ) )
     {
         self persistence::function_acac764e();
     }

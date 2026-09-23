@@ -1,5 +1,5 @@
-#using script_2f9a68261f6a17be;
-#using script_301f64a4090c381a;
+#using scripts\zm_common\trials\zm_trial_trap_kills_only;
+#using scripts\zm_common\zm_faction_buffs;
 #using scripts\core_common\ai\zombie_death;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\callbacks_shared;
@@ -314,7 +314,7 @@ function function_783f63e9( var_1c9c3123 = 1 )
         return;
     }
     
-    cheat_too_friendly_s_ = zm_utility::function_d6046228( #"hash_23c1c09e94181fdb", #"hash_6e8ef1b690e98e51" );
+    cheat_too_friendly_s_ = zm_utility::function_d6046228( #"zombie/button_buy_trap", #"hash_6e8ef1b690e98e51" );
     self trap_set_string( cheat_too_friendly_s_, self.zombie_cost );
     
     if ( var_1c9c3123 )
@@ -820,7 +820,7 @@ function player_elec_damage( trigger )
         
         self shellshock( str_elec_shellshock, shocktime );
         self playrumbleonentity( "damage_heavy" );
-        self playsound( #"hash_5af2a9d11f007b9" );
+        self playsound( #"zmb_player_electrocuted_oneshot" );
         
         if ( zm_utility::is_standard() )
         {
@@ -1169,7 +1169,7 @@ function trap_disable( var_ccf895cc = #"zombie/trap_locked" )
 // Params 2
 // Checksum 0x8693f90d, Offset: 0x35f8
 // Size: 0x144
-function trap_enable( var_f9afc2b3 = #"hash_23c1c09e94181fdb", var_b8c50025 = #"hash_6e8ef1b690e98e51" )
+function trap_enable( var_f9afc2b3 = #"zombie/button_buy_trap", var_b8c50025 = #"hash_6e8ef1b690e98e51" )
 {
     if ( !( isdefined( self.var_b3166dc1 ) && self.var_b3166dc1 ) )
     {
@@ -1193,7 +1193,7 @@ function trap_enable( var_f9afc2b3 = #"hash_23c1c09e94181fdb", var_b8c50025 = #"
 // Params 1
 // Checksum 0x8ff2715, Offset: 0x3748
 // Size: 0xd6
-function function_6966417b( var_ccf895cc = #"zombie/trap_locked" )
+function disable_all_traps( var_ccf895cc = #"zombie/trap_locked" )
 {
     a_t_traps = getentarray( "zombie_trap", "targetname" );
     
@@ -1209,7 +1209,7 @@ function function_6966417b( var_ccf895cc = #"zombie/trap_locked" )
 // Params 2
 // Checksum 0x8913546e, Offset: 0x3828
 // Size: 0xf2
-function function_9d0c9706( var_f9afc2b3 = #"hash_23c1c09e94181fdb", var_b8c50025 = #"hash_6e8ef1b690e98e51" )
+function function_9d0c9706( var_f9afc2b3 = #"zombie/button_buy_trap", var_b8c50025 = #"hash_6e8ef1b690e98e51" )
 {
     a_t_traps = getentarray( "zombie_trap", "targetname" );
     

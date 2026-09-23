@@ -66,7 +66,7 @@ function __init__()
     callback::on_joined_team( &onplayerjoinedteam );
     callback::on_finalize_initialization( &function_3675de8b );
     callback::on_connect( &onplayerconnect );
-    callback::add_callback( #"hash_425352b435722271", &fx_flesh_hit_neck_fatal );
+    callback::add_callback( #"killstreak_process_assist", &fx_flesh_hit_neck_fatal );
     
     /#
         if ( getdvarint( #"scr_cuav_offset_debug", 0 ) )
@@ -699,7 +699,7 @@ function destroycounteruav( attacker, weapon )
         attacker battlechatter::function_dd6a6012( "counteruav", weapon );
         challenges::destroyedaircraft( attacker, weapon, 0, 0 );
         self killstreaks::function_73566ec7( attacker, weapon, self.owner );
-        luinotifyevent( #"player_callout", 2, #"hash_3544b7c59fa5c59c", attacker.entnum );
+        luinotifyevent( #"player_callout", 2, #"killstreak/destroyed_counteruav", attacker.entnum );
         attacker challenges::addflyswatterstat( weapon, self );
     }
     
@@ -729,9 +729,9 @@ function deletecounteruav()
         self thread playfx( params.ksexplosionfx );
     }
     
-    if ( isdefined( params.var_bb6c29b4 ) && isdefined( self.var_d02ddb8e ) && self.var_d02ddb8e == getweapon( #"shock_rifle" ) )
+    if ( isdefined( params.shockrifledestructionfx ) && isdefined( self.var_d02ddb8e ) && self.var_d02ddb8e == getweapon( #"shock_rifle" ) )
     {
-        self thread playfx( params.var_bb6c29b4 );
+        self thread playfx( params.shockrifledestructionfx );
     }
     
     wait 0.1;

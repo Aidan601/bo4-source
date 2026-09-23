@@ -1,4 +1,4 @@
-#using script_68c78107b4aa059c;
+#using scripts\mp_common\item_spawn_groups_util;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\struct;
 

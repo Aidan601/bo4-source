@@ -18,7 +18,7 @@
     "vmtype": "server",
     "player_respawndelay": 30,
     "misstimedistancefactor": 0.02,
-    "hash_414adea090ff0c00:hash_c5c20d41": 5,
+    "player_respawnpenalty": 5,
     "name": "gamedifficulty_veteran",
     "longregentime": 3500,
     "autoaimregionwidth": 60,

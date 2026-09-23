@@ -1,7 +1,7 @@
 {
     "effect5_fx": "fx#hash_4634d13e2f891fc",
     "effectcount": 7,
-    "effect7_fx": "fx#hash_8c3582044a657b4",
+    "effect7_fx": "fx#maps/zm_escape/fx8_ghoul_trail",
     "configstringfiletype": "scriptbundle",
     "effect3_attachtag": "j_elbow_ri",
     "type": "fxcharacterdef",
@@ -12,7 +12,7 @@
     "name": "fxd8_zm_char_ghost_body",
     "effect1_attachtag": "tag_eye",
     "effect4_fx": "fx#hash_46a2513e2fe6cb2",
-    "effect1_fx": "fx#hash_6c098d8cc4fabe6a",
+    "effect1_fx": "fx#maps/zm_escape/fx8_ghoul_head",
     "effect3_fx": "fx#hash_183d93c35d82bacd",
     "effect2_attachtag": "j_elbow_le",
     "effect6_attachtag": "j_spinelower",

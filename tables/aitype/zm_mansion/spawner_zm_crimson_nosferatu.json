@@ -18,8 +18,8 @@
         "#hash_7a91e4b8c0c435ad"
     ],
     "animMappingTables": [
-        "#hash_2a573a3048fab6c7",
-        "#hash_6db34335f66cc585"
+        "#zm_nosferatu.ai_am",
+        "#zm_crimson_nosferatu.ai_am"
     ],
     "meleeWeapon": "#hash_2ab63008299706dc",
     "aimTable": "#soldier_aim",
@@ -27,9 +27,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#zm_nos_footstep",
     "footstepFXTable2": "#zm_nos_footstep",
-    "behaviorTree": "#hash_2a6233304904b267",
-    "animStateMachine": "#hash_6c96a60c01ba1c9c",
-    "animSelectorTable": "#hash_6c969f0c01ba10b7",
+    "behaviorTree": "#zm_nosferatu.ai_bt",
+    "animStateMachine": "#zm_nosferatu.ai_asm",
+    "animSelectorTable": "#zm_nosferatu.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#fxb8_zm_char_nos",
     "aiSettingsBundle": "#zm_crimson_nosferatu_settings",

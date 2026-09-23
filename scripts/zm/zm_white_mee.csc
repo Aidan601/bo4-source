@@ -48,7 +48,7 @@ function init_clientfields()
     clientfield::register( "scriptmover", "" + #"hash_5e1264789183cde1", 20000, 1, "int", &play_spark, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_72a33f6d2cc925c5", 20000, 1, "int", &function_5850fbee, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_1df297369e47699a", 20000, 1, "counter", &function_bb4b8cd2, 0, 0 );
-    clientfield::register( "toplayer", "" + #"hash_7d631c764117de1e", 20000, 1, "counter", &function_670635f5, 0, 0 );
+    clientfield::register( "toplayer", "" + #"prime_jump_scare", 20000, 1, "counter", &prime_jump_scare, 0, 0 );
     clientfield::register( "toplayer", "" + #"hash_f2d0b920043dbbd", 20000, 1, "counter", &function_87d68f99, 0, 0 );
     clientfield::register( "toplayer", "" + #"delete_model", 20000, 1, "counter", &delete_model, 0, 0 );
 }
@@ -123,7 +123,7 @@ function function_bb4b8cd2( localclientnum, oldval, newval, bnewent, binitialsna
         if ( isdefined( self ) )
         {
             self thread postfx::playpostfxbundle( #"hash_37d0c10f478e0376" );
-            playsound( localclientnum, #"hash_50a56f17fc412b92", ( 0, 0, 0 ) );
+            playsound( localclientnum, #"evt_ee_lake_jumpscare", ( 0, 0, 0 ) );
             waitframe( 1 );
         }
         
@@ -136,7 +136,7 @@ function function_bb4b8cd2( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0x872ee8d, Offset: 0x9d0
 // Size: 0x224
-function function_670635f5( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function prime_jump_scare( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     self endon( #"disconnect" );
     
@@ -202,7 +202,7 @@ function function_87d68f99( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval )
     {
         self thread postfx::playpostfxbundle( #"hash_37d0c00f478e01c3" );
-        playsound( localclientnum, #"hash_750bc40787e0e29f", ( 0, 0, 0 ) );
+        playsound( localclientnum, #"evt_ee_lake_jumpscare_2", ( 0, 0, 0 ) );
         waitframe( 1 );
         
         if ( isdefined( self.var_fcf96ca0 ) )

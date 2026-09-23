@@ -275,7 +275,7 @@ function function_461006d1()
     nd_start = getvehiclenode( "insanity_mode_wisp_path_start", "targetname" );
     vh_wisp = level.var_d416f0ff.vh_wisp;
     vh_wisp thread function_7cfef7a8();
-    vh_wisp playsound( #"hash_591341e81a7abb0" );
+    vh_wisp playsound( #"zmb_wisp_move" );
     vh_wisp vehicle::get_on_path( nd_start );
     vh_wisp vehicle::resume_path();
     vh_wisp thread vehicle::get_on_and_go_path( nd_start );
@@ -315,7 +315,7 @@ function function_dba32984()
             }
         }
         
-        self playsound( #"hash_4f86aa0523c734ed" );
+        self playsound( #"zmb_wisp_move_stop" );
         
         /#
             iprintlnbold( "<dev string:x8c>" );
@@ -332,7 +332,7 @@ function function_dba32984()
 // Size: 0x3c
 function function_7cfef7a8()
 {
-    self waittill( #"hash_28a9083d4bf6e717" );
+    self waittill( #"wisp_vehicle_nodes_complete" );
     level flag::set( #"wisp_path_completed" );
 }
 
@@ -438,7 +438,7 @@ function insanity_mode_step3_setup( var_5ea5c94d )
             {
                 zm_unitrigger::unregister_unitrigger( s_insanity_mode_confirmation.s_unitrigger );
                 zm_white_main_quest::function_63e4838b( 0 );
-                level.countdown_clock zm_white_computer_system::function_9b1511fa();
+                level.countdown_clock zm_white_computer_system::cancel_clock_countdown();
             }
         }
     }
@@ -529,7 +529,7 @@ function function_1541f1c9()
     level.var_3c9cfd6f = 1;
     level.var_d555ff19 = 1;
     function_52a6a332( 0 );
-    playsoundatposition( #"hash_83b85ca3e963765", ( 0, 0, 0 ) );
+    playsoundatposition( #"zmb_insanity_start", ( 0, 0, 0 ) );
     level thread lui::screen_flash( 1, 2, 1, 1, "white" );
     array::run_all( getaiarray(), &namespace_9ff9f642::freeze );
     wait 1;
@@ -764,7 +764,7 @@ function function_e16c950d( weapon )
         self takeweapon( weapon );
         weapon_upgrade = self zm_weapons::give_build_kit_weapon( weapon_upgrade );
         self thread aat::remove( weapon_upgrade );
-        self zm_weapons::function_7c5dd4bd( weapon_upgrade );
+        self zm_weapons::give_full_ammo( weapon_upgrade );
         
         if ( isdefined( level.aat_in_use ) && level.aat_in_use && zm_weapons::weapon_supports_aat( weapon_upgrade ) )
         {

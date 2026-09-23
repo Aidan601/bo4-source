@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2da80ceff811e1d3",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_01_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_aeb39c6ef0cc35a",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_up_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_47cd9470a5f0fb82",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_down_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -92,7 +92,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_49a6845d809c3663",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_down_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -121,7 +121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_565d45af97759519",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_up_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -149,7 +149,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -176,7 +176,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_348e4f35e01f44c3",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_debris_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -228,7 +228,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_348e4f35e01f44c3",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_debris_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -302,11 +302,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_736b9a72dfb3cbe",
+            "model": "model#p8_fxanim_mp_austria_finger_trap_debris_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -328,7 +328,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_74aa2d9fc0497aeb",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_button_interact_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -357,7 +357,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_70fe43db61b8083",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_button_up_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -386,7 +386,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_74aa2d9fc0497aeb",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_button_interact_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -415,7 +415,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_599b7f937135ba6e",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_button_down_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -444,7 +444,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_23804d049498c498",
+                            "anim": "anim#p8_fxanim_mp_austria_finger_trap_button_release_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -472,7 +472,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "disabled": 1,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,

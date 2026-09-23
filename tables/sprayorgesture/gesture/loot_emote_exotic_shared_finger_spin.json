@@ -1,12 +1,12 @@
 {
     "name": "#loot_emote_exotic_shared_finger_spin",
     "type": "#gesture",
-    "gesture": "#hash_da59b365020548f",
-    "gesture2": "#hash_6a45c948d511e418",
+    "gesture": "#boast_finger_spin",
+    "gesture2": "#boast_finger_spin_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/baller",
-        "icon": "image#hash_811998abf6ad8ca",
+        "icon": "image#ui_icon_emotes_finger_spin",
         "isdefault": 0
     }
 }

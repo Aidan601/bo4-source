@@ -1,4 +1,4 @@
-#using script_7ca3324ffa5389e4;
+#using scripts\core_common\player\player_free_fall_util;
 #using scripts\core\gametypes\frontend_blackmarket;
 #using scripts\core\gametypes\frontend_draft;
 #using scripts\core_common\activecamo_shared;
@@ -194,7 +194,7 @@ function function_3a965fac( scene_name, prt, mode, fields )
     
     if ( isdefined( var_8b15a963 ) )
     {
-        canselect = !( isdefined( fields.var_819846c7 ) && fields.var_819846c7 );
+        canselect = !( isdefined( fields.disallowselection ) && fields.disallowselection );
         var_7accf7bb = { #scene:scene_name, #prt:prt, #canselect:canselect, #dvar:fields.requireddvar, #role_index:var_8b15a963, #list_index:level.var_e362b5d9.size, #mode:mode, #fields:fields, #isdefault:isdefined( fields.var_c6376b99 ) && fields.var_c6376b99 };
         
         if ( !isdefined( level.var_e362b5d9 ) )
@@ -588,7 +588,7 @@ function function_37304ace( localclientnum, menu_name )
     
     while ( true )
     {
-        waitresult = level waittill( #"hash_6d381d5ecca233c6" );
+        waitresult = level waittill( #"inspect_player_weapon" );
         
         if ( isdefined( waitresult.clear_weapon ) && waitresult.clear_weapon )
         {
@@ -634,7 +634,7 @@ function function_daa3f7d0( localclientnum, weaponinfo, should_update_weapon_opt
         position = struct::get( #"tag_align_inspection_weapon1" );
         origin = position.origin + info.offset;
         angles = position.angles + info.angles;
-        level.var_44011752 thread animation::play( #"hash_3689442490c2e5dd", origin, angles );
+        level.var_44011752 thread animation::play( #"o_wpn_t8_ar_accurate_prop_static", origin, angles );
         level thread scene::play( #"scene_frontend_inspection_weapon", "inspection_weapon_full" );
         level.var_44011752 show();
     }
@@ -1297,7 +1297,7 @@ function entityspawned( localclientnum )
             adddebugcommand( localclientnum, "<dev string:x66>" + var_ee63b362 + "<dev string:x369>" + "<dev string:x373>" + "<dev string:x167>" + name + "<dev string:x9a>" );
         }
         
-        setdvar( #"hash_1311d7636a782655", "<dev string:x4b>" );
+        setdvar( #"weap_render_name", "<dev string:x4b>" );
         setdvar( #"weap_render", "<dev string:x4b>" );
         var_c11ba901 = array( "<dev string:x2e7>", "<dev string:x2f5>", "<dev string:x2fc>", "<dev string:x303>", "<dev string:x386>", "<dev string:x38f>", "<dev string:x39a>" );
         weapon_name = "<dev string:x4b>";
@@ -1307,9 +1307,9 @@ function entityspawned( localclientnum )
         {
             wait 0.1;
             
-            if ( getdvarstring( #"hash_1311d7636a782655", weapon_name ) != weapon_name )
+            if ( getdvarstring( #"weap_render_name", weapon_name ) != weapon_name )
             {
-                weapon_name = getdvarstring( #"hash_1311d7636a782655" );
+                weapon_name = getdvarstring( #"weap_render_name" );
                 
                 if ( weapon_name != "<dev string:x4b>" )
                 {
@@ -1418,16 +1418,16 @@ function entityspawned( localclientnum )
             waitframe( 1 );
         }
         
-        setdvar( #"hash_4243dd01393aa940", "<dev string:x4b>" );
+        setdvar( #"jumpkit_render", "<dev string:x4b>" );
         var_f7a528f2 = "<dev string:x4b>";
         
         while ( true )
         {
             wait 0.1;
             
-            if ( getdvarstring( #"hash_4243dd01393aa940", var_f7a528f2 ) != var_f7a528f2 )
+            if ( getdvarstring( #"jumpkit_render", var_f7a528f2 ) != var_f7a528f2 )
             {
-                var_f7a528f2 = getdvarstring( #"hash_4243dd01393aa940" );
+                var_f7a528f2 = getdvarstring( #"jumpkit_render" );
                 
                 if ( var_f7a528f2 != "<dev string:x4b>" )
                 {
@@ -1540,7 +1540,7 @@ function entityspawned( localclientnum )
         }
         
         level notify( "<dev string:x16b>" + localclientnum, { #menu:"<dev string:x40e>", #status:"<dev string:x18e>" } );
-        setdvar( #"hash_4243dd01393aa940", "<dev string:x4b>" );
+        setdvar( #"jumpkit_render", "<dev string:x4b>" );
         function_59013397();
     }
 
@@ -2860,7 +2860,7 @@ function lobby_main( localclientnum, menu_name, state )
         else if ( level.lastlobbystate === "warzone" || level.lastlobbystate === "zm_online" || level.lastlobbystate === "zm_custom" )
         {
             level notify( #"positiondraft_close", { #localclientnum:localclientnum, #var_b69dc9af:1 } );
-            level waittill( #"hash_21c79522aa982cdd" );
+            level waittill( #"positiondraft_close_finished" );
         }
         else if ( level.lastlobbystate === "inspect_specialist" )
         {
@@ -3721,9 +3721,9 @@ function function_317ab257( localclientnum, menu_name, var_83a11058 )
     level endon( #"disconnect" );
     level endon( menu_name + "_closed" );
     self endon( #"cancel_deathfx" );
-    var_cc8a3490 = #"hash_521de69029125f63";
-    var_7d89d45 = #"hash_33ffd8c85b4da392";
-    var_e04a6c21 = #"hash_4c04b62047703a60";
+    var_cc8a3490 = #"impacts/fx8_bul_impact_blood_body_nonfatal_exit";
+    var_7d89d45 = #"impacts/fx8_bul_impact_blood_body_fatal_exit";
+    var_e04a6c21 = #"impacts/fx8_bul_impact_blood_head_fatal_exit";
     
     if ( ![[ self ]]->function_ea4ac9f8() )
     {
@@ -3734,9 +3734,9 @@ function function_317ab257( localclientnum, menu_name, var_83a11058 )
     
     if ( isdefined( var_2ae2bfde ) )
     {
-        var_cc8a3490 = isdefined( var_2ae2bfde.var_cc8a3490 ) ? var_2ae2bfde.var_cc8a3490 : #"hash_521de69029125f63";
-        var_7d89d45 = isdefined( var_2ae2bfde.var_7d89d45 ) ? var_2ae2bfde.var_7d89d45 : #"hash_521de69029125f63";
-        var_e04a6c21 = isdefined( var_2ae2bfde.var_e04a6c21 ) ? var_2ae2bfde.var_e04a6c21 : #"hash_4c04b62047703a60";
+        var_cc8a3490 = isdefined( var_2ae2bfde.var_cc8a3490 ) ? var_2ae2bfde.var_cc8a3490 : #"impacts/fx8_bul_impact_blood_body_nonfatal_exit";
+        var_7d89d45 = isdefined( var_2ae2bfde.var_7d89d45 ) ? var_2ae2bfde.var_7d89d45 : #"impacts/fx8_bul_impact_blood_body_nonfatal_exit";
+        var_e04a6c21 = isdefined( var_2ae2bfde.var_e04a6c21 ) ? var_2ae2bfde.var_e04a6c21 : #"impacts/fx8_bul_impact_blood_head_fatal_exit";
     }
     
     self function_ca43d336( localclientnum );

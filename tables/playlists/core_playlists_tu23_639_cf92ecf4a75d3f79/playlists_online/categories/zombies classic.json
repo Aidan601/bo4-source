@@ -7,7 +7,7 @@
     "entries": [
         {
             "name": "#hash_573c30531d8deea1",
-            "description": "#hash_364122f25f791280",
+            "description": "#zmui/tutorial_beginner",
             "unique_name": "#zmui/ztutorial_desc",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_tutorial",
@@ -114,8 +114,8 @@
         },
         {
             "name": "#hash_44a1bb7fe630a9d2",
-            "description": "#hash_c9580dab628ed90",
-            "unique_name": "#hash_9a181be33c22198",
+            "description": "#zmui/tutorial_advanced",
+            "unique_name": "#zmui/ztutorial_advanced_desc",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_tutorial",
             "imageBackground": "#director_frontend_zm",
@@ -221,7 +221,7 @@
         },
         {
             "name": "#hash_2d79f8672ff9bbea",
-            "description": "#hash_6fdcc66d6ac640ff",
+            "description": "#playlist/zm_zod",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
             "imageBackground": "#ui_icon_director_tile_zm_zod",
@@ -336,7 +336,7 @@
         },
         {
             "name": "#hash_28da6427c3fd6279",
-            "description": "#hash_6fdcc66d6ac640ff",
+            "description": "#playlist/zm_zod",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
             "imageBackground": "#ui_icon_director_tile_zm_zod",
@@ -451,7 +451,7 @@
         },
         {
             "name": "#hash_36c12b0eb6d6097a",
-            "description": "#hash_6fdcc66d6ac640ff",
+            "description": "#playlist/zm_zod",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
             "imageBackground": "#ui_icon_director_tile_zm_zod",
@@ -566,7 +566,7 @@
         },
         {
             "name": "#hash_14b2a98668e1fdf9",
-            "description": "#hash_6fdcc66d6ac640ff",
+            "description": "#playlist/zm_zod",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
             "imageBackground": "#ui_icon_director_tile_zm_zod",
@@ -2533,7 +2533,7 @@
         },
         {
             "name": "#hash_2166d88604670d56",
-            "description": "#hash_608fcf2dc350cb93",
+            "description": "#playlist/zm_cave",
             "unique_name": "#hash_7850ad2f674a8769",
             "dlcName": "dlc2zm",
             "lobbyMainMode": "CAMPAIGN",
@@ -2650,7 +2650,7 @@
         },
         {
             "name": "#hash_207de259a69744ad",
-            "description": "#hash_608fcf2dc350cb93",
+            "description": "#playlist/zm_cave",
             "unique_name": "#hash_7850ad2f674a8769",
             "dlcName": "dlc2zm",
             "lobbyMainMode": "CAMPAIGN",
@@ -2767,7 +2767,7 @@
         },
         {
             "name": "#hash_5bf250fb7591ff1e",
-            "description": "#hash_608fcf2dc350cb93",
+            "description": "#playlist/zm_cave",
             "unique_name": "#hash_7850ad2f674a8769",
             "dlcName": "dlc2zm",
             "lobbyMainMode": "CAMPAIGN",
@@ -2884,7 +2884,7 @@
         },
         {
             "name": "#hash_6844b37cfb86812d",
-            "description": "#hash_608fcf2dc350cb93",
+            "description": "#playlist/zm_cave",
             "unique_name": "#hash_7850ad2f674a8769",
             "dlcName": "dlc2zm",
             "lobbyMainMode": "CAMPAIGN",

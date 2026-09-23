@@ -1,5 +1,5 @@
 {
-    "name": "#hash_4bed0c8b353f3511",
+    "name": "#veh_wingsuit_player",
     "type": "helicopter",
     "scoreType": "none",
     "cameraTag": "tag_driver",
@@ -20,6 +20,6 @@
     "steerGraphName": "heli_hind_steer.graph",
     "bundle": {
         "healthpoolsize": 1000,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 1
+        "healthpools": 1
     }
 }

@@ -1,9 +1,9 @@
 {
-    "name": "#hash_4d643438126a8134",
+    "name": "#c_t8_zmb_dlc1_hero_brigadier1_igc_outro",
     "skeleton": "base",
     "voice": "american",
     "headImpactType": 1,
     "bodyImpactType": 1,
-    "body": "#hash_15790cb5841cfd3d",
-    "head": "#hash_140c8f9f61a8c0eb"
+    "body": "#c_t8_zmb_dlc1_hero_brigadier_body1_igc_outro",
+    "head": "#c_t8_zmb_dlc1_hero_brigadier_head1_igc_outro"
 }

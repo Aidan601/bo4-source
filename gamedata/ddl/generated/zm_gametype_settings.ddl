@@ -101,7 +101,7 @@ version 85 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -165,15 +165,15 @@ version 85 {
         // offset 0x318, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x360, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x370, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x380, size 0x8
@@ -263,15 +263,15 @@ version 85 {
         // offset 0x688, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6c0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6d0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6e0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e8, size 0x10
@@ -285,7 +285,7 @@ version 85 {
         // offset 0x710, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x718, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x720, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x728, size 0x8
@@ -347,7 +347,7 @@ version 85 {
         // offset 0x828, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x830, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x838, size 0x8
         uint:3 platooncount;
         // offset 0x840, size 0x8
@@ -395,7 +395,7 @@ version 85 {
         // offset 0x900, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x908, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x910, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x918, size 0x8
@@ -403,7 +403,7 @@ version 85 {
         // offset 0x920, size 0x8
         uint:4 pickuptime;
         // offset 0x928, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x938, size 0x20
         int hash_64727525f5957d06;
         // offset 0x958, size 0x8
@@ -441,7 +441,7 @@ version 85 {
         // offset 0x9f8, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xa00, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa08, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa10, size 0x8
@@ -473,7 +473,7 @@ version 85 {
         // offset 0xa80, size 0x8
         uint:7 drafttime;
         // offset 0xa88, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa90, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa98, size 0x10
@@ -507,7 +507,7 @@ version 85 {
         // offset 0xb38, size 0x8
         uint:2 charactercustomization;
         // offset 0xb40, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb48, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb50, size 0x8
@@ -709,13 +709,13 @@ version 85 {
         // offset 0xbd6, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbd7, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbd8, size 0x1
         bool headshotsonly;
         // offset 0xbd9, size 0x1
         bool disablecontracts;
         // offset 0xbda, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbdb, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbdc, size 0x1
@@ -807,7 +807,7 @@ version 85 {
         // offset 0xc07, size 0x1
         bool zmperksactive;
         // offset 0xc08, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xc09, size 0x1
         bool zmelixirsuitup;
         // offset 0xc0a, size 0x1
@@ -975,7 +975,7 @@ version 85 {
         // offset 0xc5b, size 0x1
         bool oldschoolmode;
         // offset 0xc5c, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc5d, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc5e, size 0x1
@@ -1035,7 +1035,7 @@ version 85 {
         // offset 0xc79, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc7a, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc7b, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc7c, size 0x1
@@ -1217,7 +1217,7 @@ version 84 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -1281,15 +1281,15 @@ version 84 {
         // offset 0x318, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x360, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x370, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x380, size 0x8
@@ -1379,15 +1379,15 @@ version 84 {
         // offset 0x688, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6c0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6d0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6e0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e8, size 0x10
@@ -1401,7 +1401,7 @@ version 84 {
         // offset 0x710, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x718, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x720, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x728, size 0x8
@@ -1463,7 +1463,7 @@ version 84 {
         // offset 0x828, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x830, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x838, size 0x8
         uint:3 platooncount;
         // offset 0x840, size 0x8
@@ -1511,7 +1511,7 @@ version 84 {
         // offset 0x900, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x908, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x910, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x918, size 0x8
@@ -1519,7 +1519,7 @@ version 84 {
         // offset 0x920, size 0x8
         uint:4 pickuptime;
         // offset 0x928, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x938, size 0x20
         int hash_64727525f5957d06;
         // offset 0x958, size 0x8
@@ -1557,7 +1557,7 @@ version 84 {
         // offset 0x9f8, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xa00, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa08, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa10, size 0x8
@@ -1589,7 +1589,7 @@ version 84 {
         // offset 0xa80, size 0x8
         uint:7 drafttime;
         // offset 0xa88, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa90, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa98, size 0x10
@@ -1623,7 +1623,7 @@ version 84 {
         // offset 0xb38, size 0x8
         uint:2 charactercustomization;
         // offset 0xb40, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb48, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb50, size 0x8
@@ -1823,13 +1823,13 @@ version 84 {
         // offset 0xbd5, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbd6, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbd7, size 0x1
         bool headshotsonly;
         // offset 0xbd8, size 0x1
         bool disablecontracts;
         // offset 0xbd9, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbda, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbdb, size 0x1
@@ -1921,7 +1921,7 @@ version 84 {
         // offset 0xc06, size 0x1
         bool zmperksactive;
         // offset 0xc07, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xc08, size 0x1
         bool zmelixirsuitup;
         // offset 0xc09, size 0x1
@@ -2089,7 +2089,7 @@ version 84 {
         // offset 0xc5a, size 0x1
         bool oldschoolmode;
         // offset 0xc5b, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc5c, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc5d, size 0x1
@@ -2149,7 +2149,7 @@ version 84 {
         // offset 0xc78, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc79, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc7a, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc7b, size 0x1
@@ -2331,7 +2331,7 @@ version 83 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -2393,15 +2393,15 @@ version 83 {
         // offset 0x310, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x358, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x368, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x378, size 0x8
@@ -2491,15 +2491,15 @@ version 83 {
         // offset 0x680, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e0, size 0x10
@@ -2513,7 +2513,7 @@ version 83 {
         // offset 0x708, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x710, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x718, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x720, size 0x8
@@ -2575,7 +2575,7 @@ version 83 {
         // offset 0x820, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x828, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x830, size 0x8
         uint:3 platooncount;
         // offset 0x838, size 0x8
@@ -2623,7 +2623,7 @@ version 83 {
         // offset 0x8f8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x900, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x908, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x910, size 0x8
@@ -2631,7 +2631,7 @@ version 83 {
         // offset 0x918, size 0x8
         uint:4 pickuptime;
         // offset 0x920, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x930, size 0x20
         int hash_64727525f5957d06;
         // offset 0x950, size 0x8
@@ -2669,7 +2669,7 @@ version 83 {
         // offset 0x9f0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9f8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa00, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa08, size 0x8
@@ -2701,7 +2701,7 @@ version 83 {
         // offset 0xa78, size 0x8
         uint:7 drafttime;
         // offset 0xa80, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa88, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa90, size 0x10
@@ -2735,7 +2735,7 @@ version 83 {
         // offset 0xb30, size 0x8
         uint:2 charactercustomization;
         // offset 0xb38, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb40, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb48, size 0x8
@@ -2937,13 +2937,13 @@ version 83 {
         // offset 0xbce, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbcf, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbd0, size 0x1
         bool headshotsonly;
         // offset 0xbd1, size 0x1
         bool disablecontracts;
         // offset 0xbd2, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbd3, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbd4, size 0x1
@@ -3035,7 +3035,7 @@ version 83 {
         // offset 0xbff, size 0x1
         bool zmperksactive;
         // offset 0xc00, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xc01, size 0x1
         bool zmelixirsuitup;
         // offset 0xc02, size 0x1
@@ -3203,7 +3203,7 @@ version 83 {
         // offset 0xc53, size 0x1
         bool oldschoolmode;
         // offset 0xc54, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc55, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc56, size 0x1
@@ -3263,7 +3263,7 @@ version 83 {
         // offset 0xc71, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc72, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc73, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc74, size 0x1
@@ -3445,7 +3445,7 @@ version 82 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -3507,15 +3507,15 @@ version 82 {
         // offset 0x310, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x358, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x368, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x378, size 0x8
@@ -3605,15 +3605,15 @@ version 82 {
         // offset 0x680, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e0, size 0x10
@@ -3627,7 +3627,7 @@ version 82 {
         // offset 0x708, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x710, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x718, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x720, size 0x8
@@ -3689,7 +3689,7 @@ version 82 {
         // offset 0x820, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x828, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x830, size 0x8
         uint:3 platooncount;
         // offset 0x838, size 0x8
@@ -3737,7 +3737,7 @@ version 82 {
         // offset 0x8f8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x900, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x908, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x910, size 0x8
@@ -3745,7 +3745,7 @@ version 82 {
         // offset 0x918, size 0x8
         uint:4 pickuptime;
         // offset 0x920, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x930, size 0x20
         int hash_64727525f5957d06;
         // offset 0x950, size 0x8
@@ -3783,7 +3783,7 @@ version 82 {
         // offset 0x9f0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9f8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa00, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa08, size 0x8
@@ -3815,7 +3815,7 @@ version 82 {
         // offset 0xa78, size 0x8
         uint:7 drafttime;
         // offset 0xa80, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa88, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa90, size 0x10
@@ -3849,7 +3849,7 @@ version 82 {
         // offset 0xb30, size 0x8
         uint:2 charactercustomization;
         // offset 0xb38, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb40, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb48, size 0x8
@@ -4051,13 +4051,13 @@ version 82 {
         // offset 0xbce, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbcf, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbd0, size 0x1
         bool headshotsonly;
         // offset 0xbd1, size 0x1
         bool disablecontracts;
         // offset 0xbd2, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbd3, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbd4, size 0x1
@@ -4149,7 +4149,7 @@ version 82 {
         // offset 0xbff, size 0x1
         bool zmperksactive;
         // offset 0xc00, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xc01, size 0x1
         bool zmelixirsuitup;
         // offset 0xc02, size 0x1
@@ -4315,7 +4315,7 @@ version 82 {
         // offset 0xc52, size 0x1
         bool oldschoolmode;
         // offset 0xc53, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc54, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc55, size 0x1
@@ -4375,7 +4375,7 @@ version 82 {
         // offset 0xc70, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc71, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc72, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc73, size 0x1
@@ -4557,7 +4557,7 @@ version 81 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -4619,15 +4619,15 @@ version 81 {
         // offset 0x310, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x358, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x368, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x378, size 0x8
@@ -4717,15 +4717,15 @@ version 81 {
         // offset 0x680, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e0, size 0x10
@@ -4739,7 +4739,7 @@ version 81 {
         // offset 0x708, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x710, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x718, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x720, size 0x8
@@ -4801,7 +4801,7 @@ version 81 {
         // offset 0x820, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x828, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x830, size 0x8
         uint:3 platooncount;
         // offset 0x838, size 0x8
@@ -4849,7 +4849,7 @@ version 81 {
         // offset 0x8f8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x900, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x908, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x910, size 0x8
@@ -4857,7 +4857,7 @@ version 81 {
         // offset 0x918, size 0x8
         uint:4 pickuptime;
         // offset 0x920, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x930, size 0x20
         int hash_64727525f5957d06;
         // offset 0x950, size 0x8
@@ -4895,7 +4895,7 @@ version 81 {
         // offset 0x9f0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9f8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa00, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa08, size 0x8
@@ -4927,7 +4927,7 @@ version 81 {
         // offset 0xa78, size 0x8
         uint:7 drafttime;
         // offset 0xa80, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa88, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa90, size 0x10
@@ -4961,7 +4961,7 @@ version 81 {
         // offset 0xb30, size 0x8
         uint:2 charactercustomization;
         // offset 0xb38, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb40, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb48, size 0x8
@@ -5161,13 +5161,13 @@ version 81 {
         // offset 0xbcd, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbce, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbcf, size 0x1
         bool headshotsonly;
         // offset 0xbd0, size 0x1
         bool disablecontracts;
         // offset 0xbd1, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbd2, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbd3, size 0x1
@@ -5257,7 +5257,7 @@ version 81 {
         // offset 0xbfd, size 0x1
         bool zmperksactive;
         // offset 0xbfe, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbff, size 0x1
         bool zmelixirsuitup;
         // offset 0xc00, size 0x1
@@ -5421,7 +5421,7 @@ version 81 {
         // offset 0xc4f, size 0x1
         bool oldschoolmode;
         // offset 0xc50, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc51, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc52, size 0x1
@@ -5481,7 +5481,7 @@ version 81 {
         // offset 0xc6d, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc6e, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc6f, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc70, size 0x1
@@ -5663,7 +5663,7 @@ version 80 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -5725,15 +5725,15 @@ version 80 {
         // offset 0x310, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x358, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x368, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x378, size 0x8
@@ -5823,15 +5823,15 @@ version 80 {
         // offset 0x680, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e0, size 0x10
@@ -5845,7 +5845,7 @@ version 80 {
         // offset 0x708, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x710, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x718, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x720, size 0x8
@@ -5907,7 +5907,7 @@ version 80 {
         // offset 0x820, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x828, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x830, size 0x8
         uint:3 platooncount;
         // offset 0x838, size 0x8
@@ -5955,7 +5955,7 @@ version 80 {
         // offset 0x8f8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x900, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x908, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x910, size 0x8
@@ -5963,7 +5963,7 @@ version 80 {
         // offset 0x918, size 0x8
         uint:4 pickuptime;
         // offset 0x920, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x930, size 0x20
         int hash_64727525f5957d06;
         // offset 0x950, size 0x8
@@ -6001,7 +6001,7 @@ version 80 {
         // offset 0x9f0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9f8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa00, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa08, size 0x8
@@ -6033,7 +6033,7 @@ version 80 {
         // offset 0xa78, size 0x8
         uint:7 drafttime;
         // offset 0xa80, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa88, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa90, size 0x10
@@ -6067,7 +6067,7 @@ version 80 {
         // offset 0xb30, size 0x8
         uint:2 charactercustomization;
         // offset 0xb38, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb40, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb48, size 0x8
@@ -6265,13 +6265,13 @@ version 80 {
         // offset 0xbcc, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbcd, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbce, size 0x1
         bool headshotsonly;
         // offset 0xbcf, size 0x1
         bool disablecontracts;
         // offset 0xbd0, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbd1, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbd2, size 0x1
@@ -6361,7 +6361,7 @@ version 80 {
         // offset 0xbfc, size 0x1
         bool zmperksactive;
         // offset 0xbfd, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbfe, size 0x1
         bool zmelixirsuitup;
         // offset 0xbff, size 0x1
@@ -6525,7 +6525,7 @@ version 80 {
         // offset 0xc4e, size 0x1
         bool oldschoolmode;
         // offset 0xc4f, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc50, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc51, size 0x1
@@ -6585,7 +6585,7 @@ version 80 {
         // offset 0xc6c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc6d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc6e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc6f, size 0x1
@@ -6765,7 +6765,7 @@ version 79 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -6827,15 +6827,15 @@ version 79 {
         // offset 0x310, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x358, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x368, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x378, size 0x8
@@ -6925,15 +6925,15 @@ version 79 {
         // offset 0x680, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e0, size 0x10
@@ -6947,7 +6947,7 @@ version 79 {
         // offset 0x708, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x710, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x718, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x720, size 0x8
@@ -7009,7 +7009,7 @@ version 79 {
         // offset 0x820, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x828, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x830, size 0x8
         uint:3 platooncount;
         // offset 0x838, size 0x8
@@ -7057,7 +7057,7 @@ version 79 {
         // offset 0x8f8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x900, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x908, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x910, size 0x8
@@ -7065,7 +7065,7 @@ version 79 {
         // offset 0x918, size 0x8
         uint:4 pickuptime;
         // offset 0x920, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x930, size 0x20
         int hash_64727525f5957d06;
         // offset 0x950, size 0x8
@@ -7103,7 +7103,7 @@ version 79 {
         // offset 0x9f0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9f8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa00, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa08, size 0x8
@@ -7135,7 +7135,7 @@ version 79 {
         // offset 0xa78, size 0x8
         uint:7 drafttime;
         // offset 0xa80, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa88, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa90, size 0x10
@@ -7169,7 +7169,7 @@ version 79 {
         // offset 0xb30, size 0x8
         uint:2 charactercustomization;
         // offset 0xb38, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb40, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb48, size 0x8
@@ -7367,13 +7367,13 @@ version 79 {
         // offset 0xbcc, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbcd, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbce, size 0x1
         bool headshotsonly;
         // offset 0xbcf, size 0x1
         bool disablecontracts;
         // offset 0xbd0, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbd1, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbd2, size 0x1
@@ -7463,7 +7463,7 @@ version 79 {
         // offset 0xbfc, size 0x1
         bool zmperksactive;
         // offset 0xbfd, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbfe, size 0x1
         bool zmelixirsuitup;
         // offset 0xbff, size 0x1
@@ -7625,7 +7625,7 @@ version 79 {
         // offset 0xc4d, size 0x1
         bool oldschoolmode;
         // offset 0xc4e, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc4f, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc50, size 0x1
@@ -7685,7 +7685,7 @@ version 79 {
         // offset 0xc6b, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc6c, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc6d, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc6e, size 0x1
@@ -7867,7 +7867,7 @@ version 78 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -7929,15 +7929,15 @@ version 78 {
         // offset 0x310, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x358, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x368, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x378, size 0x8
@@ -8027,15 +8027,15 @@ version 78 {
         // offset 0x680, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e0, size 0x10
@@ -8049,7 +8049,7 @@ version 78 {
         // offset 0x708, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x710, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x718, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x720, size 0x8
@@ -8111,7 +8111,7 @@ version 78 {
         // offset 0x820, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x828, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x830, size 0x8
         uint:3 platooncount;
         // offset 0x838, size 0x8
@@ -8159,7 +8159,7 @@ version 78 {
         // offset 0x8f8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x900, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x908, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x910, size 0x8
@@ -8167,7 +8167,7 @@ version 78 {
         // offset 0x918, size 0x8
         uint:4 pickuptime;
         // offset 0x920, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x930, size 0x20
         int hash_64727525f5957d06;
         // offset 0x950, size 0x8
@@ -8205,7 +8205,7 @@ version 78 {
         // offset 0x9f0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9f8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa00, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa08, size 0x8
@@ -8237,7 +8237,7 @@ version 78 {
         // offset 0xa78, size 0x8
         uint:7 drafttime;
         // offset 0xa80, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa88, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa90, size 0x10
@@ -8271,7 +8271,7 @@ version 78 {
         // offset 0xb30, size 0x8
         uint:2 charactercustomization;
         // offset 0xb38, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb40, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb48, size 0x8
@@ -8467,13 +8467,13 @@ version 78 {
         // offset 0xbcb, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbcc, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbcd, size 0x1
         bool headshotsonly;
         // offset 0xbce, size 0x1
         bool disablecontracts;
         // offset 0xbcf, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbd0, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbd1, size 0x1
@@ -8563,7 +8563,7 @@ version 78 {
         // offset 0xbfb, size 0x1
         bool zmperksactive;
         // offset 0xbfc, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbfd, size 0x1
         bool zmelixirsuitup;
         // offset 0xbfe, size 0x1
@@ -8725,7 +8725,7 @@ version 78 {
         // offset 0xc4c, size 0x1
         bool oldschoolmode;
         // offset 0xc4d, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc4e, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc4f, size 0x1
@@ -8785,7 +8785,7 @@ version 78 {
         // offset 0xc6a, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc6b, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc6c, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc6d, size 0x1
@@ -8967,7 +8967,7 @@ version 77 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -9029,15 +9029,15 @@ version 77 {
         // offset 0x310, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x358, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x368, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x378, size 0x8
@@ -9127,15 +9127,15 @@ version 77 {
         // offset 0x680, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e0, size 0x10
@@ -9149,7 +9149,7 @@ version 77 {
         // offset 0x708, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x710, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x718, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x720, size 0x8
@@ -9211,7 +9211,7 @@ version 77 {
         // offset 0x820, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x828, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x830, size 0x8
         uint:3 platooncount;
         // offset 0x838, size 0x8
@@ -9259,7 +9259,7 @@ version 77 {
         // offset 0x8f8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x900, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x908, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x910, size 0x8
@@ -9267,7 +9267,7 @@ version 77 {
         // offset 0x918, size 0x8
         uint:4 pickuptime;
         // offset 0x920, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x930, size 0x20
         int hash_64727525f5957d06;
         // offset 0x950, size 0x8
@@ -9305,7 +9305,7 @@ version 77 {
         // offset 0x9f0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9f8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa00, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa08, size 0x8
@@ -9337,7 +9337,7 @@ version 77 {
         // offset 0xa78, size 0x8
         uint:7 drafttime;
         // offset 0xa80, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa88, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa90, size 0x10
@@ -9369,7 +9369,7 @@ version 77 {
         // offset 0xb28, size 0x8
         uint:2 charactercustomization;
         // offset 0xb30, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb38, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb40, size 0x8
@@ -9565,13 +9565,13 @@ version 77 {
         // offset 0xbc3, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbc4, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbc5, size 0x1
         bool headshotsonly;
         // offset 0xbc6, size 0x1
         bool disablecontracts;
         // offset 0xbc7, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbc8, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbc9, size 0x1
@@ -9661,7 +9661,7 @@ version 77 {
         // offset 0xbf3, size 0x1
         bool zmperksactive;
         // offset 0xbf4, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbf5, size 0x1
         bool zmelixirsuitup;
         // offset 0xbf6, size 0x1
@@ -9823,7 +9823,7 @@ version 77 {
         // offset 0xc44, size 0x1
         bool oldschoolmode;
         // offset 0xc45, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc46, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc47, size 0x1
@@ -9883,7 +9883,7 @@ version 77 {
         // offset 0xc62, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc63, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc64, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc65, size 0x1
@@ -10065,7 +10065,7 @@ version 76 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -10127,15 +10127,15 @@ version 76 {
         // offset 0x310, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x358, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x368, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x378, size 0x8
@@ -10225,15 +10225,15 @@ version 76 {
         // offset 0x680, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a8, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b8, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e0, size 0x10
@@ -10247,7 +10247,7 @@ version 76 {
         // offset 0x708, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x710, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x718, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x720, size 0x8
@@ -10309,7 +10309,7 @@ version 76 {
         // offset 0x820, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x828, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x830, size 0x8
         uint:3 platooncount;
         // offset 0x838, size 0x8
@@ -10357,7 +10357,7 @@ version 76 {
         // offset 0x8f8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x900, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x908, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x910, size 0x8
@@ -10365,7 +10365,7 @@ version 76 {
         // offset 0x918, size 0x8
         uint:4 pickuptime;
         // offset 0x920, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x930, size 0x20
         int hash_64727525f5957d06;
         // offset 0x950, size 0x8
@@ -10403,7 +10403,7 @@ version 76 {
         // offset 0x9f0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9f8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa00, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa08, size 0x8
@@ -10435,7 +10435,7 @@ version 76 {
         // offset 0xa78, size 0x8
         uint:7 drafttime;
         // offset 0xa80, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa88, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa90, size 0x10
@@ -10467,7 +10467,7 @@ version 76 {
         // offset 0xb28, size 0x8
         uint:2 charactercustomization;
         // offset 0xb30, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb38, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb40, size 0x8
@@ -10663,13 +10663,13 @@ version 76 {
         // offset 0xbc3, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbc4, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbc5, size 0x1
         bool headshotsonly;
         // offset 0xbc6, size 0x1
         bool disablecontracts;
         // offset 0xbc7, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbc8, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbc9, size 0x1
@@ -10759,7 +10759,7 @@ version 76 {
         // offset 0xbf3, size 0x1
         bool zmperksactive;
         // offset 0xbf4, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbf5, size 0x1
         bool zmelixirsuitup;
         // offset 0xbf6, size 0x1
@@ -10921,7 +10921,7 @@ version 76 {
         // offset 0xc44, size 0x1
         bool oldschoolmode;
         // offset 0xc45, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc46, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc47, size 0x1
@@ -10981,7 +10981,7 @@ version 76 {
         // offset 0xc62, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc63, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc64, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc65, size 0x1
@@ -11161,7 +11161,7 @@ version 75 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -11221,15 +11221,15 @@ version 75 {
         // offset 0x308, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x360, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x370, size 0x8
@@ -11319,15 +11319,15 @@ version 75 {
         // offset 0x678, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x680, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6d8, size 0x10
@@ -11341,7 +11341,7 @@ version 75 {
         // offset 0x700, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x708, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x710, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x718, size 0x8
@@ -11397,7 +11397,7 @@ version 75 {
         // offset 0x800, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x808, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x810, size 0x8
         uint:3 platooncount;
         // offset 0x818, size 0x8
@@ -11445,7 +11445,7 @@ version 75 {
         // offset 0x8d8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8e0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8e8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8f0, size 0x8
@@ -11453,7 +11453,7 @@ version 75 {
         // offset 0x8f8, size 0x8
         uint:4 pickuptime;
         // offset 0x900, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x910, size 0x20
         int hash_64727525f5957d06;
         // offset 0x930, size 0x8
@@ -11491,7 +11491,7 @@ version 75 {
         // offset 0x9d0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9d8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9e0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9e8, size 0x8
@@ -11523,7 +11523,7 @@ version 75 {
         // offset 0xa58, size 0x8
         uint:7 drafttime;
         // offset 0xa60, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa68, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa70, size 0x10
@@ -11555,7 +11555,7 @@ version 75 {
         // offset 0xb08, size 0x8
         uint:2 charactercustomization;
         // offset 0xb10, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb18, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb20, size 0x8
@@ -11751,13 +11751,13 @@ version 75 {
         // offset 0xba3, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xba4, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xba5, size 0x1
         bool headshotsonly;
         // offset 0xba6, size 0x1
         bool disablecontracts;
         // offset 0xba7, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xba8, size 0x1
         bool zmtalismanimpatient;
         // offset 0xba9, size 0x1
@@ -11847,7 +11847,7 @@ version 75 {
         // offset 0xbd3, size 0x1
         bool zmperksactive;
         // offset 0xbd4, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbd5, size 0x1
         bool zmelixirsuitup;
         // offset 0xbd6, size 0x1
@@ -12009,7 +12009,7 @@ version 75 {
         // offset 0xc24, size 0x1
         bool oldschoolmode;
         // offset 0xc25, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc26, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc27, size 0x1
@@ -12069,7 +12069,7 @@ version 75 {
         // offset 0xc42, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc43, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc44, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc45, size 0x1
@@ -12249,7 +12249,7 @@ version 74 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -12309,15 +12309,15 @@ version 74 {
         // offset 0x308, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x360, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x370, size 0x8
@@ -12407,15 +12407,15 @@ version 74 {
         // offset 0x678, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x680, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6c0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6d0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6d8, size 0x10
@@ -12429,7 +12429,7 @@ version 74 {
         // offset 0x700, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x708, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x710, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x718, size 0x8
@@ -12485,7 +12485,7 @@ version 74 {
         // offset 0x800, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x808, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x810, size 0x8
         uint:3 platooncount;
         // offset 0x818, size 0x8
@@ -12533,7 +12533,7 @@ version 74 {
         // offset 0x8d8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8e0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8e8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8f0, size 0x8
@@ -12541,7 +12541,7 @@ version 74 {
         // offset 0x8f8, size 0x8
         uint:4 pickuptime;
         // offset 0x900, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x910, size 0x20
         int hash_64727525f5957d06;
         // offset 0x930, size 0x8
@@ -12579,7 +12579,7 @@ version 74 {
         // offset 0x9d0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9d8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9e0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9e8, size 0x8
@@ -12611,7 +12611,7 @@ version 74 {
         // offset 0xa58, size 0x8
         uint:7 drafttime;
         // offset 0xa60, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa68, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa70, size 0x10
@@ -12643,7 +12643,7 @@ version 74 {
         // offset 0xb08, size 0x8
         uint:2 charactercustomization;
         // offset 0xb10, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb18, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb20, size 0x8
@@ -12835,13 +12835,13 @@ version 74 {
         // offset 0xba1, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xba2, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xba3, size 0x1
         bool headshotsonly;
         // offset 0xba4, size 0x1
         bool disablecontracts;
         // offset 0xba5, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xba6, size 0x1
         bool zmtalismanimpatient;
         // offset 0xba7, size 0x1
@@ -12931,7 +12931,7 @@ version 74 {
         // offset 0xbd1, size 0x1
         bool zmperksactive;
         // offset 0xbd2, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbd3, size 0x1
         bool zmequipmentisenabled;
         // offset 0xbd4, size 0x1
@@ -13085,7 +13085,7 @@ version 74 {
         // offset 0xc1e, size 0x1
         bool oldschoolmode;
         // offset 0xc1f, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc20, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc21, size 0x1
@@ -13145,7 +13145,7 @@ version 74 {
         // offset 0xc3c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc3d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc3e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc3f, size 0x1
@@ -13323,7 +13323,7 @@ version 73 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -13383,15 +13383,15 @@ version 73 {
         // offset 0x308, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x360, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x370, size 0x8
@@ -13477,15 +13477,15 @@ version 73 {
         // offset 0x668, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x670, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x680, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6c0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6c8, size 0x10
@@ -13499,7 +13499,7 @@ version 73 {
         // offset 0x6f0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6f8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x700, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x708, size 0x8
@@ -13555,7 +13555,7 @@ version 73 {
         // offset 0x7f0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7f8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x800, size 0x8
         uint:3 platooncount;
         // offset 0x808, size 0x8
@@ -13603,7 +13603,7 @@ version 73 {
         // offset 0x8c8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8d0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8d8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8e0, size 0x8
@@ -13611,7 +13611,7 @@ version 73 {
         // offset 0x8e8, size 0x8
         uint:4 pickuptime;
         // offset 0x8f0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x900, size 0x20
         int hash_64727525f5957d06;
         // offset 0x920, size 0x8
@@ -13649,7 +13649,7 @@ version 73 {
         // offset 0x9c0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9c8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9d0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9d8, size 0x8
@@ -13681,7 +13681,7 @@ version 73 {
         // offset 0xa48, size 0x8
         uint:7 drafttime;
         // offset 0xa50, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa58, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa60, size 0x10
@@ -13713,7 +13713,7 @@ version 73 {
         // offset 0xaf8, size 0x8
         uint:2 charactercustomization;
         // offset 0xb00, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb08, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb10, size 0x8
@@ -13905,13 +13905,13 @@ version 73 {
         // offset 0xb91, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb92, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb93, size 0x1
         bool headshotsonly;
         // offset 0xb94, size 0x1
         bool disablecontracts;
         // offset 0xb95, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb96, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb97, size 0x1
@@ -14001,7 +14001,7 @@ version 73 {
         // offset 0xbc1, size 0x1
         bool zmperksactive;
         // offset 0xbc2, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbc3, size 0x1
         bool zmequipmentisenabled;
         // offset 0xbc4, size 0x1
@@ -14155,7 +14155,7 @@ version 73 {
         // offset 0xc0e, size 0x1
         bool oldschoolmode;
         // offset 0xc0f, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc10, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc11, size 0x1
@@ -14215,7 +14215,7 @@ version 73 {
         // offset 0xc2c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc2d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc2e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc2f, size 0x1
@@ -14393,7 +14393,7 @@ version 72 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -14453,15 +14453,15 @@ version 72 {
         // offset 0x308, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x360, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x370, size 0x8
@@ -14547,15 +14547,15 @@ version 72 {
         // offset 0x668, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x670, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x680, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6c0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6c8, size 0x10
@@ -14569,7 +14569,7 @@ version 72 {
         // offset 0x6f0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6f8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x700, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x708, size 0x8
@@ -14625,7 +14625,7 @@ version 72 {
         // offset 0x7f0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7f8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x800, size 0x8
         uint:3 platooncount;
         // offset 0x808, size 0x8
@@ -14673,7 +14673,7 @@ version 72 {
         // offset 0x8c8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8d0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8d8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8e0, size 0x8
@@ -14681,7 +14681,7 @@ version 72 {
         // offset 0x8e8, size 0x8
         uint:4 pickuptime;
         // offset 0x8f0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x900, size 0x20
         int hash_64727525f5957d06;
         // offset 0x920, size 0x8
@@ -14719,7 +14719,7 @@ version 72 {
         // offset 0x9c0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9c8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9d0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9d8, size 0x8
@@ -14751,7 +14751,7 @@ version 72 {
         // offset 0xa48, size 0x8
         uint:7 drafttime;
         // offset 0xa50, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa58, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa60, size 0x10
@@ -14783,7 +14783,7 @@ version 72 {
         // offset 0xaf8, size 0x8
         uint:2 charactercustomization;
         // offset 0xb00, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb08, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb10, size 0x8
@@ -14973,13 +14973,13 @@ version 72 {
         // offset 0xb90, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb91, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb92, size 0x1
         bool headshotsonly;
         // offset 0xb93, size 0x1
         bool disablecontracts;
         // offset 0xb94, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb95, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb96, size 0x1
@@ -15069,7 +15069,7 @@ version 72 {
         // offset 0xbc0, size 0x1
         bool zmperksactive;
         // offset 0xbc1, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbc2, size 0x1
         bool zmequipmentisenabled;
         // offset 0xbc3, size 0x1
@@ -15223,7 +15223,7 @@ version 72 {
         // offset 0xc0d, size 0x1
         bool oldschoolmode;
         // offset 0xc0e, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc0f, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc10, size 0x1
@@ -15283,7 +15283,7 @@ version 72 {
         // offset 0xc2b, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc2c, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc2d, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc2e, size 0x1
@@ -15461,7 +15461,7 @@ version 71 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -15521,15 +15521,15 @@ version 71 {
         // offset 0x308, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x360, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x370, size 0x8
@@ -15615,15 +15615,15 @@ version 71 {
         // offset 0x668, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x670, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x680, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6c0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6c8, size 0x10
@@ -15637,7 +15637,7 @@ version 71 {
         // offset 0x6f0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6f8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x700, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x708, size 0x8
@@ -15693,7 +15693,7 @@ version 71 {
         // offset 0x7f0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7f8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x800, size 0x8
         uint:3 platooncount;
         // offset 0x808, size 0x8
@@ -15741,7 +15741,7 @@ version 71 {
         // offset 0x8c8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8d0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8d8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8e0, size 0x8
@@ -15749,7 +15749,7 @@ version 71 {
         // offset 0x8e8, size 0x8
         uint:4 pickuptime;
         // offset 0x8f0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x900, size 0x20
         int hash_64727525f5957d06;
         // offset 0x920, size 0x8
@@ -15787,7 +15787,7 @@ version 71 {
         // offset 0x9c0, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9c8, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9d0, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9d8, size 0x8
@@ -15819,7 +15819,7 @@ version 71 {
         // offset 0xa48, size 0x8
         uint:7 drafttime;
         // offset 0xa50, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa58, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa60, size 0x10
@@ -15851,7 +15851,7 @@ version 71 {
         // offset 0xaf8, size 0x8
         uint:2 charactercustomization;
         // offset 0xb00, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb08, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb10, size 0x8
@@ -16039,13 +16039,13 @@ version 71 {
         // offset 0xb8f, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb90, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb91, size 0x1
         bool headshotsonly;
         // offset 0xb92, size 0x1
         bool disablecontracts;
         // offset 0xb93, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb94, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb95, size 0x1
@@ -16135,7 +16135,7 @@ version 71 {
         // offset 0xbbf, size 0x1
         bool zmperksactive;
         // offset 0xbc0, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbc1, size 0x1
         bool zmequipmentisenabled;
         // offset 0xbc2, size 0x1
@@ -16289,7 +16289,7 @@ version 71 {
         // offset 0xc0c, size 0x1
         bool oldschoolmode;
         // offset 0xc0d, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc0e, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc0f, size 0x1
@@ -16349,7 +16349,7 @@ version 71 {
         // offset 0xc2a, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc2b, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc2c, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc2d, size 0x1
@@ -16527,7 +16527,7 @@ version 70 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -16587,15 +16587,15 @@ version 70 {
         // offset 0x308, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x360, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x370, size 0x8
@@ -16681,15 +16681,15 @@ version 70 {
         // offset 0x668, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x670, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x680, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6c0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6c8, size 0x10
@@ -16703,7 +16703,7 @@ version 70 {
         // offset 0x6f0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6f8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x700, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x708, size 0x8
@@ -16759,7 +16759,7 @@ version 70 {
         // offset 0x7f0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7f8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x800, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x808, size 0x8
@@ -16805,7 +16805,7 @@ version 70 {
         // offset 0x8c0, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8c8, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8d0, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8d8, size 0x8
@@ -16813,7 +16813,7 @@ version 70 {
         // offset 0x8e0, size 0x8
         uint:4 pickuptime;
         // offset 0x8e8, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x8f8, size 0x20
         int hash_64727525f5957d06;
         // offset 0x918, size 0x8
@@ -16851,7 +16851,7 @@ version 70 {
         // offset 0x9b8, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9c0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9c8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9d0, size 0x8
@@ -16883,7 +16883,7 @@ version 70 {
         // offset 0xa40, size 0x8
         uint:7 drafttime;
         // offset 0xa48, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa50, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa58, size 0x10
@@ -16915,7 +16915,7 @@ version 70 {
         // offset 0xaf0, size 0x8
         uint:2 charactercustomization;
         // offset 0xaf8, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb00, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb08, size 0x8
@@ -17101,13 +17101,13 @@ version 70 {
         // offset 0xb86, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb87, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb88, size 0x1
         bool headshotsonly;
         // offset 0xb89, size 0x1
         bool disablecontracts;
         // offset 0xb8a, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb8b, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb8c, size 0x1
@@ -17197,7 +17197,7 @@ version 70 {
         // offset 0xbb6, size 0x1
         bool zmperksactive;
         // offset 0xbb7, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xbb8, size 0x1
         bool zmequipmentisenabled;
         // offset 0xbb9, size 0x1
@@ -17351,7 +17351,7 @@ version 70 {
         // offset 0xc03, size 0x1
         bool oldschoolmode;
         // offset 0xc04, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc05, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc06, size 0x1
@@ -17411,7 +17411,7 @@ version 70 {
         // offset 0xc21, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc22, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc23, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc24, size 0x1
@@ -17587,7 +17587,7 @@ version 69 {
         // offset 0x1e0, size 0x8
         uint:3 spectatetype;
         // offset 0x1e8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f0, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x1f8, size 0x8
@@ -17647,15 +17647,15 @@ version 69 {
         // offset 0x300, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x358, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x368, size 0x8
@@ -17737,15 +17737,15 @@ version 69 {
         // offset 0x650, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6a8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6b0, size 0x10
@@ -17759,7 +17759,7 @@ version 69 {
         // offset 0x6d8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6e0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6e8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6f0, size 0x8
@@ -17815,7 +17815,7 @@ version 69 {
         // offset 0x7d8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7e0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7e8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7f0, size 0x8
@@ -17861,7 +17861,7 @@ version 69 {
         // offset 0x8a8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8b0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8b8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8c0, size 0x8
@@ -17869,7 +17869,7 @@ version 69 {
         // offset 0x8c8, size 0x8
         uint:4 pickuptime;
         // offset 0x8d0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x8e0, size 0x20
         int hash_64727525f5957d06;
         // offset 0x900, size 0x8
@@ -17905,7 +17905,7 @@ version 69 {
         // offset 0x998, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9b0, size 0x8
@@ -17937,7 +17937,7 @@ version 69 {
         // offset 0xa20, size 0x8
         uint:7 drafttime;
         // offset 0xa28, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa30, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa38, size 0x10
@@ -17969,7 +17969,7 @@ version 69 {
         // offset 0xad0, size 0x8
         uint:2 charactercustomization;
         // offset 0xad8, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xae0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xae8, size 0x8
@@ -18155,13 +18155,13 @@ version 69 {
         // offset 0xb66, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb67, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb68, size 0x1
         bool headshotsonly;
         // offset 0xb69, size 0x1
         bool disablecontracts;
         // offset 0xb6a, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb6b, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb6c, size 0x1
@@ -18251,7 +18251,7 @@ version 69 {
         // offset 0xb96, size 0x1
         bool zmperksactive;
         // offset 0xb97, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb98, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb99, size 0x1
@@ -18405,7 +18405,7 @@ version 69 {
         // offset 0xbe3, size 0x1
         bool oldschoolmode;
         // offset 0xbe4, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xbe5, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xbe6, size 0x1
@@ -18465,7 +18465,7 @@ version 69 {
         // offset 0xc01, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc02, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc03, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc04, size 0x1
@@ -18641,7 +18641,7 @@ version 68 {
         // offset 0x1e0, size 0x8
         uint:3 spectatetype;
         // offset 0x1e8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f0, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x1f8, size 0x8
@@ -18701,15 +18701,15 @@ version 68 {
         // offset 0x300, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x358, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x368, size 0x8
@@ -18791,15 +18791,15 @@ version 68 {
         // offset 0x650, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6a8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6b0, size 0x10
@@ -18813,7 +18813,7 @@ version 68 {
         // offset 0x6d8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6e0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6e8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6f0, size 0x8
@@ -18869,7 +18869,7 @@ version 68 {
         // offset 0x7d8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7e0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7e8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7f0, size 0x8
@@ -18915,7 +18915,7 @@ version 68 {
         // offset 0x8a8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8b0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8b8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8c0, size 0x8
@@ -18923,7 +18923,7 @@ version 68 {
         // offset 0x8c8, size 0x8
         uint:4 pickuptime;
         // offset 0x8d0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x8e0, size 0x20
         int hash_64727525f5957d06;
         // offset 0x900, size 0x8
@@ -18959,7 +18959,7 @@ version 68 {
         // offset 0x998, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9b0, size 0x8
@@ -18991,7 +18991,7 @@ version 68 {
         // offset 0xa20, size 0x8
         uint:7 drafttime;
         // offset 0xa28, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa30, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa38, size 0x10
@@ -19023,7 +19023,7 @@ version 68 {
         // offset 0xad0, size 0x8
         uint:2 charactercustomization;
         // offset 0xad8, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xae0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xae8, size 0x8
@@ -19207,13 +19207,13 @@ version 68 {
         // offset 0xb65, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb66, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb67, size 0x1
         bool headshotsonly;
         // offset 0xb68, size 0x1
         bool disablecontracts;
         // offset 0xb69, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb6a, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb6b, size 0x1
@@ -19303,7 +19303,7 @@ version 68 {
         // offset 0xb95, size 0x1
         bool zmperksactive;
         // offset 0xb96, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb97, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb98, size 0x1
@@ -19457,7 +19457,7 @@ version 68 {
         // offset 0xbe2, size 0x1
         bool oldschoolmode;
         // offset 0xbe3, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xbe4, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xbe5, size 0x1
@@ -19517,7 +19517,7 @@ version 68 {
         // offset 0xc00, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc01, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc02, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc03, size 0x1
@@ -19693,7 +19693,7 @@ version 67 {
         // offset 0x1e0, size 0x8
         uint:3 spectatetype;
         // offset 0x1e8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f0, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x1f8, size 0x8
@@ -19753,15 +19753,15 @@ version 67 {
         // offset 0x300, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x358, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x368, size 0x8
@@ -19843,15 +19843,15 @@ version 67 {
         // offset 0x650, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6a8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6b0, size 0x10
@@ -19865,7 +19865,7 @@ version 67 {
         // offset 0x6d8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6e0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6e8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6f0, size 0x8
@@ -19921,7 +19921,7 @@ version 67 {
         // offset 0x7d8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7e0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7e8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7f0, size 0x8
@@ -19967,7 +19967,7 @@ version 67 {
         // offset 0x8a8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8b0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8b8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8c0, size 0x8
@@ -19975,7 +19975,7 @@ version 67 {
         // offset 0x8c8, size 0x8
         uint:4 pickuptime;
         // offset 0x8d0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x8e0, size 0x20
         int hash_64727525f5957d06;
         // offset 0x900, size 0x8
@@ -20011,7 +20011,7 @@ version 67 {
         // offset 0x998, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9b0, size 0x8
@@ -20043,7 +20043,7 @@ version 67 {
         // offset 0xa20, size 0x8
         uint:7 drafttime;
         // offset 0xa28, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa30, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa38, size 0x10
@@ -20075,7 +20075,7 @@ version 67 {
         // offset 0xad0, size 0x8
         uint:2 charactercustomization;
         // offset 0xad8, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xae0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xae8, size 0x8
@@ -20257,13 +20257,13 @@ version 67 {
         // offset 0xb64, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb65, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb66, size 0x1
         bool headshotsonly;
         // offset 0xb67, size 0x1
         bool disablecontracts;
         // offset 0xb68, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb69, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb6a, size 0x1
@@ -20353,7 +20353,7 @@ version 67 {
         // offset 0xb94, size 0x1
         bool zmperksactive;
         // offset 0xb95, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb96, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb97, size 0x1
@@ -20507,7 +20507,7 @@ version 67 {
         // offset 0xbe1, size 0x1
         bool oldschoolmode;
         // offset 0xbe2, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xbe3, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xbe4, size 0x1
@@ -20567,7 +20567,7 @@ version 67 {
         // offset 0xbff, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc00, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc01, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc02, size 0x1
@@ -20743,7 +20743,7 @@ version 66 {
         // offset 0x1e0, size 0x8
         uint:3 spectatetype;
         // offset 0x1e8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f0, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x1f8, size 0x8
@@ -20803,15 +20803,15 @@ version 66 {
         // offset 0x300, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x358, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x368, size 0x8
@@ -20893,15 +20893,15 @@ version 66 {
         // offset 0x650, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6a8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6b0, size 0x10
@@ -20915,7 +20915,7 @@ version 66 {
         // offset 0x6d8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6e0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6e8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6f0, size 0x8
@@ -20971,7 +20971,7 @@ version 66 {
         // offset 0x7d8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7e0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7e8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7f0, size 0x8
@@ -21017,7 +21017,7 @@ version 66 {
         // offset 0x8a8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8b0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8b8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8c0, size 0x8
@@ -21025,7 +21025,7 @@ version 66 {
         // offset 0x8c8, size 0x8
         uint:4 pickuptime;
         // offset 0x8d0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x8e0, size 0x20
         int hash_64727525f5957d06;
         // offset 0x900, size 0x8
@@ -21061,7 +21061,7 @@ version 66 {
         // offset 0x998, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9b0, size 0x8
@@ -21093,7 +21093,7 @@ version 66 {
         // offset 0xa20, size 0x8
         uint:7 drafttime;
         // offset 0xa28, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa30, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa38, size 0x10
@@ -21125,7 +21125,7 @@ version 66 {
         // offset 0xad0, size 0x8
         uint:2 charactercustomization;
         // offset 0xad8, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xae0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xae8, size 0x8
@@ -21307,13 +21307,13 @@ version 66 {
         // offset 0xb64, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb65, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb66, size 0x1
         bool headshotsonly;
         // offset 0xb67, size 0x1
         bool disablecontracts;
         // offset 0xb68, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb69, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb6a, size 0x1
@@ -21401,7 +21401,7 @@ version 66 {
         // offset 0xb93, size 0x1
         bool zmperksactive;
         // offset 0xb94, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb95, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb96, size 0x1
@@ -21551,7 +21551,7 @@ version 66 {
         // offset 0xbde, size 0x1
         bool oldschoolmode;
         // offset 0xbdf, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xbe0, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xbe1, size 0x1
@@ -21611,7 +21611,7 @@ version 66 {
         // offset 0xbfc, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbfd, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbfe, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbff, size 0x1
@@ -21787,7 +21787,7 @@ version 65 {
         // offset 0x1e0, size 0x8
         uint:3 spectatetype;
         // offset 0x1e8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f0, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x1f8, size 0x8
@@ -21847,15 +21847,15 @@ version 65 {
         // offset 0x300, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x338, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x348, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x358, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x368, size 0x8
@@ -21937,15 +21937,15 @@ version 65 {
         // offset 0x650, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x698, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6a8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6b0, size 0x10
@@ -21959,7 +21959,7 @@ version 65 {
         // offset 0x6d8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6e0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6e8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6f0, size 0x8
@@ -22015,7 +22015,7 @@ version 65 {
         // offset 0x7d8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7e0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7e8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7f0, size 0x8
@@ -22061,7 +22061,7 @@ version 65 {
         // offset 0x8a8, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8b0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8b8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8c0, size 0x8
@@ -22069,7 +22069,7 @@ version 65 {
         // offset 0x8c8, size 0x8
         uint:4 pickuptime;
         // offset 0x8d0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x8e0, size 0x20
         int hash_64727525f5957d06;
         // offset 0x900, size 0x8
@@ -22105,7 +22105,7 @@ version 65 {
         // offset 0x998, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x9a0, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x9a8, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9b0, size 0x8
@@ -22137,7 +22137,7 @@ version 65 {
         // offset 0xa20, size 0x8
         uint:7 drafttime;
         // offset 0xa28, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa30, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa38, size 0x10
@@ -22169,7 +22169,7 @@ version 65 {
         // offset 0xad0, size 0x8
         uint:2 charactercustomization;
         // offset 0xad8, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xae0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xae8, size 0x8
@@ -22349,13 +22349,13 @@ version 65 {
         // offset 0xb63, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb64, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb65, size 0x1
         bool headshotsonly;
         // offset 0xb66, size 0x1
         bool disablecontracts;
         // offset 0xb67, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb68, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb69, size 0x1
@@ -22443,7 +22443,7 @@ version 65 {
         // offset 0xb92, size 0x1
         bool zmperksactive;
         // offset 0xb93, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb94, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb95, size 0x1
@@ -22591,7 +22591,7 @@ version 65 {
         // offset 0xbdc, size 0x1
         bool oldschoolmode;
         // offset 0xbdd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xbde, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xbdf, size 0x1
@@ -22651,7 +22651,7 @@ version 65 {
         // offset 0xbfa, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbfb, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbfc, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbfd, size 0x1
@@ -22827,7 +22827,7 @@ version 64 {
         // offset 0x1e0, size 0x8
         uint:3 spectatetype;
         // offset 0x1e8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1f8, size 0x8
@@ -22885,15 +22885,15 @@ version 64 {
         // offset 0x2f8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x350, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x360, size 0x8
@@ -22973,15 +22973,15 @@ version 64 {
         // offset 0x640, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x698, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6a0, size 0x10
@@ -22995,7 +22995,7 @@ version 64 {
         // offset 0x6c8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6d0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6d8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6e0, size 0x8
@@ -23051,7 +23051,7 @@ version 64 {
         // offset 0x7c8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7d0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7d8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7e0, size 0x8
@@ -23097,7 +23097,7 @@ version 64 {
         // offset 0x898, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8a0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8a8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8b0, size 0x8
@@ -23105,7 +23105,7 @@ version 64 {
         // offset 0x8b8, size 0x8
         uint:4 pickuptime;
         // offset 0x8c0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x8d0, size 0x20
         int hash_64727525f5957d06;
         // offset 0x8f0, size 0x8
@@ -23141,7 +23141,7 @@ version 64 {
         // offset 0x988, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x990, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x998, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9a0, size 0x8
@@ -23173,7 +23173,7 @@ version 64 {
         // offset 0xa10, size 0x8
         uint:7 drafttime;
         // offset 0xa18, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa20, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa28, size 0x10
@@ -23205,7 +23205,7 @@ version 64 {
         // offset 0xac0, size 0x8
         uint:2 charactercustomization;
         // offset 0xac8, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xad0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xad8, size 0x8
@@ -23385,13 +23385,13 @@ version 64 {
         // offset 0xb53, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb54, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb55, size 0x1
         bool headshotsonly;
         // offset 0xb56, size 0x1
         bool disablecontracts;
         // offset 0xb57, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb58, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb59, size 0x1
@@ -23479,7 +23479,7 @@ version 64 {
         // offset 0xb82, size 0x1
         bool zmperksactive;
         // offset 0xb83, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb84, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb85, size 0x1
@@ -23627,7 +23627,7 @@ version 64 {
         // offset 0xbcc, size 0x1
         bool oldschoolmode;
         // offset 0xbcd, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xbce, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xbcf, size 0x1
@@ -23687,7 +23687,7 @@ version 64 {
         // offset 0xbea, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbeb, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbec, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbed, size 0x1
@@ -23863,7 +23863,7 @@ version 63 {
         // offset 0x1e0, size 0x8
         uint:3 spectatetype;
         // offset 0x1e8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1f8, size 0x8
@@ -23921,15 +23921,15 @@ version 63 {
         // offset 0x2f8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x350, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x360, size 0x8
@@ -24009,15 +24009,15 @@ version 63 {
         // offset 0x640, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x688, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x698, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6a0, size 0x10
@@ -24031,7 +24031,7 @@ version 63 {
         // offset 0x6c8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6d0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6d8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6e0, size 0x8
@@ -24087,7 +24087,7 @@ version 63 {
         // offset 0x7c8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7d0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7d8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7e0, size 0x8
@@ -24133,7 +24133,7 @@ version 63 {
         // offset 0x898, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x8a0, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x8a8, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x8b0, size 0x8
@@ -24141,7 +24141,7 @@ version 63 {
         // offset 0x8b8, size 0x8
         uint:4 pickuptime;
         // offset 0x8c0, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x8d0, size 0x20
         int hash_64727525f5957d06;
         // offset 0x8f0, size 0x8
@@ -24177,7 +24177,7 @@ version 63 {
         // offset 0x988, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x990, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x998, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x9a0, size 0x8
@@ -24209,7 +24209,7 @@ version 63 {
         // offset 0xa10, size 0x8
         uint:7 drafttime;
         // offset 0xa18, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa20, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa28, size 0x10
@@ -24241,7 +24241,7 @@ version 63 {
         // offset 0xac0, size 0x8
         uint:2 charactercustomization;
         // offset 0xac8, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xad0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xad8, size 0x8
@@ -24419,13 +24419,13 @@ version 63 {
         // offset 0xb52, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb53, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb54, size 0x1
         bool headshotsonly;
         // offset 0xb55, size 0x1
         bool disablecontracts;
         // offset 0xb56, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb57, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb58, size 0x1
@@ -24513,7 +24513,7 @@ version 63 {
         // offset 0xb81, size 0x1
         bool zmperksactive;
         // offset 0xb82, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb83, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb84, size 0x1
@@ -24661,7 +24661,7 @@ version 63 {
         // offset 0xbcb, size 0x1
         bool oldschoolmode;
         // offset 0xbcc, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xbcd, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xbce, size 0x1
@@ -24721,7 +24721,7 @@ version 63 {
         // offset 0xbe9, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbea, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbeb, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbec, size 0x1
@@ -24893,7 +24893,7 @@ version 62 {
         // offset 0x1d0, size 0x8
         uint:3 spectatetype;
         // offset 0x1d8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1e0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1e8, size 0x8
@@ -24951,15 +24951,15 @@ version 62 {
         // offset 0x2e8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x340, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x350, size 0x8
@@ -25039,15 +25039,15 @@ version 62 {
         // offset 0x630, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x688, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x690, size 0x10
@@ -25061,7 +25061,7 @@ version 62 {
         // offset 0x6b8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6c0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6c8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6d0, size 0x8
@@ -25115,7 +25115,7 @@ version 62 {
         // offset 0x7b0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7b8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7c0, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7c8, size 0x8
@@ -25161,7 +25161,7 @@ version 62 {
         // offset 0x880, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x888, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x890, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x898, size 0x8
@@ -25203,7 +25203,7 @@ version 62 {
         // offset 0x960, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x968, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x970, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x978, size 0x8
@@ -25235,7 +25235,7 @@ version 62 {
         // offset 0x9e8, size 0x8
         uint:7 drafttime;
         // offset 0x9f0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9f8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa00, size 0x10
@@ -25267,7 +25267,7 @@ version 62 {
         // offset 0xa98, size 0x8
         uint:2 charactercustomization;
         // offset 0xaa0, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xaa8, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xab0, size 0x8
@@ -25445,13 +25445,13 @@ version 62 {
         // offset 0xb2a, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb2b, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb2c, size 0x1
         bool headshotsonly;
         // offset 0xb2d, size 0x1
         bool disablecontracts;
         // offset 0xb2e, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb2f, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb30, size 0x1
@@ -25539,7 +25539,7 @@ version 62 {
         // offset 0xb59, size 0x1
         bool zmperksactive;
         // offset 0xb5a, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb5b, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb5c, size 0x1
@@ -25687,7 +25687,7 @@ version 62 {
         // offset 0xba3, size 0x1
         bool oldschoolmode;
         // offset 0xba4, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xba5, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xba6, size 0x1
@@ -25747,7 +25747,7 @@ version 62 {
         // offset 0xbc1, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbc2, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbc3, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbc4, size 0x1
@@ -25919,7 +25919,7 @@ version 61 {
         // offset 0x1d0, size 0x8
         uint:3 spectatetype;
         // offset 0x1d8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1e0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1e8, size 0x8
@@ -25977,15 +25977,15 @@ version 61 {
         // offset 0x2e8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x340, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x350, size 0x8
@@ -26065,15 +26065,15 @@ version 61 {
         // offset 0x630, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x688, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x690, size 0x10
@@ -26087,7 +26087,7 @@ version 61 {
         // offset 0x6b8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6c0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6c8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6d0, size 0x8
@@ -26141,7 +26141,7 @@ version 61 {
         // offset 0x7b0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7b8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7c0, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7c8, size 0x8
@@ -26187,7 +26187,7 @@ version 61 {
         // offset 0x880, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x888, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x890, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x898, size 0x8
@@ -26229,7 +26229,7 @@ version 61 {
         // offset 0x960, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x968, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x970, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x978, size 0x8
@@ -26261,7 +26261,7 @@ version 61 {
         // offset 0x9e8, size 0x8
         uint:7 drafttime;
         // offset 0x9f0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9f8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa00, size 0x10
@@ -26293,7 +26293,7 @@ version 61 {
         // offset 0xa98, size 0x8
         uint:2 charactercustomization;
         // offset 0xaa0, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xaa8, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xab0, size 0x8
@@ -26469,13 +26469,13 @@ version 61 {
         // offset 0xb29, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb2a, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb2b, size 0x1
         bool headshotsonly;
         // offset 0xb2c, size 0x1
         bool disablecontracts;
         // offset 0xb2d, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb2e, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb2f, size 0x1
@@ -26563,7 +26563,7 @@ version 61 {
         // offset 0xb58, size 0x1
         bool zmperksactive;
         // offset 0xb59, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb5a, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb5b, size 0x1
@@ -26711,7 +26711,7 @@ version 61 {
         // offset 0xba2, size 0x1
         bool oldschoolmode;
         // offset 0xba3, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xba4, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xba5, size 0x1
@@ -26771,7 +26771,7 @@ version 61 {
         // offset 0xbc0, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbc1, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbc2, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbc3, size 0x1
@@ -26941,7 +26941,7 @@ version 60 {
         // offset 0x1c8, size 0x8
         uint:3 spectatetype;
         // offset 0x1d0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1d8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1e0, size 0x8
@@ -26999,15 +26999,15 @@ version 60 {
         // offset 0x2e0, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2e8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2f8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x338, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x348, size 0x8
@@ -27087,15 +27087,15 @@ version 60 {
         // offset 0x628, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x630, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x640, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x650, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x660, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x670, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x680, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x688, size 0x10
@@ -27109,7 +27109,7 @@ version 60 {
         // offset 0x6b0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6b8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6c0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6c8, size 0x8
@@ -27163,7 +27163,7 @@ version 60 {
         // offset 0x7a8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7b0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7b8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7c0, size 0x8
@@ -27209,7 +27209,7 @@ version 60 {
         // offset 0x878, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x880, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x888, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x890, size 0x8
@@ -27251,7 +27251,7 @@ version 60 {
         // offset 0x958, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x960, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x968, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x970, size 0x8
@@ -27283,7 +27283,7 @@ version 60 {
         // offset 0x9e0, size 0x8
         uint:7 drafttime;
         // offset 0x9e8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9f0, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9f8, size 0x10
@@ -27315,7 +27315,7 @@ version 60 {
         // offset 0xa90, size 0x8
         uint:2 charactercustomization;
         // offset 0xa98, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xaa0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xaa8, size 0x8
@@ -27491,13 +27491,13 @@ version 60 {
         // offset 0xb21, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb22, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb23, size 0x1
         bool headshotsonly;
         // offset 0xb24, size 0x1
         bool disablecontracts;
         // offset 0xb25, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb26, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb27, size 0x1
@@ -27585,7 +27585,7 @@ version 60 {
         // offset 0xb50, size 0x1
         bool zmperksactive;
         // offset 0xb51, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb52, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb53, size 0x1
@@ -27731,7 +27731,7 @@ version 60 {
         // offset 0xb99, size 0x1
         bool oldschoolmode;
         // offset 0xb9a, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb9b, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb9c, size 0x1
@@ -27791,7 +27791,7 @@ version 60 {
         // offset 0xbb7, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbb8, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbb9, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbba, size 0x1
@@ -27961,7 +27961,7 @@ version 59 {
         // offset 0x1c8, size 0x8
         uint:3 spectatetype;
         // offset 0x1d0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1d8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1e0, size 0x8
@@ -28019,15 +28019,15 @@ version 59 {
         // offset 0x2e0, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2e8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2f8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x338, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x348, size 0x8
@@ -28107,15 +28107,15 @@ version 59 {
         // offset 0x628, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x630, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x640, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x650, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x660, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x670, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x680, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x688, size 0x10
@@ -28129,7 +28129,7 @@ version 59 {
         // offset 0x6b0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6b8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6c0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6c8, size 0x8
@@ -28183,7 +28183,7 @@ version 59 {
         // offset 0x7a8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7b0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7b8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7c0, size 0x8
@@ -28229,7 +28229,7 @@ version 59 {
         // offset 0x878, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x880, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x888, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x890, size 0x8
@@ -28271,7 +28271,7 @@ version 59 {
         // offset 0x958, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x960, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x968, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x970, size 0x8
@@ -28303,7 +28303,7 @@ version 59 {
         // offset 0x9e0, size 0x8
         uint:7 drafttime;
         // offset 0x9e8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9f0, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9f8, size 0x10
@@ -28333,7 +28333,7 @@ version 59 {
         // offset 0xa88, size 0x8
         uint:2 charactercustomization;
         // offset 0xa90, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa98, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xaa0, size 0x8
@@ -28509,13 +28509,13 @@ version 59 {
         // offset 0xb19, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb1a, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb1b, size 0x1
         bool headshotsonly;
         // offset 0xb1c, size 0x1
         bool disablecontracts;
         // offset 0xb1d, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb1e, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb1f, size 0x1
@@ -28603,7 +28603,7 @@ version 59 {
         // offset 0xb48, size 0x1
         bool zmperksactive;
         // offset 0xb49, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb4a, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb4b, size 0x1
@@ -28749,7 +28749,7 @@ version 59 {
         // offset 0xb91, size 0x1
         bool oldschoolmode;
         // offset 0xb92, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb93, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb94, size 0x1
@@ -28809,7 +28809,7 @@ version 59 {
         // offset 0xbaf, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbb0, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbb1, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbb2, size 0x1
@@ -28979,7 +28979,7 @@ version 58 {
         // offset 0x1c8, size 0x8
         uint:3 spectatetype;
         // offset 0x1d0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1d8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1e0, size 0x8
@@ -29039,15 +29039,15 @@ version 58 {
         // offset 0x2e8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x340, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x350, size 0x8
@@ -29127,15 +29127,15 @@ version 58 {
         // offset 0x630, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x678, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x688, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x690, size 0x10
@@ -29149,7 +29149,7 @@ version 58 {
         // offset 0x6b8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6c0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6c8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6d0, size 0x8
@@ -29203,7 +29203,7 @@ version 58 {
         // offset 0x7b0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7b8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7c0, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7c8, size 0x8
@@ -29249,7 +29249,7 @@ version 58 {
         // offset 0x880, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x888, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x890, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x898, size 0x8
@@ -29291,7 +29291,7 @@ version 58 {
         // offset 0x960, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x968, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x970, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x978, size 0x8
@@ -29323,7 +29323,7 @@ version 58 {
         // offset 0x9e8, size 0x8
         uint:7 drafttime;
         // offset 0x9f0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9f8, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa00, size 0x10
@@ -29353,7 +29353,7 @@ version 58 {
         // offset 0xa90, size 0x8
         uint:2 charactercustomization;
         // offset 0xa98, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xaa0, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xaa8, size 0x8
@@ -29533,13 +29533,13 @@ version 58 {
         // offset 0xb23, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb24, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb25, size 0x1
         bool headshotsonly;
         // offset 0xb26, size 0x1
         bool disablecontracts;
         // offset 0xb27, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb28, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb29, size 0x1
@@ -29627,7 +29627,7 @@ version 58 {
         // offset 0xb52, size 0x1
         bool zmperksactive;
         // offset 0xb53, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb54, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb55, size 0x1
@@ -29773,7 +29773,7 @@ version 58 {
         // offset 0xb9b, size 0x1
         bool oldschoolmode;
         // offset 0xb9c, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb9d, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb9e, size 0x1
@@ -29833,7 +29833,7 @@ version 58 {
         // offset 0xbb9, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbba, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbbb, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbbc, size 0x1
@@ -30001,7 +30001,7 @@ version 57 {
         // offset 0x1c0, size 0x8
         uint:3 spectatetype;
         // offset 0x1c8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1d0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1d8, size 0x8
@@ -30061,15 +30061,15 @@ version 57 {
         // offset 0x2e0, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2e8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2f8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x318, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x328, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x338, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x348, size 0x8
@@ -30149,15 +30149,15 @@ version 57 {
         // offset 0x628, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x630, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x640, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x650, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x660, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x670, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x680, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x688, size 0x10
@@ -30171,7 +30171,7 @@ version 57 {
         // offset 0x6b0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6b8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6c0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6c8, size 0x8
@@ -30225,7 +30225,7 @@ version 57 {
         // offset 0x7a8, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7b0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7b8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7c0, size 0x8
@@ -30271,7 +30271,7 @@ version 57 {
         // offset 0x878, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x880, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x888, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x890, size 0x8
@@ -30313,7 +30313,7 @@ version 57 {
         // offset 0x958, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x960, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x968, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x970, size 0x8
@@ -30345,7 +30345,7 @@ version 57 {
         // offset 0x9e0, size 0x8
         uint:7 drafttime;
         // offset 0x9e8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9f0, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9f8, size 0x10
@@ -30375,7 +30375,7 @@ version 57 {
         // offset 0xa88, size 0x8
         uint:2 charactercustomization;
         // offset 0xa90, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa98, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xaa0, size 0x8
@@ -30555,13 +30555,13 @@ version 57 {
         // offset 0xb1b, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb1c, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb1d, size 0x1
         bool headshotsonly;
         // offset 0xb1e, size 0x1
         bool disablecontracts;
         // offset 0xb1f, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb20, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb21, size 0x1
@@ -30649,7 +30649,7 @@ version 57 {
         // offset 0xb4a, size 0x1
         bool zmperksactive;
         // offset 0xb4b, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb4c, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb4d, size 0x1
@@ -30795,7 +30795,7 @@ version 57 {
         // offset 0xb93, size 0x1
         bool oldschoolmode;
         // offset 0xb94, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb95, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb96, size 0x1
@@ -30855,7 +30855,7 @@ version 57 {
         // offset 0xbb1, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbb2, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbb3, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbb4, size 0x1
@@ -31021,7 +31021,7 @@ version 56 {
         // offset 0x1b8, size 0x8
         uint:3 spectatetype;
         // offset 0x1c0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1c8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1d0, size 0x8
@@ -31081,15 +31081,15 @@ version 56 {
         // offset 0x2d8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x330, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x340, size 0x8
@@ -31169,15 +31169,15 @@ version 56 {
         // offset 0x620, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x678, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x680, size 0x10
@@ -31191,7 +31191,7 @@ version 56 {
         // offset 0x6a8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6b0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6b8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6c0, size 0x8
@@ -31245,7 +31245,7 @@ version 56 {
         // offset 0x7a0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7b0, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7b8, size 0x8
@@ -31291,7 +31291,7 @@ version 56 {
         // offset 0x870, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x878, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x880, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x888, size 0x8
@@ -31333,7 +31333,7 @@ version 56 {
         // offset 0x950, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x958, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x960, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x968, size 0x8
@@ -31365,7 +31365,7 @@ version 56 {
         // offset 0x9d8, size 0x8
         uint:7 drafttime;
         // offset 0x9e0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9e8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9f0, size 0x10
@@ -31395,7 +31395,7 @@ version 56 {
         // offset 0xa80, size 0x8
         uint:2 charactercustomization;
         // offset 0xa88, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa90, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa98, size 0x8
@@ -31575,13 +31575,13 @@ version 56 {
         // offset 0xb13, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb14, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb15, size 0x1
         bool headshotsonly;
         // offset 0xb16, size 0x1
         bool disablecontracts;
         // offset 0xb17, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb18, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb19, size 0x1
@@ -31669,7 +31669,7 @@ version 56 {
         // offset 0xb42, size 0x1
         bool zmperksactive;
         // offset 0xb43, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb44, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb45, size 0x1
@@ -31815,7 +31815,7 @@ version 56 {
         // offset 0xb8b, size 0x1
         bool oldschoolmode;
         // offset 0xb8c, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb8d, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb8e, size 0x1
@@ -31875,7 +31875,7 @@ version 56 {
         // offset 0xba9, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xbaa, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbab, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbac, size 0x1
@@ -32041,7 +32041,7 @@ version 55 {
         // offset 0x1b8, size 0x8
         uint:3 spectatetype;
         // offset 0x1c0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1c8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1d0, size 0x8
@@ -32101,15 +32101,15 @@ version 55 {
         // offset 0x2d8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x330, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x340, size 0x8
@@ -32189,15 +32189,15 @@ version 55 {
         // offset 0x620, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x678, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x680, size 0x10
@@ -32211,7 +32211,7 @@ version 55 {
         // offset 0x6a8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6b0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6b8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6c0, size 0x8
@@ -32265,7 +32265,7 @@ version 55 {
         // offset 0x7a0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7b0, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7b8, size 0x8
@@ -32311,7 +32311,7 @@ version 55 {
         // offset 0x870, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x878, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x880, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x888, size 0x8
@@ -32353,7 +32353,7 @@ version 55 {
         // offset 0x950, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x958, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x960, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x968, size 0x8
@@ -32385,7 +32385,7 @@ version 55 {
         // offset 0x9d8, size 0x8
         uint:7 drafttime;
         // offset 0x9e0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9e8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9f0, size 0x10
@@ -32415,7 +32415,7 @@ version 55 {
         // offset 0xa80, size 0x8
         uint:2 charactercustomization;
         // offset 0xa88, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa90, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa98, size 0x8
@@ -32593,13 +32593,13 @@ version 55 {
         // offset 0xb12, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb13, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb14, size 0x1
         bool headshotsonly;
         // offset 0xb15, size 0x1
         bool disablecontracts;
         // offset 0xb16, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb17, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb18, size 0x1
@@ -32687,7 +32687,7 @@ version 55 {
         // offset 0xb41, size 0x1
         bool zmperksactive;
         // offset 0xb42, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb43, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb44, size 0x1
@@ -32833,7 +32833,7 @@ version 55 {
         // offset 0xb8a, size 0x1
         bool oldschoolmode;
         // offset 0xb8b, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb8c, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb8d, size 0x1
@@ -32893,7 +32893,7 @@ version 55 {
         // offset 0xba8, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xba9, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xbaa, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xbab, size 0x1
@@ -33059,7 +33059,7 @@ version 54 {
         // offset 0x1b8, size 0x8
         uint:3 spectatetype;
         // offset 0x1c0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1c8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1d0, size 0x8
@@ -33119,15 +33119,15 @@ version 54 {
         // offset 0x2d8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x330, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x340, size 0x8
@@ -33207,15 +33207,15 @@ version 54 {
         // offset 0x620, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x678, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x680, size 0x10
@@ -33229,7 +33229,7 @@ version 54 {
         // offset 0x6a8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6b0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6b8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6c0, size 0x8
@@ -33283,7 +33283,7 @@ version 54 {
         // offset 0x7a0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7b0, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7b8, size 0x8
@@ -33329,7 +33329,7 @@ version 54 {
         // offset 0x870, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x878, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x880, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x888, size 0x8
@@ -33371,7 +33371,7 @@ version 54 {
         // offset 0x950, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x958, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x960, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x968, size 0x8
@@ -33403,7 +33403,7 @@ version 54 {
         // offset 0x9d8, size 0x8
         uint:7 drafttime;
         // offset 0x9e0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9e8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9f0, size 0x10
@@ -33433,7 +33433,7 @@ version 54 {
         // offset 0xa80, size 0x8
         uint:2 charactercustomization;
         // offset 0xa88, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa90, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa98, size 0x8
@@ -33611,13 +33611,13 @@ version 54 {
         // offset 0xb12, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb13, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb14, size 0x1
         bool headshotsonly;
         // offset 0xb15, size 0x1
         bool disablecontracts;
         // offset 0xb16, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb17, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb18, size 0x1
@@ -33703,7 +33703,7 @@ version 54 {
         // offset 0xb40, size 0x1
         bool zmperksactive;
         // offset 0xb41, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb42, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb43, size 0x1
@@ -33847,7 +33847,7 @@ version 54 {
         // offset 0xb88, size 0x1
         bool oldschoolmode;
         // offset 0xb89, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb8a, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb8b, size 0x1
@@ -33907,7 +33907,7 @@ version 54 {
         // offset 0xba6, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xba7, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xba8, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xba9, size 0x1
@@ -34071,7 +34071,7 @@ version 53 {
         // offset 0x1b8, size 0x8
         uint:3 spectatetype;
         // offset 0x1c0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1c8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1d0, size 0x8
@@ -34131,15 +34131,15 @@ version 53 {
         // offset 0x2d8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x310, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x330, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x340, size 0x8
@@ -34219,15 +34219,15 @@ version 53 {
         // offset 0x620, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x668, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x678, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x680, size 0x10
@@ -34241,7 +34241,7 @@ version 53 {
         // offset 0x6a8, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6b0, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6b8, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6c0, size 0x8
@@ -34295,7 +34295,7 @@ version 53 {
         // offset 0x7a0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7a8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7b0, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7b8, size 0x8
@@ -34341,7 +34341,7 @@ version 53 {
         // offset 0x870, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x878, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x880, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x888, size 0x8
@@ -34383,7 +34383,7 @@ version 53 {
         // offset 0x950, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x958, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x960, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x968, size 0x8
@@ -34415,7 +34415,7 @@ version 53 {
         // offset 0x9d8, size 0x8
         uint:7 drafttime;
         // offset 0x9e0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9e8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9f0, size 0x10
@@ -34445,7 +34445,7 @@ version 53 {
         // offset 0xa80, size 0x8
         uint:2 charactercustomization;
         // offset 0xa88, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa90, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa98, size 0x8
@@ -34623,13 +34623,13 @@ version 53 {
         // offset 0xb12, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xb13, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xb14, size 0x1
         bool headshotsonly;
         // offset 0xb15, size 0x1
         bool disablecontracts;
         // offset 0xb16, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xb17, size 0x1
         bool zmtalismanimpatient;
         // offset 0xb18, size 0x1
@@ -34715,7 +34715,7 @@ version 53 {
         // offset 0xb40, size 0x1
         bool zmperksactive;
         // offset 0xb41, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb42, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb43, size 0x1
@@ -34859,7 +34859,7 @@ version 53 {
         // offset 0xb88, size 0x1
         bool oldschoolmode;
         // offset 0xb89, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb8a, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb8b, size 0x1
@@ -34917,7 +34917,7 @@ version 53 {
         // offset 0xba5, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xba6, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xba7, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xba8, size 0x1
@@ -35081,7 +35081,7 @@ version 52 {
         // offset 0x1b0, size 0x8
         uint:3 spectatetype;
         // offset 0x1b8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1c0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1c8, size 0x8
@@ -35139,15 +35139,15 @@ version 52 {
         // offset 0x2c0, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2c8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2d8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2e8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2f8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x318, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x328, size 0x8
@@ -35227,15 +35227,15 @@ version 52 {
         // offset 0x608, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x610, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x620, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x630, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x640, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x650, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x660, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x668, size 0x10
@@ -35249,7 +35249,7 @@ version 52 {
         // offset 0x690, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x698, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6a0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6a8, size 0x8
@@ -35303,7 +35303,7 @@ version 52 {
         // offset 0x788, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x790, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x798, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7a0, size 0x8
@@ -35349,7 +35349,7 @@ version 52 {
         // offset 0x858, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x860, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x868, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x870, size 0x8
@@ -35391,7 +35391,7 @@ version 52 {
         // offset 0x938, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x940, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x948, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x950, size 0x8
@@ -35423,7 +35423,7 @@ version 52 {
         // offset 0x9c0, size 0x8
         uint:7 drafttime;
         // offset 0x9c8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9d0, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9d8, size 0x8
@@ -35451,7 +35451,7 @@ version 52 {
         // offset 0xa58, size 0x8
         uint:2 charactercustomization;
         // offset 0xa60, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa68, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa70, size 0x8
@@ -35629,13 +35629,13 @@ version 52 {
         // offset 0xaea, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xaeb, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xaec, size 0x1
         bool headshotsonly;
         // offset 0xaed, size 0x1
         bool disablecontracts;
         // offset 0xaee, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xaef, size 0x1
         bool zmtalismanimpatient;
         // offset 0xaf0, size 0x1
@@ -35721,7 +35721,7 @@ version 52 {
         // offset 0xb18, size 0x1
         bool zmperksactive;
         // offset 0xb19, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb1a, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb1b, size 0x1
@@ -35865,7 +35865,7 @@ version 52 {
         // offset 0xb60, size 0x1
         bool oldschoolmode;
         // offset 0xb61, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb62, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb63, size 0x1
@@ -35923,7 +35923,7 @@ version 52 {
         // offset 0xb7d, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb7e, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb7f, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb80, size 0x1
@@ -36087,7 +36087,7 @@ version 51 {
         // offset 0x1b0, size 0x8
         uint:3 spectatetype;
         // offset 0x1b8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1c0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1c8, size 0x8
@@ -36145,15 +36145,15 @@ version 51 {
         // offset 0x2c0, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2c8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2d8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2e8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2f8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x308, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x318, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x328, size 0x8
@@ -36233,15 +36233,15 @@ version 51 {
         // offset 0x608, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x610, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x620, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x630, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x640, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x650, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x660, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x668, size 0x10
@@ -36255,7 +36255,7 @@ version 51 {
         // offset 0x690, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x698, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6a0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6a8, size 0x8
@@ -36309,7 +36309,7 @@ version 51 {
         // offset 0x788, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x790, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x798, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7a0, size 0x8
@@ -36355,7 +36355,7 @@ version 51 {
         // offset 0x858, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x860, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x868, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x870, size 0x8
@@ -36397,7 +36397,7 @@ version 51 {
         // offset 0x938, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x940, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x948, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x950, size 0x8
@@ -36429,7 +36429,7 @@ version 51 {
         // offset 0x9c0, size 0x8
         uint:7 drafttime;
         // offset 0x9c8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9d0, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9d8, size 0x8
@@ -36457,7 +36457,7 @@ version 51 {
         // offset 0xa58, size 0x8
         uint:2 charactercustomization;
         // offset 0xa60, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa68, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa70, size 0x8
@@ -36635,13 +36635,13 @@ version 51 {
         // offset 0xaea, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xaeb, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xaec, size 0x1
         bool headshotsonly;
         // offset 0xaed, size 0x1
         bool disablecontracts;
         // offset 0xaee, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xaef, size 0x1
         bool zmtalismanimpatient;
         // offset 0xaf0, size 0x1
@@ -36727,7 +36727,7 @@ version 51 {
         // offset 0xb18, size 0x1
         bool zmperksactive;
         // offset 0xb19, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb1a, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb1b, size 0x1
@@ -36871,7 +36871,7 @@ version 51 {
         // offset 0xb60, size 0x1
         bool oldschoolmode;
         // offset 0xb61, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb62, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb63, size 0x1
@@ -36929,7 +36929,7 @@ version 51 {
         // offset 0xb7d, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb7e, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb7f, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb80, size 0x1
@@ -37089,7 +37089,7 @@ version 50 {
         // offset 0x1a8, size 0x8
         uint:3 spectatetype;
         // offset 0x1b0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1c0, size 0x8
@@ -37147,15 +37147,15 @@ version 50 {
         // offset 0x2b8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2c0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2d0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x310, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x320, size 0x8
@@ -37235,15 +37235,15 @@ version 50 {
         // offset 0x600, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x608, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x618, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x658, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x660, size 0x10
@@ -37257,7 +37257,7 @@ version 50 {
         // offset 0x688, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x690, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x698, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6a0, size 0x8
@@ -37311,7 +37311,7 @@ version 50 {
         // offset 0x780, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x788, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x790, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x798, size 0x8
@@ -37357,7 +37357,7 @@ version 50 {
         // offset 0x850, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x858, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x860, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x868, size 0x8
@@ -37399,7 +37399,7 @@ version 50 {
         // offset 0x930, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x938, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x940, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x948, size 0x8
@@ -37431,7 +37431,7 @@ version 50 {
         // offset 0x9b8, size 0x8
         uint:7 drafttime;
         // offset 0x9c0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9c8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9d0, size 0x8
@@ -37459,7 +37459,7 @@ version 50 {
         // offset 0xa50, size 0x8
         uint:2 charactercustomization;
         // offset 0xa58, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa60, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa68, size 0x8
@@ -37635,13 +37635,13 @@ version 50 {
         // offset 0xae1, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xae2, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xae3, size 0x1
         bool headshotsonly;
         // offset 0xae4, size 0x1
         bool disablecontracts;
         // offset 0xae5, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xae6, size 0x1
         bool zmtalismanimpatient;
         // offset 0xae7, size 0x1
@@ -37727,7 +37727,7 @@ version 50 {
         // offset 0xb0f, size 0x1
         bool zmperksactive;
         // offset 0xb10, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb11, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb12, size 0x1
@@ -37871,7 +37871,7 @@ version 50 {
         // offset 0xb57, size 0x1
         bool oldschoolmode;
         // offset 0xb58, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb59, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb5a, size 0x1
@@ -37929,7 +37929,7 @@ version 50 {
         // offset 0xb74, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb75, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb76, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb77, size 0x1
@@ -38089,7 +38089,7 @@ version 49 {
         // offset 0x1a8, size 0x8
         uint:3 spectatetype;
         // offset 0x1b0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1c0, size 0x8
@@ -38147,15 +38147,15 @@ version 49 {
         // offset 0x2b8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2c0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2d0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x310, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x320, size 0x8
@@ -38235,15 +38235,15 @@ version 49 {
         // offset 0x618, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x620, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x630, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x640, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x650, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x660, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x670, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x678, size 0x10
@@ -38257,7 +38257,7 @@ version 49 {
         // offset 0x6a0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6a8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6b0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6b8, size 0x8
@@ -38311,7 +38311,7 @@ version 49 {
         // offset 0x798, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7a0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7a8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7b0, size 0x8
@@ -38357,7 +38357,7 @@ version 49 {
         // offset 0x868, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x870, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x878, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x880, size 0x8
@@ -38399,7 +38399,7 @@ version 49 {
         // offset 0x948, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x950, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x958, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x960, size 0x8
@@ -38431,7 +38431,7 @@ version 49 {
         // offset 0x9d0, size 0x8
         uint:7 drafttime;
         // offset 0x9d8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9e0, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9e8, size 0x8
@@ -38459,7 +38459,7 @@ version 49 {
         // offset 0xa68, size 0x8
         uint:2 charactercustomization;
         // offset 0xa70, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa78, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa80, size 0x8
@@ -38635,13 +38635,13 @@ version 49 {
         // offset 0xaf9, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xafa, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xafb, size 0x1
         bool headshotsonly;
         // offset 0xafc, size 0x1
         bool disablecontracts;
         // offset 0xafd, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xafe, size 0x1
         bool zmtalismanimpatient;
         // offset 0xaff, size 0x1
@@ -38727,7 +38727,7 @@ version 49 {
         // offset 0xb27, size 0x1
         bool zmperksactive;
         // offset 0xb28, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb29, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb2a, size 0x1
@@ -38871,7 +38871,7 @@ version 49 {
         // offset 0xb6f, size 0x1
         bool oldschoolmode;
         // offset 0xb70, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb71, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb72, size 0x1
@@ -38929,7 +38929,7 @@ version 49 {
         // offset 0xb8c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb8d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb8e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb8f, size 0x1
@@ -39089,7 +39089,7 @@ version 48 {
         // offset 0x1a8, size 0x8
         uint:3 spectatetype;
         // offset 0x1b0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b8, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1c0, size 0x8
@@ -39147,15 +39147,15 @@ version 48 {
         // offset 0x2b8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2c0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2d0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x300, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x310, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x320, size 0x8
@@ -39235,15 +39235,15 @@ version 48 {
         // offset 0x618, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x620, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x630, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x640, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x650, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x660, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x670, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x678, size 0x10
@@ -39257,7 +39257,7 @@ version 48 {
         // offset 0x6a0, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x6a8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6b0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6b8, size 0x8
@@ -39311,7 +39311,7 @@ version 48 {
         // offset 0x798, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x7a0, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x7a8, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7b0, size 0x8
@@ -39357,7 +39357,7 @@ version 48 {
         // offset 0x868, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x870, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x878, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x880, size 0x8
@@ -39399,7 +39399,7 @@ version 48 {
         // offset 0x948, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x950, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x958, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x960, size 0x8
@@ -39431,7 +39431,7 @@ version 48 {
         // offset 0x9d0, size 0x8
         uint:7 drafttime;
         // offset 0x9d8, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9e0, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9e8, size 0x8
@@ -39459,7 +39459,7 @@ version 48 {
         // offset 0xa68, size 0x8
         uint:2 charactercustomization;
         // offset 0xa70, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa78, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa80, size 0x8
@@ -39635,13 +39635,13 @@ version 48 {
         // offset 0xaf9, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xafa, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xafb, size 0x1
         bool headshotsonly;
         // offset 0xafc, size 0x1
         bool disablecontracts;
         // offset 0xafd, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xafe, size 0x1
         bool zmtalismanimpatient;
         // offset 0xaff, size 0x1
@@ -39727,7 +39727,7 @@ version 48 {
         // offset 0xb27, size 0x1
         bool zmperksactive;
         // offset 0xb28, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb29, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb2a, size 0x1
@@ -39871,7 +39871,7 @@ version 48 {
         // offset 0xb6f, size 0x1
         bool oldschoolmode;
         // offset 0xb70, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb71, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb72, size 0x1
@@ -39929,7 +39929,7 @@ version 48 {
         // offset 0xb8c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb8d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb8e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb8f, size 0x1
@@ -40085,7 +40085,7 @@ version 47 {
         // offset 0x1a0, size 0x8
         uint:3 spectatetype;
         // offset 0x1a8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1b8, size 0x8
@@ -40143,15 +40143,15 @@ version 47 {
         // offset 0x2b0, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2b8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2c8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2d8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2e8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x2f8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x308, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x318, size 0x8
@@ -40231,15 +40231,15 @@ version 47 {
         // offset 0x610, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x618, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x668, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x670, size 0x10
@@ -40251,7 +40251,7 @@ version 47 {
         // offset 0x690, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0x698, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6a0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6a8, size 0x8
@@ -40305,7 +40305,7 @@ version 47 {
         // offset 0x788, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x790, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x798, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7a0, size 0x8
@@ -40351,7 +40351,7 @@ version 47 {
         // offset 0x858, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x860, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x868, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x870, size 0x8
@@ -40393,7 +40393,7 @@ version 47 {
         // offset 0x938, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x940, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x948, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x950, size 0x8
@@ -40423,7 +40423,7 @@ version 47 {
         // offset 0x9b8, size 0x8
         uint:7 drafttime;
         // offset 0x9c0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9c8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9d0, size 0x8
@@ -40451,7 +40451,7 @@ version 47 {
         // offset 0xa50, size 0x8
         uint:2 charactercustomization;
         // offset 0xa58, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa60, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa68, size 0x8
@@ -40623,13 +40623,13 @@ version 47 {
         // offset 0xadf, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xae0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xae1, size 0x1
         bool headshotsonly;
         // offset 0xae2, size 0x1
         bool disablecontracts;
         // offset 0xae3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xae4, size 0x1
         bool zmtalismanimpatient;
         // offset 0xae5, size 0x1
@@ -40713,7 +40713,7 @@ version 47 {
         // offset 0xb0c, size 0x1
         bool zmperksactive;
         // offset 0xb0d, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb0e, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb0f, size 0x1
@@ -40845,7 +40845,7 @@ version 47 {
         // offset 0xb4e, size 0x1
         bool oldschoolmode;
         // offset 0xb4f, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb50, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb51, size 0x1
@@ -40897,7 +40897,7 @@ version 47 {
         // offset 0xb68, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb69, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb6a, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb6b, size 0x1
@@ -41049,7 +41049,7 @@ version 46 {
         // offset 0x1a0, size 0x8
         uint:3 spectatetype;
         // offset 0x1a8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1b8, size 0x8
@@ -41107,15 +41107,15 @@ version 46 {
         // offset 0x2b0, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2b8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2c8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2d8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2e8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x2f8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x308, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x318, size 0x8
@@ -41195,15 +41195,15 @@ version 46 {
         // offset 0x610, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x618, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x668, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x670, size 0x10
@@ -41215,7 +41215,7 @@ version 46 {
         // offset 0x690, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0x698, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6a0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6a8, size 0x8
@@ -41269,7 +41269,7 @@ version 46 {
         // offset 0x788, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x790, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x798, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7a0, size 0x8
@@ -41315,7 +41315,7 @@ version 46 {
         // offset 0x858, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x860, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x868, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x870, size 0x8
@@ -41357,7 +41357,7 @@ version 46 {
         // offset 0x938, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x940, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x948, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x950, size 0x8
@@ -41387,7 +41387,7 @@ version 46 {
         // offset 0x9b8, size 0x8
         uint:7 drafttime;
         // offset 0x9c0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9c8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9d0, size 0x8
@@ -41415,7 +41415,7 @@ version 46 {
         // offset 0xa50, size 0x8
         uint:2 charactercustomization;
         // offset 0xa58, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa60, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa68, size 0x8
@@ -41587,13 +41587,13 @@ version 46 {
         // offset 0xadf, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xae0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xae1, size 0x1
         bool headshotsonly;
         // offset 0xae2, size 0x1
         bool disablecontracts;
         // offset 0xae3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xae4, size 0x1
         bool zmtalismanimpatient;
         // offset 0xae5, size 0x1
@@ -41677,7 +41677,7 @@ version 46 {
         // offset 0xb0c, size 0x1
         bool zmperksactive;
         // offset 0xb0d, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb0e, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb0f, size 0x1
@@ -41807,7 +41807,7 @@ version 46 {
         // offset 0xb4d, size 0x1
         bool oldschoolmode;
         // offset 0xb4e, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb4f, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb50, size 0x1
@@ -41859,7 +41859,7 @@ version 46 {
         // offset 0xb67, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb68, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb69, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb6a, size 0x1
@@ -42011,7 +42011,7 @@ version 45 {
         // offset 0x1a0, size 0x8
         uint:3 spectatetype;
         // offset 0x1a8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1b8, size 0x8
@@ -42069,15 +42069,15 @@ version 45 {
         // offset 0x2b0, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2b8, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2c8, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2d8, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2e8, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x2f8, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x308, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x318, size 0x8
@@ -42157,15 +42157,15 @@ version 45 {
         // offset 0x610, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x618, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x658, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x668, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x670, size 0x10
@@ -42177,7 +42177,7 @@ version 45 {
         // offset 0x690, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0x698, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x6a0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x6a8, size 0x8
@@ -42231,7 +42231,7 @@ version 45 {
         // offset 0x788, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x790, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x798, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x7a0, size 0x8
@@ -42277,7 +42277,7 @@ version 45 {
         // offset 0x858, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x860, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x868, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x870, size 0x8
@@ -42319,7 +42319,7 @@ version 45 {
         // offset 0x938, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x940, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x948, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x950, size 0x8
@@ -42349,7 +42349,7 @@ version 45 {
         // offset 0x9b8, size 0x8
         uint:7 drafttime;
         // offset 0x9c0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x9c8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9d0, size 0x8
@@ -42377,7 +42377,7 @@ version 45 {
         // offset 0xa50, size 0x8
         uint:2 charactercustomization;
         // offset 0xa58, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa60, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa68, size 0x8
@@ -42549,13 +42549,13 @@ version 45 {
         // offset 0xadf, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xae0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xae1, size 0x1
         bool headshotsonly;
         // offset 0xae2, size 0x1
         bool disablecontracts;
         // offset 0xae3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xae4, size 0x1
         bool zmtalismanimpatient;
         // offset 0xae5, size 0x1
@@ -42639,7 +42639,7 @@ version 45 {
         // offset 0xb0c, size 0x1
         bool zmperksactive;
         // offset 0xb0d, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xb0e, size 0x1
         bool zmequipmentisenabled;
         // offset 0xb0f, size 0x1
@@ -42767,7 +42767,7 @@ version 45 {
         // offset 0xb4c, size 0x1
         bool oldschoolmode;
         // offset 0xb4d, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb4e, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb4f, size 0x1
@@ -42819,7 +42819,7 @@ version 45 {
         // offset 0xb66, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb67, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb68, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb69, size 0x1
@@ -42971,7 +42971,7 @@ version 44 {
         // offset 0x1a0, size 0x8
         uint:3 spectatetype;
         // offset 0x1a8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1b8, size 0x8
@@ -43027,15 +43027,15 @@ version 44 {
         // offset 0x2a8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2b0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2c0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2d0, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x300, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x310, size 0x8
@@ -43113,15 +43113,15 @@ version 44 {
         // offset 0x600, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0x608, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x618, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x658, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x660, size 0x10
@@ -43133,7 +43133,7 @@ version 44 {
         // offset 0x680, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0x688, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x690, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x698, size 0x8
@@ -43185,7 +43185,7 @@ version 44 {
         // offset 0x770, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x778, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x780, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x788, size 0x8
@@ -43227,7 +43227,7 @@ version 44 {
         // offset 0x830, size 0x8
         uint:3 zmhealthstartingbars;
         // offset 0x838, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x840, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x848, size 0x8
@@ -43269,7 +43269,7 @@ version 44 {
         // offset 0x910, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x918, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x920, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x928, size 0x8
@@ -43297,7 +43297,7 @@ version 44 {
         // offset 0x988, size 0x8
         uint:7 drafttime;
         // offset 0x990, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x998, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9a0, size 0x8
@@ -43325,7 +43325,7 @@ version 44 {
         // offset 0xa20, size 0x8
         uint:2 charactercustomization;
         // offset 0xa28, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa30, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa38, size 0x8
@@ -43497,13 +43497,13 @@ version 44 {
         // offset 0xaaf, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xab0, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xab1, size 0x1
         bool headshotsonly;
         // offset 0xab2, size 0x1
         bool disablecontracts;
         // offset 0xab3, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xab4, size 0x1
         bool zmtalismanimpatient;
         // offset 0xab5, size 0x1
@@ -43585,7 +43585,7 @@ version 44 {
         // offset 0xadb, size 0x1
         bool zmperksactive;
         // offset 0xadc, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xadd, size 0x1
         bool zmequipmentisenabled;
         // offset 0xade, size 0x1
@@ -43711,7 +43711,7 @@ version 44 {
         // offset 0xb1a, size 0x1
         bool oldschoolmode;
         // offset 0xb1b, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb1c, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb1d, size 0x1
@@ -43763,7 +43763,7 @@ version 44 {
         // offset 0xb34, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb35, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb36, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb37, size 0x1
@@ -43915,7 +43915,7 @@ version 43 {
         // offset 0x1a0, size 0x8
         uint:3 spectatetype;
         // offset 0x1a8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1b8, size 0x8
@@ -43971,15 +43971,15 @@ version 43 {
         // offset 0x2a8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2b0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2c0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2d0, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x300, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x310, size 0x8
@@ -44057,15 +44057,15 @@ version 43 {
         // offset 0x600, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0x608, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x618, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x658, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x660, size 0x10
@@ -44077,7 +44077,7 @@ version 43 {
         // offset 0x680, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0x688, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x690, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x698, size 0x8
@@ -44129,7 +44129,7 @@ version 43 {
         // offset 0x770, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x778, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x780, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x788, size 0x8
@@ -44171,7 +44171,7 @@ version 43 {
         // offset 0x830, size 0x8
         uint:3 zmhealthstartingbars;
         // offset 0x838, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x840, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x848, size 0x8
@@ -44213,7 +44213,7 @@ version 43 {
         // offset 0x910, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x918, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x920, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x928, size 0x8
@@ -44241,7 +44241,7 @@ version 43 {
         // offset 0x988, size 0x8
         uint:7 drafttime;
         // offset 0x990, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x998, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9a0, size 0x8
@@ -44267,7 +44267,7 @@ version 43 {
         // offset 0xa18, size 0x8
         uint:2 charactercustomization;
         // offset 0xa20, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa28, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa30, size 0x8
@@ -44439,13 +44439,13 @@ version 43 {
         // offset 0xaa7, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xaa8, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xaa9, size 0x1
         bool headshotsonly;
         // offset 0xaaa, size 0x1
         bool disablecontracts;
         // offset 0xaab, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xaac, size 0x1
         bool zmtalismanimpatient;
         // offset 0xaad, size 0x1
@@ -44527,7 +44527,7 @@ version 43 {
         // offset 0xad3, size 0x1
         bool zmperksactive;
         // offset 0xad4, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xad5, size 0x1
         bool zmequipmentisenabled;
         // offset 0xad6, size 0x1
@@ -44653,7 +44653,7 @@ version 43 {
         // offset 0xb12, size 0x1
         bool oldschoolmode;
         // offset 0xb13, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb14, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb15, size 0x1
@@ -44705,7 +44705,7 @@ version 43 {
         // offset 0xb2c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb2d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb2e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb2f, size 0x1
@@ -44857,7 +44857,7 @@ version 42 {
         // offset 0x1a0, size 0x8
         uint:3 spectatetype;
         // offset 0x1a8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1b8, size 0x8
@@ -44913,15 +44913,15 @@ version 42 {
         // offset 0x2a8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2b0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2c0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2d0, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x300, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x310, size 0x8
@@ -44999,15 +44999,15 @@ version 42 {
         // offset 0x600, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0x608, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x618, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x658, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x660, size 0x10
@@ -45019,7 +45019,7 @@ version 42 {
         // offset 0x680, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0x688, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x690, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x698, size 0x8
@@ -45071,7 +45071,7 @@ version 42 {
         // offset 0x770, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x778, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x780, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x788, size 0x8
@@ -45113,7 +45113,7 @@ version 42 {
         // offset 0x830, size 0x8
         uint:3 zmhealthstartingbars;
         // offset 0x838, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x840, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x848, size 0x8
@@ -45155,7 +45155,7 @@ version 42 {
         // offset 0x910, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x918, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x920, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x928, size 0x8
@@ -45183,7 +45183,7 @@ version 42 {
         // offset 0x988, size 0x8
         uint:7 drafttime;
         // offset 0x990, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x998, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9a0, size 0x8
@@ -45209,7 +45209,7 @@ version 42 {
         // offset 0xa18, size 0x8
         uint:2 charactercustomization;
         // offset 0xa20, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa28, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa30, size 0x8
@@ -45381,13 +45381,13 @@ version 42 {
         // offset 0xaa7, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xaa8, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xaa9, size 0x1
         bool headshotsonly;
         // offset 0xaaa, size 0x1
         bool disablecontracts;
         // offset 0xaab, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xaac, size 0x1
         bool zmtalismanimpatient;
         // offset 0xaad, size 0x1
@@ -45469,7 +45469,7 @@ version 42 {
         // offset 0xad3, size 0x1
         bool zmperksactive;
         // offset 0xad4, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xad5, size 0x1
         bool zmequipmentisenabled;
         // offset 0xad6, size 0x1
@@ -45595,7 +45595,7 @@ version 42 {
         // offset 0xb12, size 0x1
         bool oldschoolmode;
         // offset 0xb13, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb14, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb15, size 0x1
@@ -45647,7 +45647,7 @@ version 42 {
         // offset 0xb2c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb2d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb2e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb2f, size 0x1
@@ -45799,7 +45799,7 @@ version 41 {
         // offset 0x1a0, size 0x8
         uint:3 spectatetype;
         // offset 0x1a8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1b8, size 0x8
@@ -45855,15 +45855,15 @@ version 41 {
         // offset 0x2a8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2b0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2c0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2d0, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x300, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x310, size 0x8
@@ -45941,15 +45941,15 @@ version 41 {
         // offset 0x600, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0x608, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x618, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x628, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x638, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x648, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x658, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x660, size 0x10
@@ -45961,7 +45961,7 @@ version 41 {
         // offset 0x680, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0x688, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x690, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x698, size 0x8
@@ -46013,7 +46013,7 @@ version 41 {
         // offset 0x770, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x778, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x780, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x788, size 0x8
@@ -46055,7 +46055,7 @@ version 41 {
         // offset 0x830, size 0x8
         uint:3 zmhealthstartingbars;
         // offset 0x838, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x840, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x848, size 0x8
@@ -46097,7 +46097,7 @@ version 41 {
         // offset 0x910, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x918, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x920, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x928, size 0x8
@@ -46125,7 +46125,7 @@ version 41 {
         // offset 0x988, size 0x8
         uint:7 drafttime;
         // offset 0x990, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x998, size 0x8
         uint:7 objectivespawntime;
         // offset 0x9a0, size 0x8
@@ -46149,7 +46149,7 @@ version 41 {
         // offset 0xa10, size 0x8
         uint:2 charactercustomization;
         // offset 0xa18, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xa20, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xa28, size 0x8
@@ -46319,13 +46319,13 @@ version 41 {
         // offset 0xa97, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xa98, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xa99, size 0x1
         bool headshotsonly;
         // offset 0xa9a, size 0x1
         bool disablecontracts;
         // offset 0xa9b, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xa9c, size 0x1
         bool zmtalismanimpatient;
         // offset 0xa9d, size 0x1
@@ -46407,7 +46407,7 @@ version 41 {
         // offset 0xac3, size 0x1
         bool zmperksactive;
         // offset 0xac4, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xac5, size 0x1
         bool zmequipmentisenabled;
         // offset 0xac6, size 0x1
@@ -46533,7 +46533,7 @@ version 41 {
         // offset 0xb02, size 0x1
         bool oldschoolmode;
         // offset 0xb03, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xb04, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xb05, size 0x1
@@ -46585,7 +46585,7 @@ version 41 {
         // offset 0xb1c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xb1d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xb1e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xb1f, size 0x1
@@ -46737,7 +46737,7 @@ version 40 {
         // offset 0x1a0, size 0x8
         uint:3 spectatetype;
         // offset 0x1a8, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1b0, size 0x8
         uint:2 randomobjectivelocations;
         // offset 0x1b8, size 0x8
@@ -46793,15 +46793,15 @@ version 40 {
         // offset 0x2a8, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x2b0, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x2c0, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x2d0, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x2e0, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x2f0, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x300, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x310, size 0x8
@@ -46879,15 +46879,15 @@ version 40 {
         // offset 0x560, size 0x8
         fixed<8,2> playerhealthregentime;
         // offset 0x568, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x578, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x588, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x598, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x5a8, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x5b8, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x5c0, size 0x10
@@ -46899,7 +46899,7 @@ version 40 {
         // offset 0x5e0, size 0x8
         fixed<8,2> gameadvertisementruletimeleft;
         // offset 0x5e8, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x5f0, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x5f8, size 0x8
@@ -46951,7 +46951,7 @@ version 40 {
         // offset 0x6d0, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x6d8, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x6e0, size 0x8
         uint:3 zmhealthregenrate;
         // offset 0x6e8, size 0x8
@@ -46993,7 +46993,7 @@ version 40 {
         // offset 0x790, size 0x8
         uint:3 zmhealthstartingbars;
         // offset 0x798, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x7a0, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x7a8, size 0x8
@@ -47035,7 +47035,7 @@ version 40 {
         // offset 0x870, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0x878, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0x880, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0x888, size 0x8
@@ -47063,7 +47063,7 @@ version 40 {
         // offset 0x8e8, size 0x8
         uint:7 drafttime;
         // offset 0x8f0, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0x8f8, size 0x8
         uint:7 objectivespawntime;
         // offset 0x900, size 0x8
@@ -47087,7 +47087,7 @@ version 40 {
         // offset 0x970, size 0x8
         uint:2 charactercustomization;
         // offset 0x978, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0x980, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0x988, size 0x8
@@ -47257,13 +47257,13 @@ version 40 {
         // offset 0x9f7, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0x9f8, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0x9f9, size 0x1
         bool headshotsonly;
         // offset 0x9fa, size 0x1
         bool disablecontracts;
         // offset 0x9fb, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0x9fc, size 0x1
         bool zmtalismanimpatient;
         // offset 0x9fd, size 0x1
@@ -47345,7 +47345,7 @@ version 40 {
         // offset 0xa23, size 0x1
         bool zmperksactive;
         // offset 0xa24, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xa25, size 0x1
         bool zmequipmentisenabled;
         // offset 0xa26, size 0x1
@@ -47471,7 +47471,7 @@ version 40 {
         // offset 0xa62, size 0x1
         bool oldschoolmode;
         // offset 0xa63, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xa64, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xa65, size 0x1
@@ -47523,7 +47523,7 @@ version 40 {
         // offset 0xa7c, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xa7d, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xa7e, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xa7f, size 0x1

@@ -1,5 +1,5 @@
 {
-    "name": "#hash_313d62d5610c5398",
+    "name": "#po_c_t8_mp_spe_swat_roman",
     "desc": "#hash_546a942e348c5da2",
     "unk10": "[32h0x4=][ll0x0=1][f0x0=1.4013e-45][f0x4=0] 01 00 00 00 00 00 00 00",
     "unk30": "[ll0x0=100000001][f0x0=1.4013e-45][f0x4=1.4013e-45] 01 00 00 00 01 00 00 00",
@@ -14,7 +14,7 @@
             "unk68:unk10": true,
             "model": "#c_t8_mp_spe_swat_roman_head1",
             "unk68:unk48": [
-                "#hash_4bd976ef2048795e"
+                "#mc/mtl_c_t8_mp_spe_swat_roman1_helmet"
             ],
             "unk68:unk50": 2
         },
@@ -23,8 +23,8 @@
             "unk68:unk10": true,
             "model": "#c_t8_mp_spe_swat_roman_head2",
             "unk68:unk48": [
-                "#hash_6600d00064a68cfa",
-                "#hash_6cfeedc5096630da",
+                "#mc/mtl_c_t8_mp_spe_swat_roman2_head_headgear",
+                "#mc/mtl_c_t8_mp_spe_swat_roman2_head_headgear_crown",
                 "#mc/mtl_c_t8_mp_spe_swat_head1_headgear_cst",
                 "#mc/mtl_c_t8_mp_spe_swat_head1_headgear"
             ],

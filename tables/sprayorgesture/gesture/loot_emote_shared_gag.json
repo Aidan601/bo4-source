@@ -5,7 +5,7 @@
     "gesture2": "#boast_gag_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_448c655c3e05b2fe",
+        "title": "localized18#emotes/gag",
         "icon": "image#ui_icon_emotes_gag",
         "isdefault": 0
     }

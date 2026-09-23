@@ -1,4 +1,4 @@
-#using script_301f64a4090c381a;
+#using scripts\zm_common\zm_faction_buffs;
 #using scripts\abilities\ability_player;
 #using scripts\core_common\ai\zombie_utility;
 #using scripts\core_common\ai_shared;
@@ -269,7 +269,7 @@ function function_56d2c5d0( n_points )
         if ( self.var_184a3854 >= self.var_9f176816 )
         {
             self.var_184a3854 = 0;
-            level notify( #"hash_159486ad4746f53e", { #e_player:self } );
+            level notify( #"hero_weapon_recharged", { #e_player:self } );
             
             switch ( self.var_72d6f15d )
             {
@@ -659,8 +659,8 @@ function hero_weapon_ready( n_slot, w_hero )
 // Size: 0x1ce
 function function_9a100883( weapon_level, enabled )
 {
-    self notify( #"hash_6b01968912321cc5" );
-    self endon( #"hash_6b01968912321cc5", #"disconnect" );
+    self notify( #"new_hero_weapon_given" );
+    self endon( #"new_hero_weapon_given", #"disconnect" );
     self.var_39b77a76 = 1;
     self.var_c9279111 = 0;
     self.var_821c9bf3 = 0;
@@ -692,7 +692,7 @@ function function_9a100883( weapon_level, enabled )
 function function_6bba3829( e_player, ai_enemy )
 {
     /#
-        var_ea65bd9c = getdvarstring( #"hash_16e05c0b86ebb83d", "<dev string:x12e>" );
+        var_ea65bd9c = getdvarstring( #"scr_zm_hero_weapon_system", "<dev string:x12e>" );
         
         if ( var_ea65bd9c == "<dev string:x138>" )
         {
@@ -788,7 +788,7 @@ function function_6bba3829( e_player, ai_enemy )
 function function_3fe4a02e( e_player, n_points, str_event )
 {
     /#
-        var_ea65bd9c = getdvarstring( #"hash_16e05c0b86ebb83d", "<dev string:x12e>" );
+        var_ea65bd9c = getdvarstring( #"scr_zm_hero_weapon_system", "<dev string:x12e>" );
         
         if ( var_ea65bd9c == "<dev string:x138>" )
         {
@@ -1133,9 +1133,9 @@ function function_cab29b9f()
         return;
     }
     
-    self val::set( #"hash_558d809e7921fa79", "takedamage", 0 );
+    self val::set( #"hero_weapon_damage_immunity", "takedamage", 0 );
     wait 0.5;
-    self val::reset( #"hash_558d809e7921fa79", "takedamage" );
+    self val::reset( #"hero_weapon_damage_immunity", "takedamage" );
 }
 
 // Namespace zm_hero_weapon/zm_hero_weapon

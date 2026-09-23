@@ -2,7 +2,7 @@
     "name": "#tr_powersemi_t8_upgraded_zm",
     "baseWeapon": "#tr_powersemi_t8_upgraded",
     "displayname": "#zmweapon/tr_powersemi_t8_upgraded",
-    "xhash_60": "#hash_6f0f2c46aaa1964b",
+    "xhash_60": "#au_tr_powersemi_t8",
     "weapon70": "#tr_powersemi_t8",
     "soundbank": "#tr_powersemi_t8_upgraded_soundbank",
     "scrstr_8c8": [
@@ -55,18 +55,18 @@
             "1 0"
         ]
     ],
-    "firesounddistant": "#hash_56369e9a0553981f",
-    "firesound": "#hash_24d194855279d036",
-    "firesoundplayer": "#hash_92ab384fa6350bb",
-    "sound1d0": "#hash_42947c781e8d48ec",
+    "firesounddistant": "#wpn_assault_fire_distant",
+    "firesound": "#wpn_tr_powersemi_fire_pap_npc",
+    "firesoundplayer": "#wpn_tr_powersemi_fire_pap_plr",
+    "sound1d0": "#wpn_tr_powersemi_fire_npc",
     "sound1e0": "#hash_66dc17c6260010db",
-    "sound200": "#hash_3ea9cf778b50c1ad",
+    "sound200": "#wpn_tr_powersemi_fire_plr",
     "sound210": "#hash_271370c5b9078536",
-    "sound240": "#hash_474a10cd847c7803",
-    "sound250": "#hash_146e19cd67fe19de",
-    "sound260": "#hash_515f54aa1f553686",
-    "sound600": "#hash_209cb2974ae55ec0",
-    "sound610": "#hash_209cb2974ae55ec0",
+    "sound240": "#wpn_rifle_dryfire_npc",
+    "sound250": "#wpn_rifle_dryfire_plr",
+    "sound260": "#prj_crack_supersonic",
+    "sound600": "#prj_brass_impact_large",
+    "sound610": "#prj_brass_impact_large",
     "sound800": "#hash_5ee962527afebfb1",
     "sound810": "#hash_5ee962527afebfb1",
     "tunables1": "#tr_powersemi_t8_upgraded_tunables_zm",
@@ -76,11 +76,11 @@
     "weaponIconXCam": "#hash_ce9a910c37f05cb4",
     "attachments": [
         "#defaultattachment",
-        "#hash_2bd64b9e627a70cf"
+        "#acog_tr_upgraded"
     ],
     "attachmentUniques": [
         "#hash_bb7257f62d48575e",
-        "#hash_295e434c192d8c6a"
+        "#au_tr_powersemi_t8_acog_tr_upgraded"
     ],
     "sharedWeaponSounds": "#rifle",
     "ballisticDesc": "#hash_d61ffd897d1b6977",

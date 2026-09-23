@@ -785,10 +785,10 @@ function function_dd7755c1()
     {
         animrate = 1;
         
-        if ( isdefined( self.var_85c3882d ) && self.var_85c3882d )
+        if ( isdefined( self.inconcertinawire ) && self.inconcertinawire )
         {
             animrate -= 0.3;
-            self.var_85c3882d = 0;
+            self.inconcertinawire = 0;
         }
         
         if ( isdefined( self.beingmicrowavedby ) && self.beingmicrowavedby.size > 0 )
@@ -979,7 +979,7 @@ function robot_damage( einflictor, eattacker, idamage, idflags, smeansofdeath, w
         
         if ( isplayer( eattacker ) )
         {
-            level thread popups::displayteammessagetoall( #"hash_6fd616c1d7988357", eattacker );
+            level thread popups::displayteammessagetoall( #"mp/escort_robot_disabled", eattacker );
             level.robot recordgameeventnonplayer( "robot_disabled" );
             
             if ( distance2dsquared( self.origin, level.goalobject.trigger.origin ) < ( level.goalobject.trigger.radius + 50 ) * ( level.goalobject.trigger.radius + 50 ) )
@@ -1087,7 +1087,7 @@ function robot_damage_none( einflictor, eattacker, idamage, idflags, smeansofdea
 function shutdown_robot()
 {
     self.active = 0;
-    self val::set( #"hash_3de2bce887b7b68d", "ignoreme", 1 );
+    self val::set( #"escort_robot_shutdown", "ignoreme", 1 );
     self.canwalk = 0;
     self stop_robot();
     self notify( #"robot_shutdown" );
@@ -1122,7 +1122,7 @@ function reboot_robot()
     level endon( #"game_ended" );
     self.active = 1;
     self.shutdowndamage = 0;
-    self val::reset( #"hash_3de2bce887b7b68d", "ignoreme" );
+    self val::reset( #"escort_robot_shutdown", "ignoreme" );
     self notify( #"robot_reboot" );
     
     if ( isdefined( level.shutdowndamage ) && level.shutdowndamage )

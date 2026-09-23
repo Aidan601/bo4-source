@@ -39,22 +39,22 @@
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
     "tunables1": "#melee_cutlass_t8_tunables_wz",
-    "weaponCamo": "#hash_41cb913ec968311b",
-    "cacWeaponXCam": "#hash_708de109c1d50988",
-    "cacAttachmentsXCam": "#hash_708de109c1d50988",
-    "weaponIconXCam": "#hash_38f6827505fa8ae0",
+    "weaponCamo": "#camo_t8_melee_cutlass",
+    "cacWeaponXCam": "#ui_cam_cac_melee_cutlass",
+    "cacAttachmentsXCam": "#ui_cam_cac_melee_cutlass",
+    "weaponIconXCam": "#ui_cam_icon_melee_cutlass",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_50dd91c5badbedd6"
+        "#au_melee_cutlass_t8_none"
     ],
     "sharedWeaponSounds": "#cutlass",
     "viewmodel": [
-        "#hash_58578457d4955dca"
+        "#wpn_t8_loot_pirate_cutlass_view"
     ],
     "worldModel": [
-        "#hash_6f8d01828eb0681d"
+        "#wpn_t8_loot_pirate_cutlass_world"
     ],
     "inventoryIcon": "#hash_985613e95d929d38",
     "inventoryIconZm": "#ui_icon_weapon_hud_melee_cutlass",

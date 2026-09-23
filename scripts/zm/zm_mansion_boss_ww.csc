@@ -58,7 +58,7 @@ function init_clientfields()
 function init_fx()
 {
     level._effect[ #"hash_1e4fa83f4db14c46" ] = #"hash_40a93ef9da58e006";
-    level._effect[ #"fx8_boss_eye_glow" ] = #"hash_1cd0bfd0a3ff1817";
+    level._effect[ #"fx8_boss_eye_glow" ] = #"maps/zm_mansion/fx8_boss_eye_glow";
     level._effect[ #"hash_420110993bafb86b" ] = #"hash_4edfb7b10f36a12b";
     level._effect[ #"hash_3665813f5609df50" ] = #"hash_105035871586710";
     level._effect[ #"hash_2699e8762805fbdc" ] = #"hash_f378b1b7c38569c";
@@ -92,12 +92,12 @@ function function_a346a156( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval == 1 )
     {
         self playrenderoverridebundle( #"hash_c5c4890c94eb1c7" );
-        playsound( localclientnum, #"hash_8fc267f3e184882", self.origin );
+        playsound( localclientnum, #"zmb_hallion_teleport_in", self.origin );
         return;
     }
     
     self stoprenderoverridebundle( #"hash_c5c4890c94eb1c7" );
-    playsound( localclientnum, #"hash_f5264369f84b89b", self.origin );
+    playsound( localclientnum, #"zmb_hallion_teleport_out", self.origin );
 }
 
 // Namespace mansion_boss_ww/zm_mansion_boss_ww

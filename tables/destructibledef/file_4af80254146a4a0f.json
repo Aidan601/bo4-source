@@ -1,7 +1,7 @@
 {
-    "name": "#hash_4af80254146a4a0f",
-    "model": "#hash_35aea0ba09ae7544",
-    "unk20": "#hash_633d5fa5ec401cd7",
+    "name": "#veh_t8_mil_atv_destructible_militia_blk",
+    "model": "#veh_t8_mil_atv_recon_blk_militia",
+    "unk20": "#veh_t8_mil_atv_recon_dead_blk_militia",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [
@@ -14,11 +14,11 @@
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_94b5f3bad73031",
+                    "name": "#dst_car_fire_frnt",
                     "unk28": "tag_body_d0"
                 },
                 {
-                    "name": "#hash_76e527de2e37948f",
+                    "name": "#dst_car_cooldown",
                     "unk28": "tag_body_d0"
                 },
                 {

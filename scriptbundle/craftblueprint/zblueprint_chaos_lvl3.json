@@ -14,8 +14,8 @@
     "displayname": "Wonder Weapon 3",
     "purchaseprompt": "localized18#hash_1637e07af0b8135a",
     "postcraft": "one_time_craft",
-    "hash_64869b7d451b2fbe:hash_abd9b2d0": "localized18#hash_1d6bd90a28fb2fd0",
+    "purchasepromptfree": "localized18#hash_1d6bd90a28fb2fd0",
     "componentcount": 4,
-    "hash_6d856d2f8b4a5911:hash_c028dcfe": 1,
+    "firstonefree": 1,
     "inventorysection": "section_wonder_weapon"
 }

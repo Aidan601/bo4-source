@@ -1,12 +1,12 @@
 {
-    "name": "#hash_98f1b589776c0b2",
+    "name": "#loot_emote_shared_dont_shoot",
     "type": "#gesture",
-    "gesture": "#hash_57f557693ce97370",
-    "gesture2": "#hash_381832d4ec6856f3",
+    "gesture": "#boast_dont_shoot",
+    "gesture2": "#boast_dont_shoot_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_2d3b6fb9574b1226",
-        "icon": "image#hash_4ab43960259ec5ad",
+        "title": "localized18#emotes/dont_shoot",
+        "icon": "image#ui_icon_emotes_s2_dont_shoot",
         "isdefault": 0
     }
 }

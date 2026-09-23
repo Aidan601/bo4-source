@@ -1,13 +1,13 @@
 {
     "name": "#hash_4e64b457d15297ba",
-    "desc": "#hash_5f3abaf73890048b",
+    "desc": "#outfits/ruin_warrior",
     "tag": "j_spinelower",
     "fxEffect": "#blood/fx_blood_impact_exp_body_lg",
     "unk10": "[32h0x4=][ll0x0=1][f0x0=1.4013e-45][f0x4=0] 01 00 00 00 00 00 00 00",
     "unk30": "[ll0x0=100000001][f0x0=1.4013e-45][f0x4=1.4013e-45] 01 00 00 00 01 00 00 00",
     "unk68": [
         {
-            "desc": "#hash_5f3abaf73890048b",
+            "desc": "#outfits/ruin_warrior",
             "unk68:unk10": true,
             "model": "#c_t8_mp_spe_ruin_head1",
             "unk68:unk50": 1
@@ -23,7 +23,7 @@
             "unk68:unk10": true,
             "model": "#c_t8_mp_spe_ruin_viking_head2",
             "unk68:unk48": [
-                "#hash_39cd17ad5bfc823f"
+                "#mc/mtl_c_t8_mp_spe_ruin_viking_head_helmet_exo2"
             ],
             "unk68:unk50": 3
         }

@@ -44,19 +44,19 @@
         "tag_fx_tail_light_right"
     ],
     "sndMaterialNames": [
-        "#hash_7e38583efb5b3d74",
-        "#hash_38ea8f41899c817b",
-        "#hash_368b1a4febb1ede4"
+        "#veh_suv_road",
+        "#veh_suv_slide",
+        "#veh_suv_peel"
     ],
     "skidSpeedMin": 250,
     "skidSpeedMax": 600,
     "peelSpeedMax": 176,
     "model": "#veh_t8_civ_suv_large_warzone_gry",
     "deathModel": "#veh_t8_civ_suv_large_dead_gry",
-    "soundDef": "#hash_5e27611f94fd78db",
-    "compassIconMaterial": "#hash_1c5a110f3ad06651",
+    "soundDef": "#veh_suv_wz",
+    "compassIconMaterial": "#compass_vehicle_suv",
     "destructibleDef": "#hash_3a1ab4f33f45eb3f",
-    "tacticalModeIcon": "#hash_604d9ded60b4f5a4",
+    "tacticalModeIcon": "#uie_ui_icon_minimap_wz_suv",
     "steerAxisName": "AXIS_LSTICK",
     "unk15f8": "BUTTON_LTRIG",
     "unk1648": "BUTTON_B",
@@ -66,48 +66,48 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5145090d78d3a9f6",
+                        "displaystring": "localized17#menu/switch_seats",
                         "buttondirection": "left",
                         "prompt": "+switchseat"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_1c59b497e5ef478f",
+                        "displaystring": "localized17#menu/aim_down_the_sight",
                         "buttondirection": "left",
                         "prompt": "+speed_throw"
                     }
                 ],
                 "widgets": [
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 1,
-                        "iconimage": "image#hash_604d9ded60b4f5a4"
+                        "iconimage": "image#uie_ui_icon_minimap_wz_suv"
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 14
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 8,
+                        "seatmapstate": 8,
                         "widgettype": 15
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 12
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 0
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 16
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VehicleHUD_GroundVehicle",
@@ -117,56 +117,56 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#GAMEPAD",
+                        "controllerrestriction": "#GAMEPAD",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5145090d78d3a9f6",
+                        "displaystring": "localized17#menu/switch_seats",
                         "buttondirection": "left",
                         "prompt": "+switchseat"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#GAMEPAD",
+                        "controllerrestriction": "#GAMEPAD",
                         "cooldownindex": 0,
                         "displaystring": "localized17#menu/gas",
                         "buttondirection": "left",
                         "prompt": "+movestick"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#GAMEPAD",
+                        "controllerrestriction": "#GAMEPAD",
                         "cooldownindex": 0,
                         "displaystring": "localized17#menu/vehicle_horn",
                         "buttondirection": "left",
                         "prompt": "+melee"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#kbm",
+                        "controllerrestriction": "#kbm",
                         "cooldownindex": 0,
                         "displaystring": "localized17#menu/vehicle_horn",
                         "buttondirection": "left",
                         "prompt": "+vehiclehorn"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#kbm",
+                        "controllerrestriction": "#kbm",
                         "cooldownindex": 0,
                         "displaystring": "localized17#hash_5d353ec43eb36759",
                         "buttondirection": "right",
                         "prompt": "+vehiclealtcontrol"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#GAMEPAD",
+                        "controllerrestriction": "#GAMEPAD",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5dba026ffa1d58cd",
+                        "displaystring": "localized17#menu/hud_vehicle_steer",
                         "buttondirection": "left",
                         "prompt": "+lookstick"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#kbm",
+                        "controllerrestriction": "#kbm",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5145090d78d3a9f6",
+                        "displaystring": "localized17#menu/switch_seats",
                         "buttondirection": "left",
                         "prompt": "+switchseat"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#GAMEPAD",
+                        "controllerrestriction": "#GAMEPAD",
                         "cooldownindex": 0,
                         "displaystring": "localized17#menu/free_look",
                         "buttondirection": "left",
@@ -175,24 +175,24 @@
                 ],
                 "widgets": [
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 1,
-                        "iconimage": "image#hash_604d9ded60b4f5a4"
+                        "iconimage": "image#uie_ui_icon_minimap_wz_suv"
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 14
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 8,
+                        "seatmapstate": 8,
                         "widgettype": 15
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 12
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VehicleHUD_GroundVehicle",
@@ -202,7 +202,7 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
                         "displaystring": "localized17#hash_60af226c601f186c",
                         "buttondirection": "left",
@@ -211,32 +211,32 @@
                 ],
                 "widgets": [
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 1,
-                        "iconimage": "image#hash_604d9ded60b4f5a4"
+                        "iconimage": "image#uie_ui_icon_minimap_wz_suv"
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 14
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 8,
+                        "seatmapstate": 8,
                         "widgettype": 15
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 12
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 0
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 16
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 1,
                 "vehiclehud": "VehicleHUD_GroundVehicle",
@@ -245,6 +245,6 @@
             }
         ],
         "healthpoolsize": 1000,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 1
+        "healthpools": 1
     }
 }

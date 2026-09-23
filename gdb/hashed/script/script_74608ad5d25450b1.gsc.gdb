@@ -1,4 +1,4 @@
-NAME script_74608ad5d25450b1
+NAME scripts/zm/zm_white_ww_quest_mk2x.gsc
 VERSION 0
 CHECKSUM 0x3e15e1b3
 ######################################################

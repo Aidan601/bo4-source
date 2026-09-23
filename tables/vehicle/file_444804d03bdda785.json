@@ -1,5 +1,5 @@
 {
-    "name": "#hash_444804d03bdda785",
+    "name": "#flying_camera_drone",
     "type": "helicopter",
     "scriptVehicleType": "wasp",
     "scoreType": "sentinel",
@@ -38,6 +38,6 @@
     "unk1618": "BUTTON_LSHLDR",
     "bundle": {
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

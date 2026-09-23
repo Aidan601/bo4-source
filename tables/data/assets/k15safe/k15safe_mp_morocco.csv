@@ -8,8 +8,8 @@ xmodelmesh,#hash_4c063a225dd0ff65
 xmodelmesh,#hash_596077dfc819e82f
 xmodelmesh,d#hash_6d0e5ff109f50f2d
 xmodelmesh,#hash_7c7729a9345ac836
-techset,d#hash_2dba6ca0636b9975
-techset,d#hash_5c620bec3ab6c90d
+techset,d#mc/lit#e4e1816e
+techset,d#mc/lit_transparent#b5a8609c
 image,d#$occlusion
 image,d#$identitynormalmap
 image,d#$white_reveal

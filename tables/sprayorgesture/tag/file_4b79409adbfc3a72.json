@@ -1,11 +1,11 @@
 {
-    "name": "#hash_4b79409adbfc3a72",
+    "name": "#loot_tags_hipster_ajax",
     "type": "#tag",
-    "material": "#hash_6cdd4ba410e2cc06",
+    "material": "#vd/mtl_loot_ui_icon_tags_hipster_ajax",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_4a5ebc66509f181",
-        "icon": "image#hash_1457834e01d65ca7",
+        "icon": "image#loot_ui_icon_tags_hipster_ajax",
         "isdefault": 0
     }
 }

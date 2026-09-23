@@ -1024,7 +1024,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -1050,7 +1050,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_157019e1ec5186a3",
+                            "anim": "anim#ch_cin_zm_red_outro_sh005_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1080,7 +1080,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7a78ff837e1c2655",
+                            "anim": "anim#ch_cin_zm_red_outro_sh010_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1133,7 +1133,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_181b6bb5f4b1856f",
+                            "anim": "anim#ch_cin_zm_red_outro_sh030_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1187,7 +1187,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1b671c3243b06519",
+                            "anim": "anim#ch_cin_zm_red_outro_sh050_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1217,7 +1217,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_10e77568e30fa2bc",
+                            "anim": "anim#ch_cin_zm_red_outro_sh060_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1270,7 +1270,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_56dc561a29c0b6de",
+                            "anim": "anim#ch_cin_zm_red_outro_sh080_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1300,7 +1300,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_559f76d393a8545d",
+                            "anim": "anim#ch_cin_zm_red_outro_sh090_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1329,7 +1329,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2d6ed2bfd13602bf",
+                            "anim": "anim#ch_cin_zm_red_outro_sh100_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1358,7 +1358,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_f45e80f82b9bd65",
+                            "anim": "anim#ch_cin_zm_red_outro_sh120_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1387,7 +1387,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_39e1aa856e47d0c6",
+                            "anim": "anim#ch_cin_zm_red_outro_sh130_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1416,7 +1416,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2ca038ff4276b63",
+                            "anim": "anim#ch_cin_zm_red_outro_sh140_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1445,7 +1445,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_24f14127c74ebf4c",
+                            "anim": "anim#ch_cin_zm_red_outro_sh150_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1474,7 +1474,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_35f30ced8e3552a9",
+                            "anim": "anim#ch_cin_zm_red_outro_sh160_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1503,7 +1503,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6f4f30d56419d86a",
+                            "anim": "anim#ch_cin_zm_red_outro_sh170_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1556,7 +1556,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_20f5e20203923d67",
+                            "anim": "anim#ch_cin_zm_red_outro_sh180_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1586,7 +1586,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3a05c6d7fe321ec0",
+                            "anim": "anim#ch_cin_zm_red_outro_sh190_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1615,7 +1615,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_51a2bcb3dbb5ef20",
+                            "anim": "anim#ch_cin_zm_red_outro_sh200_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1669,7 +1669,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6838d432c6d617ce",
+                            "anim": "anim#ch_cin_zm_red_outro_sh220_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1724,7 +1724,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_35f1891990ccf5f4",
+                            "anim": "anim#ch_cin_zm_red_outro_sh240_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1779,7 +1779,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4488c2e1bdf00152",
+                            "anim": "anim#ch_cin_zm_red_outro_sh260_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1881,7 +1881,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3cf215973882aac9",
+                            "anim": "anim#ch_cin_zm_red_outro_sh300_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1911,7 +1911,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_496dfe1b5a9b5d0a",
+                            "anim": "anim#ch_cin_zm_red_outro_sh310_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1940,7 +1940,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_62bd12fcfe25d183",
+                            "anim": "anim#ch_cin_zm_red_outro_sh320_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2016,7 +2016,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -2042,7 +2042,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_441f59cbda5c9473",
+                            "anim": "anim#ch_cin_zm_red_outro_sh005_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2072,7 +2072,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6e9a335a404e2d7d",
+                            "anim": "anim#ch_cin_zm_red_outro_sh010_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2125,7 +2125,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1a09be510c452c07",
+                            "anim": "anim#ch_cin_zm_red_outro_sh030_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2179,7 +2179,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_491f6d55a039a419",
+                            "anim": "anim#ch_cin_zm_red_outro_sh050_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2209,7 +2209,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_740d97491389c7fe",
+                            "anim": "anim#ch_cin_zm_red_outro_sh060_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2262,7 +2262,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_557d8ca26d7f8740",
+                            "anim": "anim#ch_cin_zm_red_outro_sh080_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2339,7 +2339,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_17d7ef94f2096bed",
+                            "anim": "anim#ch_cin_zm_red_outro_sh120_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2416,7 +2416,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1a796907b14b092e",
+                            "anim": "anim#ch_cin_zm_red_outro_sh150_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2446,7 +2446,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_412af4f76eb9f949",
+                            "anim": "anim#ch_cin_zm_red_outro_sh160_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2499,7 +2499,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_681bb8f494e5a997",
+                            "anim": "anim#ch_cin_zm_red_outro_sh175_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2529,7 +2529,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_426b90f44e9acadf",
+                            "anim": "anim#ch_cin_zm_red_outro_sh180_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2605,7 +2605,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6bba2eabd3d8793f",
+                            "anim": "anim#ch_cin_zm_red_outro_sh210_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2660,7 +2660,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_60c99afbafa9875",
+                            "anim": "anim#ch_cin_zm_red_outro_sh230_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2715,7 +2715,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4d714379d594e93b",
+                            "anim": "anim#ch_cin_zm_red_outro_sh250_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2793,7 +2793,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_b129d5c419476c2",
+                            "anim": "anim#ch_cin_zm_red_outro_sh280_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2824,7 +2824,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_43513a76af654557",
+                            "anim": "anim#ch_cin_zm_red_outro_sh290_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2969,11 +2969,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_23c71e93a1c1579e",
+            "model": "character#c_t8_zmb_hero_diego1_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -3714,7 +3714,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_f86fcd914fe4332",
+                            "anim": "anim#ch_cin_zm_red_outro_sh310_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -3814,11 +3814,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_463d1ce6f13590cc",
+            "model": "character#c_t8_zmb_dlc2_medusa1",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -3909,7 +3909,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2e65b124b994d687",
+                            "anim": "anim#ch_cin_zm_red_outro_sh030_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -3987,7 +3987,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_16c43a6cc144b8e4",
+                            "anim": "anim#ch_cin_zm_red_outro_sh060_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4089,7 +4089,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_56ea6f1eba48437",
+                            "anim": "anim#ch_cin_zm_red_outro_sh100_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4119,7 +4119,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_10bf9f26b28b6f7d",
+                            "anim": "anim#ch_cin_zm_red_outro_sh120_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4172,7 +4172,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_33589d5c69085293",
+                            "anim": "anim#ch_cin_zm_red_outro_sh140_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4202,7 +4202,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_65f5a196281c3c94",
+                            "anim": "anim#ch_cin_zm_red_outro_sh150_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4255,7 +4255,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_34578d22a4a65c92",
+                            "anim": "anim#ch_cin_zm_red_outro_sh170_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4309,7 +4309,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3fcf0100dbd51b0f",
+                            "anim": "anim#ch_cin_zm_red_outro_sh180_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4339,7 +4339,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5122a46b5c52c2a0",
+                            "anim": "anim#ch_cin_zm_red_outro_sh190_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4368,7 +4368,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_52ca5a11f34df00",
+                            "anim": "anim#ch_cin_zm_red_outro_sh200_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4516,7 +4516,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3d07627b6909e66a",
+                            "anim": "anim#ch_cin_zm_red_outro_sh260_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4546,7 +4546,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2e6b1a8b70fdbfb1",
+                            "anim": "anim#ch_cin_zm_red_outro_sh270_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4624,7 +4624,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_317414c336a9dad9",
+                            "anim": "anim#ch_cin_zm_red_outro_sh300_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -4746,7 +4746,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -5536,7 +5536,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_274795b7050af36c",
+                            "anim": "anim#ch_cin_zm_red_outro_sh330_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -5566,7 +5566,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_190270555563a405",
+                            "anim": "anim#ch_cin_zm_red_outro_sh340_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -5595,7 +5595,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -6362,7 +6362,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_537dfcd37f534eb3",
+                            "anim": "anim#ch_cin_zm_red_outro_sh320_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -6392,7 +6392,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2b439537c32c9bb4",
+                            "anim": "anim#ch_cin_zm_red_outro_sh330_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -6422,7 +6422,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_f886eb1a74d811d",
+                            "anim": "anim#ch_cin_zm_red_outro_sh340_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -6451,7 +6451,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -6984,7 +6984,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_77ec5049aeeeae1e",
+                            "anim": "anim#ch_cin_zm_red_outro_sh220_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -7039,7 +7039,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7466cf8bf6028dcc",
+                            "anim": "anim#ch_cin_zm_red_outro_sh240_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -7302,7 +7302,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -7328,7 +7328,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_737af4fc27f89452",
+                            "anim": "anim#ch_cin_zm_red_outro_sh005_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7405,7 +7405,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_98e7a862ddfdde",
+                            "anim": "anim#ch_cin_zm_red_outro_sh030_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7459,7 +7459,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6c47e711ff458298",
+                            "anim": "anim#ch_cin_zm_red_outro_sh050_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7489,7 +7489,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_79e6efc3d2193feb",
+                            "anim": "anim#ch_cin_zm_red_outro_sh060_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7542,7 +7542,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2512fffe85010185",
+                            "anim": "anim#ch_cin_zm_red_outro_sh080_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7619,7 +7619,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_78c793887e93bfd4",
+                            "anim": "anim#ch_cin_zm_red_outro_sh120_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7673,7 +7673,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3413024d8f7f6912",
+                            "anim": "anim#ch_cin_zm_red_outro_sh140_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7727,7 +7727,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_475621f4bcb0c468",
+                            "anim": "anim#ch_cin_zm_red_outro_sh160_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7804,7 +7804,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_54608463f4b34086",
+                            "anim": "anim#ch_cin_zm_red_outro_sh180_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7881,7 +7881,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3196b6e6aa1534e6",
+                            "anim": "anim#ch_cin_zm_red_outro_sh210_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7936,7 +7936,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4938723d17e0d5ac",
+                            "anim": "anim#ch_cin_zm_red_outro_sh230_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -7991,7 +7991,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_18ec33ec5e46ee6a",
+                            "anim": "anim#ch_cin_zm_red_outro_sh250_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -8069,7 +8069,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_60ca2bfd072e5b17",
+                            "anim": "anim#ch_cin_zm_red_outro_sh280_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -8100,7 +8100,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4980744fcf48c9ce",
+                            "anim": "anim#ch_cin_zm_red_outro_sh290_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -8245,11 +8245,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_2a968d8a80fb5331",
+            "model": "character#c_t8_zmb_hero_stanton1_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -8271,7 +8271,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_60e05c0fad75ab3",
+                            "anim": "anim#ch_cin_zm_red_outro_sh005_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8348,7 +8348,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3becbae58587cb8f",
+                            "anim": "anim#ch_cin_zm_red_outro_sh030_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8471,7 +8471,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_370cc02474a59dec",
+                            "anim": "anim#ch_cin_zm_red_outro_sh080_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8548,7 +8548,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2ff1632e8fed1e4d",
+                            "anim": "anim#ch_cin_zm_red_outro_sh120_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8625,7 +8625,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_371c9c29ea2a2a6a",
+                            "anim": "anim#ch_cin_zm_red_outro_sh150_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8655,7 +8655,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1c168fcc7cb3381",
+                            "anim": "anim#ch_cin_zm_red_outro_sh160_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8731,7 +8731,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6635ccfc0856eae7",
+                            "anim": "anim#ch_cin_zm_red_outro_sh180_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8808,7 +8808,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_38fe6ab875919147",
+                            "anim": "anim#ch_cin_zm_red_outro_sh210_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8863,7 +8863,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_71eaedd12fae64f5",
+                            "anim": "anim#ch_cin_zm_red_outro_sh230_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8918,7 +8918,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_36b0cff1e25ac77b",
+                            "anim": "anim#ch_cin_zm_red_outro_sh250_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -8996,7 +8996,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5d80194106306496",
+                            "anim": "anim#ch_cin_zm_red_outro_sh280_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -9027,7 +9027,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_552a4da98e7bfb9f",
+                            "anim": "anim#ch_cin_zm_red_outro_sh290_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -9172,11 +9172,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_73692afe6c732546",
+            "model": "character#c_t8_zmb_hero_bruno1_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -9267,7 +9267,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4fe606b3be567d8a",
+                            "anim": "anim#o_cin_zm_red_outro_sh030_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9297,7 +9297,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_70c2508b713cc8e5",
+                            "anim": "anim#o_cin_zm_red_outro_sh040_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9350,7 +9350,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_617aa6c4310c41f",
+                            "anim": "anim#o_cin_zm_red_outro_sh060_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9380,7 +9380,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6e3f67d8e78e1736",
+                            "anim": "anim#o_cin_zm_red_outro_sh070_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9433,7 +9433,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7d66d803c16cdbd8",
+                            "anim": "anim#o_cin_zm_red_outro_sh090_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9463,7 +9463,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_546d30d445b0fa9a",
+                            "anim": "anim#o_cin_zm_red_outro_sh100_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9516,7 +9516,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_773efa7ace929dc9",
+                            "anim": "anim#o_cin_zm_red_outro_sh130_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9570,7 +9570,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2cce8bd542bed62f",
+                            "anim": "anim#o_cin_zm_red_outro_sh150_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9624,7 +9624,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3fe4351d936cd6f5",
+                            "anim": "anim#o_cin_zm_red_outro_sh170_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9678,7 +9678,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1afc62e47a4eac42",
+                            "anim": "anim#o_cin_zm_red_outro_sh180_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9732,7 +9732,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5f7051e099a5405b",
+                            "anim": "anim#o_cin_zm_red_outro_sh200_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9787,7 +9787,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_21915467096e43f1",
+                            "anim": "anim#o_cin_zm_red_outro_sh220_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9842,7 +9842,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2d483270fad8e9d7",
+                            "anim": "anim#o_cin_zm_red_outro_sh240_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9897,7 +9897,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_69de2a7474bb799d",
+                            "anim": "anim#o_cin_zm_red_outro_sh260_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -9927,7 +9927,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6bb326f37affcc84",
+                            "anim": "anim#o_cin_zm_red_outro_sh270_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -10005,7 +10005,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_390000c2d5c0dbfc",
+                            "anim": "anim#o_cin_zm_red_outro_sh300_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -10035,7 +10035,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_35bea73a88aec315",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -10111,7 +10111,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5532001dae9940c0",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_chair",
                             "entrytype": "anim"
                         }
                     ],
@@ -10141,7 +10141,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -10190,7 +10190,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7ccc605d8d62ccb6",
+                            "anim": "anim#o_cin_zm_red_outro_sh010_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10244,7 +10244,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_710ce8708cb344ec",
+                            "anim": "anim#o_cin_zm_red_outro_sh030_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10367,7 +10367,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1617c41cd4c466ab",
+                            "anim": "anim#o_cin_zm_red_outro_sh080_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10397,7 +10397,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3a0880705e066d1e",
+                            "anim": "anim#o_cin_zm_red_outro_sh090_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10426,7 +10426,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1afb9fed79f341bc",
+                            "anim": "anim#o_cin_zm_red_outro_sh100_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10479,7 +10479,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_28155a67e6984ed3",
+                            "anim": "anim#o_cin_zm_red_outro_sh130_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10581,7 +10581,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_686856c4496ad9b7",
+                            "anim": "anim#o_cin_zm_red_outro_sh170_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10635,7 +10635,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68cf13173dc85e44",
+                            "anim": "anim#o_cin_zm_red_outro_sh180_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10665,7 +10665,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6a7684067f422749",
+                            "anim": "anim#o_cin_zm_red_outro_sh190_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10694,7 +10694,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3baf0b65fe7beb29",
+                            "anim": "anim#o_cin_zm_red_outro_sh200_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10748,7 +10748,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_62ba33fc7e01459b",
+                            "anim": "anim#o_cin_zm_red_outro_sh220_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10803,7 +10803,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_30c1d7c3e99f6c2d",
+                            "anim": "anim#o_cin_zm_red_outro_sh240_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10858,7 +10858,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4e716b0b0f56bf3f",
+                            "anim": "anim#o_cin_zm_red_outro_sh260_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -10983,7 +10983,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3a9b0d404c32fdd7",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_key",
                             "entrytype": "anim"
                         }
                     ],
@@ -11082,11 +11082,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_7ad70aa7f6e8c41f",
+            "model": "model#p8_zm_red_key_perseus",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -11499,7 +11499,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_13b1724ad253ccf1",
+                            "anim": "anim#o_cin_zm_red_outro_sh175_torch",
                             "entrytype": "anim"
                         }
                     ],
@@ -11599,7 +11599,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_176f338e78f62e39",
+                            "anim": "anim#o_cin_zm_red_outro_sh210_torch",
                             "entrytype": "anim"
                         }
                     ],
@@ -11654,7 +11654,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4d6a95430c755b3",
+                            "anim": "anim#o_cin_zm_red_outro_sh230_torch",
                             "entrytype": "anim"
                         }
                     ],
@@ -11709,7 +11709,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2f85252c4a31d6a5",
+                            "anim": "anim#o_cin_zm_red_outro_sh250_torch",
                             "entrytype": "anim"
                         }
                     ],
@@ -11787,7 +11787,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4efd96eb2417d06c",
+                            "anim": "anim#o_cin_zm_red_outro_sh280_torch",
                             "entrytype": "anim"
                         }
                     ],
@@ -11818,7 +11818,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2b5f26bfc3b370b1",
+                            "anim": "anim#o_cin_zm_red_outro_sh290_torch",
                             "entrytype": "anim"
                         }
                     ],
@@ -11963,7 +11963,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -12472,7 +12472,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_64523b00075df820",
+                            "anim": "anim#o_cin_zm_red_outro_sh210_torch_2",
                             "entrytype": "anim"
                         }
                     ],
@@ -12527,7 +12527,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5f2f614b3cf55bc2",
+                            "anim": "anim#o_cin_zm_red_outro_sh230_torch_2",
                             "entrytype": "anim"
                         }
                     ],
@@ -12582,7 +12582,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_57379845c18f6a34",
+                            "anim": "anim#o_cin_zm_red_outro_sh250_torch_2",
                             "entrytype": "anim"
                         }
                     ],
@@ -12660,7 +12660,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1ed338d985d37961",
+                            "anim": "anim#o_cin_zm_red_outro_sh280_torch_2",
                             "entrytype": "anim"
                         }
                     ],
@@ -12691,7 +12691,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_70e188a556bc0188",
+                            "anim": "anim#o_cin_zm_red_outro_sh290_torch_2",
                             "entrytype": "anim"
                         }
                     ],
@@ -12836,7 +12836,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -13687,7 +13687,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -14290,7 +14290,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_21527d49a7c2f74c",
+                            "anim": "anim#ch_cin_zm_red_outro_sh250_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -14392,7 +14392,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5a485d6958cfd1e0",
+                            "anim": "anim#ch_cin_zm_red_outro_sh290_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -14538,11 +14538,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "character#hash_6a8d325f7f53ae93",
+            "model": "character#c_t8_zmb_dlc1_alistair1_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -15381,7 +15381,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -15476,7 +15476,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3c61ab0d78eb567f",
+                            "anim": "anim#o_cin_zm_red_outro_sh030_lock_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -15553,7 +15553,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_66a30c2ff41112ba",
+                            "anim": "anim#o_cin_zm_red_outro_sh060_lock_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -15630,7 +15630,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_625565ea314c9750",
+                            "anim": "anim#o_cin_zm_red_outro_sh090_lock",
                             "entrytype": "anim"
                         }
                     ],
@@ -15660,7 +15660,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_433add5c4cef1cf2",
+                            "anim": "anim#o_cin_zm_red_outro_sh100_lock",
                             "entrytype": "anim"
                         }
                     ],
@@ -15713,7 +15713,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2edbd92c43030ffc",
+                            "anim": "anim#o_cin_zm_red_outro_sh130_lock_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -15767,7 +15767,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4285dbd2c8ed822a",
+                            "anim": "anim#o_cin_zm_red_outro_sh150_lock_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -15821,7 +15821,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_195f7594e10830df",
+                            "anim": "anim#o_cin_zm_red_outro_sh170_shackle_lock",
                             "entrytype": "anim"
                         }
                     ],
@@ -15875,7 +15875,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_13fb4aabf5e33e4",
+                            "anim": "anim#o_cin_zm_red_outro_sh180_shackle_lock_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -15929,7 +15929,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3ff32e78f38295cd",
+                            "anim": "anim#o_cin_zm_red_outro_sh200_lock",
                             "entrytype": "anim"
                         }
                     ],
@@ -15984,7 +15984,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_fd9dfd3d08b4c03",
+                            "anim": "anim#o_cin_zm_red_outro_sh220_lock",
                             "entrytype": "anim"
                         }
                     ],
@@ -16086,7 +16086,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_67437814b34181db",
+                            "anim": "anim#o_cin_zm_red_outro_sh260_shackle_lock_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -16211,7 +16211,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_26d1f87337bd7ab3",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_lock_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -16288,7 +16288,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4631141a4a8d05a",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_lock_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -16318,11 +16318,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_54c587e9b539ede",
+            "model": "model#p8_zm_red_oracle_chair_lock",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -16413,7 +16413,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3c83bf0d79085ee1",
+                            "anim": "anim#o_cin_zm_red_outro_sh030_lock_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -16490,7 +16490,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_66a9f82ff4170f6c",
+                            "anim": "anim#o_cin_zm_red_outro_sh060_lock_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -16590,7 +16590,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_36e8d83234fce031",
+                            "anim": "anim#o_cin_zm_red_outro_sh100_lock_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -16644,7 +16644,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2f41ed2c4359e52a",
+                            "anim": "anim#o_cin_zm_red_outro_sh130_lock_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -16698,7 +16698,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_421fc7d2c896acfc",
+                            "anim": "anim#o_cin_zm_red_outro_sh150_lock_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -16798,7 +16798,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_13fb7aabf5e38fd",
+                            "anim": "anim#o_cin_zm_red_outro_sh180_shackle_lock_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -16993,7 +16993,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_67437914b341838e",
+                            "anim": "anim#o_cin_zm_red_outro_sh260_shackle_lock_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -17118,7 +17118,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_26d1f97337bd7c66",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_lock_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -17195,7 +17195,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4631041a4a8cea7",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_lock_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -17225,11 +17225,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_54c587e9b539ede",
+            "model": "model#p8_zm_red_oracle_chair_lock",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -17977,7 +17977,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_26d1fa7337bd7e19",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_lock_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -18054,7 +18054,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4630f41a4a8ccf4",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_lock_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -18084,11 +18084,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_54c587e9b539ede",
+            "model": "model#p8_zm_red_oracle_chair_lock",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -18672,7 +18672,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_35cd8d568914d662",
+                            "anim": "anim#o_cin_zm_red_outro_sh240_lock_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -18844,7 +18844,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_26d1fb7337bd7fcc",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_lock_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -18921,7 +18921,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4630e41a4a8cb41",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_lock_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -18951,11 +18951,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_54c587e9b539ede",
+            "model": "model#p8_zm_red_oracle_chair_lock",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -19046,7 +19046,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_27e01a488198838e",
+                            "anim": "anim#o_cin_zm_red_outro_sh030_cuff_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -19123,7 +19123,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5a079f9191deaa0f",
+                            "anim": "anim#o_cin_zm_red_outro_sh060_cuff_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -19200,7 +19200,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_60e9eb5771fdc004",
+                            "anim": "anim#o_cin_zm_red_outro_sh090_cuff_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -19230,7 +19230,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_301cf56fa9daf0de",
+                            "anim": "anim#o_cin_zm_red_outro_sh100_cuff_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -19283,7 +19283,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_41fc581521c79161",
+                            "anim": "anim#o_cin_zm_red_outro_sh130_cuff_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -19337,7 +19337,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_78499e33a6a9ff9f",
+                            "anim": "anim#o_cin_zm_red_outro_sh150_cuff_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -19391,7 +19391,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5cce4cb554d1856e",
+                            "anim": "anim#o_cin_zm_red_outro_sh170_shackle_arm_left",
                             "entrytype": "anim"
                         }
                     ],
@@ -19445,7 +19445,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_188ba8f7cba47163",
+                            "anim": "anim#o_cin_zm_red_outro_sh180_shackle_arm_left",
                             "entrytype": "anim"
                         }
                     ],
@@ -19640,7 +19640,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3e5dbaefe1f71856",
+                            "anim": "anim#o_cin_zm_red_outro_sh260_shackle_arm_left",
                             "entrytype": "anim"
                         }
                     ],
@@ -19765,7 +19765,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_51eeadfc7cd6500e",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_arm_left",
                             "entrytype": "anim"
                         }
                     ],
@@ -19842,7 +19842,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_8934857df6da389",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_shackle_arm_left",
                             "entrytype": "anim"
                         }
                     ],
@@ -19872,7 +19872,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -19967,7 +19967,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2795164881589148",
+                            "anim": "anim#o_cin_zm_red_outro_sh030_cuff_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -20044,7 +20044,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_59bcb391919ee091",
+                            "anim": "anim#o_cin_zm_red_outro_sh060_cuff_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -20121,7 +20121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6118df5772251c62",
+                            "anim": "anim#o_cin_zm_red_outro_sh090_cuff_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -20151,7 +20151,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_303ef16fa9f7d078",
+                            "anim": "anim#o_cin_zm_red_outro_sh100_cuff_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -20204,7 +20204,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_41da441521aa88ff",
+                            "anim": "anim#o_cin_zm_red_outro_sh130_cuff_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -20258,7 +20258,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_786bb233a6c70801",
+                            "anim": "anim#o_cin_zm_red_outro_sh150_cuff_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -20358,7 +20358,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3d63cc98c966e16c",
+                            "anim": "anim#o_cin_zm_red_outro_sh180_shackle_arm_right",
                             "entrytype": "anim"
                         }
                     ],
@@ -20412,7 +20412,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7e8cb0da7c0704e",
+                            "anim": "anim#o_cin_zm_red_outro_sh200_cuff",
                             "entrytype": "anim"
                         }
                     ],
@@ -20561,7 +20561,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7c82ef91e8be7a2b",
+                            "anim": "anim#o_cin_zm_red_outro_sh260_shackle_arm_right",
                             "entrytype": "anim"
                         }
                     ],
@@ -20686,7 +20686,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_65f7dc4aa0808983",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_arm_right",
                             "entrytype": "anim"
                         }
                     ],
@@ -20763,7 +20763,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2c45fb851781efea",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_shackle_arm_right",
                             "entrytype": "anim"
                         }
                     ],
@@ -20793,7 +20793,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -21326,7 +21326,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_52b9ec3839bb0089",
+                            "anim": "anim#o_cin_zm_red_outro_sh220_cuff_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -21381,7 +21381,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68184ed725d36147",
+                            "anim": "anim#o_cin_zm_red_outro_sh240_cuff_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -21553,7 +21553,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1e24a18e037cb4ec",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_leg_left",
                             "entrytype": "anim"
                         }
                     ],
@@ -21660,7 +21660,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -22193,7 +22193,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_38a9714c7f210ab4",
+                            "anim": "anim#o_cin_zm_red_outro_sh220_cuff",
                             "entrytype": "anim"
                         }
                     ],
@@ -22248,7 +22248,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_680442d725c2a3d9",
+                            "anim": "anim#o_cin_zm_red_outro_sh240_cuff_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -22420,7 +22420,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4968d2051d0fc859",
+                            "anim": "anim#o_cin_zm_red_outro_sh310_shackle_leg_right",
                             "entrytype": "anim"
                         }
                     ],
@@ -22527,7 +22527,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -22783,7 +22783,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3d4be380fe81d2b6",
+                            "anim": "anim#o_cin_zm_red_outro_sh100_smoke",
                             "entrytype": "anim"
                         }
                     ],
@@ -22813,7 +22813,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_15c07774d292bfa0",
+                            "anim": "anim#o_cin_zm_red_outro_sh120_smoke",
                             "entrytype": "anim"
                         }
                     ],
@@ -23375,11 +23375,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3c1b917eaa4c8e63",
+            "model": "model#p8_zm_gla_fx_arrow_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -24217,7 +24217,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -25059,7 +25059,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -25907,7 +25907,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -26324,7 +26324,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_42e530b75163eb3b",
+                            "anim": "anim#o_cin_zm_red_outro_sh175_torch_mount",
                             "entrytype": "anim"
                         }
                     ],
@@ -26750,7 +26750,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -27586,7 +27586,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -28428,7 +28428,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -28500,7 +28500,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5829817b608f08f8",
+                            "anim": "anim#ch_cin_zm_red_outro_sh020_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -28669,7 +28669,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_218c70acf53e65e5",
+                            "anim": "anim#ch_cin_zm_red_outro_sh090_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -29279,7 +29279,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -29397,7 +29397,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_788296f0707f28e2",
+                            "anim": "anim#ch_cin_zm_red_outro_sh040_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -29474,7 +29474,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1f382f68ee8b60e3",
+                            "anim": "anim#ch_cin_zm_red_outro_sh070_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -29597,7 +29597,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_22471c78f130f2a6",
+                            "anim": "anim#ch_cin_zm_red_outro_sh130_oracle",
                             "entrytype": "anim"
                         }
                     ],
@@ -30140,7 +30140,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

@@ -1,7 +1,7 @@
 {
     "lightgroups_1_slots": [
         {
-            "fx": "fx#hash_77e6518b91fa9e98",
+            "fx": "fx#vehicle/fx8_headlight_arav",
             "tag": "tag_fx_iff_front"
         },
         {
@@ -73,7 +73,7 @@
     "steptoenemysize": 40,
     "hash_43c4a17dfa26fd78:hash_74701269": 1,
     "name": "player_ground_vehicle_settings_buggy_wz_heroes",
-    "hash_453d6d4a6ac04709:hash_e7260470": 65,
+    "vis_cone_angle": 65,
     "damagestate_lv1_numslots": 1,
     "rocketcooldown": 5,
     "targeting_radius": 200,

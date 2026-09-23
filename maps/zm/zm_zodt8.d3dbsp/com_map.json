@@ -112,7 +112,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_a4c380f746b1d8c",
+            "lightExploderName": "#exp_lgt_kgr_telescope",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -455,7 +455,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_ec42569215ec3db",
+            "lightExploderName": "#exp_lgt_skylight_gameplay",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -468,7 +468,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_10821fec53c9f1ab",
+            "lightExploderName": "#exp_engine_warning_light_12",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -513,7 +513,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_108220ec53c9f35e",
+            "lightExploderName": "#exp_engine_warning_light_11",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -574,7 +574,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_108221ec53c9f511",
+            "lightExploderName": "#exp_engine_warning_light_10",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -1654,7 +1654,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed1fbafeb0194d0",
+            "lightExploderName": "#exp_engine_warning_light_8",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -1715,7 +1715,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed1fcafeb019683",
+            "lightExploderName": "#exp_engine_warning_light_9",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -1760,7 +1760,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed204afeb01a41b",
+            "lightExploderName": "#exp_engine_warning_light_1",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -1805,7 +1805,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed205afeb01a5ce",
+            "lightExploderName": "#exp_engine_warning_light_2",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -1866,7 +1866,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed206afeb01a781",
+            "lightExploderName": "#exp_engine_warning_light_3",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -1911,7 +1911,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed207afeb01a934",
+            "lightExploderName": "#exp_engine_warning_light_4",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -1956,7 +1956,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed208afeb01aae7",
+            "lightExploderName": "#exp_engine_warning_light_5",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -2017,7 +2017,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed209afeb01ac9a",
+            "lightExploderName": "#exp_engine_warning_light_6",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -2062,7 +2062,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_2ed20aafeb01ae4d",
+            "lightExploderName": "#exp_engine_warning_light_7",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -5141,7 +5141,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_482301fb2cfa5db5",
+            "lightExploderName": "#exp_lgt_kgr_globe",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -5249,7 +5249,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_51f096f25dfde006",
+            "lightExploderName": "#exp_lgt_kgr_binoculars",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -5685,7 +5685,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_57861416cd2b2a68",
+            "lightExploderName": "#exp_lgt_kgr_compass",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6080,7 +6080,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_6c4b3bf3b626f968",
+            "lightExploderName": "#exp_lgt_xd_sh100",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6117,7 +6117,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_6c4e41f3b6293971",
+            "lightExploderName": "#exp_lgt_xd_sh110",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6370,7 +6370,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_6c51c7f3b62c52fa",
+            "lightExploderName": "#exp_lgt_xd_sh120",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6598,7 +6598,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_74850c331114ab65",
+            "lightExploderName": "#exp_lgt_kgr_pliers",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6627,7 +6627,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_7542e0f3bb5160c2",
+            "lightExploderName": "#exp_lgt_xd_sh090",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6680,7 +6680,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_7545e6f3bb53a0cb",
+            "lightExploderName": "#exp_lgt_xd_sh080",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6701,7 +6701,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_7556e4f3bb621098",
+            "lightExploderName": "#exp_lgt_xd_sh030",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6770,7 +6770,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_755a6af3bb652a21",
+            "lightExploderName": "#exp_lgt_xd_sh020",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6839,7 +6839,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_755df0f3bb6843aa",
+            "lightExploderName": "#exp_lgt_xd_sh010",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6884,7 +6884,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_756159f3bb6b2bec",
+            "lightExploderName": "#exp_lgt_xd_sh005",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6921,7 +6921,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_7564dcf3bb6e405c",
+            "lightExploderName": "#exp_lgt_xd_sh070",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -6987,7 +6987,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_756b68f3bb7399ee",
+            "lightExploderName": "#exp_lgt_xd_sh050",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -7008,7 +7008,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_756eeef3bb76b377",
+            "lightExploderName": "#exp_lgt_xd_sh040",
             "triggerData": [
                 {
                     "delayOn": 0,
@@ -7488,7 +7488,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_755a6af3bb652a21",
+            "lightExploderName": "#exp_lgt_xd_sh020",
             "triggerData": [
                 {
                     "probeID": 286,
@@ -7502,7 +7502,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_6c4e41f3b6293971",
+            "lightExploderName": "#exp_lgt_xd_sh110",
             "triggerData": [
                 {
                     "probeID": 2,
@@ -7525,7 +7525,7 @@
             ]
         },
         {
-            "lightExploderName": "#hash_6c51c7f3b62c52fa",
+            "lightExploderName": "#exp_lgt_xd_sh120",
             "triggerData": [
                 {
                     "probeID": 1,

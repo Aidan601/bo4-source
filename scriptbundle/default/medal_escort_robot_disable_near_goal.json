@@ -1,10 +1,10 @@
 {
-    "description": "localized17#hash_5c9d52af977d5c46",
+    "description": "localized17#medal/escort_robot_disable_near_goal_desc",
     "backingsmall": "image#$whitetransparent",
     "widget": "BadasseryMedal",
     "name": "medal_escort_robot_disable_near_goal",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_443f5b5ff77b35e7",
-    "stringref": "localized17#hash_4e853eea33b50736",
-    "iconlarge": "image#hash_1bcf183ef43823b7"
+    "iconsmall": "image#ui_icon_medal_redzone",
+    "stringref": "localized17#medal/escort_robot_disable_near_goal",
+    "iconlarge": "image#ui_icon_medal_redzone_large"
 }

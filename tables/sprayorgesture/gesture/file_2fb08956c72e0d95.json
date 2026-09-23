@@ -1,12 +1,12 @@
 {
-    "name": "#hash_2fb08956c72e0d95",
+    "name": "#loot_emote_shared_face_palm",
     "type": "#gesture",
-    "gesture": "#hash_4170cfe156d1b1fb",
-    "gesture2": "#hash_1aaf859b9db1eaa4",
+    "gesture": "#boast_face_palm",
+    "gesture2": "#boast_face_palm_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_64fe7cfa3389d5a7",
-        "icon": "image#hash_206bfac40cb6628f",
+        "title": "localized18#emotes/unbelievable",
+        "icon": "image#ui_icon_emotes_s3_face_palm",
         "isdefault": 0
     }
 }

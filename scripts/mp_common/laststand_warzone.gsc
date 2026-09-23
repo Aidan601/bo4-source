@@ -137,7 +137,7 @@ function on_player_damage( params )
     {
         if ( isdefined( self.reviving_player ) && isdefined( self.reviving_player.var_d75a6ff5 ) )
         {
-            self.reviving_player.var_d75a6ff5.var_d733f8d7 += params.idamage;
+            self.reviving_player.var_d75a6ff5.reviver_damage += params.idamage;
             
             if ( self.health <= params.idamage )
             {
@@ -1222,10 +1222,10 @@ function bleed_out( var_40d90c02 )
     self function_2907ce7a();
     self suicide( suicide_mod );
     
-    if ( getdvarint( #"hash_62b8db0428755a32", 1 ) && isplayer( self ) )
+    if ( getdvarint( #"enable_new_death_cam", 1 ) && isplayer( self ) )
     {
-        bleed_out_fade_time = getdvarfloat( #"hash_44de9418bb6289ac", 1.5 );
-        self playsoundtoplayer( #"hash_11d39dca0f911535", self );
+        bleed_out_fade_time = getdvarfloat( #"bleed_out_screen_fade_speed", 1.5 );
+        self playsoundtoplayer( #"chr_health_laststand_die", self );
         self lui::screen_fade( bleed_out_fade_time, 1, 0, "black", 0 );
         wait bleed_out_fade_time + 0.2;
         self lui::screen_fade( bleed_out_fade_time, 0, 1, "black", 0 );
@@ -1389,7 +1389,7 @@ function function_356caede( team )
     }
     
     players = getplayers( team, self.revivetrigger.origin, self.revivetrigger.radius );
-    height = getdvarint( #"hash_48068f92d21e2a64", 15 );
+    height = getdvarint( #"finisher_trigger_height", 15 );
     
     foreach ( player in players )
     {
@@ -1409,7 +1409,7 @@ function function_356caede( team )
         
         self clientfield::set_player_uimodel( "hudItems.beingFinished", 1 );
         finisher increment_finishing();
-        bundle_index = getdvarint( #"hash_4fe437fabb65172a", 0 ) < 0 ? randomintrange( 1, level.var_91c33dcb.finishers.size - 1 ) : getdvarint( #"hash_4fe437fabb65172a", 0 );
+        bundle_index = getdvarint( #"scr_finisher_bundle_index", 0 ) < 0 ? randomintrange( 1, level.var_91c33dcb.finishers.size - 1 ) : getdvarint( #"scr_finisher_bundle_index", 0 );
         var_dc5a63bd = level.var_91c33dcb.finishers.size - 1;
         
         if ( isdefined( getgametypesetting( #"wzspectrerising" ) ) && getgametypesetting( #"wzspectrerising" ) && finisher clientfield::get( "hasspectrebody" ) )
@@ -1798,7 +1798,7 @@ function revive_do_revive( playerbeingrevived )
     
     if ( isdefined( playerbeingrevived.var_d75a6ff5 ) )
     {
-        playerbeingrevived.var_d75a6ff5.var_d10f3b9a++;
+        playerbeingrevived.var_d75a6ff5.revive_attempts++;
     }
     
     self.reviving_player = playerbeingrevived;
@@ -2093,7 +2093,7 @@ function function_ecdd4b27( attacker )
         friendlyfire = self util::isfriendlyplayer( attacker );
     }
     
-    self.var_d75a6ff5 = { #player_xuid:int( self getxuid( 1 ) ), #attacker_xuid:int( attackerxuid ), #friendly_fire:friendlyfire, #victim_pos_x:self.origin[ 0 ], #victim_pos_y:self.origin[ 1 ], #victim_pos_z:self.origin[ 2 ], #start_time:function_f8d53445(), #end_time:0, #damage:0, #death:0, #bleed_out:0, #var_d10f3b9a:0, #var_d733f8d7:0, #var_35b89428:0 };
+    self.var_d75a6ff5 = { #player_xuid:int( self getxuid( 1 ) ), #attacker_xuid:int( attackerxuid ), #friendly_fire:friendlyfire, #victim_pos_x:self.origin[ 0 ], #victim_pos_y:self.origin[ 1 ], #victim_pos_z:self.origin[ 2 ], #start_time:function_f8d53445(), #end_time:0, #damage:0, #death:0, #bleed_out:0, #revive_attempts:0, #reviver_damage:0, #reviver_death:0 };
 }
 
 // Namespace laststand_warzone/laststand_warzone

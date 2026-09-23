@@ -1,0 +1,9 @@
+{
+    "name": "#gsol_mp_hipgrip_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#attachment_hipgrip_lmg_spray_restriction",
+        "#gamesettings/#attachment_hipgrip_shotgun_semiauto_restriction",
+        "#gamesettings/#attachment_hipgrip_smg_fastburst_restriction"
+    ]
+}

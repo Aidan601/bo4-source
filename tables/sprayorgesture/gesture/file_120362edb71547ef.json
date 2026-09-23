@@ -1,18 +1,18 @@
 {
-    "name": "#hash_120362edb71547ef",
+    "name": "#loot_emote_exotic_shared_lunchtime",
     "type": "#gesture",
-    "gesture": "#hash_20e58af41181b85c",
-    "gesture2": "#hash_2d1ec9df3c3e68af",
+    "gesture": "#boast_lunchtime",
+    "gesture2": "#boast_lunchtime_fem",
     "sub": [
         {
             "gesture": "#hash_28516e73ae466fa5",
             "roles": [
-                "#hash_76ccdd2bfc985ae8"
+                "#prt_wz_reaper_bo3"
             ]
         },
         {
-            "gesture": "#hash_6fa6a1df19311128",
-            "gesture2": "#hash_422f2e5ab5c7c1ab",
+            "gesture": "#boast_lunchtime_alt",
+            "gesture2": "#boast_lunchtime_fem_alt",
             "roles": [
                 "#prt_mp_firebreak",
                 "#prt_wz_firebreak",
@@ -26,14 +26,14 @@
                 "#prt_mp_spectre",
                 "#prt_wz_spectre",
                 "#prt_mp_reaper",
-                "#hash_76cce42bfc9866cd"
+                "#prt_wz_reaper_bo4"
             ]
         }
     ],
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_20cd16dced237825",
-        "icon": "image#hash_1d6fdd86aa9badbb",
+        "icon": "image#ui_icon_emotes_s2_lunchtime",
         "isdefault": 0
     }
 }

@@ -5,7 +5,7 @@
     "hash_15d363323c36cb1b:hash_2eaed769": "#hash_1352459d518467e4",
     "configstringfiletype": "scriptbundle",
     "type": "scoreevents",
-    "activationscoreevent": "#hash_7b589b3c0bd1a913",
+    "activationscoreevent": "#concussion_grenade_concussed_enemy",
     "vmtype": "both",
     "hash_3c9a57250734ff5c:hash_16abf654": "#hash_d68266070c54aa7",
     "name": "eq_slow_grenade_scoreevents",

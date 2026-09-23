@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_deployable_cover_shutdown",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_338689caa4ebd21b",
-    "stringref": "localized17#hash_559472617f4a4dfd",
-    "iconlarge": "image#hash_3faed2a10f32b1bb"
+    "iconsmall": "image#ui_icon_medal_busted_up",
+    "stringref": "localized17#medal/deployable_cover_shutdown",
+    "iconlarge": "image#ui_icon_medal_busted_up_large"
 }

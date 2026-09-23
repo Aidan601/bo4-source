@@ -28,7 +28,7 @@ function __init__()
         return;
     }
     
-    aat::register( "zm_aat_brain_decay", #"hash_3c1c6f0860be6c5", "t7_icon_zm_aat_turned" );
+    aat::register( "zm_aat_brain_decay", #"zmui/zm_aat_brain_decay", "t7_icon_zm_aat_turned" );
     clientfield::register( "actor", "zm_aat_brain_decay", 1, 1, "int", &function_791e18ed, 0, 0 );
     clientfield::register( "vehicle", "zm_aat_brain_decay", 1, 1, "int", &function_791e18ed, 0, 0 );
     clientfield::register( "actor", "zm_aat_brain_decay_exp", 1, 1, "counter", &zm_aat_brain_decay_explosion, 0, 0 );
@@ -46,7 +46,7 @@ function function_791e18ed( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( newval )
     {
-        self setdrawname( #"hash_3a9d51a39880facd", 1 );
+        self setdrawname( #"zmui/zm_aat_brain_decay_name", 1 );
         str_fx_tag = self zm_utility::function_467efa7b( 1 );
         
         if ( !isdefined( str_fx_tag ) )
@@ -128,6 +128,6 @@ function function_b9c917cc( localclientnum, str_bundle )
 function zm_aat_brain_decay_explosion( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     util::playfxontag( localclientnum, "zm_weapons/fx8_aat_brain_decay_head", self, "j_head" );
-    self playsound( 0, #"hash_422ccb7ddff9b3f4" );
+    self playsound( 0, #"zmb_aat_braindecay_explode" );
 }
 

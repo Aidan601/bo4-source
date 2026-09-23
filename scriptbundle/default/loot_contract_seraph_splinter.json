@@ -5,12 +5,12 @@
         }
     ],
     "contracticon": "image#hash_240e71d0a2b0b9ca",
-    "hash_202e3311080f8de3:hash_d0100eab": 1,
+    "list_contentsdetaileddescincludelist": 1,
     "relateditemname": "localized17#heroes/enforcer",
     "contracttitle": "localized17#hash_338ac2c6c906b7f2",
     "name": "loot_contract_seraph_splinter",
-    "contractdescription": "localized17#hash_40a2ff4afd63b73",
+    "contractdescription": "localized17#heroes/splinter",
     "hash_69014841451a5872:hash_f15e270f": "#white",
-    "hash_6b3de4579d73ceb6:hash_1c057e8c": "image#hash_7bb3da148644c778",
-    "hash_7883881b5c75bf5e:hash_e08fc162": "localized17#hash_68fd7eb321aa416d"
+    "contracticoninventory": "image#hash_7bb3da148644c778",
+    "contentsdetaileddesc": "localized17#hash_68fd7eb321aa416d"
 }

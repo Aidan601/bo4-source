@@ -98,7 +98,7 @@ function private on_end( round_reset )
 function private function_1685cc9b()
 {
     self endon( #"disconnect" );
-    level endon( #"hash_7646638df88a3656" );
+    level endon( #"trial_round_end" );
     var_fa5d7ea0 = 0;
     self.var_8f30dd57 = 0;
     var_6bec3070 = 0;
@@ -107,7 +107,7 @@ function private function_1685cc9b()
     
     while ( true )
     {
-        self waittill( #"hash_b0cc77b1ab98c08" );
+        self waittill( #"acquired_magic_box_weapon" );
         
         if ( self.var_8f30dd57 == level.var_519131bc )
         {
@@ -129,6 +129,6 @@ function private function_1685cc9b()
 function private function_b3c9adb7( weapon )
 {
     self.var_8f30dd57++;
-    self notify( #"hash_b0cc77b1ab98c08", { #weapon:weapon } );
+    self notify( #"acquired_magic_box_weapon", { #weapon:weapon } );
 }
 

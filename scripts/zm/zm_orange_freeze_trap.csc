@@ -16,10 +16,10 @@ function init()
     clientfield::register( "scriptmover", "freeze_trap_fx", 24000, 1, "int", &freeze_trap_fx, 0, 0 );
     clientfield::register( "toplayer", "player_freeze_trap_post_fx", 24000, 1, "int", &player_freeze_trap_post_fx, 0, 0 );
     level._effect[ #"freeze_spray" ] = #"hash_424786ecbc7f5672";
-    level._effect[ #"hash_4131e133ed64bb15" ] = #"hash_48d74d13d0c569c";
-    level._effect[ #"hash_4dbed2be32ca74bc" ] = #"hash_29ac72c5aa5398bc";
-    level._effect[ #"hash_4b8af2aba0424cf3" ] = #"hash_709cca7d0048aa72";
-    level._effect[ #"hash_64e2b0ae28329360" ] = #"hash_69af1783a31b44f7";
+    level._effect[ #"freeze_spray_death" ] = #"hash_48d74d13d0c569c";
+    level._effect[ #"freeze_zombie_impact" ] = #"hash_29ac72c5aa5398bc";
+    level._effect[ #"player_freeze_screen" ] = #"player/fx8_plyr_pstfx_115_screen";
+    level._effect[ #"player_freeze_smoke" ] = #"player/fx8_plyr_pstfx_115_smoke";
     forcestreamxmodel( "p8_zm_ora_soapstone_01_cold" );
 }
 
@@ -36,13 +36,13 @@ function freeze_trap_fx( localclientnum, oldval, newval, bnewent, binitialsnap, 
             self.var_91180673 delete();
         }
         
-        playsound( localclientnum, #"hash_68f3e5dbc3422363", self.origin );
+        playsound( localclientnum, #"zmb_trap_acid_start", self.origin );
         audio::playloopat( "zmb_trap_acid_loop", self.origin );
         self.var_91180673 = util::playfxontag( localclientnum, level._effect[ #"freeze_spray" ], self, "tag_origin" );
         return;
     }
     
-    playsound( localclientnum, #"hash_4da8231bc8767676", self.origin );
+    playsound( localclientnum, #"zmb_trap_acid_end", self.origin );
     audio::stoploopat( "zmb_trap_acid_loop", self.origin );
     
     if ( isdefined( self.var_91180673 ) )
@@ -51,7 +51,7 @@ function freeze_trap_fx( localclientnum, oldval, newval, bnewent, binitialsnap, 
         self.var_91180673 = undefined;
     }
     
-    playfx( localclientnum, level._effect[ #"hash_4131e133ed64bb15" ], self.origin );
+    playfx( localclientnum, level._effect[ #"freeze_spray_death" ], self.origin );
 }
 
 // Namespace zm_orange_freeze_trap/zm_orange_freeze_trap
@@ -62,8 +62,8 @@ function freeze_trap_death_fx( localclientnum, oldval, newval, bnewent, binitial
 {
     if ( newval == 1 )
     {
-        self.n_freeze_trap_death_fx = util::playfxontag( localclientnum, level._effect[ #"hash_4dbed2be32ca74bc" ], self, "tag_stowed_back" );
-        playsound( localclientnum, #"hash_4d4c9f8ad239b61f", self.origin );
+        self.n_freeze_trap_death_fx = util::playfxontag( localclientnum, level._effect[ #"freeze_zombie_impact" ], self, "tag_stowed_back" );
+        playsound( localclientnum, #"zmb_exp_jib_acid_zombie", self.origin );
         return;
     }
     
@@ -96,7 +96,7 @@ function player_freeze_trap_post_fx( localclientnum, oldval, newval, bnewent, bi
         }
         
         self notify( #"player_freeze_trap_post_fx_complete" );
-        self.var_f08ae416 = self playloopsound( #"hash_341a3fa00975f232" );
+        self.var_f08ae416 = self playloopsound( #"zmb_trap_acid_loop_plr" );
         self.var_b2ea9ecc = 0.825;
         self thread function_4443ecea( localclientnum );
         self thread postfx::playpostfxbundle( #"pstfx_frost_loop_fullscreen" );
@@ -159,9 +159,9 @@ function function_b487d98d( str_notify )
     {
         localclientnum = self getlocalclientnumber();
         
-        if ( self postfx::function_556665f2( #"hash_98397d99cb3a03" ) )
+        if ( self postfx::function_556665f2( #"pstfx_zm_115_dmg" ) )
         {
-            self postfx::exitpostfxbundle( #"hash_98397d99cb3a03" );
+            self postfx::exitpostfxbundle( #"pstfx_zm_115_dmg" );
         }
         
         if ( isdefined( self.var_f08ae416 ) )

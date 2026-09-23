@@ -36,7 +36,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 hash_1c2ce90dec8991f7
-hash_416a0e7170369747
+vox_tvoi_tutor_noma_bomb_nearby
 hash_3f791bbccb6e12a9
 hash_4d736d4774a21eb1
 mp_frenetic.fr
@@ -45,7 +45,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_416a0e7170369747
+vox_tvoi_tutor_noma_bomb_nearby
 hash_59e7e37b555de803
 hash_6bc9da3f5b4d04b7
 mp_frenetic.fr
@@ -54,8 +54,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_416a0e7170369747
-hash_e219524f43ed980
+vox_tvoi_tutor_noma_bomb_nearby
+vox_tvoi_tutor_noma_bomb_player_dead
 hash_51ccacda26a6c2
 hash_5e879ad6406818f8
 mp_frenetic.fr
@@ -64,7 +64,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_e219524f43ed980
+vox_tvoi_tutor_noma_bomb_player_dead
 hash_92a3c6c8327c5dc
 hash_3fcffed6b0913a56
 mp_frenetic.fr
@@ -73,7 +73,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_e219524f43ed980
+vox_tvoi_tutor_noma_bomb_player_dead
 hash_1f98faa1f2b0cbcb
 hash_33140cdfca54ba4d
 mp_frenetic.fr
@@ -81,7 +81,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_e219524f43ed980
+vox_tvoi_tutor_noma_bomb_player_dead
 hash_2858fc637539f7e8
 hash_4a8ebc611441cae2
 mp_frenetic.fr
@@ -89,7 +89,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_e219524f43ed980
+vox_tvoi_tutor_noma_bomb_player_dead
 hash_237951fd70093281
 hash_3a0f30643472489f
 mp_frenetic.fr
@@ -97,8 +97,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_e219524f43ed980
-hash_26c398139ec1094b
+vox_tvoi_tutor_noma_bomb_player_dead
+vox_tvoi_tutor_noma_bomb_time_up
 hash_55badcba03616849
 hash_7c8fb83190f88907
 mp_frenetic.fr
@@ -106,7 +106,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_26c398139ec1094b
+vox_tvoi_tutor_noma_bomb_time_up
 hash_1e6b2c8a177ba250
 hash_42aa4eb1d0f862ea
 mp_frenetic.fr
@@ -115,7 +115,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_26c398139ec1094b
+vox_tvoi_tutor_noma_bomb_time_up
 hash_697b4ee7a79d84ca
 hash_4717b19098f41350
 mp_frenetic.fr
@@ -124,7 +124,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_26c398139ec1094b
+vox_tvoi_tutor_noma_bomb_time_up
 hash_2db47d03684f7893
 hash_1ff129445a82b2f5
 mp_frenetic.fr
@@ -132,8 +132,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_26c398139ec1094b
-hash_758836b142ae69e2
+vox_tvoi_tutor_noma_bomb_time_up
+vox_tvoi_tutor_noma_defuse_bomb
 hash_6c8054720cea9d38
 hash_5ba7474fa54fd794
 mp_frenetic.fr
@@ -141,8 +141,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_758836b142ae69e2
-hash_2816b78cbad7769
+vox_tvoi_tutor_noma_defuse_bomb
+vox_tvoi_tutor_noma_dog_follow
 hash_986b96d25b8137
 hash_4664cd71f5381f1
 mp_frenetic.fr
@@ -150,7 +150,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_2816b78cbad7769
+vox_tvoi_tutor_noma_dog_follow
 hash_aba70a141b862de
 hash_3d05ca77619df1cc
 mp_frenetic.fr
@@ -158,7 +158,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_2816b78cbad7769
+vox_tvoi_tutor_noma_dog_follow
 hash_48585ac5467ccb8d
 hash_4f4a0358b3606a23
 mp_frenetic.fr
@@ -166,8 +166,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_2816b78cbad7769
-hash_227578991948ff6d
+vox_tvoi_tutor_noma_dog_follow
+vox_tvoi_tutor_noma_dog_orders_comp
 hash_4e39b88816ad289b
 hash_2ef21b54f163be13
 mp_frenetic.fr
@@ -176,7 +176,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_227578991948ff6d
+vox_tvoi_tutor_noma_dog_orders_comp
 hash_1f79f2417e6a16cd
 hash_baafcd619525a71
 mp_frenetic.fr
@@ -185,8 +185,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_227578991948ff6d
-hash_11cf717d4879cb9a
+vox_tvoi_tutor_noma_dog_orders_comp
+vox_tvoi_tutor_noma_dog_patrol
 hash_2025094d97e3a178
 hash_3a33e46bc8346702
 mp_frenetic.fr
@@ -194,7 +194,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_11cf717d4879cb9a
+vox_tvoi_tutor_noma_dog_patrol
 hash_15f1673dc86f6d11
 hash_727cdf48671abc3f
 mp_frenetic.fr
@@ -202,7 +202,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_11cf717d4879cb9a
+vox_tvoi_tutor_noma_dog_patrol
 hash_202c13253945c392
 hash_1f110feb8ee2d918
 mp_frenetic.fr
@@ -210,8 +210,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_11cf717d4879cb9a
-hash_14f820c919f35aac
+vox_tvoi_tutor_noma_dog_patrol
+vox_tvoi_tutor_noma_dog_take_down
 hash_4b7475791468a25a
 hash_40435fa746d4d126
 mp_frenetic.fr
@@ -219,7 +219,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_14f820c919f35aac
+vox_tvoi_tutor_noma_dog_take_down
 hash_3c5dc1fab7e1903
 hash_57332e3abb817f23
 mp_frenetic.fr
@@ -227,7 +227,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_14f820c919f35aac
+vox_tvoi_tutor_noma_dog_take_down
 hash_4b591a6e578c0d80
 hash_44eef55969bf06cc
 mp_frenetic.fr
@@ -235,8 +235,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_14f820c919f35aac
-hash_400ce53d6acfb07d
+vox_tvoi_tutor_noma_dog_take_down
+vox_tvoi_tutor_noma_enemy_wire_destroy_0
 hash_4a1ac20f6bbb3676
 hash_520560bc410926a5
 mp_frenetic.fr
@@ -244,8 +244,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_400ce53d6acfb07d
-hash_400ce43d6acfaeca
+vox_tvoi_tutor_noma_enemy_wire_destroy_0
+vox_tvoi_tutor_noma_enemy_wire_destroy_1
 hash_5670713355d569af
 hash_3c95bf826440f136
 mp_frenetic.fr
@@ -253,8 +253,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_400ce43d6acfaeca
-hash_625a08ecff2b5842
+vox_tvoi_tutor_noma_enemy_wire_destroy_1
+vox_tvoi_tutor_noma_enemy_wire_nag
 hash_1be065e548dc51b8
 hash_2d403813fcee9d4e
 mp_frenetic.fr
@@ -262,7 +262,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_625a08ecff2b5842
+vox_tvoi_tutor_noma_enemy_wire_nag
 hash_681d9101f4412951
 hash_22cfcdc664672e6b
 mp_frenetic.fr
@@ -271,7 +271,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_625a08ecff2b5842
+vox_tvoi_tutor_noma_enemy_wire_nag
 hash_77da606837f2e05b
 hash_4ea3d072dc8d56f9
 mp_frenetic.fr
@@ -280,7 +280,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_625a08ecff2b5842
+vox_tvoi_tutor_noma_enemy_wire_nag
 hash_1dd56766b19eb9d2
 hash_1f4bda9699f8d314
 mp_frenetic.fr
@@ -289,7 +289,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_625a08ecff2b5842
+vox_tvoi_tutor_noma_enemy_wire_nag
 hash_3b407d2fa40e416c
 hash_da0af4486c4cd2a
 mp_frenetic.fr
@@ -298,7 +298,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_625a08ecff2b5842
+vox_tvoi_tutor_noma_enemy_wire_nag
 hash_4103068ee8e1cfdb
 hash_2422654a640c939
 mp_frenetic.fr
@@ -307,7 +307,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_625a08ecff2b5842
+vox_tvoi_tutor_noma_enemy_wire_nag
 hash_ca522272634320d
 hash_2acf7ad33770fd4f
 mp_frenetic.fr
@@ -316,8 +316,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_625a08ecff2b5842
-hash_3a50289d60d95b93
+vox_tvoi_tutor_noma_enemy_wire_nag
+vox_tvoi_tutor_noma_score_activated_bad
 hash_1c8c0834d51d7285
 hash_5be98662ef76c01
 mp_frenetic.fr
@@ -326,7 +326,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_3a50289d60d95b93
+vox_tvoi_tutor_noma_score_activated_bad
 hash_626e5eaa24422947
 hash_149d1112136b5f87
 mp_frenetic.fr
@@ -335,8 +335,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_3a50289d60d95b93
-hash_31fd2c9553e91845
+vox_tvoi_tutor_noma_score_activated_bad
+vox_tvoi_tutor_noma_score_activated_good
 hash_1ca558e1ba51d81b
 hash_68d2d86d2748c085
 mp_frenetic.fr
@@ -344,8 +344,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_31fd2c9553e91845
-hash_605295eab859687c
+vox_tvoi_tutor_noma_score_activated_good
+vox_tvoi_tutor_noma_score_player_dead
 hash_7101f3d8376daf4e
 hash_268b10ff85060e62
 mp_frenetic.fr
@@ -353,7 +353,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_605295eab859687c
+vox_tvoi_tutor_noma_score_player_dead
 hash_6da14a794c09d1a7
 hash_160b8502a5368c1f
 mp_frenetic.fr
@@ -361,7 +361,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_605295eab859687c
+vox_tvoi_tutor_noma_score_player_dead
 hash_316fc951074976f4
 hash_3a83ef74b12c5c78
 mp_frenetic.fr
@@ -370,7 +370,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_605295eab859687c
+vox_tvoi_tutor_noma_score_player_dead
 hash_465599033c542c06
 hash_60e3ebbd4eda89d6
 mp_frenetic.fr
@@ -379,8 +379,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_605295eab859687c
-hash_47fabed8e8bf606f
+vox_tvoi_tutor_noma_score_player_dead
+vox_tvoi_tutor_noma_score_turret_kill
 hash_6fb83dc144f88169
 hash_183e44b45dd657ad
 mp_frenetic.fr
@@ -389,7 +389,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_47fabed8e8bf606f
+vox_tvoi_tutor_noma_score_turret_kill
 hash_45e4410d68cb76c3
 hash_216e3d8b744e349b
 mp_frenetic.fr
@@ -398,7 +398,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_47fabed8e8bf606f
+vox_tvoi_tutor_noma_score_turret_kill
 hash_fd922d000c639f0
 hash_d1e2b6e605206d8
 mp_frenetic.fr
@@ -406,7 +406,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_47fabed8e8bf606f
+vox_tvoi_tutor_noma_score_turret_kill
 hash_1f227349519a1033
 hash_4a24c7dd46c1fdff
 mp_frenetic.fr
@@ -414,7 +414,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_47fabed8e8bf606f
+vox_tvoi_tutor_noma_score_turret_kill
 hash_62eadb6f9bcc154a
 hash_119d5f98b64b04c2
 mp_frenetic.fr
@@ -423,7 +423,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_47fabed8e8bf606f
+vox_tvoi_tutor_noma_score_turret_kill
 hash_5eb5de9e148b4bd4
 hash_5093528eb822f718
 mp_frenetic.fr
@@ -432,8 +432,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_47fabed8e8bf606f
-hash_66d8097a378fccfb
+vox_tvoi_tutor_noma_score_turret_kill
+vox_tvoi_tutor_noma_scorestreak_earn_0
 hash_321c3ae96916c0b9
 hash_9d9fdff76f2d10b
 mp_frenetic.fr
@@ -441,8 +441,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_66d8097a378fccfb
-hash_66d8087a378fcb48
+vox_tvoi_tutor_noma_scorestreak_earn_0
+vox_tvoi_tutor_noma_scorestreak_earn_1
 hash_20e1c8ce3d19b286
 hash_2b20d314d497003c
 mp_frenetic.fr
@@ -451,7 +451,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_66d8087a378fcb48
+vox_tvoi_tutor_noma_scorestreak_earn_1
 hash_60a20668f86625d8
 hash_3b2d2107fd2c62a2
 mp_frenetic.fr
@@ -460,8 +460,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_66d8087a378fcb48
-hash_59ce377404e907df
+vox_tvoi_tutor_noma_scorestreak_earn_1
+vox_tvoi_tutor_noma_scorestreak_half
 hash_216bda893ce35695
 hash_21576f3dc3dc8887
 mp_frenetic.fr
@@ -469,7 +469,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_59ce377404e907df
+vox_tvoi_tutor_noma_scorestreak_half
 hash_1c54d3e7db95afec
 hash_677205be03dc626a
 mp_frenetic.fr
@@ -477,7 +477,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_59ce377404e907df
+vox_tvoi_tutor_noma_scorestreak_half
 hash_45940a4f6567769f
 hash_44b8e0508d66b275
 mp_frenetic.fr
@@ -485,7 +485,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_59ce377404e907df
+vox_tvoi_tutor_noma_scorestreak_half
 hash_346a94b4ccdf2fa6
 hash_31e409f9953bb500
 mp_frenetic.fr
@@ -493,8 +493,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_59ce377404e907df
-hash_e5c99a0bb694ced
+vox_tvoi_tutor_noma_scorestreak_half
+vox_tvoi_tutor_noma_scorestreak_incoming_0
 hash_62ae273f21bc8767
 hash_1af19d3758783525
 mp_frenetic.fr
@@ -503,7 +503,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_e5c99a0bb694ced
+vox_tvoi_tutor_noma_scorestreak_incoming_0
 hash_3cb80a7fa188a6a1
 hash_d45bfabe1241e43
 mp_frenetic.fr
@@ -512,8 +512,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_e5c99a0bb694ced
-hash_e5c98a0bb694b3a
+vox_tvoi_tutor_noma_scorestreak_incoming_0
+vox_tvoi_tutor_noma_scorestreak_incoming_1
 hash_15b4529112a5d62c
 hash_6728427459c1f1ee
 mp_frenetic.fr
@@ -521,8 +521,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_e5c98a0bb694b3a
-hash_e5c97a0bb694987
+vox_tvoi_tutor_noma_scorestreak_incoming_1
+vox_tvoi_tutor_noma_scorestreak_incoming_2
 hash_5ee38a6626ded415
 hash_2cd7f3bc8d42750b
 mp_frenetic.fr
@@ -530,8 +530,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_e5c97a0bb694987
-hash_63b0c7b2095df698
+vox_tvoi_tutor_noma_scorestreak_incoming_2
+vox_tvoi_tutor_noma_scorestreak_nag
 hash_8f20760a6224ae6
 hash_60d4071e3e3ee70a
 mp_frenetic.fr
@@ -539,7 +539,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_63b0c7b2095df698
+vox_tvoi_tutor_noma_scorestreak_nag
 hash_627e5ad4221996df
 hash_768bce2d3e36bd27
 mp_frenetic.fr
@@ -547,7 +547,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_63b0c7b2095df698
+vox_tvoi_tutor_noma_scorestreak_nag
 hash_4761468eccda202c
 hash_52e08210667bc0a0
 mp_frenetic.fr
@@ -555,7 +555,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_63b0c7b2095df698
+vox_tvoi_tutor_noma_scorestreak_nag
 hash_471122b7c6bdc1d5
 hash_28214745947f3e95
 mp_frenetic.fr
@@ -563,8 +563,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_63b0c7b2095df698
-hash_73107c81df5c9b57
+vox_tvoi_tutor_noma_scorestreak_nag
+vox_tvoi_tutor_noma_slide_10_0
 hash_7853d4617a891d5
 hash_19bc15c5e1393873
 mp_frenetic.fr
@@ -572,7 +572,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_73107c81df5c9b57
+vox_tvoi_tutor_noma_slide_10_0
 vox_tvoi_tutor_noma_slide_10_1
 hash_102d4eb581609482
 hash_1054d2d5aef71444
@@ -601,7 +601,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_noma_slide_11_0
-hash_7dc59481e601af1f
+vox_tvoi_tutor_noma_slide_11_1
 hash_7dc090f3dc76c65d
 hash_14a3e9571389b4ab
 mp_frenetic.fr
@@ -610,7 +610,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_7dc59481e601af1f
+vox_tvoi_tutor_noma_slide_11_1
 hash_2b31a7792c9cf2af
 hash_7028164e60dd4039
 mp_frenetic.fr
@@ -619,7 +619,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_7dc59481e601af1f
+vox_tvoi_tutor_noma_slide_11_1
 vox_tvoi_tutor_noma_slide_11_2
 hash_6dd90932bde397b4
 hash_4e02f14b65358f8e
@@ -639,7 +639,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_noma_slide_11_2
-hash_1a1b9c4d540e83a2
+vox_tvoi_tutor_noma_slide_11_doors_0
 hash_3d8a8267a498611c
 hash_72aff5b30a733c4a
 mp_frenetic.fr
@@ -647,8 +647,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_1a1b9c4d540e83a2
-hash_1a1b9d4d540e8555
+vox_tvoi_tutor_noma_slide_11_doors_0
+vox_tvoi_tutor_noma_slide_11_doors_1
 hash_4a7218237452f497
 hash_6dcb647ac2276fd1
 mp_frenetic.fr
@@ -656,8 +656,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_1a1b9d4d540e8555
-hash_1a1b9a4d540e803c
+vox_tvoi_tutor_noma_slide_11_doors_1
+vox_tvoi_tutor_noma_slide_11_doors_2
 hash_56ced5c6ffe47932
 hash_81f3381d19eaee8
 mp_frenetic.fr
@@ -665,8 +665,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_1a1b9a4d540e803c
-hash_1a1b9b4d540e81ef
+vox_tvoi_tutor_noma_slide_11_doors_2
+vox_tvoi_tutor_noma_slide_11_doors_3
 hash_5e9edefcfef64945
 hash_3e03648183feb3a7
 mp_frenetic.fr
@@ -674,8 +674,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_1a1b9b4d540e81ef
-hash_464d77c3e0ec72ce
+vox_tvoi_tutor_noma_slide_11_doors_3
+vox_tvoi_tutor_noma_slide_11_nag
 hash_4308c14bd68947ac
 hash_6d924ca117646a9e
 mp_frenetic.fr
@@ -683,7 +683,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_464d77c3e0ec72ce
+vox_tvoi_tutor_noma_slide_11_nag
 hash_42b89d74d06ce955
 hash_19e39161ea28bcfb
 mp_frenetic.fr
@@ -691,7 +691,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_464d77c3e0ec72ce
+vox_tvoi_tutor_noma_slide_11_nag
 hash_499821dafd17266
 hash_448e71c84696a624
 mp_frenetic.fr
@@ -700,7 +700,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_464d77c3e0ec72ce
+vox_tvoi_tutor_noma_slide_11_nag
 hash_295f0c4ac5457f78
 hash_52e8476789824bfa
 mp_frenetic.fr
@@ -709,7 +709,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_464d77c3e0ec72ce
+vox_tvoi_tutor_noma_slide_11_nag
 hash_5e25d5912bc8be5f
 hash_3ad7cf197ecb7ac9
 mp_frenetic.fr
@@ -718,7 +718,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_464d77c3e0ec72ce
+vox_tvoi_tutor_noma_slide_11_nag
 hash_145b8a47fa13169
 hash_46e9b0c129c858df
 mp_frenetic.fr
@@ -727,8 +727,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_464d77c3e0ec72ce
-hash_3af123c4e08bf1f
+vox_tvoi_tutor_noma_slide_11_nag
+vox_tvoi_tutor_noma_slide_11_success
 hash_7d2231023626e9d1
 hash_10c8aa74959b8c97
 mp_frenetic.fr
@@ -736,7 +736,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_3af123c4e08bf1f
+vox_tvoi_tutor_noma_slide_11_success
 hash_30e505e58ac21238
 hash_6d1b1aea4e87c7ba
 mp_frenetic.fr
@@ -745,7 +745,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_3af123c4e08bf1f
+vox_tvoi_tutor_noma_slide_11_success
 hash_7f3e0c5174350782
 hash_25a2a9c5c9b21520
 mp_frenetic.fr
@@ -754,8 +754,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_3af123c4e08bf1f
-hash_5edca81ea7bbda1
+vox_tvoi_tutor_noma_slide_11_success
+vox_tvoi_tutor_noma_slide_12_0
 hash_7d9288cea36ea35b
 hash_29273be97399b459
 mp_frenetic.fr
@@ -763,8 +763,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_5edca81ea7bbda1
-hash_5edc981ea7bbbee
+vox_tvoi_tutor_noma_slide_12_0
+vox_tvoi_tutor_noma_slide_12_1
 hash_27721a403fff4630
 hash_77027795f03239b2
 mp_frenetic.fr
@@ -772,8 +772,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_5edc981ea7bbbee
-hash_d3ce181ee3da6b6
+vox_tvoi_tutor_noma_slide_12_1
+vox_tvoi_tutor_noma_slide_13_0
 hash_6367fa23757f0e38
 hash_4547ba2bff3b7c0a
 mp_frenetic.fr
@@ -781,8 +781,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_d3ce181ee3da6b6
-hash_3879189c855ae28
+vox_tvoi_tutor_noma_slide_13_0
+vox_tvoi_tutor_noma_slide_13_nag
 hash_7af5fc29c16fd542
 hash_49d6cf7ecf4034ec
 mp_frenetic.fr
@@ -790,7 +790,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_3879189c855ae28
+vox_tvoi_tutor_noma_slide_13_nag
 hash_1a3d2a1ed9f9fa4b
 hash_6004f1c088114591
 mp_frenetic.fr
@@ -798,7 +798,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_3879189c855ae28
+vox_tvoi_tutor_noma_slide_13_nag
 hash_22fd2be05c832668
 hash_6258129d4762bbc6
 mp_frenetic.fr
@@ -806,7 +806,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_3879189c855ae28
+vox_tvoi_tutor_noma_slide_13_nag
 hash_1e1d817a57526101
 hash_57ed8ffff1891e43
 mp_frenetic.fr
@@ -814,8 +814,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_3879189c855ae28
-hash_17181881f4294b6b
+vox_tvoi_tutor_noma_slide_13_nag
+vox_tvoi_tutor_noma_slide_14_0
 hash_ad5e9411ea7ff41
 hash_27422e205eb1c61f
 mp_frenetic.fr
@@ -823,8 +823,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_17181881f4294b6b
-hash_17181781f42949b8
+vox_tvoi_tutor_noma_slide_14_0
+vox_tvoi_tutor_noma_slide_14_1
 hash_156bf25a4fc047ee
 hash_27bae3784b269620
 mp_frenetic.fr
@@ -832,8 +832,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_17181781f42949b8
-hash_1e66af81f7ea5b00
+vox_tvoi_tutor_noma_slide_14_1
+vox_tvoi_tutor_noma_slide_15_0
 hash_76ee62c1a21fd5d6
 hash_6803dab597110f8
 mp_frenetic.fr
@@ -842,7 +842,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_1e66af81f7ea5b00
+vox_tvoi_tutor_noma_slide_15_0
 hash_62f24b04dc838da8
 hash_5f7f3a3c96e8f256
 mp_frenetic.fr
@@ -851,8 +851,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_1e66af81f7ea5b00
-hash_291be681fe8fa375
+vox_tvoi_tutor_noma_slide_15_0
+vox_tvoi_tutor_noma_slide_16_0
 hash_1b667c745548d757
 hash_18ecfbe02f2cfa25
 mp_frenetic.fr
@@ -861,7 +861,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_291be681fe8fa375
+vox_tvoi_tutor_noma_slide_16_0
 hash_477343d2ed671551
 hash_32474c8218c6ab43
 mp_frenetic.fr
@@ -870,8 +870,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_291be681fe8fa375
-hash_291be581fe8fa1c2
+vox_tvoi_tutor_noma_slide_16_0
+vox_tvoi_tutor_noma_slide_16_1
 hash_2f6e2296f71a7cdc
 hash_6523a11d3076b6ee
 mp_frenetic.fr
@@ -879,8 +879,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291be581fe8fa1c2
-hash_291be481fe8fa00f
+vox_tvoi_tutor_noma_slide_16_1
+vox_tvoi_tutor_noma_slide_16_2
 hash_26d94ba412c59405
 hash_2ad3526563f73a0b
 mp_frenetic.fr
@@ -888,8 +888,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291be481fe8fa00f
-hash_291be381fe8f9e5c
+vox_tvoi_tutor_noma_slide_16_2
+vox_tvoi_tutor_noma_slide_16_3
 hash_1f3875f16a699cf2
 hash_4c1a277ac19b693c
 mp_frenetic.fr
@@ -897,8 +897,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291be381fe8f9e5c
-hash_291be281fe8f9ca9
+vox_tvoi_tutor_noma_slide_16_3
+vox_tvoi_tutor_noma_slide_16_4
 hash_372c57b65637103b
 hash_16c666aec3c5fc61
 mp_frenetic.fr
@@ -906,8 +906,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291be281fe8f9ca9
-hash_291be181fe8f9af6
+vox_tvoi_tutor_noma_slide_16_4
+vox_tvoi_tutor_noma_slide_16_5
 hash_3c63a54ad848d390
 hash_6567255a72c50c5a
 mp_frenetic.fr
@@ -915,8 +915,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291be181fe8f9af6
-hash_291be081fe8f9943
+vox_tvoi_tutor_noma_slide_16_5
+vox_tvoi_tutor_noma_slide_16_6
 hash_66c9b1e08011e3c9
 hash_10184208713d37f7
 mp_frenetic.fr
@@ -924,8 +924,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291be081fe8f9943
-hash_291bdf81fe8f9790
+vox_tvoi_tutor_noma_slide_16_6
+vox_tvoi_tutor_noma_slide_16_7
 hash_7315260797061316
 hash_e3b40280eb750b8
 mp_frenetic.fr
@@ -933,8 +933,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291bdf81fe8f9790
-hash_291bee81fe8fb10d
+vox_tvoi_tutor_noma_slide_16_7
+vox_tvoi_tutor_noma_slide_16_8
 hash_5b1c47c0adbf0abf
 hash_682885002e3e244d
 mp_frenetic.fr
@@ -942,8 +942,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291bee81fe8fb10d
-hash_291bed81fe8faf5a
+vox_tvoi_tutor_noma_slide_16_8
+vox_tvoi_tutor_noma_slide_16_9
 hash_14f1a4769251bdc4
 hash_352f0d6855d5a676
 mp_frenetic.fr
@@ -951,8 +951,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_291bed81fe8faf5a
-hash_38f30198c1a775ac
+vox_tvoi_tutor_noma_slide_16_9
+vox_tvoi_tutor_noma_slide_17_nag
 hash_2cbde011785ec1fe
 hash_24328c76b8b16068
 mp_frenetic.fr
@@ -960,7 +960,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_38f30198c1a775ac
+vox_tvoi_tutor_noma_slide_17_nag
 hash_7a0d7045b0b711d7
 hash_7ccbacc83132b0fd
 mp_frenetic.fr
@@ -968,7 +968,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_38f30198c1a775ac
+vox_tvoi_tutor_noma_slide_17_nag
 hash_1460ef1883f80c24
 hash_1a73f7a724bdb12
 mp_frenetic.fr
@@ -976,7 +976,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_38f30198c1a775ac
+vox_tvoi_tutor_noma_slide_17_nag
 hash_193ef4b2cc8d8dad
 hash_2f20c65bed35b80f
 mp_frenetic.fr
@@ -984,8 +984,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_38f30198c1a775ac
-hash_3892b48206cac33f
+vox_tvoi_tutor_noma_slide_17_nag
+vox_tvoi_tutor_noma_slide_18_0
 hash_466ee59c06ef2ffd
 hash_2fe4393888dff85b
 mp_frenetic.fr
@@ -993,8 +993,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_3892b48206cac33f
-hash_3fa88e2600b7db91
+vox_tvoi_tutor_noma_slide_18_0
+vox_tvoi_tutor_noma_slide_3_0
 hash_c3b09c1dbc26d7
 hash_3f1200674df96e1b
 mp_frenetic.fr
@@ -1003,7 +1003,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_3fa88e2600b7db91
+vox_tvoi_tutor_noma_slide_3_0
 hash_711c75d6e65d50d1
 hash_1e3709b2113bb829
 mp_frenetic.fr
@@ -1012,7 +1012,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_3fa88e2600b7db91
+vox_tvoi_tutor_noma_slide_3_0
 vox_tvoi_tutor_noma_slide_3_1
 hash_14cb56bebf8dcc5c
 hash_5c5a5af255836b4c
@@ -1022,7 +1022,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_noma_slide_3_1
-hash_1912c92a46f64dd7
+vox_tvoi_tutor_noma_slide_3_nag
 hash_2eebeb6cc6365ff5
 hash_3989a495ef862209
 mp_frenetic.fr
@@ -1030,7 +1030,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_1912c92a46f64dd7
+vox_tvoi_tutor_noma_slide_3_nag
 hash_5acdc70472bca4c
 hash_1cdeaec3d6d63364
 mp_frenetic.fr
@@ -1039,7 +1039,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_1912c92a46f64dd7
+vox_tvoi_tutor_noma_slide_3_nag
 hash_39c3ee6ece581c8e
 hash_5d8a6667e0c3323a
 mp_frenetic.fr
@@ -1048,7 +1048,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_1912c92a46f64dd7
+vox_tvoi_tutor_noma_slide_3_nag
 hash_7ba185f447039b7f
 hash_46b4772dd2fd2f3b
 mp_frenetic.fr
@@ -1056,7 +1056,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_1912c92a46f64dd7
+vox_tvoi_tutor_noma_slide_3_nag
 hash_195c3ad6fde76a86
 hash_5a82ff7a267245de
 mp_frenetic.fr
@@ -1065,7 +1065,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_1912c92a46f64dd7
+vox_tvoi_tutor_noma_slide_3_nag
 hash_42bd8e61b3809dd8
 hash_4cc60638c2b6553c
 mp_frenetic.fr
@@ -1074,7 +1074,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_1912c92a46f64dd7
+vox_tvoi_tutor_noma_slide_3_nag
 vox_tvoi_tutor_noma_slide_4_0
 hash_6647d1b0d4795c2a
 hash_76fadbecf12d728e
@@ -1084,7 +1084,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_noma_slide_4_0
-hash_58faf4260edf44e3
+vox_tvoi_tutor_noma_slide_4_1
 hash_631dc51ba4ea15dd
 hash_7fea56742a28e5c5
 mp_frenetic.fr
@@ -1093,7 +1093,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_58faf4260edf44e3
+vox_tvoi_tutor_noma_slide_4_1
 hash_54dad97d25932e2f
 hash_577bccf71ae2e823
 mp_frenetic.fr
@@ -1102,7 +1102,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_58faf4260edf44e3
+vox_tvoi_tutor_noma_slide_4_1
 vox_tvoi_tutor_noma_slide_4_miss
 hash_20d8d824df1d95d6
 hash_573852dffad19bb8
@@ -1146,7 +1146,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_noma_slide_4_miss
-hash_4c2430811fce4c2
+vox_tvoi_tutor_noma_slide_4_nag
 hash_6cb1f34fcf7f832c
 hash_466818fef127c20
 mp_frenetic.fr
@@ -1154,7 +1154,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_4c2430811fce4c2
+vox_tvoi_tutor_noma_slide_4_nag
 hash_6c61cf78c96324d5
 hash_59a746c51d15fa15
 mp_frenetic.fr
@@ -1162,7 +1162,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_4c2430811fce4c2
+vox_tvoi_tutor_noma_slide_4_nag
 hash_2e42b421a8c7ade6
 hash_125a069dc6d5a28a
 mp_frenetic.fr
@@ -1171,7 +1171,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_4c2430811fce4c2
+vox_tvoi_tutor_noma_slide_4_nag
 hash_f0e869c727786f8
 hash_3f5f0da57bd3c3b0
 mp_frenetic.fr
@@ -1180,7 +1180,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_4c2430811fce4c2
+vox_tvoi_tutor_noma_slide_4_nag
 hash_7cf079524bef9df
 hash_2811cdacc6cd78a7
 mp_frenetic.fr
@@ -1189,7 +1189,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_4c2430811fce4c2
+vox_tvoi_tutor_noma_slide_4_nag
 hash_66f532f62cd338e9
 hash_1d79f43cb4cf332d
 mp_frenetic.fr
@@ -1198,7 +1198,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_4c2430811fce4c2
+vox_tvoi_tutor_noma_slide_4_nag
 vox_tvoi_tutor_noma_slide_5_0
 hash_6ce2716de01be155
 hash_3e4eedf9fae4160d
@@ -1226,7 +1226,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_noma_slide_7_0
-hash_7c28af2622f285e4
+vox_tvoi_tutor_noma_slide_8_0
 hash_35e16f2b165ad3fe
 hash_51a53b8672b00fca
 mp_frenetic.fr
@@ -1234,8 +1234,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_7c28af2622f285e4
-hash_7c28b02622f28797
+vox_tvoi_tutor_noma_slide_8_0
+vox_tvoi_tutor_noma_slide_8_1
 hash_4923b9fec3730251
 hash_4cc0aa4e2a644351
 mp_frenetic.fr
@@ -1244,7 +1244,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_7c28b02622f28797
+vox_tvoi_tutor_noma_slide_8_1
 hash_319ebb024c59a15b
 hash_4a1fde59d8791597
 mp_frenetic.fr
@@ -1253,8 +1253,8 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_7c28b02622f28797
-hash_6b57965455923f2c
+vox_tvoi_tutor_noma_slide_8_1
+vox_tvoi_tutor_noma_slide_8_miss
 hash_23006e6b5aba365a
 hash_2cb4b863270bfc4
 mp_frenetic.fr
@@ -1262,7 +1262,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_6b57965455923f2c
+vox_tvoi_tutor_noma_slide_8_miss
 hash_5b51d511f1cfad03
 hash_4c8dd178be4730e9
 mp_frenetic.fr
@@ -1270,7 +1270,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_6b57965455923f2c
+vox_tvoi_tutor_noma_slide_8_miss
 hash_22e513609ddda180
 hash_7dc62267029c1e3e
 mp_frenetic.fr
@@ -1278,7 +1278,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_6b57965455923f2c
+vox_tvoi_tutor_noma_slide_8_miss
 hash_26b5f84fd2d5379
 hash_5b34a59e2bf2e1b
 mp_frenetic.fr
@@ -1286,8 +1286,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_6b57965455923f2c
-hash_6511e0ff086e1616
+vox_tvoi_tutor_noma_slide_8_miss
+vox_tvoi_tutor_noma_slide_8_nag
 hash_2448ade2a70acb70
 hash_33ed119af1f3672c
 mp_frenetic.fr
@@ -1295,7 +1295,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_6511e0ff086e1616
+vox_tvoi_tutor_noma_slide_8_nag
 hash_427c8d3eb3d12e9
 hash_bfd9147e9139dd1
 mp_frenetic.fr
@@ -1303,7 +1303,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_6511e0ff086e1616
+vox_tvoi_tutor_noma_slide_8_nag
 hash_775a66824210a6ca
 hash_16702fe5e7d32b06
 mp_frenetic.fr
@@ -1311,7 +1311,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_6511e0ff086e1616
+vox_tvoi_tutor_noma_slide_8_nag
 hash_3391fe5bf7dea1b3
 hash_2227276df938b83
 mp_frenetic.fr
@@ -1319,7 +1319,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_6511e0ff086e1616
+vox_tvoi_tutor_noma_slide_8_nag
 vox_tvoi_tutor_noma_slide_9_0
 hash_792df4725e29b829
 hash_79512905ae59bb19
@@ -1338,7 +1338,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 hash_301efcc982f849ed
-hash_29c415884674152e
+vox_tvoi_tutor_noma_turret_player_dead
 hash_601d4e6d94e0acbc
 hash_3d667079af2a2202
 mp_frenetic.fr
@@ -1346,8 +1346,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_29c415884674152e
-hash_36b139665c5a5d29
+vox_tvoi_tutor_noma_turret_player_dead
+vox_tvoi_tutor_torq_combo_cover_0
 hash_3d141c27b33d2837
 hash_5929dc059899c457
 mp_frenetic.fr
@@ -1355,7 +1355,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_36b139665c5a5d29
+vox_tvoi_tutor_torq_combo_cover_0
 vox_tvoi_tutor_torq_combo_cover_1
 hash_2ad86558e9e1683c
 hash_4e946f767f4cc698
@@ -2202,7 +2202,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_torq_rad_field_player_dead
-hash_521648114bf95ff
+vox_tvoi_tutor_torq_razor_wire_0
 hash_eff95831ce66619
 hash_77c9e85b8d7625cf
 mp_frenetic.fr
@@ -2210,8 +2210,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_521648114bf95ff
-hash_521638114bf944c
+vox_tvoi_tutor_torq_razor_wire_0
+vox_tvoi_tutor_torq_razor_wire_1
 hash_51970a6ace0971e6
 hash_8171e89967f8150
 mp_frenetic.fr
@@ -2220,7 +2220,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_521638114bf944c
+vox_tvoi_tutor_torq_razor_wire_1
 hash_2cbd7ee042cbeaf8
 hash_6f09773dff8b3de
 mp_frenetic.fr
@@ -2229,7 +2229,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_521638114bf944c
+vox_tvoi_tutor_torq_razor_wire_1
 vox_tvoi_tutor_torq_razor_wire_2
 hash_5f623b58f30b928b
 hash_33570dd31a7719d9
@@ -2311,7 +2311,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_torq_razor_wire_comp_0
-hash_23881d05de9f114a
+vox_tvoi_tutor_torq_razor_wire_comp_1
 hash_311d50a045ed484c
 hash_5d670f42de99e878
 mp_frenetic.fr
@@ -2320,7 +2320,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_23881d05de9f114a
+vox_tvoi_tutor_torq_razor_wire_comp_1
 hash_606116872a0f4a8e
 hash_65dc30e5d089f5d6
 mp_frenetic.fr
@@ -2329,7 +2329,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_23881d05de9f114a
+vox_tvoi_tutor_torq_razor_wire_comp_1
 vox_tvoi_tutor_torq_razor_wire_destroy
 hash_19518899f9801023
 hash_6732032d748e9f95
@@ -2487,7 +2487,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_torq_razor_wire_nag
-hash_41b746fcb6eb801d
+vox_tvoi_tutor_torq_razor_wire_trip_0
 hash_1ae288f451aa6a9b
 hash_6a9cd0d1a046bf0b
 mp_frenetic.fr
@@ -2495,8 +2495,8 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_41b746fcb6eb801d
-hash_41b745fcb6eb7e6a
+vox_tvoi_tutor_torq_razor_wire_trip_0
+vox_tvoi_tutor_torq_razor_wire_trip_1
 hash_2b13338703809270
 hash_be3a5e6fdeaee3c
 mp_frenetic.fr
@@ -2505,7 +2505,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_41b745fcb6eb7e6a
+vox_tvoi_tutor_torq_razor_wire_trip_1
 hash_449d8abbb594c6aa
 hash_5bc991fde3a780a2
 mp_frenetic.fr
@@ -2514,7 +2514,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_41b745fcb6eb7e6a
+vox_tvoi_tutor_torq_razor_wire_trip_1
 vox_tvoi_tutor_torq_razor_wire_window_0
 hash_18b82c0d07ea0ce4
 hash_4d2be88e73695938
@@ -2952,7 +2952,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_torq_start_1
-hash_7f9ebd57800c2a6d
+vox_tvoi_tutor_torq_start_2
 hash_4bf8a274f9610f03
 hash_c9db79e2a24a007
 mp_frenetic.fr
@@ -2961,7 +2961,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 explicit
-hash_7f9ebd57800c2a6d
+vox_tvoi_tutor_torq_start_2
 hash_41fc2b9f1fe1bd45
 hash_d458c379fb3ff4d
 mp_frenetic.fr
@@ -2970,7 +2970,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 safe
-hash_7f9ebd57800c2a6d
+vox_tvoi_tutor_torq_start_2
 vox_tvoi_tutor_torq_team_1_down
 hash_4b598880ff4d8350
 hash_61cc7b4cb4e497b8
@@ -3046,7 +3046,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_torq_two_razor_wire_1
-hash_35dc4ca537ced63e
+vox_tvoi_tutor_torq_two_razor_wire_2
 hash_2e4802be8c71aeb0
 hash_dc63ee4f3b3fda6
 mp_frenetic.fr
@@ -3054,7 +3054,7 @@ mp_frenetic.fr
 mp_frenetic.fr
 mpl_announcer
 mature
-hash_35dc4ca537ced63e
+vox_tvoi_tutor_torq_two_razor_wire_2
 vox_tvoi_tutor_torq_two_razor_wire_3
 hash_468714cefe10bdb
 hash_3ce38a5f214e1a7d
@@ -3126,7 +3126,7 @@ mp_frenetic.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_torq_two_razor_wire_nag
-hash_6b92237c1d76f5e9
+mp_frenetic_fr_stream
 hash_67f1d75b3af62c34
 hash_3d7982722ece12bf
 hash_7af51588f6f1b356

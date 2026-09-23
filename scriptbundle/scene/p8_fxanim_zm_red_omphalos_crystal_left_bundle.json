@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3b950381754fa214",
+                            "anim": "anim#p8_fxanim_zm_red_omphalos_crystal_left_01_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_55a06e514996cdf7",
+                            "anim": "anim#p8_fxanim_zm_red_omphalos_crystal_left_02_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1a9e8667e6e7d24e",
+                            "anim": "anim#p8_fxanim_zm_red_omphalos_crystal_left_03_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -91,7 +91,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

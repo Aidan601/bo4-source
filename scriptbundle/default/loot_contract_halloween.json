@@ -1,7 +1,7 @@
 {
-    "contracticon": "image#hash_b521f544d700aba",
-    "contracttitle": "localized17#hash_4ca7e4fd0a242b70",
+    "contracticon": "image#ui_icon_blackmarket_event_halloween",
+    "contracttitle": "localized17#menu/halloween_event_title",
     "name": "loot_contract_halloween",
-    "contractdescription": "localized17#hash_26398479d44ca227",
+    "contractdescription": "localized17#menu/halloween_event_desc",
     "hash_69014841451a5872:hash_f15e270f": "#white"
 }

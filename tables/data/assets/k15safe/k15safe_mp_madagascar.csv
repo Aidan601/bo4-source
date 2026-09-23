@@ -13,8 +13,8 @@ xmodelmesh,#hash_55156dcc1e70ad4a
 xmodelmesh,#hash_64be05c3fb5491c4
 xmodelmesh,#hash_74b69d5b1100832e
 techset,#hash_3cbd2c1db8e29d7c
-techset,#hash_52391377bc2aba11
-techset,d#hash_5c620bec3ab6c90d
+techset,#wc/lit_decal_diffuse_spec_gloss#fa261733
+techset,d#mc/lit_transparent#b5a8609c
 image,d#$identitynormalmap
 image,d#$white_gloss
 image,d#i_t8_decal_blood_puddle_floor_01_c
@@ -23,8 +23,8 @@ image,d#$white_reveal
 image,d#$gray_32_one_channel
 image,d#$blacktransparent_color
 keyvaluepairs,#k15safe_mp_madagascar
-material,#hash_4df18d1bd17323fb
+material,#wc/t8_decal_blood_puddle_floor_01_hard_dry
 material,d#mc/global_invisible
-material,#hash_7adb5713bdaed333
+material,#vd/t8_decal_blood_puddle_floor_01_hard_dry
 xmodel,#p7_skulls_bones_pile_02
-xmodel,#hash_6954b15592456dd7
+xmodel,#p8_mad_medical_syringes

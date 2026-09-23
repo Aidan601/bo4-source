@@ -289,7 +289,7 @@ function function_c52e8ba( player, var_8d5d092c )
     }
     else if ( isdefined( player.var_9c7b96ed[ var_8d5d092c ] ) && player.var_9c7b96ed[ var_8d5d092c ] )
     {
-        self.hint_string[ n_player_index ] = #"hash_7667bd0f83307360";
+        self.hint_string[ n_player_index ] = #"zombie/generic_fasttravel_cooldown";
         b_result = 1;
     }
     else if ( isdefined( self.stub.delay ) && !self.stub flag::get( "delayed" ) )
@@ -301,11 +301,11 @@ function function_c52e8ba( player, var_8d5d092c )
     {
         if ( function_8b1a219a() )
         {
-            self.hint_string[ n_player_index ] = #"hash_47b20f457b370888";
+            self.hint_string[ n_player_index ] = #"zombie/fasttravel_generic_use_keyboard";
         }
         else
         {
-            self.hint_string[ n_player_index ] = #"hash_2731cc5c1208e2e4";
+            self.hint_string[ n_player_index ] = #"zombie/fasttravel_generic_use";
         }
         
         b_result = 1;
@@ -575,7 +575,7 @@ function function_b9c7ccbb( var_12230d08, var_829a20a8 = 0 )
     }
     
     self function_c1f603e( var_12230d08, n_cooldown_timer, var_8d5d092c );
-    self notify( #"hash_178a3d0115bc972e", { #var_9fa6220c:var_12230d08 } );
+    self notify( #"fasttravel_cooldown_done", { #var_9fa6220c:var_12230d08 } );
 }
 
 // Namespace zm_fasttravel/zm_fasttravel
@@ -769,7 +769,7 @@ function function_66d020b0( var_5314bd63, nd_path_start, var_384528, str_notify,
         }
     }
     
-    self notify( #"hash_1c35eb15aa210d6", { #var_9fa6220c:var_12230d08 } );
+    self notify( #"player_begin_fasttravel_rail", { #var_9fa6220c:var_12230d08 } );
     
     /#
         self zm_challenges::debug_print( "<dev string:x185>" );
@@ -1027,7 +1027,7 @@ function fasttravel_spline( var_5314bd63, nd_path_start, var_384528 )
 function function_62686dda( var_6c365dbf )
 {
     var_a16f5b07 = self.origin;
-    self playrumbleonentity( #"hash_5d8a1a68b12dfb24" );
+    self playrumbleonentity( #"zm_fasttravel_vortex_rumble" );
     wait 0.5;
     self clientfield::set_to_player( "player_stargate_fx", 1 );
     self clientfield::set_to_player( "fasttravel_teleport_sfx", 1 );
@@ -1046,11 +1046,11 @@ function function_62686dda( var_6c365dbf )
         self function_2aed1d83( var_f0bbde5 );
     }
     
-    playsoundatposition( #"hash_3388d9809bf60b12", var_a16f5b07 );
+    playsoundatposition( #"zmb_fasttravel_teleport_start_npc", var_a16f5b07 );
     wait 0.5;
     self clientfield::set_to_player( "player_stargate_fx", 0 );
     self clientfield::set_to_player( "fasttravel_teleport_sfx", 0 );
-    self playsound( #"hash_52aaa9a4a2e71c73" );
+    self playsound( #"zmb_fasttravel_teleport_end_npc" );
     self notify( #"fasttravel_over" );
 }
 
@@ -1281,13 +1281,13 @@ function function_a78584c0( var_6c365dbf )
     self setorigin( s_teleport_room.origin );
     self setplayerangles( s_teleport_room.angles );
     self clientfield::set_to_player( "fasttravel_teleport_sfx", 1 );
-    playsoundatposition( #"hash_3388d9809bf60b12", var_a16f5b07 );
+    playsoundatposition( #"zmb_fasttravel_teleport_start_npc", var_a16f5b07 );
     println( "<dev string:x25f>" + self getplayercamerapos() );
     self.var_805b8325 = spawn( "script_origin", self.origin );
     self.var_805b8325.angles = self.angles;
     self linkto( self.var_805b8325 );
     waittillframeend();
-    self playrumbleonentity( #"hash_5d8a1a68b12dfb24" );
+    self playrumbleonentity( #"zm_fasttravel_vortex_rumble" );
     self function_82c1415f();
     
     if ( isdefined( self.var_805b8325 ) )
@@ -1311,7 +1311,7 @@ function function_a78584c0( var_6c365dbf )
     }
     
     self clientfield::set_to_player( "fasttravel_teleport_sfx", 0 );
-    self playsound( #"hash_52aaa9a4a2e71c73" );
+    self playsound( #"zmb_fasttravel_teleport_end_npc" );
     self allowcrouch( 1 );
     self allowprone( 1 );
     self notify( #"fasttravel_over", { #str_type:#"vortex" } );
@@ -1376,7 +1376,7 @@ function function_82c1415f()
             s_wormhole thread scene::stop( "p8_fxanim_zm_zod_wormhole_bundle" );
         }
         
-        self stoprumble( #"hash_5d8a1a68b12dfb24" );
+        self stoprumble( #"zm_fasttravel_vortex_rumble" );
     }
     
     s_wormhole struct::delete();

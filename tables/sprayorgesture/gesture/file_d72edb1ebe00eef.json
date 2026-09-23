@@ -1,12 +1,12 @@
 {
-    "name": "#hash_d72edb1ebe00eef",
+    "name": "#loot_emote_ruin_dance",
     "type": "#gesture",
-    "gesture": "#hash_76a639602a680525",
-    "gesture2": "#hash_1255acbcbbbf3de",
+    "gesture": "#boast_ruin_dance",
+    "gesture2": "#boast_ruin_dance_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_6cbb72a9d4487d19",
-        "icon": "image#hash_2ca6c2ce3c47211d",
+        "icon": "image#ui_icon_emotes_ruindance",
         "isdefault": 0
     }
 }

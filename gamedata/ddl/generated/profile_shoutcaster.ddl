@@ -42,7 +42,7 @@ version 9 {
     // offset 0x23a, size 0x1
     bool shoutcaster_ds_overhead_health_enemies;
     // offset 0x23b, size 0x1
-    bool hash_b63733d16962255;
+    bool shoutcaster_ds_notifications;
     // offset 0x23c, size 0x1
     bool shoutcaster_ds_xray_1p_enemies;
     // offset 0x23d, size 0x1
@@ -170,7 +170,7 @@ version 8 {
     // offset 0x23a, size 0x1
     bool shoutcaster_ds_overhead_health_enemies;
     // offset 0x23b, size 0x1
-    bool hash_b63733d16962255;
+    bool shoutcaster_ds_notifications;
     // offset 0x23c, size 0x1
     bool shoutcaster_ds_xray_1p_enemies;
     // offset 0x23d, size 0x1
@@ -296,7 +296,7 @@ version 7 {
     // offset 0x23a, size 0x1
     bool shoutcaster_ds_overhead_health_enemies;
     // offset 0x23b, size 0x1
-    bool hash_b63733d16962255;
+    bool shoutcaster_ds_notifications;
     // offset 0x23c, size 0x1
     bool shoutcaster_ds_xray_1p_enemies;
     // offset 0x23d, size 0x1
@@ -420,7 +420,7 @@ version 6 {
     // offset 0x23a, size 0x1
     bool shoutcaster_ds_overhead_health_enemies;
     // offset 0x23b, size 0x1
-    bool hash_b63733d16962255;
+    bool shoutcaster_ds_notifications;
     // offset 0x23c, size 0x1
     bool shoutcaster_ds_xray_1p_enemies;
     // offset 0x23d, size 0x1
@@ -542,7 +542,7 @@ version 5 {
     // offset 0x23b, size 0x1
     bool shoutcaster_ds_overhead_health_enemies;
     // offset 0x23c, size 0x1
-    bool hash_b63733d16962255;
+    bool shoutcaster_ds_notifications;
     // offset 0x23d, size 0x1
     bool shoutcaster_ds_xray_1p_enemies;
     // offset 0x23e, size 0x1
@@ -662,7 +662,7 @@ version 4 {
     // offset 0x23b, size 0x1
     bool shoutcaster_ds_overhead_health_enemies;
     // offset 0x23c, size 0x1
-    bool hash_b63733d16962255;
+    bool shoutcaster_ds_notifications;
     // offset 0x23d, size 0x1
     bool shoutcaster_ds_xray_1p_enemies;
     // offset 0x23e, size 0x1
@@ -768,7 +768,7 @@ version 3 {
     // offset 0x242, size 0x1
     bool shoutcaster_scorestreaks_notification;
     // offset 0x243, size 0x1
-    bool hash_2be1173a558fb558;
+    bool shoutcaster_playernumbers;
     // offset 0x244, size 0x1
     bool shoutcaster_waypoint_markers;
     // offset 0x245, size 0x1
@@ -860,7 +860,7 @@ version 2 {
     // offset 0x242, size 0x1
     bool shoutcaster_scorestreaks_notification;
     // offset 0x243, size 0x1
-    bool hash_2be1173a558fb558;
+    bool shoutcaster_playernumbers;
     // offset 0x244, size 0x1
     bool shoutcaster_waypoint_markers;
     // offset 0x245, size 0x1

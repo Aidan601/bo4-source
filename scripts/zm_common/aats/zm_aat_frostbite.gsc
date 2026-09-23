@@ -158,7 +158,7 @@ function function_dab102b8( e_attacker, weapon )
     
     self clientfield::set( "zm_aat_frostbite_trail_clientfield", 0 );
     self.var_cbf4894c = 1;
-    self notify( #"hash_652c15c8a7e2949" );
+    self notify( #"frostbite_thawed" );
 }
 
 // Namespace zm_aat_frostbite/zm_aat_frostbite
@@ -168,7 +168,7 @@ function function_dab102b8( e_attacker, weapon )
 function function_35d3ac3b( attacker, mod, weapon )
 {
     self notify( #"hash_b04750a529cb350" );
-    self endon( #"hash_b04750a529cb350", #"hash_652c15c8a7e2949" );
+    self endon( #"hash_b04750a529cb350", #"frostbite_thawed" );
     self waittill( #"death" );
     
     if ( isdefined( self ) )

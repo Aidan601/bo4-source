@@ -1,6 +1,6 @@
 {
-    "hash_103a33623dc189e2:hash_4050486a": "localized18#hash_6adaea9a0756a29e",
-    "craftingprompt": "localized18#hash_443b10c8dd209758",
+    "hash_103a33623dc189e2:hash_4050486a": "localized18#zombie/craft_riot_multiple",
+    "craftingprompt": "localized18#zombie/craft_shield_sword",
     "resultangleyaw": -90,
     "configstringfiletype": "scriptbundle",
     "purchasehint": "localized18#hash_379a16a53bc4ebf",
@@ -13,11 +13,11 @@
     "component03": "weapon#zitem_zhield_zword_part_2_zm",
     "name": "zblueprint_shield_zhield_zword",
     "displayname": "Sword and Shield",
-    "purchaseprompt": "localized18#hash_4f62fad397154440",
-    "repairprompt": "localized18#hash_4ac79908e7de1f3d",
+    "purchaseprompt": "localized18#zombie/grab_shield_sword",
+    "repairprompt": "localized18#zombie/repair_shield_sword",
     "postcraft": "persistent_buy",
-    "hash_64869b7d451b2fbe:hash_abd9b2d0": "localized18#hash_5508264363b9e3a3",
+    "purchasepromptfree": "localized18#hash_5508264363b9e3a3",
     "componentcount": 3,
-    "hash_6d856d2f8b4a5911:hash_c028dcfe": 1,
+    "firstonefree": 1,
     "inventorysection": "section_shield"
 }

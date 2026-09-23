@@ -14,21 +14,21 @@
     ],
     "spawnerType": "vox_robot",
     "character": [
-        "#hash_4fd4550281b08a8b",
-        "#hash_4fd4560281b08c3e",
-        "#hash_4fd4570281b08df1"
+        "#c_t8_mannequin_male1",
+        "#c_t8_mannequin_male2",
+        "#c_t8_mannequin_male3"
     ],
     "animMappingTables": [
-        "#hash_e705855d824681c"
+        "#mp_mannequin.ai_am"
     ],
     "meleeWeapon": "#mannequin_ai_defaultmelee_mp",
     "footstepTable": "#mannfootstep",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_e663f55d81be91c",
-    "animStateMachine": "#hash_2d2c8ede45c09869",
-    "animSelectorTable": "#hash_2d2c85de45c0891e",
+    "behaviorTree": "#mp_mannequin.ai_bt",
+    "animStateMachine": "#mp_mannequin.ai_asm",
+    "animSelectorTable": "#mp_mannequin.ai_ast",
     "traversalExtents": "#mp_default_traversal_extents",
     "aiFxBundle": "#c_54i_robot_grunt_fx_table",
     "ignoresDamageHitLocations": false,

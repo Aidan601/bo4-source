@@ -6,22 +6,22 @@
                     "stages": [
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_370d3d727d09cfc9"
+                            "stageimage": "image#ui_icon_inventory_zm_ora_crank"
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#zm_orange_zipquest_crank_1"
                 },
                 {
                     "stages": [
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_370d3d727d09cfc9"
+                            "stageimage": "image#ui_icon_inventory_zm_ora_crank"
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#zm_orange_zipquest_crank_2"
                 }
             ],
@@ -33,11 +33,11 @@
                     "stages": [
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_75ba6ae548c645ea"
+                            "stageimage": "image#ui_icon_inventory_zm_ora_zipline_handle"
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#zm_orange_zipquest_handle"
                 },
                 {
@@ -52,7 +52,7 @@
                         }
                     ],
                     "list_stages": 2,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#zm_orange_zipquest_keycard_1"
                 },
                 {
@@ -67,7 +67,7 @@
                         }
                     ],
                     "list_stages": 2,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#zm_orange_zipquest_keycard_2"
                 }
             ],
@@ -79,11 +79,11 @@
                     "stages": [
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_75ba6ae548c645ea"
+                            "stageimage": "image#ui_icon_inventory_zm_ora_zipline_handle"
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#zm_orange_zipquest_handle_final"
                 }
             ],
@@ -92,17 +92,17 @@
     ],
     "shieldpieces": [
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_57735462a52670f9",
             "clientfield": "#shield_1"
         },
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_57735162a5266be0",
             "clientfield": "#shield_2"
         },
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_57735262a5266d93",
             "clientfield": "#shield_3"
         }
@@ -115,11 +115,11 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_6846778bc95b7134"
+                                    "stageimage": "image#ui_icon_inventory_zm_ora_heat_pack"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#heat_pack_part_bottle"
                         },
                         {
@@ -129,7 +129,7 @@
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#heat_pack_part_tube"
                         },
                         {
@@ -139,7 +139,7 @@
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#heat_pack_part_canister"
                         }
                     ],
@@ -150,18 +150,18 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_3ee506ee6b5facd6"
+                                    "stageimage": "image#ui_icon_inventory_zm_ora_heat_completed"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+                            "ispersonalitem": 1,
                             "clientfield": "#heat_pack_complete"
                         }
                     ],
                     "list_items": 1
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "list_phases": 2,
             "name": "heat_pack",
             "hash_629ce50b0115bfc1:hash_a0ebe517": "#heat_pack_phase"
@@ -180,7 +180,7 @@
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#flinger_gear_box_1"
                         },
                         {
@@ -193,14 +193,14 @@
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#flinger_gear_box_2"
                         }
                     ],
                     "list_items": 2
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "list_phases": 1,
             "name": "flinger",
             "hash_629ce50b0115bfc1:hash_a0ebe517": "#flinger_phase"
@@ -212,31 +212,31 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_524fd3c09cd2486a"
+                                    "stageimage": "image#ui_icon_inventory_zm_ora_dynamite_stick"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#orange_dynamite_bomb_part_1_owned"
                         },
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_2c2591029d6e9c0c"
+                                    "stageimage": "image#ui_icon_inventory_zm_ora_dynamite_clock"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#orange_dynamite_bomb_part_2_owned"
                         },
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_53db4d4435557493"
+                                    "stageimage": "image#ui_icon_inventory_zm_ora_dynamite_timer"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#orange_dynamite_bomb_part_3_owned"
                         }
                     ],
@@ -247,18 +247,18 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_1273ffc1da3b8cca"
+                                    "stageimage": "image#ui_icon_inventory_zm_ora_dynamite_bundle"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#orange_dynamite_bomb_complete"
                         }
                     ],
                     "list_items": 1
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "list_phases": 2,
             "name": "dynamite_bomb",
             "hash_629ce50b0115bfc1:hash_a0ebe517": "#dynamite_bomb_phase"
@@ -395,17 +395,17 @@
         {
             "stages": [
                 {
-                    "stageimage": "image#hash_59f3b04e36880056"
+                    "stageimage": "image#ui_icon_inventory_zm_ora_blue_rock"
                 }
             ],
             "list_stages": 1,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "clientfield": "#zm_orange_pap_rock"
         },
         {
             "stages": [
                 {
-                    "stageimage": "image#hash_7f2a2ac288c53195"
+                    "stageimage": "image#ui_icon_inventory_zm_ora_icicle_key"
                 },
                 {
                     "stageimage": "image#hash_572ca2a8d485ec18"
@@ -415,26 +415,26 @@
                 }
             ],
             "list_stages": 3,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "clientfield": "#zm_orange_ww_quest"
         },
         {
             "stages": [
                 {
-                    "stageimage": "image#hash_272f5a351f508a7e"
+                    "stageimage": "image#ui_icon_inventory_zm_ora_frozen_spleen"
                 },
                 {
                     "stageimage": "image#hash_ab1f80d32070c33"
                 }
             ],
             "list_stages": 2,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 1,
+            "ispersonalitem": 1,
             "clientfield": "#zm_orange_spleen"
         }
     ],
     "challengesclientfield": "#zm_orange_challenges",
     "configstringfiletype": "scriptbundle",
-    "hash_18f4a9668000591d:hash_aa76b7dd": 12,
+    "list_objprogitems": 12,
     "hash_1dd088b99b7444ff:hash_3e38620e": 0,
     "list_quests": 3,
     "hash_2660086e84c44dce:hash_c53f31a1": "#zm_orange_challenges_target",
@@ -442,11 +442,11 @@
     "list_shieldpieces": 3,
     "hash_3f9ea9d3b1ed0e8f:hash_b10f2611": "#zm_orange_zipquest_phase_num",
     "name": "zm_inventory_orange",
-    "hash_4cc5530197ae7206:hash_a05daa90": 3,
-    "hash_55c625aa7c011e55:hash_c029b82f": 3,
+    "list_packapunchitems": 3,
+    "list_wonderweaponphases": 3,
     "hash_5964032c6ccd2477:hash_846fa8e": "#zm_orange_objective_progress",
     "list_challenges": 15,
     "hash_626730799cb1fd40:hash_f7d932ea": "#zm_orange_challenges_progress",
     "hash_65b46d8804cb3bba:hash_f3d39d90": 0,
-    "hash_6ef84b6e3c25015d:hash_38b9613": 0
+    "isobjprogressnonlinear": 0
 }

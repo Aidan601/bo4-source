@@ -612,7 +612,7 @@ function function_598dc586( plane, position, yaw, team, killstreak_id, fly_heigh
             var_7575c35 = vectortoangles( var_6bd2a8a7 - var_8cdd6f66 );
             self thread function_5a0d2864( var_71d1c0cb, var_d8497bd7, var_5bbbb605, var_a1c7fa61, self.team, killstreak_id );
             self thread function_5a0d2864( var_8cdd6f66, var_6bd2a8a7, var_3fddb9e8, var_7575c35, self.team, killstreak_id );
-            plane playsound( #"hash_3e7e330ab5fcdcd" );
+            plane playsound( #"veh_gunship_fire_rocket" );
             wait bundle.var_768e166a;
         }
         
@@ -712,7 +712,7 @@ function function_ae65820c( delay )
     
     if ( isdefined( self ) )
     {
-        self playloopsound( #"hash_6e9ee0f0f9ecd8d7" );
+        self playloopsound( #"exp_artillery_barrage_incoming" );
     }
 }
 

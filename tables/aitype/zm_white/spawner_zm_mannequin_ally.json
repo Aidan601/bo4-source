@@ -15,10 +15,10 @@
     "typeSuffix": "_robotsoldier",
     "spawnerType": "vox_ro",
     "primaryWeapons": [
-        "#hash_393ecc48dea0e23c"
+        "#ar_accurate_t8_mannequin_ally_zm"
     ],
     "character": [
-        "#hash_4febe8d7596e488e"
+        "#c_t8_zmb_dlc3_mannequin_ally"
     ],
     "animMappingTables": [
         "#zod_robot_companion.ai_am"
@@ -26,11 +26,11 @@
     "sideArm": "#pistol_standard_zm",
     "grenadeWeapon": "#frag_grenade_zm",
     "aimTable": "#robot_aim",
-    "footstepTable": "#hash_1f42d66eb72ae76c",
+    "footstepTable": "#zombfootstep_mannequin",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_1d89eba8365c59c1",
+    "behaviorTree": "#zm_mannequin_ally.ai_bt",
     "animStateMachine": "#zod_robot_companion.ai_asm",
     "animSelectorTable": "#zod_robot_companion.ai_ast",
     "aiFxBundle": "#c_54i_grunt_fx_table",

@@ -30,7 +30,7 @@ function __init__()
 // Size: 0x74
 function function_201c2cb7( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    self playrenderoverridebundle( isdefined( self.var_fab3cf78 ) ? self.var_fab3cf78 : #"hash_435832b390f73dff" );
+    self playrenderoverridebundle( isdefined( self.var_fab3cf78 ) ? self.var_fab3cf78 : #"rob_zm_spawn_fade" );
 }
 
 // Namespace zm_transform/zm_transformation
@@ -49,8 +49,8 @@ function function_341e5a97( localclientnum, oldval, newval, bnewent, binitialsna
             {
                 if ( self.model === var_127d3a7a.var_a3c9023c )
                 {
-                    util::lock_model( var_127d3a7a.var_cdf1f53d );
-                    self thread function_8a817bd6( var_127d3a7a.var_cdf1f53d );
+                    util::lock_model( var_127d3a7a.splitmdl );
+                    self thread function_8a817bd6( var_127d3a7a.splitmdl );
                     break;
                 }
             }

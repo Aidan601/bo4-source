@@ -1,5 +1,5 @@
 {
-    "name": "#hash_2f2b5d4837fb0d6f",
+    "name": "#ammo_weapon_rocket_wz",
     "baseWeapon": "#hash_5e0596a419db8c9",
     "displayname": "#hash_3ccf9bf5cc21aeb3",
     "soundbank": "#hash_80f3d16de16ece3",
@@ -27,10 +27,10 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound830": "#hash_70fad81d94449e91",
-    "tunables1": "#hash_41455843a31cc6ca",
+    "tunables1": "#ammo_weapon_rocket_tunables_wz",
     "worldModel": [
         "#p8_wz_ammo_pickup_rockets"
     ]

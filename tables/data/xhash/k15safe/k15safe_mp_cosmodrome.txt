@@ -45,7 +45,7 @@ hash_62a2a0972df25896
 hash_62a2a0972df25896
 hash_133573713fb67f34
 hash_133573713fb67f34
-hash_5b9cabab4f5610f6
+mc/default#64dfc021
 hash_6c6fc7caefd23c3b
 hash_fbba751a32ad869
 hash_2475df110533a07
@@ -69,5 +69,5 @@ $gray_32_one_channel
 $default
 k15safe_mp_cosmodrome
 mc/$default
-hash_78aaa21c49a7fa0d
-hash_54d47057b5620333
+vd/t8_sta_ver_decal_blood_pool_01
+mc/mtl_p8_cos_wall_fan_decal_bolt

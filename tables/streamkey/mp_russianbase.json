@@ -20,7 +20,7 @@
             "keyFlags": 3
         },
         {
-            "name": "#hash_385e888c970b53f5",
+            "name": "#mp_russianbase_all_loaded",
             "xPakEntry": {
                 "key": "#hash_e510aafa25dccbb9",
                 "offset": 0,
@@ -239211,7 +239211,7 @@
             "keyFlags": 0
         },
         {
-            "name": "#hash_4b62317ed5642442",
+            "name": "#mp_russianbase_sst_0_0",
             "xPakEntry": {
                 "key": "#hash_fcffdd7729efff82",
                 "offset": 0,

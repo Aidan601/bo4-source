@@ -1,0 +1,10 @@
+{
+    "name": "#gsol_mp_perk1_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#perk_scavenger_restriction",
+        "#gamesettings/#perk_engineer_restriction",
+        "#gamesettings/#perk_flakjacket_restriction",
+        "#gamesettings/#perk_resistance_restriction"
+    ]
+}

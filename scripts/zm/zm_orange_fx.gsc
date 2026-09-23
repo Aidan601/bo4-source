@@ -6,7 +6,7 @@
 // Size: 0x62
 function init()
 {
-    level._effect[ #"rise_burst_water" ] = #"hash_4508b2e786a92358";
+    level._effect[ #"rise_burst_water" ] = #"water/fx8_water_splash_child_md";
     level._effect[ #"large_ceiling_dust" ] = #"zombie/fx_blood_torso_explo_zmb";
 }
 

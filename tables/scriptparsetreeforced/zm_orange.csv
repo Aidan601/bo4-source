@@ -23,7 +23,7 @@ server,#scripts/core_common/ai/archetype_human_interface.gsc
 server,#scripts/core_common/ai/archetype_human_exposed.gsc
 server,#scripts/core_common/ai/archetype_human_locomotion.gsc
 server,#scripts/core_common/ai/archetype_human_rpg.gsc
-server,#script_73aaf54a7fda2755
+server,#scripts/zm/ai/zm_ai_zombie_electric.gsc
 server,#scripts/core_common/ai/archetype_civilian.gsc
 server,#scripts/zm/zm_orange_debris_buys.gsc
 server,#scripts/zm/zm_orange_lights.gsc
@@ -47,5 +47,5 @@ client,#scripts/zm/weapons/zm_weap_freezegun.csc
 client,#scripts/zm_common/util/ai_dog_util.csc
 client,#scripts/core_common/ai/archetype_catalyst.csc
 client,#scripts/zm/ai/zm_ai_catalyst.csc
-client,#script_4f52494a6ac904e9
+client,#scripts/zm/ai/zm_ai_zombie_electric.csc
 client,#scripts/zm/zm_trap_electric.csc

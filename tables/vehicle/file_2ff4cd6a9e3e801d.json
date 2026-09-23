@@ -1,5 +1,5 @@
 {
-    "name": "#hash_2ff4cd6a9e3e801d",
+    "name": "#t8_office_elevator2",
     "type": "plane",
     "scoreType": "none",
     "archeType": "#none",
@@ -10,12 +10,12 @@
     "vehicleRidersBundle": "#veh_bo3_mil_apc_riders",
     "deathFx": "#_t6/explosions/fx_vexp_cougar",
     "deathFxTag": "tag_origin",
-    "deathFxSound": "#hash_2149db0c502305e3",
+    "deathFxSound": "#exp_armor_vehicle",
     "skidSpeedMin": 20,
     "skidSpeedMax": 100,
     "peelSpeedMax": 600,
-    "model": "#hash_3ca7a57704956ea8",
-    "deathModel": "#hash_3ca7a57704956ea8",
+    "model": "#p8_zm_off_elevator",
+    "deathModel": "#p8_zm_off_elevator",
     "steerAxisName": "AXIS_LSTICK",
     "handBrakeButtonName": "BUTTON_B",
     "attackButtonName": "BUTTON_RTRIG",
@@ -26,6 +26,6 @@
     "rumbletype": "tank_rumble",
     "bundle": {
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

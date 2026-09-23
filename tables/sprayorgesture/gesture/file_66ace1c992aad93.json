@@ -1,8 +1,8 @@
 {
-    "name": "#hash_66ace1c992aad93",
+    "name": "#loot_emote_shared_finger_glasses",
     "type": "#gesture",
-    "gesture": "#hash_76cb3d4d526f70a5",
-    "gesture2": "#hash_77ffe12b2c61d75e",
+    "gesture": "#boast_finger_glasses",
+    "gesture2": "#boast_finger_glasses_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_309719ded2502c45",

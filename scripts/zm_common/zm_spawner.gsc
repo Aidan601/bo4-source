@@ -1676,7 +1676,7 @@ function zombie_death_event( zombie )
     {
         if ( isdefined( zombie.script_parameters ) )
         {
-            attacker notify( #"zombie_death_params", { #params:zombie.script_parameters, #var_3ef38c68:isdefined( zombie.completed_emerging_into_playable_area ) && zombie.completed_emerging_into_playable_area } );
+            attacker notify( #"zombie_death_params", { #params:zombie.script_parameters, #in_playable_space:isdefined( zombie.completed_emerging_into_playable_area ) && zombie.completed_emerging_into_playable_area } );
         }
         
         if ( isdefined( zombie.b_widows_wine_cocoon ) && isdefined( zombie.e_widows_wine_player ) )

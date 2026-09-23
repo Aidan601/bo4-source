@@ -1,4 +1,4 @@
-NAME script_724752ab26bff81b
+NAME scripts/zm/zm_white_ww_quest_weapon.gsc
 VERSION 0
 CHECKSUM 0x3b24cdef
 ######################################################

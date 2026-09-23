@@ -1,6 +1,6 @@
 {
-    "name": "#hash_17b1f4b69bd217b4",
-    "baseWeapon": "#hash_17b1f4b69bd217b4",
+    "name": "#suv_camera_turret",
+    "baseWeapon": "#suv_camera_turret",
     "soundbank": "#hash_36948cc89367f596",
     "worldModelTagRight": "tag_weapon_right",
     "worldModelTagLeft": "tag_weapon_left",
@@ -26,11 +26,11 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound830": "#platform/use_drive",
-    "tunables1": "#hash_18cc9a733a7e6997",
-    "tunables2": "#hash_18cc9a733a7e6997",
+    "tunables1": "#suv_camera_turret_tunables_pc",
+    "tunables2": "#suv_camera_turret_tunables_pc",
     "tracers": [
         "#lmg",
         "#lmg_enemy"

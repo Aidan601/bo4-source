@@ -7,7 +7,7 @@
     "entries": [
         {
             "name": "#hash_41ad63f32aa4db43",
-            "description": "#hash_6fdcc66d6ac640ff",
+            "description": "#playlist/zm_zod",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
             "imageBackground": "#ui_icon_director_tile_zm_zod",
@@ -586,7 +586,7 @@
         },
         {
             "name": "#hash_4d4a85e40d4bd6f",
-            "description": "#hash_608fcf2dc350cb93",
+            "description": "#playlist/zm_cave",
             "unique_name": "#hash_7850ad2f674a8769",
             "dlcName": "dlc2zm",
             "lobbyMainMode": "CAMPAIGN",

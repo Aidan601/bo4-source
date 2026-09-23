@@ -1,7 +1,7 @@
 {
-    "name": "#hash_2e2bf7a0de3a7566",
+    "name": "#dlog_event_fpstool_samples",
     "unk28": "#fpstool_samples",
-    "ddlDef": "#hash_6f386212fa31310a",
+    "ddlDef": "#gamedata/ddl/generated/dlog_event_fpstool_samples.ddl",
     "unk18": 0,
     "unk19": 1,
     "unk1a": 1,
@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -120,8 +120,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_633a5d0864db2db",
-            "scrName": "#hash_ff187fc8",
+            "name": "#postfx_lensflare_us",
+            "scrName": "#postfx_lensflare_us",
             "type": "INT32"
         },
         {
@@ -155,8 +155,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_128197788f1faf30",
-            "scrName": "#hash_54a89070",
+            "name": "#postfx_generic_us",
+            "scrName": "#postfx_generic_us",
             "type": "INT32"
         },
         {
@@ -170,8 +170,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_140eebac2db85c70",
-            "scrName": "#hash_d2bf8015",
+            "name": "#budget_build_us",
+            "scrName": "#budget_build_us",
             "type": "INT32"
         },
         {
@@ -181,7 +181,7 @@
         },
         {
             "name": "#spot_shadows",
-            "scrName": "#hash_708b7e76",
+            "scrName": "#spot_shadows",
             "type": "INT32"
         },
         {
@@ -190,8 +190,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_18f81647069f3ecc",
-            "scrName": "#hash_623a7e4c",
+            "name": "#probes_vis_pixel",
+            "scrName": "#probes_vis_pixel",
             "type": "INT32"
         },
         {
@@ -205,8 +205,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_1b4c57d449e4521f",
-            "scrName": "#hash_7ecb0b76",
+            "name": "#depth_prime_us",
+            "scrName": "#depth_prime_us",
             "type": "INT32"
         },
         {
@@ -241,7 +241,7 @@
         },
         {
             "name": "#omni_shadows",
-            "scrName": "#hash_d559d135",
+            "scrName": "#omni_shadows",
             "type": "INT32"
         },
         {
@@ -255,8 +255,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_28d2a05d88a0d700",
-            "scrName": "#hash_3d852944",
+            "name": "#gpufx_us",
+            "scrName": "#gpufx_us",
             "type": "INT32"
         },
         {
@@ -265,8 +265,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_2b26423944fd8c18",
-            "scrName": "#hash_b2503886",
+            "name": "#postfx_dof_us",
+            "scrName": "#postfx_dof_us",
             "type": "INT32"
         },
         {
@@ -300,8 +300,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_316878e795d258e6",
-            "scrName": "#hash_5a3267a1",
+            "name": "#probes_act_pixel",
+            "scrName": "#probes_act_pixel",
             "type": "INT32"
         },
         {
@@ -315,8 +315,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_343d1f95fb411155",
-            "scrName": "#hash_ed330c8b",
+            "name": "#gbuffer_overdraw",
+            "scrName": "#gbuffer_overdraw",
             "type": "INT32"
         },
         {
@@ -330,28 +330,28 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_37c8818eff41553d",
-            "scrName": "#hash_39114aab",
+            "name": "#budget_shared_us",
+            "scrName": "#budget_shared_us",
             "type": "INT32"
         },
         {
-            "name": "#hash_3877ff2ec0c3726a",
-            "scrName": "#hash_1f2359a5",
+            "name": "#lights_vis_pixel",
+            "scrName": "#lights_vis_pixel",
             "type": "INT32"
         },
         {
             "name": "#static_models",
-            "scrName": "#hash_ff0308b",
+            "scrName": "#static_models",
             "type": "INT32"
         },
         {
             "name": "#budget_lighting_us",
-            "scrName": "#hash_fc9d0260",
+            "scrName": "#budget_lighting_us",
             "type": "INT32"
         },
         {
-            "name": "#hash_3ab6d1745e2b7e90",
-            "scrName": "#hash_4ba2caf3",
+            "name": "#cpu_clientupdate",
+            "scrName": "#cpu_clientupdate",
             "type": "INT32"
         },
         {
@@ -366,8 +366,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_3d77cd928bcbf989",
-            "scrName": "#hash_748be5db",
+            "name": "#postfx_smaa_us",
+            "scrName": "#postfx_smaa_us",
             "type": "INT32"
         },
         {
@@ -376,8 +376,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_3eb9b2bad5a4824e",
-            "scrName": "#hash_a1164358",
+            "name": "#omni_prims",
+            "scrName": "#omni_prims",
             "type": "INT32"
         },
         {
@@ -406,8 +406,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_4350a21ab86316a0",
-            "scrName": "#hash_6067c5bb",
+            "name": "#budget_fx_us",
+            "scrName": "#budget_fx_us",
             "type": "INT32"
         },
         {
@@ -421,8 +421,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_46fac4fb33c48479",
-            "scrName": "#hash_f3e9d73e",
+            "name": "#codeimage_bytes",
+            "scrName": "#codeimage_bytes",
             "type": "INT32"
         },
         {
@@ -471,8 +471,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_4d1666c58d7cded2",
-            "scrName": "#hash_132094d8",
+            "name": "#cpu_waitworkers",
+            "scrName": "#cpu_waitworkers",
             "type": "INT32"
         },
         {
@@ -496,8 +496,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_543c86390c71d4e5",
-            "scrName": "#hash_8e509296",
+            "name": "#lights_lit_pixel",
+            "scrName": "#lights_lit_pixel",
             "type": "INT32"
         },
         {
@@ -556,18 +556,18 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_68ffafe7e480d3ae",
-            "scrName": "#hash_29d36c20",
+            "name": "#postfx_color_us",
+            "scrName": "#postfx_color_us",
             "type": "INT32"
         },
         {
             "name": "#probes_vis",
-            "scrName": "#hash_f03284d4",
+            "scrName": "#probes_vis",
             "type": "INT32"
         },
         {
-            "name": "#hash_6ace4575d3599cbf",
-            "scrName": "#hash_87bb3503",
+            "name": "#light_classify_us",
+            "scrName": "#light_classify_us",
             "type": "INT32"
         },
         {
@@ -577,12 +577,12 @@
         },
         {
             "name": "#budget_ui_us",
-            "scrName": "#hash_7f43644b",
+            "scrName": "#budget_ui_us",
             "type": "INT32"
         },
         {
-            "name": "#hash_6c98e0d8c2869ef1",
-            "scrName": "#hash_9900add3",
+            "name": "#gbuffer_vol_decal_us",
+            "scrName": "#gbuffer_vol_decal_us",
             "type": "INT32"
         },
         {
@@ -591,8 +591,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_6d4ff87574778d15",
-            "scrName": "#hash_877710e8",
+            "name": "#terrain_deferred_us",
+            "scrName": "#terrain_deferred_us",
             "type": "INT32"
         },
         {
@@ -606,8 +606,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_6f0f73b0e722f7f0",
-            "scrName": "#hash_96251ea5",
+            "name": "#lights_act_pixel",
+            "scrName": "#lights_act_pixel",
             "type": "INT32"
         },
         {
@@ -626,23 +626,23 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_6fd93d17cdb0ae1d",
-            "scrName": "#hash_f28ef12b",
+            "name": "#budget_code_us",
+            "scrName": "#budget_code_us",
             "type": "INT32"
         },
         {
             "name": "#grass_compute_us",
-            "scrName": "#hash_c2d40831",
+            "scrName": "#grass_compute_us",
             "type": "INT32"
         },
         {
-            "name": "#hash_7aba43e3e27f0c31",
-            "scrName": "#hash_94a803c6",
+            "name": "#codeimage_count",
+            "scrName": "#codeimage_count",
             "type": "INT32"
         },
         {
             "name": "#omni_tris",
-            "scrName": "#hash_631964f5",
+            "scrName": "#omni_tris",
             "type": "INT32"
         },
         {
@@ -651,8 +651,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_7ed0f0a69ff8404d",
-            "scrName": "#hash_39d9d1ff",
+            "name": "#shadowmap_bytes",
+            "scrName": "#shadowmap_bytes",
             "type": "INT32"
         },
         {

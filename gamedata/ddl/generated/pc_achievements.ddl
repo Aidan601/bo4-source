@@ -3,7 +3,7 @@
 
 version 7 {
     // idx 0 members 102
-    enum hash_66ee86476c16beac {
+    enum pc_achievement_e {
         zm_red_wind, // 0x0,
         zm_towers_kitty_kitty, // 0x1,
         zm_zodt8_stowaway, // 0x2,
@@ -110,7 +110,7 @@ version 7 {
 
     // idx 0 members 2 size 0x68
     // offset 0x0, size 0x66
-    bool pc_achievements[hash_66ee86476c16beac];
+    bool pc_achievements[pc_achievement_e];
     // offset 0x66, size 0x2
     uint:1 __pad[2];
 }
@@ -121,7 +121,7 @@ version 7 {
 
 version 6 {
     // idx 0 members 92
-    enum hash_66ee86476c16beac {
+    enum pc_achievement_e {
         zm_red_wind, // 0x0,
         zm_towers_kitty_kitty, // 0x1,
         zm_zodt8_stowaway, // 0x2,
@@ -218,7 +218,7 @@ version 6 {
 
     // idx 0 members 2 size 0x60
     // offset 0x0, size 0x5c
-    bool pc_achievements[hash_66ee86476c16beac];
+    bool pc_achievements[pc_achievement_e];
     // offset 0x5c, size 0x4
     uint:1 __pad[4];
 }
@@ -229,7 +229,7 @@ version 6 {
 
 version 5 {
     // idx 0 members 82
-    enum hash_66ee86476c16beac {
+    enum pc_achievement_e {
         zm_red_wind, // 0x0,
         zm_towers_kitty_kitty, // 0x1,
         zm_zodt8_stowaway, // 0x2,
@@ -316,7 +316,7 @@ version 5 {
 
     // idx 0 members 2 size 0x58
     // offset 0x0, size 0x52
-    bool pc_achievements[hash_66ee86476c16beac];
+    bool pc_achievements[pc_achievement_e];
     // offset 0x52, size 0x6
     uint:1 __pad[6];
 }
@@ -327,7 +327,7 @@ version 5 {
 
 version 4 {
     // idx 0 members 72
-    enum hash_66ee86476c16beac {
+    enum pc_achievement_e {
         zm_towers_kitty_kitty, // 0x0,
         zm_zodt8_stowaway, // 0x1,
         mp_trophy_welcome_to_the_club, // 0x2,
@@ -404,7 +404,7 @@ version 4 {
 
     // idx 0 members 1 size 0x48
     // offset 0x0, size 0x48
-    bool pc_achievements[hash_66ee86476c16beac];
+    bool pc_achievements[pc_achievement_e];
 }
 
 /////////////////////////////////////////////////
@@ -413,7 +413,7 @@ version 4 {
 
 version 3 {
     // idx 0 members 62
-    enum hash_66ee86476c16beac {
+    enum pc_achievement_e {
         zm_towers_kitty_kitty, // 0x0,
         zm_zodt8_stowaway, // 0x1,
         mp_trophy_welcome_to_the_club, // 0x2,
@@ -480,7 +480,7 @@ version 3 {
 
     // idx 0 members 2 size 0x40
     // offset 0x0, size 0x3e
-    bool pc_achievements[hash_66ee86476c16beac];
+    bool pc_achievements[pc_achievement_e];
     // offset 0x3e, size 0x2
     uint:1 __pad[2];
 }
@@ -491,7 +491,7 @@ version 3 {
 
 version 2 {
     // idx 0 members 52
-    enum hash_66ee86476c16beac {
+    enum pc_achievement_e {
         zm_towers_kitty_kitty, // 0x0,
         zm_zodt8_stowaway, // 0x1,
         mp_trophy_welcome_to_the_club, // 0x2,
@@ -548,7 +548,7 @@ version 2 {
 
     // idx 0 members 2 size 0x38
     // offset 0x0, size 0x34
-    bool pc_achievements[hash_66ee86476c16beac];
+    bool pc_achievements[pc_achievement_e];
     // offset 0x34, size 0x4
     uint:1 __pad[4];
 }
@@ -559,7 +559,7 @@ version 2 {
 
 version 1 {
     // idx 0 members 52
-    enum hash_66ee86476c16beac {
+    enum pc_achievement_e {
         zm_towers_kitty_kitty, // 0x0,
         zm_zodt8_stowaway, // 0x1,
         mp_trophy_welcome_to_the_club, // 0x2,
@@ -616,7 +616,7 @@ version 1 {
 
     // idx 0 members 2 size 0x38
     // offset 0x0, size 0x34
-    bool pc_achievements[hash_66ee86476c16beac];
+    bool pc_achievements[pc_achievement_e];
     // offset 0x34, size 0x4
     uint:1 __pad[4];
 }

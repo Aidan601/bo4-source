@@ -31,7 +31,7 @@ version 6 {
     // offset 0x100, size 0x20
     int pos_z;
     // offset 0x120, size 0x20
-    uint hash_5d4c0dad617ca23;
+    uint sequence_num;
     // offset 0x140, size 0x20
     uint time_ms;
     // offset 0x160, size 0x8

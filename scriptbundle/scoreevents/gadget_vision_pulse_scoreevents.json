@@ -4,7 +4,7 @@
     "killscoreevent": "#vision_pulse_kill",
     "configstringfiletype": "scriptbundle",
     "type": "scoreevents",
-    "activationscoreevent": "#hash_460160e4c5f2d9f3",
+    "activationscoreevent": "#vision_pulse_activated",
     "vmtype": "both",
     "hash_3c9a57250734ff5c:hash_16abf654": "#hash_313ab3da993aeac4",
     "name": "gadget_vision_pulse_scoreevents",

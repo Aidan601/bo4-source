@@ -28,10 +28,10 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "soundc0": "#hash_203d70330a10a020",
+    "soundc0": "#wpn_snowball_pullback",
     "firesound": "#wpn_grenade_throw",
     "firesoundplayer": "#wpn_grenade_throw",
-    "projexplosionsound": "#hash_444dd4b86b461e70",
+    "projexplosionsound": "#wpn_snowball_impact_3d",
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
     "tunables1": "#snowball_tunables_wz",
@@ -39,7 +39,7 @@
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_45054b240b25fe69"
+        "#au_snowball_none"
     ],
     "sharedWeaponSounds": "#equipment",
     "projectilemodel": "#wpn_t8_snowball_world",
@@ -56,6 +56,6 @@
     "image_e90": "#ui_icon_obit_snowball",
     "image_1048": "#ui_icon_inventory_snowball",
     "fireRumble": "#defaultweapon_melee",
-    "fx_ed8": "#hash_1cfe14d9b89b725a",
-    "fx_f00": "#hash_5b89ded66783cd46"
+    "fx_ed8": "#weapon/fx8_impact_snowball",
+    "fx_f00": "#weapon/fx8_trail_snowball"
 }

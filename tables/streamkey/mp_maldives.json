@@ -20,7 +20,7 @@
             "keyFlags": 3
         },
         {
-            "name": "#hash_610d11a82377d608",
+            "name": "#mp_maldives_all_loaded",
             "xPakEntry": {
                 "key": "#hash_f85e4f5aebc1c83e",
                 "offset": 0,
@@ -26677,7 +26677,7 @@
             "keyFlags": 0
         },
         {
-            "name": "#hash_162107575f663e11",
+            "name": "#mp_maldives_sst_0_0",
             "xPakEntry": {
                 "key": "#hash_ee58242b9c2fc6b6",
                 "offset": 0,

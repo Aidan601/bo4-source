@@ -1,6 +1,6 @@
 {
     "name": "#dlog_event_backend_doc_parse_failure",
-    "ddlDef": "#hash_2b41534c36d68503",
+    "ddlDef": "#gamedata/ddl/generated/dlog_event_backend_doc_parse_failure.ddl",
     "unk18": 0,
     "unk19": 1,
     "unk1a": 0,
@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -71,7 +71,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -86,18 +86,18 @@
     "members": [
         {
             "name": "#error_on_reading",
-            "scrName": "#hash_f91ab628",
+            "scrName": "#error_on_reading",
             "type": "STRING",
             "len": 128
         },
         {
             "name": "#missing_entry",
-            "scrName": "#hash_7a583630",
+            "scrName": "#missing_entry",
             "type": "BOOL"
         },
         {
-            "name": "#hash_1d210b6104a343a1",
-            "scrName": "#hash_82356fbd",
+            "name": "#lobby_backend_doc",
+            "scrName": "#lobby_backend_doc",
             "type": "STRING",
             "len": 4096
         }

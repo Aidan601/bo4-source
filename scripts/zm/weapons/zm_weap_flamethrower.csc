@@ -28,10 +28,10 @@ function __init__()
     clientfield::register( "toplayer", "flamethrower_wind_blast_flash", -1, 1, "counter", &flamethrower_wind_blast_flash, 0, 0 );
     clientfield::register( "allplayers", "flamethrower_wind_blast_tu16", 16000, 1, "counter", &flamethrower_wind_blast_flash, 0, 0 );
     clientfield::register( "toplayer", "flamethrower_tornado_blast_flash", 1, 1, "counter", &flamethrower_tornado_blast_flash, 0, 0 );
-    level._effect[ #"flamethrower_tornado" ] = #"hash_2f45879d2658065c";
-    level._effect[ #"wind_blast_flash" ] = #"hash_312fc9707e06f6f4";
-    level._effect[ #"hash_34db403668f7f353" ] = #"hash_52e3de5257e268c2";
-    level._effect[ #"tornado_blast_flash" ] = #"hash_5c5ffb835c39dce3";
+    level._effect[ #"flamethrower_tornado" ] = #"zm_weapons/fx8_flamethrower_tornado";
+    level._effect[ #"wind_blast_flash" ] = #"zm_weapons/fx8_flamethrower_wind_blast";
+    level._effect[ #"wind_blast_flash_3p" ] = #"zm_weapons/fx8_flamethrower_wind_blast_3p";
+    level._effect[ #"tornado_blast_flash" ] = #"zm_weapons/fx8_flamethrower_tornado_muz";
 }
 
 // Namespace zm_weap_flamethrower/zm_weap_flamethrower
@@ -66,7 +66,7 @@ function flamethrower_tornado_fx( localclientnum, oldval, newval, bnewent, binit
     
     if ( isdefined( self.var_180064c2 ) )
     {
-        self playsound( localclientnum, #"hash_51812161eb23c96f" );
+        self playsound( localclientnum, #"wpn_flamethrower_tornado_end" );
         self stoploopsound( self.var_180064c2 );
         self.var_180064c2 = undefined;
     }
@@ -82,8 +82,8 @@ function function_ea05550b( localclientnum )
 {
     self endon( #"death", #"hash_4a10e61d27734104" );
     wait 0.1;
-    self playsound( localclientnum, #"hash_2e4b3d95b5a51afa" );
-    self.var_180064c2 = self playloopsound( #"hash_468cabb7402e170e" );
+    self playsound( localclientnum, #"wpn_flamethrower_tornado_start" );
+    self.var_180064c2 = self playloopsound( #"wpn_flamethrower_tornado_lp" );
 }
 
 // Namespace zm_weap_flamethrower/zm_weap_flamethrower
@@ -139,7 +139,7 @@ function flamethrower_wind_blast_flash( localclientnum, oldval, newval, bnewent,
         return;
     }
     
-    util::playfxontag( localclientnum, level._effect[ #"hash_34db403668f7f353" ], self, "tag_flash" );
+    util::playfxontag( localclientnum, level._effect[ #"wind_blast_flash_3p" ], self, "tag_flash" );
 }
 
 // Namespace zm_weap_flamethrower/zm_weap_flamethrower

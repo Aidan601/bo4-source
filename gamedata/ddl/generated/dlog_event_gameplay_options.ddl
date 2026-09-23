@@ -17,7 +17,7 @@ version 8 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
         uint64 game_session_id;
     };
@@ -131,7 +131,7 @@ version 8 {
     // offset 0x316, size 0x1
     bool swatgrenade_toggle;
     // offset 0x317, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x318, size 0x1
     bool show_real_names;
     // offset 0x319, size 0x1

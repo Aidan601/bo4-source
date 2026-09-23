@@ -45,7 +45,7 @@ function __init__()
 {
     n_bits = getminbitcountfornum( 4 );
     clientfield::register( "item", "" + #"hash_7e5c581ade235dfc", 16000, n_bits, "int" );
-    clientfield::register( "toplayer", "" + #"hash_403e80cafccc207c", 16000, 1, "int" );
+    clientfield::register( "toplayer", "" + #"oracle_boon_recieved", 16000, 1, "int" );
     callback::on_connecting( &on_player_connect );
 }
 
@@ -755,7 +755,7 @@ function private function_de053460( pap_machine )
         {
             self zm_weapons::take_fallback_weapon();
             w_upgrade = self zm_weapons::give_build_kit_weapon( var_2ff5c7ee.upgrade_weapon, var_2ff5c7ee.var_3ded6a21, var_2ff5c7ee.var_f716c676 );
-            self zm_weapons::function_7c5dd4bd( w_upgrade );
+            self zm_weapons::give_full_ammo( w_upgrade );
             self notify( #"weapon_give", w_upgrade );
             var_cbf27833 = zm_weapons::is_weapon_upgraded( w_current );
             
@@ -849,7 +849,7 @@ function private function_3fe13b7b()
                 
                 if ( isdefined( var_c3f41835 ) )
                 {
-                    self thread zm_perks::function_9bdf581f( self.var_b0a9df22, var_c3f41835 );
+                    self thread zm_perks::give_perk_vapor( self.var_b0a9df22, var_c3f41835 );
                 }
                 else
                 {
@@ -881,34 +881,34 @@ function private function_c3778d8a( n_boon, n_delay = undefined )
     switch ( n_boon )
     {
         case 0:
-            var_8b7ccae4 = #"hash_6a1a8af71c401279";
+            var_8b7ccae4 = #"vox_oracle_help_orac_3";
             break;
         case 1:
-            var_8b7ccae4 = #"hash_6a1a88f71c400f13";
+            var_8b7ccae4 = #"vox_oracle_help_orac_1";
             break;
         case 2:
-            var_8b7ccae4 = #"hash_6a1a8bf71c40142c";
+            var_8b7ccae4 = #"vox_oracle_help_orac_4";
             break;
         case 3:
-            var_8b7ccae4 = #"hash_6a1a87f71c400d60";
+            var_8b7ccae4 = #"vox_oracle_help_orac_0";
             break;
         case 4:
-            var_8b7ccae4 = #"hash_6a1a90f71c401cab";
+            var_8b7ccae4 = #"vox_oracle_help_orac_9";
             break;
         case 5:
-            var_8b7ccae4 = #"hash_6a1a8ef71c401945";
+            var_8b7ccae4 = #"vox_oracle_help_orac_7";
             break;
         case 6:
-            var_8b7ccae4 = #"hash_6a1a8ff71c401af8";
+            var_8b7ccae4 = #"vox_oracle_help_orac_8";
             break;
         default:
             var_8b7ccae4 = #"hash_11dfeee664d456ef";
             break;
     }
     
-    self clientfield::set_to_player( "" + #"hash_403e80cafccc207c", 1 );
+    self clientfield::set_to_player( "" + #"oracle_boon_recieved", 1 );
     b_say = self zm_vo::vo_say( var_8b7ccae4, 0, 1, 9999, 1, 1, 1 );
-    self clientfield::set_to_player( "" + #"hash_403e80cafccc207c", 0 );
+    self clientfield::set_to_player( "" + #"oracle_boon_recieved", 0 );
     
     if ( b_say && self zm_audio::can_speak() && !( isdefined( self.var_e0ffa699 ) && self.var_e0ffa699 ) )
     {
@@ -923,7 +923,7 @@ function private function_c3778d8a( n_boon, n_delay = undefined )
 // Size: 0x10c, Type: bool
 function private function_3b81466e( n_boon )
 {
-    if ( level flag::get( #"hash_1c0b421abe38d4e0" ) || level flag::get( "round_reset" ) )
+    if ( level flag::get( #"oracle_key_picked_up" ) || level flag::get( "round_reset" ) )
     {
         return false;
     }

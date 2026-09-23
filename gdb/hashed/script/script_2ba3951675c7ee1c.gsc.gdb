@@ -1,4 +1,4 @@
-NAME script_2ba3951675c7ee1c
+NAME scripts/zm/zm_escape_weap_quest_mg.gsc
 VERSION 0
 CHECKSUM 0xe7be9e0
 ######################################################

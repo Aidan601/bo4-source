@@ -36,7 +36,7 @@ function init_flags()
 // Size: 0x14c
 function function_a28f0b21( e_holder, w_item )
 {
-    self playsound( #"hash_230737b2535a3374" );
+    self playsound( #"zmb_crafting_pickup_generic" );
     level.var_e2103f01 += 1;
     
     if ( function_8b1a219a() )
@@ -59,7 +59,7 @@ function function_a28f0b21( e_holder, w_item )
 // Size: 0x12c
 function function_af5c24bb( e_holder, w_item )
 {
-    self playsound( #"hash_230737b2535a3374" );
+    self playsound( #"zmb_crafting_pickup_generic" );
     level.var_e2103f01 += 1;
     
     if ( function_8b1a219a() )
@@ -83,7 +83,7 @@ function function_e021562c()
     
     if ( isdefined( level.fix_trigger_array ) )
     {
-        array::thread_all( level.fix_trigger_array, &function_cebfdd08 );
+        array::thread_all( level.fix_trigger_array, &fix_electric_trap );
     }
 }
 
@@ -91,7 +91,7 @@ function function_e021562c()
 // Params 0
 // Checksum 0x1a988da1, Offset: 0x580
 // Size: 0x404
-function function_cebfdd08()
+function fix_electric_trap()
 {
     if ( !isdefined( self.script_flag_wait ) )
     {

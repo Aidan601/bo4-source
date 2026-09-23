@@ -7,11 +7,11 @@ xmodelmesh,d#hash_4a4003b97a194ded
 xmodelmesh,d#hash_5df29c6f805e1105
 xmodelmesh,d#hash_6e7ffc8f5c0683f7
 xmodelmesh,d#hash_7d274a15c664f6f0
-techset,d#hash_33832cd9511a3ad
-techset,d#hash_2656ab69d7e5b667
+techset,d#mc/lit#cc85bc05
+techset,d#mc/lit_decal_diffuse#b92af314
 techset,#hash_4c38324e73a8feb1
 techset,#hash_5307b6f5d79c1c05
-techset,d#hash_600124f3d78a9d7a
+techset,d#mc/lit#91e33966
 image,#i_t7_concrete_bare_wet_warm_n
 image,d#$identitynormalmap
 image,#i_t7_decal_blood_pool_01_c

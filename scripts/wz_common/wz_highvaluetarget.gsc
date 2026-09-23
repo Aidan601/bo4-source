@@ -34,8 +34,8 @@ function __init__()
     
     assert( level.wzhighvaluetargets <= 8 );
     clientfield::register( "allplayers", "ishighvaluetarget", 16000, 1, "int" );
-    callback::add_callback( #"hash_405e46788e83af41", &update_targets );
-    callback::add_callback( #"hash_7912e21750e4010d", &update_targets );
+    callback::add_callback( #"death_circle_start", &update_targets );
+    callback::add_callback( #"death_circle_locked", &update_targets );
     callback::add_callback( #"on_player_downed", &function_9141be4e );
     callback::on_player_killed_with_params( &function_3f8e4156 );
     callback::on_disconnect( &on_player_disconnect );
@@ -83,8 +83,8 @@ function private update_targets()
             
             if ( isalive( player ) )
             {
-                player playsoundtoplayer( #"hash_321dbeea036e0e68", player );
-                player luinotifyevent( #"hash_6b67aa04e378d681", 1, 12 );
+                player playsoundtoplayer( #"evt_wz_bounty_success", player );
+                player luinotifyevent( #"game_update_notification", 1, 12 );
                 item_supply_drop::drop_supply_drop( player.origin );
             }
             
@@ -113,8 +113,8 @@ function private update_targets()
             randomindex = randomint( topplayers.size );
             player = topplayers[ randomindex ];
             player clientfield::set( "ishighvaluetarget", 1 );
-            player playsoundtoplayer( #"hash_6d40de6f3e747fb1", player );
-            player luinotifyevent( #"hash_6b67aa04e378d681", 1, 10 );
+            player playsoundtoplayer( #"evt_wz_bounty_targeted", player );
+            player luinotifyevent( #"game_update_notification", 1, 10 );
             indicatorarray[ #"clientnum" ] = player getentitynumber();
             
             foreach ( other_player in getplayers() )
@@ -163,7 +163,7 @@ function private update_targets()
             {
                 if ( target.team != player.team )
                 {
-                    player luinotifyevent( #"hash_6b67aa04e378d681", 1, 9 );
+                    player luinotifyevent( #"game_update_notification", 1, 9 );
                     break;
                 }
             }
@@ -259,8 +259,8 @@ function private function_3f8e4156( params )
         return;
     }
     
-    attacker playsoundtoplayer( #"hash_619bf069e410b863", attacker );
-    attacker luinotifyevent( #"hash_6b67aa04e378d681", 1, 11 );
+    attacker playsoundtoplayer( #"evt_wz_bounty_success_spectre", attacker );
+    attacker luinotifyevent( #"game_update_notification", 1, 11 );
     item_supply_drop::drop_supply_drop( attacker.origin );
 }
 

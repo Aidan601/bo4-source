@@ -15,7 +15,7 @@ version 10 {
         // offset 0x26, size 0xc
         uint:12 posy;
         // offset 0x32, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x3a, size 0x8
         uint:8 alpha;
         // offset 0x42, size 0x9
@@ -49,7 +49,7 @@ version 10 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -61,7 +61,7 @@ version 10 {
     };
 
     // idx 2 members 27 size 0xb4
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -71,7 +71,7 @@ version 10 {
         // offset 0x1c, size 0xc
         uint:12 posy;
         // offset 0x28, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x30, size 0x8
         uint:8 alpha;
         // offset 0x38, size 0x9
@@ -103,7 +103,7 @@ version 10 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -119,39 +119,39 @@ version 10 {
     };
 
     // idx 3 members 2 size 0x37bc
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0x7bc
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x30b4
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0xb4
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x37c6
     struct emblem {
         // offset 0x0, size 0x37bc
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x37bc, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7086
@@ -199,7 +199,7 @@ version 10 {
     };
 
     // idx 10 members 5 size 0xdf28
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f78
         paintshop primaryweaponpaintshop;
         // offset 0x6f78, size 0x20
@@ -220,9 +220,9 @@ version 10 {
 
     // idx 0 members 2 size 0xdf48
     // offset 0x0, size 0xdf28
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xdf28, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -243,7 +243,7 @@ version 9 {
         // offset 0x26, size 0xc
         uint:12 posy;
         // offset 0x32, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x3a, size 0x8
         uint:8 alpha;
         // offset 0x42, size 0x9
@@ -277,7 +277,7 @@ version 9 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -289,7 +289,7 @@ version 9 {
     };
 
     // idx 2 members 27 size 0xb4
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -299,7 +299,7 @@ version 9 {
         // offset 0x1c, size 0xc
         uint:12 posy;
         // offset 0x28, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x30, size 0x8
         uint:8 alpha;
         // offset 0x38, size 0x9
@@ -331,7 +331,7 @@ version 9 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -347,39 +347,39 @@ version 9 {
     };
 
     // idx 3 members 2 size 0x37bc
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0x7bc
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x30b4
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0xb4
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x37c6
     struct emblem {
         // offset 0x0, size 0x37bc
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x37bc, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7086
@@ -427,7 +427,7 @@ version 9 {
     };
 
     // idx 10 members 5 size 0xdf20
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f78
         paintshop primaryweaponpaintshop;
         // offset 0x6f78, size 0x20
@@ -448,9 +448,9 @@ version 9 {
 
     // idx 0 members 2 size 0xdf40
     // offset 0x0, size 0xdf20
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xdf20, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -471,7 +471,7 @@ version 8 {
         // offset 0x26, size 0xc
         uint:12 posy;
         // offset 0x32, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x3a, size 0x8
         uint:8 alpha;
         // offset 0x42, size 0x9
@@ -505,7 +505,7 @@ version 8 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -517,7 +517,7 @@ version 8 {
     };
 
     // idx 2 members 27 size 0xb4
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -527,7 +527,7 @@ version 8 {
         // offset 0x1c, size 0xc
         uint:12 posy;
         // offset 0x28, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x30, size 0x8
         uint:8 alpha;
         // offset 0x38, size 0x9
@@ -559,7 +559,7 @@ version 8 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -575,39 +575,39 @@ version 8 {
     };
 
     // idx 3 members 2 size 0x37bc
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0x7bc
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x30b4
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0xb4
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x37c6
     struct emblem {
         // offset 0x0, size 0x37bc
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x37bc, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7082
@@ -655,7 +655,7 @@ version 8 {
     };
 
     // idx 10 members 5 size 0xdf20
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f78
         paintshop primaryweaponpaintshop;
         // offset 0x6f78, size 0x20
@@ -676,9 +676,9 @@ version 8 {
 
     // idx 0 members 2 size 0xdf40
     // offset 0x0, size 0xdf20
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xdf20, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -699,7 +699,7 @@ version 7 {
         // offset 0x26, size 0xc
         uint:12 posy;
         // offset 0x32, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x3a, size 0x8
         uint:8 alpha;
         // offset 0x42, size 0x9
@@ -733,7 +733,7 @@ version 7 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -745,7 +745,7 @@ version 7 {
     };
 
     // idx 2 members 27 size 0xb4
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -755,7 +755,7 @@ version 7 {
         // offset 0x1c, size 0xc
         uint:12 posy;
         // offset 0x28, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x30, size 0x8
         uint:8 alpha;
         // offset 0x38, size 0x9
@@ -787,7 +787,7 @@ version 7 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -803,39 +803,39 @@ version 7 {
     };
 
     // idx 3 members 2 size 0x37bc
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0x7bc
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x30b4
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0xb4
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x37c6
     struct emblem {
         // offset 0x0, size 0x37bc
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x37bc, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7082
@@ -881,7 +881,7 @@ version 7 {
     };
 
     // idx 10 members 5 size 0xdf20
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f78
         paintshop primaryweaponpaintshop;
         // offset 0x6f78, size 0x20
@@ -902,9 +902,9 @@ version 7 {
 
     // idx 0 members 2 size 0xdf40
     // offset 0x0, size 0xdf20
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xdf20, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -925,7 +925,7 @@ version 6 {
         // offset 0x25, size 0xb
         uint:11 posy;
         // offset 0x30, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x38, size 0x8
         uint:8 alpha;
         // offset 0x40, size 0x9
@@ -959,7 +959,7 @@ version 6 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -969,7 +969,7 @@ version 6 {
     };
 
     // idx 2 members 26 size 0xb3
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -979,7 +979,7 @@ version 6 {
         // offset 0x1b, size 0xb
         uint:11 posy;
         // offset 0x26, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x2e, size 0x8
         uint:8 alpha;
         // offset 0x36, size 0x9
@@ -1011,7 +1011,7 @@ version 6 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -1025,39 +1025,39 @@ version 6 {
     };
 
     // idx 3 members 2 size 0x3771
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x2fc0
         emblemlayer layer[64];
         // offset 0x2fc0, size 0x7b1
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x3073
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x2fc0
         emblemlayer layer[64];
         // offset 0x2fc0, size 0xb3
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x377b
     struct emblem {
         // offset 0x0, size 0x3771
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x3771, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x3771
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3771
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6ee2
     struct paintshop {
         // offset 0x0, size 0x6ee2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6fec
@@ -1103,7 +1103,7 @@ version 6 {
     };
 
     // idx 10 members 5 size 0xddf4
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6ee2
         paintshop primaryweaponpaintshop;
         // offset 0x6ee2, size 0x20
@@ -1124,9 +1124,9 @@ version 6 {
 
     // idx 0 members 2 size 0xde14
     // offset 0x0, size 0xddf4
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xddf4, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -1147,7 +1147,7 @@ version 5 {
         // offset 0x24, size 0xb
         uint:11 posy;
         // offset 0x2f, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x37, size 0x8
         uint:8 alpha;
         // offset 0x3f, size 0x9
@@ -1181,7 +1181,7 @@ version 5 {
         // offset 0xaf, size 0x7
         uint:7 materialid;
         // offset 0xb6, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbd, size 0x1
         bool flip;
         // offset 0xbe, size 0x1
@@ -1191,7 +1191,7 @@ version 5 {
     };
 
     // idx 2 members 26 size 0xb3
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -1201,7 +1201,7 @@ version 5 {
         // offset 0x1b, size 0xb
         uint:11 posy;
         // offset 0x26, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x2e, size 0x8
         uint:8 alpha;
         // offset 0x36, size 0x9
@@ -1233,7 +1233,7 @@ version 5 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -1247,39 +1247,39 @@ version 5 {
     };
 
     // idx 3 members 2 size 0x37b1
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0x7b1
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x30b3
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x3000
         emblemlayer layer[64];
         // offset 0x3000, size 0xb3
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x37bb
     struct emblem {
         // offset 0x0, size 0x37b1
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x37b1, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x37b1
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37b1
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6f62
     struct paintshop {
         // offset 0x0, size 0x6f62
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x706c
@@ -1325,7 +1325,7 @@ version 5 {
     };
 
     // idx 10 members 5 size 0xdef4
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6f62
         paintshop primaryweaponpaintshop;
         // offset 0x6f62, size 0x20
@@ -1346,9 +1346,9 @@ version 5 {
 
     // idx 0 members 2 size 0xdf14
     // offset 0x0, size 0xdef4
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xdef4, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -1369,7 +1369,7 @@ version 4 {
         // offset 0x24, size 0xb
         uint:11 posy;
         // offset 0x2f, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x37, size 0x8
         uint:8 alpha;
         // offset 0x3f, size 0x9
@@ -1411,7 +1411,7 @@ version 4 {
     };
 
     // idx 2 members 25 size 0xac
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -1421,7 +1421,7 @@ version 4 {
         // offset 0x1b, size 0xb
         uint:11 posy;
         // offset 0x26, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x2e, size 0x8
         uint:8 alpha;
         // offset 0x36, size 0x9
@@ -1465,39 +1465,39 @@ version 4 {
     };
 
     // idx 3 members 2 size 0x35a4
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x2e40
         emblemlayer layer[64];
         // offset 0x2e40, size 0x764
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x2eec
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x2e40
         emblemlayer layer[64];
         // offset 0x2e40, size 0xac
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x35ae
     struct emblem {
         // offset 0x0, size 0x35a4
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x35a4, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x35a4
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x35a4
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6b48
     struct paintshop {
         // offset 0x0, size 0x6b48
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6c52
@@ -1543,7 +1543,7 @@ version 4 {
     };
 
     // idx 10 members 5 size 0xd6c0
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6b48
         paintshop primaryweaponpaintshop;
         // offset 0x6b48, size 0x20
@@ -1564,9 +1564,9 @@ version 4 {
 
     // idx 0 members 2 size 0xd6e0
     // offset 0x0, size 0xd6c0
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xd6c0, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -1587,7 +1587,7 @@ version 3 {
         // offset 0x24, size 0xb
         uint:11 posy;
         // offset 0x2f, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x37, size 0x8
         uint:8 alpha;
         // offset 0x3f, size 0x9
@@ -1629,7 +1629,7 @@ version 3 {
     };
 
     // idx 2 members 25 size 0xab
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -1639,7 +1639,7 @@ version 3 {
         // offset 0x1b, size 0xb
         uint:11 posy;
         // offset 0x26, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x2e, size 0x8
         uint:8 alpha;
         // offset 0x36, size 0x9
@@ -1683,39 +1683,39 @@ version 3 {
     };
 
     // idx 3 members 2 size 0x3559
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x2e00
         emblemlayer layer[64];
         // offset 0x2e00, size 0x759
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x2eab
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x2e00
         emblemlayer layer[64];
         // offset 0x2e00, size 0xab
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x3563
     struct emblem {
         // offset 0x0, size 0x3559
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x3559, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6bbc
@@ -1761,7 +1761,7 @@ version 3 {
     };
 
     // idx 10 members 5 size 0xd594
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6ab2
         paintshop primaryweaponpaintshop;
         // offset 0x6ab2, size 0x20
@@ -1782,9 +1782,9 @@ version 3 {
 
     // idx 0 members 2 size 0xd5b4
     // offset 0x0, size 0xd594
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xd594, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -1805,7 +1805,7 @@ version 2 {
         // offset 0x24, size 0xb
         uint:11 posy;
         // offset 0x2f, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x37, size 0x8
         uint:8 alpha;
         // offset 0x3f, size 0x9
@@ -1847,7 +1847,7 @@ version 2 {
     };
 
     // idx 2 members 25 size 0xab
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -1857,7 +1857,7 @@ version 2 {
         // offset 0x1b, size 0xb
         uint:11 posy;
         // offset 0x26, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x2e, size 0x8
         uint:8 alpha;
         // offset 0x36, size 0x9
@@ -1901,39 +1901,39 @@ version 2 {
     };
 
     // idx 3 members 2 size 0x3559
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x2e00
         emblemlayer layer[64];
         // offset 0x2e00, size 0x759
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x2eab
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x2e00
         emblemlayer layer[64];
         // offset 0x2e00, size 0xab
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x3563
     struct emblem {
         // offset 0x0, size 0x3559
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x3559, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x6b7c
@@ -1977,7 +1977,7 @@ version 2 {
     };
 
     // idx 10 members 5 size 0xd594
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6ab2
         paintshop primaryweaponpaintshop;
         // offset 0x6ab2, size 0x20
@@ -1998,9 +1998,9 @@ version 2 {
 
     // idx 0 members 2 size 0xd5b4
     // offset 0x0, size 0xd594
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xd594, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 
 /////////////////////////////////////////////////
@@ -2021,7 +2021,7 @@ version 1 {
         // offset 0x24, size 0xb
         uint:11 posy;
         // offset 0x2f, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x37, size 0x8
         uint:8 alpha;
         // offset 0x3f, size 0x9
@@ -2063,7 +2063,7 @@ version 1 {
     };
 
     // idx 2 members 25 size 0xab
-    struct hash_24f699c797bc9492 {
+    struct emblemgroup {
         // offset 0x0, size 0x8
         uint:8 red;
         // offset 0x8, size 0x8
@@ -2073,7 +2073,7 @@ version 1 {
         // offset 0x1b, size 0xb
         uint:11 posy;
         // offset 0x26, size 0x8
-        uint:8 hash_4cf0321fbfe5f277;
+        uint:8 red1;
         // offset 0x2e, size 0x8
         uint:8 alpha;
         // offset 0x36, size 0x9
@@ -2117,39 +2117,39 @@ version 1 {
     };
 
     // idx 3 members 2 size 0x3559
-    struct hash_62325f44a788da78 {
+    struct layerinformation {
         // offset 0x0, size 0x2e00
         emblemlayer layer[64];
         // offset 0x2e00, size 0x759
-        hash_24f699c797bc9492 groups[11];
+        emblemgroup groups[11];
     };
 
     // idx 4 members 2 size 0x2eab
-    struct hash_6ac42a2c4c8f3b10 {
+    struct decalinformation {
         // offset 0x0, size 0x2e00
         emblemlayer layer[64];
         // offset 0x2e00, size 0xab
-        hash_24f699c797bc9492 groups[1];
+        emblemgroup groups[1];
     };
 
     // idx 5 members 2 size 0x3563
     struct emblem {
         // offset 0x0, size 0x3559
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
         // offset 0x3559, size 0xa
         uint:10 background;
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
-        hash_62325f44a788da78 layerinfo;
+        layerinformation layerinfo;
     };
 
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x6b7c
@@ -2193,7 +2193,7 @@ version 1 {
     };
 
     // idx 10 members 5 size 0xd594
-    struct hash_30241e465e2ee2d2 {
+    struct cacloadoutpaintshop {
         // offset 0x0, size 0x6ab2
         paintshop primaryweaponpaintshop;
         // offset 0x6ab2, size 0x20
@@ -2214,8 +2214,8 @@ version 1 {
 
     // idx 0 members 2 size 0xd5b4
     // offset 0x0, size 0xd594
-    hash_30241e465e2ee2d2 loadoutpaintshop;
+    cacloadoutpaintshop loadoutpaintshop;
     // offset 0xd594, size 0x20
-    int hash_3378d56fb431d957;
+    int activeloadoutnum;
 }
 

@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2789f5cd44519dd3",
+                            "anim": "anim#p8_fxanim_zm_esc_door_lab_double_closed",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,11 +34,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5cef4c736273b355",
+                            "anim": "anim#p8_fxanim_zm_esc_door_lab_double_opening",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_5cc41266139b0e22",
+                            "anim": "anim#p8_fxanim_zm_esc_door_lab_double_opened",
                             "entrytype": "anim"
                         }
                     ],
@@ -66,7 +66,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,

@@ -1,6 +1,6 @@
 {
-    "detailsicon": "image#hash_41590af0581bfbd",
-    "shopicon": "image#hash_20d0127b706b68c0",
+    "detailsicon": "image#loot04_ui_icon_blackmarket_itemdetail_bundle_treasure_vault",
+    "shopicon": "image#loot04_ui_icon_blackmarket_itemshop_camo_active_treasure",
     "nametext": "localized17#hash_1df066dfc1b6857e",
     "name": "treasure_vault_reactive_camo_bundle_shop",
     "desctext": "localized17#hash_2df88ebddf1f96ce"

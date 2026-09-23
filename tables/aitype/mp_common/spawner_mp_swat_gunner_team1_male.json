@@ -16,13 +16,13 @@
     "typeSuffix": "_suppressor",
     "spawnerType": "vox_ax",
     "primaryWeapons": [
-        "#hash_4183b33cd08bd79c"
+        "#sniper_powerbolt_swat_t8_mp"
     ],
     "character": [
         "#c_t8_mp_swatbuddy_male1"
     ],
     "animMappingTables": [
-        "#hash_6425d08a8e28f140",
+        "#swat_soldier.ai_am",
         "#hash_23385eaadc2b3acb"
     ],
     "aimTable": "#soldier_aim",
@@ -30,9 +30,9 @@
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_641bd78a8e20a8a0",
-    "animStateMachine": "#hash_5598ac6f8fe8bfd5",
-    "animSelectorTable": "#hash_5598a36f8fe8b08a",
+    "behaviorTree": "#swat_soldier.ai_bt",
+    "animStateMachine": "#swat_soldier.ai_asm",
+    "animSelectorTable": "#swat_soldier.ai_ast",
     "traversalExtents": "#mp_default_traversal_extents",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#human_settings",

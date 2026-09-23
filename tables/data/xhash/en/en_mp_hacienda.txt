@@ -1,5 +1,5 @@
 mp_hacienda.en
-hash_5aafec95295f15a1
+vox_tvoi_tutor_sera_annih_active_0
 hash_5331de9f2634e5fe
 hash_9f0e4fc7b9a3413
 mp_hacienda.en
@@ -7,8 +7,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_5aafec95295f15a1
-hash_5aafeb95295f13ee
+vox_tvoi_tutor_sera_annih_active_0
+vox_tvoi_tutor_sera_annih_active_1
 hash_66742972d34d1451
 hash_64dc10bc0d56f5e4
 mp_hacienda.en
@@ -16,8 +16,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_5aafeb95295f13ee
-hash_5aafea95295f123b
+vox_tvoi_tutor_sera_annih_active_1
+vox_tvoi_tutor_sera_annih_active_2
 hash_4fed1e249308f3f8
 hash_2298c877ef771ead
 mp_hacienda.en
@@ -25,8 +25,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_5aafea95295f123b
-hash_17674b4f74a1fbc7
+vox_tvoi_tutor_sera_annih_active_2
+vox_tvoi_tutor_sera_annih_active_nag
 hash_2112913bb2edad70
 hash_7ca0ddcea272a0d1
 mp_hacienda.en
@@ -34,7 +34,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_17674b4f74a1fbc7
+vox_tvoi_tutor_sera_annih_active_nag
 hash_f1ac2cf71ff4e9
 hash_24905e21ab526a2c
 mp_hacienda.en
@@ -43,7 +43,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_17674b4f74a1fbc7
+vox_tvoi_tutor_sera_annih_active_nag
 hash_645cd394d3877643
 hash_5986936277585ed2
 mp_hacienda.en
@@ -52,7 +52,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_17674b4f74a1fbc7
+vox_tvoi_tutor_sera_annih_active_nag
 hash_742449db4df388ca
 hash_72c5befd98f28e83
 mp_hacienda.en
@@ -60,7 +60,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_17674b4f74a1fbc7
+vox_tvoi_tutor_sera_annih_active_nag
 hash_305be1b503c183b3
 hash_7137c6ca1322e06
 mp_hacienda.en
@@ -69,7 +69,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_17674b4f74a1fbc7
+vox_tvoi_tutor_sera_annih_active_nag
 hash_21992ad539d12835
 hash_670e54d98c47d854
 mp_hacienda.en
@@ -78,8 +78,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_17674b4f74a1fbc7
-hash_2cb81e56a3c996e8
+vox_tvoi_tutor_sera_annih_active_nag
+vox_tvoi_tutor_sera_end
 hash_391746e2dc02ae35
 hash_34fbafe7a5a38f48
 mp_hacienda.en
@@ -88,7 +88,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_2cb81e56a3c996e8
+vox_tvoi_tutor_sera_end
 hash_7317c670f9ea7337
 hash_9b8cf6ee8b11526
 mp_hacienda.en
@@ -97,8 +97,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_2cb81e56a3c996e8
-hash_771945b68482460c
+vox_tvoi_tutor_sera_end
+vox_tvoi_tutor_sera_enemy_destroy_spawn
 hash_2447bb909d4ef291
 hash_2dda9342bb13c80c
 mp_hacienda.en
@@ -106,7 +106,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_771945b68482460c
+vox_tvoi_tutor_sera_enemy_destroy_spawn
 hash_2e7b5da06cc326f8
 hash_2c4e4acf43233c31
 mp_hacienda.en
@@ -114,7 +114,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_771945b68482460c
+vox_tvoi_tutor_sera_enemy_destroy_spawn
 hash_24d0069b5a883e1b
 hash_bbf5d3aaf0ab066
 mp_hacienda.en
@@ -122,8 +122,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_771945b68482460c
-hash_1641a812cb185b3e
+vox_tvoi_tutor_sera_enemy_destroy_spawn
+vox_tvoi_tutor_sera_enemy_spawn_0
 hash_7adf3dcaaa1a952b
 hash_14dc69f124966036
 mp_hacienda.en
@@ -132,7 +132,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_1641a812cb185b3e
+vox_tvoi_tutor_sera_enemy_spawn_0
 hash_7509797ffbb0589d
 hash_3ef31c7aab7636c4
 mp_hacienda.en
@@ -141,8 +141,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_1641a812cb185b3e
-hash_1641a912cb185cf1
+vox_tvoi_tutor_sera_enemy_spawn_0
+vox_tvoi_tutor_sera_enemy_spawn_1
 hash_55fd001c9926340
 hash_af4f6dc5637270d
 mp_hacienda.en
@@ -151,7 +151,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_1641a912cb185cf1
+vox_tvoi_tutor_sera_enemy_spawn_1
 hash_6ea9042adc94b03a
 hash_57f2c179f6dcedbb
 mp_hacienda.en
@@ -160,8 +160,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_1641a912cb185cf1
-hash_9c3ec48cc485060
+vox_tvoi_tutor_sera_enemy_spawn_1
+vox_tvoi_tutor_sera_enemy_spawn_nag
 hash_19e7dd2536fe74e9
 hash_340dfa7eff9b1f78
 mp_hacienda.en
@@ -170,7 +170,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_9c3ec48cc485060
+vox_tvoi_tutor_sera_enemy_spawn_nag
 hash_3a274bb659a9f643
 hash_409070cd9b80c4d6
 mp_hacienda.en
@@ -179,7 +179,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_9c3ec48cc485060
+vox_tvoi_tutor_sera_enemy_spawn_nag
 hash_3a08c233f2cc2d70
 hash_89a6c888987c0cd
 mp_hacienda.en
@@ -188,7 +188,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_9c3ec48cc485060
+vox_tvoi_tutor_sera_enemy_spawn_nag
 hash_75909b35492199aa
 hash_5755b3dee09f657b
 mp_hacienda.en
@@ -197,7 +197,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_9c3ec48cc485060
+vox_tvoi_tutor_sera_enemy_spawn_nag
 hash_495212ad43a003b3
 hash_20151c09d374d162
 mp_hacienda.en
@@ -205,7 +205,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_9c3ec48cc485060
+vox_tvoi_tutor_sera_enemy_spawn_nag
 hash_d1a7ad38dd208ca
 hash_f95900cf3a54f1f
 mp_hacienda.en
@@ -213,8 +213,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_9c3ec48cc485060
-hash_4de7f76e35d2df28
+vox_tvoi_tutor_sera_enemy_spawn_nag
+vox_tvoi_tutor_sera_final_battle_start_0
 hash_2b717784ff1d1383
 hash_5729a822d67ddf8a
 mp_hacienda.en
@@ -223,7 +223,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_4de7f76e35d2df28
+vox_tvoi_tutor_sera_final_battle_start_0
 hash_52ae8bbdcbfbf5c5
 hash_63310827a5dc88b0
 mp_hacienda.en
@@ -232,8 +232,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_4de7f76e35d2df28
-hash_4de7f86e35d2e0db
+vox_tvoi_tutor_sera_final_battle_start_0
+vox_tvoi_tutor_sera_final_battle_start_1
 hash_1d7bf8ea010518b8
 hash_57944ed77bfb4811
 mp_hacienda.en
@@ -241,8 +241,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_4de7f86e35d2e0db
-hash_4de7f96e35d2e28e
+vox_tvoi_tutor_sera_final_battle_start_1
+vox_tvoi_tutor_sera_final_battle_start_2
 hash_5a17043d26630811
 hash_8644357f6d99028
 mp_hacienda.en
@@ -251,7 +251,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_4de7f96e35d2e28e
+vox_tvoi_tutor_sera_final_battle_start_2
 hash_6d25b69b06d63b1b
 hash_6f8974154a758046
 mp_hacienda.en
@@ -260,8 +260,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_4de7f96e35d2e28e
-hash_16d8d45fbc20d9a1
+vox_tvoi_tutor_sera_final_battle_start_2
+vox_tvoi_tutor_sera_final_event_0
 hash_16541a3aea46a200
 hash_754f29648ceb2c9d
 mp_hacienda.en
@@ -269,8 +269,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_16d8d45fbc20d9a1
-hash_16d8d35fbc20d7ee
+vox_tvoi_tutor_sera_final_event_0
+vox_tvoi_tutor_sera_final_event_1
 hash_335910eb7377eeb
 hash_4ccb5f353a4431c6
 mp_hacienda.en
@@ -279,7 +279,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_16d8d35fbc20d7ee
+vox_tvoi_tutor_sera_final_event_1
 hash_3de941408aa49a5d
 hash_72243b0edcde4114
 mp_hacienda.en
@@ -288,8 +288,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_16d8d35fbc20d7ee
-hash_16d8d25fbc20d63b
+vox_tvoi_tutor_sera_final_event_1
+vox_tvoi_tutor_sera_final_event_2
 hash_73ce707570e2e2c6
 hash_7e37c73a0419583
 mp_hacienda.en
@@ -298,7 +298,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_16d8d25fbc20d63b
+vox_tvoi_tutor_sera_final_event_2
 hash_8c68aae08753218
 hash_6cf5e16b5a50e261
 mp_hacienda.en
@@ -307,8 +307,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_16d8d25fbc20d63b
-hash_55fa7be54f98849
+vox_tvoi_tutor_sera_final_event_2
+vox_tvoi_tutor_sera_final_no_spawn
 hash_4c66d74bd4de7cc2
 hash_76bb4ef809f21a43
 mp_hacienda.en
@@ -316,7 +316,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_55fa7be54f98849
+vox_tvoi_tutor_sera_final_no_spawn
 hash_6bae0540ed68a1cb
 hash_125d1955fcbb7c6
 mp_hacienda.en
@@ -324,7 +324,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_55fa7be54f98849
+vox_tvoi_tutor_sera_final_no_spawn
 hash_746e07026ff1cde8
 hash_7ed2b0b8a07a4191
 mp_hacienda.en
@@ -332,7 +332,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_55fa7be54f98849
+vox_tvoi_tutor_sera_final_no_spawn
 hash_6f8e5c9c6ac10881
 hash_68a48e76e7a930ec
 mp_hacienda.en
@@ -340,8 +340,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_55fa7be54f98849
-hash_60353ddba57b41a8
+vox_tvoi_tutor_sera_final_no_spawn
+vox_tvoi_tutor_sera_final_no_spawn_dead
 hash_5a1015a8e3d3f761
 hash_764bf71552c80660
 mp_hacienda.en
@@ -350,7 +350,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_60353ddba57b41a8
+vox_tvoi_tutor_sera_final_no_spawn_dead
 hash_355684b95faa3fab
 hash_56f21445a0a8c1ee
 mp_hacienda.en
@@ -359,7 +359,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_60353ddba57b41a8
+vox_tvoi_tutor_sera_final_no_spawn_dead
 hash_5eefc00ee904bcc8
 hash_520af71c30501055
 mp_hacienda.en
@@ -368,7 +368,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_60353ddba57b41a8
+vox_tvoi_tutor_sera_final_no_spawn_dead
 hash_64ba480bfe2aa2d2
 hash_5dd77e0efb854b3
 mp_hacienda.en
@@ -377,7 +377,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_60353ddba57b41a8
+vox_tvoi_tutor_sera_final_no_spawn_dead
 hash_5a9820b3a10cd62b
 hash_5a860eb650fbddca
 mp_hacienda.en
@@ -386,7 +386,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_60353ddba57b41a8
+vox_tvoi_tutor_sera_final_no_spawn_dead
 hash_499251acda1fc19d
 hash_7b92093120bc22f0
 mp_hacienda.en
@@ -395,7 +395,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_60353ddba57b41a8
+vox_tvoi_tutor_sera_final_no_spawn_dead
 hash_e5b2596f5a85022
 hash_7fefa2dc444aafe7
 mp_hacienda.en
@@ -404,7 +404,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_60353ddba57b41a8
+vox_tvoi_tutor_sera_final_no_spawn_dead
 hash_6ba44752384d2dfc
 hash_617162f85972b36d
 mp_hacienda.en
@@ -413,8 +413,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_60353ddba57b41a8
-hash_38dae337658c3702
+vox_tvoi_tutor_sera_final_no_spawn_dead
+vox_tvoi_tutor_sera_final_score_doing_great
 hash_3c902209748ac17
 hash_56d44e15e988182
 mp_hacienda.en
@@ -422,7 +422,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_38dae337658c3702
+vox_tvoi_tutor_sera_final_score_doing_great
 hash_635b71f149d3e33e
 hash_3db63fbdfd7ed6bf
 mp_hacienda.en
@@ -430,7 +430,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_38dae337658c3702
+vox_tvoi_tutor_sera_final_score_doing_great
 hash_264d53bf18dbbaed
 hash_6a4a70612546f398
 mp_hacienda.en
@@ -438,7 +438,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_38dae337658c3702
+vox_tvoi_tutor_sera_final_score_doing_great
 hash_4ceb78a21ccbc064
 hash_4f535cefe2cbe16d
 mp_hacienda.en
@@ -446,7 +446,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_38dae337658c3702
+vox_tvoi_tutor_sera_final_score_doing_great
 hash_717b7dbbb70336f3
 hash_bd16eb2d636d06e
 mp_hacienda.en
@@ -454,8 +454,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_38dae337658c3702
-hash_3053b3416c2f8275
+vox_tvoi_tutor_sera_final_score_doing_great
+vox_tvoi_tutor_sera_final_score_fail
 hash_4ede1a13617e1a6e
 hash_50123a2711c11337
 mp_hacienda.en
@@ -464,7 +464,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_3053b3416c2f8275
+vox_tvoi_tutor_sera_final_score_fail
 hash_53da9289a2cd8490
 hash_1068b9826956d67d
 mp_hacienda.en
@@ -473,8 +473,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_3053b3416c2f8275
-hash_492b8462762ccbf7
+vox_tvoi_tutor_sera_final_score_fail
+vox_tvoi_tutor_sera_final_score_friendly_fire
 hash_7575e996cb417016
 hash_3b9b76d486b2536f
 mp_hacienda.en
@@ -482,7 +482,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_492b8462762ccbf7
+vox_tvoi_tutor_sera_final_score_friendly_fire
 hash_573c0380f889f8cf
 hash_4ddc8232eecd7ef2
 mp_hacienda.en
@@ -490,7 +490,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_492b8462762ccbf7
+vox_tvoi_tutor_sera_final_score_friendly_fire
 hash_5f0093864c6f4c1c
 hash_a3a2e6e51cf35d
 mp_hacienda.en
@@ -499,7 +499,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_492b8462762ccbf7
+vox_tvoi_tutor_sera_final_score_friendly_fire
 hash_1e1fd22786f84fde
 hash_4216951bed6bea4b
 mp_hacienda.en
@@ -508,7 +508,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_492b8462762ccbf7
+vox_tvoi_tutor_sera_final_score_friendly_fire
 hash_331493bad0071f05
 hash_5e91a93a31987bc8
 mp_hacienda.en
@@ -517,7 +517,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_492b8462762ccbf7
+vox_tvoi_tutor_sera_final_score_friendly_fire
 hash_494b7a6fe0a449c7
 hash_7d3207ab59a075a6
 mp_hacienda.en
@@ -526,8 +526,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_492b8462762ccbf7
-hash_52438fdd22774de2
+vox_tvoi_tutor_sera_final_score_friendly_fire
+vox_tvoi_tutor_sera_final_score_swat
 hash_2a648c120933e91d
 hash_6eace287936e0f30
 mp_hacienda.en
@@ -536,7 +536,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_52438fdd22774de2
+vox_tvoi_tutor_sera_final_score_swat
 hash_7528fa7453aa316f
 hash_50c861c13174da7e
 mp_hacienda.en
@@ -545,8 +545,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_52438fdd22774de2
-hash_30bea962898791f8
+vox_tvoi_tutor_sera_final_score_swat
+vox_tvoi_tutor_sera_final_score_wave_1
 hash_4ff5c4b4d3b8d6c3
 hash_6248427f324e0106
 mp_hacienda.en
@@ -554,7 +554,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_30bea962898791f8
+vox_tvoi_tutor_sera_final_score_wave_1
 hash_4322888b892c4d1a
 hash_4dfa85102a0e6183
 mp_hacienda.en
@@ -562,8 +562,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_30bea962898791f8
-hash_30beac6289879711
+vox_tvoi_tutor_sera_final_score_wave_1
+vox_tvoi_tutor_sera_final_score_wave_2
 hash_7092fd8e5e9e2efe
 hash_8bee9e0197b63c3
 mp_hacienda.en
@@ -571,7 +571,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_30beac6289879711
+vox_tvoi_tutor_sera_final_score_wave_2
 hash_3de28dc296f67ed7
 hash_13296c7d6f550146
 mp_hacienda.en
@@ -579,8 +579,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_30beac6289879711
-hash_30beab628987955e
+vox_tvoi_tutor_sera_final_score_wave_2
+vox_tvoi_tutor_sera_final_score_wave_3
 hash_3d548620bb65d51
 hash_4c029eb18f85cc14
 mp_hacienda.en
@@ -588,7 +588,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_30beab628987955e
+vox_tvoi_tutor_sera_final_score_wave_3
 hash_37981d45605185b8
 hash_2ef8ea6f9bcdc239
 mp_hacienda.en
@@ -596,7 +596,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_30beab628987955e
+vox_tvoi_tutor_sera_final_score_wave_3
 hash_5cbabdef005703db
 hash_59f6fc2ef27b964e
 mp_hacienda.en
@@ -605,7 +605,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_30beab628987955e
+vox_tvoi_tutor_sera_final_score_wave_3
 hash_2223e4423d15860d
 hash_6c40bd1877eb6d6c
 mp_hacienda.en
@@ -614,8 +614,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_30beab628987955e
-hash_f3af6d858521980
+vox_tvoi_tutor_sera_final_score_wave_3
+vox_tvoi_tutor_sera_final_spawn_dead
 hash_5a1abdc3f2be605f
 hash_7f5e69745b8d5f92
 mp_hacienda.en
@@ -624,7 +624,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_f3af6d858521980
+vox_tvoi_tutor_sera_final_spawn_dead
 hash_1a557d1d6f9e2369
 hash_3d450409804694e8
 mp_hacienda.en
@@ -633,7 +633,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_f3af6d858521980
+vox_tvoi_tutor_sera_final_spawn_dead
 hash_8e6a5076c71466
 hash_2cd7f055d6773c8f
 mp_hacienda.en
@@ -642,7 +642,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_f3af6d858521980
+vox_tvoi_tutor_sera_final_spawn_dead
 hash_426ed0c3b5427178
 hash_de42219519c6545
 mp_hacienda.en
@@ -651,7 +651,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_f3af6d858521980
+vox_tvoi_tutor_sera_final_spawn_dead
 hash_3ead85a797628b55
 hash_21e9b670a1f2e4e8
 mp_hacienda.en
@@ -659,7 +659,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_f3af6d858521980
+vox_tvoi_tutor_sera_final_spawn_dead
 hash_3efda97e9d7ee9ac
 hash_7a82d6c21a74357d
 mp_hacienda.en
@@ -667,8 +667,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_f3af6d858521980
-hash_1d09afd3cd0bee2e
+vox_tvoi_tutor_sera_final_spawn_dead
+vox_tvoi_tutor_sera_first_wave_0
 hash_5a90e01a460f86d
 hash_8ec686e6b57b52c
 mp_hacienda.en
@@ -676,8 +676,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_1d09afd3cd0bee2e
-hash_1d09b0d3cd0befe1
+vox_tvoi_tutor_sera_first_wave_0
+vox_tvoi_tutor_sera_first_wave_1
 hash_1ddffb5f5ec7007a
 hash_1283fa40adfc8cfb
 mp_hacienda.en
@@ -685,8 +685,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_1d09b0d3cd0befe1
-hash_404d0140e0490cd4
+vox_tvoi_tutor_sera_first_wave_1
+vox_tvoi_tutor_sera_force_kill_0
 hash_38b6613084ca8f4b
 hash_598868ec6c9e8d36
 mp_hacienda.en
@@ -694,8 +694,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_404d0140e0490cd4
-hash_404d0240e0490e87
+vox_tvoi_tutor_sera_force_kill_0
+vox_tvoi_tutor_sera_force_kill_1
 hash_7f08b7d16e49c2e0
 hash_4fa0f5d79e3f540d
 mp_hacienda.en
@@ -703,8 +703,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_404d0240e0490e87
-hash_404d0340e049103a
+vox_tvoi_tutor_sera_force_kill_1
+vox_tvoi_tutor_sera_force_kill_2
 hash_3ed9bb55c6a86ad9
 hash_4a9ec554de4a3544
 mp_hacienda.en
@@ -712,8 +712,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_404d0340e049103a
-hash_314ebdc604f78d0
+vox_tvoi_tutor_sera_force_kill_2
+vox_tvoi_tutor_sera_hardpoint_defended
 hash_f9e972ae4bd840f
 hash_3d94bdcf22bbe9de
 mp_hacienda.en
@@ -722,7 +722,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_314ebdc604f78d0
+vox_tvoi_tutor_sera_hardpoint_defended
 hash_5e6e7b2db74c6799
 hash_2664d61dbeed993c
 mp_hacienda.en
@@ -731,8 +731,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_314ebdc604f78d0
-hash_41684fffed38c09
+vox_tvoi_tutor_sera_hardpoint_defended
+vox_tvoi_tutor_sera_hardpoint_mantis
 hash_8b0e1e24d2b2b2
 hash_6fac060d749d7ccf
 mp_hacienda.en
@@ -740,7 +740,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_41684fffed38c09
+vox_tvoi_tutor_sera_hardpoint_mantis
 hash_4e4a428018ead93b
 hash_2f344c3e0ad08fd2
 mp_hacienda.en
@@ -748,7 +748,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_41684fffed38c09
+vox_tvoi_tutor_sera_hardpoint_mantis
 hash_84044683709098
 hash_348beeb3a93128bd
 mp_hacienda.en
@@ -757,7 +757,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_41684fffed38c09
+vox_tvoi_tutor_sera_hardpoint_mantis
 hash_3980b7b8fef5f822
 hash_75c6120151aa16b
 mp_hacienda.en
@@ -766,7 +766,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_41684fffed38c09
+vox_tvoi_tutor_sera_hardpoint_mantis
 hash_76506236b3fc5c31
 hash_2b5ad40715d56728
 mp_hacienda.en
@@ -774,8 +774,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_41684fffed38c09
-hash_71c9e6431d4f98f4
+vox_tvoi_tutor_sera_hardpoint_mantis
+vox_tvoi_tutor_sera_long_range_0
 hash_6e4f3af49eb7bb6f
 hash_5e8cccbe671c9bd6
 mp_hacienda.en
@@ -783,8 +783,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_71c9e6431d4f98f4
-hash_71c9e7431d4f9aa7
+vox_tvoi_tutor_sera_long_range_0
+vox_tvoi_tutor_sera_long_range_1
 hash_6c9d3545c307b074
 hash_7d30ab5dec0ce22d
 mp_hacienda.en
@@ -792,8 +792,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_71c9e7431d4f9aa7
-hash_71c9e8431d4f9c5a
+vox_tvoi_tutor_sera_long_range_1
+vox_tvoi_tutor_sera_long_range_2
 hash_585eb4abc3e1561d
 hash_3f73f3a209ecb964
 mp_hacienda.en
@@ -801,8 +801,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_71c9e8431d4f9c5a
-hash_59491b5d33d05906
+vox_tvoi_tutor_sera_long_range_2
+vox_tvoi_tutor_sera_long_range_nag
 hash_4caf1ed1c36b659d
 hash_761b1805871afc18
 mp_hacienda.en
@@ -810,7 +810,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_59491b5d33d05906
+vox_tvoi_tutor_sera_long_range_nag
 hash_492a8a6a97639cd4
 hash_5b240494449fe9ed
 mp_hacienda.en
@@ -818,8 +818,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_59491b5d33d05906
-hash_5aeed2f2f83790f1
+vox_tvoi_tutor_sera_long_range_nag
+vox_tvoi_tutor_sera_marker_bad_place
 hash_67e36ba5b234646
 hash_3c4e81df321e7cf
 mp_hacienda.en
@@ -827,7 +827,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_5aeed2f2f83790f1
+vox_tvoi_tutor_sera_marker_bad_place
 hash_17a7ac54f3ab8d3f
 hash_434d2e4e8954fad2
 mp_hacienda.en
@@ -836,7 +836,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_5aeed2f2f83790f1
+vox_tvoi_tutor_sera_marker_bad_place
 hash_52c848033f961b09
 hash_39dcdca19db4c728
 mp_hacienda.en
@@ -845,7 +845,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_5aeed2f2f83790f1
+vox_tvoi_tutor_sera_marker_bad_place
 hash_45da0b2c118ef80c
 hash_48a4d0c427b593bd
 mp_hacienda.en
@@ -854,7 +854,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_5aeed2f2f83790f1
+vox_tvoi_tutor_sera_marker_bad_place
 hash_7e1683be86be1e4e
 hash_179032fc9930c46b
 mp_hacienda.en
@@ -863,7 +863,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_5aeed2f2f83790f1
+vox_tvoi_tutor_sera_marker_bad_place
 hash_1bf1a65a6d920456
 hash_495123aa4feb77b3
 hash_60cb0d146f12c3da
@@ -934,7 +934,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 hash_680c0fc6b66455c8
-hash_4e2dcfc26061039a
+vox_tvoi_tutor_sera_player_respawn_0
 hash_7372d4938c3fc21
 hash_7ebee66ad2beb688
 mp_hacienda.en
@@ -942,8 +942,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_4e2dcfc26061039a
-hash_4e2dd0c26061054d
+vox_tvoi_tutor_sera_player_respawn_0
+vox_tvoi_tutor_sera_player_respawn_1
 hash_32317fc3a7d6c64e
 hash_21be8bad954bcb47
 mp_hacienda.en
@@ -952,7 +952,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_4e2dd0c26061054d
+vox_tvoi_tutor_sera_player_respawn_1
 hash_52dcb6d6df283eb0
 hash_533b94946b50458d
 mp_hacienda.en
@@ -961,8 +961,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_4e2dd0c26061054d
-hash_3d12730aae5bc5fe
+vox_tvoi_tutor_sera_player_respawn_1
+vox_tvoi_tutor_sera_scorestreak_0
 hash_315cbcc07bdbd4c7
 hash_1c4c14cc8fcd7eb2
 mp_hacienda.en
@@ -970,8 +970,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_3d12730aae5bc5fe
-hash_3d12740aae5bc7b1
+vox_tvoi_tutor_sera_scorestreak_0
+vox_tvoi_tutor_sera_scorestreak_1
 hash_5ba9f0689fa03e8c
 hash_4e70d9201334f959
 mp_hacienda.en
@@ -979,8 +979,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_3d12740aae5bc7b1
-hash_3d12710aae5bc298
+vox_tvoi_tutor_sera_scorestreak_1
+vox_tvoi_tutor_sera_scorestreak_2
 hash_25a2acc32e6175f5
 hash_2330e9d68f3d60d0
 mp_hacienda.en
@@ -988,8 +988,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_3d12710aae5bc298
-hash_37ecd97827bbf3b
+vox_tvoi_tutor_sera_scorestreak_2
+vox_tvoi_tutor_sera_scorestreak_activate
 hash_1ae28dfc27ee420
 hash_5b7a1c0157fcc601
 mp_hacienda.en
@@ -997,8 +997,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_37ecd97827bbf3b
-hash_d186ec624023680
+vox_tvoi_tutor_sera_scorestreak_activate
+vox_tvoi_tutor_sera_scorestreak_dead
 hash_11d27448ff015f4f
 hash_65cb647bbc68a9e6
 mp_hacienda.en
@@ -1006,7 +1006,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_d186ec624023680
+vox_tvoi_tutor_sera_scorestreak_dead
 hash_300c5a5ed1b8d696
 hash_403ed369ff4e08e3
 mp_hacienda.en
@@ -1015,7 +1015,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_d186ec624023680
+vox_tvoi_tutor_sera_scorestreak_dead
 hash_4c9b3982aa15a68
 hash_66096f8e8d76ea81
 mp_hacienda.en
@@ -1024,7 +1024,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_d186ec624023680
+vox_tvoi_tutor_sera_scorestreak_dead
 hash_6dab0482d67e8585
 hash_7e69a83c871c18c
 mp_hacienda.en
@@ -1032,7 +1032,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_d186ec624023680
+vox_tvoi_tutor_sera_scorestreak_dead
 hash_1997044e52e6b29c
 hash_65a5210508135b1
 mp_hacienda.en
@@ -1040,8 +1040,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_d186ec624023680
-hash_36816442279da155
+vox_tvoi_tutor_sera_scorestreak_dead
+vox_tvoi_tutor_sera_scorestreak_earned
 hash_489ecbf3ba9c0786
 hash_1cddbca81f76820b
 mp_hacienda.en
@@ -1050,7 +1050,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_36816442279da155
+vox_tvoi_tutor_sera_scorestreak_earned
 hash_4adac0b94da4c2d8
 hash_55b96dc516701059
 mp_hacienda.en
@@ -1059,7 +1059,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_36816442279da155
+vox_tvoi_tutor_sera_scorestreak_earned
 hash_2ae4171103b8387f
 hash_56d6ffba86de10ee
 mp_hacienda.en
@@ -1067,7 +1067,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_36816442279da155
+vox_tvoi_tutor_sera_scorestreak_earned
 hash_34ef6d8d03e0674c
 hash_6e583005d81f359
 mp_hacienda.en
@@ -1076,7 +1076,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_36816442279da155
+vox_tvoi_tutor_sera_scorestreak_earned
 hash_41e120c6687c418e
 hash_1e601f8a4d1d022f
 mp_hacienda.en
@@ -1085,7 +1085,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_36816442279da155
+vox_tvoi_tutor_sera_scorestreak_earned
 hash_5e2e7c8982eafcf5
 hash_73e3bc5b476659b4
 mp_hacienda.en
@@ -1093,8 +1093,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_36816442279da155
-hash_4064b660cbec3447
+vox_tvoi_tutor_sera_scorestreak_earned
+vox_tvoi_tutor_sera_scorestreak_half
 hash_2ee47153266b9ebc
 hash_287fba1fdae367f9
 mp_hacienda.en
@@ -1102,7 +1102,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_4064b660cbec3447
+vox_tvoi_tutor_sera_scorestreak_half
 hash_30ef06c169b9f825
 hash_51bb6c27e0e99ad4
 mp_hacienda.en
@@ -1110,7 +1110,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_4064b660cbec3447
+vox_tvoi_tutor_sera_scorestreak_half
 hash_47d43220186ec236
 hash_1fddfa08ac69072b
 mp_hacienda.en
@@ -1118,7 +1118,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_4064b660cbec3447
+vox_tvoi_tutor_sera_scorestreak_half
 hash_7da4e148ea87a06f
 hash_58e5f65798fcf40e
 mp_hacienda.en
@@ -1126,8 +1126,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_4064b660cbec3447
-hash_6e57830a44ae6ca0
+vox_tvoi_tutor_sera_scorestreak_half
+vox_tvoi_tutor_sera_scorestreak_nag
 hash_256c044aaf403885
 hash_20798367a400d64
 mp_hacienda.en
@@ -1136,7 +1136,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_6e57830a44ae6ca0
+vox_tvoi_tutor_sera_scorestreak_nag
 hash_fe4d2dc7565df47
 hash_65d9b77e9d051c3a
 mp_hacienda.en
@@ -1145,7 +1145,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_6e57830a44ae6ca0
+vox_tvoi_tutor_sera_scorestreak_nag
 hash_515804162ba8659c
 hash_1eb28e0892effc09
 mp_hacienda.en
@@ -1154,7 +1154,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_6e57830a44ae6ca0
+vox_tvoi_tutor_sera_scorestreak_nag
 hash_64b92a941bb9e55e
 hash_2bddf15a5d7c811f
 mp_hacienda.en
@@ -1163,7 +1163,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_6e57830a44ae6ca0
+vox_tvoi_tutor_sera_scorestreak_nag
 hash_49937410d7c3124f
 hash_3fabe8ecc9dc1fde
 mp_hacienda.en
@@ -1172,7 +1172,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_6e57830a44ae6ca0
+vox_tvoi_tutor_sera_scorestreak_nag
 hash_600ca88aab6234d9
 hash_5515574f7ef83f3c
 mp_hacienda.en
@@ -1181,8 +1181,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_6e57830a44ae6ca0
-hash_b4703fd731fc56d
+vox_tvoi_tutor_sera_scorestreak_nag
+vox_tvoi_tutor_sera_second_wave
 hash_6196d14cdd232560
 hash_f000461eb26f9a9
 mp_hacienda.en
@@ -1190,8 +1190,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_b4703fd731fc56d
-hash_3b9cc53b4f549329
+vox_tvoi_tutor_sera_second_wave
+vox_tvoi_tutor_sera_shark_tank
 hash_1b2a81ee9bf59066
 hash_4bfcbea43643d933
 mp_hacienda.en
@@ -1200,7 +1200,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_3b9cc53b4f549329
+vox_tvoi_tutor_sera_shark_tank
 hash_17041e6cd9a84d78
 hash_155d94f0eed30151
 mp_hacienda.en
@@ -1209,8 +1209,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_3b9cc53b4f549329
-hash_a8ab5cbec4fd7d5
+vox_tvoi_tutor_sera_shark_tank
+vox_tvoi_tutor_sera_shoot_vase_0
 hash_3ccf4c6c2aa0db4e
 hash_59194b6521ccbf0f
 mp_hacienda.en
@@ -1218,8 +1218,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_a8ab5cbec4fd7d5
-hash_a8ab4cbec4fd622
+vox_tvoi_tutor_sera_shoot_vase_0
+vox_tvoi_tutor_sera_shoot_vase_1
 hash_11d4f9f1bb8e1121
 hash_55959d5fbf7df90
 mp_hacienda.en
@@ -1227,8 +1227,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_a8ab4cbec4fd622
-hash_99658206c49b689
+vox_tvoi_tutor_sera_shoot_vase_1
+vox_tvoi_tutor_sera_shoot_vase_aim_nag
 hash_508210ec2b41e4a
 hash_7f76d47c05246397
 mp_hacienda.en
@@ -1236,7 +1236,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_99658206c49b689
+vox_tvoi_tutor_sera_shoot_vase_aim_nag
 hash_413fb8e878821933
 hash_5bc944f1be109eba
 mp_hacienda.en
@@ -1244,7 +1244,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_99658206c49b689
+vox_tvoi_tutor_sera_shoot_vase_aim_nag
 hash_31f6686f27ae42f0
 hash_5998b5c867a25fc5
 mp_hacienda.en
@@ -1253,7 +1253,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_99658206c49b689
+vox_tvoi_tutor_sera_shoot_vase_aim_nag
 hash_68e245965678b2a
 hash_66353eea9e857223
 mp_hacienda.en
@@ -1262,7 +1262,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_99658206c49b689
+vox_tvoi_tutor_sera_shoot_vase_aim_nag
 hash_11d583606be08a69
 hash_2562e730dc1f3850
 mp_hacienda.en
@@ -1271,7 +1271,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_99658206c49b689
+vox_tvoi_tutor_sera_shoot_vase_aim_nag
 hash_4b24d4da75efe7c3
 hash_4438983a13d202de
 mp_hacienda.en
@@ -1280,8 +1280,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_99658206c49b689
-hash_4e6ce1d1d5c650db
+vox_tvoi_tutor_sera_shoot_vase_aim_nag
+vox_tvoi_tutor_sera_shoot_vase_nag
 hash_2315fa1747e61120
 hash_6d7731bf3da702bd
 mp_hacienda.en
@@ -1289,7 +1289,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_4e6ce1d1d5c650db
+vox_tvoi_tutor_sera_shoot_vase_nag
 hash_2f7c46409215e419
 hash_64461712aa4b4128
 mp_hacienda.en
@@ -1297,7 +1297,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_4e6ce1d1d5c650db
+vox_tvoi_tutor_sera_shoot_vase_nag
 hash_7aa1ea60ac76247a
 hash_28974919091356cf
 mp_hacienda.en
@@ -1306,7 +1306,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_4e6ce1d1d5c650db
+vox_tvoi_tutor_sera_shoot_vase_nag
 hash_a592654a9424244
 hash_1a7410410b421685
 mp_hacienda.en
@@ -1315,7 +1315,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_4e6ce1d1d5c650db
+vox_tvoi_tutor_sera_shoot_vase_nag
 hash_7762689f7046123
 hash_681f8f499f4669d2
 mp_hacienda.en
@@ -1324,7 +1324,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_4e6ce1d1d5c650db
+vox_tvoi_tutor_sera_shoot_vase_nag
 hash_2677eb2a351cb125
 hash_6cbd353014cc8e28
 mp_hacienda.en
@@ -1333,8 +1333,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_4e6ce1d1d5c650db
-hash_5895739505ac5bb0
+vox_tvoi_tutor_sera_shoot_vase_nag
+vox_tvoi_tutor_sera_slide_2_nag
 hash_60328dea5bbaf1c1
 hash_682b5619c8b5dbd8
 mp_hacienda.en
@@ -1342,7 +1342,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_5895739505ac5bb0
+vox_tvoi_tutor_sera_slide_2_nag
 hash_13f562cdb0561a28
 hash_734b6f5fc63a2cad
 mp_hacienda.en
@@ -1351,7 +1351,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_5895739505ac5bb0
+vox_tvoi_tutor_sera_slide_2_nag
 hash_2c7511f9cc2fdef2
 hash_7e94e1575c2a519b
 mp_hacienda.en
@@ -1360,7 +1360,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_5895739505ac5bb0
+vox_tvoi_tutor_sera_slide_2_nag
 hash_382c2e33c0a9020b
 hash_6caa8a441eaed9c2
 mp_hacienda.en
@@ -1368,7 +1368,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_5895739505ac5bb0
+vox_tvoi_tutor_sera_slide_2_nag
 hash_6bef331715447c02
 hash_2531f288af25d2ff
 mp_hacienda.en
@@ -1377,7 +1377,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_5895739505ac5bb0
+vox_tvoi_tutor_sera_slide_2_nag
 hash_86f4c171af91b1c
 hash_5c02089cd6b3a9f5
 mp_hacienda.en
@@ -1386,8 +1386,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_5895739505ac5bb0
-hash_55665ab0fe0bcc32
+vox_tvoi_tutor_sera_slide_2_nag
+vox_tvoi_tutor_sera_spawn_bad_place
 hash_1cdf490cf0333e27
 hash_199c9859e96fc6fe
 mp_hacienda.en
@@ -1395,8 +1395,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_55665ab0fe0bcc32
-hash_68cad384570d8bd8
+vox_tvoi_tutor_sera_spawn_bad_place
+vox_tvoi_tutor_sera_spawn_beacon_0
 hash_293f247e73bd7f03
 hash_428e959aed375626
 mp_hacienda.en
@@ -1404,8 +1404,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_68cad384570d8bd8
-hash_68cad484570d8d8b
+vox_tvoi_tutor_sera_spawn_beacon_0
+vox_tvoi_tutor_sera_spawn_beacon_1
 hash_1b49a5e375a58438
 hash_71abe1151ad172fd
 mp_hacienda.en
@@ -1414,7 +1414,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_68cad484570d8d8b
+vox_tvoi_tutor_sera_spawn_beacon_1
 hash_78a1a90aa4b84982
 hash_2ea7debb90fd5cab
 mp_hacienda.en
@@ -1423,8 +1423,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_68cad484570d8d8b
-hash_68cad584570d8f3e
+vox_tvoi_tutor_sera_spawn_beacon_1
+vox_tvoi_tutor_sera_spawn_beacon_2
 hash_57e4b1369b037391
 hash_575656c24ac171b4
 mp_hacienda.en
@@ -1433,7 +1433,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_68cad584570d8f3e
+vox_tvoi_tutor_sera_spawn_beacon_2
 hash_7abf8639cad9f29b
 hash_23d99908e7de190a
 mp_hacienda.en
@@ -1442,8 +1442,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_68cad584570d8f3e
-hash_68cad684570d90f1
+vox_tvoi_tutor_sera_spawn_beacon_2
+vox_tvoi_tutor_sera_spawn_beacon_3
 hash_48096662f0d0213e
 hash_3ef15261a05434e3
 mp_hacienda.en
@@ -1452,7 +1452,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_68cad684570d90f1
+vox_tvoi_tutor_sera_spawn_beacon_3
 hash_7d80760161b004e0
 hash_6eac9b0c2877f681
 mp_hacienda.en
@@ -1461,8 +1461,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_68cad684570d90f1
-hash_1ff67c7d157a8f9a
+vox_tvoi_tutor_sera_spawn_beacon_3
+vox_tvoi_tutor_sera_spawn_beacon_nag
 hash_5676f18b7813dbd1
 hash_b183ae15c55fe48
 mp_hacienda.en
@@ -1470,7 +1470,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_1ff67c7d157a8f9a
+vox_tvoi_tutor_sera_spawn_beacon_nag
 hash_a39c66eccaf0438
 hash_2d2a348e0fda75dd
 mp_hacienda.en
@@ -1478,7 +1478,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_1ff67c7d157a8f9a
+vox_tvoi_tutor_sera_spawn_beacon_nag
 hash_2f5c67186cb4825b
 hash_7a6313da198b0172
 mp_hacienda.en
@@ -1486,7 +1486,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_1ff67c7d157a8f9a
+vox_tvoi_tutor_sera_spawn_beacon_nag
 hash_c2ec7f035716c52
 hash_6822087bb16fd5ef
 mp_hacienda.en
@@ -1495,7 +1495,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_1ff67c7d157a8f9a
+vox_tvoi_tutor_sera_spawn_beacon_nag
 hash_73dceabefa1457ec
 hash_5130879d86ece365
 mp_hacienda.en
@@ -1504,8 +1504,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_1ff67c7d157a8f9a
-hash_7f3275b34f048098
+vox_tvoi_tutor_sera_spawn_beacon_nag
+vox_tvoi_tutor_sera_spawn_deploy
 hash_791da2548c0973b
 hash_6122604051c60416
 mp_hacienda.en
@@ -1513,7 +1513,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_7f3275b34f048098
+vox_tvoi_tutor_sera_spawn_deploy
 hash_39d2a5c354a870b2
 hash_1e8254049f7ecd93
 mp_hacienda.en
@@ -1521,7 +1521,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_7f3275b34f048098
+vox_tvoi_tutor_sera_spawn_deploy
 hash_2f97f9dbe3d21a31
 hash_54f9d57c937e147c
 mp_hacienda.en
@@ -1530,7 +1530,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_7f3275b34f048098
+vox_tvoi_tutor_sera_spawn_deploy
 hash_5b6e49defef13bfb
 hash_34ff16941a275be2
 mp_hacienda.en
@@ -1539,7 +1539,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_7f3275b34f048098
+vox_tvoi_tutor_sera_spawn_deploy
 hash_39cb9bebb3464e98
 hash_67fc1764adc0e961
 mp_hacienda.en
@@ -1548,7 +1548,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_7f3275b34f048098
+vox_tvoi_tutor_sera_spawn_deploy
 hash_746dda43abab6622
 hash_22f573bde5b56c27
 mp_hacienda.en
@@ -1557,8 +1557,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_7f3275b34f048098
-hash_352ceff0f0b7e6d4
+vox_tvoi_tutor_sera_spawn_deploy
+vox_tvoi_tutor_sera_spawn_random
 hash_426ea6f94c2b34c7
 hash_57a85b46982dfe2a
 mp_hacienda.en
@@ -1566,8 +1566,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_352ceff0f0b7e6d4
-hash_3c3ed5b85cba9a60
+vox_tvoi_tutor_sera_spawn_random
+vox_tvoi_tutor_sera_spawn_screen_0
 hash_53653988c6a2d36b
 hash_66e124b09e6f7cbe
 mp_hacienda.en
@@ -1575,8 +1575,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_3c3ed5b85cba9a60
-hash_3c3ed6b85cba9c13
+vox_tvoi_tutor_sera_spawn_screen_0
+vox_tvoi_tutor_sera_spawn_screen_1
 hash_6683c2b4f9b1f680
 hash_351403331b656d75
 mp_hacienda.en
@@ -1584,8 +1584,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_3c3ed6b85cba9c13
-hash_612ae33753ce1a52
+vox_tvoi_tutor_sera_spawn_screen_1
+vox_tvoi_tutor_sera_spawn_screen_nag
 hash_29a14b00d0f7c4a9
 hash_228d08db51fe9270
 mp_hacienda.en
@@ -1593,7 +1593,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_612ae33753ce1a52
+vox_tvoi_tutor_sera_spawn_screen_nag
 hash_7164058d555c6f30
 hash_34c0b4e5926245e5
 mp_hacienda.en
@@ -1601,7 +1601,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_612ae33753ce1a52
+vox_tvoi_tutor_sera_spawn_screen_nag
 hash_2a29560b8e30a373
 hash_5059b46198f357da
 mp_hacienda.en
@@ -1610,7 +1610,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_612ae33753ce1a52
+vox_tvoi_tutor_sera_spawn_screen_nag
 hash_5e899e502cd20ff5
 hash_988026def08e680
 mp_hacienda.en
@@ -1619,7 +1619,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_612ae33753ce1a52
+vox_tvoi_tutor_sera_spawn_screen_nag
 hash_7345b5dba2a6178a
 hash_6f4cb7d224f1b9b7
 mp_hacienda.en
@@ -1628,7 +1628,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_612ae33753ce1a52
+vox_tvoi_tutor_sera_spawn_screen_nag
 hash_2720b1b283652314
 hash_3f62b24decc500fd
 mp_hacienda.en
@@ -1637,8 +1637,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_612ae33753ce1a52
-hash_21ad27ad404090b2
+vox_tvoi_tutor_sera_spawn_screen_nag
+vox_tvoi_tutor_sera_spawn_screen_rand_nag
 hash_1c4d8d8ecc038d83
 hash_5ae91b1c6cc0bcde
 mp_hacienda.en
@@ -1646,7 +1646,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_21ad27ad404090b2
+vox_tvoi_tutor_sera_spawn_screen_rand_nag
 hash_63fc26e834ee16da
 hash_471a92d0194ba63b
 mp_hacienda.en
@@ -1655,7 +1655,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_21ad27ad404090b2
+vox_tvoi_tutor_sera_spawn_screen_rand_nag
 hash_83a16fbc522c6e4
 hash_359add1c16cc7789
 mp_hacienda.en
@@ -1664,7 +1664,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_21ad27ad404090b2
+vox_tvoi_tutor_sera_spawn_screen_rand_nag
 hash_43671801d76133f9
 hash_1d44ca661d24aa64
 mp_hacienda.en
@@ -1672,8 +1672,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_21ad27ad404090b2
-hash_25909e8e5ca28609
+vox_tvoi_tutor_sera_spawn_screen_rand_nag
+vox_tvoi_tutor_sera_squad_dead_0
 hash_9e5a48e1c51c5ee
 hash_3fe8a655dd323bc7
 mp_hacienda.en
@@ -1682,7 +1682,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_25909e8e5ca28609
+vox_tvoi_tutor_sera_squad_dead_0
 hash_65a5098296c67c10
 hash_5540a11625f9ca0d
 mp_hacienda.en
@@ -1691,8 +1691,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_25909e8e5ca28609
-hash_25909d8e5ca28456
+vox_tvoi_tutor_sera_squad_dead_0
+vox_tvoi_tutor_sera_squad_dead_1
 hash_7f4f9b74eb397d41
 hash_1ce901131aa52708
 mp_hacienda.en
@@ -1701,7 +1701,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_25909d8e5ca28456
+vox_tvoi_tutor_sera_squad_dead_1
 hash_10b5ebc0a061e3cb
 hash_217cefa14bb9b9e6
 mp_hacienda.en
@@ -1710,8 +1710,8 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_25909d8e5ca28456
-hash_6b76ddbfb1149179
+vox_tvoi_tutor_sera_squad_dead_1
+vox_tvoi_tutor_sera_start
 hash_5f6beb923a730d44
 hash_e6cd410287481d1
 mp_hacienda.en
@@ -1720,7 +1720,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 explicit
-hash_6b76ddbfb1149179
+vox_tvoi_tutor_sera_start
 hash_4fd94c257b418416
 hash_7fa48ed46d7e9817
 mp_hacienda.en
@@ -1729,7 +1729,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 safe
-hash_6b76ddbfb1149179
+vox_tvoi_tutor_sera_start
 hash_611d337533c13e59
 hash_1720301e2fe770a6
 hash_6a6b268c16618877
@@ -2013,7 +2013,7 @@ mpl_announcer
 mature
 safe
 hash_3e7cfb8a7379a602
-hash_6c7f779761137a19
+mp_hacienda_en_stream
 hash_6cfcfebbdc6eec44
 hash_66c269ec554931cf
 hash_5106d049b3d5de46

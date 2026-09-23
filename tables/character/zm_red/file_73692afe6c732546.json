@@ -1,9 +1,9 @@
 {
-    "name": "#hash_73692afe6c732546",
+    "name": "#c_t8_zmb_hero_bruno1_igc",
     "skeleton": "base",
     "voice": "american",
     "headImpactType": 1,
     "bodyImpactType": 1,
-    "body": "#hash_3f40f18c3ccc4c58",
-    "head": "#hash_6480f4ec413feb5a"
+    "body": "#c_t8_zmb_hero_bruno_body_igc",
+    "head": "#c_t8_zmb_hero_bruno_head_igc"
 }

@@ -1,8 +1,8 @@
 {
-    "name": "#hash_195b7d14e24e7ca",
+    "name": "#zmcore_t8_basicwoodbarrier_hide_pieces",
     "generalRepairSound1": "#zmb_repair_boards",
     "generalRepairSound2": "#zmb_board_slam",
-    "upgradedGeneralRepairSound1": "#hash_52df98daa3dc8bb4",
+    "upgradedGeneralRepairSound1": "#zmb_board_slam_upgraded",
     "upgradedGeneralRepairSound2": "#zmb_board_slam",
     "delayBetweenRepSounds": "#hash_1",
     "zombieTauntAnimState": "#zm_taunt",
@@ -24,8 +24,8 @@
     "boards": [
         {
             "boardModel": "#p8_zm_barricade_board_bare_01",
-            "tearAnim": "#hash_76975415b39dd1f7",
-            "boardAnim": "#hash_5a7eb0e4ce665b1d",
+            "tearAnim": "#o_t8_zm_zombie_board_1_pull",
+            "boardAnim": "#o_t8_zm_zombie_board_1_repair",
             "boardRepairSound": "#zmb_break_boards",
             "boardRepairHoverSound": "#zmb_boards_float",
             "pauseAndRepeatRepSound": "#hash_1",
@@ -37,8 +37,8 @@
         },
         {
             "boardModel": "#p8_zm_barricade_board_bare_02",
-            "tearAnim": "#hash_37dee4a28f098580",
-            "boardAnim": "#hash_2865c2c17a1f1526",
+            "tearAnim": "#o_t8_zm_zombie_board_2_pull",
+            "boardAnim": "#o_t8_zm_zombie_board_2_repair",
             "boardRepairSound": "#zmb_break_boards",
             "boardRepairHoverSound": "#zmb_boards_float",
             "pauseAndRepeatRepSound": "#hash_1",
@@ -50,8 +50,8 @@
         },
         {
             "boardModel": "#p8_zm_barricade_board_bare_03",
-            "tearAnim": "#hash_2ec05cc8f5edc155",
-            "boardAnim": "#hash_4e342a28c3fb3a6b",
+            "tearAnim": "#o_t8_zm_zombie_board_3_pull",
+            "boardAnim": "#o_t8_zm_zombie_board_3_repair",
             "boardRepairSound": "#zmb_break_boards",
             "boardRepairHoverSound": "#zmb_boards_float",
             "pauseAndRepeatRepSound": "#hash_1",
@@ -63,8 +63,8 @@
         },
         {
             "boardModel": "#p8_zm_barricade_board_bare_04",
-            "tearAnim": "#hash_4f1e7d8c9cb8aefe",
-            "boardAnim": "#hash_5241b13fbbd30594",
+            "tearAnim": "#o_t8_zm_zombie_board_4_pull",
+            "boardAnim": "#o_t8_zm_zombie_board_4_repair",
             "boardRepairSound": "#zmb_break_boards",
             "boardRepairHoverSound": "#zmb_boards_float",
             "pauseAndRepeatRepSound": "#hash_1",
@@ -76,8 +76,8 @@
         },
         {
             "boardModel": "#p8_zm_barricade_board_bare_05",
-            "tearAnim": "#hash_5e42026f4c1ec723",
-            "boardAnim": "#hash_1cdc7a6da506dc19",
+            "tearAnim": "#o_t8_zm_zombie_board_5_pull",
+            "boardAnim": "#o_t8_zm_zombie_board_5_repair",
             "boardRepairSound": "#zmb_break_boards",
             "boardRepairHoverSound": "#zmb_boards_float",
             "pauseAndRepeatRepSound": "#hash_1",
@@ -89,8 +89,8 @@
         },
         {
             "boardModel": "#p8_zm_barricade_board_bare_06",
-            "tearAnim": "#hash_2275c63b1dc0381c",
-            "boardAnim": "#hash_5010b21d2b765cb2",
+            "tearAnim": "#o_t8_zm_zombie_board_6_pull",
+            "boardAnim": "#o_t8_zm_zombie_board_6_repair",
             "boardRepairSound": "#zmb_break_boards",
             "boardRepairHoverSound": "#zmb_boards_float",
             "pauseAndRepeatRepSound": "#hash_1",

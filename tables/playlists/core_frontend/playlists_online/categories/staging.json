@@ -5188,7 +5188,7 @@
         },
         {
             "name": "#hash_1fc45e4ae896f3a8",
-            "description": "#hash_26d9318e1b5b0929",
+            "description": "#mpui/nuketown_4",
             "unique_name": "#hash_4e2c07030c3b6eb",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",
@@ -12487,7 +12487,7 @@
         },
         {
             "name": "#hash_4e06166d6b4a74d6",
-            "description": "#hash_7ae7f5b6dbf17",
+            "description": "#playlist/one_in_the_chamber",
             "unique_name": "#hash_13a9ed44a7554209",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",
@@ -15083,7 +15083,7 @@
         },
         {
             "name": "#hash_7f48cdcafd06fb03",
-            "description": "#hash_7ae7f5b6dbf17",
+            "description": "#playlist/one_in_the_chamber",
             "unique_name": "#hash_13a9ed44a7554209",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",
@@ -16092,8 +16092,8 @@
         },
         {
             "name": "#entry_mp_featured_prophunt",
-            "description": "#hash_7e13e88fd9fb95a4",
-            "unique_name": "#hash_3669fe605d0b7af2",
+            "description": "#mpui/prop_hunt_name",
+            "unique_name": "#mpui/prop_hunt_desc",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",
             "image": "#ui_icon_gamemode_prophunt",
@@ -18871,7 +18871,7 @@
         },
         {
             "name": "#hash_5b93951a7480d4f3",
-            "description": "#hash_5a7f9a3b5cda9e77",
+            "description": "#mpui/sticks_and_stones",
             "unique_name": "#hash_4d9f5ef58c5e3632",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",

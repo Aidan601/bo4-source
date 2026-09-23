@@ -1,7 +1,7 @@
 {
     "name": "#killstreak_ai_tank_mp",
     "baseWeapon": "#killstreak_ai_tank",
-    "displayname": "#hash_780c03071ddf119d",
+    "displayname": "#killstreak/ai_tank_drop",
     "weapon70": "#killstreak_ai_tank_drop",
     "soundbank": "#killstreak_ai_tank_soundbank",
     "worldModelTagRight": "tag_weapon_right",
@@ -42,6 +42,6 @@
     "gadgetIconAvailable": "#ui_icon_scorestreaks_tank_robot_light",
     "gadgetIconUnavailable": "#ui_icon_scorestreaks_tank_robot_dark",
     "image_e90": "#hash_fa04720fdc28b728",
-    "image_1048": "#hash_4ea518bb165feed6",
+    "image_1048": "#ui_icon_scorestreaks_tankrobot_hud",
     "#hash_96850284": "#jammer_tankrobot"
 }

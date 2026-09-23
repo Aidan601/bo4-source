@@ -1,5 +1,5 @@
 {
-    "name": "#hash_16be0fc0a8cf5c9d",
+    "name": "#zitem_office_audio_reel_1_zm",
     "baseWeapon": "#hash_250627c9612acd1b",
     "soundbank": "#hash_45554e35e7e661e9",
     "worldModelTagRight": "tag_weapon_right",
@@ -26,10 +26,10 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "gadgetreadysoundplayer": "#hash_d094a602078e8fe",
-    "tunables1": "#hash_73cee95f77d4dcf8",
+    "tunables1": "#zitem_office_audio_reel_tunables_zm",
     "viewmodel": [
         "#viewmodel_default"
     ],

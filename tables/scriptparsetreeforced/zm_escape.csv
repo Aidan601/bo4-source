@@ -10,7 +10,7 @@ server,#scripts/zm/ai/zm_ai_ghost.gsc
 server,#scripts/core_common/ai/archetype_catalyst.gsc
 server,#scripts/core_common/ai/archetype_zombie_interface.gsc
 server,#scripts/core_common/ai/zombie.gsc
-server,#script_40556c4400b0a478
+server,#scripts/zm/ai/zm_ai_brutus_special.gsc
 server,#scripts/zm/ai/zm_ai_dog.gsc
 server,#scripts/zm/ai/zm_ai_dog_interface.gsc
 client,#scripts/zm/zm_escape_ffotd.csc
@@ -23,4 +23,4 @@ client,#scripts/zm/ai/zm_ai_catalyst.csc
 client,#scripts/zm/ai/zm_ai_ghost.csc
 client,#scripts/core_common/ai/archetype_catalyst.csc
 client,#scripts/core_common/ai/zombie.csc
-client,#script_1fcfc043eedf7cec
+client,#scripts/zm/ai/zm_ai_brutus_special.csc

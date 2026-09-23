@@ -1,8 +1,8 @@
 {
-    "craftingprompt": "localized18#hash_229521ee4f96b6db",
+    "craftingprompt": "localized18#zm_zodt8/craft_distillation_kit",
     "resultangleyaw": -90,
     "configstringfiletype": "scriptbundle",
-    "result": "weapon#hash_41a492d8cc5893f9",
+    "result": "weapon#zitem_tricannon_upgrade_kit",
     "type": "craftblueprint",
     "resultoffsetz": 16,
     "resultoffsety": 0,
@@ -13,6 +13,6 @@
     "displayname": "Distillation Kit",
     "postcraft": "persistent_buy",
     "componentcount": 3,
-    "hash_6d856d2f8b4a5911:hash_c028dcfe": 1,
+    "firstonefree": 1,
     "inventorysection": "section_quests"
 }

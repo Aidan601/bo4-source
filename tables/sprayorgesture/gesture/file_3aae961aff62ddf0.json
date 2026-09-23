@@ -1,12 +1,12 @@
 {
-    "name": "#hash_3aae961aff62ddf0",
+    "name": "#loot_emote_shared_fist_bump",
     "type": "#gesture",
-    "gesture": "#hash_14c5b1616d3fab0a",
-    "gesture2": "#hash_3f4f09ccb4b874a5",
+    "gesture": "#boast_fist_bump",
+    "gesture2": "#boast_fist_bump_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_7ae49f9fae53e72b",
-        "icon": "image#hash_2fa9d91353d995df",
+        "icon": "image#ui_icon_emotes_fist_bump",
         "isdefault": 1
     }
 }

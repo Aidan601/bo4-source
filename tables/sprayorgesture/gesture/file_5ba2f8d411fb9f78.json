@@ -1,12 +1,12 @@
 {
-    "name": "#hash_5ba2f8d411fb9f78",
+    "name": "#loot_emote_exotic_shared_mistletoe",
     "type": "#gesture",
-    "gesture": "#hash_65be4108397addd3",
-    "gesture2": "#hash_67bfdc19cd59909c",
+    "gesture": "#boast_mistletoe",
+    "gesture2": "#boast_mistletoe_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_4e0822d62e840995",
-        "icon": "image#hash_6c5cef5a7f6e01c",
+        "icon": "image#ui_icon_emotes_s2_mistletoe",
         "isdefault": 0
     }
 }

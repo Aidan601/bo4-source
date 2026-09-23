@@ -1,8 +1,8 @@
 {
-    "craftingprompt": "localized18#hash_1406bde2951a81",
+    "craftingprompt": "localized18#zm_mansion/silver_bullets_craft",
     "resultangleyaw": -90,
     "configstringfiletype": "scriptbundle",
-    "result": "weapon#hash_3e43a30cffbde52d",
+    "result": "weapon#ww_silver_bullets_zm",
     "type": "craftblueprint",
     "resultoffsetz": 16,
     "resultoffsety": 0,
@@ -12,9 +12,9 @@
     "component04": "weapon#zitem_silver_bullet_part_4_zm",
     "name": "zblueprint_mansion_silver_bullet",
     "displayname": "Silver Bullet",
-    "purchaseprompt": "localized18#hash_9c2f7742abf6acb",
+    "purchaseprompt": "localized18#zm_mansion/silver_bullets_buy",
     "postcraft": "spawn_as_item",
-    "hash_64869b7d451b2fbe:hash_abd9b2d0": "localized18#hash_558dab41980bd79b",
+    "purchasepromptfree": "localized18#zm_mansion/silver_bullets_free",
     "componentcount": 4,
     "takecomponents": 1,
     "inventorysection": "section_quests"

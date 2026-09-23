@@ -1,4 +1,4 @@
-#using script_41a75e0d79b62736;
+#using scripts\zm\zm_red_trap_venom_spray;
 #using scripts\core_common\beam_shared;
 #using scripts\core_common\clientfield_shared;
 #using scripts\core_common\postfx_shared;
@@ -56,7 +56,7 @@ function event_handler[level_init] main( eventstruct )
     clientfield::register( "actor", "" + #"hash_2856f87ecdfaf62", 16000, 1, "counter", &function_f02d282d, 0, 0 );
     clientfield::register( "actor", "" + #"hash_1bdce857fd614cef", 16000, 1, "counter", &function_ef690ed4, 0, 0 );
     clientfield::register( "world", "" + #"postfx_play", 16000, 2, "int", &function_ea4a65c1, 0, 0 );
-    clientfield::register( "world", "" + #"hash_71f9fcfb2cd84a9c", 16000, 1, "int", &function_b16ffc7a, 0, 0 );
+    clientfield::register( "world", "" + #"boss_arena_visgroup", 16000, 1, "int", &boss_arena_visgroup, 0, 0 );
     clientfield::register( "toplayer", "" + #"eye_vignette", 16000, 1, "int", &function_3b118f17, 0, 0 );
     level._uses_default_wallbuy_fx = 1;
     level._uses_sticky_grenades = 1;
@@ -131,10 +131,10 @@ function function_3b118f17( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( newval == 1 )
     {
-        self thread postfx::playpostfxbundle( #"hash_5e6d2d91ca059a03" );
+        self thread postfx::playpostfxbundle( #"pstfx_zm_eye_vignette" );
         self thread postfx::playpostfxbundle( #"hash_6422033e84a54e2d" );
         level waittill( #"pstfx_off" );
-        self thread postfx::exitpostfxbundle( #"hash_5e6d2d91ca059a03" );
+        self thread postfx::exitpostfxbundle( #"pstfx_zm_eye_vignette" );
         self thread postfx::exitpostfxbundle( #"hash_6422033e84a54e2d" );
     }
 }
@@ -279,7 +279,7 @@ function function_ade26abd( str_dir )
 // Params 7
 // Checksum 0xb0e524d2, Offset: 0x13b0
 // Size: 0x64
-function function_b16ffc7a( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function boss_arena_visgroup( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {

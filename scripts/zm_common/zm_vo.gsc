@@ -214,12 +214,12 @@ function private _play_banter( var_3e24b5d5, var_a33019a0, a_players, b_force = 
                         {
                             if ( isdefined( player1 ) )
                             {
-                                player1 notify( #"hash_ed377b19afa69d2" );
+                                player1 notify( #"banter_vo_done" );
                             }
                             
                             if ( isdefined( player2 ) )
                             {
-                                player2 notify( #"hash_ed377b19afa69d2" );
+                                player2 notify( #"banter_vo_done" );
                             }
                             
                             function_3f8824e6( var_ac829b0, var_3e24b5d5 );

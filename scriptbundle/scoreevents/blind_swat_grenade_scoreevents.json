@@ -5,7 +5,7 @@
     "configstringfiletype": "scriptbundle",
     "activationthreshold": 0.5,
     "type": "scoreevents",
-    "activationscoreevent": "#hash_35b87598fe829859",
+    "activationscoreevent": "#swat_grenade_blinded_enemy",
     "vmtype": "both",
     "hash_3c9a57250734ff5c:hash_16abf654": "#hash_6ec759f3f677ce10",
     "name": "blind_swat_grenade_scoreevents",

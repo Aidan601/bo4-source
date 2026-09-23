@@ -54,26 +54,26 @@
             "1 0"
         ]
     ],
-    "firesounddistant": "#hash_1fa3c110880b1635",
-    "sound140": "#hash_37048e28fad594f7",
-    "sound150": "#hash_45bddf2902706a52",
-    "sound180": "#hash_4dbc4a54bac5f3db",
-    "sound190": "#hash_6abac088fe5e6d1a",
-    "sound240": "#hash_5ae3a947d20ed584",
-    "sound250": "#hash_76898c482a23a565",
-    "sound600": "#hash_209cb2974ae55ec0",
-    "sound610": "#hash_209cb2974ae55ec0",
+    "firesounddistant": "#wpn_smg_fire_distant",
+    "sound140": "#wpn_smg_mp40_fire_npc",
+    "sound150": "#wpn_smg_mp40_fire_plr",
+    "sound180": "#wpn_smg_npc_decay",
+    "sound190": "#wpn_smg_plr_decay",
+    "sound240": "#wpn_smg_dryfire_npc",
+    "sound250": "#wpn_smg_dryfire_plr",
+    "sound600": "#prj_brass_impact_large",
+    "sound610": "#prj_brass_impact_large",
     "sound800": "#hash_5ee962527afebfb1",
     "sound810": "#hash_5ee962527afebfb1",
     "tunables1": "#smg_mp40_t8_tunables_zm",
-    "weaponCamo": "#hash_3327040e6e40aec4",
+    "weaponCamo": "#camo_t8_smg_mp40",
     "cacWeaponXCam": "#ui_cam_cac_smg_mp40",
     "cacAttachmentsXCam": "#ui_cam_cac_smg_mp40",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_27bcc8d7d7fa8397"
+        "#au_smg_mp40_t8_none"
     ],
     "sharedWeaponSounds": "#smg",
     "ballisticDesc": "#9mm_fmj",

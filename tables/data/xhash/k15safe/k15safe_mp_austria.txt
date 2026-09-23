@@ -14,7 +14,7 @@ hash_7be5164cb3fab0e3
 hash_833832cd9511a3ad
 hash_9b34ee7bcbe108d2
 hash_a656ab69d7e5b667
-hash_52391377bc2aba11
+wc/lit_decal_diffuse_spec_gloss#fa261733
 hash_46af52463b847335
 hash_278a34140ddef48
 hash_5b94ea6fc4769625
@@ -154,11 +154,11 @@ mc/mtl_p8_box_cardboard
 mc/t8_decal_blood_drip_floor_directional_02
 mc/t7_decal_blood_smear_02
 mc/t8_decal_graphics_box_labels
-hash_48c99d59b829a63a
+wc/t8_decal_blood_puddle_floor_01_porous
 mc/t7_decal_blood_splatter_03
 mc/global_invisible
-hash_67884a2c523e688c
-hash_7b2818ffa88f8877
+vd/t8_decal_blood_splatter_floor_03
+vd/t8_sta_decal_blood_splatter_floor_01
 mc/t7_snow_powder_01_blend
 p8_col_cocaine_sack_double
 p7_gib_chunk_flesh_01

@@ -25,7 +25,7 @@
     "type": "itemspawnlist",
     "list_itemlist": 3,
     "vehiclespawner": 1,
-    "hash_3ddace39cf864a1f:hash_9b009839": -1,
+    "supplystashmaxspawns": -1,
     "hash_42d149b1b6c12f78:hash_dc7ffbef": 1,
     "name": "vehicle_list_arav_wz",
     "supplystashweight": 100,

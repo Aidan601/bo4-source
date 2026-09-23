@@ -609,7 +609,7 @@ function zm_zone_out_of_bounds( localclientnum, oldval, newval, bnewent, binitia
     
     if ( newval )
     {
-        level.var_20861007[ localclientnum ] playloopsound( #"hash_6da7ae12f538ef5e", 0.5 );
+        level.var_20861007[ localclientnum ] playloopsound( #"zmb_rush_out_of_bounds", 0.5 );
         self postfx::playpostfxbundle( #"hash_798237aa1bad3d7d" );
         return;
     }
@@ -662,7 +662,7 @@ function function_c599ed65()
     if ( get_story() == 1 )
     {
         level.var_12b59dee = "rob_zm_eyes_yellow";
-        level._effect[ #"eye_glow" ] = #"hash_760112479afe6e2";
+        level._effect[ #"eye_glow" ] = #"zm_ai/fx8_zombie_eye_glow_yellow";
         return;
     }
     

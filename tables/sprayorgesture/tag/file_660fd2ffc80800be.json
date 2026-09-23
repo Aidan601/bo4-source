@@ -1,11 +1,11 @@
 {
-    "name": "#hash_660fd2ffc80800be",
+    "name": "#loot_tags_poster_ajax",
     "type": "#tag",
-    "material": "#hash_1f359ebf80c31fa2",
+    "material": "#vd/mtl_loot_ui_icon_tags_poster_ajax",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_74d2b108cb7ed804",
-        "icon": "image#hash_575a585f92a2e385",
+        "icon": "image#loot_ui_icon_tags_poster_ajax",
         "isdefault": 0
     }
 }

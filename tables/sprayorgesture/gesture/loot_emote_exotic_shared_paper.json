@@ -6,7 +6,7 @@
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/paper",
-        "icon": "image#hash_7f90c2028916846c",
+        "icon": "image#ui_icon_emotes_s2_paper",
         "isdefault": 0
     }
 }

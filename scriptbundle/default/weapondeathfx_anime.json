@@ -1,9 +1,9 @@
 {
-    "lootid": "#hash_3c404d5b5f400ae8",
-    "hash_248b20b14afcb679:hash_904b37bc": "impact_fx_table#hash_5118540eadec391b",
+    "lootid": "#loot_weapon_deathfx_anime",
+    "hash_248b20b14afcb679:hash_904b37bc": "impact_fx_table#bullet_anime_enter",
     "image": "loot04_ui_icon_blackmarket_reserves_death_fx_anime",
     "name": "weapondeathfx_anime",
-    "displayname": "localized17#hash_1da627ad12738759",
+    "displayname": "localized17#menu/death_effects_anime",
     "icon": "loot04_ui_icon_cac_death_fx_anime",
     "hash_6bb24b86e99e8d59:hash_eeb78b92": "impact_fx_table#bullet_anime_exit",
     "previewimage": "image#hash_2729ff672b4a4de3"

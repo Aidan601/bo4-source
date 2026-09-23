@@ -122,8 +122,8 @@ function zone_init()
     else
     {
         zm_zonemgr::add_adjacent_zone( "lagoon", "sunken_path", #"hash_48e7d63b38c5e2da", 0 );
-        zm_zonemgr::add_adjacent_zone( "main_entrance", "outer_walkway", #"hash_52d967f4fc8b12fc", 0 );
-        zm_zonemgr::add_adjacent_zone( "outer_walkway", "loading_platform", #"hash_52d967f4fc8b12fc", 0 );
+        zm_zonemgr::add_adjacent_zone( "main_entrance", "outer_walkway", #"outer_walkway_open", 0 );
+        zm_zonemgr::add_adjacent_zone( "outer_walkway", "loading_platform", #"outer_walkway_open", 0 );
         zm_zonemgr::add_adjacent_zone( "beach", "lighthouse_cove", #"hash_38c97197db36afb7", 0 );
     }
     
@@ -615,7 +615,7 @@ function function_17ac86f7()
     self thread zm_audio::function_713192b1( #"hash_335d7ee067ac0e68", #"ship_cargo" );
     self thread zm_audio::function_713192b1( #"hash_520e403cdf1ae8", #"facility_main" );
     self thread zm_audio::function_713192b1( #"hash_12750e3f1d3659e4", #"facility_specimen" );
-    self thread zm_audio::function_713192b1( #"hash_6571eafdcddb13ab", #"hash_2781f0de96fa6e4e" );
+    self thread zm_audio::function_713192b1( #"hash_6571eafdcddb13ab", #"facility_decont" );
     self thread zm_audio::function_713192b1( #"hash_46ef5a594e42c371", #"facility_infusion" );
     self thread zm_audio::function_713192b1( #"hash_65457ae6fbfe6c32", #"facility_infusion" );
     self thread zm_audio::function_713192b1( #"hash_21450c4a4a6646d6", #"facility_geological" );
@@ -697,7 +697,7 @@ function function_9d1d7efd()
             if ( a_players[ 0 ] zm_audio::can_speak() && !level flag::get( #"hell_on_earth" ) )
             {
                 player = array::random( a_players );
-                player thread zm_orange_util::function_51b752a9( #"hash_14a884c0dda265b2", -1, 0, 1 );
+                player thread zm_orange_util::function_51b752a9( #"vox_lighthouse_enter", -1, 0, 1 );
                 break;
             }
         }
@@ -758,7 +758,7 @@ function function_cbb8e588()
                 
                 if ( player cansee( blood ) && player zm_audio::can_speak() && !level flag::get( #"hell_on_earth" ) )
                 {
-                    player zm_orange_util::function_51b752a9( #"hash_21c0a11438981749" );
+                    player zm_orange_util::function_51b752a9( #"vox_artifact_react" );
                     return;
                 }
             }

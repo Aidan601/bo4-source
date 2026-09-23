@@ -74,7 +74,7 @@ function katana_rush_postfx( localclientnum, oldval, newval, bnewent, binitialsn
             {
                 if ( !e_player util::function_50ed1561( localclientnum ) )
                 {
-                    e_player thread zm_utility::function_bb54a31f( localclientnum, #"hash_34ce6f9f022458f8", #"hash_49e404aa0d33e9ac" );
+                    e_player thread zm_utility::function_bb54a31f( localclientnum, #"hash_34ce6f9f022458f8", #"stop_katana_rush_postfx" );
                 }
             }
         }
@@ -96,7 +96,7 @@ function katana_rush_postfx( localclientnum, oldval, newval, bnewent, binitialsn
         {
             if ( !e_player util::function_50ed1561( localclientnum ) )
             {
-                e_player notify( #"hash_49e404aa0d33e9ac" );
+                e_player notify( #"stop_katana_rush_postfx" );
             }
         }
         
@@ -184,8 +184,8 @@ function katana_rush_sfx( localclientnum, oldval, newval, bnewent, binitialsnap,
     {
         if ( !isdefined( self.var_7804a42c ) )
         {
-            self playsound( localclientnum, #"hash_74fd1bb2db3d91ee" );
-            self.var_7804a42c = self playloopsound( #"hash_4f7953dcf02e2ba7" );
+            self playsound( localclientnum, #"wpn_katana_rush_activate" );
+            self.var_7804a42c = self playloopsound( #"wpn_katana_rush_lp" );
         }
         
         return;
@@ -193,7 +193,7 @@ function katana_rush_sfx( localclientnum, oldval, newval, bnewent, binitialsnap,
     
     if ( isdefined( self.var_7804a42c ) )
     {
-        self playsound( localclientnum, #"hash_76e75d7b16257c11" );
+        self playsound( localclientnum, #"wpn_katana_rush_deactivate" );
         self stoploopsound( self.var_7804a42c );
         self.var_7804a42c = undefined;
     }

@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_32793eb4f96dcf98",
+                            "anim": "anim#p8_fxanim_zm_red_eagle_cage_b_drop_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_58ae74de265b3b77",
+                            "anim": "anim#p8_fxanim_zm_red_eagle_cage_b_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -91,12 +91,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_57513ea2cd64dfdd",
+            "model": "model#p8_fxanim_zm_red_eagle_cage_body_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -147,7 +147,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_32793eb4f96dcf98",
+                            "anim": "anim#p8_fxanim_zm_red_eagle_cage_b_drop_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -176,7 +176,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_58ae74de265b3b77",
+                            "anim": "anim#p8_fxanim_zm_red_eagle_cage_b_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -204,12 +204,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_7f07765e5a8a0b3d",
+            "model": "model#p8_fxanim_zm_red_eagle_cage_door_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -260,7 +260,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1cda2d87ca942c45",
+                            "anim": "anim#p8_fxanim_zm_red_eagle_cage_b_drop_dmg_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -289,7 +289,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_16f1da161c58c356",
+                            "anim": "anim#p8_fxanim_zm_red_eagle_cage_b_open_dmg_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -317,12 +317,12 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_176284cb1b96ae76",
+            "model": "model#p8_fxanim_zm_red_eagle_cage_door_dmg_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

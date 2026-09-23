@@ -109,8 +109,8 @@
     "name": "wz_open_skyscraper_death_circles_50v50",
     "hash_512dd93430314ec8:hash_8d8aa969": 0,
     "endgamedelay": 600,
-    "hash_5b075ef65fef88b4:hash_7a60538a": 6,
-    "hash_5f1342570f32a6aa:hash_64232072": 1,
+    "list_deathcirclelist": 6,
+    "initialcircledelay": 1,
     "hash_649d78a70463389f:hash_6c870a00": 10,
     "hash_756cecf42fa75b4a:hash_ab9cd581": 20
 }

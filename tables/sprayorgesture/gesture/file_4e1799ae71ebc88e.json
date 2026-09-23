@@ -1,12 +1,12 @@
 {
-    "name": "#hash_4e1799ae71ebc88e",
+    "name": "#loot_emote_shared_slit_throat",
     "type": "#gesture",
-    "gesture": "#hash_144bf483e02b2760",
-    "gesture2": "#hash_55483e69c029fcc3",
+    "gesture": "#boast_slit_throat",
+    "gesture2": "#boast_slit_throat_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_6703ab4b9c45dd96",
-        "icon": "image#hash_31b851aef2629b71",
+        "icon": "image#ui_icon_emotes_slit_throat",
         "isdefault": 0
     }
 }

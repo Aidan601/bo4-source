@@ -84,9 +84,9 @@ function setdefaultcallbacks()
 // Params 2
 // Checksum 0xd0c38d3d, Offset: 0x3f8
 // Size: 0x3c
-function function_6e6149a6( func, obj )
+function on_ai_stunned( func, obj )
 {
-    add_callback( #"hash_1eda827ff5e6895b", func, obj );
+    add_callback( #"on_ai_stunned", func, obj );
 }
 
 // Namespace callback/callbacks
@@ -120,9 +120,9 @@ function function_66d5d485( func, obj )
 // Params 2
 // Checksum 0x688aa04f, Offset: 0x518
 // Size: 0x3c
-function function_74872db6( func, obj )
+function on_round_begin( func, obj )
 {
-    add_callback( #"hash_6df5348c2fb9a509", func, obj );
+    add_callback( #"on_round_begin", func, obj );
 }
 
 // Namespace callback/callbacks
@@ -131,7 +131,7 @@ function function_74872db6( func, obj )
 // Size: 0x3c
 function function_50fdac80( func, obj )
 {
-    remove_callback( #"hash_6df5348c2fb9a509", func, obj );
+    remove_callback( #"on_round_begin", func, obj );
 }
 
 // Namespace callback/callbacks

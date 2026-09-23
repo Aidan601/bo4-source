@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_wz_killchain",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_14d2f96dacd0bc1d",
+    "iconsmall": "image#ui_icon_medal_wz_killchain",
     "stringref": "localized17#hash_380b16611c950bca",
-    "iconlarge": "image#hash_3ec328ce7df39021"
+    "iconlarge": "image#ui_icon_medal_wz_killchain_large"
 }

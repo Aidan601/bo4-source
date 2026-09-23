@@ -26,16 +26,16 @@ function init()
         clientfield::register( "scriptmover", "" + #"hash_7ef82b98770c5c0d", 8000, 1, "int", &function_c08eda18, 0, 0 );
         clientfield::register( "scriptmover", "" + #"hash_c0e8acbde8dbc06", 8000, 1, "int", &function_9c99bb9c, 0, 0 );
         clientfield::register( "vehicle", "" + #"hash_6ded20ebb8e016ba", 8000, 1, "int", &function_d19e8c30, 0, 0 );
-        clientfield::register( "scriptmover", "" + #"bile_idle_fx", 8000, 1, "int", &function_2a76a74e, 0, 0 );
+        clientfield::register( "scriptmover", "" + #"bile_idle_fx", 8000, 1, "int", &bile_idle_fx, 0, 0 );
         clientfield::register( "world", "" + #"hash_19f5ea0e9b3d47f3", 8000, 1, "int", &function_6bc1e300, 0, 0 );
         clientfield::register( "scriptmover", "" + #"hash_486960f190957256", 8000, 1, "int", &function_fdbcb111, 0, 0 );
         clientfield::register( "scriptmover", "" + #"hash_12e4702a9346b3d9", 8000, 1, "int", &function_d96d1ec8, 0, 0 );
         clientfield::register( "scriptmover", "" + #"ww_lvl3_crafting_table_fx", 8000, 1, "int", &ww_lvl3_crafting_table_fx, 0, 0 );
         level._effect[ #"hash_63ffcbb6c8f4bc11" ] = #"hash_9c1cc9cff68a30b";
         level._effect[ #"hash_62ee80337662b3cd" ] = #"hash_d49412589217ae5";
-        level._effect[ #"hash_7ef82b98770c5c0d" ] = #"hash_5faeba7ac14ce809";
+        level._effect[ #"hash_7ef82b98770c5c0d" ] = #"zm_ai/fx8_bat_transform";
         level._effect[ #"bile_idle_fx" ] = #"hash_26219308102ab88";
-        level._effect[ #"hash_1789fef86cd8b57e" ] = #"hash_6155f098cde9b5d6";
+        level._effect[ #"bat_bile_vanish_fx" ] = #"hash_6155f098cde9b5d6";
         level._effect[ #"hash_6ded20ebb8e016ba" ] = #"hash_12294859753682f";
         level._effect[ #"hash_c0e8acbde8dbc06" ] = #"hash_3c302e20c7521265";
         level._effect[ #"hash_1e5190677354bcbb" ] = #"hash_43db5529d30606a4";
@@ -133,13 +133,13 @@ function function_9c99bb9c( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xf3419159, Offset: 0xa40
 // Size: 0xea
-function function_2a76a74e( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function bile_idle_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( isdefined( self.var_25092f46 ) )
     {
         stopfx( localclientnum, self.var_25092f46 );
         self.var_25092f46 = undefined;
-        playfx( localclientnum, level._effect[ #"hash_1789fef86cd8b57e" ], self.origin );
+        playfx( localclientnum, level._effect[ #"bat_bile_vanish_fx" ], self.origin );
     }
     
     if ( newval )

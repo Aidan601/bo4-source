@@ -17,7 +17,7 @@ version 23 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
         uint64 game_session_id;
     };
@@ -252,20 +252,20 @@ version 23 {
     // offset 0xc0, size 0x1f8
     telemetry_header telemetry;
     // offset 0x2b8, size 0x810
-    hash_5824d549adab1dc4 hash_71960e91f80c3365;
+    hash_5824d549adab1dc4 end_match_info;
     // offset 0xac8, size 0x140
-    hash_3821d9754f594c79 hash_78a6c018d9f82184;
+    hash_3821d9754f594c79 end_match_specialist;
     // offset 0xc08, size 0xa0
     hash_3a5bf7d0d7976271 end_match_zm;
     // offset 0xca8, size 0xc0
     client_header client;
     // offset 0xd68, size 0x380
-    hash_42e8915aaacaff63 hash_43cb38816354c3aa;
+    hash_42e8915aaacaff63 end_match_totals;
     // offset 0x10e8, size 0x200
-    hash_3506e586ba0277fb hash_11fcb8f188ed5050;
+    hash_3506e586ba0277fb end_match_contracts;
     // offset 0x12e8, size 0x2e0
     hash_2a75a26c051b3f31 hash_4682ee0eb5071d2;
     // offset 0x15c8, size 0x2640
-    hash_13d3693b7f1216f8 hash_209c80d657442a83;
+    hash_13d3693b7f1216f8 end_match_loadout;
 }
 

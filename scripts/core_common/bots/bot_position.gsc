@@ -33,7 +33,7 @@ function __init__()
     function_e9e03d6f( #"not_in_combat", &function_b94f5770 );
     function_e9e03d6f( #"revive_player", &function_8adaa75f );
     function_e9e03d6f( #"gameobject_interact", &function_daab6847 );
-    function_e9e03d6f( #"hash_797d652ff338b7d4", &function_90ff35fc );
+    function_e9e03d6f( #"vehicle_gameobject_interact", &function_90ff35fc );
     function_e9e03d6f( #"visible_enemy", &handle_visible_enemy );
     function_e9e03d6f( #"find_best_cover", &function_7ed3ada6 );
     function_aa8c6854( #"goal", &get_goal_center );
@@ -85,7 +85,7 @@ function start()
 // Size: 0x4a
 function stop()
 {
-    self notify( #"hash_6cefc75b9a427c7d" );
+    self notify( #"bot_position_stop" );
     self function_e027100a();
     
     if ( isdefined( self.bot ) )
@@ -176,7 +176,7 @@ function update( tacbundle )
         return;
     }
     
-    self.bot.var_18fa994c = bot::function_7aeb27f1( self.bot.tacbundle.var_1f8a6a2, self.bot.tacbundle.var_2fc77943 );
+    self.bot.var_18fa994c = bot::function_7aeb27f1( self.bot.tacbundle.var_1f8a6a2, self.bot.tacbundle.nextpositiontimemax );
 }
 
 // Namespace bot_position/bot_position
@@ -195,7 +195,7 @@ function private function_e027100a()
 // Size: 0x96
 function handle_goal()
 {
-    self endon( #"death", #"hash_6cefc75b9a427c7d" );
+    self endon( #"death", #"bot_position_stop" );
     level endon( #"game_ended" );
     
     while ( isdefined( self.bot ) )
@@ -216,7 +216,7 @@ function handle_goal()
 // Size: 0x10e
 function handle_goal_changed()
 {
-    self endon( #"death", #"hash_6cefc75b9a427c7d" );
+    self endon( #"death", #"bot_position_stop" );
     level endon( #"game_ended" );
     
     while ( isdefined( self.bot ) )
@@ -248,7 +248,7 @@ function handle_goal_changed()
 // Size: 0x8e
 function handle_path_success()
 {
-    self endon( #"death", #"hash_6cefc75b9a427c7d" );
+    self endon( #"death", #"bot_position_stop" );
     level endon( #"game_ended" );
     
     while ( isdefined( self.bot ) )
@@ -265,7 +265,7 @@ function handle_path_success()
 // Size: 0x14c
 function handle_path_failed()
 {
-    self endon( #"death", #"hash_6cefc75b9a427c7d" );
+    self endon( #"death", #"bot_position_stop" );
     level endon( #"game_ended" );
     
     while ( isdefined( self.bot ) )
@@ -431,7 +431,7 @@ function can_teleport()
 // Size: 0xce
 function function_2bcdf566()
 {
-    self endon( #"death", #"hash_6cefc75b9a427c7d" );
+    self endon( #"death", #"bot_position_stop" );
     level endon( #"game_ended" );
     
     while ( isdefined( self.bot ) )
@@ -1465,14 +1465,14 @@ function function_de626503( center )
 // Params 2
 // Checksum 0x9aa48cc0, Offset: 0x3be0
 // Size: 0xe0
-function function_52aa1fd5( center, var_f181b86b )
+function function_52aa1fd5( center, seedquery )
 {
-    if ( !isdefined( var_f181b86b ) )
+    if ( !isdefined( seedquery ) )
     {
         return undefined;
     }
     
-    tacpoints = tacticalquery( var_f181b86b, center );
+    tacpoints = tacticalquery( seedquery, center );
     
     if ( tacpoints.size == 0 )
     {

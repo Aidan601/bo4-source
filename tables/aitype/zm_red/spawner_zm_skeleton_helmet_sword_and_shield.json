@@ -6,7 +6,7 @@
     "team": "TEAM_AXIS",
     "species": "#zombie",
     "archeType": "#skeleton",
-    "scoreType": "#hash_fd7b9665529dd42",
+    "scoreType": "#skeleton_helmet_sword_and_shield",
     "movementType": "#zombie",
     "spawnInfluencers": [
         "#none",
@@ -15,20 +15,20 @@
     "typeSuffix": "_zombie",
     "spawnerType": "spartoi",
     "character": [
-        "#hash_2c7b1e248639d6a"
+        "#c_t8_zmb_dlc2_skeleton1_helmet"
     ],
     "animMappingTables": [
-        "#hash_8ef91ed25a4fe99"
+        "#zm_skeleton.ai_am"
     ],
-    "meleeWeapon": "#hash_63f23229c38b7e13",
+    "meleeWeapon": "#skeleton_sword_melee",
     "aimTable": "#soldier_aim",
     "footstepTable": "#skeletonfootstep",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_8ecaaed25a2f33d",
-    "animStateMachine": "#hash_546bcdf6f7a77ede",
-    "animSelectorTable": "#hash_546bd6f6f7a78e29",
+    "behaviorTree": "#zm_skeleton.ai_bt",
+    "animStateMachine": "#zm_skeleton.ai_asm",
+    "animSelectorTable": "#zm_skeleton.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_skeleton_settings",

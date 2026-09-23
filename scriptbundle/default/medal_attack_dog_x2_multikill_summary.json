@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_attack_dog_x2_multikill_summary",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_75ca2ec7852e7795",
+    "iconsmall": "image#ui_icon_medal_k9_unit",
     "stringref": "localized17#hash_12cb9f1737e6b11",
     "iconlarge": "image#ui_icon_medal_k9_unit_large"
 }

@@ -37,10 +37,10 @@
                 }
             ],
             "customclassname": "localized17#hash_1801e338b51c7c43",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#smg_capacity_t8",
-            "hash_437ed14afa174a5c:hash_aadf0bc9": 1,
+            "list_bonuscards": 1,
             "secondary": "#pistol_revolver_t8",
             "list_talents": 6,
             "primarygrenade": "#eq_slow_grenade"
@@ -80,10 +80,10 @@
                 }
             ],
             "customclassname": "localized17#hash_6b76c5bece983dc5",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#ar_stealth_t8",
-            "hash_437ed14afa174a5c:hash_aadf0bc9": 1,
+            "list_bonuscards": 1,
             "secondary": "#pistol_standard_t8",
             "list_talents": 6,
             "primarygrenade": "#eq_molotov"
@@ -123,10 +123,10 @@
                 }
             ],
             "customclassname": "localized17#hash_4c3d50391ab97c9a",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#lmg_standard_t8",
-            "hash_437ed14afa174a5c:hash_aadf0bc9": 1,
+            "list_bonuscards": 1,
             "secondary": "#pistol_burst_t8",
             "list_talents": 6,
             "primarygrenade": "#frag_grenade"
@@ -163,10 +163,10 @@
                 }
             ],
             "customclassname": "localized17#hash_6b2fc3bece5c37bc",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#tr_midburst_t8",
-            "hash_437ed14afa174a5c:hash_aadf0bc9": 1,
+            "list_bonuscards": 1,
             "secondary": "#pistol_standard_t8",
             "list_talents": 6,
             "primarygrenade": "#eq_molotov"
@@ -208,10 +208,10 @@
                 }
             ],
             "customclassname": "localized17#hash_1450c776c6020de5",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#pistol_revolver_t8",
-            "hash_437ed14afa174a5c:hash_aadf0bc9": 1,
+            "list_bonuscards": 1,
             "secondary": "#shotgun_pump_t8",
             "list_talents": 5,
             "primarygrenade": "#eq_slow_grenade"
@@ -262,10 +262,10 @@
                 }
             ],
             "customclassname": "localized17#hash_214f8987d40f209d",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 3,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 3,
             "primary": "#sniper_powerbolt_t8",
-            "hash_437ed14afa174a5c:hash_aadf0bc9": 1,
+            "list_bonuscards": 1,
             "secondary": "#shotgun_pump_t8",
             "list_talents": 5,
             "primarygrenade": "#eq_frag_grenade"
@@ -285,8 +285,8 @@
                 }
             ],
             "customclassname": "localized17#class/slot1",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#smg_standard_t8",
             "secondary": "#pistol_standard_t8",
             "list_talents": 6,
@@ -305,8 +305,8 @@
                 }
             ],
             "customclassname": "localized17#class/slot2",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#ar_accurate_t8",
             "secondary": "#pistol_standard_t8",
             "list_talents": 6,
@@ -325,8 +325,8 @@
                 }
             ],
             "customclassname": "localized17#class/slot3",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#lmg_standard_t8",
             "secondary": "#launcher_standard_t8",
             "list_talents": 6,
@@ -345,8 +345,8 @@
                 }
             ],
             "customclassname": "localized17#class/slot4",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#tr_powersemi_t8",
             "secondary": "#launcher_standard_t8",
             "list_talents": 6,
@@ -365,8 +365,8 @@
                 }
             ],
             "customclassname": "localized17#class/slot5",
-            "hash_10664c9fcf68e0a6:hash_d0c837c7": 3,
-            "hash_192a309b90f05d8e:hash_d73c4f3b": 5,
+            "list_secondaryattachments": 3,
+            "list_primaryattachments": 5,
             "primary": "#sniper_powerbolt_t8",
             "secondary": "#pistol_standard_t8",
             "list_talents": 5,
@@ -393,15 +393,15 @@
     ],
     "hash_2f14396c8d45b312:hash_9027ef1e": "#loot_tags_default_04",
     "hash_2f143b6c8d45b678:hash_68c52059": "#loot_tags_default_02",
-    "hash_2f143c6c8d45b82b:hash_b255336c": "#hash_71daba659ba196a7",
-    "hash_2f143d6c8d45b9de:hash_55e07a90": "#hash_27b5b2b4f08e4dcb",
-    "hash_2f143e6c8d45bb91:hash_7afec4cc": "#hash_71dabb659ba1985a",
-    "hash_2f143f6c8d45bd44:hash_326fb3af": "#hash_3de97428b08ef1b3",
-    "hash_2f14406c8d45bef7:hash_67931df5": "#hash_3aae961aff62ddf0",
-    "hash_2f14416c8d45c0aa:hash_fafb44c3": "#hash_71daba659ba196a7",
-    "hash_2f14426c8d45c25d:hash_43b5563a": "#hash_41038f141e60fbfc",
+    "hash_2f143c6c8d45b82b:hash_b255336c": "#loot_tags_default_05",
+    "hash_2f143d6c8d45b9de:hash_55e07a90": "#loot_emote_shared_chest_pound",
+    "hash_2f143e6c8d45bb91:hash_7afec4cc": "#loot_tags_default_06",
+    "hash_2f143f6c8d45bd44:hash_326fb3af": "#loot_emote_shared_clapping",
+    "hash_2f14406c8d45bef7:hash_67931df5": "#loot_emote_shared_fist_bump",
+    "hash_2f14416c8d45c0aa:hash_fafb44c3": "#loot_tags_default_05",
+    "hash_2f14426c8d45c25d:hash_43b5563a": "#loot_emote_shared_thumbs_up",
     "name": "mp_survivor_loadouts",
     "sessionmode": "mp",
-    "hash_4713f52608cbdd7d:hash_4f96d17e": 6,
-    "hash_4f306720a0d69626:hash_57ed547e": 6
+    "list_defaultcustomloadouts": 6,
+    "list_defaultloadouts": 6
 }

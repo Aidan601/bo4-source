@@ -61,7 +61,7 @@ function function_32639301()
     s_trap.var_6b64b967 = 0;
     s_trap.var_41ee2ddc = 1;
     level flag::wait_till( "all_players_spawned" );
-    level flag::wait_till( #"hash_25d9cfebd2bdf1f2" );
+    level flag::wait_till( #"enable_countermeasure_6" );
     
     foreach ( s_button in s_trap.a_s_buttons )
     {
@@ -129,7 +129,7 @@ function function_d1112480( e_player )
         return 1;
     }
     
-    self sethintstring( #"hash_23c1c09e94181fdb", 1000 );
+    self sethintstring( #"zombie/button_buy_trap", 1000 );
     return 1;
 }
 
@@ -175,7 +175,7 @@ function function_e14376a3()
                 continue;
             }
             
-            self notify( #"hash_1d482aca0464609a" );
+            self notify( #"apd_trap_activated" );
             self.e_activator = e_who;
             level.s_apd_trap.v_touching.activated_by_player = e_who;
             
@@ -199,7 +199,7 @@ function function_65c804dc()
     
     while ( true )
     {
-        self waittill( #"hash_1d482aca0464609a" );
+        self waittill( #"apd_trap_activated" );
         function_91ecec97( level.s_apd_trap.a_e_lights, "p8_zm_off_trap_switch_light_red_on" );
         level.s_apd_trap.var_6b64b967 = 1;
         e_who = self.e_activator;
@@ -274,7 +274,7 @@ function function_25ede6c7( s_trap )
     self endoncallback( &function_171226f4, #"death" );
     self.var_410faa5f = util::spawn_model( "tag_origin", s_trap.origin );
     fx = playfxontag( level._effect[ #"tesla_bolt" ], self.var_410faa5f, "tag_origin" );
-    playsoundatposition( #"hash_286b88c1d2e99649", s_trap.origin );
+    playsoundatposition( #"wpn_apd_shot", s_trap.origin );
     self.var_410faa5f moveto( self gettagorigin( "J_Spine4" ), 0.6 );
     self.var_410faa5f waittill( #"movedone" );
     self.var_410faa5f delete();

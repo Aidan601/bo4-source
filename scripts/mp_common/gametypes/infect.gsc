@@ -563,7 +563,7 @@ function onfinalsurvivor()
         level.infect_awardedfinalsurvivor = 1;
     }
     
-    var_816446f3 = getdvarint( #"hash_a7883ea30e7608a", 0 );
+    var_816446f3 = getdvarint( #"scr_infect_finaluav", 0 );
     
     if ( var_816446f3 )
     {
@@ -1079,7 +1079,7 @@ function setfirstinfected()
     self disableoffhandspecial();
     self thread function_57f1203();
     playfxontag( "player/fx8_plyr_infect_change_flash_3p", self, "j_spine4" );
-    self playsoundontag( #"hash_757c35cbad846c27", "j_spine4" );
+    self playsoundontag( #"mpl_infection_start_vox", "j_spine4" );
     loadout::give_loadout( self.team, self.curclass );
     self infection::give_body();
     var_63f8204e = function_4d9c9e8e( game.defenders );
@@ -1096,7 +1096,7 @@ function setfirstinfected()
     level thread popups::displayteammessagetoall( #"mp/got_infected", self );
     scoreevents::processscoreevent( "first_infected", self );
     sound::play_on_players( "mpl_flagget_sting_enemy" );
-    self thread infection::function_da08f4d0();
+    self thread infection::ambient_sound();
     level.infect_allowsuicide = 1;
     level.infect_chosefirstinfected = 1;
     self.infect_isbeingchosen = undefined;

@@ -54,12 +54,12 @@ function init_level_vars()
     function_ac904e5e();
     level thread init_pack_a_punch();
     level.fn_custom_round_ai_spawn = undefined;
-    level callback::function_74872db6( &function_74872db6 );
+    level callback::on_round_begin( &on_round_begin );
     level.var_3f86fd35 = 13;
     level.var_d7853f35 = 23;
     level.var_ecdf38f = 15;
     level.var_55e562f9 = 12;
-    level.zombie_hints[ #"default_treasure_chest" ] = #"hash_57a34375dddce337";
+    level.zombie_hints[ #"default_treasure_chest" ] = #"zombie/random_weapon_free";
     level thread zm_blockers::function_6f01c3cf( "forecastle_window_l", "script_string", 0 );
     level thread zm_blockers::function_6f01c3cf( "forecastle_window_r", "script_string", 0 );
     level thread zm_blockers::function_6f01c3cf( "forecastle_window_front", "script_string", 0 );
@@ -83,7 +83,7 @@ function function_944ac830()
     while ( true )
     {
         level waittill( #"started_defend_area" );
-        level waittill( #"hash_7a04a7fb98fa4e4d" );
+        level waittill( #"end_defend_area" );
         
         if ( isalive( self ) )
         {
@@ -145,7 +145,7 @@ function init_pack_a_punch()
 // Params 0
 // Checksum 0xb3882964, Offset: 0x7d0
 // Size: 0x7e
-function function_74872db6()
+function on_round_begin()
 {
     if ( level.round_number <= 7 )
     {
@@ -241,7 +241,7 @@ function defend_areas()
     level thread zm_utility::function_33798535( s_defend_area.var_39c44288, s_defend_area.a_str_zones, s_defend_area.var_ed1db1a7, undefined, undefined, var_cec10eb3 );
     level flag::wait_till( "started_defend_area" );
     level util::delay( var_cec10eb3 / 4, "end_game", &zm_round_spawning::function_376e51ef, #"stoker" );
-    level waittill( #"hash_7a04a7fb98fa4e4d" );
+    level waittill( #"end_defend_area" );
     zm_utility::function_fef4b36a( str_next_defend );
     
     if ( str_next_defend == #"dining_hall" )
@@ -263,7 +263,7 @@ function defend_areas()
     level thread zm_utility::function_33798535( s_defend_area.var_39c44288, s_defend_area.a_str_zones, s_defend_area.var_ed1db1a7, undefined, undefined, 45 );
     level flag::wait_till( "started_defend_area" );
     level util::delay( 4, "end_game", &zm_round_spawning::function_376e51ef, #"blight_father" );
-    level waittill( #"hash_7a04a7fb98fa4e4d" );
+    level waittill( #"end_defend_area" );
     level.stopshellshock = 1;
     zm_utility::enable_power_switch( 1, 1 );
     
@@ -446,7 +446,7 @@ function function_c52e8ba( player, var_8d5d092c )
     }
     else if ( isdefined( player.var_9c7b96ed[ var_8d5d092c ] ) && player.var_9c7b96ed[ var_8d5d092c ] )
     {
-        self.hint_string[ n_player_index ] = #"hash_7667bd0f83307360";
+        self.hint_string[ n_player_index ] = #"zombie/generic_fasttravel_cooldown";
         b_result = 1;
     }
     else
@@ -466,7 +466,7 @@ function function_edd5bb1a()
 {
     if ( zm_utility::function_e37823df() )
     {
-        zm_utility::function_6df718d( #"hash_6db3dde314ca084", 0 );
+        zm_utility::function_6df718d( #"wpn_t8_zm_esc_shield_key_world", 0 );
     }
 }
 

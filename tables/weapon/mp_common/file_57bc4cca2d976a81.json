@@ -1,6 +1,6 @@
 {
-    "name": "#hash_57bc4cca2d976a81",
-    "baseWeapon": "#hash_5b4f32b99fbab593",
+    "name": "#inventory_ability_dog_mp",
+    "baseWeapon": "#inventory_ability_dog",
     "displayname": "#dog/name",
     "weapon70": "#ability_dog",
     "soundbank": "#hash_bd276b796b0afb1",
@@ -34,7 +34,7 @@
     "tunables1": "#ability_dog_tunables_mp",
     "cacWeaponXCam": "#ui_cam_cac_equip_blackhat",
     "gestureTables": [
-        "#hash_2c75f3bef8443438"
+        "#gestable_dog_calling"
     ],
     "#hash_2e4a8800": "#ability_dog_mp_scoreevents",
     "viewmodel": [
@@ -45,8 +45,8 @@
     ],
     "gadgetIconAvailable": "#hash_b928323c5d2cb644",
     "gadgetIconUnavailable": "#hash_ead154111486c9e9",
-    "inventoryIconZm": "#hash_42abacb307890f02",
-    "hudIcon": "#hash_18437c27a4a57ba2",
+    "inventoryIconZm": "#ui_icon_ability_dog_dark",
+    "hudIcon": "#ui_icon_ability_dog_loadout",
     "image_e90": "#ui_icon_obit_dog",
-    "image_1048": "#hash_18437c27a4a57ba2"
+    "image_1048": "#ui_icon_ability_dog_loadout"
 }

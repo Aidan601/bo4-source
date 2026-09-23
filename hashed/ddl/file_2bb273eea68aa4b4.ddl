@@ -17,15 +17,15 @@ version 8 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 3 size 0xc0
     struct client_header {
         // offset 0x0, size 0x40
-        uint64 hash_4016bed15f9183f7;
+        uint64 user_session_id;
         // offset 0x40, size 0x40
         uint64 uno_id;
         // offset 0x80, size 0x40
@@ -127,11 +127,11 @@ version 8 {
     // offset 0x314, size 0x1
     bool slowgrenade_toggle;
     // offset 0x315, size 0x1
-    bool hash_47195f6ac6b6fe6f;
+    bool attackdog_switchdefault;
     // offset 0x316, size 0x1
     bool swatgrenade_toggle;
     // offset 0x317, size 0x1
-    bool hash_13f420e6664a4f4b;
+    bool flare_gun_toggle;
     // offset 0x318, size 0x1
     bool show_real_names;
     // offset 0x319, size 0x1

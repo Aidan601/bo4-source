@@ -29,9 +29,9 @@ function __init__()
     assert( isscriptfunctionptr( &function_79554a79 ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_6049ac9ce94751b0", &function_79554a79 );
     assert( !isdefined( &function_fc646a7e ) || isscriptfunctionptr( &function_fc646a7e ) );
-    assert( !isdefined( &function_d31cb502 ) || isscriptfunctionptr( &function_d31cb502 ) );
+    assert( !isdefined( &ui_reticle_preview_hybrid_03_vday ) || isscriptfunctionptr( &ui_reticle_preview_hybrid_03_vday ) );
     assert( !isdefined( &function_1a4b60ca ) || isscriptfunctionptr( &function_1a4b60ca ) );
-    behaviortreenetworkutility::registerbehaviortreeaction( #"ziplinetraverse", &function_fc646a7e, &function_d31cb502, &function_1a4b60ca );
+    behaviortreenetworkutility::registerbehaviortreeaction( #"ziplinetraverse", &function_fc646a7e, &ui_reticle_preview_hybrid_03_vday, &function_1a4b60ca );
     assert( !isdefined( &function_a2185434 ) || isscriptfunctionptr( &function_a2185434 ) );
     assert( !isdefined( &function_48ef356e ) || isscriptfunctionptr( &function_48ef356e ) );
     assert( !isdefined( undefined ) || isscriptfunctionptr( undefined ) );
@@ -238,7 +238,7 @@ function private function_fc646a7e( entity, asmstatename )
 // Params 2, eflags: 0x4
 // Checksum 0x51447abc, Offset: 0xfb8
 // Size: 0x26a
-function private function_d31cb502( entity, asmstatename )
+function private ui_reticle_preview_hybrid_03_vday( entity, asmstatename )
 {
     result = 5;
     

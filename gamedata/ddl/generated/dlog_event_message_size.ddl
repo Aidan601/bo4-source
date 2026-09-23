@@ -17,7 +17,7 @@ version 11 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
         uint64 game_session_id;
     };
@@ -59,9 +59,9 @@ version 11 {
     // offset 0xe0, size 0x1f8
     telemetry_header telemetry;
     // offset 0x2d8, size 0x20
-    int hash_158f176cc1f5249c;
+    int max_data_transfer;
     // offset 0x2f8, size 0x20
-    int hash_410e02df5064f43;
+    int max_compressed;
     // offset 0x318, size 0x20
     uint uncompressed;
     // offset 0x338, size 0x20
@@ -73,7 +73,7 @@ version 11 {
     // offset 0x438, size 0x20
     int period;
     // offset 0x458, size 0x20
-    int hash_53c7dcda3f87b0b8;
+    int max_uncompressed;
     // offset 0x478, size 0x20
     uint compressed;
 }

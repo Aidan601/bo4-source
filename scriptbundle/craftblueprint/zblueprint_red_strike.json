@@ -11,8 +11,8 @@
     "displayname": "ID Gun",
     "purchaseprompt": "localized18#hash_791a26a14b97f770",
     "postcraft": "buy_once_then_box",
-    "hash_64869b7d451b2fbe:hash_abd9b2d0": "localized18#hash_791a26a14b97f770",
+    "purchasepromptfree": "localized18#hash_791a26a14b97f770",
     "componentcount": 3,
-    "hash_6d856d2f8b4a5911:hash_c028dcfe": 1,
+    "firstonefree": 1,
     "inventorysection": "section_quests"
 }

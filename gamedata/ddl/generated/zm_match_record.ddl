@@ -49,7 +49,7 @@ version 223 {
         // offset 0xe8, size 0x8
         uint:7 materialid;
         // offset 0xf0, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xf8, size 0x1
         bool flip;
         // offset 0xf9, size 0x1
@@ -105,7 +105,7 @@ version 223 {
         // offset 0xd0, size 0x8
         uint:7 materialid;
         // offset 0xd8, size 0x8
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xe0, size 0x1
         bool flip;
         // offset 0xe1, size 0x1
@@ -147,7 +147,7 @@ version 223 {
     };
 
     // idx 6 members 1 size 0x49f8
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x49f8
         layerinformation layerinfo;
     };
@@ -155,7 +155,7 @@ version 223 {
     // idx 7 members 1 size 0x93f0
     struct paintshop {
         // offset 0x0, size 0x93f0
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x9508
@@ -211,7 +211,7 @@ version 223 {
     // idx 11 members 2 size 0xc0
     struct hash_768aeb6b928320d {
         // offset 0x0, size 0x80
-        hash_705fa6d3f50ff148 parts[hash_5ab26f037efe82c];
+        hash_705fa6d3f50ff148 parts[outfitparts_e];
         // offset 0x80, size 0x40
         bool hash_63930aafa5d6ac7b[64];
     };
@@ -219,13 +219,13 @@ version 223 {
     // idx 12 members 1 size 0x100
     struct hash_729f42618cb8bf17 {
         // offset 0x0, size 0x100
-        bool hash_28fca43539ff7944[256];
+        bool jumpkit_part_marked_old[256];
     };
 
     // idx 13 members 1 size 0x40
     struct characteroutfit {
         // offset 0x0, size 0x40
-        uint:5 selectedcomponent[hash_5ab26f037efe82c];
+        uint:5 selectedcomponent[outfitparts_e];
     };
 
     // idx 14 members 4 size 0x2310
@@ -233,11 +233,11 @@ version 223 {
         // offset 0x0, size 0x8
         uint:6 selectedoutfit;
         // offset 0x8, size 0x8
-        uint:6 hash_4d9fceac8ff24cbd;
+        uint:6 selectedwarpaintoutfit;
         // offset 0x10, size 0x1a40
         hash_768aeb6b928320d outfit_breadcrumbs[35];
         // offset 0x1a50, size 0x8c0
-        characteroutfit hash_e5c77948998e49[35];
+        characteroutfit selectedoutfititems[35];
     };
 
     // idx 15 members 4 size 0x58
@@ -257,7 +257,7 @@ version 223 {
         // offset 0x0, size 0x8
         uint:6 outfitindex;
         // offset 0x8, size 0x40
-        uint:5 outfititems[hash_5ab26f037efe82c];
+        uint:5 outfititems[outfitparts_e];
         // offset 0x48, size 0x8
         uint:6 characterhead;
         // offset 0x50, size 0x8
@@ -295,7 +295,7 @@ version 223 {
         // offset 0x88, size 0x50
         uint:10 bubblegumbuff[5];
         // offset 0xd8, size 0x28
-        uint:8 hash_10b7b244c876d78a[5];
+        uint:8 bubblegumbuffcount[5];
     };
 
     // idx 19 members 8 size 0x270
@@ -319,7 +319,7 @@ version 223 {
     };
 
     // idx 20 members 14 size 0x401c0
-    struct hash_18b04f5b045db908 {
+    struct zmloadoutlist {
         // offset 0x0, size 0x10
         uint:10 loadoutversion;
         // offset 0x10, size 0x8
@@ -333,7 +333,7 @@ version 223 {
         // offset 0x3d650, size 0xa00
         zmgobblegumpack bubblegumpack[10];
         // offset 0x3e050, size 0x8
-        uint:8 hash_78e9cef0ed273bd;
+        uint:8 equippedcustomclass;
         // offset 0x3e058, size 0x1860
         zmloadout customclass[10];
         // offset 0x3f8b8, size 0x500
@@ -365,7 +365,7 @@ version 223 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
         uint64 game_session_id;
     };
@@ -499,7 +499,7 @@ version 223 {
         // offset 0x1e8, size 0x8
         uint:3 spectatetype;
         // offset 0x1f0, size 0x8
-        fixed<6,2> hash_57fe6337297bcce9;
+        fixed<6,2> playofthematchbuffersize;
         // offset 0x1f8, size 0x8
         fixed<8,7> hash_1df445b9d1af641f;
         // offset 0x200, size 0x8
@@ -563,15 +563,15 @@ version 223 {
         // offset 0x318, size 0x8
         uint:2 zmzombiehealthmult;
         // offset 0x320, size 0x10
-        uint:10 hash_70e1efac5fcdfa4f;
+        uint:10 ticketsgivenatstagestart_0;
         // offset 0x330, size 0x10
-        uint:10 hash_70e1eeac5fcdf89c;
+        uint:10 ticketsgivenatstagestart_1;
         // offset 0x340, size 0x10
-        uint:10 hash_70e1f1ac5fcdfdb5;
+        uint:10 ticketsgivenatstagestart_2;
         // offset 0x350, size 0x10
-        uint:10 hash_70e1f0ac5fcdfc02;
+        uint:10 ticketsgivenatstagestart_3;
         // offset 0x360, size 0x10
-        uint:10 hash_70e1ebac5fcdf383;
+        uint:10 ticketsgivenatstagestart_4;
         // offset 0x370, size 0x10
         fixed<12,4> trm_maxheight;
         // offset 0x380, size 0x8
@@ -661,15 +661,15 @@ version 223 {
         // offset 0x688, size 0x8
         uint:2 zmpopcornspawnfreq;
         // offset 0x690, size 0x10
-        uint:10 hash_12ce5d40d1f9fb7f;
+        uint:10 ticketsearnedatstagewin_0;
         // offset 0x6a0, size 0x10
-        uint:10 hash_12ce5c40d1f9f9cc;
+        uint:10 ticketsearnedatstagewin_1;
         // offset 0x6b0, size 0x10
-        uint:10 hash_12ce5f40d1f9fee5;
+        uint:10 ticketsearnedatstagewin_2;
         // offset 0x6c0, size 0x10
-        uint:10 hash_12ce5e40d1f9fd32;
+        uint:10 ticketsearnedatstagewin_3;
         // offset 0x6d0, size 0x10
-        uint:10 hash_12ce5940d1f9f4b3;
+        uint:10 ticketsearnedatstagewin_4;
         // offset 0x6e0, size 0x8
         uint:4 zmmysteryboxlimitmove;
         // offset 0x6e8, size 0x10
@@ -683,7 +683,7 @@ version 223 {
         // offset 0x710, size 0x8
         uint:7 zmpointlossondeath;
         // offset 0x718, size 0x8
-        uint:8 hash_6a48bbfb703d5c9c;
+        uint:8 pregamedraftroundtime;
         // offset 0x720, size 0x8
         uint:4 pregamepositionshufflemethod;
         // offset 0x728, size 0x8
@@ -745,7 +745,7 @@ version 223 {
         // offset 0x828, size 0x8
         uint:4 zmmysteryboxlimitround;
         // offset 0x830, size 0x8
-        uint:4 hash_4635a26c94b56725;
+        uint:4 maxallowedskills;
         // offset 0x838, size 0x8
         uint:3 platooncount;
         // offset 0x840, size 0x8
@@ -793,7 +793,7 @@ version 223 {
         // offset 0x900, size 0x8
         uint:7 zmselfreviveamount;
         // offset 0x908, size 0x8
-        uint:8 hash_2849b6cf7317ab1b;
+        uint:8 pregamescorestreakmodifytime;
         // offset 0x910, size 0x8
         uint:2 zmelixirscooldown;
         // offset 0x918, size 0x8
@@ -801,7 +801,7 @@ version 223 {
         // offset 0x920, size 0x8
         uint:4 pickuptime;
         // offset 0x928, size 0x10
-        fixed<14,7> hash_451245a24412d90f;
+        fixed<14,7> controllerparticipationcheckinterval;
         // offset 0x938, size 0x20
         int hash_64727525f5957d06;
         // offset 0x958, size 0x8
@@ -839,7 +839,7 @@ version 223 {
         // offset 0x9f8, size 0x8
         uint:3 hash_7d590533364efa87;
         // offset 0xa00, size 0x8
-        uint:8 hash_252e760b41f3d94a;
+        uint:8 pregamecacmodifytime;
         // offset 0xa08, size 0x8
         fixed<8,2> roundstartkillstreakdelay;
         // offset 0xa10, size 0x8
@@ -871,7 +871,7 @@ version 223 {
         // offset 0xa80, size 0x8
         uint:7 drafttime;
         // offset 0xa88, size 0x8
-        uint:8 hash_ed89addfaaafe48;
+        uint:8 pregameitemvoteroundtime;
         // offset 0xa90, size 0x8
         uint:7 objectivespawntime;
         // offset 0xa98, size 0x10
@@ -905,7 +905,7 @@ version 223 {
         // offset 0xb38, size 0x8
         uint:2 charactercustomization;
         // offset 0xb40, size 0x8
-        uint:4 hash_437a986f8d24d7eb;
+        uint:4 maxallowedprimaryattachments;
         // offset 0xb48, size 0x8
         uint:2 zmminibossdamagemult;
         // offset 0xb50, size 0x8
@@ -1107,13 +1107,13 @@ version 223 {
         // offset 0xbd6, size 0x1
         bool zmtalismanspecialxprate;
         // offset 0xbd7, size 0x1
-        bool hash_678c1d3307b1d73a;
+        bool cleansedloadout;
         // offset 0xbd8, size 0x1
         bool headshotsonly;
         // offset 0xbd9, size 0x1
         bool disablecontracts;
         // offset 0xbda, size 0x1
-        bool hash_75d44b1542e3edf9;
+        bool drafthideenemyteam;
         // offset 0xbdb, size 0x1
         bool zmtalismanimpatient;
         // offset 0xbdc, size 0x1
@@ -1205,7 +1205,7 @@ version 223 {
         // offset 0xc07, size 0x1
         bool zmperksactive;
         // offset 0xc08, size 0x1
-        bool hash_29f3630e8e542a0a;
+        bool forwardspawnenabled;
         // offset 0xc09, size 0x1
         bool zmelixirsuitup;
         // offset 0xc0a, size 0x1
@@ -1373,7 +1373,7 @@ version 223 {
         // offset 0xc5b, size 0x1
         bool oldschoolmode;
         // offset 0xc5c, size 0x1
-        bool hash_4238acad9fa0f317;
+        bool hotpotato;
         // offset 0xc5d, size 0x1
         bool zmtalismanextraclaymore;
         // offset 0xc5e, size 0x1
@@ -1433,7 +1433,7 @@ version 223 {
         // offset 0xc79, size 0x1
         bool pregameitemvoteenabled;
         // offset 0xc7a, size 0x1
-        bool hash_5684ea266d45be15;
+        bool pregamealwaysshowcacedit;
         // offset 0xc7b, size 0x1
         bool hash_7f273e367f26254;
         // offset 0xc7c, size 0x1
@@ -1549,7 +1549,7 @@ version 223 {
     };
 
     // idx 29 members 3 size 0x18
-    struct hash_25508de9fa29a5d5 {
+    struct bytestat {
         // offset 0x0, size 0x8
         byte challengevalue;
         // offset 0x8, size 0x8
@@ -1581,7 +1581,7 @@ version 223 {
         // offset 0xc0, size 0x30
         hash_6c116eea1f7184ec hash_57a704e24a1baad4;
         // offset 0xf0, size 0x30
-        hash_6c116eea1f7184ec hash_ad3a508a80a0e6e;
+        hash_6c116eea1f7184ec darkops_escape_ee;
         // offset 0x120, size 0x30
         hash_6c116eea1f7184ec player_kills;
         // offset 0x150, size 0x30
@@ -1607,7 +1607,7 @@ version 223 {
         // offset 0x380, size 0x30
         hash_6c116eea1f7184ec wallbuy_weapons_purchased;
         // offset 0x3b0, size 0x18
-        hash_25508de9fa29a5d5 hash_62b2fe2395dd516d;
+        bytestat hash_62b2fe2395dd516d;
         // offset 0x3c8, size 0x30
         hash_6c116eea1f7184ec timestamplastday1;
         // offset 0x3f8, size 0x30
@@ -1623,9 +1623,9 @@ version 223 {
         // offset 0x4e8, size 0x30
         hash_6c116eea1f7184ec hash_5fb724d439b8956;
         // offset 0x518, size 0x18
-        hash_25508de9fa29a5d5 hash_40d7609d9e5bdb5;
+        bytestat ballistic_knife_gold;
         // offset 0x530, size 0x18
-        hash_25508de9fa29a5d5 hash_1e31fd681b6d19f;
+        bytestat tr_flechette_for_diamond;
         // offset 0x548, size 0x30
         hash_6c116eea1f7184ec hash_799aecaf1ec45db1;
         // offset 0x578, size 0x30
@@ -1635,9 +1635,9 @@ version 223 {
         // offset 0x5d8, size 0x30
         hash_6c116eea1f7184ec hash_36f86bbf6612a04d;
         // offset 0x608, size 0x18
-        hash_25508de9fa29a5d5 hash_7af46cc50d39f583;
+        bytestat tr_flechette_gold;
         // offset 0x620, size 0x18
-        hash_25508de9fa29a5d5 hash_430f303e03007f59;
+        bytestat ar_standard_for_diamond;
         // offset 0x638, size 0x30
         hash_6c116eea1f7184ec zm_daily_kills_tactical_rifle;
         // offset 0x668, size 0x30
@@ -1655,7 +1655,7 @@ version 223 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_plasmas_killed;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_258c10d310bf4203;
+        hash_6c116eea1f7184ec zm_daily_kills_miniboss;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x808, size 0x30
@@ -1669,11 +1669,11 @@ version 223 {
         // offset 0x8c8, size 0x30
         hash_6c116eea1f7184ec hash_733e96c5baacb1da;
         // offset 0x8f8, size 0x18
-        hash_25508de9fa29a5d5 hash_517bf5c8991ad97a;
+        bytestat secondary_mastery_cqb;
         // offset 0x910, size 0x30
         hash_6c116eea1f7184ec zm_daily_kills_explosive;
         // offset 0x940, size 0x18
-        hash_25508de9fa29a5d5 hash_59c247870ba8f396;
+        bytestat sniper_locus_gold;
         // offset 0x958, size 0x28
         hash_2b6b162a9af31225 hash_fbfa7a068b0166;
         // offset 0x980, size 0x30
@@ -1695,7 +1695,7 @@ version 223 {
         // offset 0xb00, size 0x30
         hash_6c116eea1f7184ec teamkills_nostats;
         // offset 0xb30, size 0x18
-        hash_25508de9fa29a5d5 hash_7b25ab6b37350720;
+        bytestat smg_fastburst_gold;
         // offset 0xb48, size 0x30
         hash_6c116eea1f7184ec hash_63de9d1da77a2087;
         // offset 0xb78, size 0x30
@@ -1705,7 +1705,7 @@ version 223 {
         // offset 0xbd8, size 0x28
         hash_2b6b162a9af31225 hash_577fe62725619fdc;
         // offset 0xc00, size 0x18
-        hash_25508de9fa29a5d5 hash_25205539b20f4f65;
+        bytestat shotgun_precision_gold;
         // offset 0xc18, size 0x30
         hash_6c116eea1f7184ec hash_1f20f53b7084fdcb;
         // offset 0xc48, size 0x30
@@ -1713,7 +1713,7 @@ version 223 {
         // offset 0xc78, size 0x30
         hash_6c116eea1f7184ec zdog_rounds_finished;
         // offset 0xca8, size 0x30
-        hash_6c116eea1f7184ec hash_65472fa120ebce1c;
+        hash_6c116eea1f7184ec free_perk_pickedup;
         // offset 0xcd8, size 0x30
         hash_6c116eea1f7184ec zm_daily_kills_smg;
         // offset 0xd08, size 0x30
@@ -1741,13 +1741,13 @@ version 223 {
         // offset 0xf18, size 0x30
         hash_6c116eea1f7184ec total_games_played;
         // offset 0xf48, size 0x18
-        hash_25508de9fa29a5d5 hash_114a149b2164ee22;
+        bytestat tr_damageburst_for_diamond;
         // offset 0xf60, size 0x30
         hash_6c116eea1f7184ec zm_daily_spend_25k;
         // offset 0xf90, size 0x30
         hash_6c116eea1f7184ec zm_daily_spend_50k;
         // offset 0xfc0, size 0x18
-        hash_25508de9fa29a5d5 weapons_mastery_tactical;
+        bytestat weapons_mastery_tactical;
         // offset 0xfd8, size 0x30
         hash_6c116eea1f7184ec hash_3a43a56f5f2aeacc;
         // offset 0x1008, size 0x30
@@ -1761,7 +1761,7 @@ version 223 {
         // offset 0x10c8, size 0x30
         hash_6c116eea1f7184ec bouncingbetty_pickedup;
         // offset 0x10f8, size 0x18
-        hash_25508de9fa29a5d5 weapons_mastery_sniper;
+        bytestat weapons_mastery_sniper;
         // offset 0x1110, size 0x30
         hash_6c116eea1f7184ec ammo_purchased;
         // offset 0x1140, size 0x30
@@ -1799,7 +1799,7 @@ version 223 {
         // offset 0x1480, size 0x30
         hash_6c116eea1f7184ec hash_70d008641f35a1f0;
         // offset 0x14b0, size 0x18
-        hash_25508de9fa29a5d5 special_crossbow_for_diamond;
+        bytestat special_crossbow_for_diamond;
         // offset 0x14c8, size 0x30
         hash_6c116eea1f7184ec zm_daily_kills_gladiator;
         // offset 0x14f8, size 0x30
@@ -1815,7 +1815,7 @@ version 223 {
         // offset 0x15e8, size 0x30
         hash_6c116eea1f7184ec gum_gobbler_wall_power;
         // offset 0x1618, size 0x18
-        hash_25508de9fa29a5d5 hash_1a2c053c80edcc95;
+        bytestat smg_vmp_for_diamond;
         // offset 0x1630, size 0x30
         hash_6c116eea1f7184ec nosferatus_killed;
         // offset 0x1660, size 0x30
@@ -1823,9 +1823,9 @@ version 223 {
         // offset 0x1690, size 0x30
         hash_6c116eea1f7184ec strategist_complete;
         // offset 0x16c0, size 0x18
-        hash_25508de9fa29a5d5 hash_72a5c6867f90767d;
+        bytestat ar_doublebarrel_gold;
         // offset 0x16d8, size 0x30
-        hash_6c116eea1f7184ec hash_2d77264f82d15ce9;
+        hash_6c116eea1f7184ec zm_daily_kills_bouncing_betty;
         // offset 0x1708, size 0x30
         hash_6c116eea1f7184ec currencyspent;
         // offset 0x1738, size 0x28
@@ -1835,7 +1835,7 @@ version 223 {
         // offset 0x17a8, size 0x30
         hash_6c116eea1f7184ec shields_built;
         // offset 0x17d8, size 0x30
-        hash_6c116eea1f7184ec hash_5f9b7801af13f397;
+        hash_6c116eea1f7184ec zm_daily_kills_equipment;
         // offset 0x1808, size 0x30
         hash_6c116eea1f7184ec zm_daily_rebuild_windows;
         // offset 0x1838, size 0x30
@@ -1849,9 +1849,9 @@ version 223 {
         // offset 0x18f8, size 0x30
         hash_6c116eea1f7184ec hash_200feebda8bd7fdc;
         // offset 0x1928, size 0x18
-        hash_25508de9fa29a5d5 hash_2e6acfd71294b7b2;
+        bytestat hash_2e6acfd71294b7b2;
         // offset 0x1940, size 0x18
-        hash_25508de9fa29a5d5 hash_496b7df7d20acf3f;
+        bytestat sniper_damagesemi_gold;
         // offset 0x1958, size 0x30
         hash_6c116eea1f7184ec double_pap_kills;
         // offset 0x1988, size 0x30
@@ -1861,7 +1861,7 @@ version 223 {
         // offset 0x19e8, size 0x30
         hash_6c116eea1f7184ec tr_kills;
         // offset 0x1a18, size 0x18
-        hash_25508de9fa29a5d5 hash_42acd971be8883ca;
+        bytestat smg_fastburst_for_diamond;
         // offset 0x1a30, size 0x30
         hash_6c116eea1f7184ec pap_activation;
         // offset 0x1a60, size 0x30
@@ -1871,11 +1871,11 @@ version 223 {
         // offset 0x1ac0, size 0x30
         hash_6c116eea1f7184ec catalyst_waters_killed;
         // offset 0x1af0, size 0x30
-        hash_6c116eea1f7184ec hash_794996196e74a949;
+        hash_6c116eea1f7184ec monthly_timestamp;
         // offset 0x1b20, size 0x30
         hash_6c116eea1f7184ec hash_733f619bc1c13bdd;
         // offset 0x1b50, size 0x18
-        hash_25508de9fa29a5d5 hash_4ef27120f6db2c08;
+        bytestat tr_damageburst_gold;
         // offset 0x1b68, size 0x30
         hash_6c116eea1f7184ec lifetime_earnings;
         // offset 0x1b98, size 0x30
@@ -1893,7 +1893,7 @@ version 223 {
         // offset 0x1cc0, size 0x30
         hash_6c116eea1f7184ec claymores_pickedup;
         // offset 0x1cf0, size 0x18
-        hash_25508de9fa29a5d5 hash_2cdc2e63d373fa5;
+        bytestat smg_vmp_gold;
         // offset 0x1d08, size 0x30
         hash_6c116eea1f7184ec prison_ee_spoon_acquired;
         // offset 0x1d38, size 0x30
@@ -1917,7 +1917,7 @@ version 223 {
         // offset 0x1ee0, size 0x30
         hash_6c116eea1f7184ec pistol_kills;
         // offset 0x1f10, size 0x18
-        hash_25508de9fa29a5d5 hash_1142e61cc04c2fe0;
+        bytestat hash_1142e61cc04c2fe0;
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1f58, size 0x30
@@ -1981,11 +1981,11 @@ version 223 {
         // offset 0x24b0, size 0x30
         hash_6c116eea1f7184ec zdog_rounds_lost;
         // offset 0x24e0, size 0x18
-        hash_25508de9fa29a5d5 hash_299fa8ecbb5da105;
+        bytestat ballistic_knife_for_diamond;
         // offset 0x24f8, size 0x30
         hash_6c116eea1f7184ec hash_2f238d964d0b6267;
         // offset 0x2528, size 0x18
-        hash_25508de9fa29a5d5 secondary_mastery;
+        bytestat secondary_mastery;
         // offset 0x2540, size 0x30
         hash_6c116eea1f7184ec zombie_hunter_kill_explosives;
         // offset 0x2570, size 0x30
@@ -1999,25 +1999,25 @@ version 223 {
         // offset 0x2630, size 0x30
         hash_6c116eea1f7184ec zdogs_killed;
         // offset 0x2660, size 0x30
-        hash_6c116eea1f7184ec hash_31c3f50baa002a76;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_mg;
         // offset 0x2690, size 0x30
         hash_6c116eea1f7184ec failed_revives;
         // offset 0x26c0, size 0x18
-        hash_25508de9fa29a5d5 hash_2fa95a1e2e9331fd;
+        bytestat ar_doublebarrel_for_diamond;
         // offset 0x26d8, size 0x30
         hash_6c116eea1f7184ec survivalist_mastery;
         // offset 0x2708, size 0x30
         hash_6c116eea1f7184ec hash_3499a1ccc18c05aa;
         // offset 0x2738, size 0x30
-        hash_6c116eea1f7184ec hash_3ebae93ea866519c;
+        hash_6c116eea1f7184ec gum_gobbler_powerups_grabbed;
         // offset 0x2768, size 0x30
         hash_6c116eea1f7184ec zombie_hunter_frostbite;
         // offset 0x2798, size 0x30
         hash_6c116eea1f7184ec zm_daily_challenge_ingame_time;
         // offset 0x27c8, size 0x18
-        hash_25508de9fa29a5d5 hash_367ce404273b24f;
+        bytestat ar_galil_for_diamond;
         // offset 0x27e0, size 0x30
-        hash_6c116eea1f7184ec hash_29e6ec48e9101f71;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_pistol;
         // offset 0x2810, size 0x30
         hash_6c116eea1f7184ec cur_win_streak;
         // offset 0x2840, size 0x30
@@ -2031,13 +2031,13 @@ version 223 {
         // offset 0x28f8, size 0x30
         hash_6c116eea1f7184ec hash_47646e52fcbb190e;
         // offset 0x2928, size 0x30
-        hash_6c116eea1f7184ec hash_3621f03d7659cd81;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_sniper;
         // offset 0x2958, size 0x30
         hash_6c116eea1f7184ec failed_sacrifices;
         // offset 0x2988, size 0x30
         hash_6c116eea1f7184ec gum_gobbler_phoenix_up;
         // offset 0x29b8, size 0x30
-        hash_6c116eea1f7184ec hash_730e40ef22de352;
+        hash_6c116eea1f7184ec zm_daily_kills_hero_weapon;
         // offset 0x29e8, size 0x30
         hash_6c116eea1f7184ec zombie_hunter_kill_crawler;
         // offset 0x2a18, size 0x30
@@ -2047,7 +2047,7 @@ version 223 {
         // offset 0x2a78, size 0x30
         hash_6c116eea1f7184ec combined_rank;
         // offset 0x2aa8, size 0x18
-        hash_25508de9fa29a5d5 weapons_mastery;
+        bytestat weapons_mastery;
         // offset 0x2ac0, size 0x30
         hash_6c116eea1f7184ec double_points_pickedup;
         // offset 0x2af0, size 0x30
@@ -2059,7 +2059,7 @@ version 223 {
         // offset 0x2b78, size 0x30
         hash_6c116eea1f7184ec hash_2126e77556d8e66b;
         // offset 0x2ba8, size 0x18
-        hash_25508de9fa29a5d5 special_crossbow_gold;
+        bytestat special_crossbow_gold;
         // offset 0x2bc0, size 0x30
         hash_6c116eea1f7184ec hash_653fe75f9cf9752a;
         // offset 0x2bf0, size 0x30
@@ -2077,9 +2077,9 @@ version 223 {
         // offset 0x2d08, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_magic_box;
         // offset 0x2d38, size 0x18
-        hash_25508de9fa29a5d5 hash_335ad5d90b73c973;
+        bytestat shotgun_fullauto_for_diamond;
         // offset 0x2d50, size 0x30
-        hash_6c116eea1f7184ec hash_188b35d19b03d60f;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_smg;
         // offset 0x2d80, size 0x28
         hash_2b6b162a9af31225 hash_187d12f2253c1058;
         // offset 0x2da8, size 0x30
@@ -2087,11 +2087,11 @@ version 223 {
         // offset 0x2dd8, size 0x30
         hash_6c116eea1f7184ec suicides;
         // offset 0x2e08, size 0x18
-        hash_25508de9fa29a5d5 secondary_mastery_pistol;
+        bytestat secondary_mastery_pistol;
         // offset 0x2e20, size 0x30
         hash_6c116eea1f7184ec hash_6dd1118d38426588;
         // offset 0x2e50, size 0x18
-        hash_25508de9fa29a5d5 hash_159fd29d46091f2c;
+        bytestat lmg_stealth_for_diamond;
         // offset 0x2e68, size 0x30
         hash_6c116eea1f7184ec hash_19d6a97f1553f96f;
         // offset 0x2e98, size 0x28
@@ -2125,21 +2125,21 @@ version 223 {
         // offset 0x3130, size 0x30
         hash_6c116eea1f7184ec hash_385398b8acbf8b4a;
         // offset 0x3160, size 0x18
-        hash_25508de9fa29a5d5 ar_peacekeeper_gold;
+        bytestat ar_peacekeeper_gold;
         // offset 0x3178, size 0x28
-        hash_2b6b162a9af31225 hash_3d392c6f96aa2ac1;
+        hash_2b6b162a9af31225 camo_active_headshot_base_headshots;
         // offset 0x31a0, size 0x30
         hash_6c116eea1f7184ec hash_7de12be102824219;
         // offset 0x31d0, size 0x30
         hash_6c116eea1f7184ec prison_acid_trap_used;
         // offset 0x3200, size 0x18
-        hash_25508de9fa29a5d5 hash_74ae17ad1b32b3ba;
+        bytestat pistol_fullauto_for_diamond;
         // offset 0x3218, size 0x30
         hash_6c116eea1f7184ec hash_455678c15cd3bb55;
         // offset 0x3248, size 0x30
         hash_6c116eea1f7184ec badhostcount;
         // offset 0x3278, size 0x18
-        hash_25508de9fa29a5d5 hash_2c05c0d9d29dfc93;
+        bytestat smg_folding_gold;
         // offset 0x3290, size 0x30
         hash_6c116eea1f7184ec zm_daily_earn_5k_with_2x;
         // offset 0x32c0, size 0x30
@@ -2147,7 +2147,7 @@ version 223 {
         // offset 0x32f0, size 0x30
         hash_6c116eea1f7184ec talisman_used;
         // offset 0x3320, size 0x18
-        hash_25508de9fa29a5d5 smg_mp40_gold;
+        bytestat smg_mp40_gold;
         // offset 0x3338, size 0x30
         hash_6c116eea1f7184ec blightfathers_killed;
         // offset 0x3368, size 0x38
@@ -2169,7 +2169,7 @@ version 223 {
         // offset 0x3518, size 0x30
         hash_6c116eea1f7184ec frag_kills;
         // offset 0x3548, size 0x18
-        hash_25508de9fa29a5d5 smg_mp40_for_diamond;
+        bytestat smg_mp40_for_diamond;
         // offset 0x3560, size 0x30
         hash_6c116eea1f7184ec hash_60b6e9332c734ad8;
         // offset 0x3590, size 0x30
@@ -2187,7 +2187,7 @@ version 223 {
         // offset 0x36a8, size 0x30
         hash_6c116eea1f7184ec hash_50d31f5c1693d096;
         // offset 0x36d8, size 0x30
-        hash_6c116eea1f7184ec hash_1b192689f4c8c402;
+        hash_6c116eea1f7184ec bonus_points_player_pickedup;
         // offset 0x3708, size 0x30
         hash_6c116eea1f7184ec gum_gobbler_anywhere_but_here;
         // offset 0x3738, size 0x30
@@ -2201,7 +2201,7 @@ version 223 {
         // offset 0x37f8, size 0x30
         hash_6c116eea1f7184ec hash_461f4cde5d994295;
         // offset 0x3828, size 0x18
-        hash_25508de9fa29a5d5 hash_6dcabfb7d8122d8a;
+        bytestat hash_6dcabfb7d8122d8a;
         // offset 0x3840, size 0x30
         hash_6c116eea1f7184ec bouncingbetty_devil_pickedup;
         // offset 0x3870, size 0x30
@@ -2221,17 +2221,17 @@ version 223 {
         // offset 0x39c0, size 0x28
         hash_2b6b162a9af31225 hash_63eaeba20510d879;
         // offset 0x39e8, size 0x18
-        hash_25508de9fa29a5d5 hash_1de982bb9af8c4bc;
+        bytestat sniper_locus_for_diamond;
         // offset 0x3a00, size 0x18
-        hash_25508de9fa29a5d5 weapons_mastery_lmg;
+        bytestat weapons_mastery_lmg;
         // offset 0x3a18, size 0x18
-        hash_25508de9fa29a5d5 weapons_mastery_smg;
+        bytestat weapons_mastery_smg;
         // offset 0x3a30, size 0x30
         hash_6c116eea1f7184ec crimson_nosferatus_killed;
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec pap_weapon_double_packed;
         // offset 0x3a90, size 0x18
-        hash_25508de9fa29a5d5 weapons_mastery_assault;
+        bytestat weapons_mastery_assault;
         // offset 0x3aa8, size 0x30
         hash_6c116eea1f7184ec lmg_kills;
         // offset 0x3ad8, size 0x30
@@ -2257,7 +2257,7 @@ version 223 {
         // offset 0x3ce0, size 0x30
         hash_6c116eea1f7184ec misses;
         // offset 0x3d10, size 0x30
-        hash_6c116eea1f7184ec hash_70871175c2650a70;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_shotgun;
         // offset 0x3d40, size 0x30
         hash_6c116eea1f7184ec zm_daily_challenge_games_played;
         // offset 0x3d70, size 0x30
@@ -2293,9 +2293,9 @@ version 223 {
         // offset 0x4038, size 0x58
         intstat rankxp;
         // offset 0x4090, size 0x18
-        hash_25508de9fa29a5d5 hash_3fa60224fea08f53;
+        bytestat ar_galil_gold;
         // offset 0x40a8, size 0x18
-        hash_25508de9fa29a5d5 ar_peacekeeper_for_diamond;
+        bytestat ar_peacekeeper_for_diamond;
         // offset 0x40c0, size 0x30
         hash_6c116eea1f7184ec rounds;
         // offset 0x40f0, size 0x30
@@ -2303,7 +2303,7 @@ version 223 {
         // offset 0x4120, size 0x30
         hash_6c116eea1f7184ec brutuses_killed;
         // offset 0x4150, size 0x18
-        hash_25508de9fa29a5d5 hash_1618546aad5f38af;
+        bytestat shotgun_fullauto_gold;
         // offset 0x4168, size 0x30
         hash_6c116eea1f7184ec zombie_hunter_explosion_multikill;
         // offset 0x4198, size 0x30
@@ -2317,7 +2317,7 @@ version 223 {
         // offset 0x4250, size 0x30
         hash_6c116eea1f7184ec killed_by_blightfather;
         // offset 0x4280, size 0x18
-        hash_25508de9fa29a5d5 hash_685060487df5e226;
+        bytestat lmg_stealth_gold;
         // offset 0x4298, size 0x30
         hash_6c116eea1f7184ec dung_pickedup;
         // offset 0x42c8, size 0x30
@@ -2327,7 +2327,7 @@ version 223 {
         // offset 0x4328, size 0x30
         hash_6c116eea1f7184ec kdratio;
         // offset 0x4358, size 0x18
-        hash_25508de9fa29a5d5 hash_611902725bf24955;
+        bytestat shotgun_precision_for_diamond;
         // offset 0x4370, size 0x30
         hash_6c116eea1f7184ec codpoints;
         // offset 0x43a0, size 0x30
@@ -2341,15 +2341,15 @@ version 223 {
         // offset 0x4460, size 0x30
         hash_6c116eea1f7184ec prison_tomahawk_acquired;
         // offset 0x4490, size 0x30
-        hash_6c116eea1f7184ec hash_e58ba79c8a9b24;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_rifle;
         // offset 0x44c0, size 0x30
         hash_6c116eea1f7184ec hash_c59a95e3be43538;
         // offset 0x44f0, size 0x18
-        hash_25508de9fa29a5d5 hash_58137b440d749bf1;
+        bytestat smg_minigun_gold;
         // offset 0x4508, size 0x30
         hash_6c116eea1f7184ec hash_3b4358ad4b022950;
         // offset 0x4538, size 0x18
-        hash_25508de9fa29a5d5 hash_2b4c258f868cbe38;
+        bytestat hash_2b4c258f868cbe38;
         // offset 0x4550, size 0x30
         hash_6c116eea1f7184ec zm_daily_kills_bowie;
         // offset 0x4580, size 0x30
@@ -2365,13 +2365,13 @@ version 223 {
         // offset 0x4670, size 0x30
         hash_6c116eea1f7184ec zm_daily_kills_rifle;
         // offset 0x46a0, size 0x18
-        hash_25508de9fa29a5d5 hash_791f8416bde65df1;
+        bytestat ar_standard_gold;
         // offset 0x46b8, size 0x30
         hash_6c116eea1f7184ec zm_daily_kills_tiger;
         // offset 0x46e8, size 0x30
         hash_6c116eea1f7184ec zm_daily_kills_traps;
         // offset 0x4718, size 0x18
-        hash_25508de9fa29a5d5 hash_2b97c2a087bfa40d;
+        bytestat hash_2b97c2a087bfa40d;
         // offset 0x4730, size 0x30
         hash_6c116eea1f7184ec hash_3e5b9b81d573d194;
         // offset 0x4760, size 0x30
@@ -2383,7 +2383,7 @@ version 223 {
         // offset 0x47f0, size 0x30
         hash_6c116eea1f7184ec hash_4b011cd0269a8502;
         // offset 0x4820, size 0x30
-        hash_6c116eea1f7184ec hash_27399de28b76c5c6;
+        hash_6c116eea1f7184ec bonfire_sale_pickedup;
         // offset 0x4850, size 0x30
         hash_6c116eea1f7184ec scepter_revives;
         // offset 0x4880, size 0x30
@@ -2407,15 +2407,15 @@ version 223 {
         // offset 0x4a30, size 0x30
         hash_6c116eea1f7184ec weighted_downs;
         // offset 0x4a60, size 0x18
-        hash_25508de9fa29a5d5 hash_38b6f2ae0bee048f;
+        bytestat smg_folding_for_diamond;
         // offset 0x4a78, size 0x18
-        hash_25508de9fa29a5d5 hash_2945ea3049954763;
+        bytestat sniper_damagesemi_for_diamond;
         // offset 0x4a90, size 0x30
         hash_6c116eea1f7184ec hash_29bf8d4ddf84dd24;
         // offset 0x4ac0, size 0x30
-        hash_6c116eea1f7184ec hash_7ea82afc1c790346;
+        hash_6c116eea1f7184ec zm_daily_earn_rush_points;
         // offset 0x4af0, size 0x18
-        hash_25508de9fa29a5d5 hash_4b541bb81f48fcf0;
+        bytestat pistol_fullauto_gold;
         // offset 0x4b08, size 0x30
         hash_6c116eea1f7184ec zm_daily_round_10;
         // offset 0x4b38, size 0x30
@@ -2455,7 +2455,7 @@ version 223 {
         // offset 0x4e48, size 0x30
         hash_6c116eea1f7184ec bouncingbetty_planted;
         // offset 0x4e78, size 0x18
-        hash_25508de9fa29a5d5 hash_4582cf1eda8b8959;
+        bytestat smg_minigun_for_diamond;
         // offset 0x4e90, size 0x30
         hash_6c116eea1f7184ec special_weapon_levels;
         // offset 0x4ec0, size 0x30
@@ -2501,15 +2501,15 @@ version 223 {
         // offset 0x5270, size 0x28
         hash_2b6b162a9af31225 hash_3ddb9f36bb12df84;
         // offset 0x5298, size 0x30
-        hash_6c116eea1f7184ec hash_2eb016a9af7e8a3;
+        hash_6c116eea1f7184ec zm_daily_kills_stoker;
         // offset 0x52c8, size 0x30
         hash_6c116eea1f7184ec bowie_kills;
         // offset 0x52f8, size 0x30
-        hash_6c116eea1f7184ec hash_67970ded10f84169;
+        hash_6c116eea1f7184ec zm_daily_earn_points;
         // offset 0x5328, size 0x30
         hash_6c116eea1f7184ec pap_weapon_grabbed;
         // offset 0x5358, size 0x18
-        hash_25508de9fa29a5d5 hash_32ab694ade75156d;
+        bytestat hash_32ab694ade75156d;
         // offset 0x5370, size 0x30
         hash_6c116eea1f7184ec hash_57535c6fade520d3;
         // offset 0x53a0, size 0x30
@@ -2523,11 +2523,11 @@ version 223 {
         // offset 0x5458, size 0x30
         hash_6c116eea1f7184ec mappackmask;
         // offset 0x5488, size 0x1
-        bool hash_516183f89adeace1;
+        bool mastery_challenge_fixup;
         // offset 0x5489, size 0x1
         bool hash_4ff2cd40a877db2f;
         // offset 0x548a, size 0x1
-        bool hash_41e6d91af864e15a;
+        bool weapon_mastery_fixup;
         // offset 0x548b, size 0x5
         uint:1 __pad[5];
     };
@@ -2591,7 +2591,7 @@ version 223 {
         // offset 0x178, size 0x8
         int:8 upgraded_ammo_purchased;
         // offset 0x180, size 0x8
-        int:6 hash_2cbf90cf690a2bf5;
+        int:6 specialty_flakjacket_drank;
         // offset 0x188, size 0x10
         short windowsboarded;
         // offset 0x198, size 0x8
@@ -2723,17 +2723,17 @@ version 223 {
         // offset 0x3f8, size 0x8
         int:4 carpenter_pickedup;
         // offset 0x400, size 0x8
-        int:6 hash_62802f6702919d2a;
+        int:6 specialty_rof_drank;
         // offset 0x408, size 0x8
         int:6 killed_by_catalyst_corrosive;
         // offset 0x410, size 0x8
         byte melee_kills;
         // offset 0x418, size 0x8
-        byte hash_6a1827943bd32f02;
+        byte roundendprimaryweapon0;
         // offset 0x420, size 0x8
-        byte hash_6a1828943bd330b5;
+        byte roundendprimaryweapon1;
         // offset 0x428, size 0x8
-        byte hash_6a1825943bd32b9c;
+        byte roundendprimaryweapon2;
         // offset 0x430, size 0x8
         int:4 meat_stink_pickedup;
         // offset 0x438, size 0x8
@@ -2757,11 +2757,11 @@ version 223 {
         // offset 0x4d0, size 0x8
         byte headshots;
         // offset 0x4d8, size 0x8
-        byte hash_1625854dcdcd498b;
+        byte roundstartprimaryweapon0;
         // offset 0x4e0, size 0x8
-        byte hash_1625844dcdcd47d8;
+        byte roundstartprimaryweapon1;
         // offset 0x4e8, size 0x8
-        byte hash_1625874dcdcd4cf1;
+        byte roundstartprimaryweapon2;
         // offset 0x4f0, size 0x8
         int:6 use_pap;
         // offset 0x4f8, size 0x20
@@ -2843,7 +2843,7 @@ version 223 {
         // offset 0x10, size 0xa00
         zmgobblegumpack bubblegumpack[10];
         // offset 0xa10, size 0x8
-        uint:8 hash_78e9cef0ed273bd;
+        uint:8 equippedcustomclass;
         // offset 0xa18, size 0x1860
         zmloadout customclass[10];
     };
@@ -2867,7 +2867,7 @@ version 223 {
         // offset 0x880, size 0x20
         uint boas_brutuses_killed;
         // offset 0x8a0, size 0x20
-        uint hash_70237ccc7f5ac2e0;
+        uint boas_double_points_pickedup;
         // offset 0x8c0, size 0x20
         uint boas_catalyst_corrosives_killed;
         // offset 0x8e0, size 0x20
@@ -2875,7 +2875,7 @@ version 223 {
         // offset 0x900, size 0x20
         uint boas_deaths;
         // offset 0x920, size 0x20
-        uint hash_4fa2bc4e529eb995;
+        uint boas_fire_sale_pickedup;
         // offset 0x940, size 0x20
         float skill_variance_start;
         // offset 0x960, size 0x10
@@ -2887,7 +2887,7 @@ version 223 {
         // offset 0x9b0, size 0x20
         uint boas_scoreearned;
         // offset 0x9d0, size 0xa920
-        hash_19b7fd3ee0d97cf hash_548473ff98b537de[2];
+        hash_19b7fd3ee0d97cf stats_snapshots[2];
         // offset 0xb2f0, size 0x20
         uint hash_3e428c87cd41cb83;
         // offset 0xb310, size 0x20
@@ -2897,7 +2897,7 @@ version 223 {
         // offset 0xb350, size 0x20
         uint boas_nova_crawlers_killed;
         // offset 0xb370, size 0x20
-        uint hash_25f563f42b385422;
+        uint boas_hero_weapon_power_pickedup;
         // offset 0xb390, size 0x20
         uint utc_connect_time_s;
         // offset 0xb3b0, size 0x20
@@ -2911,7 +2911,7 @@ version 223 {
         // offset 0xb4d0, size 0x20
         uint boas_headshots;
         // offset 0xb4f0, size 0x20
-        uint hash_24f66fb1b7349954;
+        uint boas_bonus_points_team_pickedup;
         // offset 0xb510, size 0x20
         uint start_xp;
         // offset 0xb530, size 0x20
@@ -2921,7 +2921,7 @@ version 223 {
         // offset 0xb570, size 0x20
         uint boas_killed_by_nova_crawler;
         // offset 0xb590, size 0x20
-        uint hash_333f9fb8d403bc06;
+        uint boas_nuke_pickedup;
         // offset 0xb5b0, size 0x4600
         hash_48cae9b9fcff7a5e itembuffer[140];
         // offset 0xfbb0, size 0x20
@@ -3003,11 +3003,11 @@ version 223 {
         // offset 0x10190, size 0x20
         float skill_rating;
         // offset 0x101b0, size 0x20
-        uint hash_1e346898f291a01b;
+        uint boas_carpenter_pickedup;
         // offset 0x101d0, size 0xc0
         client_header client;
         // offset 0x10290, size 0x20
-        uint hash_5a8ecc228e978012;
+        uint boas_zombie_blood_pickedup;
         // offset 0x102b0, size 0x20
         uint end_xp;
         // offset 0x102d0, size 0x8
@@ -3027,7 +3027,7 @@ version 223 {
         // offset 0x10380, size 0x20
         uint boas_killed_by_werewolf;
         // offset 0x103a0, size 0x20
-        uint hash_1e9c704afc774d03;
+        uint boas_full_ammo_pickedup;
         // offset 0x103c0, size 0x20
         uint boas_scorespent;
         // offset 0x103e0, size 0x20
@@ -3059,13 +3059,13 @@ version 223 {
         // offset 0x105a0, size 0x2278
         hash_256aa27edf73c4fc cacloadouts;
         // offset 0x12818, size 0x9c0
-        uint:16 hash_4bb657eb94ad1948[156];
+        uint:16 ping_histogram[156];
         // offset 0x131d8, size 0x20
         float skill_variance;
         // offset 0x131f8, size 0x20
         uint boas_bgbs_chewed;
         // offset 0x13218, size 0x20
-        uint hash_6997820d1006e9e1;
+        uint boas_insta_kill_pickedup;
         // offset 0x13238, size 0x20
         uint boas_killed_by_tiger;
         // offset 0x13258, size 0x20
@@ -3093,7 +3093,7 @@ version 223 {
         // offset 0x0, size 0x8
         byte player_index;
         // offset 0x8, size 0x20
-        int hash_6e5b19c572681334;
+        int down_time_ms;
         // offset 0x28, size 0x20
         int time_played_total;
         // offset 0x48, size 0x40
@@ -3107,7 +3107,7 @@ version 223 {
         // offset 0x118, size 0x10
         short down_round_index;
         // offset 0x128, size 0x20
-        int hash_7c5a630513a7bfd5;
+        int spawn_time_ms;
         // offset 0x148, size 0x60
         int spawn_pos[3];
         // offset 0x1a8, size 0x1
@@ -3157,7 +3157,7 @@ version 223 {
     };
 
     // idx 1 members 8
-    enum hash_5ab26f037efe82c {
+    enum outfitparts_e {
         arms, // 0x0,
         head, // 0x1,
         palette, // 0x2,
@@ -3202,9 +3202,9 @@ version 223 {
     // offset 0x148, size 0x20
     uint hash_7888f9b0e8c46d42;
     // offset 0x168, size 0x20
-    int hash_20e770cec441c9f2;
+    int fastest_time_to_round_10;
     // offset 0x188, size 0x20
-    int hash_20e46acec43f89e9;
+    int fastest_time_to_round_20;
     // offset 0x1a8, size 0x40
     uint64 match_id;
     // offset 0x1e8, size 0x20
@@ -3220,7 +3220,7 @@ version 223 {
     // offset 0x58280, size 0x15180
     hash_2a7de7adde57550b downbuffer[200];
     // offset 0x6d400, size 0x100
-    string(32) hash_4e397fa6657da523;
+    string(32) data_center_str;
     // offset 0x6d500, size 0x20
     int network_protocol_version;
     // offset 0x6d520, size 0x8
@@ -3228,7 +3228,7 @@ version 223 {
     // offset 0x6d528, size 0x40
     xhash game_type;
     // offset 0x6d568, size 0x100
-    string(32) hash_4270d43d00e554ea;
+    string(32) server_phrase;
     // offset 0x6d668, size 0x40
     uint64 host_id;
     // offset 0x6d6a8, size 0x20
@@ -3236,7 +3236,7 @@ version 223 {
     // offset 0x6d6c8, size 0x60
     int compass_map_upper_left[3];
     // offset 0x6d728, size 0x8
-    byte hash_53437329fef70258;
+    byte host_migration_count;
     // offset 0x6d730, size 0x20
     int playlist_id;
     // offset 0x6d750, size 0x20
@@ -3274,7 +3274,7 @@ version 223 {
     // offset 0x272930, size 0x1
     bool is_playtest;
     // offset 0x272931, size 0x1
-    bool hash_74d0769494af24a9;
+    bool server_rate_experiment;
     // offset 0x272932, size 0x1
     bool loadoutinitialized;
     // offset 0x272933, size 0x1

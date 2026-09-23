@@ -1,4 +1,4 @@
-NAME script_22ebc4167e3bcd3f
+NAME scripts/zm/zm_escape_weap_quest_spoon.gsc
 VERSION 0
 CHECKSUM 0x639ca5ee
 ######################################################

@@ -5,7 +5,7 @@
     "gesture2": "#boast_champagne_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_5f7ae8d600ae7a71",
+        "title": "localized18#emotes/champagne",
         "icon": "image#ui_icon_emotes_champagne",
         "isdefault": 0
     }

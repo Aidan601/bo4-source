@@ -139,7 +139,7 @@ function function_bda82828()
     level.var_2f2b78fb.var_9400690b = [];
     level.var_2f2b78fb.var_5bf6d1df = 0;
     level.var_9400690b = [];
-    a_s_audience = struct::get_array( #"hash_76796d914e70fc43" );
+    a_s_audience = struct::get_array( #"s_power_audience" );
     
     foreach ( s_audience in a_s_audience )
     {
@@ -149,7 +149,7 @@ function function_bda82828()
     }
     
     level.a_mdl_chaos = [];
-    a_s_chaos = struct::get_array( #"hash_2cb6fcd3ae46aec0" );
+    a_s_chaos = struct::get_array( #"s_chaos_audience" );
     
     foreach ( s_audience in a_s_chaos )
     {
@@ -164,8 +164,8 @@ function function_bda82828()
     level.zones[ #"zone_amphitheater_house" ].a_loc_types[ #"zombie_location" ] = [];
     mdl_sentinel_artifact = getent( "mdl_sentinel_artifact", "targetname" );
     mdl_sentinel_artifact clientfield::set( "" + #"artifact_glow", 1 );
-    mdl_sentinel_artifact playloopsound( #"hash_5c7e9911ac98f633" );
-    s_loc = struct::get( #"hash_3dbe0b62fa014608" );
+    mdl_sentinel_artifact playloopsound( #"zmb_sentinel_artifact_lp" );
+    s_loc = struct::get( #"s_power_quest_interact" );
     s_loc zm_unitrigger::create( &function_969cb6b2 );
     s_loc thread function_b3d827f();
     level thread function_3ff7750a();
@@ -311,7 +311,7 @@ function function_77dd379a()
     level.var_2f2b78fb.var_9400690b = [];
     level.var_2f2b78fb.var_5bf6d1df = 0;
     level.var_9400690b = [];
-    a_s_audience = struct::get_array( #"hash_76796d914e70fc43" );
+    a_s_audience = struct::get_array( #"s_power_audience" );
     
     foreach ( s_audience in a_s_audience )
     {
@@ -320,7 +320,7 @@ function function_77dd379a()
     }
     
     level.a_mdl_chaos = [];
-    a_s_chaos = struct::get_array( #"hash_2cb6fcd3ae46aec0" );
+    a_s_chaos = struct::get_array( #"s_chaos_audience" );
     
     foreach ( s_audience in a_s_chaos )
     {
@@ -334,7 +334,7 @@ function function_77dd379a()
     level.var_2f2b78fb.var_5579012f = 80;
     level.var_2f2b78fb.var_30c1e68b = 25;
     level thread function_ee7ebb1a();
-    level waittill( #"hash_7a04a7fb98fa4e4d" );
+    level waittill( #"end_defend_area" );
     wait 0.75;
     level flag::clear( "spawn_zombies" );
     level thread lui::screen_flash( 0.2, 1, 0.5, 1, "white" );
@@ -361,7 +361,7 @@ function function_77dd379a()
 // Size: 0x180
 function function_ee7ebb1a()
 {
-    level endon( #"game_ended", #"hash_7a04a7fb98fa4e4d" );
+    level endon( #"game_ended", #"end_defend_area" );
     a_mdl_zombies = array::randomize( level.var_9400690b );
     
     foreach ( mdl_zombie in a_mdl_zombies )
@@ -401,7 +401,7 @@ function function_3ff7750a()
         }
     }
     
-    if ( !level flag::get( #"hash_6c92a415bd4bb739" ) )
+    if ( !level flag::get( #"sentinel_interacted" ) )
     {
         player zm_vo::function_a2bd5a0c( #"hash_5f91baafb561a09d", 0, 1, 9999, 1 );
     }
@@ -455,11 +455,11 @@ function function_e059d0e1()
     if ( isdefined( mdl_sentinel_artifact ) )
     {
         mdl_sentinel_artifact clientfield::set( "" + #"hash_2a586a321116326c", 1 );
-        mdl_sentinel_artifact playloopsound( #"hash_e2c71c7dece38ee" );
+        mdl_sentinel_artifact playloopsound( #"zmb_sentinel_artifact_charged_lp" );
     }
     
     var_a6c6bf68 = getentarray( "event_collision_move", "targetname" );
-    a_s_nudge = struct::get_array( #"hash_5bc8479768b4a60e" );
+    a_s_nudge = struct::get_array( #"s_power_quest_aftermath_nudge" );
     
     if ( isdefined( var_a6c6bf68 ) && isdefined( a_s_nudge ) )
     {
@@ -551,7 +551,7 @@ function function_e059d0e1()
     {
         mdl_sentinel_artifact moveto( s_move.origin, 3 );
         mdl_sentinel_artifact rotateto( s_move.angles, 3 );
-        mdl_sentinel_artifact playsound( #"hash_75b9c9ad6ebe8af2" );
+        mdl_sentinel_artifact playsound( #"zmb_sentinel_artifact_activate" );
     }
     
     wait 2;
@@ -565,7 +565,7 @@ function function_e059d0e1()
         mdl_sentinel_artifact clientfield::set( "" + #"hash_3ec0452110ea5621", 0 );
         mdl_sentinel_artifact clientfield::increment( "" + #"hash_5da65e20d966c63f" );
         wait 1;
-        mdl_sentinel_artifact playsound( #"hash_5de064f33e9e49b8" );
+        mdl_sentinel_artifact playsound( #"zmb_sentinel_artifact_explode" );
         v_origin = mdl_sentinel_artifact.origin;
         level thread function_ae259e17( v_origin );
         
@@ -584,8 +584,8 @@ function function_e059d0e1()
         s_move struct::delete();
     }
     
-    playsoundatposition( #"hash_3d8fef5997663b17", ( 0, 0, 0 ) );
-    s_reward = struct::get( #"hash_3b2d60a79515031a" );
+    playsoundatposition( #"zmb_sentinel_trial_activate_2d", ( 0, 0, 0 ) );
+    s_reward = struct::get( #"s_power_reward" );
     
     if ( isdefined( s_reward ) )
     {
@@ -610,7 +610,7 @@ function function_e059d0e1()
     }
     
     exploder::stop_exploder( "Fxexp_barrier_amph" );
-    s_center = struct::get( #"hash_4ede0d513d23996b" );
+    s_center = struct::get( #"s_power_quest_center" );
     
     if ( isdefined( s_center ) )
     {
@@ -827,8 +827,8 @@ function perseus_amphitheater()
     waitframe( 1 );
     mdl_perseus clientfield::increment( "" + #"perseus_teleport" );
     wait 1.5;
-    mdl_perseus playsound( #"hash_7e17c0850b86d621" );
-    mdl_perseus playloopsound( #"hash_4572307d016259a6" );
+    mdl_perseus playsound( #"zmb_perseus_ff_on" );
+    mdl_perseus playloopsound( #"zmb_perseus_ff_loop" );
     exploder::exploder( "Fxexp_barrier_amph_perseus" );
     level waittill( #"summon" );
     
@@ -847,7 +847,7 @@ function perseus_amphitheater()
     wait 2.5;
     level flag::set( #"perseus_exits" );
     mdl_perseus stoploopsound();
-    mdl_perseus playsound( #"hash_4917791296076e1d" );
+    mdl_perseus playsound( #"zmb_perseus_ff_off" );
     wait 4;
     exploder::stop_exploder( "Fxexp_barrier_amph_perseus" );
     var_4ec3364d = getent( "perseus_amphitheater_clip", "targetname" );
@@ -868,7 +868,7 @@ function function_a8f1dc6b( nd_start )
     self clientfield::set( "" + #"perseus_energy", 1 );
     self vehicle::get_on_and_go_path( nd_start );
     self clientfield::set( "" + #"perseus_energy", 0 );
-    self playsound( #"hash_7c51534a91103a32" );
+    self playsound( #"zmb_perseus_energy_imp" );
     self delete();
 }
 
@@ -988,15 +988,15 @@ function function_b3d827f()
     
     if ( zm_utility::is_player_valid( e_player ) )
     {
-        level flag::set( #"hash_6c92a415bd4bb739" );
+        level flag::set( #"sentinel_interacted" );
         mdl_sentinel_artifact = getent( "mdl_sentinel_artifact", "targetname" );
         mdl_sentinel_artifact clientfield::set( "" + #"artifact_glow", 0 );
         mdl_sentinel_artifact stoploopsound();
-        mdl_sentinel_artifact playsound( #"hash_331b62b49768f70" );
+        mdl_sentinel_artifact playsound( #"evt_start_power_event" );
         
         if ( e_player zm_audio::can_speak() )
         {
-            e_player thread zm_vo::function_a2bd5a0c( #"hash_497fcbdaee283347", 0.5, 1, 10000, 0 );
+            e_player thread zm_vo::function_a2bd5a0c( #"vox_sent_artifact_stuck", 0.5, 1, 10000, 0 );
         }
     }
     
@@ -1024,14 +1024,14 @@ function function_969cb6b2( e_player )
             b_disable = var_f40360e8 === level.round_number;
         }
         
-        if ( level flag::get( #"hash_6c92a415bd4bb739" ) )
+        if ( level flag::get( #"sentinel_interacted" ) )
         {
             b_disable = 1;
         }
         
         if ( !b_disable && b_is_valid )
         {
-            str_prompt = zm_utility::function_d6046228( #"hash_65fb48b6dbf04c10", #"hash_2e613e6f3511ecbc" );
+            str_prompt = zm_utility::function_d6046228( #"zm_red/activate_sentinel_artifact", #"hash_2e613e6f3511ecbc" );
             self sethintstringforplayer( e_player, str_prompt );
             return true;
         }
@@ -1222,7 +1222,7 @@ function function_a5b8e88f( var_ddab7294 = 0 )
         }
     }
     
-    function_350204ca( #"hash_4f27038870dd43b0" );
+    function_350204ca( #"vox_zombies_awaken" );
     wait 6;
     level.var_ac6d10d4 = undefined;
     zm_trial::function_ae725d63();
@@ -1305,8 +1305,8 @@ function pegasus_intro()
     level flag::set( #"pegasus_entry" );
     level.musicsystemoverride = 0;
     level thread zm_audio::sndmusicsystem_playstate( "poweron_event_complete", zm_utility::is_trials() );
-    level thread function_350204ca( #"hash_62be5a478a16c968" );
-    playsoundatposition( #"hash_2642ecae6103f09b", mdl_pegasus.origin );
+    level thread function_350204ca( #"vox_pegasus_react_first" );
+    playsoundatposition( #"zmb_vocals_pegasus_intro", mdl_pegasus.origin );
     mdl_pegasus clientfield::increment( "" + #"register_pegasus" );
     mdl_pegasus clientfield::set( "" + #"pegasus_teleport", 1 );
     level flag::set( #"pegasus_ready" );
@@ -1975,7 +1975,7 @@ function function_d8db57f6()
     }
     
     wait 3;
-    function_350204ca( #"hash_6e38772014019f10" );
+    function_350204ca( #"vox_spartoi_react_first" );
     level flag::wait_till( #"spartoi_resurrect" );
     var_1679e8e = get_players_in_amphitheater();
     
@@ -2008,7 +2008,7 @@ function function_f95a14a0()
     
     self ghost();
     self notsolid();
-    self val::set( #"hash_65edbe063d05f17b", "ignoreall", 1 );
+    self val::set( #"skeleton_fake_death", "ignoreall", 1 );
     self.var_126d7bef = 1;
     self.ignore_round_spawn_failsafe = 1;
     self.b_ignore_cleanup = 1;
@@ -2027,13 +2027,13 @@ function function_f95a14a0()
     
     switch ( self.subarchetype )
     {
-        case #"hash_fd7b9665529dd42":
+        case #"skeleton_helmet_sword_and_shield":
             var_704f0f40 = #"p8_fxanim_zm_red_spartoi_rise_bundle";
             break;
         case #"skeleton_spear":
             var_704f0f40 = #"p8_fxanim_zm_red_spartoi_rise_spear_no_helm_bundle";
             break;
-        case #"hash_1520c8987a671df0":
+        case #"skeleton_helmet_spear":
             var_704f0f40 = #"p8_fxanim_zm_red_spartoi_rise_spear_bundle";
             break;
     }
@@ -2047,7 +2047,7 @@ function function_f95a14a0()
         self.e_linkto delete();
     }
     
-    self val::reset( #"hash_65edbe063d05f17b", "ignoreall" );
+    self val::reset( #"skeleton_fake_death", "ignoreall" );
     
     if ( zm_utility::is_trials() )
     {
@@ -2133,7 +2133,7 @@ function registerpromenade_chillout_props_traversal( a_ents )
 function function_342bd17b()
 {
     self endon( #"death" );
-    s_center = struct::get( #"hash_4ede0d513d23996b" );
+    s_center = struct::get( #"s_power_quest_center" );
     v_center = s_center.origin;
     
     while ( true )
@@ -2287,7 +2287,7 @@ function function_1984219e( nd_start )
     self clientfield::set( "" + #"hash_463ff879b8d656bb", 1 );
     self vehicle::get_on_and_go_path( nd_start );
     self clientfield::set( "" + #"hash_463ff879b8d656bb", 0 );
-    self playsound( #"hash_3fc47e14a55e5bbc" );
+    self playsound( #"zmb_sentinel_trial_projectile_explode" );
     self delete();
 }
 

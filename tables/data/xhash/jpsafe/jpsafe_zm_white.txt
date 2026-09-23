@@ -181,7 +181,7 @@ mc/mtl_c_t8_zmb_gib_gore_punchblood
 mc/mtl_c_t8_zmb_eyes
 hash_9ad43f68bfe23089
 mc/mtl_c_t8_zmb_male_torso1
-hash_1fd516fb7e1a5a35
+mc/mtl_c_t8_zmb_ofc_mp_zombie_boots_graphic
 hash_a2c95b74bbe79ad2
 mc/mtl_c_t8_zmb_male_torso1_lod
 mc/mtl_c_t8_zmb_male_head1
@@ -196,7 +196,7 @@ hash_d5b212072fe9283e
 hash_d5d40e07300607d8
 mc/mtl_c_t8_zmb_male_head1_lod
 hash_e109b3c818b1c5f0
-hash_62005b213dcf4873
+mc/mtl_c_t8_gen_gib_gore_leg_calf_graphic
 hash_e4ead771860e28fb
 mc/global_invisible
 phy_gibs

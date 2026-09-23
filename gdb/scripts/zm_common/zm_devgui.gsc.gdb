@@ -887,7 +887,7 @@ DEVBLOCK 0x1004a
 DEVBLOCK 0x10102
 # zm_devgui::function_26417ea7@2
 DEVBLOCK 0x10362
-# zm_devgui::function_fb88b423@2a
+# zm_devgui::knockdown_all_ai@2a
 DEVBLOCK 0x103ca
 # zm_devgui::init_debug_center_screen@12
 DEVBLOCK 0x10462

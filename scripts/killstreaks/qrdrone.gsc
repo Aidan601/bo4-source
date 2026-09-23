@@ -34,8 +34,8 @@ function init_shared()
         level.ai_tank_stun_fx = "killstreaks/fx_agr_emp_stun";
         level.qrdrone_minigun_flash = "weapon/fx_muz_md_rifle_3p";
         level.qrdrone_fx[ #"explode" ] = "_t7/killstreaks/fx_drgnfire_explosion";
-        level._effect[ #"quadrotor_nudge" ] = #"hash_10f127a62acd37ee";
-        level._effect[ #"quadrotor_damage" ] = #"hash_2cf01c21155d889a";
+        level._effect[ #"quadrotor_nudge" ] = #"_t7/killstreaks/fx_drgnfire_impact_sparks";
+        level._effect[ #"quadrotor_damage" ] = #"_t7/killstreaks/fx_drgnfire_damage_state";
         level.qrdrone_dialog[ #"launch" ][ 0 ] = #"ac130_plt_yeahcleared";
         level.qrdrone_dialog[ #"launch" ][ 1 ] = #"ac130_plt_rollinin";
         level.qrdrone_dialog[ #"launch" ][ 2 ] = #"ac130_plt_scanrange";
@@ -62,7 +62,7 @@ function init_shared()
         level.qrdrone_dialog[ #"assist" ][ 3 ] = #"ac130_fco_rightontarget";
         level.qrdrone_lastdialogtime = 0;
         level.qrdrone_nodeployzones = getentarray( "no_vehicles", "targetname" );
-        level._effect[ #"qrdrone_prop" ] = #"hash_5af1c94d2e2bf9f";
+        level._effect[ #"qrdrone_prop" ] = #"_t6/weapon/qr_drone/fx_qr_wash_3p";
         
         /#
             util::set_dvar_if_unset( "<dev string:x38>", 60 );
@@ -90,7 +90,7 @@ function tryuseqrdrone( lifeid )
     
     if ( !self isonground() )
     {
-        self iprintlnbold( #"hash_7602a0cff466eccd" );
+        self iprintlnbold( #"killstreak/qrdrone_not_placeable" );
         return 0;
     }
     
@@ -191,7 +191,7 @@ function setcarryingqrdrone( carryqrdrone )
     {
         if ( self.team != #"spectator" )
         {
-            self iprintlnbold( #"hash_7602a0cff466eccd" );
+            self iprintlnbold( #"killstreak/qrdrone_not_placeable" );
         }
         
         if ( isdefined( carryqrdrone.soundent ) )
@@ -897,7 +897,7 @@ function qrdrone_death( attacker, weapon, dir, damagetype )
     
     if ( isdefined( attacker ) && isplayer( attacker ) && attacker != self.owner )
     {
-        level thread popups::displayteammessagetoall( #"hash_1b5291e0c76c5c6d", attacker );
+        level thread popups::displayteammessagetoall( #"score/destroyed_qrdrone", attacker );
         
         if ( self.owner util::isenemyplayer( attacker ) )
         {

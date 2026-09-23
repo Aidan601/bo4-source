@@ -294,7 +294,7 @@ function private function_9d76e96c( entity )
 function private function_e2ab1df7( entity )
 {
     entity solid();
-    entity.var_8ba6ede3 = undefined;
+    entity.shoulddigup = undefined;
 }
 
 // Namespace wz_ai_brutus/wz_ai_brutus
@@ -433,7 +433,7 @@ function private function_85e8940a( entity )
             continue;
         }
         
-        damage = mapfloat( entity getpathfindingradius() + 15, entity ai::function_9139c839().var_1709a39, entity ai::function_9139c839().var_7ea758e1, 0, distance( entity.origin, player.origin ) );
+        damage = mapfloat( entity getpathfindingradius() + 15, entity ai::function_9139c839().var_1709a39, entity ai::function_9139c839().shockattackdamage, 0, distance( entity.origin, player.origin ) );
         damage = int( max( 10, damage ) );
         player dodamage( damage, entity.origin, entity, entity, "none", "MOD_PROJECTILE_SPLASH" );
         player status_effect::status_effect_apply( shock_status_effect, undefined, self, 0 );

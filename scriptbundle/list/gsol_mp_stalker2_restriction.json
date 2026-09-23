@@ -1,0 +1,9 @@
+{
+    "name": "#gsol_mp_stalker2_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#attachment_stalker2_ar_stealth_restriction",
+        "#gamesettings/#attachment_stalker2_smg_handling_restriction",
+        "#gamesettings/#attachment_stalker2_tr_midburst_restriction"
+    ]
+}

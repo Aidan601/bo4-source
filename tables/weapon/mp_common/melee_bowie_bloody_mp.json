@@ -32,12 +32,12 @@
     "#hash_554be9f7": false,
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
-    "tunables1": "#hash_2edfb7494b062e41",
+    "tunables1": "#melee_bowie_tunables_mp",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_25964a446ed086e8"
+        "#au_melee_bowie_bloody_none"
     ],
     "sharedWeaponSounds": "#bowie",
     "viewmodel": [

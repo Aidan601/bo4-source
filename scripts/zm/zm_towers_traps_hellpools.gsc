@@ -130,7 +130,7 @@ function function_b589dae1()
         
         foreach ( e_hellpool in level.a_e_hellpools )
         {
-            e_hellpool notify( #"hash_5aa6001392300725" );
+            e_hellpool notify( #"trap_deactivate_early" );
         }
     }
 }
@@ -173,9 +173,9 @@ function function_55d14d78()
         case #"odin":
             level.var_15783f81 = struct::get( "zm_towers_hellpool_odin_scene", "script_noteworthy" );
             level.var_15783f81 scene::init();
-            var_c65eed8e = getentarray( "zm_towers_hellpool_odin", "script_noteworthy" );
+            whippeter = getentarray( "zm_towers_hellpool_odin", "script_noteworthy" );
             
-            foreach ( part in var_c65eed8e )
+            foreach ( part in whippeter )
             {
                 if ( part trigger::is_trigger_of_type( "trigger_use_new" ) )
                 {
@@ -200,9 +200,9 @@ function function_55d14d78()
         case #"zeus":
             level.var_15783f81 = struct::get( "zm_towers_hellpool_zeus_scene", "script_noteworthy" );
             level.var_15783f81 scene::init();
-            var_c65eed8e = getentarray( "zm_towers_hellpool_zeus", "script_noteworthy" );
+            whippeter = getentarray( "zm_towers_hellpool_zeus", "script_noteworthy" );
             
-            foreach ( part in var_c65eed8e )
+            foreach ( part in whippeter )
             {
                 if ( part trigger::is_trigger_of_type( "trigger_use_new" ) )
                 {
@@ -227,9 +227,9 @@ function function_55d14d78()
         case #"danu":
             level.var_15783f81 = struct::get( "zm_towers_hellpool_danu_scene", "script_noteworthy" );
             level.var_15783f81 scene::init();
-            var_c65eed8e = getentarray( "zm_towers_hellpool_danu", "script_noteworthy" );
+            whippeter = getentarray( "zm_towers_hellpool_danu", "script_noteworthy" );
             
-            foreach ( part in var_c65eed8e )
+            foreach ( part in whippeter )
             {
                 if ( part trigger::is_trigger_of_type( "trigger_use_new" ) )
                 {
@@ -254,9 +254,9 @@ function function_55d14d78()
         case #"ra":
             level.var_15783f81 = struct::get( "zm_towers_hellpool_ra_scene", "script_noteworthy" );
             level.var_15783f81 scene::init();
-            var_c65eed8e = getentarray( "zm_towers_hellpool_ra", "script_noteworthy" );
+            whippeter = getentarray( "zm_towers_hellpool_ra", "script_noteworthy" );
             
-            foreach ( part in var_c65eed8e )
+            foreach ( part in whippeter )
             {
                 if ( part trigger::is_trigger_of_type( "trigger_use_new" ) )
                 {
@@ -407,7 +407,7 @@ function activate_trap( e_player )
         
         self flag::set( "activated" );
         self thread function_692db12();
-        self waittilltimeout( 15, #"hash_5aa6001392300725" );
+        self waittilltimeout( 15, #"trap_deactivate_early" );
         self deactivate_trap();
     }
 }

@@ -20,7 +20,7 @@
             "keyFlags": 3
         },
         {
-            "name": "#hash_124652fd8cb64623",
+            "name": "#mp_geothermal_all_loaded",
             "xPakEntry": {
                 "key": "#hash_f87349b0cf48e1fb",
                 "offset": 0,
@@ -191008,7 +191008,7 @@
             "keyFlags": 0
         },
         {
-            "name": "#hash_3ba9fa75326ba1dc",
+            "name": "#mp_geothermal_sst_0_0",
             "xPakEntry": {
                 "key": "#hash_fc3b903c839cb9b3",
                 "offset": 0,

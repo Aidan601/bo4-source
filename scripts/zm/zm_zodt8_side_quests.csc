@@ -24,20 +24,20 @@ function init()
 // Size: 0x4d4
 function init_clientfields()
 {
-    clientfield::register( "allplayers", "" + #"hash_2c387ea19f228b5d", 1, 1, "int", &function_bfdd6659, 0, 0 );
+    clientfield::register( "allplayers", "" + #"vomit_blade_attack_fx", 1, 1, "int", &vomit_blade_attack_fx, 0, 0 );
     clientfield::register( "allplayers", "" + #"hash_794e5d0769b1d497", 1, 1, "int", &function_54655580, 0, 0 );
     clientfield::register( "scriptmover", "" + #"vomit_blade_fx", 1, 1, "int", &vomit, 0, 0 );
     clientfield::register( "scriptmover", "" + #"safe_fx", 1, 1, "int", &safe_fx, 0, 0 );
     clientfield::register( "scriptmover", "" + #"flare_fx", 1, 2, "int", &flare_fx, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"hash_2042191a7fc75994", 1, 2, "int", &function_563778cc, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"shield_frost_fx", 1, 1, "int", &function_584fb3c8, 0, 0 );
-    clientfield::register( "scriptmover", "" + #"portal_pass", 1, 2, "int", &function_eabe4696, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"flare_on_car", 1, 2, "int", &function_563778cc, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"shield_frost_fx", 1, 1, "int", &shield_frost_fx, 0, 0 );
+    clientfield::register( "scriptmover", "" + #"portal_pass", 1, 2, "int", &portal_pass_fx, 0, 0 );
     clientfield::register( "scriptmover", "" + #"engineer_smoke_fx", 1, 1, "int", &function_34f5c98, 0, 0 );
     clientfield::register( "scriptmover", "" + #"car_fx", 1, 1, "int", &function_ae668ae9, 0, 0 );
     clientfield::register( "world", "" + #"engineer_spark_fx", 1, 1, "int", &function_5218405b, 0, 0 );
     clientfield::register( "world", "" + #"fireworks_fx", 1, 2, "counter", &fireworks_fx, 0, 0 );
-    clientfield::register( "world", "" + #"crash_fx", 1, 1, "int", &function_711366fa, 0, 0 );
-    clientfield::register( "world", "" + #"hash_4f672a8a7ae530e5", 1, 1, "int", &function_f99ce12b, 0, 0 );
+    clientfield::register( "world", "" + #"crash_fx", 1, 1, "int", &car_crash_fx, 0, 0 );
+    clientfield::register( "world", "" + #"hero_weapons_in_box", 1, 1, "int", &function_f99ce12b, 0, 0 );
 }
 
 // Namespace zodt8_side_quests/zm_zodt8_side_quests
@@ -57,9 +57,9 @@ function init_fx()
 {
     level._effect[ #"safe_fx" ] = #"hash_4bf40208439d50d6";
     level._effect[ #"flare_launch_fx" ] = #"hash_4b6b503d842bc415";
-    level._effect[ #"hash_21893413efec355e" ] = #"hash_cf3c06e4368bbb1";
+    level._effect[ #"flare_launch_fx_red" ] = #"hash_cf3c06e4368bbb1";
     level._effect[ #"hash_55ab46637a8fbcb3" ] = #"hash_5508b1d8864ee2d2";
-    level._effect[ #"hash_2377de258e66b4ce" ] = #"hash_33da19858ee59385";
+    level._effect[ #"flare_launch_fx_green" ] = #"hash_33da19858ee59385";
     level._effect[ #"red_fireworks_fx" ] = #"hash_1b5b754131008f70";
     level._effect[ #"green_fireworks_fx" ] = #"hash_770af2dde4a0938c";
     level._effect[ #"blue_fireworks_fx" ] = #"hash_41eac18dc72dac23";
@@ -67,16 +67,16 @@ function init_fx()
     level._effect[ #"shield_impact_fx" ] = #"hash_4144490ff4773f4b";
     level._effect[ #"portal_pass_fx" ] = #"hash_1a3fcc6c808e55eb";
     level._effect[ #"hash_51ecda6f24a58d05" ] = #"hash_13c3cecd3d059c90";
-    level._effect[ #"hash_2f154bbb31e4abaf" ] = #"hash_706103079a2bdb6d";
-    level._effect[ #"hash_3524e302fa83d12e" ] = #"hash_3a791d490f01f5c7";
-    level._effect[ #"hash_2498ee8a7586b418" ] = #"hash_15dc4292340f0f1c";
-    level._effect[ #"hash_16c2570acb38a0ed" ] = #"hash_7691f79bfc16f0bf";
+    level._effect[ #"engine_damage_smoke" ] = #"hash_706103079a2bdb6d";
+    level._effect[ #"engine_fuse_box_fx" ] = #"hash_3a791d490f01f5c7";
+    level._effect[ #"engine_damage_sparks" ] = #"hash_15dc4292340f0f1c";
+    level._effect[ #"engine_damage_boom" ] = #"smoke/fx_smk_explode_md";
     level._effect[ #"car_lights" ] = #"hash_335feb1d213c22f6";
     level._effect[ #"hash_1c0ed73a9b21a882" ] = #"hash_cc7196a44e2fbe3";
     level._effect[ #"hash_704d3c12d59fb5d7" ] = #"hash_2aabc11b07ad74d8";
     level._effect[ #"hash_4ec5da9e09256102" ] = #"hash_3063115f97c18abf";
-    level._effect[ #"hash_133983d2bb8a160" ] = #"hash_51ca82e6f2c21354";
-    level._effect[ #"hash_13aa43d2bbed472" ] = #"hash_51d16ee6f2c81006";
+    level._effect[ #"vomit_blade_fx_1p" ] = #"hash_51ca82e6f2c21354";
+    level._effect[ #"vomit_blade_fx_3p" ] = #"hash_51d16ee6f2c81006";
 }
 
 // Namespace zodt8_side_quests/zm_zodt8_side_quests
@@ -119,7 +119,7 @@ function function_54655580( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xe25810e, Offset: 0xd40
 // Size: 0x136
-function function_bfdd6659( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function vomit_blade_attack_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -127,12 +127,12 @@ function function_bfdd6659( localclientnum, oldval, newval, bnewent, binitialsna
         {
             if ( viewmodelhastag( localclientnum, "tag_fx" ) )
             {
-                self.var_37649f83 = playviewmodelfx( localclientnum, level._effect[ #"hash_133983d2bb8a160" ], "tag_fx" );
+                self.var_37649f83 = playviewmodelfx( localclientnum, level._effect[ #"vomit_blade_fx_1p" ], "tag_fx" );
             }
         }
         else
         {
-            self.var_37649f83 = util::playfxontag( localclientnum, level._effect[ #"hash_13aa43d2bbed472" ], self, "tag_fx" );
+            self.var_37649f83 = util::playfxontag( localclientnum, level._effect[ #"vomit_blade_fx_3p" ], self, "tag_fx" );
         }
         
         return;
@@ -170,18 +170,18 @@ function function_ae668ae9( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x21c
 function function_34f5c98( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
-    if ( newval && isdefined( level._effect[ #"hash_2498ee8a7586b418" ] ) )
+    if ( newval && isdefined( level._effect[ #"engine_damage_sparks" ] ) )
     {
         self util::waittill_dobj( localclientnum );
-        self.var_f756621f = util::playfxontag( localclientnum, level._effect[ #"hash_2f154bbb31e4abaf" ], self, "tag_origin" );
-        playfx( localclientnum, level._effect[ #"hash_16c2570acb38a0ed" ], self.origin, anglestoforward( self.angles ), anglestoup( self.angles ) );
+        self.var_f756621f = util::playfxontag( localclientnum, level._effect[ #"engine_damage_smoke" ], self, "tag_origin" );
+        playfx( localclientnum, level._effect[ #"engine_damage_boom" ], self.origin, anglestoforward( self.angles ), anglestoup( self.angles ) );
         playrumbleonposition( localclientnum, #"hash_743b325bf45e1c8c", self.origin );
         playsound( localclientnum, #"hash_188d7d9f6b62346f", ( 0, 0, 0 ) );
         wait 0.75;
         
         if ( isdefined( self ) )
         {
-            playfx( localclientnum, level._effect[ #"hash_2498ee8a7586b418" ], self.origin, anglestoforward( self.angles ), anglestoup( self.angles ) );
+            playfx( localclientnum, level._effect[ #"engine_damage_sparks" ], self.origin, anglestoforward( self.angles ), anglestoup( self.angles ) );
         }
         
         return;
@@ -202,7 +202,7 @@ function function_5218405b( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval )
     {
         s_loc = struct::get( #"spark_loc" );
-        playfx( localclientnum, level._effect[ #"hash_3524e302fa83d12e" ], s_loc.origin, anglestoforward( s_loc.angles ), anglestoup( s_loc.angles ) );
+        playfx( localclientnum, level._effect[ #"engine_fuse_box_fx" ], s_loc.origin, anglestoforward( s_loc.angles ), anglestoup( s_loc.angles ) );
         wait 0.5;
         playrumbleonposition( localclientnum, #"hash_743b325bf45e1c8c", s_loc.origin );
     }
@@ -230,7 +230,7 @@ function vomit( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname
 // Params 7
 // Checksum 0x663f1ec8, Offset: 0x1348
 // Size: 0xec
-function function_584fb3c8( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function shield_frost_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval )
     {
@@ -245,11 +245,11 @@ function function_584fb3c8( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0x8e0f98dc, Offset: 0x1440
 // Size: 0xb4
-function function_711366fa( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function car_crash_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( newval == 1 )
     {
-        s_loc = struct::get( #"hash_27613769597daaf0" );
+        s_loc = struct::get( #"car_crash_loc" );
         playfx( localclientnum, level._effect[ #"car_crash_fx" ], s_loc.origin );
     }
 }
@@ -258,7 +258,7 @@ function function_711366fa( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xae362973, Offset: 0x1500
 // Size: 0x15c
-function function_eabe4696( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function portal_pass_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     if ( isdefined( self.var_2745e294 ) )
     {
@@ -286,7 +286,7 @@ function function_eabe4696( localclientnum, oldval, newval, bnewent, binitialsna
 // Params 7
 // Checksum 0xac8dfe41, Offset: 0x1668
 // Size: 0x124
-function function_43425692( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
+function sea_walker_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     s_loc = struct::get( #"floaters_fx" );
     
@@ -345,7 +345,7 @@ function flare_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldn
         {
             if ( !isdefined( self.fx ) )
             {
-                self.fx = util::playfxontag( localclientnum, level._effect[ #"hash_21893413efec355e" ], self, "tag_origin" );
+                self.fx = util::playfxontag( localclientnum, level._effect[ #"flare_launch_fx_red" ], self, "tag_origin" );
                 wait 1.5;
                 
                 if ( isdefined( self ) )
@@ -358,7 +358,7 @@ function flare_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldn
         {
             if ( !isdefined( self.fx ) )
             {
-                self.fx = util::playfxontag( localclientnum, level._effect[ #"hash_2377de258e66b4ce" ], self, "tag_origin" );
+                self.fx = util::playfxontag( localclientnum, level._effect[ #"flare_launch_fx_green" ], self, "tag_origin" );
                 wait 1.5;
                 
                 if ( isdefined( self ) )
@@ -425,7 +425,7 @@ function fireworks_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fi
 {
     if ( newval == 1 )
     {
-        a_s_locs = struct::get_array( #"hash_5af7eeb066c5efbe", "script_noteworthy" );
+        a_s_locs = struct::get_array( #"s_fireworks_loc", "script_noteworthy" );
         s_loc = a_s_locs[ randomint( a_s_locs.size ) ];
         playfx( localclientnum, level._effect[ #"red_fireworks_fx" ], s_loc.origin );
         playsound( 0, #"hash_40d3baad4b103e04", s_loc.origin );
@@ -434,7 +434,7 @@ function fireworks_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fi
     
     if ( newval == 2 )
     {
-        a_s_locs = struct::get_array( #"hash_5af7eeb066c5efbe", "script_noteworthy" );
+        a_s_locs = struct::get_array( #"s_fireworks_loc", "script_noteworthy" );
         s_loc = a_s_locs[ randomint( a_s_locs.size ) ];
         playfx( localclientnum, level._effect[ #"green_fireworks_fx" ], s_loc.origin );
         playsound( 0, #"hash_40d3baad4b103e04", s_loc.origin );
@@ -443,7 +443,7 @@ function fireworks_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fi
     
     if ( newval == 3 )
     {
-        a_s_locs = struct::get_array( #"hash_5af7eeb066c5efbe", "script_noteworthy" );
+        a_s_locs = struct::get_array( #"s_fireworks_loc", "script_noteworthy" );
         s_loc = a_s_locs[ randomint( a_s_locs.size ) ];
         playfx( localclientnum, level._effect[ #"blue_fireworks_fx" ], s_loc.origin );
         playsound( 0, #"hash_40d3baad4b103e04", s_loc.origin );

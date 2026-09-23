@@ -21,16 +21,16 @@ function autoexec __init__system__()
 function __init__()
 {
     level._effect[ #"grenade_light" ] = #"weapon/fx8_equip_light_os";
-    level._effect[ #"hash_61fd92df093ebdb4" ] = #"hash_44b0fea08babccac";
+    level._effect[ #"mini_grenade_light" ] = #"hash_44b0fea08babccac";
     callback::add_weapon_type( #"sticky_grenade", &spawned );
     callback::add_weapon_type( #"eq_sticky_grenade", &spawned );
-    callback::add_weapon_type( #"hash_4b92b1a2aa3037f5", &spawned );
+    callback::add_weapon_type( #"eq_sticky_grenade_l2", &spawned );
     callback::add_weapon_type( #"eq_cluster_semtex_grenade", &spawned );
     callback::add_weapon_type( #"hash_66401df7cd6bf292", &function_6054cc1e );
     callback::add_weapon_type( #"sig_bow_explosive", &function_117f61b8 );
-    callback::add_weapon_type( #"hash_494e1edad9bd44fd", &function_117f61b8 );
-    callback::add_weapon_type( #"hash_494e1ddad9bd434a", &function_117f61b8 );
-    callback::add_weapon_type( #"hash_494e18dad9bd3acb", &function_117f61b8 );
+    callback::add_weapon_type( #"sig_bow_explosive2", &function_117f61b8 );
+    callback::add_weapon_type( #"sig_bow_explosive3", &function_117f61b8 );
+    callback::add_weapon_type( #"sig_bow_explosive4", &function_117f61b8 );
     callback::add_weapon_type( #"sig_bow_quickshot", &spawned_arrow );
     callback::add_weapon_type( #"sig_bow_quickshot2", &spawned_arrow );
     callback::add_weapon_type( #"sig_bow_quickshot3", &spawned_arrow );
@@ -176,7 +176,7 @@ function function_c879d0fd( localclientnum )
     for ( interval = 0.3;  ; interval = math::clamp( interval / 1.2, 0.08, 0.3 ) )
     {
         self stop_light_fx( localclientnum );
-        self start_light_fx( localclientnum, level._effect[ #"hash_61fd92df093ebdb4" ] );
+        self start_light_fx( localclientnum, level._effect[ #"mini_grenade_light" ] );
         util::server_wait( localclientnum, interval, 0.01, "player_switch" );
         self util::waittill_dobj( localclientnum );
     }

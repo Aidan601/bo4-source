@@ -1,4 +1,4 @@
-#using script_1f0e83e43bf9c3b9;
+#using scripts\core_common\ai\archetype_nosferatu_interface;
 #using scripts\core_common\aat_shared;
 #using scripts\core_common\ai\archetype_damage_utility;
 #using scripts\core_common\ai\archetype_locomotion_utility;
@@ -442,7 +442,7 @@ function function_57abef39( n_round_number )
     
     while ( true )
     {
-        level waittill( #"hash_5d3012139f083ccb" );
+        level waittill( #"round_spawns_constructed" );
         
         if ( zm_round_spawning::function_d0db51fc( #"crimson_nosferatu" ) )
         {

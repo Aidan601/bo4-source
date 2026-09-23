@@ -1,7 +1,7 @@
 {
-    "detailsicon": "image#hash_38a9821dca93cc01",
-    "shopicon": "image#hash_3136981b758bd87a",
-    "nametext": "localized17#hash_60adf9df17b1db3",
+    "detailsicon": "image#loot07_ui_icon_blackmarket_itemdetail_tactical_unicorn",
+    "shopicon": "image#loot07_ui_icon_blackmarket_itemshop_tactical_unicorn",
+    "nametext": "localized17#menu/bundle_gks",
     "name": "loot_smg_accurate_sig_01_sunset_bundle_shop",
     "desctext": "localized17#hash_827c7e586187b3a"
 }

@@ -1892,32 +1892,32 @@ function game_end_vox( winner, tie )
             
             switch ( getdvarstring( #"devgui_mpdialog", "<dev string:xbc>" ) )
             {
-                case #"hash_7912e80189f9c6":
+                case #"self-taacom-commander":
                     player thread test_player_dialog( 0 );
                     player thread test_taacom_dialog( spacing );
                     player thread test_commander_dialog( 2 * spacing );
                     break;
-                case #"hash_69c6be086f76a9d4":
+                case #"self-commander":
                     player thread test_player_dialog( 0 );
                     player thread test_commander_dialog( spacing );
                     break;
-                case #"hash_3af5f0a904b3f8fa":
+                case #"other-commander":
                     player thread test_other_dialog( 0 );
                     player thread test_commander_dialog( spacing );
                     break;
-                case #"hash_32945da5f7ac491":
+                case #"taacom-commander":
                     player thread test_taacom_dialog( 0 );
                     player thread test_commander_dialog( spacing );
                     break;
-                case #"hash_597b27a5c8857d19":
+                case #"self-taacom":
                     player thread test_player_dialog( 0 );
                     player thread test_taacom_dialog( spacing );
                     break;
-                case #"hash_74f798193af006b3":
+                case #"other-taacom":
                     player thread test_other_dialog( 0 );
                     player thread test_taacom_dialog( spacing );
                     break;
-                case #"hash_5bd6a2c5d0ff3cb2":
+                case #"other-self":
                     player thread test_other_dialog( 0 );
                     player thread test_player_dialog( spacing );
                     break;

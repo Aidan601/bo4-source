@@ -4,6 +4,6 @@
     "name": "t7_hud_medal_killed_bomb_planter",
     "backinglarge": "image#t7_hud_medal_backing_gamemode_lrg",
     "iconsmall": "image#t7_hud_medal_killed_bomb_planter",
-    "stringref": "localized17#hash_200f9fbfa00b52f8",
+    "stringref": "localized17#medal/killed_bomb_planter",
     "iconlarge": "image#t7_hud_medal_killed_bomb_planter_lrg"
 }

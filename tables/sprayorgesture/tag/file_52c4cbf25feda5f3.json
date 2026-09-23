@@ -1,11 +1,11 @@
 {
-    "name": "#hash_52c4cbf25feda5f3",
+    "name": "#loot_tags_hipster_crash",
     "type": "#tag",
-    "material": "#hash_7c08d7b7fbe74c9f",
+    "material": "#vd/mtl_loot_ui_icon_tags_hipster_crash",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_2d76f89094ec4e12",
-        "icon": "image#hash_3cc39e64d239d4",
+        "icon": "image#loot_ui_icon_tags_hipster_crash",
         "isdefault": 0
     }
 }

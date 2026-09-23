@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_snowglobe",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_zombie_snowglobe",
     "name": "charm_snowglobe",
-    "displayname": "localized17#hash_79306609914df795",
+    "displayname": "localized17#menu/charm_snowglobe",
     "icon": "ui_icon_weapon_charms_zombie_snowglobe",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_zombie_snowglobe"

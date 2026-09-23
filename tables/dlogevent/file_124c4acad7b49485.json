@@ -16,7 +16,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -46,8 +46,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -71,7 +71,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -95,23 +95,23 @@
             "type": "UINT32"
         },
         {
-            "name": "#hash_1cf0a057afbdbb2e",
-            "scrName": "#hash_8b87c4b6",
+            "name": "#client_losses_late_join",
+            "scrName": "#client_losses_late_join",
             "type": "UINT32"
         },
         {
             "name": "#current_league_id",
-            "scrName": "#hash_259794fa",
+            "scrName": "#current_league_id",
             "type": "INT32"
         },
         {
             "name": "#client_league_id",
-            "scrName": "#hash_3215a17c",
+            "scrName": "#client_league_id",
             "type": "INT32"
         },
         {
             "name": "#client_losses",
-            "scrName": "#hash_c1993e8",
+            "scrName": "#client_losses",
             "type": "UINT32"
         },
         {

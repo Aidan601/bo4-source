@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_flag_capture",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_735a3c0aade64e08",
+    "iconsmall": "image#ui_icon_medal_playmaker",
     "stringref": "localized17#medal/flag_capture",
-    "iconlarge": "image#hash_31ee677e6e326184"
+    "iconlarge": "image#ui_icon_medal_playmaker_large"
 }

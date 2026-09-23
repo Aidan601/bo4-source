@@ -1,7 +1,7 @@
 {
     "name": "#inventory_recon_car_mp",
     "baseWeapon": "#inventory_recon_car",
-    "displayname": "#hash_63ef4a1fc82803dc",
+    "displayname": "#reconcar/name",
     "weapon70": "#recon_car",
     "soundbank": "#inventory_recon_car_soundbank",
     "worldModelTagRight": "tag_weapon_right",

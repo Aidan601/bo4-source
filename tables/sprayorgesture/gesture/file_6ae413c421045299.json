@@ -7,15 +7,15 @@
         {
             "gesture": "#hash_2cf005611f0afb80",
             "roles": [
-                "#hash_76ccdd2bfc985ae8",
-                "#hash_76cce42bfc9866cd",
+                "#prt_wz_reaper_bo3",
+                "#prt_wz_reaper_bo4",
                 "#prt_mp_reaper"
             ]
         }
     ],
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_4651e45c877b17ad",
+        "title": "localized18#emotes/tko",
         "icon": "image#hash_1d1a60af29f10ba2",
         "isdefault": 0
     }

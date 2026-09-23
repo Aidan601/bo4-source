@@ -49,28 +49,28 @@
             "1 0.05"
         ]
     ],
-    "firesounddistant": "#hash_f74753fbac3a42d",
-    "firesound": "#hash_17d8f19c3bab926",
-    "firesoundplayer": "#hash_78e5ee1a06d5724b",
-    "sound1d0": "#hash_17d8f19c3bab926",
+    "firesounddistant": "#wpn_pistol_fire_distant",
+    "firesound": "#wpn_pistol_topbreak_fire_npc",
+    "firesoundplayer": "#wpn_pistol_topbreak_fire_plr",
+    "sound1d0": "#wpn_pistol_topbreak_fire_npc",
     "sound1e0": "#hash_22478e79f6ed4610",
-    "sound200": "#hash_78e5ee1a06d5724b",
+    "sound200": "#wpn_pistol_topbreak_fire_plr",
     "sound210": "#hash_78f4297a28091f71",
-    "sound240": "#hash_6329b05b647edd44",
-    "sound250": "#hash_7ed0935bbc956025",
+    "sound240": "#wpn_revolver_dryfire_npc",
+    "sound250": "#wpn_revolver_dryfire_plr",
     "sound610": "#hash_72a07537a35e0368",
     "sound800": "#hash_21cba6ae89a3493c",
     "sound810": "#hash_21cba6ae89a3493c",
     "tunables1": "#pistol_topbreak_t8_tunables_zm",
-    "weaponCamo": "#hash_3d696a3142afc98b",
-    "cacWeaponXCam": "#hash_2f20c8b9ca4ddf74",
-    "cacAttachmentsXCam": "#hash_2f20c8b9ca4ddf74",
+    "weaponCamo": "#camo_t8_zm_pistol_topbreak",
+    "cacWeaponXCam": "#ui_cam_cac_pistol_topbreak",
+    "cacAttachmentsXCam": "#ui_cam_cac_pistol_topbreak",
     "weaponIconXCam": "#ui_cam_icon_pistol_shotgun",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_6d5da4c74dc6e246"
+        "#au_pistol_topbreak_t8_none"
     ],
     "sharedWeaponSounds": "#pistol",
     "ballisticDesc": "#9mm_fmj",

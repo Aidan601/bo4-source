@@ -104,7 +104,7 @@
     },
     {
         "name": "#hash_54d3e825d700ac23",
-        "description": "#hash_1e00137b84b224a7",
+        "description": "#mpui/search_and_destroy_classic",
         "gametype": "#sd",
         "rules": [
             {
@@ -185,7 +185,7 @@
     },
     {
         "name": "#hash_1ee0474b3247b983",
-        "description": "#hash_30d5f2ec9f7e1cf0",
+        "description": "#mpui/team_deathmatch",
         "gametype": "#tdm",
         "rules": [
             {
@@ -229,7 +229,7 @@
     },
     {
         "name": "#hash_3b415f2ebd0c392f",
-        "description": "#hash_16d96976e0a8fb6c",
+        "description": "#mpui/one_in_the_chamber",
         "gametype": "#oic",
         "rules": [
             {
@@ -273,7 +273,7 @@
     },
     {
         "name": "#hash_186845d257f6c259",
-        "description": "#hash_30d5f2ec9f7e1cf0",
+        "description": "#mpui/team_deathmatch",
         "gametype": "#tdm",
         "rules": [
             {
@@ -347,7 +347,7 @@
     },
     {
         "name": "#hash_30667fbde58f8415",
-        "description": "#hash_30d5f2ec9f7e1cf0",
+        "description": "#mpui/team_deathmatch",
         "gametype": "#tdm_hc",
         "rules": [
             {
@@ -1049,7 +1049,7 @@
     },
     {
         "name": "#hash_5cfc6bdb4b32c575",
-        "description": "#hash_30d5f2ec9f7e1cf0",
+        "description": "#mpui/team_deathmatch",
         "gametype": "#tdm",
         "rules": [
             {
@@ -1804,7 +1804,7 @@
     },
     {
         "name": "#hash_40111b494edd22de",
-        "description": "#hash_1e00137b84b224a7",
+        "description": "#mpui/search_and_destroy_classic",
         "gametype": "#sd_cwl",
         "rules": [
             {
@@ -2151,7 +2151,7 @@
     },
     {
         "name": "#hash_65c3878c312e5616",
-        "description": "#hash_723e134bac793baa",
+        "description": "#playlist/dom_dm",
         "gametype": "#dom_dm",
         "rules": [
             {
@@ -2173,7 +2173,7 @@
     },
     {
         "name": "#hash_7d8367413c4ea3dc",
-        "description": "#hash_7e13e88fd9fb95a4",
+        "description": "#mpui/prop_hunt_name",
         "gametype": "#prop",
         "rules": [
             {
@@ -2283,7 +2283,7 @@
     },
     {
         "name": "#hash_4b6e785f0a278e19",
-        "description": "#hash_5b27b6c4e1290f35",
+        "description": "#mpui/bb_control",
         "gametype": "#control_bb",
         "rules": [
             {
@@ -2327,7 +2327,7 @@
     },
     {
         "name": "#hash_4fb5aa9131b0660a",
-        "description": "#hash_a0c32cc6a338680",
+        "description": "#mpui/bb_escort",
         "gametype": "#escort_bb",
         "rules": [
             {
@@ -2377,7 +2377,7 @@
     },
     {
         "name": "#hash_10fd064f85a2f648",
-        "description": "#hash_5a7f9a3b5cda9e77",
+        "description": "#mpui/sticks_and_stones",
         "gametype": "#sas",
         "rules": [
             {
@@ -2495,7 +2495,7 @@
     },
     {
         "name": "#hash_ca607e6dced8bf5",
-        "description": "#hash_1e00137b84b224a7",
+        "description": "#mpui/search_and_destroy_classic",
         "gametype": "#sd_hc",
         "rules": [
             {
@@ -2716,7 +2716,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -2848,7 +2848,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "1",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -2856,7 +2856,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -3117,7 +3117,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -3249,7 +3249,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "1",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -3257,7 +3257,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -3371,7 +3371,7 @@
     },
     {
         "name": "#hash_25bc3d7fa3b2b4dd",
-        "description": "#hash_478cdde7f189a9ea",
+        "description": "#playlist/warzone_solo",
         "gametype": "#warzone_solo",
         "rules": [
             {
@@ -3518,7 +3518,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -3650,7 +3650,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "1",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -3658,7 +3658,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -3919,7 +3919,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -4051,7 +4051,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -4059,7 +4059,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -4365,7 +4365,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -4497,7 +4497,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "1",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -4505,7 +4505,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -4619,7 +4619,7 @@
     },
     {
         "name": "#hash_7538cf94b86a14a5",
-        "description": "#hash_366500dad22a6515",
+        "description": "#playlist/warzone_deposit",
         "gametype": "#warzone_hot_pursuit",
         "rules": [
             {
@@ -4766,7 +4766,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -4898,7 +4898,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -4906,7 +4906,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -5115,7 +5115,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -5526,7 +5526,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -5658,7 +5658,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -5666,7 +5666,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -5927,7 +5927,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -6059,7 +6059,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -6067,7 +6067,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -6403,7 +6403,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -6535,7 +6535,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "1",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -6543,7 +6543,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -6657,7 +6657,7 @@
     },
     {
         "name": "#hash_3acd3f42b1cd9dad",
-        "description": "#hash_478cdde7f189a9ea",
+        "description": "#playlist/warzone_solo",
         "gametype": "#warzone_ambush_v2_solo",
         "rules": [
             {
@@ -6804,7 +6804,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -6936,7 +6936,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -6944,7 +6944,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -7347,7 +7347,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -7479,7 +7479,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -7487,7 +7487,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -7833,7 +7833,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -7965,7 +7965,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "1",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -7973,7 +7973,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -8239,7 +8239,7 @@
     },
     {
         "name": "#hash_2b9c97538d85c6dc",
-        "description": "#hash_2378f1a47f1c20f9",
+        "description": "#playlist/warzone_heavy_metal_heroes",
         "gametype": "#warzone_heavy_metal_heroes",
         "rules": [
             {
@@ -8386,7 +8386,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -8518,7 +8518,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -8526,7 +8526,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -8787,7 +8787,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -8919,7 +8919,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -8927,7 +8927,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -9263,7 +9263,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -9427,7 +9427,7 @@
     },
     {
         "name": "#hash_6308b75626669098",
-        "description": "#hash_478cdde7f189a9ea",
+        "description": "#playlist/warzone_solo",
         "gametype": "#warzone_hardcore_solo",
         "rules": [
             {
@@ -9522,7 +9522,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -9833,7 +9833,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -9965,7 +9965,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "1",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -9973,7 +9973,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -10275,7 +10275,7 @@
     },
     {
         "name": "#hash_4dc8028fb00656ec",
-        "description": "#hash_478cdde7f189a9ea",
+        "description": "#playlist/warzone_solo",
         "gametype": "#warzone_solo",
         "rules": [
             {
@@ -10422,7 +10422,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -10554,7 +10554,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "1",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -10562,7 +10562,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -10841,7 +10841,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -10973,7 +10973,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -10981,7 +10981,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -11251,7 +11251,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -11383,7 +11383,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -11391,7 +11391,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -11547,7 +11547,7 @@
     },
     {
         "name": "#hash_377cecdfe4b57bb7",
-        "description": "#hash_1e00137b84b224a7",
+        "description": "#mpui/search_and_destroy_classic",
         "gametype": "#sd_cwl",
         "rules": [
             {
@@ -11850,7 +11850,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -11982,7 +11982,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -11990,7 +11990,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -12348,7 +12348,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -12480,7 +12480,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -12488,7 +12488,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -12615,7 +12615,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_3392857d44a435b6",
+                "name": "#wzenablehuey",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -12623,7 +12623,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_3392857d44a435b6",
+                        "unk0": "#wzenablehuey",
                         "unk10": 0
                     }
                 ]
@@ -13003,7 +13003,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -13135,7 +13135,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -13143,7 +13143,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -13611,7 +13611,7 @@
     },
     {
         "name": "#hash_85e8d969c3cacac",
-        "description": "#hash_478cdde7f189a9ea",
+        "description": "#playlist/warzone_solo",
         "gametype": "#warzone_escape_cqf_solo",
         "rules": [
             {
@@ -13726,7 +13726,7 @@
     },
     {
         "name": "#hash_296e0b7f34359dd9",
-        "description": "#hash_478cdde7f189a9ea",
+        "description": "#playlist/warzone_solo",
         "gametype": "#warzone_solo",
         "rules": [
             {
@@ -13873,7 +13873,7 @@
             },
             {
                 "type": "SET_DVAR",
-                "name": "#hash_3013a6dbeb6db37e",
+                "name": "#wz_stash_fix",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -14005,7 +14005,7 @@
             },
             {
                 "type": "GAMETYPE_SETTINGS",
-                "name": "#hash_7695bdd7b20cdda",
+                "name": "#wzenablereplacercarswap",
                 "value": "0",
                 "platformMask": 7,
                 "environmentMask": 7,
@@ -14013,7 +14013,7 @@
                 "utcEndTime": 0,
                 "unk40": [
                     {
-                        "unk0": "#hash_7695bdd7b20cdda",
+                        "unk0": "#wzenablereplacercarswap",
                         "unk10": 0
                     }
                 ]
@@ -14127,7 +14127,7 @@
     },
     {
         "name": "#hash_7adb6688a15a7d5a",
-        "description": "#hash_15f04b910d9c07ce",
+        "description": "#mpui/bb_stockpile",
         "gametype": "#clean_bb",
         "rules": [
             {

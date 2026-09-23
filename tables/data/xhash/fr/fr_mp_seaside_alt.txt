@@ -1,5 +1,5 @@
 mp_seaside_alt.fr
-hash_18b10d4af1dddcd1
+mp_seaside_alt_fr_stream
 hash_416e96212fa9ff2c
 hash_1de07650f734c197
 hash_1a12aa288087e8be

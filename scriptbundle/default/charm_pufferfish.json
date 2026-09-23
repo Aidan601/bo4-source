@@ -1,9 +1,9 @@
 {
     "lootid": "#hash_4496188f136a5dc8",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_pufferfish",
     "name": "charm_pufferfish",
-    "displayname": "localized17#hash_382ec7bc89c0903d",
+    "displayname": "localized17#menu/charm_pufferfish",
     "icon": "ui_icon_weapon_charms_pufferfish",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_pufferfish"

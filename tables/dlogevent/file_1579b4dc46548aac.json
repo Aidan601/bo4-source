@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -189,32 +189,32 @@
         },
         {
             "name": "#wallrun_dist",
-            "scrName": "#hash_eeb75a04",
+            "scrName": "#wallrun_dist",
             "type": "FLOAT"
         },
         {
             "name": "#sprint_dist",
-            "scrName": "#hash_f38de5a4",
+            "scrName": "#sprint_dist",
             "type": "FLOAT"
         },
         {
             "name": "#dim1",
-            "scrName": "#hash_c1e9a7",
+            "scrName": "#dim1",
             "type": "FLOAT"
         },
         {
             "name": "#dim0",
-            "scrName": "#hash_ee83c52b",
+            "scrName": "#dim0",
             "type": "FLOAT"
         },
         {
             "name": "#sprint_count",
-            "scrName": "#hash_5983424f",
+            "scrName": "#sprint_count",
             "type": "INT32"
         },
         {
             "name": "#dj_count",
-            "scrName": "#hash_5f11b3b0",
+            "scrName": "#dj_count",
             "type": "INT32"
         },
         {
@@ -230,7 +230,7 @@
         },
         {
             "name": "#wallrun_count",
-            "scrName": "#hash_c595ee7d",
+            "scrName": "#wallrun_count",
             "type": "INT32"
         },
         {

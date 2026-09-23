@@ -1,5 +1,5 @@
 {
-    "name": "#hash_3aa798483d82d856",
+    "name": "#zm_office_debris_roll_door",
     "delayBetweenRepSoundsDuration": 0,
     "earthquakeOnRepair": 0,
     "earthquakeMinScale": 0.3,
@@ -15,10 +15,10 @@
     "attackSpotHorzOffset": 0,
     "boards": [
         {
-            "boardModel": "#hash_6d1662d9c331239e",
-            "tearAnim": "#hash_48a3b99c691acf89",
-            "boardAnim": "#hash_61c6754307af5648",
-            "staticAnim": "#hash_61c6754307af5648",
+            "boardModel": "#zm_office_debris_roll_door_xmodel",
+            "tearAnim": "#zm_office_debris_roll_door_clear_b",
+            "boardAnim": "#zm_office_debris_roll_door_idle_b",
+            "staticAnim": "#zm_office_debris_roll_door_idle_b",
             "repairEffect1Offset": "0 0 0",
             "repairEffect2Offset": "0 0 0",
             "minPause": 0.3,

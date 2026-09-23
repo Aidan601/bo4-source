@@ -1,7 +1,7 @@
 {
-    "name": "#hash_1a63efe7c6121b24",
+    "name": "#dlog_event_gamemodedata",
     "unk28": "#gamemodedata",
-    "ddlDef": "#hash_b9f432756e52e2c",
+    "ddlDef": "#gamedata/ddl/generated/dlog_event_gamemodedata.ddl",
     "unk18": 0,
     "unk19": 1,
     "unk1a": 1,
@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -126,8 +126,8 @@
             "type": "INT32"
         },
         {
-            "name": "#hash_4a6fc9a9acbef0b4",
-            "scrName": "#hash_5e25b17b",
+            "name": "#scorediscrepancy",
+            "scrName": "#scorediscrepancy",
             "type": "FLOAT"
         },
         {

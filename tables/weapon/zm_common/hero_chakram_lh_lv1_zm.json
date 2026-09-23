@@ -31,8 +31,8 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "firesound": "#hash_7c88df6e3f506817",
-    "firesoundplayer": "#hash_ea8306e49ce6672",
+    "firesound": "#wpn_chakram_projectile_throw_npc",
+    "firesoundplayer": "#wpn_chakram_projectile_throw_plr",
     "sound1d0": "#hash_69a654559439a4d7",
     "sound200": "#hash_7bc4a5559eb5f032",
     "gadgetreadysoundplayer": "#hash_4a48603fb08f09e1",
@@ -53,9 +53,9 @@
     "fireRumble": "#pistol_fire",
     "fx_be0": "#hash_4c63b3118642ac23",
     "fx_be8": "#hash_4c63b3118642ac23",
-    "normalImpactSounds": "#hash_2daea729fdf78dec",
-    "exitImpactSounds": "#hash_2daea729fdf78dec",
-    "bounceImpactSounds": "#hash_2daea729fdf78dec",
-    "dudImpactSounds": "#hash_2daea729fdf78dec",
-    "soundsImpact_1000": "#hash_2daea729fdf78dec"
+    "normalImpactSounds": "#zm_chakram_projectile",
+    "exitImpactSounds": "#zm_chakram_projectile",
+    "bounceImpactSounds": "#zm_chakram_projectile",
+    "dudImpactSounds": "#zm_chakram_projectile",
+    "soundsImpact_1000": "#zm_chakram_projectile"
 }

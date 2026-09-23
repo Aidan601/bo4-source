@@ -193,10 +193,10 @@ function registerbehaviorscriptfunctions()
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_25c4de2eb81f27cb", &function_a2d1d120 );
     assert( isscriptfunctionptr( &function_b7fe306e ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_389c07d3893e660", &function_b7fe306e );
-    assert( isscriptfunctionptr( &function_36903815 ) );
-    behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_1607f20e814fb19b", &function_36903815 );
-    assert( isscriptfunctionptr( &function_f01e64d6 ) );
-    behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_173e1c9378200965", &function_f01e64d6 );
+    assert( isscriptfunctionptr( &stokerrangedattackintroanim ) );
+    behaviortreenetworkutility::registerbehaviortreescriptapi( #"stokerrangedattackintroanim", &stokerrangedattackintroanim );
+    assert( isscriptfunctionptr( &stokerrangedattackanim ) );
+    behaviortreenetworkutility::registerbehaviortreescriptapi( #"stokerrangedattackanim", &stokerrangedattackanim );
     assert( isscriptfunctionptr( &function_dee90338 ) );
     behaviortreenetworkutility::registerbehaviortreescriptapi( #"hash_3e875851311be4e8", &function_dee90338 );
     assert( isscriptfunctionptr( &function_b6e7676d ) );
@@ -250,18 +250,18 @@ function function_580b77a2()
     self.armorinfo[ #"left_arm_lower" ].var_6d7b8c32 = 1;
     self.armorinfo[ #"left_arm_lower" ].var_a222368f = "j_wrist_le";
     self.armorinfo[ #"left_arm_lower" ].fxindex = 6;
-    self.var_19f48bbe = [];
-    self.var_19f48bbe[ 0 ] = "left_arm_upper";
-    self.var_19f48bbe[ 1 ] = "right_arm_upper";
-    self.var_19f48bbe[ 2 ] = "head";
+    self.armorlocations = [];
+    self.armorlocations[ 0 ] = "left_arm_upper";
+    self.armorlocations[ 1 ] = "right_arm_upper";
+    self.armorlocations[ 2 ] = "head";
     
     if ( !isdefined( level.var_a64fa07c ) )
     {
         level.var_a64fa07c = 0;
     }
     
-    self.var_a056e24 = self.var_19f48bbe[ level.var_a64fa07c ];
-    level.var_a64fa07c = ( level.var_a64fa07c + 1 ) % self.var_19f48bbe.size;
+    self.var_a056e24 = self.armorlocations[ level.var_a64fa07c ];
+    level.var_a64fa07c = ( level.var_a64fa07c + 1 ) % self.armorlocations.size;
     self.var_dc32e381 = 0;
     self.var_81d3587d = 0;
     self.var_ce5d8e8f = "locomotion_speed_run";
@@ -333,7 +333,7 @@ function function_3049b317()
     
     if ( isalive( self ) )
     {
-        self playsound( #"hash_63299a75a97f9678" );
+        self playsound( #"zmb_ai_stoker_spawn" );
         bhtnactionstartevent( self, "spawn" );
     }
     
@@ -758,7 +758,7 @@ function private function_b7fe306e( entity )
 // Params 1, eflags: 0x4
 // Checksum 0x7958b20e, Offset: 0x2dc0
 // Size: 0x2c
-function private function_f01e64d6( entity )
+function private stokerrangedattackanim( entity )
 {
     /#
         function_752a64b8( "<dev string:x124>" );
@@ -769,7 +769,7 @@ function private function_f01e64d6( entity )
 // Params 1, eflags: 0x4
 // Checksum 0xcb959c9d, Offset: 0x2df8
 // Size: 0x4c
-function private function_36903815( entity )
+function private stokerrangedattackintroanim( entity )
 {
     /#
         function_752a64b8( "<dev string:x13f>" );
@@ -965,7 +965,7 @@ function private function_5878b360( entity )
         return false;
     }
     
-    return distancesquared( entity.origin, entity.enemy.origin ) <= entity ai::function_9139c839().var_2512cf3b * entity ai::function_9139c839().var_2512cf3b;
+    return distancesquared( entity.origin, entity.enemy.origin ) <= entity ai::function_9139c839().stokerrangedattackmaxdist * entity ai::function_9139c839().stokerrangedattackmaxdist;
 }
 
 // Namespace zm_ai_stoker/zm_ai_stoker
@@ -1026,7 +1026,7 @@ function private function_253c9e38( entity )
     
     if ( timeelapsed > getdvarint( #"hash_3dfb66f92268c90f", entity ai::function_9139c839().var_d33d95d0 ) )
     {
-        if ( timeelapsed > entity ai::function_9139c839().var_73070557 && entity.var_41f51cb4 == "stoker_ranged_attack" && isdefined( entity.var_c6e0686b ) && entity.var_c6e0686b <= entity ai::function_9139c839().var_20266c0d * entity ai::function_9139c839().var_20266c0d )
+        if ( timeelapsed > entity ai::function_9139c839().stokerchargeattackcooldown && entity.var_41f51cb4 == "stoker_ranged_attack" && isdefined( entity.var_c6e0686b ) && entity.var_c6e0686b <= entity ai::function_9139c839().stokerchargeattackminrange * entity ai::function_9139c839().stokerchargeattackminrange )
         {
             entity.var_86f9cdcd = 1;
             return;
@@ -1304,7 +1304,7 @@ function spawn_single( b_force_spawn = 0, var_eb3a8721, var_bc66d64b )
             ai thread [[ level.var_9e197b6 ]]( s_spawn_loc );
         }
         
-        ai playsound( #"hash_63299a75a97f9678" );
+        ai playsound( #"zmb_ai_stoker_spawn" );
         bhtnactionstartevent( ai, "spawn" );
         self util::delay( 3, "death", &zm_audio::function_bca32e49, "stoker", "cue_react" );
     }
@@ -1384,7 +1384,7 @@ function function_cf5ef033( n_round_number )
     
     while ( true )
     {
-        level waittill( #"hash_5d3012139f083ccb" );
+        level waittill( #"round_spawns_constructed" );
         
         if ( zm_round_spawning::function_d0db51fc( #"stoker" ) )
         {
@@ -1421,7 +1421,7 @@ function function_b381320( var_dbce0c44 )
     }
     else
     {
-        var_1797c23a = 1 + max( 0, floor( ( level.round_number - zombie_utility::get_zombie_var( #"hash_3b4ad7449c039d1b" ) ) / 3 ) );
+        var_1797c23a = 1 + max( 0, floor( ( level.round_number - zombie_utility::get_zombie_var( #"stoker_start_round" ) ) / 3 ) );
     }
     
     var_2506688 = var_1797c23a < 8 ? max( var_1797c23a - 3, 0 ) : var_1797c23a * 0.75;

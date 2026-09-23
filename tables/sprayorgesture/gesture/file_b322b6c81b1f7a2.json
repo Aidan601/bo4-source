@@ -5,8 +5,8 @@
     "gesture2": "#hash_6d644cdddca54f2f",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_559d9b79d0648e6b",
-        "icon": "image#hash_38518da38cac4298",
+        "title": "localized18#emotes/times_up",
+        "icon": "image#ui_icon_emotes_s3_time_is_running_out",
         "isdefault": 0
     }
 }

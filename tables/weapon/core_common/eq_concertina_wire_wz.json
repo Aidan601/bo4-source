@@ -1,7 +1,7 @@
 {
     "name": "#eq_concertina_wire_wz",
     "baseWeapon": "#eq_concertina_wire",
-    "displayname": "#hash_27ca9e9ddb30522a",
+    "displayname": "#eq_concertina_wire/name",
     "weapon70": "#eq_concertina_wire",
     "soundbank": "#eq_concertina_wire_soundbank",
     "worldModelTagRight": "tag_weapon_right",
@@ -28,11 +28,11 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "gadgetreadysoundplayer": "#hash_5dd46bb2af9b354c",
+    "gadgetreadysoundplayer": "#uin_equip_notify_concertinawire",
     "sound660": "#uin_unavailable_charging",
-    "hitsound": "#hash_644a18cd873e501d",
+    "hitsound": "#mpl_hit_equipment",
     "tunables1": "#eq_concertina_wire_tunables_wz",
-    "cacWeaponXCam": "#hash_6115148ca46835b4",
+    "cacWeaponXCam": "#ui_cam_cac_equip_razorwire",
     "#hash_2e4a8800": "#eq_concertina_wire_scoreevents",
     "#hash_22082a57": "#p8_fxanim_test_concertina_wire_mod",
     "viewmodel": [

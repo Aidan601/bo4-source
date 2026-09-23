@@ -37,15 +37,15 @@
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
     "tunables1": "#melee_slaybell_t8_tunables_wz",
-    "weaponCamo": "#hash_6a402d1b5658c8fa",
-    "cacWeaponXCam": "#hash_5754220eabc95457",
-    "cacAttachmentsXCam": "#hash_5754220eabc95457",
-    "weaponIconXCam": "#hash_6f4633e53eebee2f",
+    "weaponCamo": "#camo_t8_melee_slaybell",
+    "cacWeaponXCam": "#ui_cam_cac_melee_slaybell",
+    "cacAttachmentsXCam": "#ui_cam_cac_melee_slaybell",
+    "weaponIconXCam": "#ui_cam_icon_melee_slaybell",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_f8ea6078bf0c62d"
+        "#au_melee_slaybell_t8_none"
     ],
     "sharedWeaponSounds": "#slaybell",
     "viewmodel": [
@@ -61,5 +61,5 @@
     "fireRumble": "#defaultweapon_melee",
     "fx_be0": "#hash_6a1cd8812aa0419b",
     "fx_be8": "#hash_6bf7ac34e2bc6567",
-    "normalImpactFX": "#hash_145f1dcb9d3a3f45"
+    "normalImpactFX": "#melee_slaybell_enter"
 }

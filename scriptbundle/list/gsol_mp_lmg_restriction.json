@@ -1,0 +1,9 @@
+{
+    "name": "#gsol_mp_lmg_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#lmg_heavy_restriction",
+        "#gamesettings/#lmg_spray_restriction",
+        "#gamesettings/#lmg_standard_restriction"
+    ]
+}

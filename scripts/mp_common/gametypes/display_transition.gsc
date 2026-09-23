@@ -55,7 +55,7 @@ function private function_a5ce91f1( val )
 // Params 0
 // Checksum 0x680aa0af, Offset: 0x280
 // Size: 0x52, Type: bool
-function function_81d670f5()
+function using_new_transitions()
 {
     if ( isdefined( level.var_d1455682 ) )
     {
@@ -107,7 +107,7 @@ function function_12d1f62a( outcome )
 // Params 1
 // Checksum 0x50db3d52, Offset: 0x458
 // Size: 0xbc
-function function_19adc0b7( outcome )
+function display_match_end( outcome )
 {
     player::function_2f80d95b( &function_3f65d5d3 );
     function_e6b4f2f7( outcome );
@@ -262,7 +262,7 @@ function function_b3964dc9()
     
     player = self;
     player function_3f65d5d3();
-    player function_61d01718( level.var_d1455682.eliminateddisplaytransition, #"hash_ee32e40c182320b" );
+    player function_61d01718( level.var_d1455682.eliminateddisplaytransition, #"downbutnotout_transition" );
 }
 
 // Namespace display_transition/display_transition
@@ -277,7 +277,7 @@ function function_f4c03c3b()
     }
     
     self.var_58f00ca2 = 1;
-    self thread function_61d01718( level.var_d1455682.eliminateddisplaytransition, #"hash_4a3306cfce6719bc" );
+    self thread function_61d01718( level.var_d1455682.eliminateddisplaytransition, #"team_elimination_transition" );
 }
 
 // Namespace display_transition/display_transition
@@ -294,14 +294,14 @@ function function_1caf5c87( team )
         if ( player != self )
         {
             player.var_58f00ca2 = 1;
-            player thread function_61d01718( level.var_d1455682.eliminateddisplaytransition, #"hash_4a3306cfce6719bc" );
+            player thread function_61d01718( level.var_d1455682.eliminateddisplaytransition, #"team_elimination_transition" );
         }
     }
     
     if ( self.team == team )
     {
         self.var_58f00ca2 = 1;
-        self function_61d01718( level.var_d1455682.eliminateddisplaytransition, #"hash_4a3306cfce6719bc" );
+        self function_61d01718( level.var_d1455682.eliminateddisplaytransition, #"team_elimination_transition" );
     }
 }
 
@@ -328,7 +328,7 @@ function function_3cfb29e1()
 {
     if ( !util::waslastround() )
     {
-        self playlocalsound( #"hash_7353399f9153966f" );
+        self playlocalsound( #"uin_round_end_stinger" );
         self thread globallogic_audio::set_music_on_player( "none" );
         
         if ( isdefined( self.pers[ #"music" ].spawn ) )
@@ -438,14 +438,14 @@ function private function_8feabee3( transition, outcome )
 // Size: 0x214
 function private function_26bbb839( transition, outcome )
 {
-    thread function_b8e20f5f( transition, outcome, transition.slowdown, transition.var_d7f20c92, &function_9185f489 );
+    thread function_b8e20f5f( transition, outcome, transition.slowdown, transition.slowdowntimestart, &function_9185f489 );
     thread function_b8e20f5f( transition, outcome, transition.freezeplayers, transition.freezetime, &function_a3b4d41d );
-    thread function_b8e20f5f( transition, outcome, transition.var_b0bc6ae0, transition.var_8d7c57a2, &function_8feabee3 );
-    thread function_b8e20f5f( transition, outcome, transition.var_619875ca, transition.var_73f860db, &function_b7fec738 );
+    thread function_b8e20f5f( transition, outcome, transition.announcehalftime, transition.var_8d7c57a2, &function_8feabee3 );
+    thread function_b8e20f5f( transition, outcome, transition.announceencouragement, transition.var_73f860db, &function_b7fec738 );
     thread function_b8e20f5f( transition, outcome, transition.var_7a712c7, transition.var_a803fe51, &function_66713ac );
-    thread function_b8e20f5f( transition, outcome, transition.var_93a95648, transition.var_de820e2d, &function_654c0030 );
+    thread function_b8e20f5f( transition, outcome, transition.announceendgame, transition.var_de820e2d, &function_654c0030 );
     thread function_b8e20f5f( transition, outcome, transition.var_f9995c63, transition.var_41fc87a8, &function_d9d842b2 );
-    thread function_b8e20f5f( transition, outcome, transition.pickup_message, transition.var_5026a297, &function_e22f5208 );
+    thread function_b8e20f5f( transition, outcome, transition.pickup_message, transition.playerintermissiontime, &function_e22f5208 );
 }
 
 // Namespace display_transition/display_transition
@@ -701,7 +701,7 @@ function function_40a46b5b( transition, outcome )
         return true;
     }
     
-    if ( isdefined( transition.var_b5dabc6b ) && transition.var_b5dabc6b )
+    if ( isdefined( transition.skipfinalround ) && transition.skipfinalround )
     {
         if ( util::waslastround() || util::isoneround() )
         {
@@ -838,7 +838,7 @@ function round_end_wait( time )
         return;
     }
     
-    level waittilltimeout( time * level.var_49d9aa70, #"hash_197c640e2f684a74" );
+    level waittilltimeout( time * level.var_49d9aa70, #"force_end_transition" );
 }
 
 // Namespace display_transition/display_transition

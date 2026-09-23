@@ -47,8 +47,8 @@ function init_level_vars()
     level.var_d7853f35 = 25;
     level.var_ecdf38f = 20;
     level.var_55e562f9 = 20;
-    level.zombie_hints[ #"default_treasure_chest" ] = #"hash_57a34375dddce337";
-    callback::function_74872db6( &function_74872db6 );
+    level.zombie_hints[ #"default_treasure_chest" ] = #"zombie/random_weapon_free";
+    callback::on_round_begin( &on_round_begin );
     level thread defend_areas();
 }
 
@@ -56,7 +56,7 @@ function init_level_vars()
 // Params 0
 // Checksum 0xd36c873b, Offset: 0x4c0
 // Size: 0x3e
-function function_74872db6()
+function on_round_begin()
 {
     level.var_2e3a6cbe = undefined;
     level.var_d614a8b4 = undefined;
@@ -96,14 +96,14 @@ function function_74872db6()
 // Size: 0x674
 function function_84139b27()
 {
-    zm_utility::function_c492c4d6( #"danu", #"hash_692e7036aa28a86e", array( #"zone_danu_top_floor", #"zone_danu_ground_floor" ), array( #"temple", #"arena", #"flooded_crypt", #"pit" ), #"hash_39a5e0978d0efd73", #"hash_78b1d1196746763d" );
-    zm_utility::function_c492c4d6( #"ra", #"hash_15c014d044ca67c1", array( #"zone_ra_top_floor", #"zone_ra_ground_floor" ), array( #"arena", #"temple", #"flooded_crypt", #"pit" ), #"hash_7d572184f439180a", #"hash_298247685ea80656" );
-    zm_utility::function_c492c4d6( #"odin", #"hash_644b220d0ab22c0c", array( #"zone_odin_top_floor", #"zone_odin_ground_floor" ), array( #"temple", #"flooded_crypt", #"pit", #"arena" ), #"hash_ed407098b77bc91", #"hash_5e203d11381c57c7" );
-    zm_utility::function_c492c4d6( #"zeus", #"hash_76fbf2acafa2c1b9", array( #"zone_zeus_ground_floor", #"zone_zeus_top_floor" ), array( #"arena", #"flooded_crypt", #"pit", #"temple" ), #"hash_417a5feff0cb56ea", #"hash_74941e980968cff6" );
-    zm_utility::function_c492c4d6( #"temple", #"hash_8117ce3b24d5287", array( #"zone_pap_room", #"zone_pap_room_balcony_flooded_crypt" ), array( #"ra", #"danu", #"odin", #"zeus" ), #"hash_75add73ac9df6bbc", #"hash_468014d28365550c" );
-    zm_utility::function_c492c4d6( #"arena", #"hash_67ff9fcb1f12e52d", array( #"zone_starting_area_center" ), array( #"ra", #"danu", #"odin", #"zeus" ), #"hash_4d59f666d8b7f20c", #"hash_c641ebe32c2d1fc" );
-    zm_utility::function_c492c4d6( #"pit", #"hash_2db9c4e4d97c7ca9", array( #"zone_body_pit", #"zone_fallen_hero" ), array( #"ra", #"danu", #"odin", #"zeus" ), #"hash_6880f6ff86cde47e", #"hash_30733dec2e9e228a" );
-    zm_utility::function_c492c4d6( #"flooded_crypt", #"hash_68baa2a5397d37da", array( #"zone_flooded_crypt", #"zone_cursed_room" ), array( #"ra", #"danu", #"odin", #"zeus" ), #"hash_107cd70abcec1413", #"hash_3235c0f8ff21201d" );
+    zm_utility::function_c492c4d6( #"danu", #"s_defend_area_obj_danu", array( #"zone_danu_top_floor", #"zone_danu_ground_floor" ), array( #"temple", #"arena", #"flooded_crypt", #"pit" ), #"hash_39a5e0978d0efd73", #"hash_78b1d1196746763d" );
+    zm_utility::function_c492c4d6( #"ra", #"s_defend_area_obj_ra", array( #"zone_ra_top_floor", #"zone_ra_ground_floor" ), array( #"arena", #"temple", #"flooded_crypt", #"pit" ), #"hash_7d572184f439180a", #"hash_298247685ea80656" );
+    zm_utility::function_c492c4d6( #"odin", #"s_defend_area_obj_odin", array( #"zone_odin_top_floor", #"zone_odin_ground_floor" ), array( #"temple", #"flooded_crypt", #"pit", #"arena" ), #"hash_ed407098b77bc91", #"hash_5e203d11381c57c7" );
+    zm_utility::function_c492c4d6( #"zeus", #"s_defend_area_obj_zeus", array( #"zone_zeus_ground_floor", #"zone_zeus_top_floor" ), array( #"arena", #"flooded_crypt", #"pit", #"temple" ), #"hash_417a5feff0cb56ea", #"hash_74941e980968cff6" );
+    zm_utility::function_c492c4d6( #"temple", #"s_mandatory_destination_pap_room", array( #"zone_pap_room", #"zone_pap_room_balcony_flooded_crypt" ), array( #"ra", #"danu", #"odin", #"zeus" ), #"hash_75add73ac9df6bbc", #"hash_468014d28365550c" );
+    zm_utility::function_c492c4d6( #"arena", #"s_defend_area_obj_arena_center", array( #"zone_starting_area_center" ), array( #"ra", #"danu", #"odin", #"zeus" ), #"hash_4d59f666d8b7f20c", #"hash_c641ebe32c2d1fc" );
+    zm_utility::function_c492c4d6( #"pit", #"s_defend_area_obj_pit", array( #"zone_body_pit", #"zone_fallen_hero" ), array( #"ra", #"danu", #"odin", #"zeus" ), #"hash_6880f6ff86cde47e", #"hash_30733dec2e9e228a" );
+    zm_utility::function_c492c4d6( #"flooded_crypt", #"s_defend_area_obj_flooded_crypt", array( #"zone_flooded_crypt", #"zone_cursed_room" ), array( #"ra", #"danu", #"odin", #"zeus" ), #"hash_107cd70abcec1413", #"hash_3235c0f8ff21201d" );
 }
 
 // Namespace zm_towers_zstandard/zm_towers_zstandard
@@ -352,7 +352,7 @@ function defend_areas()
     level thread zm_utility::function_33798535( s_defend_area.var_39c44288, s_defend_area.a_str_zones, s_defend_area.var_ed1db1a7 );
     level flag::wait_till( "started_defend_area" );
     level util::delay( 5, "end_game", &zm_round_spawning::function_376e51ef, #"gladiator_marauder" );
-    level waittill( #"hash_7a04a7fb98fa4e4d" );
+    level waittill( #"end_defend_area" );
     zm_utility::function_fef4b36a( #"temple" );
     level util::delay( 5, "end_game", &zm_round_spawning::function_376e51ef, #"tiger" );
     level notify( #"hash_2ff6268271a25ffa" );
@@ -385,7 +385,7 @@ function defend_areas()
     level thread zm_utility::function_33798535( s_defend_area.var_39c44288, s_defend_area.a_str_zones, s_defend_area.var_ed1db1a7 );
     level flag::wait_till( "started_defend_area" );
     level thread zm_towers_special_rounds::function_93eab559();
-    level waittill( #"hash_7a04a7fb98fa4e4d" );
+    level waittill( #"end_defend_area" );
     level thread zm_towers_special_rounds::function_417990b9();
     zm_utility::function_fef4b36a( #"arena" );
     
@@ -487,7 +487,7 @@ function function_5dff542c()
     
     while ( true )
     {
-        level waittill( #"hash_7a04a7fb98fa4e4d" );
+        level waittill( #"end_defend_area" );
         
         foreach ( player in level.players )
         {
@@ -507,7 +507,7 @@ function function_edd5bb1a()
 {
     if ( zm_utility::function_e37823df() )
     {
-        zm_utility::function_6df718d( #"hash_6db3dde314ca084", 0 );
+        zm_utility::function_6df718d( #"wpn_t8_zm_esc_shield_key_world", 0 );
     }
 }
 

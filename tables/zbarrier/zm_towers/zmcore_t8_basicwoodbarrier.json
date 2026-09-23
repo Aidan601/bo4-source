@@ -2,7 +2,7 @@
     "name": "#zmcore_t8_basicwoodbarrier",
     "generalRepairSound1": "#zmb_repair_boards",
     "generalRepairSound2": "#zmb_board_slam",
-    "upgradedGeneralRepairSound1": "#hash_52df98daa3dc8bb4",
+    "upgradedGeneralRepairSound1": "#zmb_board_slam_upgraded",
     "upgradedGeneralRepairSound2": "#zmb_board_slam",
     "delayBetweenRepSounds": "#hash_1",
     "zombieTauntAnimState": "#zm_taunt",

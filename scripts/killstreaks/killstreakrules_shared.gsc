@@ -269,7 +269,7 @@ function killstreakstop( hardpointtype, team, id )
         
         if ( sessionmodeismultiplayergame() )
         {
-            function_92d1707f( #"hash_710b205b26e46446", { #starttime:0, #endtime:gettime(), #name:hardpointtype, #team:team } );
+            function_92d1707f( #"dlog_event_mpkillstreakuses", { #starttime:0, #endtime:gettime(), #name:hardpointtype, #team:team } );
         }
         
         return;
@@ -281,7 +281,7 @@ function killstreakstop( hardpointtype, team, id )
     if ( sessionmodeismultiplayergame() )
     {
         mpkillstreakuses = { #starttime:level.killstreaks_triggered[ id ][ #"starttime" ], #endtime:level.killstreaks_triggered[ id ][ #"endtime" ], #spawnid:level.killstreaks_triggered[ id ][ #"spawnid" ], #name:hardpointtype, #team:team };
-        function_92d1707f( #"hash_710b205b26e46446", mpkillstreakuses );
+        function_92d1707f( #"dlog_event_mpkillstreakuses", mpkillstreakuses );
     }
     
     level.killstreaks_triggered[ id ] = undefined;
@@ -389,7 +389,7 @@ function iskillstreakallowed( hardpointtype, team, var_1d8339ae )
                 
                 if ( secondsleft > 0 )
                 {
-                    self iprintlnbold( #"hash_2ce2d6e10e74ed97", secondsleft );
+                    self iprintlnbold( #"killstreak/not_available_emp_active", secondsleft );
                     return 0;
                 }
             }

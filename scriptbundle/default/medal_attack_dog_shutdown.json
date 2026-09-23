@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_attack_dog_shutdown",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_4b184101ddf94d8",
+    "iconsmall": "image#ui_icon_medal_roll_over",
     "stringref": "localized17#medal/killed_dog",
-    "iconlarge": "image#hash_6d945fb246984e14"
+    "iconlarge": "image#ui_icon_medal_roll_over_large"
 }

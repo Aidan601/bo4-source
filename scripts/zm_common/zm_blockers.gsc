@@ -1,4 +1,4 @@
-#using script_301f64a4090c381a;
+#using scripts\zm_common\zm_faction_buffs;
 #using scripts\core_common\ai\zombie_utility;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\clientfield_shared;
@@ -60,7 +60,7 @@ function __init__()
     }
     else
     {
-        zm_utility::add_zombie_hint( "default_buy_debris", #"hash_1595dd9d4d64f37b" );
+        zm_utility::add_zombie_hint( "default_buy_debris", #"zombie/button_buy_clear_debris_cost" );
     }
     
     if ( function_8b1a219a() )
@@ -70,8 +70,8 @@ function __init__()
     }
     else
     {
-        zm_utility::add_zombie_hint( "default_buy_door", #"hash_456cd0f0d10be48b" );
-        zm_utility::add_zombie_hint( "default_buy_door_close", #"hash_261288d018c0e7e5" );
+        zm_utility::add_zombie_hint( "default_buy_door", #"zombie/button_buy_open_door_cost" );
+        zm_utility::add_zombie_hint( "default_buy_door_close", #"zombie/button_buy_close_door" );
     }
     
     init_blockers();
@@ -205,7 +205,7 @@ function door_init()
                 return;
             }
             
-            self sethintstring( #"hash_671e980430950a22" );
+            self sethintstring( #"zombie/need_local_power" );
             
             if ( isdefined( level.door_dialog_function ) )
             {
@@ -216,7 +216,7 @@ function door_init()
         }
         else if ( self.script_noteworthy == "kill_counter_door" )
         {
-            self sethintstring( #"hash_25a2adc4e37f3813", cost );
+            self sethintstring( #"zombie/door_activate_counter", cost );
             return;
         }
     }
@@ -929,7 +929,7 @@ function door_think()
                     self door_opened( n_cost, 1 );
                 }
                 
-                self sethintstring( #"hash_671e980430950a22" );
+                self sethintstring( #"zombie/need_local_power" );
                 wait 3;
                 continue;
             case #"electric_door":

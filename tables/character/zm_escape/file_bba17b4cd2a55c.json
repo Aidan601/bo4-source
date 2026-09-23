@@ -1,9 +1,9 @@
 {
-    "name": "#hash_bba17b4cd2a55c",
+    "name": "#c_t8_zmb_mob_hero_dempsey1_igc",
     "skeleton": "base",
     "voice": "american",
     "headImpactType": 1,
     "bodyImpactType": 1,
-    "body": "#hash_57c6f8d18c24a8c5",
+    "body": "#c_t8_zmb_mob_hero_dempsey_body1_igc",
     "head": "#c_t8_zmb_mob_hero_dempsey_head1"
 }

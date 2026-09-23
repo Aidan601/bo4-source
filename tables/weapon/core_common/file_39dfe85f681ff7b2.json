@@ -1,6 +1,6 @@
 {
-    "name": "#hash_39dfe85f681ff7b2",
-    "baseWeapon": "#hash_3f62a872201cd1ce",
+    "name": "#swat_grenade_payload_wz",
+    "baseWeapon": "#swat_grenade_payload",
     "soundbank": "#hash_5cae0c0af64ca444",
     "worldModelTagRight": "tag_weapon_right",
     "worldModelTagLeft": "tag_weapon_left",
@@ -28,8 +28,8 @@
     "#hash_554be9f7": false,
     "firesound": "#wpn_grenade_throw",
     "firesoundplayer": "#wpn_grenade_throw",
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "sound5a0": "#wpn_flash_grenade_explode",
     "projexplosionsound": "#wpn_flash_grenade_explode",
     "tunables1": "#hash_7f463c3f6c1116",
@@ -42,7 +42,7 @@
             "statusEffects:unk18": "[ll0x0=3c000007d0][f0x0=2.8026e-42][f0x4=8.40779e-44] d0 07 00 00 3c 00 00 00"
         },
         {
-            "effect": "#hash_2bfc5e138083230b",
+            "effect": "#stunned_swat_grenade",
             "statusEffects:unk8": "[32h0x0=][ll0x0=1f400000000][f0x0=0][f0x4=7.00649e-43] 00 00 00 00 f4 01 00 00",
             "statusEffects:unk10": "[32h0x0=][ll0x0=3f80000000000000][f0x0=0][f0x4=1] 00 00 00 00 00 00 80 3f"
         },

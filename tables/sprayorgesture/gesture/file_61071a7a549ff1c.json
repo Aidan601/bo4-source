@@ -1,8 +1,8 @@
 {
-    "name": "#hash_61071a7a549ff1c",
+    "name": "#loot_emote_exotic_shared_dog_tags",
     "type": "#gesture",
-    "gesture": "#hash_735b53cc76ddb791",
-    "gesture2": "#hash_633ceb324a12435a",
+    "gesture": "#boast_dog_tags",
+    "gesture2": "#boast_dog_tags_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#emotes/confirmed",

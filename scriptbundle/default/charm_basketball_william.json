@@ -1,9 +1,9 @@
 {
     "lootid": "#charm_basketball_william",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "image": "ui_icon_weapon_charms_basketball_william",
     "name": "charm_basketball_william",
-    "displayname": "localized17#hash_4208a67e9e887ca",
+    "displayname": "localized17#menu/charm_basketball_william",
     "icon": "ui_icon_weapon_charms_basketball_william",
     "charmviewmodel": "model#",
     "previewimage": "image#ui_icon_weapon_charms_basketball_william"

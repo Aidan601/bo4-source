@@ -1,5 +1,5 @@
 mp_silo.fr
-hash_145cdf2b6c7929f7
+vox_tvoi_tutor_ruin_ajax_0
 hash_18a0460fc047412
 hash_1f14e1bcc42091dc
 mp_silo.fr
@@ -7,8 +7,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_145cdf2b6c7929f7
-hash_145cde2b6c792844
+vox_tvoi_tutor_ruin_ajax_0
+vox_tvoi_tutor_ruin_ajax_1
 hash_565f1e0301cc16a5
 hash_3fc9481f1c51d4ab
 mp_silo.fr
@@ -17,7 +17,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_145cde2b6c792844
+vox_tvoi_tutor_ruin_ajax_1
 hash_7ef407ab70033f27
 hash_567fb5b17d4a6039
 mp_silo.fr
@@ -26,8 +26,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_145cde2b6c792844
-hash_145ce12b6c792d5d
+vox_tvoi_tutor_ruin_ajax_1
+vox_tvoi_tutor_ruin_ajax_2
 hash_a1edb31c6c6bd7c
 hash_792850136dfdaf8e
 mp_silo.fr
@@ -36,7 +36,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_145ce12b6c792d5d
+vox_tvoi_tutor_ruin_ajax_2
 hash_18764ec889cf96fe
 hash_2058e6eabe39eeac
 mp_silo.fr
@@ -45,8 +45,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_145ce12b6c792d5d
-hash_145ce02b6c792baa
+vox_tvoi_tutor_ruin_ajax_2
+vox_tvoi_tutor_ruin_ajax_3
 hash_21ae89aa5a65ec77
 hash_217ca9aa6f922c5
 mp_silo.fr
@@ -55,7 +55,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_145ce02b6c792baa
+vox_tvoi_tutor_ruin_ajax_3
 hash_1cea523cb3099131
 hash_165c816e3853ad23
 mp_silo.fr
@@ -64,8 +64,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_145ce02b6c792baa
-hash_73601b890c77f89c
+vox_tvoi_tutor_ruin_ajax_3
+vox_tvoi_tutor_ruin_ajax_grapple
 hash_5a3cb8f5c22ef071
 hash_26bd3410a4b3e4e3
 mp_silo.fr
@@ -74,7 +74,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_73601b890c77f89c
+vox_tvoi_tutor_ruin_ajax_grapple
 hash_41e391e998d9913b
 hash_4aeff9b414db2681
 mp_silo.fr
@@ -83,8 +83,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_73601b890c77f89c
-hash_30d01d1a444a7530
+vox_tvoi_tutor_ruin_ajax_grapple
+vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_4a0a96f8d17e3367
 hash_6f63b4b21e725ccf
 mp_silo.fr
@@ -92,7 +92,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_30d01d1a444a7530
+vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_5b8c6279f172ae0e
 hash_2eebfae2b4a56fd2
 mp_silo.fr
@@ -100,7 +100,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_30d01d1a444a7530
+vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_15c40c9df35380fd
 hash_34439d58530608bd
 mp_silo.fr
@@ -109,7 +109,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_30d01d1a444a7530
+vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_33f875b604b3230f
 hash_2a2cafc0cad2816b
 mp_silo.fr
@@ -118,7 +118,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_30d01d1a444a7530
+vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_69b20d756f029cb4
 hash_2b1282abbfaa4728
 mp_silo.fr
@@ -126,8 +126,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_30d01d1a444a7530
-hash_36e56edaa1c9c2d8
+vox_tvoi_tutor_ruin_ajax_miss_nag
+vox_tvoi_tutor_ruin_ajax_slowmo
 hash_57e29cac0ee3f8b
 hash_1b876e350ba11cb7
 mp_silo.fr
@@ -135,8 +135,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_36e56edaa1c9c2d8
-hash_6f4e6b000c475a08
+vox_tvoi_tutor_ruin_ajax_slowmo
+vox_tvoi_tutor_ruin_death_fall
 hash_1be04709fc589c81
 hash_1a01338428571b87
 mp_silo.fr
@@ -145,7 +145,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_6f4e6b000c475a08
+vox_tvoi_tutor_ruin_death_fall
 hash_917b70d3706130b
 hash_709250d9104c46cd
 mp_silo.fr
@@ -154,7 +154,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_6f4e6b000c475a08
+vox_tvoi_tutor_ruin_death_fall
 hash_20bff170018961e8
 hash_601bca046856f56a
 mp_silo.fr
@@ -162,7 +162,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_6f4e6b000c475a08
+vox_tvoi_tutor_ruin_death_fall
 hash_17ffefae7f0035cb
 hash_3d62a496f1e14575
 mp_silo.fr
@@ -170,7 +170,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_6f4e6b000c475a08
+vox_tvoi_tutor_ruin_death_fall
 hash_78b8c1b9667610c2
 hash_2a8dce3ff9b64800
 mp_silo.fr
@@ -178,7 +178,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_6f4e6b000c475a08
+vox_tvoi_tutor_ruin_death_fall
 vox_tvoi_tutor_ruin_final_1_comp
 hash_38454708423f53f1
 hash_5e9cf4f4b7b492e7
@@ -298,7 +298,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_ruin_final_1_hell_fail
-hash_4e33f0298dd7ed69
+vox_tvoi_tutor_ruin_final_1_start
 hash_3f1fe5104d85d48a
 hash_31f990be7cfaf812
 mp_silo.fr
@@ -307,7 +307,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_4e33f0298dd7ed69
+vox_tvoi_tutor_ruin_final_1_start
 hash_7fa54a65bfd16814
 hash_2ecc4d683a0d8168
 mp_silo.fr
@@ -316,7 +316,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_4e33f0298dd7ed69
+vox_tvoi_tutor_ruin_final_1_start
 vox_tvoi_tutor_ruin_final_2_comp
 hash_5706712fe8d5592a
 hash_6381f7baf733b698
@@ -354,7 +354,7 @@ mp_silo.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_ruin_final_2_score_1
-hash_7dd0ae32ca1dfdd3
+vox_tvoi_tutor_ruin_final_2_score_2
 hash_38f07c1381fb0d24
 hash_21c39b133ba352a0
 mp_silo.fr
@@ -363,7 +363,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_7dd0ae32ca1dfdd3
+vox_tvoi_tutor_ruin_final_2_score_2
 hash_480a257891ff9b6
 hash_583b9ef8e0beae2e
 mp_silo.fr
@@ -372,7 +372,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_7dd0ae32ca1dfdd3
+vox_tvoi_tutor_ruin_final_2_score_2
 vox_tvoi_tutor_ruin_final_2_score_3
 hash_1bd67cb69bac2a1f
 hash_214ae5bb4f2e829f
@@ -522,7 +522,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_ruin_final_3_comp_1
-hash_44a0461092ffb316
+vox_tvoi_tutor_ruin_final_3_idle_nag
 hash_217af8059852f93f
 hash_bf711fe32d84499
 mp_silo.fr
@@ -531,7 +531,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_44a0461092ffb316
+vox_tvoi_tutor_ruin_final_3_idle_nag
 hash_5226529ceb2a6709
 hash_3c3a1111fd7e006f
 mp_silo.fr
@@ -540,7 +540,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_44a0461092ffb316
+vox_tvoi_tutor_ruin_final_3_idle_nag
 hash_1051826affcab246
 hash_2119a0ea702dfcf4
 mp_silo.fr
@@ -549,7 +549,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_44a0461092ffb316
+vox_tvoi_tutor_ruin_final_3_idle_nag
 hash_41c946891793ed98
 hash_1b7f316929b60c4a
 mp_silo.fr
@@ -558,7 +558,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_44a0461092ffb316
+vox_tvoi_tutor_ruin_final_3_idle_nag
 hash_52c33305b2fd2eb5
 hash_23b308b667c4be4b
 mp_silo.fr
@@ -566,7 +566,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_44a0461092ffb316
+vox_tvoi_tutor_ruin_final_3_idle_nag
 hash_4fad56dcb636640c
 hash_14feee5d8b18882e
 mp_silo.fr
@@ -574,7 +574,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_44a0461092ffb316
+vox_tvoi_tutor_ruin_final_3_idle_nag
 vox_tvoi_tutor_ruin_final_3_miss_nag
 hash_7d78a50a3edff8d9
 hash_5fbf4f5b21bfca6f
@@ -628,7 +628,7 @@ mpl_announcer
 mature
 safe
 vox_tvoi_tutor_ruin_final_3_miss_nag
-hash_15db595c9d44e107
+vox_tvoi_tutor_ruin_final_3_start
 hash_7c4ed7dfd52bbfc0
 hash_649298a045f9250c
 mp_silo.fr
@@ -637,7 +637,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_15db595c9d44e107
+vox_tvoi_tutor_ruin_final_3_start
 hash_2f0242366e2a00ba
 hash_26d77cf8304470f2
 mp_silo.fr
@@ -646,7 +646,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_15db595c9d44e107
+vox_tvoi_tutor_ruin_final_3_start
 vox_tvoi_tutor_ruin_grapple_first
 hash_28ccc95760aedc37
 hash_4d15bd05bc7bb7eb
@@ -665,7 +665,7 @@ mp_silo.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_ruin_grapple_ground
-hash_da9bc97f42c491f
+vox_tvoi_tutor_ruin_grapple_low_plat_0
 hash_7170494e6ffe3442
 hash_52d59854fb0944e4
 mp_silo.fr
@@ -674,7 +674,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_da9bc97f42c491f
+vox_tvoi_tutor_ruin_grapple_low_plat_0
 hash_33b3a5dac025ef5c
 hash_53ccca2618757fba
 mp_silo.fr
@@ -683,8 +683,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_da9bc97f42c491f
-hash_da9bb97f42c476c
+vox_tvoi_tutor_ruin_grapple_low_plat_0
+vox_tvoi_tutor_ruin_grapple_low_plat_1
 hash_179061a79c230495
 hash_77ea6c95694c8313
 mp_silo.fr
@@ -692,8 +692,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_da9bb97f42c476c
-hash_da9be97f42c4c85
+vox_tvoi_tutor_ruin_grapple_low_plat_1
+vox_tvoi_tutor_ruin_grapple_low_plat_2
 hash_4e6129d287ea06ac
 hash_71ee717158392756
 mp_silo.fr
@@ -701,8 +701,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_da9be97f42c4c85
-hash_da9bd97f42c4ad2
+vox_tvoi_tutor_ruin_grapple_low_plat_2
+vox_tvoi_tutor_ruin_grapple_low_plat_3
 hash_1b5afe809700b7e7
 hash_10925010dd296dad
 mp_silo.fr
@@ -710,8 +710,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_da9bd97f42c4ad2
-hash_da9b897f42c4253
+vox_tvoi_tutor_ruin_grapple_low_plat_3
+vox_tvoi_tutor_ruin_grapple_low_plat_4
 hash_23a6f3b3733e8d66
 hash_279d108b5d5b07a0
 mp_silo.fr
@@ -719,8 +719,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_da9b897f42c4253
-hash_5ce2ded871c29779
+vox_tvoi_tutor_ruin_grapple_low_plat_4
+vox_tvoi_tutor_ruin_grapple_range_clear
 hash_443d390bb65212ca
 hash_4205322d2fe64a02
 mp_silo.fr
@@ -728,8 +728,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_5ce2ded871c29779
-hash_6923615495bbfbcf
+vox_tvoi_tutor_ruin_grapple_range_clear
+vox_tvoi_tutor_ruin_grapple_range_fail_0
 hash_3576b770b5c109ca
 hash_3f2f7d581426adb4
 mp_silo.fr
@@ -737,8 +737,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_6923615495bbfbcf
-hash_6923605495bbfa1c
+vox_tvoi_tutor_ruin_grapple_range_fail_0
+vox_tvoi_tutor_ruin_grapple_range_fail_1
 hash_53d567611104517d
 hash_26ca78f769b970e3
 mp_silo.fr
@@ -746,8 +746,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_6923605495bbfa1c
-hash_4256405c5f6bfc9e
+vox_tvoi_tutor_ruin_grapple_range_fail_1
+vox_tvoi_tutor_ruin_grapple_range_nag
 hash_33357a3427d924dd
 hash_3371c62b53fcaf01
 mp_silo.fr
@@ -756,7 +756,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_4256405c5f6bfc9e
+vox_tvoi_tutor_ruin_grapple_range_nag
 hash_5669c623629952f
 hash_5217f8331ac1a87
 mp_silo.fr
@@ -765,7 +765,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_4256405c5f6bfc9e
+vox_tvoi_tutor_ruin_grapple_range_nag
 hash_5e94104a4b3bbf14
 hash_1868bb3b48cfc71c
 mp_silo.fr
@@ -774,7 +774,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_4256405c5f6bfc9e
+vox_tvoi_tutor_ruin_grapple_range_nag
 hash_1cd5861385c66766
 hash_8d26a0fab44e5c2
 mp_silo.fr
@@ -783,7 +783,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_4256405c5f6bfc9e
+vox_tvoi_tutor_ruin_grapple_range_nag
 hash_6ccefc38d0459347
 hash_6e89f51ab6ac9e33
 mp_silo.fr
@@ -792,7 +792,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_4256405c5f6bfc9e
+vox_tvoi_tutor_ruin_grapple_range_nag
 hash_6121e95232c2c0c1
 hash_4fb16299f0498e51
 mp_silo.fr
@@ -801,7 +801,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_4256405c5f6bfc9e
+vox_tvoi_tutor_ruin_grapple_range_nag
 hash_7597d010231528ee
 hash_64bd6838fa2bbb6
 mp_silo.fr
@@ -810,7 +810,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_4256405c5f6bfc9e
+vox_tvoi_tutor_ruin_grapple_range_nag
 hash_7b385adbb2da5710
 hash_f2b2af27c935e44
 mp_silo.fr
@@ -819,8 +819,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_4256405c5f6bfc9e
-hash_2559f228a22744de
+vox_tvoi_tutor_ruin_grapple_range_nag
+vox_tvoi_tutor_ruin_grav_slam_first_0
 hash_6eb7ebf4820afcd9
 hash_3621aed5ea29ff01
 mp_silo.fr
@@ -828,8 +828,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_2559f228a22744de
-hash_2559f328a2274691
+vox_tvoi_tutor_ruin_grav_slam_first_0
+vox_tvoi_tutor_ruin_grav_slam_first_1
 hash_7d333f69d30dc6a6
 hash_634e8eefa272bdfa
 mp_silo.fr
@@ -837,8 +837,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_2559f328a2274691
-hash_2559f028a2274178
+vox_tvoi_tutor_ruin_grav_slam_first_1
+vox_tvoi_tutor_ruin_grav_slam_first_2
 hash_689491cf402d214b
 hash_18468344f0f68d17
 mp_silo.fr
@@ -846,8 +846,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_2559f028a2274178
-hash_7e4f395a02d8ed35
+vox_tvoi_tutor_ruin_grav_slam_first_2
+vox_tvoi_tutor_ruin_grav_slam_nag
 hash_3b2f65514d8027c2
 hash_253d6dd6901ad7e6
 mp_silo.fr
@@ -855,7 +855,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_7e4f395a02d8ed35
+vox_tvoi_tutor_ruin_grav_slam_nag
 hash_5a769346660a4ccb
 hash_7fb0dcc4d30036e3
 mp_silo.fr
@@ -863,7 +863,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_7e4f395a02d8ed35
+vox_tvoi_tutor_ruin_grav_slam_nag
 hash_63369507e89378e8
 hash_4758a3de9c23ef8c
 mp_silo.fr
@@ -872,7 +872,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_7e4f395a02d8ed35
+vox_tvoi_tutor_ruin_grav_slam_nag
 hash_20312da5f515ddb2
 hash_17333cb183ae5f72
 mp_silo.fr
@@ -881,7 +881,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_7e4f395a02d8ed35
+vox_tvoi_tutor_ruin_grav_slam_nag
 hash_5e56eaa1e362b381
 hash_45cc5b6b243363b1
 mp_silo.fr
@@ -890,7 +890,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_7e4f395a02d8ed35
+vox_tvoi_tutor_ruin_grav_slam_nag
 hash_72816a535808c20b
 hash_19f701c6d3c011b7
 mp_silo.fr
@@ -899,7 +899,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_7e4f395a02d8ed35
+vox_tvoi_tutor_ruin_grav_slam_nag
 vox_tvoi_tutor_ruin_slide_3_miss_nag
 hash_2f7d2bfb26bec7ca
 hash_4edcc9685ff4d788
@@ -986,7 +986,7 @@ mp_silo.fr
 mpl_announcer
 mature
 vox_tvoi_tutor_ruin_slide_3_nag
-hash_1c420a8cfa8d8479
+vox_tvoi_tutor_ruin_slide_4_fail
 hash_29ef97d64f1cc924
 hash_26fe56cacc71b82
 mp_silo.fr
@@ -995,7 +995,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_1c420a8cfa8d8479
+vox_tvoi_tutor_ruin_slide_4_fail
 hash_2f676ab2c53b15b6
 hash_4750269e99235dd8
 mp_silo.fr
@@ -1004,7 +1004,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_1c420a8cfa8d8479
+vox_tvoi_tutor_ruin_slide_4_fail
 hash_2ecd9d7097b24aad
 hash_3ab8e0494bad70bf
 mp_silo.fr
@@ -1012,8 +1012,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_1c420a8cfa8d8479
-hash_2774943be9e5dbd9
+vox_tvoi_tutor_ruin_slide_4_fail
+vox_tvoi_tutor_ruin_slide_4_nag
 hash_3a31841619759cda
 hash_2eac119a54cfd9a2
 mp_silo.fr
@@ -1021,7 +1021,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_2774943be9e5dbd9
+vox_tvoi_tutor_ruin_slide_4_nag
 hash_7282eabcb08b1383
 hash_124620535e10135f
 mp_silo.fr
@@ -1030,7 +1030,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_2774943be9e5dbd9
+vox_tvoi_tutor_ruin_slide_4_nag
 hash_6813c4d9c099f5c5
 hash_5621329db8166f95
 mp_silo.fr
@@ -1039,7 +1039,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_2774943be9e5dbd9
+vox_tvoi_tutor_ruin_slide_4_nag
 hash_3a16290b5c990800
 hash_62bbd1caa146cb8
 mp_silo.fr
@@ -1047,7 +1047,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_2774943be9e5dbd9
+vox_tvoi_tutor_ruin_slide_4_nag
 hash_199c752fbbe8b9f9
 hash_684d379bbb76b30d
 mp_silo.fr
@@ -1055,8 +1055,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_2774943be9e5dbd9
-hash_3c9d4e83f2a8c9cd
+vox_tvoi_tutor_ruin_slide_4_nag
+vox_tvoi_tutor_ruin_slide_8_nag
 hash_2fa87ef24e3394be
 hash_292407c65f7af5e
 mp_silo.fr
@@ -1064,7 +1064,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_3c9d4e83f2a8c9cd
+vox_tvoi_tutor_ruin_slide_8_nag
 hash_50160f219ba85d97
 hash_6ec3b830128298bb
 mp_silo.fr
@@ -1072,7 +1072,7 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_3c9d4e83f2a8c9cd
+vox_tvoi_tutor_ruin_slide_8_nag
 hash_193885a3212b71e4
 hash_44edefc6165b9ce4
 mp_silo.fr
@@ -1081,7 +1081,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_3c9d4e83f2a8c9cd
+vox_tvoi_tutor_ruin_slide_8_nag
 hash_5854c2e0b943ee76
 hash_352e4d222cad97ba
 mp_silo.fr
@@ -1090,7 +1090,7 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_3c9d4e83f2a8c9cd
+vox_tvoi_tutor_ruin_slide_8_nag
 hash_729a60c01d3b6c6d
 hash_6198e5982f0b8b89
 mp_silo.fr
@@ -1098,8 +1098,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_3c9d4e83f2a8c9cd
-hash_1222e3a3c005f251
+vox_tvoi_tutor_ruin_slide_8_nag
+vox_tvoi_tutor_ruin_spawn_beacon_0
 hash_56e511e45db7da30
 hash_6ccfdce7f2c19efa
 mp_silo.fr
@@ -1108,7 +1108,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_1222e3a3c005f251
+vox_tvoi_tutor_ruin_spawn_beacon_0
 hash_7daba31cbe00f26a
 hash_6fd1c981cf381060
 mp_silo.fr
@@ -1117,8 +1117,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_1222e3a3c005f251
-hash_1222e2a3c005f09e
+vox_tvoi_tutor_ruin_spawn_beacon_0
+vox_tvoi_tutor_ruin_spawn_beacon_1
 hash_2d058072c127375b
 hash_3fa2fcce3a78e001
 mp_silo.fr
@@ -1126,8 +1126,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_1222e2a3c005f09e
-hash_1222e1a3c005eeeb
+vox_tvoi_tutor_ruin_spawn_beacon_1
+vox_tvoi_tutor_ruin_spawn_beacon_2
 hash_3098577ce2cc3db6
 hash_2a9522a38bdbe858
 mp_silo.fr
@@ -1136,7 +1136,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_1222e1a3c005eeeb
+vox_tvoi_tutor_ruin_spawn_beacon_2
 hash_275908b3e96cf848
 hash_621e4babf424f476
 mp_silo.fr
@@ -1145,8 +1145,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_1222e1a3c005eeeb
-hash_490033933ad1f12f
+vox_tvoi_tutor_ruin_spawn_beacon_2
+vox_tvoi_tutor_ruin_spawn_beacon_first
 hash_42ff0bb38f55457e
 hash_1604f52ed4ccaa14
 mp_silo.fr
@@ -1154,8 +1154,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_490033933ad1f12f
-hash_1bd285662c47cf8d
+vox_tvoi_tutor_ruin_spawn_beacon_first
+vox_tvoi_tutor_ruin_spawn_destroyed
 hash_fef503cb43a5182
 hash_19624e9608dbd7de
 mp_silo.fr
@@ -1163,8 +1163,8 @@ mp_silo.fr
 mp_silo.fr
 mpl_announcer
 mature
-hash_1bd285662c47cf8d
-hash_13ff54f31624000a
+vox_tvoi_tutor_ruin_spawn_destroyed
+vox_tvoi_tutor_ruin_start
 hash_53fa9f3cbb05dcc1
 hash_46ddb966cb1d56a5
 mp_silo.fr
@@ -1173,7 +1173,7 @@ mp_silo.fr
 mpl_announcer
 mature
 explicit
-hash_13ff54f31624000a
+vox_tvoi_tutor_ruin_start
 hash_5890539bdfcbaf4b
 hash_5b4c3b37ed4afbc3
 mp_silo.fr
@@ -1182,8 +1182,8 @@ mp_silo.fr
 mpl_announcer
 mature
 safe
-hash_13ff54f31624000a
-hash_4bd527342a3ed692
+vox_tvoi_tutor_ruin_start
+mp_silo_fr_stream
 hash_28e6b1526d3a0233
 hash_7f841fdc18ee7678
 hash_2be859c88956c1f5

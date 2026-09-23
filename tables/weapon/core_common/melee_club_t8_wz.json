@@ -35,15 +35,15 @@
     "sound800": "#hash_5fd68d0455a0b8",
     "sound810": "#hash_5fd68d0455a0b8",
     "tunables1": "#melee_club_t8_tunables_wz",
-    "weaponCamo": "#hash_a339e91fcf8d65a",
-    "cacWeaponXCam": "#hash_4db2879ee703afb",
-    "cacAttachmentsXCam": "#hash_4db2879ee703afb",
-    "weaponIconXCam": "#hash_1ba8d9c6f7d61883",
+    "weaponCamo": "#camo_t8_melee_club",
+    "cacWeaponXCam": "#ui_cam_cac_melee_club",
+    "cacAttachmentsXCam": "#ui_cam_cac_melee_club",
+    "weaponIconXCam": "#ui_cam_icon_melee_club",
     "attachments": [
         "#defaultattachment"
     ],
     "attachmentUniques": [
-        "#hash_28696afa261a1e51"
+        "#au_melee_club_t8_none"
     ],
     "sharedWeaponSounds": "#club",
     "viewmodel": [

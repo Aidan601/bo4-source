@@ -1,5 +1,5 @@
 {
-    "name": "#hash_3effd1dd89ee3d36",
+    "name": "#flying_camera_drone_wz_escape_infil",
     "type": "helicopter",
     "cameraTag": "tag_player",
     "archeType": "#none",
@@ -36,6 +36,6 @@
     "unk1618": "BUTTON_LSHLDR",
     "bundle": {
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

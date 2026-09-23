@@ -51,7 +51,7 @@ function __init__()
     clientfield::register( "toplayer", "" + #"hash_2cd1bb15f71aedb8", 1, 1, "counter" );
     clientfield::register( "toplayer", "" + #"hash_1769e95fdb10dfae", 1, 1, "counter" );
     clientfield::register( "scriptmover", "" + #"hash_333e3741e6552db3", 1, 1, "int" );
-    level._effect[ #"hash_3ecc995bb97331ac" ] = #"hash_266633b36a852fd5";
+    level._effect[ #"bloodsplosion" ] = #"hash_266633b36a852fd5";
     level.var_c9d375dc = spawnstruct();
     level.var_c9d375dc.firestorm_weapon = getweapon( #"zhield_zword_turret" );
     level.var_c9d375dc.melee_weapon = getweapon( #"zhield_zword_dw" );
@@ -60,8 +60,8 @@ function __init__()
     level.var_70f7eb75 = level.var_c9d375dc.melee_weapon_upgraded;
     callback::on_connect( &player_init );
     level.riotshield_melee = &function_fbe77fa4;
-    callback::add_weapon_fired( level.var_c9d375dc.firestorm_weapon, &function_618e1db4 );
-    callback::add_weapon_fired( level.var_c9d375dc.firestorm_weapon_upgraded, &function_618e1db4 );
+    callback::add_weapon_fired( level.var_c9d375dc.firestorm_weapon, &firestorm_shot_fx );
+    callback::add_weapon_fired( level.var_c9d375dc.firestorm_weapon_upgraded, &firestorm_shot_fx );
     callback::on_ai_killed( &function_f3137e13 );
     zm::register_zombie_damage_override_callback( &function_2a9a30bb );
     zm::register_zombie_damage_override_callback( &function_3c6df289 );
@@ -204,7 +204,7 @@ function function_28f576a9( player )
             return;
         }
         
-        self.hint_string = #"hash_53fd856df9288be7";
+        self.hint_string = #"zombie/build_piece_have_one";
         self.cost = undefined;
         return 1;
     }
@@ -253,7 +253,7 @@ function function_22d79d55( player )
         
         if ( !isdefined( self.var_824b5a74[ n_ent_num ] ) )
         {
-            self.var_824b5a74[ n_ent_num ] = util::spawn_model( #"hash_4223616c6451bb89", mdl_shield.origin, mdl_shield.angles );
+            self.var_824b5a74[ n_ent_num ] = util::spawn_model( #"wpn_t8_zm_tower_shield_bull_lvl2_world", mdl_shield.origin, mdl_shield.angles );
         }
         
         self.var_824b5a74[ n_ent_num ] setinvisibletoall();
@@ -450,7 +450,7 @@ function function_982a8c76()
 // Params 1
 // Checksum 0xe6f5e91d, Offset: 0x1a50
 // Size: 0x86
-function function_618e1db4( weapon )
+function firestorm_shot_fx( weapon )
 {
     if ( !isdefined( self.var_e2c32bbb ) || !self.var_e2c32bbb )
     {
@@ -653,9 +653,9 @@ function function_646d73c3()
     level flag::init( #"hash_17425b597c04b9c3" );
     var_6bb46490 = getentarray( "t_shield_quest_hit", "targetname" );
     array::thread_all( var_6bb46490, &function_a9311397 );
-    var_2922542c = struct::get( #"hash_727d8b7a91c0b9ba" );
-    s_katar = struct::get( #"hash_6ef4fc9a0ac3e3bc" );
-    var_3902fb90 = struct::get( #"hash_6dcfc8c42587d50d" );
+    var_2922542c = struct::get( #"s_shield_quest_lower_piece_take" );
+    s_katar = struct::get( #"s_shield_quest_upgraded_shield_katar" );
+    var_3902fb90 = struct::get( #"s_shield_quest_upper_piece_take" );
     var_2922542c thread function_693527ec( #"lower" );
     s_katar thread function_693527ec( #"katar" );
     var_3902fb90 thread function_693527ec( #"upper" );
@@ -813,7 +813,7 @@ function function_aa1e87dd( b_skipped = 0, var_19e802fa = 0 )
     level endon( #"end_game" );
     self endon( #"disconnect" );
     self flag::set( #"hash_320a1da5bf925c8b" );
-    playsoundatposition( #"hash_3a5be037b504d0f0", ( 0, 0, 0 ) );
+    playsoundatposition( #"zmb_bull_all_hit", ( 0, 0, 0 ) );
     self thread function_3624f8c8( #"lower" );
 }
 
@@ -847,7 +847,7 @@ function function_a9311397()
                 e_attacker.var_12c9426e[ e_attacker.var_12c9426e.size ] = self;
             }
             
-            e_attacker playsoundtoplayer( #"hash_64323339bdb3dfdf", e_attacker );
+            e_attacker playsoundtoplayer( #"zmb_bull_hit_marker", e_attacker );
             self playsound( "zmb_bull_hit_ping" );
             mdl_bull = getent( self.target, "targetname" );
             mdl_bull clientfield::set( "" + #"hash_333e3741e6552db3", 1 );
@@ -949,7 +949,7 @@ function function_4e59dd4b()
 // Size: 0xe4
 function function_4284585f( b_skipped = 0 )
 {
-    level endon( #"end_game", #"hash_4a06aa98c6c7b671" );
+    level endon( #"end_game", #"boss_battle_started" );
     self endon( #"disconnect" );
     
     if ( b_skipped )

@@ -172,7 +172,7 @@ function private function_f34df3c()
     {
         self._effect = [];
         self._effect[ #"nova_crawler_aura_fx" ] = "zm_ai/fx8_nova_crawler_elec_aura";
-        self._effect[ #"hash_571a3bab8b805854" ] = "zm_ai/fx8_avo_elec_teleport_flash";
+        self._effect[ #"nova_crawler_phase_teleport_start_fx" ] = "zm_ai/fx8_avo_elec_teleport_flash";
         self._effect[ #"nova_crawler_phase_teleport_end_fx" ] = "zm_ai/fx8_avo_elec_teleport_appear";
     }
     
@@ -929,7 +929,7 @@ function private function_315c9db0( entity, asmstatename )
     {
         var_45be44a6 = function_28df3aca( entity );
         fx_origin = entity gettagorigin( "j_spine4" );
-        playfx( entity._effect[ #"hash_571a3bab8b805854" ], fx_origin );
+        playfx( entity._effect[ #"nova_crawler_phase_teleport_start_fx" ], fx_origin );
         entity forceteleport( var_45be44a6.origin, var_45be44a6.angles );
         zm_net::network_safe_play_fx_on_tag( "nova_crawler_phase_teleport_end_fx", 2, entity._effect[ #"nova_crawler_phase_teleport_end_fx" ], entity, "j_spine4" );
     }

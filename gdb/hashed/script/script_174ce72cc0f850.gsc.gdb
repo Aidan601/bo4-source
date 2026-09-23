@@ -1,4 +1,4 @@
-NAME script_174ce72cc0f850
+NAME scripts/zm/zm_white_defend_soul_capture.gsc
 VERSION 0
 CHECKSUM 0x1d3445a8
 ######################################################

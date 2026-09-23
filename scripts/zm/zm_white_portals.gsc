@@ -95,7 +95,7 @@ function init_clientfields()
 // Size: 0x94
 function function_24167ed8()
 {
-    level flag::init( #"hash_2120a14c5eeab590" );
+    level flag::init( #"mmtd_built" );
     level flag::init( #"shield_built" );
     level flag::init( #"civil_engineering" );
     zm_crafting::function_d1f16587( #"ztable_white_open", &function_5702b2e7 );
@@ -136,7 +136,7 @@ function function_5702b2e7( e_player )
     {
         t_crafting.var_4f749ffe show();
         t_crafting.var_ae360c37 show();
-        level flag::set( #"hash_2120a14c5eeab590" );
+        level flag::set( #"mmtd_built" );
         
         if ( function_8b1a219a() )
         {
@@ -154,7 +154,7 @@ function function_5702b2e7( e_player )
         level flag::set( #"shield_built" );
     }
     
-    if ( level flag::get( #"hash_2120a14c5eeab590" ) && level flag::get( #"shield_built" ) )
+    if ( level flag::get( #"mmtd_built" ) && level flag::get( #"shield_built" ) )
     {
         level flag::set( #"civil_engineering" );
     }
@@ -178,7 +178,7 @@ function function_e0a8fc52()
 {
     level.var_868c98df = 2;
     level notify( #"modifier_acquired" );
-    self playsound( #"hash_59436c2037092176" );
+    self playsound( #"evt_mmtd_pickup" );
     level.var_279a11a3.related_parent setinvisibletoall();
     var_ae360c37 = getent( level.var_279a11a3.related_parent.target, "targetname" );
     var_ae360c37 setinvisibletoall();
@@ -383,7 +383,7 @@ function teleport_player( user )
     user clientfield::increment_to_player( "teleporter_arrive", 1 );
     playfx( level._effect[ #"portal_dest" ], var_298e4578.origin, ( 1, 0, 0 ), ( 0, 0, 1 ) );
     playsoundatposition( #"evt_teleporter_go", var_298e4578.origin );
-    user playsoundtoplayer( #"hash_39876bf613387fef", user );
+    user playsoundtoplayer( #"evt_teleporter_go_plr", user );
     wait 0.5;
     user function_96e88318();
     user notify( #"teleporting_done" );
@@ -445,7 +445,7 @@ function function_26ddb915()
 // Size: 0x134
 function cooldown_portal_timer( e_user )
 {
-    self endon( #"death", #"hash_3c91bf90cecbe758" );
+    self endon( #"death", #"kill_portal_cooldown" );
     e_user endon( #"death" );
     
     if ( !isdefined( self.a_e_users ) )
@@ -462,7 +462,7 @@ function cooldown_portal_timer( e_user )
     wait 20;
     arrayremovevalue( self.a_e_users, e_user );
     self function_cb7c6fc7( e_user, 1 );
-    playsoundatposition( #"hash_1c870a3a31a2dcf9", self.origin );
+    playsoundatposition( #"evt_mmtd_cooldown_end", self.origin );
 }
 
 // Namespace zm_white_portals/zm_white_portals
@@ -1021,7 +1021,7 @@ function function_a09d62f1()
         {
             if ( zm_utility::is_player_valid( e_user ) && math::cointoss() )
             {
-                e_user thread zm_hms_util::function_51b752a9( #"hash_7832a05d73569401" );
+                e_user thread zm_hms_util::function_51b752a9( #"vox_mmtd_place" );
             }
             
             level.var_868c98df--;
@@ -1031,7 +1031,7 @@ function function_a09d62f1()
             if ( isdefined( self.e_model ) )
             {
                 self.e_model show();
-                playsoundatposition( #"hash_d8a6518e5c2027d", self.e_model.origin + ( 0, 0, 20 ) );
+                playsoundatposition( #"evt_mmtd_place", self.e_model.origin + ( 0, 0, 20 ) );
             }
             
             level.a_s_active = function_688df525();
@@ -1059,7 +1059,7 @@ function function_a09d62f1()
             if ( isdefined( self.e_model ) )
             {
                 self.e_model hide();
-                playsoundatposition( #"hash_59436c2037092176", self.e_model.origin + ( 0, 0, 20 ) );
+                playsoundatposition( #"evt_mmtd_pickup", self.e_model.origin + ( 0, 0, 20 ) );
             }
             
             if ( level.var_868c98df == 1 )
@@ -1352,7 +1352,7 @@ function function_3566160b( str_location, n_newval )
 function disable_teleporter()
 {
     self.var_cd2f1fed = 1;
-    self notify( #"hash_3c91bf90cecbe758" );
+    self notify( #"kill_portal_cooldown" );
     self.a_e_users = [];
     
     foreach ( e_player in getplayers() )

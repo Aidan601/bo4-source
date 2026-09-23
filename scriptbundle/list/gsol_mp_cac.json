@@ -1,0 +1,8 @@
+{
+    "name": "#gsol_mp_cac",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#disable_cac",
+        "#gamesettings/#max_allocation"
+    ]
+}

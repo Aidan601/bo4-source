@@ -1,4 +1,4 @@
-#using script_cb32d07c95e5628;
+#using scripts\mp_common\item_spawn_groups_util;
 #using scripts\core_common\callbacks_shared;
 #using scripts\core_common\math_shared;
 #using scripts\core_common\player\player_stats;
@@ -113,7 +113,7 @@ function function_3383b382( player, poster_trigger )
     {
         hidemiscmodels( "poster_pristine" );
         showmiscmodels( "poster_damaged" );
-        playsoundatposition( #"hash_102a20c25b442146", poster_trigger.origin );
+        playsoundatposition( #"zmb_poster_reveal", poster_trigger.origin );
         
         if ( isdefined( var_b721e8a9 ) )
         {

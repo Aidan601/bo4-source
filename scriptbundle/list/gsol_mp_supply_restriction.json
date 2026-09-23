@@ -1,0 +1,7 @@
+{
+    "name": "#gsol_mp_supply_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#attachment_supply_launcher_standard_restriction"
+    ]
+}

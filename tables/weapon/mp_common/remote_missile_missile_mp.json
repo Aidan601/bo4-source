@@ -29,7 +29,7 @@
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
     "sound340": "#wpn_remote_missile_launch_npc",
-    "projexplosionsound": "#hash_2e5d3eace50886de",
+    "projexplosionsound": "#wpn_remote_missile_explode",
     "tunables1": "#remote_missile_missile_tunables_mp",
     "#hash_2e4a8800": "#remote_missile_scoreevents",
     "projectilemodel": "#veh_t8_mil_hellstorm_missile",
@@ -43,7 +43,7 @@
     "gadgetIconUnavailable": "#t7_hud_ks_remote_missle_widget",
     "image_e90": "#hash_c3227bb78b459396",
     "rumble_de8": "#grenade_rumble",
-    "fx_ed8": "#hash_3dd3c40545123d63",
-    "fx_f00": "#hash_63eab20962df4fd6",
+    "fx_ed8": "#killstreaks/fx8_predator_exp_lg",
+    "fx_f00": "#killstreaks/fx8_predator_trail",
     "normalImpactSounds": "#grenade_explode_material"
 }

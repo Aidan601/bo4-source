@@ -1,0 +1,9 @@
+{
+    "name": "#gsol_mp_draft",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#draft_enabled",
+        "#gamesettings/#draft_time",
+        "#gamesettings/#draft_required_clients"
+    ]
+}

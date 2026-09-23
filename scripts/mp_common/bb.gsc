@@ -48,17 +48,17 @@ function function_bf5cad4e( gamemodedata )
     firstblood = ( isdefined( level.var_8a3a9ca4.firstblood ) ? level.var_8a3a9ca4.firstblood : 0 ) - ( isdefined( level.var_8a3a9ca4.roundstart ) ? level.var_8a3a9ca4.roundstart : 0 );
     alliesscore = isdefined( [[ level._getteamscore ]]( #"allies" ) ) ? [[ level._getteamscore ]]( #"allies" ) : 0;
     axisscore = isdefined( [[ level._getteamscore ]]( #"axis" ) ) ? [[ level._getteamscore ]]( #"axis" ) : 0;
-    var_5e25b17b = abs( alliesscore - axisscore );
+    scorediscrepancy = abs( alliesscore - axisscore );
     gamemodedata = {};
     gamemodedata.gamemode = level.gametype;
     gamemodedata.wintype = isdefined( gamemodedata.wintype ) ? gamemodedata.wintype : "NA";
     gamemodedata.matchtime = matchtime;
     gamemodedata.firstblood = firstblood;
-    gamemodedata.var_5e25b17b = var_5e25b17b;
+    gamemodedata.scorediscrepancy = scorediscrepancy;
     gamemodedata.timeremaining = isdefined( gamemodedata.remainingtime ) ? gamemodedata.remainingtime : 0;
     gamemodedata.var_20de6a02 = isdefined( gamemodedata.var_20de6a02 ) ? gamemodedata.var_20de6a02 : 0;
     gamemodedata.var_be1de2ab = isdefined( gamemodedata.var_be1de2ab ) ? gamemodedata.var_be1de2ab : 0;
-    function_92d1707f( #"hash_1a63efe7c6121b24", gamemodedata );
+    function_92d1707f( #"dlog_event_gamemodedata", gamemodedata );
 }
 
 // Namespace bb/bb
@@ -71,7 +71,7 @@ function function_95a5b5c2( obj_type, label, team, origin, player )
     {
         var_cfad67d4 = ishash( team ) ? team : hash( team );
         clientid = isdefined( player ) && isdefined( player.clientid ) ? player.clientid : -1;
-        function_92d1707f( #"hash_d424efe4db1dff7", { #gametime:function_f8d53445(), #objtype:obj_type, #label:label, #team:var_cfad67d4, #playerx:origin[ 0 ], #playery:origin[ 1 ], #playerz:origin[ 2 ], #clientid:clientid } );
+        function_92d1707f( #"dlog_event_mpobjective", { #gametime:function_f8d53445(), #objtype:obj_type, #label:label, #team:var_cfad67d4, #playerx:origin[ 0 ], #playery:origin[ 1 ], #playerz:origin[ 2 ], #clientid:clientid } );
     }
 }
 
@@ -124,7 +124,7 @@ function function_c3b9e07f( eattacker, attackerorigin, attackerspecialist, attac
     mpattacks.death = death;
     mpattacks.isusingheropower = isusingheropower;
     mpattacks.killstreak = killstreak;
-    function_92d1707f( #"hash_67e3a427b7ec1819", mpattacks );
+    function_92d1707f( #"dlog_event_mpattacks", mpattacks );
 }
 
 // Namespace bb/bb
@@ -217,9 +217,9 @@ function function_6661621a()
         var_c0f05cbb = level.weaponnone;
     }
     
-    mploadout.var_9911e1f2 = var_c0f05cbb.name;
+    mploadout.specialistability = var_c0f05cbb.name;
     mploadout.specialistindex = isdefined( self getspecialistindex() ) ? self getspecialistindex() : -1;
-    function_92d1707f( #"hash_30b542620e21966d", #"mploadouts", mploadout );
+    function_92d1707f( #"dlog_event_mploadouts", #"mploadouts", mploadout );
 }
 
 // Namespace bb/bb
@@ -247,7 +247,7 @@ function commit_spawn_data()
     
     specialistindex = isdefined( self getspecialistindex() ) ? self getspecialistindex() : -1;
     mpplayerlives = { #gametime:function_f8d53445(), #spawnid:getplayerspawnid( self ), #lifescore:self._bbdata[ #"score" ], #lifemomentum:self._bbdata[ #"momentum" ], #lifetime:gettime() - self._bbdata[ #"spawntime" ], #name:self.name, #specialist:specialistindex };
-    function_92d1707f( #"hash_6fc210ad5f081ce8", mpplayerlives );
+    function_92d1707f( #"dlog_event_mpplayerlives", mpplayerlives );
     self function_6661621a();
 }
 

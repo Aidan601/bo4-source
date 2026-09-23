@@ -12,7 +12,7 @@
     "spawnInfluencers2": "#none",
     "deathFx": "#hash_59174ad01884a794",
     "deathFxTag": "tag_body",
-    "deathFxSound": "#hash_2d5cdc03d392d5ec",
+    "deathFxSound": "#mpl_veh_recon_exp",
     "sndMaterialNames": [
         "#hash_268ebbfd586fc64f",
         "#hash_34321daed8ad643a",
@@ -25,8 +25,8 @@
     "deathModel": "#veh_t8_drone_recon",
     "enemyModel": "#veh_t8_drone_recon_wz",
     "soundDef": "#hash_7df2002194200c28",
-    "compassIconMaterial": "#hash_497f5e433364a80",
-    "tacticalModeIcon": "#hash_619b22638b3035f5",
+    "compassIconMaterial": "#compass_vehicle_recon_wz",
+    "tacticalModeIcon": "#uie_ui_icon_minimap_wz_recon",
     "steerAxisName": "AXIS_LSTICK",
     "handBrakeButtonName": "BUTTON_LSHLDR",
     "boostButtonName": "BUTTON_LSTICK",
@@ -37,56 +37,56 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_79d336e3dd657b0a",
+                        "displaystring": "localized17#menu/hud_vehicle_speedboost",
                         "buttondirection": "left",
                         "prompt": "+breath_sprint"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#GAMEPAD",
+                        "controllerrestriction": "#GAMEPAD",
                         "cooldownindex": 0,
                         "displaystring": "localized17#menu/vehicle_horn",
                         "buttondirection": "left",
                         "prompt": "+melee"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#GAMEPAD",
+                        "controllerrestriction": "#GAMEPAD",
                         "cooldownindex": 0,
                         "displaystring": "localized17#hash_159422619daa50d8",
                         "buttondirection": "left",
                         "prompt": "+smoke"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#GAMEPAD",
+                        "controllerrestriction": "#GAMEPAD",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5dba026ffa1d58cd",
+                        "displaystring": "localized17#menu/hud_vehicle_steer",
                         "buttondirection": "right",
                         "prompt": "+lookstick"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_7280cf21dcaf1f18",
+                        "displaystring": "localized17#menu/hud_vehicle_jump",
                         "buttondirection": "left",
                         "prompt": "+gostand"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#kbm",
+                        "controllerrestriction": "#kbm",
                         "cooldownindex": 0,
                         "displaystring": "localized17#hash_159422619daa50d8",
                         "buttondirection": "right",
                         "prompt": "+smoke"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#kbm",
+                        "controllerrestriction": "#kbm",
                         "cooldownindex": 0,
                         "displaystring": "localized17#menu/vehicle_horn",
                         "buttondirection": "right",
                         "prompt": "+melee"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#kbm",
+                        "controllerrestriction": "#kbm",
                         "cooldownindex": 0,
                         "displaystring": "localized17#hash_5d353ec43eb36759",
                         "buttondirection": "right",
@@ -95,12 +95,12 @@
                 ],
                 "widgets": [
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
-                        "hash_5d479f6320d21682:hash_189dcbff": "localized17#hash_2232f0cfd847af2f",
+                        "seatmapstate": 0,
+                        "vehicleexitpromptref": "localized17#hash_2232f0cfd847af2f",
                         "widgettype": 14
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 1,
+                "hideplayerinfo": 1,
                 "hideweaponinfo": 1,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VehicleHUD_GroundVehicle",
@@ -109,6 +109,6 @@
             }
         ],
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

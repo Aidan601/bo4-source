@@ -17,15 +17,15 @@ version 24 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
-        uint64 hash_f2ad74d8edb8204;
+        uint64 game_session_id;
     };
 
     // idx 2 members 3 size 0xc0
     struct client_header {
         // offset 0x0, size 0x40
-        uint64 hash_4016bed15f9183f7;
+        uint64 user_session_id;
         // offset 0x40, size 0x40
         uint64 uno_id;
         // offset 0x80, size 0x40
@@ -43,9 +43,9 @@ version 24 {
     };
 
     // idx 4 members 8 size 0x6d8
-    struct hash_6580ccf5f8a0ef6 {
+    struct region_info {
         // offset 0x0, size 0x20
-        uint hash_67599f190572ca79;
+        uint asn;
         // offset 0x20, size 0x400
         string(128) city;
         // offset 0x420, size 0x20
@@ -117,7 +117,7 @@ version 24 {
     // offset 0x508, size 0xc0
     client_header client;
     // offset 0x5c8, size 0x6d8
-    hash_6580ccf5f8a0ef6 region;
+    region_info region;
     // offset 0xca0, size 0x40
     uint64 uno_id;
     // offset 0xce0, size 0x8

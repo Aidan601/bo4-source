@@ -18,16 +18,16 @@
         "#c_t8_zmb_dlc0_zombie_destroyer1"
     ],
     "animMappingTables": [
-        "#hash_1630b099a97e7f8c"
+        "#elephant_rider.ai_am"
     ],
     "meleeWeapon": "#gladiator_melee",
     "aimTable": "#soldier_aim",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#player_footstep",
     "footstepFXTable2": "#player_footstep",
-    "behaviorTree": "#hash_1626b799a97636ec",
-    "animStateMachine": "#hash_3385fa1b02318a99",
-    "animSelectorTable": "#hash_3386111b0231b1ae",
+    "behaviorTree": "#elephant_rider.ai_bt",
+    "animStateMachine": "#elephant_rider.ai_asm",
+    "animSelectorTable": "#elephant_rider.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#c_54i_grunt_fx_table",
     "aiSettingsBundle": "#zm_towers_boss_rider_settings",

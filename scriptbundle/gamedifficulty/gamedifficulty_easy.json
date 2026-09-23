@@ -18,7 +18,7 @@
     "player_deathinvulnerabletime": 2,
     "vmtype": "server",
     "player_respawndelay": 30,
-    "hash_414adea090ff0c00:hash_c5c20d41": 5,
+    "player_respawnpenalty": 5,
     "name": "gamedifficulty_easy",
     "longregentime": 2000,
     "autoaimregionwidth": 160,

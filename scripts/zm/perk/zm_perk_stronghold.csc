@@ -23,7 +23,7 @@ function autoexec __init__system__()
 function __init__()
 {
     enable_stronghold_perk_for_level();
-    level._effect[ #"hash_24e322568c9492c5" ] = #"hash_497cb15bcf6c05b1";
+    level._effect[ #"perk_stronghold_circle" ] = #"hash_497cb15bcf6c05b1";
     callback::on_localclient_connect( &on_localclient_connect );
 }
 
@@ -55,7 +55,7 @@ function init_stronghold()
 // Size: 0x5c
 function function_5a4557ee()
 {
-    clientfield::register( "toplayer", "" + #"hash_24e322568c9492c5", 1, 1, "int", &function_2400dd1d, 0, 1 );
+    clientfield::register( "toplayer", "" + #"perk_stronghold_circle", 1, 1, "int", &function_2400dd1d, 0, 1 );
 }
 
 // Namespace zm_perk_stronghold/zm_perk_stronghold
@@ -85,12 +85,12 @@ function function_2400dd1d( localclientnum, oldval, newval, bnewent, binitialsna
             deletefx( localclientnum, self.var_f9c892e3[ localclientnum ], 1 );
         }
         
-        self.var_f9c892e3[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"hash_24e322568c9492c5" ], self, "j_spine" );
+        self.var_f9c892e3[ localclientnum ] = util::playfxontag( localclientnum, level._effect[ #"perk_stronghold_circle" ], self, "j_spine" );
         
         if ( !isdefined( self.var_2ec16150 ) )
         {
-            self playsound( localclientnum, #"hash_5e1e162af8490f1d" );
-            self.var_2ec16150 = self playloopsound( #"hash_641286598a33d4e3" );
+            self playsound( localclientnum, #"zmb_vapor_stronghold_start" );
+            self.var_2ec16150 = self playloopsound( #"zmb_vapor_stronghold_lp" );
         }
         
         return;
@@ -104,7 +104,7 @@ function function_2400dd1d( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( isdefined( self.var_2ec16150 ) )
     {
-        self playsound( localclientnum, #"hash_73b66a25abec1fe4" );
+        self playsound( localclientnum, #"zmb_vapor_stronghold_end" );
         self stoploopsound( self.var_2ec16150 );
         self.var_2ec16150 = undefined;
     }

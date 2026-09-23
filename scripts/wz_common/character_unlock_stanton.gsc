@@ -35,14 +35,14 @@ function function_2613aeec( enabled )
     {
         callback::on_player_killed( &on_player_killed );
         callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
-        item_world_fixup::function_2749fcc3( #"hash_6a0d13acf3e5687d", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
-        item_world_fixup::function_2749fcc3( #"hash_33f7121f70c3065f", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
-        item_world_fixup::function_2749fcc3( #"hash_2b546c0315159617", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
+        item_world_fixup::function_2749fcc3( #"zombie_supply_stash_boxinggym_quest", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
+        item_world_fixup::function_2749fcc3( #"zombie_supply_stash_diner_quest", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
+        item_world_fixup::function_2749fcc3( #"zombie_supply_stash_lighthouse_quest", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
         item_world_fixup::function_2749fcc3( #"hash_183c9fe8af52fac7", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
-        item_world_fixup::function_2749fcc3( #"hash_49e8a607ea22e650", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
+        item_world_fixup::function_2749fcc3( #"zombie_supply_stash_crater_quest", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
         item_world_fixup::function_2749fcc3( #"zombie_stash_graveyard_quest", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
-        item_world_fixup::function_2749fcc3( #"hash_ca8b234ad1fea38", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
-        item_world_fixup::function_2749fcc3( #"hash_4ee6deffa30cc6e2", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
+        item_world_fixup::function_2749fcc3( #"hospital_stash_quest", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
+        item_world_fixup::function_2749fcc3( #"zombie_supply_stash_buried_quest", #"zombie_supply_stash_quest_parent", #"zombie_supply_stash_cu14", 2 );
     }
 }
 
@@ -113,6 +113,6 @@ function on_player_killed()
 // Size: 0x24
 function private function_895b40e4()
 {
-    self playsoundtoplayer( #"hash_70c9b45d9474b631", self );
+    self playsoundtoplayer( #"vox_plr_4_unlock", self );
 }
 

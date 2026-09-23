@@ -1,4 +1,4 @@
-#using script_cb32d07c95e5628;
+#using scripts\mp_common\item_spawn_groups_util;
 #using scripts\core_common\player\player_stats;
 #using scripts\core_common\struct;
 #using scripts\core_common\system_shared;
@@ -46,7 +46,7 @@ function function_624de77b()
     if ( !level.var_30c7dc14 )
     {
         var_3382b1fd = getdynentarray( #"hash_65a897c4ba6cd264" );
-        var_dee87f84 = getdynentarray( #"hash_1418b0814d35f392" );
+        var_dee87f84 = getdynentarray( #"buried_jail_door" );
         item_world::function_1b11e73c();
         
         foreach ( var_24f3a953 in var_3382b1fd )
@@ -161,7 +161,7 @@ function function_63f86aa3()
 // Size: 0xa8
 function function_a9f512c2()
 {
-    var_dee87f84 = getdynentarray( #"hash_1418b0814d35f392" );
+    var_dee87f84 = getdynentarray( #"buried_jail_door" );
     
     foreach ( var_8f38aad5 in var_dee87f84 )
     {
@@ -365,11 +365,11 @@ function function_62ef723( activator, laststate, state )
 // Params 2
 // Checksum 0x486591e6, Offset: 0x12d8
 // Size: 0x8e
-function function_274ee8b5( dynent, var_8a50fb55 )
+function function_274ee8b5( dynent, boaster )
 {
     level endon( #"game_ended" );
     
-    while ( isdefined( var_8a50fb55 ) && isalive( var_8a50fb55 ) && !var_8a50fb55 inlaststand() && var_8a50fb55 function_15049d95() )
+    while ( isdefined( boaster ) && isalive( boaster ) && !boaster inlaststand() && boaster function_15049d95() )
     {
         waitframe( 1 );
     }

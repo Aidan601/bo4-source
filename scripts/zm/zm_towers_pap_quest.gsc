@@ -68,7 +68,7 @@ function init()
 // Size: 0x3c
 function function_5ad3e281()
 {
-    level flag::wait_till( #"hash_2a7d461c7eff8179" );
+    level flag::wait_till( #"pap_quest_started" );
     changeadvertisedstatus( 0 );
 }
 
@@ -98,12 +98,12 @@ function function_a7faeaaf()
 function function_90a833e2()
 {
     level flag::init( #"pap_disabled" );
-    level flag::init( #"hash_2a7d461c7eff8179" );
+    level flag::init( #"pap_quest_started" );
     level flag::init( #"hash_798d51388d6e10f4" );
-    level flag::init( #"hash_18134dc5b9b39a96" );
-    level flag::init( #"hash_582eea77824b014d" );
-    level flag::init( #"hash_5cc500f9282cd290" );
-    level flag::init( #"hash_20c64c155f7a0065" );
+    level flag::init( #"pap_quest_danu_encounter_started" );
+    level flag::init( #"pap_quest_ra_encounter_started" );
+    level flag::init( #"pap_quest_odin_encounter_started" );
+    level flag::init( #"pap_quest_zeus_encounter_started" );
     level flag::init( #"hash_589679a12150767a" );
     level flag::init( #"hash_4abb12b14a38d2e9" );
     level flag::init( #"hash_15f5946d4968f144" );
@@ -198,7 +198,7 @@ function pap_quest_init( var_5ea5c94d )
     level zm_ui_inventory::function_7df6bb60( #"hash_4fce42c559430ff9", 1 );
     level zm_ui_inventory::function_7df6bb60( #"hash_6257a73f22800e57", 1 );
     level zm_ui_inventory::function_7df6bb60( #"hash_61f69ed4cbd8f2f5", 1 );
-    level zm_ui_inventory::function_7df6bb60( #"hash_5114ed99a6bad03b", 1 );
+    level zm_ui_inventory::function_7df6bb60( #"zm_towers_pap_quest_tiger_head", 1 );
     
     if ( !var_5ea5c94d )
     {
@@ -215,22 +215,22 @@ function pap_quest_init( var_5ea5c94d )
 // Size: 0x1a4
 function function_18b39e14()
 {
-    if ( level flag::get( #"hash_18134dc5b9b39a96" ) && !level flag::get( #"hash_589679a12150767a" ) )
+    if ( level flag::get( #"pap_quest_danu_encounter_started" ) && !level flag::get( #"hash_589679a12150767a" ) )
     {
         function_3effad88( #"danu" );
     }
     
-    if ( level flag::get( #"hash_582eea77824b014d" ) && !level flag::get( #"hash_4abb12b14a38d2e9" ) )
+    if ( level flag::get( #"pap_quest_ra_encounter_started" ) && !level flag::get( #"hash_4abb12b14a38d2e9" ) )
     {
         function_3effad88( #"ra" );
     }
     
-    if ( level flag::get( #"hash_5cc500f9282cd290" ) && !level flag::get( #"hash_15f5946d4968f144" ) )
+    if ( level flag::get( #"pap_quest_odin_encounter_started" ) && !level flag::get( #"hash_15f5946d4968f144" ) )
     {
         function_3effad88( #"odin" );
     }
     
-    if ( level flag::get( #"hash_20c64c155f7a0065" ) && !level flag::get( #"hash_355567a6fa6d44d1" ) )
+    if ( level flag::get( #"pap_quest_zeus_encounter_started" ) && !level flag::get( #"hash_355567a6fa6d44d1" ) )
     {
         function_3effad88( #"zeus" );
     }
@@ -248,19 +248,19 @@ function private function_3effad88( str_tower )
     {
         case #"danu":
             var_e362d075 = getent( "t_pap_quest_danu_encounter", "targetname" );
-            level flag::clear( #"hash_18134dc5b9b39a96" );
+            level flag::clear( #"pap_quest_danu_encounter_started" );
             break;
         case #"ra":
             var_e362d075 = getent( "t_pap_quest_ra_encounter", "targetname" );
-            level flag::clear( #"hash_582eea77824b014d" );
+            level flag::clear( #"pap_quest_ra_encounter_started" );
             break;
         case #"odin":
             var_e362d075 = getent( "t_pap_quest_odin_encounter", "targetname" );
-            level flag::clear( #"hash_5cc500f9282cd290" );
+            level flag::clear( #"pap_quest_odin_encounter_started" );
             break;
         case #"zeus":
             var_e362d075 = getent( "t_pap_quest_zeus_encounter", "targetname" );
-            level flag::clear( #"hash_20c64c155f7a0065" );
+            level flag::clear( #"pap_quest_zeus_encounter_started" );
             break;
     }
     
@@ -277,10 +277,10 @@ function private function_3effad88( str_tower )
 function pap_quest_restart()
 {
     level notify( #"pap_quest_restart" );
-    level flag::clear( #"hash_18134dc5b9b39a96" );
-    level flag::clear( #"hash_582eea77824b014d" );
-    level flag::clear( #"hash_5cc500f9282cd290" );
-    level flag::clear( #"hash_20c64c155f7a0065" );
+    level flag::clear( #"pap_quest_danu_encounter_started" );
+    level flag::clear( #"pap_quest_ra_encounter_started" );
+    level flag::clear( #"pap_quest_odin_encounter_started" );
+    level flag::clear( #"pap_quest_zeus_encounter_started" );
     level flag::clear( #"hash_589679a12150767a" );
     level flag::clear( #"hash_4abb12b14a38d2e9" );
     level flag::clear( #"hash_15f5946d4968f144" );
@@ -325,7 +325,7 @@ function pap_quest_restart()
     level zm_ui_inventory::function_7df6bb60( #"hash_4fce42c559430ff9", 1 );
     level zm_ui_inventory::function_7df6bb60( #"hash_6257a73f22800e57", 1 );
     level zm_ui_inventory::function_7df6bb60( #"hash_61f69ed4cbd8f2f5", 1 );
-    level zm_ui_inventory::function_7df6bb60( #"hash_5114ed99a6bad03b", 1 );
+    level zm_ui_inventory::function_7df6bb60( #"zm_towers_pap_quest_tiger_head", 1 );
     
     if ( isdefined( level.var_9ca6160c ) )
     {
@@ -359,10 +359,10 @@ function function_97e78811( var_5ea5c94d, ended_early )
 {
     if ( var_5ea5c94d || ended_early )
     {
-        level flag::set( #"hash_18134dc5b9b39a96" );
-        level flag::set( #"hash_582eea77824b014d" );
-        level flag::set( #"hash_5cc500f9282cd290" );
-        level flag::set( #"hash_20c64c155f7a0065" );
+        level flag::set( #"pap_quest_danu_encounter_started" );
+        level flag::set( #"pap_quest_ra_encounter_started" );
+        level flag::set( #"pap_quest_odin_encounter_started" );
+        level flag::set( #"pap_quest_zeus_encounter_started" );
         level flag::set( #"hash_589679a12150767a" );
         level flag::set( #"hash_4abb12b14a38d2e9" );
         level flag::set( #"hash_15f5946d4968f144" );
@@ -391,7 +391,7 @@ function function_199b1814( str_tower, str_encounter )
     {
         case #"danu":
             str_trigger = "t_pap_quest_danu_encounter";
-            var_31e5b512 = #"hash_18134dc5b9b39a96";
+            var_31e5b512 = #"pap_quest_danu_encounter_started";
             var_def2a519 = #"hash_589679a12150767a";
             level.var_58e06b5b = str_encounter;
             var_33a5ad52 = struct::get_array( "s_pap_encounter_scenes_danu_destroyer" );
@@ -401,7 +401,7 @@ function function_199b1814( str_tower, str_encounter )
             break;
         case #"ra":
             str_trigger = "t_pap_quest_ra_encounter";
-            var_31e5b512 = #"hash_582eea77824b014d";
+            var_31e5b512 = #"pap_quest_ra_encounter_started";
             var_def2a519 = #"hash_4abb12b14a38d2e9";
             level.var_b941799e = str_encounter;
             var_33a5ad52 = struct::get_array( "s_pap_encounter_scenes_ra_destroyer" );
@@ -411,7 +411,7 @@ function function_199b1814( str_tower, str_encounter )
             break;
         case #"odin":
             str_trigger = "t_pap_quest_odin_encounter";
-            var_31e5b512 = #"hash_5cc500f9282cd290";
+            var_31e5b512 = #"pap_quest_odin_encounter_started";
             var_def2a519 = #"hash_15f5946d4968f144";
             level.var_34bb868f = str_encounter;
             var_33a5ad52 = struct::get_array( "s_pap_encounter_scenes_odin_destroyer" );
@@ -421,7 +421,7 @@ function function_199b1814( str_tower, str_encounter )
             break;
         case #"zeus":
             str_trigger = "t_pap_quest_zeus_encounter";
-            var_31e5b512 = #"hash_20c64c155f7a0065";
+            var_31e5b512 = #"pap_quest_zeus_encounter_started";
             var_def2a519 = #"hash_355567a6fa6d44d1";
             level.var_c90f6df9 = str_encounter;
             var_33a5ad52 = struct::get_array( "s_pap_encounter_scenes_zeus_destroyer" );
@@ -450,7 +450,7 @@ function function_199b1814( str_tower, str_encounter )
         }
     }
     
-    level flag::set( #"hash_2a7d461c7eff8179" );
+    level flag::set( #"pap_quest_started" );
     level flag::set( var_31e5b512 );
     level flag::set( #"hash_798d51388d6e10f4" );
     
@@ -459,22 +459,22 @@ function function_199b1814( str_tower, str_encounter )
         case #"danu":
             str_encounter = level.var_58e06b5b;
             str_exploder = "fxexp_gong_danu";
-            var_38e7a8be = #"hash_18134dc5b9b39a96";
+            var_38e7a8be = #"pap_quest_danu_encounter_started";
             break;
         case #"ra":
             str_encounter = level.var_b941799e;
             str_exploder = "fxexp_gong_ra";
-            var_38e7a8be = #"hash_582eea77824b014d";
+            var_38e7a8be = #"pap_quest_ra_encounter_started";
             break;
         case #"odin":
             str_encounter = level.var_34bb868f;
             str_exploder = "fxexp_gong_odin";
-            var_38e7a8be = #"hash_5cc500f9282cd290";
+            var_38e7a8be = #"pap_quest_odin_encounter_started";
             break;
         case #"zeus":
             str_encounter = level.var_c90f6df9;
             str_exploder = "fxexp_gong_zeus";
-            var_38e7a8be = #"hash_20c64c155f7a0065";
+            var_38e7a8be = #"pap_quest_zeus_encounter_started";
             break;
     }
     
@@ -657,7 +657,7 @@ function function_199b1814( str_tower, str_encounter )
         }
     }
     
-    s_waitresult = level waittill( #"hash_2ea1048758a3ff14" );
+    s_waitresult = level waittill( #"pap_quest_drop_head" );
     v_origin = s_waitresult.v_origin;
     var_7246d429 = s_waitresult.var_7246d429;
     str_archetype = s_waitresult.str_archetype;
@@ -792,7 +792,7 @@ function function_9ec8ec89()
     if ( level.var_4629a597 >= level.var_5c51cf1a )
     {
         self thread zm_towers_util::function_ae1b4f5b( 100, 75, 75 );
-        level notify( #"hash_2ea1048758a3ff14", { #v_origin:v_origin, #var_7246d429:var_7246d429, #str_archetype:str_archetype, #var_1e137cec:var_1e137cec } );
+        level notify( #"pap_quest_drop_head", { #v_origin:v_origin, #var_7246d429:var_7246d429, #str_archetype:str_archetype, #var_1e137cec:var_1e137cec } );
     }
 }
 
@@ -853,13 +853,13 @@ function drop_head( v_origin, str_tower, var_5570d8de )
     switch ( str_encounter )
     {
         case #"destroyer":
-            str_head = #"hash_7c166ef26a8ce946";
+            str_head = #"c_t8_zmb_dlc0_zombie_destroyer_head_decapitated";
             break;
         case #"marauder":
             str_head = #"c_t8_zmb_dlc0_zombie_marauder_decapitated_head1";
             break;
         case #"tigers":
-            str_head = #"hash_7046550bbfeaf740";
+            str_head = #"c_t8_zmb_dlc0_tiger_head1_decapitated";
             break;
     }
     
@@ -971,7 +971,7 @@ function function_499b080d( str_tower, str_encounter )
         e_player zm_score::add_to_player_score( 500 * n_scalar );
     }
     
-    playsoundatposition( #"hash_f35db774de79d2", self.origin );
+    playsoundatposition( #"evt_head_pickup", self.origin );
     
     if ( isdefined( level.var_9ca6160c ) && isinarray( level.var_9ca6160c, self ) )
     {
@@ -1108,7 +1108,7 @@ function function_9b320791()
     str_notify = self.var_427eb1ae;
     level waittill( str_notify );
     self thread fx::play( "fx_challenge_head_blood_burst", self getcentroid(), undefined, undefined, 1, undefined, 1, 0 );
-    self notify( #"hash_691806c47ba12fac" );
+    self notify( #"fx_stop_blood_drips" );
     self hide();
 }
 
@@ -1255,7 +1255,7 @@ function function_f3c4aeac()
     {
         case #"destroyer":
             str_fx_tag = undefined;
-            self setmodel( #"hash_7c166ef26a8ce946" );
+            self setmodel( #"c_t8_zmb_dlc0_zombie_destroyer_head_decapitated" );
             break;
         case #"marauder":
             str_fx_tag = undefined;
@@ -1263,14 +1263,14 @@ function function_f3c4aeac()
             break;
         case #"tigers":
             str_fx_tag = undefined;
-            self setmodel( #"hash_7046550bbfeaf740" );
+            self setmodel( #"c_t8_zmb_dlc0_tiger_head1_decapitated" );
             break;
     }
     
     self show();
     self playsound( #"hash_3d7066af9c9bf849" );
     self thread fx::play( "fx_challenge_head_blood_burst", self getcentroid(), undefined, undefined, 1, undefined, 1, 0 );
-    self thread fx::play( "fx_challenge_head_blood_drips", self getcentroid(), undefined, #"hash_691806c47ba12fac", 1, str_fx_tag, 1, 0 );
+    self thread fx::play( "fx_challenge_head_blood_drips", self getcentroid(), undefined, #"fx_stop_blood_drips", 1, str_fx_tag, 1, 0 );
 }
 
 // Namespace zm_towers_pap_quest/zm_towers_pap_quest
@@ -1316,7 +1316,7 @@ function function_1191a919( str_encounter )
             str_clientfield = #"hash_61f69ed4cbd8f2f5";
             break;
         case #"tigers":
-            str_clientfield = #"hash_5114ed99a6bad03b";
+            str_clientfield = #"zm_towers_pap_quest_tiger_head";
             break;
         default:
             str_encounter = get_encounter( str_encounter );
@@ -1378,22 +1378,22 @@ function function_d7c092b9()
         switch ( str_head )
         {
             case #"danu":
-                var_31e5b512 = #"hash_18134dc5b9b39a96";
+                var_31e5b512 = #"pap_quest_danu_encounter_started";
                 var_def2a519 = #"hash_589679a12150767a";
                 var_ce6f7a4c = #"hash_3d833ecc64915d8d";
                 break;
             case #"ra":
-                var_31e5b512 = #"hash_582eea77824b014d";
+                var_31e5b512 = #"pap_quest_ra_encounter_started";
                 var_def2a519 = #"hash_4abb12b14a38d2e9";
                 var_ce6f7a4c = #"hash_d38ff215be3a4fc";
                 break;
             case #"odin":
-                var_31e5b512 = #"hash_5cc500f9282cd290";
+                var_31e5b512 = #"pap_quest_odin_encounter_started";
                 var_def2a519 = #"hash_15f5946d4968f144";
                 var_ce6f7a4c = #"hash_4142472dec557d03";
                 break;
             case #"zeus":
-                var_31e5b512 = #"hash_20c64c155f7a0065";
+                var_31e5b512 = #"pap_quest_zeus_encounter_started";
                 var_def2a519 = #"hash_355567a6fa6d44d1";
                 var_ce6f7a4c = #"hash_45b6b1ee5d5038b4";
                 break;
@@ -1405,7 +1405,7 @@ function function_d7c092b9()
                 return;
         }
         
-        level flag::set( #"hash_2a7d461c7eff8179" );
+        level flag::set( #"pap_quest_started" );
         
         if ( level flag::get( #"hash_2cf71ce4a3d1c081" ) || level flag::get( var_31e5b512 ) )
         {

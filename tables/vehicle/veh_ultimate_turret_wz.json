@@ -29,11 +29,11 @@
     "skidSpeedMin": 100,
     "skidSpeedMax": 600,
     "peelSpeedMax": 600,
-    "futzName": "#hash_45fb162abe4d4c98",
+    "futzName": "#mpl_quad_pov",
     "model": "#hash_31771af97bf3d0d5",
     "soundDef": "#veh_drn_qrdrone_mp",
     "compassIconMaterial": "#compass_turret_white",
-    "destructibleDef": "#hash_6d3d542cb4745c53",
+    "destructibleDef": "#veh_t8_turret_mini_destructible_wz",
     "steerAxisName": "AXIS_RSTICK",
     "gasAxisName": "AXIS_LSTICK",
     "attackButtonName": "BUTTON_RTRIG",
@@ -42,6 +42,6 @@
     "unk1618": "BUTTON_LSHLDR",
     "bundle": {
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

@@ -10,14 +10,14 @@
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#ww_p1_1"
                 },
                 {
                     "stages": [
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_ddb2c2c839efd70"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_werewolf_chaos_drop"
                         },
                         {
                             "numneeded": 1,
@@ -25,7 +25,7 @@
                         }
                     ],
                     "list_stages": 2,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#ww_p1_2"
                 }
             ],
@@ -41,14 +41,14 @@
                         }
                     ],
                     "list_stages": 1,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#ww_p2_1"
                 },
                 {
                     "stages": [
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_2834403e8c3ad7ba"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_nosferatu_chaos_drop"
                         },
                         {
                             "numneeded": 1,
@@ -56,7 +56,7 @@
                         }
                     ],
                     "list_stages": 2,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#ww_p2_2"
                 },
                 {
@@ -75,7 +75,7 @@
                         },
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_35e255d23e4c7a42"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_nosferatu_humanoid_chaos_drop"
                         },
                         {
                             "numneeded": 1,
@@ -83,7 +83,7 @@
                         }
                     ],
                     "list_stages": 5,
-                    "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                    "ispersonalitem": 0,
                     "clientfield": "#ww_p2_3"
                 }
             ],
@@ -142,17 +142,17 @@
     ],
     "shieldpieces": [
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_bf20c4b3a86ce4f",
             "clientfield": "#shield_1"
         },
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_bf20d4b3a86d002",
             "clientfield": "#shield_3"
         },
         {
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "pieceimage": "image#hash_bf20e4b3a86d1b5",
             "clientfield": "#shield_2"
         }
@@ -172,7 +172,7 @@
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#hash_379a0cb8e272c259"
                         },
                         {
@@ -185,7 +185,7 @@
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#hash_379a09b8e272bd40"
                         },
                         {
@@ -198,14 +198,14 @@
                                 }
                             ],
                             "list_stages": 2,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+                            "ispersonalitem": 0,
                             "clientfield": "#hash_379a0ab8e272bef3"
                         }
                     ],
                     "list_items": 3
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "list_phases": 1,
             "name": "trap plasma"
         },
@@ -220,8 +220,8 @@
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                            "clientfield": "#hash_247c6c73bebc1022"
+                            "ispersonalitem": 0,
+                            "clientfield": "#q_silver_bullets_1"
                         },
                         {
                             "stages": [
@@ -230,8 +230,8 @@
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                            "clientfield": "#hash_247c6b73bebc0e6f"
+                            "ispersonalitem": 0,
+                            "clientfield": "#q_silver_bullets_2"
                         },
                         {
                             "stages": [
@@ -240,8 +240,8 @@
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                            "clientfield": "#hash_247c6a73bebc0cbc"
+                            "ispersonalitem": 0,
+                            "clientfield": "#q_silver_bullets_3"
                         }
                     ],
                     "list_items": 3
@@ -255,17 +255,17 @@
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                            "clientfield": "#hash_4cfdc97536e8c1ad"
+                            "ispersonalitem": 0,
+                            "clientfield": "#q_silver_bullets_p2_1"
                         }
                     ],
                     "list_items": 1
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "list_phases": 2,
             "name": "special ammo",
-            "hash_629ce50b0115bfc1:hash_a0ebe517": "#hash_26da6ef83af4ba62"
+            "hash_629ce50b0115bfc1:hash_a0ebe517": "#q_silver_bullets_phase"
         },
         {
             "phases": [
@@ -274,22 +274,22 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_18b24a1d1fe6d1d8"
+                                    "stageimage": "image#ui_icon_zm_inventory_dlc1_man_charcoal_fireplace"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                            "clientfield": "#hash_7965886c1a11312f"
+                            "ispersonalitem": 0,
+                            "clientfield": "#q_silver_bullets_chems_1"
                         },
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_6fba75d0f0f2f3f3"
+                                    "stageimage": "image#ui_icon_zm_inventory_dlc1_bat_guano_pile"
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                            "clientfield": "#hash_7965896c1a1132e2"
+                            "ispersonalitem": 0,
+                            "clientfield": "#q_silver_bullets_chems_2"
                         },
                         {
                             "stages": [
@@ -298,14 +298,14 @@
                                 }
                             ],
                             "list_stages": 1,
-                            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
-                            "clientfield": "#hash_79658a6c1a113495"
+                            "ispersonalitem": 0,
+                            "clientfield": "#q_silver_bullets_chems_3"
                         }
                     ],
                     "list_items": 3
                 }
             ],
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "list_phases": 1,
             "name": "special ammo ingredients"
         }
@@ -323,7 +323,7 @@
                 }
             ],
             "list_stages": 1,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "clientfield": "#pap_1"
         },
         {
@@ -333,7 +333,7 @@
                 }
             ],
             "list_stages": 1,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "clientfield": "#pap_2"
         },
         {
@@ -343,14 +343,14 @@
                 }
             ],
             "list_stages": 1,
-            "hash_3f4bf8262e8164fe:hash_7db3435c": 0,
+            "ispersonalitem": 0,
             "clientfield": "#pap_3"
         }
     ],
-    "objectivebackground": "image#hash_3f90f155c7e4e6d2",
-    "hash_e8d706937d44455:hash_b79de608": 12,
+    "objectivebackground": "image#ui_icon_zm_inventory_dlc1_man_artifact_sentinel",
+    "list_objnonlinearprogitems": 12,
     "configstringfiletype": "scriptbundle",
-    "hash_18f4a9668000591d:hash_aa76b7dd": 1,
+    "list_objprogitems": 1,
     "hash_1dd088b99b7444ff:hash_3e38620e": 0,
     "list_quests": 3,
     "type": "zminventory",
@@ -358,8 +358,8 @@
     "hash_3f9ea9d3b1ed0e8f:hash_b10f2611": "#ww_phase",
     "name": "zm_inventory_mansion",
     "hash_4a28bffb41f0ab0a:hash_88c17f11": "#sentinel_artifact",
-    "hash_4cc5530197ae7206:hash_a05daa90": 3,
-    "hash_55c625aa7c011e55:hash_c029b82f": 2,
+    "list_packapunchitems": 3,
+    "list_wonderweaponphases": 2,
     "hash_65b46d8804cb3bba:hash_f3d39d90": 0,
-    "hash_6ef84b6e3c25015d:hash_38b9613": 1
+    "isobjprogressnonlinear": 1
 }

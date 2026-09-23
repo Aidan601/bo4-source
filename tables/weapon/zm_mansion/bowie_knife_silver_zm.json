@@ -2,7 +2,7 @@
     "name": "#bowie_knife_silver_zm",
     "baseWeapon": "#bowie_knife_silver",
     "displayname": "#zmweapon/bowie",
-    "xhash_60": "#hash_15ed4cc1acafbdb4",
+    "xhash_60": "#au_bowie_knife",
     "weapon70": "#bowie_knife",
     "soundbank": "#bowie_knife_silver_soundbank",
     "scrstr_8c8": [
@@ -34,8 +34,8 @@
     "#hash_2cf49821": false,
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
-    "sound240": "#hash_631a067190b54300",
-    "sound250": "#hash_242aa17124751841",
+    "sound240": "#wpn_generic_dryfire_npc",
+    "sound250": "#wpn_generic_dryfire_plr",
     "tunables1": "#bowie_knife_tunables_zm",
     "weaponCamo": "#hash_d11c3f983cd01165",
     "attachments": [
@@ -46,10 +46,10 @@
     ],
     "sharedWeaponSounds": "#bowie",
     "viewmodel": [
-        "#hash_5a9293c1a2670504"
+        "#wpn_t8_zm_knife_bowie_silver_view"
     ],
     "worldModel": [
-        "#hash_44875db930e83a9f"
+        "#wpn_t8_zm_knife_bowie_silver_world"
     ],
     "inventoryIconZm": "#ui_icon_weapons_zm_bowie",
     "meleeImpactRumble": "#defaultweapon_melee",

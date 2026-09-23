@@ -1,12 +1,12 @@
 {
-    "name": "#hash_19b22ba9754a707c",
+    "name": "#loot_emote_exotic_shared_rubiks",
     "type": "#gesture",
-    "gesture": "#hash_3c64240630a60b0d",
-    "gesture2": "#hash_11db0ef8a90a26c6",
+    "gesture": "#boast_rubiks",
+    "gesture2": "#boast_rubiks_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_6e1395c1accfb12",
-        "icon": "image#hash_3852a21167e01508",
+        "title": "localized18#emotes/nub",
+        "icon": "image#ui_icon_emotes_s2_rubiks",
         "isdefault": 0
     }
 }

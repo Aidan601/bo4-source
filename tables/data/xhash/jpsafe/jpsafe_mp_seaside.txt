@@ -87,7 +87,7 @@ hash_f6262face5300a13
 hash_f745323b9cdbbff2
 hash_f82fbbc4ddd2f5fe
 hash_7d8c463f3f36371e
-hash_1fed4ee02219f0e
+mc/lit#b2feb90f
 hash_220b877408d0569f
 hash_a7942a98886e337
 hash_5096af39efd81b1a
@@ -239,7 +239,7 @@ mc/mtl_c_t8_zmb_blightfather_torso
 hash_8f01b40e87c365a
 hash_8f70740e882330c
 mc/mtl_c_t8_zmb_gib_gore_punchblood
-hash_1160eeae38067f86
+mc/mtl_c_t8_zmb_male_torso1_graphic
 hash_17356bbc5ac5f583
 mc/mtl_c_t8_zmb_eyes
 hash_9ad43f68bfe23089

@@ -13,7 +13,7 @@
     "scriptBundleSettings": "#rcxdsettings_mp",
     "deathFx": "#hash_59174ad01884a794",
     "deathFxTag": "tag_body",
-    "deathFxSound": "#hash_2d5cdc03d392d5ec",
+    "deathFxSound": "#mpl_veh_recon_exp",
     "sndMaterialNames": [
         "#hash_268ebbfd586fc64f",
         "#hash_34321daed8ad643a",
@@ -35,45 +35,45 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_79d336e3dd657b0a",
+                        "displaystring": "localized17#menu/hud_vehicle_speedboost",
                         "buttondirection": "left",
                         "prompt": "+breath_sprint"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_7280cf21dcaf1f18",
+                        "displaystring": "localized17#menu/hud_vehicle_jump",
                         "buttondirection": "left",
                         "prompt": "+gostand"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5627dec5036bc76c",
+                        "displaystring": "localized17#menu/hud_vehicle_detonate",
                         "buttondirection": "right",
                         "prompt": "+attack"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5dba026ffa1d58cd",
+                        "displaystring": "localized17#menu/hud_vehicle_steer",
                         "buttondirection": "right",
                         "prompt": "+lookstick"
                     }
                 ],
                 "widgets": [
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 0
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 10
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VHUD_HCXD",
@@ -82,6 +82,6 @@
             }
         ],
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

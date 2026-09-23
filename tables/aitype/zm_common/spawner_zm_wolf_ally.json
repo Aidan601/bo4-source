@@ -18,17 +18,17 @@
         "#character_sp_direwolf"
     ],
     "animMappingTables": [
-        "#hash_599a1630e234ef1b"
+        "#zm_wolf_ally.ai_am"
     ],
-    "meleeWeapon": "#hash_3dfb86de416b5192",
+    "meleeWeapon": "#wolf_ally_defaultmelee_zm",
     "aimTable": "#soldier_aim",
     "footstepTable": "#zdogfootstep",
     "footstepScriptCallback": false,
     "footstepFXTable1": "#zm_wolf_footstep",
     "footstepFXTable2": "#zm_wolf_footstep",
-    "behaviorTree": "#hash_59a40f30e23d37bb",
-    "animStateMachine": "#hash_758607105fbefa38",
-    "animSelectorTable": "#hash_758610105fbf0983",
+    "behaviorTree": "#zm_wolf_ally.ai_bt",
+    "animStateMachine": "#zm_wolf_ally.ai_asm",
+    "animSelectorTable": "#zm_wolf_ally.ai_ast",
     "traversalExtents": "#default_traversal_extents_zm",
     "aiFxBundle": "#fxb8_zm_char_wolf",
     "aiSettingsBundle": "#zm_wolf_ally_settings",

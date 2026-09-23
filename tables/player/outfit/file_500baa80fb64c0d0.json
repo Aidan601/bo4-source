@@ -1,11 +1,11 @@
 {
-    "name": "#hash_500baa80fb64c0d0",
+    "name": "#po_c_t8_mp_spe_battery_apocalypse",
     "desc": "#hash_727601b6cb7e4a46",
     "unk10": "[32h0x4=][ll0x0=1][f0x0=1.4013e-45][f0x4=0] 01 00 00 00 00 00 00 00",
     "unk30": "[ll0x0=100000001][f0x0=1.4013e-45][f0x4=1.4013e-45] 01 00 00 00 01 00 00 00",
     "unk68": [
         {
-            "desc": "#hash_2219d2672d506c37",
+            "desc": "#heroes/outfit_default",
             "unk68:unk10": true,
             "model": "#c_t8_mp_spe_battery_apocalypse_head1",
             "unk68:unk48": [

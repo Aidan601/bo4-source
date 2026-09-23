@@ -1,12 +1,12 @@
 {
     "name": "#hash_28c051f377bb0382",
     "type": "#gesture",
-    "gesture": "#hash_42603da009f3025a",
-    "gesture2": "#hash_7f501a173bac2a95",
+    "gesture": "#boast_mobile_ops",
+    "gesture2": "#boast_mobile_ops_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_25b6486c12741b4c",
-        "icon": "image#hash_4700cc7956b0c4bf",
+        "title": "localized18#emotes/mobile_ops",
+        "icon": "image#ui_icon_emotes_s2_mobile_ops",
         "isdefault": 0
     }
 }

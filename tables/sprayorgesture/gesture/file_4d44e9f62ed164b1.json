@@ -1,12 +1,12 @@
 {
-    "name": "#hash_4d44e9f62ed164b1",
+    "name": "#loot_emote_exotic_shared_raving_dance",
     "type": "#gesture",
-    "gesture": "#hash_7699246b62edb5c0",
-    "gesture2": "#hash_158afc35dc80ca3d",
+    "gesture": "#boast_raving_dance",
+    "gesture2": "#boast_zero_dance",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_3675b6da4414dca4",
-        "icon": "image#hash_c34faab099f7d22",
+        "icon": "image#ui_icon_emotes_ravingdance",
         "isdefault": 0
     }
 }

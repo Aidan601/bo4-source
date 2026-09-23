@@ -663,7 +663,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3525e9f6333b2c9a",
+                    "value": "#amb_wind_edge",
                     "unk1a": true
                 },
                 {
@@ -783,7 +783,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3525e9f6333b2c9a",
+                    "value": "#amb_wind_edge",
                     "unk1a": true
                 },
                 {
@@ -951,7 +951,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3525e9f6333b2c9a",
+                    "value": "#amb_wind_edge",
                     "unk1a": true
                 },
                 {
@@ -1023,7 +1023,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3525e9f6333b2c9a",
+                    "value": "#amb_wind_edge",
                     "unk1a": true
                 },
                 {
@@ -1137,7 +1137,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_75ea2c5eebb9be78",
+                    "value": "#amb_metal_creak_large",
                     "unk1a": true
                 },
                 {
@@ -2727,7 +2727,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_37e7ed351cad83ed",
+                    "value": "#amb_vehicle_fire",
                     "unk1a": true
                 },
                 {
@@ -2799,7 +2799,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_2374094a7af4988c",
+                    "value": "#amb_vehicle_fire_2",
                     "unk1a": true
                 },
                 {
@@ -2871,7 +2871,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_23740a4a7af49a3f",
+                    "value": "#amb_vehicle_fire_3",
                     "unk1a": true
                 },
                 {
@@ -2943,7 +2943,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3525e9f6333b2c9a",
+                    "value": "#amb_wind_edge",
                     "unk1a": true
                 },
                 {
@@ -3057,7 +3057,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -3129,7 +3129,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -3201,7 +3201,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -3279,7 +3279,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_525fcdb9d32bbc99",
+                    "value": "#amb_fire_med",
                     "unk1a": true
                 },
                 {
@@ -3351,7 +3351,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_37e7ed351cad83ed",
+                    "value": "#amb_vehicle_fire",
                     "unk1a": true
                 },
                 {
@@ -3423,7 +3423,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_2374094a7af4988c",
+                    "value": "#amb_vehicle_fire_2",
                     "unk1a": true
                 },
                 {
@@ -3495,7 +3495,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_140ca45479a2a563",
+                    "value": "#amb_truck_radio",
                     "unk1a": true
                 },
                 {
@@ -3561,7 +3561,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -3633,7 +3633,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -3705,7 +3705,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -3777,7 +3777,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -3849,7 +3849,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -3921,7 +3921,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -4209,7 +4209,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -4281,7 +4281,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -4431,7 +4431,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_42f163710f199e69",
+                    "value": "#amb_wind_gust_flagpole",
                     "unk1a": true
                 },
                 {
@@ -4503,7 +4503,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6e89d3c73edef586",
+                    "value": "#amb_lovesong_for_a_deadman_futz",
                     "unk1a": true
                 },
                 {
@@ -4575,7 +4575,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_4f19b2ed740a1fc",
+                    "value": "#amb_sprinkler_small",
                     "unk1a": true
                 },
                 {
@@ -4647,7 +4647,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_4f19b2ed740a1fc",
+                    "value": "#amb_sprinkler_small",
                     "unk1a": true
                 },
                 {
@@ -4719,7 +4719,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_4f19b2ed740a1fc",
+                    "value": "#amb_sprinkler_small",
                     "unk1a": true
                 },
                 {
@@ -4857,7 +4857,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_6342d72799a53b68",
+                    "value": "#amb_wind_gust_foliage",
                     "unk1a": true
                 },
                 {
@@ -5007,7 +5007,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_77144bc21f51c75a",
+                    "value": "#amb_comp_mainframe",
                     "unk1a": true
                 },
                 {
@@ -5079,7 +5079,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_77144bc21f51c75a",
+                    "value": "#amb_comp_mainframe",
                     "unk1a": true
                 },
                 {
@@ -5151,7 +5151,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_77144bc21f51c75a",
+                    "value": "#amb_comp_mainframe",
                     "unk1a": true
                 },
                 {
@@ -5223,7 +5223,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_77144bc21f51c75a",
+                    "value": "#amb_comp_mainframe",
                     "unk1a": true
                 },
                 {
@@ -5427,7 +5427,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_70a54fb8dcf57b51",
+                    "value": "#amb_rattle_corrugated",
                     "unk1a": true
                 },
                 {
@@ -5691,7 +5691,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_70a54fb8dcf57b51",
+                    "value": "#amb_rattle_corrugated",
                     "unk1a": true
                 },
                 {
@@ -5763,7 +5763,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_5871e3579b97dd8e",
+                    "value": "#amb_avogadro_tv",
                     "unk1a": true
                 },
                 {
@@ -113263,7 +113263,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_170e27702dad22c1"
+                    "value": "#p8_zm_whi_fuse_pickup_fluid_orange_half"
                 },
                 {
                     "key": "origin",
@@ -113327,7 +113327,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_170e27702dad22c1"
+                    "value": "#p8_zm_whi_fuse_pickup_fluid_orange_half"
                 },
                 {
                     "key": "objectid",
@@ -113450,7 +113450,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_170e27702dad22c1"
+                    "value": "#p8_zm_whi_fuse_pickup_fluid_orange_half"
                 },
                 {
                     "key": "objectid",
@@ -113573,7 +113573,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_170e27702dad22c1"
+                    "value": "#p8_zm_whi_fuse_pickup_fluid_orange_half"
                 },
                 {
                     "key": "objectid",
@@ -114524,7 +114524,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_79051c58cffee589",
+                    "value": "#amb_ceiling_fan",
                     "unk1a": true
                 },
                 {
@@ -114626,7 +114626,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_79051c58cffee589",
+                    "value": "#amb_ceiling_fan",
                     "unk1a": true
                 },
                 {
@@ -114734,7 +114734,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_79051c58cffee589",
+                    "value": "#amb_ceiling_fan",
                     "unk1a": true
                 },
                 {
@@ -114842,7 +114842,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_79051c58cffee589",
+                    "value": "#amb_ceiling_fan",
                     "unk1a": true
                 },
                 {
@@ -114950,7 +114950,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_79051c58cffee589",
+                    "value": "#amb_ceiling_fan",
                     "unk1a": true
                 },
                 {
@@ -115058,7 +115058,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_79051c58cffee589",
+                    "value": "#amb_ceiling_fan",
                     "unk1a": true
                 },
                 {
@@ -118565,7 +118565,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_65986a2ff0f6398a",
+                    "value": "#p8_zm_whi_pap_console",
                     "unk1a": true
                 },
                 {
@@ -118789,7 +118789,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7fc9efb7298de9b0",
+                    "value": "#p8_zm_whi_door_white_64",
                     "unk1a": true
                 },
                 {
@@ -119225,7 +119225,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7fc9efb7298de9b0",
+                    "value": "#p8_zm_whi_door_white_64",
                     "unk1a": true
                 },
                 {
@@ -119552,7 +119552,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7fc9efb7298de9b0",
+                    "value": "#p8_zm_whi_door_white_64",
                     "unk1a": true
                 },
                 {
@@ -119661,7 +119661,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7fc9efb7298de9b0",
+                    "value": "#p8_zm_whi_door_white_64",
                     "unk1a": true
                 },
                 {
@@ -119770,7 +119770,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7fc9efb7298de9b0",
+                    "value": "#p8_zm_whi_door_white_64",
                     "unk1a": true
                 },
                 {
@@ -120594,7 +120594,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7382543081433e45",
+                    "value": "#p8_zmu_bus_zombie_driver",
                     "unk1a": true
                 },
                 {
@@ -120824,7 +120824,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_4765487c0874dd1e",
+                    "value": "#c_t8_zmb_dlc3_mannequin_female_static_standpose_body",
                     "unk1a": true
                 },
                 {
@@ -120939,7 +120939,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_4765487c0874dd1e",
+                    "value": "#c_t8_zmb_dlc3_mannequin_female_static_standpose_body",
                     "unk1a": true
                 },
                 {
@@ -121266,7 +121266,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7c40a6297a29d7bd",
+                    "value": "#p8_wz_door_01_farm_double",
                     "unk1a": true
                 },
                 {
@@ -121296,7 +121296,7 @@
                 {
                     "key": "prop_model",
                     "type": "xhash",
-                    "value": "#hash_7c40a6297a29d7bd",
+                    "value": "#p8_wz_door_01_farm_double",
                     "unk1a": true
                 },
                 {
@@ -126096,7 +126096,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -126205,7 +126205,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -126320,7 +126320,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -126429,7 +126429,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -126990,7 +126990,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -127104,7 +127104,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -127218,7 +127218,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -127332,7 +127332,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -127446,7 +127446,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -127560,7 +127560,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -127674,7 +127674,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -127788,7 +127788,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -127902,7 +127902,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -128979,7 +128979,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_39aaefdac8c874a7",
+                    "value": "#p8_zm_whi_teleport_part_together",
                     "unk1a": true
                 },
                 {
@@ -130944,7 +130944,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_358b5c0057bec7ab",
+                    "value": "#p8_zm_white_chalk_buy_ar_accurate",
                     "unk1a": true
                 },
                 {
@@ -131814,7 +131814,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7479914abead003e",
+                    "value": "#p8_zm_white_chalk_buy_tr_longburst",
                     "unk1a": true
                 },
                 {
@@ -132575,7 +132575,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_5e5730214e7f6bdb",
+                    "value": "#p8_zm_white_chalk_buy_pistol_burst_zm",
                     "unk1a": true
                 },
                 {
@@ -133118,7 +133118,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_1d1e800a84c72303",
+                    "value": "#p8_zm_white_chalk_wallbuy_smg_fastfire",
                     "unk1a": true
                 },
                 {
@@ -133336,7 +133336,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_799888297e4ef498",
+                    "value": "#p8_zm_whi_decontamination_tube_door_01",
                     "unk1a": true
                 },
                 {
@@ -133557,7 +133557,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_6bd09180c5d45d66",
+                    "value": "#p8_fxanim_zm_whi_timecard_clock_animated_hour_hand",
                     "unk1a": true
                 },
                 {
@@ -133674,7 +133674,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_6bd09180c5d45d66",
+                    "value": "#p8_fxanim_zm_whi_timecard_clock_animated_hour_hand",
                     "unk1a": true
                 },
                 {
@@ -133791,7 +133791,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_6bd09180c5d45d66",
+                    "value": "#p8_fxanim_zm_whi_timecard_clock_animated_hour_hand",
                     "unk1a": true
                 },
                 {
@@ -133908,7 +133908,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_6bd09180c5d45d66",
+                    "value": "#p8_fxanim_zm_whi_timecard_clock_animated_hour_hand",
                     "unk1a": true
                 },
                 {
@@ -134025,7 +134025,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_6bd09180c5d45d66",
+                    "value": "#p8_fxanim_zm_whi_timecard_clock_animated_hour_hand",
                     "unk1a": true
                 },
                 {
@@ -134638,7 +134638,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_6bd09180c5d45d66",
+                    "value": "#p8_fxanim_zm_whi_timecard_clock_animated_hour_hand",
                     "unk1a": true
                 },
                 {
@@ -135828,7 +135828,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_28a456567a5df988",
+                    "value": "#p8_zm_whi_steel_tunnel_door_01",
                     "unk1a": true
                 },
                 {
@@ -136112,7 +136112,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_28a456567a5df988",
+                    "value": "#p8_zm_whi_steel_tunnel_door_01",
                     "unk1a": true
                 },
                 {
@@ -136256,7 +136256,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_1f661dcfa943406e",
+                    "value": "#p8_zm_whi_steel_tunnel_door",
                     "unk1a": true
                 },
                 {
@@ -136400,7 +136400,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_1f661dcfa943406e",
+                    "value": "#p8_zm_whi_steel_tunnel_door",
                     "unk1a": true
                 },
                 {
@@ -136544,7 +136544,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_1f661dcfa943406e",
+                    "value": "#p8_zm_whi_steel_tunnel_door",
                     "unk1a": true
                 },
                 {
@@ -136673,7 +136673,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7e852e44137ef4e6",
+                    "value": "#p8_fxanim_zm_white_mccain_mannequin_full",
                     "unk1a": true
                 },
                 {
@@ -141485,7 +141485,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_5d1d4cf183a83a94",
+                    "value": "#p8_zm_white_code_scrawl",
                     "unk1a": true
                 },
                 {
@@ -141603,7 +141603,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_5d1d4cf183a83a94",
+                    "value": "#p8_zm_white_code_scrawl",
                     "unk1a": true
                 },
                 {
@@ -141722,7 +141722,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_5d1d4cf183a83a94",
+                    "value": "#p8_zm_white_code_scrawl",
                     "unk1a": true
                 },
                 {
@@ -141966,7 +141966,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_38713c0f45862c8d",
+                    "value": "#p8_zm_off_server_component",
                     "unk1a": true
                 },
                 {
@@ -142090,7 +142090,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_1f661dcfa943406e",
+                    "value": "#p8_zm_whi_steel_tunnel_door",
                     "unk1a": true
                 },
                 {
@@ -142234,7 +142234,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_1f661dcfa943406e",
+                    "value": "#p8_zm_whi_steel_tunnel_door",
                     "unk1a": true
                 },
                 {
@@ -142378,7 +142378,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_1f661dcfa943406e",
+                    "value": "#p8_zm_whi_steel_tunnel_door",
                     "unk1a": true
                 },
                 {
@@ -142522,7 +142522,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_1f661dcfa943406e",
+                    "value": "#p8_zm_whi_steel_tunnel_door",
                     "unk1a": true
                 },
                 {
@@ -143299,7 +143299,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_18d789b58ab4c4a9",
+                    "value": "#p8_zm_whi_recording_device",
                     "unk1a": true
                 },
                 {
@@ -143413,7 +143413,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_18d789b58ab4c4a9",
+                    "value": "#p8_zm_whi_recording_device",
                     "unk1a": true
                 },
                 {
@@ -143527,7 +143527,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_18d789b58ab4c4a9",
+                    "value": "#p8_zm_whi_recording_device",
                     "unk1a": true
                 },
                 {
@@ -143641,7 +143641,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_222df21c2c9221f8",
+                    "value": "#p8_zm_off_recorder_vintage_reel_unique",
                     "unk1a": true
                 },
                 {
@@ -143755,7 +143755,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_222df21c2c9221f8",
+                    "value": "#p8_zm_off_recorder_vintage_reel_unique",
                     "unk1a": true
                 },
                 {
@@ -143869,7 +143869,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_222df21c2c9221f8",
+                    "value": "#p8_zm_off_recorder_vintage_reel_unique",
                     "unk1a": true
                 },
                 {
@@ -143983,7 +143983,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_222df21c2c9221f8",
+                    "value": "#p8_zm_off_recorder_vintage_reel_unique",
                     "unk1a": true
                 },
                 {
@@ -144097,7 +144097,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_222df21c2c9221f8",
+                    "value": "#p8_zm_off_recorder_vintage_reel_unique",
                     "unk1a": true
                 },
                 {
@@ -144211,7 +144211,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_47be22122b58f84",
+                    "value": "#p8_zm_whi_punch_card",
                     "unk1a": true
                 },
                 {
@@ -144435,7 +144435,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_47be22122b58f84",
+                    "value": "#p8_zm_whi_punch_card",
                     "unk1a": true
                 },
                 {
@@ -144549,7 +144549,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_47be22122b58f84",
+                    "value": "#p8_zm_whi_punch_card",
                     "unk1a": true
                 },
                 {
@@ -144663,7 +144663,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_47be22122b58f84",
+                    "value": "#p8_zm_whi_punch_card",
                     "unk1a": true
                 },
                 {
@@ -144777,7 +144777,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_47be22122b58f84",
+                    "value": "#p8_zm_whi_punch_card",
                     "unk1a": true
                 },
                 {
@@ -144891,7 +144891,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_47be22122b58f84",
+                    "value": "#p8_zm_whi_punch_card",
                     "unk1a": true
                 },
                 {
@@ -145754,7 +145754,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_15a0774eca1bb13b",
+                    "value": "#p8_zm_white_computer_system_face",
                     "unk1a": true
                 },
                 {
@@ -146194,7 +146194,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_26e52907c90b020e",
+                    "value": "#p8_zm_whi_desk_wood_drawer",
                     "unk1a": true
                 },
                 {
@@ -146418,7 +146418,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_457b45841ddf5a20",
+                    "value": "#p8_zm_white_code_type",
                     "unk1a": true
                 },
                 {
@@ -146532,7 +146532,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_457b45841ddf5a20",
+                    "value": "#p8_zm_white_code_type",
                     "unk1a": true
                 },
                 {
@@ -146646,7 +146646,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_457b45841ddf5a20",
+                    "value": "#p8_zm_white_code_type",
                     "unk1a": true
                 },
                 {
@@ -146765,7 +146765,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_457b45841ddf5a20",
+                    "value": "#p8_zm_white_code_type",
                     "unk1a": true
                 },
                 {
@@ -146884,7 +146884,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_457b45841ddf5a20",
+                    "value": "#p8_zm_white_code_type",
                     "unk1a": true
                 },
                 {
@@ -147112,7 +147112,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_7a96ae253d87a5ca",
+                    "value": "#p8_zm_whi_paper_stack_01",
                     "unk1a": true
                 },
                 {
@@ -147220,7 +147220,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_2d5185d420b57c45",
+                    "value": "#p8_zm_white_computer_system_code_display_small_0",
                     "unk1a": true
                 },
                 {
@@ -147332,7 +147332,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_2d5185d420b57c45",
+                    "value": "#p8_zm_white_computer_system_code_display_small_0",
                     "unk1a": true
                 },
                 {
@@ -147444,7 +147444,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_2d5185d420b57c45",
+                    "value": "#p8_zm_white_computer_system_code_display_small_0",
                     "unk1a": true
                 },
                 {
@@ -147556,7 +147556,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_2d5185d420b57c45",
+                    "value": "#p8_zm_white_computer_system_code_display_small_0",
                     "unk1a": true
                 },
                 {
@@ -147673,7 +147673,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_78064340c79d78ba",
+                    "value": "#p8_zm_white_computer_system_code_display_small_colon",
                     "unk1a": true
                 },
                 {
@@ -147775,7 +147775,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_147a5a1043220e75",
+                    "value": "#p8_zm_whi_monitor_ww_set",
                     "unk1a": true
                 },
                 {
@@ -147888,7 +147888,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_147a5a1043220e75",
+                    "value": "#p8_zm_whi_monitor_ww_set",
                     "unk1a": true
                 },
                 {
@@ -148001,7 +148001,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_147a5a1043220e75",
+                    "value": "#p8_zm_whi_monitor_ww_set",
                     "unk1a": true
                 },
                 {
@@ -148114,7 +148114,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_147a5a1043220e75",
+                    "value": "#p8_zm_whi_monitor_ww_set",
                     "unk1a": true
                 },
                 {
@@ -150229,7 +150229,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_20d038152d79eb04",
+                    "value": "#p7_mou_electrical_panel_pane_02",
                     "unk1a": true
                 },
                 {
@@ -150259,7 +150259,7 @@
                 {
                     "key": "prop_model",
                     "type": "xhash",
-                    "value": "#hash_20d038152d79eb04",
+                    "value": "#p7_mou_electrical_panel_pane_02",
                     "unk1a": true
                 },
                 {
@@ -150471,7 +150471,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_65481ebd0f812045",
+                    "value": "#p8_zm_white_code_printer_monitor",
                     "unk1a": true
                 },
                 {
@@ -150592,7 +150592,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_455ec4fc75feeaa5",
+                    "value": "#p8_zm_white_code_printer_paper",
                     "unk1a": true
                 },
                 {
@@ -150713,7 +150713,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_457b45841ddf5a20",
+                    "value": "#p8_zm_white_code_type",
                     "unk1a": true
                 },
                 {
@@ -165177,7 +165177,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -165290,7 +165290,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -165403,7 +165403,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -165618,7 +165618,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -165947,7 +165947,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -166480,7 +166480,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -166797,7 +166797,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -166910,7 +166910,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -167437,7 +167437,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_133cb9cadd088a26"
+                    "value": "#evt_security_door"
                 },
                 {
                     "key": "script_string",
@@ -167560,7 +167560,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_3fae639b818d5e9d"
+                    "value": "#zmb_white_wood_door"
                 },
                 {
                     "key": "shadow_casting",
@@ -168117,7 +168117,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_133cb9cadd088a26"
+                    "value": "#evt_security_door"
                 },
                 {
                     "key": "script_string",
@@ -168239,7 +168239,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_133cb9cadd088a26"
+                    "value": "#evt_security_door"
                 },
                 {
                     "key": "script_string",
@@ -168361,7 +168361,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_33b0501a39a95bea"
+                    "value": "#zmb_office_lab_slide_door"
                 },
                 {
                     "key": "script_string",
@@ -168435,7 +168435,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_33b0501a39a95bea"
+                    "value": "#zmb_office_lab_slide_door"
                 },
                 {
                     "key": "script_string",
@@ -174528,7 +174528,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261613ab27c53b3a",
+                    "value": "#p8_zm_whi_teleport_part_c",
                     "unk1a": true
                 },
                 {
@@ -174595,7 +174595,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261613ab27c53b3a",
+                    "value": "#p8_zm_whi_teleport_part_c",
                     "unk1a": true
                 },
                 {
@@ -174662,7 +174662,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261613ab27c53b3a",
+                    "value": "#p8_zm_whi_teleport_part_c",
                     "unk1a": true
                 },
                 {
@@ -174729,7 +174729,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261611ab27c537d4",
+                    "value": "#p8_zm_whi_teleport_part_a",
                     "unk1a": true
                 },
                 {
@@ -174796,7 +174796,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261611ab27c537d4",
+                    "value": "#p8_zm_whi_teleport_part_a",
                     "unk1a": true
                 },
                 {
@@ -174863,7 +174863,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261611ab27c537d4",
+                    "value": "#p8_zm_whi_teleport_part_a",
                     "unk1a": true
                 },
                 {
@@ -174930,7 +174930,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261614ab27c53ced",
+                    "value": "#p8_zm_whi_teleport_part_b",
                     "unk1a": true
                 },
                 {
@@ -174997,7 +174997,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261614ab27c53ced",
+                    "value": "#p8_zm_whi_teleport_part_b",
                     "unk1a": true
                 },
                 {
@@ -175064,7 +175064,7 @@
                 {
                     "key": "model",
                     "type": "xhash",
-                    "value": "#hash_261614ab27c53ced",
+                    "value": "#p8_zm_whi_teleport_part_b",
                     "unk1a": true
                 },
                 {

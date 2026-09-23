@@ -30,10 +30,10 @@
     "skidSpeedMin": 100,
     "skidSpeedMax": 600,
     "peelSpeedMax": 600,
-    "model": "#hash_3ab0e41276eacefc",
+    "model": "#veh_t8_mil_helicopter_attack_mp_light",
     "deathModel": "#veh_t8_mil_helicopter_attack",
-    "enemyModel": "#hash_118d1821806a1854",
-    "soundDef": "#hash_6860990b9ca80521",
+    "enemyModel": "#veh_t8_mil_helicopter_attack_mp_dark",
+    "soundDef": "#veh_heli_chinook",
     "compassIconMaterial": "#hud_anim_cobra",
     "steerAxisName": "AXIS_LSTICK",
     "attackButtonName": "BUTTON_RTRIG",
@@ -41,7 +41,7 @@
     "bundle": {
         "huds": [
             {
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VHUD_Attack_Helicopter",
@@ -50,6 +50,6 @@
             }
         ],
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

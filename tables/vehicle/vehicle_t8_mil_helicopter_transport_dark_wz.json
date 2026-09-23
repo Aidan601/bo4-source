@@ -11,7 +11,7 @@
     "exhaustFxTag1": "tag_body",
     "deathFx": "#hash_a81529815eca844",
     "deathFxTag": "tag_deathfx",
-    "deathFxSound": "#hash_626995667a4ff5c",
+    "deathFxSound": "#exp_veh_chopper",
     "lightFx": [
         "#hash_3d70aa7090b628a2"
     ],
@@ -28,12 +28,12 @@
     "skidSpeedMin": 100,
     "skidSpeedMax": 600,
     "peelSpeedMax": 600,
-    "model": "#hash_ddc6db6d475fae7",
-    "deathModel": "#hash_ddc6db6d475fae7",
+    "model": "#veh_t8_mil_helicopter_transport_wz_dark",
+    "deathModel": "#veh_t8_mil_helicopter_transport_wz_dark",
     "soundDef": "#hash_e1609607098dd6d",
     "compassIconMaterial": "#t8_hud_waypoints_drone_hunter_scaled_down",
     "destructibleDef": "#hash_975764ca02ee4bd",
-    "tacticalModeIcon": "#hash_679c5098faff525b",
+    "tacticalModeIcon": "#uie_ui_icon_minimap_wz_little_bird_static",
     "steerAxisName": "AXIS_LSTICK",
     "unk1608": "BUTTON_RTRIG",
     "unk1618": "BUTTON_LTRIG",
@@ -43,49 +43,49 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
                         "displaystring": "localized17#menu/gas",
                         "buttondirection": "left",
                         "prompt": "+movestick"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5145090d78d3a9f6",
+                        "displaystring": "localized17#menu/switch_seats",
                         "buttondirection": "left",
                         "prompt": "+switchseat"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_2577b757c1ca9678",
+                        "displaystring": "localized17#menu/hud_vehicle_flyup",
                         "buttondirection": "left",
                         "prompt": "+vehiclemoveup"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_29f6a908f9b269ad",
+                        "displaystring": "localized17#menu/hud_vehicle_flydown",
                         "buttondirection": "left",
                         "prompt": "+vehiclemovedown"
                     }
                 ],
                 "widgets": [
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 1
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 10
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 14
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VehicleHUD_GroundVehicle",
@@ -94,6 +94,6 @@
             }
         ],
         "healthpoolsize": 3000,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 1
+        "healthpools": 1
     }
 }

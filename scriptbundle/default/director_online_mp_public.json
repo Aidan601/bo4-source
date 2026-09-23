@@ -13,7 +13,7 @@
     "menumusic": "lobby_mp",
     "room": "lobby_pose",
     "maxlaunchclients": 10,
-    "kicker": "localized17#hash_69818a6a90daf973",
+    "kicker": "localized17#mpui/public_match_lobby",
     "isadvertised": 1,
     "maxclients": 10,
     "name": "director_online_mp_public",

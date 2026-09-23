@@ -5,8 +5,8 @@
     "gesture2": "#hash_4fa534f2805280e1",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_11747d5c21557338",
-        "icon": "image#hash_27a178cf3de25c3b",
+        "title": "localized18#emotes/icu",
+        "icon": "image#ui_icon_emotes_s2_watching_you",
         "isdefault": 0
     }
 }

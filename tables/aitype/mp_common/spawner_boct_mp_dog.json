@@ -19,15 +19,15 @@
         "#c_t8_mp_spe_nomad_dog1"
     ],
     "animMappingTables": [
-        "#hash_415d64bf0a9ab8fa"
+        "#mp_dog.ai_am"
     ],
     "meleeWeapon": "#dog_ai_defaultmelee_mp",
     "aimTable": "#soldier_aim",
     "footstepTable": "#dogstep",
     "footstepScriptCallback": false,
-    "behaviorTree": "#hash_41614bbf0a9e7756",
-    "animStateMachine": "#hash_2c05a39f04926b37",
-    "animSelectorTable": "#hash_2c05aa9f0492771c",
+    "behaviorTree": "#mp_dog.ai_bt",
+    "animStateMachine": "#mp_dog.ai_asm",
+    "animSelectorTable": "#mp_dog.ai_ast",
     "traversalExtents": "#mp_default_traversal_extents",
     "aiSettingsBundle": "#mp_dog_settings",
     "ignoresDamageHitLocations": false,

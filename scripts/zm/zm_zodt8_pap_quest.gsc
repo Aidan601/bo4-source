@@ -340,7 +340,7 @@ function function_668e3f89( e_player )
     
     if ( isdefined( level.var_efaaea43 ) && level.var_efaaea43 )
     {
-        self sethintstring( #"hash_73bbee9df5d3c2b1" );
+        self sethintstring( #"zm_zodt8/pap_machine_moving" );
     }
     else
     {
@@ -535,7 +535,7 @@ function function_ef3c219a()
     function_e19c174f();
     level.var_a8626e72 = 1;
     playrumbleonposition( "zm_castle_pap_tp", level.pap_machine.origin );
-    playsoundatposition( #"hash_5944b4f78bf382e8", level.pap_machine.origin );
+    playsoundatposition( #"zmb_pap_leave", level.pap_machine.origin );
     var_88aa74e = level.s_pap_quest.var_88aa74e;
     
     if ( !isdefined( var_88aa74e ) )

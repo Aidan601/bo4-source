@@ -1,6 +1,6 @@
 {
     "lootid": "#charm_bomb_rockget",
-    "hash_8a334535be3afb1:hash_ff3063df": "model#",
+    "charmfrontendmodel": "model#",
     "name": "charm_bomb_rockget",
     "charmviewmodel": "model#"
 }

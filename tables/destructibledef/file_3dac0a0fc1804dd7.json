@@ -1,7 +1,7 @@
 {
-    "name": "#hash_3dac0a0fc1804dd7",
-    "model": "#hash_14c42b5ecc3f3384",
-    "unk20": "#hash_4df56c90d299136",
+    "name": "#destructible_veh_t8_civ_forklift_manned_forklift_clean_green",
+    "model": "#veh_t8_civ_forklift_modular_manned_forklift_green_dest",
+    "unk20": "#veh_t8_civ_forklift_modular_manned_forklift_dead_green",
     "clientOnly": false,
     "syncBaseHealthWithEntity": false,
     "pieces": [
@@ -14,11 +14,11 @@
                     "unk28": "tag_body_animate"
                 },
                 {
-                    "name": "#hash_94b5f3bad73031",
+                    "name": "#dst_car_fire_frnt",
                     "unk28": "tag_body_animate"
                 },
                 {
-                    "name": "#hash_5eb690639ce50eba",
+                    "name": "#dst_car_fire",
                     "unk28": "tag_body_animate"
                 },
                 {

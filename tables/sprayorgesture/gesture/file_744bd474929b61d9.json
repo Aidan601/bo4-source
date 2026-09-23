@@ -1,12 +1,12 @@
 {
     "name": "#hash_744bd474929b61d9",
     "type": "#gesture",
-    "gesture": "#hash_795d58da20e4a8ff",
-    "gesture2": "#hash_20ee4baf7d541e28",
+    "gesture": "#boast_coconut_drink",
+    "gesture2": "#boast_coconut_drink_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_c777d969d646090",
-        "icon": "image#hash_4f7fd4649ad2fd73",
+        "title": "localized18#emotes/happy_hour",
+        "icon": "image#ui_icon_emotes_coconutdrink",
         "isdefault": 0
     }
 }

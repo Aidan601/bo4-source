@@ -1,6 +1,6 @@
 {
-    "shopicon": "image#hash_438736c3d218187d",
-    "nametext": "localized17#hash_a53c4a75c24f26f",
+    "shopicon": "image#loot04_ui_icon_blackmarket_itemshop_dance_bundle_01",
+    "nametext": "localized17#mpui/gesture_bundle_name",
     "name": "gesture_dance_bundle",
     "desctext": "localized17#hash_7768d1ab91854421"
 }

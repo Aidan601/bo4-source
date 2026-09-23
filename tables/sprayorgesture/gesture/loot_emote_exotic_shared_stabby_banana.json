@@ -1,12 +1,12 @@
 {
     "name": "#loot_emote_exotic_shared_stabby_banana",
     "type": "#gesture",
-    "gesture": "#hash_709d7ea5194126ca",
-    "gesture2": "#hash_4bddf52ab1c25465",
+    "gesture": "#boast_stabby_banana",
+    "gesture2": "#boast_stabby_banana_fem",
     "sub": [
         {
-            "gesture": "#hash_7715c92aca367512",
-            "gesture2": "#hash_40f46e122dc91a35",
+            "gesture": "#boast_stabby_banana_alt",
+            "gesture2": "#boast_stabby_banana_fem_alt",
             "roles": [
                 "#prt_mp_enforcer",
                 "#prt_wz_enforcer",
@@ -17,19 +17,19 @@
                 "#prt_wz_soldier_land_male",
                 "#prt_wz_soldier_sea_male",
                 "#prt_wz_soldier_seal_female",
-                "#hash_76ccdd2bfc985ae8",
+                "#prt_wz_reaper_bo3",
                 "#prt_wz_spectre",
                 "#prt_mp_spectre",
                 "#prt_mp_reaper",
-                "#hash_76cce42bfc9866cd",
-                "#hash_76cce42bfc9866cd"
+                "#prt_wz_reaper_bo4",
+                "#prt_wz_reaper_bo4"
             ]
         }
     ],
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_632a6cca7d90db56",
-        "icon": "image#hash_2f824aff92b96eed",
+        "icon": "image#ui_icon_emotes_s2_stabby_banana",
         "isdefault": 0
     }
 }

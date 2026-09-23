@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_cce5e432f8e05f3",
+                            "anim": "playeranim#int_red_plant_lightning_rod",
                             "entrytype": "anim"
                         }
                     ],
@@ -33,7 +33,7 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
@@ -60,7 +60,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6543b4f6a99bee3d",
+                            "anim": "anim#int_red_plant_lightning_rod_prop",
                             "entrytype": "anim"
                         }
                     ],
@@ -88,11 +88,11 @@
                 }
             ],
             "hash_6340cd5a9aa59ec:hash_5829ce6b": 0,
-            "hash_707e8b5fefbdd97:hash_69db1665": 0,
+            "loopbacktostart": 0,
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_30b0badbca0a10de",
+            "model": "model#wpn_t8_zm_eqp_lightning_rod_world",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

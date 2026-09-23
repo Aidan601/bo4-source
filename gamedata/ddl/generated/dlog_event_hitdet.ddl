@@ -17,7 +17,7 @@ version 8 {
         // offset 0x178, size 0x20
         uint title_id;
         // offset 0x198, size 0x20
-        uint hash_56a1b6d783aa7a25;
+        uint utc_timestamp_sent;
         // offset 0x1b8, size 0x40
         uint64 game_session_id;
     };
@@ -99,7 +99,7 @@ version 8 {
     // offset 0x9bb, size 0x1
     bool hash_79ec1ef18401690b;
     // offset 0x9bc, size 0x1
-    bool hash_2a1e95e3a58c334c;
+    bool enemy_in_vehicle;
     // offset 0x9bd, size 0x1
     bool validated;
     // offset 0x9be, size 0x1

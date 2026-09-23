@@ -477,7 +477,7 @@ function on_player_spawned()
         
         if ( getdvarstring( #"bot_spawn_weapon", "<dev string:x38>" ) != "<dev string:x38>" )
         {
-            weapon = util::get_weapon_by_name( getdvarstring( #"bot_spawn_weapon" ), getdvarstring( #"hash_c6e51858c88a5ee" ) );
+            weapon = util::get_weapon_by_name( getdvarstring( #"bot_spawn_weapon" ), getdvarstring( #"bot_spawn_weapon_attachments" ) );
             
             if ( isdefined( weapon ) )
             {
@@ -919,7 +919,7 @@ function init_bot()
     self.bot.var_18fa994c = 0;
     self.bot.var_857c5ea8 = 0;
     blackboard::createblackboardforentity( self );
-    self function_eaf7ef38( #"hash_1b029888c4965031", #"hash_41b1340b7efb3261" );
+    self function_eaf7ef38( #"bot.ai_ast", #"bot.ai_am" );
 }
 
 // Namespace bot/bot
@@ -2253,7 +2253,7 @@ function function_5524bfd5( companionname )
     {
         weapon = self getcurrentweapon();
         setdvar( #"bot_spawn_weapon", getweaponname( weapon.rootweapon ) );
-        setdvar( #"hash_c6e51858c88a5ee", util::function_2146bd83( weapon ) );
+        setdvar( #"bot_spawn_weapon_attachments", util::function_2146bd83( weapon ) );
         bots = get_bots();
         
         foreach ( bot in bots )

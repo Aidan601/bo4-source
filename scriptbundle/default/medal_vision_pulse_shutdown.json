@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_vision_pulse_shutdown",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_54ec995360cd12b0",
-    "stringref": "localized17#hash_78c3093a38bc1b6c",
-    "iconlarge": "image#hash_305c22be790f556c"
+    "iconsmall": "image#ui_icon_medal_counter_intelligence",
+    "stringref": "localized17#medal/kill_enemy_that_pulsed_you",
+    "iconlarge": "image#ui_icon_medal_counter_intelligence_large"
 }

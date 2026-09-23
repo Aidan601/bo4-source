@@ -1,5 +1,5 @@
 {
-    "name": "#hash_2d61716dff9667ec",
+    "name": "#dlog_event_mpxp",
     "unk28": "#mpxp",
     "ddlDef": "#gamedata/ddl/generated/dlog_event_mpxp.ddl",
     "unk18": 0,
@@ -58,7 +58,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -88,8 +88,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -137,7 +137,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {

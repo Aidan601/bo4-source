@@ -4,10 +4,10 @@
             "hash_619e25922b4aedcf:hash_826726a": "localized17#hash_17eb0d40b45d38c6"
         }
     ],
-    "hash_202e3311080f8de3:hash_d0100eab": 1,
+    "list_contentsdetaileddescincludelist": 1,
     "relateditemname": "localized17#heroes/trapper",
     "contracttitle": "localized17#hash_17eb0d40b45d38c6",
     "name": "loot_contract_nomad_hunter",
     "hash_69014841451a5872:hash_f15e270f": "#white",
-    "hash_7883881b5c75bf5e:hash_e08fc162": "localized17#hash_40534ffb27a37ede"
+    "contentsdetaileddesc": "localized17#hash_40534ffb27a37ede"
 }

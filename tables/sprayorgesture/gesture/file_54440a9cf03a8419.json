@@ -1,12 +1,12 @@
 {
-    "name": "#hash_54440a9cf03a8419",
+    "name": "#loot_emote_shared_after_you",
     "type": "#gesture",
-    "gesture": "#hash_430c27507b57d6a3",
-    "gesture2": "#hash_6c8805731b98cc0c",
+    "gesture": "#boast_after_you",
+    "gesture2": "#boast_after_you_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_161d197346040755",
-        "icon": "image#hash_45065fa7c4ed6486",
+        "title": "localized18#emotes/after_you",
+        "icon": "image#ui_icon_emotes_after_you",
         "isdefault": 0
     }
 }

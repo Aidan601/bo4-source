@@ -1,11 +1,11 @@
 {
-    "name": "#hash_507a31f6ccf442b9",
+    "name": "#loot_emote_shared_popnlock_05",
     "type": "#gesture",
-    "gesture": "#hash_64defc85143ff523",
-    "gesture2": "#hash_3d85fed57df8128c",
+    "gesture": "#boast_popnlock_05",
+    "gesture2": "#boast_popnlock_05_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_27d4e1f254831ffa",
+        "title": "localized18#emotes/nooice",
         "icon": "image#ui_icon_emotes_popnlock5",
         "isdefault": 0
     }

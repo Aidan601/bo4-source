@@ -1,8 +1,8 @@
 {
-    "name": "#hash_2f362d9d423dde58",
+    "name": "#loot_emote_shared_show_me_the_money",
     "type": "#gesture",
-    "gesture": "#hash_44c424d15ab276ba",
-    "gesture2": "#hash_12eff43cb47c82b5",
+    "gesture": "#boast_show_me_the_money",
+    "gesture2": "#boast_show_me_the_money_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_43951c983981c558",

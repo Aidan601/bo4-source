@@ -1458,7 +1458,7 @@ function private function_74b79f63()
             break;
         case 2:
             level flag::set( "power_on" );
-            level flagsys::set( #"hash_3e80d503318a5674" );
+            level flagsys::set( #"artifact_picked_up" );
             
             if ( function_901b751c( #"zmpowerdoorstate" ) == 1 )
             {
@@ -1746,8 +1746,8 @@ function private function_34c2aeb5()
 // Size: 0x188
 function private drain_health( var_c454f44e )
 {
-    self notify( #"hash_13fcb28a561bd5fe" );
-    self endon( #"disconnect", #"hash_13fcb28a561bd5fe" );
+    self notify( #"end_drain_health" );
+    self endon( #"disconnect", #"end_drain_health" );
     level endon( #"game_ended" );
     self val::set( #"custom_games", "health_regen", 0 );
     
@@ -2339,7 +2339,7 @@ function private function_5b526135()
 // Params 4
 // Checksum 0x1f301859, Offset: 0x71e0
 // Size: 0xe2
-function function_a00576dd( var_72e7aa12, var_9ad65420, var_15fca790, var_bb4f5acb )
+function earing( var_72e7aa12, var_9ad65420, var_15fca790, var_bb4f5acb )
 {
     if ( isdefined( level.var_a2831281 ) && level.var_a2831281 )
     {

@@ -1,7 +1,7 @@
 {
-    "name": "#hash_30c32f51f92e1202",
+    "name": "#dlog_event_usercmd_burst_histogram",
     "unk28": "#usercmd_burst_histogram",
-    "ddlDef": "#hash_532122ee85f6e062",
+    "ddlDef": "#gamedata/ddl/generated/dlog_event_usercmd_burst_histogram.ddl",
     "unk18": 0,
     "unk19": 1,
     "unk1a": 1,
@@ -17,7 +17,7 @@
                 "members": [
                     {
                         "name": "#game_session_id",
-                        "scrName": "#hash_50f7aa03",
+                        "scrName": "#game_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -47,8 +47,8 @@
                         "type": "UINT16"
                     },
                     {
-                        "name": "#hash_56a1b6d783aa7a25",
-                        "scrName": "#hash_ee3228f8",
+                        "name": "#utc_timestamp_sent",
+                        "scrName": "#utc_timestamp_sent",
                         "type": "UINT32"
                     },
                     {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "#user_session_id",
-                        "scrName": "#hash_e004f74d",
+                        "scrName": "#user_session_id",
                         "type": "UINT64"
                     },
                     {
@@ -116,82 +116,82 @@
         },
         {
             "name": "#processed16",
-            "scrName": "#hash_ba1d31a2",
+            "scrName": "#processed16",
             "type": "INT32"
         },
         {
             "name": "#processed14",
-            "scrName": "#hash_9f0e7b95",
+            "scrName": "#processed14",
             "type": "INT32"
         },
         {
             "name": "#processed15",
-            "scrName": "#hash_6452061d",
+            "scrName": "#processed15",
             "type": "INT32"
         },
         {
             "name": "#processed12",
-            "scrName": "#hash_e52087a8",
+            "scrName": "#processed12",
             "type": "INT32"
         },
         {
             "name": "#processed13",
-            "scrName": "#hash_f2e02327",
+            "scrName": "#processed13",
             "type": "INT32"
         },
         {
             "name": "#processed10",
-            "scrName": "#hash_c58fc887",
+            "scrName": "#processed10",
             "type": "INT32"
         },
         {
             "name": "#processed11",
-            "scrName": "#hash_ab4d9403",
+            "scrName": "#processed11",
             "type": "INT32"
         },
         {
             "name": "#processed9",
-            "scrName": "#hash_3a458fec",
+            "scrName": "#processed9",
             "type": "INT32"
         },
         {
             "name": "#processed8",
-            "scrName": "#hash_4482a466",
+            "scrName": "#processed8",
             "type": "INT32"
         },
         {
             "name": "#processed3",
-            "scrName": "#hash_32548046",
+            "scrName": "#processed3",
             "type": "INT32"
         },
         {
             "name": "#processed2",
-            "scrName": "#hash_480dabb8",
+            "scrName": "#processed2",
             "type": "INT32"
         },
         {
             "name": "#processed1",
-            "scrName": "#hash_e7daeb18",
+            "scrName": "#processed1",
             "type": "INT32"
         },
         {
             "name": "#processed7",
-            "scrName": "#hash_d95b68d",
+            "scrName": "#processed7",
             "type": "INT32"
         },
         {
             "name": "#processed6",
-            "scrName": "#hash_67de6b1d",
+            "scrName": "#processed6",
             "type": "INT32"
         },
         {
             "name": "#processed5",
-            "scrName": "#hash_9ec758f2",
+            "scrName": "#processed5",
             "type": "INT32"
         },
         {
             "name": "#processed4",
-            "scrName": "#hash_b106fd71",
+            "scrName": "#processed4",
             "type": "INT32"
         },
         {
@@ -202,82 +202,82 @@
         },
         {
             "name": "#queued4",
-            "scrName": "#hash_2d141daa",
+            "scrName": "#queued4",
             "type": "INT32"
         },
         {
             "name": "#queued5",
-            "scrName": "#hash_595d763c",
+            "scrName": "#queued5",
             "type": "INT32"
         },
         {
             "name": "#queued6",
-            "scrName": "#hash_2cd51d38",
+            "scrName": "#queued6",
             "type": "INT32"
         },
         {
             "name": "#queued7",
-            "scrName": "#hash_597e768a",
+            "scrName": "#queued7",
             "type": "INT32"
         },
         {
             "name": "#queued1",
-            "scrName": "#hash_90a0e4c2",
+            "scrName": "#queued1",
             "type": "INT32"
         },
         {
             "name": "#queued2",
-            "scrName": "#hash_43f64b6e",
+            "scrName": "#queued2",
             "type": "INT32"
         },
         {
             "name": "#queued3",
-            "scrName": "#hash_763a2ff5",
+            "scrName": "#queued3",
             "type": "INT32"
         },
         {
             "name": "#queued8",
-            "scrName": "#hash_10b164f1",
+            "scrName": "#queued8",
             "type": "INT32"
         },
         {
             "name": "#queued9",
-            "scrName": "#hash_3a61b851",
+            "scrName": "#queued9",
             "type": "INT32"
         },
         {
             "name": "#queued16",
-            "scrName": "#hash_a7407a50",
+            "scrName": "#queued16",
             "type": "INT32"
         },
         {
             "name": "#queued15",
-            "scrName": "#hash_7a029fd5",
+            "scrName": "#queued15",
             "type": "INT32"
         },
         {
             "name": "#queued14",
-            "scrName": "#hash_ca7340b5",
+            "scrName": "#queued14",
             "type": "INT32"
         },
         {
             "name": "#queued13",
-            "scrName": "#hash_dc34e438",
+            "scrName": "#queued13",
             "type": "INT32"
         },
         {
             "name": "#queued12",
-            "scrName": "#hash_aeed89aa",
+            "scrName": "#queued12",
             "type": "INT32"
         },
         {
             "name": "#queued11",
-            "scrName": "#hash_c0ac2d27",
+            "scrName": "#queued11",
             "type": "INT32"
         },
         {
             "name": "#queued10",
-            "scrName": "#hash_158cd6e3",
+            "scrName": "#queued10",
             "type": "INT32"
         },
         {

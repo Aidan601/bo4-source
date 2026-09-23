@@ -1,4 +1,4 @@
-NAME script_7893277eec698972
+NAME scripts/zm/zm_zodt8_wonder_weapon_quest.gsc
 VERSION 0
 CHECKSUM 0xc72ae456
 ######################################################

@@ -297,7 +297,7 @@
         {
             "name": "#hash_150b5586eb31eeeb",
             "description": "#hash_5cf1cdc9d1c545d1",
-            "unique_name": "#hash_3a322ce6c61298f9",
+            "unique_name": "#mpui/bounty_hunter_desc",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",
             "image": "#ui_icon_gamemode_heist",
@@ -1191,7 +1191,7 @@
         {
             "name": "#hash_554fe0a85e84bc55",
             "description": "#hash_491b87e11827cf7",
-            "unique_name": "#hash_7fe554c515cc1a67",
+            "unique_name": "#menu/teams_take_turns_defending_no_spawn",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",
             "image": "#ui_icon_gamemode_searchanddestroy",
@@ -1471,7 +1471,7 @@
         {
             "name": "#entry_mp_core_dom",
             "description": "#hash_537f207e3e7d35f8",
-            "unique_name": "#hash_acc4fc4a376a207",
+            "unique_name": "#menu/capture_and_hold_the",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",
             "image": "#ui_icon_gamemode_domination",
@@ -3108,7 +3108,7 @@
         },
         {
             "name": "#hash_cc0d1cfcb7ad2f0",
-            "description": "#hash_743699a3183be684",
+            "description": "#playlist/objective_moshpit",
             "unique_name": "#hash_45537e6afc7239ac",
             "visibleProfileVar": "#hash_5e563e6544ff9705",
             "lobbyMainMode": "MULTIPLAYER",

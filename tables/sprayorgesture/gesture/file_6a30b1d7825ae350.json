@@ -1,12 +1,12 @@
 {
-    "name": "#hash_6a30b1d7825ae350",
+    "name": "#loot_emote_exotic_shared_sword_flourish",
     "type": "#gesture",
-    "gesture": "#hash_4be9341aa2f18ffd",
-    "gesture2": "#hash_797e59121d600c96",
+    "gesture": "#boast_sword_flourish",
+    "gesture2": "#boast_sword_flourish_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_769043ade98f58d0",
-        "icon": "image#hash_4e7a7155d80a3d4d",
+        "icon": "image#ui_icon_emotes_swordflourish",
         "isdefault": 0
     }
 }

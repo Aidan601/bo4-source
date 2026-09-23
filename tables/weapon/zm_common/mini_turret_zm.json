@@ -30,20 +30,20 @@
     "#hash_554be9f7": false,
     "firesound": "#wpn_grenade_throw",
     "firesoundplayer": "#wpn_grenade_throw",
-    "gadgetreadysoundplayer": "#hash_5069ed8fdae493ce",
+    "gadgetreadysoundplayer": "#uin_zmb_equipment_ready",
     "sound5a0": "#dst_equipment_destroy",
     "sound5b0": "#dst_equipment_destroy",
-    "sound660": "#hash_4b624dad2a08a6cd",
+    "sound660": "#uin_zmb_equipment_deny",
     "tunables1": "#mini_turret_tunables_zm",
     "cacWeaponXCam": "#hash_50e122b7eecb2eb",
     "shrapnelsettings": "#shrapnel_mini_turret",
-    "projectilemodel": "#hash_557d90d799ab1f82",
+    "projectilemodel": "#wpn_t8_zm_eqp_turret_mini_world",
     "#hash_4bcd08b0": "#tag_origin",
     "viewmodel": [
-        "#hash_c32ff2879a1304f"
+        "#wpn_t8_zm_eqp_turret_mini_view"
     ],
     "worldModel": [
-        "#hash_557d90d799ab1f82"
+        "#wpn_t8_zm_eqp_turret_mini_world"
     ],
     "gadgetIconAvailable": "#hash_ce2f10529d30058e",
     "gadgetIconUnavailable": "#hash_c5959a283d69e103",

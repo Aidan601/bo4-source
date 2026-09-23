@@ -1,12 +1,12 @@
 {
-    "name": "#hash_3c9ca4d5a0c68bf5",
+    "name": "#loot_emote_shared_victory_dance",
     "type": "#gesture",
-    "gesture": "#hash_6a1b24b4797190fb",
-    "gesture2": "#hash_7b9f76a2cd0339a4",
+    "gesture": "#boast_victory_dance",
+    "gesture2": "#boast_victory_dance_fem",
     "bundle": {
         "type": "#gesture",
         "title": "localized18#hash_382be388888ee5ec",
-        "icon": "image#hash_6609a4f3daa4707f",
+        "icon": "image#ui_icon_emotes_s3_victory_dance",
         "isdefault": 0
     }
 }

@@ -44,66 +44,66 @@
             {
                 "bindings": [
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_4c7d903a026627fc",
+                        "displaystring": "localized17#menu/hud_vehicle_exit",
                         "buttondirection": "left",
                         "prompt": "+activate"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_473cfed0ced28318",
+                        "displaystring": "localized17#menu/hud_vehicle_toggle",
                         "buttondirection": "left",
                         "prompt": "+gostand"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_5f6588c74f549827",
+                        "displaystring": "localized17#menu/hud_vehicle_fire_machine_gun",
                         "buttondirection": "left",
                         "prompt": "+vehicleattacksecond"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_1a14ac950dd062ca",
+                        "displaystring": "localized17#menu/hud_vehicle_fire_rockets",
                         "buttondirection": "left",
                         "prompt": "+vehicleattack"
                     },
                     {
-                        "hash_41590175a80bbf59:hash_dc9f8e27": "#none",
+                        "controllerrestriction": "#none",
                         "cooldownindex": 0,
-                        "displaystring": "localized17#hash_64d22aa20ae809f",
+                        "displaystring": "localized17#menu/hud_vehicle_zoom",
                         "buttondirection": "left",
                         "prompt": "+speed_throw"
                     }
                 ],
                 "widgets": [
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 0
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "fillimage": "image#uie_t7_cp_hud_vehicle_agr_damageiconred",
                         "overlayimage": "image#uie_t7_cp_hud_vehicle_agr_damageiconlinergb",
                         "widgettype": 2
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 7
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 8
                     },
                     {
-                        "hash_303b76d86d727423:hash_513059ad": 0,
+                        "seatmapstate": 0,
                         "widgettype": 5
                     }
                 ],
-                "hash_16b4c5c47fcf7794:hash_56985ec1": 0,
+                "hideplayerinfo": 0,
                 "hideweaponinfo": 0,
                 "hash_3a63348c09d91b8d:hash_24c083a4": 0,
                 "vehiclehud": "VHUD_AGR",
@@ -112,6 +112,6 @@
             }
         ],
         "healthpoolsize": 650,
-        "hash_7965b8f0abaa90e2:hash_7812fce8": 2
+        "healthpools": 2
     }
 }

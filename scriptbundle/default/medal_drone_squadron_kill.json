@@ -5,6 +5,6 @@
     "name": "medal_drone_squadron_kill",
     "backinglarge": "image#$whitetransparent",
     "iconsmall": "image#ui_icon_medal_covering_fire",
-    "stringref": "localized17#hash_49f4e1856c1ea2c0",
+    "stringref": "localized17#medal/drone_squadron_kill",
     "iconlarge": "image#ui_icon_medal_covering_fire_large"
 }

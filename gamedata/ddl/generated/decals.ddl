@@ -49,7 +49,7 @@ version 14 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -103,7 +103,7 @@ version 14 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -143,7 +143,7 @@ version 14 {
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
         layerinformation layerinfo;
     };
@@ -151,7 +151,7 @@ version 14 {
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7086
@@ -275,7 +275,7 @@ version 13 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -329,7 +329,7 @@ version 13 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -369,7 +369,7 @@ version 13 {
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
         layerinformation layerinfo;
     };
@@ -377,7 +377,7 @@ version 13 {
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7086
@@ -501,7 +501,7 @@ version 12 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -555,7 +555,7 @@ version 12 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -595,7 +595,7 @@ version 12 {
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
         layerinformation layerinfo;
     };
@@ -603,7 +603,7 @@ version 12 {
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7082
@@ -727,7 +727,7 @@ version 11 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -781,7 +781,7 @@ version 11 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -821,7 +821,7 @@ version 11 {
     };
 
     // idx 6 members 1 size 0x37bc
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37bc
         layerinformation layerinfo;
     };
@@ -829,7 +829,7 @@ version 11 {
     // idx 7 members 1 size 0x6f78
     struct paintshop {
         // offset 0x0, size 0x6f78
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x7082
@@ -951,7 +951,7 @@ version 10 {
         // offset 0xae, size 0x7
         uint:7 materialid;
         // offset 0xb5, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbc, size 0x1
         bool flip;
         // offset 0xbd, size 0x1
@@ -1003,7 +1003,7 @@ version 10 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -1041,7 +1041,7 @@ version 10 {
     };
 
     // idx 6 members 1 size 0x3771
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3771
         layerinformation layerinfo;
     };
@@ -1049,7 +1049,7 @@ version 10 {
     // idx 7 members 1 size 0x6ee2
     struct paintshop {
         // offset 0x0, size 0x6ee2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6fec
@@ -1171,7 +1171,7 @@ version 9 {
         // offset 0xaf, size 0x7
         uint:7 materialid;
         // offset 0xb6, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xbd, size 0x1
         bool flip;
         // offset 0xbe, size 0x1
@@ -1223,7 +1223,7 @@ version 9 {
         // offset 0xa0, size 0x7
         uint:7 materialid;
         // offset 0xa7, size 0x7
-        uint:7 hash_4c4aff5f26267e55;
+        uint:7 gradientthickness;
         // offset 0xae, size 0x1
         bool flip;
         // offset 0xaf, size 0x1
@@ -1261,7 +1261,7 @@ version 9 {
     };
 
     // idx 6 members 1 size 0x37b1
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x37b1
         layerinformation layerinfo;
     };
@@ -1269,7 +1269,7 @@ version 9 {
     // idx 7 members 1 size 0x6f62
     struct paintshop {
         // offset 0x0, size 0x6f62
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x706c
@@ -1477,7 +1477,7 @@ version 8 {
     };
 
     // idx 6 members 1 size 0x35a4
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x35a4
         layerinformation layerinfo;
     };
@@ -1485,7 +1485,7 @@ version 8 {
     // idx 7 members 1 size 0x6b48
     struct paintshop {
         // offset 0x0, size 0x6b48
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6c52
@@ -1693,7 +1693,7 @@ version 7 {
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
         layerinformation layerinfo;
     };
@@ -1701,7 +1701,7 @@ version 7 {
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 7 size 0x6bbc
@@ -1909,7 +1909,7 @@ version 6 {
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
         layerinformation layerinfo;
     };
@@ -1917,7 +1917,7 @@ version 6 {
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x6b7c
@@ -2123,7 +2123,7 @@ version 5 {
     };
 
     // idx 6 members 1 size 0x3559
-    struct hash_4e00feaf81ba241c {
+    struct paintshopviewlayers {
         // offset 0x0, size 0x3559
         layerinformation layerinfo;
     };
@@ -2131,7 +2131,7 @@ version 5 {
     // idx 7 members 1 size 0x6ab2
     struct paintshop {
         // offset 0x0, size 0x6ab2
-        hash_4e00feaf81ba241c view[hash_1d2ac7bb711046eb];
+        paintshopviewlayers view[hash_1d2ac7bb711046eb];
     };
 
     // idx 8 members 6 size 0x6b7c

@@ -7,7 +7,7 @@
     "entries": [
         {
             "name": "#hash_57d58599e861ff78",
-            "description": "#hash_46ead1dc409feba5",
+            "description": "#playlist/zm_nuked",
             "dlcName": "dlc5zm",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
@@ -111,7 +111,7 @@
         },
         {
             "name": "#hash_31bd0ac0f1de8cdb",
-            "description": "#hash_46ead1dc409feba5",
+            "description": "#playlist/zm_nuked",
             "dlcName": "dlc5zm",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
@@ -215,7 +215,7 @@
         },
         {
             "name": "#hash_3ee2222d47b71fbc",
-            "description": "#hash_46ead1dc409feba5",
+            "description": "#playlist/zm_nuked",
             "dlcName": "dlc5zm",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
@@ -319,7 +319,7 @@
         },
         {
             "name": "#hash_76c252ec7f718c33",
-            "description": "#hash_46ead1dc409feba5",
+            "description": "#playlist/zm_nuked",
             "dlcName": "dlc5zm",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
@@ -538,7 +538,7 @@
         },
         {
             "name": "#hash_2f10964a1655f78d",
-            "description": "#hash_c230a267188ad1e",
+            "description": "#playlist/zm_blue",
             "dlcName": "dlc3zm",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
@@ -653,7 +653,7 @@
         },
         {
             "name": "#hash_79a751c00de77eb8",
-            "description": "#hash_c230a267188ad1e",
+            "description": "#playlist/zm_blue",
             "dlcName": "dlc3zm",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
@@ -768,7 +768,7 @@
         },
         {
             "name": "#hash_40ca131a926016d7",
-            "description": "#hash_c230a267188ad1e",
+            "description": "#playlist/zm_blue",
             "dlcName": "dlc3zm",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",
@@ -883,7 +883,7 @@
         },
         {
             "name": "#hash_2f9c2f6d672825b4",
-            "description": "#hash_c230a267188ad1e",
+            "description": "#playlist/zm_blue",
             "dlcName": "dlc3zm",
             "lobbyMainMode": "CAMPAIGN",
             "image": "#ui_icon_gamemode_zm_classic",

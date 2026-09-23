@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_radiation_field_multikill_x2_summary",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_6742f806c8fb8a20",
+    "iconsmall": "image#ui_icon_medal_meltdown",
     "stringref": "localized17#hash_49c0b8959b229d48",
     "iconlarge": "image#ui_icon_medal_meltdown_large"
 }

@@ -1,4 +1,4 @@
-NAME script_7cdeec42c8822276
+NAME scripts/zm/zm_office_groom_lake_rounds.gsc
 VERSION 0
 CHECKSUM 0x37bebce9
 ######################################################

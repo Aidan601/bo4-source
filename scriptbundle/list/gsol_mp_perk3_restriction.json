@@ -1,0 +1,10 @@
+{
+    "name": "#gsol_mp_perk3_restriction",
+    "type": "gamesettingoption",
+    "bundles": [
+        "#gamesettings/#perk_ghost_restriction",
+        "#gamesettings/#perk_teamlink_restriction",
+        "#gamesettings/#perk_deadsilence_restriction",
+        "#gamesettings/#perk_tracker_restriction"
+    ]
+}

@@ -1,12 +1,12 @@
 {
-    "name": "#hash_7071c756e8ce2a5a",
+    "name": "#loot_emote_shared_legs_crossed",
     "type": "#gesture",
-    "gesture": "#hash_32b1e17fac7797a8",
-    "gesture2": "#hash_7ef3528087c7d36b",
+    "gesture": "#boast_legs_crossed",
+    "gesture2": "#boast_legs_crossed_fem",
     "bundle": {
         "type": "#gesture",
-        "title": "localized18#hash_1fcd66cb6781c929",
-        "icon": "image#hash_2bd485bfaa90f627",
+        "title": "localized18#emotes/tranquility",
+        "icon": "image#ui_icon_emotes_legs_crossed",
         "isdefault": 0
     }
 }

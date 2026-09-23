@@ -1,7 +1,7 @@
 {
-    "shopicon": "image#hash_5cb9631c840544ae",
+    "shopicon": "image#loot02_ui_icon_blackmarket_itemshop_snake_legendary1_nomad",
     "nametext": "localized17#hash_19d832c5116a6948",
     "name": "outfit_snake_legendary1_nomad_sunset_bundle_shop",
-    "desctext": "localized17#hash_2b7f2d614d161f1d",
+    "desctext": "localized17#menu/outfit_warpaint_desc",
     "hash_5705c4c12fe1d66a:hash_975cc0d1": "localized17#heroes/trapper"
 }
