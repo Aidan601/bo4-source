@@ -10,7 +10,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_end_0
 hash_1ce9454ee7bc8f77
-hash_47849d02abc0a972
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_end_0_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -29,7 +29,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_end_1
 hash_7afd55087998d9fc
-hash_2d986039b1ace169
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_end_1_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -48,7 +48,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_0
 hash_7c1568497a98a9ca
-hash_5614ccbabcae92c7
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_0_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -76,7 +76,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_1_comp_0
 hash_5af883808b939d6
-hash_756d4bdb755053ff
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_1_comp_0_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -104,7 +104,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_2
 hash_9718a12a8d58da8
-hash_9de5cd9e429985d
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_2_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -123,7 +123,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_2_comp_0
 hash_74032c766ae839e1
-hash_4c562dec1c23de1c
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_2_comp_0_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -142,7 +142,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_2_dead
 hash_1791a394cb864a1f
-hash_1a9ac6fe722395b2
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_2_dead_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -160,7 +160,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_2_dead
 hash_26605652aeda5196
-hash_22fcb39976233ef7
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_2_dead_01_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -187,7 +187,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_2_start_0
 hash_48137b3e904a2c18
-hash_75d18950ee290f85
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_2_start_0_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -206,7 +206,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_3_active_nag
 hash_4386b4e2156dabd3
-hash_77d4eb0f62b1609a
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_3_active_nag_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -224,7 +224,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_3_active_nag
 hash_74bf9bebc4e945fa
-hash_669f0edc297202ff
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_3_active_nag_01_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -243,7 +243,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_3_miss
 hash_761699e58c684274
-hash_6951fc20e6f70991
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_3_miss_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -261,7 +261,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_3_miss
 hash_58704bac21303155
-hash_1b2f775ce72a1584
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_3_miss_01_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -279,7 +279,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_3_miss
 hash_569d43eaaa5e22ca
-hash_2557c87d876664c7
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_3_miss_02_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -297,7 +297,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_3_miss
 hash_1af6b98fbcd141e3
-hash_41233b9090ae702
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_3_miss_03_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -316,7 +316,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_final_event_3_start_0
 hash_76fa861ef0a7a0e7
-hash_73ad4ad3cdb652c2
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_final_event_3_start_0_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -353,7 +353,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_bank_shot_1
 hash_d48832bbb7cc518
-hash_28d7bcb42e386441
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_bank_shot_1_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -372,7 +372,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_bank_shot_nag
 hash_1c8c8e61b70e0c39
-hash_25ea38142d77a5b4
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_bank_shot_nag_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -390,7 +390,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_bank_shot_nag
 hash_12caba5a48dbf848
-hash_403971e758aea2c1
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_bank_shot_nag_01_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -536,7 +536,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_cook_lvl3_1
 hash_225b277b93d21f99
-hash_77af3510f1a8dee0
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_cook_lvl3_1_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -630,7 +630,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_fail
 hash_3489ca740440afe3
-hash_719343d4f6c4b7ba
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_fail_02_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -640,7 +640,7 @@ safe
 vox_tvoi_tutor_ajax_flash_fail
 vox_tvoi_tutor_ajax_flash_miss_nag
 hash_5f8d7af937ceb76
-hash_7bbf29fef9db6fd7
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_miss_nag_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -648,7 +648,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_flash_miss_nag
 hash_124e86d37d971eaf
-hash_3c443d0e599406fa
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_miss_nag_01.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -656,7 +656,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_flash_miss_nag
 hash_438e16ddb97b1cfc
-hash_5dc72d44ec08405
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_miss_nag_02.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -665,7 +665,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_miss_nag
 hash_61153af11861627e
-hash_513d75595a234663
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_miss_nag_02_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -674,7 +674,7 @@ mature
 safe
 vox_tvoi_tutor_ajax_flash_miss_nag
 hash_439681d39840e765
-hash_2666e72768451390
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_miss_nag_03.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -683,7 +683,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_miss_nag
 hash_5db02666bde232e7
-hash_20be868cd3bd581e
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_miss_nag_03_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -693,7 +693,7 @@ safe
 vox_tvoi_tutor_ajax_flash_miss_nag
 vox_tvoi_tutor_ajax_flash_self_blind
 hash_6404c6da601c04d5
-hash_b090976911f2e7c
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_self_blind_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -701,7 +701,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_flash_self_blind
 hash_6454eab16638632c
-hash_1e0b4b5eab620361
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_self_blind_01.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -710,7 +710,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_self_blind
 hash_5510337e261c602e
-hash_2ccb6def92909627
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_self_blind_01_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -738,7 +738,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_flash_stunned_1
 hash_5247f47d7584b2b0
-hash_4ed8a3081eed9205
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_flash_stunned_1_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -826,7 +826,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_hip_fire_nag
 hash_20f6f0c082c85b9
-hash_18284553952bd108
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_hip_fire_nag_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -886,7 +886,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_melee_nag
 hash_37de5779104cd772
-hash_6c203edf80c51c23
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_melee_nag_01_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -904,7 +904,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_melee_nag
 hash_71c59bf100e6f43d
-hash_336fdbe38d812e20
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_melee_nag_02_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -922,7 +922,7 @@ mature
 vox_tvoi_tutor_ajax_melee_nag
 vox_tvoi_tutor_ajax_melee_shot_nag
 hash_1096dbf2957edeb8
-hash_b1bb821e224594d
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_melee_shot_nag_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -931,7 +931,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_melee_shot_nag
 hash_4e9bfa672ec74802
-hash_29897a3a1ded51fb
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_melee_shot_nag_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -940,7 +940,7 @@ mature
 safe
 vox_tvoi_tutor_ajax_melee_shot_nag
 hash_5cd4070f40e3b651
-hash_368f46185837b7f8
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_melee_shot_nag_01.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -948,7 +948,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_melee_shot_nag
 hash_128bdd73fe4146d2
-hash_1216dba64c41e79f
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_melee_shot_nag_02.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -966,7 +966,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_shield_0
 hash_32db460bccbabce0
-hash_1422ee8db9ad8785
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_0_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -985,7 +985,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_shield_1
 hash_301a564435e4aa9b
-hash_644ceff01f03fdde
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_1_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1004,7 +1004,7 @@ mature
 vox_tvoi_tutor_ajax_shield_2
 vox_tvoi_tutor_ajax_shield_fortify_0
 hash_2b16915eae477f30
-hash_1d773682ff767189
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_0_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1013,7 +1013,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_shield_fortify_0
 hash_75524424e515f6a
-hash_1f07543de435d29f
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_0_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1023,7 +1023,7 @@ safe
 vox_tvoi_tutor_ajax_shield_fortify_0
 vox_tvoi_tutor_ajax_shield_fortify_1
 hash_136ffed11b6dc5b
-hash_57c83093809f4ca2
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_1_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1032,7 +1032,7 @@ mature
 vox_tvoi_tutor_ajax_shield_fortify_1
 vox_tvoi_tutor_ajax_shield_fortify_2
 hash_4c9d6f7335be2b6
-hash_6fe3e876a288a13f
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_2_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1041,7 +1041,7 @@ mature
 vox_tvoi_tutor_ajax_shield_fortify_2
 vox_tvoi_tutor_ajax_shield_fortify_comp
 hash_1af92d8f970cc43f
-hash_527226a99ae06a4a
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_comp_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1050,7 +1050,7 @@ mature
 vox_tvoi_tutor_ajax_shield_fortify_comp
 vox_tvoi_tutor_ajax_shield_fortify_nag
 hash_de887be836b096a
-hash_4cb2b81fc5389457
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_nag_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1059,7 +1059,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_shield_fortify_nag
 hash_3b633de107b931b4
-hash_6c69c244bd17c5d
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_nag_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1068,7 +1068,7 @@ mature
 safe
 vox_tvoi_tutor_ajax_shield_fortify_nag
 hash_16d592b4af3f0ed3
-hash_d37cb2f24f12b7a
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_nag_01.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1076,7 +1076,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_shield_fortify_nag
 hash_5e104236766ada90
-hash_56d000f51a1da885
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_nag_02.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1084,7 +1084,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_shield_fortify_nag
 hash_1ab4ea102c95c289
-hash_775a754833a23810
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_fortify_nag_03.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1126,7 +1126,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_shield_nag
 hash_5fe516a0a3a8e5f5
-hash_51c5ca16cff2f068
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_shield_nag_03_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1144,7 +1144,7 @@ mature
 vox_tvoi_tutor_ajax_shield_nag
 vox_tvoi_tutor_ajax_slide_16
 hash_1b9ce2c9036a4601
-hash_49e9bf115250d56c
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_16_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1153,7 +1153,7 @@ mature
 vox_tvoi_tutor_ajax_slide_16
 vox_tvoi_tutor_ajax_slide_17
 hash_7027d2c60d0053ae
-hash_2619ee795d86b43b
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1162,7 +1162,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_slide_17
 hash_917ec40075eddd0
-hash_43ae2b2e7dabb589
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1172,7 +1172,7 @@ safe
 vox_tvoi_tutor_ajax_slide_17
 vox_tvoi_tutor_ajax_slide_17_fail
 hash_1130a634c69d3e1f
-hash_3726b476c6260b22
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_fail_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1181,7 +1181,7 @@ mature
 vox_tvoi_tutor_ajax_slide_17_fail
 vox_tvoi_tutor_ajax_slide_17_nag
 hash_57f1088f802fd4c7
-hash_3d01e20d726cb742
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_nag_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1190,7 +1190,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_slide_17_nag
 hash_6dcd21059a5bbe41
-hash_6ce232561fd00d98
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_nag_00_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1199,7 +1199,7 @@ mature
 safe
 vox_tvoi_tutor_ajax_slide_17_nag
 hash_60b9dc66d2ff6a6e
-hash_75894a5202e3b07f
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_nag_01.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1208,7 +1208,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_slide_17_nag
 hash_7e3928f1a735490
-hash_1b2a44985684a375
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_nag_01_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1217,7 +1217,7 @@ mature
 safe
 vox_tvoi_tutor_ajax_slide_17_nag
 hash_1e57868ad7c3665d
-hash_3882ade31c73b958
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_nag_02.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1225,7 +1225,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_slide_17_nag
 hash_49b61ca0fb260094
-hash_43a2c72919f80a2d
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_nag_03.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1234,7 +1234,7 @@ mature
 explicit
 vox_tvoi_tutor_ajax_slide_17_nag
 hash_2980bdc6ed5f64e6
-hash_3dbd1d52dbfb4b1b
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_17_nag_03_s.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1244,7 +1244,7 @@ safe
 vox_tvoi_tutor_ajax_slide_17_nag
 vox_tvoi_tutor_ajax_slide_2_nag
 hash_292d387c7a637731
-hash_44299f431ef759d4
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_2_nag_00.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1252,7 +1252,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_slide_2_nag
 hash_3360da8c49d7ab98
-hash_1aeded3b18f126f9
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_2_nag_01.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1260,7 +1260,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_slide_2_nag
 hash_12718c5df51f43b
-hash_4b542972d70ab30e
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_2_nag_02.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en
@@ -1268,7 +1268,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ajax_slide_2_nag
 hash_3367e463eb39cdb2
-hash_124c2d23ea76c62b
+en\vox\scripted\urban\tvoi\vox_tvoi_tutor_ajax_slide_2_nag_03.sn100.pc.snd
 mp_urban.en
 mp_urban.en
 mp_urban.en

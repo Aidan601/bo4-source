@@ -4,7 +4,7 @@ physconstraints,d#hash_4063554b6fe94802
 physconstraints,d#hash_4d46a2564e8dcbbc
 physconstraints,d#hash_65810e8e6f675e87
 physconstraints,d#hash_71161886efac93b3
-xanim,d#hash_280ee6e892fc687f
+xanim,d#vm_medical_injection_gun_rh_additive
 xanim,#vm_health_regen_idle
 xanim,d#pt_medical_injection_prone_fire_rh
 xanim,d#pt_medical_injection_stand_fire_rh
@@ -502,7 +502,7 @@ xmodel,d#wpn_t8_eqp_stem_shot_world
 xmodel,d#p7_zm_sta_gibs_arm_r
 xmodel,d#p7_zm_sta_gibs_head
 fx,d#hash_1dd296b2733e8e7
-xanim,d#hash_7249236d1e5c2dfe
+xanim,d#vm_medical_injection_gun_rh
 xmodel,d#c_t8_zmb_3rdclass_male_body3_s_lleg
 xmodel,d#c_t8_zmb_3rdclass_male_body3_s_rleg
 xmodel,d#c_t8_zmb_3rdclass_male_body3_s_larm

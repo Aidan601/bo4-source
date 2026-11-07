@@ -10,7 +10,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_chain_group_0
 hash_20756bf4f336fd87
-hash_400750cb735b46b6
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_chain_group_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -46,7 +46,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_chain_group_nag
 hash_21266d8a61a1318c
-hash_76e12a1a0e832ecd
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_chain_group_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -64,7 +64,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_chain_group_nag
 hash_358fd2be939c1a7b
-hash_2b44700aafb112ce
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_chain_group_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -82,7 +82,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_chain_group_nag
 hash_4e8f6323405644a2
-hash_6f165963c78b5513
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_chain_group_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -152,7 +152,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_distract_enemy_1
 hash_2244661ff72ec02
-hash_27bb727e78e37f27
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_distract_enemy_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -213,7 +213,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_end_1
 hash_44090e1d7ab66a94
-hash_29c06458e95f48d9
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_end_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -241,7 +241,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_enemy_seeker_1
 hash_456f070effb2f551
-hash_413e4f449678ece4
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_enemy_seeker_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -276,7 +276,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_enemy_seeker_fail_nag
 hash_2e43801387a88c29
-hash_3f638562916ffb74
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_enemy_seeker_fail_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -321,7 +321,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_enemy_seeker_shoot_1
 hash_16b11a1de845eba1
-hash_1d324ecd15520e3c
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_enemy_seeker_shoot_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -340,7 +340,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_enemy_stun
 hash_43244adcc5965836
-hash_6d530d50b67c02c3
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_enemy_stun_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -393,7 +393,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_one_enemy_0
 hash_2113d50d57812f45
-hash_6a3edf8a1eeed080
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_one_enemy_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -412,7 +412,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_one_enemy_1
 hash_396d22bb6c39cb82
-hash_6bd76ca503a0f8a7
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_one_enemy_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -431,7 +431,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_one_enemy_nag
 hash_11229b325bfcc8db
-hash_18458100e1563b82
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_one_enemy_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -465,7 +465,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_one_enemy_nag
 hash_5488b7f9c81829ec
-hash_7d854968bf425e11
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_one_enemy_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -511,7 +511,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_one_enemy_stun_nag
 hash_5c259011e396b686
-hash_1ac7fd9069b45673
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_one_enemy_stun_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -545,7 +545,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_one_enemy_stun_nag
 hash_1e318dfc2df39061
-hash_37d7c743d00a3bb0
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_one_enemy_stun_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -590,7 +590,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_remove_dart_fail
 hash_6776929d44c6ac63
-hash_580c05b1a8d5e84e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_remove_dart_fail_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -608,7 +608,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_remove_dart_fail
 hash_429672f3145dacf4
-hash_23a8bfc107a8044d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_remove_dart_fail_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -626,7 +626,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_remove_dart_fail
 hash_24f024b9a9259bd5
-hash_2e394ba8cf5cc750
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_remove_dart_fail_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -661,7 +661,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_active
 hash_28e0fe8b48928afc
-hash_5829e6c5eb16bf7d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_active_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -671,7 +671,7 @@ safe
 vox_tvoi_tutor_prop_score_active
 vox_tvoi_tutor_prop_score_active_fail
 hash_76e1932a70ba8a35
-hash_503549198b7248c8
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_active_fail_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -679,7 +679,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_prop_score_active_fail
 hash_73cbb70173f3bf8c
-hash_724742c63ef6c05d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_active_fail_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -687,7 +687,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_prop_score_active_fail
 hash_4599582a561054bf
-hash_3f80221248a74bf2
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_active_fail_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -695,7 +695,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_prop_score_active_fail
 hash_346fe28fbd880dc6
-hash_2d3f16b3e08c206f
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_active_fail_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -713,7 +713,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_earn
 hash_1fbbf7a1317dc37a
-hash_15d46284626de52b
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_earn_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -732,7 +732,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_half
 hash_1d3ae1e571d51a8d
-hash_23bfcb7d83ffe5c8
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_half_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -750,7 +750,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_half
 hash_4bd63cedefaf29ec
-hash_1c93b22edbf4e425
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_half_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -768,7 +768,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_half
 hash_87020268393c8db
-hash_4a2a9dbf753920e6
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_half_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -787,7 +787,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_hit
 hash_4fa2309a184c8691
-hash_7dcd280b7dc4ee34
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_hit_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -806,7 +806,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_miss
 hash_796ad67653bed80
-hash_478c5706690bfe8d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_miss_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -840,7 +840,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_miss
 hash_4dd3537f7eb96d1f
-hash_6af394817fdf618e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_miss_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -859,7 +859,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_nag
 hash_18614ace4178da6
-hash_41b9020f7d35cf2b
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -877,7 +877,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_nag
 hash_3ff8b54d6b30bf6f
-hash_5dee5faa5e848b06
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -895,7 +895,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_nag
 hash_50381c5e1dd63450
-hash_e5686c5754c3145
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -947,7 +947,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_score_start
 hash_283461c4c3b80020
-hash_23cb3406f7cd0981
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_score_start_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -975,7 +975,7 @@ mature
 vox_tvoi_tutor_prop_seeker_enemy_dead_1
 vox_tvoi_tutor_prop_seeker_enemy_dead_2
 hash_420547e1c4d531b9
-hash_35cffcdbd166ead0
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_seeker_enemy_dead_2_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1009,7 +1009,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_seeker_follow_nag
 hash_595bf79c14bad733
-hash_2b2eb3dfa6f6ec7e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_seeker_follow_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1027,7 +1027,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_seeker_follow_nag
 hash_8ceabd7259e46da
-hash_2fa1f8236a5418c3
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_seeker_follow_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1037,7 +1037,7 @@ safe
 vox_tvoi_tutor_prop_seeker_follow_nag
 vox_tvoi_tutor_prop_seeker_mine_0
 hash_2821e995b8ebd993
-hash_5ff808008200a94e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_seeker_mine_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1073,7 +1073,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_seeker_mine_nag
 hash_4902b91da791be8b
-hash_2202af189ec7caee
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_seeker_mine_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1091,7 +1091,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_seeker_mine_nag
 hash_76b27c70449eda32
-hash_50ee12b3edd75db3
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_seeker_mine_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1167,7 +1167,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_slide_2_nag
 hash_40a53f795c8cbba9
-hash_77cc3883dc1efe80
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_slide_2_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1202,7 +1202,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_start_0
 hash_1c716bf52efe860a
-hash_42ba34230d18cef7
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_start_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1212,7 +1212,7 @@ safe
 vox_tvoi_tutor_prop_start_0
 vox_tvoi_tutor_prop_start_0_arb
 hash_7f6ffb93dcfa6e08
-hash_4377e493f9072a95
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_start_0_arb_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1239,7 +1239,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_tempest_0
 hash_61ad24130c66ff48
-hash_5bf300335b0e689d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_tempest_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1258,7 +1258,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_tempest_1
 hash_ca26f3db479f8c3
-hash_421533439fd069f6
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_tempest_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1295,7 +1295,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_throw_seeker
 hash_6d9fe49ee07f2161
-hash_77ca9961479da620
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_throw_seeker_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1341,7 +1341,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_wine_comp_1
 hash_20b4f229f73d0020
-hash_638ce0a2d7bad865
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_wine_comp_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1387,7 +1387,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_wine_enemy_locate
 hash_5223c2f2614f5194
-hash_74f0af6f7d7da12d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_wine_enemy_locate_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1406,7 +1406,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_wine_plyr_dead
 hash_7cc788177476779b
-hash_444ae22e091f0f4e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_wine_plyr_dead_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1465,7 +1465,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_wine_seeker_deploy_nag
 hash_60f7d7f6c1bc32d9
-hash_1036ca8a753ba5b4
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_wine_seeker_deploy_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1484,7 +1484,7 @@ mature
 explicit
 vox_tvoi_tutor_prop_wine_seeker_follow_nag
 hash_6824d3d222f96579
-hash_3c68ab2329766034
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_prop_wine_seeker_follow_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1502,7 +1502,7 @@ mature
 vox_tvoi_tutor_prop_wine_seeker_follow_nag
 vox_tvoi_tutor_reco_blightfather_dead_0
 hash_2a6bb3b86b37a211
-hash_9f9ac022f9d0bfc
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_dead_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1511,7 +1511,7 @@ mature
 vox_tvoi_tutor_reco_blightfather_dead_0
 vox_tvoi_tutor_reco_blightfather_dead_1
 hash_1a9068e4c1044fbe
-hash_42523e6bf17f75cb
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_dead_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1520,7 +1520,7 @@ mature
 vox_tvoi_tutor_reco_blightfather_dead_1
 vox_tvoi_tutor_reco_blightfather_enter_0
 hash_4cb3cdcd4556e1a9
-hash_62fde8db6c1d4d8
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_enter_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1529,7 +1529,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_blightfather_enter_0
 hash_17cdf809e9340f03
-hash_1c165e028cad54f6
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_enter_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1539,7 +1539,7 @@ safe
 vox_tvoi_tutor_reco_blightfather_enter_0
 vox_tvoi_tutor_reco_blightfather_enter_1
 hash_4836299f2e61bbf6
-hash_7d628d276c2b5a97
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_enter_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1548,7 +1548,7 @@ mature
 vox_tvoi_tutor_reco_blightfather_enter_1
 vox_tvoi_tutor_reco_blightfather_nag
 hash_604c68d5f5fc95ca
-hash_210d90d0ba5153af
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1557,7 +1557,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_blightfather_nag
 hash_6336fa5c89416054
-hash_af94187d1774325
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1566,7 +1566,7 @@ mature
 safe
 vox_tvoi_tutor_reco_blightfather_nag
 hash_1c8400afabca90b3
-hash_54700a28e09b0432
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1575,7 +1575,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_blightfather_nag
 hash_7a1b40c43cb3d35
-hash_12255ad6798244c8
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1584,7 +1584,7 @@ mature
 safe
 vox_tvoi_tutor_reco_blightfather_nag
 hash_d3ab0365af6ba70
-hash_1f5d38fef7ac9d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1593,7 +1593,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_blightfather_nag
 hash_5ceac4accf92eaa
-hash_4b782887a799008b
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1603,7 +1603,7 @@ safe
 vox_tvoi_tutor_reco_blightfather_nag
 vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_248e9bf1a0f38906
-hash_2586482e053f211b
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_plyr_dead_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1611,7 +1611,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_6d3e70eea0fb9ff
-hash_1d99203b251c113e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_plyr_dead_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1619,7 +1619,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_10df3d8aea37e8cc
-hash_6c60cf4ce0c723e9
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_plyr_dead_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1628,7 +1628,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_22cc605ee7547f0e
-hash_2d0cba45154167bf
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_plyr_dead_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1637,7 +1637,7 @@ mature
 safe
 vox_tvoi_tutor_reco_blightfather_plyr_dead
 hash_3a1e4c8769427e75
-hash_229e495a54f0b2c4
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_plyr_dead_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1646,7 +1646,7 @@ mature
 vox_tvoi_tutor_reco_blightfather_plyr_dead
 vox_tvoi_tutor_reco_blightfather_squad_dead
 hash_78cf435e5e2e3d79
-hash_629b8c260538b00
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_squad_dead_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1654,7 +1654,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_blightfather_squad_dead
 hash_1948f739fede8b80
-hash_18fe8f19587e8875
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_squad_dead_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1663,7 +1663,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_blightfather_squad_dead
 hash_7db38e063f689d7a
-hash_1c687d3d30ed2813
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_squad_dead_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1672,7 +1672,7 @@ mature
 safe
 vox_tvoi_tutor_reco_blightfather_squad_dead
 hash_51b5b8eb52d09703
-hash_3bb7b486cef4386a
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_blightfather_squad_dead_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1681,7 +1681,7 @@ mature
 vox_tvoi_tutor_reco_blightfather_squad_dead
 vox_tvoi_tutor_reco_church_comp
 hash_27330ddaec88638a
-hash_b414d5de108f017
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_church_comp_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1690,7 +1690,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_church_comp
 hash_2b71bbdd9a074f14
-hash_7d8f2706a5f8c51d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_church_comp_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1747,7 +1747,7 @@ mature
 hash_37a8de4d53277755
 vox_tvoi_tutor_reco_church_nag
 hash_5078a1cc54caaa6d
-hash_1920fd304639cc3c
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_church_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1756,7 +1756,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_church_nag
 hash_5cc83d7e9dc2d7ff
-hash_1409187623230ea2
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_church_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1765,7 +1765,7 @@ mature
 safe
 vox_tvoi_tutor_reco_church_nag
 hash_7716c6af58baafe4
-hash_42d30a824da0bf21
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_church_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1774,7 +1774,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_church_nag
 hash_436772381f2edc76
-hash_4e423dcac2a95ce7
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_church_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1783,7 +1783,7 @@ mature
 safe
 vox_tvoi_tutor_reco_church_nag
 hash_2df4502dd3379b97
-hash_14577de0290ee7d6
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_church_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1792,7 +1792,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_church_nag
 hash_1afea3105a99fe91
-hash_5ae293b3d7286f24
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_church_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1802,7 +1802,7 @@ safe
 vox_tvoi_tutor_reco_church_nag
 vox_tvoi_tutor_reco_dart_hide_0
 hash_7003a025e9e4fed4
-hash_3f08f85c89b70ae9
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_hide_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1811,7 +1811,7 @@ mature
 vox_tvoi_tutor_reco_dart_hide_0
 vox_tvoi_tutor_reco_dart_hide_1
 hash_46acf9c02976f94f
-hash_66131059a17cee82
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_hide_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1820,7 +1820,7 @@ mature
 vox_tvoi_tutor_reco_dart_hide_1
 vox_tvoi_tutor_reco_dart_hide_2
 hash_2958916da334d94a
-hash_772558dd4b30151f
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_hide_2_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1829,7 +1829,7 @@ mature
 vox_tvoi_tutor_reco_dart_hide_2
 vox_tvoi_tutor_reco_dart_hide_enemy
 hash_61f28089d9f86608
-hash_4a947142cf457fc1
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_hide_enemy_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1838,7 +1838,7 @@ mature
 vox_tvoi_tutor_reco_dart_hide_enemy
 vox_tvoi_tutor_reco_dart_hide_hit
 hash_5ae3eb0aec5b2d01
-hash_18d961dbd4b7b9f0
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_hide_hit_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1847,7 +1847,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_dart_hide_hit
 hash_5a2eb00b0e90b78b
-hash_4a6643fdf9354f3e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_hide_hit_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1857,7 +1857,7 @@ safe
 vox_tvoi_tutor_reco_dart_hide_hit
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_7103ddcb3442fd7a
-hash_7ac93b1d59766f4b
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1865,7 +1865,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_7dd819f47ed13a23
-hash_6c1520c47cca392e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1873,7 +1873,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_1977ed81cfb2ea20
-hash_630d44652489f599
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1881,7 +1881,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_25de39ab19e2bd19
-hash_782fd35161dfadf4
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1890,7 +1890,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_204b9b20adb0a233
-hash_1126f99d11e654a
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1899,7 +1899,7 @@ mature
 safe
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_6ae447b36333d2ae
-hash_49c2b4c8ebf75e7f
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_04.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1908,7 +1908,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_3869c6197d3b34d0
-hash_3805947779f58175
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_04_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1917,7 +1917,7 @@ mature
 safe
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_10ff9e595fd05307
-hash_113b4c845b806542
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_05.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1925,7 +1925,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_dart_miss_nag
 hash_59357f97559f8ad4
-hash_17dc31a0030bb82d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_miss_nag_06.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1944,7 +1944,7 @@ safe
 vox_tvoi_tutor_reco_dart_miss_nag
 vox_tvoi_tutor_reco_dart_missed_nag
 hash_6391509cf9f9addf
-hash_2248b2eb48fa1682
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_missed_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1953,7 +1953,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_dart_missed_nag
 hash_719c81bfc8d60ce9
-hash_7b3f8cccc7de90d8
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_missed_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1962,7 +1962,7 @@ mature
 safe
 vox_tvoi_tutor_reco_dart_missed_nag
 hash_a04fd297e0261e6
-hash_5a91adc7e7e06bbf
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_missed_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1970,7 +1970,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_dart_missed_nag
 hash_482418809e9dd8d5
-hash_725de6b0fa88898
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_missed_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1979,7 +1979,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_dart_missed_nag
 hash_2e67c17b0f5d4c17
-hash_1fc101838896e6b6
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_missed_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1989,7 +1989,7 @@ safe
 vox_tvoi_tutor_reco_dart_missed_nag
 vox_tvoi_tutor_reco_dart_nag
 hash_562ef893b4ae312f
-hash_5215c7a42a5d2ad2
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -1998,7 +1998,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_dart_nag
 hash_611aa53ac89bee79
-hash_7dbf9b330a947728
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2007,7 +2007,7 @@ mature
 safe
 vox_tvoi_tutor_reco_dart_nag
 hash_49d9496fca93fdf6
-hash_128d8173942a17cf
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2015,7 +2015,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_dart_nag
 hash_776f393cf57f9e5
-hash_4e3c4f6d35620228
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2024,7 +2024,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_dart_nag
 hash_ddf3d372afba967
-hash_7d70b7002f65c246
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_dart_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2043,7 +2043,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_end_0
 hash_4fe4d5cb1ea45d2d
-hash_4a7d926009555400
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_end_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2062,7 +2062,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_end_1
 hash_28d1f60d3a9b2a0a
-hash_4c161f7aee077c27
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_end_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2099,7 +2099,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_enemy_dart_2
 hash_35f9b667654e9524
-hash_470b3568c92df6cd
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_enemy_dart_2_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2151,7 +2151,7 @@ mature
 vox_tvoi_tutor_reco_enemy_dart_nag
 vox_tvoi_tutor_reco_first_group_0
 hash_171ea385eef37c00
-hash_6139d5560830d131
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2160,7 +2160,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_first_group_0
 hash_1e9e5c3c2504a1fa
-hash_47919889ea6f1b37
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2170,7 +2170,7 @@ safe
 vox_tvoi_tutor_reco_first_group_0
 vox_tvoi_tutor_reco_first_group_1
 hash_4001a59bbe458eb
-hash_298272f4032b43aa
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2179,7 +2179,7 @@ mature
 vox_tvoi_tutor_reco_first_group_1
 vox_tvoi_tutor_reco_first_group_candy
 hash_7a14ba2cbf20912c
-hash_78e3f43cda80045d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_candy_05.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2188,7 +2188,7 @@ mature
 vox_tvoi_tutor_reco_first_group_candy
 vox_tvoi_tutor_reco_first_group_nag
 hash_1c4c6fb834719c1a
-hash_41bb7487e91cea0f
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2196,7 +2196,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_first_group_nag
 hash_291fabe17efe25c3
-hash_1441eda66e330d12
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2205,7 +2205,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_first_group_nag
 hash_370ef3b4fd45e705
-hash_67f2bbe2c0a7de68
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2214,7 +2214,7 @@ mature
 safe
 vox_tvoi_tutor_reco_first_group_nag
 hash_6d4dea30282aa440
-hash_f665af42d19e2fd
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2223,7 +2223,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_first_group_nag
 hash_564510a9869a193a
-hash_6bf4553c99e74cab
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2232,7 +2232,7 @@ mature
 safe
 vox_tvoi_tutor_reco_first_group_nag
 hash_289860d6c1c68d39
-hash_36cd3aa2b4989268
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2241,7 +2241,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_first_group_nag
 hash_247be6c532f9c413
-hash_829b2d77b360886
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2250,7 +2250,7 @@ mature
 safe
 vox_tvoi_tutor_reco_first_group_nag
 hash_3fa7d9a54b611c4e
-hash_79d99c3b3272cc5b
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_04.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2259,7 +2259,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_first_group_nag
 hash_408b7712669204b0
-hash_6f362849496bc69
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_04_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2268,7 +2268,7 @@ mature
 safe
 vox_tvoi_tutor_reco_first_group_nag
 hash_3c4730465ffd3ea7
-hash_3f534f74d2ee6f7e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_first_group_nag_05.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2277,7 +2277,7 @@ mature
 vox_tvoi_tutor_reco_first_group_nag
 vox_tvoi_tutor_reco_flank_attack_0
 hash_2f82ac769f49a553
-hash_5697e04c30a2c1ca
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_flank_attack_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2286,7 +2286,7 @@ mature
 vox_tvoi_tutor_reco_flank_attack_0
 vox_tvoi_tutor_reco_flank_attack_1
 hash_63ce2d3e8d9c6d08
-hash_51b34f13e856f551
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_flank_attack_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2295,7 +2295,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_flank_attack_1
 hash_44364ccf3daf5812
-hash_4f8f1558dc2d9797
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_flank_attack_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2305,7 +2305,7 @@ safe
 vox_tvoi_tutor_reco_flank_attack_1
 vox_tvoi_tutor_reco_flank_attack_2
 hash_266bb40c3e3874e1
-hash_6c071e1af7ce3468
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_flank_attack_2_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2314,7 +2314,7 @@ mature
 vox_tvoi_tutor_reco_flank_attack_2
 vox_tvoi_tutor_reco_flank_attack_3
 hash_4c2d0f919c95600e
-hash_21eb4f1aaa2e3927
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_flank_attack_3_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2323,7 +2323,7 @@ mature
 vox_tvoi_tutor_reco_flank_attack_3
 vox_tvoi_tutor_reco_flank_comp_0
 hash_71947042772fd7e8
-hash_7f48ef84fc972b19
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_flank_comp_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2332,7 +2332,7 @@ mature
 vox_tvoi_tutor_reco_flank_comp_0
 vox_tvoi_tutor_reco_flank_comp_1
 hash_50f7b7824f630ab3
-hash_60157d6bf77a0172
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_flank_comp_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2369,7 +2369,7 @@ mature
 hash_41a9a2d29deed27
 vox_tvoi_tutor_reco_move_nag
 hash_1cb9fce68afab16f
-hash_77453f070d27dfee
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_move_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2377,7 +2377,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_move_nag
 hash_66e94dbdb8e1d336
-hash_3d4bfbf4a5c0510b
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_move_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2386,7 +2386,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_move_nag
 hash_6b3ea316817269c8
-hash_1d9578ada8cf3759
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_move_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2395,7 +2395,7 @@ mature
 safe
 vox_tvoi_tutor_reco_move_nag
 hash_5004225f0a2d0925
-hash_1451fba7cdb028b4
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_move_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2403,7 +2403,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_move_nag
 hash_4df98cf0c6deafbc
-hash_2753c24ce3cbc259
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_move_nag_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2412,7 +2412,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_move_nag
 hash_289023a4af66913e
-hash_663c2a72df7c292f
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_move_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2422,7 +2422,7 @@ safe
 vox_tvoi_tutor_reco_move_nag
 vox_tvoi_tutor_reco_noise_bullseye
 hash_5ccbfd7ec2f1382b
-hash_220a800933b7a7ae
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_noise_bullseye_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2431,7 +2431,7 @@ mature
 vox_tvoi_tutor_reco_noise_bullseye
 vox_tvoi_tutor_reco_ray_gun_kill
 hash_6a9c7bf7e51dc101
-hash_21c788978e3c8d80
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_ray_gun_kill_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2440,7 +2440,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_ray_gun_kill
 hash_6c11f81896f66b8b
-hash_32504090159bcc4e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_ray_gun_kill_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2449,7 +2449,7 @@ mature
 safe
 vox_tvoi_tutor_reco_ray_gun_kill
 hash_6f7c265dea4e8668
-hash_349c5eee86678af5
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_ray_gun_kill_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2458,7 +2458,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_ray_gun_kill
 hash_19c1bb6b34038732
-hash_762229e92d760e93
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_ray_gun_kill_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2467,7 +2467,7 @@ mature
 safe
 vox_tvoi_tutor_reco_ray_gun_kill
 hash_66bc249c67c55a4b
-hash_5755845bfcdd3aea
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_ray_gun_kill_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2476,7 +2476,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_ray_gun_kill
 hash_41f0e79b51a26ffd
-hash_87d86873c22ab50
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_ray_gun_kill_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2485,7 +2485,7 @@ mature
 safe
 vox_tvoi_tutor_reco_ray_gun_kill
 hash_4774f6a74f3b3542
-hash_113aeddbbcdd6107
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_ray_gun_kill_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2512,7 +2512,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_sensor_dart_1
 hash_9b570753e53c935
-hash_2fda8c7e35ef97b0
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_sensor_dart_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2576,7 +2576,7 @@ mature
 hash_194e5858679eef0d
 vox_tvoi_tutor_reco_strange_noise_0
 hash_74325c3a21e6a49f
-hash_23bf1150d75cb26a
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2585,7 +2585,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_strange_noise_0
 hash_5031082c3b868ca9
-hash_2768ec7c30834ed0
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2595,7 +2595,7 @@ safe
 vox_tvoi_tutor_reco_strange_noise_0
 vox_tvoi_tutor_reco_strange_noise_1
 hash_114c5b97083587a4
-hash_1f120699243bc0f1
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2604,7 +2604,7 @@ mature
 vox_tvoi_tutor_reco_strange_noise_1
 vox_tvoi_tutor_reco_strange_noise_2
 hash_2d8145db8719afcd
-hash_140be39a84618f88
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_2_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2613,7 +2613,7 @@ mature
 vox_tvoi_tutor_reco_strange_noise_2
 vox_tvoi_tutor_reco_strange_noise_nag
 hash_67f6952b859cacad
-hash_3fbdc0fcf5e798cc
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2622,7 +2622,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_strange_noise_nag
 hash_6ad901abad56623f
-hash_a972ff5d6960ab2
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2631,7 +2631,7 @@ mature
 safe
 vox_tvoi_tutor_reco_strange_noise_nag
 hash_63188f913d072b24
-hash_71e435cb39d28f1
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2640,7 +2640,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_strange_noise_nag
 hash_2323b46e78aac7b6
-hash_12f91c90da95b3f7
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2649,7 +2649,7 @@ mature
 safe
 vox_tvoi_tutor_reco_strange_noise_nag
 hash_48c510be69c630d7
-hash_3b122b4ad2fd6326
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2658,7 +2658,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_strange_noise_nag
 hash_fd3dcd60ed6ead1
-hash_7b8c3e336383ceb4
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_nag_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2667,7 +2667,7 @@ mature
 safe
 vox_tvoi_tutor_reco_strange_noise_nag
 hash_7b75808a316de0fe
-hash_5201f9de47aa1123
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_nag_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2676,7 +2676,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_strange_noise_nag
 hash_6143f5d21a0a3fa0
-hash_15db78068ebacbc1
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_strange_noise_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2686,77 +2686,77 @@ safe
 vox_tvoi_tutor_reco_strange_noise_nag
 vox_tvoi_tutor_reco_vis_pulse_0
 hash_53e75ee4413d7366
-hash_fa7ade57cd9703f
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_vis_pulse_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
 mpl_announcer
 mature
 vox_tvoi_tutor_reco_vis_pulse_0
-hash_dd77a0770d28e66
+vox_tvoi_tutor_reco_vis_pulse_nag
 hash_4b9240a048700048
-hash_1bff57c5f1125d0d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_vis_pulse_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
 mpl_announcer
 mature
-hash_dd77a0770d28e66
+vox_tvoi_tutor_reco_vis_pulse_nag
 hash_46b2963a433f3ae1
-hash_39dddd46dfb016b8
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_vis_pulse_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
 mpl_announcer
 mature
 explicit
-hash_dd77a0770d28e66
+vox_tvoi_tutor_reco_vis_pulse_nag
 hash_3be5c2744bb28f2b
-hash_580ce7e2a94e6416
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_vis_pulse_nag_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
 mpl_announcer
 mature
 safe
-hash_dd77a0770d28e66
+vox_tvoi_tutor_reco_vis_pulse_nag
 hash_7afda628551393a2
-hash_45f8407d93abbd5f
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_vis_pulse_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
 mpl_announcer
 mature
-hash_dd77a0770d28e66
+vox_tvoi_tutor_reco_vis_pulse_nag
 hash_473aa145007819ab
-hash_625e31c48a6b83a2
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_vis_pulse_nag_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
 mpl_announcer
 mature
 explicit
-hash_dd77a0770d28e66
+vox_tvoi_tutor_reco_vis_pulse_nag
 hash_50218f67c628111d
-hash_2819f3ab13fb0e38
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_vis_pulse_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
 mpl_announcer
 mature
 safe
-hash_dd77a0770d28e66
+vox_tvoi_tutor_reco_vis_pulse_nag
 hash_1dc3c4819c5a3c5c
-hash_55fdb97ef6011479
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_vis_pulse_nag_04.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
 mpl_announcer
 mature
-hash_dd77a0770d28e66
+vox_tvoi_tutor_reco_vis_pulse_nag
 vox_tvoi_tutor_reco_wine_cellar_0
 hash_73e880fbf903878f
-hash_5d25f7318cb5c7fe
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_wine_cellar_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2765,7 +2765,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_wine_cellar_0
 hash_3c207b30129d7719
-hash_7aa4aed3cf9c31c
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_wine_cellar_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2775,7 +2775,7 @@ safe
 vox_tvoi_tutor_reco_wine_cellar_0
 vox_tvoi_tutor_reco_wine_cellar_1
 hash_4bf31e5bb2261714
-hash_30886b6af6ba2bb5
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_wine_cellar_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2784,7 +2784,7 @@ mature
 vox_tvoi_tutor_reco_wine_cellar_1
 vox_tvoi_tutor_reco_zomb_nag
 hash_413d6ea31d932e72
-hash_7a8044cb795a37a3
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_nag_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2793,7 +2793,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_zomb_nag
 hash_7824117f9add88cc
-hash_47372e7303147641
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_nag_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2802,7 +2802,7 @@ mature
 safe
 vox_tvoi_tutor_reco_zomb_nag
 hash_124d7036776481fb
-hash_6390763804ad89a6
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_nag_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2810,7 +2810,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_zomb_nag
 hash_6e1764d06712e058
-hash_2f9c8e49e54d4f71
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_nag_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2818,7 +2818,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_zomb_nag
 hash_3a548fed1277b7f1
-hash_683c0bea2797bf4c
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_nag_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2827,7 +2827,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_zomb_nag
 hash_4d3dec478c6804bb
-hash_3bf2e6624aefb532
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_nag_03_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2837,7 +2837,7 @@ safe
 vox_tvoi_tutor_reco_zomb_nag
 vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_95df965b72a1d0e
-hash_556061aa335fa7
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_plyr_dead_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2845,7 +2845,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_77dc2de49735a267
-hash_6a9d9952aa3b898a
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_plyr_dead_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2853,7 +2853,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_1783a46134ba0bb4
-hash_31ead97a007be115
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_plyr_dead_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2862,7 +2862,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_c1a61c68232f9c6
-hash_24abef59aaa4dd73
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_plyr_dead_02_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2871,7 +2871,7 @@ mature
 safe
 vox_tvoi_tutor_reco_zomb_plyr_dead
 hash_4395a389b90aeffd
-hash_5caa1444d2786320
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_plyr_dead_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2880,7 +2880,7 @@ mature
 vox_tvoi_tutor_reco_zomb_plyr_dead
 vox_tvoi_tutor_reco_zomb_score_active_0
 hash_36e09dbf2c0390be
-hash_57a1bc290a9071db
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_active_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2889,7 +2889,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_zomb_score_active_0
 hash_4fb492ac57cb6060
-hash_9d1679c616bde9
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_active_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2899,7 +2899,7 @@ safe
 vox_tvoi_tutor_reco_zomb_score_active_0
 vox_tvoi_tutor_reco_zomb_score_active_1
 hash_46bbe892d636e311
-hash_888700ce0e320c
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_active_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2908,7 +2908,7 @@ mature
 vox_tvoi_tutor_reco_zomb_score_active_1
 vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_4a4b64e36dc0e52a
-hash_4bfc257ccec6bf5f
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_active_fail_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2916,7 +2916,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_58a09a520100a293
-hash_686216c3c58685a2
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_active_fail_01.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2925,7 +2925,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_7874eb06ff0d4d55
-hash_2592682a82146038
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_active_fail_01_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2934,7 +2934,7 @@ mature
 safe
 vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_495749d8b02ccc50
-hash_22033cc52c2d5f0d
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_active_fail_02.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2942,7 +2942,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_reco_zomb_score_active_fail
 hash_a6fa089c129249
-hash_3fe1c2461acb18b8
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_active_fail_03.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2951,7 +2951,7 @@ mature
 vox_tvoi_tutor_reco_zomb_score_active_fail
 vox_tvoi_tutor_reco_zomb_score_earned
 hash_65b77a5781973190
-hash_2d2e3bc7fadb7805
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_score_earned_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2960,7 +2960,7 @@ mature
 vox_tvoi_tutor_reco_zomb_score_earned
 vox_tvoi_tutor_reco_zomb_vis_pulse_0
 hash_77046a96410b3a83
-hash_7c9bffb0d831a3a
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_vis_pulse_0_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2969,7 +2969,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_zomb_vis_pulse_0
 hash_796c4ad3d5b534c5
-hash_2c7970c3df19cba0
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_vis_pulse_0_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2979,7 +2979,7 @@ safe
 vox_tvoi_tutor_reco_zomb_vis_pulse_0
 vox_tvoi_tutor_reco_zomb_vis_pulse_1
 hash_690eebfb42f33fb8
-hash_2a3ced50edd2db41
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_vis_pulse_1_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2988,7 +2988,7 @@ mature
 explicit
 vox_tvoi_tutor_reco_zomb_vis_pulse_1
 hash_11c59881ea6dd102
-hash_2470f4f1cd609ec7
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_vis_pulse_1_00_s.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -2998,7 +2998,7 @@ safe
 vox_tvoi_tutor_reco_zomb_vis_pulse_1
 vox_tvoi_tutor_reco_zomb_vis_pulse_2
 hash_25a9f74e68512f11
-hash_2babe03d38517e98
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_vis_pulse_2_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -3007,7 +3007,7 @@ mature
 vox_tvoi_tutor_reco_zomb_vis_pulse_2
 vox_tvoi_tutor_reco_zomb_vis_pulse_3
 hash_15ceac7abe1ddcbe
-hash_36414ccc519e7c57
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_vis_pulse_3_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en
@@ -3016,7 +3016,7 @@ mature
 vox_tvoi_tutor_reco_zomb_vis_pulse_3
 vox_tvoi_tutor_reco_zomb_vis_pulse_4
 hash_7dca6205888677ff
-hash_61fa063e0c8524e
+en\vox\scripted\seaside\tvoi\vox_tvoi_tutor_reco_zomb_vis_pulse_4_00.sn100.pc.snd
 mp_seaside.en
 mp_seaside.en
 mp_seaside.en

@@ -17,7 +17,7 @@ image,#hash_62656bc725f9eeb
 image,#uie_ui_hud_core_objective_widget_round_fill
 image,d#uie_ui_icon_hud_zb_bodyarmor
 image,d#ui_icon_obit_pistol_standard
-image,d#hash_75cde8bccbd6f24
+image,d#uie_hud_core_player_healthbar_empty
 image,d#uie_ui_menu_store_focus_pips
 image,d#uie_ui_menu_social_popup_menu_bar
 image,#uie_zm_rush_heart
@@ -110,7 +110,7 @@ image,#uie_zm_hud_specweapon_meterbg
 image,#uie_zm_hud_specweapon_meterfg
 image,#uie_zm_hud_notification_firework
 image,#uie_zm_hud_notification_ring
-image,#hash_34c042bc6c9d43a9
+image,#uie_ui_director_featured_pip_empty
 image,#hash_3560fe2d650e06a5
 image,d#hash_357737c6cb8a7315
 image,#hash_35942caffdd6606f
@@ -131,7 +131,7 @@ image,#ui_icon_ability_shield
 image,d#ui_icon_weapons_zm_thompson
 image,d#hash_3ca7475bc4d2aaee
 image,#ui_icon_equipment_zm_katana_lvl2_dark
-image,#hash_3d2ed8639c87f2f6
+image,#uie_zm_hud_core_player_healthbar
 image,#uie_ui_hud_core_objective_widget_diamond
 image,#uie_ui_hud_core_frame_bottom_thin_stretchable
 image,d#ui_icon_inventory_zm_ora_heat_completed
@@ -145,7 +145,7 @@ image,#uie_t8_damage_feedback_friendly_glow
 image,#ui_hud_core_objective_widget_downed
 image,#hash_46d33c4bf7d8e2bf
 image,#hash_46e5beccf89f9216
-image,d#hash_475961abecf3e11a
+image,d#uie_hud_core_player_healthbar_buff
 image,d#uie_ui_hud_core_objective_widget_led
 image,#ui_icon_weapons_zm_raygun_mk2_purple
 image,#ui_icon_weapons_zm_raygun
@@ -231,7 +231,7 @@ image,#ui_icon_equipment_zm_flamethrower_lvl1
 image,#ui_icon_equipment_zm_flamethrower_lvl2
 image,#ui_icon_equipment_zm_flamethrower_lvl3
 image,#uie_ui_hud_core_objective_widget_round_empty
-image,#hash_79d0184504fdf2cd
+image,#uie_ui_director_featured_pip_current
 image,d#ui_icon_hero_portrait_draft_stanton
 image,d#ui_icon_weapons_zm_pistoltopbreak
 image,#ui_icon_equipment_zm_minigun_lvl2_dark

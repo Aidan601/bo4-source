@@ -136,7 +136,7 @@ mc/mtl_c_t8_zmb_gib_gore_stump
 mc/mtl_c_t8_zmb_male_bowtie
 mc/mtl_c_t8_zmb_male_jacket_1
 mc/mtl_c_t8_zmb_male_arms1
-hash_4eb857611eb8d320
+mc/mtl_c_t8_gen_gib_gore_leg_calf_alpha_graphic
 hash_d71ef9fe374e9c68
 mc/mtl_c_t8_zmb_male_jacketsleeves_1
 mc/mtl_c_t8_gen_gib_gore_leg_calf_graphic

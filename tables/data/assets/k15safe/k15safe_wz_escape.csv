@@ -159,7 +159,7 @@ image,#i_t7_concrete_bare_wet_warm_n
 image,#i_t8_zm_esc_blood_text_locations_c
 image,d#$camo_base_gloss
 image,d#$identitynormalmap
-image,#hash_dce1676f28b9d24
+image,#i_t8_zm_esc_blood_writings_dry_01_c
 image,d#i_wpn_t8_eqp_heal_aid_1_s
 image,d#i_wpn_t8_eqp_heal_aid_1_o
 image,d#i_wpn_t8_eqp_heal_aid_1_n
@@ -333,7 +333,7 @@ impactsoundstable,d#phy_gibs
 physpreset,d#gib
 xmodel,#c_t8_zmb_mob_zombie_body2_g_behead
 xmodel,#c_t8_zmb_mob_zombie_head2_cage
-xmodel,#hash_1d87a01f651d83ad
+xmodel,#c_t8_zmb_zod_chaos_corpse_fb1
 xmodel,#c_t8_zmb_mob_zombie_body2_g_larmoff
 xmodel,#c_t8_zmb_mob_zombie_body2_g_upclean
 xmodel,#c_t8_zmb_mob_zombie_body1

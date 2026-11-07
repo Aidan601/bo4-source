@@ -760,7 +760,7 @@ mc/mtl_veh_t8_civ_suv_decal_blood_splatter_05
 mc/mtl_veh_t8_civ_suv_decal_blood_splatter_06
 mc/mtl_veh_t8_civ_suv_decal_blood_splatter_01
 mc/mtl_veh_t8_civ_suv_decal_blood_splatter_02
-hash_79621d0c84f8ed9
+mc/mtl_veh_t8_civ_suv_blood_handprint_smear_01
 mc/mtl_p7_zm_teddybear
 wc/t7_zm_moo_terrain_sand_smooth_01_blood_blend
 wc/t7_shr_decal_blood_spray_snow_02
@@ -782,7 +782,7 @@ vd/t8_decal_blood_splatter_floor_01_dry
 vd/t7_shr_decal_blood_spray_snow_02
 hash_2069b3ffd9648aa5
 wc/t8_decal_blood_puddle_floor_01_hard
-hash_2c0f624a88c57730
+mc/mtl_veh_t8_civ_suv_blood_streaks_light_01
 hash_32303d9b7ae472fc
 mc/mtl_veh_t8_civ_bus_small_museum_decal_blood_010
 mc/mtl_veh_t8_civ_bus_small_museum_decal_blood_011
@@ -822,7 +822,7 @@ wc/t7_decal_blood_smear_01
 wc/t7_decal_blood_smear_02
 vd/t7_decal_blood_smear_01
 vd/t7_decal_blood_smear_02
-hash_6c10eca798e42bfd
+mc/mtl_veh_t8_civ_suv_blood_streaks_medium_01
 wc/t8_decal_blood_splatter_floor_01_dry
 wc/t7_decal_blood_droplets_02
 phy_gibs
@@ -837,7 +837,7 @@ p7_gib_chunk_bone_03
 p7_gib_chunk_meat_01
 p7_gib_chunk_meat_02
 p7_gib_chunk_meat_03
-hash_4356d2058f2d863b
+mc/mtl_p8_zmu_signage_wickedwaters_blood_splatter_01
 c_t8_zmb_3rdclass_male_body3_s_lleg
 c_t8_zmb_3rdclass_male_body3_s_rleg
 c_t8_zmb_3rdclass_male_body3_s_larm

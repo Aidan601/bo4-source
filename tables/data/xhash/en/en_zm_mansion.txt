@@ -331,7 +331,7 @@ perspective
 player
 vox_1_banter_butl_psyc_plr_12_1
 hash_2d03443be02250f0
-hash_5e6541e924b39d58
+en\vox\scripted\zmb\man\vox_man_plr_12_1_banter_butl_psyc_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -341,7 +341,7 @@ perspective
 npc
 vox_1_banter_butl_psyc_plr_12_1
 hash_2d03443be02250f0
-hash_5e6541e924b39d58
+en\vox\scripted\zmb\man\vox_man_plr_12_1_banter_butl_psyc_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -1271,7 +1271,7 @@ perspective
 player
 vox_3_banter_butl_guns_plr_11_1
 hash_f7983527aa278e9
-hash_7d7b9337c3f01971
+en\vox\scripted\zmb\man\vox_man_plr_11_3_banter_butl_guns_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -1281,7 +1281,7 @@ perspective
 npc
 vox_3_banter_butl_guns_plr_11_1
 hash_f7983527aa278e9
-hash_7d7b9337c3f01971
+en\vox\scripted\zmb\man\vox_man_plr_11_3_banter_butl_guns_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -2547,7 +2547,7 @@ mature
 perspective
 player
 vox_6_banter_butl_psyc_plr_9_1
-hash_48af8239068e44f2
+vox_advance_blight_kill_narr_0
 hash_3b0cf45abde7e13e
 hash_630d603b3d002416
 zm_mansion.en
@@ -2555,7 +2555,7 @@ zm_mansion.en
 zm_mansion.en
 zmb_tutorial_duck
 mature
-hash_48af8239068e44f2
+vox_advance_blight_kill_narr_0
 vox_advance_elixir_narr_0
 hash_5ad307dbfbe66c92
 en\vox\scripted\zmb\zod\vox_zod_narr_advance_elixir_0.sn100.pc.snd
@@ -2603,7 +2603,7 @@ mature
 vox_advance_hammer_narr_0
 vox_advance_kill_hammer_narr_0
 hash_5c2d7c83174494a
-hash_7cee17530bf04262
+en\vox\scripted\zmb\zod\vox_zod_narr_advance_kill_hammer_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -2612,7 +2612,7 @@ mature
 vox_advance_kill_hammer_narr_0
 vox_advance_kill_hammer_narr_1
 hash_6a815827f1f1ed6b
-hash_6c6e8b562c20c01f
+en\vox\scripted\zmb\zod\vox_zod_narr_advance_kill_hammer_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -2621,7 +2621,7 @@ mature
 vox_advance_kill_hammer_narr_1
 vox_advance_kill_hammer_narr_2
 hash_b7ac08b863c6410
-hash_10e6f5c838169078
+en\vox\scripted\zmb\zod\vox_zod_narr_advance_kill_hammer_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -2630,7 +2630,7 @@ mature
 vox_advance_kill_hammer_narr_2
 vox_advance_kill_rifle_narr_0
 hash_7f2fc79514ef4ec4
-hash_5ac844fb0cf8c8dc
+en\vox\scripted\zmb\zod\vox_zod_narr_advance_kill_rifle_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -2657,22 +2657,22 @@ mature
 vox_advance_pap_narr_0
 vox_advance_pap_use_narr_0
 hash_42fe18f65e738dc4
-hash_7076014bc596962c
+en\vox\scripted\zmb\zod\vox_zod_narr_advance_pap_use_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 zmb_tutorial_duck
 mature
 vox_advance_pap_use_narr_0
-hash_31b14ca1baedfeb7
+vox_advance_special_weapon_narr_0
 hash_6d3774a63d2ef877
-hash_78f0745dae45d23b
+en\vox\scripted\zmb\zod\vox_zod_narr_advance_special_weapon_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 zmb_tutorial_duck
 mature
-hash_31b14ca1baedfeb7
+vox_advance_special_weapon_narr_0
 hash_43bfd4ecaf335b7c
 hash_23a7a35465efbd2a
 hash_6a8f04a7c1c19b32
@@ -7748,7 +7748,7 @@ zmb_radio_duck
 mature
 hash_53875c52fa6301c0
 vox_audio_log_10_alis_0
-hash_2896d9576600a981
+en\vox\scripted\zmb\man\vox_man_alis_audio_log_10_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -7779,46 +7779,46 @@ zm_mansion.en
 zmb_radio_duck
 mature
 hash_680df11406aaad0d
-hash_41c5ef88d30a0d04
+vox_audio_log_5_0_alis_0
 hash_71cb3e5dcc53b544
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 zmb_radio_duck
 mature
-hash_41c5ef88d30a0d04
-hash_77d26356e7772673
+vox_audio_log_5_0_alis_0
+vox_audio_log_6_0_alis_0
 hash_2309ad428aa799ab
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 zmb_radio_duck
 mature
-hash_77d26356e7772673
-hash_5f2672545b99ea1a
+vox_audio_log_6_0_alis_0
+vox_audio_log_7_0_alis_0
 hash_718965bd00d5307e
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 zmb_radio_duck
 mature
-hash_5f2672545b99ea1a
-hash_47c8e68ac1a558b9
+vox_audio_log_7_0_alis_0
+vox_audio_log_8_0_alis_0
 hash_7da7d937e9999b15
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 zmb_radio_duck
 mature
-hash_47c8e68ac1a558b9
-hash_b75c49e9dcc7900
+vox_audio_log_8_0_alis_0
+vox_audio_log_9_0_alis_0
 hash_4d983004a1a7f9f0
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 zmb_radio_duck
 mature
-hash_b75c49e9dcc7900
+vox_audio_log_9_0_alis_0
 hash_3d4162f1d6598a06
 hash_1ec118bc7c469768
 zm_mansion.en
@@ -8773,7 +8773,7 @@ zm_mansion.en
 zmb_tutorial_duck
 mature
 vox_beginner_aim_narr_0
-hash_3d2e3c2f451c8e2a
+vox_beginner_ammo_out_narr_0
 hash_4ca26a174da9031a
 en\vox\scripted\zmb\zod\vox_zod_narr_beginner_ammo_out_0.sn100.pc.snd
 zm_mansion.en
@@ -8781,7 +8781,7 @@ zm_mansion.en
 zm_mansion.en
 zmb_tutorial_duck
 mature
-hash_3d2e3c2f451c8e2a
+vox_beginner_ammo_out_narr_0
 vox_beginner_box_down_narr_0
 hash_5f31185b1673a29b
 en\vox\scripted\zmb\zod\vox_zod_narr_beginner_box_down_0.sn100.pc.snd
@@ -9016,7 +9016,7 @@ zm_mansion.en
 zmb_tutorial_duck
 mature
 hash_2d6e6c147db9a32a
-hash_2b436347f157eca9
+vox_beginner_round_expl_narr_0
 hash_562f30ec6f986c45
 en\vox\scripted\zmb\zod\vox_zod_narr_beginner_round_expl_0.sn100.pc.snd
 zm_mansion.en
@@ -9024,8 +9024,8 @@ zm_mansion.en
 zm_mansion.en
 zmb_tutorial_duck
 mature
-hash_2b436347f157eca9
-hash_5159cbaea0605f74
+vox_beginner_round_expl_narr_0
+vox_beginner_round_start_narr_0
 hash_4cbe66619320bae4
 en\vox\scripted\zmb\zod\vox_zod_narr_beginner_round_start_0.sn100.pc.snd
 zm_mansion.en
@@ -9033,7 +9033,7 @@ zm_mansion.en
 zm_mansion.en
 zmb_tutorial_duck
 mature
-hash_5159cbaea0605f74
+vox_beginner_round_start_narr_0
 vox_beginner_sprint_narr_0
 hash_69d1c05f4094e59d
 en\vox\scripted\zmb\zod\vox_zod_narr_beginner_sprint_0.sn100.pc.snd
@@ -22203,7 +22203,7 @@ perspective
 player
 vox_butl_kill_headshot_plr_11_0
 hash_98e53ab2abf3e3
-hash_5ff134c39575463f
+en\vox\scripted\zmb\man\vox_man_plr_11_butl_kill_headshot_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22213,7 +22213,7 @@ perspective
 npc
 vox_butl_kill_headshot_plr_11_0
 hash_98e53ab2abf3e3
-hash_5ff134c39575463f
+en\vox\scripted\zmb\man\vox_man_plr_11_butl_kill_headshot_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22548,7 +22548,7 @@ perspective
 player
 vox_butl_kill_streak_plr_11_2
 hash_3f063d9e2b113f65
-hash_6dae26924ef55ecd
+en\vox\scripted\zmb\man\vox_man_plr_11_butl_kill_streak_2_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22558,7 +22558,7 @@ perspective
 npc
 vox_butl_kill_streak_plr_11_2
 hash_3f063d9e2b113f65
-hash_6dae26924ef55ecd
+en\vox\scripted\zmb\man\vox_man_plr_11_butl_kill_streak_2_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22608,7 +22608,7 @@ perspective
 player
 vox_butl_kill_streak_plr_11_4
 hash_468fb97f6215fb63
-hash_2709d841ce08a207
+en\vox\scripted\zmb\man\vox_man_plr_11_butl_kill_streak_4_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22618,7 +22618,7 @@ perspective
 npc
 vox_butl_kill_streak_plr_11_4
 hash_468fb97f6215fb63
-hash_2709d841ce08a207
+en\vox\scripted\zmb\man\vox_man_plr_11_butl_kill_streak_4_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22801,7 +22801,7 @@ perspective
 player
 vox_butl_surrounded_oh_shit_plr_10_3
 hash_3fcd13b11675a02
-hash_6aa745d213ad0a4c
+en\vox\scripted\zmb\man\vox_man_plr_10_butl_surrounded_oh_shit_3_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22811,7 +22811,7 @@ perspective
 npc
 vox_butl_surrounded_oh_shit_plr_10_3
 hash_3fcd13b11675a02
-hash_6aa745d213ad0a4c
+en\vox\scripted\zmb\man\vox_man_plr_10_butl_surrounded_oh_shit_3_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22899,7 +22899,7 @@ perspective
 player
 vox_butl_surrounded_oh_shit_plr_11_2
 hash_20b6944e63ddd780
-hash_71a81c5db71b8470
+en\vox\scripted\zmb\man\vox_man_plr_11_butl_surrounded_oh_shit_2_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -22909,7 +22909,7 @@ perspective
 npc
 vox_butl_surrounded_oh_shit_plr_11_2
 hash_20b6944e63ddd780
-hash_71a81c5db71b8470
+en\vox\scripted\zmb\man\vox_man_plr_11_butl_surrounded_oh_shit_2_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26159,7 +26159,7 @@ player
 vox_clock_interact_first_plr_9_0
 vox_co_op_end_round1_plr_1_3
 hash_6bac38874cc9d882
-hash_3cba2ce3812e9000
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_end_round1_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26169,7 +26169,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_1_3
 hash_6bac38874cc9d882
-hash_3cba2ce3812e9000
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_end_round1_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26179,7 +26179,7 @@ perspective
 player
 vox_co_op_end_round1_plr_1_3
 hash_5cc31b55f95a6b9c
-hash_67f2cf0a9b95b2ce
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_end_round1_3_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26189,7 +26189,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_1_3
 hash_5cc31b55f95a6b9c
-hash_67f2cf0a9b95b2ce
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_end_round1_3_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26200,7 +26200,7 @@ player
 vox_co_op_end_round1_plr_1_3
 vox_co_op_end_round1_plr_10_2
 hash_10e43b9cba500953
-hash_2692e01977e59d57
+en\vox\scripted\zmb\man\vox_man_plr_10_co_op_end_round1_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26209,7 +26209,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_10_2
 hash_10e43b9cba500953
-hash_2692e01977e59d57
+en\vox\scripted\zmb\man\vox_man_plr_10_co_op_end_round1_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26219,7 +26219,7 @@ player
 vox_co_op_end_round1_plr_10_2
 vox_co_op_end_round1_plr_11_1
 hash_5848b56628f324bb
-hash_1a594cbfd4c88267
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_end_round1_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26229,7 +26229,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_11_1
 hash_5848b56628f324bb
-hash_1a594cbfd4c88267
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_end_round1_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26239,7 +26239,7 @@ perspective
 player
 vox_co_op_end_round1_plr_11_1
 hash_56a98092726e91ad
-hash_3b288285b440e9ed
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_end_round1_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26249,7 +26249,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_11_1
 hash_56a98092726e91ad
-hash_3b288285b440e9ed
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_end_round1_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26260,7 +26260,7 @@ player
 vox_co_op_end_round1_plr_11_1
 vox_co_op_end_round1_plr_12_3
 hash_62d5fb53aa7b4e4c
-hash_2f9cfd4f854395f4
+en\vox\scripted\zmb\man\vox_man_plr_12_co_op_end_round1_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26269,7 +26269,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_12_3
 hash_62d5fb53aa7b4e4c
-hash_2f9cfd4f854395f4
+en\vox\scripted\zmb\man\vox_man_plr_12_co_op_end_round1_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26279,7 +26279,7 @@ player
 vox_co_op_end_round1_plr_12_3
 vox_co_op_end_round1_plr_2_1
 hash_a706db4ae79fb2d
-hash_45eb419cb3dc40f3
+en\vox\scripted\zmb\zod\vox_zod_plr_2_co_op_end_round1_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26288,7 +26288,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_2_1
 hash_a706db4ae79fb2d
-hash_45eb419cb3dc40f3
+en\vox\scripted\zmb\zod\vox_zod_plr_2_co_op_end_round1_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26298,7 +26298,7 @@ player
 vox_co_op_end_round1_plr_2_1
 vox_co_op_end_round1_plr_3_0
 hash_17e0b8772634e87d
-hash_13be98e7fbea9e71
+en\vox\scripted\zmb\zod\vox_zod_plr_3_co_op_end_round1_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26307,7 +26307,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_3_0
 hash_17e0b8772634e87d
-hash_13be98e7fbea9e71
+en\vox\scripted\zmb\zod\vox_zod_plr_3_co_op_end_round1_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26317,7 +26317,7 @@ player
 vox_co_op_end_round1_plr_3_0
 vox_co_op_end_round1_plr_4_2
 hash_76a5939d9150d3e
-hash_4d7f705aa18d6ff2
+en\vox\scripted\zmb\zod\vox_zod_plr_4_co_op_end_round1_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26326,7 +26326,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_4_2
 hash_76a5939d9150d3e
-hash_4d7f705aa18d6ff2
+en\vox\scripted\zmb\zod\vox_zod_plr_4_co_op_end_round1_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26336,7 +26336,7 @@ player
 vox_co_op_end_round1_plr_4_2
 vox_co_op_end_round1_plr_9_0
 hash_56d4f8b54579b153
-hash_6c91fc06ba96afab
+en\vox\scripted\zmb\man\vox_man_plr_9_co_op_end_round1_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26345,7 +26345,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_9_0
 hash_56d4f8b54579b153
-hash_6c91fc06ba96afab
+en\vox\scripted\zmb\man\vox_man_plr_9_co_op_end_round1_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26355,7 +26355,7 @@ player
 vox_co_op_end_round1_plr_9_0
 vox_co_op_end_round2_plr_1_0
 hash_4feff8a86f2de82e
-hash_727567ec149b852c
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_end_round2_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26365,7 +26365,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_1_0
 hash_4feff8a86f2de82e
-hash_727567ec149b852c
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_end_round2_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26375,7 +26375,7 @@ perspective
 player
 vox_co_op_end_round2_plr_1_0
 hash_c2d7eeb54592650
-hash_703a72bb5cfeb1d2
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_end_round2_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26385,7 +26385,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_1_0
 hash_c2d7eeb54592650
-hash_703a72bb5cfeb1d2
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_end_round2_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26396,7 +26396,7 @@ player
 vox_co_op_end_round2_plr_1_0
 vox_co_op_end_round2_plr_10_2
 hash_29201a85c075cfcc
-hash_3e58c90722a96824
+en\vox\scripted\zmb\man\vox_man_plr_10_co_op_end_round2_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26405,7 +26405,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_10_2
 hash_29201a85c075cfcc
-hash_3e58c90722a96824
+en\vox\scripted\zmb\man\vox_man_plr_10_co_op_end_round2_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26415,7 +26415,7 @@ player
 vox_co_op_end_round2_plr_10_2
 vox_co_op_end_round2_plr_11_1
 hash_609ac5e401bcad84
-hash_6a95361f61ad623c
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_end_round2_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26424,7 +26424,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_11_1
 hash_609ac5e401bcad84
-hash_6a95361f61ad623c
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_end_round2_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26434,7 +26434,7 @@ player
 vox_co_op_end_round2_plr_11_1
 vox_co_op_end_round2_plr_12_3
 hash_39a29c1b3504b0ff
-hash_4c1d7dd96ba829b7
+en\vox\scripted\zmb\man\vox_man_plr_12_co_op_end_round2_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26443,7 +26443,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_12_3
 hash_39a29c1b3504b0ff
-hash_4c1d7dd96ba829b7
+en\vox\scripted\zmb\man\vox_man_plr_12_co_op_end_round2_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26453,7 +26453,7 @@ player
 vox_co_op_end_round2_plr_12_3
 vox_co_op_end_round2_plr_2_2
 hash_584d948e0b72ff19
-hash_37dcbbe32dee88af
+en\vox\scripted\zmb\zod\vox_zod_plr_2_co_op_end_round2_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26462,7 +26462,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_2_2
 hash_584d948e0b72ff19
-hash_37dcbbe32dee88af
+en\vox\scripted\zmb\zod\vox_zod_plr_2_co_op_end_round2_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26472,7 +26472,7 @@ player
 vox_co_op_end_round2_plr_2_2
 vox_co_op_end_round2_plr_3_1
 hash_7fd84a790b240003
-hash_6d7b877a4a190037
+en\vox\scripted\zmb\zod\vox_zod_plr_3_co_op_end_round2_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26481,7 +26481,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_3_1
 hash_7fd84a790b240003
-hash_6d7b877a4a190037
+en\vox\scripted\zmb\zod\vox_zod_plr_3_co_op_end_round2_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26491,7 +26491,7 @@ player
 vox_co_op_end_round2_plr_3_1
 vox_co_op_end_round2_plr_4_3
 hash_619b98f283f9fd9c
-hash_bb2953d9b4f878c
+en\vox\scripted\zmb\zod\vox_zod_plr_4_co_op_end_round2_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26500,7 +26500,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_4_3
 hash_619b98f283f9fd9c
-hash_bb2953d9b4f878c
+en\vox\scripted\zmb\zod\vox_zod_plr_4_co_op_end_round2_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26510,7 +26510,7 @@ player
 vox_co_op_end_round2_plr_4_3
 vox_co_op_end_round2_plr_9_0
 hash_5ac609a51331293a
-hash_3dfc51af7af509d0
+en\vox\scripted\zmb\man\vox_man_plr_9_co_op_end_round2_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26519,7 +26519,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_9_0
 hash_5ac609a51331293a
-hash_3dfc51af7af509d0
+en\vox\scripted\zmb\man\vox_man_plr_9_co_op_end_round2_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26529,7 +26529,7 @@ player
 vox_co_op_end_round2_plr_9_0
 vox_co_op_game_start_plr_1_0
 hash_1b7703a4b199e9ff
-hash_2144a867e46ba233
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_game_start_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26539,7 +26539,7 @@ perspective
 npc
 vox_co_op_game_start_plr_1_0
 hash_1b7703a4b199e9ff
-hash_2144a867e46ba233
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_game_start_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26549,7 +26549,7 @@ perspective
 player
 vox_co_op_game_start_plr_1_0
 hash_589750fbf0ec7c9
-hash_ac7e504ac6d3251
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_game_start_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26559,7 +26559,7 @@ perspective
 npc
 vox_co_op_game_start_plr_1_0
 hash_589750fbf0ec7c9
-hash_ac7e504ac6d3251
+en\vox\scripted\zmb\zod\vox_zod_plr_1_co_op_game_start_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26570,7 +26570,7 @@ player
 vox_co_op_game_start_plr_1_0
 vox_co_op_game_start_plr_10_2
 hash_5b0600295dd7aa3b
-hash_1e9700adab235a47
+en\vox\scripted\zmb\man\vox_man_plr_10_co_op_game_start_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26580,7 +26580,7 @@ perspective
 npc
 vox_co_op_game_start_plr_10_2
 hash_5b0600295dd7aa3b
-hash_1e9700adab235a47
+en\vox\scripted\zmb\man\vox_man_plr_10_co_op_game_start_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26590,7 +26590,7 @@ perspective
 player
 vox_co_op_game_start_plr_10_2
 hash_537cfb859868732d
-hash_3b9f90a52ca32c8d
+en\vox\scripted\zmb\man\vox_man_plr_10_co_op_game_start_2_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26600,7 +26600,7 @@ perspective
 npc
 vox_co_op_game_start_plr_10_2
 hash_537cfb859868732d
-hash_3b9f90a52ca32c8d
+en\vox\scripted\zmb\man\vox_man_plr_10_co_op_game_start_2_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26611,7 +26611,7 @@ player
 vox_co_op_game_start_plr_10_2
 vox_co_op_game_start_plr_11_1
 hash_79413ad8e4051b43
-hash_65c3b20c512ad91f
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_game_start_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26621,7 +26621,7 @@ perspective
 npc
 vox_co_op_game_start_plr_11_1
 hash_79413ad8e4051b43
-hash_65c3b20c512ad91f
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_game_start_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26631,7 +26631,7 @@ perspective
 player
 vox_co_op_game_start_plr_11_1
 hash_127401f74213b885
-hash_5afc8ff038899755
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_game_start_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26641,7 +26641,7 @@ perspective
 npc
 vox_co_op_game_start_plr_11_1
 hash_127401f74213b885
-hash_5afc8ff038899755
+en\vox\scripted\zmb\man\vox_man_plr_11_co_op_game_start_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26652,7 +26652,7 @@ player
 vox_co_op_game_start_plr_11_1
 vox_co_op_game_start_plr_12_3
 hash_7d2457b05aa76194
-hash_520b5e70fa6e0f70
+en\vox\scripted\zmb\man\vox_man_plr_12_co_op_game_start_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26661,7 +26661,7 @@ perspective
 npc
 vox_co_op_game_start_plr_12_3
 hash_7d2457b05aa76194
-hash_520b5e70fa6e0f70
+en\vox\scripted\zmb\man\vox_man_plr_12_co_op_game_start_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26671,7 +26671,7 @@ player
 vox_co_op_game_start_plr_12_3
 vox_co_op_game_start_plr_2_3
 hash_293b6ad83f7b6337
-hash_2b0846af13a5ff49
+en\vox\scripted\zmb\zod\vox_zod_plr_2_co_op_game_start_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26680,7 +26680,7 @@ perspective
 npc
 vox_co_op_game_start_plr_2_3
 hash_293b6ad83f7b6337
-hash_2b0846af13a5ff49
+en\vox\scripted\zmb\zod\vox_zod_plr_2_co_op_game_start_3.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26690,7 +26690,7 @@ player
 vox_co_op_game_start_plr_2_3
 vox_co_op_game_start_plr_3_2
 hash_325489305d4cc21f
-hash_318d849d91dcdd23
+en\vox\scripted\zmb\zod\vox_zod_plr_3_co_op_game_start_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26699,7 +26699,7 @@ perspective
 npc
 vox_co_op_game_start_plr_3_2
 hash_325489305d4cc21f
-hash_318d849d91dcdd23
+en\vox\scripted\zmb\zod\vox_zod_plr_3_co_op_game_start_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26709,7 +26709,7 @@ player
 vox_co_op_game_start_plr_3_2
 vox_co_op_game_start_plr_4_1
 hash_679bfb3437a42583
-hash_627f67d21d73d869
+en\vox\scripted\zmb\zod\vox_zod_plr_4_co_op_game_start_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26719,7 +26719,7 @@ perspective
 npc
 vox_co_op_game_start_plr_4_1
 hash_679bfb3437a42583
-hash_627f67d21d73d869
+en\vox\scripted\zmb\zod\vox_zod_plr_4_co_op_game_start_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26729,7 +26729,7 @@ perspective
 player
 vox_co_op_game_start_plr_4_1
 hash_36cc72fbc293d7c5
-hash_57a6c5c259f7d03f
+en\vox\scripted\zmb\zod\vox_zod_plr_4_co_op_game_start_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26739,7 +26739,7 @@ perspective
 npc
 vox_co_op_game_start_plr_4_1
 hash_36cc72fbc293d7c5
-hash_57a6c5c259f7d03f
+en\vox\scripted\zmb\zod\vox_zod_plr_4_co_op_game_start_1_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26750,7 +26750,7 @@ player
 vox_co_op_game_start_plr_4_1
 vox_co_op_game_start_plr_9_0
 hash_cb35da0ff3b241b
-hash_23d70b45fe92b017
+en\vox\scripted\zmb\man\vox_man_plr_9_co_op_game_start_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26760,7 +26760,7 @@ perspective
 npc
 vox_co_op_game_start_plr_9_0
 hash_cb35da0ff3b241b
-hash_23d70b45fe92b017
+en\vox\scripted\zmb\man\vox_man_plr_9_co_op_game_start_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26770,7 +26770,7 @@ perspective
 player
 vox_co_op_game_start_plr_9_0
 hash_4d414a909a29de4d
-hash_533f9e780648851d
+en\vox\scripted\zmb\man\vox_man_plr_9_co_op_game_start_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -26780,7 +26780,7 @@ perspective
 npc
 vox_co_op_game_start_plr_9_0
 hash_4d414a909a29de4d
-hash_533f9e780648851d
+en\vox\scripted\zmb\man\vox_man_plr_9_co_op_game_start_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32492,7 +32492,7 @@ perspective
 player
 vox_druid_arena_enter_plr_9_0
 vox_ee_artifact_alis_0
-hash_13f50dadf410043
+en\vox\scripted\zmb\zod\vox_zod_alis_ee_artifact_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32676,7 +32676,7 @@ zmb_radio_duck
 mature
 vox_ee_diary_brun_dieg_plr_3_8
 vox_ee_diary_first_disc_0
-hash_49f292a1dacefc57
+en\vox\scripted\zmb\zod\vox_zod_disc_ee_diary_first_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32684,7 +32684,7 @@ zmb_radio_duck
 mature
 vox_ee_diary_first_disc_0
 vox_ee_diary_first_disc_1
-hash_a77a5b13a87937a
+en\vox\scripted\zmb\zod\vox_zod_disc_ee_diary_first_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32692,7 +32692,7 @@ zmb_radio_duck
 mature
 vox_ee_diary_first_disc_1
 vox_ee_diary_first_disc_2
-hash_540fdb772fb41085
+en\vox\scripted\zmb\zod\vox_zod_disc_ee_diary_first_2.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32700,7 +32700,7 @@ zmb_radio_duck
 mature
 vox_ee_diary_first_disc_2
 vox_ee_diary_order_leader_dlea_0
-hash_2fd3b2c6783ff0fc
+en\vox\scripted\zmb\zod\vox_zod_dlea_ee_diary_order_leader_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32941,7 +32941,7 @@ zmb_radio_duck
 mature
 hash_49743a35f38f71c6
 vox_ee_obsession_alis_0
-hash_3a0f362c11338378
+en\vox\scripted\zmb\zod\vox_zod_alis_ee_obsession_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32949,7 +32949,7 @@ zmb_radio_duck
 mature
 vox_ee_obsession_alis_0
 vox_ee_order_alis_0
-hash_614ce69c1947bd89
+en\vox\scripted\zmb\zod\vox_zod_alis_ee_order_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32957,7 +32957,7 @@ zmb_radio_duck
 mature
 vox_ee_order_alis_0
 vox_ee_prima_materia_alis_0
-hash_5ebb982a235a3bd4
+en\vox\scripted\zmb\zod\vox_zod_alis_ee_prima_materia_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32965,7 +32965,7 @@ zmb_radio_duck
 mature
 vox_ee_prima_materia_alis_0
 vox_ee_prima_materia_alis_1
-hash_357fe6221d5408f9
+en\vox\scripted\zmb\zod\vox_zod_alis_ee_prima_materia_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32973,7 +32973,7 @@ zmb_radio_duck
 mature
 vox_ee_prima_materia_alis_1
 vox_ee_sent_trial_alis_0
-hash_400763c7490c4afa
+en\vox\scripted\zmb\zod\vox_zod_alis_ee_sent_trial_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -32981,7 +32981,7 @@ zmb_radio_duck
 mature
 vox_ee_sent_trial_alis_0
 vox_ee_sent_trial_alis_1
-hash_7f8250b7e953b3d7
+en\vox\scripted\zmb\zod\vox_zod_alis_ee_sent_trial_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -41824,82 +41824,82 @@ mature
 perspective
 player
 vox_generic_wall_buy_plr_9_8
-hash_33e51d509e728cc4
+vox_ghost_cath_jump_react_plr_10_0
 hash_2df5f821d205b20c
-hash_1e61fc84e60c056e
+en\vox\scripted\zmb\man\vox_man_plr_10_ghost_cath_jump_react_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 mature
 perspective
 npc
-hash_33e51d509e728cc4
+vox_ghost_cath_jump_react_plr_10_0
 hash_2df5f821d205b20c
-hash_1e61fc84e60c056e
+en\vox\scripted\zmb\man\vox_man_plr_10_ghost_cath_jump_react_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 mature
 perspective
 player
-hash_33e51d509e728cc4
-hash_2930665097ce1dcf
+vox_ghost_cath_jump_react_plr_10_0
+vox_ghost_cath_jump_react_plr_11_0
 hash_2df5f921d205b3bf
-hash_4a0713f6c2ebc03
+en\vox\scripted\zmb\man\vox_man_plr_11_ghost_cath_jump_react_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 mature
 perspective
 npc
-hash_2930665097ce1dcf
+vox_ghost_cath_jump_react_plr_11_0
 hash_2df5f921d205b3bf
-hash_4a0713f6c2ebc03
+en\vox\scripted\zmb\man\vox_man_plr_11_ghost_cath_jump_react_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 mature
 perspective
 player
-hash_2930665097ce1dcf
-hash_450f6b50a8201a8e
+vox_ghost_cath_jump_react_plr_11_0
+vox_ghost_cath_jump_react_plr_12_0
 hash_2df5fa21d205b572
-hash_38a3727366641ef0
+en\vox\scripted\zmb\man\vox_man_plr_12_ghost_cath_jump_react_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 mature
 perspective
 npc
-hash_450f6b50a8201a8e
+vox_ghost_cath_jump_react_plr_12_0
 hash_2df5fa21d205b572
-hash_38a3727366641ef0
+en\vox\scripted\zmb\man\vox_man_plr_12_ghost_cath_jump_react_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 mature
 perspective
 player
-hash_450f6b50a8201a8e
-hash_2e9515de3511026e
+vox_ghost_cath_jump_react_plr_12_0
+vox_ghost_cath_jump_react_plr_9_0
 hash_7046d7c084e57a5c
-hash_1c5779985a562450
+en\vox\scripted\zmb\man\vox_man_plr_9_ghost_cath_jump_react_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 mature
 perspective
 npc
-hash_2e9515de3511026e
+vox_ghost_cath_jump_react_plr_9_0
 hash_7046d7c084e57a5c
-hash_1c5779985a562450
+en\vox\scripted\zmb\man\vox_man_plr_9_ghost_cath_jump_react_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
 mature
 perspective
 player
-hash_2e9515de3511026e
+vox_ghost_cath_jump_react_plr_9_0
 hash_762bdec6a06169a5
 hash_5ad904a460ca42fd
 hash_a0c9fa6300b7139
@@ -42149,7 +42149,7 @@ player
 vox_ghost_interact_brig_plr_10_0
 vox_ghost_interact_butl_plr_12_0
 hash_dd1a016c232c5cf
-hash_51138c2d7bc4ef91
+en\vox\scripted\zmb\man\vox_man_plr_12_ghost_interact_butl_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -42158,7 +42158,7 @@ perspective
 npc
 vox_ghost_interact_butl_plr_12_0
 hash_dd1a016c232c5cf
-hash_51138c2d7bc4ef91
+en\vox\scripted\zmb\man\vox_man_plr_12_ghost_interact_butl_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -42187,7 +42187,7 @@ player
 vox_ghost_interact_guns_plr_11_0
 vox_ghost_interact_psyc_plr_9_0
 hash_5e567b8d38c3f66f
-hash_4a5edfc0f23da735
+en\vox\scripted\zmb\man\vox_man_plr_9_ghost_interact_psyc_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -42196,7 +42196,7 @@ perspective
 npc
 vox_ghost_interact_psyc_plr_9_0
 hash_5e567b8d38c3f66f
-hash_4a5edfc0f23da735
+en\vox\scripted\zmb\man\vox_man_plr_9_ghost_interact_psyc_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -49087,7 +49087,7 @@ mature
 vox_inter_power_narr_1
 vox_inter_power_on_narr_0
 hash_20ded28c59c6688a
-hash_27816690a0f58902
+en\vox\scripted\zmb\zod\vox_zod_narr_inter_power_on_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -49096,7 +49096,7 @@ mature
 vox_inter_power_on_narr_0
 vox_inter_shield_build_narr_0
 hash_5a97593761abb441
-hash_22e1fbe4e711a7b5
+en\vox\scripted\zmb\zod\vox_zod_narr_inter_shield_build_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -49123,7 +49123,7 @@ mature
 vox_inter_shield_narr_1
 vox_inter_shield_part_narr_0
 hash_7db77e8a7b3d3cc2
-hash_6e5d605478ba663a
+en\vox\scripted\zmb\zod\vox_zod_narr_inter_shield_part_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -49132,7 +49132,7 @@ mature
 vox_inter_shield_part_narr_0
 vox_inter_shield_up_narr_0
 hash_59a78d3fe43d597a
-hash_50fcb11141874522
+en\vox\scripted\zmb\zod\vox_zod_narr_inter_shield_up_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -61956,7 +61956,7 @@ mature
 perspective
 player
 hash_75293eef8309156d
-hash_7629232832113319
+vox_m_quest_cat_port_first_plr_1_0
 hash_7103a2bb0df6bc13
 hash_3834d767976f6beb
 zm_mansion.en
@@ -61965,7 +61965,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_7629232832113319
+vox_m_quest_cat_port_first_plr_1_0
 hash_7103a2bb0df6bc13
 hash_3834d767976f6beb
 zm_mansion.en
@@ -61974,8 +61974,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_7629232832113319
-hash_6fb40c282f08edc4
+vox_m_quest_cat_port_first_plr_1_0
+vox_m_quest_cat_port_first_plr_2_0
 hash_7103a3bb0df6bdc6
 hash_2b77f5ce945c390a
 zm_mansion.en
@@ -61984,7 +61984,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_6fb40c282f08edc4
+vox_m_quest_cat_port_first_plr_2_0
 hash_7103a3bb0df6bdc6
 hash_2b77f5ce945c390a
 zm_mansion.en
@@ -61993,8 +61993,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_6fb40c282f08edc4
-hash_64ff552828647ecf
+vox_m_quest_cat_port_first_plr_2_0
+vox_m_quest_cat_port_first_plr_3_0
 hash_7103a4bb0df6bf79
 hash_4159f06950ab0ac9
 zm_mansion.en
@@ -62003,7 +62003,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_64ff552828647ecf
+vox_m_quest_cat_port_first_plr_3_0
 hash_7103a4bb0df6bf79
 hash_4159f06950ab0ac9
 zm_mansion.en
@@ -62012,8 +62012,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_64ff552828647ecf
-hash_217f76284a9f2922
+vox_m_quest_cat_port_first_plr_3_0
+vox_m_quest_cat_port_first_plr_4_0
 hash_7103a5bb0df6c12c
 hash_72544b5a6802a8b8
 zm_mansion.en
@@ -62022,7 +62022,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_217f76284a9f2922
+vox_m_quest_cat_port_first_plr_4_0
 hash_7103a5bb0df6c12c
 hash_72544b5a6802a8b8
 zm_mansion.en
@@ -62031,7 +62031,7 @@ zm_mansion.en
 mature
 perspective
 player
-hash_217f76284a9f2922
+vox_m_quest_cat_port_first_plr_4_0
 vox_m_quest_cat_sentinel_plr_1_0
 hash_543a447b95fa7dc5
 en\vox\scripted\zmb\zod\vox_zod_plr_1_m_quest_cat_sentinel_0.sn100.pc.snd
@@ -63203,7 +63203,7 @@ mature
 perspective
 player
 vox_master_bed_enter_plr_9_0
-hash_3847827e6d965c25
+vox_native_artifact_interact_plr_11_0
 hash_2efecc3b8a98fa41
 en\vox\scripted\zmb\man\vox_man_plr_11_native_artifact_interact_0.sn100.pc.snd
 zm_mansion.en
@@ -63213,7 +63213,7 @@ mature
 explicit
 perspective
 npc
-hash_3847827e6d965c25
+vox_native_artifact_interact_plr_11_0
 hash_2efecc3b8a98fa41
 en\vox\scripted\zmb\man\vox_man_plr_11_native_artifact_interact_0.sn100.pc.snd
 zm_mansion.en
@@ -63223,7 +63223,7 @@ mature
 explicit
 perspective
 player
-hash_3847827e6d965c25
+vox_native_artifact_interact_plr_11_0
 hash_706019a0cc83e8cb
 en\vox\scripted\zmb\man\vox_man_plr_11_native_artifact_interact_0_s.sn100.pc.snd
 zm_mansion.en
@@ -63233,7 +63233,7 @@ mature
 safe
 perspective
 npc
-hash_3847827e6d965c25
+vox_native_artifact_interact_plr_11_0
 hash_706019a0cc83e8cb
 en\vox\scripted\zmb\man\vox_man_plr_11_native_artifact_interact_0_s.sn100.pc.snd
 zm_mansion.en
@@ -63243,7 +63243,7 @@ mature
 safe
 perspective
 player
-hash_3847827e6d965c25
+vox_native_artifact_interact_plr_11_0
 vox_nomoney_generic_plr_1_0
 hash_498f19f1ee97005a
 en\vox\scripted\zmb\zod\vox_zod_plr_1_nomoney_generic_0.sn100.pc.snd
@@ -64598,7 +64598,7 @@ mature
 perspective
 player
 vox_nosferatu_kill_plr_9_4
-hash_58ef23c40d82cb4e
+vox_nosferatu_pic_interact_plr_12_0
 hash_78552683d1b34f6a
 hash_20a591a4c651cf66
 zm_mansion.en
@@ -64607,7 +64607,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_58ef23c40d82cb4e
+vox_nosferatu_pic_interact_plr_12_0
 hash_78552683d1b34f6a
 hash_20a591a4c651cf66
 zm_mansion.en
@@ -64616,7 +64616,7 @@ zm_mansion.en
 mature
 perspective
 player
-hash_58ef23c40d82cb4e
+vox_nosferatu_pic_interact_plr_12_0
 vox_nosferatu_react_first_plr_10_0
 hash_561720416b7f4065
 en\vox\scripted\zmb\man\vox_man_plr_10_nosferatu_react_first_0.sn100.pc.snd
@@ -72683,7 +72683,7 @@ safe
 vox_plr_9_outro_igc_5_5
 vox_plr_death_react_0_butd_1
 hash_99ad7eb5c522e0d
-hash_4cb7759cb02b040d
+en\vox\scripted\zmb\man\vox_man_butd_plr_death_react_0_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -72692,7 +72692,7 @@ perspective
 npc
 vox_plr_death_react_0_butd_1
 hash_99ad7eb5c522e0d
-hash_4cb7759cb02b040d
+en\vox\scripted\zmb\man\vox_man_butd_plr_death_react_0_1.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -77099,7 +77099,7 @@ perspective
 player
 vox_psyc_surrounded_oh_shit_plr_11_2
 hash_10ea52479ea459ac
-hash_7c1528bd4f591cbc
+en\vox\scripted\zmb\man\vox_man_plr_11_psyc_surrounded_oh_shit_2_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -77109,7 +77109,7 @@ perspective
 npc
 vox_psyc_surrounded_oh_shit_plr_11_2
 hash_10ea52479ea459ac
-hash_7c1528bd4f591cbc
+en\vox\scripted\zmb\man\vox_man_plr_11_psyc_surrounded_oh_shit_2_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -83804,7 +83804,7 @@ perspective
 player
 vox_revive_support_butl_plr_9_3
 hash_678ad49f67818f15
-hash_7e1a4f1187b6b477
+en\vox\scripted\zmb\man\vox_man_plr_9_revive_support_butl_3_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -83814,7 +83814,7 @@ perspective
 npc
 vox_revive_support_butl_plr_9_3
 hash_678ad49f67818f15
-hash_7e1a4f1187b6b477
+en\vox\scripted\zmb\man\vox_man_plr_9_revive_support_butl_3_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -92199,7 +92199,7 @@ player
 vox_solo_end_round1_0_plr_12_0
 vox_solo_end_round1_1_butd_0
 hash_6238d18e215686ef
-hash_77580850d3511e87
+en\vox\scripted\zmb\man\vox_man_butd_solo_end_round1_1_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -92208,7 +92208,7 @@ perspective
 npc
 vox_solo_end_round1_1_butd_0
 hash_6238d18e215686ef
-hash_77580850d3511e87
+en\vox\scripted\zmb\man\vox_man_butd_solo_end_round1_1_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -92414,7 +92414,7 @@ player
 vox_solo_end_round2_0_plr_12_0
 vox_solo_end_round2_1_butd_0
 hash_3c10c5acf47783e0
-hash_464c21be56e8c180
+en\vox\scripted\zmb\man\vox_man_butd_solo_end_round2_1_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -92423,7 +92423,7 @@ perspective
 npc
 vox_solo_end_round2_1_butd_0
 hash_3c10c5acf47783e0
-hash_464c21be56e8c180
+en\vox\scripted\zmb\man\vox_man_butd_solo_end_round2_1_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -92632,7 +92632,7 @@ player
 vox_solo_end_round2_plr_9_2
 vox_solo_game_start_0_butd_0
 hash_18c8a5a81b491a16
-hash_1214dcdfdcdae5d6
+en\vox\scripted\zmb\man\vox_man_butd_solo_game_start_0_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -92641,7 +92641,7 @@ perspective
 npc
 vox_solo_game_start_0_butd_0
 hash_18c8a5a81b491a16
-hash_1214dcdfdcdae5d6
+en\vox\scripted\zmb\man\vox_man_butd_solo_game_start_0_0.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -93509,7 +93509,7 @@ mature
 perspective
 player
 vox_stake_bowie_pickup_plr_9_0
-hash_23d81ee69f3ae2ce
+vox_stoker_cue_react_first_plr_1_0
 hash_4e0ee47ffcbd2118
 hash_5604970085d8ce82
 zm_mansion.en
@@ -93518,7 +93518,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_23d81ee69f3ae2ce
+vox_stoker_cue_react_first_plr_1_0
 hash_4e0ee47ffcbd2118
 hash_5604970085d8ce82
 zm_mansion.en
@@ -93527,8 +93527,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_23d81ee69f3ae2ce
-hash_b5f19e691cc0f0f
+vox_stoker_cue_react_first_plr_1_0
+vox_stoker_cue_react_first_plr_2_0
 hash_4e0ee77ffcbd2631
 hash_459310ed665be517
 zm_mansion.en
@@ -93537,7 +93537,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_b5f19e691cc0f0f
+vox_stoker_cue_react_first_plr_2_0
 hash_4e0ee77ffcbd2631
 hash_459310ed665be517
 zm_mansion.en
@@ -93546,8 +93546,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_b5f19e691cc0f0f
-hash_12add0e6958d5504
+vox_stoker_cue_react_first_plr_2_0
+vox_stoker_cue_react_first_plr_3_0
 hash_4e0ee67ffcbd247e
 hash_689e1e18a9b12750
 zm_mansion.en
@@ -93556,7 +93556,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_12add0e6958d5504
+vox_stoker_cue_react_first_plr_3_0
 hash_4e0ee67ffcbd247e
 hash_689e1e18a9b12750
 zm_mansion.en
@@ -93565,8 +93565,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_12add0e6958d5504
-hash_3e0423e6ae1b4b0d
+vox_stoker_cue_react_first_plr_3_0
+vox_stoker_cue_react_first_plr_4_0
 hash_4e0ee97ffcbd2997
 hash_6d8e5884dfa6bf1d
 zm_mansion.en
@@ -93575,7 +93575,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_3e0423e6ae1b4b0d
+vox_stoker_cue_react_first_plr_4_0
 hash_4e0ee97ffcbd2997
 hash_6d8e5884dfa6bf1d
 zm_mansion.en
@@ -93584,7 +93584,7 @@ zm_mansion.en
 mature
 perspective
 player
-hash_3e0423e6ae1b4b0d
+vox_stoker_cue_react_first_plr_4_0
 vox_stoker_key_pick_up_plr_1_0
 hash_19cd86d5e5a6307d
 en\vox\scripted\zmb\zod\vox_zod_plr_1_stoker_key_pick_up_0.sn100.pc.snd
@@ -96807,7 +96807,7 @@ mature
 perspective
 player
 vox_surrounded_oh_shit_plr_9_9
-hash_29a7c78a48b091f2
+vox_tarot_cards_interact_plr_9_0
 hash_28f037825e445a1c
 en\vox\scripted\zmb\man\vox_man_plr_9_tarot_cards_interact_0.sn100.pc.snd
 zm_mansion.en
@@ -96817,7 +96817,7 @@ mature
 explicit
 perspective
 npc
-hash_29a7c78a48b091f2
+vox_tarot_cards_interact_plr_9_0
 hash_28f037825e445a1c
 en\vox\scripted\zmb\man\vox_man_plr_9_tarot_cards_interact_0.sn100.pc.snd
 zm_mansion.en
@@ -96827,7 +96827,7 @@ mature
 explicit
 perspective
 player
-hash_29a7c78a48b091f2
+vox_tarot_cards_interact_plr_9_0
 hash_4975bd0069818dde
 en\vox\scripted\zmb\man\vox_man_plr_9_tarot_cards_interact_0_s.sn100.pc.snd
 zm_mansion.en
@@ -96837,7 +96837,7 @@ mature
 safe
 perspective
 npc
-hash_29a7c78a48b091f2
+vox_tarot_cards_interact_plr_9_0
 hash_4975bd0069818dde
 en\vox\scripted\zmb\man\vox_man_plr_9_tarot_cards_interact_0_s.sn100.pc.snd
 zm_mansion.en
@@ -96847,7 +96847,7 @@ mature
 safe
 perspective
 player
-hash_29a7c78a48b091f2
+vox_tarot_cards_interact_plr_9_0
 vox_telescope_code_confirm_plr_10_0
 hash_411ceba8c0b70348
 en\vox\scripted\zmb\man\vox_man_plr_10_telescope_code_confirm_0.sn100.pc.snd
@@ -100514,7 +100514,7 @@ mature
 perspective
 player
 vox_werewolf_enemy_enter_plr_9_0
-hash_182291fd2dc3feee
+vox_werewolf_health_00_plr_10_0
 hash_6677a6eb19ad3806
 en\vox\scripted\zmb\man\vox_man_plr_10_werewolf_health_00_0.sn100.pc.snd
 zm_mansion.en
@@ -100523,7 +100523,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_182291fd2dc3feee
+vox_werewolf_health_00_plr_10_0
 hash_6677a6eb19ad3806
 en\vox\scripted\zmb\man\vox_man_plr_10_werewolf_health_00_0.sn100.pc.snd
 zm_mansion.en
@@ -100532,8 +100532,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_182291fd2dc3feee
-hash_d6ddafd271f8ff9
+vox_werewolf_health_00_plr_10_0
+vox_werewolf_health_00_plr_11_0
 hash_6677a7eb19ad39b9
 en\vox\scripted\zmb\man\vox_man_plr_11_werewolf_health_00_0.sn100.pc.snd
 zm_mansion.en
@@ -100543,7 +100543,7 @@ mature
 explicit
 perspective
 npc
-hash_d6ddafd271f8ff9
+vox_werewolf_health_00_plr_11_0
 hash_6677a7eb19ad39b9
 en\vox\scripted\zmb\man\vox_man_plr_11_werewolf_health_00_0.sn100.pc.snd
 zm_mansion.en
@@ -100553,7 +100553,7 @@ mature
 explicit
 perspective
 player
-hash_d6ddafd271f8ff9
+vox_werewolf_health_00_plr_11_0
 hash_5a902c62ae0e493
 en\vox\scripted\zmb\man\vox_man_plr_11_werewolf_health_00_0_s.sn100.pc.snd
 zm_mansion.en
@@ -100563,7 +100563,7 @@ mature
 safe
 perspective
 npc
-hash_d6ddafd271f8ff9
+vox_werewolf_health_00_plr_11_0
 hash_5a902c62ae0e493
 en\vox\scripted\zmb\man\vox_man_plr_11_werewolf_health_00_0_s.sn100.pc.snd
 zm_mansion.en
@@ -100573,8 +100573,8 @@ mature
 safe
 perspective
 player
-hash_d6ddafd271f8ff9
-hash_54543fd22a4dca4
+vox_werewolf_health_00_plr_11_0
+vox_werewolf_health_00_plr_12_0
 hash_6677a4eb19ad34a0
 en\vox\scripted\zmb\man\vox_man_plr_12_werewolf_health_00_0.sn100.pc.snd
 zm_mansion.en
@@ -100583,7 +100583,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_54543fd22a4dca4
+vox_werewolf_health_00_plr_12_0
 hash_6677a4eb19ad34a0
 en\vox\scripted\zmb\man\vox_man_plr_12_werewolf_health_00_0.sn100.pc.snd
 zm_mansion.en
@@ -100592,8 +100592,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_54543fd22a4dca4
-hash_66c9c5958ae4cc
+vox_werewolf_health_00_plr_12_0
+vox_werewolf_health_00_plr_9_0
 hash_7f0010b11799766a
 en\vox\scripted\zmb\man\vox_man_plr_9_werewolf_health_00_0.sn100.pc.snd
 zm_mansion.en
@@ -100602,7 +100602,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_66c9c5958ae4cc
+vox_werewolf_health_00_plr_9_0
 hash_7f0010b11799766a
 en\vox\scripted\zmb\man\vox_man_plr_9_werewolf_health_00_0.sn100.pc.snd
 zm_mansion.en
@@ -100611,8 +100611,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_66c9c5958ae4cc
-hash_8ab7869209609ed
+vox_werewolf_health_00_plr_9_0
+vox_werewolf_health_25_plr_10_0
 hash_55c6744a102de671
 en\vox\scripted\zmb\man\vox_man_plr_10_werewolf_health_25_0.sn100.pc.snd
 zm_mansion.en
@@ -100621,7 +100621,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_8ab7869209609ed
+vox_werewolf_health_25_plr_10_0
 hash_55c6744a102de671
 en\vox\scripted\zmb\man\vox_man_plr_10_werewolf_health_25_0.sn100.pc.snd
 zm_mansion.en
@@ -100630,8 +100630,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_8ab7869209609ed
-hash_10d40f692510bd42
+vox_werewolf_health_25_plr_10_0
+vox_werewolf_health_25_plr_11_0
 hash_55c6734a102de4be
 en\vox\scripted\zmb\man\vox_man_plr_11_werewolf_health_25_0.sn100.pc.snd
 zm_mansion.en
@@ -100641,7 +100641,7 @@ mature
 explicit
 perspective
 npc
-hash_10d40f692510bd42
+vox_werewolf_health_25_plr_11_0
 hash_55c6734a102de4be
 en\vox\scripted\zmb\man\vox_man_plr_11_werewolf_health_25_0.sn100.pc.snd
 zm_mansion.en
@@ -100651,7 +100651,7 @@ mature
 explicit
 perspective
 player
-hash_10d40f692510bd42
+vox_werewolf_health_25_plr_11_0
 hash_136bb691130ed460
 en\vox\scripted\zmb\man\vox_man_plr_11_werewolf_health_25_0_s.sn100.pc.snd
 zm_mansion.en
@@ -100661,7 +100661,7 @@ mature
 safe
 perspective
 npc
-hash_10d40f692510bd42
+vox_werewolf_health_25_plr_11_0
 hash_136bb691130ed460
 en\vox\scripted\zmb\man\vox_man_plr_11_werewolf_health_25_0_s.sn100.pc.snd
 zm_mansion.en
@@ -100671,8 +100671,8 @@ mature
 safe
 perspective
 player
-hash_10d40f692510bd42
-hash_77818a6916e91f43
+vox_werewolf_health_25_plr_11_0
+vox_werewolf_health_25_plr_12_0
 hash_55c6724a102de30b
 en\vox\scripted\zmb\man\vox_man_plr_12_werewolf_health_25_0.sn100.pc.snd
 zm_mansion.en
@@ -100681,7 +100681,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_77818a6916e91f43
+vox_werewolf_health_25_plr_12_0
 hash_55c6724a102de30b
 en\vox\scripted\zmb\man\vox_man_plr_12_werewolf_health_25_0.sn100.pc.snd
 zm_mansion.en
@@ -100690,8 +100690,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_77818a6916e91f43
-hash_417779fb616405d1
+vox_werewolf_health_25_plr_12_0
+vox_werewolf_health_25_plr_9_0
 hash_6416800a2cc36fe3
 en\vox\scripted\zmb\man\vox_man_plr_9_werewolf_health_25_0.sn100.pc.snd
 zm_mansion.en
@@ -100700,7 +100700,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_417779fb616405d1
+vox_werewolf_health_25_plr_9_0
 hash_6416800a2cc36fe3
 en\vox\scripted\zmb\man\vox_man_plr_9_werewolf_health_25_0.sn100.pc.snd
 zm_mansion.en
@@ -100709,7 +100709,7 @@ zm_mansion.en
 mature
 perspective
 player
-hash_417779fb616405d1
+vox_werewolf_health_25_plr_9_0
 vox_werewolf_intro_plr_10_0
 hash_53b5b1d4dc583d99
 en\vox\scripted\zmb\man\vox_man_plr_10_werewolf_intro_0.sn100.pc.snd
@@ -100928,7 +100928,7 @@ safe
 perspective
 player
 vox_werewolf_invisible_plr_9_0
-hash_1bc4b8d8a82f1e1d
+vox_werewolf_invisible_time_00_plr_10_0
 hash_7e61fe36d5807749
 hash_43ee1db085e7f8d1
 zm_mansion.en
@@ -100937,7 +100937,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_1bc4b8d8a82f1e1d
+vox_werewolf_invisible_time_00_plr_10_0
 hash_7e61fe36d5807749
 hash_43ee1db085e7f8d1
 zm_mansion.en
@@ -100946,8 +100946,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_1bc4b8d8a82f1e1d
-hash_26794fd8aed356b2
+vox_werewolf_invisible_time_00_plr_10_0
+vox_werewolf_invisible_time_00_plr_11_0
 hash_7e61fd36d5807596
 hash_151dcd34fb06383a
 zm_mansion.en
@@ -100956,7 +100956,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_26794fd8aed356b2
+vox_werewolf_invisible_time_00_plr_11_0
 hash_7e61fd36d5807596
 hash_151dcd34fb06383a
 zm_mansion.en
@@ -100965,8 +100965,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_26794fd8aed356b2
-hash_c4d4ad89ff2ee73
+vox_werewolf_invisible_time_00_plr_11_0
+vox_werewolf_invisible_time_00_plr_12_0
 hash_7e61fc36d58073e3
 hash_45adff9457dee13f
 zm_mansion.en
@@ -100975,7 +100975,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_c4d4ad89ff2ee73
+vox_werewolf_invisible_time_00_plr_12_0
 hash_7e61fc36d58073e3
 hash_45adff9457dee13f
 zm_mansion.en
@@ -100984,8 +100984,8 @@ zm_mansion.en
 mature
 perspective
 player
-hash_c4d4ad89ff2ee73
-hash_2a4767b3d78ab941
+vox_werewolf_invisible_time_00_plr_12_0
+vox_werewolf_invisible_time_00_plr_9_0
 hash_5d646b68e14cdabb
 hash_11f5e3d765a8b1f
 zm_mansion.en
@@ -100994,7 +100994,7 @@ zm_mansion.en
 mature
 perspective
 npc
-hash_2a4767b3d78ab941
+vox_werewolf_invisible_time_00_plr_9_0
 hash_5d646b68e14cdabb
 hash_11f5e3d765a8b1f
 zm_mansion.en
@@ -101003,7 +101003,7 @@ zm_mansion.en
 mature
 perspective
 player
-hash_2a4767b3d78ab941
+vox_werewolf_invisible_time_00_plr_9_0
 vox_werewolf_kill_plr_10_0
 hash_42093dbab5cf5bd1
 en\vox\scripted\zmb\man\vox_man_plr_10_werewolf_kill_0.sn100.pc.snd
@@ -103038,7 +103038,7 @@ perspective
 player
 vox_wonder_nos_chaos_material_plr_11_0
 hash_49a23f14683b1c65
-hash_7441fa46ef8ac9d5
+en\vox\scripted\zmb\man\vox_man_plr_11_wonder_nos_chaos_material_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en
@@ -103048,7 +103048,7 @@ perspective
 npc
 vox_wonder_nos_chaos_material_plr_11_0
 hash_49a23f14683b1c65
-hash_7441fa46ef8ac9d5
+en\vox\scripted\zmb\man\vox_man_plr_11_wonder_nos_chaos_material_0_s.sn100.pc.snd
 zm_mansion.en
 zm_mansion.en
 zm_mansion.en

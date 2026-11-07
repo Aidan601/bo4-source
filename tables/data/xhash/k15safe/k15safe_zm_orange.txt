@@ -725,9 +725,9 @@ i_c_t8_zmb_male_jacket_g
 i_c_t8_zmb_male_jacket_c
 i_c_t8_zmb_male_jacket_o
 i_c_t8_zmb_male_jacket_n
-hash_28a5358f234adeb9
-hash_28a5398f234ae585
-hash_28a53c8f234aea9e
+i_mtl_p8_zm_off_cadaver_morgue_body_g
+i_mtl_p8_zm_off_cadaver_morgue_body_c
+i_mtl_p8_zm_off_cadaver_morgue_body_n
 i_c_t8_zmb_female_wrap1_c
 i_c_t8_zmb_female_wrap1_g
 i_c_t8_zmb_female_wrap1_o
@@ -769,7 +769,7 @@ i_c_t8_zmb_male_pants_lt_1_g
 i_t7_mud_footprints_n
 i_mtl_c_t8_zmb_eye_glow
 i_t7_micro_concrete_c
-hash_3f6aadbbfe81b766
+i_mtl_p8_zm_off_cadaver_morgue_eye_c
 i_c_t8_zmb_female_dresstop2_n
 $white_ao
 $white_specular
@@ -785,7 +785,7 @@ hash_46db3e6a94bd7e07
 i_c_t8_zmb_gib_gore_stump_c
 i_c_t8_zmb_gib_gore_stump_n
 tv_lookup
-hash_486604ae04d3dae5
+i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_ao
 hash_c9b301ba62b3c153
 hash_c9b305ba62b3c81f
 hash_c9b308ba62b3cd38
@@ -808,7 +808,7 @@ hash_d9763c481e2d52f5
 hash_d97640481e2d59c1
 hash_d97644481e2d608d
 skin_pore_detail
-hash_5b9fd838f83ec450
+i_mtl_p8_zm_off_cadaver_morgue_body_ao
 i_t8_snow_sparkle_global_g
 i_t8_snow_sparkle_global_c
 i_mtl_p7_zm_isl_bed_infirmary_mattress_stripe_c
@@ -866,13 +866,13 @@ i_c_gen_wolf_teeth_n
 i_c_gen_wolf_teeth_c
 i_c_gen_wolf_body_n
 i_c_gen_wolf_body_g
-hash_7ed7f175833f73b5
-hash_7ed7f475833f78ce
-hash_7ed7f875833f7f9a
+i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_n
+i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_c
+i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_g
 k15safe_zm_orange
 hash_fa02727ac7423cc9
 mc/t7_decal_blood_droplets_02
-hash_197b1686e4ee3f7
+mc/mtl_p8_zm_off_cadaver_morgue_eye
 mc/mtl_c_t8_zmb_1stclass_female_gloves6
 mc/mtl_c_t8_zmb_1stclass_female_gloves5
 mc/mtl_c_t8_zmb_1stclass_female_gloves4
@@ -901,7 +901,7 @@ mc/mtl_c_t8_zmb_male_shirt
 mc/bullet_collision_cloth
 hash_9794fe936c0d17a6
 mc/mtl_c_t8_zmb_eyes
-hash_19d5887f273158d2
+mc/mtl_p8_zm_off_cadaver_morgue_body
 mc/mtl_c_t8_zmb_male_vest
 hash_9ad43f68bfe23089
 mc/mtl_c_t8_zmb_2ndclass_fem_dress_cuffs_skin2
@@ -980,7 +980,7 @@ vd/t7_decal_blood_pool_01_dark
 mc/mtl_p7_zm_isl_bed_infirmary_mattress_stripe
 mc/mtl_c_t8_zmb_2ndclass_fem_dress_cuffs
 mc/mtl_c_t8_zmb_2ndclass_fem_dress_lower1_int
-hash_4bba7d2177ef2623
+vd/mtl_veh_t8_civ_suv_blood_streaks_medium_01
 mc/mtl_c_t8_zmb_3rdclass_fem_blouse_skin2
 mc/mtl_c_t8_zmb_3rdclass_fem_blouse_skin3
 mc/mtl_c_t8_zmb_male_boots
@@ -1049,7 +1049,7 @@ mc/mtl_p7_zm_isl_bed_infirmary_mattress
 vd/t8_decal_blood_splatter_floor_01_wet
 mc/t7_snow_powder_01_blend
 mc/mtl_c_t8_zmb_1stclass_female_dress4_int
-hash_7fba903b62a48b29
+mc/mtl_p8_zm_off_cadaver_morgue_cloth_jp
 phy_gibs
 gib_zombie
 c_t8_zmb_3rdclass_male_body4_split_skin3

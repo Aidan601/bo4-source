@@ -1205,7 +1205,7 @@ mature
 perspective
 player
 vox_5_banter_scar_shaw_plr_4_1
-hash_48af8239068e44f2
+vox_advance_blight_kill_narr_0
 hash_3b0cf45abde7e13e
 hash_29104a5e6ccbf81b
 zm_zodt8.fr
@@ -1213,7 +1213,7 @@ zm_zodt8.fr
 zm_zodt8.fr
 zmb_tutorial_duck
 mature
-hash_48af8239068e44f2
+vox_advance_blight_kill_narr_0
 vox_advance_elixir_narr_0
 hash_5ad307dbfbe66c92
 hash_5100eb7cf9a71d25
@@ -1322,7 +1322,7 @@ zm_zodt8.fr
 zmb_tutorial_duck
 mature
 vox_advance_pap_use_narr_0
-hash_31b14ca1baedfeb7
+vox_advance_special_weapon_narr_0
 hash_6d3774a63d2ef877
 hash_2300c7aa5dbd0348
 zm_zodt8.fr
@@ -1330,7 +1330,7 @@ zm_zodt8.fr
 zm_zodt8.fr
 zmb_tutorial_duck
 mature
-hash_31b14ca1baedfeb7
+vox_advance_special_weapon_narr_0
 vox_altar_activate_generic_plr_1_0
 hash_a570f9c59ef8dc5
 hash_175ac580cabfef58
@@ -4157,7 +4157,7 @@ zm_zodt8.fr
 zmb_tutorial_duck
 mature
 vox_beginner_aim_narr_0
-hash_3d2e3c2f451c8e2a
+vox_beginner_ammo_out_narr_0
 hash_4ca26a174da9031a
 hash_27a931ccb50da567
 zm_zodt8.fr
@@ -4165,7 +4165,7 @@ zm_zodt8.fr
 zm_zodt8.fr
 zmb_tutorial_duck
 mature
-hash_3d2e3c2f451c8e2a
+vox_beginner_ammo_out_narr_0
 vox_beginner_box_down_narr_0
 hash_5f31185b1673a29b
 hash_2ebfc7c7fe261c5a
@@ -4400,7 +4400,7 @@ zm_zodt8.fr
 zmb_tutorial_duck
 mature
 hash_2d6e6c147db9a32a
-hash_2b436347f157eca9
+vox_beginner_round_expl_narr_0
 hash_562f30ec6f986c45
 hash_8270843fe29235c
 zm_zodt8.fr
@@ -4408,8 +4408,8 @@ zm_zodt8.fr
 zm_zodt8.fr
 zmb_tutorial_duck
 mature
-hash_2b436347f157eca9
-hash_5159cbaea0605f74
+vox_beginner_round_expl_narr_0
+vox_beginner_round_start_narr_0
 hash_4cbe66619320bae4
 hash_4133da7165c40d3b
 zm_zodt8.fr
@@ -4417,7 +4417,7 @@ zm_zodt8.fr
 zm_zodt8.fr
 zmb_tutorial_duck
 mature
-hash_5159cbaea0605f74
+vox_beginner_round_start_narr_0
 vox_beginner_sprint_narr_0
 hash_69d1c05f4094e59d
 hash_1b14aa788b211c60
@@ -88058,7 +88058,7 @@ mature
 perspective
 player
 hash_75293eef8309156d
-hash_7629232832113319
+vox_m_quest_cat_port_first_plr_1_0
 hash_7103a2bb0df6bc13
 hash_735c40c8403e1bd6
 zm_zodt8.fr
@@ -88067,7 +88067,7 @@ zm_zodt8.fr
 mature
 perspective
 npc
-hash_7629232832113319
+vox_m_quest_cat_port_first_plr_1_0
 hash_7103a2bb0df6bc13
 hash_735c40c8403e1bd6
 zm_zodt8.fr
@@ -88076,8 +88076,8 @@ zm_zodt8.fr
 mature
 perspective
 player
-hash_7629232832113319
-hash_6fb40c282f08edc4
+vox_m_quest_cat_port_first_plr_1_0
+vox_m_quest_cat_port_first_plr_2_0
 hash_7103a3bb0df6bdc6
 hash_12b30703b143c4d7
 zm_zodt8.fr
@@ -88086,7 +88086,7 @@ zm_zodt8.fr
 mature
 perspective
 npc
-hash_6fb40c282f08edc4
+vox_m_quest_cat_port_first_plr_2_0
 hash_7103a3bb0df6bdc6
 hash_12b30703b143c4d7
 zm_zodt8.fr
@@ -88095,8 +88095,8 @@ zm_zodt8.fr
 mature
 perspective
 player
-hash_6fb40c282f08edc4
-hash_64ff552828647ecf
+vox_m_quest_cat_port_first_plr_2_0
+vox_m_quest_cat_port_first_plr_3_0
 hash_7103a4bb0df6bf79
 hash_799daf372389a278
 zm_zodt8.fr
@@ -88105,7 +88105,7 @@ zm_zodt8.fr
 mature
 perspective
 npc
-hash_64ff552828647ecf
+vox_m_quest_cat_port_first_plr_3_0
 hash_7103a4bb0df6bf79
 hash_799daf372389a278
 zm_zodt8.fr
@@ -88114,8 +88114,8 @@ zm_zodt8.fr
 mature
 perspective
 player
-hash_64ff552828647ecf
-hash_217f76284a9f2922
+vox_m_quest_cat_port_first_plr_3_0
+vox_m_quest_cat_port_first_plr_4_0
 hash_7103a5bb0df6c12c
 hash_2e32cc959d174389
 zm_zodt8.fr
@@ -88124,7 +88124,7 @@ zm_zodt8.fr
 mature
 perspective
 npc
-hash_217f76284a9f2922
+vox_m_quest_cat_port_first_plr_4_0
 hash_7103a5bb0df6c12c
 hash_2e32cc959d174389
 zm_zodt8.fr
@@ -88133,7 +88133,7 @@ zm_zodt8.fr
 mature
 perspective
 player
-hash_217f76284a9f2922
+vox_m_quest_cat_port_first_plr_4_0
 vox_m_quest_cat_sentinel_plr_1_0
 hash_543a447b95fa7dc5
 hash_e99351dd0be0278
@@ -125925,7 +125925,7 @@ safe
 perspective
 player
 vox_solo_game_start_plr_4_0
-hash_23d81ee69f3ae2ce
+vox_stoker_cue_react_first_plr_1_0
 hash_4e0ee47ffcbd2118
 hash_d5ddaa1a9e08b7b
 zm_zodt8.fr
@@ -125934,7 +125934,7 @@ zm_zodt8.fr
 mature
 perspective
 npc
-hash_23d81ee69f3ae2ce
+vox_stoker_cue_react_first_plr_1_0
 hash_4e0ee47ffcbd2118
 hash_d5ddaa1a9e08b7b
 zm_zodt8.fr
@@ -125943,8 +125943,8 @@ zm_zodt8.fr
 mature
 perspective
 player
-hash_23d81ee69f3ae2ce
-hash_b5f19e691cc0f0f
+vox_stoker_cue_react_first_plr_1_0
+vox_stoker_cue_react_first_plr_2_0
 hash_4e0ee77ffcbd2631
 hash_fdee02e89e0db16
 zm_zodt8.fr
@@ -125953,7 +125953,7 @@ zm_zodt8.fr
 mature
 perspective
 npc
-hash_b5f19e691cc0f0f
+vox_stoker_cue_react_first_plr_2_0
 hash_4e0ee77ffcbd2631
 hash_fdee02e89e0db16
 zm_zodt8.fr
@@ -125962,8 +125962,8 @@ zm_zodt8.fr
 mature
 perspective
 player
-hash_b5f19e691cc0f0f
-hash_12add0e6958d5504
+vox_stoker_cue_react_first_plr_2_0
+vox_stoker_cue_react_first_plr_3_0
 hash_4e0ee67ffcbd247e
 hash_17f3de06248e5fdd
 zm_zodt8.fr
@@ -125972,7 +125972,7 @@ zm_zodt8.fr
 mature
 perspective
 npc
-hash_12add0e6958d5504
+vox_stoker_cue_react_first_plr_3_0
 hash_4e0ee67ffcbd247e
 hash_17f3de06248e5fdd
 zm_zodt8.fr
@@ -125981,8 +125981,8 @@ zm_zodt8.fr
 mature
 perspective
 player
-hash_12add0e6958d5504
-hash_3e0423e6ae1b4b0d
+vox_stoker_cue_react_first_plr_3_0
+vox_stoker_cue_react_first_plr_4_0
 hash_4e0ee97ffcbd2997
 hash_33ec6fbbad71e110
 zm_zodt8.fr
@@ -125991,7 +125991,7 @@ zm_zodt8.fr
 mature
 perspective
 npc
-hash_3e0423e6ae1b4b0d
+vox_stoker_cue_react_first_plr_4_0
 hash_4e0ee97ffcbd2997
 hash_33ec6fbbad71e110
 zm_zodt8.fr
@@ -126000,7 +126000,7 @@ zm_zodt8.fr
 mature
 perspective
 player
-hash_3e0423e6ae1b4b0d
+vox_stoker_cue_react_first_plr_4_0
 vox_stoker_key_pick_up_plr_1_0
 hash_19cd86d5e5a6307d
 hash_632e00f59eac3d0

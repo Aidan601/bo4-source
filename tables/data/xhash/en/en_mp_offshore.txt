@@ -43,7 +43,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_end_0
 hash_72cd2f8b7f601b23
-hash_7a1cdc33d44f802
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_end_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -62,7 +62,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_end_1
 hash_7c4c11ffa09cc3a8
-hash_29c37599059443b9
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_end_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -72,7 +72,7 @@ safe
 vox_tvoi_tutor_batt_end_1
 vox_tvoi_tutor_batt_final_event_0
 hash_248e8fbca6478bbb
-hash_3af3f87f8d7b9542
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_event_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -81,7 +81,7 @@ mature
 vox_tvoi_tutor_batt_final_event_0
 vox_tvoi_tutor_batt_final_streak_0
 hash_353faa6fe68e0f59
-hash_5ec965110a927944
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -90,7 +90,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_0
 hash_1741c578021ed373
-hash_631607cb1fb8f1da
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -100,7 +100,7 @@ safe
 vox_tvoi_tutor_batt_final_streak_0
 vox_tvoi_tutor_batt_final_streak_1
 hash_43bafde53790d926
-hash_6830a8013cd49d73
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -109,7 +109,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_1
 hash_66f0dc1d09fba238
-hash_3e71e1fe4896f791
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -119,7 +119,7 @@ safe
 vox_tvoi_tutor_batt_final_streak_1
 vox_tvoi_tutor_batt_final_streak_2
 hash_2f1c504aa4b033cb
-hash_6db308a898e6d136
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_2_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -128,7 +128,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_2
 hash_1698e05d051bc57d
-hash_65841ca0828b4fc4
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_2_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -138,7 +138,7 @@ safe
 vox_tvoi_tutor_batt_final_streak_2
 vox_tvoi_tutor_batt_final_streak_3
 hash_756ea6eb8e2f6760
-hash_63cb9593ca87980d
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_3_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -147,7 +147,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_3
 hash_5373422c9ca3261a
-hash_7e83c19fcdf206bb
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_3_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -157,7 +157,7 @@ safe
 vox_tvoi_tutor_batt_final_streak_3
 vox_tvoi_tutor_batt_final_streak_active_0
 hash_73dfbeb7a57e3da2
-hash_1f0c4d203ab1360f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_active_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -166,7 +166,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_active_0
 hash_790b2924ee28b77c
-hash_60c3dd6ba21dac5
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_active_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -176,7 +176,7 @@ safe
 vox_tvoi_tutor_batt_final_streak_active_0
 vox_tvoi_tutor_batt_final_streak_active_1
 hash_141785b42f4e8ff5
-hash_4b4c5b9114dc5690
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_active_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -185,7 +185,7 @@ mature
 vox_tvoi_tutor_batt_final_streak_active_1
 vox_tvoi_tutor_batt_final_streak_dead
 hash_3798794af4a32fad
-hash_39ed07788887ac9c
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_dead_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -193,7 +193,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_final_streak_dead
 hash_32ba73b0ac0dae24
-hash_54f6126893b49481
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_dead_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -201,7 +201,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_final_streak_dead
 hash_1866f4ddd8ccb3d7
-hash_27d022c0cf5aa136
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_dead_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -209,7 +209,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_final_streak_dead
 hash_4b1764a9a07463fe
-hash_100e4157f66483b3
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_dead_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -218,7 +218,7 @@ mature
 vox_tvoi_tutor_batt_final_streak_dead
 vox_tvoi_tutor_batt_final_streak_earned
 hash_47ba0dcaeaea9f74
-hash_56266bc70c47d099
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_earned_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -226,7 +226,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_final_streak_earned
 hash_4a520cee873e8bbd
-hash_6b48fab3499d88f4
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_earned_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -235,7 +235,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_earned
 hash_51db1d9d36d289cf
-hash_430b5e40fdb7784a
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_earned_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -244,7 +244,7 @@ mature
 safe
 vox_tvoi_tutor_batt_final_streak_earned
 hash_74c38521b0ed7ce
-hash_6de2627f41344a4b
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_earned_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -253,7 +253,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_earned
 hash_22607c422da78c30
-hash_652294037371e599
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_earned_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -262,7 +262,7 @@ mature
 safe
 vox_tvoi_tutor_batt_final_streak_earned
 hash_3eb8ef32faafa27
-hash_5f2e48266488142e
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_earned_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -271,7 +271,7 @@ mature
 vox_tvoi_tutor_batt_final_streak_earned
 vox_tvoi_tutor_batt_final_streak_fail
 hash_564f7c1afd778b27
-hash_c4bf87faa95bd6e
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_fail_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -280,7 +280,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_fail
 hash_9f64d02afc03b61
-hash_1cc57309cd52914c
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_fail_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -290,7 +290,7 @@ safe
 vox_tvoi_tutor_batt_final_streak_fail
 vox_tvoi_tutor_batt_final_streak_half
 hash_26526b68a3d3291e
-hash_6fafa9253738f3b
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_half_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -298,7 +298,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_final_streak_half
 hash_2385888063409277
-hash_1ac982dea6e8a5de
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_half_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -306,7 +306,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_final_streak_half
 hash_666772148ecc5b44
-hash_79d027fa6ffc8209
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_half_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -314,7 +314,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_final_streak_half
 hash_6b4677aed7638fcd
-hash_5d253228574c9364
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_half_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -323,7 +323,7 @@ mature
 vox_tvoi_tutor_batt_final_streak_half
 vox_tvoi_tutor_batt_final_streak_incoming
 hash_241f724746ecdfeb
-hash_51260e3ecc5b8c2
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_incoming_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -332,7 +332,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_incoming
 hash_102a9a2825b4235d
-hash_10c4a5dea765cb18
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_incoming_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -342,7 +342,7 @@ safe
 vox_tvoi_tutor_batt_final_streak_incoming
 vox_tvoi_tutor_batt_final_streak_nag
 hash_bb671c089f3cecf
-hash_170ca91a053d8d56
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -351,7 +351,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_nag
 hash_1a947910e555e559
-hash_4c1f8692c26170a4
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_nag_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -360,7 +360,7 @@ mature
 safe
 vox_tvoi_tutor_batt_final_streak_nag
 hash_29f057d65cab4616
-hash_4122d17468b561d3
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -369,7 +369,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_nag
 hash_15ea61d74353b5e8
-hash_6bbdcede6ac85031
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_nag_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -378,7 +378,7 @@ mature
 safe
 vox_tvoi_tutor_batt_final_streak_nag
 hash_678f01fa6170f505
-hash_1bd6286a226871bc
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -387,7 +387,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_nag
 hash_4a6ca362af598fc7
-hash_5460b550e5c1022
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -396,7 +396,7 @@ mature
 safe
 vox_tvoi_tutor_batt_final_streak_nag
 hash_137b01c5ddd9221c
-hash_458835bc29cf64a1
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_nag_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -405,7 +405,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_final_streak_nag
 hash_1f40fb1a55ad95de
-hash_3f7f30a9ade25e67
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_final_streak_nag_03_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -424,7 +424,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_0
 hash_47f68ed71ef0bcac
-hash_407d9bd74b244a71
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -443,7 +443,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_1
 hash_79ee707956836b27
-hash_78cf4baf2550e2ba
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -462,7 +462,7 @@ mature
 vox_tvoi_tutor_batt_semtex_arc
 vox_tvoi_tutor_batt_semtex_cover_0
 hash_207300c16e8231ea
-hash_283f5e1999fdc04f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -471,7 +471,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_cover_0
 hash_22870bfc88582e34
-hash_63890facef597c05
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -481,7 +481,7 @@ safe
 vox_tvoi_tutor_batt_semtex_cover_0
 vox_tvoi_tutor_batt_semtex_cover_1
 hash_27d5e2cb19ec399d
-hash_388c9447a3071bd0
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -490,7 +490,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_cover_1
 hash_1b3b195c119095ef
-hash_33b3110f54aff25e
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -500,7 +500,7 @@ safe
 vox_tvoi_tutor_batt_semtex_cover_1
 vox_tvoi_tutor_batt_semtex_cover_2
 hash_3c146365191293f4
-hash_63cc839126feb459
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_2_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -509,7 +509,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_cover_2
 hash_1c083591a440d106
-hash_4de72c5db33aeb2f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_2_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -519,7 +519,7 @@ safe
 vox_tvoi_tutor_batt_semtex_cover_2
 vox_tvoi_tutor_batt_semtex_cover_nag
 hash_67825b9fbd749a6c
-hash_29c81700c37c997d
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -528,7 +528,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_cover_nag
 hash_26684f7cf0ce3e6e
-hash_3faac95fa48a072b
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_nag_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -537,7 +537,7 @@ mature
 safe
 vox_tvoi_tutor_batt_semtex_cover_nag
 hash_6c9962411ec24115
-hash_512ef6af4afb48e8
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -545,7 +545,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_semtex_cover_nag
 hash_7f981c6caebe1a26
-hash_5c1d30947f7fa08f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -554,7 +554,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_cover_nag
 hash_1761ccd6c2de0b38
-hash_c484e159ca06945
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -563,7 +563,7 @@ mature
 safe
 vox_tvoi_tutor_batt_semtex_cover_nag
 hash_10c192074746611f
-hash_2ea3a9b30495c392
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_nag_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -572,7 +572,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_cover_nag
 hash_260ad8ea95013d29
-hash_3ba93005cb4a98e8
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_cover_nag_03_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -582,7 +582,7 @@ safe
 vox_tvoi_tutor_batt_semtex_cover_nag
 vox_tvoi_tutor_batt_semtex_enemy_0
 hash_5abd1bca2b425d85
-hash_16d7b310c59ce604
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -591,7 +591,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_enemy_0
 hash_7a749941828ccc47
-hash_2bd46a4bb596d89a
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -601,7 +601,7 @@ safe
 vox_tvoi_tutor_batt_semtex_enemy_0
 vox_tvoi_tutor_batt_semtex_enemy_1
 hash_531c461782e66672
-hash_55a660a8c8e1d333
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -610,7 +610,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_enemy_1
 hash_6d1993a30fd980cc
-hash_2fd7baea72ce0b51
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -620,7 +620,7 @@ safe
 vox_tvoi_tutor_batt_semtex_enemy_1
 vox_tvoi_tutor_batt_semtex_enemy_2
 hash_4f4a4c9a6dc5a0d7
-hash_2717011be87ce3f6
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_2_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -629,7 +629,7 @@ mature
 vox_tvoi_tutor_batt_semtex_enemy_2
 vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_189d374eccbdd5fb
-hash_1803dcd81dc5e596
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -638,7 +638,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_6be1dfa6ca1ff9ed
-hash_6c7719df271359e4
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_nag_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -647,7 +647,7 @@ mature
 safe
 vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_478d35bb72ec8272
-hash_5563d09c6b7eaf13
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -655,7 +655,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_40a4570567d10bf1
-hash_bdb52145f7df5fc
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -664,7 +664,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_2f380d8e153278bb
-hash_21f3cc76e16f962
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -673,7 +673,7 @@ mature
 safe
 vox_tvoi_tutor_batt_semtex_enemy_nag
 hash_74672be8bc6c3458
-hash_1edd93fc79c0cae1
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_nag_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -682,7 +682,7 @@ mature
 vox_tvoi_tutor_batt_semtex_enemy_nag
 vox_tvoi_tutor_batt_semtex_enemy_success
 hash_452704ad019f573a
-hash_6760b6878ccb47ff
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_enemy_success_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -691,7 +691,7 @@ mature
 vox_tvoi_tutor_batt_semtex_enemy_success
 vox_tvoi_tutor_batt_semtex_miss_nag
 hash_49684f139b473767
-hash_17e03e7e6375ed32
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_miss_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -700,7 +700,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_miss_nag
 hash_63a2c66272ced6a1
-hash_3a0695465d2c95c8
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_miss_nag_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -709,7 +709,7 @@ mature
 safe
 vox_tvoi_tutor_batt_semtex_miss_nag
 hash_5aea1a94bb3bb20e
-hash_647dc5263d2c3caf
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_miss_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -717,7 +717,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_semtex_miss_nag
 hash_1521c4b8bd1c84fd
-hash_1c156d6966e26608
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_miss_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -726,7 +726,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_miss_nag
 hash_4808467f9c70c70f
-hash_607167884e65d0e6
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_miss_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -745,7 +745,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_nag
 hash_6256b7b3c26d75b6
-hash_14500830d79d2917
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_nag_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -771,7 +771,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_nag
 hash_2076f91763cceda0
-hash_3857e21d5a625d61
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -789,7 +789,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_nag
 hash_4f06e01b589998d1
-hash_7fe9648bd9367254
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_nag_03_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -799,7 +799,7 @@ safe
 vox_tvoi_tutor_batt_semtex_nag
 vox_tvoi_tutor_batt_semtex_room_0
 hash_649f0ac08b96013a
-hash_60310ecdce787b7f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_room_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -808,7 +808,7 @@ mature
 vox_tvoi_tutor_batt_semtex_room_0
 vox_tvoi_tutor_batt_semtex_room_1
 hash_4e4e47267c29452d
-hash_3f46716dad537380
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_room_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -817,7 +817,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_room_1
 hash_43eef89506144ebf
-hash_1769a69a2a38a24e
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_room_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -827,7 +827,7 @@ safe
 vox_tvoi_tutor_batt_semtex_room_1
 vox_tvoi_tutor_batt_semtex_room_2
 hash_2e37c29df5de3004
-hash_785fccced54765c9
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_room_2_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -836,7 +836,7 @@ mature
 vox_tvoi_tutor_batt_semtex_room_2
 vox_tvoi_tutor_batt_semtex_room_nag
 hash_53deaf02699a185c
-hash_4feac468643aa2cd
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_room_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -844,7 +844,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_semtex_room_nag
 hash_731a6dbd259d845
-hash_7b5e525eda4e0178
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_room_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -853,7 +853,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_semtex_room_nag
 hash_5008d46e0b36fa07
-hash_625b7fa048cf6d6
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_room_nag_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -862,7 +862,7 @@ mature
 safe
 vox_tvoi_tutor_batt_semtex_room_nag
 hash_3ed7da959be6b556
-hash_56e5e7ecce58311f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_semtex_room_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -880,7 +880,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_slide_2_0
 hash_3ad7e2bd3842901a
-hash_406558dd0f2a0ddf
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_slide_2_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -899,7 +899,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_slide_2_1
 hash_7dfd80eda0bb2f7d
-hash_12440e6785f0d078
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_slide_2_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -926,7 +926,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_slide_2_nag
 hash_5c46790772043b25
-hash_5e7e4fe65096e2a0
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_slide_2_nag_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -944,7 +944,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_slide_2_nag
 hash_24ba5b24e541dada
-hash_172eb2e243dad0a3
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_slide_2_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1006,7 +1006,7 @@ mature
 vox_tvoi_tutor_batt_swim_nag
 vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_31e6ddb090f76a6b
-hash_304a3c6fff955432
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_swim_to_marker_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1014,7 +1014,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_3c19afc0606a3d62
-hash_7ce7c317d94ba3af
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_swim_to_marker_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1023,7 +1023,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_5292f7221fcb323c
-hash_4bee9d585c7e1325
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_swim_to_marker_nag_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1032,7 +1032,7 @@ mature
 safe
 vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_27ba828845428a1
-hash_347f6b5b0301cd08
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_swim_to_marker_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1041,7 +1041,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_5f8a677c23d050eb
-hash_798588e8f5c24fe6
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_swim_to_marker_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1050,7 +1050,7 @@ mature
 safe
 vox_tvoi_tutor_batt_swim_to_marker_nag
 hash_121774b0bb341508
-hash_5bf98f801df1fc9d
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_swim_to_marker_nag_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1059,7 +1059,7 @@ mature
 vox_tvoi_tutor_batt_swim_to_marker_nag
 vox_tvoi_tutor_batt_war_mach_0
 hash_12e73dfb859ad2f0
-hash_b9f71da884d0ef1
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1068,7 +1068,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_0
 vox_tvoi_tutor_batt_war_mach_1
 hash_2b69368d3c4ab1b
-hash_104c7c923b6e006a
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1077,7 +1077,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_1
 hash_58cec21aa4e57d4d
-hash_15c0ddd32b72ccd0
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1087,7 +1087,7 @@ safe
 vox_tvoi_tutor_batt_war_mach_1
 vox_tvoi_tutor_batt_war_mach_arc_0
 hash_46190663d0b90ecf
-hash_4e65a98c8d3d1df2
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_arc_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1096,7 +1096,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_arc_0
 hash_5ef19c82a2ad2559
-hash_490e41fb597dbd88
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_arc_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1106,7 +1106,7 @@ safe
 vox_tvoi_tutor_batt_war_mach_arc_0
 vox_tvoi_tutor_batt_war_mach_arc_comp
 hash_17e7c8e339defb9a
-hash_34b72b6dab315d9f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_arc_comp_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1115,7 +1115,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_arc_comp
 hash_38a6a772f58017a4
-hash_7daa076874124fd5
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_arc_comp_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1125,7 +1125,7 @@ safe
 vox_tvoi_tutor_batt_war_mach_arc_comp
 vox_tvoi_tutor_batt_war_mach_arc_nag
 hash_4d0a6a2465845bfd
-hash_211f1e14cb272324
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_arc_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1133,7 +1133,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_arc_nag
 hash_20f86afbe13377b4
-hash_17687b66035bf7c9
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_arc_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1141,7 +1141,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_arc_nag
 hash_150f47f43af0e67
-hash_4a22f8ed9bf4e79e
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_arc_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1150,7 +1150,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_arc_nag
 hash_52150bc42d1545a1
-hash_22f192624d07fdfc
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_arc_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1160,7 +1160,7 @@ safe
 vox_tvoi_tutor_batt_war_mach_arc_nag
 vox_tvoi_tutor_batt_war_mach_area_0
 hash_6d9c92a9417bfbde
-hash_726af1f8f20521f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1169,7 +1169,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_area_0
 hash_622a882463e0c0c0
-hash_2d9ba3e0c124f855
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1179,7 +1179,7 @@ safe
 vox_tvoi_tutor_batt_war_mach_area_0
 vox_tvoi_tutor_batt_war_mach_area_1
 hash_1458f7740a3db1
-hash_79f64777b952220
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1188,7 +1188,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_area_1
 vox_tvoi_tutor_batt_war_mach_area_2
 hash_6a57d22eae5009d8
-hash_4f0a4e9ecda747e9
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_2_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1197,7 +1197,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_area_2
 vox_tvoi_tutor_batt_war_mach_area_3
 hash_58d26738109da223
-hash_7614669be56d2b82
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_3_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1206,7 +1206,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_area_3
 vox_tvoi_tutor_batt_war_mach_area_nag
 hash_61391a801aa086d0
-hash_4f5608b46d3d00ed
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1214,7 +1214,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_area_nag
 hash_1888cab006864cc9
-hash_6a4d1c25afb81318
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1222,7 +1222,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_area_nag
 hash_622d358ad8349faa
-hash_3db8eb8287eff63f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1231,7 +1231,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_area_nag
 hash_1267ec5c8a2dbcf4
-hash_28340b6ccf05835
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1240,7 +1240,7 @@ mature
 safe
 vox_tvoi_tutor_batt_war_mach_area_nag
 hash_70826af96b745d13
-hash_56ff0a5e909a102
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_area_nag_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1249,7 +1249,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_area_nag
 vox_tvoi_tutor_batt_war_mach_bounce_0
 hash_33306768cf4be57f
-hash_7fe04bd7aeab2f5e
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_bounce_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1258,7 +1258,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_bounce_0
 hash_59ee913149928f49
-hash_5b2416fdde03abc
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_bounce_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1268,7 +1268,7 @@ safe
 vox_tvoi_tutor_batt_war_mach_bounce_0
 vox_tvoi_tutor_batt_war_mach_bounce_1
 hash_2676dd3ade43fc84
-hash_6c9b4432547c4b95
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_bounce_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1277,7 +1277,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_bounce_1
 vox_tvoi_tutor_batt_war_mach_bounce_comp
 hash_6630890b7012d22a
-hash_398f98dfb5ea89b3
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_bounce_comp_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1286,7 +1286,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_bounce_comp
 vox_tvoi_tutor_batt_war_mach_bounce_miss
 hash_1b247f568387a3c9
-hash_effcefb69c2088
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_bounce_miss_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1294,7 +1294,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_bounce_miss
 hash_63d4cf2697a1ddd0
-hash_286a2114d18c501d
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_bounce_miss_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1302,7 +1302,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_bounce_miss
 hash_731e1f9fe875b413
-hash_7cbace04b32fa7b2
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_bounce_miss_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1311,7 +1311,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_bounce_miss
 vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_54d562d1f9be4d2
-hash_6c4060e7a5c49de3
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_direct_miss_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1320,7 +1320,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_63de8a7914bb246c
-hash_6c18d0368693c781
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_direct_miss_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1329,7 +1329,7 @@ mature
 safe
 vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_287af55556defadb
-hash_11ccf1f962df3ee6
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_direct_miss_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1338,7 +1338,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_35432f7096e1150d
-hash_3ee7c659b1a4e474
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_direct_miss_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1347,7 +1347,7 @@ mature
 safe
 vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_35854abb6d97cb8
-hash_325bdf8df6f7cab1
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_direct_miss_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1356,7 +1356,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_240abb561c649602
-hash_3d6db1c78a8990b7
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_direct_miss_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1365,7 +1365,7 @@ mature
 safe
 vox_tvoi_tutor_batt_war_mach_direct_miss
 hash_4f957fc8623e5451
-hash_33e828016ee8568c
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_direct_miss_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1374,7 +1374,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_direct_miss
 vox_tvoi_tutor_batt_war_mach_gear_0
 hash_593239cbb51087b4
-hash_525623aa95401f75
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gear_0_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1383,7 +1383,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_gear_0
 vox_tvoi_tutor_batt_war_mach_gear_1
 hash_472724e15e5d3af
-hash_4234528184a2ebe
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gear_1_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1392,7 +1392,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_gear_1
 vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_25666007f3b5cbee
-hash_4b32405ea39745e3
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gear_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1401,7 +1401,7 @@ mature
 explicit
 vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_56d7c8cbd31d7210
-hash_3fda18fc4848af81
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gear_nag_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1410,7 +1410,7 @@ mature
 safe
 vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_1c9d8c30a0e63647
-hash_70bed17060b1e6e6
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gear_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1418,7 +1418,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_e62a0421bdc6214
-hash_114dbf04f4ca72b1
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gear_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1426,7 +1426,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_gear_nag
 hash_63040a2bf879c7dd
-hash_12da07786cbafe8c
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gear_nag_03.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1435,7 +1435,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_gear_nag
 vox_tvoi_tutor_batt_war_mach_gib
 hash_45ddf0f185f54c2
-hash_725975d1ddda7967
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gib_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1444,7 +1444,7 @@ mature
 vox_tvoi_tutor_batt_war_mach_gib
 vox_tvoi_tutor_batt_war_mach_gib_nag
 hash_165e4f0813054d03
-hash_1da6f3e54cb420d6
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gib_nag_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1452,7 +1452,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_gib_nag
 hash_5e0ce8617befd65a
-hash_47bd1c3fb02bf553
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gib_nag_01.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1460,7 +1460,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_batt_war_mach_gib_nag
 hash_3d77d97b1e62f379
-hash_2270733569df053c
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_batt_war_mach_gib_nag_02.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1487,7 +1487,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_bridge_battle
 hash_50274cfb6464c008
-hash_ea15b7816108e61
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_bridge_battle_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1506,7 +1506,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_activate_fail
 hash_1a6bf11125537cee
-hash_638e7d0f7e45096b
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_activate_fail_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1524,7 +1524,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_activate_fail
 hash_4917e4cce41a6ad7
-hash_58c4281a79a5746
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_activate_fail_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1550,7 +1550,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_activate_fail
 hash_1a0e7a7ec9867ba9
-hash_5db26b482c90c28
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_activate_fail_03_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1569,7 +1569,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_button_hold
 hash_536858c03b062a4
-hash_3c9fc4f6fc1e00f9
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_button_hold_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1604,7 +1604,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_button_rele
 hash_2431a407e2cf7c67
-hash_7ef12ce1962cf9fa
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_button_rele_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1622,7 +1622,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_button_rele
 hash_2796b8923d4eabfe
-hash_72f2963b367306df
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_button_rele_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1640,7 +1640,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_button_rele
 hash_776d0c0b806fc179
-hash_519ffcee05b7a6fc
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_button_rele_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1659,7 +1659,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_dmg
 hash_18e7ad3d62b8665c
-hash_5f72499b644c85e9
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_dmg_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1678,7 +1678,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_enemy1_kill
 hash_e1bd0c0d178fae8
-hash_b8400b50dde5315
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_enemy1_kill_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1706,7 +1706,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_enemy2_1
 hash_3b990b04941b1b66
-hash_4798e800a8a289db
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_enemy2_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1734,7 +1734,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_max
 hash_2d65cf44b5088dba
-hash_72658950caa0ae6f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_max_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1753,7 +1753,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_red_zone
 hash_7887853a1f6053ea
-hash_554f11a2c9defd5f
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_red_zone_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1788,7 +1788,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_core_self_cook
 hash_370821c91feda2ad
-hash_4f5e3a422724e058
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_core_self_cook_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1825,7 +1825,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_final_hut
 hash_6d53b888640b62ca
-hash_f336346d5f6b1a7
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_final_hut_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1871,7 +1871,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_final_hut_secure_3
 hash_38058066afcf5524
-hash_3bd583e1fecf2301
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_final_hut_secure_3_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1890,7 +1890,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_final_move_nag
 hash_413dbdf9cb2dc335
-hash_26a4588543d4a50
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_final_move_nag_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1932,7 +1932,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_final_move_nag
 hash_503cdba9981c0d1
-hash_3b3f16bf56830e44
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_final_move_nag_04_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1959,7 +1959,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_final_player_dead
 hash_7ac0c71518b9bc9a
-hash_2fc2e620794eed47
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_final_player_dead_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -1977,7 +1977,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_final_player_dead
 hash_1b2ba2376b137de5
-hash_259a94ffd9129e04
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_final_player_dead_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2071,7 +2071,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_rc_thru_wall
 hash_648dd58386a25cf2
-hash_5e170ce085d279a7
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_rc_thru_wall_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2099,7 +2099,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_activate
 hash_2f3c159db8f47182
-hash_1dd190ceabe53103
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_activate_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2127,7 +2127,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_earned_1
 hash_2c4fe6aecc919fc0
-hash_1b612a454424c379
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_earned_1_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2146,7 +2146,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_fail
 hash_130beb7e85838a7f
-hash_4f004ab9d22403a6
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_fail_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2180,7 +2180,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_fail
 hash_75bc9ce4bab3a4e0
-hash_17ce685175f0ae5
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_fail_03_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2240,7 +2240,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_nag
 hash_6f1b7a1b9a8047b6
-hash_1330c7f3bfea403
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_nag_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2258,7 +2258,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_nag
 hash_5bcba28330ac6ad1
-hash_1808436b04754f80
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2293,7 +2293,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_player_dead
 hash_568c2930e4fffd98
-hash_584c25f5351706a1
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_player_dead_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2311,7 +2311,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_player_dead
 hash_3fbf0d42566697b7
-hash_4a037e9cdd935c12
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_player_dead_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2330,7 +2330,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_score_strafe_0
 hash_16595399b9736dfb
-hash_4424bb1d6db4885e
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_strafe_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2349,7 +2349,7 @@ mature
 vox_tvoi_tutor_fire_score_strafe_1
 vox_tvoi_tutor_fire_score_strafe_2
 hash_45192093b59e60a3
-hash_2cec9dbbbe8fdfb2
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_score_strafe_2_00.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2420,7 +2420,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_slide_2_nag
 hash_2639130a932b858
-hash_35ae7f252ed4e5ad
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_slide_2_nag_01_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2438,7 +2438,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_slide_2_nag
 hash_15254269aa8ed777
-hash_42ea0dd3fc5e862e
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_slide_2_nag_02_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2456,7 +2456,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_slide_2_nag
 hash_7969f13dc40a370e
-hash_3a83ceda8f8390f3
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_slide_2_nag_03_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2475,7 +2475,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_slide_3_0
 hash_21367cce6488e060
-hash_15788728382ea615
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_slide_3_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2536,7 +2536,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_slide_5_0
 hash_62f51e0e6d2f313a
-hash_61526cf58b473fef
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_slide_5_0_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en
@@ -2624,7 +2624,7 @@ mature
 explicit
 vox_tvoi_tutor_fire_slide_5_kill_2
 hash_ef262313e84a627
-hash_741825c90d15a766
+en\vox\scripted\offshore\tvoi\vox_tvoi_tutor_fire_slide_5_kill_2_00_s.sn100.pc.snd
 mp_offshore.en
 mp_offshore.en
 mp_offshore.en

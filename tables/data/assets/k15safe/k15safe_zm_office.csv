@@ -165,9 +165,9 @@ image,d#i_c_t8_zmb_male_head3_o
 image,d#fxt8_pstfx_fire_dmg_vignette
 image,#i_t7_decal_blood_splatter_01_r
 image,#i_t7_decal_blood_droplets_02_c
-image,#hash_28a5358f234adeb9
-image,#hash_28a5398f234ae585
-image,#hash_28a53c8f234aea9e
+image,#i_mtl_p8_zm_off_cadaver_morgue_body_g
+image,#i_mtl_p8_zm_off_cadaver_morgue_body_c
+image,#i_mtl_p8_zm_off_cadaver_morgue_body_n
 image,#i_t8_decal_blood_drip_floor_directional_02_c
 image,d#$white_reveal
 image,#i_t7_decal_blood_drips_03_n
@@ -195,7 +195,7 @@ image,d#i_mtl_c_t8_zmb_eye_glow
 image,#i_t7_decal_blood_hand_02_c
 image,#i_t7_decal_blood_hand_02_n
 image,d#i_t7_micro_concrete_c
-image,#hash_3f6aadbbfe81b766
+image,#i_mtl_p8_zm_off_cadaver_morgue_eye_c
 image,d#$white_ao
 image,d#$white_specular
 image,d#i_c_t8_zmb_mob_hero_dempsey_head_c
@@ -204,7 +204,7 @@ image,#i_t8_decal_blood_handprint_wall_smear_vertical_02_c
 image,d#i_c_t8_zmb_gib_gore_stump_c
 image,d#i_c_t8_zmb_gib_gore_stump_n
 image,d#tv_lookup
-image,#hash_486604ae04d3dae5
+image,#i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_ao
 image,d#i_c_t8_zmb_male_pants_lt_3_g
 image,d#i_c_t8_zmb_male_pants_lt_3_c
 image,d#i_c_t8_zmb_male_pants_lt_3_n
@@ -227,7 +227,7 @@ image,d#i_c_t8_zmb_male_pants_rt_3_c
 image,d#i_c_t8_zmb_male_pants_rt_3_g
 image,d#i_c_t8_zmb_mob_hero_dempsey_glove_c
 image,d#skin_pore_detail
-image,#hash_5b9fd838f83ec450
+image,#i_mtl_p8_zm_off_cadaver_morgue_body_ao
 image,d#i_t8_decal_blood_footprints_sml_r
 image,d#i_c_t8_zmb_mob_hero_richtofen_arm_vial_c
 image,d#i_c_t8_zmb_mob_richtofen_parts_c
@@ -267,13 +267,13 @@ image,d#i_c_t8_zmb_mob_hero_dempsey_lower_c
 image,d#i_c_gen_wolf_body_n
 image,d#i_c_gen_wolf_body_g
 image,d#i_c_t8_zmb_ofc_hero_nikolai_capscarf_c
-image,#hash_7ed7f175833f73b5
-image,#hash_7ed7f475833f78ce
-image,#hash_7ed7f875833f7f9a
+image,#i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_n
+image,#i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_c
+image,#i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_g
 keyvaluepairs,#k15safe_zm_office
 surfacesounddef,d#phy_gibs_sounddef
 material,#mc/t7_decal_blood_droplets_02
-material,#hash_197b1686e4ee3f7
+material,#mc/mtl_p8_zm_off_cadaver_morgue_eye
 material,d#mc/mtl_c_gen_wolf_head_1
 material,#vd/t8_decal_blood_puddle_floor_01_porous
 material,#vd/t7_decal_blood_footprints
@@ -285,7 +285,7 @@ material,#vd/t7_decal_blood_droplets_02
 material,#vd/t8_decal_blood_puddle_floor_01_porous_wet
 material,#wc/mtl_p7_zm_shi_medical_divider_decal_blood_hand
 material,d#mc/mtl_c_t8_zmb_eyes
-material,#hash_19d5887f273158d2
+material,#mc/mtl_p8_zm_off_cadaver_morgue_body
 material,d#mc/mtl_c_t8_zmb_male_boot_sole
 material,d#mc/mtl_c_t8_zmb_male_torso1
 material,d#mc/mtl_c_t8_zmb_male_pants_rt_5
@@ -348,7 +348,7 @@ material,#vd/t7_decal_blood_splatter_03
 material,#vd/t8_decal_blood_puddle_floor_01_hard_dry
 material,#vd/t8_decal_blood_splatter_floor_01_wet
 material,#vd/t7_decal_blood_footprints_dark
-material,#hash_7fba903b62a48b29
+material,#mc/mtl_p8_zm_off_cadaver_morgue_cloth_jp
 impactsoundstable,d#phy_gibs
 physpreset,d#gib_zombie
 xmodel,d#c_t8_zmb_3rdclass_male_body1_g_upclean

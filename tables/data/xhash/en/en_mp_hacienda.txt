@@ -1862,7 +1862,7 @@ mp_hacienda.en
 mpl_announcer
 mature
 hash_4983032b661f79cf
-hash_5b98b949240b7fba
+vox_tvoi_tutor_sera_timed_event_0
 hash_724cfe3fbf2351df
 hash_3387c401a37962c2
 mp_hacienda.en
@@ -1870,8 +1870,8 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_5b98b949240b7fba
-hash_5b98ba49240b816d
+vox_tvoi_tutor_sera_timed_event_0
+vox_tvoi_tutor_sera_timed_event_1
 hash_3e6528ceae6a27e4
 hash_8cfb7072dd3d529
 mp_hacienda.en
@@ -1879,7 +1879,7 @@ mp_hacienda.en
 mp_hacienda.en
 mpl_announcer
 mature
-hash_5b98ba49240b816d
+vox_tvoi_tutor_sera_timed_event_1
 hash_3fbc06328c14736e
 hash_6284d3b02cbe8aad
 hash_4dde4c4f34841b74

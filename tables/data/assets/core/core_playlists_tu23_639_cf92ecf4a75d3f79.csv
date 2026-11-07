@@ -21,7 +21,7 @@ image,d#ui_icon_director_quickplay_large
 image,d#img_t8_menu_zm_preview_escape_rush
 image,d#hash_90ccd9595476b10
 image,d#img_t8_menu_zm_preview_towers_rush_large
-image,d#hash_9eef42d81ba7d52
+image,d#ui_icon_director_zm_playlist_laboursofhercules
 image,d#ui_icon_director_mp_playlist_gungame2
 image,d#img_t8_menu_zm_preview_escape_playlist
 image,d#ui_icon_director_zm_playlist_mansion
@@ -35,11 +35,11 @@ image,d#ui_icon_director_mp_playlist_mosh_preview
 image,d#hash_e7aaf97707e52ec
 image,d#ui_icon_director_tile_mp_control_focus
 image,d#ui_icon_director_wz_playlist_duos
-image,d#hash_f38c17d2d63ea3c
+image,d#ui_icon_director_wz_playlist_ambush2
 image,d#ui_icon_director_mp_playlist_infection
 image,d#ui_icon_director_mp_playlist_oitc
 image,d#ui_icon_director_mp_playlist_control_preview
-image,d#hash_10807c7f4e4623a9
+image,d#ui_icon_director_wz_playlist_downbutnotout_focus
 image,d#ui_icon_director_zm_playlist_mansion_focus
 image,d#ui_icon_gamemode_domination_large
 image,d#ui_icon_director_wz_playlist_spectrerising
@@ -52,7 +52,7 @@ image,d#img_t8_menu_zm_preview_red
 image,d#ui_icon_director_mp_playlist_gungame_preview
 image,d#ui_icon_gamemode_zm_gauntlet
 image,d#ui_icon_director_wz_playlist_closequarters_focus
-image,d#hash_162649b4325cc5f9
+image,d#ui_icon_director_zm_playlist_laboursofhercules_focus
 image,d#ui_icon_gamemode_wz_quad_large
 image,d#ui_icon_gamemode_freeforall
 image,d#hash_16b8ce73bac29f28
@@ -92,7 +92,7 @@ image,d#ui_icon_director_wz_playlist_moshpit_duos
 image,d#hash_2a99abb3cb4de918
 image,d#ui_icon_director_wz_playlist_ambush_focus
 image,d#img_t8_menu_zm_preview_white_rush_large
-image,d#hash_2b57f7c24aebaec5
+image,d#ui_icon_director_wz_playlist_50v50_preview
 image,d#img_t8_menu_zm_preview_red_large
 image,d#ui_icon_director_wz_playlist_closequarters
 image,d#ui_icon_director_mp_playlist_safeguard_focus
@@ -181,7 +181,7 @@ image,d#ui_icon_director_mp_playlist_fracture
 image,d#ui_icon_gamemode_wz_duo
 image,d#ui_icon_gamemode_infection
 image,d#img_t8_menu_zm_preview_orange_rush_large
-image,d#hash_56a2a1d731b7a9b5
+image,d#ui_icon_director_wz_playlist_50v50_focus
 image,d#ui_icon_director_mp_playlist_dom_focus
 image,d#ui_icon_director_zm_playlist_gauntlet_ix
 image,d#ui_icon_gamemode_heist
@@ -196,7 +196,7 @@ image,d#ui_icon_director_mp_playlist_fracture_focus
 image,d#ui_icon_gamemode_wz_solo
 image,d#ui_icon_director_wz_playlist_alcatraz
 image,d#ui_icon_director_wz_playlist_quads_focus
-image,d#hash_5ca5bb2e64d4ab97
+image,d#ui_icon_director_wz_playlist_ambush2_focus
 image,d#ui_icon_director_wz_playlist_moshpit_quads_preview
 image,d#ui_icon_gamemode_zm_rush
 image,d#ui_icon_director_zm_playlist_mosaic
@@ -224,7 +224,7 @@ image,d#img_t8_menu_zm_preview_escape_rush_large
 image,d#ui_icon_director_mp_playlist_tdm
 image,d#ui_icon_director_wz_playlist_pandemic_preview
 image,d#img_t8_menu_zm_preview_towers
-image,d#hash_683d348bd2013ae2
+image,d#ui_icon_director_wz_playlist_downbutnotout
 image,d#img_t8_menu_zm_preview_all_dlc_maps_playlist_large
 image,d#ui_icon_director_zm_playlist_gauntlet_preview_large
 image,d#ui_icon_gamemode_quickplay_mp
@@ -266,7 +266,7 @@ image,d#ui_icon_director_wz_playlist_moshpit_quads_focus
 image,d#ui_icon_director_mp_playlist_dom_preview
 image,d#ui_icon_director_zm_playlist_preview_gauntlet_deathcon
 image,d#ui_icon_gamemode_gungame_large
-image,d#hash_79d954cfdd90c913
+image,d#ui_icon_director_wz_playlist_ambush2_preview
 image,d#hash_79daaa61ce3aad68
 image,d#ui_icon_director_mp_playlist_safeguard
 image,d#ui_icon_director_tile_mp_hardpoint

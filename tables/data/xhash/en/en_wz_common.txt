@@ -379,7 +379,7 @@ explicit
 perspective
 player
 vox_alex_boost_loss
-hash_2d2ec684d203e265
+en\vox\scripted\wz\alex\vox_alex_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -388,7 +388,7 @@ safe
 perspective
 npc
 vox_alex_boost_loss
-hash_2d2ec684d203e265
+en\vox\scripted\wz\alex\vox_alex_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -415,7 +415,7 @@ explicit
 perspective
 player
 vox_alex_boost_loss
-hash_6da56352f4c8ac08
+en\vox\scripted\wz\alex\vox_alex_boost_loss_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -424,7 +424,7 @@ safe
 perspective
 npc
 vox_alex_boost_loss
-hash_6da56352f4c8ac08
+en\vox\scripted\wz\alex\vox_alex_boost_loss_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -536,7 +536,7 @@ explicit
 perspective
 player
 vox_alex_boost_win
-hash_7ccb4b5a934ce557
+en\vox\scripted\wz\alex\vox_alex_boost_win_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -545,7 +545,7 @@ safe
 perspective
 npc
 vox_alex_boost_win
-hash_7ccb4b5a934ce557
+en\vox\scripted\wz\alex\vox_alex_boost_win_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -588,7 +588,7 @@ explicit
 perspective
 player
 vox_alex_boost_win
-hash_66d6caa2779238a1
+en\vox\scripted\wz\alex\vox_alex_boost_win_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -597,7 +597,7 @@ safe
 perspective
 npc
 vox_alex_boost_win
-hash_66d6caa2779238a1
+en\vox\scripted\wz\alex\vox_alex_boost_win_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -739,7 +739,7 @@ explicit
 perspective
 player
 vox_alex_callout_congrat
-hash_45f93df97c6a6c17
+en\vox\scripted\wz\alex\vox_alex_callout_congrat_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -748,7 +748,7 @@ safe
 perspective
 npc
 vox_alex_callout_congrat
-hash_45f93df97c6a6c17
+en\vox\scripted\wz\alex\vox_alex_callout_congrat_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -924,7 +924,7 @@ explicit
 perspective
 player
 vox_alex_callout_taunt
-hash_4fe022c23ae71927
+en\vox\scripted\wz\alex\vox_alex_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -933,7 +933,7 @@ safe
 perspective
 npc
 vox_alex_callout_taunt
-hash_4fe022c23ae71927
+en\vox\scripted\wz\alex\vox_alex_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -992,7 +992,7 @@ explicit
 perspective
 player
 vox_alex_callout_taunt
-hash_4c41a2b028556964
+en\vox\scripted\wz\alex\vox_alex_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -1001,7 +1001,7 @@ safe
 perspective
 npc
 vox_alex_callout_taunt
-hash_4c41a2b028556964
+en\vox\scripted\wz\alex\vox_alex_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -5601,7 +5601,7 @@ explicit
 perspective
 player
 vox_batt_0_banter_batt_engi_1
-hash_58ea593d0aadef3a
+en\vox\scripted\wz\batt\vox_batt_0_banter_batt_engi_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -5610,7 +5610,7 @@ safe
 perspective
 npc
 vox_batt_0_banter_batt_engi_1
-hash_58ea593d0aadef3a
+en\vox\scripted\wz\batt\vox_batt_0_banter_batt_engi_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -5927,7 +5927,7 @@ explicit
 perspective
 player
 vox_batt_1_banter_batt_reap_0
-hash_3f20f04c26bc5086
+en\vox\scripted\wz\batt\vox_batt_1_banter_batt_reap_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -5936,7 +5936,7 @@ safe
 perspective
 npc
 vox_batt_1_banter_batt_reap_0
-hash_3f20f04c26bc5086
+en\vox\scripted\wz\batt\vox_batt_1_banter_batt_reap_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6032,7 +6032,7 @@ explicit
 perspective
 player
 vox_batt_1_banter_batt_swat_1
-hash_3c7890a2c829b377
+en\vox\scripted\wz\batt\vox_batt_1_banter_batt_swat_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6041,7 +6041,7 @@ safe
 perspective
 npc
 vox_batt_1_banter_batt_swat_1
-hash_3c7890a2c829b377
+en\vox\scripted\wz\batt\vox_batt_1_banter_batt_swat_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6256,7 +6256,7 @@ explicit
 perspective
 player
 vox_batt_2_banter_batt_spec_1
-hash_a6b817ffd00c58c
+en\vox\scripted\wz\batt\vox_batt_2_banter_batt_spec_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6265,7 +6265,7 @@ safe
 perspective
 npc
 vox_batt_2_banter_batt_spec_1
-hash_a6b817ffd00c58c
+en\vox\scripted\wz\batt\vox_batt_2_banter_batt_spec_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6497,7 +6497,7 @@ explicit
 perspective
 player
 vox_batt_3_banter_batt_spec_1
-hash_4e17ee8d64a897f9
+en\vox\scripted\wz\batt\vox_batt_3_banter_batt_spec_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6506,7 +6506,7 @@ safe
 perspective
 npc
 vox_batt_3_banter_batt_spec_1
-hash_4e17ee8d64a897f9
+en\vox\scripted\wz\batt\vox_batt_3_banter_batt_spec_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6600,7 +6600,7 @@ explicit
 perspective
 player
 vox_batt_boost_loss
-hash_1c8959d4eca72b85
+en\vox\scripted\wz\batt\vox_batt_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6609,7 +6609,7 @@ safe
 perspective
 npc
 vox_batt_boost_loss
-hash_1c8959d4eca72b85
+en\vox\scripted\wz\batt\vox_batt_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6636,7 +6636,7 @@ explicit
 perspective
 player
 vox_batt_boost_loss
-hash_6ed27ec3f631a328
+en\vox\scripted\wz\batt\vox_batt_boost_loss_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -6645,7 +6645,7 @@ safe
 perspective
 npc
 vox_batt_boost_loss
-hash_6ed27ec3f631a328
+en\vox\scripted\wz\batt\vox_batt_boost_loss_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -20140,7 +20140,7 @@ explicit
 perspective
 player
 vox_bof2_callout_taunt
-hash_267ae08e334e5f56
+en\vox\scripted\wz\bof2\vox_bof2_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -20149,7 +20149,7 @@ safe
 perspective
 npc
 vox_bof2_callout_taunt
-hash_267ae08e334e5f56
+en\vox\scripted\wz\bof2\vox_bof2_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -25740,7 +25740,7 @@ explicit
 perspective
 player
 vox_bof3_callout_taunt
-hash_250522eb0700a06a
+en\vox\scripted\wz\bof3\vox_bof3_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -25749,7 +25749,7 @@ safe
 perspective
 npc
 vox_bof3_callout_taunt
-hash_250522eb0700a06a
+en\vox\scripted\wz\bof3\vox_bof3_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -30934,7 +30934,7 @@ explicit
 perspective
 player
 vox_bof4_callout_taunt
-hash_66019e071532fbee
+en\vox\scripted\wz\bof4\vox_bof4_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -30943,7 +30943,7 @@ safe
 perspective
 npc
 vox_bof4_callout_taunt
-hash_66019e071532fbee
+en\vox\scripted\wz\bof4\vox_bof4_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -35099,7 +35099,7 @@ explicit
 perspective
 player
 vox_bof4_menu_select
-hash_16c1d86c01ea7e5e
+en\vox\scripted\wz\bof4\vox_bof4_menu_select_04_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -40540,7 +40540,7 @@ explicit
 perspective
 player
 vox_bom2_callout_taunt
-hash_145c67bd336d24c0
+en\vox\scripted\wz\bom2\vox_bom2_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -40549,7 +40549,7 @@ safe
 perspective
 npc
 vox_bom2_callout_taunt
-hash_145c67bd336d24c0
+en\vox\scripted\wz\bom2\vox_bom2_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -44634,7 +44634,7 @@ explicit
 perspective
 player
 vox_bom3_callout_taunt
-hash_2236c7db75db5cb0
+en\vox\scripted\wz\bom3\vox_bom3_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -44643,7 +44643,7 @@ safe
 perspective
 npc
 vox_bom3_callout_taunt
-hash_2236c7db75db5cb0
+en\vox\scripted\wz\bom3\vox_bom3_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -50130,7 +50130,7 @@ explicit
 perspective
 player
 vox_bom4_callout_taunt
-hash_8af85cf62086e00
+en\vox\scripted\wz\bom4\vox_bom4_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -50139,7 +50139,7 @@ safe
 perspective
 npc
 vox_bom4_callout_taunt
-hash_8af85cf62086e00
+en\vox\scripted\wz\bom4\vox_bom4_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -53419,7 +53419,7 @@ explicit
 perspective
 player
 vox_bom4_menu_select
-hash_46036c90544ac244
+en\vox\scripted\wz\bom4\vox_bom4_menu_select_04_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -58536,7 +58536,7 @@ explicit
 perspective
 player
 vox_bop2_callout_taunt
-hash_5bde4e074756392a
+en\vox\scripted\wz\bop2\vox_bop2_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -58545,7 +58545,7 @@ safe
 perspective
 npc
 vox_bop2_callout_taunt
-hash_5bde4e074756392a
+en\vox\scripted\wz\bop2\vox_bop2_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -62760,7 +62760,7 @@ explicit
 perspective
 player
 vox_bop3_callout_taunt
-hash_4af3bdf4c9eafa66
+en\vox\scripted\wz\bop3\vox_bop3_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -62769,7 +62769,7 @@ safe
 perspective
 npc
 vox_bop3_callout_taunt
-hash_4af3bdf4c9eafa66
+en\vox\scripted\wz\bop3\vox_bop3_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -67740,7 +67740,7 @@ explicit
 perspective
 player
 vox_bop4_callout_taunt
-hash_3f9b393645a68c8a
+en\vox\scripted\wz\bop4\vox_bop4_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -67749,7 +67749,7 @@ safe
 perspective
 npc
 vox_bop4_callout_taunt
-hash_3f9b393645a68c8a
+en\vox\scripted\wz\bop4\vox_bop4_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -72131,7 +72131,7 @@ explicit
 perspective
 player
 vox_bop4_menu_select
-hash_50b39a8f75286bba
+en\vox\scripted\wz\bop4\vox_bop4_menu_select_04_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -80418,7 +80418,7 @@ explicit
 perspective
 player
 vox_cpri_boost_loss
-hash_5f6489e166cfc2b7
+en\vox\scripted\wz\cpri\vox_cpri_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -80427,7 +80427,7 @@ safe
 perspective
 npc
 vox_cpri_boost_loss
-hash_5f6489e166cfc2b7
+en\vox\scripted\wz\cpri\vox_cpri_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -92465,7 +92465,7 @@ explicit
 perspective
 player
 vox_ctre_boost_loss
-hash_235835355fd77f27
+en\vox\scripted\wz\ctre\vox_ctre_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -92474,7 +92474,7 @@ safe
 perspective
 npc
 vox_ctre_boost_loss
-hash_235835355fd77f27
+en\vox\scripted\wz\ctre\vox_ctre_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -92501,7 +92501,7 @@ explicit
 perspective
 player
 vox_ctre_boost_loss
-hash_3561d80b94496ee2
+en\vox\scripted\wz\ctre\vox_ctre_boost_loss_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -92510,7 +92510,7 @@ safe
 perspective
 npc
 vox_ctre_boost_loss
-hash_3561d80b94496ee2
+en\vox\scripted\wz\ctre\vox_ctre_boost_loss_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -92788,7 +92788,7 @@ explicit
 perspective
 player
 vox_ctre_callout_item_found
-hash_3b2dd6d17d371136
+en\vox\scripted\wz\ctre\vox_ctre_callout_item_found_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -92797,7 +92797,7 @@ safe
 perspective
 npc
 vox_ctre_callout_item_found
-hash_3b2dd6d17d371136
+en\vox\scripted\wz\ctre\vox_ctre_callout_item_found_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -92890,7 +92890,7 @@ explicit
 perspective
 player
 vox_ctre_callout_taunt
-hash_4e63ca5549efbe55
+en\vox\scripted\wz\ctre\vox_ctre_callout_taunt_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -92899,7 +92899,7 @@ safe
 perspective
 npc
 vox_ctre_callout_taunt
-hash_4e63ca5549efbe55
+en\vox\scripted\wz\ctre\vox_ctre_callout_taunt_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -96577,7 +96577,7 @@ explicit
 perspective
 player
 vox_ctre_menu_select
-hash_3b9285e5e7797238
+en\vox\scripted\wz\ctre\vox_ctre_menu_select_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -97032,7 +97032,7 @@ explicit
 perspective
 player
 vox_dmas_callout_taunt
-hash_12e696c6e3952ca9
+en\vox\scripted\wz\dmas\vox_dmas_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -97041,7 +97041,7 @@ safe
 perspective
 npc
 vox_dmas_callout_taunt
-hash_12e696c6e3952ca9
+en\vox\scripted\wz\dmas\vox_dmas_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -97100,7 +97100,7 @@ explicit
 perspective
 player
 vox_dmas_callout_taunt
-hash_92294694d4370da
+en\vox\scripted\wz\dmas\vox_dmas_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -97109,7 +97109,7 @@ safe
 perspective
 npc
 vox_dmas_callout_taunt
-hash_92294694d4370da
+en\vox\scripted\wz\dmas\vox_dmas_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -97379,7 +97379,7 @@ explicit
 perspective
 player
 vox_engi_0_banter_engi_ruin_0
-hash_148fb870e6698d87
+en\vox\scripted\wz\engi\vox_engi_0_banter_engi_ruin_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -97388,7 +97388,7 @@ safe
 perspective
 npc
 vox_engi_0_banter_engi_ruin_0
-hash_148fb870e6698d87
+en\vox\scripted\wz\engi\vox_engi_0_banter_engi_ruin_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -97943,7 +97943,7 @@ explicit
 perspective
 player
 vox_engi_3_banter_batt_engi_1
-hash_49541d5b75f29a95
+en\vox\scripted\wz\engi\vox_engi_3_banter_batt_engi_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -97952,7 +97952,7 @@ safe
 perspective
 npc
 vox_engi_3_banter_batt_engi_1
-hash_49541d5b75f29a95
+en\vox\scripted\wz\engi\vox_engi_3_banter_batt_engi_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -106734,7 +106734,7 @@ explicit
 perspective
 player
 vox_fire_3_banter_fire_sera_1
-hash_520db30ab6f4c9f2
+en\vox\scripted\wz\fire\vox_fire_3_banter_fire_sera_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -106743,7 +106743,7 @@ safe
 perspective
 npc
 vox_fire_3_banter_fire_sera_1
-hash_520db30ab6f4c9f2
+en\vox\scripted\wz\fire\vox_fire_3_banter_fire_sera_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -106854,7 +106854,7 @@ explicit
 perspective
 player
 vox_fire_boost_loss
-hash_635256ab938ffdbb
+en\vox\scripted\wz\fire\vox_fire_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -106863,7 +106863,7 @@ safe
 perspective
 npc
 vox_fire_boost_loss
-hash_635256ab938ffdbb
+en\vox\scripted\wz\fire\vox_fire_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -113579,7 +113579,7 @@ explicit
 perspective
 player
 vox_huds_boost_loss
-hash_6328254473ff3b31
+en\vox\scripted\wz\huds\vox_huds_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -113588,7 +113588,7 @@ safe
 perspective
 npc
 vox_huds_boost_loss
-hash_6328254473ff3b31
+en\vox\scripted\wz\huds\vox_huds_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -122454,7 +122454,7 @@ explicit
 perspective
 player
 vox_matt_boost_loss
-hash_ad91be83b9c6a3f
+en\vox\scripted\wz\matt\vox_matt_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -122463,7 +122463,7 @@ safe
 perspective
 npc
 vox_matt_boost_loss
-hash_ad91be83b9c6a3f
+en\vox\scripted\wz\matt\vox_matt_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -122555,7 +122555,7 @@ explicit
 perspective
 player
 vox_matt_boost_win
-hash_2efa2129ad2dd2fd
+en\vox\scripted\wz\matt\vox_matt_boost_win_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -122564,7 +122564,7 @@ safe
 perspective
 npc
 vox_matt_boost_win
-hash_2efa2129ad2dd2fd
+en\vox\scripted\wz\matt\vox_matt_boost_win_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -122591,7 +122591,7 @@ explicit
 perspective
 player
 vox_matt_boost_win
-hash_7fd0dca3aa8b972
+en\vox\scripted\wz\matt\vox_matt_boost_win_04_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -122600,7 +122600,7 @@ safe
 perspective
 npc
 vox_matt_boost_win
-hash_7fd0dca3aa8b972
+en\vox\scripted\wz\matt\vox_matt_boost_win_04_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -122725,7 +122725,7 @@ explicit
 perspective
 player
 vox_matt_callout_assist
-hash_4004ca3b46c1d268
+en\vox\scripted\wz\matt\vox_matt_callout_assist_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -122734,7 +122734,7 @@ safe
 perspective
 npc
 vox_matt_callout_assist
-hash_4004ca3b46c1d268
+en\vox\scripted\wz\matt\vox_matt_callout_assist_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -123224,7 +123224,7 @@ explicit
 perspective
 player
 vox_matt_menu_select
-hash_270a0c42fbf0db6e
+en\vox\scripted\wz\matt\vox_matt_menu_select_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -129920,7 +129920,7 @@ explicit
 perspective
 player
 vox_mist_1_banter_mist_tedd_1
-hash_7469c37719a747d3
+en\vox\scripted\wz\mist\vox_mist_1_banter_mist_tedd_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -129929,7 +129929,7 @@ safe
 perspective
 npc
 vox_mist_1_banter_mist_tedd_1
-hash_7469c37719a747d3
+en\vox\scripted\wz\mist\vox_mist_1_banter_mist_tedd_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134177,7 +134177,7 @@ explicit
 perspective
 player
 vox_mist_menu_select
-hash_43bff28501f8361d
+en\vox\scripted\wz\mist\vox_mist_menu_select_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134288,7 +134288,7 @@ explicit
 perspective
 player
 vox_noma_0_banter_fire_noma_1
-hash_2b5b98af0b2cb23b
+en\vox\scripted\wz\noma\vox_noma_0_banter_fire_noma_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134297,7 +134297,7 @@ safe
 perspective
 npc
 vox_noma_0_banter_fire_noma_1
-hash_2b5b98af0b2cb23b
+en\vox\scripted\wz\noma\vox_noma_0_banter_fire_noma_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134427,7 +134427,7 @@ explicit
 perspective
 player
 vox_noma_0_banter_noma_spec_0
-hash_6bac296d68d31bf4
+en\vox\scripted\wz\noma\vox_noma_0_banter_noma_spec_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134436,7 +134436,7 @@ safe
 perspective
 npc
 vox_noma_0_banter_noma_spec_0
-hash_6bac296d68d31bf4
+en\vox\scripted\wz\noma\vox_noma_0_banter_noma_spec_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134583,7 +134583,7 @@ explicit
 perspective
 player
 vox_noma_1_banter_noma_prop_0
-hash_6a4e821aa872c557
+en\vox\scripted\wz\noma\vox_noma_1_banter_noma_prop_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134592,7 +134592,7 @@ safe
 perspective
 npc
 vox_noma_1_banter_noma_prop_0
-hash_6a4e821aa872c557
+en\vox\scripted\wz\noma\vox_noma_1_banter_noma_prop_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134841,7 +134841,7 @@ explicit
 perspective
 player
 vox_noma_2_banter_noma_reap_1
-hash_15a45e7a1572b6ff
+en\vox\scripted\wz\noma\vox_noma_2_banter_noma_reap_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -134850,7 +134850,7 @@ safe
 perspective
 npc
 vox_noma_2_banter_noma_reap_1
-hash_15a45e7a1572b6ff
+en\vox\scripted\wz\noma\vox_noma_2_banter_noma_reap_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -135578,7 +135578,7 @@ explicit
 perspective
 player
 vox_noma_callout_taunt
-hash_4b1166e65d0c561c
+en\vox\scripted\wz\noma\vox_noma_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -135587,7 +135587,7 @@ safe
 perspective
 npc
 vox_noma_callout_taunt
-hash_4b1166e65d0c561c
+en\vox\scripted\wz\noma\vox_noma_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -135614,7 +135614,7 @@ explicit
 perspective
 player
 vox_noma_callout_taunt
-hash_a7c49711d620b7f
+en\vox\scripted\wz\noma\vox_noma_callout_taunt_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -135623,7 +135623,7 @@ safe
 perspective
 npc
 vox_noma_callout_taunt
-hash_a7c49711d620b7f
+en\vox\scripted\wz\noma\vox_noma_callout_taunt_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142174,7 +142174,7 @@ explicit
 perspective
 player
 vox_outr_2_banter_outr_prop_1
-hash_71ea5f4a49737455
+en\vox\scripted\wz\outr\vox_outr_2_banter_outr_prop_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142183,7 +142183,7 @@ safe
 perspective
 npc
 vox_outr_2_banter_outr_prop_1
-hash_71ea5f4a49737455
+en\vox\scripted\wz\outr\vox_outr_2_banter_outr_prop_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142245,7 +142245,7 @@ explicit
 perspective
 player
 vox_outr_2_banter_outr_ruin_1
-hash_b14c155d1c7f7e6
+en\vox\scripted\wz\outr\vox_outr_2_banter_outr_ruin_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142254,7 +142254,7 @@ safe
 perspective
 npc
 vox_outr_2_banter_outr_ruin_1
-hash_b14c155d1c7f7e6
+en\vox\scripted\wz\outr\vox_outr_2_banter_outr_ruin_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142401,7 +142401,7 @@ explicit
 perspective
 player
 vox_outr_3_banter_fire_outr_0
-hash_2ad75928d23a11a3
+en\vox\scripted\wz\outr\vox_outr_3_banter_fire_outr_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142410,7 +142410,7 @@ safe
 perspective
 npc
 vox_outr_3_banter_fire_outr_0
-hash_2ad75928d23a11a3
+en\vox\scripted\wz\outr\vox_outr_3_banter_fire_outr_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142472,7 +142472,7 @@ explicit
 perspective
 player
 vox_outr_3_banter_outr_reap_1
-hash_11852bfb4ddbbd71
+en\vox\scripted\wz\outr\vox_outr_3_banter_outr_reap_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142481,7 +142481,7 @@ safe
 perspective
 npc
 vox_outr_3_banter_outr_reap_1
-hash_11852bfb4ddbbd71
+en\vox\scripted\wz\outr\vox_outr_3_banter_outr_reap_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142594,7 +142594,7 @@ explicit
 perspective
 player
 vox_outr_3_banter_outr_zero_1
-hash_67f73375c08ce263
+en\vox\scripted\wz\outr\vox_outr_3_banter_outr_zero_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142603,7 +142603,7 @@ safe
 perspective
 npc
 vox_outr_3_banter_outr_zero_1
-hash_67f73375c08ce263
+en\vox\scripted\wz\outr\vox_outr_3_banter_outr_zero_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142631,7 +142631,7 @@ explicit
 perspective
 player
 vox_outr_boost_loss
-hash_d44830b74933f99
+en\vox\scripted\wz\outr\vox_outr_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142640,7 +142640,7 @@ safe
 perspective
 npc
 vox_outr_boost_loss
-hash_d44830b74933f99
+en\vox\scripted\wz\outr\vox_outr_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142667,7 +142667,7 @@ explicit
 perspective
 player
 vox_outr_boost_loss
-hash_3e61c81726fe220c
+en\vox\scripted\wz\outr\vox_outr_boost_loss_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -142676,7 +142676,7 @@ safe
 perspective
 npc
 vox_outr_boost_loss
-hash_3e61c81726fe220c
+en\vox\scripted\wz\outr\vox_outr_boost_loss_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -143048,7 +143048,7 @@ explicit
 perspective
 player
 vox_outr_callout_taunt
-hash_6b1fe0cab386f10e
+en\vox\scripted\wz\outr\vox_outr_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -143057,7 +143057,7 @@ safe
 perspective
 npc
 vox_outr_callout_taunt
-hash_6b1fe0cab386f10e
+en\vox\scripted\wz\outr\vox_outr_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -147931,7 +147931,7 @@ explicit
 perspective
 player
 vox_pdem_boost_loss
-hash_641056ac3e23566c
+en\vox\scripted\wz\pdem\vox_pdem_boost_loss_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -147940,7 +147940,7 @@ safe
 perspective
 npc
 vox_pdem_boost_loss
-hash_641056ac3e23566c
+en\vox\scripted\wz\pdem\vox_pdem_boost_loss_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -148385,7 +148385,7 @@ explicit
 perspective
 player
 vox_pdem_menu_select
-hash_66aab9ef8d037880
+en\vox\scripted\wz\pdem\vox_pdem_menu_select_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -149087,7 +149087,7 @@ explicit
 perspective
 player
 vox_plr_1_callout_taunt
-hash_15aa13111ef860ce
+en\vox\scripted\wz\plr_1\vox_plr_1_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -149096,7 +149096,7 @@ safe
 perspective
 npc
 vox_plr_1_callout_taunt
-hash_15aa13111ef860ce
+en\vox\scripted\wz\plr_1\vox_plr_1_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -149123,7 +149123,7 @@ explicit
 perspective
 player
 vox_plr_1_callout_taunt
-hash_6146cd207dca7ccd
+en\vox\scripted\wz\plr_1\vox_plr_1_callout_taunt_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -149132,7 +149132,7 @@ safe
 perspective
 npc
 vox_plr_1_callout_taunt
-hash_6146cd207dca7ccd
+en\vox\scripted\wz\plr_1\vox_plr_1_callout_taunt_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -164545,7 +164545,7 @@ explicit
 perspective
 player
 vox_plr_4_boost_loss
-hash_ddbf1d22b66c7d2
+en\vox\scripted\wz\plr_4\vox_plr_4_boost_loss_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -164554,7 +164554,7 @@ safe
 perspective
 npc
 vox_plr_4_boost_loss
-hash_ddbf1d22b66c7d2
+en\vox\scripted\wz\plr_4\vox_plr_4_boost_loss_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -164926,7 +164926,7 @@ explicit
 perspective
 player
 vox_plr_4_callout_taunt
-hash_73dd853117b6f568
+en\vox\scripted\wz\plr_4\vox_plr_4_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -164935,7 +164935,7 @@ safe
 perspective
 npc
 vox_plr_4_callout_taunt
-hash_73dd853117b6f568
+en\vox\scripted\wz\plr_4\vox_plr_4_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -192383,7 +192383,7 @@ explicit
 perspective
 player
 vox_pnik_callout_taunt
-hash_236874282c510608
+en\vox\scripted\wz\pnik\vox_pnik_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -192392,7 +192392,7 @@ safe
 perspective
 npc
 vox_pnik_callout_taunt
-hash_236874282c510608
+en\vox\scripted\wz\pnik\vox_pnik_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -216456,7 +216456,7 @@ explicit
 perspective
 player
 vox_rezn_callout_taunt
-hash_ae8bf825867eab6
+en\vox\scripted\wz\rezn\vox_rezn_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -216465,7 +216465,7 @@ safe
 perspective
 npc
 vox_rezn_callout_taunt
-hash_ae8bf825867eab6
+en\vox\scripted\wz\rezn\vox_rezn_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -222654,7 +222654,7 @@ explicit
 perspective
 player
 vox_ruin_0_banter_prop_ruin_1
-hash_1facdefecae7a625
+en\vox\scripted\wz\ruin\vox_ruin_0_banter_prop_ruin_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -222663,7 +222663,7 @@ safe
 perspective
 npc
 vox_ruin_0_banter_prop_ruin_1
-hash_1facdefecae7a625
+en\vox\scripted\wz\ruin\vox_ruin_0_banter_prop_ruin_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -222742,7 +222742,7 @@ explicit
 perspective
 player
 vox_ruin_0_banter_ruin_spec_0
-hash_614cfb75bf4d03cb
+en\vox\scripted\wz\ruin\vox_ruin_0_banter_ruin_spec_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -222751,7 +222751,7 @@ safe
 perspective
 npc
 vox_ruin_0_banter_ruin_spec_0
-hash_614cfb75bf4d03cb
+en\vox\scripted\wz\ruin\vox_ruin_0_banter_ruin_spec_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -222830,7 +222830,7 @@ explicit
 perspective
 player
 vox_ruin_1_banter_cras_ruin_1
-hash_9d48f980aa66cac
+en\vox\scripted\wz\ruin\vox_ruin_1_banter_cras_ruin_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -222839,7 +222839,7 @@ safe
 perspective
 npc
 vox_ruin_1_banter_cras_ruin_1
-hash_9d48f980aa66cac
+en\vox\scripted\wz\ruin\vox_ruin_1_banter_cras_ruin_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -223020,7 +223020,7 @@ explicit
 perspective
 player
 vox_ruin_1_banter_ruin_swat_1
-hash_51fcffe76ceff5fc
+en\vox\scripted\wz\ruin\vox_ruin_1_banter_ruin_swat_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -223029,7 +223029,7 @@ safe
 perspective
 npc
 vox_ruin_1_banter_ruin_swat_1
-hash_51fcffe76ceff5fc
+en\vox\scripted\wz\ruin\vox_ruin_1_banter_ruin_swat_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -223465,7 +223465,7 @@ explicit
 perspective
 player
 vox_ruin_3_banter_ruin_spec_1
-hash_34f1a32e30a1dc96
+en\vox\scripted\wz\ruin\vox_ruin_3_banter_ruin_spec_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -223474,7 +223474,7 @@ safe
 perspective
 npc
 vox_ruin_3_banter_ruin_spec_1
-hash_34f1a32e30a1dc96
+en\vox\scripted\wz\ruin\vox_ruin_3_banter_ruin_spec_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -223536,7 +223536,7 @@ explicit
 perspective
 player
 vox_ruin_boost_loss
-hash_68a019197517b251
+en\vox\scripted\wz\ruin\vox_ruin_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -223545,7 +223545,7 @@ safe
 perspective
 npc
 vox_ruin_boost_loss
-hash_68a019197517b251
+en\vox\scripted\wz\ruin\vox_ruin_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -223637,7 +223637,7 @@ explicit
 perspective
 player
 vox_ruin_boost_win
-hash_4d6454d50d7fca1b
+en\vox\scripted\wz\ruin\vox_ruin_boost_win_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -223646,7 +223646,7 @@ safe
 perspective
 npc
 vox_ruin_boost_win
-hash_4d6454d50d7fca1b
+en\vox\scripted\wz\ruin\vox_ruin_boost_win_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -230082,7 +230082,7 @@ explicit
 perspective
 player
 vox_ruin_menu_select
-hash_1d645a4692ef9998
+en\vox\scripted\wz\ruin\vox_ruin_menu_select_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -230108,7 +230108,7 @@ explicit
 perspective
 player
 vox_ruin_menu_select
-hash_76ea3f30cfe7f976
+en\vox\scripted\wz\ruin\vox_ruin_menu_select_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -230543,7 +230543,7 @@ explicit
 perspective
 player
 vox_russ_boost_loss
-hash_426e811bba9eb0f8
+en\vox\scripted\wz\russ\vox_russ_boost_loss_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -230552,7 +230552,7 @@ safe
 perspective
 npc
 vox_russ_boost_loss
-hash_426e811bba9eb0f8
+en\vox\scripted\wz\russ\vox_russ_boost_loss_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -230793,7 +230793,7 @@ explicit
 perspective
 player
 vox_russ_callout_greet
-hash_84fdb088d5a84e5
+en\vox\scripted\wz\russ\vox_russ_callout_greet_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -230802,7 +230802,7 @@ safe
 perspective
 npc
 vox_russ_callout_greet
-hash_84fdb088d5a84e5
+en\vox\scripted\wz\russ\vox_russ_callout_greet_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -230896,7 +230896,7 @@ explicit
 perspective
 player
 vox_russ_callout_taunt
-hash_30ac220a0640d891
+en\vox\scripted\wz\russ\vox_russ_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -230905,7 +230905,7 @@ safe
 perspective
 npc
 vox_russ_callout_taunt
-hash_30ac220a0640d891
+en\vox\scripted\wz\russ\vox_russ_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -254585,7 +254585,7 @@ explicit
 perspective
 player
 vox_stuh_1_banter_mist_stuh_0
-hash_545117ee61defcda
+en\vox\scripted\wz\stuh\vox_stuh_1_banter_mist_stuh_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -254594,7 +254594,7 @@ safe
 perspective
 npc
 vox_stuh_1_banter_mist_stuh_0
-hash_545117ee61defcda
+en\vox\scripted\wz\stuh\vox_stuh_1_banter_mist_stuh_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -254622,7 +254622,7 @@ explicit
 perspective
 player
 vox_stuh_1_banter_russ_stuh_0
-hash_3dffac1b33fe4530
+en\vox\scripted\wz\stuh\vox_stuh_1_banter_russ_stuh_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -254631,7 +254631,7 @@ safe
 perspective
 npc
 vox_stuh_1_banter_russ_stuh_0
-hash_3dffac1b33fe4530
+en\vox\scripted\wz\stuh\vox_stuh_1_banter_russ_stuh_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -254727,7 +254727,7 @@ explicit
 perspective
 player
 vox_stuh_2_banter_stuh_tedd_1
-hash_50c15342a8d81387
+en\vox\scripted\wz\stuh\vox_stuh_2_banter_stuh_tedd_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -254736,7 +254736,7 @@ safe
 perspective
 npc
 vox_stuh_2_banter_stuh_tedd_1
-hash_50c15342a8d81387
+en\vox\scripted\wz\stuh\vox_stuh_2_banter_stuh_tedd_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -255110,7 +255110,7 @@ explicit
 perspective
 player
 vox_stuh_callout_greet
-hash_757e0e8764a3ee7b
+en\vox\scripted\wz\stuh\vox_stuh_callout_greet_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -255119,7 +255119,7 @@ safe
 perspective
 npc
 vox_stuh_callout_greet
-hash_757e0e8764a3ee7b
+en\vox\scripted\wz\stuh\vox_stuh_callout_greet_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -255180,7 +255180,7 @@ explicit
 perspective
 player
 vox_stuh_callout_revive
-hash_3005fad4752e20a6
+en\vox\scripted\wz\stuh\vox_stuh_callout_revive_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -255189,7 +255189,7 @@ safe
 perspective
 npc
 vox_stuh_callout_revive
-hash_3005fad4752e20a6
+en\vox\scripted\wz\stuh\vox_stuh_callout_revive_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -255281,7 +255281,7 @@ explicit
 perspective
 player
 vox_stuh_callout_taunt
-hash_21f9e28f10f7d858
+en\vox\scripted\wz\stuh\vox_stuh_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -255290,7 +255290,7 @@ safe
 perspective
 npc
 vox_stuh_callout_taunt
-hash_21f9e28f10f7d858
+en\vox\scripted\wz\stuh\vox_stuh_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -260925,7 +260925,7 @@ explicit
 perspective
 player
 vox_swat_3_banter_batt_swat_1
-hash_395bd8406e2b423d
+en\vox\scripted\wz\swat\vox_swat_3_banter_batt_swat_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -260934,7 +260934,7 @@ safe
 perspective
 npc
 vox_swat_3_banter_batt_swat_1
-hash_395bd8406e2b423d
+en\vox\scripted\wz\swat\vox_swat_3_banter_batt_swat_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -261098,7 +261098,7 @@ explicit
 perspective
 player
 vox_swat_3_banter_ruin_swat_1
-hash_1a417e7eaef1c5bc
+en\vox\scripted\wz\swat\vox_swat_3_banter_ruin_swat_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -261107,7 +261107,7 @@ safe
 perspective
 npc
 vox_swat_3_banter_ruin_swat_1
-hash_1a417e7eaef1c5bc
+en\vox\scripted\wz\swat\vox_swat_3_banter_ruin_swat_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -261547,7 +261547,7 @@ explicit
 perspective
 player
 vox_swat_callout_taunt
-hash_6c9a634f80486d79
+en\vox\scripted\wz\swat\vox_swat_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -261556,7 +261556,7 @@ safe
 perspective
 npc
 vox_swat_callout_taunt
-hash_6c9a634f80486d79
+en\vox\scripted\wz\swat\vox_swat_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -261599,7 +261599,7 @@ explicit
 perspective
 player
 vox_swat_callout_taunt
-hash_48c60dafdb2c13cf
+en\vox\scripted\wz\swat\vox_swat_callout_taunt_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -261608,7 +261608,7 @@ safe
 perspective
 npc
 vox_swat_callout_taunt
-hash_48c60dafdb2c13cf
+en\vox\scripted\wz\swat\vox_swat_callout_taunt_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -272954,7 +272954,7 @@ explicit
 perspective
 player
 vox_udem_boost_loss
-hash_3c235665d394f39f
+en\vox\scripted\wz\udem\vox_udem_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -272963,7 +272963,7 @@ safe
 perspective
 npc
 vox_udem_boost_loss
-hash_3c235665d394f39f
+en\vox\scripted\wz\udem\vox_udem_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -273039,7 +273039,7 @@ explicit
 perspective
 player
 vox_udem_boost_win
-hash_5cd547d56fff3f59
+en\vox\scripted\wz\udem\vox_udem_boost_win_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -273048,7 +273048,7 @@ safe
 perspective
 npc
 vox_udem_boost_win
-hash_5cd547d56fff3f59
+en\vox\scripted\wz\udem\vox_udem_boost_win_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -273387,7 +273387,7 @@ explicit
 perspective
 player
 vox_udem_callout_taunt
-hash_7e46e2fdacc26afe
+en\vox\scripted\wz\udem\vox_udem_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -273396,7 +273396,7 @@ safe
 perspective
 npc
 vox_udem_callout_taunt
-hash_7e46e2fdacc26afe
+en\vox\scripted\wz\udem\vox_udem_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -273448,7 +273448,7 @@ explicit
 perspective
 player
 vox_udem_menu_select
-hash_35c2eab096dc2c62
+en\vox\scripted\wz\udem\vox_udem_menu_select_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -273914,7 +273914,7 @@ explicit
 perspective
 player
 vox_unik_boost_win
-hash_eebf74178eee99
+en\vox\scripted\wz\unik\vox_unik_boost_win_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -273923,7 +273923,7 @@ safe
 perspective
 npc
 vox_unik_boost_win
-hash_eebf74178eee99
+en\vox\scripted\wz\unik\vox_unik_boost_win_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -274714,7 +274714,7 @@ explicit
 perspective
 player
 vox_uric_boost_loss
-hash_13ebd34eacb0cc71
+en\vox\scripted\wz\uric\vox_uric_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -274723,7 +274723,7 @@ safe
 perspective
 npc
 vox_uric_boost_loss
-hash_13ebd34eacb0cc71
+en\vox\scripted\wz\uric\vox_uric_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -275595,7 +275595,7 @@ explicit
 perspective
 player
 vox_utak_boost_win
-hash_3b7b3cb2dc716dda
+en\vox\scripted\wz\utak\vox_utak_boost_win_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -275604,7 +275604,7 @@ safe
 perspective
 npc
 vox_utak_boost_win
-hash_3b7b3cb2dc716dda
+en\vox\scripted\wz\utak\vox_utak_boost_win_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -278958,7 +278958,7 @@ explicit
 perspective
 player
 vox_weav_boost_loss
-hash_188f476825d579b
+en\vox\scripted\wz\weav\vox_weav_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -278967,7 +278967,7 @@ safe
 perspective
 npc
 vox_weav_boost_loss
-hash_188f476825d579b
+en\vox\scripted\wz\weav\vox_weav_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -279339,7 +279339,7 @@ explicit
 perspective
 player
 vox_weav_callout_taunt
-hash_2da115370789bd31
+en\vox\scripted\wz\weav\vox_weav_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -279348,7 +279348,7 @@ safe
 perspective
 npc
 vox_weav_callout_taunt
-hash_2da115370789bd31
+en\vox\scripted\wz\weav\vox_weav_callout_taunt_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -279407,7 +279407,7 @@ explicit
 perspective
 player
 vox_weav_callout_taunt
-hash_472951adab1d7d22
+en\vox\scripted\wz\weav\vox_weav_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -279416,7 +279416,7 @@ safe
 perspective
 npc
 vox_weav_callout_taunt
-hash_472951adab1d7d22
+en\vox\scripted\wz\weav\vox_weav_callout_taunt_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -283801,7 +283801,7 @@ explicit
 perspective
 player
 vox_wood_boost_loss
-hash_caffdc00bfa80f
+en\vox\scripted\wz\wood\vox_wood_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -283810,7 +283810,7 @@ safe
 perspective
 npc
 vox_wood_boost_loss
-hash_caffdc00bfa80f
+en\vox\scripted\wz\wood\vox_wood_boost_loss_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -283853,7 +283853,7 @@ explicit
 perspective
 player
 vox_wood_boost_loss
-hash_58181e2e410e26b9
+en\vox\scripted\wz\wood\vox_wood_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -283862,7 +283862,7 @@ safe
 perspective
 npc
 vox_wood_boost_loss
-hash_58181e2e410e26b9
+en\vox\scripted\wz\wood\vox_wood_boost_loss_02_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -283954,7 +283954,7 @@ explicit
 perspective
 player
 vox_wood_boost_win
-hash_2b3be80f6f2189f
+en\vox\scripted\wz\wood\vox_wood_boost_win_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -283963,7 +283963,7 @@ safe
 perspective
 npc
 vox_wood_boost_win
-hash_2b3be80f6f2189f
+en\vox\scripted\wz\wood\vox_wood_boost_win_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -284238,7 +284238,7 @@ explicit
 perspective
 player
 vox_wood_callout_taunt
-hash_45e9fd57b1da5130
+en\vox\scripted\wz\wood\vox_wood_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -284247,7 +284247,7 @@ safe
 perspective
 npc
 vox_wood_callout_taunt
-hash_45e9fd57b1da5130
+en\vox\scripted\wz\wood\vox_wood_callout_taunt_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -284306,7 +284306,7 @@ explicit
 perspective
 player
 vox_wood_callout_taunt
-hash_57c992d69a997431
+en\vox\scripted\wz\wood\vox_wood_callout_taunt_04_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -284315,7 +284315,7 @@ safe
 perspective
 npc
 vox_wood_callout_taunt
-hash_57c992d69a997431
+en\vox\scripted\wz\wood\vox_wood_callout_taunt_04_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -288531,7 +288531,7 @@ explicit
 perspective
 player
 vox_wood_menu_select
-hash_5c8c186933374ad2
+en\vox\scripted\wz\wood\vox_wood_menu_select_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -288565,7 +288565,7 @@ explicit
 perspective
 player
 vox_wood_menu_select
-hash_22825771c952af61
+en\vox\scripted\wz\wood\vox_wood_menu_select_03_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -288583,7 +288583,7 @@ explicit
 perspective
 player
 vox_wood_menu_select
-hash_3d15f6345b5e259e
+en\vox\scripted\wz\wood\vox_wood_menu_select_04_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -293844,7 +293844,7 @@ explicit
 perspective
 player
 vox_zero_0_banter_sera_zero_1
-hash_24815229fb4a4189
+en\vox\scripted\wz\zero\vox_zero_0_banter_sera_zero_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -293853,7 +293853,7 @@ safe
 perspective
 npc
 vox_zero_0_banter_sera_zero_1
-hash_24815229fb4a4189
+en\vox\scripted\wz\zero\vox_zero_0_banter_sera_zero_1_01_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -294544,7 +294544,7 @@ explicit
 perspective
 player
 vox_zero_3_banter_ruin_zero_0
-hash_e2445031e356ab5
+en\vox\scripted\wz\zero\vox_zero_3_banter_ruin_zero_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en
@@ -294553,7 +294553,7 @@ safe
 perspective
 npc
 vox_zero_3_banter_ruin_zero_0
-hash_e2445031e356ab5
+en\vox\scripted\wz\zero\vox_zero_3_banter_ruin_zero_0_00_s.sn100.pc.snd
 wz_common.en
 wz_common.en
 wz_common.en

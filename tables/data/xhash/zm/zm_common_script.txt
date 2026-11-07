@@ -714,7 +714,7 @@ hash_2d6886135fa75f38
 zombie/perk_tortoise
 hash_2ec2d4c4b42ef0de
 hash_2f89c70e07ddab1c
-hash_2f9ad3c17cd7efd4
+zombie_weaponammoonly_250
 hash_2fa6c1fed65c1073
 zombie/perk_additionalprimaryweapon_keyboard
 hash_307615269eadecab
@@ -828,7 +828,7 @@ hash_51aafb1548ffec49
 hash_51b8af0794e70749
 hash_52426a433be4aa00
 hash_5253833fcb69e672
-hash_52d9f5f60cd6de90
+zombie_weaponcostammo_upgrade_500_250
 hash_52e05a9ea3e881ea
 hash_53005c8d5b45bca3
 zombie/perk_divetonuke
@@ -887,7 +887,7 @@ zombie/hero_weapon_hint
 hash_64e686d0e2a5bfcb
 zombie/grab_shield_free
 hash_65b0f7cbdf6d8d98
-hash_65fde4695784921b
+zombie_weapon_costonlyfill_500
 hash_666a7b4f930d5120
 zombie/perk_mystery
 zombie/repair_shield_sword_keyboard
@@ -926,7 +926,7 @@ zombie/need_power
 hash_7203281c0385cddd
 zombie/game_over
 hash_726a5f9b0d18c78b
-hash_7275e62964f4a8c6
+zombie_weapon_costonlyfill_2000
 zombie/perk_cooldown_free
 hash_745591cd196857a4
 hash_74b3d2b6f667dcda
@@ -972,7 +972,7 @@ zombie_callings_notification
 endround
 custom
 restart_level_zm
-hash_167fc7366e373151
+play_promo_anim
 allies
 back
 resume_end_game

@@ -5,7 +5,7 @@ xanim,#pt_health_regen_stand_wz_loop
 xanim,#vm_health_regen_ads_down
 xanim,#pt_medical_injection_stand_fire
 xanim,#pt_health_regen_stand_pullout
-xanim,d#hash_280ee6e892fc687f
+xanim,d#vm_medical_injection_gun_rh_additive
 xanim,#hash_432741f1b3e18ad9
 xanim,#vm_health_regen_hand_pose_l
 xanim,#vm_health_regen_hand_pose_r
@@ -191,7 +191,7 @@ fx,d#hash_2e88cac06f472104
 fx,d#hash_487a8526216908b9
 xanim,#hash_4db2c616be3d4814
 xanim,#vm_health_regen_pullout
-xanim,d#hash_7249236d1e5c2dfe
+xanim,d#vm_medical_injection_gun_rh
 xanim,#hash_771b04864306aef4
 xanim,#hash_784f1cd1831a0a64
 xmodel,#p8_brick_cocaine_lg_stack_01_white

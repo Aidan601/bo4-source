@@ -959,7 +959,7 @@ i_mtl_wpn_t8_camo_dyn_vanguard_samurai_01_c
 i_mtl_wpn_t8_camo_dyn_vanguard_samurai_01_s
 hash_2896c742378d87a8
 hash_a8dfe2addd2a6c57
-hash_28e8508a8b137347
+ui_menu_ftue_sunset_itemshop
 hash_a933f52a46cafa46
 hash_a9378944687d4012
 hash_a9379544687d5476
@@ -2913,7 +2913,7 @@ garion1122
 orbis
 zedilurk
 orbis
-hash_7b7d994aa850e149
+bhackbarth
 orbis
 hash_5237db96570c36a4
 orbis
@@ -44741,9 +44741,9 @@ camo_active_sig_sniper_fastrechamber_western_base_bribe_free
 popupdescoverride
 hash_44a39e95faef0a4c
 popupimage
-hash_5867d6ad0e7df1ab
+ui_icon_weapon_camo_active_sig_sniper_fastrechamber_western
 weapontileimage
-hash_5867d6ad0e7df1ab
+ui_icon_weapon_camo_active_sig_sniper_fastrechamber_western
 nametext
 hash_38698d6863661eb6
 categorytext
@@ -44912,9 +44912,9 @@ camo_active_sig_ar_modular_porcelain_base_bribe_free
 popupdescoverride
 hash_44a39e95faef0a4c
 popupimage
-hash_6e9c6886b08f7af9
+ui_icon_weapon_camo_active_sig_ar_modular_porcelain
 weapontileimage
-hash_6e9c6886b08f7af9
+ui_icon_weapon_camo_active_sig_ar_modular_porcelain
 nametext
 hash_2b27d20d2cfc1069
 categorytext

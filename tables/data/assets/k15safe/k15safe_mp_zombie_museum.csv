@@ -161,7 +161,7 @@ material,#mc/mtl_veh_t8_civ_suv_decal_blood_splatter_05
 material,#mc/mtl_veh_t8_civ_suv_decal_blood_splatter_06
 material,#mc/mtl_veh_t8_civ_suv_decal_blood_splatter_01
 material,#mc/mtl_veh_t8_civ_suv_decal_blood_splatter_02
-material,#hash_79621d0c84f8ed9
+material,#mc/mtl_veh_t8_civ_suv_blood_handprint_smear_01
 material,#mc/mtl_p7_zm_teddybear
 material,#wc/t7_zm_moo_terrain_sand_smooth_01_blood_blend
 material,#wc/t7_shr_decal_blood_spray_snow_02
@@ -183,7 +183,7 @@ material,#vd/t8_decal_blood_splatter_floor_01_dry
 material,#vd/t7_shr_decal_blood_spray_snow_02
 material,#hash_2069b3ffd9648aa5
 material,#wc/t8_decal_blood_puddle_floor_01_hard
-material,#hash_2c0f624a88c57730
+material,#mc/mtl_veh_t8_civ_suv_blood_streaks_light_01
 material,#hash_32303d9b7ae472fc
 material,#mc/mtl_veh_t8_civ_bus_small_museum_decal_blood_010
 material,#mc/mtl_veh_t8_civ_bus_small_museum_decal_blood_011
@@ -223,7 +223,7 @@ material,#wc/t7_decal_blood_smear_01
 material,#wc/t7_decal_blood_smear_02
 material,#vd/t7_decal_blood_smear_01
 material,#vd/t7_decal_blood_smear_02
-material,#hash_6c10eca798e42bfd
+material,#mc/mtl_veh_t8_civ_suv_blood_streaks_medium_01
 material,#wc/t8_decal_blood_splatter_floor_01_dry
 material,#wc/t7_decal_blood_droplets_02
 impactsoundstable,d#phy_gibs
@@ -238,7 +238,7 @@ xmodel,d#p7_gib_chunk_bone_03
 xmodel,d#p7_gib_chunk_meat_01
 xmodel,d#p7_gib_chunk_meat_02
 xmodel,d#p7_gib_chunk_meat_03
-material,#hash_4356d2058f2d863b
+material,#mc/mtl_p8_zmu_signage_wickedwaters_blood_splatter_01
 xmodel,d#c_t8_zmb_3rdclass_male_body3_s_lleg
 xmodel,d#c_t8_zmb_3rdclass_male_body3_s_rleg
 xmodel,d#c_t8_zmb_3rdclass_male_body3_s_larm

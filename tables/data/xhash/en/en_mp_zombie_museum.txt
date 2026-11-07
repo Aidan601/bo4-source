@@ -49,7 +49,7 @@ mp_zombie_museum.en
 mature
 explicit
 vox_muse_exhibit_moon_0
-hash_4dc9176b299423e5
+en\vox\scripted\museum\muse\vox_muse_exhibit_moon_0_00_s.sn100.pc.snd
 mp_zombie_museum.en
 mp_zombie_museum.en
 mp_zombie_museum.en
@@ -393,13 +393,13 @@ mp_zombie_museum.en
 mp_zombie_museum.en
 mature
 vox_tedd_arrive_not_found
-hash_eb83441654685fb
+vox_tedd_arrive_springs
 hash_4da0d2004fdfb808
 mp_zombie_museum.en
 mp_zombie_museum.en
 mp_zombie_museum.en
 mature
-hash_eb83441654685fb
+vox_tedd_arrive_springs
 vox_tedd_arrive_test
 en\vox\scripted\museum\tedd\vox_tedd_arrive_test_08.sn100.pc.snd
 mp_zombie_museum.en

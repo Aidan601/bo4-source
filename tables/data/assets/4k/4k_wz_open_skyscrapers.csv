@@ -6,7 +6,7 @@ image,d#ui_icon_attachment_dualoptic
 image,d#loot_02_ui_icon_blackmarket_stream_tr_midburst_sig_02
 image,d#ui_icon_attachment_hybrid_optic
 image,d#ui_icon_obit_tr_powersemi
-image,d#hash_fd01d7d15e802a
+image,d#ui_icon_weapon_camo_active_sig_sniper_powerbolt_viking
 image,d#ui_icon_equipment_sensordart_dark
 image,d#ui_icon_obit_ww_freezegun
 image,d#ui_icon_weapon_pickup_sniper_koshka_operator_wz
@@ -31,7 +31,7 @@ image,d#ui_icon_weapon_hud_smg_accurate
 image,d#ui_icon_weapon_hud_pistol_revolver
 image,d#ui_icon_obit_pistol_standard
 image,d#ui_icon_inventory_looter
-image,d#hash_7546155c51fc54a
+image,d#ui_icon_weapon_ww_ray_gun_wz_render
 image,d#ui_icon_obit_warmachine
 image,d#ui_icon_weapon_smg_standard_render
 image,d#ui_icon_weapon_ar_stealth_operator_render
@@ -95,7 +95,7 @@ image,d#ui_icon_obit_shotgun_prec
 image,d#ui_icon_weapons_zm_pistolburst
 image,d#ui_icon_weapon_ar_galil
 image,d#ui_icon_blackmarket_reserves_shotgun_fullauto_sig_02
-image,d#hash_11087857397c48eb
+image,d#ui_icon_obit_vehicleturret
 image,d#ui_icon_weapon_smg_fastfire_render
 image,d#ui_icon_obit_melee_cutlass
 image,d#ui_icon_ultimate_scythe_dark
@@ -205,7 +205,7 @@ image,d#ui_icon_obit_sniper_powerbolt
 image,d#ui_icon_weapon_lmg_standard_sig_01_render
 image,d#ui_icon_obit_launcher_standard
 image,d#ui_icon_weapons_zm_trmidburst
-image,d#hash_2c0bcb8f12647ad4
+image,d#hud_vehicleturret_reticle
 image,d#ui_icon_equipment_thermite
 image,d#ui_icon_weapon_hud_pistol_standard
 image,d#ui_icon_weapons_loot_ar_fastfire_sig_02
@@ -403,7 +403,7 @@ image,d#ui_icon_weapon_smg_standard_sig_02_render
 image,d#ui_icon_weapon_tr_midburst_tactical_render
 image,d#ui_icon_obit_blundergat
 image,d#ui_icon_equipment_sensordart
-image,d#hash_54945002aaa1ae28
+image,d#ui_icon_blackmarket_promos_melee_stopsign_stream
 image,d#loot_04_ui_icon_blackmarket_stream_lmg_stealth
 image,#ui_icon_inventory_hat_wool
 image,d#ui_icon_obit_wire
@@ -421,7 +421,7 @@ image,d#ui_icon_weapon_hud_lmg_titan_operator_wz
 image,d#ui_icon_weapon_ar_accurate_render
 image,d#loot06_ui_icon_blackmarket_stream_mk2_paladin
 image,d#ui_icon_weapons_zm_lmg_stealth
-image,d#hash_5867d6ad0e7df1ab
+image,d#ui_icon_weapon_camo_active_sig_sniper_fastrechamber_western
 image,d#ui_icon_equipment_tripwire_dark
 image,d#ui_icon_weapon_lmg_plr_mk2_render
 image,d#ui_icon_equipment_zm_homunculus
@@ -455,7 +455,7 @@ image,d#ui_icon_weapons_zm_pistolrevolver
 image,d#ui_icon_weapon_hud_sniper_fastrechamber_tactical_wz
 image,d#ui_icon_obit_lmg_stealth
 image,d#ui_icon_weapon_sniper_damagesemi_wz_render
-image,d#hash_5ef8b46b4c2c2f81
+image,d#ui_icon_weapon_camo_active_sig_smg_handling_hunter
 image,d#ui_icon_ultimate_warmachine_dark
 image,d#loot06_ui_icon_blackmarket_reserves_ar_standard_sig02
 image,d#ui_icon_weapons_zm_smgcapacity
@@ -482,7 +482,7 @@ image,d#ui_icon_weapon_camo_active_sig_lmg_spray_render
 image,d#ui_icon_blackmarket_reserves_pistol_auto_sig_02
 image,d#ui_icon_weapon_ww_blundergat_wz_render
 image,d#ui_icon_weapon_hud_pistol_fullauto
-image,d#hash_651a0c08929c60d8
+image,d#ui_icon_hud_equipment_hawk
 image,d#loot06_ui_icon_blackmarket_reserves_sniper_damagesemi
 image,d#ui_icon_weapon_lmg_spray_tactical_render
 image,d#loot05_ui_icon_blackmarket_reserves_shotgun_precision
@@ -532,11 +532,11 @@ image,d#ui_icon_scorestreaks_turret_mini_render
 image,d#ui_icon_weapon_pickup_lmg_spray_operator_wz
 image,d#loot05_ui_icon_blackmarket_reserves_sniper_mini14_mk2
 image,d#ui_icon_weapon_melee_slaybell_render
-image,d#hash_6e611a1ae7379b96
+image,d#ui_icon_blackmarket_reserves_pistol_revolver_mk2
 image,d#ui_icon_weapon_tr_longburst_render
 image,d#ui_icon_attachment_supressor
 image,d#loot03_ui_icon_blackmarket_reserves_weapon_smg_fastburst_mk2
-image,d#hash_6e9c6886b08f7af9
+image,d#ui_icon_weapon_camo_active_sig_ar_modular_porcelain
 image,d#loot_04_ui_icon_blackmarket_stream_mastercraft_hades
 image,d#ui_icon_attachment_float_dot
 image,d#ui_icon_scorestreaks_dart_dark
@@ -583,7 +583,7 @@ image,d#ui_icon_weapon_hud_ww_crossbow_wz
 image,d#ui_icon_weapons_zm_sniperpowersemi
 image,d#ui_icon_weapon_launcher_standard_operator_render
 image,d#loot_02_ui_icon_blackmarket_stream_smg_handling_sig_02
-image,d#hash_78a40b9153efd443
+image,d#ui_icon_weapon_hud_ww_ray_gun_wz
 image,d#loot04_ui_icon_blackmarket_reserves_weapon_ar_stealth_mk2
 image,d#loot05_ui_icon_blackmarket_stream_ar_modular_mk2
 image,d#ui_icon_attachment_extendedmags
@@ -606,7 +606,7 @@ image,d#ui_icon_weapon_smg_capacity_render
 image,d#ui_icon_weapon_ar_fastfire_sig_01_render
 image,d#ui_icon_weapon_hud_sniper_powersemi_wz
 image,d#ui_icon_ability_sparrow
-image,d#hash_7d3c394e11a43825
+image,d#ui_icon_hud_equipment_hawk_dark
 image,d#ui_icon_weapon_hud_ar_standard
 image,d#ui_icon_inventory_awareness
 image,d#loot_03_ui_icon_blackmarket_stream_nasa_mastercraft

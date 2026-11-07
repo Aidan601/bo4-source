@@ -64775,7 +64775,7 @@ player
 vox_box_wonder_plr_8_4
 vox_co_op_end_round1_plr_5_0
 hash_434a72a387bf5b23
-hash_d92e7ec98c63617
+en\vox\scripted\zmb\fiv\vox_fiv_plr_5_co_op_end_round1_0.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64784,7 +64784,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_5_0
 hash_434a72a387bf5b23
-hash_d92e7ec98c63617
+en\vox\scripted\zmb\fiv\vox_fiv_plr_5_co_op_end_round1_0.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64794,7 +64794,7 @@ player
 vox_co_op_end_round1_plr_5_0
 vox_co_op_end_round1_plr_6_1
 hash_7d6885546c703d59
-hash_67d1e02255e07c43
+en\vox\scripted\zmb\fiv\vox_fiv_plr_6_co_op_end_round1_1.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64803,7 +64803,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_6_1
 hash_7d6885546c703d59
-hash_67d1e02255e07c43
+en\vox\scripted\zmb\fiv\vox_fiv_plr_6_co_op_end_round1_1.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64813,7 +64813,7 @@ player
 vox_co_op_end_round1_plr_6_1
 vox_co_op_end_round1_plr_7_3
 hash_6ffce7b5596d1ae8
-hash_2770ec2e7b5042b6
+en\vox\scripted\zmb\fiv\vox_fiv_plr_7_co_op_end_round1_3.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64822,7 +64822,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_7_3
 hash_6ffce7b5596d1ae8
-hash_2770ec2e7b5042b6
+en\vox\scripted\zmb\fiv\vox_fiv_plr_7_co_op_end_round1_3.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64832,7 +64832,7 @@ player
 vox_co_op_end_round1_plr_7_3
 vox_co_op_end_round1_plr_8_2
 hash_270d1ea62dc6fa5a
-hash_4b7295477724a63a
+en\vox\scripted\zmb\fiv\vox_fiv_plr_8_co_op_end_round1_2.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64841,7 +64841,7 @@ perspective
 npc
 vox_co_op_end_round1_plr_8_2
 hash_270d1ea62dc6fa5a
-hash_4b7295477724a63a
+en\vox\scripted\zmb\fiv\vox_fiv_plr_8_co_op_end_round1_2.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64851,7 +64851,7 @@ player
 vox_co_op_end_round1_plr_8_2
 vox_co_op_end_round2_plr_5_0
 hash_4a2dce7cfcf75fd2
-hash_2b215a37f59b267c
+en\vox\scripted\zmb\fiv\vox_fiv_plr_5_co_op_end_round2_0.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64860,7 +64860,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_5_0
 hash_4a2dce7cfcf75fd2
-hash_2b215a37f59b267c
+en\vox\scripted\zmb\fiv\vox_fiv_plr_5_co_op_end_round2_0.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64870,7 +64870,7 @@ player
 vox_co_op_end_round2_plr_5_0
 vox_co_op_end_round2_plr_6_1
 hash_fc856db2567e614
-hash_28470ce72c2e9f98
+en\vox\scripted\zmb\fiv\vox_fiv_plr_6_co_op_end_round2_1.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64880,7 +64880,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_6_1
 hash_fc856db2567e614
-hash_28470ce72c2e9f98
+en\vox\scripted\zmb\fiv\vox_fiv_plr_6_co_op_end_round2_1.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64890,7 +64890,7 @@ perspective
 player
 vox_co_op_end_round2_plr_6_1
 hash_7272f913eb6da666
-hash_696bb9bb2e7595b6
+en\vox\scripted\zmb\fiv\vox_fiv_plr_6_co_op_end_round2_1_s.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64900,7 +64900,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_6_1
 hash_7272f913eb6da666
-hash_696bb9bb2e7595b6
+en\vox\scripted\zmb\fiv\vox_fiv_plr_6_co_op_end_round2_1_s.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64911,7 +64911,7 @@ player
 vox_co_op_end_round2_plr_6_1
 vox_co_op_end_round2_plr_7_3
 hash_78e88df5a61076ad
-hash_730ef75532dd1e35
+en\vox\scripted\zmb\fiv\vox_fiv_plr_7_co_op_end_round2_3.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64920,7 +64920,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_7_3
 hash_78e88df5a61076ad
-hash_730ef75532dd1e35
+en\vox\scripted\zmb\fiv\vox_fiv_plr_7_co_op_end_round2_3.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64930,7 +64930,7 @@ player
 vox_co_op_end_round2_plr_7_3
 vox_co_op_end_round2_plr_8_2
 hash_5d26f4ccf2f70b13
-hash_4c43a1f5034f4679
+en\vox\scripted\zmb\fiv\vox_fiv_plr_8_co_op_end_round2_2.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64939,7 +64939,7 @@ perspective
 npc
 vox_co_op_end_round2_plr_8_2
 hash_5d26f4ccf2f70b13
-hash_4c43a1f5034f4679
+en\vox\scripted\zmb\fiv\vox_fiv_plr_8_co_op_end_round2_2.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64949,7 +64949,7 @@ player
 vox_co_op_end_round2_plr_8_2
 vox_co_op_game_start_plr_5_0
 hash_308ee41fa3a05e4b
-hash_53d5a2a14cf93423
+en\vox\scripted\zmb\fiv\vox_fiv_plr_5_co_op_game_start_0.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64958,7 +64958,7 @@ perspective
 npc
 vox_co_op_game_start_plr_5_0
 hash_308ee41fa3a05e4b
-hash_53d5a2a14cf93423
+en\vox\scripted\zmb\fiv\vox_fiv_plr_5_co_op_game_start_0.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64968,7 +64968,7 @@ player
 vox_co_op_game_start_plr_5_0
 vox_co_op_game_start_plr_6_1
 hash_231e9b5d2be57461
-hash_478b95dc465e32eb
+en\vox\scripted\zmb\fiv\vox_fiv_plr_6_co_op_game_start_1.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64977,7 +64977,7 @@ perspective
 npc
 vox_co_op_game_start_plr_6_1
 hash_231e9b5d2be57461
-hash_478b95dc465e32eb
+en\vox\scripted\zmb\fiv\vox_fiv_plr_6_co_op_game_start_1.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64987,7 +64987,7 @@ player
 vox_co_op_game_start_plr_6_1
 vox_co_op_game_start_plr_7_3
 hash_45a642fca354e50
-hash_1aa5012960a94f16
+en\vox\scripted\zmb\fiv\vox_fiv_plr_7_co_op_game_start_3.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -64996,7 +64996,7 @@ perspective
 npc
 vox_co_op_game_start_plr_7_3
 hash_45a642fca354e50
-hash_1aa5012960a94f16
+en\vox\scripted\zmb\fiv\vox_fiv_plr_7_co_op_game_start_3.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -65006,7 +65006,7 @@ player
 vox_co_op_game_start_plr_7_3
 vox_co_op_game_start_plr_8_2
 hash_201886e256808672
-hash_63d0268dd18336c6
+en\vox\scripted\zmb\fiv\vox_fiv_plr_8_co_op_game_start_2.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -65015,7 +65015,7 @@ perspective
 npc
 vox_co_op_game_start_plr_8_2
 hash_201886e256808672
-hash_63d0268dd18336c6
+en\vox\scripted\zmb\fiv\vox_fiv_plr_8_co_op_game_start_2.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -86913,17 +86913,17 @@ zm_office.en
 zm_office.en
 mature
 hash_4728c591d3ef4bea
-hash_1984a3f4bf85aff0
+vox_pentagon_power_on_pann_0
 hash_72f7138b446e1328
 hash_6305b505ddc71200
 zm_office.en
 zm_office.en
 zm_office.en
 mature
-hash_1984a3f4bf85aff0
+vox_pentagon_power_on_pann_0
 vox_pentagon_teleport_establish_pann_0
 hash_3014c8aa0021a800
-hash_77961359fe0fcd40
+en\vox\scripted\zmb\fiv\vox_fiv_pann_pentagon_teleport_establish_0.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en
@@ -86931,7 +86931,7 @@ mature
 vox_pentagon_teleport_establish_pann_0
 vox_pentagon_teleport_interrupt_pann_0
 hash_70751f0fbaab53a4
-hash_4b3492243e359a34
+en\vox\scripted\zmb\fiv\vox_fiv_pann_pentagon_teleport_interrupt_0.sn100.pc.snd
 zm_office.en
 zm_office.en
 zm_office.en

@@ -1214,7 +1214,7 @@ core_frontend.fr
 mpl_announcer
 mature
 vox_blac_greet_no_money_7
-hash_3a8573960c749d31
+vox_blac_greet_spec_offer_0
 hash_225f1ac89fa59c9d
 hash_2727efa2bdc7e53d
 core_frontend.fr
@@ -1222,8 +1222,8 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3a8573960c749d31
-hash_3a8572960c749b7e
+vox_blac_greet_spec_offer_0
+vox_blac_greet_spec_offer_1
 hash_61094fcfac3b28a2
 hash_18f00e76883ad766
 core_frontend.fr
@@ -1231,8 +1231,8 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3a8572960c749b7e
-hash_3a8571960c7499cb
+vox_blac_greet_spec_offer_1
+vox_blac_greet_spec_offer_2
 hash_3fe4d103ce3eb587
 hash_e3793dd37f40923
 core_frontend.fr
@@ -1240,8 +1240,8 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3a8571960c7499cb
-hash_3a8570960c749818
+vox_blac_greet_spec_offer_2
+vox_blac_greet_spec_offer_3
 hash_74605a180792b0f4
 hash_44679b07d2e910f4
 core_frontend.fr
@@ -1249,8 +1249,8 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3a8570960c749818
-hash_3a8577960c74a3fd
+vox_blac_greet_spec_offer_3
+vox_blac_greet_spec_offer_4
 hash_18836ef77899c469
 hash_44648140f9813539
 core_frontend.fr
@@ -1258,8 +1258,8 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3a8577960c74a3fd
-hash_3a8576960c74a24a
+vox_blac_greet_spec_offer_4
+vox_blac_greet_spec_offer_5
 hash_5792f6bd0974c42e
 hash_2a4b877fbc86c292
 core_frontend.fr
@@ -1267,8 +1267,8 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3a8576960c74a24a
-hash_3a8575960c74a097
+vox_blac_greet_spec_offer_5
+vox_blac_greet_spec_offer_6
 hash_75ae4bad096c7df3
 hash_5f0674753ed82f
 core_frontend.fr
@@ -1276,8 +1276,8 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3a8575960c74a097
-hash_3a8574960c749ee4
+vox_blac_greet_spec_offer_6
+vox_blac_greet_spec_offer_7
 hash_176db71e04f19f20
 hash_6d6a6d983dd2d8b0
 core_frontend.fr
@@ -1285,7 +1285,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3a8574960c749ee4
+vox_blac_greet_spec_offer_7
 vox_blac_greet_standard_00
 hash_455d4bb75512c91e
 hash_4de88d5669274738
@@ -1542,7 +1542,7 @@ mpl_announcer
 mature
 safe
 vox_blac_my_shop_batt
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 hash_542e68f3b9c0d516
 hash_1d33a97af00ee7f6
 core_frontend.fr
@@ -1550,7 +1550,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 hash_307a851c9f639dcf
 hash_5dbb851da213bd73
 core_frontend.fr
@@ -1558,7 +1558,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 hash_71ba81fa79edfb14
 hash_68b28653d37dfe5c
 core_frontend.fr
@@ -1566,7 +1566,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 hash_44c1e8a0d8651bbd
 hash_70592bb0ed148f41
 core_frontend.fr
@@ -1574,7 +1574,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 hash_78ea829a714a029a
 hash_7a9fdee5040a4d2a
 core_frontend.fr
@@ -1582,7 +1582,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 hash_6e0f6940089c0233
 hash_53dea03008127847
 core_frontend.fr
@@ -1590,7 +1590,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 hash_1a74883683c05398
 hash_67d23aebdc5680c0
 core_frontend.fr
@@ -1598,7 +1598,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 hash_3d08665318e94381
 hash_2245ba0e4232dc35
 core_frontend.fr
@@ -1606,7 +1606,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_3bd83fec4d87aa92
+vox_blac_my_shop_bundle
 vox_blac_my_shop_cras
 hash_4eb273c30e06d7ab
 hash_7664b08bd97b30df
@@ -1771,7 +1771,7 @@ core_frontend.fr
 mpl_announcer
 mature
 vox_blac_my_shop_fire
-hash_30be614dd9c1a249
+vox_blac_my_shop_free_case
 hash_6c650828f657805
 hash_17b4c9a8ec68c9bf
 core_frontend.fr
@@ -1779,7 +1779,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_30be614dd9c1a249
+vox_blac_my_shop_free_case
 hash_7825c39d6059a1bc
 hash_5f6bcecc4d827482
 core_frontend.fr
@@ -1787,7 +1787,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_30be614dd9c1a249
+vox_blac_my_shop_free_case
 hash_727decfe56624717
 hash_2951e6dad1b5d46d
 core_frontend.fr
@@ -1795,7 +1795,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_30be614dd9c1a249
+vox_blac_my_shop_free_case
 hash_52b44cce2f28acbe
 hash_4448fa4c1430e698
 core_frontend.fr
@@ -1803,7 +1803,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_30be614dd9c1a249
+vox_blac_my_shop_free_case
 hash_567923e9d5bc0789
 hash_2bd6b58b5db9348b
 core_frontend.fr
@@ -1811,7 +1811,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_30be614dd9c1a249
+vox_blac_my_shop_free_case
 hash_485dc7c16467e980
 hash_65cff89dc520c36e
 core_frontend.fr
@@ -1819,7 +1819,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_30be614dd9c1a249
+vox_blac_my_shop_free_case
 hash_1f5ee8caec272ddb
 hash_15de7be39bc4a5d9
 core_frontend.fr
@@ -1827,7 +1827,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_30be614dd9c1a249
+vox_blac_my_shop_free_case
 hash_26d3c22551f19882
 hash_2dcb53e85a90c34
 core_frontend.fr
@@ -1835,8 +1835,8 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_30be614dd9c1a249
-hash_b952ff5bfebae18
+vox_blac_my_shop_free_case
+vox_blac_my_shop_free_ult
 hash_5206ecedb262b2fc
 hash_2c78a052b69f8540
 core_frontend.fr
@@ -1844,7 +1844,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_b952ff5bfebae18
+vox_blac_my_shop_free_ult
 hash_6093470444464045
 hash_66ec1f751c7be0b5
 core_frontend.fr
@@ -1852,7 +1852,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_b952ff5bfebae18
+vox_blac_my_shop_free_ult
 hash_354f6dc84e5855fe
 hash_3f46444bde5351aa
 core_frontend.fr
@@ -1860,7 +1860,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_b952ff5bfebae18
+vox_blac_my_shop_free_ult
 hash_51b40df872b07a57
 hash_18850596e25b7cc7
 core_frontend.fr
@@ -1868,7 +1868,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_b952ff5bfebae18
+vox_blac_my_shop_free_ult
 vox_blac_my_shop_noma
 hash_36ee7d4abcfc5fc3
 hash_62f7abe8e381a963
@@ -2165,7 +2165,7 @@ core_frontend.fr
 mpl_announcer
 mature
 vox_blac_my_shop_spec
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 hash_692219fe97aca8dc
 hash_40f605f9b3237ac
 core_frontend.fr
@@ -2173,7 +2173,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 hash_77c2a6e3c6b87f25
 hash_5c1fe00c92526e51
 core_frontend.fr
@@ -2181,7 +2181,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 hash_43b0a32f667bb3de
 hash_66927eaa9111fb86
 core_frontend.fr
@@ -2189,7 +2189,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 hash_3aecd89e356c32b7
 hash_5244c13b88d25c03
 core_frontend.fr
@@ -2197,7 +2197,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 hash_3cc11e229e9fcca0
 hash_2bb7bf7cc5916690
 core_frontend.fr
@@ -2205,7 +2205,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 hash_4adb7a4b0ff237a9
 hash_b2d4b29ac0cd705
 core_frontend.fr
@@ -2213,7 +2213,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 hash_72a7adc533dcfa22
 hash_41951563b6e059fa
 core_frontend.fr
@@ -2221,7 +2221,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 hash_3395b243b181947b
 hash_11002545727c2d7
 core_frontend.fr
@@ -2229,7 +2229,7 @@ core_frontend.fr
 core_frontend.fr
 mpl_announcer
 mature
-hash_a52d225cf36ffa0
+vox_blac_my_shop_spec_offer
 vox_blac_my_shop_swat
 hash_6624f299666ce71d
 hash_58c0a4f98601c215

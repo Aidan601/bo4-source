@@ -7,7 +7,7 @@ image,d#uie_ui_hud_core_waypoint_arrow_02
 image,#hash_bd8d43404dc456
 image,#uie_ui_hud_vehicle_hellstorm_ringmeter
 image,#uie_ui_hud_wz_hud_cwo_icon
-image,d#hash_fd01d7d15e802a
+image,d#ui_icon_weapon_camo_active_sig_sniper_powerbolt_viking
 image,#ui_icon_equipment_sensordart_dark
 image,#loot04_ui_icon_blackmarket_reserves_death_fx_black_hole
 image,#hash_1250d548347b092
@@ -67,12 +67,12 @@ image,d#ui_icon_obit_pistol_standard
 image,#ui_icon_weapon_hud_sig_buckler
 image,#uie_ui_hud_selectspawn_range
 image,#hash_71a39f2678e2f17
-image,#hash_75cde8bccbd6f24
+image,#uie_hud_core_player_healthbar_empty
 image,#uie_ui_hud_vehicle_hellstorm_reticle_trlock
 image,#uie_ui_menu_common_remove_minus
 image,#uie_ui_hud_out_of_bounds_side_layout_element
 image,#ui_icon_weapon_charms_dice_20
-image,#hash_77c33fe95bfbe89
+image,#uie_ui_menu_mp_scoreboard_map_sideline
 image,#ui_icon_obit_warmachine
 image,#ui_icon_scorestreaks_drone_swarm_hud
 image,d#uie_ui_menu_store_focus_pips
@@ -96,7 +96,7 @@ image,d#ui_icon_weapons_zm_ar_accurate_sig_01
 image,#uie_ui_menu_cac_preview_class_bg_main
 image,d#uie_ui_menu_aar_common_progress_boxes
 image,d#ui_icon_equipment_flashbangs
-image,#hash_9c721e9b72aa904
+image,#uie_ui_hud_vehicle_ac130_weapon_rotate_divider
 image,#uie_ui_hud_tak5_ammo_frame_used
 image,#uie_ui_icon_wz_hud_vehicle_truck_damage
 image,#uie_ui_hud_vehicle_ac130_frame_hline
@@ -104,7 +104,7 @@ image,#ui_icon_ultimate_lightninggun
 image,#uie_ui_hud_core_player_widget_led_health
 image,d#ui_icon_attachment_pistol_revolver_opmod_skullsplitter
 image,#uie_ui_hud_tech_design_left
-image,#hash_a8b500a007a9b7c
+image,#uie_ui_hud_icepick_breach_box_edge
 image,d#ui_icon_obit_frag
 image,#uie_ui_hud_revive_arrow
 image,#uie_hud_common_corner_pip
@@ -162,7 +162,7 @@ image,#uie_ui_hud_flashbang_counter_backer
 image,#uie_ui_hud_selectspawn_point_boundary
 image,d#uie_ui_menu_store_bg_grid
 image,#uie_ui_hud_minimap_hawk_icon
-image,#hash_11087857397c48eb
+image,#ui_icon_obit_vehicleturret
 image,#uie_ui_hud_reticle_scanner_arrow
 image,#uie_ui_hud_icepick_window
 image,#hash_110de839739f164f
@@ -252,7 +252,7 @@ image,#uie_ui_hud_wz_hud_core_chamfer_border
 image,#uie_ui_hud_theater_playbackcontrol_colorpicker_frame_inner
 image,#uie_ui_hud_out_of_bounds_warning_glow
 image,#uie_ui_hud_out_of_bounds_return_backing
-image,#hash_1a7e361974ec3a2e
+image,#uie_ui_hud_icepick_breach_stripe
 image,#ui_icon_scorestreaks_overwatch_snipers_dark
 image,#uie_ui_hud_selectspawn_timer_normal
 image,#uie_ui_hud_selectspawn_info_line
@@ -263,7 +263,7 @@ image,d#uie_ui_menu_common_tab_end_right
 image,#loot04_ui_icon_blackmarket_reserves_death_fx_lava
 image,#uie_ui_hud_prophunt_match_widget_frame
 image,#ui_icon_weapon_hud_hero_warmachine
-image,#hash_1be3c59102c8fa21
+image,#uie_ui_hud_vehicle_hcxd_duration_text
 image,#uie_ui_hud_core_wounded_bar
 image,#uie_ui_hud_vehicle_hellstorm_ringreticle
 image,#hash_1c523e641149e1e1
@@ -296,12 +296,12 @@ image,#uie_ui_menu_inspection_level_meter_tick
 image,#uie_ui_hud_vehicle_ac130_message_bg
 image,#ui_icon_weapon_charms_pink_dice
 image,#uie_ui_hud_spawnselect_identity_backing
-image,#hash_1f6e71b8426b936d
+image,#uie_ui_hud_vehicle_hcxd_accent_arrow
 image,#uie_ui_hud_hawk_full_half_circle
 image,#ui_icon_scorestreaks_swat_team_dark
 image,#uie_ui_hud_awareness_wedge01_cuav
 image,#uie_ui_hud_icepick_item_graph_frame
-image,#hash_1fcfdb982ebf8906
+image,#uie_ui_menu_mp_scoreboard_info_greybar2
 image,d#hash_1ff35e5f3948f398
 image,#uie_ui_menu_window_loading_bar
 image,d#uie_ui_menu_customgame_indicator_focused
@@ -325,11 +325,11 @@ image,#uie_ui_hud_common_line_arrow
 image,#ui_icon_equipment_hatchet_hud
 image,#uie_ui_hud_selectspawn_layout_boxside
 image,#ui_icon_weapon_charms_pine_tree
-image,#hash_21f58148c2b569cd
+image,#uie_ui_hud_vehicle_lightstrike_ambient_bracket
 image,#uie_ui_icon_frontend_exclamation
 image,#ui_icon_ultimate_purifier_dark
 image,#uie_ui_menu_cac_attachment_upgrade_path_arrow
-image,#hash_22aabf859e4bd498
+image,#uie_ui_hud_icepick_breach_box
 image,#ui_icon_weapon_charms_snowman
 image,#ui_icon_ability_mutesmokecharge
 image,#ui_icon_weapon_charms_tanuki
@@ -373,7 +373,7 @@ image,#uie_ui_hud_core_frame_streaks_widget_top
 image,#uie_ui_hud_prophunt_match_widget_prop
 image,#ui_icon_obit_straferun
 image,#ui_icon_ultimate_shield
-image,#hash_27d623ac5a21228e
+image,#uie_ui_hud_core_minimap_gears_panels
 image,#ui_icon_waypoints_fracture_deposit
 image,#uie_ui_hud_icepick_item_bg
 image,#uie_ui_hud_vehicle_ac130_reticle_105_core
@@ -409,7 +409,7 @@ image,#uie_ui_hud_core_waypoint_control_backer
 image,#uie_ui_hud_notifications_bracket_topleft
 image,#uie_ui_hud_core_ammo_widget_led_screen
 image,#ui_icon_weapon_charms_steak
-image,#hash_2b4d6116b68b53d0
+image,#uie_ui_menu_mp_scoreboard_info_greybar
 image,#uie_headicon_dead_minimap
 image,#uie_ui_hud_tak5_ammo
 image,#hash_2bae34fcd1debfbe
@@ -417,7 +417,7 @@ image,d#ui_icon_obit_launcher_standard
 image,#uie_ui_hud_vehicle_scarab_missle
 image,#uie_ui_menu_mp_scoreboard_list_level_bg
 image,d#uie_ui_menu_store_price_bg
-image,#hash_2c0bcb8f12647ad4
+image,#hud_vehicleturret_reticle
 image,#uie_ui_menu_common_button_bg_glow_large
 image,d#uie_ui_menu_store_element_frame
 image,d#ui_icon_equipment_thermite
@@ -489,13 +489,13 @@ image,#uie_ui_hud_reticles_reaper_scythe_hip_supporting_elements
 image,#ui_icon_challenges_mpdarkops_large
 image,#ui_hud_reticles_reaper_scythe_hip_01
 image,#uie_wz_hud_map_danger_bar_empty
-image,#hash_33908e8325a56c68
+image,#uie_ui_hud_vehicle_lightstrike_ambient_meter
 image,#ui_icon_weapon_charms_lil_ray
 image,#uie_ui_hud_reticles_bowlauncher_wing_r
 image,#uie_ui_hud_reticles_bowlauncher_wing_l
-image,#hash_33f02af56d3b7437
+image,#uie_hud_core_player_healthbar_backer
 image,#uie_ui_hud_red_light_flare
-image,#hash_33f81a0bfada5cde
+image,#uie_ui_hud_icepick_breach_box2
 image,d#ui_icon_weapon_hud_ar_accurate
 image,#ui_icon_ultimate_gravityspikes_dark
 image,#ui_icon_ability_spawnbeacon
@@ -517,7 +517,7 @@ image,#ui_icon_ultimate_shield_dark
 image,#uie_ui_hud_wz_hud_core_emp_obit_widget
 image,#ui_icon_scorestreaks_rcxd
 image,#ui_icon_weapon_charms_bullet
-image,#hash_36237bcc6f1a8d53
+image,#uie_codcaster_loadout_generic_background
 image,#ui_icon_weapon_charms_9mmbullet
 image,#uie_ui_hud_vehicle_ac130_reticle_25_inner_line
 image,#uie_hex_flare_back
@@ -677,7 +677,7 @@ image,#uie_ui_hud_tak5_target_msg_bg
 image,#ui_hud_core_objective_widget_downed
 image,#uie_ui_hud_reticle_scanner_circle
 image,#hash_462b10c791e45f5c
-image,#hash_4638a7c387c3648c
+image,#uie_spectre_blade_centerdot_notadd
 image,#loot04_ui_icon_blackmarket_reserves_death_fx_numbers
 image,#hash_4650eedea9341cb9
 image,#hash_465f179d38251c83
@@ -690,7 +690,7 @@ image,#uie_hex_flare_ring
 image,#uie_ui_hud_oic_bullet
 image,#ui_icon_obit_gunship
 image,#uie_ui_menu_mp_scoreboard_map_topbar
-image,#hash_475961abecf3e11a
+image,#uie_hud_core_player_healthbar_buff
 image,d#uie_ui_hud_core_objective_widget_led
 image,#hash_476182927422079d
 image,d#ui_icon_nebulium_medium
@@ -708,7 +708,7 @@ image,d#uie_ui_menu_specialist_hub_repeat_line
 image,#uie_ui_hud_selectspawn_layoutelement_bar
 image,#uie_ui_hud_selectspawn_layout_darkbox01
 image,#uie_ui_hud_selectspawn_layout_darkbox02
-image,#hash_48858670a83752e8
+image,#uie_ui_menu_cac_attachment_button_empty_bg_frame
 image,#uie_ui_hud_icepick_item_bot_line
 image,#uie_ui_menu_mp_scoreboard_list_indicator
 image,#uie_ui_hud_core_minimap_banners
@@ -813,12 +813,12 @@ image,#uie_ui_hud_vehicle_lightstrike_frame_corner_top
 image,d#ui_icon_weapon_hud_vehicle_turret_uh1d
 image,#uie_ui_hud_vehicle_ac130_reticle_105_inner_ver
 image,#uie_ui_hud_core_waypoint_hardpoint_icon_02
-image,#hash_52485ea2ed785464
+image,#uie_ui_hud_vehicle_lightstrike_ambient_text
 image,#uie_ui_menu_mp_scoreboard_shoutcaster_botbar_glow_tile
 image,#ui_icon_equipment_hatchet_hud_dark
 image,d#ui_icon_obit_tactical_knife
 image,#uie_ui_hud_vehicle_ac130_hp_layout_corner
-image,#hash_52b3d30230f9ac54
+image,#uie_ui_hud_vehicle_ac130_weapon_rotate_arrow
 image,d#ui_icon_ultimate_scythe
 image,d#ui_icon_scorestreaks_swatbuddy
 image,#uie_ui_menu_mp_scoreboard_shoutcaster_botbar_tile
@@ -841,7 +841,7 @@ image,#uie_ui_hud_tak5_grid_plus
 image,#uie_ui_hud_core_streak_widget_rule_thin
 image,#uie_ui_hud_vehicle_dart_reticle_horizontal_boxes
 image,#ui_icon_equipment_sensordart
-image,#hash_547da5123f88daab
+image,#uie_ui_hud_vehicle_lightstrike_ambient_button
 image,#hash_54c48cec948b9148
 image,#uie_ui_hud_vehicle_ac130_flare_indicator
 image,#uie_ui_hud_core_ammo_widget_special_meter
@@ -850,7 +850,7 @@ image,#uie_ui_hud_wz_hud_core_mission_x
 image,d#uie_ui_icon_blackmarket_tier_empty
 image,#ui_icon_weapon_charms_duck_base
 image,#uie_ui_hud_hawk_crosshairs
-image,#hash_5585023d9ccff746
+image,#uie_codcaster_loadout_gun_background
 image,#uie_ui_hud_selectspawn_layout_vertical_bar
 image,#uie_ui_hud_tak5_reticle_pointer
 image,#uie_ui_hud_tak5_player_repeat_bg
@@ -913,7 +913,7 @@ image,d#uie_ui_icon_frontend_helptag
 image,#ui_icon_weapon_charms_keytar
 image,#uie_ui_hud_vehicle_ac130_frame_graphic_left
 image,#uie_abeq_flare_ring
-image,#hash_5ce823bc468ef7dc
+image,#uie_ui_menu_mp_endgame_result_frame_inner
 image,#uie_ui_menu_window_loading_bg
 image,#uie_ui_hud_common_white_box
 image,#uie_ui_hud_vehicle_hellstorm_enemyindicatorbase
@@ -930,7 +930,7 @@ image,#ui_icon_weapon_charms_melon
 image,#uie_ui_menu_mp_scoreboard_list_bg
 image,#uie_ui_hud_selectspawn_cursor
 image,#uie_ui_hud_core_ammo_widget_mag_reserves_full_glow
-image,#hash_5e5631774ae12114
+image,#uie_ui_menu_cac_attachment_button_frame_selected
 image,#uie_ui_hud_core_draft_brackets_info
 image,#uie_ui_hud_vehicle_dart_guide_circle
 image,#ui_icon_weapon_charms_outhouse
@@ -964,7 +964,7 @@ image,#uie_ui_menu_mp_endgame_frame_outer_tr
 image,#uie_ui_hud_wz_hud_core_player
 image,d#uie_ui_menu_arena_ruby
 image,#ui_icon_scorestreaks_straferun_dark
-image,#hash_62287a6449cd8cb7
+image,#uie_ui_menu_mp_endgame_result_frame_outer
 image,#uie_ui_hud_tak5_target_stripe
 image,#hash_62563c2b0ae61c5e
 image,#uie_ui_hud_core_hero_widget_meter_fill
@@ -989,7 +989,7 @@ image,d#uie_ui_hud_notifications_glow
 image,#uie_ui_hud_vehicle_fuel_amount
 image,d#ui_icon_weapon_hud_pistol_fullauto
 image,d#uie_ui_menu_common_tab_glowred
-image,#hash_651a0c08929c60d8
+image,#ui_icon_hud_equipment_hawk
 image,d#ui_icon_2xp_blackmarket_small
 image,#uie_ui_menu_cac_secondary_button_bottom_line
 image,#uie_ui_menu_cac_attachment_upgrade_path_bg
@@ -1006,7 +1006,7 @@ image,d#ui_icon_weapon_hud_scythe
 image,d#ui_icon_weapon_pistol_standard
 image,#uie_ui_hud_selectspawn_layoutelement_text_lable
 image,#uie_ui_hud_selectspawn_timer_ring_glow
-image,#hash_678cad9ef906adda
+image,#uie_ui_menu_mp_scoreboard_info_redbar2
 image,#uie_ui_hud_core_ammo_widget_led_reload
 image,#uie_zm_hud_revive_meterbg
 image,#uie_zm_hud_revive_meterfg
@@ -1027,7 +1027,7 @@ image,#ui_icon_bounty_hunter_pickup_health
 image,#uie_ui_icon_jobfeed_special_coinpips
 image,#uie_ui_hud_radial_menu_center_circle
 image,d#uie_ui_menu_inspection_window_loading_stripe
-image,#hash_6a299c03e7f6c932
+image,#uie_ui_menu_cac_attachment_button_empty_bg_main
 image,#uie_ui_hud_core_ammo_widget_backer
 image,#ui_icon_ability_gravityspikes
 image,#hash_6a6351c461085379
@@ -1058,9 +1058,9 @@ image,d#ui_icon_weapon_hud_sniper_powerbolt
 image,#uie_hud_common_line_accent01
 image,#uie_ui_menu_inspection_level_meter_tick_glow
 image,#uie_ui_hud_vehicle_ac130_reticle_40_inner_box
-image,d#hash_6e611a1ae7379b96
+image,d#ui_icon_blackmarket_reserves_pistol_revolver_mk2
 image,#hash_6e6e323ef8904ef4
-image,#hash_6e7bb889588e16d8
+image,#uie_codcaster_loadout_selectorwild
 image,#uie_hud_common_corner_bracket01
 image,#uie_ui_hud_core_carryitem_fracture
 image,#uie_ui_hud_core_waypoint_letter_c_02
@@ -1072,7 +1072,7 @@ image,#ui_icon_scorestreaks_dart_dark
 image,#uie_ui_hud_core_frame_hero_widget
 image,#uie_ui_menu_specialist_hub_repeat_dotline
 image,#hash_6f6d3426febc0c41
-image,#hash_6f82d093e5f3c916
+image,#uie_ui_hud_vehicle_lightstrike_ambient_meter_square
 image,#uie_ui_menu_mp_scoreboard_shoutcaster_bg
 image,#loot04_ui_icon_blackmarket_reserves_death_fx_soul_thief
 image,#ui_icon_weapon_charms_eggplant
@@ -1099,7 +1099,7 @@ image,#uie_ui_menu_blackmarket_button_frame
 image,d#ui_icon_weapon_ar_accurate_sig_01_render
 image,#ui_icon_weapon_charms_donut_horn
 image,#uie_ui_hud_core_objective_widget_rule
-image,#hash_7255468d158a8d39
+image,#uie_ui_hud_vehicle_lightstrike_ambient_meter_circle
 image,#ui_icon_weapon_charms_computer_teeth
 image,#uie_ui_hud_highlight2
 image,#uie_ui_hud_core_draft_nameplate_bars
@@ -1149,7 +1149,7 @@ image,#uie_ui_hud_core_thrust_widget_container
 image,#uie_ui_hud_wz_hud_core_brackets
 image,#uie_ui_menu_aar_levelup_bar
 image,#uie_ui_menu_mp_endgame_shoutcaster_botbar
-image,#hash_773562cfcef8ad77
+image,#uie_ui_menu_mp_scoreboard_list_portrait_selected_shoutcaster
 image,#uie_ui_hud_core_hacked_ammo_panel
 image,#uie_ui_hud_common_header_bg01
 image,#ui_icon_scorestreaks_remote_missile_dark
@@ -1189,7 +1189,7 @@ image,#uie_ui_menu_inspection_analysing_stripe
 image,#uie_ui_menu_mp_scoreboard_list_level_bar
 image,#ui_icon_equipment_trophysystem
 image,#ui_icon_equipment_menu_concussion_grenade
-image,#hash_7be763d1eb16049a
+image,#uie_codcaster_loadout_selector_spec
 image,#uie_ui_hud_prophunt_controls_backing
 image,#uie_ui_menu_mp_endgame_shoutcaster_frame_light
 image,#ui_icon_scorestreaks_overwatch_snipers_light
@@ -1199,7 +1199,7 @@ image,#uie_ui_hud_selectspawn_layoutelement_text_information
 image,#uie_ui_hud_core_ammo_widget_mag_reserves_full
 image,#ui_icon_obit_swatbuddy
 image,#ui_icon_ability_sparrow
-image,#hash_7d3c394e11a43825
+image,#ui_icon_hud_equipment_hawk_dark
 image,#uie_ui_hud_core_player_widget_sheen
 image,#hash_7d78a9159503bfbb
 image,#uie_wz_hud_map_danger_bar_safe

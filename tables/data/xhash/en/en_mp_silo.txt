@@ -1,7 +1,7 @@
 mp_silo.en
 vox_tvoi_tutor_ruin_ajax_0
 hash_18a0460fc047412
-hash_6c58d13eb9da7eeb
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_0_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -10,7 +10,7 @@ mature
 vox_tvoi_tutor_ruin_ajax_0
 vox_tvoi_tutor_ruin_ajax_1
 hash_565f1e0301cc16a5
-hash_203f32ea8ec2d21c
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_1_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -19,7 +19,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_ajax_1
 hash_7ef407ab70033f27
-hash_5d0c8c0e77f2a8c2
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_1_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -29,7 +29,7 @@ safe
 vox_tvoi_tutor_ruin_ajax_1
 vox_tvoi_tutor_ruin_ajax_2
 hash_a1edb31c6c6bd7c
-hash_320d53ba4764f605
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_2_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -38,7 +38,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_ajax_2
 hash_18764ec889cf96fe
-hash_59b556f0e18f8863
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_2_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -48,7 +48,7 @@ safe
 vox_tvoi_tutor_ruin_ajax_2
 vox_tvoi_tutor_ruin_ajax_3
 hash_21ae89aa5a65ec77
-hash_77204731b779dbce
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_3_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -57,7 +57,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_ajax_3
 hash_1cea523cb3099131
-hash_6b97bf3407450eec
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_3_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -67,7 +67,7 @@ safe
 vox_tvoi_tutor_ruin_ajax_3
 vox_tvoi_tutor_ruin_ajax_grapple
 hash_5a3cb8f5c22ef071
-hash_6c3d9eb735ca6868
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_grapple_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -76,7 +76,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_ajax_grapple
 hash_41e391e998d9913b
-hash_6554eb1308f34e86
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_grapple_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -86,7 +86,7 @@ safe
 vox_tvoi_tutor_ruin_ajax_grapple
 vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_4a0a96f8d17e3367
-hash_233ccbbd558329da
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_miss_nag_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -94,7 +94,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_5b8c6279f172ae0e
-hash_422fcf2de1818bb7
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_miss_nag_01.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -102,7 +102,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_15c40c9df35380fd
-hash_757020370e8e6470
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_miss_nag_02.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -111,7 +111,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_33f875b604b3230f
-hash_4d7b1890eac61dbe
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_miss_nag_02_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -120,7 +120,7 @@ mature
 safe
 vox_tvoi_tutor_ruin_ajax_miss_nag
 hash_69b20d756f029cb4
-hash_7a3cc414ef217e5
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_miss_nag_03.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -129,7 +129,7 @@ mature
 vox_tvoi_tutor_ruin_ajax_miss_nag
 vox_tvoi_tutor_ruin_ajax_slowmo
 hash_57e29cac0ee3f8b
-hash_71005430fd414102
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_ajax_slowmo_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -138,7 +138,7 @@ mature
 vox_tvoi_tutor_ruin_ajax_slowmo
 vox_tvoi_tutor_ruin_death_fall
 hash_1be04709fc589c81
-hash_663897f3fb051238
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_death_fall_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -147,7 +147,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_death_fall
 hash_917b70d3706130b
-hash_2a2b83825bed2b96
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_death_fall_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -156,7 +156,7 @@ mature
 safe
 vox_tvoi_tutor_ruin_death_fall
 hash_20bff170018961e8
-hash_485a12730c67588d
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_death_fall_01.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -164,7 +164,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ruin_death_fall
 hash_17ffefae7f0035cb
-hash_eb8ec71a5c07f22
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_death_fall_02.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -172,7 +172,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ruin_death_fall
 hash_78b8c1b9667610c2
-hash_7252fb2aaf00b8df
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_death_fall_03.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -190,7 +190,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_1_comp
 hash_3586ba8f6ab400bb
-hash_661a5cf4c00a756
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_1_comp_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -209,7 +209,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_1_hell_0
 hash_67aa820ed48e52a0
-hash_16aedd47f86ecb71
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_1_hell_0_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -228,7 +228,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_1_hell_1
 hash_90f9aa25b71c95b
-hash_4f008d1fd29b63ba
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_1_hell_1_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -272,7 +272,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_1_hell_fail
 hash_1df659646667608a
-hash_4ad8acc4d2f46c13
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_1_hell_fail_02_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -290,7 +290,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_1_hell_fail
 hash_75669c206f12f1a3
-hash_706c36bbb1a29ce
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_1_hell_fail_03_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -309,7 +309,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_1_start
 hash_7fa54a65bfd16814
-hash_586f168f2ab0d47d
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_1_start_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -328,7 +328,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_2_comp
 hash_16c8f8cc2b67f274
-hash_6a898d2aaa97078d
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_2_comp_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -365,7 +365,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_2_score_2
 hash_480a257891ff9b6
-hash_852f6fb8887c637
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_2_score_2_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -384,7 +384,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_2_score_3
 hash_36f28fa0ec896e29
-hash_1fc4f79805810010
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_2_score_3_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -452,7 +452,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_2_score_fail
 hash_36aa585acce6b096
-hash_291ede0418c28607
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_2_score_fail_02_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -514,7 +514,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_3_comp_1
 hash_744dfc613cb7fd99
-hash_e59bae66b2ddd30
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_3_comp_1_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -533,7 +533,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_3_idle_nag
 hash_5226529ceb2a6709
-hash_53a9d4a0d64cf9d8
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_3_idle_nag_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -551,7 +551,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_3_idle_nag
 hash_41c946891793ed98
-hash_61c3e99a5c1212b5
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_3_idle_nag_01_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -602,7 +602,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_3_miss_nag
 hash_40d9473d51ef2ae5
-hash_319517de8c9fd780
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_3_miss_nag_02_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -620,7 +620,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_3_miss_nag
 hash_124bf80070862304
-hash_676fc7be8a5bf1fd
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_3_miss_nag_03_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -639,7 +639,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_final_3_start
 hash_2f0242366e2a00ba
-hash_549ab9fdc04dcc53
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_final_3_start_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -667,7 +667,7 @@ mature
 vox_tvoi_tutor_ruin_grapple_ground
 vox_tvoi_tutor_ruin_grapple_low_plat_0
 hash_7170494e6ffe3442
-hash_a2fae15c87eb017
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_low_plat_0_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -676,7 +676,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_grapple_low_plat_0
 hash_33b3a5dac025ef5c
-hash_1d6f85a3a114851d
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_low_plat_0_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -686,7 +686,7 @@ safe
 vox_tvoi_tutor_ruin_grapple_low_plat_0
 vox_tvoi_tutor_ruin_grapple_low_plat_1
 hash_179061a79c230495
-hash_12fcff7c13152a58
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_low_plat_1_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -695,7 +695,7 @@ mature
 vox_tvoi_tutor_ruin_grapple_low_plat_1
 vox_tvoi_tutor_ruin_grapple_low_plat_2
 hash_4e6129d287ea06ac
-hash_280ad9a6c1b22201
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_low_plat_2_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -704,7 +704,7 @@ mature
 vox_tvoi_tutor_ruin_grapple_low_plat_2
 vox_tvoi_tutor_ruin_grapple_low_plat_3
 hash_1b5afe809700b7e7
-hash_5537b9c079fae0fa
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_low_plat_3_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -713,7 +713,7 @@ mature
 vox_tvoi_tutor_ruin_grapple_low_plat_3
 vox_tvoi_tutor_ruin_grapple_low_plat_4
 hash_23a6f3b3733e8d66
-hash_20c6ec447f9d7b2b
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_low_plat_4_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -722,7 +722,7 @@ mature
 vox_tvoi_tutor_ruin_grapple_low_plat_4
 vox_tvoi_tutor_ruin_grapple_range_clear
 hash_443d390bb65212ca
-hash_2102e55656b727b
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_clear_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -731,7 +731,7 @@ mature
 vox_tvoi_tutor_ruin_grapple_range_clear
 vox_tvoi_tutor_ruin_grapple_range_fail_0
 hash_3576b770b5c109ca
-hash_6d5d601ea4890e47
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_fail_0_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -740,7 +740,7 @@ mature
 vox_tvoi_tutor_ruin_grapple_range_fail_0
 vox_tvoi_tutor_ruin_grapple_range_fail_1
 hash_53d567611104517d
-hash_4a5dbadbe1fbf988
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_fail_1_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -749,7 +749,7 @@ mature
 vox_tvoi_tutor_ruin_grapple_range_fail_1
 vox_tvoi_tutor_ruin_grapple_range_nag
 hash_33357a3427d924dd
-hash_4af24df025e9130c
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_nag_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -758,7 +758,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_grapple_range_nag
 hash_5669c623629952f
-hash_37651a34a9bb8ef2
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_nag_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -767,7 +767,7 @@ mature
 safe
 vox_tvoi_tutor_ruin_grapple_range_nag
 hash_5e94104a4b3bbf14
-hash_4966057cadf88731
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_nag_01.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -776,7 +776,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_grapple_range_nag
 hash_1cd5861385c66766
-hash_3a28df49f9cd4137
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_nag_01_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -785,7 +785,7 @@ mature
 safe
 vox_tvoi_tutor_ruin_grapple_range_nag
 hash_6ccefc38d0459347
-hash_28d717e819dffb66
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_nag_02.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -794,7 +794,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_grapple_range_nag
 hash_6121e95232c2c0c1
-hash_3ba2f3dc20e894f4
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_nag_02_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -803,7 +803,7 @@ mature
 safe
 vox_tvoi_tutor_ruin_grapple_range_nag
 hash_7597d010231528ee
-hash_34a86d65cc55a63
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_nag_03.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -812,7 +812,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_grapple_range_nag
 hash_7b385adbb2da5710
-hash_68d3fdb8f5d77801
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grapple_range_nag_03_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -822,7 +822,7 @@ safe
 vox_tvoi_tutor_ruin_grapple_range_nag
 vox_tvoi_tutor_ruin_grav_slam_first_0
 hash_6eb7ebf4820afcd9
-hash_6a9f9fd503b71afc
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_first_0_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -831,7 +831,7 @@ mature
 vox_tvoi_tutor_ruin_grav_slam_first_0
 vox_tvoi_tutor_ruin_grav_slam_first_1
 hash_7d333f69d30dc6a6
-hash_22f8323ec59984cb
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_first_1_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -840,7 +840,7 @@ mature
 vox_tvoi_tutor_ruin_grav_slam_first_1
 vox_tvoi_tutor_ruin_grav_slam_first_2
 hash_689491cf402d214b
-hash_149b238b4e053cae
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_first_2_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -849,7 +849,7 @@ mature
 vox_tvoi_tutor_ruin_grav_slam_first_2
 vox_tvoi_tutor_ruin_grav_slam_nag
 hash_3b2f65514d8027c2
-hash_7505934a98944fcf
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_nag_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -857,7 +857,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ruin_grav_slam_nag
 hash_5a769346660a4ccb
-hash_348dd97b2ec762d2
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_nag_01.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -865,7 +865,7 @@ mpl_announcer
 mature
 vox_tvoi_tutor_ruin_grav_slam_nag
 hash_63369507e89378e8
-hash_39e57bf0cd27fbbd
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_nag_02.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -874,7 +874,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_grav_slam_nag
 hash_20312da5f515ddb2
-hash_367d7ebc5abb6c6b
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_nag_02_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -883,7 +883,7 @@ mature
 safe
 vox_tvoi_tutor_ruin_grav_slam_nag
 hash_5e56eaa1e362b381
-hash_30b4614439cc3a28
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_nag_03.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -892,7 +892,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_grav_slam_nag
 hash_72816a535808c20b
-hash_587b442e8410ba46
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_grav_slam_nag_03_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -935,7 +935,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_slide_3_miss_nag
 hash_3274f98142f18d43
-hash_680c2d17db04776
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_slide_3_miss_nag_03_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -954,7 +954,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_slide_3_nag
 hash_f99a559d300c4c9
-hash_4f6bb495d218e42c
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_slide_3_nag_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -997,7 +997,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_slide_4_fail
 hash_2f676ab2c53b15b6
-hash_732f876670dffe37
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_slide_4_fail_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1032,7 +1032,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_slide_4_nag
 hash_6813c4d9c099f5c5
-hash_3001087d6a6e4434
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_slide_4_nag_01_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1083,7 +1083,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_slide_8_nag
 hash_5854c2e0b943ee76
-hash_2d928b8a0a014e0b
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_slide_8_nag_02_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1101,7 +1101,7 @@ mature
 vox_tvoi_tutor_ruin_slide_8_nag
 vox_tvoi_tutor_ruin_spawn_beacon_0
 hash_56e511e45db7da30
-hash_283f64cd6eaad401
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_spawn_beacon_0_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1110,7 +1110,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_spawn_beacon_0
 hash_7daba31cbe00f26a
-hash_1cbbda7e2c5f0787
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_spawn_beacon_0_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1120,7 +1120,7 @@ safe
 vox_tvoi_tutor_ruin_spawn_beacon_0
 vox_tvoi_tutor_ruin_spawn_beacon_1
 hash_2d058072c127375b
-hash_556c44e726f392fa
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_spawn_beacon_1_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1129,7 +1129,7 @@ mature
 vox_tvoi_tutor_ruin_spawn_beacon_1
 vox_tvoi_tutor_ruin_spawn_beacon_2
 hash_3098577ce2cc3db6
-hash_a64393c75776217
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_spawn_beacon_2_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1138,7 +1138,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_spawn_beacon_2
 hash_275908b3e96cf848
-hash_7674273ebf071d
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_spawn_beacon_2_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1148,7 +1148,7 @@ safe
 vox_tvoi_tutor_ruin_spawn_beacon_2
 vox_tvoi_tutor_ruin_spawn_beacon_first
 hash_42ff0bb38f55457e
-hash_316624c4063897bf
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_spawn_beacon_first_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1157,7 +1157,7 @@ mature
 vox_tvoi_tutor_ruin_spawn_beacon_first
 vox_tvoi_tutor_ruin_spawn_destroyed
 hash_fef503cb43a5182
-hash_14230838e33c87cb
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_spawn_destroyed_00.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en
@@ -1175,7 +1175,7 @@ mature
 explicit
 vox_tvoi_tutor_ruin_start
 hash_5890539bdfcbaf4b
-hash_4484cf35dbe0b322
+en\vox\scripted\silo\tvoi\vox_tvoi_tutor_ruin_start_00_s.sn100.pc.snd
 mp_silo.en
 mp_silo.en
 mp_silo.en

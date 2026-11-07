@@ -515,7 +515,7 @@ i_t7_concrete_bare_wet_warm_n
 i_t8_zm_esc_blood_text_locations_c
 $camo_base_gloss
 $identitynormalmap
-hash_dce1676f28b9d24
+i_t8_zm_esc_blood_writings_dry_01_c
 i_wpn_t8_eqp_heal_aid_1_s
 i_wpn_t8_eqp_heal_aid_1_o
 i_wpn_t8_eqp_heal_aid_1_n
@@ -689,7 +689,7 @@ phy_gibs
 gib
 c_t8_zmb_mob_zombie_body2_g_behead
 c_t8_zmb_mob_zombie_head2_cage
-hash_1d87a01f651d83ad
+c_t8_zmb_zod_chaos_corpse_fb1
 c_t8_zmb_mob_zombie_body2_g_larmoff
 c_t8_zmb_mob_zombie_body2_g_upclean
 c_t8_zmb_mob_zombie_body1

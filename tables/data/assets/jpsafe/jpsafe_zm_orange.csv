@@ -322,7 +322,7 @@ image,d#i_c_t8_zmb_zod_zombie_leg_n
 image,d#i_c_t8_zmb_zod_zombie_leg_g
 image,d#i_c_t8_zmb_zod_zombie_leg_c
 image,d#$white_diffuse
-image,#hash_224ebef36e0d1519
+image,#i_c_t8_zmb_dlc4_electric_zombie_legs_n_snow
 image,d#i_c_t8_zmb_male_head3_g
 image,d#i_c_t8_zmb_male_head3_c
 image,d#i_c_t8_zmb_male_head3_m
@@ -342,9 +342,9 @@ image,d#i_c_t8_zmb_male_jacket_g
 image,d#i_c_t8_zmb_male_jacket_c
 image,d#i_c_t8_zmb_male_jacket_o
 image,d#i_c_t8_zmb_male_jacket_n
-image,#hash_28a5358f234adeb9
-image,#hash_28a5398f234ae585
-image,#hash_28a53c8f234aea9e
+image,#i_mtl_p8_zm_off_cadaver_morgue_body_g
+image,#i_mtl_p8_zm_off_cadaver_morgue_body_c
+image,#i_mtl_p8_zm_off_cadaver_morgue_body_n
 image,#i_c_t8_zmb_female_wrap1_c
 image,#i_c_t8_zmb_female_wrap1_g
 image,#i_c_t8_zmb_female_wrap1_o
@@ -353,7 +353,7 @@ image,#i_c_t8_zmb_1stclass_female_shoe1_g
 image,#i_c_t8_zmb_1stclass_female_shoe1_c
 image,#i_c_t8_zmb_1stclass_female_shoe1_n
 image,d#$white_reveal
-image,#hash_2d86363185ba6d47
+image,#i_c_t8_zmb_dlc4_electric_zombie_arms_n_snow
 image,d#i_c_t8_zmb_male_torso1_c
 image,d#i_c_t8_zmb_male_torso1_g
 image,d#i_c_t8_zmb_male_torso1_o
@@ -378,7 +378,7 @@ image,#i_c_t8_zmb_male_pants_lt_1_o
 image,d#i_c_t8_zmb_male_pants_lt_1_c
 image,#i_c_t8_zmb_male_pants_lt_1_g
 image,d#i_mtl_c_t8_zmb_eye_glow
-image,#hash_3f6aadbbfe81b766
+image,#i_mtl_p8_zm_off_cadaver_morgue_eye_c
 image,#i_c_t8_zmb_female_dresstop2_n
 image,d#$white_ao
 image,d#$white_specular
@@ -395,7 +395,7 @@ image,#hash_46db3e6a94bd7e07
 image,d#i_c_t8_zmb_gib_gore_stump_c
 image,d#i_c_t8_zmb_gib_gore_stump_n
 image,d#tv_lookup
-image,#hash_486604ae04d3dae5
+image,#i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_ao
 image,d#i_c_t8_zmb_male_pants_lt_3_g
 image,d#i_c_t8_zmb_male_pants_lt_3_c
 image,d#i_c_t8_zmb_male_pants_lt_3_n
@@ -416,7 +416,7 @@ image,d#i_c_t8_zmb_male_pants_rt_3_c
 image,d#i_c_t8_zmb_male_pants_rt_3_g
 image,d#$black
 image,d#skin_pore_detail
-image,#hash_5b9fd838f83ec450
+image,#i_mtl_p8_zm_off_cadaver_morgue_body_ao
 image,#i_c_t8_zmb_3rdclass_fem_blouse1_n
 image,#i_c_t8_zmb_3rdclass_fem_blouse1_m
 image,#i_c_t8_zmb_3rdclass_fem_blouse1_g
@@ -425,7 +425,7 @@ image,#i_c_t8_zmb_dlc4_electric_zombie_legs_c_snow
 image,d#$white_thickness
 image,d#i_c_t8_zmb_gib_gore_blood_n
 image,d#i_c_t8_zmb_gib_gore_blood_c
-image,#hash_667ea1fe322cfab2
+image,#i_c_t8_zmb_dlc4_electric_zombie_body_n_snow
 image,#i_c_t8_zmb_3rdclass_fem_lace_c
 image,#i_c_t8_zmb_3rdclass_fem_lace_n
 image,#i_c_t8_zmb_male_shirtsleeves_2_c
@@ -463,12 +463,12 @@ image,d#i_c_t8_zmb_male_arms1_n
 image,#i_c_t8_zmb_catalyst_electric_arms_n
 image,#i_c_t8_zmb_catalyst_electric_arms_o
 image,#i_c_t8_zmb_catalyst_electric_arms_c
-image,#hash_7ed7f175833f73b5
-image,#hash_7ed7f475833f78ce
-image,#hash_7ed7f875833f7f9a
+image,#i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_n
+image,#i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_c
+image,#i_mtl_p8_zm_off_cadaver_morgue_cloth_jp_g
 keyvaluepairs,#jpsafe_zm_orange
 surfacesounddef,d#phy_gibs_sounddef
-material,#hash_197b1686e4ee3f7
+material,#mc/mtl_p8_zm_off_cadaver_morgue_eye
 material,#mc/mtl_c_t8_zmb_1stclass_female_gloves6
 material,#mc/mtl_c_t8_zmb_1stclass_female_gloves5
 material,#mc/mtl_c_t8_zmb_1stclass_female_gloves4
@@ -489,7 +489,7 @@ material,#mc/mtl_c_t8_zmb_1stclass_female_dress5_int
 material,d#mc/mtl_c_t8_zmb_male_shirt
 material,d#mc/mtl_c_t8_zmb_male_arms_bloody
 material,d#mc/mtl_c_t8_zmb_eyes
-material,#hash_19d5887f273158d2
+material,#mc/mtl_p8_zm_off_cadaver_morgue_body
 material,d#mc/mtl_c_t8_zmb_male_vest
 material,d#mc/mtl_c_t8_zmb_male_boot_sole
 material,#mc/mtl_c_t8_zmb_2ndclass_fem_dress_cuffs_skin2
@@ -558,7 +558,7 @@ material,#mc/mtl_c_t8_zmb_3rdclass_fem_blouse_skin2
 material,#mc/mtl_c_t8_zmb_3rdclass_fem_blouse_skin3
 material,#mc/mtl_c_t8_zmb_dlc0_male_head3_skin2
 material,d#mc/mtl_c_t8_zmb_male_boots
-material,#hash_4eb857611eb8d320
+material,#mc/mtl_c_t8_gen_gib_gore_leg_calf_alpha_graphic
 material,#mc/mtl_c_t8_zmb_1stclass_female_dress3_int
 material,#mc/mtl_c_t8_zmb_female_head_1
 material,#mc/mtl_c_t8_zmb_3rdclass_fem_blouse
@@ -615,7 +615,7 @@ material,#mc/mtl_c_t8_zmb_male_tie_skin3
 material,#mc/mtl_c_t8_zmb_male_tie_skin4
 material,d#mc/mtl_c_t8_zmb_male_bowtie_1
 material,#mc/mtl_c_t8_zmb_1stclass_female_dress4_int
-material,#hash_7fba903b62a48b29
+material,#mc/mtl_p8_zm_off_cadaver_morgue_cloth_jp
 impactsoundstable,d#phy_gibs
 physpreset,d#gib_zombie
 physpreset,d#gib

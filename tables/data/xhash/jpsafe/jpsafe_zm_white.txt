@@ -191,7 +191,7 @@ mc/mtl_c_t8_zmb_male_metal
 mc/mtl_c_t8_zmb_male_arms1
 mc/mtl_c_t8_zmb_gore_tile
 mc/mtl_c_t8_zmb_male_boots
-hash_4eb857611eb8d320
+mc/mtl_c_t8_gen_gib_gore_leg_calf_alpha_graphic
 hash_d5b212072fe9283e
 hash_d5d40e07300607d8
 mc/mtl_c_t8_zmb_male_head1_lod

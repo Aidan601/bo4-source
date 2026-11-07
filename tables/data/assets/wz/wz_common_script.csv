@@ -13,9 +13,9 @@ xanim,d#hash_1042d8f0fc9dd4b8
 xanim,#vm_grab_bare_hands
 xanim,d#hash_10e05769f3205919
 xanim,d#hash_1154a4d68993f7f2
-xanim,d#hash_1261c26d1bc75d04
+xanim,d#vm_stun_reaction_loop_rh_additive
 xanim,#vm_grab_rh_additive
-xanim,d#hash_12d8d714bfc1cb79
+xanim,d#vm_stun_reaction_out_rh
 xanim,#vm_spray_can_additive
 xanim,#pt_rifle_stand_door_interact_rh
 xanim,#hash_19feaef63ab0ef51
@@ -40,7 +40,7 @@ xanim,d#hash_41c8dd6d66be9cde
 xanim,d#vm_battle_cry_additive
 xanim,#vm_door_interact_sig_bow_additive
 xanim,#vm_concertina_wire_reaction_one_handed_additive
-xanim,d#hash_4ee2a8dc1095f771
+xanim,d#vm_stun_reaction_in_rh_additive
 xanim,d#vm_concertina_wire_reaction
 xanim,#pt_brawler_prone_grab_gesture
 xanim,#vm_door_interact_one_handed_additive
@@ -54,7 +54,7 @@ xanim,#pt_brawler_stand_grab_gesture
 xanim,#pt_brawler_prone_door_interact
 xanim,d#hash_61d10bedb1f9736c
 xanim,#vm_door_interact_sig_bow
-xanim,d#hash_6753e9b1e5a0dcfc
+xanim,d#vm_stun_reaction_in_rh
 xanim,#pt_rifle_stand_grab_gesture_rh
 xanim,#vm_door_interact_rh
 xanim,#vm_grab_additive
@@ -65,9 +65,9 @@ xanim,#vm_concertina_wire_reaction_bare_hands
 xanim,d#vm_battle_cry_one_handed_additive
 xanim,#vm_concertina_wire_reaction_sig_bow_additive
 xanim,d#vm_battle_cry_sig_bow_additive
-xanim,d#hash_7bdc9ffd28b08d8f
+xanim,d#vm_stun_reaction_loop_rh
 xanim,#vm_spray_can_bare_handed_additive
-xanim,d#hash_7d9c66034011c5da
+xanim,d#vm_stun_reaction_out_rh_additive
 xmodelmesh,d#hash_13040ea2fa152da8
 xmodelmesh,d#hash_3c9dc0d6a4b75f8f
 xmodelmesh,d#hash_3fc4d1d00956da47

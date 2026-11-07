@@ -777,7 +777,7 @@ material,#mc/mtl_c_t8_zmb_blightfather_legs_noreveal
 material,#vd/t8_decal_blood_drip_floor_directional_02
 material,#wc/t8_decal_blood_splatter_wall_directional_03
 material,d#mc/mtl_c_t8_zmb_male_torso1_lod
-material,#hash_26567a6636ee2408
+material,#mc/mtl_c_t8_zmb_3rdclass_fem_blouse_buttons2
 material,d#mc/mtl_c_t8_zmb_male_head1
 material,d#mc/mtl_c_t8_zmb_male_head3
 material,#wc/t8_decal_blood_puddle_floor_01_hard
@@ -870,7 +870,7 @@ material,#mc/mtl_c_t8_zmb_2ndclass_fem_dress_sleeves1
 material,#mc/t7_decal_blood_puddles_01
 material,#mc/mtl_c_t8_zmb_catalyst_decay_torso_noreveal
 material,#mc/mtl_c_t8_zmb_catalyst_decay_legs
-material,#hash_5d71f39a7615b5fc
+material,#mc/mtl_c_t8_zmb_2ndclass_fem_torso_gore2
 material,#mc/mtl_c_t8_zmb_blightfather_arms
 material,#mc/mtl_c_t8_zmb_catalyst_water_legs
 material,#mc/mtl_c_t8_zmb_catalyst_fire_legs
@@ -946,9 +946,9 @@ xmodel,#c_t8_zmb_1stclass_male_body3_split
 xmodel,#c_t8_zmb_3rdclass_female_body3_split
 xmodel,d#c_t8_zmb_1stclass_male_body3_g_rarmoff
 xmodel,#c_t8_zmb_1stclass_male_body2_split
-xmodel,#hash_1d87991f651d77c8
-xmodel,#hash_1d879c1f651d7ce1
-xmodel,#hash_1d87a01f651d83ad
+xmodel,#c_t8_zmb_zod_chaos_corpse_fb6
+xmodel,#c_t8_zmb_zod_chaos_corpse_fb5
+xmodel,#c_t8_zmb_zod_chaos_corpse_fb1
 xmodel,#c_t8_zmb_crew_officer_body1_split
 xmodel,#p8_zm_zod_decap_head_female
 xmodel,d#c_t8_zmb_3rdclass_male_body1_g_upclean

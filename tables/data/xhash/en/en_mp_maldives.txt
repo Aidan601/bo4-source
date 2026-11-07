@@ -404,7 +404,7 @@ mature
 vox_vill_losing
 vox_vill_menu_select_ajax
 hash_4584d07aeca1f25d
-hash_19fc0caa5c06c331
+en\vox\scripted\maldives\vill\vox_vill_menu_select_ajax_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -412,7 +412,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_ajax
 hash_63e864a44132ce00
-hash_1b88551dd3f74f0c
+en\vox\scripted\maldives\vill\vox_vill_menu_select_ajax_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -420,7 +420,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_ajax
 hash_5690ed01397d06f
-hash_53e08e040ad39663
+en\vox\scripted\maldives\vill\vox_vill_menu_select_ajax_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -428,7 +428,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_ajax
 hash_305c2575c9e8c77a
-hash_796d1f15c7ee3766
+en\vox\scripted\maldives\vill\vox_vill_menu_select_ajax_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -437,7 +437,7 @@ mature
 vox_vill_menu_select_ajax
 vox_vill_menu_select_battery
 hash_6a1b6cbb32096ee6
-hash_f7d53d25e3264c2
+en\vox\scripted\maldives\vill\vox_vill_menu_select_battery_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -445,7 +445,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_battery
 hash_5883b1c54941131b
-hash_4804bc16eea95dff
+en\vox\scripted\maldives\vill\vox_vill_menu_select_battery_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -453,7 +453,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_battery
 hash_55cf65de33b93e2c
-hash_afe1fa8083966d8
+en\vox\scripted\maldives\vill\vox_vill_menu_select_battery_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -461,7 +461,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_battery
 hash_2e2adeb9f1d31099
-hash_161e38ee05bdb7ad
+en\vox\scripted\maldives\vill\vox_vill_menu_select_battery_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -470,7 +470,7 @@ mature
 vox_vill_menu_select_battery
 vox_vill_menu_select_crash
 hash_2ae740ca97be06a0
-hash_14749ec89b25ebac
+en\vox\scripted\maldives\vill\vox_vill_menu_select_crash_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -478,7 +478,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_crash
 hash_62f379cdbe0483fd
-hash_6c851e7592462251
+en\vox\scripted\maldives\vill\vox_vill_menu_select_crash_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -486,7 +486,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_crash
 hash_1fe96c5d78bece9a
-hash_76f7bd139105af86
+en\vox\scripted\maldives\vill\vox_vill_menu_select_crash_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -494,7 +494,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_crash
 hash_7a494d618caf938f
-hash_62a9ffa488c61003
+en\vox\scripted\maldives\vill\vox_vill_menu_select_crash_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -503,7 +503,7 @@ mature
 vox_vill_menu_select_crash
 vox_vill_menu_select_firebreak
 hash_4d0d6910071e27c8
-hash_77b79541264b9014
+en\vox\scripted\maldives\vill\vox_vill_menu_select_firebreak_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -511,7 +511,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_firebreak
 hash_56f0ef7c07baae25
-hash_5aade0ff32938639
+en\vox\scripted\maldives\vill\vox_vill_menu_select_firebreak_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -519,7 +519,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_firebreak
 hash_420f74a2e81eb962
-hash_5abf2be89415a4e
+en\vox\scripted\maldives\vill\vox_vill_menu_select_firebreak_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -527,7 +527,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_firebreak
 hash_5a844985e4ef5677
-hash_7b3b8870f0b9eb6b
+en\vox\scripted\maldives\vill\vox_vill_menu_select_firebreak_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -536,7 +536,7 @@ mature
 vox_vill_menu_select_firebreak
 vox_vill_menu_select_nomad
 hash_332bc5ce24465020
-hash_743db030089cdf8c
+en\vox\scripted\maldives\vill\vox_vill_menu_select_nomad_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -544,7 +544,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_nomad
 hash_6b37fed14a8ccd7d
-hash_72b167bc90ac53b1
+en\vox\scripted\maldives\vill\vox_vill_menu_select_nomad_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -552,7 +552,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_nomad
 hash_282df1610547181a
-hash_52227a27fc93c7e6
+en\vox\scripted\maldives\vill\vox_vill_menu_select_nomad_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -560,7 +560,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_nomad
 hash_28dd2651937dd0f
-hash_2c95e9163f7926e3
+en\vox\scripted\maldives\vill\vox_vill_menu_select_nomad_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -569,7 +569,7 @@ mature
 vox_vill_menu_select_nomad
 vox_vill_menu_select_outrider
 hash_7e01ca49785614d3
-hash_6c33ff8ed8858c47
+en\vox\scripted\maldives\vill\vox_vill_menu_select_outrider_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -577,7 +577,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_outrider
 hash_2a0c1fe4684bdede
-hash_12f53e43d47d612a
+en\vox\scripted\maldives\vill\vox_vill_menu_select_outrider_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -585,7 +585,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_outrider
 hash_3a516fbc0ec48071
-hash_3a9b196d12a5f035
+en\vox\scripted\maldives\vill\vox_vill_menu_select_outrider_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -593,7 +593,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_outrider
 hash_563964d428e10d24
-hash_279a4aacc994c0
+en\vox\scripted\maldives\vill\vox_vill_menu_select_outrider_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -602,7 +602,7 @@ mature
 vox_vill_menu_select_outrider
 vox_vill_menu_select_prophet
 hash_1be9827e0d5a0975
-hash_788d1939f8ed41e9
+en\vox\scripted\maldives\vill\vox_vill_menu_select_prophet_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -610,7 +610,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_prophet
 hash_63adb59a2509d518
-hash_2eca93476d16d0c4
+en\vox\scripted\maldives\vill\vox_vill_menu_select_prophet_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -618,7 +618,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_prophet
 hash_45c480d29696a4c7
-hash_31b2921b1d653f1b
+en\vox\scripted\maldives\vill\vox_vill_menu_select_prophet_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -626,7 +626,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_prophet
 hash_5c33966ce931b0f2
-hash_29c56a283d422f3e
+en\vox\scripted\maldives\vill\vox_vill_menu_select_prophet_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -635,7 +635,7 @@ mature
 vox_vill_menu_select_prophet
 vox_vill_menu_select_reaper
 hash_2d2cd24093d49a9c
-hash_2fce2de93b2ba708
+en\vox\scripted\maldives\vill\vox_vill_menu_select_reaper_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -643,7 +643,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_reaper
 hash_2cc6c4a6def27209
-hash_5748520e561bd69d
+en\vox\scripted\maldives\vill\vox_vill_menu_select_reaper_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -651,7 +651,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_reaper
 hash_4178d91d9224cb56
-hash_2b98fefe37bf2e32
+en\vox\scripted\maldives\vill\vox_vill_menu_select_reaper_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -659,7 +659,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_reaper
 hash_2f5facf48d84f48b
-hash_783685a611757daf
+en\vox\scripted\maldives\vill\vox_vill_menu_select_reaper_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -668,7 +668,7 @@ mature
 vox_vill_menu_select_reaper
 vox_vill_menu_select_recon
 hash_2df0d35c1f20fdd4
-hash_39d76c26470172e0
+en\vox\scripted\maldives\vill\vox_vill_menu_select_recon_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -676,7 +676,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_recon
 hash_484bcf3805066d21
-hash_15966c2d24897cd5
+en\vox\scripted\maldives\vill\vox_vill_menu_select_recon_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -684,7 +684,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_recon
 hash_58971d380a27848e
-hash_1e1183c745354a4a
+en\vox\scripted\maldives\vill\vox_vill_menu_select_recon_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -692,7 +692,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_recon
 hash_728634ec029edc3
-hash_437b17ed38841c67
+en\vox\scripted\maldives\vill\vox_vill_menu_select_recon_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -701,7 +701,7 @@ mature
 vox_vill_menu_select_recon
 vox_vill_menu_select_ruin
 hash_588149686b73a5e5
-hash_120efb83fed005c9
+en\vox\scripted\maldives\vill\vox_vill_menu_select_ruin_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -709,7 +709,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_ruin
 hash_4eb2f5cb08011b88
-hash_1bc59e32c69b3124
+en\vox\scripted\maldives\vill\vox_vill_menu_select_ruin_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -717,7 +717,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_ruin
 hash_329aa36d60ab5637
-hash_711abdcc6a2d47fb
+en\vox\scripted\maldives\vill\vox_vill_menu_select_ruin_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -725,7 +725,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_ruin
 hash_43b5015de901ad22
-hash_44c9790b9768f59e
+en\vox\scripted\maldives\vill\vox_vill_menu_select_ruin_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -734,7 +734,7 @@ mature
 vox_vill_menu_select_ruin
 vox_vill_menu_select_seraph
 hash_456119e27dcf0e92
-hash_43b3a9e1facaf43e
+en\vox\scripted\maldives\vill\vox_vill_menu_select_seraph_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -742,7 +742,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_seraph
 hash_2ef304482b35b567
-hash_4ba0d1d4daee041b
+en\vox\scripted\maldives\vill\vox_vill_menu_select_seraph_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -750,7 +750,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_seraph
 hash_225fd6a499fdd138
-hash_48b8d3012a9f95c4
+en\vox\scripted\maldives\vill\vox_vill_menu_select_seraph_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -758,7 +758,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_seraph
 hash_2da570b4fa423595
-hash_127b58f3b67606e9
+en\vox\scripted\maldives\vill\vox_vill_menu_select_seraph_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -767,7 +767,7 @@ mature
 vox_vill_menu_select_seraph
 vox_vill_menu_select_spectre
 hash_cc010b9e837fef7
-hash_64737d2113cb316b
+en\vox\scripted\maldives\vill\vox_vill_menu_select_spectre_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -775,7 +775,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_spectre
 hash_744b3bd6eb6761e2
-hash_6ee3e76eac52a04e
+en\vox\scripted\maldives\vill\vox_vill_menu_select_spectre_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -783,7 +783,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_spectre
 hash_92cb6b00b0356a5
-hash_43e5d5af55a4cc39
+en\vox\scripted\maldives\vill\vox_vill_menu_select_spectre_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -791,7 +791,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_spectre
 hash_7f4930440a66d048
-hash_60ef89f1495cd614
+en\vox\scripted\maldives\vill\vox_vill_menu_select_spectre_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -800,7 +800,7 @@ mature
 vox_vill_menu_select_spectre
 vox_vill_menu_select_torque
 hash_21c36013021f1671
-hash_5a241dcb98670245
+en\vox\scripted\maldives\vill\vox_vill_menu_select_torque_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -808,7 +808,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_torque
 hash_3dab552b1c3ba324
-hash_25ee4f340ce3dad0
+en\vox\scripted\maldives\vill\vox_vill_menu_select_torque_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -816,7 +816,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_torque
 hash_6573baa06bb0aad3
-hash_23c7f35e90617
+en\vox\scripted\maldives\vill\vox_vill_menu_select_torque_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -824,7 +824,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_torque
 hash_117e103b5ba674de
-hash_5c54acf4eed5413a
+en\vox\scripted\maldives\vill\vox_vill_menu_select_torque_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -833,7 +833,7 @@ mature
 vox_vill_menu_select_torque
 vox_vill_menu_select_zero
 hash_650f5982d267ba2d
-hash_24720c0a4412ee41
+en\vox\scripted\maldives\vill\vox_vill_menu_select_zero_00.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -841,7 +841,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_zero
 hash_2bc611b6753cce10
-hash_1ccb66ad2a7c5d5c
+en\vox\scripted\maldives\vill\vox_vill_menu_select_zero_01.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -849,7 +849,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_zero
 hash_7aa7ad1a4e5892ff
-hash_11d46576f9121c73
+en\vox\scripted\maldives\vill\vox_vill_menu_select_zero_02.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en
@@ -857,7 +857,7 @@ mpl_announcer
 mature
 vox_vill_menu_select_zero
 hash_244bd2893964738a
-hash_514c89d4470d46f6
+en\vox\scripted\maldives\vill\vox_vill_menu_select_zero_03.sn100.pc.snd
 mp_maldives.en
 mp_maldives.en
 mp_maldives.en

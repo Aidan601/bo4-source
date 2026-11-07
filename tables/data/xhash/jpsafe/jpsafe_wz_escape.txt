@@ -170,7 +170,7 @@ mc/mtl_c_t8_zmb_mob_zombie_body1_rightleg_patch
 mc/global_invisible
 mc/mtl_c_t8_zmb_mob_zombie_body1_shirt_patch
 mc/mtl_c_t8_zmb_mob_zombie_body1_sleeves_patch
-hash_1d87a01f651d83ad
+c_t8_zmb_zod_chaos_corpse_fb1
 p7_gib_chunk_flesh_01
 p7_gib_chunk_flesh_03
 p7_gib_chunk_bone_03

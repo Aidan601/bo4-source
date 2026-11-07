@@ -5349,7 +5349,7 @@ player
 vox_adam_activate_plr_8_2
 vox_adam_activated_adam_0
 hash_63f4640cbf3b766e
-hash_6113dd0e13588d54
+en\vox\scripted\zmb\white\vox_whi_adam_adam_activated_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5357,7 +5357,7 @@ mature
 vox_adam_activated_adam_0
 vox_adam_activated_adam_1
 hash_6fbd88c450a1a02b
-hash_37d82b060d525a79
+en\vox\scripted\zmb\white\vox_whi_adam_adam_activated_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5365,7 +5365,7 @@ mature
 vox_adam_activated_adam_1
 vox_adam_activated_adam_2
 hash_5db4c832d85f5894
-hash_683e673dcb6be68e
+en\vox\scripted\zmb\white\vox_whi_adam_adam_activated_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5373,7 +5373,7 @@ mature
 vox_adam_activated_adam_2
 vox_adam_activated_adam_3
 hash_22dd286acd40ff61
-hash_2f366aeeded7f9ab
+en\vox\scripted\zmb\white\vox_whi_adam_adam_activated_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5381,7 +5381,7 @@ mature
 vox_adam_activated_adam_3
 vox_adam_activated_adam_4
 hash_309d191cbf9e39e2
-hash_1bb84ecdf7015cb8
+en\vox\scripted\zmb\white\vox_whi_adam_adam_activated_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5389,7 +5389,7 @@ mature
 vox_adam_activated_adam_4
 vox_adam_code_mccain_rush_0
 hash_6069ea227c55ee31
-hash_532366caeea6bddb
+en\vox\scripted\zmb\white\vox_whi_rush_adam_code_mccain_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5398,7 +5398,7 @@ mature
 vox_adam_code_mccain_rush_0
 vox_adam_code_mccain_rush_1
 hash_2447305c6a2632c
-hash_189d1a048f2260fe
+en\vox\scripted\zmb\white\vox_whi_rush_adam_code_mccain_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5407,7 +5407,7 @@ mature
 vox_adam_code_mccain_rush_1
 vox_adam_code_mccain_rush_2
 hash_7c0d26d0ec2bd6c3
-hash_5b7f63cc33dee2a9
+en\vox\scripted\zmb\white\vox_whi_rush_adam_code_mccain_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5590,7 +5590,7 @@ player
 vox_adam_code_pernell_plr_8_2
 vox_adam_code_pernell_rush_0
 hash_372546914223ff1a
-hash_60f5b3774e7dde96
+en\vox\scripted\zmb\white\vox_whi_rush_adam_code_pernell_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5599,7 +5599,7 @@ mature
 vox_adam_code_pernell_rush_0
 vox_adam_code_pernell_rush_1
 hash_90d302b6e25cee7
-hash_1e55a73b9c36a813
+en\vox\scripted\zmb\white\vox_whi_rush_adam_code_pernell_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5608,7 +5608,7 @@ mature
 vox_adam_code_pernell_rush_1
 vox_adam_code_sawyer_rush_0
 hash_210feea3aa476059
-hash_4df4ed5c622f83ff
+en\vox\scripted\zmb\white\vox_whi_rush_adam_code_sawyer_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5617,7 +5617,7 @@ mature
 vox_adam_code_sawyer_rush_0
 vox_adam_code_sawyer_rush_1
 hash_52f01ac9ea2acd34
-hash_156d8517d1b88ac2
+en\vox\scripted\zmb\white\vox_whi_rush_adam_code_sawyer_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -5626,7 +5626,7 @@ mature
 vox_adam_code_sawyer_rush_1
 vox_adam_code_sawyer_rush_2
 hash_375f13a84fd9a38b
-hash_1c0e6a337943ddad
+en\vox\scripted\zmb\white\vox_whi_rush_adam_code_sawyer_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -6215,7 +6215,7 @@ mature
 hash_7825bd0d3ac0397f
 vox_adam_revive_adam_0
 hash_f2fcacdc327f1c
-hash_13b340dc7e8de106
+en\vox\scripted\zmb\white\vox_whi_adam_adam_revive_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -6223,7 +6223,7 @@ mature
 vox_adam_revive_adam_0
 vox_adam_revive_adam_1
 hash_4e80ebe05ded5029
-hash_7f65836d764e4183
+en\vox\scripted\zmb\white\vox_whi_adam_adam_revive_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -6231,7 +6231,7 @@ mature
 vox_adam_revive_adam_1
 vox_adam_revive_adam_2
 hash_6221c37bac069bf6
-hash_3130229188ae1d2c
+en\vox\scripted\zmb\white\vox_whi_adam_adam_revive_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -6239,7 +6239,7 @@ mature
 vox_adam_revive_adam_2
 vox_adam_revive_adam_3
 hash_1e869f643593a8f3
-hash_940a23e7fce53d1
+en\vox\scripted\zmb\white\vox_whi_adam_adam_revive_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -6247,7 +6247,7 @@ mature
 vox_adam_revive_adam_3
 vox_adam_revive_adam_4
 hash_240be4954c9e0a90
-hash_6eb5d795a45c3f7a
+en\vox\scripted\zmb\white\vox_whi_adam_adam_revive_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -10971,70 +10971,70 @@ mature
 perspective
 player
 vox_attacked_zombie_plr_8_9
-hash_3781c28ea8f0ce86
+vox_audio_log_stem_1
 hash_234ac81824d23397
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_radio_duck
 mature
-hash_3781c28ea8f0ce86
-hash_3781c18ea8f0ccd3
+vox_audio_log_stem_1
+vox_audio_log_stem_2
 hash_4936daccfbcd0850
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_radio_duck
 mature
-hash_3781c18ea8f0ccd3
-hash_3781c08ea8f0cb20
+vox_audio_log_stem_2
+vox_audio_log_stem_3
 hash_7d6ca96487502fc5
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_radio_duck
 mature
-hash_3781c08ea8f0cb20
-hash_2388406b6c0759fc
+vox_audio_log_stem_3
+vox_audio_reel_stem_1
 hash_193841c40be1a187
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_radio_duck
 mature
-hash_2388406b6c0759fc
-hash_2388436b6c075f15
+vox_audio_reel_stem_1
+vox_audio_reel_stem_2
 hash_29c4dc7fdd40ce00
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_radio_duck
 mature
-hash_2388436b6c075f15
-hash_2388426b6c075d62
+vox_audio_reel_stem_2
+vox_audio_reel_stem_3
 hash_3c99b2d6d56bcb75
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_radio_duck
 mature
-hash_2388426b6c075d62
-hash_23883d6b6c0754e3
+vox_audio_reel_stem_3
+vox_audio_reel_stem_4
 hash_3e8cd529c6ea536
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_radio_duck
 mature
-hash_23883d6b6c0754e3
-hash_23883c6b6c075330
+vox_audio_reel_stem_4
+vox_audio_reel_stem_5
 hash_6c26ebe9c37887b3
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_radio_duck
 mature
-hash_23883c6b6c075330
+vox_audio_reel_stem_5
 vox_blac_exert_blind
 en\vox\scripted\exerts\blac\vox_blac_exert_blind_00.sn100.pc.snd
 zm_white.en
@@ -67869,7 +67869,7 @@ mature
 perspective
 player
 vox_bop5_exert_underwater_pain
-hash_7618777b3e40dec6
+vox_boss_canister_instruct_ncom_4
 hash_33de471a7395f4b1
 en\vox\scripted\zmb\white\vox_whi_ncom_boss_canister_instruct_4.sn100.pc.snd
 zm_white.en
@@ -67877,8 +67877,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_7618777b3e40dec6
-hash_35ec8a3a7004899a
+vox_boss_canister_instruct_ncom_4
+vox_boss_canister_instruct_plr_13_0
 hash_2a934462a2d5d25d
 en\vox\scripted\zmb\white\vox_whi_plr_13_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67887,7 +67887,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_35ec8a3a7004899a
+vox_boss_canister_instruct_plr_13_0
 hash_2a934462a2d5d25d
 en\vox\scripted\zmb\white\vox_whi_plr_13_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67896,8 +67896,8 @@ zm_white.en
 mature
 perspective
 player
-hash_35ec8a3a7004899a
-hash_77b8e93a4c577147
+vox_boss_canister_instruct_plr_13_0
+vox_boss_canister_instruct_plr_14_0
 hash_2a933d62a2d5c678
 en\vox\scripted\zmb\white\vox_whi_plr_14_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67907,7 +67907,7 @@ mature
 explicit
 perspective
 npc
-hash_77b8e93a4c577147
+vox_boss_canister_instruct_plr_14_0
 hash_2a933d62a2d5c678
 en\vox\scripted\zmb\white\vox_whi_plr_14_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67917,7 +67917,7 @@ mature
 explicit
 perspective
 player
-hash_77b8e93a4c577147
+vox_boss_canister_instruct_plr_14_0
 hash_5b310bdb2f3f37c2
 en\vox\scripted\zmb\white\vox_whi_plr_14_boss_canister_instruct_0_s.sn100.pc.snd
 zm_white.en
@@ -67927,7 +67927,7 @@ mature
 safe
 perspective
 npc
-hash_77b8e93a4c577147
+vox_boss_canister_instruct_plr_14_0
 hash_5b310bdb2f3f37c2
 en\vox\scripted\zmb\white\vox_whi_plr_14_boss_canister_instruct_0_s.sn100.pc.snd
 zm_white.en
@@ -67937,8 +67937,8 @@ mature
 safe
 perspective
 player
-hash_77b8e93a4c577147
-hash_7fe1803a50d2249c
+vox_boss_canister_instruct_plr_14_0
+vox_boss_canister_instruct_plr_15_0
 hash_2a933e62a2d5c82b
 en\vox\scripted\zmb\white\vox_whi_plr_15_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67947,7 +67947,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_7fe1803a50d2249c
+vox_boss_canister_instruct_plr_15_0
 hash_2a933e62a2d5c82b
 en\vox\scripted\zmb\white\vox_whi_plr_15_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67956,8 +67956,8 @@ zm_white.en
 mature
 perspective
 player
-hash_7fe1803a50d2249c
-hash_a96373a57769391
+vox_boss_canister_instruct_plr_15_0
+vox_boss_canister_instruct_plr_16_0
 hash_2a933f62a2d5c9de
 en\vox\scripted\zmb\white\vox_whi_plr_16_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67966,7 +67966,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_a96373a57769391
+vox_boss_canister_instruct_plr_16_0
 hash_2a933f62a2d5c9de
 en\vox\scripted\zmb\white\vox_whi_plr_16_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67975,8 +67975,8 @@ zm_white.en
 mature
 perspective
 player
-hash_a96373a57769391
-hash_439b0608e405e9ff
+vox_boss_canister_instruct_plr_16_0
+vox_boss_canister_instruct_plr_5_0
 hash_108d720b688a2cd0
 en\vox\scripted\zmb\white\vox_whi_plr_5_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67985,7 +67985,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_439b0608e405e9ff
+vox_boss_canister_instruct_plr_5_0
 hash_108d720b688a2cd0
 en\vox\scripted\zmb\white\vox_whi_plr_5_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -67994,8 +67994,8 @@ zm_white.en
 mature
 perspective
 player
-hash_439b0608e405e9ff
-hash_5c140b08f174bdbe
+vox_boss_canister_instruct_plr_5_0
+vox_boss_canister_instruct_plr_6_0
 hash_108d750b688a31e9
 en\vox\scripted\zmb\white\vox_whi_plr_6_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -68005,7 +68005,7 @@ mature
 explicit
 perspective
 npc
-hash_5c140b08f174bdbe
+vox_boss_canister_instruct_plr_6_0
 hash_108d750b688a31e9
 en\vox\scripted\zmb\white\vox_whi_plr_6_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -68015,7 +68015,7 @@ mature
 explicit
 perspective
 player
-hash_5c140b08f174bdbe
+vox_boss_canister_instruct_plr_6_0
 hash_2478209aaba23b43
 en\vox\scripted\zmb\white\vox_whi_plr_6_boss_canister_instruct_0_s.sn100.pc.snd
 zm_white.en
@@ -68025,7 +68025,7 @@ mature
 safe
 perspective
 npc
-hash_5c140b08f174bdbe
+vox_boss_canister_instruct_plr_6_0
 hash_2478209aaba23b43
 en\vox\scripted\zmb\white\vox_whi_plr_6_boss_canister_instruct_0_s.sn100.pc.snd
 zm_white.en
@@ -68035,8 +68035,8 @@ mature
 safe
 perspective
 player
-hash_5c140b08f174bdbe
-hash_54c55408edb377c9
+vox_boss_canister_instruct_plr_6_0
+vox_boss_canister_instruct_plr_7_0
 hash_108d740b688a3036
 en\vox\scripted\zmb\white\vox_whi_plr_7_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -68045,7 +68045,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_54c55408edb377c9
+vox_boss_canister_instruct_plr_7_0
 hash_108d740b688a3036
 en\vox\scripted\zmb\white\vox_whi_plr_7_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -68054,8 +68054,8 @@ zm_white.en
 mature
 perspective
 player
-hash_54c55408edb377c9
-hash_296f0108d52581c0
+vox_boss_canister_instruct_plr_7_0
+vox_boss_canister_instruct_plr_8_0
 hash_108d7f0b688a42e7
 en\vox\scripted\zmb\white\vox_whi_plr_8_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -68064,7 +68064,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_296f0108d52581c0
+vox_boss_canister_instruct_plr_8_0
 hash_108d7f0b688a42e7
 en\vox\scripted\zmb\white\vox_whi_plr_8_boss_canister_instruct_0.sn100.pc.snd
 zm_white.en
@@ -68073,8 +68073,8 @@ zm_white.en
 mature
 perspective
 player
-hash_296f0108d52581c0
-hash_2e11762e3da9f7ac
+vox_boss_canister_instruct_plr_8_0
+vox_boss_canister_instruct_rush_1
 hash_56a94c010aa92b05
 en\vox\scripted\zmb\white\vox_whi_rush_boss_canister_instruct_1.sn100.pc.snd
 zm_white.en
@@ -68082,8 +68082,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_2e11762e3da9f7ac
-hash_2e11782e3da9fb12
+vox_boss_canister_instruct_rush_1
+vox_boss_canister_instruct_rush_3
 hash_511017a3c6799167
 en\vox\scripted\zmb\white\vox_whi_rush_boss_canister_instruct_3.sn100.pc.snd
 zm_white.en
@@ -68091,8 +68091,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_2e11782e3da9fb12
-hash_2e11722e3da9f0e0
+vox_boss_canister_instruct_rush_3
+vox_boss_canister_instruct_rush_5
 hash_6e8536d19ffe4e31
 en\vox\scripted\zmb\white\vox_whi_rush_boss_canister_instruct_5.sn100.pc.snd
 zm_white.en
@@ -68100,7 +68100,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_2e11722e3da9f0e0
+vox_boss_canister_instruct_rush_5
 hash_27d8b3ee9c6b1961
 hash_69e2dc314ba8f314
 hash_4c0cc6e24cafc94a
@@ -68182,7 +68182,7 @@ zm_white.en
 zmb_oracle
 mature
 hash_78a2c457071d50f5
-hash_7e42277765ce254
+vox_boss_cannister_fail_ncom_0
 hash_46e7928c932476e5
 hash_4fe7093de3b13ddb
 zm_white.en
@@ -68190,7 +68190,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_7e42277765ce254
+vox_boss_cannister_fail_ncom_0
 vox_boss_electric_warn_plr_13_0
 hash_22572784ffe6d2b1
 en\vox\scripted\zmb\white\vox_whi_plr_13_boss_electric_warn_0.sn100.pc.snd
@@ -69365,7 +69365,7 @@ player
 vox_boss_no_bullet_react_plr_8_0
 vox_boss_nuke_count_eight_ncom_0
 hash_17e7bfa400d84b6
-hash_4d3d512529ec8afc
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_eight_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69374,7 +69374,7 @@ mature
 vox_boss_nuke_count_eight_ncom_0
 vox_boss_nuke_count_five_ncom_0
 hash_26bfd7866d2f26c3
-hash_2f0ad4ed25a35bc1
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_five_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69383,7 +69383,7 @@ mature
 vox_boss_nuke_count_five_ncom_0
 vox_boss_nuke_count_four_ncom_0
 hash_420aabe3533615ef
-hash_26d432fd58f4bdcd
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_four_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69401,7 +69401,7 @@ mature
 vox_boss_nuke_count_ncom_0
 vox_boss_nuke_count_nine_ncom_0
 hash_78087b2389928ca3
-hash_7215e5e4de300291
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_nine_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69410,7 +69410,7 @@ mature
 vox_boss_nuke_count_nine_ncom_0
 vox_boss_nuke_count_one_ncom_0
 hash_76b6f7681d4377a7
-hash_7662da7f8a621e2d
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_one_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69419,7 +69419,7 @@ mature
 vox_boss_nuke_count_one_ncom_0
 vox_boss_nuke_count_seven_ncom_0
 hash_3151a04ebb685e28
-hash_731d0efbf7377ed6
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_seven_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69428,7 +69428,7 @@ mature
 vox_boss_nuke_count_seven_ncom_0
 vox_boss_nuke_count_six_ncom_0
 hash_b1cb2846fc7efdb
-hash_3f4f9045d15e6879
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_six_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69437,7 +69437,7 @@ mature
 vox_boss_nuke_count_six_ncom_0
 vox_boss_nuke_count_ten_ncom_0
 hash_53c615a4fb67f7b2
-hash_479c9cb8fa30a538
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_ten_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69446,7 +69446,7 @@ mature
 vox_boss_nuke_count_ten_ncom_0
 vox_boss_nuke_count_three_ncom_0
 hash_71d0a096416af70b
-hash_3af106fefb8551e1
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_three_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69455,7 +69455,7 @@ mature
 vox_boss_nuke_count_three_ncom_0
 vox_boss_nuke_count_two_ncom_0
 hash_10b1aba87a28ce1d
-hash_4fe6dce4aebd265b
+en\vox\scripted\zmb\white\vox_whi_ncom_boss_nuke_count_two_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -69471,7 +69471,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_boss_nuke_react_avog_0
-hash_320c65a44d0e94fd
+vox_boss_procure_start_ncom_0
 hash_3f3d674daf7d7a5e
 en\vox\scripted\zmb\white\vox_whi_ncom_boss_procure_start_0.sn100.pc.snd
 zm_white.en
@@ -69479,97 +69479,97 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_320c65a44d0e94fd
-hash_3d4371050af52b67
+vox_boss_procure_start_ncom_0
+vox_boss_procure_start_react_avog_0
 hash_69042855cd3ec660
-hash_481c8acf4025d6c2
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d4371050af52b67
-hash_3d4370050af529b4
+vox_boss_procure_start_react_avog_0
+vox_boss_procure_start_react_avog_1
 hash_6b80a9c192d4a4ed
-hash_a3f313d09ccfff
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d4370050af529b4
-hash_3d4373050af52ecd
+vox_boss_procure_start_react_avog_1
+vox_boss_procure_start_react_avog_2
 hash_64ff7f936231cf02
-hash_439d56a4ea2cd8d8
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d4373050af52ecd
-hash_3d4372050af52d1a
+vox_boss_procure_start_react_avog_2
+vox_boss_procure_start_react_avog_3
 hash_7dc8bb7bd74d43ff
-hash_4ebd6feae7b129ad
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d4372050af52d1a
-hash_3d436d050af5249b
+vox_boss_procure_start_react_avog_3
+vox_boss_procure_start_react_avog_4
 hash_32edb488ea27916c
-hash_22f65f0f616faaae
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d436d050af5249b
-hash_3d436c050af522e8
+vox_boss_procure_start_react_avog_4
+vox_boss_procure_start_react_avog_5
 hash_77bfcc65d5eba709
-hash_31aa79683e1be0cb
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d436c050af522e8
-hash_3d436f050af52801
+vox_boss_procure_start_react_avog_5
+vox_boss_procure_start_react_avog_6
 hash_1c8f043016466a9e
-hash_2f11119c46851f74
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d436f050af52801
-hash_3d436e050af5264e
+vox_boss_procure_start_react_avog_6
+vox_boss_procure_start_react_avog_7
 hash_404ebf586e2b7e8b
-hash_19ee82b0092f6719
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_7.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d436e050af5264e
-hash_3d4369050af51dcf
+vox_boss_procure_start_react_avog_7
+vox_boss_procure_start_react_avog_8
 hash_4d657ed7449058b8
-hash_3e0c175098b630ba
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_8.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d4369050af51dcf
-hash_3d4368050af51c1c
+vox_boss_procure_start_react_avog_8
+vox_boss_procure_start_react_avog_9
 hash_68bbcabfbbd72125
-hash_61b9a6dadfc9f597
+en\vox\scripted\zmb\white\vox_whi_avog_boss_procure_start_react_9.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3d4368050af51c1c
+vox_boss_procure_start_react_avog_9
 vox_boss_radial_attack_react_plr_13_0
 hash_21482f064915c929
 en\vox\scripted\zmb\white\vox_whi_plr_13_boss_radial_attack_react_0.sn100.pc.snd
@@ -81208,7 +81208,7 @@ player
 vox_box_tactical_plr_8_4
 vox_co_op_end_round1_demp_plr_13_3
 hash_3ebb31ec5c568d05
-hash_fa1a17f06d2a4bb
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_demp_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81217,7 +81217,7 @@ perspective
 npc
 vox_co_op_end_round1_demp_plr_13_3
 hash_3ebb31ec5c568d05
-hash_fa1a17f06d2a4bb
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_demp_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81227,7 +81227,7 @@ player
 vox_co_op_end_round1_demp_plr_13_3
 vox_co_op_end_round1_demp_plr_15_2
 hash_771cbddb97919386
-hash_2f35359fae0a0e64
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_demp_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81236,7 +81236,7 @@ perspective
 npc
 vox_co_op_end_round1_demp_plr_15_2
 hash_771cbddb97919386
-hash_2f35359fae0a0e64
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_demp_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81246,7 +81246,7 @@ player
 vox_co_op_end_round1_demp_plr_15_2
 vox_co_op_end_round1_demp_plr_16_4
 hash_68e70ee947998ad
-hash_66e016216d2bc961
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_demp_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81255,7 +81255,7 @@ perspective
 npc
 vox_co_op_end_round1_demp_plr_16_4
 hash_68e70ee947998ad
-hash_66e016216d2bc961
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_demp_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81265,7 +81265,7 @@ player
 vox_co_op_end_round1_demp_plr_16_4
 vox_co_op_end_round1_demp_plr_5_6
 hash_df900efcf70370f
-hash_d6bcba6853ca749
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_demp_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81274,7 +81274,7 @@ perspective
 npc
 vox_co_op_end_round1_demp_plr_5_6
 hash_df900efcf70370f
-hash_d6bcba6853ca749
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_demp_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81284,7 +81284,7 @@ player
 vox_co_op_end_round1_demp_plr_5_6
 vox_co_op_end_round1_demp_plr_6_0
 hash_69d9ff3fefc09018
-hash_3eb3b60dbac72cf4
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_demp_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81293,7 +81293,7 @@ perspective
 npc
 vox_co_op_end_round1_demp_plr_6_0
 hash_69d9ff3fefc09018
-hash_3eb3b60dbac72cf4
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_demp_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81303,7 +81303,7 @@ player
 vox_co_op_end_round1_demp_plr_6_0
 vox_co_op_end_round1_demp_plr_7_5
 hash_2e8259546fc96654
-hash_5fb80009b943c9a0
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_demp_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81312,7 +81312,7 @@ perspective
 npc
 vox_co_op_end_round1_demp_plr_7_5
 hash_2e8259546fc96654
-hash_5fb80009b943c9a0
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_demp_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81322,7 +81322,7 @@ player
 vox_co_op_end_round1_demp_plr_7_5
 vox_co_op_end_round1_demp_plr_8_1
 hash_59c3fa59238c800d
-hash_49d8d723c71b9953
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_demp_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81331,7 +81331,7 @@ perspective
 npc
 vox_co_op_end_round1_demp_plr_8_1
 hash_59c3fa59238c800d
-hash_49d8d723c71b9953
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_demp_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81341,7 +81341,7 @@ player
 vox_co_op_end_round1_demp_plr_8_1
 vox_co_op_end_round1_niko_plr_13_4
 hash_4168d9344f31822d
-hash_49d8c3136a464f03
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_niko_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81350,7 +81350,7 @@ perspective
 npc
 vox_co_op_end_round1_niko_plr_13_4
 hash_4168d9344f31822d
-hash_49d8c3136a464f03
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_niko_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81360,7 +81360,7 @@ player
 vox_co_op_end_round1_niko_plr_13_4
 vox_co_op_end_round1_niko_plr_14_5
 hash_370e5ddd22ccb4c1
-hash_3fac49ad4bc9b1a1
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_niko_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81369,7 +81369,7 @@ perspective
 npc
 vox_co_op_end_round1_niko_plr_14_5
 hash_370e5ddd22ccb4c1
-hash_3fac49ad4bc9b1a1
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_niko_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81379,7 +81379,7 @@ player
 vox_co_op_end_round1_niko_plr_14_5
 vox_co_op_end_round1_niko_plr_16_6
 hash_4035b3144b4dc2e4
-hash_26873d56f3b26988
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_niko_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81388,7 +81388,7 @@ perspective
 npc
 vox_co_op_end_round1_niko_plr_16_6
 hash_4035b3144b4dc2e4
-hash_26873d56f3b26988
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_niko_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81398,7 +81398,7 @@ player
 vox_co_op_end_round1_niko_plr_16_6
 vox_co_op_end_round1_niko_plr_5_1
 hash_26c68ba95af04f27
-hash_2a0ec3fcd907cb09
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_niko_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81407,7 +81407,7 @@ perspective
 npc
 vox_co_op_end_round1_niko_plr_5_1
 hash_26c68ba95af04f27
-hash_2a0ec3fcd907cb09
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_niko_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81417,7 +81417,7 @@ player
 vox_co_op_end_round1_niko_plr_5_1
 vox_co_op_end_round1_niko_plr_6_2
 hash_297333b9b6101aff
-hash_6d1335d7a487eef5
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_niko_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81426,7 +81426,7 @@ perspective
 npc
 vox_co_op_end_round1_niko_plr_6_2
 hash_297333b9b6101aff
-hash_6d1335d7a487eef5
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_niko_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81436,7 +81436,7 @@ player
 vox_co_op_end_round1_niko_plr_6_2
 vox_co_op_end_round1_niko_plr_7_0
 hash_72ed4e92b49e560a
-hash_67670086b7bd4262
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_niko_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81445,7 +81445,7 @@ perspective
 npc
 vox_co_op_end_round1_niko_plr_7_0
 hash_72ed4e92b49e560a
-hash_67670086b7bd4262
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_niko_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81455,7 +81455,7 @@ player
 vox_co_op_end_round1_niko_plr_7_0
 vox_co_op_end_round1_niko_plr_8_3
 hash_72743317e1649476
-hash_6d0aec957402fdc2
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_niko_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81464,7 +81464,7 @@ perspective
 npc
 vox_co_op_end_round1_niko_plr_8_3
 hash_72743317e1649476
-hash_6d0aec957402fdc2
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_niko_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81474,7 +81474,7 @@ player
 vox_co_op_end_round1_niko_plr_8_3
 vox_co_op_end_round1_rich_plr_14_4
 hash_13a87340ec3d35df
-hash_7e046a5ba6edb077
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_rich_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81483,7 +81483,7 @@ perspective
 npc
 vox_co_op_end_round1_rich_plr_14_4
 hash_13a87340ec3d35df
-hash_7e046a5ba6edb077
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_rich_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81493,7 +81493,7 @@ player
 vox_co_op_end_round1_rich_plr_14_4
 vox_co_op_end_round1_rich_plr_15_3
 hash_61acb7a03dd355cb
-hash_4d1a72b764096d99
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_rich_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81502,7 +81502,7 @@ perspective
 npc
 vox_co_op_end_round1_rich_plr_15_3
 hash_61acb7a03dd355cb
-hash_4d1a72b764096d99
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_rich_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81512,7 +81512,7 @@ player
 vox_co_op_end_round1_rich_plr_15_3
 vox_co_op_end_round1_rich_plr_16_5
 hash_19d14d1ef6163f40
-hash_69eaedd054e621d4
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_rich_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81521,7 +81521,7 @@ perspective
 npc
 vox_co_op_end_round1_rich_plr_16_5
 hash_19d14d1ef6163f40
-hash_69eaedd054e621d4
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_rich_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81531,7 +81531,7 @@ player
 vox_co_op_end_round1_rich_plr_16_5
 vox_co_op_end_round1_rich_plr_5_0
 hash_51b9885d308d14d9
-hash_5cedb2aa3d4da487
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_rich_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81540,7 +81540,7 @@ perspective
 npc
 vox_co_op_end_round1_rich_plr_5_0
 hash_51b9885d308d14d9
-hash_5cedb2aa3d4da487
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_rich_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81550,7 +81550,7 @@ player
 vox_co_op_end_round1_rich_plr_5_0
 vox_co_op_end_round1_rich_plr_6_1
 hash_60b79af305f3800b
-hash_7ac34ca00ca62b79
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_rich_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81559,7 +81559,7 @@ perspective
 npc
 vox_co_op_end_round1_rich_plr_6_1
 hash_60b79af305f3800b
-hash_7ac34ca00ca62b79
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_rich_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81569,7 +81569,7 @@ player
 vox_co_op_end_round1_rich_plr_6_1
 vox_co_op_end_round1_rich_plr_7_6
 hash_4dd7280110f6db5d
-hash_53b41d750784f777
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_rich_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81578,7 +81578,7 @@ perspective
 npc
 vox_co_op_end_round1_rich_plr_7_6
 hash_4dd7280110f6db5d
-hash_53b41d750784f777
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_rich_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81588,7 +81588,7 @@ player
 vox_co_op_end_round1_rich_plr_7_6
 vox_co_op_end_round1_rich_plr_8_2
 hash_26dad9eb4ec6784
-hash_57d74644cde1b4bc
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_rich_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81597,7 +81597,7 @@ perspective
 npc
 vox_co_op_end_round1_rich_plr_8_2
 hash_26dad9eb4ec6784
-hash_57d74644cde1b4bc
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_rich_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81607,7 +81607,7 @@ player
 vox_co_op_end_round1_rich_plr_8_2
 vox_co_op_end_round1_take_plr_13_2
 hash_1977940844b0dc3b
-hash_65ffba4d4c763159
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_take_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81616,7 +81616,7 @@ perspective
 npc
 vox_co_op_end_round1_take_plr_13_2
 hash_1977940844b0dc3b
-hash_65ffba4d4c763159
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_take_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81626,7 +81626,7 @@ player
 vox_co_op_end_round1_take_plr_13_2
 vox_co_op_end_round1_take_plr_14_3
 hash_6088aec2ef786b43
-hash_3dca348979313d8f
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_take_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81635,7 +81635,7 @@ perspective
 npc
 vox_co_op_end_round1_take_plr_14_3
 hash_6088aec2ef786b43
-hash_3dca348979313d8f
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_take_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81645,7 +81645,7 @@ player
 vox_co_op_end_round1_take_plr_14_3
 vox_co_op_end_round1_take_plr_15_1
 hash_533f756e2e8cc1be
-hash_208f0f9f0b6c0e6c
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_take_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81654,7 +81654,7 @@ perspective
 npc
 vox_co_op_end_round1_take_plr_15_1
 hash_533f756e2e8cc1be
-hash_208f0f9f0b6c0e6c
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_take_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81664,7 +81664,7 @@ player
 vox_co_op_end_round1_take_plr_15_1
 vox_co_op_end_round1_take_plr_5_5
 hash_1ba837afb50328d7
-hash_57e2ac177bec0685
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_take_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81673,7 +81673,7 @@ perspective
 npc
 vox_co_op_end_round1_take_plr_5_5
 hash_1ba837afb50328d7
-hash_57e2ac177bec0685
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_take_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81683,7 +81683,7 @@ player
 vox_co_op_end_round1_take_plr_5_5
 vox_co_op_end_round1_take_plr_6_6
 hash_48bc7fa99104736f
-hash_6500908af742027d
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_take_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81692,7 +81692,7 @@ perspective
 npc
 vox_co_op_end_round1_take_plr_6_6
 hash_48bc7fa99104736f
-hash_6500908af742027d
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_take_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81702,7 +81702,7 @@ player
 vox_co_op_end_round1_take_plr_6_6
 vox_co_op_end_round1_take_plr_7_4
 hash_55dbaf9f0582af3a
-hash_3e4ea3a9a8614106
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_take_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81711,7 +81711,7 @@ perspective
 npc
 vox_co_op_end_round1_take_plr_7_4
 hash_55dbaf9f0582af3a
-hash_3e4ea3a9a8614106
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_take_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81721,7 +81721,7 @@ player
 vox_co_op_end_round1_take_plr_7_4
 vox_co_op_end_round1_take_plr_8_0
 hash_1c63bbdcdf02fc67
-hash_332ee0264dfd79a9
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_take_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81730,7 +81730,7 @@ perspective
 npc
 vox_co_op_end_round1_take_plr_8_0
 hash_1c63bbdcdf02fc67
-hash_332ee0264dfd79a9
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_take_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81740,7 +81740,7 @@ player
 vox_co_op_end_round1_take_plr_8_0
 vox_co_op_end_round1_udem_plr_13_6
 hash_683037b9656fa2fb
-hash_28627c8b8131ab61
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_udem_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81749,7 +81749,7 @@ perspective
 npc
 vox_co_op_end_round1_udem_plr_13_6
 hash_683037b9656fa2fb
-hash_28627c8b8131ab61
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_udem_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81759,7 +81759,7 @@ player
 vox_co_op_end_round1_udem_plr_13_6
 vox_co_op_end_round1_udem_plr_14_0
 hash_39a88e90c1ec05b4
-hash_7eb6197b5e60b1d8
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_udem_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81768,7 +81768,7 @@ perspective
 npc
 vox_co_op_end_round1_udem_plr_14_0
 hash_39a88e90c1ec05b4
-hash_7eb6197b5e60b1d8
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_udem_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81778,7 +81778,7 @@ player
 vox_co_op_end_round1_udem_plr_14_0
 vox_co_op_end_round1_udem_plr_15_5
 hash_2b5586725dbd717e
-hash_6a32c329a61f64e8
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_udem_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81787,7 +81787,7 @@ perspective
 npc
 vox_co_op_end_round1_udem_plr_15_5
 hash_2b5586725dbd717e
-hash_6a32c329a61f64e8
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_udem_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81797,7 +81797,7 @@ player
 vox_co_op_end_round1_udem_plr_15_5
 vox_co_op_end_round1_udem_plr_16_1
 hash_15f211acf6429067
-hash_94b957c4b5675e7
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_udem_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81806,7 +81806,7 @@ perspective
 npc
 vox_co_op_end_round1_udem_plr_16_1
 hash_15f211acf6429067
-hash_94b957c4b5675e7
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_udem_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81816,7 +81816,7 @@ player
 vox_co_op_end_round1_udem_plr_16_1
 vox_co_op_end_round1_udem_plr_5_3
 hash_14b35cc487c385fd
-hash_54c10b156664cbf3
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_udem_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81825,7 +81825,7 @@ perspective
 npc
 vox_co_op_end_round1_udem_plr_5_3
 hash_14b35cc487c385fd
-hash_54c10b156664cbf3
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_udem_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81835,7 +81835,7 @@ player
 vox_co_op_end_round1_udem_plr_5_3
 vox_co_op_end_round1_udem_plr_7_2
 hash_67e37650b916cbfc
-hash_7c0647e4b3a6ee84
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_udem_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81844,7 +81844,7 @@ perspective
 npc
 vox_co_op_end_round1_udem_plr_7_2
 hash_67e37650b916cbfc
-hash_7c0647e4b3a6ee84
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_udem_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81854,7 +81854,7 @@ player
 vox_co_op_end_round1_udem_plr_7_2
 vox_co_op_end_round1_udem_plr_8_4
 hash_7615eecd1696cba7
-hash_2b3c0542546c07d5
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_udem_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81863,7 +81863,7 @@ perspective
 npc
 vox_co_op_end_round1_udem_plr_8_4
 hash_7615eecd1696cba7
-hash_2b3c0542546c07d5
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_udem_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81873,7 +81873,7 @@ player
 vox_co_op_end_round1_udem_plr_8_4
 vox_co_op_end_round1_unik_plr_13_1
 hash_5999001c7a1fe854
-hash_4127e428c8489b3e
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_unik_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81882,7 +81882,7 @@ perspective
 npc
 vox_co_op_end_round1_unik_plr_13_1
 hash_5999001c7a1fe854
-hash_4127e428c8489b3e
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_unik_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81892,7 +81892,7 @@ player
 vox_co_op_end_round1_unik_plr_13_1
 vox_co_op_end_round1_unik_plr_14_2
 hash_7a9ca563c462ccaa
-hash_39f83490f0e0ac7e
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_unik_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81901,7 +81901,7 @@ perspective
 npc
 vox_co_op_end_round1_unik_plr_14_2
 hash_7a9ca563c462ccaa
-hash_39f83490f0e0ac7e
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_unik_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81911,7 +81911,7 @@ player
 vox_co_op_end_round1_unik_plr_14_2
 vox_co_op_end_round1_unik_plr_15_0
 hash_4b8b06b112a80d5b
-hash_6a137d8f12807db5
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_unik_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81920,7 +81920,7 @@ perspective
 npc
 vox_co_op_end_round1_unik_plr_15_0
 hash_4b8b06b112a80d5b
-hash_6a137d8f12807db5
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_unik_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81930,7 +81930,7 @@ player
 vox_co_op_end_round1_unik_plr_15_0
 vox_co_op_end_round1_unik_plr_16_3
 hash_64dcfe9c98f37b59
-hash_36c453d6345847f1
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_unik_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81939,7 +81939,7 @@ perspective
 npc
 vox_co_op_end_round1_unik_plr_16_3
 hash_64dcfe9c98f37b59
-hash_36c453d6345847f1
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_unik_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81949,7 +81949,7 @@ player
 vox_co_op_end_round1_unik_plr_16_3
 vox_co_op_end_round1_unik_plr_5_4
 hash_3b6fd74f04f7f684
-hash_9885bfeb2e97c84
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_unik_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81958,7 +81958,7 @@ perspective
 npc
 vox_co_op_end_round1_unik_plr_5_4
 hash_3b6fd74f04f7f684
-hash_9885bfeb2e97c84
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_unik_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81968,7 +81968,7 @@ player
 vox_co_op_end_round1_unik_plr_5_4
 vox_co_op_end_round1_unik_plr_6_5
 hash_441a9760c1d8dbba
-hash_2058b5952c208ea2
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_unik_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81977,7 +81977,7 @@ perspective
 npc
 vox_co_op_end_round1_unik_plr_6_5
 hash_441a9760c1d8dbba
-hash_2058b5952c208ea2
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_unik_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81987,7 +81987,7 @@ player
 vox_co_op_end_round1_unik_plr_6_5
 vox_co_op_end_round1_unik_plr_8_6
 hash_e9a2a3ee59dc11
-hash_2e5b9abf3cc0ddab
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_unik_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -81996,7 +81996,7 @@ perspective
 npc
 vox_co_op_end_round1_unik_plr_8_6
 hash_e9a2a3ee59dc11
-hash_2e5b9abf3cc0ddab
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_unik_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82006,7 +82006,7 @@ player
 vox_co_op_end_round1_unik_plr_8_6
 vox_co_op_end_round1_uric_plr_13_0
 hash_4901baf88f9dede1
-hash_418e14e8816c446f
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_uric_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82015,7 +82015,7 @@ perspective
 npc
 vox_co_op_end_round1_uric_plr_13_0
 hash_4901baf88f9dede1
-hash_418e14e8816c446f
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_uric_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82025,7 +82025,7 @@ player
 vox_co_op_end_round1_uric_plr_13_0
 vox_co_op_end_round1_uric_plr_14_1
 hash_640d5952c6f25bad
-hash_48a439ebf6e9b9a5
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_uric_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82034,7 +82034,7 @@ perspective
 npc
 vox_co_op_end_round1_uric_plr_14_1
 hash_640d5952c6f25bad
-hash_48a439ebf6e9b9a5
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_uric_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82044,7 +82044,7 @@ player
 vox_co_op_end_round1_uric_plr_14_1
 vox_co_op_end_round1_uric_plr_15_6
 hash_743afb76105e608d
-hash_1b7862bd125d3c7
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_uric_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82053,7 +82053,7 @@ perspective
 npc
 vox_co_op_end_round1_uric_plr_15_6
 hash_743afb76105e608d
-hash_1b7862bd125d3c7
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_uric_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82063,7 +82063,7 @@ player
 vox_co_op_end_round1_uric_plr_15_6
 vox_co_op_end_round1_uric_plr_16_2
 hash_427ebfa1e9a34340
-hash_ffee1bd15385d68
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_uric_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82072,7 +82072,7 @@ perspective
 npc
 vox_co_op_end_round1_uric_plr_16_2
 hash_427ebfa1e9a34340
-hash_ffee1bd15385d68
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_uric_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82082,7 +82082,7 @@ player
 vox_co_op_end_round1_uric_plr_16_2
 vox_co_op_end_round1_uric_plr_6_4
 hash_5b2afd9adba04a09
-hash_371411f9682a94eb
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_uric_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82092,7 +82092,7 @@ perspective
 npc
 vox_co_op_end_round1_uric_plr_6_4
 hash_5b2afd9adba04a09
-hash_371411f9682a94eb
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_uric_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82102,7 +82102,7 @@ perspective
 player
 vox_co_op_end_round1_uric_plr_6_4
 hash_709918cce34279a3
-hash_2cc9007b87bc4179
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_uric_4_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82112,7 +82112,7 @@ perspective
 npc
 vox_co_op_end_round1_uric_plr_6_4
 hash_709918cce34279a3
-hash_2cc9007b87bc4179
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_uric_4_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82123,7 +82123,7 @@ player
 vox_co_op_end_round1_uric_plr_6_4
 vox_co_op_end_round1_uric_plr_7_3
 hash_46ae0d0947229c77
-hash_14efb20d981d1d69
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_uric_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82132,7 +82132,7 @@ perspective
 npc
 vox_co_op_end_round1_uric_plr_7_3
 hash_46ae0d0947229c77
-hash_14efb20d981d1d69
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_uric_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82142,7 +82142,7 @@ player
 vox_co_op_end_round1_uric_plr_7_3
 vox_co_op_end_round1_uric_plr_8_5
 hash_3de9b588a5015384
-hash_2ac2d04e6cfad2b8
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_uric_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82151,7 +82151,7 @@ perspective
 npc
 vox_co_op_end_round1_uric_plr_8_5
 hash_3de9b588a5015384
-hash_2ac2d04e6cfad2b8
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round1_uric_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82161,7 +82161,7 @@ player
 vox_co_op_end_round1_uric_plr_8_5
 vox_co_op_end_round1_utak_plr_13_5
 hash_7bd790c20424a12e
-hash_61488a175c0bdd0
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_utak_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82170,7 +82170,7 @@ perspective
 npc
 vox_co_op_end_round1_utak_plr_13_5
 hash_7bd790c20424a12e
-hash_61488a175c0bdd0
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round1_utak_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82180,7 +82180,7 @@ player
 vox_co_op_end_round1_utak_plr_13_5
 vox_co_op_end_round1_utak_plr_14_6
 hash_48f5f7eed9bc789c
-hash_6309ee7f66042f60
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_utak_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82189,7 +82189,7 @@ perspective
 npc
 vox_co_op_end_round1_utak_plr_14_6
 hash_48f5f7eed9bc789c
-hash_6309ee7f66042f60
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round1_utak_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82199,7 +82199,7 @@ player
 vox_co_op_end_round1_utak_plr_14_6
 vox_co_op_end_round1_utak_plr_15_4
 hash_4626644d62de0b21
-hash_6d24562c12cd195b
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_utak_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82208,7 +82208,7 @@ perspective
 npc
 vox_co_op_end_round1_utak_plr_15_4
 hash_4626644d62de0b21
-hash_6d24562c12cd195b
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round1_utak_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82218,7 +82218,7 @@ player
 vox_co_op_end_round1_utak_plr_15_4
 vox_co_op_end_round1_utak_plr_16_0
 hash_9ad334ad74eff9c
-hash_55eaecd88745ec44
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_utak_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82227,7 +82227,7 @@ perspective
 npc
 vox_co_op_end_round1_utak_plr_16_0
 hash_9ad334ad74eff9c
-hash_55eaecd88745ec44
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round1_utak_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82237,7 +82237,7 @@ player
 vox_co_op_end_round1_utak_plr_16_0
 vox_co_op_end_round1_utak_plr_5_2
 hash_7032b42a398dce88
-hash_4fb4cc8a408bd020
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_utak_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82246,7 +82246,7 @@ perspective
 npc
 vox_co_op_end_round1_utak_plr_5_2
 hash_7032b42a398dce88
-hash_4fb4cc8a408bd020
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round1_utak_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82256,7 +82256,7 @@ player
 vox_co_op_end_round1_utak_plr_5_2
 vox_co_op_end_round1_utak_plr_6_3
 hash_7f90f89678a9053e
-hash_4d9d50ee15bbe376
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_utak_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82266,7 +82266,7 @@ perspective
 npc
 vox_co_op_end_round1_utak_plr_6_3
 hash_7f90f89678a9053e
-hash_4d9d50ee15bbe376
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_utak_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82276,7 +82276,7 @@ perspective
 player
 vox_co_op_end_round1_utak_plr_6_3
 hash_5419a1693d9888e0
-hash_4497f63f1bfceb04
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_utak_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82286,7 +82286,7 @@ perspective
 npc
 vox_co_op_end_round1_utak_plr_6_3
 hash_5419a1693d9888e0
-hash_4497f63f1bfceb04
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round1_utak_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82297,7 +82297,7 @@ player
 vox_co_op_end_round1_utak_plr_6_3
 vox_co_op_end_round1_utak_plr_7_1
 hash_2163c7d67dd6bccb
-hash_38ccbcb3b549b90d
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_utak_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82306,7 +82306,7 @@ perspective
 npc
 vox_co_op_end_round1_utak_plr_7_1
 hash_2163c7d67dd6bccb
-hash_38ccbcb3b549b90d
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round1_utak_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82316,7 +82316,7 @@ player
 vox_co_op_end_round1_utak_plr_7_1
 vox_co_op_end_round2_demp_plr_13_3
 hash_78ad3a815699868
-hash_7a556be5b2d7d4c2
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_demp_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82325,7 +82325,7 @@ perspective
 npc
 vox_co_op_end_round2_demp_plr_13_3
 hash_78ad3a815699868
-hash_7a556be5b2d7d4c2
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_demp_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82335,7 +82335,7 @@ player
 vox_co_op_end_round2_demp_plr_13_3
 vox_co_op_end_round2_demp_plr_15_2
 hash_2b41568be11317e7
-hash_71606ccf7d73a589
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_demp_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82344,7 +82344,7 @@ perspective
 npc
 vox_co_op_end_round2_demp_plr_15_2
 hash_2b41568be11317e7
-hash_71606ccf7d73a589
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_demp_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82354,7 +82354,7 @@ player
 vox_co_op_end_round2_demp_plr_15_2
 vox_co_op_end_round2_demp_plr_16_4
 hash_59c901b48496b894
-hash_3c2d2d5e73dd6dd0
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_demp_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82363,7 +82363,7 @@ perspective
 npc
 vox_co_op_end_round2_demp_plr_16_4
 hash_59c901b48496b894
-hash_3c2d2d5e73dd6dd0
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_demp_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82373,7 +82373,7 @@ player
 vox_co_op_end_round2_demp_plr_16_4
 vox_co_op_end_round2_demp_plr_5_6
 hash_4c57e4e825f62310
-hash_77eb2442621c7c04
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_demp_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82382,7 +82382,7 @@ perspective
 npc
 vox_co_op_end_round2_demp_plr_5_6
 hash_4c57e4e825f62310
-hash_77eb2442621c7c04
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_demp_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82392,7 +82392,7 @@ player
 vox_co_op_end_round2_demp_plr_5_6
 vox_co_op_end_round2_demp_plr_6_0
 hash_3e257a6bc8763b2f
-hash_7a4277a17cdfc37d
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_demp_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82402,7 +82402,7 @@ perspective
 npc
 vox_co_op_end_round2_demp_plr_6_0
 hash_3e257a6bc8763b2f
-hash_7a4277a17cdfc37d
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_demp_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82412,7 +82412,7 @@ perspective
 player
 vox_co_op_end_round2_demp_plr_6_0
 hash_726431f068838879
-hash_68f03a4697a9c12b
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_demp_0_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82422,7 +82422,7 @@ perspective
 npc
 vox_co_op_end_round2_demp_plr_6_0
 hash_726431f068838879
-hash_68f03a4697a9c12b
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_demp_0_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82433,7 +82433,7 @@ player
 vox_co_op_end_round2_demp_plr_6_0
 vox_co_op_end_round2_demp_plr_7_5
 hash_317d5f1d70a32a93
-hash_699198a4ef53fa69
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_demp_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82442,7 +82442,7 @@ perspective
 npc
 vox_co_op_end_round2_demp_plr_7_5
 hash_317d5f1d70a32a93
-hash_699198a4ef53fa69
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_demp_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82452,7 +82452,7 @@ player
 vox_co_op_end_round2_demp_plr_7_5
 vox_co_op_end_round2_demp_plr_8_1
 hash_6af552df9722dd66
-hash_61f3ecf09d9025d6
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_demp_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82461,7 +82461,7 @@ perspective
 npc
 vox_co_op_end_round2_demp_plr_8_1
 hash_6af552df9722dd66
-hash_61f3ecf09d9025d6
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_demp_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82471,7 +82471,7 @@ player
 vox_co_op_end_round2_demp_plr_8_1
 vox_co_op_end_round2_niko_plr_13_4
 hash_4c013e343a2bb980
-hash_49ea4e815a2681a
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_niko_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82480,7 +82480,7 @@ perspective
 npc
 vox_co_op_end_round2_niko_plr_13_4
 hash_4c013e343a2bb980
-hash_49ea4e815a2681a
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_niko_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82490,7 +82490,7 @@ player
 vox_co_op_end_round2_niko_plr_13_4
 vox_co_op_end_round2_niko_plr_14_5
 hash_6c29122b17ebf84c
-hash_32f49f4025ee6ae4
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_niko_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82499,7 +82499,7 @@ perspective
 npc
 vox_co_op_end_round2_niko_plr_14_5
 hash_6c29122b17ebf84c
-hash_32f49f4025ee6ae4
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_niko_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82509,7 +82509,7 @@ player
 vox_co_op_end_round2_niko_plr_14_5
 vox_co_op_end_round2_niko_plr_16_6
 hash_6945529c3e28c75d
-hash_3ed138b0395ffbe9
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_niko_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82518,7 +82518,7 @@ perspective
 npc
 vox_co_op_end_round2_niko_plr_16_6
 hash_6945529c3e28c75d
-hash_3ed138b0395ffbe9
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_niko_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82528,7 +82528,7 @@ player
 vox_co_op_end_round2_niko_plr_16_6
 vox_co_op_end_round2_niko_plr_5_1
 hash_2e9c37675041f1b8
-hash_40d5ca6661790adc
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_niko_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82537,7 +82537,7 @@ perspective
 npc
 vox_co_op_end_round2_niko_plr_5_1
 hash_2e9c37675041f1b8
-hash_40d5ca6661790adc
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_niko_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82547,7 +82547,7 @@ player
 vox_co_op_end_round2_niko_plr_5_1
 vox_co_op_end_round2_niko_plr_6_2
 hash_7ea8b90d402df688
-hash_58eda5b63656fbbc
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_niko_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82556,7 +82556,7 @@ perspective
 npc
 vox_co_op_end_round2_niko_plr_6_2
 hash_7ea8b90d402df688
-hash_58eda5b63656fbbc
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_niko_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82566,7 +82566,7 @@ player
 vox_co_op_end_round2_niko_plr_6_2
 vox_co_op_end_round2_niko_plr_7_0
 hash_e32f665f46bd421
-hash_4a950880cbb6c203
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_niko_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82575,7 +82575,7 @@ perspective
 npc
 vox_co_op_end_round2_niko_plr_7_0
 hash_e32f665f46bd421
-hash_4a950880cbb6c203
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_niko_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82585,7 +82585,7 @@ player
 vox_co_op_end_round2_niko_plr_7_0
 vox_co_op_end_round2_niko_plr_8_3
 hash_3c81b006854bc6fd
-hash_4b6757872d67b2b7
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_niko_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82594,7 +82594,7 @@ perspective
 npc
 vox_co_op_end_round2_niko_plr_8_3
 hash_3c81b006854bc6fd
-hash_4b6757872d67b2b7
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_niko_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82604,7 +82604,7 @@ player
 vox_co_op_end_round2_niko_plr_8_3
 vox_co_op_end_round2_rich_plr_14_4
 hash_7cf7b15dc9055b0a
-hash_3562a69cddd3141a
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_rich_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82613,7 +82613,7 @@ perspective
 npc
 vox_co_op_end_round2_rich_plr_14_4
 hash_7cf7b15dc9055b0a
-hash_3562a69cddd3141a
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_rich_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82623,7 +82623,7 @@ player
 vox_co_op_end_round2_rich_plr_14_4
 vox_co_op_end_round2_rich_plr_15_3
 hash_32ec228716068aa
-hash_42288f53cde8d6b4
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_rich_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82633,7 +82633,7 @@ perspective
 npc
 vox_co_op_end_round2_rich_plr_15_3
 hash_32ec228716068aa
-hash_42288f53cde8d6b4
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_rich_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82643,7 +82643,7 @@ perspective
 player
 vox_co_op_end_round2_rich_plr_15_3
 hash_21a862c3776bedf4
-hash_7a0eb5f1a1bc460a
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_rich_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82653,7 +82653,7 @@ perspective
 npc
 vox_co_op_end_round2_rich_plr_15_3
 hash_21a862c3776bedf4
-hash_7a0eb5f1a1bc460a
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_rich_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82664,7 +82664,7 @@ player
 vox_co_op_end_round2_rich_plr_15_3
 vox_co_op_end_round2_rich_plr_16_5
 hash_3dfac56db3ad75b9
-hash_34348fa430cb6a35
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_rich_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82673,7 +82673,7 @@ perspective
 npc
 vox_co_op_end_round2_rich_plr_16_5
 hash_3dfac56db3ad75b9
-hash_34348fa430cb6a35
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_rich_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82683,7 +82683,7 @@ player
 vox_co_op_end_round2_rich_plr_16_5
 vox_co_op_end_round2_rich_plr_5_0
 hash_44e9d9a42073eff2
-hash_6aadc8f6f6532d0a
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_rich_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82692,7 +82692,7 @@ perspective
 npc
 vox_co_op_end_round2_rich_plr_5_0
 hash_44e9d9a42073eff2
-hash_6aadc8f6f6532d0a
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_rich_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82702,7 +82702,7 @@ player
 vox_co_op_end_round2_rich_plr_5_0
 vox_co_op_end_round2_rich_plr_6_1
 hash_4fcc3f6d8a15ebb4
-hash_7edb1557b6ede070
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_rich_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82711,7 +82711,7 @@ perspective
 npc
 vox_co_op_end_round2_rich_plr_6_1
 hash_4fcc3f6d8a15ebb4
-hash_7edb1557b6ede070
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_rich_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82721,7 +82721,7 @@ player
 vox_co_op_end_round2_rich_plr_6_1
 vox_co_op_end_round2_rich_plr_7_6
 hash_6888afff222f8c86
-hash_39d0d7b499d1f1f6
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_rich_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82730,7 +82730,7 @@ perspective
 npc
 vox_co_op_end_round2_rich_plr_7_6
 hash_6888afff222f8c86
-hash_39d0d7b499d1f1f6
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_rich_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82740,7 +82740,7 @@ player
 vox_co_op_end_round2_rich_plr_7_6
 vox_co_op_end_round2_rich_plr_8_2
 hash_1f7421c14684dd33
-hash_43bd979b6d00eee1
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_rich_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82749,7 +82749,7 @@ perspective
 npc
 vox_co_op_end_round2_rich_plr_8_2
 hash_1f7421c14684dd33
-hash_43bd979b6d00eee1
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_rich_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82759,7 +82759,7 @@ player
 vox_co_op_end_round2_rich_plr_8_2
 vox_co_op_end_round2_take_plr_13_2
 hash_50e1cf5f3ce46db2
-hash_265eb8f4dcffbea4
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_take_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82768,7 +82768,7 @@ perspective
 npc
 vox_co_op_end_round2_take_plr_13_2
 hash_50e1cf5f3ce46db2
-hash_265eb8f4dcffbea4
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_take_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82778,7 +82778,7 @@ player
 vox_co_op_end_round2_take_plr_13_2
 vox_co_op_end_round2_take_plr_14_3
 hash_1030a5f9ed7aadea
-hash_45baaf593f882c0e
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_take_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82788,7 +82788,7 @@ perspective
 npc
 vox_co_op_end_round2_take_plr_14_3
 hash_1030a5f9ed7aadea
-hash_45baaf593f882c0e
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_take_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82798,7 +82798,7 @@ perspective
 player
 vox_co_op_end_round2_take_plr_14_3
 hash_714098902c180a34
-hash_febb4fc12cd5f2c
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_take_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82808,7 +82808,7 @@ perspective
 npc
 vox_co_op_end_round2_take_plr_14_3
 hash_714098902c180a34
-hash_febb4fc12cd5f2c
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_take_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82819,7 +82819,7 @@ player
 vox_co_op_end_round2_take_plr_14_3
 vox_co_op_end_round2_take_plr_15_1
 hash_610ad4789e97a59b
-hash_66304e94c3028815
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_take_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82828,7 +82828,7 @@ perspective
 npc
 vox_co_op_end_round2_take_plr_15_1
 hash_610ad4789e97a59b
-hash_66304e94c3028815
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_take_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82838,7 +82838,7 @@ player
 vox_co_op_end_round2_take_plr_15_1
 vox_co_op_end_round2_take_plr_5_5
 hash_7e68371d0080d044
-hash_44fcf07c5c8eefd4
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_take_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82847,7 +82847,7 @@ perspective
 npc
 vox_co_op_end_round2_take_plr_5_5
 hash_7e68371d0080d044
-hash_44fcf07c5c8eefd4
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_take_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82857,7 +82857,7 @@ player
 vox_co_op_end_round2_take_plr_5_5
 vox_co_op_end_round2_take_plr_6_6
 hash_31098e2b32f19894
-hash_4c89fdf93812c4d8
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_take_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82866,7 +82866,7 @@ perspective
 npc
 vox_co_op_end_round2_take_plr_6_6
 hash_31098e2b32f19894
-hash_4c89fdf93812c4d8
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_take_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82876,7 +82876,7 @@ player
 vox_co_op_end_round2_take_plr_6_6
 vox_co_op_end_round2_take_plr_7_4
 hash_1a29c545b39a292d
-hash_4aec4b964b638d53
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_take_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82885,7 +82885,7 @@ perspective
 npc
 vox_co_op_end_round2_take_plr_7_4
 hash_1a29c545b39a292d
-hash_4aec4b964b638d53
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_take_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82895,7 +82895,7 @@ player
 vox_co_op_end_round2_take_plr_7_4
 vox_co_op_end_round2_take_plr_8_0
 hash_713e4470d103c114
-hash_478ab513619fd218
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_take_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82904,7 +82904,7 @@ perspective
 npc
 vox_co_op_end_round2_take_plr_8_0
 hash_713e4470d103c114
-hash_478ab513619fd218
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_take_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82914,7 +82914,7 @@ player
 vox_co_op_end_round2_take_plr_8_0
 vox_co_op_end_round2_udem_plr_13_6
 hash_19d25cfb51ecbaca
-hash_2b9c1989c3c59b74
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_udem_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82923,7 +82923,7 @@ perspective
 npc
 vox_co_op_end_round2_udem_plr_13_6
 hash_19d25cfb51ecbaca
-hash_2b9c1989c3c59b74
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_udem_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82952,7 +82952,7 @@ player
 vox_co_op_end_round2_udem_plr_14_0
 vox_co_op_end_round2_udem_plr_15_5
 hash_21fa24b3ec565493
-hash_f291d30b5a6d751
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_udem_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82961,7 +82961,7 @@ perspective
 npc
 vox_co_op_end_round2_udem_plr_15_5
 hash_21fa24b3ec565493
-hash_f291d30b5a6d751
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_udem_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82971,7 +82971,7 @@ player
 vox_co_op_end_round2_udem_plr_15_5
 vox_co_op_end_round2_udem_plr_16_1
 hash_4e0c10a3347828c2
-hash_4c0e19164fa03b72
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_udem_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82980,7 +82980,7 @@ perspective
 npc
 vox_co_op_end_round2_udem_plr_16_1
 hash_4e0c10a3347828c2
-hash_4c0e19164fa03b72
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_udem_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82990,7 +82990,7 @@ player
 vox_co_op_end_round2_udem_plr_16_1
 vox_co_op_end_round2_udem_plr_5_3
 hash_6a0e7050519b73fa
-hash_3017a9351441c68a
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_udem_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -82999,7 +82999,7 @@ perspective
 npc
 vox_co_op_end_round2_udem_plr_5_3
 hash_6a0e7050519b73fa
-hash_3017a9351441c68a
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_udem_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83009,7 +83009,7 @@ player
 vox_co_op_end_round2_udem_plr_5_3
 vox_co_op_end_round2_udem_plr_7_2
 hash_19f6c220ed918bcf
-hash_3cca241724936921
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_udem_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83018,7 +83018,7 @@ perspective
 npc
 vox_co_op_end_round2_udem_plr_7_2
 hash_19f6c220ed918bcf
-hash_3cca241724936921
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_udem_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83028,7 +83028,7 @@ player
 vox_co_op_end_round2_udem_plr_7_2
 vox_co_op_end_round2_udem_plr_8_4
 hash_5f576a7e06b1114c
-hash_70b3dbbc8cbc0fe4
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_udem_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83037,7 +83037,7 @@ perspective
 npc
 vox_co_op_end_round2_udem_plr_8_4
 hash_5f576a7e06b1114c
-hash_70b3dbbc8cbc0fe4
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_udem_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83047,7 +83047,7 @@ player
 vox_co_op_end_round2_udem_plr_8_4
 vox_co_op_end_round2_unik_plr_13_1
 hash_37ae7d1d1025321d
-hash_59db08951f35037b
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_unik_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83056,7 +83056,7 @@ perspective
 npc
 vox_co_op_end_round2_unik_plr_13_1
 hash_37ae7d1d1025321d
-hash_59db08951f35037b
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_unik_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83066,7 +83066,7 @@ player
 vox_co_op_end_round2_unik_plr_13_1
 vox_co_op_end_round2_unik_plr_14_2
 hash_436b8daaf42ee683
-hash_8aca7cd2c3f8a2f
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_unik_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83076,7 +83076,7 @@ perspective
 npc
 vox_co_op_end_round2_unik_plr_14_2
 hash_436b8daaf42ee683
-hash_8aca7cd2c3f8a2f
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_unik_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83086,7 +83086,7 @@ perspective
 player
 vox_co_op_end_round2_unik_plr_14_2
 hash_2abdaa447fefc0c5
-hash_7005acd8b7f17da5
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_unik_2_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83096,7 +83096,7 @@ perspective
 npc
 vox_co_op_end_round2_unik_plr_14_2
 hash_2abdaa447fefc0c5
-hash_7005acd8b7f17da5
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_unik_2_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83107,7 +83107,7 @@ player
 vox_co_op_end_round2_unik_plr_14_2
 vox_co_op_end_round2_unik_plr_15_0
 hash_251219120bc072fe
-hash_3bc21a3feef4471c
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_unik_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83116,7 +83116,7 @@ perspective
 npc
 vox_co_op_end_round2_unik_plr_15_0
 hash_251219120bc072fe
-hash_3bc21a3feef4471c
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_unik_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83126,7 +83126,7 @@ player
 vox_co_op_end_round2_unik_plr_15_0
 vox_co_op_end_round2_unik_plr_16_3
 hash_61eccd591372a994
-hash_5d1ba758feb0c
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_unik_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83135,7 +83135,7 @@ perspective
 npc
 vox_co_op_end_round2_unik_plr_16_3
 hash_61eccd591372a994
-hash_5d1ba758feb0c
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_unik_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83145,7 +83145,7 @@ player
 vox_co_op_end_round2_unik_plr_16_3
 vox_co_op_end_round2_unik_plr_5_4
 hash_6511bf8788529397
-hash_33db030098577d75
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_unik_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83154,7 +83154,7 @@ perspective
 npc
 vox_co_op_end_round2_unik_plr_5_4
 hash_6511bf8788529397
-hash_33db030098577d75
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_unik_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83164,7 +83164,7 @@ player
 vox_co_op_end_round2_unik_plr_5_4
 vox_co_op_end_round2_unik_plr_6_5
 hash_5bebd2b55f01c5ad
-hash_1e532fd367cf77ff
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_unik_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83173,7 +83173,7 @@ perspective
 npc
 vox_co_op_end_round2_unik_plr_6_5
 hash_5bebd2b55f01c5ad
-hash_1e532fd367cf77ff
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_unik_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83183,7 +83183,7 @@ player
 vox_co_op_end_round2_unik_plr_6_5
 vox_co_op_end_round2_unik_plr_8_6
 hash_55877a2ed414a866
-hash_2aa849497e25bb82
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_unik_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83192,7 +83192,7 @@ perspective
 npc
 vox_co_op_end_round2_unik_plr_8_6
 hash_55877a2ed414a866
-hash_2aa849497e25bb82
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_unik_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83202,7 +83202,7 @@ player
 vox_co_op_end_round2_unik_plr_8_6
 vox_co_op_end_round2_uric_plr_13_0
 hash_3296fbef09bdedf0
-hash_3a8d90dd56d3c80a
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_uric_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83211,7 +83211,7 @@ perspective
 npc
 vox_co_op_end_round2_uric_plr_13_0
 hash_3296fbef09bdedf0
-hash_3a8d90dd56d3c80a
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_uric_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83221,7 +83221,7 @@ player
 vox_co_op_end_round2_uric_plr_13_0
 vox_co_op_end_round2_uric_plr_14_1
 hash_4755d6484c06dcbc
-hash_41c2ef1c399e99c4
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_uric_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83231,7 +83231,7 @@ perspective
 npc
 vox_co_op_end_round2_uric_plr_14_1
 hash_4755d6484c06dcbc
-hash_41c2ef1c399e99c4
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_uric_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83241,7 +83241,7 @@ perspective
 player
 vox_co_op_end_round2_uric_plr_14_1
 hash_8fd880bfcbcc63e
-hash_4cfe6c65aa7ba65a
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_uric_1_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83251,7 +83251,7 @@ perspective
 npc
 vox_co_op_end_round2_uric_plr_14_1
 hash_8fd880bfcbcc63e
-hash_4cfe6c65aa7ba65a
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_uric_1_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83262,7 +83262,7 @@ player
 vox_co_op_end_round2_uric_plr_14_1
 vox_co_op_end_round2_uric_plr_15_6
 hash_3afbaefa302870f8
-hash_4d0cd54536ccce9e
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_uric_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83271,7 +83271,7 @@ perspective
 npc
 vox_co_op_end_round2_uric_plr_15_6
 hash_3afbaefa302870f8
-hash_4d0cd54536ccce9e
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_uric_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83281,7 +83281,7 @@ player
 vox_co_op_end_round2_uric_plr_15_6
 vox_co_op_end_round2_uric_plr_16_2
 hash_ce46c34c4ad4ecd
-hash_2f86f1f75aee0ba5
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_uric_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83290,7 +83290,7 @@ perspective
 npc
 vox_co_op_end_round2_uric_plr_16_2
 hash_ce46c34c4ad4ecd
-hash_2f86f1f75aee0ba5
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_uric_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83300,7 +83300,7 @@ player
 vox_co_op_end_round2_uric_plr_16_2
 vox_co_op_end_round2_uric_plr_6_4
 hash_51ecd5d8109e695e
-hash_24f4d83f87ec6186
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_uric_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83309,7 +83309,7 @@ perspective
 npc
 vox_co_op_end_round2_uric_plr_6_4
 hash_51ecd5d8109e695e
-hash_24f4d83f87ec6186
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_uric_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83319,7 +83319,7 @@ player
 vox_co_op_end_round2_uric_plr_6_4
 vox_co_op_end_round2_uric_plr_7_3
 hash_5e56d3aa5cfa52f4
-hash_699357e5d1d767fc
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_uric_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83328,7 +83328,7 @@ perspective
 npc
 vox_co_op_end_round2_uric_plr_7_3
 hash_5e56d3aa5cfa52f4
-hash_699357e5d1d767fc
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_uric_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83338,7 +83338,7 @@ player
 vox_co_op_end_round2_uric_plr_7_3
 vox_co_op_end_round2_uric_plr_8_5
 hash_a5aa7e2c783210f
-hash_28fca93770c70641
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_uric_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83347,7 +83347,7 @@ perspective
 npc
 vox_co_op_end_round2_uric_plr_8_5
 hash_a5aa7e2c783210f
-hash_28fca93770c70641
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_end_round2_uric_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83357,7 +83357,7 @@ player
 vox_co_op_end_round2_uric_plr_8_5
 vox_co_op_end_round2_utak_plr_13_5
 hash_3404ab69192f64f7
-hash_354d5deaae3e1f75
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_utak_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83366,7 +83366,7 @@ perspective
 npc
 vox_co_op_end_round2_utak_plr_13_5
 hash_3404ab69192f64f7
-hash_354d5deaae3e1f75
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_end_round2_utak_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83376,7 +83376,7 @@ player
 vox_co_op_end_round2_utak_plr_13_5
 vox_co_op_end_round2_utak_plr_14_6
 hash_653727a64f397de5
-hash_322075be1b715811
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_utak_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83386,7 +83386,7 @@ perspective
 npc
 vox_co_op_end_round2_utak_plr_14_6
 hash_653727a64f397de5
-hash_322075be1b715811
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_utak_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83396,7 +83396,7 @@ perspective
 player
 vox_co_op_end_round2_utak_plr_14_6
 hash_4e90fb55a625cd67
-hash_6e47473dd338c357
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_utak_6_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83406,7 +83406,7 @@ perspective
 npc
 vox_co_op_end_round2_utak_plr_14_6
 hash_4e90fb55a625cd67
-hash_6e47473dd338c357
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_end_round2_utak_6_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83417,7 +83417,7 @@ player
 vox_co_op_end_round2_utak_plr_14_6
 vox_co_op_end_round2_utak_plr_15_4
 hash_27b320e53367ac4
-hash_7a6d338e31d52982
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_utak_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83426,7 +83426,7 @@ perspective
 npc
 vox_co_op_end_round2_utak_plr_15_4
 hash_27b320e53367ac4
-hash_7a6d338e31d52982
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_end_round2_utak_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83436,7 +83436,7 @@ player
 vox_co_op_end_round2_utak_plr_15_4
 vox_co_op_end_round2_utak_plr_16_0
 hash_7ff693f6233bb921
-hash_4aa6ee31e7b15519
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_utak_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83445,7 +83445,7 @@ perspective
 npc
 vox_co_op_end_round2_utak_plr_16_0
 hash_7ff693f6233bb921
-hash_4aa6ee31e7b15519
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_end_round2_utak_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83455,7 +83455,7 @@ player
 vox_co_op_end_round2_utak_plr_16_0
 vox_co_op_end_round2_utak_plr_5_2
 hash_2a397745d965f63b
-hash_ecee69ea3327149
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_utak_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83464,7 +83464,7 @@ perspective
 npc
 vox_co_op_end_round2_utak_plr_5_2
 hash_2a397745d965f63b
-hash_ecee69ea3327149
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_end_round2_utak_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83474,7 +83474,7 @@ player
 vox_co_op_end_round2_utak_plr_5_2
 vox_co_op_end_round2_utak_plr_6_3
 hash_4aa2bd47353c1c51
-hash_13346a8588581a63
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_utak_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83483,7 +83483,7 @@ perspective
 npc
 vox_co_op_end_round2_utak_plr_6_3
 hash_4aa2bd47353c1c51
-hash_13346a8588581a63
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_end_round2_utak_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83493,7 +83493,7 @@ player
 vox_co_op_end_round2_utak_plr_6_3
 vox_co_op_end_round2_utak_plr_7_1
 hash_588823e66a45d300
-hash_73120cb4f80eba88
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_utak_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83502,7 +83502,7 @@ perspective
 npc
 vox_co_op_end_round2_utak_plr_7_1
 hash_588823e66a45d300
-hash_73120cb4f80eba88
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_end_round2_utak_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83512,7 +83512,7 @@ player
 vox_co_op_end_round2_utak_plr_7_1
 vox_co_op_game_start_demp_plr_13_3
 hash_185d16c6f8aec2a5
-hash_31c03c46dd066ecb
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_demp_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83521,7 +83521,7 @@ perspective
 npc
 vox_co_op_game_start_demp_plr_13_3
 hash_185d16c6f8aec2a5
-hash_31c03c46dd066ecb
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_demp_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83531,7 +83531,7 @@ player
 vox_co_op_game_start_demp_plr_13_3
 vox_co_op_game_start_demp_plr_15_2
 hash_50fbdd9231ff06a6
-hash_290d9771c49e8a88
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_demp_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83540,7 +83540,7 @@ perspective
 npc
 vox_co_op_game_start_demp_plr_15_2
 hash_50fbdd9231ff06a6
-hash_290d9771c49e8a88
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_demp_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83550,7 +83550,7 @@ player
 vox_co_op_game_start_demp_plr_15_2
 vox_co_op_game_start_demp_plr_16_4
 hash_9fd90a2b976fb4d
-hash_7ed37dc1e51bed9
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_demp_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83559,7 +83559,7 @@ perspective
 npc
 vox_co_op_game_start_demp_plr_16_4
 hash_9fd90a2b976fb4d
-hash_7ed37dc1e51bed9
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_demp_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83569,7 +83569,7 @@ player
 vox_co_op_game_start_demp_plr_16_4
 vox_co_op_game_start_demp_plr_5_6
 hash_15c975c42faa6aaf
-hash_12f704936b0857d5
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_demp_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83578,7 +83578,7 @@ perspective
 npc
 vox_co_op_game_start_demp_plr_5_6
 hash_15c975c42faa6aaf
-hash_12f704936b0857d5
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_demp_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83588,7 +83588,7 @@ player
 vox_co_op_game_start_demp_plr_5_6
 vox_co_op_game_start_demp_plr_6_0
 hash_742fb02004caf4b8
-hash_32d7a401fe7c9de4
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_demp_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83597,7 +83597,7 @@ perspective
 npc
 vox_co_op_game_start_demp_plr_6_0
 hash_742fb02004caf4b8
-hash_32d7a401fe7c9de4
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_demp_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83607,7 +83607,7 @@ player
 vox_co_op_game_start_demp_plr_6_0
 vox_co_op_game_start_demp_plr_7_5
 hash_11100a2f9e46b474
-hash_77a6bca7bd62ff08
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_demp_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83616,7 +83616,7 @@ perspective
 npc
 vox_co_op_game_start_demp_plr_7_5
 hash_11100a2f9e46b474
-hash_77a6bca7bd62ff08
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_demp_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83626,7 +83626,7 @@ player
 vox_co_op_game_start_demp_plr_7_5
 vox_co_op_game_start_demp_plr_8_1
 hash_6ed54d5b6a45322d
-hash_5f2ce7180cd6cb47
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_demp_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83635,7 +83635,7 @@ perspective
 npc
 vox_co_op_game_start_demp_plr_8_1
 hash_6ed54d5b6a45322d
-hash_5f2ce7180cd6cb47
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_demp_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83645,7 +83645,7 @@ player
 vox_co_op_game_start_demp_plr_8_1
 vox_co_op_game_start_niko_plr_13_4
 hash_243c918557f23fcd
-hash_d138d57bd3d2bb3
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_niko_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83654,7 +83654,7 @@ perspective
 npc
 vox_co_op_game_start_niko_plr_13_4
 hash_243c918557f23fcd
-hash_d138d57bd3d2bb3
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_niko_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83664,7 +83664,7 @@ player
 vox_co_op_game_start_niko_plr_13_4
 vox_co_op_game_start_niko_plr_14_5
 hash_33a938bfe2a74ce1
-hash_729919d86c6af405
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_niko_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83674,7 +83674,7 @@ perspective
 npc
 vox_co_op_game_start_niko_plr_14_5
 hash_33a938bfe2a74ce1
-hash_729919d86c6af405
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_niko_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83684,7 +83684,7 @@ perspective
 player
 vox_co_op_game_start_niko_plr_14_5
 hash_53b985043f53712b
-hash_a3516a51bbf3663
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_niko_5_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83694,7 +83694,7 @@ perspective
 npc
 vox_co_op_game_start_niko_plr_14_5
 hash_53b985043f53712b
-hash_a3516a51bbf3663
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_niko_5_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83705,7 +83705,7 @@ player
 vox_co_op_game_start_niko_plr_14_5
 vox_co_op_game_start_niko_plr_16_6
 hash_53625b06a6d53a84
-hash_10d31066fe245e70
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_niko_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83714,7 +83714,7 @@ perspective
 npc
 vox_co_op_game_start_niko_plr_16_6
 hash_53625b06a6d53a84
-hash_10d31066fe245e70
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_niko_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83724,7 +83724,7 @@ player
 vox_co_op_game_start_niko_plr_16_6
 vox_co_op_game_start_niko_plr_5_1
 hash_164d13bad7ed55c7
-hash_7eb7c9502b15f3a5
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_niko_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83733,7 +83733,7 @@ perspective
 npc
 vox_co_op_game_start_niko_plr_5_1
 hash_164d13bad7ed55c7
-hash_7eb7c9502b15f3a5
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_niko_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83743,7 +83743,7 @@ player
 vox_co_op_game_start_niko_plr_5_1
 vox_co_op_game_start_niko_plr_6_2
 hash_679255422ed4409f
-hash_4fcd17ee8151bf05
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_niko_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83752,7 +83752,7 @@ perspective
 npc
 vox_co_op_game_start_niko_plr_6_2
 hash_679255422ed4409f
-hash_4fcd17ee8151bf05
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_niko_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83762,7 +83762,7 @@ player
 vox_co_op_game_start_niko_plr_6_2
 vox_co_op_game_start_niko_plr_7_0
 hash_7a8b899224d403aa
-hash_5cb250dd16170fa
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_niko_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83771,7 +83771,7 @@ perspective
 npc
 vox_co_op_game_start_niko_plr_7_0
 hash_7a8b899224d403aa
-hash_5cb250dd16170fa
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_niko_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83781,7 +83781,7 @@ player
 vox_co_op_game_start_niko_plr_7_0
 vox_co_op_game_start_niko_plr_8_3
 hash_2d2cd4a05744b796
-hash_2b27499b022652de
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_niko_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83790,7 +83790,7 @@ perspective
 npc
 vox_co_op_game_start_niko_plr_8_3
 hash_2d2cd4a05744b796
-hash_2b27499b022652de
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_niko_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83800,7 +83800,7 @@ player
 vox_co_op_game_start_niko_plr_8_3
 vox_co_op_game_start_rich_plr_14_4
 hash_50f6f71fbaa61e7f
-hash_78b6c8a74f78303b
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_rich_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83809,7 +83809,7 @@ perspective
 npc
 vox_co_op_game_start_rich_plr_14_4
 hash_50f6f71fbaa61e7f
-hash_78b6c8a74f78303b
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_rich_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83819,7 +83819,7 @@ player
 vox_co_op_game_start_rich_plr_14_4
 vox_co_op_game_start_rich_plr_15_3
 hash_1eaa00aa6b976f6b
-hash_3303ab72a614e2b5
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_rich_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83828,7 +83828,7 @@ perspective
 npc
 vox_co_op_game_start_rich_plr_15_3
 hash_1eaa00aa6b976f6b
-hash_3303ab72a614e2b5
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_rich_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83838,7 +83838,7 @@ player
 vox_co_op_game_start_rich_plr_15_3
 vox_co_op_game_start_rich_plr_16_5
 hash_7eff61578b2c30e0
-hash_3b4efc3d6cebc8fc
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_rich_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83847,7 +83847,7 @@ perspective
 npc
 vox_co_op_game_start_rich_plr_16_5
 hash_7eff61578b2c30e0
-hash_3b4efc3d6cebc8fc
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_rich_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83857,7 +83857,7 @@ player
 vox_co_op_game_start_rich_plr_16_5
 vox_co_op_game_start_rich_plr_5_0
 hash_7c8130c2561ad379
-hash_3e297f3219e297d3
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_rich_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83866,7 +83866,7 @@ perspective
 npc
 vox_co_op_game_start_rich_plr_5_0
 hash_7c8130c2561ad379
-hash_3e297f3219e297d3
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_rich_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83876,7 +83876,7 @@ player
 vox_co_op_game_start_rich_plr_5_0
 vox_co_op_game_start_rich_plr_6_1
 hash_5e4f18dadd88702b
-hash_14c378fef998f629
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_rich_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83886,7 +83886,7 @@ perspective
 npc
 vox_co_op_game_start_rich_plr_6_1
 hash_5e4f18dadd88702b
-hash_14c378fef998f629
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_rich_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83896,7 +83896,7 @@ perspective
 player
 vox_co_op_game_start_rich_plr_6_1
 hash_1d95538e57796b9d
-hash_5a04d72caf7698ff
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_rich_1_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83906,7 +83906,7 @@ perspective
 npc
 vox_co_op_game_start_rich_plr_6_1
 hash_1d95538e57796b9d
-hash_5a04d72caf7698ff
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_rich_1_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83917,7 +83917,7 @@ player
 vox_co_op_game_start_rich_plr_6_1
 vox_co_op_game_start_rich_plr_7_6
 hash_458369dd30d8717d
-hash_6a83ec2218f6280f
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_rich_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83926,7 +83926,7 @@ perspective
 npc
 vox_co_op_game_start_rich_plr_7_6
 hash_458369dd30d8717d
-hash_6a83ec2218f6280f
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_rich_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83936,7 +83936,7 @@ player
 vox_co_op_game_start_rich_plr_7_6
 vox_co_op_game_start_rich_plr_8_2
 hash_d4589b472fefca4
-hash_2e7dc584e795f68
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_rich_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83945,7 +83945,7 @@ perspective
 npc
 vox_co_op_game_start_rich_plr_8_2
 hash_d4589b472fefca4
-hash_2e7dc584e795f68
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_rich_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83955,7 +83955,7 @@ player
 vox_co_op_game_start_rich_plr_8_2
 vox_co_op_game_start_take_plr_13_2
 hash_17414e68042d495b
-hash_4842ed406c7b9129
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_take_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83964,7 +83964,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_13_2
 hash_17414e68042d495b
-hash_4842ed406c7b9129
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_take_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83974,7 +83974,7 @@ player
 vox_co_op_game_start_take_plr_13_2
 vox_co_op_game_start_take_plr_14_3
 hash_3718dece6721ce63
-hash_29acd5dc72095bb
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_take_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83984,7 +83984,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_14_3
 hash_3718dece6721ce63
-hash_29acd5dc72095bb
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_take_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -83994,7 +83994,7 @@ perspective
 player
 vox_co_op_game_start_take_plr_14_3
 hash_108fdc51ac08265
-hash_c183a9a9d455309
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_take_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84004,7 +84004,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_14_3
 hash_108fdc51ac08265
-hash_c183a9a9d455309
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_take_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84015,7 +84015,7 @@ player
 vox_co_op_game_start_take_plr_14_3
 vox_co_op_game_start_take_plr_15_1
 hash_5861952254fbb8de
-hash_3a0d4c37acc34a58
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_take_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84024,7 +84024,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_15_1
 hash_5861952254fbb8de
-hash_3a0d4c37acc34a58
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_take_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84034,7 +84034,7 @@ player
 vox_co_op_game_start_take_plr_15_1
 vox_co_op_game_start_take_plr_5_5
 hash_5694130d1ae984f7
-hash_45324080b4c2f019
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_take_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84043,7 +84043,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_5_5
 hash_5694130d1ae984f7
-hash_45324080b4c2f019
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_take_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84053,7 +84053,7 @@ player
 vox_co_op_game_start_take_plr_5_5
 vox_co_op_game_start_take_plr_5_7
 hash_13eef42b610060dd
-hash_5cee3738e9af69cb
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_take_7.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84062,7 +84062,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_5_7
 hash_13eef42b610060dd
-hash_5cee3738e9af69cb
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_take_7.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84072,7 +84072,7 @@ player
 vox_co_op_game_start_take_plr_5_7
 vox_co_op_game_start_take_plr_6_6
 hash_2cfd3084c0f3560f
-hash_467ef031763854ed
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_take_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84081,7 +84081,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_6_6
 hash_2cfd3084c0f3560f
-hash_467ef031763854ed
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_take_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84091,7 +84091,7 @@ player
 vox_co_op_game_start_take_plr_6_6
 vox_co_op_game_start_take_plr_7_4
 hash_10c78afc6b690b5a
-hash_829f81b3fbc8ece
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_take_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84100,7 +84100,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_7_4
 hash_10c78afc6b690b5a
-hash_829f81b3fbc8ece
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_take_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84110,7 +84110,7 @@ player
 vox_co_op_game_start_take_plr_7_4
 vox_co_op_game_start_take_plr_8_0
 hash_286becbcf57e1c07
-hash_57a860eac10460e5
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_take_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84119,7 +84119,7 @@ perspective
 npc
 vox_co_op_game_start_take_plr_8_0
 hash_286becbcf57e1c07
-hash_57a860eac10460e5
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_take_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84129,7 +84129,7 @@ player
 vox_co_op_game_start_take_plr_8_0
 vox_co_op_game_start_udem_plr_13_6
 hash_d36e37a53088e9b
-hash_d040700c9005db1
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_udem_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84138,7 +84138,7 @@ perspective
 npc
 vox_co_op_game_start_udem_plr_13_6
 hash_d36e37a53088e9b
-hash_d040700c9005db1
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_udem_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84148,7 +84148,7 @@ player
 vox_co_op_game_start_udem_plr_13_6
 vox_co_op_game_start_udem_plr_14_0
 hash_ef37724652288d4
-hash_2b13056d56d23bb4
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_udem_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84157,7 +84157,7 @@ perspective
 npc
 vox_co_op_game_start_udem_plr_14_0
 hash_ef37724652288d4
-hash_2b13056d56d23bb4
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_udem_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84167,7 +84167,7 @@ player
 vox_co_op_game_start_udem_plr_14_0
 vox_co_op_game_start_udem_plr_15_5
 hash_7b4cf75c36b15f1e
-hash_3eda57f6554e9e5c
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_udem_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84176,7 +84176,7 @@ perspective
 npc
 vox_co_op_game_start_udem_plr_15_5
 hash_7b4cf75c36b15f1e
-hash_3eda57f6554e9e5c
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_udem_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84186,7 +84186,7 @@ player
 vox_co_op_game_start_udem_plr_15_5
 vox_co_op_game_start_udem_plr_16_1
 hash_3c59cfc34a0eb087
-hash_296f6cf866d314bf
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_udem_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84195,7 +84195,7 @@ perspective
 npc
 vox_co_op_game_start_udem_plr_16_1
 hash_3c59cfc34a0eb087
-hash_296f6cf866d314bf
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_udem_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84205,7 +84205,7 @@ player
 vox_co_op_game_start_udem_plr_16_1
 vox_co_op_game_start_udem_plr_5_3
 hash_5bdb9a2093b1759d
-hash_302d01be4c8a0eaf
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_udem_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84214,7 +84214,7 @@ perspective
 npc
 vox_co_op_game_start_udem_plr_5_3
 hash_5bdb9a2093b1759d
-hash_302d01be4c8a0eaf
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_udem_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84224,7 +84224,7 @@ player
 vox_co_op_game_start_udem_plr_5_3
 vox_co_op_game_start_udem_plr_7_2
 hash_23b8cd28a5e6831c
-hash_49fceef5b220710c
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_udem_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84233,7 +84233,7 @@ perspective
 npc
 vox_co_op_game_start_udem_plr_7_2
 hash_23b8cd28a5e6831c
-hash_49fceef5b220710c
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_udem_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84243,7 +84243,7 @@ player
 vox_co_op_game_start_udem_plr_7_2
 vox_co_op_game_start_udem_plr_8_4
 hash_f76bd49e71c01c7
-hash_74e4bd87086dcb19
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_udem_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84252,7 +84252,7 @@ perspective
 npc
 vox_co_op_game_start_udem_plr_8_4
 hash_f76bd49e71c01c7
-hash_74e4bd87086dcb19
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_udem_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84262,7 +84262,7 @@ player
 vox_co_op_game_start_udem_plr_8_4
 vox_co_op_game_start_unik_plr_13_1
 hash_4ba629b7d6f4d874
-hash_34d197f480782c0e
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_unik_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84271,7 +84271,7 @@ perspective
 npc
 vox_co_op_game_start_unik_plr_13_1
 hash_4ba629b7d6f4d874
-hash_34d197f480782c0e
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_unik_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84281,7 +84281,7 @@ player
 vox_co_op_game_start_unik_plr_13_1
 vox_co_op_game_start_unik_plr_14_2
 hash_54cd7feeff75e84a
-hash_23b522ea1d97e4ca
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_unik_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84290,7 +84290,7 @@ perspective
 npc
 vox_co_op_game_start_unik_plr_14_2
 hash_54cd7feeff75e84a
-hash_23b522ea1d97e4ca
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_unik_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84300,7 +84300,7 @@ player
 vox_co_op_game_start_unik_plr_14_2
 vox_co_op_game_start_unik_plr_15_0
 hash_56009e0f035999fb
-hash_47418b149b5adb21
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_unik_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84309,7 +84309,7 @@ perspective
 npc
 vox_co_op_game_start_unik_plr_15_0
 hash_56009e0f035999fb
-hash_47418b149b5adb21
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_unik_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84319,7 +84319,7 @@ player
 vox_co_op_game_start_unik_plr_15_0
 vox_co_op_game_start_unik_plr_16_3
 hash_684c1e50bdf0ddf9
-hash_3e5e803c0dd42f09
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_unik_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84328,7 +84328,7 @@ perspective
 npc
 vox_co_op_game_start_unik_plr_16_3
 hash_684c1e50bdf0ddf9
-hash_3e5e803c0dd42f09
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_unik_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84338,7 +84338,7 @@ player
 vox_co_op_game_start_unik_plr_16_3
 vox_co_op_game_start_unik_plr_5_4
 hash_50812a514bb0a8a4
-hash_39d3eb24ff571358
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_unik_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84347,7 +84347,7 @@ perspective
 npc
 vox_co_op_game_start_unik_plr_5_4
 hash_50812a514bb0a8a4
-hash_39d3eb24ff571358
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_unik_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84357,7 +84357,7 @@ player
 vox_co_op_game_start_unik_plr_5_4
 vox_co_op_game_start_unik_plr_6_5
 hash_45a6a67f202a6da
-hash_58ef181f77e46ad2
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_unik_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84366,7 +84366,7 @@ perspective
 npc
 vox_co_op_game_start_unik_plr_6_5
 hash_45a6a67f202a6da
-hash_58ef181f77e46ad2
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_unik_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84376,7 +84376,7 @@ player
 vox_co_op_game_start_unik_plr_6_5
 vox_co_op_game_start_unik_plr_8_6
 hash_70717784d227b31
-hash_b8814911da4ee9f
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_unik_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84385,7 +84385,7 @@ perspective
 npc
 vox_co_op_game_start_unik_plr_8_6
 hash_70717784d227b31
-hash_b8814911da4ee9f
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_unik_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84395,7 +84395,7 @@ player
 vox_co_op_game_start_unik_plr_8_6
 vox_co_op_game_start_uric_plr_13_0
 hash_6170b9183d04b901
-hash_3d9217d248154e1f
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_uric_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84404,7 +84404,7 @@ perspective
 npc
 vox_co_op_game_start_uric_plr_13_0
 hash_6170b9183d04b901
-hash_3d9217d248154e1f
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_uric_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84414,7 +84414,7 @@ player
 vox_co_op_game_start_uric_plr_13_0
 vox_co_op_game_start_uric_plr_14_1
 hash_3dba3f34715b48cd
-hash_346dd686611d3de9
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_uric_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84423,7 +84423,7 @@ perspective
 npc
 vox_co_op_game_start_uric_plr_14_1
 hash_3dba3f34715b48cd
-hash_346dd686611d3de9
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_uric_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84433,7 +84433,7 @@ player
 vox_co_op_game_start_uric_plr_14_1
 vox_co_op_game_start_uric_plr_15_6
 hash_ff86940e088622d
-hash_5a19c64e6965ed33
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_uric_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84442,7 +84442,7 @@ perspective
 npc
 vox_co_op_game_start_uric_plr_15_6
 hash_ff86940e088622d
-hash_5a19c64e6965ed33
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_uric_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84452,7 +84452,7 @@ player
 vox_co_op_game_start_uric_plr_15_6
 vox_co_op_game_start_uric_plr_16_2
 hash_460f70b1fccf9ce0
-hash_6a1915602b0b5660
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_uric_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84461,7 +84461,7 @@ perspective
 npc
 vox_co_op_game_start_uric_plr_16_2
 hash_460f70b1fccf9ce0
-hash_6a1915602b0b5660
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_uric_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84471,7 +84471,7 @@ player
 vox_co_op_game_start_uric_plr_16_2
 vox_co_op_game_start_uric_plr_6_4
 hash_21e45a038aceb1a9
-hash_368f55652a12fd3b
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_uric_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84481,7 +84481,7 @@ perspective
 npc
 vox_co_op_game_start_uric_plr_6_4
 hash_21e45a038aceb1a9
-hash_368f55652a12fd3b
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_uric_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84491,7 +84491,7 @@ perspective
 player
 vox_co_op_game_start_uric_plr_6_4
 hash_e351743e6d45f03
-hash_eac566b36de6689
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_uric_4_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84501,7 +84501,7 @@ perspective
 npc
 vox_co_op_game_start_uric_plr_6_4
 hash_e351743e6d45f03
-hash_eac566b36de6689
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_uric_4_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84512,7 +84512,7 @@ player
 vox_co_op_game_start_uric_plr_6_4
 vox_co_op_game_start_uric_plr_7_3
 hash_4081cffafbfb7997
-hash_4983eac41dd81bf1
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_uric_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84521,7 +84521,7 @@ perspective
 npc
 vox_co_op_game_start_uric_plr_7_3
 hash_4081cffafbfb7997
-hash_4983eac41dd81bf1
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_uric_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84531,7 +84531,7 @@ player
 vox_co_op_game_start_uric_plr_7_3
 vox_co_op_game_start_uric_plr_8_5
 hash_17ce2c2af25fe0a4
-hash_55b60cb465f4b7f4
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_uric_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84540,7 +84540,7 @@ perspective
 npc
 vox_co_op_game_start_uric_plr_8_5
 hash_17ce2c2af25fe0a4
-hash_55b60cb465f4b7f4
+en\vox\scripted\zmb\white\vox_whi_plr_8_co_op_game_start_uric_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84550,7 +84550,7 @@ player
 vox_co_op_game_start_uric_plr_8_5
 vox_co_op_game_start_utak_plr_13_5
 hash_20c3b4d1aebdafce
-hash_8af00cc2cabfcc0
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_utak_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84559,7 +84559,7 @@ perspective
 npc
 vox_co_op_game_start_utak_plr_13_5
 hash_20c3b4d1aebdafce
-hash_8af00cc2cabfcc0
+en\vox\scripted\zmb\white\vox_whi_plr_13_co_op_game_start_utak_5.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84569,7 +84569,7 @@ player
 vox_co_op_game_start_utak_plr_13_5
 vox_co_op_game_start_utak_plr_14_6
 hash_5b3523e53617463c
-hash_6257ba6027c9ce34
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_utak_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84579,7 +84579,7 @@ perspective
 npc
 vox_co_op_game_start_utak_plr_14_6
 hash_5b3523e53617463c
-hash_6257ba6027c9ce34
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_utak_6.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84589,7 +84589,7 @@ perspective
 player
 vox_co_op_game_start_utak_plr_14_6
 hash_1b55eddad9ea2bbe
-hash_53fe4260713a698a
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_utak_6_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84599,7 +84599,7 @@ perspective
 npc
 vox_co_op_game_start_utak_plr_14_6
 hash_1b55eddad9ea2bbe
-hash_53fe4260713a698a
+en\vox\scripted\zmb\white\vox_whi_plr_14_co_op_game_start_utak_6_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84610,7 +84610,7 @@ player
 vox_co_op_game_start_utak_plr_14_6
 vox_co_op_game_start_utak_plr_15_4
 hash_5bb54d18e765e441
-hash_785b5004cd81f84f
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_utak_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84619,7 +84619,7 @@ perspective
 npc
 vox_co_op_game_start_utak_plr_15_4
 hash_5bb54d18e765e441
-hash_785b5004cd81f84f
+en\vox\scripted\zmb\white\vox_whi_plr_15_co_op_game_start_utak_4.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84629,7 +84629,7 @@ player
 vox_co_op_game_start_utak_plr_15_4
 vox_co_op_game_start_utak_plr_16_0
 hash_304c248488c0eb3c
-hash_66e646f3aa4bae5c
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_utak_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84638,7 +84638,7 @@ perspective
 npc
 vox_co_op_game_start_utak_plr_16_0
 hash_304c248488c0eb3c
-hash_66e646f3aa4bae5c
+en\vox\scripted\zmb\white\vox_whi_plr_16_co_op_game_start_utak_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84648,7 +84648,7 @@ player
 vox_co_op_game_start_utak_plr_16_0
 vox_co_op_game_start_utak_plr_5_2
 hash_652747e6abcd56a8
-hash_a32ea6cf27bc84c
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_utak_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84657,7 +84657,7 @@ perspective
 npc
 vox_co_op_game_start_utak_plr_5_2
 hash_652747e6abcd56a8
-hash_a32ea6cf27bc84c
+en\vox\scripted\zmb\white\vox_whi_plr_5_co_op_game_start_utak_2.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84667,7 +84667,7 @@ player
 vox_co_op_game_start_utak_plr_5_2
 vox_co_op_game_start_utak_plr_6_3
 hash_2cb972dbf4e899de
-hash_4e1adfc95b4bb0c6
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_utak_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84676,7 +84676,7 @@ perspective
 npc
 vox_co_op_game_start_utak_plr_6_3
 hash_2cb972dbf4e899de
-hash_4e1adfc95b4bb0c6
+en\vox\scripted\zmb\white\vox_whi_plr_6_co_op_game_start_utak_3.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84686,7 +84686,7 @@ player
 vox_co_op_game_start_utak_plr_6_3
 vox_co_op_game_start_utak_plr_7_1
 hash_1c43179ea7c8c56b
-hash_2303e85369033915
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_utak_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84695,7 +84695,7 @@ perspective
 npc
 vox_co_op_game_start_utak_plr_7_1
 hash_1c43179ea7c8c56b
-hash_2303e85369033915
+en\vox\scripted\zmb\white\vox_whi_plr_7_co_op_game_start_utak_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -84834,7 +84834,7 @@ mature
 vox_code_four_ncom_4
 vox_code_incorrect_rush_0
 hash_5f5c42df99e67705
-hash_32bc7d2bcb5be52b
+en\vox\scripted\zmb\white\vox_whi_rush_code_incorrect_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -103826,7 +103826,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_lockdown_success_ncom_0
-hash_464cbcf19a391590
+vox_lockdown_warning_1_ncom_0
 hash_7d235d7e19b0ae9f
 en\vox\scripted\zmb\white\vox_whi_ncom_lockdown_warning_1_0.sn100.pc.snd
 zm_white.en
@@ -103834,8 +103834,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_464cbcf19a391590
-hash_69457ae60d28f923
+vox_lockdown_warning_1_ncom_0
+vox_lockdown_warning_2_ncom_0
 hash_5723eff044a92d08
 en\vox\scripted\zmb\white\vox_whi_ncom_lockdown_warning_2_0.sn100.pc.snd
 zm_white.en
@@ -103843,8 +103843,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_69457ae60d28f923
-hash_761bdec9672ff336
+vox_lockdown_warning_2_ncom_0
+vox_lockdown_warning_3_ncom_0
 hash_78ad5afb5a9cb175
 en\vox\scripted\zmb\white\vox_whi_ncom_lockdown_warning_3_0.sn100.pc.snd
 zm_white.en
@@ -103852,8 +103852,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_761bdec9672ff336
-hash_76ef57825312c2e8
+vox_lockdown_warning_3_ncom_0
+vox_lockdown_warning_30_ncom_0
 hash_4e0929bbc9468909
 en\vox\scripted\zmb\white\vox_whi_ncom_lockdown_warning_30_0.sn100.pc.snd
 zm_white.en
@@ -103861,8 +103861,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_76ef57825312c2e8
-hash_6cc44ae436cdf249
+vox_lockdown_warning_30_ncom_0
+vox_lockdown_warning_4_ncom_0
 hash_132fd9d22106d546
 en\vox\scripted\zmb\white\vox_whi_ncom_lockdown_warning_4_0.sn100.pc.snd
 zm_white.en
@@ -103870,8 +103870,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_6cc44ae436cdf249
-hash_452731c898165e8c
+vox_lockdown_warning_4_ncom_0
+vox_lockdown_warning_5_ncom_0
 hash_29b7086f0fbe3e43
 en\vox\scripted\zmb\white\vox_whi_ncom_lockdown_warning_5_0.sn100.pc.snd
 zm_white.en
@@ -103879,8 +103879,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_452731c898165e8c
-hash_7954f40b97475f72
+vox_lockdown_warning_5_ncom_0
+vox_lockdown_warning_7_ncom_0
 hash_6db80b4c1df43b9
 en\vox\scripted\zmb\white\vox_whi_ncom_lockdown_warning_7_0.sn100.pc.snd
 zm_white.en
@@ -103888,7 +103888,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_7954f40b97475f72
+vox_lockdown_warning_7_ncom_0
 vox_magic_box_share_plr_13_0
 hash_1de549c5ce857e64
 en\vox\scripted\zmb\white\vox_whi_plr_13_magic_box_share_0.sn100.pc.snd
@@ -113261,7 +113261,7 @@ mature
 perspective
 player
 vox_overkill_ready_plr_8_4
-hash_650f2ed33f111e4b
+vox_pa_intro_announcement_rush_0
 hash_6351687bf19a8eca
 hash_68b1b417e0add92
 zm_white.en
@@ -113269,8 +113269,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_650f2ed33f111e4b
-hash_5b48b1716bec17c4
+vox_pa_intro_announcement_rush_0
+vox_pa_intro_nag_rush_0
 hash_1128dd4e0fcda79b
 en\vox\scripted\zmb\white\vox_whi_rush_pa_intro_nag_0.sn100.pc.snd
 zm_white.en
@@ -113278,8 +113278,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_5b48b1716bec17c4
-hash_5b48b2716bec1977
+vox_pa_intro_nag_rush_0
+vox_pa_intro_nag_rush_1
 hash_b6142a794f03bde
 en\vox\scripted\zmb\white\vox_whi_rush_pa_intro_nag_1.sn100.pc.snd
 zm_white.en
@@ -113288,7 +113288,7 @@ zm_white.en
 zmb_oracle
 mature
 explicit
-hash_5b48b2716bec1977
+vox_pa_intro_nag_rush_1
 hash_35e2c8563f00c0
 en\vox\scripted\zmb\white\vox_whi_rush_pa_intro_nag_1_s.sn100.pc.snd
 zm_white.en
@@ -113297,7 +113297,7 @@ zm_white.en
 zmb_oracle
 mature
 safe
-hash_5b48b2716bec1977
+vox_pa_intro_nag_rush_1
 vox_pap_wait_plr_13_0
 hash_113868805df31cee
 en\vox\scripted\zmb\white\vox_whi_plr_13_pap_wait_0.sn100.pc.snd
@@ -152525,14 +152525,14 @@ zm_white.en
 zmb_oracle
 mature
 vox_rushmore_colossus_rush_0
-hash_f42013e950db7cd
-hash_70ee15cfa7b81430
+vox_rushmore_declaration_rush_0
+en\vox\scripted\zmb\white\vox_whi_rush_rushmore_declaration_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_f42013e950db7cd
+vox_rushmore_declaration_rush_0
 vox_rushmore_life_rush_0
 en\vox\scripted\zmb\white\vox_whi_rush_rushmore_life_0.sn100.pc.snd
 zm_white.en
@@ -152726,15 +152726,15 @@ zm_white.en
 zmb_oracle
 mature
 vox_s1_eight_ncom_0
-hash_458884a9a017b726
+vox_s1_eleven_ncom_0
 hash_3ef05a34894c4ec3
-hash_602e5864feb44a21
+en\vox\scripted\zmb\white\vox_whi_ncom_s1_eleven_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_458884a9a017b726
+vox_s1_eleven_ncom_0
 vox_s1_f_ncom_0
 hash_4d48a8c97e89c45c
 en\vox\scripted\zmb\white\vox_whi_ncom_s1_f_0.sn100.pc.snd
@@ -154540,7 +154540,7 @@ zm_white.en
 zmb_oracle
 mature
 hash_3f0942d9275607b9
-hash_5f9ae15c7da4b941
+vox_s4_first_code_rush_0
 hash_2e57296f5fcd0850
 en\vox\scripted\zmb\white\vox_whi_rush_s4_first_code_0.sn100.pc.snd
 zm_white.en
@@ -154548,7 +154548,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_5f9ae15c7da4b941
+vox_s4_first_code_rush_0
 vox_s4_hint_plr_13_1
 hash_4569f5f5556d3209
 en\vox\scripted\zmb\white\vox_whi_plr_13_s4_hint_1.sn100.pc.snd
@@ -154719,7 +154719,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_s4_intro_rush_0
-hash_2383a9e2cad0ba03
+vox_s4_last_code_plr_13_1
 hash_12a8e1f5f253cc86
 en\vox\scripted\zmb\white\vox_whi_plr_13_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154729,7 +154729,7 @@ mature
 explicit
 perspective
 npc
-hash_2383a9e2cad0ba03
+vox_s4_last_code_plr_13_1
 hash_12a8e1f5f253cc86
 en\vox\scripted\zmb\white\vox_whi_plr_13_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154739,7 +154739,7 @@ mature
 explicit
 perspective
 player
-hash_2383a9e2cad0ba03
+vox_s4_last_code_plr_13_1
 hash_4b7eadebb7c24fd8
 en\vox\scripted\zmb\white\vox_whi_plr_13_s4_last_code_1_s.sn100.pc.snd
 zm_white.en
@@ -154749,7 +154749,7 @@ mature
 safe
 perspective
 npc
-hash_2383a9e2cad0ba03
+vox_s4_last_code_plr_13_1
 hash_4b7eadebb7c24fd8
 en\vox\scripted\zmb\white\vox_whi_plr_13_s4_last_code_1_s.sn100.pc.snd
 zm_white.en
@@ -154759,8 +154759,8 @@ mature
 safe
 perspective
 player
-hash_2383a9e2cad0ba03
-hash_a30c2e2bca8757e
+vox_s4_last_code_plr_13_1
+vox_s4_last_code_plr_14_1
 hash_12a8e4f5f253d19f
 en\vox\scripted\zmb\white\vox_whi_plr_14_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154769,7 +154769,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_a30c2e2bca8757e
+vox_s4_last_code_plr_14_1
 hash_12a8e4f5f253d19f
 en\vox\scripted\zmb\white\vox_whi_plr_14_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154778,8 +154778,8 @@ zm_white.en
 mature
 perspective
 player
-hash_a30c2e2bca8757e
-hash_12595be2c1232c39
+vox_s4_last_code_plr_14_1
+vox_s4_last_code_plr_15_1
 hash_12a8e3f5f253cfec
 en\vox\scripted\zmb\white\vox_whi_plr_15_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154788,7 +154788,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_12595be2c1232c39
+vox_s4_last_code_plr_15_1
 hash_12a8e3f5f253cfec
 en\vox\scripted\zmb\white\vox_whi_plr_15_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154797,8 +154797,8 @@ zm_white.en
 mature
 perspective
 player
-hash_12595be2c1232c39
-hash_7906f4e2b2fbc134
+vox_s4_last_code_plr_15_1
+vox_s4_last_code_plr_16_1
 hash_12a8e6f5f253d505
 en\vox\scripted\zmb\white\vox_whi_plr_16_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154807,7 +154807,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_7906f4e2b2fbc134
+vox_s4_last_code_plr_16_1
 hash_12a8e6f5f253d505
 en\vox\scripted\zmb\white\vox_whi_plr_16_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154816,8 +154816,8 @@ zm_white.en
 mature
 perspective
 player
-hash_7906f4e2b2fbc134
-hash_2d315cc2ceea3422
+vox_s4_last_code_plr_16_1
+vox_s4_last_code_plr_5_1
 hash_3a8f42165711491d
 en\vox\scripted\zmb\white\vox_whi_plr_5_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154826,7 +154826,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_2d315cc2ceea3422
+vox_s4_last_code_plr_5_1
 hash_3a8f42165711491d
 en\vox\scripted\zmb\white\vox_whi_plr_5_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154835,8 +154835,8 @@ zm_white.en
 mature
 perspective
 player
-hash_2d315cc2ceea3422
-hash_227ca7c2c845c893
+vox_s4_last_code_plr_5_1
+vox_s4_last_code_plr_6_1
 hash_3a8f3f1657114404
 en\vox\scripted\zmb\white\vox_whi_plr_6_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154846,7 +154846,7 @@ mature
 explicit
 perspective
 npc
-hash_227ca7c2c845c893
+vox_s4_last_code_plr_6_1
 hash_3a8f3f1657114404
 en\vox\scripted\zmb\white\vox_whi_plr_6_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154856,7 +154856,7 @@ mature
 explicit
 perspective
 player
-hash_227ca7c2c845c893
+vox_s4_last_code_plr_6_1
 hash_125c0aeaca16f6d6
 en\vox\scripted\zmb\white\vox_whi_plr_6_s4_last_code_1_s.sn100.pc.snd
 zm_white.en
@@ -154866,7 +154866,7 @@ mature
 safe
 perspective
 npc
-hash_227ca7c2c845c893
+vox_s4_last_code_plr_6_1
 hash_125c0aeaca16f6d6
 en\vox\scripted\zmb\white\vox_whi_plr_6_s4_last_code_1_s.sn100.pc.snd
 zm_white.en
@@ -154876,8 +154876,8 @@ mature
 safe
 perspective
 player
-hash_227ca7c2c845c893
-hash_1b2d8ec2c483dc18
+vox_s4_last_code_plr_6_1
+vox_s4_last_code_plr_7_1
 hash_3a8f4016571145b7
 en\vox\scripted\zmb\white\vox_whi_plr_7_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154886,7 +154886,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1b2d8ec2c483dc18
+vox_s4_last_code_plr_7_1
 hash_3a8f4016571145b7
 en\vox\scripted\zmb\white\vox_whi_plr_7_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154895,8 +154895,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1b2d8ec2c483dc18
-hash_5887b1c2e7782d91
+vox_s4_last_code_plr_7_1
+vox_s4_last_code_plr_8_1
 hash_3a8f351657113306
 en\vox\scripted\zmb\white\vox_whi_plr_8_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154905,7 +154905,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_5887b1c2e7782d91
+vox_s4_last_code_plr_8_1
 hash_3a8f351657113306
 en\vox\scripted\zmb\white\vox_whi_plr_8_s4_last_code_1.sn100.pc.snd
 zm_white.en
@@ -154914,8 +154914,8 @@ zm_white.en
 mature
 perspective
 player
-hash_5887b1c2e7782d91
-hash_3c999cbaf95fc5d1
+vox_s4_last_code_plr_8_1
+vox_s4_last_code_rush_0
 hash_10cdb8c3ff915586
 en\vox\scripted\zmb\white\vox_whi_rush_s4_last_code_0.sn100.pc.snd
 zm_white.en
@@ -154923,7 +154923,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_3c999cbaf95fc5d1
+vox_s4_last_code_rush_0
 vox_s4_locate_plr_13_1
 hash_386961dab1e8ec1c
 en\vox\scripted\zmb\white\vox_whi_plr_13_s4_locate_1.sn100.pc.snd
@@ -155255,7 +155255,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_s4_transport_rush_0
-hash_6ebc040ef6b9aaad
+vox_s4_warning_1_rush_0
 hash_40c4462485cd3f52
 en\vox\scripted\zmb\white\vox_whi_rush_s4_warning_1_0.sn100.pc.snd
 zm_white.en
@@ -155263,8 +155263,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_6ebc040ef6b9aaad
-hash_beb38384e52c2aa
+vox_s4_warning_1_rush_0
+vox_s4_warning_2_rush_0
 hash_33687fa713c1b7b1
 en\vox\scripted\zmb\white\vox_whi_rush_s4_warning_2_0.sn100.pc.snd
 zm_white.en
@@ -155272,7 +155272,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_beb38384e52c2aa
+vox_s4_warning_2_rush_0
 vox_s5_end_plr_13_1
 hash_3cdcfaf909e7dfc0
 en\vox\scripted\zmb\white\vox_whi_plr_13_s5_end_1.sn100.pc.snd
@@ -155644,7 +155644,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_s5_shutdown_rush_1
-hash_7d6bd78acb896042
+vox_s6_adam_first_plr_13_0
 hash_5178222c18973613
 hash_7cde5f14b6aedb31
 zm_white.en
@@ -155653,7 +155653,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_7d6bd78acb896042
+vox_s6_adam_first_plr_13_0
 hash_5178222c18973613
 hash_7cde5f14b6aedb31
 zm_white.en
@@ -155662,8 +155662,8 @@ zm_white.en
 mature
 perspective
 player
-hash_7d6bd78acb896042
-hash_3f38368aa7dc47ef
+vox_s6_adam_first_plr_13_0
+vox_s6_adam_first_plr_14_0
 hash_5178272c18973e92
 hash_6028297316cb19ce
 zm_white.en
@@ -155672,7 +155672,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_3f38368aa7dc47ef
+vox_s6_adam_first_plr_14_0
 hash_5178272c18973e92
 hash_6028297316cb19ce
 zm_white.en
@@ -155681,8 +155681,8 @@ zm_white.en
 mature
 perspective
 player
-hash_3f38368aa7dc47ef
-hash_49eced8aae80b6e4
+vox_s6_adam_first_plr_14_0
+vox_s6_adam_first_plr_15_0
 hash_5178282c18974045
 hash_45e3b1c715042fbb
 zm_white.en
@@ -155691,7 +155691,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_49eced8aae80b6e4
+vox_s6_adam_first_plr_15_0
 hash_5178282c18974045
 hash_45e3b1c715042fbb
 zm_white.en
@@ -155700,8 +155700,8 @@ zm_white.en
 mature
 perspective
 player
-hash_49eced8aae80b6e4
-hash_5215848ab2fb6a39
+vox_s6_adam_first_plr_15_0
+vox_s6_adam_first_plr_16_0
 hash_5178252c18973b2c
 hash_ac44615b147d3b0
 zm_white.en
@@ -155710,7 +155710,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_5215848ab2fb6a39
+vox_s6_adam_first_plr_16_0
 hash_5178252c18973b2c
 hash_ac44615b147d3b0
 zm_white.en
@@ -155719,8 +155719,8 @@ zm_white.en
 mature
 perspective
 player
-hash_5215848ab2fb6a39
-hash_30034644b0b6077
+vox_s6_adam_first_plr_16_0
+vox_s6_adam_first_plr_5_0
 hash_21366139c6620346
 hash_7e427ab27d261c02
 zm_white.en
@@ -155729,7 +155729,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_30034644b0b6077
+vox_s6_adam_first_plr_5_0
 hash_21366139c6620346
 hash_7e427ab27d261c02
 zm_white.en
@@ -155738,8 +155738,8 @@ zm_white.en
 mature
 perspective
 player
-hash_30034644b0b6077
-hash_1b7919645879fdd6
+vox_s6_adam_first_plr_5_0
+vox_s6_adam_first_plr_6_0
 hash_21366039c6620193
 hash_60ec935ad519a481
 zm_white.en
@@ -155748,7 +155748,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1b7919645879fdd6
+vox_s6_adam_first_plr_6_0
 hash_21366039c6620193
 hash_60ec935ad519a481
 zm_white.en
@@ -155757,8 +155757,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1b7919645879fdd6
-hash_142a826454b8ee41
+vox_s6_adam_first_plr_6_0
+vox_s6_adam_first_plr_7_0
 hash_21365f39c661ffe0
 hash_75956dada4ccfe64
 zm_white.en
@@ -155767,7 +155767,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_142a826454b8ee41
+vox_s6_adam_first_plr_7_0
 hash_21365f39c661ffe0
 hash_75956dada4ccfe64
 zm_white.en
@@ -155776,8 +155776,8 @@ zm_white.en
 mature
 perspective
 player
-hash_142a826454b8ee41
-hash_7225bf648995e9e8
+vox_s6_adam_first_plr_7_0
+vox_s6_adam_first_plr_8_0
 hash_21366e39c662195d
 hash_7b6f2732ba67b673
 zm_white.en
@@ -155786,7 +155786,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_7225bf648995e9e8
+vox_s6_adam_first_plr_8_0
 hash_21366e39c662195d
 hash_7b6f2732ba67b673
 zm_white.en
@@ -155795,8 +155795,8 @@ zm_white.en
 mature
 perspective
 player
-hash_7225bf648995e9e8
-hash_6eb03791cb5bdfd4
+vox_s6_adam_first_plr_8_0
+vox_s6_arm_first_plr_13_1
 hash_7eb7d8b995827529
 en\vox\scripted\zmb\white\vox_whi_plr_13_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155805,7 +155805,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_6eb03791cb5bdfd4
+vox_s6_arm_first_plr_13_1
 hash_7eb7d8b995827529
 en\vox\scripted\zmb\white\vox_whi_plr_13_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155814,8 +155814,8 @@ zm_white.en
 mature
 perspective
 player
-hash_6eb03791cb5bdfd4
-hash_297dda91ec25d28d
+vox_s6_arm_first_plr_13_1
+vox_s6_arm_first_plr_14_1
 hash_7eb7d9b9958276dc
 en\vox\scripted\zmb\white\vox_whi_plr_14_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155824,7 +155824,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_297dda91ec25d28d
+vox_s6_arm_first_plr_14_1
 hash_7eb7d9b9958276dc
 en\vox\scripted\zmb\white\vox_whi_plr_14_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155833,8 +155833,8 @@ zm_white.en
 mature
 perspective
 player
-hash_297dda91ec25d28d
-hash_222ea191e863afb2
+vox_s6_arm_first_plr_14_1
+vox_s6_arm_first_plr_15_1
 hash_7eb7dab99582788f
 en\vox\scripted\zmb\white\vox_whi_plr_15_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155843,7 +155843,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_222ea191e863afb2
+vox_s6_arm_first_plr_15_1
 hash_7eb7dab99582788f
 en\vox\scripted\zmb\white\vox_whi_plr_15_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155852,8 +155852,8 @@ zm_white.en
 mature
 perspective
 player
-hash_222ea191e863afb2
-hash_1779ec91e1bf4423
+vox_s6_arm_first_plr_15_1
+vox_s6_arm_first_plr_16_1
 hash_7eb7dbb995827a42
 en\vox\scripted\zmb\white\vox_whi_plr_16_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155862,7 +155862,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1779ec91e1bf4423
+vox_s6_arm_first_plr_16_1
 hash_7eb7dbb995827a42
 en\vox\scripted\zmb\white\vox_whi_plr_16_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155871,8 +155871,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1779ec91e1bf4423
-hash_1930dc0434323a3
+vox_s6_arm_first_plr_16_1
+vox_s6_arm_first_plr_5_1
 hash_3afba39260452e4c
 en\vox\scripted\zmb\white\vox_whi_plr_5_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155881,7 +155881,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1930dc0434323a3
+vox_s6_arm_first_plr_5_1
 hash_3afba39260452e4c
 en\vox\scripted\zmb\white\vox_whi_plr_5_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155890,8 +155890,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1930dc0434323a3
-hash_c47c2c049e78f32
+vox_s6_arm_first_plr_5_1
+vox_s6_arm_first_plr_6_1
 hash_3afba69260453365
 en\vox\scripted\zmb\white\vox_whi_plr_6_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155900,7 +155900,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_c47c2c049e78f32
+vox_s6_arm_first_plr_6_1
 hash_3afba69260453365
 en\vox\scripted\zmb\white\vox_whi_plr_6_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155909,8 +155909,8 @@ zm_white.en
 mature
 perspective
 player
-hash_c47c2c049e78f32
-hash_1396fbc04da9b20d
+vox_s6_arm_first_plr_6_1
+vox_s6_arm_first_plr_7_1
 hash_3afba592604531b2
 en\vox\scripted\zmb\white\vox_whi_plr_7_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155919,7 +155919,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1396fbc04da9b20d
+vox_s6_arm_first_plr_7_1
 hash_3afba592604531b2
 en\vox\scripted\zmb\white\vox_whi_plr_7_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155928,8 +155928,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1396fbc04da9b20d
-hash_1d7210c053951cfc
+vox_s6_arm_first_plr_7_1
+vox_s6_arm_first_plr_8_1
 hash_3afba892604536cb
 en\vox\scripted\zmb\white\vox_whi_plr_8_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155938,7 +155938,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1d7210c053951cfc
+vox_s6_arm_first_plr_8_1
 hash_3afba892604536cb
 en\vox\scripted\zmb\white\vox_whi_plr_8_s6_arm_first_1.sn100.pc.snd
 zm_white.en
@@ -155947,8 +155947,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1d7210c053951cfc
-hash_681cecc46d140166
+vox_s6_arm_first_plr_8_1
+vox_s6_arm_first_rush_0
 hash_876b2e567f1e229
 en\vox\scripted\zmb\white\vox_whi_rush_s6_arm_first_0.sn100.pc.snd
 zm_white.en
@@ -155956,8 +155956,8 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_681cecc46d140166
-hash_39c432a507249fa8
+vox_s6_arm_first_rush_0
+vox_s6_arm_second_rush_0
 hash_25a36e7d626cbe45
 en\vox\scripted\zmb\white\vox_whi_rush_s6_arm_second_0.sn100.pc.snd
 zm_white.en
@@ -155965,7 +155965,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_39c432a507249fa8
+vox_s6_arm_second_rush_0
 vox_s6_end_plr_13_1
 hash_2d1268a3d01acd7b
 en\vox\scripted\zmb\white\vox_whi_plr_13_s6_end_1.sn100.pc.snd
@@ -156575,7 +156575,7 @@ mature
 vox_s6_head_rush_0
 hash_4068e6edd93f6625
 hash_3108c2b89256f854
-hash_46b6ef2051ef16be
+en\vox\scripted\zmb\white\vox_whi_mcca_s6_interact_demp_1_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156583,7 +156583,7 @@ mature
 hash_4068e6edd93f6625
 hash_19c685d821f5e48
 hash_3d7b30b847e2ec8b
-hash_6ddfa045b5c352e9
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_1_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156592,7 +156592,7 @@ perspective
 npc
 hash_19c685d821f5e48
 hash_3d7b30b847e2ec8b
-hash_6ddfa045b5c352e9
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_1_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156602,7 +156602,7 @@ player
 hash_19c685d821f5e48
 hash_4e536e37acccc1f6
 hash_de59ed4db56fcab
-hash_1dd445cf576a4af5
+en\vox\scripted\zmb\white\vox_whi_mcca_s6_interact_demp_2_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156610,7 +156610,7 @@ mature
 hash_4e536e37acccc1f6
 hash_2dce1935bef81d4b
 hash_187216c421a39e64
-hash_7fd9e7643bf66112
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_2_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156619,7 +156619,7 @@ perspective
 npc
 hash_2dce1935bef81d4b
 hash_187216c421a39e64
-hash_7fd9e7643bf66112
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_2_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156629,7 +156629,7 @@ player
 hash_2dce1935bef81d4b
 hash_1eafa5383a8ac60f
 hash_1655b6cf196e153e
-hash_5ba9f602a40006d8
+en\vox\scripted\zmb\white\vox_whi_mcca_s6_interact_demp_3_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156637,7 +156637,7 @@ mature
 hash_1eafa5383a8ac60f
 hash_4a831f91b901c90a
 hash_34a2d35ea47fb45
-hash_19d13745e23e2b07
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_3_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156646,7 +156646,7 @@ perspective
 npc
 hash_4a831f91b901c90a
 hash_34a2d35ea47fb45
-hash_19d13745e23e2b07
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_3_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156656,7 +156656,7 @@ player
 hash_4a831f91b901c90a
 hash_3ad71bacb4907c53
 hash_1f9c49852968e198
-hash_5891d28e58b9ee62
+en\vox\scripted\zmb\white\vox_whi_mcca_s6_interact_demp_4_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156664,7 +156664,7 @@ mature
 hash_3ad71bacb4907c53
 hash_4e0aeb59bdd8e0a2
 hash_461f9937e0db103f
-hash_17330aafc5696e5
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_4_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156673,7 +156673,7 @@ perspective
 npc
 hash_4e0aeb59bdd8e0a2
 hash_461f9937e0db103f
-hash_17330aafc5696e5
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_4_1.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156691,7 +156691,7 @@ mature
 hash_5cdc9b84f7f7f81
 hash_1ac882403c8ca5c4
 hash_6fcf07c5fce06da7
-hash_4e07fa1a27a3e55d
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_5_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -156700,7 +156700,7 @@ perspective
 npc
 hash_1ac882403c8ca5c4
 hash_6fcf07c5fce06da7
-hash_4e07fa1a27a3e55d
+en\vox\scripted\zmb\white\vox_whi_plr_14_s6_interact_demp_5_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -167842,7 +167842,7 @@ perspective
 player
 vox_tedd_exert_underwater_pain
 vox_tedd_interact_first_tedd_0
-hash_2909cfd080800b64
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_interact_first_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -167877,7 +167877,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_interact_tedd_11
-hash_48b5891cd285fa8d
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_interact_11_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -167899,7 +167899,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_interact_tedd_13
-hash_779682c6359aebd3
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_interact_13_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -167914,7 +167914,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_interact_tedd_14
-hash_49c9d95c39432384
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_interact_14_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -167957,7 +167957,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_interact_tedd_19
-hash_28e70009e70477e5
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_interact_19_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -167972,7 +167972,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_interact_tedd_2
-hash_7fd53f0a3ea6d887
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_interact_2_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -168071,14 +168071,14 @@ zm_white.en
 mature
 vox_tedd_interact_tedd_9
 vox_tedd_melee_final_tedd_0
-hash_114bc22ce756a220
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_melee_final_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 mature
 explicit
 vox_tedd_melee_final_tedd_0
-hash_1e15fcbbfef4e9ae
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_melee_final_0_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -168114,7 +168114,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_melee_tedd_3
-hash_706b8fe23a741584
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_melee_3_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -168129,7 +168129,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_melee_tedd_4
-hash_1e38394c36cbddd3
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_melee_4_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -168151,7 +168151,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_melee_tedd_6
-hash_6f573fa2d3b6ec8d
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_melee_6_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -168173,7 +168173,7 @@ zm_white.en
 mature
 explicit
 vox_tedd_melee_tedd_8
-hash_598388dca48bac1f
+en\vox\scripted\zmb\white\vox_whi_tedd_tedd_melee_8_s.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -172852,7 +172852,7 @@ safe
 perspective
 player
 vox_utak_surrounded_oh_shit_plr_7_2
-hash_103b36faf541f596
+vox_ww_kit_built_plr_13_0
 hash_2c724ac792cdbe41
 en\vox\scripted\zmb\white\vox_whi_plr_13_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -172861,7 +172861,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_103b36faf541f596
+vox_ww_kit_built_plr_13_0
 hash_2c724ac792cdbe41
 en\vox\scripted\zmb\white\vox_whi_plr_13_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -172870,8 +172870,8 @@ zm_white.en
 mature
 perspective
 player
-hash_103b36faf541f596
-hash_103b37faf541f749
+vox_ww_kit_built_plr_13_0
+vox_ww_kit_built_plr_13_1
 hash_477de221ca222028
 en\vox\scripted\zmb\white\vox_whi_plr_13_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -172880,7 +172880,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_103b37faf541f749
+vox_ww_kit_built_plr_13_1
 hash_477de221ca222028
 en\vox\scripted\zmb\white\vox_whi_plr_13_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -172889,8 +172889,8 @@ zm_white.en
 mature
 perspective
 player
-hash_103b37faf541f749
-hash_103b34faf541f230
+vox_ww_kit_built_plr_13_1
+vox_ww_kit_built_plr_13_2
 hash_62420fb2a056909f
 en\vox\scripted\zmb\white\vox_whi_plr_13_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -172899,7 +172899,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_103b34faf541f230
+vox_ww_kit_built_plr_13_2
 hash_62420fb2a056909f
 en\vox\scripted\zmb\white\vox_whi_plr_13_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -172908,8 +172908,8 @@ zm_white.en
 mature
 perspective
 player
-hash_103b34faf541f230
-hash_18636dfaf9bc05cb
+vox_ww_kit_built_plr_13_2
+vox_ww_kit_built_plr_14_0
 hash_2c724bc792cdbff4
 en\vox\scripted\zmb\white\vox_whi_plr_14_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -172918,7 +172918,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_18636dfaf9bc05cb
+vox_ww_kit_built_plr_14_0
 hash_2c724bc792cdbff4
 en\vox\scripted\zmb\white\vox_whi_plr_14_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -172927,8 +172927,8 @@ zm_white.en
 mature
 perspective
 player
-hash_18636dfaf9bc05cb
-hash_18636cfaf9bc0418
+vox_ww_kit_built_plr_14_0
+vox_ww_kit_built_plr_14_1
 hash_477de921ca222c0d
 en\vox\scripted\zmb\white\vox_whi_plr_14_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -172937,7 +172937,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_18636cfaf9bc0418
+vox_ww_kit_built_plr_14_1
 hash_477de921ca222c0d
 en\vox\scripted\zmb\white\vox_whi_plr_14_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -172946,8 +172946,8 @@ zm_white.en
 mature
 perspective
 player
-hash_18636cfaf9bc0418
-hash_18636ffaf9bc0931
+vox_ww_kit_built_plr_14_1
+vox_ww_kit_built_plr_14_2
 hash_62420cb2a0568b86
 en\vox\scripted\zmb\white\vox_whi_plr_14_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -172956,7 +172956,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_18636ffaf9bc0931
+vox_ww_kit_built_plr_14_2
 hash_62420cb2a0568b86
 en\vox\scripted\zmb\white\vox_whi_plr_14_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -172965,8 +172965,8 @@ zm_white.en
 mature
 perspective
 player
-hash_18636ffaf9bc0931
-hash_1fb284fafd7deee0
+vox_ww_kit_built_plr_14_2
+vox_ww_kit_built_plr_15_0
 hash_2c724cc792cdc1a7
 en\vox\scripted\zmb\white\vox_whi_plr_15_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -172975,7 +172975,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1fb284fafd7deee0
+vox_ww_kit_built_plr_15_0
 hash_2c724cc792cdc1a7
 en\vox\scripted\zmb\white\vox_whi_plr_15_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -172984,8 +172984,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1fb284fafd7deee0
-hash_1fb285fafd7df093
+vox_ww_kit_built_plr_15_0
+vox_ww_kit_built_plr_15_1
 hash_477de821ca222a5a
 en\vox\scripted\zmb\white\vox_whi_plr_15_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -172994,7 +172994,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1fb285fafd7df093
+vox_ww_kit_built_plr_15_1
 hash_477de821ca222a5a
 en\vox\scripted\zmb\white\vox_whi_plr_15_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173003,8 +173003,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1fb285fafd7df093
-hash_1fb286fafd7df246
+vox_ww_kit_built_plr_15_1
+vox_ww_kit_built_plr_15_2
 hash_62420db2a0568d39
 en\vox\scripted\zmb\white\vox_whi_plr_15_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173013,7 +173013,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1fb286fafd7df246
+vox_ww_kit_built_plr_15_2
 hash_62420db2a0568d39
 en\vox\scripted\zmb\white\vox_whi_plr_15_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173022,8 +173022,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1fb286fafd7df246
-hash_2a673bfb04225dd5
+vox_ww_kit_built_plr_15_2
+vox_ww_kit_built_plr_16_0
 hash_2c724dc792cdc35a
 en\vox\scripted\zmb\white\vox_whi_plr_16_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173032,7 +173032,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_2a673bfb04225dd5
+vox_ww_kit_built_plr_16_0
 hash_2c724dc792cdc35a
 en\vox\scripted\zmb\white\vox_whi_plr_16_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173041,8 +173041,8 @@ zm_white.en
 mature
 perspective
 player
-hash_2a673bfb04225dd5
-hash_2a673afb04225c22
+vox_ww_kit_built_plr_16_0
+vox_ww_kit_built_plr_16_1
 hash_477de721ca2228a7
 en\vox\scripted\zmb\white\vox_whi_plr_16_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173051,7 +173051,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_2a673afb04225c22
+vox_ww_kit_built_plr_16_1
 hash_477de721ca2228a7
 en\vox\scripted\zmb\white\vox_whi_plr_16_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173060,8 +173060,8 @@ zm_white.en
 mature
 perspective
 player
-hash_2a673afb04225c22
-hash_2a6739fb04225a6f
+vox_ww_kit_built_plr_16_1
+vox_ww_kit_built_plr_16_2
 hash_62420ab2a0568820
 en\vox\scripted\zmb\white\vox_whi_plr_16_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173070,7 +173070,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_2a6739fb04225a6f
+vox_ww_kit_built_plr_16_2
 hash_62420ab2a0568820
 en\vox\scripted\zmb\white\vox_whi_plr_16_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173079,8 +173079,8 @@ zm_white.en
 mature
 perspective
 player
-hash_2a6739fb04225a6f
-hash_5a139c90d757333b
+vox_ww_kit_built_plr_16_2
+vox_ww_kit_built_plr_5_0
 hash_2107c92f8a0c44d4
 en\vox\scripted\zmb\white\vox_whi_plr_5_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173089,7 +173089,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_5a139c90d757333b
+vox_ww_kit_built_plr_5_0
 hash_2107c92f8a0c44d4
 en\vox\scripted\zmb\white\vox_whi_plr_5_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173098,8 +173098,8 @@ zm_white.en
 mature
 perspective
 player
-hash_5a139c90d757333b
-hash_5a139b90d7573188
+vox_ww_kit_built_plr_5_0
+vox_ww_kit_built_plr_5_1
 hash_66d45340398cc1d7
 en\vox\scripted\zmb\white\vox_whi_plr_5_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173108,7 +173108,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_5a139b90d7573188
+vox_ww_kit_built_plr_5_1
 hash_66d45340398cc1d7
 en\vox\scripted\zmb\white\vox_whi_plr_5_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173117,8 +173117,8 @@ zm_white.en
 mature
 perspective
 player
-hash_5a139b90d7573188
-hash_5a139e90d75736a1
+vox_ww_kit_built_plr_5_1
+vox_ww_kit_built_plr_5_2
 hash_13e89c3a158e0e22
 en\vox\scripted\zmb\white\vox_whi_plr_5_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173127,7 +173127,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_5a139e90d75736a1
+vox_ww_kit_built_plr_5_2
 hash_13e89c3a158e0e22
 en\vox\scripted\zmb\white\vox_whi_plr_5_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173136,8 +173136,8 @@ zm_white.en
 mature
 perspective
 player
-hash_5a139e90d75736a1
-hash_728ca190e4c606fa
+vox_ww_kit_built_plr_5_2
+vox_ww_kit_built_plr_6_0
 hash_2107cc2f8a0c49ed
 en\vox\scripted\zmb\white\vox_whi_plr_6_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173146,7 +173146,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_728ca190e4c606fa
+vox_ww_kit_built_plr_6_0
 hash_2107cc2f8a0c49ed
 en\vox\scripted\zmb\white\vox_whi_plr_6_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173155,8 +173155,8 @@ zm_white.en
 mature
 perspective
 player
-hash_728ca190e4c606fa
-hash_728ca290e4c608ad
+vox_ww_kit_built_plr_6_0
+vox_ww_kit_built_plr_6_1
 hash_66d45440398cc38a
 en\vox\scripted\zmb\white\vox_whi_plr_6_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173165,7 +173165,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_728ca290e4c608ad
+vox_ww_kit_built_plr_6_1
 hash_66d45440398cc38a
 en\vox\scripted\zmb\white\vox_whi_plr_6_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173174,8 +173174,8 @@ zm_white.en
 mature
 perspective
 player
-hash_728ca290e4c608ad
-hash_728c9f90e4c60394
+vox_ww_kit_built_plr_6_1
+vox_ww_kit_built_plr_6_2
 hash_13e89b3a158e0c6f
 en\vox\scripted\zmb\white\vox_whi_plr_6_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173184,7 +173184,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_728c9f90e4c60394
+vox_ww_kit_built_plr_6_2
 hash_13e89b3a158e0c6f
 en\vox\scripted\zmb\white\vox_whi_plr_6_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173193,8 +173193,8 @@ zm_white.en
 mature
 perspective
 player
-hash_728c9f90e4c60394
-hash_6b3dea90e104c105
+vox_ww_kit_built_plr_6_2
+vox_ww_kit_built_plr_7_0
 hash_2107cb2f8a0c483a
 en\vox\scripted\zmb\white\vox_whi_plr_7_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173203,7 +173203,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_6b3dea90e104c105
+vox_ww_kit_built_plr_7_0
 hash_2107cb2f8a0c483a
 en\vox\scripted\zmb\white\vox_whi_plr_7_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173212,8 +173212,8 @@ zm_white.en
 mature
 perspective
 player
-hash_6b3dea90e104c105
-hash_6b3de990e104bf52
+vox_ww_kit_built_plr_7_0
+vox_ww_kit_built_plr_7_1
 hash_66d45540398cc53d
 en\vox\scripted\zmb\white\vox_whi_plr_7_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173222,7 +173222,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_6b3de990e104bf52
+vox_ww_kit_built_plr_7_1
 hash_66d45540398cc53d
 en\vox\scripted\zmb\white\vox_whi_plr_7_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173231,8 +173231,8 @@ zm_white.en
 mature
 perspective
 player
-hash_6b3de990e104bf52
-hash_6b3de890e104bd9f
+vox_ww_kit_built_plr_7_1
+vox_ww_kit_built_plr_7_2
 hash_13e89a3a158e0abc
 en\vox\scripted\zmb\white\vox_whi_plr_7_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173241,7 +173241,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_6b3de890e104bd9f
+vox_ww_kit_built_plr_7_2
 hash_13e89a3a158e0abc
 en\vox\scripted\zmb\white\vox_whi_plr_7_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173250,8 +173250,8 @@ zm_white.en
 mature
 perspective
 player
-hash_6b3de890e104bd9f
-hash_569ef90efe52944
+vox_ww_kit_built_plr_7_2
+vox_ww_kit_built_plr_8_0
 hash_2107be2f8a0c3223
 en\vox\scripted\zmb\white\vox_whi_plr_8_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173260,7 +173260,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_569ef90efe52944
+vox_ww_kit_built_plr_8_0
 hash_2107be2f8a0c3223
 en\vox\scripted\zmb\white\vox_whi_plr_8_ww_kit_built_0.sn100.pc.snd
 zm_white.en
@@ -173269,8 +173269,8 @@ zm_white.en
 mature
 perspective
 player
-hash_569ef90efe52944
-hash_569f090efe52af7
+vox_ww_kit_built_plr_8_0
+vox_ww_kit_built_plr_8_1
 hash_66d44640398cabc0
 en\vox\scripted\zmb\white\vox_whi_plr_8_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173279,7 +173279,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_569f090efe52af7
+vox_ww_kit_built_plr_8_1
 hash_66d44640398cabc0
 en\vox\scripted\zmb\white\vox_whi_plr_8_ww_kit_built_1.sn100.pc.snd
 zm_white.en
@@ -173288,8 +173288,8 @@ zm_white.en
 mature
 perspective
 player
-hash_569f090efe52af7
-hash_569f190efe52caa
+vox_ww_kit_built_plr_8_1
+vox_ww_kit_built_plr_8_2
 hash_13e8a13a158e16a1
 en\vox\scripted\zmb\white\vox_whi_plr_8_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173298,7 +173298,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_569f190efe52caa
+vox_ww_kit_built_plr_8_2
 hash_13e8a13a158e16a1
 en\vox\scripted\zmb\white\vox_whi_plr_8_ww_kit_built_2.sn100.pc.snd
 zm_white.en
@@ -173307,7 +173307,7 @@ zm_white.en
 mature
 perspective
 player
-hash_569f190efe52caa
+vox_ww_kit_built_plr_8_2
 vox_ww_mod_hint_rush_0
 hash_32ea7e9ce91283f3
 en\vox\scripted\zmb\white\vox_whi_rush_ww_mod_hint_0.sn100.pc.snd
@@ -173325,7 +173325,7 @@ zm_white.en
 zm_white.en
 mature
 hash_6dc4b5e7374578b4
-hash_ef67a616ce1cb99
+vox_ww_num_correct_rush_0
 hash_151f48d6639956c2
 hash_516f2fee2e2079a4
 zm_white.en
@@ -173333,7 +173333,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_ef67a616ce1cb99
+vox_ww_num_correct_rush_0
 hash_3b1640241e927a4
 hash_6b9572a6d4df0da9
 hash_4fdaa99f3ee8992f
@@ -173350,7 +173350,7 @@ zm_white.en
 zm_white.en
 mature
 vox_ww_tv_interact_ncom_0
-hash_4711d7a910b2e601
+vox_ww_v_ammo_pickup_plr_13_0
 hash_6ea91f6e3a276aa2
 hash_73a58507c8a12814
 zm_white.en
@@ -173359,7 +173359,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_4711d7a910b2e601
+vox_ww_v_ammo_pickup_plr_13_0
 hash_6ea91f6e3a276aa2
 hash_73a58507c8a12814
 zm_white.en
@@ -173368,8 +173368,8 @@ zm_white.en
 mature
 perspective
 player
-hash_4711d7a910b2e601
-hash_613dbca91f9317e0
+vox_ww_v_ammo_pickup_plr_13_0
+vox_ww_v_ammo_pickup_plr_14_0
 hash_6ea91a6e3a276223
 hash_639e37cb19000799
 zm_white.en
@@ -173378,7 +173378,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_613dbca91f9317e0
+vox_ww_v_ammo_pickup_plr_14_0
 hash_6ea91a6e3a276223
 hash_639e37cb19000799
 zm_white.en
@@ -173387,8 +173387,8 @@ zm_white.en
 mature
 perspective
 player
-hash_613dbca91f9317e0
-hash_59eea5a91bd12ecb
+vox_ww_v_ammo_pickup_plr_14_0
+vox_ww_v_ammo_pickup_plr_15_0
 hash_6ea9196e3a276070
 hash_3a50a351c7d7b032
 zm_white.en
@@ -173397,7 +173397,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_59eea5a91bd12ecb
+vox_ww_v_ammo_pickup_plr_15_0
 hash_6ea9196e3a276070
 hash_3a50a351c7d7b032
 zm_white.en
@@ -173406,8 +173406,8 @@ zm_white.en
 mature
 perspective
 player
-hash_59eea5a91bd12ecb
-hash_7267aaa92940028a
+vox_ww_v_ammo_pickup_plr_15_0
+vox_ww_v_ammo_pickup_plr_16_0
 hash_6ea91c6e3a276589
 hash_3763836964518e7f
 zm_white.en
@@ -173416,7 +173416,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_7267aaa92940028a
+vox_ww_v_ammo_pickup_plr_16_0
 hash_6ea91c6e3a276589
 hash_3763836964518e7f
 zm_white.en
@@ -173425,8 +173425,8 @@ zm_white.en
 mature
 perspective
 player
-hash_7267aaa92940028a
-hash_21fe576dee5bccb2
+vox_ww_v_ammo_pickup_plr_16_0
+vox_ww_v_ammo_pickup_plr_5_0
 hash_13ddeea217ac7f19
 hash_5ef0e7c56122553d
 zm_white.en
@@ -173435,7 +173435,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_21fe576dee5bccb2
+vox_ww_v_ammo_pickup_plr_5_0
 hash_13ddeea217ac7f19
 hash_5ef0e7c56122553d
 zm_white.en
@@ -173444,8 +173444,8 @@ zm_white.en
 mature
 perspective
 player
-hash_21fe576dee5bccb2
-hash_7d2526ddf7b6473
+vox_ww_v_ammo_pickup_plr_5_0
+vox_ww_v_ammo_pickup_plr_6_0
 hash_13ddeba217ac7a00
 hash_118a9b91d4987084
 zm_white.en
@@ -173454,7 +173454,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_7d2526ddf7b6473
+vox_ww_v_ammo_pickup_plr_6_0
 hash_13ddeba217ac7a00
 hash_118a9b91d4987084
 zm_white.en
@@ -173463,8 +173463,8 @@ zm_white.en
 mature
 perspective
 player
-hash_7d2526ddf7b6473
-hash_f21896de33d83e8
+vox_ww_v_ammo_pickup_plr_6_0
+vox_ww_v_ammo_pickup_plr_7_0
 hash_13ddeca217ac7bb3
 hash_77cb3f2de2fa3e13
 zm_white.en
@@ -173473,7 +173473,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_f21896de33d83e8
+vox_ww_v_ammo_pickup_plr_7_0
 hash_13ddeca217ac7bb3
 hash_77cb3f2de2fa3e13
 zm_white.en
@@ -173482,8 +173482,8 @@ zm_white.en
 mature
 perspective
 player
-hash_f21896de33d83e8
-hash_31264c6dae608841
+vox_ww_v_ammo_pickup_plr_7_0
+vox_ww_v_ammo_pickup_plr_8_0
 hash_13ddf9a217ac91ca
 hash_2400aff675b243da
 zm_white.en
@@ -173492,7 +173492,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_31264c6dae608841
+vox_ww_v_ammo_pickup_plr_8_0
 hash_13ddf9a217ac91ca
 hash_2400aff675b243da
 zm_white.en
@@ -173501,7 +173501,7 @@ zm_white.en
 mature
 perspective
 player
-hash_31264c6dae608841
+vox_ww_v_ammo_pickup_plr_8_0
 vox_ww_v_craft_plr_13_0
 hash_52ef0ffb68b57775
 en\vox\scripted\zmb\white\vox_whi_plr_13_ww_v_craft_0.sn100.pc.snd
@@ -173687,7 +173687,7 @@ mature
 vox_ww_v_craft_rush_1
 vox_ww_v_elec_hint_rush_0
 hash_5809de98149e1367
-hash_26f72483c6d0bfd
+en\vox\scripted\zmb\white\vox_whi_rush_ww_v_elec_hint_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
@@ -173855,7 +173855,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_ww_v_pickup_rush_1
-hash_78d6d0c9f88d4427
+vox_ww_x_ammo_pickup_plr_13_0
 hash_1ffdaf1a98db65e8
 hash_74726be8b17601d2
 zm_white.en
@@ -173864,7 +173864,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_78d6d0c9f88d4427
+vox_ww_x_ammo_pickup_plr_13_0
 hash_1ffdaf1a98db65e8
 hash_74726be8b17601d2
 zm_white.en
@@ -173873,8 +173873,8 @@ zm_white.en
 mature
 perspective
 player
-hash_78d6d0c9f88d4427
-hash_3556f1ca1ac7ee7a
+vox_ww_x_ammo_pickup_plr_13_0
+vox_ww_x_ammo_pickup_plr_14_0
 hash_1ffdb61a98db71cd
 hash_500aa205b94c3957
 zm_white.en
@@ -173883,7 +173883,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_3556f1ca1ac7ee7a
+vox_ww_x_ammo_pickup_plr_14_0
 hash_1ffdb61a98db71cd
 hash_500aa205b94c3957
 zm_white.en
@@ -173892,8 +173892,8 @@ zm_white.en
 mature
 perspective
 player
-hash_3556f1ca1ac7ee7a
-hash_2e083aca1706a885
+vox_ww_x_ammo_pickup_plr_14_0
+vox_ww_x_ammo_pickup_plr_15_0
 hash_1ffdb51a98db701a
 hash_1e9ec0e95e1a9574
 zm_white.en
@@ -173902,7 +173902,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_2e083aca1706a885
+vox_ww_x_ammo_pickup_plr_15_0
 hash_1ffdb51a98db701a
 hash_1e9ec0e95e1a9574
 zm_white.en
@@ -173911,8 +173911,8 @@ zm_white.en
 mature
 perspective
 player
-hash_2e083aca1706a885
-hash_235383ca10623990
+vox_ww_x_ammo_pickup_plr_15_0
+vox_ww_x_ammo_pickup_plr_16_0
 hash_1ffdb41a98db6e67
 hash_462935f28f786b31
 zm_white.en
@@ -173921,7 +173921,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_235383ca10623990
+vox_ww_x_ammo_pickup_plr_16_0
 hash_1ffdb41a98db6e67
 hash_462935f28f786b31
 zm_white.en
@@ -173930,8 +173930,8 @@ zm_white.en
 mature
 perspective
 player
-hash_235383ca10623990
-hash_5918d64bdd6d2090
+vox_ww_x_ammo_pickup_plr_16_0
+vox_ww_x_ammo_pickup_plr_5_0
 hash_6032a014a8aa0517
 hash_5dc9d9113b4acb03
 zm_white.en
@@ -173940,7 +173940,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_5918d64bdd6d2090
+vox_ww_x_ammo_pickup_plr_5_0
 hash_6032a014a8aa0517
 hash_5dc9d9113b4acb03
 zm_white.en
@@ -173949,8 +173949,8 @@ zm_white.en
 mature
 perspective
 player
-hash_5918d64bdd6d2090
-hash_63cd8d4be4118f85
+vox_ww_x_ammo_pickup_plr_5_0
+vox_ww_x_ammo_pickup_plr_6_0
 hash_6032a114a8aa06ca
 hash_5ad744eca0a52382
 zm_white.en
@@ -173959,7 +173959,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_63cd8d4be4118f85
+vox_ww_x_ammo_pickup_plr_6_0
 hash_6032a114a8aa06ca
 hash_5ad744eca0a52382
 zm_white.en
@@ -173968,8 +173968,8 @@ zm_white.en
 mature
 perspective
 player
-hash_63cd8d4be4118f85
-hash_6b1c444be7d2d57a
+vox_ww_x_ammo_pickup_plr_6_0
+vox_ww_x_ammo_pickup_plr_7_0
 hash_6032a214a8aa087d
 hash_1363015f26f28d8d
 zm_white.en
@@ -173978,7 +173978,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_6b1c444be7d2d57a
+vox_ww_x_ammo_pickup_plr_7_0
 hash_6032a214a8aa087d
 hash_1363015f26f28d8d
 zm_white.en
@@ -173987,8 +173987,8 @@ zm_white.en
 mature
 perspective
 player
-hash_6b1c444be7d2d57a
-hash_7344db4bec4d88cf
+vox_ww_x_ammo_pickup_plr_7_0
+vox_ww_x_ammo_pickup_plr_8_0
 hash_60329314a8a9ef00
 hash_4d4707588d812dec
 zm_white.en
@@ -173997,7 +173997,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_7344db4bec4d88cf
+vox_ww_x_ammo_pickup_plr_8_0
 hash_60329314a8a9ef00
 hash_4d4707588d812dec
 zm_white.en
@@ -174006,7 +174006,7 @@ zm_white.en
 mature
 perspective
 player
-hash_7344db4bec4d88cf
+vox_ww_x_ammo_pickup_plr_8_0
 hash_aec062a8a2a5d26
 hash_3970778f67ccf04b
 hash_6fe63d01c003cf9f
@@ -174499,7 +174499,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_ww_x_pickup_rush_0
-hash_180d04515aa7aac6
+vox_ww_y_ammo_pickup_plr_13_0
 hash_374fe9055b110c39
 hash_400273c52e7049f7
 zm_white.en
@@ -174508,7 +174508,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_180d04515aa7aac6
+vox_ww_y_ammo_pickup_plr_13_0
 hash_374fe9055b110c39
 hash_400273c52e7049f7
 zm_white.en
@@ -174517,8 +174517,8 @@ zm_white.en
 mature
 perspective
 player
-hash_180d04515aa7aac6
-hash_22c1bb51614c19bb
+vox_ww_y_ammo_pickup_plr_13_0
+vox_ww_y_ammo_pickup_plr_14_0
 hash_374fea055b110dec
 hash_13ce670b47f881b2
 zm_white.en
@@ -174527,7 +174527,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_22c1bb51614c19bb
+vox_ww_y_ammo_pickup_plr_14_0
 hash_374fea055b110dec
 hash_13ce670b47f881b2
 zm_white.en
@@ -174536,8 +174536,8 @@ zm_white.en
 mature
 perspective
 player
-hash_22c1bb51614c19bb
-hash_2937525164553890
+vox_ww_y_ammo_pickup_plr_14_0
+vox_ww_y_ammo_pickup_plr_15_0
 hash_374feb055b110f9f
 hash_a20741198df3619
 zm_white.en
@@ -174546,7 +174546,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_2937525164553890
+vox_ww_y_ammo_pickup_plr_15_0
 hash_374feb055b110f9f
 hash_a20741198df3619
 zm_white.en
@@ -174555,8 +174555,8 @@ zm_white.en
 mature
 perspective
 player
-hash_2937525164553890
-hash_33ec09516af9a785
+vox_ww_y_ammo_pickup_plr_15_0
+vox_ww_y_ammo_pickup_plr_16_0
 hash_374fec055b111152
 hash_4e57a8eb63a52d0c
 zm_white.en
@@ -174565,7 +174565,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_33ec09516af9a785
+vox_ww_y_ammo_pickup_plr_16_0
 hash_374fec055b111152
 hash_4e57a8eb63a52d0c
 zm_white.en
@@ -174574,8 +174574,8 @@ zm_white.en
 mature
 perspective
 player
-hash_33ec09516af9a785
-hash_1e7e57ffaba118ab
+vox_ww_y_ammo_pickup_plr_16_0
+vox_ww_y_ammo_pickup_plr_5_0
 hash_786e38af6314131c
 hash_f644ffc20f44dce
 zm_white.en
@@ -174584,7 +174584,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_1e7e57ffaba118ab
+vox_ww_y_ammo_pickup_plr_5_0
 hash_786e38af6314131c
 hash_f644ffc20f44dce
 zm_white.en
@@ -174593,8 +174593,8 @@ zm_white.en
 mature
 perspective
 player
-hash_1e7e57ffaba118ab
-hash_38aa5cffba8180ea
+vox_ww_y_ammo_pickup_plr_5_0
+vox_ww_y_ammo_pickup_plr_6_0
 hash_786e3baf63141835
 hash_6aba822be942f4a7
 zm_white.en
@@ -174603,7 +174603,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_38aa5cffba8180ea
+vox_ww_y_ammo_pickup_plr_6_0
 hash_786e3baf63141835
 hash_6aba822be942f4a7
 zm_white.en
@@ -174612,8 +174612,8 @@ zm_white.en
 mature
 perspective
 player
-hash_38aa5cffba8180ea
-hash_308225ffb60770b5
+vox_ww_y_ammo_pickup_plr_6_0
+vox_ww_y_ammo_pickup_plr_7_0
 hash_786e3aaf63141682
 hash_5b6d37fe606efc98
 zm_white.en
@@ -174622,7 +174622,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_308225ffb60770b5
+vox_ww_y_ammo_pickup_plr_7_0
 hash_786e3aaf63141682
 hash_5b6d37fe606efc98
 zm_white.en
@@ -174631,8 +174631,8 @@ zm_white.en
 mature
 perspective
 player
-hash_308225ffb60770b5
-hash_49d4aaffc42f0eb4
+vox_ww_y_ammo_pickup_plr_7_0
+vox_ww_y_ammo_pickup_plr_8_0
 hash_786e3daf63141b9b
 hash_2937dadae3c1a011
 zm_white.en
@@ -174641,7 +174641,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_49d4aaffc42f0eb4
+vox_ww_y_ammo_pickup_plr_8_0
 hash_786e3daf63141b9b
 hash_2937dadae3c1a011
 zm_white.en
@@ -174650,7 +174650,7 @@ zm_white.en
 mature
 perspective
 player
-hash_49d4aaffc42f0eb4
+vox_ww_y_ammo_pickup_plr_8_0
 vox_ww_y_craft_plr_13_0
 hash_12975511757b12c6
 en\vox\scripted\zmb\white\vox_whi_plr_13_ww_y_craft_0.sn100.pc.snd
@@ -174812,7 +174812,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_ww_y_craft_rush_1
-hash_61ea1c56d8b85109
+vox_ww_y_orb_find_rush_0
 hash_bc89604707c7c88
 hash_3b6ae3d68fa8a4f4
 zm_white.en
@@ -174820,7 +174820,7 @@ zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_61ea1c56d8b85109
+vox_ww_y_orb_find_rush_0
 hash_109e2058961aafd
 hash_75b9e506f624ecd6
 hash_553d90653f04a90
@@ -174830,24 +174830,24 @@ zm_white.en
 zmb_oracle
 mature
 hash_109e2058961aafd
-hash_7f3dfdce325747fd
+vox_ww_y_orb_shoot_rush_0
 hash_7074f87bab693832
-hash_240700e67cb9e8f0
+en\vox\scripted\zmb\white\vox_whi_rush_ww_y_orb_shoot_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_7f3dfdce325747fd
-hash_6942fd3186464801
+vox_ww_y_orb_shoot_rush_0
+vox_ww_y_orb_success_rush_0
 hash_51c91e9afe756d82
-hash_6c64ef72fa82a8cc
+en\vox\scripted\zmb\white\vox_whi_rush_ww_y_orb_success_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_6942fd3186464801
+vox_ww_y_orb_success_rush_0
 vox_ww_y_pickup_rush_0
 hash_7ed2a9f68ef040b7
 en\vox\scripted\zmb\white\vox_whi_rush_ww_y_pickup_0.sn100.pc.snd
@@ -174857,7 +174857,7 @@ zm_white.en
 zmb_oracle
 mature
 vox_ww_y_pickup_rush_0
-hash_4355174cc2ed21e5
+vox_ww_z_ammo_pickup_plr_13_0
 hash_61e84a4c43a81736
 hash_49aba375b0d44238
 zm_white.en
@@ -174866,7 +174866,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_4355174cc2ed21e5
+vox_ww_z_ammo_pickup_plr_13_0
 hash_61e84a4c43a81736
 hash_49aba375b0d44238
 zm_white.en
@@ -174875,8 +174875,8 @@ zm_white.en
 mature
 perspective
 player
-hash_4355174cc2ed21e5
-hash_17ff444caa60055c
+vox_ww_z_ammo_pickup_plr_13_0
+vox_ww_z_ammo_pickup_plr_14_0
 hash_61e84d4c43a81c4f
 hash_60db33677b9d338d
 zm_white.en
@@ -174885,7 +174885,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_17ff444caa60055c
+vox_ww_z_ammo_pickup_plr_14_0
 hash_61e84d4c43a81c4f
 hash_60db33677b9d338d
 zm_white.en
@@ -174894,8 +174894,8 @@ zm_white.en
 mature
 perspective
 player
-hash_17ff444caa60055c
-hash_fd6ad4ca5e55207
+vox_ww_z_ammo_pickup_plr_14_0
+vox_ww_z_ammo_pickup_plr_15_0
 hash_61e84c4c43a81a9c
 hash_66b090346df86f1e
 zm_white.en
@@ -174904,7 +174904,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_fd6ad4ca5e55207
+vox_ww_z_ammo_pickup_plr_15_0
 hash_61e84c4c43a81a9c
 hash_66b090346df86f1e
 zm_white.en
@@ -174913,8 +174913,8 @@ zm_white.en
 mature
 perspective
 player
-hash_fd6ad4ca5e55207
-hash_2929124cb40cb9a6
+vox_ww_z_ammo_pickup_plr_15_0
+vox_ww_z_ammo_pickup_plr_16_0
 hash_61e84f4c43a81fb5
 hash_2a514c749e492a2b
 zm_white.en
@@ -174923,7 +174923,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_2929124cb40cb9a6
+vox_ww_z_ammo_pickup_plr_16_0
 hash_61e84f4c43a81fb5
 hash_2a514c749e492a2b
 zm_white.en
@@ -174932,8 +174932,8 @@ zm_white.en
 mature
 perspective
 player
-hash_2929124cb40cb9a6
-hash_161dcf32b60bf836
+vox_ww_z_ammo_pickup_plr_16_0
+vox_ww_z_ammo_pickup_plr_5_0
 hash_5867c8c38f299b8d
 hash_594af18e9ceffbc9
 zm_white.en
@@ -174942,7 +174942,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_161dcf32b60bf836
+vox_ww_z_ammo_pickup_plr_5_0
 hash_5867c8c38f299b8d
 hash_594af18e9ceffbc9
 zm_white.en
@@ -174951,8 +174951,8 @@ zm_white.en
 mature
 perspective
 player
-hash_161dcf32b60bf836
-hash_7bf16a32a72aecd7
+vox_ww_z_ammo_pickup_plr_5_0
+vox_ww_z_ammo_pickup_plr_6_0
 hash_5867c5c38f299674
 hash_3aed2467a85dd628
 zm_white.en
@@ -174961,7 +174961,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_7bf16a32a72aecd7
+vox_ww_z_ammo_pickup_plr_6_0
 hash_5867c5c38f299674
 hash_3aed2467a85dd628
 zm_white.en
@@ -174970,8 +174970,8 @@ zm_white.en
 mature
 perspective
 player
-hash_7bf16a32a72aecd7
-hash_6a68132adcffeec
+vox_ww_z_ammo_pickup_plr_6_0
+vox_ww_z_ammo_pickup_plr_7_0
 hash_5867c6c38f299827
 hash_2926ffd64a19357
 zm_white.en
@@ -174980,7 +174980,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_6a68132adcffeec
+vox_ww_z_ammo_pickup_plr_7_0
 hash_5867c6c38f299827
 hash_2926ffd64a19357
 zm_white.en
@@ -174989,8 +174989,8 @@ zm_white.en
 mature
 perspective
 player
-hash_6a68132adcffeec
-hash_76a52c32ed12af7d
+vox_ww_z_ammo_pickup_plr_7_0
+vox_ww_z_ammo_pickup_plr_8_0
 hash_5867bbc38f298576
 hash_702fb4644d0b8eb6
 zm_white.en
@@ -174999,7 +174999,7 @@ zm_white.en
 mature
 perspective
 npc
-hash_76a52c32ed12af7d
+vox_ww_z_ammo_pickup_plr_8_0
 hash_5867bbc38f298576
 hash_702fb4644d0b8eb6
 zm_white.en
@@ -175008,25 +175008,25 @@ zm_white.en
 mature
 perspective
 player
-hash_76a52c32ed12af7d
-hash_de2af40c6f28517
+vox_ww_z_ammo_pickup_plr_8_0
+vox_ww_z_chimney_first_rush_0
 hash_4938164a0b9107bc
-hash_1a0677ce1fd72f7e
+en\vox\scripted\zmb\white\vox_whi_rush_ww_z_chimney_first_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_de2af40c6f28517
-hash_571c990866faa511
+vox_ww_z_chimney_first_rush_0
+vox_ww_z_chimney_start_rush_0
 hash_5001241f6607db9e
-hash_5151694d6027b8ec
+en\vox\scripted\zmb\white\vox_whi_rush_ww_z_chimney_start_0.sn100.pc.snd
 zm_white.en
 zm_white.en
 zm_white.en
 zmb_oracle
 mature
-hash_571c990866faa511
+vox_ww_z_chimney_start_rush_0
 vox_ww_z_complete_rush_0
 hash_51f24bff37b8b92f
 en\vox\scripted\zmb\white\vox_whi_rush_ww_z_complete_0.sn100.pc.snd

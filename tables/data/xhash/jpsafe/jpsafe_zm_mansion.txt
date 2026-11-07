@@ -1313,7 +1313,7 @@ hash_a2c95b74bbe79ad2
 mc/mtl_c_t8_zmb_stoker_head
 mc/mtl_c_t8_zmb_blightfather_legs_noreveal
 mc/mtl_c_t8_zmb_male_torso1_lod
-hash_26567a6636ee2408
+mc/mtl_c_t8_zmb_3rdclass_fem_blouse_buttons2
 mc/mtl_c_t8_zmb_male_head1
 mc/mtl_c_t8_zmb_male_head3
 mc/mtl_c_t8_zmb_gib_gore_stump
@@ -1385,7 +1385,7 @@ mc/mtl_c_t8_zmb_2ndclass_fem_dress_sleeves3
 mc/mtl_c_t8_zmb_2ndclass_fem_dress_sleeves1
 mc/mtl_c_t8_zmb_catalyst_decay_torso_noreveal
 mc/mtl_c_t8_zmb_catalyst_decay_legs
-hash_5d71f39a7615b5fc
+mc/mtl_c_t8_zmb_2ndclass_fem_torso_gore2
 mc/mtl_c_t8_zmb_blightfather_arms
 mc/mtl_c_t8_zmb_catalyst_water_legs
 mc/mtl_c_t8_zmb_catalyst_fire_legs

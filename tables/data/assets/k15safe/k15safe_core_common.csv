@@ -5,7 +5,7 @@ physconstraints,#hash_4063554b6fe94802
 physconstraints,#hash_4d46a2564e8dcbbc
 physconstraints,#hash_65810e8e6f675e87
 physconstraints,#hash_71161886efac93b3
-xanim,#hash_280ee6e892fc687f
+xanim,#vm_medical_injection_gun_rh_additive
 xanim,#pt_medical_injection_prone_fire_rh
 xanim,#pt_medical_injection_stand_fire_rh
 xmodelmesh,#hash_86d29ec80818ac
@@ -302,7 +302,7 @@ image,#i_c_t8_zmb_male_boots_c
 image,#i_c_t8_zmb_male_boots_g
 image,#i_c_t8_zmb_male_boots_s
 image,#i_c_t8_zmb_dlc0_hero_bruno_legs_c
-image,#hash_150324e6d960a3ad
+image,#i_c_t8_mp_spe_hacker_apocalypse_notepad_up_c
 image,#i_c_t8_mp_spe_hacker_head1_face_com_n
 image,#i_c_t8_mp_spe_hacker_apocalypse_headband_n
 image,#i_c_t8_mp_spe_hacker_apocalypse_headband_o
@@ -375,7 +375,7 @@ image,#i_c_t8_zmb_male_jacket_g
 image,#i_c_t8_zmb_male_jacket_c
 image,#i_c_t8_zmb_male_jacket_o
 image,#i_c_t8_zmb_male_jacket_n
-image,#hash_26d2150a407ed465
+image,#i_c_t8_mp_spe_engineer_apocalypse_scarve_c
 image,#i_c_t8_zmb_hero_bruno_armband_c
 image,#i_c_t8_zmb_hero_bruno_armband_g
 image,#i_c_t8_zmb_hero_scarlett_arm_left_c
@@ -411,7 +411,7 @@ image,#i_c_t8_zmb_male_torso1_g
 image,#i_c_t8_zmb_male_torso1_o
 image,#i_c_t8_zmb_male_torso1_n
 image,#$normal
-image,#hash_2e7eb36d156de80e
+image,#i_c_t8_mp_spe_hacker_apocalypse_kitchenware_serving_spoon_lrg_wood_c
 image,#i_c_t8_zmb_dlc0_red_c
 image,#i_c_t8_mp_spe_engineer_apocalypse_shirt_tear_c
 image,#i_c_t8_mp_spe_battery_head1_face_str_n
@@ -489,7 +489,7 @@ image,#i_c_t8_mp_spe_ruin_dotd_decal3_com_m
 image,#i_c_t8_mp_spe_ruin_dotd_decal3_com_c
 image,#i_c_t8_zmb_dlc0_hero_stanton_chest_straps_cst_c
 image,#i_c_t8_mp_spe_engineer_apocalypse_left_glove_c
-image,#hash_44977b1b140af8d1
+image,#loot_ui_icon_tags_graffitiheroes_battery
 image,#i_c_t8_zmb_hero_scarlett_torso_cst_c
 image,#i_c_t8_zmb_dlc0_hero_stanton_chest_g
 image,#i_c_t8_zmb_dlc0_hero_stanton_chest_c
@@ -545,7 +545,7 @@ image,#i_c_t8_zmb_ofc_hero_nikolai_jacket1_c
 image,#i_c_t8_mp_spe_engineer_apocalypse_right_sleeve_c
 image,#i_c_t8_gen_eye_zombie_2_c
 image,#i_c_t8_mp_spe_hacker_apocalypse_socks_c
-image,#hash_54fb15cb38f0f4d0
+image,#i_c_t8_mp_spe_hacker_apocalypse_notepad_down_c
 image,#i_c_t8_mp_spe_engineer_apocalypse_overall_tear_c
 image,#i_c_t8_zmb_dlc0_slave_rope_o
 image,#i_c_t8_zmb_dlc0_slave_rope_n
@@ -573,7 +573,7 @@ image,#i_c_t8_zmb_mob_hero_dempsey_glove_c
 image,#skin_pore_detail
 image,#i_c_t8_mp_spe_prophet_dotd_decal5_exo1_c
 image,#i_c_t8_mp_spe_prophet_dotd_decal5_exo1_s
-image,#hash_5c58e42edff82fdb
+image,#loot_ui_icon_tags_graffitiheroes_recon
 image,#fxt8_ui_heal_icon
 image,#hash_5d8fa025ebdf68ec
 image,#i_c_t8_zmb_hero_bruno_head_c
@@ -794,7 +794,7 @@ xmodel,#wpn_t8_eqp_stem_shot_world
 xmodel,#p7_zm_sta_gibs_arm_r
 xmodel,#p7_zm_sta_gibs_head
 fx,#hash_1dd296b2733e8e7
-xanim,#hash_7249236d1e5c2dfe
+xanim,#vm_medical_injection_gun_rh
 xmodel,#c_t8_zmb_3rdclass_male_body3_s_lleg
 xmodel,#c_t8_zmb_3rdclass_male_body3_s_rleg
 xmodel,#c_t8_zmb_3rdclass_male_body3_s_larm

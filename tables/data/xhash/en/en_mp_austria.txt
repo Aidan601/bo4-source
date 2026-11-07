@@ -245,7 +245,7 @@ mp_austria.en
 mature
 explicit
 vox_plr_6_skit5_4
-hash_478250c93b2dd78d
+en\vox\scripted\austria\plr_6\vox_plr_6_skit5_4_00_s.sn100.pc.snd
 mp_austria.en
 mp_austria.en
 mp_austria.en
@@ -267,7 +267,7 @@ mp_austria.en
 mature
 explicit
 vox_plr_6_skit7_0
-hash_6c22d0351cab39c7
+en\vox\scripted\austria\plr_6\vox_plr_6_skit7_0_00_s.sn100.pc.snd
 mp_austria.en
 mp_austria.en
 mp_austria.en
@@ -296,7 +296,7 @@ mp_austria.en
 mature
 explicit
 vox_plr_7_skit2_0
-hash_269a0a2d03d03d0c
+en\vox\scripted\austria\plr_7\vox_plr_7_skit2_0_00_s.sn100.pc.snd
 mp_austria.en
 mp_austria.en
 mp_austria.en
