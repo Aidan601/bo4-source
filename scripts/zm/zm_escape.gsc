@@ -1,6 +1,6 @@
 #using scripts\zm\zm_escape_weap_quest_spoon;
 #using scripts\zm\zm_escape_weap_quest_mg;
-#using script_36222395658446f5;
+#using scripts\zm\zm_escape_weap_quest_spoon2;
 #using scripts\zm\zm_escape_nixie_clock;
 #using scripts\zm\zm_escape_fast_travel_hellholes;
 #using scripts\zm\zm_escape_weap_quest_spork;

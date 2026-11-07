@@ -124987,7 +124987,7 @@ scripts/zm/weapons/zm_weap_spectral_shield.gsc
 scripts/core_common/ai/zombie.gsc
 scripts/zm/zm_escape_weap_quest.csc
 scripts/zm/weapons/zm_weap_minigun.gsc
-hash_11c9779550732489
+scripts/zm/zm_escape_weap_quest_spoon2.csc
 scripts/zm/zm_escape_spoon.csc
 scripts/zm/ai/zm_ai_ghost.gsc
 scripts/zm/weapons/zm_weap_tomahawk.gsc
@@ -125016,7 +125016,7 @@ scripts/core_common/ai/zombie.csc
 scripts/core_common/ai/archetype_catalyst_interface.gsc
 scripts/zm/perk/zm_perk_random.gsc
 scripts/zm/weapons/zm_weap_minigun.csc
-hash_36222395658446f5
+scripts/zm/zm_escape_weap_quest_spoon2.gsc
 scripts/zm/zm_escape_spoon.gsc
 scripts/zm/zm_escape_ffotd.gsc
 scripts/zm/ai/zm_ai_ghost.csc

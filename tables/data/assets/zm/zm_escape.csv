@@ -30644,7 +30644,7 @@ scriptparsetree,#scripts/zm/weapons/zm_weap_spectral_shield.gsc
 scriptparsetree,#scripts/core_common/ai/zombie.gsc
 scriptparsetree,#scripts/zm/zm_escape_weap_quest.csc
 scriptparsetree,#scripts/zm/weapons/zm_weap_minigun.gsc
-scriptparsetree,#hash_11c9779550732489
+scriptparsetree,#scripts/zm/zm_escape_weap_quest_spoon2.csc
 scriptparsetree,#scripts/zm/zm_escape_spoon.csc
 scriptparsetree,#scripts/zm/ai/zm_ai_ghost.gsc
 scriptparsetree,#scripts/zm/weapons/zm_weap_tomahawk.gsc
@@ -30673,7 +30673,7 @@ scriptparsetree,#scripts/core_common/ai/zombie.csc
 scriptparsetree,#scripts/core_common/ai/archetype_catalyst_interface.gsc
 scriptparsetree,#scripts/zm/perk/zm_perk_random.gsc
 scriptparsetree,#scripts/zm/weapons/zm_weap_minigun.csc
-scriptparsetree,#hash_36222395658446f5
+scriptparsetree,#scripts/zm/zm_escape_weap_quest_spoon2.gsc
 scriptparsetree,#scripts/zm/zm_escape_spoon.gsc
 scriptparsetree,#scripts/zm/zm_escape_ffotd.gsc
 scriptparsetree,#scripts/zm/ai/zm_ai_ghost.csc

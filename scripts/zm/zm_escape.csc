@@ -1,4 +1,4 @@
-#using script_11c9779550732489;
+#using scripts\zm\zm_escape_weap_quest_spoon2;
 #using scripts\zm\zm_escape_fast_travel_hellholes;
 #using scripts\zm\zm_escape_weap_quest_spoon;
 #using scripts\zm\zm_escape_weap_quest_mg;

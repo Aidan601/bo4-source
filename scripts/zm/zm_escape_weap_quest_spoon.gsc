@@ -1,4 +1,4 @@
-#using script_36222395658446f5;
+#using scripts\zm\zm_escape_weap_quest_spoon2;
 #using scripts\zm\zm_escape_nixie_clock;
 #using scripts\core_common\array_shared;
 #using scripts\core_common\callbacks_shared;

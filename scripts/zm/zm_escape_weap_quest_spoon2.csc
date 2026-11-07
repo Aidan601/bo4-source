@@ -5,18 +5,18 @@
 #using scripts\core_common\system_shared;
 #using scripts\core_common\util_shared;
 
-#namespace namespace_42cc2819;
+#namespace zm_escape_weap_quest_spoon2;
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 0, eflags: 0x2
 // Checksum 0x2d48c24f, Offset: 0x150
 // Size: 0x3c
 function autoexec __init__system__()
 {
-    system::register( #"hash_77ae506b4db4f2ce", &__init__, undefined, undefined );
+    system::register( #"zm_escape_spoon2", &__init__, undefined, undefined );
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 0
 // Checksum 0x9c33050e, Offset: 0x198
 // Size: 0x462
@@ -39,7 +39,7 @@ function __init__()
     level._effect[ #"blood_splash" ] = #"hash_4d27fd6de25c639b";
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0xf8bce323, Offset: 0x608
 // Size: 0xec
@@ -60,7 +60,7 @@ function function_e7b6c72b( localclientnum, oldval, newval, bnewent, binitialsna
     self.var_8d97f43e hide();
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0x20bc3e68, Offset: 0x700
 // Size: 0xec
@@ -81,7 +81,7 @@ function function_2a127860( localclientnum, oldval, newval, bnewent, binitialsna
     self.var_c7b21349 hide();
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0x98a74b05, Offset: 0x7f8
 // Size: 0x114
@@ -103,7 +103,7 @@ function function_f0e07568( localclientnum, oldval, newval, bnewent, binitialsna
     self.var_477a641f hide();
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0x6f2108cb, Offset: 0x918
 // Size: 0x124
@@ -125,7 +125,7 @@ function function_7353e021( localclientnum, oldval, newval, bnewent, binitialsna
     self.var_a86cb7e0 hide();
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0x372963f6, Offset: 0xa48
 // Size: 0x124
@@ -147,7 +147,7 @@ function place_blue_rock( localclientnum, oldval, newval, bnewent, binitialsnap,
     self.var_40bb11af hide();
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0x68f369c4, Offset: 0xb78
 // Size: 0xdc
@@ -158,7 +158,7 @@ function function_46b21d8a( localclientnum, oldval, newval, bnewent, binitialsna
     playsound( 0, #"zmb_rock_explode", var_1eaed254.origin );
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0x982b7b06, Offset: 0xc60
 // Size: 0xcc
@@ -169,7 +169,7 @@ function function_73ca75df( localclientnum, oldval, newval, bnewent, binitialsna
     playsound( 0, #"zmb_rock_explode", var_1eaed254.origin );
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0x37a1f68c, Offset: 0xd38
 // Size: 0xdc
@@ -180,7 +180,7 @@ function function_fa6bb35e( localclientnum, oldval, newval, bnewent, binitialsna
     playsound( 0, #"zmb_rock_explode", var_1eaed254.origin );
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0x11b86d86, Offset: 0xe20
 // Size: 0xec
@@ -192,7 +192,7 @@ function totem_fall( localclientnum, oldval, newval, bnewent, binitialsnap, fiel
     mdl_totem moveto( s_destination.origin, 1 );
 }
 
-// Namespace namespace_42cc2819/namespace_42cc2819
+// Namespace zm_escape_weap_quest_spoon2/zm_escape_weap_quest_spoon2
 // Params 7
 // Checksum 0xeb31128, Offset: 0xf18
 // Size: 0x14a
