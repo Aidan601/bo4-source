@@ -376,7 +376,7 @@ function teleport_player( user )
     playsoundatposition( #"evt_teleporter_out", self.origin );
     level thread function_fe50866d( user, self, var_298e4578 );
     self function_134670b9( 1 );
-    user zm_fasttravel::function_66d020b0( undefined, undefined, undefined, undefined, destination, undefined, string( self.n_dest ), 0 );
+    user zm_fasttravel::fasttravel_rail_go( undefined, undefined, undefined, undefined, destination, undefined, string( self.n_dest ), 0 );
     user clientfield::increment_to_player( "teleporter_transition", 1 );
     var_298e4578 thread cooldown_portal_timer( user );
     user thread function_c234a5ce();

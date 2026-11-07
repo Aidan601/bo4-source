@@ -1412,21 +1412,21 @@ function private __init__()
         }
         
         players = getplayers();
-        var_9db8ea1b = 0;
+        widx = 0;
         
         foreach ( player in players )
         {
             if ( isbot( player ) )
             {
-                weapon = var_6e5bbee1[ var_9db8ea1b ];
+                weapon = var_6e5bbee1[ widx ];
                 player giveweapon( weapon );
                 player givemaxammo( weapon );
                 player switchtoweaponimmediate( weapon );
-                var_9db8ea1b++;
+                widx++;
                 
-                if ( var_9db8ea1b >= var_6e5bbee1.size )
+                if ( widx >= var_6e5bbee1.size )
                 {
-                    var_9db8ea1b = 0;
+                    widx = 0;
                 }
             }
         }

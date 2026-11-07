@@ -547,7 +547,7 @@ function private function_9b83c65d( localclientnum )
     self notify( "7448ede5a4a225c6" );
     self endon( "7448ede5a4a225c6" );
     clientdata = item_world::function_a7e98a1a( localclientnum );
-    var_ca4fc719 = "inventory_consume" + localclientnum;
+    consumenotify = "inventory_consume" + localclientnum;
     var_e2d1f454 = "inventory_armor_repair_pressed" + localclientnum;
     var_3731e165 = "inventory_armor_repair_released" + localclientnum;
     var_6a10d173 = "inventory_quick_consume" + localclientnum;
@@ -556,9 +556,9 @@ function private function_9b83c65d( localclientnum )
     
     while ( true )
     {
-        waitresult = level waittill( var_ca4fc719, var_e2d1f454, var_3731e165, var_6a10d173, var_ce5c0b10, var_17bdd1c3 );
+        waitresult = level waittill( consumenotify, var_e2d1f454, var_3731e165, var_6a10d173, var_ce5c0b10, var_17bdd1c3 );
         
-        if ( waitresult._notify === var_ca4fc719 )
+        if ( waitresult._notify === consumenotify )
         {
             if ( !function_10861362( localclientnum ) )
             {
@@ -3650,10 +3650,10 @@ function function_c6ff0aa2( localclientnum, networkid )
                 }
             }
             
-            var_a3eec6f2 = spawnstruct();
-            var_a3eec6f2.localclientnum = localclientnum;
-            var_a3eec6f2.weapon = nextweapon;
-            player function_6231c19( var_a3eec6f2 );
+            fakeparams = spawnstruct();
+            fakeparams.localclientnum = localclientnum;
+            fakeparams.weapon = nextweapon;
+            player function_6231c19( fakeparams );
         }
     }
     
@@ -3793,9 +3793,9 @@ function update_inventory_item( localclientnum, networkid, count )
     {
         if ( inventoryitem.networkid === networkid )
         {
-            var_338e8597 = isdefined( inventoryitem.count ) ? inventoryitem.count : 0;
+            originalcount = isdefined( inventoryitem.count ) ? inventoryitem.count : 0;
             totalcount = function_bba770de( localclientnum, inventoryitem.itementry );
-            totalcount += max( 0, count - var_338e8597 );
+            totalcount += max( 0, count - originalcount );
             function_1a99656a( localclientnum, inventoryitem, inventoryitem.networkid, inventoryitem.id, count, totalcount, inventoryitem.availableaction );
             function_8063170( inventoryitem, function_6d9d9cd7( inventoryslot ) );
             break;

@@ -546,7 +546,7 @@ function function_1541f1c9()
     
     for ( i = 0; i < a_e_players.size ; i++ )
     {
-        a_e_players[ i ] zm_fasttravel::function_2aed1d83( var_a0b0c8c4[ i ], 1 );
+        a_e_players[ i ] zm_fasttravel::teleport_player_to_dest( var_a0b0c8c4[ i ], 1 );
     }
     
     wait 2 + 1;

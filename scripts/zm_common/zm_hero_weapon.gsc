@@ -477,7 +477,7 @@ function function_23978edd()
 // Params 3
 // Checksum 0xf09f6b86, Offset: 0x15e8
 // Size: 0x356
-function hero_give_weapon( weapon, enabled, var_b94ec3d9 = 0 )
+function hero_give_weapon( weapon, enabled, is_upgrading = 0 )
 {
     if ( !isdefined( self ) || !isdefined( weapon ) )
     {
@@ -509,7 +509,7 @@ function hero_give_weapon( weapon, enabled, var_b94ec3d9 = 0 )
         }
         else
         {
-            if ( isdefined( var_b94ec3d9 ) && var_b94ec3d9 )
+            if ( isdefined( is_upgrading ) && is_upgrading )
             {
                 level thread function_3fe4a02e( self, 1 );
             }

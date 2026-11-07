@@ -1,12 +1,12 @@
 {
-    "destroyed": "#hash_25ccbe822595cca3",
-    "ready": "#hash_b04308e934e9cdf",
-    "beinghacked": "#hash_6c62c7c29f87130",
+    "destroyed": "#vox_tacb_kls_drone_destroyed",
+    "ready": "#vox_tacb_kls_drone_ready",
+    "beinghacked": "#vox_tacb_kls_drone_being_hacked",
     "configstringfiletype": "scriptbundle",
     "type": "mpdialog_scorestreak",
     "vmtype": "both",
     "name": "blops_taacom_kls_escort_drone",
-    "firewallbeinghacked": "#hash_753be788a1b91702",
-    "firewallhacked": "#hash_559d04044b22fa0a",
-    "hacked": "#hash_2a26821175c1e3b8"
+    "firewallbeinghacked": "#vox_tacb_kls_drone_being_hacked_fw",
+    "firewallhacked": "#vox_tacb_kls_drone_hacked_fw",
+    "hacked": "#vox_tacb_kls_drone_hacked"
 }

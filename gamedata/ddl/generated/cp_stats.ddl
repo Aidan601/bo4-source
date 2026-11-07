@@ -537,7 +537,7 @@ version 19 {
         rankxp, // 0x1c,
         medal_destroyed_microwave_turret, // 0x1d,
         lifetime_buyin, // 0x1e,
-        hash_9904e795162f703, // 0x1f,
+        kill_with_both_primary_weapons, // 0x1f,
         killsdenied, // 0x20,
         kill_flashed_enemy, // 0x21,
         hash_b38ac686f0e8f63, // 0x22,
@@ -619,7 +619,7 @@ version 19 {
         wins, // 0x6e,
         hash_2686fe80d2524e8b, // 0x6f,
         hash_26cbd2aa4d6b9947, // 0x70,
-        hash_26d6f92287f0a1e8, // 0x71,
+        reload_then_kill_dualclip, // 0x71,
         hash_26e0be3755c42495, // 0x72,
         defuses, // 0x73,
         career_tokens, // 0x74,
@@ -703,7 +703,7 @@ version 19 {
         diamond_club, // 0xc2,
         teamkills_nostats, // 0xc3,
         score, // 0xc4,
-        hash_416018859c2a61e0, // 0xc5,
+        kill_with_loadout_weapon_with_3_attachments, // 0xc5,
         hash_417ca489457d2cf4, // 0xc6,
         coop_medal_sabotage_bomb_defuser_stopped, // 0xc7,
         medal_bounce_hatchet_kill, // 0xc8,
@@ -910,7 +910,7 @@ version 19 {
     };
 
     // idx 4 members 5
-    enum hash_5af4108cc28a7f2f {
+    enum quittypes_e {
         dashboard, // 0x0,
         quit, // 0x1,
         kicked, // 0x2,
@@ -1804,7 +1804,7 @@ version 18 {
         rankxp, // 0x1c,
         medal_destroyed_microwave_turret, // 0x1d,
         lifetime_buyin, // 0x1e,
-        hash_9904e795162f703, // 0x1f,
+        kill_with_both_primary_weapons, // 0x1f,
         killsdenied, // 0x20,
         kill_flashed_enemy, // 0x21,
         hash_b38ac686f0e8f63, // 0x22,
@@ -1886,7 +1886,7 @@ version 18 {
         wins, // 0x6e,
         hash_2686fe80d2524e8b, // 0x6f,
         hash_26cbd2aa4d6b9947, // 0x70,
-        hash_26d6f92287f0a1e8, // 0x71,
+        reload_then_kill_dualclip, // 0x71,
         hash_26e0be3755c42495, // 0x72,
         defuses, // 0x73,
         career_tokens, // 0x74,
@@ -1970,7 +1970,7 @@ version 18 {
         diamond_club, // 0xc2,
         teamkills_nostats, // 0xc3,
         score, // 0xc4,
-        hash_416018859c2a61e0, // 0xc5,
+        kill_with_loadout_weapon_with_3_attachments, // 0xc5,
         hash_417ca489457d2cf4, // 0xc6,
         coop_medal_sabotage_bomb_defuser_stopped, // 0xc7,
         medal_bounce_hatchet_kill, // 0xc8,
@@ -2177,7 +2177,7 @@ version 18 {
     };
 
     // idx 4 members 5
-    enum hash_5af4108cc28a7f2f {
+    enum quittypes_e {
         dashboard, // 0x0,
         quit, // 0x1,
         kicked, // 0x2,
@@ -3071,7 +3071,7 @@ version 17 {
         rankxp, // 0x1c,
         medal_destroyed_microwave_turret, // 0x1d,
         lifetime_buyin, // 0x1e,
-        hash_9904e795162f703, // 0x1f,
+        kill_with_both_primary_weapons, // 0x1f,
         killsdenied, // 0x20,
         kill_flashed_enemy, // 0x21,
         hash_b38ac686f0e8f63, // 0x22,
@@ -3153,7 +3153,7 @@ version 17 {
         wins, // 0x6e,
         hash_2686fe80d2524e8b, // 0x6f,
         hash_26cbd2aa4d6b9947, // 0x70,
-        hash_26d6f92287f0a1e8, // 0x71,
+        reload_then_kill_dualclip, // 0x71,
         hash_26e0be3755c42495, // 0x72,
         defuses, // 0x73,
         career_tokens, // 0x74,
@@ -3237,7 +3237,7 @@ version 17 {
         diamond_club, // 0xc2,
         teamkills_nostats, // 0xc3,
         score, // 0xc4,
-        hash_416018859c2a61e0, // 0xc5,
+        kill_with_loadout_weapon_with_3_attachments, // 0xc5,
         hash_417ca489457d2cf4, // 0xc6,
         coop_medal_sabotage_bomb_defuser_stopped, // 0xc7,
         medal_bounce_hatchet_kill, // 0xc8,
@@ -3443,7 +3443,7 @@ version 17 {
     };
 
     // idx 4 members 5
-    enum hash_5af4108cc28a7f2f {
+    enum quittypes_e {
         dashboard, // 0x0,
         quit, // 0x1,
         kicked, // 0x2,
@@ -4337,7 +4337,7 @@ version 16 {
         rankxp, // 0x1c,
         medal_destroyed_microwave_turret, // 0x1d,
         lifetime_buyin, // 0x1e,
-        hash_9904e795162f703, // 0x1f,
+        kill_with_both_primary_weapons, // 0x1f,
         killsdenied, // 0x20,
         kill_flashed_enemy, // 0x21,
         hash_b38ac686f0e8f63, // 0x22,
@@ -4419,7 +4419,7 @@ version 16 {
         wins, // 0x6e,
         hash_2686fe80d2524e8b, // 0x6f,
         hash_26cbd2aa4d6b9947, // 0x70,
-        hash_26d6f92287f0a1e8, // 0x71,
+        reload_then_kill_dualclip, // 0x71,
         hash_26e0be3755c42495, // 0x72,
         defuses, // 0x73,
         career_tokens, // 0x74,
@@ -4503,7 +4503,7 @@ version 16 {
         diamond_club, // 0xc2,
         teamkills_nostats, // 0xc3,
         score, // 0xc4,
-        hash_416018859c2a61e0, // 0xc5,
+        kill_with_loadout_weapon_with_3_attachments, // 0xc5,
         hash_417ca489457d2cf4, // 0xc6,
         coop_medal_sabotage_bomb_defuser_stopped, // 0xc7,
         medal_bounce_hatchet_kill, // 0xc8,
@@ -4709,7 +4709,7 @@ version 16 {
     };
 
     // idx 4 members 5
-    enum hash_5af4108cc28a7f2f {
+    enum quittypes_e {
         dashboard, // 0x0,
         quit, // 0x1,
         kicked, // 0x2,

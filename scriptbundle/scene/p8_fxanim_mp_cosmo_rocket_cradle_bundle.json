@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_61b571b983c44bc4",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_cradle_extension_down_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1c83396f25f00d15",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_cradle_extension_raise_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_786cacc3bad855ba",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_cradle_extension_lower_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -96,7 +96,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_453edf9d8556aa2f",
+            "model": "model#p8_fxanim_mp_cosmo_rocket_cradle_extension_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

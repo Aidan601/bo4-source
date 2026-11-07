@@ -507,16 +507,16 @@ function function_ca3759b1()
     exploder::exploder_stop( "fxexp_elec_diner" );
     exploder::exploder_stop( "fxexp_elec_storage" );
     exploder::exploder_stop( "fxexp_elec_beds" );
-    level.pack_a_punch.trigger_stubs[ 0 ] function_cf62f3c7();
+    level.pack_a_punch.trigger_stubs[ 0 ] unlock_device();
     
     foreach ( var_5baafbb2 in level.var_76a7ad28 )
     {
-        var_5baafbb2 function_cf62f3c7();
+        var_5baafbb2 unlock_device();
     }
     
     foreach ( s_wallbuy in level._spawned_wallbuys )
     {
-        s_wallbuy.trigger_stub function_cf62f3c7();
+        s_wallbuy.trigger_stub unlock_device();
     }
     
     level s_construction_push_point_a_markets();
@@ -872,7 +872,7 @@ function function_641f4ec( var_ae5725a9, lockdown_trigger_func, unlock_cost, cli
         self.var_492080a5 = self.trigger_func;
     }
     
-    self.unlock_func = &function_cf62f3c7;
+    self.unlock_func = &unlock_device;
     self.var_534571f = unlock_cost;
     self.trigger_func = lockdown_trigger_func;
     self.prompt_and_visibility_func = var_ae5725a9;
@@ -883,7 +883,7 @@ function function_641f4ec( var_ae5725a9, lockdown_trigger_func, unlock_cost, cli
 // Params 0
 // Checksum 0x6510cdd0, Offset: 0x4350
 // Size: 0x124
-function function_cf62f3c7()
+function unlock_device()
 {
     if ( isdefined( self.client_fx ) )
     {
@@ -1501,7 +1501,7 @@ function function_be93a2bf()
 {
     if ( level.var_65e355f > 1 && level.var_5233174e > 4 )
     {
-        ai = zombie_dog_util::function_62db7b1c( 0 );
+        ai = zombie_dog_util::spawn_single_dog( 0 );
         
         if ( isdefined( ai ) )
         {
@@ -1644,7 +1644,7 @@ function function_80a202c1( e_player )
 {
     str_prompt = "";
     
-    if ( self.stub.related_parent.var_3fc5ae3d )
+    if ( self.stub.related_parent.b_in_cooldown )
     {
         str_prompt = #"hash_22dc6a35ff6146d7";
     }
@@ -1731,7 +1731,7 @@ function function_dbbdda4c( e_player )
         zm_hms_util::function_3c173d37();
         level.var_8200dc81 thread zm_hms_util::function_6a0d675d( #"hash_5c371dc17ccdf97", 0, 0, 1 );
         playsoundatposition( #"hash_3fc59a2ac3e3a5b9", ( 0, 0, 0 ) );
-        self.var_3fc5ae3d = 1;
+        self.b_in_cooldown = 1;
         self.fx_handle clientfield::set( "soul_capture_depleted", 1 );
         
         for ( i = 0; i < 30 ; i++ )
@@ -1739,7 +1739,7 @@ function function_dbbdda4c( e_player )
             wait 1;
         }
         
-        self.var_3fc5ae3d = 0;
+        self.b_in_cooldown = 0;
         self.fx_handle clientfield::set( "soul_capture_depleted", 0 );
     }
     

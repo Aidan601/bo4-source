@@ -37,7 +37,7 @@ function function_20bb376d( abilityslot, weapon )
     {
         self.var_ea1458aa.var_6799f1da = 0;
         
-        if ( !self isonground() && isdefined( self.var_700a5910 ) && isdefined( self.challenge_jump_begin ) && self.var_700a5910 > self.challenge_jump_begin )
+        if ( !self isonground() && isdefined( self.grappleendtime ) && isdefined( self.challenge_jump_begin ) && self.grappleendtime > self.challenge_jump_begin )
         {
             self.var_ea1458aa.var_6799f1da = 1;
         }

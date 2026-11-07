@@ -219,7 +219,7 @@ function spawn_archetype( str_archetype )
             ai = zombie_utility::spawn_zombie( spawner );
             break;
         case #"zombie_dog":
-            ai = zombie_dog_util::function_62db7b1c();
+            ai = zombie_dog_util::spawn_single_dog();
             break;
         case #"nova_crawler":
             ai = nova_crawler_util::spawn_nova_crawler();

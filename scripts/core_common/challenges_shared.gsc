@@ -2501,7 +2501,7 @@ function playerkilled( einflictor, attacker, idamage, smeansofdeath, weapon, shi
     data.victimheroabilityname = victim.heroabilityname;
     data.var_989b2258 = victim.var_ec59e88c;
     data.var_893d5683 = victim.var_ae639436;
-    data.var_59b78db0 = victim.var_700a5910;
+    data.var_59b78db0 = victim.grappleendtime;
     
     if ( isdefined( data.victimweapon ) )
     {
@@ -2637,7 +2637,7 @@ function playerkilled( einflictor, attacker, idamage, smeansofdeath, weapon, shi
         data.attackeristhief = attacker.isthief === 1;
         data.attackerisroulette = attacker.isroulette === 1;
         data.var_911b9b40 = attacker isremotecontrolling();
-        data.var_be469b25 = attacker isgrappling() || isdefined( attacker.var_700a5910 ) && attacker.var_700a5910 + 2000 > gettime();
+        data.var_be469b25 = attacker isgrappling() || isdefined( attacker.grappleendtime ) && attacker.grappleendtime + 2000 > gettime();
         data.var_5fa4aeed = isdefined( victim.lastattackedshieldtime ) && victim.lastattackedshieldtime + 500 > gettime();
         data.attacker_jump_begin = attacker.challenge_jump_begin;
         data.attacker_jump_end = attacker.challenge_jump_end;

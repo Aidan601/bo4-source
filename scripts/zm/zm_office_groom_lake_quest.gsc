@@ -288,7 +288,7 @@ function function_71112c33()
 // Size: 0xcc
 function function_488e39dc()
 {
-    if ( self.var_614bfc5c == 2 )
+    if ( self.log_id == 2 )
     {
         self.var_47323b73 = self zm_unitrigger::create( "", ( 32, 32, 64 ), &function_6ef57d1f );
         zm_unitrigger::function_89380dda( self.var_47323b73, 1 );
@@ -331,7 +331,7 @@ function function_8c80503()
     zm_unitrigger::unregister_unitrigger( self.var_47323b73 );
     self thread function_d4c6dc0d();
     wait 2;
-    self function_43ef7a9a( level.var_a89ec78a[ self.var_614bfc5c ], self.origin );
+    self function_43ef7a9a( level.var_a89ec78a[ self.log_id ], self.origin );
     self.is_playing_audio = 0;
 }
 
@@ -343,7 +343,7 @@ function function_43ef7a9a( a_audio, v_pos )
 {
     for ( i = 0; i < a_audio.size ; i++ )
     {
-        var_d34b6d2b = function_b116e882( self.var_614bfc5c, i, 1 );
+        var_d34b6d2b = function_b116e882( self.log_id, i, 1 );
         
         if ( isdefined( var_d34b6d2b ) )
         {
@@ -353,14 +353,14 @@ function function_43ef7a9a( a_audio, v_pos )
         playsoundatposition( a_audio[ i ], v_pos );
         n_wait_time = float( soundgetplaybacktime( a_audio[ i ] ) ) / 1000;
         wait n_wait_time;
-        var_d34b6d2b = function_b116e882( self.var_614bfc5c, i, 0 );
+        var_d34b6d2b = function_b116e882( self.log_id, i, 0 );
         
         if ( isdefined( var_d34b6d2b ) )
         {
             playsoundatposition( var_d34b6d2b, v_pos );
         }
         
-        function_cfb5afb3( self.var_614bfc5c, i );
+        function_cfb5afb3( self.log_id, i );
     }
 }
 
@@ -898,9 +898,9 @@ function function_db17af3a()
     {
         if ( zm_office_floors::function_9dd97963( self ) )
         {
-            var_8c6394e3 = self zombie_utility::function_33da7a07();
+            str_move_speed = self zombie_utility::function_33da7a07();
             
-            if ( var_8c6394e3 == "walk" || var_8c6394e3 == "run" )
+            if ( str_move_speed == "walk" || str_move_speed == "run" )
             {
                 self zombie_utility::set_zombie_run_cycle( "sprint" );
             }
@@ -937,18 +937,18 @@ function dog_ambush()
     
     while ( var_a9e4d1ee > 0 )
     {
-        var_c6bd50df = self zm_zonemgr::get_player_zone();
+        player_zone_name = self zm_zonemgr::get_player_zone();
         a_s_valid_locs = [];
         
         foreach ( loc in level.zm_loc_types[ #"dog_location" ] )
         {
-            if ( !isdefined( var_c6bd50df ) )
+            if ( !isdefined( player_zone_name ) )
             {
                 util::wait_network_frame();
                 continue;
             }
             
-            if ( loc.zone_name == var_c6bd50df )
+            if ( loc.zone_name == player_zone_name )
             {
                 if ( !isdefined( a_s_valid_locs ) )
                 {
@@ -963,7 +963,7 @@ function dog_ambush()
             }
         }
         
-        e_dog = zombie_dog_util::function_62db7b1c( 0, array::random( a_s_valid_locs ) );
+        e_dog = zombie_dog_util::spawn_single_dog( 0, array::random( a_s_valid_locs ) );
         
         if ( isdefined( e_dog ) )
         {

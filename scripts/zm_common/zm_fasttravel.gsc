@@ -131,7 +131,7 @@ function __main__()
     }
     
     level.var_d03afa3 = [];
-    level.var_1dbf5163 = &function_d06e636b;
+    level.var_1dbf5163 = &can_use_fasttravel;
     level.var_3c84697b = &function_b9c7ccbb;
 }
 
@@ -175,10 +175,10 @@ function function_2d4bda34( s_loc )
     s_loc.unitrigger_stub.require_look_at = 0;
     s_loc.unitrigger_stub.script_string = s_loc.script_string;
     s_loc.unitrigger_stub.script_noteworthy = s_loc.script_noteworthy;
-    s_loc.unitrigger_stub.var_7b3e65fe = s_loc.var_7b3e65fe;
-    s_loc.unitrigger_stub.var_a4134e51 = s_loc.var_a4134e51;
+    s_loc.unitrigger_stub.multi_line = s_loc.multi_line;
+    s_loc.unitrigger_stub.level_flag_required = s_loc.level_flag_required;
     s_loc.unitrigger_stub.zombie_cost = s_loc.zombie_cost;
-    s_loc.unitrigger_stub.var_8d5d092c = s_loc.unitrigger_stub.script_string;
+    s_loc.unitrigger_stub.str_cooldown = s_loc.unitrigger_stub.script_string;
     s_loc.unitrigger_stub.delay = s_loc.delay;
     s_loc.unitrigger_stub.used = 0;
     
@@ -221,14 +221,14 @@ function function_5c18a7f4( player )
     
     if ( isdefined( level.var_e9737821 ) )
     {
-        b_can_use = self [[ level.var_e9737821 ]]( player, self.stub.var_8d5d092c );
+        b_can_use = self [[ level.var_e9737821 ]]( player, self.stub.str_cooldown );
     }
     else
     {
-        b_can_use = self function_c52e8ba( player, self.stub.var_8d5d092c );
+        b_can_use = self function_c52e8ba( player, self.stub.str_cooldown );
     }
     
-    if ( !( isdefined( player.var_9c7b96ed[ self.stub.var_8d5d092c ] ) && player.var_9c7b96ed[ self.stub.var_8d5d092c ] ) )
+    if ( !( isdefined( player.var_9c7b96ed[ self.stub.str_cooldown ] ) && player.var_9c7b96ed[ self.stub.str_cooldown ] ) )
     {
         if ( isdefined( player.var_d883eecd ) )
         {
@@ -267,7 +267,7 @@ function function_5c18a7f4( player )
 // Params 2
 // Checksum 0x3f4de565, Offset: 0x1018
 // Size: 0x21e
-function function_c52e8ba( player, var_8d5d092c )
+function function_c52e8ba( player, str_cooldown )
 {
     b_result = 0;
     
@@ -278,16 +278,16 @@ function function_c52e8ba( player, var_8d5d092c )
     
     n_player_index = player getentitynumber();
     
-    if ( !self function_d06e636b( player ) )
+    if ( !self can_use_fasttravel( player ) )
     {
         self.hint_string[ n_player_index ] = #"";
     }
-    else if ( isdefined( self.stub.var_a4134e51 ) && !level flag::get( self.stub.var_a4134e51 ) )
+    else if ( isdefined( self.stub.level_flag_required ) && !level flag::get( self.stub.level_flag_required ) )
     {
         self.hint_string[ n_player_index ] = #"zombie/fasttravel_locked";
         b_result = 1;
     }
-    else if ( isdefined( player.var_9c7b96ed[ var_8d5d092c ] ) && player.var_9c7b96ed[ var_8d5d092c ] )
+    else if ( isdefined( player.var_9c7b96ed[ str_cooldown ] ) && player.var_9c7b96ed[ str_cooldown ] )
     {
         self.hint_string[ n_player_index ] = #"zombie/generic_fasttravel_cooldown";
         b_result = 1;
@@ -318,7 +318,7 @@ function function_c52e8ba( player, var_8d5d092c )
 // Params 1
 // Checksum 0x6f9ce352, Offset: 0x1240
 // Size: 0x13e, Type: bool
-function function_d06e636b( player )
+function can_use_fasttravel( player )
 {
     if ( !level flag::get( level.var_5bfd847e ) )
     {
@@ -355,7 +355,7 @@ function function_d06e636b( player )
 function function_6cde5436()
 {
     level endon( #"end_game" );
-    var_8d5d092c = self.stub.var_8d5d092c;
+    str_cooldown = self.stub.str_cooldown;
     
     while ( true )
     {
@@ -397,12 +397,12 @@ function function_6cde5436()
             continue;
         }
         
-        if ( isdefined( self.stub.var_a4134e51 ) && !level flag::get( self.stub.var_a4134e51 ) )
+        if ( isdefined( self.stub.level_flag_required ) && !level flag::get( self.stub.level_flag_required ) )
         {
             continue;
         }
         
-        if ( isdefined( player.var_9c7b96ed[ var_8d5d092c ] ) && player.var_9c7b96ed[ var_8d5d092c ] )
+        if ( isdefined( player.var_9c7b96ed[ str_cooldown ] ) && player.var_9c7b96ed[ str_cooldown ] )
         {
             continue;
         }
@@ -451,7 +451,7 @@ function function_6cde5436()
         
         if ( isdefined( self.stub ) )
         {
-            player thread function_b9c7ccbb( self.stub, self.stub.var_7b3e65fe );
+            player thread function_b9c7ccbb( self.stub, self.stub.multi_line );
             continue;
         }
         
@@ -463,17 +463,17 @@ function function_6cde5436()
 // Params 2
 // Checksum 0x91debcb4, Offset: 0x1790
 // Size: 0x536
-function function_b9c7ccbb( var_12230d08, var_829a20a8 = 0 )
+function function_b9c7ccbb( s_unitrigger_loc, var_829a20a8 = 0 )
 {
     level endon( #"end_game" );
     self endon( #"death" );
     n_index = get_player_index( self );
-    str_start_loc = var_12230d08.script_string;
+    str_start_loc = s_unitrigger_loc.script_string;
     self.var_388ee880 = str_start_loc;
     self.var_3011d31c = 0;
-    var_4500bf3f = var_12230d08.script_noteworthy;
-    var_8d5d092c = var_12230d08.var_8d5d092c;
-    var_12230d08.used = 1;
+    var_4500bf3f = s_unitrigger_loc.script_noteworthy;
+    str_cooldown = s_unitrigger_loc.str_cooldown;
+    s_unitrigger_loc.used = 1;
     
     switch ( var_4500bf3f )
     {
@@ -507,7 +507,7 @@ function function_b9c7ccbb( var_12230d08, var_829a20a8 = 0 )
             }
             
             var_5314bd63 = getent( "veh_fasttravel_cam", "targetname" );
-            self function_66d020b0( var_5314bd63, nd_path_start, undefined, str_notify, undefined, var_12230d08, undefined, undefined );
+            self fasttravel_rail_go( var_5314bd63, nd_path_start, undefined, str_notify, undefined, s_unitrigger_loc, undefined, undefined );
             break;
         case #"flinger":
         case #"teleport":
@@ -520,7 +520,7 @@ function function_b9c7ccbb( var_12230d08, var_829a20a8 = 0 )
             
             self.var_85c91ccc = n_idx;
             str_notify = "fasttravel_" + str_start_loc + "_end_" + n_idx;
-            self function_66d020b0( undefined, undefined, undefined, str_notify, undefined, var_12230d08, undefined, undefined );
+            self fasttravel_rail_go( undefined, undefined, undefined, str_notify, undefined, s_unitrigger_loc, undefined, undefined );
             break;
     }
     
@@ -528,13 +528,13 @@ function function_b9c7ccbb( var_12230d08, var_829a20a8 = 0 )
     {
         if ( self.var_3011d31c )
         {
-            var_6a4c362c = function_7a74dbfd( str_start_loc + "_dropdown_end_" );
-            var_f0bbde5 = self function_d4fbc062( var_6a4c362c );
+            a_s_dest_locs = function_7a74dbfd( str_start_loc + "_dropdown_end_" );
+            var_f0bbde5 = self function_d4fbc062( a_s_dest_locs );
         }
         else
         {
-            var_6a4c362c = function_7a74dbfd( str_start_loc + "_end_" );
-            var_f0bbde5 = self function_d4fbc062( var_6a4c362c );
+            a_s_dest_locs = function_7a74dbfd( str_start_loc + "_end_" );
+            var_f0bbde5 = self function_d4fbc062( a_s_dest_locs );
         }
     }
     
@@ -554,7 +554,7 @@ function function_b9c7ccbb( var_12230d08, var_829a20a8 = 0 )
         var_f499ccef = 0;
     }
     
-    self function_2aed1d83( var_f0bbde5, var_f499ccef );
+    self teleport_player_to_dest( var_f0bbde5, var_f499ccef );
     
     if ( isdefined( level.var_1e47389a ) )
     {
@@ -574,20 +574,20 @@ function function_b9c7ccbb( var_12230d08, var_829a20a8 = 0 )
         n_cooldown_timer = 30;
     }
     
-    self function_c1f603e( var_12230d08, n_cooldown_timer, var_8d5d092c );
-    self notify( #"fasttravel_cooldown_done", { #var_9fa6220c:var_12230d08 } );
+    self function_c1f603e( s_unitrigger_loc, n_cooldown_timer, str_cooldown );
+    self notify( #"fasttravel_cooldown_done", { #var_9fa6220c:s_unitrigger_loc } );
 }
 
 // Namespace zm_fasttravel/zm_fasttravel
 // Params 2
 // Checksum 0x9bc169b1, Offset: 0x1cd0
 // Size: 0xbc
-function function_2aed1d83( var_f0bbde5, var_b3733073 = 1 )
+function teleport_player_to_dest( var_f0bbde5, b_set_angles = 1 )
 {
     self dontinterpolate();
     self setorigin( var_f0bbde5.origin );
     
-    if ( var_b3733073 )
+    if ( b_set_angles )
     {
         self setplayerangles( var_f0bbde5.angles );
     }
@@ -683,46 +683,46 @@ function get_player_index( e_player )
 // Size: 0xe6
 function function_7a74dbfd( str_targetname )
 {
-    var_6a4c362c = [];
+    a_s_dest_locs = [];
     
     for ( i = 0; i < 4 ; i++ )
     {
         var_f0bbde5 = struct::get( str_targetname + i );
         assert( isdefined( var_f0bbde5 ), "<dev string:x162>" + str_targetname + i );
         
-        if ( !isdefined( var_6a4c362c ) )
+        if ( !isdefined( a_s_dest_locs ) )
         {
-            var_6a4c362c = [];
+            a_s_dest_locs = [];
         }
-        else if ( !isarray( var_6a4c362c ) )
+        else if ( !isarray( a_s_dest_locs ) )
         {
-            var_6a4c362c = array( var_6a4c362c );
+            a_s_dest_locs = array( a_s_dest_locs );
         }
         
-        var_6a4c362c[ var_6a4c362c.size ] = var_f0bbde5;
+        a_s_dest_locs[ a_s_dest_locs.size ] = var_f0bbde5;
     }
     
-    return var_6a4c362c;
+    return a_s_dest_locs;
 }
 
 // Namespace zm_fasttravel/zm_fasttravel
 // Params 9
 // Checksum 0x835eab21, Offset: 0x2148
 // Size: 0x87c
-function function_66d020b0( var_5314bd63, nd_path_start, var_384528, str_notify, var_6c365dbf, var_12230d08, var_5817f611, var_8f1ba730 = 0, var_6e7468ee = 1 )
+function fasttravel_rail_go( var_5314bd63, nd_path_start, var_384528, str_notify, var_6c365dbf, s_unitrigger_loc, var_5817f611, var_8f1ba730 = 0, b_teleport_bots = 1 )
 {
     level endon( #"end_game" );
     self endoncallback( &function_79766c56, #"bled_out", #"death" );
     self.var_16735873 = 1;
-    self function_7a607f29( var_12230d08 );
+    self set_player_vars( s_unitrigger_loc );
     self.var_f4e33249 = 1;
     self val::set( #"fasttravel", "freezecontrols", 1 );
     
-    if ( isdefined( var_12230d08 ) )
+    if ( isdefined( s_unitrigger_loc ) )
     {
-        var_5817f611 = var_12230d08.script_string;
+        var_5817f611 = s_unitrigger_loc.script_string;
         self.var_5817f611 = var_5817f611;
-        var_44c6df03 = var_12230d08.var_cafe149c;
+        var_44c6df03 = s_unitrigger_loc.var_cafe149c;
     }
     
     if ( !var_8f1ba730 )
@@ -769,7 +769,7 @@ function function_66d020b0( var_5314bd63, nd_path_start, var_384528, str_notify,
         }
     }
     
-    self notify( #"player_begin_fasttravel_rail", { #var_9fa6220c:var_12230d08 } );
+    self notify( #"player_begin_fasttravel_rail", { #var_9fa6220c:s_unitrigger_loc } );
     
     /#
         self zm_challenges::debug_print( "<dev string:x185>" );
@@ -783,7 +783,7 @@ function function_66d020b0( var_5314bd63, nd_path_start, var_384528, str_notify,
         self stopsounds();
     }
     
-    if ( !isdefined( var_12230d08 ) || isdefined( var_12230d08 ) && !( isdefined( var_12230d08.var_694cbc6f ) && var_12230d08.var_694cbc6f ) )
+    if ( !isdefined( s_unitrigger_loc ) || isdefined( s_unitrigger_loc ) && !( isdefined( s_unitrigger_loc.var_694cbc6f ) && s_unitrigger_loc.var_694cbc6f ) )
     {
         self ghost();
     }
@@ -795,13 +795,13 @@ function function_66d020b0( var_5314bd63, nd_path_start, var_384528, str_notify,
     {
         self thread fasttravel_spline( var_5314bd63, nd_path_start, var_384528 );
     }
-    else if ( isdefined( var_12230d08 ) && var_12230d08.script_noteworthy === "flinger" )
+    else if ( isdefined( s_unitrigger_loc ) && s_unitrigger_loc.script_noteworthy === "flinger" )
     {
-        self thread fasttravel_flinger( var_6c365dbf, var_12230d08 );
+        self thread fasttravel_flinger( var_6c365dbf, s_unitrigger_loc );
     }
     else if ( isdefined( level.var_16fecec8 ) && level.var_16fecec8 )
     {
-        self thread function_a78584c0( var_6c365dbf );
+        self thread fasttravel_teleport_vortex( var_6c365dbf );
     }
     else
     {
@@ -850,16 +850,16 @@ function function_66d020b0( var_5314bd63, nd_path_start, var_384528, str_notify,
     }
     
     self.var_5817f611 = undefined;
-    self notify( #"fasttravel_finished", { #var_9fa6220c:var_12230d08 } );
+    self notify( #"fasttravel_finished", { #var_9fa6220c:s_unitrigger_loc } );
     
     foreach ( e_player in getplayers() )
     {
         e_player clientfield::set_player_uimodel( "WorldSpaceIndicators.bleedOutModel" + self getentitynumber() + ".hide", 0 );
     }
     
-    if ( isdefined( var_6e7468ee ) && var_6e7468ee && isdefined( level.var_34eb792d ) )
+    if ( isdefined( b_teleport_bots ) && b_teleport_bots && isdefined( level.var_34eb792d ) )
     {
-        thread [[ level.var_34eb792d ]]( self, var_12230d08 );
+        thread [[ level.var_34eb792d ]]( self, s_unitrigger_loc );
     }
     
     self util::delay( 0.3, undefined, &zm_audio::create_and_play_dialog, #"fast_travel", #"end" );
@@ -881,14 +881,14 @@ function function_78e3c2ba( var_5817f611 )
 // Params 1
 // Checksum 0xc8a930eb, Offset: 0x2a40
 // Size: 0x134
-function function_7a607f29( var_12230d08 )
+function set_player_vars( s_unitrigger_loc )
 {
-    self.var_f22c83f5 = 1;
+    self.b_ignore_playable_area_check = 1;
     self.var_e75517b1 = 1;
     self val::set( #"fasttravel", "ignoreme", 1 );
     b_disable_weapons = 1;
     
-    if ( isdefined( var_12230d08 ) && isdefined( var_12230d08.var_638d9008 ) && var_12230d08.var_638d9008 )
+    if ( isdefined( s_unitrigger_loc ) && isdefined( s_unitrigger_loc.var_638d9008 ) && s_unitrigger_loc.var_638d9008 )
     {
         b_disable_weapons = 0;
     }
@@ -914,7 +914,7 @@ function function_7a607f29( var_12230d08 )
 // Size: 0xa4
 function function_e61d152a()
 {
-    self.var_f22c83f5 = 0;
+    self.b_ignore_playable_area_check = 0;
     self.var_e75517b1 = 0;
     self val::reset( #"fasttravel", "ignoreme" );
     self val::reset( #"fasttravel", "disable_weapons" );
@@ -1026,7 +1026,7 @@ function fasttravel_spline( var_5314bd63, nd_path_start, var_384528 )
 // Size: 0x186
 function function_62686dda( var_6c365dbf )
 {
-    var_a16f5b07 = self.origin;
+    a_start_origin = self.origin;
     self playrumbleonentity( #"zm_fasttravel_vortex_rumble" );
     wait 0.5;
     self clientfield::set_to_player( "player_stargate_fx", 1 );
@@ -1043,10 +1043,10 @@ function function_62686dda( var_6c365dbf )
             var_f0bbde5 = var_6c365dbf;
         }
         
-        self function_2aed1d83( var_f0bbde5 );
+        self teleport_player_to_dest( var_f0bbde5 );
     }
     
-    playsoundatposition( #"zmb_fasttravel_teleport_start_npc", var_a16f5b07 );
+    playsoundatposition( #"zmb_fasttravel_teleport_start_npc", a_start_origin );
     wait 0.5;
     self clientfield::set_to_player( "player_stargate_fx", 0 );
     self clientfield::set_to_player( "fasttravel_teleport_sfx", 0 );
@@ -1101,33 +1101,33 @@ function function_6c856fde( e_zombie )
 // Params 3
 // Checksum 0xdc6a2ca8, Offset: 0x3498
 // Size: 0xde
-function function_c1f603e( var_12230d08, n_cooldown, var_8d5d092c )
+function function_c1f603e( s_unitrigger_loc, n_cooldown, str_cooldown )
 {
     level endon( #"end_game" );
     self endon( #"death" );
     
-    if ( var_8d5d092c == "no_cooldown" )
+    if ( str_cooldown == "no_cooldown" )
     {
         return;
     }
     
-    self.var_9c7b96ed[ var_8d5d092c ] = 1;
+    self.var_9c7b96ed[ str_cooldown ] = 1;
     
     if ( self hasperk( #"specialty_cooldown" ) )
     {
         n_cooldown *= 0.5;
     }
     
-    if ( isdefined( var_12230d08 ) )
+    if ( isdefined( s_unitrigger_loc ) )
     {
-        var_12230d08 waittilltimeout( n_cooldown, #"cancel_fasttravel_cooldown" );
+        s_unitrigger_loc waittilltimeout( n_cooldown, #"cancel_fasttravel_cooldown" );
     }
     else
     {
         wait n_cooldown;
     }
     
-    self.var_9c7b96ed[ var_8d5d092c ] = 0;
+    self.var_9c7b96ed[ str_cooldown ] = 0;
 }
 
 // Namespace zm_fasttravel/zm_fasttravel
@@ -1248,11 +1248,11 @@ function function_ab80021( var_384528 )
 // Params 1
 // Checksum 0xc9b4c97c, Offset: 0x3aa8
 // Size: 0x40e
-function function_a78584c0( var_6c365dbf )
+function fasttravel_teleport_vortex( var_6c365dbf )
 {
     level endon( #"end_game" );
     self endoncallback( &function_9ff6bcf6, #"death" );
-    var_a16f5b07 = self.origin;
+    a_start_origin = self.origin;
     self allowcrouch( 0 );
     self allowprone( 0 );
     var_1e1e92e9 = [];
@@ -1281,19 +1281,19 @@ function function_a78584c0( var_6c365dbf )
     self setorigin( s_teleport_room.origin );
     self setplayerangles( s_teleport_room.angles );
     self clientfield::set_to_player( "fasttravel_teleport_sfx", 1 );
-    playsoundatposition( #"zmb_fasttravel_teleport_start_npc", var_a16f5b07 );
+    playsoundatposition( #"zmb_fasttravel_teleport_start_npc", a_start_origin );
     println( "<dev string:x25f>" + self getplayercamerapos() );
-    self.var_805b8325 = spawn( "script_origin", self.origin );
-    self.var_805b8325.angles = self.angles;
-    self linkto( self.var_805b8325 );
+    self.e_teleport_origin = spawn( "script_origin", self.origin );
+    self.e_teleport_origin.angles = self.angles;
+    self linkto( self.e_teleport_origin );
     waittillframeend();
     self playrumbleonentity( #"zm_fasttravel_vortex_rumble" );
     self function_82c1415f();
     
-    if ( isdefined( self.var_805b8325 ) )
+    if ( isdefined( self.e_teleport_origin ) )
     {
-        self.var_805b8325 delete();
-        self.var_805b8325 = undefined;
+        self.e_teleport_origin delete();
+        self.e_teleport_origin = undefined;
     }
     
     if ( isdefined( var_6c365dbf ) )
@@ -1307,7 +1307,7 @@ function function_a78584c0( var_6c365dbf )
             var_f0bbde5 = var_6c365dbf;
         }
         
-        self function_2aed1d83( var_f0bbde5 );
+        self teleport_player_to_dest( var_f0bbde5 );
     }
     
     self clientfield::set_to_player( "fasttravel_teleport_sfx", 0 );
@@ -1323,9 +1323,9 @@ function function_a78584c0( var_6c365dbf )
 // Size: 0x3c
 function function_9ff6bcf6( var_c34665fc )
 {
-    if ( isdefined( self ) && isdefined( self.var_805b8325 ) )
+    if ( isdefined( self ) && isdefined( self.e_teleport_origin ) )
     {
-        self.var_805b8325 delete();
+        self.e_teleport_origin delete();
     }
 }
 
@@ -1386,19 +1386,19 @@ function function_82c1415f()
 // Params 1
 // Checksum 0x246172e9, Offset: 0x4158
 // Size: 0x11a
-function function_d4fbc062( var_6a4c362c )
+function function_d4fbc062( a_s_dest_locs )
 {
     n_index = get_player_index( self );
     a_e_players = getplayers();
     
-    if ( self function_60d91d03( var_6a4c362c[ n_index ], a_e_players ) )
+    if ( self function_60d91d03( a_s_dest_locs[ n_index ], a_e_players ) )
     {
-        return var_6a4c362c[ n_index ];
+        return a_s_dest_locs[ n_index ];
     }
     
-    foreach ( var_f0bbde5 in var_6a4c362c )
+    foreach ( var_f0bbde5 in a_s_dest_locs )
     {
-        if ( var_f0bbde5 == var_6a4c362c[ n_index ] )
+        if ( var_f0bbde5 == a_s_dest_locs[ n_index ] )
         {
             continue;
         }
@@ -1409,7 +1409,7 @@ function function_d4fbc062( var_6a4c362c )
         }
     }
     
-    return var_6a4c362c[ n_index ];
+    return a_s_dest_locs[ n_index ];
 }
 
 // Namespace zm_fasttravel/zm_fasttravel
@@ -1448,7 +1448,7 @@ function function_60d91d03( var_f0bbde5, a_e_players )
 // Params 2
 // Checksum 0xf5b76070, Offset: 0x43c8
 // Size: 0x19c
-function fasttravel_flinger( var_6c365dbf, var_12230d08 )
+function fasttravel_flinger( var_6c365dbf, s_unitrigger_loc )
 {
     level endon( #"end_game" );
     self endoncallback( &function_672d56c7, #"death" );
@@ -1470,10 +1470,10 @@ function fasttravel_flinger( var_6c365dbf, var_12230d08 )
     }
     else
     {
-        var_c9a46783 = struct::get( var_12230d08.var_5d8fb38b, "targetname" );
+        var_c9a46783 = struct::get( s_unitrigger_loc.var_5d8fb38b, "targetname" );
     }
     
-    n_time = self.var_46e13a5f zm_utility::fake_physicslaunch( var_c9a46783.origin, var_12230d08.var_152a43e0 );
+    n_time = self.var_46e13a5f zm_utility::fake_physicslaunch( var_c9a46783.origin, s_unitrigger_loc.var_152a43e0 );
     wait n_time;
     self notify( #"fasttravel_over" );
     
@@ -1539,12 +1539,12 @@ function function_8d419972( b_play_once )
     s_loc = struct::spawn( ( 0, 0, 0 ) );
     player = level.players[ 0 ];
     player endon( #"disconnect" );
-    var_78e5d9d1 = player.origin;
+    v_start_loc = player.origin;
     v_start_angles = player.angles;
     
     while ( isdefined( level.var_2a40310c ) && level.var_2a40310c )
     {
-        player function_a78584c0( s_loc );
+        player fasttravel_teleport_vortex( s_loc );
         
         if ( isdefined( b_play_once ) && b_play_once )
         {
@@ -1552,7 +1552,7 @@ function function_8d419972( b_play_once )
         }
     }
     
-    player setorigin( var_78e5d9d1 );
+    player setorigin( v_start_loc );
     player setplayerangles( v_start_angles );
 }
 

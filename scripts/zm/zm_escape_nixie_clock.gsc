@@ -14,7 +14,7 @@
 
 #namespace namespace_1063645;
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0xca5ef457, Offset: 0x298
 // Size: 0x84
@@ -24,7 +24,7 @@ function init_clientfields()
     clientfield::register( "scriptmover", "" + #"hash_4ccf2ce25e0dc836", 1, 1, "int" );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0x40a60f52, Offset: 0x328
 // Size: 0x272
@@ -58,7 +58,7 @@ function function_fb0bd6b9()
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0x4da3e117, Offset: 0x5a8
 // Size: 0x464
@@ -110,7 +110,7 @@ function _goodlighting_hangar_a()
     mdl_door_right rotateyaw( 3, 1, 0.2, 0.2 );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0xaf4d805d, Offset: 0xa18
 // Size: 0x12c
@@ -134,7 +134,7 @@ function function_89f2ec87()
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0x4e1e7b31, Offset: 0xb50
 // Size: 0x70
@@ -146,7 +146,7 @@ function function_e5c8fd1d()
     level notify( #"hash_dfac532bccdb293" );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0x22a99c7, Offset: 0xbc8
 // Size: 0x1c8
@@ -175,7 +175,7 @@ function function_97f8efcd()
     wait 0.75;
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 1
 // Checksum 0x9ef6a012, Offset: 0xd98
 // Size: 0x148
@@ -197,7 +197,7 @@ function function_ca5612ce( a_mdl_tubes )
     level notify( #"hash_59db65b924f851e4" );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0x9948cc46, Offset: 0xee8
 // Size: 0x1d8
@@ -231,7 +231,7 @@ function function_172e72fa()
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 2
 // Checksum 0xbd1bd441, Offset: 0x10c8
 // Size: 0x21e
@@ -273,7 +273,7 @@ function function_ba25a76f( n_max_time, var_62002857 = 0 )
     self.script_int = 0;
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 1
 // Checksum 0x2bae6e75, Offset: 0x12f0
 // Size: 0xfc
@@ -296,7 +296,7 @@ function function_d6ae109c( b_turn_on )
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0xb06c9935, Offset: 0x13f8
 // Size: 0x12c
@@ -312,7 +312,7 @@ function function_152c339e()
     zm_unitrigger::unitrigger_force_per_player_triggers( s_nixie_tube.unitrigger_stub, 1 );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 1
 // Checksum 0x3cadfd5f, Offset: 0x1530
 // Size: 0x150
@@ -342,13 +342,13 @@ function function_bad2e505( player )
     return 0;
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0xe90df998, Offset: 0x1688
 // Size: 0x31e
 function function_290d172d()
 {
-    function_dae4ab9b( self, 0.05 );
+    settriggerusetime( self, 0.05 );
     a_s_tubes = struct::get_array( "nixie_tubes", "script_noteworthy" );
     
     while ( true )
@@ -384,7 +384,7 @@ function function_290d172d()
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 1
 // Checksum 0xd7352ff2, Offset: 0x19b0
 // Size: 0x74
@@ -396,7 +396,7 @@ function function_bbca669b( e_activator )
     level thread function_c1cc29be( e_activator );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 1
 // Checksum 0xac90620d, Offset: 0x1a30
 // Size: 0x5b4
@@ -487,7 +487,7 @@ function function_c1cc29be( e_activator )
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 1
 // Checksum 0x4ad3cf4e, Offset: 0x1ff0
 // Size: 0xda
@@ -511,7 +511,7 @@ function function_a5d20d9b( str_code )
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0x50883539, Offset: 0x20d8
 // Size: 0x6c
@@ -528,7 +528,7 @@ function music_ee()
     level thread zm_audio::sndmusicsystem_playstate( "ee_song" );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0, eflags: 0x4
 // Checksum 0xba05ca97, Offset: 0x2150
 // Size: 0x204
@@ -557,7 +557,7 @@ function private function_f2f53f97()
     e_powerup thread function_f50cec70();
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0, eflags: 0x4
 // Checksum 0x5aae5cf8, Offset: 0x2360
 // Size: 0x26
@@ -567,7 +567,7 @@ function private function_25aaae40()
     level.var_461a9705 = undefined;
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0, eflags: 0x4
 // Checksum 0xf7703b25, Offset: 0x2390
 // Size: 0x146
@@ -597,7 +597,7 @@ function private function_15aa00e7()
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0, eflags: 0x4
 // Checksum 0x63d810c3, Offset: 0x24e0
 // Size: 0xec
@@ -620,7 +620,7 @@ function private function_f50cec70()
     s_result.e_grabber zm_vo::function_a2bd5a0c( #"hash_6ae96725c891addc", 0, 1, 9999 );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 1
 // Checksum 0x64818ce0, Offset: 0x25d8
 // Size: 0x1ec
@@ -659,7 +659,7 @@ function function_4b17c9f6( n_max_time )
     mdl_tube hidepart( "tag_nixie_off" );
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0x58a2fb37, Offset: 0x27d0
 // Size: 0x11e
@@ -687,7 +687,7 @@ function function_a23db4d2()
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 3
 // Checksum 0x3c5f07e7, Offset: 0x28f8
 // Size: 0x186

@@ -1742,7 +1742,7 @@ function function_55295a16()
 // Params 1, eflags: 0x4
 // Checksum 0x7925afa7, Offset: 0x4158
 // Size: 0xea
-function private function_5dcc54a8( players )
+function private validate_last_closest_player( players )
 {
     if ( isdefined( self.last_closest_player ) && isdefined( self.last_closest_player.am_i_valid ) && self.last_closest_player.am_i_valid )
     {
@@ -1782,7 +1782,7 @@ function function_c52e1749( origin, players )
     if ( players.size == 1 )
     {
         self.last_closest_player = players[ 0 ];
-        self.var_c6e0686b = distancesquared( players[ 0 ].origin, origin );
+        self.last_closest_player_dist = distancesquared( players[ 0 ].origin, origin );
         return self.last_closest_player;
     }
     
@@ -1798,10 +1798,10 @@ function function_c52e1749( origin, players )
     
     level.last_closest_time = level.time;
     self.need_closest_player = 0;
-    var_88e86621 = spawnstruct();
-    var_88e86621.height = self function_6a9ae71();
-    var_88e86621.radius = self getpathfindingradius();
-    var_88e86621.origin = origin;
+    pathfinddata = spawnstruct();
+    pathfinddata.height = self function_6a9ae71();
+    pathfinddata.radius = self getpathfindingradius();
+    pathfinddata.origin = origin;
     
     if ( isdefined( self.var_6392b6c4 ) )
     {
@@ -1843,7 +1843,7 @@ function function_c52e1749( origin, players )
             
             if ( !isdefined( player_pos ) )
             {
-                player_pos = getclosestpointonnavmesh( player.origin, 100, var_88e86621.radius );
+                player_pos = getclosestpointonnavmesh( player.origin, 100, pathfinddata.radius );
                 
                 if ( !isdefined( player_pos ) )
                 {
@@ -1851,9 +1851,9 @@ function function_c52e1749( origin, players )
                 }
             }
             
-            if ( var_88e86621.radius > player getpathfindingradius() )
+            if ( pathfinddata.radius > player getpathfindingradius() )
             {
-                player_pos = getclosestpointonnavmesh( player.origin, 100, var_88e86621.radius );
+                player_pos = getclosestpointonnavmesh( player.origin, 100, pathfinddata.radius );
             }
             
             pos = isdefined( player_pos ) ? player_pos : player.origin;
@@ -1888,11 +1888,11 @@ function function_c52e1749( origin, players )
     }
     
     closestplayer = undefined;
-    self.var_c6e0686b = undefined;
+    self.last_closest_player_dist = undefined;
     
-    if ( ispointonnavmesh( var_88e86621.origin, self ) )
+    if ( ispointonnavmesh( pathfinddata.origin, self ) )
     {
-        pathdata = generatenavmeshpath( var_88e86621.origin, playerpositions, self );
+        pathdata = generatenavmeshpath( pathfinddata.origin, playerpositions, self );
         
         if ( isdefined( pathdata ) && pathdata.status === "succeeded" )
         {
@@ -1939,10 +1939,10 @@ function function_c52e1749( origin, players )
     
     if ( isdefined( closestplayer ) )
     {
-        self.var_c6e0686b = pathdata.pathdistance * pathdata.pathdistance;
+        self.last_closest_player_dist = pathdata.pathdistance * pathdata.pathdistance;
     }
     
-    self function_5dcc54a8( players );
+    self validate_last_closest_player( players );
     return self.last_closest_player;
 }
 
@@ -2142,7 +2142,7 @@ function update_valid_players( origin, ignore_player )
 // Params 5
 // Checksum 0x1f829c87, Offset: 0x51b8
 // Size: 0x20c
-function is_player_valid( e_player, var_11e899f9 = 0, var_67fee570 = 0, var_6eefd462 = 1, var_da861165 = 1 )
+function is_player_valid( e_player, b_check_ignore_me = 0, b_allow_last_stand = 0, var_6eefd462 = 1, var_da861165 = 1 )
 {
     if ( !isdefined( e_player ) )
     {
@@ -2179,7 +2179,7 @@ function is_player_valid( e_player, var_11e899f9 = 0, var_67fee570 = 0, var_6eef
         return 0;
     }
     
-    if ( !var_67fee570 )
+    if ( !b_allow_last_stand )
     {
         if ( e_player laststand::player_is_in_laststand() )
         {
@@ -2187,7 +2187,7 @@ function is_player_valid( e_player, var_11e899f9 = 0, var_67fee570 = 0, var_6eef
         }
     }
     
-    if ( var_11e899f9 )
+    if ( b_check_ignore_me )
     {
         if ( e_player.ignoreme || e_player isnotarget() )
         {
@@ -3845,9 +3845,9 @@ function function_b7e5029f()
 // Params 3
 // Checksum 0xa4228a43, Offset: 0x9150
 // Size: 0x178, Type: bool
-function can_use( e_player, b_is_weapon = 0, var_67fee570 = 0 )
+function can_use( e_player, b_is_weapon = 0, b_allow_last_stand = 0 )
 {
-    if ( !is_player_valid( e_player, 0, var_67fee570 ) || e_player in_revive_trigger() || e_player isthrowinggrenade() || e_player isswitchingweapons() || e_player is_drinking() )
+    if ( !is_player_valid( e_player, 0, b_allow_last_stand ) || e_player in_revive_trigger() || e_player isthrowinggrenade() || e_player isswitchingweapons() || e_player is_drinking() )
     {
         return false;
     }
@@ -5990,9 +5990,9 @@ function function_75fd65f9( str_targetname, b_enable = 1 )
             
             var_eb0f1280 = 3;
             
-            if ( isdefined( var_bf20477f.var_d229e574 ) && var_bf20477f.var_d229e574 > 0 )
+            if ( isdefined( var_bf20477f.marker_count ) && var_bf20477f.marker_count > 0 )
             {
-                var_eb0f1280 = var_bf20477f.var_d229e574;
+                var_eb0f1280 = var_bf20477f.marker_count;
             }
             
             var_bf20477f.var_8e8faeba clientfield::set( "zm_zone_edge_marker_count", var_eb0f1280 );
@@ -6207,7 +6207,7 @@ function function_fdb0368( n_round_number, str_endon )
 // Params 6
 // Checksum 0x46e61e57, Offset: 0xe418
 // Size: 0x600
-function function_9ad5aeb1( var_a8d0b313 = 1, var_82ea43f2 = 1, b_hide_body = 0, b_flash_screen = 1, var_814b69d3 = 1, var_87c98387 = "white" )
+function function_9ad5aeb1( var_a8d0b313 = 1, b_kill_ai = 1, b_hide_body = 0, b_flash_screen = 1, var_814b69d3 = 1, var_87c98387 = "white" )
 {
     var_4b9821e4 = 0;
     a_players = util::get_active_players();
@@ -6249,7 +6249,7 @@ function function_9ad5aeb1( var_a8d0b313 = 1, var_82ea43f2 = 1, b_hide_body = 0,
                 ai zm_cleanup::function_23621259( 0 );
             }
             
-            if ( var_82ea43f2 || ai.zm_ai_category !== #"basic" && ai.zm_ai_category !== #"popcorn" && ai.zm_ai_category !== #"enhanced" )
+            if ( b_kill_ai || ai.zm_ai_category !== #"basic" && ai.zm_ai_category !== #"popcorn" && ai.zm_ai_category !== #"enhanced" )
             {
                 if ( is_magic_bullet_shield_enabled( ai ) )
                 {

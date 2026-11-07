@@ -386,8 +386,8 @@ function private function_d72c4a61()
 // Size: 0x52c
 function function_d82e684c( is_not_upgraded = 1 )
 {
-    var_d571151f = self getplayerangles();
-    var_d0407533 = self getplayercamerapos();
+    v_fire_angles = self getplayerangles();
+    v_fire_origin = self getplayercamerapos();
     a_ai_targets = getaiteamarray( level.zombie_team );
     a_vh_targets = getvehicleteamarray( level.zombie_team );
     a_targets = arraycombine( a_ai_targets, a_vh_targets, 0, 0 );
@@ -404,7 +404,7 @@ function function_d82e684c( is_not_upgraded = 1 )
     
     foreach ( target in a_targets )
     {
-        if ( util::within_fov( var_d0407533, var_d571151f, target.origin, cos( 30 ) ) )
+        if ( util::within_fov( v_fire_origin, v_fire_angles, target.origin, cos( 30 ) ) )
         {
             if ( isai( target ) )
             {
@@ -433,12 +433,12 @@ function function_d82e684c( is_not_upgraded = 1 )
                     }
                     
                     str_tag = a_tags[ randomint( a_tags.size ) ];
-                    b_trace_pass = bullettracepassed( var_d0407533, target gettagorigin( str_tag ), 1, self, target );
+                    b_trace_pass = bullettracepassed( v_fire_origin, target gettagorigin( str_tag ), 1, self, target );
                     
                     if ( b_trace_pass )
                     {
                         target thread function_845f2546();
-                        e_dart = magicbullet( getweapon( #"hash_3de0926b89369160" ), var_d0407533, target gettagorigin( str_tag ), self );
+                        e_dart = magicbullet( getweapon( #"hash_3de0926b89369160" ), v_fire_origin, target gettagorigin( str_tag ), self );
                         e_dart thread function_49cfb951( n_fuse_timer, is_not_upgraded, target );
                         return;
                     }
@@ -447,11 +447,11 @@ function function_d82e684c( is_not_upgraded = 1 )
         }
     }
     
-    vec = anglestoforward( var_d571151f );
-    trace_end = var_d0407533 + vec * 20000;
-    trace = bullettrace( var_d0407533, trace_end, 1, self );
+    vec = anglestoforward( v_fire_angles );
+    trace_end = v_fire_origin + vec * 20000;
+    trace = bullettrace( v_fire_origin, trace_end, 1, self );
     var_7a29db08 = trace[ #"position" ] + function_40e83b36( 55 );
-    e_dart = magicbullet( getweapon( #"hash_3de0926b89369160" ), var_d0407533, var_7a29db08, self );
+    e_dart = magicbullet( getweapon( #"hash_3de0926b89369160" ), v_fire_origin, var_7a29db08, self );
     e_dart thread function_49cfb951( n_fuse_timer );
 }
 

@@ -20,14 +20,14 @@ function autoexec __init__system__()
 // Size: 0x14
 function __init__()
 {
-    function_27473e44();
+    enable_perk_for_level();
 }
 
 // Namespace zm_perk_bandolier/zm_perk_bandolier
 // Params 0
 // Checksum 0xd1f47881, Offset: 0x1b8
 // Size: 0x194
-function function_27473e44()
+function enable_perk_for_level()
 {
     zm_perks::register_perk_basic_info( #"specialty_extraammo", #"perk_bandolier", 3000, #"zombie/perk_bandolier", getweapon( "zombie_perk_bottle_bandolier" ), getweapon( "zombie_perk_totem_bandolier" ), #"zmperksbandolier" );
     zm_perks::register_perk_precache_func( #"specialty_extraammo", &perk_precache );
@@ -130,7 +130,7 @@ function set_ammo( b_max_ammo = 1 )
             if ( b_max_ammo )
             {
                 var_67f27715 = weapon.maxammo - weapon.startammo;
-                var_45193587 = self getweaponammostock( weapon );
+                n_current_stock = self getweaponammostock( weapon );
                 
                 if ( zm_trial_reset_loadout::is_active( 1 ) )
                 {
@@ -138,7 +138,7 @@ function set_ammo( b_max_ammo = 1 )
                 }
                 else
                 {
-                    var_88f48290 = var_45193587 + var_67f27715;
+                    var_88f48290 = n_current_stock + var_67f27715;
                 }
                 
                 self setweaponammostock( weapon, var_88f48290 );

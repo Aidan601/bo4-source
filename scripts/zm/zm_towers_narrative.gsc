@@ -45,7 +45,7 @@ function init()
     array::thread_all( a_s_scrolls, &function_58c9a8b3, 1 );
     a_s_skulls = struct::get_array( #"s_narrative_skull" );
     array::thread_all( a_s_skulls, &function_58c9a8b3 );
-    level thread function_c2e32573( "narrative_whispers", array( #"hash_609c2bdb6def129f", #"hash_4af81ddd4ad3f4d1", #"hash_23a8e8f61c4fc32c", #"hash_7f6bf79b60f1e8d4" ), 1, #"zmb_sq_audiolog_oracle_start", #"zmb_sq_audiolog_oracle_end", 1.5 );
+    level thread function_c2e32573( "narrative_whispers", array( #"vox_ee_prima_intro_orac_0", #"hash_4af81ddd4ad3f4d1", #"vox_ee_library_orac_0", #"hash_7f6bf79b60f1e8d4" ), 1, #"zmb_sq_audiolog_oracle_start", #"zmb_sq_audiolog_oracle_end", 1.5 );
     level thread function_c2e32573( "narrative_warning", array( #"hash_5c9150da16c41e10", #"hash_66dd1564ba1e9474", #"hash_4489363f604b439c", #"hash_4e2811c0bd19be20", #"hash_7101f8d31ad66888" ), 1 );
     level thread function_a38e222b();
     level thread function_831dcf3e();
@@ -582,13 +582,13 @@ function function_7c66ee1b()
     {
         var_8a88c4c8 delete();
         s_loc struct::delete();
-        scene::add_scene_func( s_hand.var_450f5117, &function_f3c29d33, "init" );
+        scene::add_scene_func( s_hand.script_narrative_scene, &function_f3c29d33, "init" );
         s_hand struct::delete();
         return;
     }
     
     s_loc zm_unitrigger::function_fac87205( &function_bc24a9ea );
-    level thread scene::play( s_hand.var_450f5117 );
+    level thread scene::play( s_hand.script_narrative_scene );
     s_loc struct::delete();
     s_hand struct::delete();
     var_8a88c4c8 clientfield::set( "" + #"hash_2407f687f7d24a83", 1 );
@@ -876,7 +876,7 @@ function function_89add587( a_ents )
     {
         level scene::remove_scene_func( self.scriptbundlename, &function_89add587, "play" );
         mdl_acid_trap = a_ents[ #"prop 1" ];
-        var_8a88c4c8 linkto( mdl_acid_trap, var_8a88c4c8.var_ab585079 );
+        var_8a88c4c8 linkto( mdl_acid_trap, var_8a88c4c8.script_narrative_tag );
     }
 }
 

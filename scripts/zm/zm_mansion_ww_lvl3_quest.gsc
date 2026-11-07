@@ -609,19 +609,19 @@ function function_a8fd8406()
 // Size: 0x138
 function function_58439640()
 {
-    var_44a24b57 = function_68a875b( self.origin );
+    v_drop_pos = function_68a875b( self.origin );
     
-    if ( isdefined( var_44a24b57 ) )
+    if ( isdefined( v_drop_pos ) )
     {
         /#
-            sphere( var_44a24b57, 4, ( 1, 0, 0 ), 1, 1, 4, 480 );
+            sphere( v_drop_pos, 4, ( 1, 0, 0 ), 1, 1, 4, 480 );
             sphere( self.origin, 16, ( 1, 1, 0 ), 1, 1, 4, 480 );
-            line( self.origin, var_44a24b57, ( 1, 1, 1 ), 1, 1, 480 );
+            line( self.origin, v_drop_pos, ( 1, 1, 1 ), 1, 1, 480 );
         #/
         
-        var_e2d0a89 = vectornormalize( var_44a24b57 - self.origin );
+        var_e2d0a89 = vectornormalize( v_drop_pos - self.origin );
         var_e2d0a89 = ( var_e2d0a89[ 0 ], var_e2d0a89[ 1 ], 0 );
-        var_e2d0a89 *= ( self.origin[ 2 ] - var_44a24b57[ 2 ] ) * 0.8;
+        var_e2d0a89 *= ( self.origin[ 2 ] - v_drop_pos[ 2 ] ) * 0.8;
         return var_e2d0a89;
     }
 }
@@ -850,7 +850,7 @@ function function_cfffc455()
         return;
     }
     
-    mdl_bile = util::spawn_model( #"hash_36f02781e6db9e53", v_loc + ( 0, 0, 1 ) );
+    mdl_bile = util::spawn_model( #"p8_zm_man_bat_bile_01", v_loc + ( 0, 0, 1 ) );
     util::wait_network_frame();
     
     if ( !isdefined( mdl_bile ) )
@@ -1076,7 +1076,7 @@ function function_d8648a1e( e_player )
     level zm_ui_inventory::function_7df6bb60( #"ww_p2_3", 0 );
     s_loc = struct::get( "nosferatu_pos" );
     s_bile = struct::get( "s_bile" );
-    self.var_76a23f3 = util::spawn_model( #"hash_36f02881e6dba006", s_bile.origin, s_bile.angles );
+    self.var_76a23f3 = util::spawn_model( #"p8_zm_man_bat_bile_02", s_bile.origin, s_bile.angles );
     ai_nosferatu = zm_ai_nosferatu::function_74f25f8a( 1, s_loc, 1, 35 );
     
     if ( isalive( ai_nosferatu ) )
@@ -1328,16 +1328,16 @@ function function_fdc93dd2( player )
 function function_c1c2fc5b( n_to_spawn )
 {
     n_spawned = 0;
-    var_f1c4ec4f = self zm_utility::get_current_zone( 1 );
+    s_current_zone = self zm_utility::get_current_zone( 1 );
     
-    if ( !isdefined( var_f1c4ec4f ) )
+    if ( !isdefined( s_current_zone ) )
     {
         return;
     }
     
-    a_s_zone_spawners = var_f1c4ec4f.a_loc_types[ #"bat_location" ];
+    a_s_zone_spawners = s_current_zone.a_loc_types[ #"bat_location" ];
     
-    foreach ( var_c92978fa in getarraykeys( var_f1c4ec4f.adjacent_zones ) )
+    foreach ( var_c92978fa in getarraykeys( s_current_zone.adjacent_zones ) )
     {
         var_c714ccfe = level.zones[ var_c92978fa ];
         var_9387e4ab = var_c714ccfe.a_loc_types[ #"bat_location" ];

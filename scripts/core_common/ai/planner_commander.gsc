@@ -1035,11 +1035,11 @@ function private function_d8b8afde( commander, &blackboard )
     priorities = array( "escortbiped", "destroy", "capturearea", "defend", "goto", "gameobject" );
     targets = blackboard[ #"targets" ];
     
-    foreach ( priority, var_5a60beef in targets )
+    foreach ( priority, prioritytargets in targets )
     {
         sortedtargets = associativearray( "gameobject", [], "goto", [], "escortbiped", [], "destroy", [], "defend", [], "capturearea", [] );
         
-        foreach ( target in var_5a60beef )
+        foreach ( target in prioritytargets )
         {
             size = sortedtargets[ target[ #"type" ] ].size;
             sortedtargets[ target[ #"type" ] ][ size ] = target;

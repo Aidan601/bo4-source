@@ -289,8 +289,8 @@ function ley_lines( localclientnum, oldval, newval, bnewent, binitialsnap, field
     else if ( newval == 2 )
     {
         var_79b95a68 = getent( localclientnum, "beam_man_2", "targetname" );
-        var_f1b20bef = getent( localclientnum, "beam_man_3", "targetname" );
-        level beam::kill( var_79b95a68, "tag_origin", var_f1b20bef, "tag_origin", "beam8_zm_mansion_cemetery_observatory_sm" );
+        e_beam_target = getent( localclientnum, "beam_man_3", "targetname" );
+        level beam::kill( var_79b95a68, "tag_origin", e_beam_target, "tag_origin", "beam8_zm_mansion_cemetery_observatory_sm" );
         var_db37a1f6 = "beam_obs_";
     }
     else if ( newval == 3 )
@@ -342,9 +342,9 @@ function function_81f056fe( localclientnum, newval, var_db37a1f6 )
             var_79b95a68 = getent( localclientnum, var_db37a1f6 + i, "targetname" );
         }
         
-        var_f1b20bef = getent( localclientnum, var_db37a1f6 + i + 1, "targetname" );
+        e_beam_target = getent( localclientnum, var_db37a1f6 + i + 1, "targetname" );
         
-        if ( isdefined( var_79b95a68 ) && isdefined( var_f1b20bef ) )
+        if ( isdefined( var_79b95a68 ) && isdefined( e_beam_target ) )
         {
             if ( i == 2 && var_db37a1f6 == "beam_man_" || i == 0 && var_db37a1f6 == "beam_obs_" )
             {
@@ -357,10 +357,10 @@ function function_81f056fe( localclientnum, newval, var_db37a1f6 )
             
             if ( newval == 1 || newval == 2 )
             {
-                level beam::launch( var_79b95a68, "tag_origin", var_f1b20bef, "tag_origin", str_beam, 1 );
-                soundlineemitter( #"hash_1c73b17d13624a48", var_79b95a68.origin, var_f1b20bef.origin );
+                level beam::launch( var_79b95a68, "tag_origin", e_beam_target, "tag_origin", str_beam, 1 );
+                soundlineemitter( #"hash_1c73b17d13624a48", var_79b95a68.origin, e_beam_target.origin );
                 
-                if ( var_f1b20bef.targetname === "beam_obs_3" )
+                if ( e_beam_target.targetname === "beam_obs_3" )
                 {
                     if ( !isdefined( level.var_8709ee5a ) )
                     {
@@ -371,9 +371,9 @@ function function_81f056fe( localclientnum, newval, var_db37a1f6 )
                         level.var_8709ee5a = array( level.var_8709ee5a );
                     }
                     
-                    level.var_8709ee5a[ level.var_8709ee5a.size ] = util::playfxontag( localclientnum, #"hash_c6b5dc9777950d8", var_f1b20bef, "tag_origin" );
+                    level.var_8709ee5a[ level.var_8709ee5a.size ] = util::playfxontag( localclientnum, #"hash_c6b5dc9777950d8", e_beam_target, "tag_origin" );
                 }
-                else if ( var_f1b20bef.targetname === "beam_man_2" || var_f1b20bef.targetname === "beam_obs" || var_f1b20bef.targetname === "beam_obs_2" )
+                else if ( e_beam_target.targetname === "beam_man_2" || e_beam_target.targetname === "beam_obs" || e_beam_target.targetname === "beam_obs_2" )
                 {
                     if ( !isdefined( level.var_8709ee5a ) )
                     {
@@ -384,9 +384,9 @@ function function_81f056fe( localclientnum, newval, var_db37a1f6 )
                         level.var_8709ee5a = array( level.var_8709ee5a );
                     }
                     
-                    level.var_8709ee5a[ level.var_8709ee5a.size ] = util::playfxontag( localclientnum, #"hash_b87fed38a9f91a", var_f1b20bef, "tag_origin" );
+                    level.var_8709ee5a[ level.var_8709ee5a.size ] = util::playfxontag( localclientnum, #"hash_b87fed38a9f91a", e_beam_target, "tag_origin" );
                 }
-                else if ( var_f1b20bef.targetname === "beam_man_1" || var_f1b20bef.targetname === "beam_obs_1" )
+                else if ( e_beam_target.targetname === "beam_man_1" || e_beam_target.targetname === "beam_obs_1" )
                 {
                     if ( !isdefined( level.var_8709ee5a ) )
                     {
@@ -397,13 +397,13 @@ function function_81f056fe( localclientnum, newval, var_db37a1f6 )
                         level.var_8709ee5a = array( level.var_8709ee5a );
                     }
                     
-                    level.var_8709ee5a[ level.var_8709ee5a.size ] = playfx( localclientnum, #"hash_b87fed38a9f91a", var_f1b20bef.origin, anglestoforward( var_f1b20bef.angles ) * -1, anglestoup( var_f1b20bef.angles ) );
+                    level.var_8709ee5a[ level.var_8709ee5a.size ] = playfx( localclientnum, #"hash_b87fed38a9f91a", e_beam_target.origin, anglestoforward( e_beam_target.angles ) * -1, anglestoup( e_beam_target.angles ) );
                 }
             }
             else
             {
-                level beam::kill( var_79b95a68, "tag_origin", var_f1b20bef, "tag_origin", str_beam );
-                soundstoplineemitter( #"hash_1c73b17d13624a48", var_79b95a68.origin, var_f1b20bef.origin );
+                level beam::kill( var_79b95a68, "tag_origin", e_beam_target, "tag_origin", str_beam );
+                soundstoplineemitter( #"hash_1c73b17d13624a48", var_79b95a68.origin, e_beam_target.origin );
             }
         }
         
@@ -424,9 +424,9 @@ function function_81f056fe( localclientnum, newval, var_db37a1f6 )
     
     if ( newval == 0 || newval == 3 )
     {
-        if ( isdefined( var_f1b20bef ) )
+        if ( isdefined( e_beam_target ) )
         {
-            var_f1b20bef delete();
+            e_beam_target delete();
         }
     }
 }

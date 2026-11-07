@@ -256,7 +256,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4a518b02ad00a7fd",
+                            "anim": "anim#p8_fxanim_mp_hacienda_helicopter_flyover_tree_ns_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -285,7 +285,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7154dee77db312cd",
+                            "anim": "anim#p8_fxanim_mp_hacienda_helicopter_flyover_tree_ns_depart_anim",
                             "entrytype": "anim"
                         }
                     ],

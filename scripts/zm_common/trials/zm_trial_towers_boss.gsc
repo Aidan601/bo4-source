@@ -222,9 +222,9 @@ function private function_13576d14()
             recordent( var_e220a902 );
         #/
         
-        var_d7267ad9 = "towers_boss_tower_badplace_" + var_6848389e;
-        var_e220a902.badplace_name = var_d7267ad9;
-        badplace_box( var_d7267ad9, 0, groundtrace( var_e220a902.origin + ( 0, 0, 8 ), var_e220a902.origin + ( 0, 0, -100000 ), 0, var_e220a902 )[ #"position" ], var_a406cb50, "all" );
+        str_badplace_name = "towers_boss_tower_badplace_" + var_6848389e;
+        var_e220a902.badplace_name = str_badplace_name;
+        badplace_box( str_badplace_name, 0, groundtrace( var_e220a902.origin + ( 0, 0, 8 ), var_e220a902.origin + ( 0, 0, -100000 ), 0, var_e220a902 )[ #"position" ], var_a406cb50, "all" );
         var_6848389e++;
         waitframe( 1 );
     }
@@ -379,7 +379,7 @@ function private function_dd2db3df()
 // Params 4, eflags: 0x4
 // Checksum 0xb548e59a, Offset: 0x1768
 // Size: 0xa8
-function private function_95785950( var_c625106d, var_86163b89, n_stage, var_39acfdda )
+function private function_95785950( n_frequency, var_86163b89, n_stage, var_39acfdda )
 {
     self notify( "683195b7da79b6b9" );
     self endon( "683195b7da79b6b9" );
@@ -387,7 +387,7 @@ function private function_95785950( var_c625106d, var_86163b89, n_stage, var_39a
     
     while ( true )
     {
-        wait var_c625106d;
+        wait n_frequency;
         
         if ( isdefined( var_86163b89 ) && var_86163b89 )
         {

@@ -189,14 +189,14 @@ function private function_44a6883c( &drop_item_id, &drop_items, &drop_count, &dr
         
         if ( var_fee0423a && !( isdefined( itementry.stackable ) && itementry.stackable ) )
         {
-            for ( var_604c3ae6 = 0; var_604c3ae6 < index ; var_604c3ae6++ )
+            for ( existingindex = 0; existingindex < index ; existingindex++ )
             {
-                if ( drop_item_id[ var_604c3ae6 ] == -1 )
+                if ( drop_item_id[ existingindex ] == -1 )
                 {
                     continue;
                 }
                 
-                var_92d652f2 = function_b1702735( drop_item_id[ var_604c3ae6 ] );
+                var_92d652f2 = function_b1702735( drop_item_id[ existingindex ] );
                 var_f6a3c690 = var_92d652f2.itementry;
                 var_fa38de52 = item_world_util::get_itemtype( var_f6a3c690 );
                 
@@ -205,7 +205,7 @@ function private function_44a6883c( &drop_item_id, &drop_items, &drop_count, &dr
                     continue;
                 }
                 
-                drop_count[ var_604c3ae6 ] += drop_count[ index ];
+                drop_count[ existingindex ] += drop_count[ index ];
                 drop_item_id[ index ] = -1;
                 drop_items[ index ] = undefined;
                 drop_count[ index ] = undefined;
@@ -253,19 +253,19 @@ function private function_44a6883c( &drop_item_id, &drop_items, &drop_count, &dr
             continue;
         }
         
-        for ( var_604c3ae6 = 0; var_604c3ae6 < index ; var_604c3ae6++ )
+        for ( existingindex = 0; existingindex < index ; existingindex++ )
         {
             if ( !isdefined( drop_count[ index ] ) || drop_count[ index ] <= 0 )
             {
                 break;
             }
             
-            if ( drop_item_id[ var_604c3ae6 ] == -1 )
+            if ( drop_item_id[ existingindex ] == -1 )
             {
                 continue;
             }
             
-            var_92d652f2 = function_b1702735( drop_item_id[ var_604c3ae6 ] );
+            var_92d652f2 = function_b1702735( drop_item_id[ existingindex ] );
             var_f6a3c690 = var_92d652f2.itementry;
             var_fa38de52 = item_world_util::get_itemtype( var_f6a3c690 );
             
@@ -278,11 +278,11 @@ function private function_44a6883c( &drop_item_id, &drop_items, &drop_count, &dr
             
             if ( var_4a5c0085 )
             {
-                var_8429965a = maxstacksize - drop_count[ var_604c3ae6 ];
+                var_8429965a = maxstacksize - drop_count[ existingindex ];
                 excess = int( min( var_8429965a, drop_count[ index ] ) );
             }
             
-            drop_count[ var_604c3ae6 ] += excess;
+            drop_count[ existingindex ] += excess;
             drop_count[ index ] -= excess;
             
             if ( drop_count[ index ] <= 0 )
@@ -309,11 +309,11 @@ function private function_23b6897( player, position )
         heightoffset = max( player getplayerviewheight() + -20, 18 );
         var_891dc751 = ( 0, 0, heightoffset );
         centerpoint = player.origin;
-        var_bb96e272 = position - centerpoint;
-        var_bb96e272 = ( var_bb96e272[ 0 ], var_bb96e272[ 1 ], 0 );
-        var_bb96e272 = vectornormalize( var_bb96e272 );
+        todirection = position - centerpoint;
+        todirection = ( todirection[ 0 ], todirection[ 1 ], 0 );
+        todirection = vectornormalize( todirection );
         forward = ( 1, 0, 0 );
-        theta = vectortoangles( var_bb96e272 )[ 1 ] - vectortoangles( forward )[ 1 ];
+        theta = vectortoangles( todirection )[ 1 ] - vectortoangles( forward )[ 1 ];
         var_9942a6e3 = 13;
         var_ed81de82 = var_9942a6e3 * var_9942a6e3;
         var_f6c0e955 = 25;

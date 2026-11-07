@@ -797,7 +797,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_26b6ae45ea0a5f00",
+                            "anim": "anim#ch_zm_ix_outro_sh070_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -1018,7 +1018,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1ebace6452ef7a79",
+                            "anim": "anim#ch_zm_ix_outro_sh150_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -1337,7 +1337,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2c2d230958a990fc",
+                            "anim": "anim#ch_zm_ix_outro_sh070_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -1437,7 +1437,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4881f3219580b7fa",
+                            "anim": "anim#ch_zm_ix_outro_sh120_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -1565,7 +1565,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3aae928cef1f1141",
+                            "anim": "anim#ch_zm_ix_outro_sh150_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -1859,7 +1859,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5a8244cf76c8bf91",
+                            "anim": "anim#ch_zm_ix_outro_sh060_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1890,7 +1890,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4675147d1585eed2",
+                            "anim": "anim#ch_zm_ix_outro_sh070_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1920,7 +1920,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7560564e5089bf9f",
+                            "anim": "anim#ch_zm_ix_outro_sh080_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1950,7 +1950,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2bc80a6e94a5c73e",
+                            "anim": "anim#ch_zm_ix_outro_sh100_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1980,7 +1980,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7bd7342e05d8dabd",
+                            "anim": "anim#ch_zm_ix_outro_sh110_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2153,7 +2153,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_41f37843fb6a5224",
+                            "anim": "anim#ch_zm_ix_outro_sh160_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -2449,7 +2449,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4ab2dbae7f96db99",
+                            "anim": "anim#ch_zm_ix_outro_sh070_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -2503,7 +2503,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_107d9d6342182665",
+                            "anim": "anim#ch_zm_ix_outro_sh100_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -2632,7 +2632,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_74253e94304e5f89",
+                            "anim": "anim#ch_zm_ix_outro_sh140_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -3189,7 +3189,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_278c4d6ca27e3b73",
+                            "anim": "anim#o_zm_ix_outro_sh145_axe",
                             "entrytype": "anim"
                         }
                     ],
@@ -3241,7 +3241,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_174ac685485b46a6",
+                            "anim": "anim#o_zm_ix_outro_sh160_axe",
                             "entrytype": "anim"
                         }
                     ],
@@ -3270,7 +3270,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5bc292a293eef49d",
+                            "anim": "anim#o_zm_ix_outro_sh165_axe",
                             "entrytype": "anim"
                         }
                     ],
@@ -3300,7 +3300,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6a18ec3fcda0dce",
+                            "anim": "anim#o_zm_ix_outro_sh168_axe",
                             "entrytype": "anim"
                         }
                     ],
@@ -3880,7 +3880,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3d08e4380091f56",
+                            "anim": "anim#o_zm_ix_outro_sh180_head",
                             "entrytype": "anim"
                         }
                     ],
@@ -3914,7 +3914,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_68afd73a6d5c8314",
+            "model": "model#c_t8_zmb_dlc0_hero_diego_g_head1_decapitated_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -3936,7 +3936,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_30720ce21730319",
+                            "anim": "anim#ch_zm_ix_outro_sh010_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -3966,7 +3966,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_13a9eac9d432e71c",
+                            "anim": "anim#ch_zm_ix_outro_sh020_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -3995,7 +3995,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_25f7f54e535c18cb",
+                            "anim": "anim#ch_zm_ix_outro_sh030_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -4024,7 +4024,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_89706697c2d7916",
+                            "anim": "anim#ch_zm_ix_outro_sh040_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -4053,7 +4053,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2e92c86164acdf8d",
+                            "anim": "anim#ch_zm_ix_outro_sh050_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -4614,7 +4614,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_21e46b7259e32001",
+                            "anim": "anim#ch_zm_ix_outro_sh060_cultist_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -4645,7 +4645,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_be3fafaed0ca15a",
+                            "anim": "anim#ch_zm_ix_outro_sh070_cultist_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -4675,7 +4675,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_28de49288638cdf",
+                            "anim": "anim#ch_zm_ix_outro_sh080_cultist_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -4751,7 +4751,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_70ebc7c4bc80af37",
+                            "anim": "anim#ch_zm_ix_outro_sh120_cultist_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -4833,7 +4833,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_733665d69065782a",
+                            "anim": "anim#ch_zm_ix_outro_sh140_cultist_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -4911,7 +4911,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_69af21d8c404e514",
+                            "anim": "anim#ch_zm_ix_outro_sh160_cultist_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -5181,7 +5181,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_21e4687259e31ae8",
+                            "anim": "anim#ch_zm_ix_outro_sh060_cultist_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5212,7 +5212,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_be3f9faed0c9fa7",
+                            "anim": "anim#ch_zm_ix_outro_sh070_cultist_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5242,7 +5242,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_28de59288638e92",
+                            "anim": "anim#ch_zm_ix_outro_sh080_cultist_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5272,7 +5272,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_273bc77220a2852b",
+                            "anim": "anim#ch_zm_ix_outro_sh100_cultist_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5302,7 +5302,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_20f3dbec21870e3c",
+                            "anim": "anim#ch_zm_ix_outro_sh110_cultist_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5332,7 +5332,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_70ebc6c4bc80ad84",
+                            "anim": "anim#ch_zm_ix_outro_sh120_cultist_05",
                             "entrytype": "anim"
                         }
                     ],
@@ -5414,7 +5414,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_733664d690657677",
+                            "anim": "anim#ch_zm_ix_outro_sh140_cultist_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5492,7 +5492,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_69af24d8c404ea2d",
+                            "anim": "anim#ch_zm_ix_outro_sh160_cultist_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -5787,7 +5787,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_be3f8faed0c9df4",
+                            "anim": "anim#ch_zm_ix_outro_sh070_cultist_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -5841,7 +5841,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_273bc67220a28378",
+                            "anim": "anim#ch_zm_ix_outro_sh100_cultist_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -6332,7 +6332,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_be3f7faed0c9c41",
+                            "anim": "anim#ch_zm_ix_outro_sh070_cultist_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -6553,7 +6553,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5eeede4027d49d2a",
+                            "anim": "anim#ch_zm_ix_outro_sh150_cultist_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -6871,7 +6871,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_be3f6faed0c9a8e",
+                            "anim": "anim#ch_zm_ix_outro_sh070_cultist_05",
                             "entrytype": "anim"
                         }
                     ],
@@ -7092,7 +7092,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5eeedf4027d49edd",
+                            "anim": "anim#ch_zm_ix_outro_sh150_cultist_05",
                             "entrytype": "anim"
                         }
                     ],
@@ -7410,7 +7410,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_be3f5faed0c98db",
+                            "anim": "anim#ch_zm_ix_outro_sh070_cultist_06",
                             "entrytype": "anim"
                         }
                     ],
@@ -8108,7 +8108,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_63e10f0b6e8d42a1",
+                            "anim": "anim#o_zm_ix_outro_sh140_block",
                             "entrytype": "anim"
                         }
                     ],
@@ -8162,7 +8162,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_59fd3cdfe590ae34",
+                            "anim": "anim#o_zm_ix_outro_sh150_block",
                             "entrytype": "anim"
                         }
                     ],
@@ -8192,7 +8192,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_23f82fa131485643",
+                            "anim": "anim#o_zm_ix_outro_sh160_block",
                             "entrytype": "anim"
                         }
                     ],
@@ -8295,7 +8295,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_51b31678ad526149",
+                            "anim": "anim#o_zm_ix_outro_sh180_block_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -8826,7 +8826,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_51b31378ad525c30",
+                            "anim": "anim#o_zm_ix_outro_sh180_block_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -9356,7 +9356,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_51b31478ad525de3",
+                            "anim": "anim#o_zm_ix_outro_sh180_block_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -9886,7 +9886,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_51b31978ad526662",
+                            "anim": "anim#o_zm_ix_outro_sh180_block_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -10416,7 +10416,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_23e5c5144623ffd8",
+                            "anim": "anim#ch_zm_ix_outro_sh180_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -10946,7 +10946,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_13bbc067bb0a1344",
+                            "anim": "anim#ch_zm_ix_outro_sh180_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -11476,7 +11476,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_62376ea3415ebc2d",
+                            "anim": "anim#ch_zm_ix_outro_sh180_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -12006,7 +12006,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_424db13493c38716",
+                            "anim": "anim#ch_zm_ix_outro_sh180_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -12062,7 +12062,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3d773557a343278",
+                            "anim": "anim#o_zm_ix_outro_sh010_portal",
                             "entrytype": "anim"
                         }
                     ],
@@ -12092,7 +12092,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_9e524cf923004fd",
+                            "anim": "anim#o_zm_ix_outro_sh020_portal",
                             "entrytype": "anim"
                         }
                     ],
@@ -12121,7 +12121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_18d9a8af3891169a",
+                            "anim": "anim#o_zm_ix_outro_sh030_portal",
                             "entrytype": "anim"
                         }
                     ],
@@ -12150,7 +12150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7090e9164b4a454f",
+                            "anim": "anim#o_zm_ix_outro_sh040_portal",
                             "entrytype": "anim"
                         }
                     ],
@@ -12588,7 +12588,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_2b458f17054945d9",
+            "model": "model#p8_zm_gla_portal_01_parallax_01",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -12610,7 +12610,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_458c68acb08b9367",
+                            "anim": "anim#o_zm_ix_outro_sh010_glyph_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -13140,7 +13140,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_458c64acb08b8c9b",
+                            "anim": "anim#o_zm_ix_outro_sh010_glyph_06",
                             "entrytype": "anim"
                         }
                     ],
@@ -13670,7 +13670,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_458c66acb08b9001",
+                            "anim": "anim#o_zm_ix_outro_sh010_glyph_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -14200,7 +14200,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_458c67acb08b91b4",
+                            "anim": "anim#o_zm_ix_outro_sh010_glyph_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -14730,7 +14730,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_458c65acb08b8e4e",
+                            "anim": "anim#o_zm_ix_outro_sh010_glyph_05",
                             "entrytype": "anim"
                         }
                     ],
@@ -15260,7 +15260,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_458c69acb08b951a",
+                            "anim": "anim#o_zm_ix_outro_sh010_glyph_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -15768,7 +15768,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_5dd8abee2d470359",
+            "model": "model#p8_mov_zm_gla_glyph_outro_selenium",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -16390,7 +16390,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7c8e5a6e63da54a2",
+                            "anim": "anim#o_zm_ix_outro_sh040_smoke",
                             "entrytype": "anim"
                         }
                     ],
@@ -17134,7 +17134,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_27bb081117b3cfa6",
+                            "anim": "anim#ch_zm_ix_outro_sh138_executioner",
                             "entrytype": "anim"
                         }
                     ],
@@ -17189,7 +17189,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4e079551c8abcdbe",
+                            "anim": "anim#ch_zm_ix_outro_sh145_executioner",
                             "entrytype": "anim"
                         }
                     ],
@@ -17241,7 +17241,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_557004438df4c0cb",
+                            "anim": "anim#ch_zm_ix_outro_sh160_executioner",
                             "entrytype": "anim"
                         }
                     ],
@@ -17270,7 +17270,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3548f9f61cb116a0",
+                            "anim": "anim#ch_zm_ix_outro_sh165_executioner",
                             "entrytype": "anim"
                         }
                     ],
@@ -17349,7 +17349,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7c82d454c56b3365",
+                            "anim": "anim#ch_zm_ix_outro_sh180_executioner",
                             "entrytype": "anim"
                         }
                     ],
@@ -17548,7 +17548,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_25176de525bc561f",
+                            "anim": "anim#ch_zm_ix_outro_sh070_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -17578,7 +17578,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_384e6b2ebbdca35a",
+                            "anim": "anim#ch_zm_ix_outro_sh080_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -17607,7 +17607,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_31fca1e4ed4ab17b",
+                            "anim": "anim#ch_zm_ix_outro_sh100_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -17636,7 +17636,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_217b52d7470b010c",
+                            "anim": "anim#ch_zm_ix_outro_sh110_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -17689,7 +17689,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_78164ab1180e9f2f",
+                            "anim": "anim#ch_zm_ix_outro_sh135_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -17885,7 +17885,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_319996b5d054af06",
+                            "anim": "anim#ch_zm_ix_outro_sh170_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -17916,7 +17916,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_53bbb6862fb87db3",
+                            "anim": "anim#ch_zm_ix_outro_sh180_priest",
                             "entrytype": "anim"
                         }
                     ],
@@ -18191,7 +18191,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_46a927f3cdc1ff78",
+                            "anim": "anim#o_zm_ix_outro_sh110_restraint_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -18366,7 +18366,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_48c452bd93d12605",
+                            "anim": "anim#o_zm_ix_outro_sh160_restraint_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -18661,7 +18661,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3870c672c80f97b6",
+                            "anim": "anim#o_zm_ix_outro_sh070_restraint_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -18835,7 +18835,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6ed92c55f1ceb726",
+                            "anim": "anim#o_zm_ix_outro_sh140_restraint_stanton",
                             "entrytype": "anim"
                         }
                     ],

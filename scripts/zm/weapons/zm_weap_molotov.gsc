@@ -60,8 +60,8 @@ function function_32766bb7( inflictor, attacker, damage, flags, meansofdeath, we
                 
                 self.weapon_specific_fire_death_torso_fx = level._effect[ #"character_fire_death_torso_alchemical" ];
                 self.weapon_specific_fire_death_sm_fx = level._effect[ #"character_fire_death_torso_alchemical" ];
-                var_5d7b4163 = zm_equipment::function_379f6b5d( damage, 3, 0.3, 4, 14 );
-                return var_5d7b4163;
+                n_scaled_damage = zm_equipment::function_379f6b5d( damage, 3, 0.3, 4, 14 );
+                return n_scaled_damage;
         }
     }
     

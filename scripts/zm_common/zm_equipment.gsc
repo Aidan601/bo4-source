@@ -1070,8 +1070,8 @@ function function_7d948481( n_boss = 0.1, n_miniboss = 0.25, n_heavy = 0.5, n_ba
 function function_379f6b5d( n_base_damage, var_177ec733 = 1, var_b68e56de = 1, var_694e2cee = 4, var_f14e81ea = 30 )
 {
     n_base_damage *= var_177ec733;
-    var_5d7b4163 = n_base_damage * var_b68e56de * math::clamp( level.round_number, var_694e2cee, var_f14e81ea );
-    return int( var_5d7b4163 );
+    n_scaled_damage = n_base_damage * var_b68e56de * math::clamp( level.round_number, var_694e2cee, var_f14e81ea );
+    return int( n_scaled_damage );
 }
 
 /#

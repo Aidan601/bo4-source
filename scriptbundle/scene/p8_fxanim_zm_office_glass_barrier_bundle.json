@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4e08c69998202ceb",
+                            "anim": "anim#p8_fxanim_zm_office_glass_barrier_prestine_idle",
                             "entrytype": "anim"
                         }
                     ],
@@ -36,7 +36,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c7d73b59cc0b8db",
+                            "anim": "anim#p8_fxanim_zm_office_glass_barrier_shatter_stage1",
                             "entrytype": "anim"
                         }
                     ],
@@ -67,7 +67,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c7d74b59cc0ba8e",
+                            "anim": "anim#p8_fxanim_zm_office_glass_barrier_shatter_stage2",
                             "entrytype": "anim"
                         }
                     ],
@@ -98,7 +98,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c7d75b59cc0bc41",
+                            "anim": "anim#p8_fxanim_zm_office_glass_barrier_shatter_stage3",
                             "entrytype": "anim"
                         }
                     ],
@@ -129,7 +129,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c7d76b59cc0bdf4",
+                            "anim": "anim#p8_fxanim_zm_office_glass_barrier_shatter_stage4",
                             "entrytype": "anim"
                         }
                     ],
@@ -160,7 +160,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c7d77b59cc0bfa7",
+                            "anim": "anim#p8_fxanim_zm_office_glass_barrier_shatter_stage5",
                             "entrytype": "anim"
                         }
                     ],
@@ -191,7 +191,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_c7d78b59cc0c15a",
+                            "anim": "anim#p8_fxanim_zm_office_glass_barrier_shatter_stage6",
                             "entrytype": "anim"
                         }
                     ],

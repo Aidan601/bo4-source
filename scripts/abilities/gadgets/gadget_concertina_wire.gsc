@@ -320,10 +320,10 @@ function function_6fe5a945( player )
 function function_5ea6e77d( point, upangles )
 {
     var_2fa728ff = point + upangles * -10;
-    var_71fcd06b = point + upangles * 10;
+    tracestartpoint = point + upangles * 10;
     mins = ( -10, -10, -10 );
     maxs = ( 10, 10, 10 );
-    var_e07c7e8 = physicstrace( var_71fcd06b, var_2fa728ff, mins, maxs, self, 1 );
+    var_e07c7e8 = physicstrace( tracestartpoint, var_2fa728ff, mins, maxs, self, 1 );
     return var_e07c7e8[ #"fraction" ] < 1;
 }
 
@@ -745,9 +745,9 @@ function function_4ee7d46a( isselfdestruct )
     
     deployable::function_81598103( concertinawire );
     
-    if ( isdefined( concertinawire.var_3b0688ef ) )
+    if ( isdefined( concertinawire.badplaceid ) )
     {
-        badplace_delete( concertinawire.var_3b0688ef );
+        badplace_delete( concertinawire.badplaceid );
     }
     
     if ( isdefined( concertinawire.killcament ) )
@@ -1263,8 +1263,8 @@ function function_34d706ae( watcher, var_db52b808, origin, angles, var_796be15d,
     var_bf8e4260.takedamage = 1;
     var_bf8e4260.startinghealth = isdefined( level.var_87226c31.bundle.opencoverhealth ) ? level.var_87226c31.bundle.opencoverhealth : 0;
     var_bf8e4260.health = var_bf8e4260.startinghealth;
-    var_bf8e4260.var_3b0688ef = "concertina_wire_badplace" + var_bf8e4260 getentitynumber();
-    badplace_box( var_bf8e4260.var_3b0688ef, 0, var_bf8e4260.origin, width / 2, "all" );
+    var_bf8e4260.badplaceid = "concertina_wire_badplace" + var_bf8e4260 getentitynumber();
+    badplace_box( var_bf8e4260.badplaceid, 0, var_bf8e4260.origin, width / 2, "all" );
     var_bf8e4260 setteam( player getteam() );
     var_bf8e4260 setweapon( level.var_87226c31.concertinawireweapon );
     var_bf8e4260.weapon = level.var_87226c31.concertinawireweapon;

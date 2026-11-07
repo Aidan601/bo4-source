@@ -187,7 +187,7 @@ function function_489bd1e9()
     {
         foreach ( button in buttons )
         {
-            button.mdl_gameobject.var_ee7ff721 = button.var_ee7ff721;
+            button.mdl_gameobject.script_exhibit = button.script_exhibit;
             button.mdl_gameobject gameobjects::set_onuse_event( &function_4967eb5a );
         }
         
@@ -206,12 +206,12 @@ function function_4967eb5a( activator )
     level endon( #"game_ended" );
     self endon( #"death" );
     
-    if ( !isdefined( self.var_ee7ff721 ) )
+    if ( !isdefined( self.script_exhibit ) )
     {
         return;
     }
     
-    switch ( self.var_ee7ff721 )
+    switch ( self.script_exhibit )
     {
         case #"asylum":
             value = 1;

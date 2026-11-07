@@ -563,8 +563,8 @@ function function_5d6119de()
         
         if ( var_be79df4d.size && var_f8b181cf.size )
         {
-            var_a841b5f1 = arraycombine( var_be79df4d, var_f8b181cf, 0, 0 );
-            e_target_player = function_79b77be1( var_a841b5f1 );
+            a_potential_players = arraycombine( var_be79df4d, var_f8b181cf, 0, 0 );
+            e_target_player = function_79b77be1( a_potential_players );
         }
         else if ( var_be79df4d.size )
         {
@@ -1183,7 +1183,7 @@ function function_9da7999d( var_9c93ba8f = 0, var_ac39950d = 0, str_event )
 function function_acab98ce( var_82c32aa7, var_9c93ba8f, var_ac39950d = 0, str_event )
 {
     str_name = self.name;
-    var_65b29bff = "";
+    str_sndalias = "";
     var_aee1a869 = 0;
     var_31571f8a = 0;
     

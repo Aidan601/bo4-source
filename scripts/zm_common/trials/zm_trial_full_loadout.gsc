@@ -112,10 +112,10 @@ function private monitor_loadout()
         {
             n_clip_size = self getweaponammoclipsize( weapon );
             var_2cf11630 = self getweaponammoclip( weapon );
-            var_45193587 = self getweaponammostock( weapon );
+            n_current_stock = self getweaponammostock( weapon );
             n_stock_size = min( weapon.maxammo, weapon.startammo );
             
-            if ( var_2cf11630 < n_clip_size || var_45193587 < n_stock_size )
+            if ( var_2cf11630 < n_clip_size || n_current_stock < n_stock_size )
             {
                 var_94020d2 = 0;
                 break;

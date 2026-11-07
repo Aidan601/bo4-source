@@ -4,7 +4,7 @@ CHECKSUM 0x3316622e
 ######################################################
 ####################  DEV STRINGS  ###################
 ######################################################
-# system::function_5095b2c6@e4 system::function_5095b2c6@18c system::function_8dfa23e0@a4 system::function_8dfa23e0@14c
+# system::run_post_systems_internal@e4 system::run_post_systems_internal@18c system::run_pre_systems_internal@a4 system::run_pre_systems_internal@14c
 STRING "<dev string:x120>" 0x3a4 0x44c 0x6bc 0x764
 # system::ignore@14
 STRING "<dev string:x124>" 0x8b4
@@ -12,24 +12,24 @@ STRING "<dev string:x124>" 0x8b4
 STRING "<dev string:x38>" 0xdc
 # system::register@6c
 STRING "<dev string:x43>" 0xf4
-# system::function_5095b2c6@34
+# system::run_post_systems_internal@34
 STRING "<dev string:x8d>" 0x2f4
-# system::function_5095b2c6@d8 system::function_5095b2c6@13c system::function_8dfa23e0@98 system::function_8dfa23e0@fc
+# system::run_post_systems_internal@d8 system::run_post_systems_internal@13c system::run_pre_systems_internal@98 system::run_pre_systems_internal@fc
 STRING "<dev string:xf8>" 0x398 0x3fc 0x6b0 0x714
 ######################################################
 ####################  DEV BLOCKS  ####################
 ######################################################
 # system::register@4a
 DEVBLOCK 0xd2
-# system::function_5095b2c6@2a
+# system::run_post_systems_internal@2a
 DEVBLOCK 0x2ea
-# system::function_5095b2c6@ce
+# system::run_post_systems_internal@ce
 DEVBLOCK 0x38e
-# system::function_5095b2c6@132
+# system::run_post_systems_internal@132
 DEVBLOCK 0x3f2
-# system::function_8dfa23e0@8e
+# system::run_pre_systems_internal@8e
 DEVBLOCK 0x6a6
-# system::function_8dfa23e0@f2
+# system::run_pre_systems_internal@f2
 DEVBLOCK 0x70a
 # system::ignore@a
 DEVBLOCK 0x8aa

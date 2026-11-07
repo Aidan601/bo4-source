@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_27d8ba3d015f055e",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_init",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3db65b6bbf08243b",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_power_off",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fdc8d43b4a0cc",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_00",
                             "entrytype": "anim"
                         }
                     ],
@@ -92,7 +92,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fdd8d43b4a27f",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -121,7 +121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fde8d43b4a432",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -150,7 +150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fdf8d43b4a5e5",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -179,7 +179,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fd88d43b49a00",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -208,7 +208,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fd98d43b49bb3",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_05",
                             "entrytype": "anim"
                         }
                     ],
@@ -237,7 +237,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fda8d43b49d66",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_06",
                             "entrytype": "anim"
                         }
                     ],
@@ -266,7 +266,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fdb8d43b49f19",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_07",
                             "entrytype": "anim"
                         }
                     ],
@@ -295,7 +295,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fe48d43b4ae64",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_08",
                             "entrytype": "anim"
                         }
                     ],
@@ -324,7 +324,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76fe58d43b4b017",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_09",
                             "entrytype": "anim"
                         }
                     ],
@@ -353,7 +353,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_773628d43b7ba55",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_10",
                             "entrytype": "anim"
                         }
                     ],
@@ -382,7 +382,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_773618d43b7b8a2",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_11",
                             "entrytype": "anim"
                         }
                     ],
@@ -411,7 +411,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_773608d43b7b6ef",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_12",
                             "entrytype": "anim"
                         }
                     ],
@@ -440,7 +440,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7735f8d43b7b53c",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_13",
                             "entrytype": "anim"
                         }
                     ],
@@ -469,7 +469,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7735e8d43b7b389",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_14",
                             "entrytype": "anim"
                         }
                     ],
@@ -498,7 +498,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7735d8d43b7b1d6",
+                            "anim": "anim#p8_fxanim_zm_off_console_standing_03_open_led_15",
                             "entrytype": "anim"
                         }
                     ],

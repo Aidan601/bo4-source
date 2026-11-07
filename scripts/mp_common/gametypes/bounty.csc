@@ -14,7 +14,7 @@
 // Size: 0x13c
 function event_handler[gametype_init] main( eventstruct )
 {
-    level.var_ea696257 = 1;
+    level.isbounty = 1;
     level.var_fd6018ca = 1;
     clientfield::register( "allplayers", "bountymoneytrail", 1, 1, "int", &function_44cacd61, 0, 1 );
     clientfield::register( "toplayer", "realtime_multiplay", 1, 1, "int", &function_a1b40aa4, 0, 1 );

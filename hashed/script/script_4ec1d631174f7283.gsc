@@ -158,16 +158,16 @@ function private function_b7f08e2d()
 // Size: 0xb4
 function private function_dca53f1f( player_index )
 {
-    var_9a149315 = ( 0, 0, 0 );
+    desired_location = ( 0, 0, 0 );
     
     if ( isdefined( level.var_8a8728c6 ) )
     {
         samantha = level.var_8a8728c6[ 0 ];
         var_b8e7e5da = ( -100, -12.5, 0 ) + ( -5, 0, 0 ) * player_index;
-        var_9a149315 = samantha.origin + rotatepointaroundaxis( var_b8e7e5da, ( 0, 0, 1 ), samantha.angles[ 1 ] );
+        desired_location = samantha.origin + rotatepointaroundaxis( var_b8e7e5da, ( 0, 0, 1 ), samantha.angles[ 1 ] );
     }
     
-    return var_9a149315;
+    return desired_location;
 }
 
 // Namespace namespace_3b9dec72/namespace_3b9dec72
@@ -240,8 +240,8 @@ function function_ddbe2dbb( distance )
     foreach ( npc in level.var_8a8728c6 )
     {
         var_a04c5e3b = anglestoforward( npc.angles );
-        npc.var_9a149315 = npc.origin + anglestoforward( npc.angles ) * distance;
-        npc setgoal( npc.var_9a149315 );
+        npc.desired_location = npc.origin + anglestoforward( npc.angles ) * distance;
+        npc setgoal( npc.desired_location );
     }
 }
 
@@ -294,8 +294,8 @@ function private function_2165e851()
                 if ( var_2e35e6c1 )
                 {
                     var_a04c5e3b = anglestoforward( npc.angles );
-                    npc.var_9a149315 = npc.origin + anglestoforward( npc.angles ) * 100;
-                    npc setgoal( npc.var_9a149315 );
+                    npc.desired_location = npc.origin + anglestoforward( npc.angles ) * 100;
+                    npc setgoal( npc.desired_location );
                     continue;
                 }
                 
@@ -308,8 +308,8 @@ function private function_2165e851()
             {
                 if ( isdefined( player.var_fa2d1151 ) )
                 {
-                    var_9a149315 = player function_dca53f1f( player_index );
-                    player.var_fa2d1151 moveto( var_9a149315, 0.15 );
+                    desired_location = player function_dca53f1f( player_index );
+                    player.var_fa2d1151 moveto( desired_location, 0.15 );
                 }
                 
                 player_index++;

@@ -167,8 +167,8 @@ function function_7374e868( weapon )
         
         if ( isdefined( weapon ) )
         {
-            var_cb48c3c9 = weapon.maxammo;
-            var_ef0714fa = weapon.startammo;
+            n_stock_max = weapon.maxammo;
+            n_stock_start = weapon.startammo;
             n_clip_size = weapon.clipsize;
             var_5916b9ab = 0;
             
@@ -181,11 +181,11 @@ function function_7374e868( weapon )
             
             if ( self hasperk( #"specialty_extraammo" ) )
             {
-                n_ammo_max = var_cb48c3c9;
+                n_ammo_max = n_stock_max;
             }
             else
             {
-                n_ammo_max = var_ef0714fa;
+                n_ammo_max = n_stock_start;
             }
             
             if ( weapon.isdualwield )

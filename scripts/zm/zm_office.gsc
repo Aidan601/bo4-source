@@ -275,7 +275,7 @@ function function_c8ce0a17( var_404e4288, var_8dd554ee )
 function function_e5086229( var_404e4288, var_8dd554ee )
 {
     level flag::set( #"disable_special_rounds" );
-    ai = zombie_dog_util::function_62db7b1c( 1 );
+    ai = zombie_dog_util::spawn_single_dog( 1 );
     
     if ( isdefined( ai ) )
     {

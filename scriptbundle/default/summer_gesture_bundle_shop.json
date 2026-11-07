@@ -1,6 +1,6 @@
 {
-    "detailsicon": "image#hash_240f7e1511d8549a",
-    "shopicon": "image#hash_315ef2f10a03c099",
+    "detailsicon": "image#loot05_ui_icon_blackmarket_itemdetail_bundle_late_summer",
+    "shopicon": "image#loot05_ui_icon_blackmarket_itemshop_bundle_late_summer",
     "nametext": "localized17#mpui/summer_gesture_bundle",
     "name": "summer_gesture_bundle_shop",
     "desctext": "localized17#mpui/summer_gesture_bundle_desc"

@@ -33,7 +33,7 @@ function function_2613aeec( enabled )
 {
     if ( enabled )
     {
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_drop_inventory", &on_use_perk );
         callback::add_callback( #"on_team_eliminated", &function_4ac25840 );
     }
@@ -43,7 +43,7 @@ function function_2613aeec( enabled )
 // Params 1
 // Checksum 0xed3aca5e, Offset: 0x1d8
 // Size: 0xd4
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     if ( isdefined( item.itementry ) && item.itementry.name === #"cu31_item" )
     {

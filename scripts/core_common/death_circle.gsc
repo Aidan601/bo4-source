@@ -311,9 +311,9 @@ function private function_a84cfbd0( var_b0b91d4, circle, nextcircle, oobtriggers
             continue;
         }
         
-        var_6eb6c7b5 = distance2dsquared( nextcircle.origin, origin );
+        nextdistsq = distance2dsquared( nextcircle.origin, origin );
         
-        if ( var_6eb6c7b5 > var_eccfdb0 || var_6eb6c7b5 < var_e3cedc58 )
+        if ( nextdistsq > var_eccfdb0 || nextdistsq < var_e3cedc58 )
         {
             continue;
         }
@@ -505,7 +505,7 @@ function start()
         level clientfield::set_world_uimodel( "hudItems.warzone.collapseIndex", i );
         circle = level.deathcircles[ i ];
         nextcircle = level.deathcircles[ i + 1 ];
-        level.deathcircle.var_46fc3d6e = circle;
+        level.deathcircle.prevcircle = circle;
         level.deathcircle.nextcircle = nextcircle;
         
         if ( isdefined( nextcircle ) )
@@ -972,7 +972,7 @@ function private cleanup_feedback( notifyhash )
 // Size: 0x3b4
 function function_ba02cfb5()
 {
-    var_46fc3d6e = level.deathcircle.var_46fc3d6e;
+    prevcircle = level.deathcircle.prevcircle;
     nextcircle = level.deathcircle.nextcircle;
     playerorigin = self function_664f77db();
     
@@ -982,13 +982,13 @@ function function_ba02cfb5()
         return;
     }
     
-    if ( distance2dsquared( playerorigin, var_46fc3d6e.origin ) >= var_46fc3d6e.radiussq )
+    if ( distance2dsquared( playerorigin, prevcircle.origin ) >= prevcircle.radiussq )
     {
         self clientfield::set_player_uimodel( "hudItems.distanceFromDeathCircle", 0 );
         return;
     }
     
-    nextcenter = isdefined( nextcircle ) ? nextcircle.origin : var_46fc3d6e.origin;
+    nextcenter = isdefined( nextcircle ) ? nextcircle.origin : prevcircle.origin;
     dir = vectornormalize( playerorigin - nextcenter );
     nextpoint = nextcenter;
     
@@ -997,7 +997,7 @@ function function_ba02cfb5()
         nextpoint = nextcenter + dir * nextcircle.radius;
     }
     
-    prevpoint = function_936b3f09( nextcenter, dir, var_46fc3d6e );
+    prevpoint = function_936b3f09( nextcenter, dir, prevcircle );
     totaldist = distance2d( prevpoint, nextpoint );
     playerdist = distance2d( prevpoint, playerorigin );
     self clientfield::set_player_uimodel( "hudItems.distanceFromDeathCircle", playerdist / totaldist );

@@ -25,7 +25,7 @@ function init_shared()
     clientfield::register( "toplayer", "vision_pulse_active", 1, 1, "int", &vision_pulse_changed, 0, 1 );
     clientfield::register( "toplayer", "toggle_postfx", 1, 1, "int", &toggle_postfx, 0, 1 );
     visionset_mgr::register_visionset_info( "vision_pulse", 1, 12, undefined, "vision_puls_bw" );
-    animation::add_notetrack_func( #"gadget_vision_pulse::vision_pulse_notetracks", &function_ab898b2d );
+    animation::add_notetrack_func( #"gadget_vision_pulse::vision_pulse_notetracks", &vision_pulse_notetracks );
 }
 
 // Namespace gadget_vision_pulse/gadget_vision_pulse
@@ -209,7 +209,7 @@ function function_43c942dc( local_client_num )
 // Params 1
 // Checksum 0xba044445, Offset: 0x960
 // Size: 0x414
-function function_ab898b2d( notifystring )
+function vision_pulse_notetracks( notifystring )
 {
     self endon( #"death" );
     localclientnum = self.localclientnum;

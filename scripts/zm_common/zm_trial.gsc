@@ -125,7 +125,7 @@ function function_a36e8c38( name )
 // Params 1
 // Checksum 0xfbc693aa, Offset: 0x6a0
 // Size: 0x156, Type: bool
-function function_48736df9( var_38f795c7 )
+function function_48736df9( str_challenge_name )
 {
     if ( isdefined( level.var_6d87ac05 ) && isdefined( level.var_6d87ac05.rounds ) )
     {
@@ -135,7 +135,7 @@ function function_48736df9( var_38f795c7 )
             {
                 foreach ( s_challenge in var_33c64592.challenges )
                 {
-                    if ( s_challenge.name === var_38f795c7 && var_33c64592.round === level.round_number )
+                    if ( s_challenge.name === str_challenge_name && var_33c64592.round === level.round_number )
                     {
                         return true;
                     }
@@ -489,13 +489,13 @@ function private reset_round()
     level lui::screen_fade_out( 0.5 );
     level notify( #"hash_2f976f64c9301e7f" );
     function_f93fbae5();
-    function_10801ad3();
+    save_player_state();
     level zm_game_module::zombie_goto_round( level.round_number );
     zm_trial_util::set_game_state( 0 );
     level zm_game_module::respawn_players();
     level thread function_64e7056f();
     waitframe( 1 );
-    function_bcd35efc();
+    restore_player_state();
     waitframe( 1 );
     
     foreach ( player in getplayers() )
@@ -608,7 +608,7 @@ function private function_47ed291b()
 // Params 0, eflags: 0x4
 // Checksum 0x4617dd3f, Offset: 0x1d80
 // Size: 0x18a
-function private function_10801ad3()
+function private save_player_state()
 {
     foreach ( player in getplayers() )
     {
@@ -667,7 +667,7 @@ function private function_23baf070( loadout )
 // Params 0, eflags: 0x4
 // Checksum 0x5a92657b, Offset: 0x2030
 // Size: 0x2fa
-function private function_bcd35efc()
+function private restore_player_state()
 {
     foreach ( player in getplayers() )
     {
@@ -729,10 +729,10 @@ function private function_4dbf2663()
     }
     
     column_count = tablelookupcolumncount( table );
-    var_e1617d73 = tablelookuprowcount( table );
+    row_count = tablelookuprowcount( table );
     row = 0;
     
-    while ( row < var_e1617d73 )
+    while ( row < row_count )
     {
         var_189d26ca = tablelookupcolumnforrow( table, row, 1 );
         assert( !isdefined( function_d02ffd( var_189d26ca ) ) );
@@ -744,7 +744,7 @@ function private function_4dbf2663()
             row++;
             round = tablelookupcolumnforrow( table, row, 0 );
             
-            if ( row < var_e1617d73 && round != 0 )
+            if ( row < row_count && round != 0 )
             {
                 round_index = round - 1;
                 
@@ -776,7 +776,7 @@ function private function_4dbf2663()
                 }
             }
         }
-        while ( row < var_e1617d73 && round != 0 );
+        while ( row < row_count && round != 0 );
     }
     
     level.var_6d87ac05 = level.var_c556bb2e[ 0 ];

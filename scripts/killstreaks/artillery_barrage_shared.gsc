@@ -550,17 +550,17 @@ function function_598dc586( plane, position, yaw, team, killstreak_id, fly_heigh
         for ( var_41c99c37 = 0; var_41c99c37 < bundle.var_b32c8349 && function_1f3792ee( plane ) ; var_41c99c37++ )
         {
             startpoint = plane.origin;
-            var_47b0cb83 = vectornormalize( var_dc88ed1e - startpoint );
+            firedir = vectornormalize( var_dc88ed1e - startpoint );
             var_aab835e2 = anglestoright( var_37bb8781 );
-            rightoffset = vectorscale( var_aab835e2, bundle.var_ed4e0bcc + util::function_a1281365( bundle.var_64e90954 ) );
-            leftoffset = vectorscale( var_aab835e2, bundle.var_ed4e0bcc * -1 + util::function_a1281365( bundle.var_64e90954 ) );
-            fire_right = vectorcross( ( 0, 0, 1 ), var_47b0cb83 );
+            rightoffset = vectorscale( var_aab835e2, bundle.var_ed4e0bcc + util::random_radius( bundle.var_64e90954 ) );
+            leftoffset = vectorscale( var_aab835e2, bundle.var_ed4e0bcc * -1 + util::random_radius( bundle.var_64e90954 ) );
+            fire_right = vectorcross( ( 0, 0, 1 ), firedir );
             var_71d1c0cb = plane gettagorigin( "tag_gunner_flash2" );
             var_8cdd6f66 = plane gettagorigin( "tag_gunner_flash1" );
             playfxontag( bundle.var_cf763c03, plane, "tag_gunner_flash2" );
             playfxontag( bundle.var_cf763c03, plane, "tag_gunner_flash1" );
-            var_5bbbb605 = targetpoint + initialoffset + rightoffset + vectorscale( var_c6aa53c, var_41c99c37 * bundle.var_f936eadc + util::function_a1281365( bundle.var_178f3ad6 ) );
-            var_3fddb9e8 = targetpoint + initialoffset + leftoffset + vectorscale( var_c6aa53c, var_41c99c37 * bundle.var_f936eadc + util::function_a1281365( bundle.var_178f3ad6 ) );
+            var_5bbbb605 = targetpoint + initialoffset + rightoffset + vectorscale( var_c6aa53c, var_41c99c37 * bundle.var_f936eadc + util::random_radius( bundle.var_178f3ad6 ) );
+            var_3fddb9e8 = targetpoint + initialoffset + leftoffset + vectorscale( var_c6aa53c, var_41c99c37 * bundle.var_f936eadc + util::random_radius( bundle.var_178f3ad6 ) );
             var_3e44dbbe = 1;
             
             if ( var_3e44dbbe )

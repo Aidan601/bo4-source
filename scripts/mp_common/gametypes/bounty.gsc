@@ -314,9 +314,9 @@ function private onstartgametype()
     
     thread function_17debb33();
     level thread function_8cac4c76();
-    var_b1f5f155 = game.roundsplayed + 1;
+    curr_round = game.roundsplayed + 1;
     
-    if ( var_b1f5f155 == game.var_b40d8319 )
+    if ( curr_round == game.var_b40d8319 )
     {
         game.var_b40d8319 += getgametypesetting( #"hash_7e30d3849ca91b60" );
         thread bountydrop();
@@ -851,7 +851,7 @@ function private onscoreevent( params )
     if ( isdefined( money ) && money > 0 && !( params.victim === self ) )
     {
         self givemoney( money, "moneychange_scoreevent" );
-        self playsoundtoplayer( #"hash_767e2476f594e0f3", self );
+        self playsoundtoplayer( #"uin_bh_cash_earn", self );
     }
 }
 
@@ -891,7 +891,7 @@ function private onplayerdamage( params )
         }
         
         player givemoney( var_80ed4b57, "moneychange_playerdamage" );
-        player playsoundtoplayer( #"hash_767e2476f594e0f3", player );
+        player playsoundtoplayer( #"uin_bh_cash_earn", player );
     }
 }
 
@@ -1106,7 +1106,7 @@ function private function_b3faa437()
     bagomoney gameobjects::set_visible_team( #"any" );
     bagomoney gameobjects::set_use_time( level.var_8cfdca96 );
     bagomoney gameobjects::set_objective_entity( bagomoney );
-    bagomoney gameobjects::function_63f73e1d( #"hash_510667a4ac8024c3" );
+    bagomoney gameobjects::function_63f73e1d( #"evt_bh_money_bag" );
     bagomoney.objectiveonself = 1;
     bagomoney.allowweapons = 1;
     bagomoney.onpickup = &function_cd23eebc;
@@ -1224,7 +1224,7 @@ function private function_62d627a0( player )
     level thread popups::displayteammessagetoall( #"hash_5e8cd98e9533c77d", player );
     player clientfield::set_player_uimodel( "hudItems.BountyCarryingBag", 0 );
     player clientfield::set( "bountymoneytrail", 0 );
-    self playsound( #"hash_6f33c21d562757a1" );
+    self playsound( #"evt_bh_money_bag_drop" );
 }
 
 // Namespace bounty/bounty
@@ -1993,7 +1993,7 @@ function function_37e1bbbf( player )
     useobj = self;
     useobj notify( #"bounty_deposit_made" );
     useobj function_572ce431();
-    player playsoundtoplayer( #"hash_19f756f885db9bb8", player );
+    player playsoundtoplayer( #"evt_bh_deposit_success", player );
     [[ level.var_37d62931 ]]( player, 1 );
     player.pers[ #"objscore" ]++;
     player.objscore = player.pers[ #"objscore" ];
@@ -2182,7 +2182,7 @@ function private function_d4a84cde( team, player, result )
             player givestartammo( weapon );
         }
         
-        player playsoundtoplayer( #"hash_19f756f885db9bb8", player );
+        player playsoundtoplayer( #"evt_bh_deposit_success", player );
         self gameobjects::hide_waypoint( player );
         self.trigger setinvisibletoplayer( player );
         

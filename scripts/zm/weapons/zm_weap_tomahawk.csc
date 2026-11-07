@@ -173,10 +173,10 @@ function tomahawk_trail_fx( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0x1cc
 function tomahawk_impact_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    if ( isdefined( self.var_d634930c ) )
+    if ( isdefined( self.n_impact_fx ) )
     {
-        deletefx( localclientnum, self.var_d634930c, 1 );
-        self.var_d634930c = undefined;
+        deletefx( localclientnum, self.n_impact_fx, 1 );
+        self.n_impact_fx = undefined;
     }
     
     str_tag = "J_Head";
@@ -190,14 +190,14 @@ function tomahawk_impact_fx( localclientnum, oldval, newval, bnewent, binitialsn
     
     if ( newval == 1 )
     {
-        self.var_d634930c = util::playfxontag( localclientnum, level._effect[ #"tomahawk_impact" ], self, str_tag );
+        self.n_impact_fx = util::playfxontag( localclientnum, level._effect[ #"tomahawk_impact" ], self, str_tag );
         util::playfxontag( localclientnum, level._effect[ #"tomahawk_fire_dot" ], self, var_a4c13d2 );
         return;
     }
     
     if ( newval == 2 )
     {
-        self.var_d634930c = util::playfxontag( localclientnum, level._effect[ #"tomahawk_impact_ug" ], self, str_tag );
+        self.n_impact_fx = util::playfxontag( localclientnum, level._effect[ #"tomahawk_impact_ug" ], self, str_tag );
         util::playfxontag( localclientnum, level._effect[ #"tomahawk_fire_dot" ], self, var_a4c13d2 );
     }
 }
@@ -208,22 +208,22 @@ function tomahawk_impact_fx( localclientnum, oldval, newval, bnewent, binitialsn
 // Size: 0x134
 function tomahawk_charge_up_fx( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    if ( isdefined( self.var_5187b05b ) )
+    if ( isdefined( self.n_charge_fx ) )
     {
-        deletefx( localclientnum, self.var_5187b05b, 1 );
-        self.var_5187b05b = undefined;
+        deletefx( localclientnum, self.n_charge_fx, 1 );
+        self.n_charge_fx = undefined;
     }
     
     if ( newval == 1 )
     {
-        self.var_5187b05b = util::playfxontag( localclientnum, level._effect[ #"tomahawk_charge_up" ], self, "tag_origin" );
+        self.n_charge_fx = util::playfxontag( localclientnum, level._effect[ #"tomahawk_charge_up" ], self, "tag_origin" );
         self thread function_eea02302();
         return;
     }
     
     if ( newval == 2 )
     {
-        self.var_5187b05b = util::playfxontag( localclientnum, level._effect[ #"tomahawk_charge_up_ug" ], self, "tag_origin" );
+        self.n_charge_fx = util::playfxontag( localclientnum, level._effect[ #"tomahawk_charge_up_ug" ], self, "tag_origin" );
         self thread function_eea02302();
     }
 }

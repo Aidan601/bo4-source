@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_36dc40ebe650fded",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_01_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_759775d85f98191c",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_01_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -90,7 +90,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2a0395305f69dd78",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_02_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -119,7 +119,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_ea21a3188b12c1f",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_02_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -175,7 +175,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_477fab61029c60ff",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_03_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -204,7 +204,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_179e4b92f6f1bfb6",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_03_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -260,7 +260,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_19a199cf9b4ffbd2",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_04_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -289,7 +289,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5b700a78cfac5791",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_04_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -345,7 +345,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_775505e081960c69",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_05_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -374,7 +374,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_e3c387cf2b746f0",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_05_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -430,7 +430,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_21b36afb44a984a4",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_06_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -459,7 +459,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_106d60e242278eb3",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_06_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -515,7 +515,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4fb4dde8650e4bbb",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_07_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -544,7 +544,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6b3d98f97d025cfa",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_07_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -600,7 +600,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4c7eb3b9e5adac8e",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_08_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -629,7 +629,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_70c55cc3deed685",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_08_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -685,7 +685,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2fd81a51257f66c5",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_09_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -714,7 +714,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_159276d776a05af4",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_09_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -770,7 +770,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6187a429177c790b",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_10_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -799,7 +799,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3e6026e451d7a94a",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_10_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -855,7 +855,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4a9966dc69199b34",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_11_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -884,7 +884,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_38ac30e519de2f83",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_11_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -940,7 +940,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5e17eb06afd42579",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_12_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -969,7 +969,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d1c9dbac2b13e40",
+                            "anim": "anim#p8_fxanim_mp_cosmo_pigeon_12_anim",
                             "entrytype": "anim"
                         }
                     ],

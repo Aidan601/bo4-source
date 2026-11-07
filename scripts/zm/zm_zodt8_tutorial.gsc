@@ -376,7 +376,7 @@ function function_57bf8455()
         {
             if ( !isdefined( self.var_21c47e5c ) )
             {
-                level thread function_68da8e33( #"hash_3d2e3c2f451c8e2a" );
+                level thread function_68da8e33( #"vox_beginner_ammo_out_narr_0" );
                 self.var_21c47e5c = 1;
             }
             
@@ -776,7 +776,7 @@ function tutorial()
     self thread lui::screen_fade_out( 3 );
     clientfield::set_world_uimodel( "hudItems.ztut.showLocation", 0 );
     wait 1;
-    function_cc60408f( array( #"hash_48af8239068e44f2", #"vox_advance_end_narr_0" ), "end_game" );
+    function_cc60408f( array( #"vox_advance_blight_kill_narr_0", #"vox_advance_end_narr_0" ), "end_game" );
     music::setmusicstate( "zodt8_death" );
     level.tutorial_complete = 1;
     level notify( #"end_game" );
@@ -883,7 +883,7 @@ function function_5bc503b1()
     earthquake( 0.2, 0.4, self.origin, 500 );
     m_door playsound( #"amb_door_open_creaky" );
     m_clip rotateyaw( 97, 1, 0, 0.5 );
-    level.var_70fed833 = 1;
+    level.secret_found = 1;
 }
 
 // Namespace zm_zodt8_tutorial/zm_zodt8_tutorial
@@ -922,7 +922,7 @@ function function_2517cb55()
 {
     function_269d9f82( "blocker_shoot_zombie" );
     self.reset_score = self.score;
-    function_b12c3aec();
+    disable_doorbuys();
     util::streamer_wait();
     level flag::set( "tutorial_intro_screen_over" );
     level flag::wait_till( "gameplay_started" );
@@ -1000,7 +1000,7 @@ function wallbuy()
     level thread function_68da8e33( #"vox_beginner_switch_narr_0" );
     self function_3e1e39f8( #"hash_b7646fef6461730", "switch_completed", &function_3a885b9d, 9999 );
     level flag::wait_till_clear( "tutorial_vo_playing" );
-    function_68da8e33( #"hash_5159cbaea0605f74", 1 );
+    function_68da8e33( #"vox_beginner_round_start_narr_0", 1 );
     function_269d9f82( "blocker_pre_wall_buy", 0 );
 }
 
@@ -1053,7 +1053,7 @@ function doorbuy()
     function_1cc39f51( "state_rooms_to_lower_stairs_door", "p8_kit_zod_din_05_door_42_right_stained_wood_02", 1 );
     function_68da8e33( #"vox_beginner_door_narr_0", 0.3 );
     self thread function_261ed63c( #"vox_beginner_door_nag_narr_0", 8, "door_completed" );
-    function_b12c3aec( 0 );
+    disable_doorbuys( 0 );
     level waittill( #"door_opened", #"junk purchased" );
     self notify( #"door_completed" );
     s_objective function_384bed55( 0 );
@@ -1080,7 +1080,7 @@ function rounds()
     function_269d9f82( "blocker_pre_repair" );
     wait 2;
     function_edf32a3b( 2 );
-    level thread function_68da8e33( #"hash_2b436347f157eca9" );
+    level thread function_68da8e33( #"vox_beginner_round_expl_narr_0" );
 }
 
 // Namespace zm_zodt8_tutorial/zm_zodt8_tutorial
@@ -1215,7 +1215,7 @@ function function_88b4ae49()
     wait 2;
     level thread function_68da8e33( "vox_beginner_end_narr_1" );
     
-    if ( isdefined( level.var_70fed833 ) )
+    if ( isdefined( level.secret_found ) )
     {
         self function_fac53b63( array( "tutorial_zm_spawner_playerwilldie_1", "tutorial_zm_spawner_playerwilldie_2", "tutorial_zm_spawner_playerwilldie_3", "tutorial_zm_spawner_playerwilldie_4", "tutorial_zm_spawner_playerwilldie_5", "tutorial_zm_spawner_playerwilldie_6" ) );
         wait 3;
@@ -1271,7 +1271,7 @@ function function_bfd3a7b1()
     self perks();
     self equipment();
     self bot();
-    self function_2d18e4c9();
+    self revive_bot();
     self catalyst();
     self cooperative();
     self crafting();
@@ -1315,7 +1315,7 @@ function function_bfd3a7b1()
 // Size: 0x1f4
 function perks()
 {
-    function_b12c3aec();
+    disable_doorbuys();
     self.is_drinking = 1;
     function_f1376337( 1 );
     function_cc60408f( array( #"vox_inter_perks_narr_0", #"vox_inter_perks_narr_1" ), "vo_done" );
@@ -1330,7 +1330,7 @@ function perks()
     s_objective function_384bed55( 0 );
     wait 3;
     function_cc60408f( array( #"vox_inter_perks_narr_2", #"vox_inter_door_narr_0" ), "vo_done" );
-    function_b12c3aec( 0 );
+    disable_doorbuys( 0 );
 }
 
 // Namespace zm_zodt8_tutorial/zm_zodt8_tutorial
@@ -1557,7 +1557,7 @@ function function_c0a37283()
 // Params 0
 // Checksum 0xe0cfd266, Offset: 0x7118
 // Size: 0xfc
-function function_2d18e4c9()
+function revive_bot()
 {
     level thread function_68da8e33( #"vox_inter_nuke_use_narr_0", 4 );
     level.tutorialbot waittill( #"stop_revive_trigger" );
@@ -1606,7 +1606,7 @@ function cooperative()
     wait 1;
     level thread function_68da8e33( #"vox_inter_teamwork_narr_1" );
     level.tutorialbot set_bot_goal( "tutorial_bot_shield_part" );
-    function_b12c3aec();
+    disable_doorbuys();
 }
 
 // Namespace zm_zodt8_tutorial/zm_zodt8_tutorial
@@ -1858,7 +1858,7 @@ function special_weapons()
     function_cf5f5964( "tutorial_zm_spawner_specialweapons_charge" );
     music::setmusicstate( "tutorial_advanced_start" );
     self lui::screen_fade_in( 1 );
-    level thread function_68da8e33( #"hash_31b14ca1baedfeb7" );
+    level thread function_68da8e33( #"vox_advance_special_weapon_narr_0" );
     
     if ( self getcurrentweapon() != getweapon( "hero_hammer_lv1" ) )
     {
@@ -2067,7 +2067,7 @@ function private function_86ff864( e_player, player_has_weapon )
 // Params 1
 // Checksum 0xf6e95f4a, Offset: 0x8eb0
 // Size: 0x280
-function function_b12c3aec( b_disable = 1 )
+function disable_doorbuys( b_disable = 1 )
 {
     if ( b_disable )
     {

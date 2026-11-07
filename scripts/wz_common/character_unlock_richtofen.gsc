@@ -37,7 +37,7 @@ function function_2613aeec( enabled )
 {
     if ( enabled )
     {
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_team_eliminated", &function_4ac25840 );
         spawn_struct = struct::get( "cu17_trigger_struct", "targetname" );
         
@@ -89,7 +89,7 @@ function function_80635b6f()
 // Params 1
 // Checksum 0xa0ac46a7, Offset: 0x4e0
 // Size: 0x24c
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     

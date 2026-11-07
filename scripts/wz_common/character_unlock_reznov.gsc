@@ -38,7 +38,7 @@ function function_2613aeec( enabled )
     if ( enabled )
     {
         callback::on_player_killed( &on_player_killed );
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_team_eliminated", &function_4ac25840 );
         level thread function_4f4cf89e();
     }
@@ -147,7 +147,7 @@ function on_player_killed()
 // Params 1
 // Checksum 0x91567650, Offset: 0x518
 // Size: 0xdc
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     

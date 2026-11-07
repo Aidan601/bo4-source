@@ -2000,7 +2000,7 @@ function function_d2107b( actionparams )
     
     foreach ( point in var_6fa334a7 )
     {
-        if ( function_96c81b85( var_7607a546, point.origin ) )
+        if ( tpointhashighchancetoseeposition( var_7607a546, point.origin ) )
         {
             var_4102ab31 = vectornormalize( ( point.origin - self.origin ) * ( 1, 1, 0 ) );
             dot = vectordot( var_4102ab31, var_ff975a6 );

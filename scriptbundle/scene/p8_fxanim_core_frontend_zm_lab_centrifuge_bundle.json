@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_21021d42848b9f9c",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_show_blue_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_53bef4494c8bd6e1",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_spin_blue_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76910dac60cba6b1",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_show_green_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -92,7 +92,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1800a32400803f2",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_spin_green_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -121,7 +121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2dc6fe6affe1609",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_show_grey_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -150,7 +150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_45c6927177e55500",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_spin_grey_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -179,7 +179,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_160872c9224e717e",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_show_orange_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -208,7 +208,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1c9bcd41ef78a427",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_spin_orange_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -237,7 +237,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_302c30f246d6fc0e",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_show_purple_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -266,7 +266,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5e81560f1e1fd3f7",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_spin_purple_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -295,7 +295,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_51d92644e412da27",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_show_white_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -324,7 +324,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2fe44d2271ecd450",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_spin_white_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -353,7 +353,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_72fe554fe460f60a",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_show_gold_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -382,7 +382,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6e95533e49e43e0f",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_centrifuge_spin_gold_anim",
                             "entrytype": "anim"
                         }
                     ],

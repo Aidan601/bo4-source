@@ -4,9 +4,9 @@
     "contracttitle": "localized17#menu/camo_loot_party_rock",
     "name": "loot_contract_spinal_trap",
     "hash_572bca0762ce7b9c:hash_69b5a265": "core_frontend_smg_handling_party_rock",
-    "hash_5d63fbb2bf3f4957:hash_4b258f2c": "image#hash_2f384027de380f64",
+    "hash_5d63fbb2bf3f4957:hash_4b258f2c": "image#loot03_ui_icon_blackmarket_contracts_saug_partyrock_tall",
     "contractdescription": "localized17#menu/contract_reactive_camo_desc",
     "hash_69014841451a5872:hash_f15e270f": "#white",
-    "contracticoninventory": "image#hash_2f384027de380f64",
+    "contracticoninventory": "image#loot03_ui_icon_blackmarket_contracts_saug_partyrock_tall",
     "contentsdetaileddesc": "localized17#hash_3dab7c3f83b698e0"
 }

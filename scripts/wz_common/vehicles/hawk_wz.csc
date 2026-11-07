@@ -372,7 +372,7 @@ function private function_76b4c572( localclientnum )
     {
         target_info.var_aaf744fe = target_info.state === 1;
         target_info.state = 0;
-        target_info.var_fb579b3e = target_info.visible;
+        target_info.was_visible = target_info.visible;
         target_info.visible = 0;
     }
 }
@@ -392,7 +392,7 @@ function private function_9ace0fb6( localclientnum )
         var_e5cf40eb[ var_4ef4e267 ] = 1;
         info = self.var_704e7b07[ var_4ef4e267 ];
         
-        if ( !info.var_fb579b3e )
+        if ( !info.was_visible )
         {
             info.first_visible = time;
         }
@@ -833,8 +833,8 @@ function private function_8487fabe( localclientnum )
         return;
     }
     
-    var_82bf9f7b = self.owner getplayerangles();
-    forward = anglestoforward( var_82bf9f7b );
+    look_angles = self.owner getplayerangles();
+    forward = anglestoforward( look_angles );
     bundle = level.hawk_settings.bundle;
     var_e4f883c1 = bundle.tag_distance * bundle.tag_distance;
     enemies = self function_2d90a835( localclientnum, bundle.tag_distance );
@@ -959,7 +959,7 @@ function private function_8487fabe( localclientnum )
 // Size: 0x14a
 function private function_bba5f8f7()
 {
-    var_ef7046e6 = self.origin;
+    sort_origin = self.origin;
     targets = [];
     var_a980942f = function_364150fd();
     
@@ -969,12 +969,12 @@ function private function_bba5f8f7()
         
         if ( hawk.owner === self )
         {
-            var_ef7046e6 = hawk.origin;
+            sort_origin = hawk.origin;
         }
     }
     
     function_1eaaceab( targets );
     bundle = level.hawk_settings.bundle;
-    return arraysortclosest( targets, var_ef7046e6, bundle.tag_max_targets, 0, bundle.tag_distance );
+    return arraysortclosest( targets, sort_origin, bundle.tag_max_targets, 0, bundle.tag_distance );
 }
 

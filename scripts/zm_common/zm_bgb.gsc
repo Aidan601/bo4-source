@@ -309,9 +309,9 @@ function private bgb_player_monitor()
         waitresult = level waittill( #"between_round_over", #"restart_round" );
         str_return = waitresult._notify;
         
-        if ( isdefined( level.var_b77403b9 ) )
+        if ( isdefined( level.zm_bgb_player_monitor_validation ) )
         {
-            if ( !( isdefined( self [[ level.var_b77403b9 ]]() ) && self [[ level.var_b77403b9 ]]() ) )
+            if ( !( isdefined( self [[ level.zm_bgb_player_monitor_validation ]]() ) && self [[ level.zm_bgb_player_monitor_validation ]]() ) )
             {
                 continue;
             }
@@ -513,7 +513,7 @@ function sub_consumable_bgb( bgb )
         return;
     }
     
-    if ( isdefined( level.bgb[ bgb ].var_f8d9ac8c ) && ![[ level.bgb[ bgb ].var_f8d9ac8c ]]() )
+    if ( isdefined( level.bgb[ bgb ].consumption_override_func ) && ![[ level.bgb[ bgb ].consumption_override_func ]]() )
     {
         return;
     }
@@ -832,10 +832,10 @@ function private bgb_limit_monitor()
             {
                 if ( i != level.bgb[ self.bgb ].limit )
                 {
-                    self playsoundtoplayer( #"hash_7bb31f4a25cf34a", self );
+                    self playsoundtoplayer( #"zmb_elixir_common_decrement", self );
                 }
                 
-                level.bgb[ self.bgb ].var_dbe7d224 = i;
+                level.bgb[ self.bgb ].n_remaining_uses = i;
                 
                 if ( level.bgb[ self.bgb ].var_57eb02e )
                 {
@@ -862,7 +862,7 @@ function private bgb_limit_monitor()
             
             if ( isdefined( self.bgb ) && isdefined( level.bgb[ self.bgb ] ) )
             {
-                level.bgb[ self.bgb ].var_dbe7d224 = 0;
+                level.bgb[ self.bgb ].n_remaining_uses = 0;
             }
             
             self playsoundtoplayer( #"zmb_elixir_common_deactivate", self );
@@ -898,7 +898,7 @@ function private bgb_limit_monitor()
             {
                 if ( i != 0 )
                 {
-                    self playsoundtoplayer( #"hash_7bb31f4a25cf34a", self );
+                    self playsoundtoplayer( #"zmb_elixir_common_decrement", self );
                 }
                 
                 self set_timer( count - i, count );
@@ -999,7 +999,7 @@ function private function_1fdcef80( bgb )
     
     if ( isdefined( level.bgb[ bgb ].is_cancellable ) && level.bgb[ bgb ].is_cancellable )
     {
-        function_9c8e12d1( 6 );
+        enable_action_slot( 6 );
     }
     else
     {
@@ -1014,7 +1014,7 @@ function private function_1fdcef80( bgb )
 // Params 1
 // Checksum 0x4cd2cdec, Offset: 0x30e8
 // Size: 0x4c
-function function_9c8e12d1( n_value )
+function enable_action_slot( n_value )
 {
     self setactionslot( 1, "bgb" );
     self clientfield::set_player_uimodel( "zmhud.bgb_activations_remaining", n_value );
@@ -1024,7 +1024,7 @@ function function_9c8e12d1( n_value )
 // Params 1
 // Checksum 0x1d8a74a7, Offset: 0x3140
 // Size: 0x2c
-function function_f37655df( n_value )
+function disable_action_slot( n_value )
 {
     self clientfield::set_player_uimodel( "zmhud.bgb_activations_remaining", 0 );
 }
@@ -1172,7 +1172,7 @@ function private calc_remaining_duration_lerp( start_time, end_time )
 // Params 3, eflags: 0x4
 // Checksum 0x7f524cec, Offset: 0x3538
 // Size: 0x122
-function private function_af43111c( var_f205d85d, percent, var_5f12e334 = 0 )
+function private function_af43111c( orig_percent, percent, var_5f12e334 = 0 )
 {
     self endon( #"disconnect", #"hash_6ae783a3051b411b" );
     
@@ -1183,18 +1183,18 @@ function private function_af43111c( var_f205d85d, percent, var_5f12e334 = 0 )
     
     start_time = gettime();
     end_time = start_time + 1000;
-    var_2cd46f25 = var_f205d85d;
+    curr_percent = orig_percent;
     
-    while ( var_2cd46f25 > percent )
+    while ( curr_percent > percent )
     {
-        var_2cd46f25 = lerpfloat( percent, var_f205d85d, calc_remaining_duration_lerp( start_time, end_time ) );
-        self clientfield::set_player_uimodel( "zmhud.bgb_timer", var_2cd46f25 );
+        curr_percent = lerpfloat( percent, orig_percent, calc_remaining_duration_lerp( start_time, end_time ) );
+        self clientfield::set_player_uimodel( "zmhud.bgb_timer", curr_percent );
         waitframe( 1 );
     }
     
     if ( var_5f12e334 )
     {
-        self.var_76c47001 = var_2cd46f25;
+        self.var_76c47001 = curr_percent;
         self.var_4b0fb2fb = undefined;
     }
 }
@@ -1206,11 +1206,11 @@ function private function_af43111c( var_f205d85d, percent, var_5f12e334 = 0 )
 function private bgb_set_timer_clientfield( percent, var_5f12e334 = 0 )
 {
     self notify( #"hash_6ae783a3051b411b" );
-    var_f205d85d = self clientfield::get_player_uimodel( "zmhud.bgb_timer" );
+    orig_percent = self clientfield::get_player_uimodel( "zmhud.bgb_timer" );
     
-    if ( percent < var_f205d85d && 0.1 <= var_f205d85d - percent )
+    if ( percent < orig_percent && 0.1 <= orig_percent - percent )
     {
-        self thread function_af43111c( var_f205d85d, percent, var_5f12e334 );
+        self thread function_af43111c( orig_percent, percent, var_5f12e334 );
         return;
     }
     
@@ -1408,10 +1408,10 @@ function function_8a5d8cfb( name, var_f1f46d6b )
 // Params 2
 // Checksum 0x9ffe911c, Offset: 0x4270
 // Size: 0x72
-function function_be42abb0( name, var_f8d9ac8c )
+function register_consumption_override( name, consumption_override_func )
 {
     assert( isdefined( level.bgb[ name ] ), "<dev string:x604>" + name + "<dev string:x4c0>" );
-    level.bgb[ name ].var_f8d9ac8c = var_f8d9ac8c;
+    level.bgb[ name ].consumption_override_func = consumption_override_func;
 }
 
 // Namespace bgb/zm_bgb
@@ -1823,7 +1823,7 @@ function function_3fa57f3f()
 // Params 3
 // Checksum 0x5676b58f, Offset: 0x5620
 // Size: 0x1fa
-function function_f51e3503( n_max_distance, var_5250f4f6, var_8bc18989 )
+function player_proximity_watcher( n_max_distance, var_5250f4f6, var_8bc18989 )
 {
     self endon( #"disconnect", #"bled_out", #"bgb_update" );
     self.var_9c42f3fe = [];
@@ -1872,12 +1872,12 @@ function function_f51e3503( n_max_distance, var_5250f4f6, var_8bc18989 )
 // Params 3, eflags: 0x4
 // Checksum 0x71d6604, Offset: 0x5828
 // Size: 0x7c, Type: bool
-function private function_b70b2809( n_distance, var_7b235bec, var_f8084a8 )
+function private function_b70b2809( n_distance, e_object_1, var_f8084a8 )
 {
-    var_8c1c6c8d = n_distance * n_distance;
-    var_a91ae6d4 = distancesquared( var_7b235bec.origin, var_f8084a8.origin );
+    n_max_distance_squared = n_distance * n_distance;
+    n_current_distance_squared = distancesquared( e_object_1.origin, var_f8084a8.origin );
     
-    if ( var_a91ae6d4 <= var_8c1c6c8d )
+    if ( n_current_distance_squared <= n_max_distance_squared )
     {
         return true;
     }
@@ -1889,7 +1889,7 @@ function private function_b70b2809( n_distance, var_7b235bec, var_f8084a8 )
 // Params 0
 // Checksum 0x63a37a12, Offset: 0x58b0
 // Size: 0x24
-function function_b57e693f()
+function deny_ui()
 {
     self clientfield::increment_uimodel( "zmhud.bgb_invalid_use" );
 }

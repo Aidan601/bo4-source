@@ -156,7 +156,7 @@ function on_turret_placed( params )
         return;
     }
     
-    turret.var_b79a8ac7 = { #var_f019ea1a:500, #slots:slots };
+    turret.var_b79a8ac7 = { #attraction_radius:500, #slots:slots };
     turret.var_ba721a2c = 20;
     level.attackables[ level.attackables.size ] = turret;
 }
@@ -2772,9 +2772,9 @@ function private function_36151fe3()
             return;
         }
         
-        if ( self.isonnavmesh && isdefined( self.enemy_override.var_acdc8d71 ) && !self isingoal( self.enemy_override.var_acdc8d71 ) )
+        if ( self.isonnavmesh && isdefined( self.enemy_override.closest_point_on_navmesh ) && !self isingoal( self.enemy_override.closest_point_on_navmesh ) )
         {
-            self.var_80780af2 = self.enemy_override.var_acdc8d71;
+            self.var_80780af2 = self.enemy_override.closest_point_on_navmesh;
             return;
         }
         
@@ -2840,7 +2840,7 @@ function private function_36151fe3()
             self.var_ef59b90 = 1;
         }
     }
-    else if ( self.isonnavmesh && isdefined( self.attackable ) && isdefined( self.var_b238ef38 ) && ( self.var_b238ef38.slot.on_navmesh || isdefined( self.var_b238ef38.slot.var_acdc8d71 ) && !self isingoal( self.var_b238ef38.slot.var_acdc8d71 ) ) )
+    else if ( self.isonnavmesh && isdefined( self.attackable ) && isdefined( self.var_b238ef38 ) && ( self.var_b238ef38.slot.on_navmesh || isdefined( self.var_b238ef38.slot.closest_point_on_navmesh ) && !self isingoal( self.var_b238ef38.slot.closest_point_on_navmesh ) ) )
     {
         if ( !isinarray( level.var_8de0b84e, self getentitynumber() ) )
         {
@@ -2859,10 +2859,10 @@ function private function_36151fe3()
             var_bc4c0533[ var_bc4c0533.size ] = self.var_b238ef38.position;
             var_d01c2da3 = self.var_b238ef38.position;
         }
-        else if ( isdefined( self.var_b238ef38.slot.var_acdc8d71 ) )
+        else if ( isdefined( self.var_b238ef38.slot.closest_point_on_navmesh ) )
         {
-            var_bc4c0533[ var_bc4c0533.size ] = self.var_b238ef38.slot.var_acdc8d71;
-            var_d01c2da3 = self.var_b238ef38.slot.var_acdc8d71;
+            var_bc4c0533[ var_bc4c0533.size ] = self.var_b238ef38.slot.closest_point_on_navmesh;
+            var_d01c2da3 = self.var_b238ef38.slot.closest_point_on_navmesh;
         }
         
         if ( var_bc4c0533.size > 1 )

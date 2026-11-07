@@ -1478,8 +1478,8 @@ function private function_124486ee( delay )
     var_892397fd = self;
     missile_owner = var_892397fd.var_52334e8c;
     blast_radius = 128;
-    var_83f35abe = 45;
-    var_6927cfa0 = 40;
+    blast_inner_damage = 45;
+    blast_outer_damage = 40;
     var_c45ef84c = 60 * 60;
     
     if ( delay > 0 )
@@ -1498,7 +1498,7 @@ function private function_124486ee( delay )
         explosion_point = var_892397fd.origin;
         function_44e3e0d1( explosion_point + ( 0, 0, 18 ) );
         util::wait_network_frame();
-        radiusdamage( explosion_point + ( 0, 0, 18 ), blast_radius, var_83f35abe, var_6927cfa0, e_blightfather, "MOD_UNKNOWN", w_weapon );
+        radiusdamage( explosion_point + ( 0, 0, 18 ), blast_radius, blast_inner_damage, blast_outer_damage, e_blightfather, "MOD_UNKNOWN", w_weapon );
         
         if ( isdefined( var_892397fd ) )
         {

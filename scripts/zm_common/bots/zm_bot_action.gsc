@@ -115,7 +115,7 @@ function throw_chakram( actionparams )
         self bot_action::function_8a2b82ad( actionparams );
         self bot_action::function_e69a1e2e( actionparams );
         
-        if ( self bot_action::function_faa6a59d( actionparams, dualwieldweapon.maxdamagerange ) && self bot_action::function_31a76186( actionparams ) )
+        if ( self bot_action::is_target_in_range( actionparams, dualwieldweapon.maxdamagerange ) && self bot_action::function_31a76186( actionparams ) )
         {
             self bottapbutton( 24 );
         }

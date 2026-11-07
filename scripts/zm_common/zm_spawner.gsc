@@ -357,7 +357,7 @@ function zombie_damage_failsafe()
         
         e_enemy = self.enemy;
         v_starting_origin = self.enemy.origin;
-        var_f2ca854b = self.enemy.health;
+        n_starting_health = self.enemy.health;
         var_65a69eba = undefined;
         var_f3a1b629 = 0;
         
@@ -385,7 +385,7 @@ function zombie_damage_failsafe()
                 break;
             }
             
-            if ( self.enemy.health < var_f2ca854b )
+            if ( self.enemy.health < n_starting_health )
             {
                 break;
             }

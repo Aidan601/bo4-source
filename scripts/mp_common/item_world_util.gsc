@@ -80,7 +80,7 @@ function function_6061a15( var_f4b807cb, maxdist, origin, angles, forward, var_4
     var_404fbede = 0;
     var_ba6bb2bd = undefined;
     var_9fd8216d = -1;
-    var_75f6d739 = anglestoforward( ( 0, angles[ 1 ], 0 ) );
+    projectedforward = anglestoforward( ( 0, angles[ 1 ], 0 ) );
     var_66347f1f = 115 * 115;
     var_6b35a0b8 = 24 * 24;
     
@@ -120,7 +120,7 @@ function function_6061a15( var_f4b807cb, maxdist, origin, angles, forward, var_4
                 break;
             }
             
-            var_1777205e = vectordot( var_75f6d739, vectornormalize( ( toitem[ 0 ], toitem[ 1 ], 0 ) ) );
+            var_1777205e = vectordot( projectedforward, vectornormalize( ( toitem[ 0 ], toitem[ 1 ], 0 ) ) );
             var_c5722fe1 = 0;
             
             if ( var_4bd72bfe )
@@ -179,7 +179,7 @@ function function_6061a15( var_f4b807cb, maxdist, origin, angles, forward, var_4
             break;
         }
         
-        var_1777205e = vectordot( var_75f6d739, vectornormalize( ( toitem[ 0 ], toitem[ 1 ], 0 ) ) );
+        var_1777205e = vectordot( projectedforward, vectornormalize( ( toitem[ 0 ], toitem[ 1 ], 0 ) ) );
         
         if ( var_1777205e >= 0.866 && var_abd887b5 < var_7cd624f6 )
         {

@@ -772,7 +772,7 @@ function function_69d0da21()
     level.s_code4 = struct::get( "ww_code4" );
     level.s_code4.var_263aa7ff = 0;
     level.s_code4 function_c9559668();
-    level.s_code4 zm_unitrigger::create( &function_3db792dd, 64, &function_e0c5fd41, 1, 0 );
+    level.s_code4 zm_unitrigger::create( &seal_hint, 64, &function_e0c5fd41, 1, 0 );
     level.s_code4 thread function_28e65bfe();
     level.var_390ebc02 = getent( "sadako_mover", "targetname" );
     level.var_a585b402 = getent( "sadako_screen", "targetname" );
@@ -783,7 +783,7 @@ function function_69d0da21()
 // Params 1
 // Checksum 0x140a6869, Offset: 0x2bf8
 // Size: 0x3e
-function function_3db792dd( e_player )
+function seal_hint( e_player )
 {
     self sethintstring( "" );
     return level.s_code4.var_263aa7ff;

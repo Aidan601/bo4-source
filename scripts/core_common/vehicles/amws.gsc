@@ -515,9 +515,9 @@ function state_combat_update( params )
         
         if ( isdefined( self.enemy ) && util::iscooldownready( "cobra_up" ) && self.lock_evading == 0 )
         {
-            var_7e7717c8 = distancesquared( self.enemy.origin, self.origin );
+            dist_sqr_to_enemy = distancesquared( self.enemy.origin, self.origin );
             
-            if ( var_7e7717c8 > 200 * 200 && var_7e7717c8 < self.settings.engagementdistmax * 2 * self.settings.engagementdistmax * 2 )
+            if ( dist_sqr_to_enemy > 200 * 200 && dist_sqr_to_enemy < self.settings.engagementdistmax * 2 * self.settings.engagementdistmax * 2 )
             {
                 if ( function_64609aab( self, self.enemy ) === 1 )
                 {
@@ -977,13 +977,13 @@ function getnextmoveposition_evasive( client_flags )
                     point._scoredebug = [];
                 }
                 
-                if ( !isdefined( point._scoredebug[ #"hash_3c71f4605004afec" ] ) )
+                if ( !isdefined( point._scoredebug[ #"prefer forward motion" ] ) )
                 {
-                    point._scoredebug[ #"hash_3c71f4605004afec" ] = spawnstruct();
+                    point._scoredebug[ #"prefer forward motion" ] = spawnstruct();
                 }
                 
-                point._scoredebug[ #"hash_3c71f4605004afec" ].score = 105;
-                point._scoredebug[ #"hash_3c71f4605004afec" ].scorename = "<dev string:xa5>";
+                point._scoredebug[ #"prefer forward motion" ].score = 105;
+                point._scoredebug[ #"prefer forward motion" ].scorename = "<dev string:xa5>";
             #/
             
             point.score += 105;

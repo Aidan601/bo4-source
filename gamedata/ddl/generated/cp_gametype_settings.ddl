@@ -291,7 +291,7 @@ version 49 {
         // offset 0x730, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x738, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x740, size 0x8
         uint:6 reboottime;
         // offset 0x748, size 0x8
@@ -921,7 +921,7 @@ version 48 {
         // offset 0x728, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x730, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x738, size 0x8
         uint:6 reboottime;
         // offset 0x740, size 0x8
@@ -1551,7 +1551,7 @@ version 47 {
         // offset 0x728, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x730, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x738, size 0x8
         uint:6 reboottime;
         // offset 0x740, size 0x8
@@ -2181,7 +2181,7 @@ version 46 {
         // offset 0x728, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x730, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x738, size 0x8
         uint:6 reboottime;
         // offset 0x740, size 0x8
@@ -2801,7 +2801,7 @@ version 45 {
         // offset 0x708, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x710, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x718, size 0x8
         uint:6 reboottime;
         // offset 0x720, size 0x8
@@ -3417,7 +3417,7 @@ version 44 {
         // offset 0x6f8, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x700, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x708, size 0x8
         uint:6 reboottime;
         // offset 0x710, size 0x8
@@ -4033,7 +4033,7 @@ version 43 {
         // offset 0x6f8, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x700, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x708, size 0x8
         uint:6 reboottime;
         // offset 0x710, size 0x8
@@ -4645,7 +4645,7 @@ version 42 {
         // offset 0x6f0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6f8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x700, size 0x8
         uint:6 reboottime;
         // offset 0x708, size 0x8
@@ -5255,7 +5255,7 @@ version 41 {
         // offset 0x6f0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6f8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x700, size 0x8
         uint:6 reboottime;
         // offset 0x708, size 0x8
@@ -5863,7 +5863,7 @@ version 40 {
         // offset 0x6f0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6f8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x700, size 0x8
         uint:6 reboottime;
         // offset 0x708, size 0x8
@@ -6463,7 +6463,7 @@ version 39 {
         // offset 0x6e0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6e8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6f0, size 0x8
         uint:6 reboottime;
         // offset 0x6f8, size 0x8
@@ -7063,7 +7063,7 @@ version 38 {
         // offset 0x6e0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6e8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6f0, size 0x8
         uint:6 reboottime;
         // offset 0x6f8, size 0x8
@@ -7653,7 +7653,7 @@ version 37 {
         // offset 0x6c8, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6d8, size 0x8
         uint:6 reboottime;
         // offset 0x6e0, size 0x8
@@ -8241,7 +8241,7 @@ version 36 {
         // offset 0x6c8, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6d8, size 0x8
         uint:6 reboottime;
         // offset 0x6e0, size 0x8
@@ -8827,7 +8827,7 @@ version 35 {
         // offset 0x6c0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6c8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6d0, size 0x8
         uint:6 reboottime;
         // offset 0x6d8, size 0x8
@@ -9409,7 +9409,7 @@ version 34 {
         // offset 0x6b8, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6c0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6c8, size 0x8
         uint:6 reboottime;
         // offset 0x6d0, size 0x8
@@ -9991,7 +9991,7 @@ version 33 {
         // offset 0x6b8, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6c0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6c8, size 0x8
         uint:6 reboottime;
         // offset 0x6d0, size 0x8
@@ -10571,7 +10571,7 @@ version 32 {
         // offset 0x6b0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6b8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6c0, size 0x8
         uint:6 reboottime;
         // offset 0x6c8, size 0x8
@@ -11151,7 +11151,7 @@ version 31 {
         // offset 0x6b0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6b8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6c0, size 0x8
         uint:6 reboottime;
         // offset 0x6c8, size 0x8
@@ -11729,7 +11729,7 @@ version 30 {
         // offset 0x6b0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6b8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6c0, size 0x8
         uint:6 reboottime;
         // offset 0x6c8, size 0x8
@@ -12303,7 +12303,7 @@ version 29 {
         // offset 0x6b0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6b8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6c0, size 0x8
         uint:6 reboottime;
         // offset 0x6c8, size 0x8
@@ -12871,7 +12871,7 @@ version 28 {
         // offset 0x698, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6a0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6a8, size 0x8
         uint:6 reboottime;
         // offset 0x6b0, size 0x8
@@ -13437,7 +13437,7 @@ version 27 {
         // offset 0x698, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x6a0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6a8, size 0x8
         uint:6 reboottime;
         // offset 0x6b0, size 0x8
@@ -13999,7 +13999,7 @@ version 26 {
         // offset 0x690, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x698, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6a0, size 0x8
         uint:6 reboottime;
         // offset 0x6a8, size 0x8
@@ -14557,7 +14557,7 @@ version 25 {
         // offset 0x690, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x698, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6a0, size 0x8
         uint:6 reboottime;
         // offset 0x6a8, size 0x8
@@ -15115,7 +15115,7 @@ version 24 {
         // offset 0x690, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x698, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6a0, size 0x8
         uint:6 reboottime;
         // offset 0x6a8, size 0x8
@@ -15671,7 +15671,7 @@ version 23 {
         // offset 0x690, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x698, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6a0, size 0x8
         uint:6 reboottime;
         // offset 0x6a8, size 0x8
@@ -16225,7 +16225,7 @@ version 22 {
         // offset 0x690, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x698, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x6a0, size 0x8
         uint:6 reboottime;
         // offset 0x6a8, size 0x8
@@ -16775,7 +16775,7 @@ version 21 {
         // offset 0x5f0, size 0x8
         uint:7 gameadvertisementrulescorepercent;
         // offset 0x5f8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x600, size 0x8
         uint:6 reboottime;
         // offset 0x608, size 0x8

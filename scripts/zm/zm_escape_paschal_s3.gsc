@@ -150,7 +150,7 @@ function private function_486ef0f6()
     if ( !isdefined( level.var_bbc27d0e ) )
     {
         var_c26c0a90 = struct::get( "k_fx_pos", "targetname" );
-        level.var_bbc27d0e = util::spawn_model( #"hash_4c06bc763e373f0f", var_c26c0a90.origin, var_c26c0a90.angles );
+        level.var_bbc27d0e = util::spawn_model( #"p8_fxanim_zm_esc_book_zombie_timeline_mod", var_c26c0a90.origin, var_c26c0a90.angles );
     }
     
     var_a9b19429 = 0;
@@ -1841,9 +1841,9 @@ function private function_eee2ccd4( str_zone )
         }
     }
     
-    var_8f2dfb2c = function_8f06b9dc();
+    n_zombies_to_spawn = function_8f06b9dc();
     
-    for ( i = 0; i < var_8f2dfb2c ; i++ )
+    for ( i = 0; i < n_zombies_to_spawn ; i++ )
     {
         s_spawn_location = array::random( a_s_zombie_spawn_locations );
         e_enemy = undefined;
@@ -2269,12 +2269,12 @@ function private function_685fffc4()
         }
         
         var_36f8baa8 = ( var_9636ee0 - var_31adaadb ) / var_9636ee0;
-        var_b25755cf = int( var_36f8baa8 * 10 );
+        n_essence = int( var_36f8baa8 * 10 );
         
-        if ( var_b25755cf != var_49154180 )
+        if ( n_essence != var_49154180 )
         {
-            self clientfield::set( "" + #"hash_3e506d7aedac6ae0", var_b25755cf );
-            var_49154180 = var_b25755cf;
+            self clientfield::set( "" + #"hash_3e506d7aedac6ae0", n_essence );
+            var_49154180 = n_essence;
         }
         
         /#
@@ -3176,7 +3176,7 @@ function private function_34e153c7()
     }
     
     var_e1b1210d = getent( "md_te_mi", "targetname" );
-    var_e1b1210d setmodel( #"hash_75a106abbb5f5fa1" );
+    var_e1b1210d setmodel( #"p8_zm_esc_network_console_terminal_off" );
     var_e1b1210d playsound( #"zmb_giggles_3_64_monitor_off" );
     var_e1b1210d stoploopsound();
     exploder::stop_exploder( "lgtexp_comm_monitors_on" );
@@ -3727,7 +3727,7 @@ function private function_bc57a72c( var_c34665fc )
     
     if ( isdefined( var_e1b1210d ) )
     {
-        var_e1b1210d setmodel( #"hash_75a106abbb5f5fa1" );
+        var_e1b1210d setmodel( #"p8_zm_esc_network_console_terminal_off" );
         
         if ( isdefined( var_e1b1210d.t_interact ) )
         {
@@ -3786,7 +3786,7 @@ function private function_ca9ddf1b()
         
         if ( isplayer( s_result.activator ) )
         {
-            var_e1b1210d setmodel( #"hash_1cfe304d7d3199a5" );
+            var_e1b1210d setmodel( #"p8_zm_esc_network_console_terminal_on" );
             var_e1b1210d playsound( #"zmb_giggles_3_64_terminal_on" );
             var_e1b1210d playloopsound( #"zmb_giggles_3_64_terminal_lp" );
             self notify( #"hash_1548855706869d2f" );
@@ -3942,32 +3942,32 @@ function private function_ac1d7a0e( var_5b9ba5a5, e_player )
     {
         case #"hash_368df266f54ec3b1":
             str_vo_line = #"hash_49abe33ce5251a4b";
-            var_6d4b089d = #"hash_4a5baedb3bc6ec08";
+            var_6d4b089d = #"vox_m_quest_cell_port_comp_1_stuh_0";
             var_566e10e3 = #"hash_49abe53ce5251db1";
             break;
         case #"hash_7d360b71501ba662":
             str_vo_line = #"hash_647c6e21cc49b3cc";
-            var_6d4b089d = #"hash_1ec507e435e1a4bd";
+            var_6d4b089d = #"vox_m_quest_dock_port_comp_1_stuh_0";
             var_566e10e3 = #"hash_647c7021cc49b732";
             break;
         case #"hash_53aafd7783e33981":
             str_vo_line = #"hash_6fb17b666e2addfb";
-            var_6d4b089d = #"hash_5cfddff273a7cf98";
+            var_6d4b089d = #"vox_m_quest_indu_port_comp_1_stuh_0";
             var_566e10e3 = #"hash_6fb17d666e2ae161";
             break;
         case #"hash_34aad6dd5eebdb0b":
             str_vo_line = #"hash_da5ecd0d4841b4a";
-            var_6d4b089d = #"hash_4b6f538c82ce10eb";
+            var_6d4b089d = #"vox_m_quest_power_port_comp_1_stuh_0";
             var_566e10e3 = #"hash_da5ead0d48417e4";
             break;
         case #"hash_51300ea0974da947":
             str_vo_line = #"hash_3563aeaee897cb95";
-            var_6d4b089d = #"hash_54fabdc91a5724b2";
+            var_6d4b089d = #"vox_m_quest_shower_port_comp_1_stuh_0";
             var_566e10e3 = #"hash_3563acaee897c82f";
             break;
         case #"hash_334295910a49036e":
             str_vo_line = #"hash_780ebb7a9f39cdc8";
-            var_6d4b089d = #"hash_69a626c29083fc71";
+            var_6d4b089d = #"vox_m_quest_all_port_comp_1_stuh_0";
             var_566e10e3 = #"hash_780ebd7a9f39d12e";
             break;
     }
@@ -4047,9 +4047,9 @@ function private function_a9277243()
 // Params 1, eflags: 0x4
 // Checksum 0x5f12a279, Offset: 0xf410
 // Size: 0x174
-function private function_e128a8d4( var_982513ee = 1 )
+function private function_e128a8d4( b_immune = 1 )
 {
-    if ( !var_982513ee )
+    if ( !b_immune )
     {
         self clientfield::set( "" + #"hash_3e506d7aedac6ae0", 10 );
     }
@@ -4212,7 +4212,7 @@ function function_1cda4094( e_player )
         e_player clientfield::set( "" + #"spectral_key_beam_flash", 2 );
     }
     
-    while ( e_player.var_f1b20bef === self && isalive( self ) && isdefined( self.var_c95261d ) && self.var_c95261d )
+    while ( e_player.e_beam_target === self && isalive( self ) && isdefined( self.var_c95261d ) && self.var_c95261d )
     {
         waitframe( 1 );
     }
@@ -4310,16 +4310,16 @@ function private function_56e41aa6( var_7df17d61 )
         return 0;
     }
     
-    var_b212834c = getclosestpointonnavmesh( var_7df17d61, 128, 16 );
+    v_pos_adjusted = getclosestpointonnavmesh( var_7df17d61, 128, 16 );
     
-    if ( isdefined( var_b212834c ) )
+    if ( isdefined( v_pos_adjusted ) )
     {
-        var_7df17d61 = var_b212834c;
-        var_b212834c = groundtrace( var_7df17d61 + ( 0, 0, 100 ), var_7df17d61 + ( 0, 0, -1000 ), 0, undefined, 0 )[ #"position" ];
+        var_7df17d61 = v_pos_adjusted;
+        v_pos_adjusted = groundtrace( var_7df17d61 + ( 0, 0, 100 ), var_7df17d61 + ( 0, 0, -1000 ), 0, undefined, 0 )[ #"position" ];
         
-        if ( isdefined( var_b212834c ) )
+        if ( isdefined( v_pos_adjusted ) )
         {
-            var_7df17d61 = var_b212834c;
+            var_7df17d61 = v_pos_adjusted;
         }
     }
     

@@ -314,7 +314,7 @@ function function_dc9c5c32()
             
             for ( i = 0; i < var_a9e4d1ee ; i++ )
             {
-                ai = zombie_dog_util::function_62db7b1c( 0 );
+                ai = zombie_dog_util::spawn_single_dog( 0 );
                 
                 if ( isdefined( ai ) )
                 {
@@ -1693,7 +1693,7 @@ function function_2330b278()
     {
         if ( s_loc.zone_name == #"zone_bunker_power_1" || s_loc.zone_name == #"zone_bunker_power_2" )
         {
-            if ( s_loc.var_683460c9 === 1 )
+            if ( s_loc.b_nova_crawler_spawn === 1 )
             {
                 if ( !isdefined( level.var_58eee1ff ) )
                 {
@@ -2017,7 +2017,7 @@ function function_6acd363d( is_completed )
         level.var_bf802299 = 0;
         level thread callback::on_actor_killed( &function_7ca1064d );
         zm_round_spawning::function_376e51ef( #"nova_crawler", zm_round_logic::get_round_number() );
-        playsoundatposition( #"hash_70c11b6f27e8119e", ( 0, -334, -337 ) );
+        playsoundatposition( #"zmb_gen_defend_end_success", ( 0, -334, -337 ) );
         level.var_7a86ba58 function_ccc74648( "string_05" );
         level exploder::stop_exploder( "fxexp_toxic_gas_corridor" );
         var_cc5e1906 = getentarray( "event_green_gas_md", "targetname" );
@@ -2065,7 +2065,7 @@ function function_6acd363d( is_completed )
     }
     
     level thread function_79f7d595();
-    playsoundatposition( #"hash_409e21a8cc122b1f", ( 0, -334, -337 ) );
+    playsoundatposition( #"zmb_gen_defend_end_fail", ( 0, -334, -337 ) );
     wait 2;
     level.var_8200dc81 zm_hms_util::function_6a0d675d( #"hash_213e287fc814959d", 0, 0 );
     level flag::clear( #"hash_639e8274a1b57729" );
@@ -2359,7 +2359,7 @@ function function_e2260632()
     }
     else
     {
-        ai = zombie_dog_util::function_62db7b1c( 0, level function_d39f2f3e() );
+        ai = zombie_dog_util::spawn_single_dog( 0, level function_d39f2f3e() );
         level.var_9291cfb3 = #"zombie_dog";
         
         if ( isdefined( ai ) )
@@ -2582,7 +2582,7 @@ function function_b448360c()
         return false;
     }
     
-    var_905a9429 = [];
+    valid_spawn_locs = [];
     var_51fb0ec7 = [];
     e_target = zm_hms_util::function_3815943c();
     
@@ -2619,26 +2619,26 @@ function function_b448360c()
             
             if ( sqr_dist > 10000 )
             {
-                if ( !isdefined( var_905a9429 ) )
+                if ( !isdefined( valid_spawn_locs ) )
                 {
-                    var_905a9429 = [];
+                    valid_spawn_locs = [];
                 }
-                else if ( !isarray( var_905a9429 ) )
+                else if ( !isarray( valid_spawn_locs ) )
                 {
-                    var_905a9429 = array( var_905a9429 );
+                    valid_spawn_locs = array( valid_spawn_locs );
                 }
                 
-                var_905a9429[ var_905a9429.size ] = loc;
+                valid_spawn_locs[ valid_spawn_locs.size ] = loc;
             }
         }
     }
     
-    if ( var_905a9429.size < 3 )
+    if ( valid_spawn_locs.size < 3 )
     {
-        var_905a9429 = arraycombine( var_905a9429, var_51fb0ec7, 0, 0 );
+        valid_spawn_locs = arraycombine( valid_spawn_locs, var_51fb0ec7, 0, 0 );
     }
     
-    s_spawn_loc = array::random( var_905a9429 );
+    s_spawn_loc = array::random( valid_spawn_locs );
     
     if ( !isdefined( s_spawn_loc ) )
     {
@@ -2731,7 +2731,7 @@ function function_a409c2a7( e_target )
             }
         }
         
-        var_905a9429 = [];
+        valid_spawn_locs = [];
         var_51fb0ec7 = [];
         
         foreach ( loc in level.zm_loc_types[ #"dog_location" ] )
@@ -2744,16 +2744,16 @@ function function_a409c2a7( e_target )
                 {
                     if ( sqr_dist > 250000 )
                     {
-                        if ( !isdefined( var_905a9429 ) )
+                        if ( !isdefined( valid_spawn_locs ) )
                         {
-                            var_905a9429 = [];
+                            valid_spawn_locs = [];
                         }
-                        else if ( !isarray( var_905a9429 ) )
+                        else if ( !isarray( valid_spawn_locs ) )
                         {
-                            var_905a9429 = array( var_905a9429 );
+                            valid_spawn_locs = array( valid_spawn_locs );
                         }
                         
-                        var_905a9429[ var_905a9429.size ] = loc;
+                        valid_spawn_locs[ valid_spawn_locs.size ] = loc;
                         continue;
                     }
                     
@@ -2774,12 +2774,12 @@ function function_a409c2a7( e_target )
             }
         }
         
-        if ( var_905a9429.size < 3 )
+        if ( valid_spawn_locs.size < 3 )
         {
-            var_905a9429 = arraycombine( var_905a9429, var_51fb0ec7, 0, 0 );
+            valid_spawn_locs = arraycombine( valid_spawn_locs, var_51fb0ec7, 0, 0 );
         }
         
-        s_spawn_loc = array::random( var_905a9429 );
+        s_spawn_loc = array::random( valid_spawn_locs );
     }
     
     if ( !isdefined( s_spawn_loc ) )
@@ -2896,7 +2896,7 @@ function function_ff73da7f( e_target )
         
         foreach ( loc in a_locs )
         {
-            if ( loc.var_683460c9 )
+            if ( loc.b_nova_crawler_spawn )
             {
                 if ( !isdefined( var_a887d6e1 ) )
                 {
@@ -2942,35 +2942,35 @@ function function_ff73da7f( e_target )
             }
         }
         
-        var_905a9429 = [];
+        valid_spawn_locs = [];
         var_51fb0ec7 = [];
         
         foreach ( loc in var_a887d6e1 )
         {
             if ( array::contains( var_2057a8c1, loc.zone_name ) )
             {
-                if ( !isdefined( var_905a9429 ) )
+                if ( !isdefined( valid_spawn_locs ) )
                 {
-                    var_905a9429 = [];
+                    valid_spawn_locs = [];
                 }
-                else if ( !isarray( var_905a9429 ) )
+                else if ( !isarray( valid_spawn_locs ) )
                 {
-                    var_905a9429 = array( var_905a9429 );
+                    valid_spawn_locs = array( valid_spawn_locs );
                 }
                 
-                var_905a9429[ var_905a9429.size ] = loc;
+                valid_spawn_locs[ valid_spawn_locs.size ] = loc;
             }
         }
         
-        s_spawn_loc = array::random( var_905a9429 );
+        s_spawn_loc = array::random( valid_spawn_locs );
     }
     
-    if ( !isdefined( s_spawn_loc ) || isdefined( s_spawn_loc.var_2901f207 ) && s_spawn_loc.var_2901f207 && !level flag::get( #"hash_1643995c3d7501b0" ) )
+    if ( !isdefined( s_spawn_loc ) || isdefined( s_spawn_loc.b_ranged_nova_crawler_only ) && s_spawn_loc.b_ranged_nova_crawler_only && !level flag::get( #"hash_1643995c3d7501b0" ) )
     {
         return undefined;
     }
     
-    if ( isdefined( s_spawn_loc.var_2901f207 ) && s_spawn_loc.var_2901f207 )
+    if ( isdefined( s_spawn_loc.b_ranged_nova_crawler_only ) && s_spawn_loc.b_ranged_nova_crawler_only )
     {
         ai = zombie_utility::spawn_zombie( level.ranged_nova_crawler_spawner );
     }
@@ -2984,7 +2984,7 @@ function function_ff73da7f( e_target )
         ai.check_point_in_enabled_zone = &zm_utility::check_point_in_playable_area;
         ai thread zombie_utility::round_spawn_failsafe();
         
-        if ( isdefined( s_spawn_loc.var_11ef3e6e ) && s_spawn_loc.var_11ef3e6e )
+        if ( isdefined( s_spawn_loc.b_sniper_nova_crawler_only ) && s_spawn_loc.b_sniper_nova_crawler_only )
         {
             ai forceteleport( s_spawn_loc.origin, s_spawn_loc.angles );
         }
@@ -2995,7 +2995,7 @@ function function_ff73da7f( e_target )
         
         ai.favoriteenemy = e_target;
         
-        if ( isdefined( s_spawn_loc.var_11ef3e6e ) && s_spawn_loc.var_11ef3e6e )
+        if ( isdefined( s_spawn_loc.b_sniper_nova_crawler_only ) && s_spawn_loc.b_sniper_nova_crawler_only )
         {
             ai zm_ai_white_nova_crawler::function_dc0238e4();
         }

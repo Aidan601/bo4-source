@@ -23,7 +23,7 @@ function autoexec __init__system__()
 function private __init__()
 {
     level.var_7d95e1ed = [];
-    level.var_7c5c96dc = &function_4f90c4c2;
+    level.var_7c5c96dc = &monkey_detonate_immediate;
     level thread function_a23699fe();
     callback::on_finalize_initialization( &function_1c601b99 );
 }
@@ -36,7 +36,7 @@ function function_1c601b99()
 {
     if ( isdefined( level.var_a5dacbea ) )
     {
-        [[ level.var_a5dacbea ]]( getweapon( #"cymbal_monkey" ), &function_127fb8f3 );
+        [[ level.var_a5dacbea ]]( getweapon( #"cymbal_monkey" ), &onjammed );
     }
 }
 
@@ -162,7 +162,7 @@ function private event_handler[grenade_fire] function_4776caf4( eventstruct )
         
         if ( isdefined( self ) && isdefined( e_grenade ) && isdefined( e_grenade.mdl_monkey ) )
         {
-            e_grenade.mdl_monkey.var_acdc8d71 = getclosestpointonnavmesh( e_grenade.mdl_monkey.origin, 360, 15.1875 );
+            e_grenade.mdl_monkey.closest_point_on_navmesh = getclosestpointonnavmesh( e_grenade.mdl_monkey.origin, 360, 15.1875 );
             array::add( level.var_7d95e1ed, e_grenade.mdl_monkey );
             self callback::callback( #"hash_3c09ead7e9d8a968", e_grenade.mdl_monkey );
         }
@@ -199,7 +199,7 @@ function function_b9934c1d()
         waitframe( 1 );
     }
     
-    self function_4f90c4c2();
+    self monkey_detonate_immediate();
 }
 
 // Namespace gadget_cymbal_monkey/gadget_cymbal_monkey
@@ -215,7 +215,7 @@ function function_4e61e1d()
 // Params 0
 // Checksum 0x97373d5c, Offset: 0x950
 // Size: 0x8c
-function function_4f90c4c2()
+function monkey_detonate_immediate()
 {
     if ( isdefined( self.var_38af96b9 ) )
     {
@@ -263,7 +263,7 @@ function function_4a5dff80( zombie )
 // Params 2
 // Checksum 0x79897743, Offset: 0xb38
 // Size: 0x11c
-function function_127fb8f3( cymbal_monkey, attackingplayer )
+function onjammed( cymbal_monkey, attackingplayer )
 {
     cymbal_monkey endon( #"death" );
     randangle = randomfloat( 360 );
@@ -275,6 +275,6 @@ function function_127fb8f3( cymbal_monkey, attackingplayer )
     
     wait 1.1;
     playfx( #"hash_65c5042becfbaa7d", cymbal_monkey.origin );
-    cymbal_monkey function_4f90c4c2();
+    cymbal_monkey monkey_detonate_immediate();
 }
 

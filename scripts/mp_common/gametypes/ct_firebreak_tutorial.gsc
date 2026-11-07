@@ -70,14 +70,14 @@ function setup()
 // Size: 0x24
 function function_8cea4f8f( e_player )
 {
-    e_player function_c9ff0dce();
+    e_player player_spawned_callback();
 }
 
 // Namespace ct_firebreak_tutorial/ct_firebreak_tutorial
 // Params 0
 // Checksum 0xf0ae1805, Offset: 0x1528
 // Size: 0x80c
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     self ct_utils::player_reset();
     
@@ -317,11 +317,11 @@ function function_95da118b( str_weapon = #"ar_accurate_t8" )
 // Params 11
 // Checksum 0x182b2bc6, Offset: 0x1f08
 // Size: 0x102
-function overridedamage_player( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function overridedamage_player( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     if ( isdefined( self.var_19103054 ) )
     {
-        var_d0621c54 = self [[ self.var_19103054 ]]( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf );
+        var_d0621c54 = self [[ self.var_19103054 ]]( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index );
     }
     else
     {
@@ -330,7 +330,7 @@ function overridedamage_player( e_inflictor, e_attacker, n_damage, n_dflags, str
     
     var_754eb193 = int( var_d0621c54 / 2 );
     
-    if ( isdefined( self.var_99b2032f ) && self.var_99b2032f )
+    if ( isdefined( self.b_disable_damage ) && self.b_disable_damage )
     {
         var_754eb193 = 0;
     }
@@ -452,7 +452,7 @@ function function_9b9525e9()
     ct_utils::function_9aca2fa0( "ct_endgame" );
     e_player setnormalhealth( 1 );
     e_player ct_vo::function_3ca1b77d();
-    e_player.var_99b2032f = 1;
+    e_player.b_disable_damage = 1;
     wait 1;
     e_player ct_utils::function_c2a10fc();
     e_player ct_vo::function_831e0584( array( "vox_tvoi_tutor_fire_end_0", "vox_tvoi_tutor_fire_end_1" ) );
@@ -962,18 +962,18 @@ function function_b973c685( s_loc )
     else if ( isdefined( s_loc.target ) )
     {
         s_dest = struct::get( s_loc.target, "targetname" );
-        self thread ct_utils::function_5b59f3b7( s_dest.origin, s_dest.angles, 32, s_dest.var_6d155b92, undefined, 0 );
+        self thread ct_utils::function_5b59f3b7( s_dest.origin, s_dest.angles, 32, s_dest.b_no_chase, undefined, 0 );
         
-        if ( isdefined( s_dest.var_afea05c4 ) )
+        if ( isdefined( s_dest.n_force_chase_range ) )
         {
-            self thread ct_utils::function_32e977f( ct_utils::get_player(), s_dest.var_afea05c4 );
+            self thread ct_utils::function_32e977f( ct_utils::get_player(), s_dest.n_force_chase_range );
         }
     }
     
     util::waittill_any_ents( level, "tut_purifier_3_target_alert", self, "damage", self, "bot_chase_state" );
     level notify( #"tut_purifier_3_target_alert" );
     
-    if ( !isdefined( s_dest ) || !( isdefined( s_dest.var_6d155b92 ) && s_dest.var_6d155b92 ) )
+    if ( !isdefined( s_dest ) || !( isdefined( s_dest.b_no_chase ) && s_dest.b_no_chase ) )
     {
         self.var_ef59b90 = 3;
         self.prevstate = 3;
@@ -1836,9 +1836,9 @@ function function_d0f4d458()
     n_enemy_count = 4;
     n_dist_min = 1200;
     n_dist_max = 1900;
-    var_65c9209b = 2;
+    n_spawn_interval = 2;
     var_e01def33 = 4;
-    self thread ct_utils::surround_spawn( n_enemy_count, n_dist_min, n_dist_max, var_65c9209b, var_e01def33 );
+    self thread ct_utils::surround_spawn( n_enemy_count, n_dist_min, n_dist_max, n_spawn_interval, var_e01def33 );
     self thread function_bc2aaee0();
     level flag::wait_till( "fin2_killstreak_used" );
     self ct_utils::function_c2a10fc();
@@ -1877,10 +1877,10 @@ function function_bc2aaee0()
     n_enemy_count = 10;
     n_dist_min = 1600;
     n_dist_max = 1900;
-    var_65c9209b = 2;
+    n_spawn_interval = 2;
     var_e01def33 = 3;
     self thread function_cc50d201();
-    self thread ct_utils::surround_spawn( n_enemy_count, n_dist_min, n_dist_max, var_65c9209b, var_e01def33 );
+    self thread ct_utils::surround_spawn( n_enemy_count, n_dist_min, n_dist_max, n_spawn_interval, var_e01def33 );
 }
 
 // Namespace ct_firebreak_tutorial/ct_firebreak_tutorial

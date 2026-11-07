@@ -8,7 +8,7 @@ CHECKSUM 0x496a63ed
 STRING "<dev string:x38>" 0x44ec 0x460c
 # mansion_pap::function_f0b97bc7@328
 STRING "<dev string:x3f>" 0xb9c0
-# mansion_pap::function_f728c266@10c mansion_pap::function_debf98ad@7c mansion_pap::debug_draw_star@7c
+# mansion_pap::function_f728c266@10c mansion_pap::debug_draw_sphere@7c mansion_pap::debug_draw_star@7c
 STRING "<dev string:x65>" 0xe57c 0xe6e4 0xe864
 # mansion_pap::function_5e48b125@30
 STRING "<dev string:x7b>" 0xe9d0
@@ -121,7 +121,7 @@ DEVBLOCK 0xde22
 DEVBLOCK 0xde5a
 # mansion_pap::function_f728c266@2a
 DEVBLOCK 0xe49a
-# mansion_pap::function_debf98ad@2a
+# mansion_pap::debug_draw_sphere@2a
 DEVBLOCK 0xe692
 # mansion_pap::debug_draw_star@2a
 DEVBLOCK 0xe812

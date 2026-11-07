@@ -686,7 +686,7 @@ function damageeffectarea( owner, position, killcament, normal, weapon, customse
         }
     #/
     
-    self.var_ebf0b1c9 = [];
+    self.affectedtargets = [];
     burntime = 0;
     var_d0603aba = 1;
     originalteam = isdefined( owner ) ? owner.team : undefined;
@@ -738,9 +738,9 @@ function damageeffectarea( owner, position, killcament, normal, weapon, customse
         wait customsettings.molotov_damage_interval;
     }
     
-    arrayremovevalue( self.var_ebf0b1c9, undefined );
+    arrayremovevalue( self.affectedtargets, undefined );
     
-    foreach ( target in self.var_ebf0b1c9 )
+    foreach ( target in self.affectedtargets )
     {
         target.var_84e41b20 = undefined;
         target status_effect::function_408158ef( level.var_5d450296, level.var_e6a4f161 );
@@ -818,7 +818,7 @@ function function_9464e4ad( owner, position, killcament, normal, weapon, customs
         fireeffectarea = spawn( "trigger_radius", trigger_radius_position, 0, radius, trigger_radius_height );
     }
     
-    self.var_ebf0b1c9 = [];
+    self.affectedtargets = [];
     
     while ( gettime() < damageendtime )
     {
@@ -833,9 +833,9 @@ function function_9464e4ad( owner, position, killcament, normal, weapon, customs
         wait customsettings.var_8fbd03cb;
     }
     
-    arrayremovevalue( self.var_ebf0b1c9, undefined );
+    arrayremovevalue( self.affectedtargets, undefined );
     
-    foreach ( target in self.var_ebf0b1c9 )
+    foreach ( target in self.affectedtargets )
     {
         target.var_84e41b20 = undefined;
         target status_effect::function_408158ef( level.var_5d450296, level.var_e6a4f161 );
@@ -1056,7 +1056,7 @@ function trytoapplyfiredamage( target, owner, position, fireeffectarea, var_289a
                 target thread function_37ddab3( sourcepos, killcament, trace, position, weapon, customsettings, owner );
             }
             
-            self.var_ebf0b1c9[ targetentnum ] = target;
+            self.affectedtargets[ targetentnum ] = target;
         }
         else
         {
@@ -1070,7 +1070,7 @@ function trytoapplyfiredamage( target, owner, position, fireeffectarea, var_289a
         {
             target.var_84e41b20 = undefined;
             target status_effect::function_408158ef( level.var_5d450296, level.var_e6a4f161 );
-            self.var_ebf0b1c9[ targetentnum ] = undefined;
+            self.affectedtargets[ targetentnum ] = undefined;
         }
         else if ( isdefined( killcament ) )
         {

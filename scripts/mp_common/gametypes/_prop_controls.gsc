@@ -1089,8 +1089,8 @@ function propmoveunlock()
 {
     self endon( #"death", #"disconnect" );
     level endon( #"game_ended" );
-    var_554b8919 = 0;
-    var_cd6d7e01 = 0;
+    waslocked = 0;
+    wasmoving = 0;
     var_de410ab8 = 0;
     
     while ( true )
@@ -1110,7 +1110,7 @@ function propmoveunlock()
         {
             var_de410ab8 = 0;
         }
-        else if ( self.lock && !var_554b8919 && ismoving )
+        else if ( self.lock && !waslocked && ismoving )
         {
             var_de410ab8 = 1;
         }
@@ -1119,8 +1119,8 @@ function propmoveunlock()
             self unlockprop();
         }
         
-        var_554b8919 = self.lock;
-        var_cd6d7e01 = ismoving;
+        waslocked = self.lock;
+        wasmoving = ismoving;
     }
 }
 
@@ -1548,9 +1548,9 @@ function flashenemies( var_c8c9bf0f = self, position = self.origin )
 {
     fwd = anglestoforward( var_c8c9bf0f getplayerangles() );
     fwd = vectornormalize( ( fwd[ 0 ], fwd[ 1 ], 0 ) );
-    var_ec24ae95 = fwd * 60;
+    launch_vel = fwd * 60;
     spawn_pos = position + ( 0, 0, 10 ) + fwd * 30;
-    concuss = var_c8c9bf0f magicmissile( getweapon( #"eq_slow_grenade_ph" ), spawn_pos, var_ec24ae95 );
+    concuss = var_c8c9bf0f magicmissile( getweapon( #"eq_slow_grenade_ph" ), spawn_pos, launch_vel );
 }
 
 // Namespace prop_controls/_prop_controls
@@ -1628,33 +1628,33 @@ function cloneprop()
         deletepropsifatmax();
     }
     
-    var_6e55957c = spawn( "script_model", self.prop.origin );
-    var_6e55957c.targetname = "propClone";
-    var_6e55957c setmodel( self.prop.model );
-    var_6e55957c setscale( self.prop.info.propscale );
-    var_6e55957c.angles = self.prop.angles;
-    var_6e55957c setcandamage( 1 );
-    var_6e55957c.fakehealth = 50;
-    var_6e55957c.health = 99999;
-    var_6e55957c.maxhealth = 99999;
-    var_6e55957c.playerowner = self;
-    var_6e55957c thread prop::function_aa8db165( &damageclonewatch );
-    var_6e55957c setplayercollision( 0 );
-    var_6e55957c makesentient();
-    var_6e55957c clientfield::set( "enemyequip", 2 );
+    newclone = spawn( "script_model", self.prop.origin );
+    newclone.targetname = "propClone";
+    newclone setmodel( self.prop.model );
+    newclone setscale( self.prop.info.propscale );
+    newclone.angles = self.prop.angles;
+    newclone setcandamage( 1 );
+    newclone.fakehealth = 50;
+    newclone.health = 99999;
+    newclone.maxhealth = 99999;
+    newclone.playerowner = self;
+    newclone thread prop::function_aa8db165( &damageclonewatch );
+    newclone setplayercollision( 0 );
+    newclone makesentient();
+    newclone clientfield::set( "enemyequip", 2 );
     
     if ( prop::function_5a6214bd() )
     {
-        var_6e55957c hidefromteam( game.attackers );
-        var_6e55957c notsolid();
+        newclone hidefromteam( game.attackers );
+        newclone notsolid();
     }
     
     if ( level.phsettings.var_5b677bf1 )
     {
-        var_6e55957c.fakehealth = 100;
+        newclone.fakehealth = 100;
     }
     
-    self.propclones[ self.propclones.size ] = var_6e55957c;
+    self.propclones[ self.propclones.size ] = newclone;
 }
 
 // Namespace prop_controls/_prop_controls

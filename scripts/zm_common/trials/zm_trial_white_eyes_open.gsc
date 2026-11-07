@@ -58,9 +58,9 @@ function private on_begin()
     foreach ( player in getplayers() )
     {
         player.e_weeper = zombie_utility::spawn_zombie( spawner, spawner.targetname, undefined, level.round_number );
-        var_9d88bc68 = anglestoforward( player.angles );
-        var_9d88bc68 = 50 * vectornormalize( var_9d88bc68 );
-        goal_pos = player.origin + var_9d88bc68;
+        goal_vec = anglestoforward( player.angles );
+        goal_vec = 50 * vectornormalize( goal_vec );
+        goal_pos = player.origin + goal_vec;
         goal_pos = getclosestpointonnavmesh( goal_pos, 128, 32 );
         player.e_weeper forceteleport( goal_pos, player.angles - ( 0, 180, 0 ), 1 );
         player.e_weeper.var_72411ccf = &function_660c908;

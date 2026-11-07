@@ -270,7 +270,7 @@ function function_a4e86068()
     }
     
     level.zombie_round_start_delay = 0;
-    zm_round_spawning::function_b4a8f95a( #"zombie_electric", n_next_round, &function_a092874, &function_a1b4b25d, &function_c83f59db, &function_5bfaa04, 0 );
+    zm_round_spawning::schedule_special_round( #"zombie_electric", n_next_round, &function_a092874, &function_a1b4b25d, &function_c83f59db, &function_5bfaa04, 0 );
     
     if ( zm_round_spawning::function_40229072( level.round_number ) && !level flag::get( "special_round" ) )
     {

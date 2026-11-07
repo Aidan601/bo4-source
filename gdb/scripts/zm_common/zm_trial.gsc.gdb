@@ -6,7 +6,7 @@ CHECKSUM 0xb44af697
 ######################################################
 # zm_trial::function_5769f26a@6c
 STRING "<dev string:x38>" 0x170c
-# zm_trial::function_bcd35efc@84
+# zm_trial::restore_player_state@84
 STRING "<dev string:x55>" 0x20b4
 ######################################################
 ####################  DEV BLOCKS  ####################
@@ -17,9 +17,9 @@ DEVBLOCK 0x560
 DEVBLOCK 0x159a
 # zm_trial::function_5769f26a@62
 DEVBLOCK 0x1702
-# zm_trial::function_bcd35efc@76
+# zm_trial::restore_player_state@76
 DEVBLOCK 0x20a6
-# zm_trial::function_bcd35efc@7a
+# zm_trial::restore_player_state@7a
 DEVBLOCK 0x20aa
 # zm_trial::function_4dbf2663@18c
 DEVBLOCK 0x24c4

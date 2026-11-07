@@ -3,5 +3,5 @@
     "type": "mpdialog_scorestreak",
     "vmtype": "both",
     "name": "cdp_droneop2_kls_combatrobot",
-    "timeout": "#hash_4cb43feab63386b9"
+    "timeout": "#vox_cdo2_kls_robot_timeout"
 }

@@ -10,10 +10,10 @@
 // Params 3
 // Checksum 0x7185f304, Offset: 0xe8
 // Size: 0x320
-function team( kvp, var_dad37549, var_b095575e = 0 )
+function team( kvp, n_min_distance, b_skip_flash = 0 )
 {
     level function_1d2a3300();
-    var_bac46abd = self function_166effac( kvp, var_dad37549 );
+    var_bac46abd = self function_166effac( kvp, n_min_distance );
     
     if ( !isdefined( var_bac46abd ) )
     {
@@ -32,7 +32,7 @@ function team( kvp, var_dad37549, var_b095575e = 0 )
         {
             if ( !( isdefined( s_teleport.b_used ) && s_teleport.b_used ) )
             {
-                e_player function_29305761( s_teleport, var_bac46abd.var_dad37549, var_b095575e );
+                e_player function_29305761( s_teleport, var_bac46abd.n_min_distance, b_skip_flash );
                 break;
             }
         }
@@ -51,7 +51,7 @@ function team( kvp, var_dad37549, var_b095575e = 0 )
                 
                 if ( !( isdefined( s_teleport.b_used ) && s_teleport.b_used ) )
                 {
-                    ai_hero function_df1911b9( s_teleport, var_bac46abd.var_dad37549 );
+                    ai_hero function_df1911b9( s_teleport, var_bac46abd.n_min_distance );
                     break;
                 }
             }
@@ -66,7 +66,7 @@ function team( kvp, var_dad37549, var_b095575e = 0 )
 // Params 4
 // Checksum 0x8ada59ba, Offset: 0x410
 // Size: 0x178
-function player( e_player, kvp, var_dad37549, var_b095575e = 0 )
+function player( e_player, kvp, n_min_distance, b_skip_flash = 0 )
 {
     if ( !isalive( e_player ) )
     {
@@ -74,7 +74,7 @@ function player( e_player, kvp, var_dad37549, var_b095575e = 0 )
     }
     
     level function_1d2a3300();
-    var_20212d26 = self function_e6615993( kvp, var_dad37549 );
+    var_20212d26 = self function_e6615993( kvp, n_min_distance );
     str_key = var_20212d26.str_key;
     str_value = var_20212d26.str_value;
     
@@ -82,7 +82,7 @@ function player( e_player, kvp, var_dad37549, var_b095575e = 0 )
     {
         if ( s_teleport.( str_key ) === str_value && !( isdefined( s_teleport.b_used ) && s_teleport.b_used ) )
         {
-            e_player function_29305761( s_teleport, var_20212d26.var_dad37549, var_b095575e );
+            e_player function_29305761( s_teleport, var_20212d26.n_min_distance, b_skip_flash );
             return 1;
         }
     }
@@ -94,10 +94,10 @@ function player( e_player, kvp, var_dad37549, var_b095575e = 0 )
 // Params 3
 // Checksum 0x265aaef1, Offset: 0x590
 // Size: 0x180, Type: bool
-function hero( ai_hero, kvp, var_dad37549 )
+function hero( ai_hero, kvp, n_min_distance )
 {
     level function_1d2a3300();
-    var_20212d26 = self function_e6615993( kvp, var_dad37549 );
+    var_20212d26 = self function_e6615993( kvp, n_min_distance );
     str_key = var_20212d26.str_key;
     str_value = var_20212d26.str_value;
     
@@ -110,7 +110,7 @@ function hero( ai_hero, kvp, var_dad37549 )
         
         if ( s_teleport.( str_key ) === str_value && !( isdefined( s_teleport.b_used ) && s_teleport.b_used ) )
         {
-            ai_hero function_df1911b9( s_teleport, var_20212d26.var_dad37549 );
+            ai_hero function_df1911b9( s_teleport, var_20212d26.n_min_distance );
             return true;
         }
     }
@@ -156,16 +156,16 @@ function private function_1d2a3300()
 // Params 2, eflags: 0x4
 // Checksum 0x60d8b39f, Offset: 0x868
 // Size: 0x13c
-function private function_e6615993( kvp, var_dad37549 )
+function private function_e6615993( kvp, n_min_distance )
 {
     if ( isdefined( self.script_teleport_location ) )
     {
         str_value = self.script_teleport_location;
         str_key = "script_teleport_location";
         
-        if ( !isdefined( var_dad37549 ) && isdefined( self.script_regroup_distance ) )
+        if ( !isdefined( n_min_distance ) && isdefined( self.script_regroup_distance ) )
         {
-            var_dad37549 = self.script_regroup_distance;
+            n_min_distance = self.script_regroup_distance;
         }
     }
     else if ( isdefined( kvp ) && isarray( kvp ) )
@@ -179,9 +179,9 @@ function private function_e6615993( kvp, var_dad37549 )
         str_key = "script_teleport_location";
     }
     
-    if ( !isdefined( var_dad37549 ) )
+    if ( !isdefined( n_min_distance ) )
     {
-        var_dad37549 = 0;
+        n_min_distance = 0;
     }
     
     if ( !isdefined( str_value ) || !isdefined( str_key ) )
@@ -190,16 +190,16 @@ function private function_e6615993( kvp, var_dad37549 )
         return undefined;
     }
     
-    return { #str_value:str_value, #str_key:str_key, #var_dad37549:var_dad37549 };
+    return { #str_value:str_value, #str_key:str_key, #n_min_distance:n_min_distance };
 }
 
 // Namespace teleport/teleport_shared
 // Params 2, eflags: 0x4
 // Checksum 0x6345b43, Offset: 0x9b0
 // Size: 0x2d4
-function private function_166effac( kvp, var_dad37549 )
+function private function_166effac( kvp, n_min_distance )
 {
-    var_20212d26 = self function_e6615993( kvp, var_dad37549 );
+    var_20212d26 = self function_e6615993( kvp, n_min_distance );
     
     if ( !isdefined( var_20212d26 ) )
     {
@@ -261,25 +261,25 @@ function private function_166effac( kvp, var_dad37549 )
         }
     }
     
-    return { #a_s_players:a_s_players, #a_s_heroes:a_s_heroes, #var_dad37549:var_20212d26.var_dad37549 };
+    return { #a_s_players:a_s_players, #a_s_heroes:a_s_heroes, #n_min_distance:var_20212d26.n_min_distance };
 }
 
 // Namespace teleport/teleport_shared
 // Params 3, eflags: 0x4
 // Checksum 0x9df6f8d8, Offset: 0xc90
 // Size: 0x22e
-function private function_29305761( s_teleport, var_dad37549, var_b095575e = 0 )
+function private function_29305761( s_teleport, n_min_distance, b_skip_flash = 0 )
 {
     self endon( #"death" );
     
-    if ( distancesquared( s_teleport.origin, self.origin ) < var_dad37549 * var_dad37549 )
+    if ( distancesquared( s_teleport.origin, self.origin ) < n_min_distance * n_min_distance )
     {
         return;
     }
     
     s_teleport.b_used = 1;
     
-    if ( !var_b095575e )
+    if ( !b_skip_flash )
     {
         self thread lui::screen_flash( 0, 0.3, 0.3 );
     }
@@ -324,9 +324,9 @@ function private function_29305761( s_teleport, var_dad37549, var_b095575e = 0 )
 // Params 2
 // Checksum 0x41c9a797, Offset: 0xec8
 // Size: 0x116
-function function_df1911b9( s_teleport, var_dad37549 )
+function function_df1911b9( s_teleport, n_min_distance )
 {
-    if ( distancesquared( s_teleport.origin, self.origin ) < var_dad37549 * var_dad37549 )
+    if ( distancesquared( s_teleport.origin, self.origin ) < n_min_distance * n_min_distance )
     {
         return;
     }

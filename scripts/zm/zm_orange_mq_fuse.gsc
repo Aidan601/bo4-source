@@ -145,7 +145,7 @@ function function_742dfdb5( var_a276c861 )
 function function_95dff91b()
 {
     s_unitrigger = level.s_fuse zm_unitrigger::create( "", 96 );
-    level.s_fuse function_afa2f621();
+    level.s_fuse fuse_think();
     level.s_fuse zm_unitrigger::unregister_unitrigger( s_unitrigger );
 }
 
@@ -153,7 +153,7 @@ function function_95dff91b()
 // Params 0
 // Checksum 0x168a563e, Offset: 0xa30
 // Size: 0x54
-function function_afa2f621()
+function fuse_think()
 {
     s_activation = self waittill( #"trigger_activated" );
     playsoundatposition( #"evt_fuse_place", self.origin );

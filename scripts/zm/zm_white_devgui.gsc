@@ -39,7 +39,7 @@
             zm_devgui::zombie_devgui_open_sesame();
         }
         
-        level.old_dog_spawn = &zombie_dog_util::function_62db7b1c;
+        level.old_dog_spawn = &zombie_dog_util::spawn_single_dog;
         zm_white_special_rounds::function_6acd363d( 1 );
     }
 

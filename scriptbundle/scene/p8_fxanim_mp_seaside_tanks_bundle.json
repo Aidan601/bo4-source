@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3d77b8326975301c",
+                            "anim": "anim#p8_fxanim_mp_seaside_tanks_01_draft_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -61,7 +61,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_534ba6a0daa69b33",
+                            "anim": "anim#p8_fxanim_mp_seaside_tanks_02_draft_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -117,7 +117,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_395f881c27619c42",
+                            "anim": "anim#p8_fxanim_mp_seaside_tanks_03_draft_anim",
                             "entrytype": "anim"
                         }
                     ],

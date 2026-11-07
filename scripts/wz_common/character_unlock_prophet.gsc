@@ -33,7 +33,7 @@ function function_2613aeec( enabled )
 {
     if ( enabled )
     {
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_last_alive", &function_4ac25840 );
         callback::add_callback( #"on_drop_item", &on_drop_item );
         character_unlock::function_d2294476( #"supply_drop_stash_cu10", 2, 3 );
@@ -44,7 +44,7 @@ function function_2613aeec( enabled )
 // Params 1
 // Checksum 0x22095c88, Offset: 0x218
 // Size: 0x54
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     

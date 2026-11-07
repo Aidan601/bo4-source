@@ -1565,7 +1565,7 @@ function _init_instance( str_scenedef, a_ents, b_test_run = 0 )
         }
     #/
     
-    s_bundle = get_scenedef( isdefined( self.var_e87a94f3 ) ? self.var_e87a94f3 : str_scenedef );
+    s_bundle = get_scenedef( isdefined( self.scriptbundlename_override ) ? self.scriptbundlename_override : str_scenedef );
     
     if ( !function_6f382548( s_bundle, str_scenedef ) )
     {
@@ -2830,7 +2830,7 @@ function _get_type_count( str_type, str_scenedef )
 // Params 1
 // Checksum 0x38b53abd, Offset: 0x8460
 // Size: 0x126, Type: bool
-function function_128f0294( var_37fa9b04 )
+function function_128f0294( s_damage_info )
 {
     if ( !isdefined( self._scene_object ) || !isdefined( self.var_5b7900ec ) )
     {
@@ -2844,7 +2844,7 @@ function function_128f0294( var_37fa9b04 )
             continue;
         }
         
-        if ( self._scene_object csceneobject::function_f12c5e67( s_shot ) && !self._scene_object csceneobject::function_128f0294( s_shot, var_37fa9b04 ) )
+        if ( self._scene_object csceneobject::function_f12c5e67( s_shot ) && !self._scene_object csceneobject::function_128f0294( s_shot, s_damage_info ) )
         {
             return false;
         }

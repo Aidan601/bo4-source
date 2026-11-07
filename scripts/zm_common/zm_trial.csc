@@ -126,10 +126,10 @@ function private function_4dbf2663()
     }
     
     column_count = tablelookupcolumncount( table );
-    var_e1617d73 = tablelookuprowcount( table );
+    row_count = tablelookuprowcount( table );
     row = 0;
     
-    while ( row < var_e1617d73 )
+    while ( row < row_count )
     {
         var_189d26ca = tablelookupcolumnforrow( table, row, 1 );
         assert( !isdefined( function_d02ffd( var_189d26ca ) ) );
@@ -141,7 +141,7 @@ function private function_4dbf2663()
             row++;
             round = tablelookupcolumnforrow( table, row, 0 );
             
-            if ( row < var_e1617d73 && round != 0 )
+            if ( row < row_count && round != 0 )
             {
                 round_index = round - 1;
                 
@@ -173,7 +173,7 @@ function private function_4dbf2663()
                 }
             }
         }
-        while ( row < var_e1617d73 && round != 0 );
+        while ( row < row_count && round != 0 );
     }
     
     level.var_6d87ac05 = level.var_c556bb2e[ 0 ];

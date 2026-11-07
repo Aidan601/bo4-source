@@ -208,7 +208,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7ef765bfe4cb59c7",
+                            "anim": "anim#ch_zm_mansion_outro_sh590_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -383,7 +383,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68259e558213d388",
+                            "anim": "anim#ch_zm_mansion_outro_sh590_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -581,7 +581,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5339af46e12c40f7",
+                            "anim": "anim#ch_zm_mansion_outro_sh600_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -611,7 +611,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_9f29fd527c59e50",
+                            "anim": "anim#ch_zm_mansion_outro_sh610_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -640,7 +640,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_328e3bc2a698bb3d",
+                            "anim": "anim#ch_zm_mansion_outro_sh620_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -671,7 +671,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_627f12033565a7be",
+                            "anim": "anim#ch_zm_mansion_outro_sh630_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -700,7 +700,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3e91a78653fcdc1b",
+                            "anim": "anim#ch_zm_mansion_outro_sh640_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1093,7 +1093,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_2a92f1695394c8c6",
+            "model": "model#veh_t8_zmb_1912_town_mansion_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -1279,7 +1279,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_67cc2d78b9a203a7",
+            "model": "model#veh_t8_zmb_1912_sedan_convertible_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -1348,7 +1348,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7340cbde791dccee",
+                            "anim": "anim#o_zm_mansion_outro_sh610_tree",
                             "entrytype": "anim"
                         }
                     ],
@@ -1378,7 +1378,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_484b2cf1f15ecfeb",
+                            "anim": "anim#o_zm_mansion_outro_sh620_tree",
                             "entrytype": "anim"
                         }
                     ],
@@ -1758,7 +1758,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_20f15364ab35cf05",
+                            "anim": "anim#o_zm_mansion_outro_sh630_card_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -1788,7 +1788,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4a77fcdb8ec95b94",
+                            "anim": "anim#o_zm_mansion_outro_sh640_card_bruno",
                             "entrytype": "anim"
                         }
                     ],
@@ -1939,7 +1939,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_747bde3697588245",
+                            "anim": "anim#o_zm_mansion_outro_sh630_card_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -1969,7 +1969,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3e32e8d69876b6e8",
+                            "anim": "anim#o_zm_mansion_outro_sh640_card_diego",
                             "entrytype": "anim"
                         }
                     ],
@@ -2120,7 +2120,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7e2008953e30f75c",
+                            "anim": "anim#o_zm_mansion_outro_sh630_card_stanton",
                             "entrytype": "anim"
                         }
                     ],
@@ -2150,7 +2150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6839bad29454c39d",
+                            "anim": "anim#o_zm_mansion_outro_sh640_card_stanton",
                             "entrytype": "anim"
                         }
                     ],

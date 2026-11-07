@@ -62,11 +62,11 @@ STRING "<dev string:x257>" 0x1a18 0x1a88
 STRING "<dev string:x263>" 0x1b20
 # scene::display_scene_menu@d58
 STRING "<dev string:x274>" 0x1b78
-# scene::function_606f1f21@c
+# scene::is_confirm_button_pressed@c
 STRING "<dev string:x28d>" 0x1f04
-# scene::function_606f1f21@30
+# scene::is_confirm_button_pressed@30
 STRING "<dev string:x298>" 0x1f28
-# scene::function_606f1f21@54
+# scene::is_confirm_button_pressed@54
 STRING "<dev string:x2a3>" 0x1f4c
 # scene::function_940c526f@c
 STRING "<dev string:x2ab>" 0x1f94
@@ -169,7 +169,7 @@ DEVBLOCK 0xda2
 DEVBLOCK 0xeca
 # scene::function_c0f30783@a
 DEVBLOCK 0x1e72
-# scene::function_606f1f21@2
+# scene::is_confirm_button_pressed@2
 DEVBLOCK 0x1efa
 # scene::function_940c526f@2
 DEVBLOCK 0x1f8a

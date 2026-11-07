@@ -726,7 +726,7 @@ function function_45a520db( params )
                 break;
             case #"miniboss":
                 var_487ba56d = 10;
-                playsoundatposition( #"hash_612ef6ccaf0effeb", self.origin );
+                playsoundatposition( #"zmb_rush_points_x10", self.origin );
                 break;
             case #"boss":
                 var_487ba56d = 15;
@@ -964,7 +964,7 @@ function function_e03ea502()
                         
                         if ( self.var_7e008e0c > 0 && !( isdefined( self.var_5288b14b ) && self.var_5288b14b ) )
                         {
-                            self playsoundtoplayer( #"hash_d71dba92ab8897c", self );
+                            self playsoundtoplayer( #"zmb_rush_lose_multi_big", self );
                             self thread function_a097cde6();
                         }
                     }
@@ -1030,7 +1030,7 @@ function function_c1ab015e()
     
     while ( self.var_7e008e0c > 0 )
     {
-        self playsoundtoplayer( #"hash_10a416158cd8fd3a", self );
+        self playsoundtoplayer( #"zmb_rush_lose_multi_warn", self );
         self notify( #"multiplier_timeout" );
         wait 1;
     }
@@ -1862,7 +1862,7 @@ function function_7adb4617()
 // Params 2
 // Checksum 0xfcb29cd7, Offset: 0x5b80
 // Size: 0x6a, Type: bool
-function function_2b580cd4( var_e5fb46a8, str_name )
+function is_in_cooldown( var_e5fb46a8, str_name )
 {
     if ( !isdefined( var_e5fb46a8.var_bde53893 ) )
     {
@@ -1886,7 +1886,7 @@ function function_2b580cd4( var_e5fb46a8, str_name )
 // Size: 0x44, Type: bool
 function function_37fe3e07( e_player, var_957235ca )
 {
-    return function_2b580cd4( e_player, var_957235ca ) || function_2b580cd4( level, var_957235ca );
+    return is_in_cooldown( e_player, var_957235ca ) || is_in_cooldown( level, var_957235ca );
 }
 
 // Namespace zstandard/zstandard
@@ -1927,7 +1927,7 @@ function function_d679a241( player )
 // Size: 0x44, Type: bool
 function function_36f1c05b( e_player, str_crafting_table )
 {
-    return function_2b580cd4( e_player, str_crafting_table ) || function_2b580cd4( level, str_crafting_table );
+    return is_in_cooldown( e_player, str_crafting_table ) || is_in_cooldown( level, str_crafting_table );
 }
 
 // Namespace zstandard/zstandard
@@ -2088,7 +2088,7 @@ function function_3d4fea64( e_player, player_has_weapon )
 // Size: 0x1a8
 function function_7acf9d9b( e_door )
 {
-    if ( zm_utility::function_e37823df() && zm_utility::function_5f8f4d1b( e_door ) && !( isdefined( e_door.var_c947f134 ) && e_door.var_c947f134 ) )
+    if ( zm_utility::function_e37823df() && zm_utility::function_5f8f4d1b( e_door ) && !( isdefined( e_door.script_disable_door ) && e_door.script_disable_door ) )
     {
         zm_utility::function_1409b164();
         level notify( #"hash_4ffec9c5f552e6fc", { #e_door:e_door } );
@@ -2096,7 +2096,7 @@ function function_7acf9d9b( e_door )
         return 1;
     }
     
-    if ( self == e_door && !( isdefined( e_door.var_c947f134 ) && e_door.var_c947f134 ) )
+    if ( self == e_door && !( isdefined( e_door.script_disable_door ) && e_door.script_disable_door ) )
     {
         return 1;
     }
@@ -2113,7 +2113,7 @@ function set_door_hint_string( e_door )
 {
     e_door endon( #"death" );
     
-    if ( zm_utility::function_e37823df() && e_door.script_noteworthy !== "electric_door" && e_door.script_noteworthy !== "electric_buyable_door" && !( isdefined( e_door.var_c947f134 ) && e_door.var_c947f134 ) )
+    if ( zm_utility::function_e37823df() && e_door.script_noteworthy !== "electric_door" && e_door.script_noteworthy !== "electric_buyable_door" && !( isdefined( e_door.script_disable_door ) && e_door.script_disable_door ) )
     {
         while ( true )
         {
@@ -2139,7 +2139,7 @@ function set_door_hint_string( e_door )
         return;
     }
     
-    if ( e_door.script_noteworthy === "electric_door" || e_door.script_noteworthy === "electric_buyable_door" || isdefined( e_door.var_c947f134 ) && e_door.var_c947f134 )
+    if ( e_door.script_noteworthy === "electric_door" || e_door.script_noteworthy === "electric_buyable_door" || isdefined( e_door.script_disable_door ) && e_door.script_disable_door )
     {
         if ( isdefined( level.var_d5bd7049 ) )
         {

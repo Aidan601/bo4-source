@@ -54,7 +54,7 @@ function init()
 // Params 0
 // Checksum 0x647be0be, Offset: 0x14b0
 // Size: 0x284
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     if ( self.team == #"allies" )
     {
@@ -110,7 +110,7 @@ function function_c9ff0dce()
 // Params 11
 // Checksum 0x673bd80c, Offset: 0x1740
 // Size: 0x60
-function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     return n_damage;
 }
@@ -1837,7 +1837,7 @@ function function_df8f80c4( e_target, n_wait_min = 0.1, n_wait_max = 0.5 )
 // Params 2
 // Checksum 0xf2373561, Offset: 0x7960
 // Size: 0x272
-function function_58c62280( b_keyline, var_2f3964e3 )
+function function_58c62280( b_keyline, b_ignore_all )
 {
     self endon( #"death" );
     s_loc = level.var_72c3ea74[ level.var_da5432a2 ];
@@ -1851,7 +1851,7 @@ function function_58c62280( b_keyline, var_2f3964e3 )
     self ct_utils::function_61d750d4( s_loc );
     self thread ct_utils::function_5b59f3b7( s_loc.origin, s_loc.angles, 32 );
     
-    if ( isdefined( var_2f3964e3 ) && var_2f3964e3 )
+    if ( isdefined( b_ignore_all ) && b_ignore_all )
     {
         self val::set( #"enemy_bot", "ignoreall" );
     }
@@ -1925,15 +1925,15 @@ function function_db1ee4ed( s_loc )
     
     while ( isdefined( s_loc.target ) )
     {
-        if ( !isdefined( s_loc.var_32bac158 ) )
+        if ( !isdefined( s_loc.b_hover ) )
         {
-            s_loc.var_32bac158 = 0;
+            s_loc.b_hover = 0;
         }
         
-        self helicopter::set_goal_pos( s_loc.origin, s_loc.var_32bac158 );
+        self helicopter::set_goal_pos( s_loc.origin, s_loc.b_hover );
         self waittill( #"goal" );
         
-        if ( isdefined( s_loc.var_32bac158 ) && s_loc.var_32bac158 )
+        if ( isdefined( s_loc.b_hover ) && s_loc.b_hover )
         {
             var_5d7abed6 = randomintrange( var_7cab7ee2, var_bebc0c3a );
             self thread helicopter::heli_hover();
@@ -2055,11 +2055,11 @@ function function_2c254de9( var_6e9e34cc = 2 )
 // Params 11
 // Checksum 0xe4127297, Offset: 0x8498
 // Size: 0x12a
-function overridedamage_player( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function overridedamage_player( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     if ( isdefined( self.var_300958a7 ) )
     {
-        var_d0621c54 = self [[ self.var_300958a7 ]]( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf );
+        var_d0621c54 = self [[ self.var_300958a7 ]]( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index );
     }
     else
     {

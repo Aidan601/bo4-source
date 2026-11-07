@@ -35,7 +35,7 @@ function __init__()
 // Size: 0x64
 function enable()
 {
-    zm_wallbuy::function_c047c228( &override_wallbuy_cost );
+    zm_wallbuy::register_player_weapon_cost_override( &override_wallbuy_cost );
     zm_wallbuy::function_33023da5( &override_wallbuy_cost );
     zm_wallbuy::function_48f914bd( &override_ammo_cost );
 }

@@ -198,7 +198,7 @@ function function_bbbc20bf( var_a7bc1cee = 0 )
         
         if ( var_a7bc1cee )
         {
-            mdl_head playsound( #"hash_3d7066af9c9bf849" );
+            mdl_head playsound( #"zmb_papquest_head_place" );
             mdl_head thread zm_towers_pap_quest::function_61cf4d04();
         }
     }
@@ -563,7 +563,7 @@ function function_11962516()
         var_1a397ef++;
     }
     
-    zm_round_spawning::function_b4a8f95a( #"tiger", var_1a397ef, &zm_towers_special_rounds::function_f63225b8, &zm_towers_special_rounds::function_9a74f284, &zm_towers_special_rounds::function_a5dc8595, &zombie_tiger_util::function_ffa01525 );
+    zm_round_spawning::schedule_special_round( #"tiger", var_1a397ef, &zm_towers_special_rounds::function_f63225b8, &zm_towers_special_rounds::function_9a74f284, &zm_towers_special_rounds::function_a5dc8595, &zombie_tiger_util::function_ffa01525 );
     zm_utility::function_fdb0368( var_1a397ef );
     wait 2;
     zm_utility::function_9b7bc715( #"tiger", 1 );

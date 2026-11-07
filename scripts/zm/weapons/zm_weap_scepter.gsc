@@ -86,7 +86,7 @@ function __init__()
 // Size: 0x4c
 function on_connect()
 {
-    self thread function_fa0a1b19();
+    self thread add_revive_override();
     self thread function_717a1af2();
     self thread function_63e57124();
 }
@@ -756,7 +756,7 @@ function function_254a7556()
 // Params 0
 // Checksum 0x9e2ad778, Offset: 0x2820
 // Size: 0xb6
-function function_fa0a1b19()
+function add_revive_override()
 {
     if ( !isdefined( self.var_84f67244 ) )
     {

@@ -708,14 +708,14 @@ function function_1833fe3e( einflictor, attacker, idamage, smeansofdeath, weapon
             }
         }
         
-        var_947d01ee = util::getweaponclass( weapon );
+        str_weapon_class = util::getweaponclass( weapon );
         
-        if ( !isdefined( var_947d01ee ) )
+        if ( !isdefined( str_weapon_class ) )
         {
             return idamage;
         }
         
-        switch ( var_947d01ee )
+        switch ( str_weapon_class )
         {
             case #"weapon_knife":
             case #"weapon_pistol":

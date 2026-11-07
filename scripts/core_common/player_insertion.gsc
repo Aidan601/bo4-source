@@ -1616,7 +1616,7 @@ function private function_e3f18577()
     
     if ( height == 0 )
     {
-        height = isdefined( level.var_405a6738 ) ? level.var_405a6738 : 36000;
+        height = isdefined( level.infilheight ) ? level.infilheight : 36000;
     }
     
     return height;

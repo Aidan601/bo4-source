@@ -59,7 +59,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_3b3a9f77180bc64a",
+                            "anim": "playeranim#pb_aac_idle_male",
                             "entrytype": "anim"
                         }
                     ],

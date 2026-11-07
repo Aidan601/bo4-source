@@ -988,9 +988,9 @@ function _print_player_out( n_range_sq = 9000000 )
 function get_closest_valid_player( n_range_sq = 9000000 )
 {
     a_players = util::get_active_players();
-    var_df053feb = arraysortclosest( a_players, self.origin );
+    a_players_sorted = arraysortclosest( a_players, self.origin );
     
-    foreach ( player in var_df053feb )
+    foreach ( player in a_players_sorted )
     {
         v_player = player getcentroid();
         n_dist = distance2dsquared( self.origin, v_player );

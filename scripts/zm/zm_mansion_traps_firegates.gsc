@@ -208,7 +208,7 @@ function function_aa539d7b()
     
     if ( !zm_utility::is_standard() )
     {
-        level flag::wait_till( self.var_78f643be );
+        level flag::wait_till( self.script_flag_zone_wait );
     }
     
     self.var_23769a97 = [];

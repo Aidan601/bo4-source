@@ -167,7 +167,7 @@ function function_306ce518( str_archetype, var_b77797 )
 // Params 7
 // Checksum 0x3512690c, Offset: 0x628
 // Size: 0x214
-function function_b4a8f95a( var_616b394b, n_round, func_start, func_end, var_124f39da, var_84f505b1, b_ignore_cleanup = 1 )
+function schedule_special_round( var_616b394b, n_round, func_start, func_end, var_124f39da, var_84f505b1, b_ignore_cleanup = 1 )
 {
     function_bc9fd0f8( n_round );
     

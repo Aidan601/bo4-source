@@ -239,7 +239,7 @@ function function_bda82828()
     
     foreach ( player in util::get_active_players() )
     {
-        player thread zm_vo::vo_say( #"hash_33e1e5be84d42bba", 0, 1, 9999, 1, 1, 1 );
+        player thread zm_vo::vo_say( #"vox_amphi_aftermath_1_orac_0", 0, 1, 9999, 1, 1, 1 );
     }
     
     vol_amphitheater = getent( "vol_power_quest_kill_zone", "targetname" );
@@ -881,7 +881,7 @@ function function_e9f93d33()
     str_model = level.var_b0ccfa4c[ randomint( level.var_b0ccfa4c.size ) ];
     mdl_zombie = util::spawn_model( str_model, self.origin, self.angles );
     mdl_zombie.target = self.target;
-    mdl_zombie.var_e259ad71 = self.var_e259ad71;
+    mdl_zombie.script_power_quest_section = self.script_power_quest_section;
     mdl_zombie.mdl_chaos = array::get_all_closest( mdl_zombie.origin, getentarray( "chaos_crust", "targetname" ) )[ 0 ];
     mdl_zombie.sp_model = getent( str_model, "targetname" );
     
@@ -1170,7 +1170,7 @@ function function_30da273d()
 // Params 1
 // Checksum 0xbe8f2f7c, Offset: 0x4f68
 // Size: 0x464
-function function_a5b8e88f( var_ddab7294 = 0 )
+function function_a5b8e88f( b_restarted = 0 )
 {
     self notify( "392ebc6b9cec5b9" );
     self endon( "392ebc6b9cec5b9" );
@@ -1180,7 +1180,7 @@ function function_a5b8e88f( var_ddab7294 = 0 )
     level.var_2f2b78fb.var_30c1e68b = 25;
     a_mdl_zombies = array::randomize( level.var_9400690b );
     
-    if ( var_ddab7294 )
+    if ( b_restarted )
     {
         level.var_19819980 = 0;
         level thread function_30da273d();

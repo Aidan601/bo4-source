@@ -162,7 +162,7 @@ function function_4748fb49()
 // Size: 0x6c
 function setup_crawler_round( n_round )
 {
-    zm_round_spawning::function_b4a8f95a( #"nova_crawler", n_round, &crawler_round_start, &water_drop_triggerreactidgunterminate, &function_f6e748b, &function_f726e44, 0 );
+    zm_round_spawning::schedule_special_round( #"nova_crawler", n_round, &crawler_round_start, &water_drop_triggerreactidgunterminate, &function_f6e748b, &function_f726e44, 0 );
 }
 
 // Namespace nova_crawler_util/namespace_a366d2a9
@@ -427,7 +427,7 @@ function function_c44636f2( b_ignore_cleanup = 1 )
 function function_5b0522fa()
 {
     level.var_f5419c22 = 20;
-    zm_round_spawning::function_b4a8f95a( #"nova_crawler", level.var_f5419c22, &function_9e97e0f7, &function_de265920, &function_70a8e26c, &function_d7e9e2ff, level.var_8167b1e );
+    zm_round_spawning::schedule_special_round( #"nova_crawler", level.var_f5419c22, &function_9e97e0f7, &function_de265920, &function_70a8e26c, &function_d7e9e2ff, level.var_8167b1e );
     zm_utility::function_fdb0368( 11 );
     level flagsys::set( #"hash_2a1fc2e349c48462" );
 }

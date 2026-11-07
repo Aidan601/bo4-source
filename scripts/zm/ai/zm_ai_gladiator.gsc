@@ -292,12 +292,12 @@ function private gladiatortargetservice( entity )
     entity.zombie_poi = entity zm_utility::get_zombie_point_of_interest( entity.origin );
     entity zombie_utility::run_ignore_player_handler();
     
-    if ( isdefined( entity.var_4f1b8d2b ) && entity.var_4f1b8d2b && isdefined( entity.favoriteenemy ) && isplayer( entity.favoriteenemy ) && !isdefined( zm_zonemgr::get_zone_path( entity.favoriteenemy, entity ) ) )
+    if ( isdefined( entity.lock_favoriteenemy ) && entity.lock_favoriteenemy && isdefined( entity.favoriteenemy ) && isplayer( entity.favoriteenemy ) && !isdefined( zm_zonemgr::get_zone_path( entity.favoriteenemy, entity ) ) )
     {
-        entity.var_4f1b8d2b = 0;
+        entity.lock_favoriteenemy = 0;
     }
     
-    if ( entity.subarchetype == #"gladiator_marauder" && !( isdefined( entity.var_4f1b8d2b ) && entity.var_4f1b8d2b ) )
+    if ( entity.subarchetype == #"gladiator_marauder" && !( isdefined( entity.lock_favoriteenemy ) && entity.lock_favoriteenemy ) )
     {
         entity.favoriteenemy = entity.var_93a62fe;
     }
@@ -1017,7 +1017,7 @@ function private function_3ca98f5a( entity )
     
     if ( entity.subarchetype == #"gladiator_marauder" )
     {
-        entity.var_4f1b8d2b = 1;
+        entity.lock_favoriteenemy = 1;
     }
 }
 
@@ -1292,7 +1292,7 @@ function private function_cdef55f0( entity )
         record3dtext( "<dev string:x82>", self.origin, ( 1, 0, 0 ), "<dev string:x8a>", entity );
     #/
     
-    entity.var_4f1b8d2b = 0;
+    entity.lock_favoriteenemy = 0;
     
     if ( isplayer( hitent ) )
     {
@@ -1423,10 +1423,10 @@ function private function_75f32da6( inflictor, attacker, damage, idflags, meanso
         return 0;
     }
     
-    if ( isdefined( attacker ) && isplayer( attacker ) && self.subarchetype == #"gladiator_marauder" && !isdefined( self.var_4f1b8d2b ) && isdefined( zm_zonemgr::get_zone_path( attacker, self ) ) )
+    if ( isdefined( attacker ) && isplayer( attacker ) && self.subarchetype == #"gladiator_marauder" && !isdefined( self.lock_favoriteenemy ) && isdefined( zm_zonemgr::get_zone_path( attacker, self ) ) )
     {
         self.favoriteenemy = attacker;
-        self.var_4f1b8d2b = 1;
+        self.lock_favoriteenemy = 1;
         self.var_cb89528d = 1;
     }
     

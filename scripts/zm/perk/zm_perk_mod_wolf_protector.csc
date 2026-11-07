@@ -22,7 +22,7 @@ function __init__()
 {
     if ( getdvarint( #"hash_4e1190045ef3588b", 0 ) )
     {
-        function_27473e44();
+        enable_perk_for_level();
     }
 }
 
@@ -30,7 +30,7 @@ function __init__()
 // Params 0
 // Checksum 0x43e06b5e, Offset: 0x160
 // Size: 0xec
-function function_27473e44()
+function enable_perk_for_level()
 {
     zm_perks::register_perk_clientfields( #"specialty_mod_wolf_protector", &client_field_func, &code_callback_func );
     zm_perks::register_perk_init_thread( #"specialty_mod_wolf_protector", &init );

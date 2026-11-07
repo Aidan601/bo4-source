@@ -17,7 +17,7 @@ STRING "<dev string:x7c>" 0x1904
 DEVBLOCK 0x2b2
 # infection::__init__@12a
 DEVBLOCK 0x2ca
-# infection::function_89116a1e@7c
+# infection::get_spawn_point@7c
 DEVBLOCK 0xb2c
 # infection::function_b8c66122@a
 DEVBLOCK 0xe6a

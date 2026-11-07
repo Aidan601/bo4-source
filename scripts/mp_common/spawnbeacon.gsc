@@ -89,7 +89,7 @@ function function_3e8ff788( attacker, victim, var_f5db414c, killtime, weapon, sp
 // Params 4
 // Checksum 0x1a1460c5, Offset: 0x5c0
 // Size: 0xcc
-function function_cdeb9089( attacker, victim, spawnbeaconweapon, var_fb972b2b )
+function function_cdeb9089( attacker, victim, spawnbeaconweapon, defendedobjective )
 {
     if ( !isdefined( attacker ) || !isdefined( spawnbeaconweapon ) || !isdefined( attacker.var_7c18e526 ) )
     {

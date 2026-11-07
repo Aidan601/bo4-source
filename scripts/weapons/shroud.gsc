@@ -66,7 +66,7 @@ function function_1c601b99()
     
     if ( isdefined( level.var_a5dacbea ) )
     {
-        [[ level.var_a5dacbea ]]( level.var_9bc205c6, &weaponobjects::function_127fb8f3 );
+        [[ level.var_a5dacbea ]]( level.var_9bc205c6, &weaponobjects::onjammed );
     }
 }
 
@@ -201,9 +201,9 @@ function function_a86d28fc( attacker, victim )
         return;
     }
     
-    var_f557e840 = getplayers( attacker.team );
+    attacker_teammates = getplayers( attacker.team );
     
-    foreach ( teammate in var_f557e840 )
+    foreach ( teammate in attacker_teammates )
     {
         if ( !isdefined( teammate ) )
         {

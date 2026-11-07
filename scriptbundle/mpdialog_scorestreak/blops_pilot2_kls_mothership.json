@@ -1,16 +1,16 @@
 {
-    "remoteoperatoradd": "#hash_3a476c8d0f5e5d6c",
+    "remoteoperatoradd": "#vox_bmp1_kls_mothership_op_add",
     "configstringfiletype": "scriptbundle",
     "type": "mpdialog_scorestreak",
-    "killmultiple": "#hash_7dfcdfd42c0bd834",
+    "killmultiple": "#vox_bmp1_kls_mothership_kill_multiple",
     "vmtype": "both",
-    "remoteoperatorremoved": "#hash_6131b08ccc3259a5",
+    "remoteoperatorremoved": "#vox_bmp1_kls_mothership_op_remove",
     "name": "blops_pilot2_kls_mothership",
-    "arrive": "#hash_61ba3ea9607bfa34",
-    "timeout": "#hash_19cce7f4f7678bd2",
-    "kill": "#hash_1462b29bff7b634f",
-    "weapondestroyed": "#hash_5ce90f176a42185d",
-    "kill1": "#hash_1f18fd131eaa0f1a",
-    "kill3": "#hash_1f18fb131eaa0bb4",
-    "kill2": "#hash_1f18fc131eaa0d67"
+    "arrive": "#vox_bmp1_kls_mothership_arrive",
+    "timeout": "#vox_bmp1_kls_mothership_timeout",
+    "kill": "#vox_bmp1_kls_mothership_kill",
+    "weapondestroyed": "#vox_bmp1_kls_mothership_turret_destroyed",
+    "kill1": "#vox_bmp1_kls_mothership_kill1",
+    "kill3": "#vox_bmp1_kls_mothership_kill3",
+    "kill2": "#vox_bmp1_kls_mothership_kill2"
 }

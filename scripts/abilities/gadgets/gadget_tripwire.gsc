@@ -73,7 +73,7 @@ function function_3675de8b()
     
     if ( isdefined( level.var_a5dacbea ) )
     {
-        [[ level.var_a5dacbea ]]( getweapon( "eq_tripwire" ), &weaponobjects::function_127fb8f3 );
+        [[ level.var_a5dacbea ]]( getweapon( "eq_tripwire" ), &weaponobjects::onjammed );
     }
 }
 

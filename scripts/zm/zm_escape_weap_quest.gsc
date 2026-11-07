@@ -67,7 +67,7 @@ function function_bad944b5()
     level.var_b5ca4338 = [];
     level.var_6aa46602 = [];
     level.n_soul_catchers_charged = 0;
-    level.var_22f00ccf = array( "idle", "scan", "shake", "yawn" );
+    level.wolf_head_idle_anims = array( "idle", "scan", "shake", "yawn" );
     level.no_gib_in_wolf_area = &check_for_zombie_in_wolf_area;
     level.var_49662f50 = struct::get_array( "wolf_position" );
     
@@ -75,7 +75,7 @@ function function_bad944b5()
     {
         level.a_s_soul_catchers[ i ] = level.var_49662f50[ i ];
         level.var_b5ca4338[ i ] = getent( level.var_49662f50[ i ].target, "targetname" );
-        level.var_6aa46602[ i ] = struct::get( level.var_49662f50[ i ].var_799fb8e9 );
+        level.var_6aa46602[ i ] = struct::get( level.var_49662f50[ i ].script_scene_name );
     }
     
     for ( i = 0; i < level.a_s_soul_catchers.size ; i++ )
@@ -284,7 +284,7 @@ function function_e40e9d94( n_eating_anim, ai_zombie, e_activator )
     
     if ( self.var_43bd3b5 < 5 )
     {
-        self thread function_e07f0c65( e_activator );
+        self thread wolf_feed_vo( e_activator );
     }
     
     self.s_scene thread scene::play( var_f2c6c759 );
@@ -423,7 +423,7 @@ function soul_catcher_state_manager()
     
     while ( !self.is_charged )
     {
-        self thread function_ee929ece();
+        self thread wolfhead_idle();
         self waittill( #"fully_charged", #"finished_eating" );
     }
     
@@ -437,14 +437,14 @@ function soul_catcher_state_manager()
 // Params 0
 // Checksum 0x4c8cc6d4, Offset: 0x19f0
 // Size: 0xe2
-function function_ee929ece()
+function wolfhead_idle()
 {
     self notify( #"wolf_idling" );
     self endon( #"wolf_eating", #"wolf_departing", #"wolf_idling" );
     
     while ( true )
     {
-        random_idle_anim = array::random( level.var_22f00ccf );
+        random_idle_anim = array::random( level.wolf_head_idle_anims );
         self.s_scene thread scene::play( random_idle_anim );
         var_c74251a4 = scene::function_8582657c( self.s_scene.scriptbundlename, random_idle_anim );
         wait var_c74251a4 + randomintrange( 4, 10 );
@@ -505,7 +505,7 @@ function soul_catcher_check()
         waitframe( 1 );
     }
     
-    self thread function_41b1af8c();
+    self thread wolf_complete_vo();
     
     if ( level.n_soul_catchers_charged >= level.a_s_soul_catchers.size )
     {
@@ -517,7 +517,7 @@ function soul_catcher_check()
 // Params 1
 // Checksum 0xce94ae87, Offset: 0x1cc8
 // Size: 0xd2
-function function_e07f0c65( e_activator )
+function wolf_feed_vo( e_activator )
 {
     if ( !zm_utility::is_classic() )
     {
@@ -540,7 +540,7 @@ function function_e07f0c65( e_activator )
 // Params 0
 // Checksum 0xc9e5b6cd, Offset: 0x1da8
 // Size: 0x102
-function function_41b1af8c()
+function wolf_complete_vo()
 {
     if ( !zm_utility::is_classic() )
     {

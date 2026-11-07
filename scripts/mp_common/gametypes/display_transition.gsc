@@ -72,7 +72,7 @@ function using_new_transitions()
 // Params 5, eflags: 0x4
 // Checksum 0x7eb137bd, Offset: 0x2e0
 // Size: 0x88
-function private function_b8e20f5f( transition, outcome, feature_enabled, feature_time, func )
+function private execute_transition_feature( transition, outcome, feature_enabled, feature_time, func )
 {
     if ( isdefined( feature_enabled ) && feature_enabled )
     {
@@ -438,14 +438,14 @@ function private function_8feabee3( transition, outcome )
 // Size: 0x214
 function private function_26bbb839( transition, outcome )
 {
-    thread function_b8e20f5f( transition, outcome, transition.slowdown, transition.slowdowntimestart, &function_9185f489 );
-    thread function_b8e20f5f( transition, outcome, transition.freezeplayers, transition.freezetime, &function_a3b4d41d );
-    thread function_b8e20f5f( transition, outcome, transition.announcehalftime, transition.var_8d7c57a2, &function_8feabee3 );
-    thread function_b8e20f5f( transition, outcome, transition.announceencouragement, transition.var_73f860db, &function_b7fec738 );
-    thread function_b8e20f5f( transition, outcome, transition.var_7a712c7, transition.var_a803fe51, &function_66713ac );
-    thread function_b8e20f5f( transition, outcome, transition.announceendgame, transition.var_de820e2d, &function_654c0030 );
-    thread function_b8e20f5f( transition, outcome, transition.var_f9995c63, transition.var_41fc87a8, &function_d9d842b2 );
-    thread function_b8e20f5f( transition, outcome, transition.pickup_message, transition.playerintermissiontime, &function_e22f5208 );
+    thread execute_transition_feature( transition, outcome, transition.slowdown, transition.slowdowntimestart, &function_9185f489 );
+    thread execute_transition_feature( transition, outcome, transition.freezeplayers, transition.freezetime, &function_a3b4d41d );
+    thread execute_transition_feature( transition, outcome, transition.announcehalftime, transition.var_8d7c57a2, &function_8feabee3 );
+    thread execute_transition_feature( transition, outcome, transition.announceencouragement, transition.var_73f860db, &function_b7fec738 );
+    thread execute_transition_feature( transition, outcome, transition.var_7a712c7, transition.var_a803fe51, &function_66713ac );
+    thread execute_transition_feature( transition, outcome, transition.announceendgame, transition.var_de820e2d, &function_654c0030 );
+    thread execute_transition_feature( transition, outcome, transition.var_f9995c63, transition.var_41fc87a8, &function_d9d842b2 );
+    thread execute_transition_feature( transition, outcome, transition.pickup_message, transition.playerintermissiontime, &function_e22f5208 );
 }
 
 // Namespace display_transition/display_transition
@@ -537,13 +537,13 @@ function private function_aed7dbe1( p1, p2 )
 // Size: 0x33c
 function private function_e17d407e( transition, outcome )
 {
-    var_77d0878c = array();
+    winning_players = array();
     
     foreach ( player in level.players )
     {
         if ( player.team == outcome.team && player player_role::get() != 0 )
         {
-            array::add( var_77d0878c, player );
+            array::add( winning_players, player );
         }
     }
     
@@ -564,17 +564,17 @@ function private function_e17d407e( transition, outcome )
     
     var_5a552ef6 = struct::get( "team_pose_cam", "targetname" );
     
-    if ( var_77d0878c.size == 0 || player_positions.size == 0 || !isdefined( var_5a552ef6 ) )
+    if ( winning_players.size == 0 || player_positions.size == 0 || !isdefined( var_5a552ef6 ) )
     {
         return;
     }
     
     function_26bbb839( transition, outcome );
-    var_77d0878c = array::quick_sort( var_77d0878c, &function_aed7dbe1 );
+    winning_players = array::quick_sort( winning_players, &function_aed7dbe1 );
     
-    for ( i = 0; i < min( var_77d0878c.size, player_positions.size ) ; i++ )
+    for ( i = 0; i < min( winning_players.size, player_positions.size ) ; i++ )
     {
-        player = var_77d0878c[ i ];
+        player = winning_players[ i ];
         player.sessionstate = "playing";
         player takeallweapons();
         fields = getcharacterfields( player player_role::get(), currentsessionmode() );
@@ -615,15 +615,15 @@ function function_b3214a0a( transition, outcome, next_transition )
 // Size: 0x1e2
 function function_7e74281()
 {
-    level.var_3a309902[ #"blank" ] = &function_26bbb839;
-    level.var_3a309902[ #"outcome" ] = &function_26bbb839;
-    level.var_3a309902[ #"outcome_with_score" ] = &function_26bbb839;
-    level.var_3a309902[ #"outcome_with_time" ] = &function_26bbb839;
-    level.var_3a309902[ #"switch_sides" ] = &function_e3855f6d;
-    level.var_3a309902[ #"final_killcam" ] = &function_a2d39e40;
-    level.var_3a309902[ #"play_of_the_match" ] = &function_e3442abc;
-    level.var_3a309902[ #"team_pose" ] = &function_e17d407e;
-    level.var_3a309902[ #"high_value_operatives" ] = &function_26bbb839;
+    level.display_transition_callbacks[ #"blank" ] = &function_26bbb839;
+    level.display_transition_callbacks[ #"outcome" ] = &function_26bbb839;
+    level.display_transition_callbacks[ #"outcome_with_score" ] = &function_26bbb839;
+    level.display_transition_callbacks[ #"outcome_with_time" ] = &function_26bbb839;
+    level.display_transition_callbacks[ #"switch_sides" ] = &function_e3855f6d;
+    level.display_transition_callbacks[ #"final_killcam" ] = &function_a2d39e40;
+    level.display_transition_callbacks[ #"play_of_the_match" ] = &function_e3442abc;
+    level.display_transition_callbacks[ #"team_pose" ] = &function_e17d407e;
+    level.display_transition_callbacks[ #"high_value_operatives" ] = &function_26bbb839;
     level.var_5d720398[ #"team_pose" ] = &function_b3214a0a;
 }
 
@@ -665,7 +665,7 @@ function display_transition( transition, transition_index, outcome, lui_event )
 {
     level thread globallogic::sndsetmatchsnapshot( 2 );
     player::function_e7f18b20( &function_b797319e, lui_event, transition_index + 1 );
-    [[ level.var_3a309902[ transition.type ] ]]( transition, outcome );
+    [[ level.display_transition_callbacks[ transition.type ] ]]( transition, outcome );
 }
 
 // Namespace display_transition/display_transition
@@ -694,7 +694,7 @@ function clear_transition()
 // Params 2
 // Checksum 0x9fae0f8, Offset: 0x1cd8
 // Size: 0x280, Type: bool
-function function_40a46b5b( transition, outcome )
+function display_transition_should_skip( transition, outcome )
 {
     if ( isdefined( transition.disable ) && transition.disable )
     {
@@ -775,7 +775,7 @@ function function_7e8f8c47( transitions, outcome, lui_event )
 {
     foreach ( index, transition in transitions )
     {
-        if ( function_40a46b5b( transition, outcome ) )
+        if ( display_transition_should_skip( transition, outcome ) )
         {
             continue;
         }

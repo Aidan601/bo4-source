@@ -80,7 +80,7 @@ function on_player_spawned()
     player endon( #"death", #"disconnect" );
     player.var_ba5b487b = 0;
     
-    if ( isdefined( player.var_92dddb36 ) && player.var_92dddb36 )
+    if ( isdefined( player.overclocked ) && player.overclocked )
     {
         player function_91e05fa7();
     }
@@ -674,7 +674,7 @@ function function_a1cc4c59( weapon, killcament )
 // Params 1
 // Checksum 0xf0192a97, Offset: 0x2828
 // Size: 0xa2
-function function_3cbab338( var_fb096220 )
+function function_3cbab338( wascanceled )
 {
     player = self;
     player setclientthirdperson( 0 );
@@ -682,7 +682,7 @@ function function_3cbab338( var_fb096220 )
     player enableweaponcycling();
     player setstance( "stand" );
     
-    if ( isdefined( var_fb096220 ) && var_fb096220 )
+    if ( isdefined( wascanceled ) && wascanceled )
     {
         player.var_342564dd = 0;
     }
@@ -735,7 +735,7 @@ function waitanddelete( time )
 // Params 1
 // Checksum 0x5321ab29, Offset: 0x2ac0
 // Size: 0x392
-function shutdown( var_fb096220 )
+function shutdown( wascanceled )
 {
     profilestart();
     player = self;
@@ -757,11 +757,11 @@ function shutdown( var_fb096220 )
         player.var_d44d1214 = undefined;
     }
     
-    player function_3cbab338( var_fb096220 );
+    player function_3cbab338( wascanceled );
     player.gadget_slot = undefined;
     player.gadget_weapon = undefined;
     
-    if ( isdefined( var_fb096220 ) && var_fb096220 )
+    if ( isdefined( wascanceled ) && wascanceled )
     {
         player function_91e05fa7();
     }
@@ -790,7 +790,7 @@ function shutdown( var_fb096220 )
     var_f52790de = getstatuseffect( level.radiationfield_bundle.var_8d1e6357 );
     player status_effect::function_408158ef( var_f52790de.setype, var_f52790de.var_18d16a6b );
     
-    if ( isdefined( var_fb096220 ) && var_fb096220 && isdefined( level.heroplaydialog ) )
+    if ( isdefined( wascanceled ) && wascanceled && isdefined( level.heroplaydialog ) )
     {
         buffer = 0;
         
@@ -814,7 +814,7 @@ function shutdown( var_fb096220 )
 function hide_player()
 {
     player = self;
-    player.var_92dddb36 = 1;
+    player.overclocked = 1;
 }
 
 // Namespace gadget_radiation_field/gadget_radiation_field
@@ -826,7 +826,7 @@ function function_91e05fa7()
     player = self;
     player allowprone( 1 );
     player allowstand( 1 );
-    player.var_92dddb36 = undefined;
+    player.overclocked = undefined;
 }
 
 // Namespace gadget_radiation_field/gadget_radiation_field

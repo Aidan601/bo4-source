@@ -429,7 +429,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -458,7 +458,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -487,7 +487,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -516,7 +516,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -548,7 +548,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -571,7 +571,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -600,7 +600,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -629,7 +629,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -658,7 +658,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -690,7 +690,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -713,7 +713,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -742,7 +742,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -771,7 +771,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -800,7 +800,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -832,7 +832,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -855,7 +855,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -884,7 +884,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -913,7 +913,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -942,7 +942,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -974,7 +974,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -997,7 +997,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1026,7 +1026,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1055,7 +1055,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1084,7 +1084,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1116,7 +1116,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -1139,7 +1139,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1168,7 +1168,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1197,7 +1197,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1226,7 +1226,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1258,7 +1258,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -1281,7 +1281,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1310,7 +1310,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1339,7 +1339,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1368,7 +1368,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1400,7 +1400,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -1423,7 +1423,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1452,7 +1452,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1481,7 +1481,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1510,7 +1510,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1542,7 +1542,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -1565,7 +1565,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1594,7 +1594,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1623,7 +1623,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1652,7 +1652,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1684,7 +1684,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -1707,7 +1707,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1736,7 +1736,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1765,7 +1765,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1794,7 +1794,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1826,7 +1826,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -1849,7 +1849,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1878,7 +1878,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1907,7 +1907,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1936,7 +1936,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1968,7 +1968,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -1991,7 +1991,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -2020,7 +2020,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -2049,7 +2049,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -2078,7 +2078,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -2110,7 +2110,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -2133,7 +2133,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -2162,7 +2162,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -2191,7 +2191,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -2220,7 +2220,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_d255bf14e98e579",
+                            "anim": "anim#p8_fxanim_core_frontend_recon_grass_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -2252,7 +2252,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_531522990f7160e8",
+            "model": "model#p8_fxanim_core_frontend_recon_grass_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,

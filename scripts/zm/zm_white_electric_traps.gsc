@@ -351,7 +351,7 @@ function function_70557fa2( n_sequence )
     {
         if ( var_131f4c21.script_int === n_sequence )
         {
-            if ( var_131f4c21.var_7f831216 === 2 )
+            if ( var_131f4c21.laser_size === 2 )
             {
                 var_131f4c21.mdl_laser clientfield::set( "" + #"hash_6d40a3f1944d81b2", 2 );
             }

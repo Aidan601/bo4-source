@@ -138,7 +138,7 @@ function init_traps()
         s_statue = struct::get( "boss_statue_" + i, "targetname" );
         e_statue = util::spawn_model( s_statue.model, s_statue.origin, s_statue.angles );
         e_statue.targetname = s_statue.targetname;
-        e_statue.var_87fb192a = s_statue.var_87fb192a;
+        e_statue.rest_position = s_statue.rest_position;
         e_statue.var_bbfcddc6 = i;
         e_statue.var_5f88b76a = 0;
         
@@ -1221,9 +1221,9 @@ function function_f433c7f5( n_stage )
         }
         
         var_b3160934 = #"hash_44e932e9dc79e15a" + var_6bbd958f;
-        var_23ee4083 = vectortoangles( var_c43c78f9.origin - var_f26f9e5a.origin );
+        v_facing_angles = vectortoangles( var_c43c78f9.origin - var_f26f9e5a.origin );
         level.s_boss.var_4944ec8.origin = var_f26f9e5a.origin;
-        level.s_boss.var_4944ec8.angles = var_23ee4083;
+        level.s_boss.var_4944ec8.angles = v_facing_angles;
         level.s_boss.var_4944ec8 thread scene::play( #"aib_t8_zm_mnsn_hallion_quad_run", level.s_boss.var_4944ec8 );
         level.s_boss.var_4944ec8 thread function_c1b6e914();
         level.s_boss.var_4944ec8 thread function_cc0b32f8( n_stage );
@@ -2155,12 +2155,12 @@ function function_1025059f( var_2175ea54, n_statue, var_2d102ea7, var_b7daddf4 =
     {
         e_sigil = level.var_60ce0a79[ var_2175ea54 ];
         var_8f6b69b0 = level.var_60ce0a79[ var_2d102ea7 ];
-        var_23ee4083 = vectortoangles( e_sigil.origin - e_statue.origin );
-        var_23ee4083 = var_23ee4083;
+        v_facing_angles = vectortoangles( e_sigil.origin - e_statue.origin );
+        v_facing_angles = v_facing_angles;
     }
     else
     {
-        var_23ee4083 = e_statue.var_87fb192a;
+        v_facing_angles = e_statue.rest_position;
         e_statue.var_ae187a59 = 0;
     }
     
@@ -2170,7 +2170,7 @@ function function_1025059f( var_2175ea54, n_statue, var_2d102ea7, var_b7daddf4 =
     }
     
     e_statue function_d2367771();
-    e_statue rotateto( var_23ee4083, n_turn_speed );
+    e_statue rotateto( v_facing_angles, n_turn_speed );
     e_statue playsound( #"zmb_hallion_statue_move_start" );
     e_statue playloopsound( #"zmb_hallion_statue_move_lp" );
     wait n_turn_speed;
@@ -2711,7 +2711,7 @@ function function_de5e2c78()
     {
         s_spawnloc = array::random( level.var_db1658d1 );
         
-        if ( !( isdefined( self.var_ebae258d ) && self.var_ebae258d ) )
+        if ( !( isdefined( self.b_on_cooldown ) && self.b_on_cooldown ) )
         {
             s_spawnloc thread function_8f28b521();
             return s_spawnloc;
@@ -2727,9 +2727,9 @@ function function_de5e2c78()
 // Size: 0x26
 function function_8f28b521()
 {
-    self.var_ebae258d = 1;
+    self.b_on_cooldown = 1;
     wait 1.5;
-    self.var_ebae258d = 0;
+    self.b_on_cooldown = 0;
 }
 
 /#

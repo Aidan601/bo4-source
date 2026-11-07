@@ -66,7 +66,7 @@ function function_1c601b99()
     
     if ( isdefined( level.var_a5dacbea ) )
     {
-        [[ level.var_a5dacbea ]]( level.sensordartweapon, &weaponobjects::function_127fb8f3 );
+        [[ level.var_a5dacbea ]]( level.sensordartweapon, &weaponobjects::onjammed );
     }
 }
 

@@ -37,7 +37,7 @@ function init()
 // Params 0
 // Checksum 0x2c090c6b, Offset: 0xe30
 // Size: 0x2da
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     if ( self.team == #"allies" )
     {
@@ -110,7 +110,7 @@ function function_c9ff0dce()
 // Params 11
 // Checksum 0xd9822c18, Offset: 0x1118
 // Size: 0x1d6
-function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     if ( !isdefined( level.var_ad7c0539 ) )
     {
@@ -288,7 +288,7 @@ function function_86c058b()
     level thread ct_vo::function_14b08e49( array( #"vox_tvoi_tutor_reco_move_nag" ), "stop_nag" );
     ct_utils::function_d25bd3c9( s_loc.origin, 80, 0 );
     level notify( #"stop_nag" );
-    waypoint ct_utils::function_f9ed304d();
+    waypoint ct_utils::cleanup_waypoint();
     ct_utils::function_c2a10fc();
     waitframe( 1 );
     ct_utils::function_e9ab1003( "s_recon_vision_pulse_obj" );
@@ -312,7 +312,7 @@ function function_86c058b()
     level thread ct_bots::activate_bots( level.var_66b3c127.size, #"axis" );
     wait 0.2;
     level.var_e72728b8 = array( #"eq_sensor" );
-    level thread ct_vo::function_14b08e49( array( #"hash_dd77a0770d28e66" ), "stop_nag" );
+    level thread ct_vo::function_14b08e49( array( #"vox_tvoi_tutor_reco_vis_pulse_nag" ), "stop_nag" );
     e_player = getplayers()[ 0 ];
     e_player waittill( #"vision_pulse_on" );
     level notify( #"stop_nag" );
@@ -937,7 +937,7 @@ function function_39f9d433()
     e_player = getplayers()[ 0 ];
     var_c0b8e10c = e_player gamepadusedlast() ? #"hash_42fb522d8067c039" : #"hash_29d476be9b1e85f";
     e_player thread ct_utils::function_61c3d59c( var_c0b8e10c, undefined );
-    level thread ct_vo::function_14b08e49( array( #"hash_dd77a0770d28e66" ), "stop_nag" );
+    level thread ct_vo::function_14b08e49( array( #"vox_tvoi_tutor_reco_vis_pulse_nag" ), "stop_nag" );
     e_player = getplayers()[ 0 ];
     e_player waittill( #"vision_pulse_on" );
     level notify( #"stop_nag" );

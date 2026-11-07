@@ -768,7 +768,7 @@ function function_ec9ac3b2( e_player, current_weapon )
 // Size: 0x22
 function function_d0288a41()
 {
-    if ( isdefined( self.var_61d0df53 ) && self.var_61d0df53 )
+    if ( isdefined( self.b_is_golden ) && self.b_is_golden )
     {
         return 1;
     }

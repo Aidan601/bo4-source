@@ -305,11 +305,11 @@ function function_f910ed8a()
     }
     
     var_c3bb4e09 = zombie_count;
-    var_f1fbce84 = zombie_count;
-    var_aeae9f59 = var_f1fbce84 + var_f1fbce84;
-    wz_ai_zonemgr::function_5f0d105a( 0, #"paradegrounds", #"spawner_boct_zombie_mob_wz", var_aeae9f59, var_f1fbce84, var_c3bb4e09 );
-    wz_ai_zonemgr::function_5f0d105a( 0, #"cellhouse", #"spawner_boct_zombie_mob_wz", var_aeae9f59, var_f1fbce84, var_c3bb4e09 );
-    wz_ai_zonemgr::function_5f0d105a( 0, #"newindustries", #"spawner_boct_zombie_mob_wz", var_aeae9f59, var_f1fbce84, var_c3bb4e09 );
+    max_alive_count = zombie_count;
+    var_aeae9f59 = max_alive_count + max_alive_count;
+    wz_ai_zonemgr::function_5f0d105a( 0, #"paradegrounds", #"spawner_boct_zombie_mob_wz", var_aeae9f59, max_alive_count, var_c3bb4e09 );
+    wz_ai_zonemgr::function_5f0d105a( 0, #"cellhouse", #"spawner_boct_zombie_mob_wz", var_aeae9f59, max_alive_count, var_c3bb4e09 );
+    wz_ai_zonemgr::function_5f0d105a( 0, #"newindustries", #"spawner_boct_zombie_mob_wz", var_aeae9f59, max_alive_count, var_c3bb4e09 );
     wz_ai_zonemgr::function_462b41e2( #"paradegrounds", #"spawner_boct_zombie_mob_wz", #"zombie_supply_stash_escape_zonea", #"hash_43b30c7ff9b4f4c2", #"hash_3c449d1a7a0cd70e" );
     wz_ai_zonemgr::function_462b41e2( #"cellhouse", #"spawner_boct_zombie_mob_wz", #"zombie_supply_stash_escape_zoneb", #"hash_367f5a5f344dcda7", #"hash_6a498d20dd284089" );
     wz_ai_zonemgr::function_462b41e2( #"newindustries", #"spawner_boct_zombie_mob_wz", #"zombie_supply_stash_escape_zonec", #"hash_451e5522eeb07ee8", #"hash_3db2892c24c8a1bc" );

@@ -104,7 +104,7 @@ function function_6fa16bd2( b_force_spawn = 0, var_eb3a8721 )
     }
     else
     {
-        b_result = zombie_dog_util::function_62db7b1c( b_force_spawn, var_eb3a8721 );
+        b_result = zombie_dog_util::spawn_single_dog( b_force_spawn, var_eb3a8721 );
     }
     
     return b_result;
@@ -151,7 +151,7 @@ function function_a409c2a7( e_target )
             }
         }
         
-        var_905a9429 = [];
+        valid_spawn_locs = [];
         var_51fb0ec7 = [];
         
         foreach ( loc in level.zm_loc_types[ #"dog_location" ] )
@@ -164,16 +164,16 @@ function function_a409c2a7( e_target )
                 {
                     if ( sqr_dist > 250000 )
                     {
-                        if ( !isdefined( var_905a9429 ) )
+                        if ( !isdefined( valid_spawn_locs ) )
                         {
-                            var_905a9429 = [];
+                            valid_spawn_locs = [];
                         }
-                        else if ( !isarray( var_905a9429 ) )
+                        else if ( !isarray( valid_spawn_locs ) )
                         {
-                            var_905a9429 = array( var_905a9429 );
+                            valid_spawn_locs = array( valid_spawn_locs );
                         }
                         
-                        var_905a9429[ var_905a9429.size ] = loc;
+                        valid_spawn_locs[ valid_spawn_locs.size ] = loc;
                         continue;
                     }
                     
@@ -194,12 +194,12 @@ function function_a409c2a7( e_target )
             }
         }
         
-        if ( var_905a9429.size < 3 )
+        if ( valid_spawn_locs.size < 3 )
         {
-            var_905a9429 = arraycombine( var_905a9429, var_51fb0ec7, 0, 0 );
+            valid_spawn_locs = arraycombine( valid_spawn_locs, var_51fb0ec7, 0, 0 );
         }
         
-        s_spawn_loc = array::random( var_905a9429 );
+        s_spawn_loc = array::random( valid_spawn_locs );
     }
     
     if ( !isdefined( s_spawn_loc ) )

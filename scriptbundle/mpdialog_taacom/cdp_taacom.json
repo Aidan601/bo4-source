@@ -105,7 +105,7 @@
     "reconcarhacked": "#vox_mta1_icepick_rcxd_destroy",
     "rapshelicopterdialogbundle": "scriptbundle&cdp_taacom_kls_raps_deployship",
     "overwatchhelicopterhacked": "#vox_mta1_icepick_overwatch_destroy",
-    "meshmineweaponhackedmult": "#hash_7b181a5d6e08dbf7",
+    "meshmineweaponhackedmult": "#vox_mta1_icepick_trip_ied_steal_mult",
     "empdialogbundle": "scriptbundle&cdp_taacom_kls_empcore",
     "spawnbeaconhacked": "#vox_mta1_icepick_spawnbeacon_steal"
 }

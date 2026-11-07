@@ -693,9 +693,9 @@ function private update_duration( var_756fda07, var_b0144580, durationoverride, 
     
     if ( isdefined( var_2226e3f0 ) )
     {
-        var_b5051685 = var_2226e3f0 - time;
+        time_left_ms = var_2226e3f0 - time;
         
-        if ( var_b5051685 < newduration )
+        if ( time_left_ms < newduration )
         {
             self.duration = newduration;
             

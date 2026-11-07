@@ -278,9 +278,9 @@ function jump_pad_start( ent_player, endon_condition )
         n_reduction = 0.0015;
         
         /#
-            if ( getdvarfloat( #"hash_16fa72c379cf8968", 0 ) > 0 )
+            if ( getdvarfloat( #"scr_jump_pad_reduction", 0 ) > 0 )
             {
-                n_reduction = getdvarfloat( #"hash_16fa72c379cf8968", 0 );
+                n_reduction = getdvarfloat( #"scr_jump_pad_reduction", 0 );
             }
         #/
         

@@ -189,7 +189,7 @@ function function_b23e4b45()
             {
                 foreach ( tacpoint in tacpoints )
                 {
-                    if ( function_96c81b85( tacpoint, self.origin + ( 0, 0, 30 ) ) )
+                    if ( tpointhashighchancetoseeposition( tacpoint, self.origin + ( 0, 0, 30 ) ) )
                     {
                         var_cc66f3f5 = getclosestpointonnavmesh( tacpoint.origin, 250, 30 );
                         

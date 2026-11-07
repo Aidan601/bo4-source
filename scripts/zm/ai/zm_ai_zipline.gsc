@@ -177,7 +177,7 @@ function function_dc61ccae( vnd_start, var_6f06d19d, var_ca144d1e )
 function function_aeb6539c( origin, angles )
 {
     self endon( #"disconnect" );
-    self.var_f22c83f5 = 1;
+    self.b_ignore_playable_area_check = 1;
     self.var_e75517b1 = 1;
     self.allowpain = 0;
     self forceteleport( origin, angles );
@@ -190,7 +190,7 @@ function function_aeb6539c( origin, angles )
 // Size: 0xcc, Type: bool
 function private function_dedfe444( entity )
 {
-    if ( isdefined( entity.traversestartnode ) && isdefined( entity.traversestartnode.script_noteworthy ) && entity.traversestartnode.script_noteworthy == "zipline_traversal" && isdefined( entity.traversestartnode.var_e45a0969 ) && entity shouldstarttraversal() )
+    if ( isdefined( entity.traversestartnode ) && isdefined( entity.traversestartnode.script_noteworthy ) && entity.traversestartnode.script_noteworthy == "zipline_traversal" && isdefined( entity.traversestartnode.info_vehicle_node_targetname ) && entity shouldstarttraversal() )
     {
         /#
             record3dtext( "<dev string:xba>", self.origin, ( 1, 0, 0 ), "<dev string:xb1>" );
@@ -208,7 +208,7 @@ function private function_dedfe444( entity )
 // Size: 0x46
 function private function_79554a79( entity )
 {
-    entity.vnd_start = getvehiclenode( entity.traversestartnode.var_e45a0969, "targetname" );
+    entity.vnd_start = getvehiclenode( entity.traversestartnode.info_vehicle_node_targetname, "targetname" );
 }
 
 // Namespace zm_ai_zipline/zm_ai_zipline

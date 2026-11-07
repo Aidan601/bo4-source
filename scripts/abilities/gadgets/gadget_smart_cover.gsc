@@ -91,7 +91,7 @@ function function_1c601b99()
     
     if ( isdefined( level.var_a5dacbea ) )
     {
-        [[ level.var_a5dacbea ]]( level.smartcoversettings.smartcoverweapon, &function_127fb8f3 );
+        [[ level.var_a5dacbea ]]( level.smartcoversettings.smartcoverweapon, &onjammed );
     }
 }
 
@@ -1012,7 +1012,7 @@ function createsmartcover( watcher, var_5ebbec19, origin, angles, var_796be15d )
 // Params 2
 // Checksum 0x1baa5bb3, Offset: 0x3f20
 // Size: 0x104, Type: bool
-function function_127fb8f3( smartcover, attackingplayer )
+function onjammed( smartcover, attackingplayer )
 {
     if ( !( isdefined( smartcover.smartcoverjammed ) && smartcover.smartcoverjammed ) )
     {

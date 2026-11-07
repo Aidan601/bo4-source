@@ -535,7 +535,7 @@ function function_5beff312()
 function function_8fd1207a()
 {
     self endon( #"death" );
-    function_dae4ab9b( self, 0.3 );
+    settriggerusetime( self, 0.3 );
     var_2a21fe27 = self.stub.related_parent;
     mdl_valve = var_2a21fe27.mdl_valve;
     
@@ -1110,7 +1110,7 @@ function function_bf250d60()
                 
                 if ( self.targetname == #"floaters_post" )
                 {
-                    playsoundatposition( #"hash_123df27d58070a48", self.origin );
+                    playsoundatposition( #"zmb_statue_trident_fall", self.origin );
                 }
             }
             
@@ -1247,7 +1247,7 @@ function function_c0174de( var_f02fb354, gadget_lgt_exp_train_canals_debug )
 {
     self endon( #"death" );
     var_f02fb354 function_f6f230af();
-    n_move_time = gadget_lgt_exp_train_canals_debug.var_fa3ab582;
+    n_move_time = gadget_lgt_exp_train_canals_debug.script_move_time;
     self unlink();
     self animation::stop();
     self moveto( gadget_lgt_exp_train_canals_debug.origin, n_move_time, n_move_time );
@@ -2051,9 +2051,9 @@ function function_73bdaf30()
         }
     }
     
-    var_425fb862 = level.a_t_crafting[ #"zblueprint_shield_dual_wield" ];
+    set_evolution_payload = level.a_t_crafting[ #"zblueprint_shield_dual_wield" ];
     
-    foreach ( struct in var_425fb862 )
+    foreach ( struct in set_evolution_payload )
     {
         if ( struct.script_noteworthy === #"shield_table" )
         {
@@ -2205,19 +2205,19 @@ function fireworks_show()
 function function_a68ce358()
 {
     n_index = randomint( level.var_fd1d03ff.size );
-    var_2cb1cbce = level.var_fd1d03ff[ n_index ];
+    s_flare_start_loc = level.var_fd1d03ff[ n_index ];
     arrayremoveindex( level.var_fd1d03ff, n_index );
     n_index = randomint( level.var_ba8e1acf.size );
     str_color = level.var_ba8e1acf[ n_index ];
     arrayremoveindex( level.var_ba8e1acf, n_index );
-    mdl_flare = init_flare( var_2cb1cbce.origin + ( 0, 0, -8 ), var_2cb1cbce.angles, str_color );
-    mdl_flare moveto( var_2cb1cbce.origin, 0.2 );
+    mdl_flare = init_flare( s_flare_start_loc.origin + ( 0, 0, -8 ), s_flare_start_loc.angles, str_color );
+    mdl_flare moveto( s_flare_start_loc.origin, 0.2 );
     mdl_flare waittill( #"movedone" );
     mdl_flare thread scene::play( #"p8_fxanim_zm_zod_pneumatic_tube_flare_bundle", mdl_flare );
     n_index = randomint( level.var_252b49cc.size );
-    var_46a3f206 = level.var_252b49cc[ n_index ];
+    s_flare_end_loc = level.var_252b49cc[ n_index ];
     arrayremoveindex( level.var_252b49cc, n_index );
-    mdl_flare thread function_e01b477f( var_2cb1cbce, var_46a3f206 );
+    mdl_flare thread function_e01b477f( s_flare_start_loc, s_flare_end_loc );
 }
 
 // Namespace zodt8_side_quests/zm_zodt8_side_quests
@@ -2275,7 +2275,7 @@ function init_flare( v_origin, v_angles, str_color )
 // Params 2
 // Checksum 0xbae53d32, Offset: 0x8ac8
 // Size: 0x4ca
-function function_e01b477f( var_2cb1cbce, var_46a3f206 )
+function function_e01b477f( s_flare_start_loc, s_flare_end_loc )
 {
     level endon( #"end_game" );
     self endon( #"death" );
@@ -2292,10 +2292,10 @@ function function_e01b477f( var_2cb1cbce, var_46a3f206 )
     self waittill( #"movedone" );
     self hide();
     wait randomintrange( 5, 10 );
-    self.origin = var_46a3f206.origin;
-    self.angles = var_46a3f206.angles;
+    self.origin = s_flare_end_loc.origin;
+    self.angles = s_flare_end_loc.angles;
     self show();
-    s_dest = struct::get( var_46a3f206.target );
+    s_dest = struct::get( s_flare_end_loc.target );
     self moveto( s_dest.origin, 0.35 );
     self playsound( #"zmb_flare_arrive" );
     self waittill( #"movedone" );
@@ -2304,8 +2304,8 @@ function function_e01b477f( var_2cb1cbce, var_46a3f206 )
     waitresult = s_dest waittill( #"trigger_activated" );
     waitresult.e_who zm_audio::create_and_play_dialog( #"component_pickup", #"generic" );
     zm_unitrigger::unregister_unitrigger( s_unitrigger );
-    level.var_fd1d03ff[ level.var_fd1d03ff.size ] = var_2cb1cbce;
-    level.var_252b49cc[ level.var_252b49cc.size ] = var_46a3f206;
+    level.var_fd1d03ff[ level.var_fd1d03ff.size ] = s_flare_start_loc;
+    level.var_252b49cc[ level.var_252b49cc.size ] = s_flare_end_loc;
     
     /#
         switch ( self.str_color )
@@ -2913,7 +2913,7 @@ function function_9dcc74cf()
     
     zm_unitrigger::function_89380dda( s_unitrigger );
     self waittill( #"hash_3c52547927852e33" );
-    self playsound( #"hash_57989a591694c70b" );
+    self playsound( #"zmb_sheet_music_pickup" );
     self zm_unitrigger::unregister_unitrigger( self.s_unitrigger );
     self delete();
 }
@@ -2975,7 +2975,7 @@ function function_41ee4286()
         if ( isdefined( s_piano.var_32d36a7f ) )
         {
             s_piano.var_1904a11d hide();
-            playsoundatposition( #"hash_57989a591694c70b", s_piano.origin );
+            playsoundatposition( #"zmb_sheet_music_pickup", s_piano.origin );
             
             if ( s_piano.var_32d36a7f == s_piano.script_int )
             {
@@ -3002,7 +3002,7 @@ function function_41ee4286()
             s_piano.var_1904a11d function_1f7f2030( e_player.var_32d36a7f );
             s_piano.var_1904a11d show();
             s_piano notify( #"hash_2624818b23ab83dc" );
-            playsoundatposition( #"hash_6c070e9cd866f23a", s_piano.origin );
+            playsoundatposition( #"zmb_sheet_music_drop", s_piano.origin );
             s_piano.var_32d36a7f = e_player.var_32d36a7f;
             e_player.var_32d36a7f = isdefined( var_1b79a086 ) ? var_1b79a086 : undefined;
             
@@ -3165,7 +3165,7 @@ function function_ff05eb5()
                     iprintlnbold( "<dev string:x166>" );
                 #/
                 
-                playsoundatposition( #"hash_5ef8e030b84ace08", self.origin );
+                playsoundatposition( #"zmb_skull_music_success", self.origin );
                 level thread scene::play( str_bundle, "sample" );
                 waitresult.attacker util::delay( 3, "death", &zm_audio::create_and_play_dialog, #"skull_singers", #"correct_tune" );
                 
@@ -3185,7 +3185,7 @@ function function_ff05eb5()
                 iprintlnbold( "<dev string:x178>" );
             #/
             
-            playsoundatposition( #"hash_165a8e8934d64af5", self.origin );
+            playsoundatposition( #"zmb_skull_music_fail", self.origin );
             level thread scene::play( str_bundle, "fail" );
             waitresult.attacker util::delay( 3, "death", &zm_audio::create_and_play_dialog, #"skull_singers", #"wrong_tune" );
         }

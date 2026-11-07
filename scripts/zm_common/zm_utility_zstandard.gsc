@@ -1081,7 +1081,7 @@ function function_33798535( var_31721422, a_str_zones, var_ed1db1a7, var_6cc77d4
     {
         s_defend_area = struct::get( var_ed1db1a7 );
         level.var_ae5daa6e = s_defend_area.origin;
-        playsoundatposition( #"hash_6124e4ccaf068cd0", level.var_ae5daa6e );
+        playsoundatposition( #"zmb_rush_points_x20", level.var_ae5daa6e );
         level thread function_4a25b584( level.var_ae5daa6e, 20, 800, 1, 0.25 );
         callback::remove_on_ai_killed( &function_6ca0c2d9 );
         callback::remove_on_ai_killed( &function_d40910b4 );
@@ -1248,7 +1248,7 @@ function function_d40910b4( params )
         }
         
         level.var_ae5daa6e = v_start;
-        playsoundatposition( #"hash_6124e4ccaf068cd0", level.var_ae5daa6e );
+        playsoundatposition( #"zmb_rush_points_x20", level.var_ae5daa6e );
         level thread function_4a25b584( level.var_ae5daa6e, 20, 800, 1, 0.25 );
         callback::remove_on_ai_killed( &function_6ca0c2d9 );
         callback::remove_on_ai_killed( &function_d40910b4 );

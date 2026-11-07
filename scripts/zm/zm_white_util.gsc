@@ -153,12 +153,12 @@ function function_5d7d0c85( var_2753f06a )
         }
         else
         {
-            level.host zm_hms_util::function_51b752a9( #"hash_71bde3a512edb440" + var_2753f06a + "_" + var_5316ea7d );
+            level.host zm_hms_util::function_51b752a9( #"vox_co_op_end_round" + var_2753f06a + "_" + var_5316ea7d );
             var_d1e952c4 = zm_hms_util::function_3815943c( a_players );
             
             if ( isdefined( var_d1e952c4 ) )
             {
-                var_d1e952c4 zm_hms_util::function_51b752a9( #"hash_71bde3a512edb440" + var_2753f06a + "_" + var_5316ea7d );
+                var_d1e952c4 zm_hms_util::function_51b752a9( #"vox_co_op_end_round" + var_2753f06a + "_" + var_5316ea7d );
             }
         }
         
@@ -267,7 +267,7 @@ function function_2389bb7a( str_sound )
 // Params 0
 // Checksum 0xe3405a21, Offset: 0x1280
 // Size: 0x1d0
-function function_f4a39bc4()
+function open_power_doors()
 {
     level thread function_f2fa71ce();
     function_364cd8c0( "apd_lockdown" );
@@ -299,7 +299,7 @@ function function_f4a39bc4()
         while ( true )
         {
             level waittill( #"open_sesame" );
-            function_f4a39bc4();
+            open_power_doors();
             wait 1;
         }
     }
@@ -332,16 +332,16 @@ function private function_20681be5()
         return false;
     }
     
-    destpos = self.origin - ( 0, 0, self.var_3de056e7 );
+    destpos = self.origin - ( 0, 0, self.i_slide_amount );
     self moveto( destpos, 0.5, 0.05, 0.05 );
     self playsound( #"evt_bunker_door_interior_close" );
     e_collision = getent( self.linkname, "linkto" );
     e_collision disconnectpaths();
     
-    if ( isdefined( self.var_61e10b48 ) && isdefined( self.var_d42d6fdf ) )
+    if ( isdefined( self.str_zone_1 ) && isdefined( self.str_zone_2 ) )
     {
-        level.zones[ hash( self.var_61e10b48 ) ].adjacent_zones[ hash( self.var_d42d6fdf ) ].is_connected = 0;
-        level.zones[ hash( self.var_d42d6fdf ) ].adjacent_zones[ hash( self.var_61e10b48 ) ].is_connected = 0;
+        level.zones[ hash( self.str_zone_1 ) ].adjacent_zones[ hash( self.str_zone_2 ) ].is_connected = 0;
+        level.zones[ hash( self.str_zone_2 ) ].adjacent_zones[ hash( self.str_zone_1 ) ].is_connected = 0;
     }
     
     self.b_open = 0;
@@ -374,16 +374,16 @@ function private function_46ed91c6()
         return false;
     }
     
-    destpos = self.origin + ( 0, 0, self.var_3de056e7 );
+    destpos = self.origin + ( 0, 0, self.i_slide_amount );
     self moveto( destpos, 0.5, 0.05, 0.05 );
     self playsound( #"evt_bunker_door_interior_open" );
     e_collision = getent( self.linkname, "linkto" );
     e_collision disconnectpaths();
     
-    if ( isdefined( self.var_61e10b48 ) && isdefined( self.var_d42d6fdf ) )
+    if ( isdefined( self.str_zone_1 ) && isdefined( self.str_zone_2 ) )
     {
-        level.zones[ hash( self.var_61e10b48 ) ].adjacent_zones[ hash( self.var_d42d6fdf ) ].is_connected = 1;
-        level.zones[ hash( self.var_d42d6fdf ) ].adjacent_zones[ hash( self.var_61e10b48 ) ].is_connected = 1;
+        level.zones[ hash( self.str_zone_1 ) ].adjacent_zones[ hash( self.str_zone_2 ) ].is_connected = 1;
+        level.zones[ hash( self.str_zone_2 ) ].adjacent_zones[ hash( self.str_zone_1 ) ].is_connected = 1;
     }
     
     self.b_open = 1;
@@ -453,10 +453,10 @@ function function_f2fa71ce()
         e_col notsolid();
         e_col connectpaths();
         
-        if ( isdefined( e_door.var_61e10b48 ) && isdefined( e_door.var_d42d6fdf ) )
+        if ( isdefined( e_door.str_zone_1 ) && isdefined( e_door.str_zone_2 ) )
         {
-            level.zones[ hash( e_door.var_61e10b48 ) ].adjacent_zones[ hash( e_door.var_d42d6fdf ) ].is_connected = 1;
-            level.zones[ hash( e_door.var_d42d6fdf ) ].adjacent_zones[ hash( e_door.var_61e10b48 ) ].is_connected = 1;
+            level.zones[ hash( e_door.str_zone_1 ) ].adjacent_zones[ hash( e_door.str_zone_2 ) ].is_connected = 1;
+            level.zones[ hash( e_door.str_zone_2 ) ].adjacent_zones[ hash( e_door.str_zone_1 ) ].is_connected = 1;
         }
         
         e_door.b_open = 1;
@@ -478,10 +478,10 @@ function function_985c08e7()
         e_col solid();
         e_col disconnectpaths();
         
-        if ( isdefined( e_door.var_61e10b48 ) && isdefined( e_door.var_d42d6fdf ) )
+        if ( isdefined( e_door.str_zone_1 ) && isdefined( e_door.str_zone_2 ) )
         {
-            level.zones[ hash( e_door.var_61e10b48 ) ].adjacent_zones[ hash( e_door.var_d42d6fdf ) ].is_connected = 0;
-            level.zones[ hash( e_door.var_d42d6fdf ) ].adjacent_zones[ hash( e_door.var_61e10b48 ) ].is_connected = 0;
+            level.zones[ hash( e_door.str_zone_1 ) ].adjacent_zones[ hash( e_door.str_zone_2 ) ].is_connected = 0;
+            level.zones[ hash( e_door.str_zone_2 ) ].adjacent_zones[ hash( e_door.str_zone_1 ) ].is_connected = 0;
         }
         
         e_door.b_open = 0;

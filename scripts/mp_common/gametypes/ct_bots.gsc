@@ -1778,27 +1778,27 @@ function function_c2cfffdd( nd_guard, var_2fd67dea = 0, var_1d1ab17 = 0 )
             self.var_bab91f2 = 640;
         }
         
-        if ( isdefined( nd_guard.var_cb374b88 ) )
+        if ( isdefined( nd_guard.script_n_wander_time_min ) )
         {
-            self.var_59860ee1 = nd_guard.var_cb374b88;
+            self.var_59860ee1 = nd_guard.script_n_wander_time_min;
         }
         else
         {
             self.var_59860ee1 = 8000;
         }
         
-        if ( isdefined( nd_guard.var_2623f860 ) )
+        if ( isdefined( nd_guard.script_n_wander_time_max ) )
         {
-            self.var_dd940df3 = nd_guard.var_2623f860;
+            self.var_dd940df3 = nd_guard.script_n_wander_time_max;
         }
         else
         {
             self.var_dd940df3 = 12000;
         }
         
-        if ( isdefined( nd_guard.var_31305b37 ) )
+        if ( isdefined( nd_guard.script_n_lookaround_wait ) )
         {
-            self.var_daa4b90a = nd_guard.var_31305b37;
+            self.var_daa4b90a = nd_guard.script_n_lookaround_wait;
         }
         else
         {
@@ -1947,7 +1947,7 @@ function function_43df30a8()
     
     if ( isdefined( self.waypoint ) )
     {
-        self.waypoint ct_utils::function_f9ed304d();
+        self.waypoint ct_utils::cleanup_waypoint();
     }
     
     self.disablespawning = 1;

@@ -34,7 +34,7 @@ function __init__()
 // Params 5, eflags: 0x4
 // Checksum 0x7710a107, Offset: 0x1c0
 // Size: 0x1a4
-function private on_begin( var_80bd7996, var_49d28bc1, var_5b932f42, var_a53dc296, var_60bdad5f )
+function private on_begin( var_80bd7996, var_49d28bc1, var_5b932f42, var_a53dc296, str_fail )
 {
     zm_trial_util::function_7d32b7d0( 0 );
     n_base = 99;
@@ -56,7 +56,7 @@ function private on_begin( var_80bd7996, var_49d28bc1, var_5b932f42, var_a53dc29
             break;
     }
     
-    level.var_4ce2a315 = var_60bdad5f;
+    level.var_4ce2a315 = str_fail;
     level.var_5cf4858b = 0;
     level flag::set( #"infinite_round_spawning" );
     level thread function_a4adaedb();

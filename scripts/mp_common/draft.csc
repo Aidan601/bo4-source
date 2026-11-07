@@ -612,7 +612,7 @@ function function_4ccc033d( localclientnum, draftcharacter )
             return 1;
         }
         
-        if ( isdefined( level.var_ea696257 ) && level.var_ea696257 )
+        if ( isdefined( level.isbounty ) && level.isbounty )
         {
             return ( [[ draftcharacter ]]->function_82e05d64().activeweapon != getweapon( #"pistol_standard_t8" ) );
         }
@@ -650,7 +650,7 @@ function update_player_weapon( localclientnum, draftcharacter )
     {
         function_2dfe152c( localclientnum, draftcharacter, [[ draftcharacter ]]->function_82e05d64().activeweapon, [[ draftcharacter ]]->function_82e05d64().primaryweapon );
         
-        if ( isdefined( level.var_ea696257 ) && level.var_ea696257 )
+        if ( isdefined( level.isbounty ) && level.isbounty )
         {
             [[ draftcharacter ]]->function_82e05d64().activeweapon = getweapon( #"pistol_standard_t8" );
             [[ draftcharacter ]]->function_82e05d64().var_b8f20727 = 0;

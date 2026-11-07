@@ -411,10 +411,10 @@ function determinewinner( roundwinner )
 function function_cdcbe19( roundwinner, var_2cd61e6c )
 {
     gamewinner = roundwinner;
-    var_41886d38 = "roundswon";
+    winevent = "roundswon";
     level.proptiebreaker = "none";
     
-    if ( game.stat[ var_41886d38 ][ #"allies" ] == game.stat[ var_41886d38 ][ #"axis" ] )
+    if ( game.stat[ winevent ][ #"allies" ] == game.stat[ winevent ][ #"axis" ] )
     {
         level.proptiebreaker = "kills";
         
@@ -450,7 +450,7 @@ function function_cdcbe19( roundwinner, var_2cd61e6c )
             globallogic_score::giveteamscoreforobjective_delaypostprocessing( gamewinner, 1 );
         }
     }
-    else if ( game.stat[ var_41886d38 ][ #"axis" ] > game.stat[ var_41886d38 ][ #"allies" ] )
+    else if ( game.stat[ winevent ][ #"axis" ] > game.stat[ winevent ][ #"allies" ] )
     {
         gamewinner = "axis";
     }
@@ -934,12 +934,12 @@ function setuproundstarthud()
     if ( useprophudserver() )
     {
         var_ed243a5d = 110;
-        var_15c99f84 = 20;
+        yspace = 20;
         
         if ( !level.console )
         {
             var_ed243a5d = 125;
-            var_15c99f84 = 15;
+            yspace = 15;
         }
         
         level.elim_hud = spawnstruct();
@@ -961,7 +961,7 @@ function setuproundstarthud()
         {
             level.phwhistletimer = spawnstruct();
             level.phwhistletimer.x = 5;
-            level.phwhistletimer.y = var_ed243a5d + var_15c99f84;
+            level.phwhistletimer.y = var_ed243a5d + yspace;
             level.phwhistletimer.alignx = "left";
             level.phwhistletimer.aligny = "top";
             level.phwhistletimer.horzalign = "left";
@@ -974,7 +974,7 @@ function setuproundstarthud()
             level.whistling = spawnstruct();
             level.whistling.label = #"mp_ph_whistling";
             level.whistling.x = 5;
-            level.whistling.y = var_ed243a5d + var_15c99f84;
+            level.whistling.y = var_ed243a5d + yspace;
             level.whistling.alignx = "left";
             level.whistling.aligny = "top";
             level.whistling.horzalign = "left";
@@ -1448,8 +1448,8 @@ function propwhistle()
     var_cc98cae0 = 20000;
     var_2baed43 = var_cc98cae0;
     var_2d0854a2 = 500;
-    var_99b741b6 = 5000;
-    var_ec943162 = 0;
+    endgamegraceperiod = 5000;
+    whistlecount = 0;
     var_b87d1ed = ( 0, 0, 0 );
     minimapcorners = getentarray( "minimap_corner", "targetname" );
     
@@ -1467,7 +1467,7 @@ function propwhistle()
     {
         if ( var_e9aeaa85 + whistletime - var_2d0854a2 < gettime() )
         {
-            var_ec943162++;
+            whistlecount++;
             setmatchflag( "bomb_timer_a", 0 );
             
             if ( useprophudserver() )
@@ -1495,7 +1495,7 @@ function propwhistle()
             
             var_e9aeaa85 = gettime();
             
-            if ( var_2baed43 >= globallogic_utils::gettimeremaining() - var_99b741b6 )
+            if ( var_2baed43 >= globallogic_utils::gettimeremaining() - endgamegraceperiod )
             {
                 if ( useprophudserver() )
                 {
@@ -1506,7 +1506,7 @@ function propwhistle()
             }
             else
             {
-                if ( var_2baed43 * 2 + getteamplayersalive( game.defenders ) * 2500 >= globallogic_utils::gettimeremaining() - var_99b741b6 )
+                if ( var_2baed43 * 2 + getteamplayersalive( game.defenders ) * 2500 >= globallogic_utils::gettimeremaining() - endgamegraceperiod )
                 {
                     if ( useprophudserver() )
                     {
@@ -1868,7 +1868,7 @@ function getnextprop( inplayer )
         for ( j = 0; j < _tomb_zmb_ee_monitor_button.size ; j++ )
         {
             prop = _tomb_zmb_ee_monitor_button[ j ];
-            var_72595382 = 0;
+            propused = 0;
             
             if ( isdefined( inplayer.usedprops ) && inplayer.usedprops.size )
             {
@@ -1876,13 +1876,13 @@ function getnextprop( inplayer )
                 {
                     if ( prop.modelname == inplayer.usedprops[ index ].modelname )
                     {
-                        var_72595382 = 1;
+                        propused = 1;
                         break;
                     }
                 }
             }
             
-            if ( !var_72595382 )
+            if ( !propused )
             {
                 return prop;
             }
@@ -2551,54 +2551,54 @@ function function_12388dcc()
 // Size: 0x19c
 function choosefinalkillcam()
 {
-    var_545f0775 = getlivingplayersonteam( game.defenders );
+    livingprops = getlivingplayersonteam( game.defenders );
     
-    if ( var_545f0775.size < 1 )
+    if ( livingprops.size < 1 )
     {
         return;
     }
     
-    var_57713248 = getlivingplayersonteam( game.attackers );
+    livinghunters = getlivingplayersonteam( game.attackers );
     
-    if ( var_57713248.size < 1 )
+    if ( livinghunters.size < 1 )
     {
         return;
     }
     
-    var_c0cc60e6 = choosebestpropforkillcam( var_545f0775, var_57713248 );
+    killcamprop = choosebestpropforkillcam( livingprops, livinghunters );
     
-    if ( isplayer( var_c0cc60e6 ) )
+    if ( isplayer( killcamprop ) )
     {
-        attackernum = var_c0cc60e6 getentitynumber();
+        attackernum = killcamprop getentitynumber();
     }
     else
     {
         attackernum = -1;
     }
     
-    victim = var_57713248[ 0 ];
+    victim = livinghunters[ 0 ];
     victim.deathtime = gettime() - 1000;
     weap = getweapon( "none" );
-    killcam_entity_info = killcam::get_killcam_entity_info( var_c0cc60e6, var_c0cc60e6, weap );
-    level thread killcam::record_settings( attackernum, victim getentitynumber(), weap, "MOD_UNKNOWN", victim.deathtime, 0, 0, killcam_entity_info, [], [], var_c0cc60e6 );
+    killcam_entity_info = killcam::get_killcam_entity_info( killcamprop, killcamprop, weap );
+    level thread killcam::record_settings( attackernum, victim getentitynumber(), weap, "MOD_UNKNOWN", victim.deathtime, 0, 0, killcam_entity_info, [], [], killcamprop );
 }
 
 // Namespace prop/prop
 // Params 2
 // Checksum 0xa681b288, Offset: 0x8518
 // Size: 0x1fa
-function choosebestpropforkillcam( var_545f0775, var_57713248 )
+function choosebestpropforkillcam( livingprops, livinghunters )
 {
-    var_66c9ce36 = undefined;
+    bestprop = undefined;
     var_910c4a2e = 1073741824;
     
-    foreach ( prop in var_545f0775 )
+    foreach ( prop in livingprops )
     {
         assert( isalive( prop ) );
-        var_e2abfc9e = undefined;
+        closesthunter = undefined;
         var_9916cef = 1073741824;
         
-        foreach ( hunter in var_57713248 )
+        foreach ( hunter in livinghunters )
         {
             pathdist = pathdistance( prop.origin, hunter.origin );
             
@@ -2610,23 +2610,23 @@ function choosebestpropforkillcam( var_545f0775, var_57713248 )
             if ( pathdist < var_9916cef )
             {
                 var_9916cef = pathdist;
-                var_e2abfc9e = hunter;
+                closesthunter = hunter;
             }
         }
         
         if ( var_9916cef < var_910c4a2e )
         {
             var_910c4a2e = var_9916cef;
-            var_66c9ce36 = prop;
+            bestprop = prop;
         }
     }
     
-    if ( !isdefined( var_66c9ce36 ) )
+    if ( !isdefined( bestprop ) )
     {
-        var_66c9ce36 = array::random( var_545f0775 );
+        bestprop = array::random( livingprops );
     }
     
-    return var_66c9ce36;
+    return bestprop;
 }
 
 // Namespace prop/prop
@@ -3494,9 +3494,9 @@ function function_4b2f60ed()
 // Size: 0xb4
 function function_1e0cc068( numlives )
 {
-    var_f11febcf = game.defenders;
+    propteam = game.defenders;
     
-    if ( level.lastalivecount[ var_f11febcf ] > numlives && level.alivecount[ var_f11febcf ] == numlives && level.playerlives[ var_f11febcf ] == numlives )
+    if ( level.lastalivecount[ propteam ] > numlives && level.alivecount[ propteam ] == numlives && level.playerlives[ propteam ] == numlives )
     {
         globallogic_audio::leader_dialog( "propLowLives", game.attackers );
         globallogic_audio::leader_dialog( "propLowLivesEnemy", game.defenders );
@@ -3640,15 +3640,15 @@ function function_ef516d85( winner, endtype, endreasontext, outcometext, team, w
         }
         else if ( level.proptiebreaker == "time" )
         {
-            var_2d0f00cc = game.stat[ #"hunterKillTime" ][ team ] / 1000;
+            teamseconds = game.stat[ #"hunterKillTime" ][ team ] / 1000;
             otherteam = util::getotherteam( team );
             var_68c24bdc = game.stat[ #"hunterKillTime" ][ otherteam ] / 1000;
-            var_4d33707d = round( var_2d0f00cc );
+            var_4d33707d = round( teamseconds );
             var_b33664c9 = round( var_68c24bdc );
             
             if ( var_4d33707d == var_b33664c9 )
             {
-                if ( var_2d0f00cc > var_68c24bdc )
+                if ( teamseconds > var_68c24bdc )
                 {
                     var_4d33707d++;
                 }
@@ -4561,20 +4561,20 @@ function function_f6f7aa90( titlelabel )
 {
     level.var_1103f74e.var_e72e24b4 = [];
     var_ed243a5d = 110;
-    var_15c99f84 = 20;
+    yspace = 20;
     
     if ( !level.console )
     {
         var_ed243a5d = 125;
-        var_15c99f84 = 15;
+        yspace = 15;
     }
     
     x = 5;
     y = var_ed243a5d;
     level.var_1103f74e.var_e72e24b4[ level.var_1103f74e.var_e72e24b4.size ] = function_f4a88299( x, y, #"mp_ph_minigame_first", ( 1, 0.843, 0 ) );
-    y += var_15c99f84;
+    y += yspace;
     level.var_1103f74e.var_e72e24b4[ level.var_1103f74e.var_e72e24b4.size ] = function_f4a88299( x, y, #"mp_ph_minigame_second", ( 0.3, 0.3, 0.3 ) );
-    y += var_15c99f84;
+    y += yspace;
     level.var_1103f74e.var_e72e24b4[ level.var_1103f74e.var_e72e24b4.size ] = function_f4a88299( x, y, #"mp_ph_minigame_third", ( 0.804, 0.498, 0.196 ) );
     level.var_1103f74e.var_b746be43 = spawnstruct();
     level.var_1103f74e.var_b746be43.label = titlelabel;

@@ -121,7 +121,7 @@ function function_1c601b99()
 {
     if ( isdefined( level.var_a5dacbea ) )
     {
-        [[ level.var_a5dacbea ]]( getweapon( "ai_tank_marker" ), &function_127fb8f3 );
+        [[ level.var_a5dacbea ]]( getweapon( "ai_tank_marker" ), &onjammed );
     }
 }
 
@@ -155,7 +155,7 @@ function function_1210a3d6( mantis )
 // Params 2
 // Checksum 0x616362be, Offset: 0xcb0
 // Size: 0x98, Type: bool
-function function_127fb8f3( mantis, attackingplayer )
+function onjammed( mantis, attackingplayer )
 {
     if ( isdefined( level.var_1794f85f ) )
     {
@@ -959,7 +959,7 @@ function ai_tank_killstreak_start( owner, origin, killstreak_id, category, tanka
         drone [[ level.var_4b38c02b ]]();
     }
     
-    drone playloopsound( #"hash_aa65b39680b8d1b" );
+    drone playloopsound( #"veh_quadtank_mini_loop" );
     owner.ai_tank_drone = drone;
     
     foreach ( player in level.players )
@@ -1393,12 +1393,12 @@ function function_b2cc6703( targets )
     
     for ( idx = 0; idx < targets.size ; idx++ )
     {
-        if ( !isdefined( targets[ idx ].var_629a6b13 ) )
+        if ( !isdefined( targets[ idx ].threatlevels ) )
         {
-            targets[ idx ].var_629a6b13 = [];
+            targets[ idx ].threatlevels = [];
         }
         
-        targets[ idx ].var_629a6b13[ entnum ] = 0;
+        targets[ idx ].threatlevels[ entnum ] = 0;
         
         if ( isdefined( targets[ idx ].type ) && targets[ idx ].type == "dog" )
         {
@@ -1426,11 +1426,11 @@ function function_b2cc6703( targets )
     
     for ( idx = 0; idx < targets.size ; idx++ )
     {
-        assert( isdefined( targets[ idx ].var_629a6b13[ entnum ] ), "<dev string:x73>" );
+        assert( isdefined( targets[ idx ].threatlevels[ entnum ] ), "<dev string:x73>" );
         
-        if ( targets[ idx ].var_629a6b13[ entnum ] >= highest )
+        if ( targets[ idx ].threatlevels[ entnum ] >= highest )
         {
-            highest = targets[ idx ].var_629a6b13[ entnum ];
+            highest = targets[ idx ].threatlevels[ entnum ];
             var_8ec7f501 = targets[ idx ];
         }
     }
@@ -1445,55 +1445,55 @@ function function_b2cc6703( targets )
 function private update_player_threat( player )
 {
     entnum = self getentitynumber();
-    player.var_629a6b13[ entnum ] = 0;
+    player.threatlevels[ entnum ] = 0;
     dist = distance( player.origin, self.origin );
-    player.var_629a6b13[ entnum ] -= dist;
+    player.threatlevels[ entnum ] -= dist;
     
     if ( isdefined( self.attacker ) && player == self.attacker )
     {
-        player.var_629a6b13[ entnum ] += 100;
+        player.threatlevels[ entnum ] += 100;
     }
     
     if ( isdefined( player.carryobject ) )
     {
-        player.var_629a6b13[ entnum ] += 200;
+        player.threatlevels[ entnum ] += 200;
     }
     
     if ( isdefined( player.score ) )
     {
-        player.var_629a6b13[ entnum ] += player.score * 2;
+        player.threatlevels[ entnum ] += player.score * 2;
     }
     
     if ( player weapons::has_launcher() )
     {
         if ( player weapons::has_lockon( self ) )
         {
-            player.var_629a6b13[ entnum ] += 1000;
+            player.threatlevels[ entnum ] += 1000;
         }
         else
         {
-            player.var_629a6b13[ entnum ] += 500;
+            player.threatlevels[ entnum ] += 500;
         }
     }
     
     if ( player weapons::has_heavy_weapon() )
     {
-        player.var_629a6b13[ entnum ] += 300;
+        player.threatlevels[ entnum ] += 300;
     }
     
     if ( player weapons::has_lmg() )
     {
-        player.var_629a6b13[ entnum ] += 200;
+        player.threatlevels[ entnum ] += 200;
     }
     
     if ( isdefined( player.antithreat ) )
     {
-        player.var_629a6b13[ entnum ] -= player.antithreat;
+        player.threatlevels[ entnum ] -= player.antithreat;
     }
     
-    if ( player.var_629a6b13[ entnum ] <= 0 )
+    if ( player.threatlevels[ entnum ] <= 0 )
     {
-        player.var_629a6b13[ entnum ] = 2;
+        player.threatlevels[ entnum ] = 2;
     }
 }
 
@@ -1504,13 +1504,13 @@ function private update_player_threat( player )
 function private update_non_player_threat( non_player )
 {
     entnum = self getentitynumber();
-    non_player.var_629a6b13[ entnum ] = 0;
+    non_player.threatlevels[ entnum ] = 0;
     dist = distance( non_player.origin, self.origin );
-    non_player.var_629a6b13[ entnum ] -= dist;
+    non_player.threatlevels[ entnum ] -= dist;
     
-    if ( non_player.var_629a6b13[ entnum ] <= 0 )
+    if ( non_player.threatlevels[ entnum ] <= 0 )
     {
-        non_player.var_629a6b13[ entnum ] = 1;
+        non_player.threatlevels[ entnum ] = 1;
     }
 }
 
@@ -1521,36 +1521,36 @@ function private update_non_player_threat( non_player )
 function private update_actor_threat( actor )
 {
     entnum = self getentitynumber();
-    actor.var_629a6b13[ entnum ] = 0;
+    actor.threatlevels[ entnum ] = 0;
     dist = distance( actor.origin, self.origin );
-    actor.var_629a6b13[ entnum ] -= dist;
+    actor.threatlevels[ entnum ] -= dist;
     
     if ( isdefined( actor.owner ) )
     {
         if ( isdefined( self.attacker ) && actor.owner == self.attacker )
         {
-            actor.var_629a6b13[ entnum ] += 100;
+            actor.threatlevels[ entnum ] += 100;
         }
         
         if ( isdefined( actor.owner.carryobject ) )
         {
-            actor.var_629a6b13[ entnum ] += 200;
+            actor.threatlevels[ entnum ] += 200;
         }
         
         if ( isdefined( actor.owner.score ) )
         {
-            actor.var_629a6b13[ entnum ] += actor.owner.score * 4;
+            actor.threatlevels[ entnum ] += actor.owner.score * 4;
         }
         
         if ( isdefined( actor.owner.antithreat ) )
         {
-            actor.var_629a6b13[ entnum ] -= actor.owner.antithreat;
+            actor.threatlevels[ entnum ] -= actor.owner.antithreat;
         }
     }
     
-    if ( actor.var_629a6b13[ entnum ] <= 0 )
+    if ( actor.threatlevels[ entnum ] <= 0 )
     {
-        actor.var_629a6b13[ entnum ] = 1;
+        actor.threatlevels[ entnum ] = 1;
     }
 }
 
@@ -1561,9 +1561,9 @@ function private update_actor_threat( actor )
 function private update_dog_threat( dog )
 {
     entnum = self getentitynumber();
-    dog.var_629a6b13[ entnum ] = 0;
+    dog.threatlevels[ entnum ] = 0;
     dist = distance( dog.origin, self.origin );
-    dog.var_629a6b13[ entnum ] -= dist;
+    dog.threatlevels[ entnum ] -= dist;
 }
 
 // Namespace ai_tank/ai_tank_shared

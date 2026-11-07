@@ -1372,7 +1372,7 @@ function is_wallbuy( w_to_check )
 // Params 1
 // Checksum 0x339b451, Offset: 0x45b0
 // Size: 0xaa
-function function_c047c228( func_override )
+function register_player_weapon_cost_override( func_override )
 {
     if ( !isdefined( self.var_44b2ea64 ) )
     {

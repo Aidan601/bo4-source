@@ -688,21 +688,21 @@ function function_54d27855( client_pos, client_angles, var_36baa3f1, previs_weap
             var_f7e67f28 = previs_weapon.var_f7e67f28 * var_b6085963[ #"fraction" ] - var_f94d59f8;
             ground_trace_start = client_pos + forward2d * var_f7e67f28 + ( 0, 0, previs_weapon.var_227c90e1 );
             ground_trace_end = ground_trace_start - ( 0, 0, previs_weapon.var_227c90e1 - previs_weapon.var_849af6b4 );
-            var_4bc118b9 = groundtrace( ground_trace_start, ground_trace_end, 0, ignore_entity );
-            hitent = var_4bc118b9[ #"entity" ];
+            ground_trace_result = groundtrace( ground_trace_start, ground_trace_end, 0, ignore_entity );
+            hitent = ground_trace_result[ #"entity" ];
             
-            if ( var_4bc118b9[ #"fraction" ] > 0.01 && var_4bc118b9[ #"fraction" ] < 1 && var_4bc118b9[ #"normal" ][ 2 ] > 0.9 )
+            if ( ground_trace_result[ #"fraction" ] > 0.01 && ground_trace_result[ #"fraction" ] < 1 && ground_trace_result[ #"normal" ][ 2 ] > 0.9 )
             {
-                hit_location = var_4bc118b9[ #"position" ];
-                hit_normal = var_4bc118b9[ #"normal" ];
-                hit_distance = var_4bc118b9[ #"fraction" ] * var_f7e67f28;
+                hit_location = ground_trace_result[ #"position" ];
+                hit_normal = ground_trace_result[ #"normal" ];
+                hit_distance = ground_trace_result[ #"fraction" ] * var_f7e67f28;
                 var_caa96e8a = 1;
                 var_a7bfb = 1;
                 
-                if ( isdefined( var_4bc118b9[ #"waterdepth" ] ) )
+                if ( isdefined( ground_trace_result[ #"waterdepth" ] ) )
                 {
-                    water_depth = var_4bc118b9[ #"waterdepth" ];
-                    water_bottom = var_4bc118b9[ #"waterbottom" ];
+                    water_depth = ground_trace_result[ #"waterdepth" ];
+                    water_bottom = ground_trace_result[ #"waterbottom" ];
                 }
             }
         }

@@ -49,9 +49,9 @@ function validation()
     {
         w_shield = self.weaponriotshield;
         n_health_max = int( w_shield.weaponstarthitpoints );
-        var_9428def3 = self damageriotshield( 0 );
+        n_shield_health = self damageriotshield( 0 );
         
-        if ( var_9428def3 < n_health_max )
+        if ( n_shield_health < n_health_max )
         {
             return true;
         }

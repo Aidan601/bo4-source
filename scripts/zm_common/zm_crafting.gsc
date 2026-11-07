@@ -2110,11 +2110,11 @@ function private function_42673a26( player )
     // Params 2
     // Checksum 0xf4cd06f3, Offset: 0x5bc8
     // Size: 0xa4, Type: dev
-    function function_e9e4a1d0( var_a13e8cac, component )
+    function function_e9e4a1d0( bpname, component )
     {
         util::waittill_can_add_debug_command();
         name = getweaponname( component );
-        str_cmd = "<dev string:x226>" + var_a13e8cac + "<dev string:x24e>" + name + "<dev string:x257>" + name + "<dev string:x221>";
+        str_cmd = "<dev string:x226>" + bpname + "<dev string:x24e>" + name + "<dev string:x257>" + name + "<dev string:x221>";
         adddebugcommand( str_cmd );
     }
 
@@ -2212,7 +2212,7 @@ function private function_42673a26( player )
         origin = unitrigger.origin;
         forward = anglestoforward( unitrigger.angles );
         right = anglestoright( unitrigger.angles );
-        var_21f5823e = vectortoangles( forward * -1 );
+        plangles = vectortoangles( forward * -1 );
         plorigin = origin + 48 * forward;
         
         switch ( entnum )
@@ -2232,7 +2232,7 @@ function private function_42673a26( player )
         }
         
         self setorigin( plorigin );
-        self setplayerangles( var_21f5823e );
+        self setplayerangles( plangles );
     }
 
 #/

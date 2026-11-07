@@ -158,7 +158,7 @@ function private function_f34df3c()
     self.var_d307828d = 0;
     self.var_cace91f9 = 0;
     self.var_3f536874 = 0;
-    self.var_4ee74b24 = 0;
+    self.is_facing_enemy = 0;
     self.var_6d5a7a2d = 0;
     self.next_move_time = 0;
     function_ed39491e( 0 );
@@ -367,9 +367,9 @@ function private function_44ac30aa()
 // Size: 0x154
 function private function_8f7ba033( inflictor, attacker, damage, flags, meansofdamage, weapon, point, dir, hitloc, offsettime, boneindex, modelindex )
 {
-    var_7aa37d9f = 0;
+    damage_result = 0;
     
-    if ( self.var_b90a4dc9 == 4 && gettime() > self.var_adf3e655 && !isdefined( self.var_8c6c9045 ) )
+    if ( self.var_b90a4dc9 == 4 && gettime() > self.knockback_cooldown && !isdefined( self.var_8c6c9045 ) )
     {
         self.var_8c6c9045 = dir * -1;
     }
@@ -383,7 +383,7 @@ function private function_8f7ba033( inflictor, attacker, damage, flags, meansofd
         level notify( #"avogadro_damage_react", { #e_player:attacker } );
     }
     
-    return var_7aa37d9f;
+    return damage_result;
 }
 
 // Namespace zm_ai_avogadro/zm_ai_avogadro
@@ -467,7 +467,7 @@ function private function_cace91f9()
 // Params 0, eflags: 0x4
 // Checksum 0xce1d3a2d, Offset: 0x2430
 // Size: 0x12a
-function private function_4ee74b24()
+function private is_facing_enemy()
 {
     if ( isdefined( self.favoriteenemy ) && self.var_6d5a7a2d < gettime() )
     {
@@ -481,15 +481,15 @@ function private function_4ee74b24()
         
         if ( dot >= cosine_angle )
         {
-            self.var_4ee74b24 = 1;
+            self.is_facing_enemy = 1;
         }
         else
         {
-            self.var_4ee74b24 = 0;
+            self.is_facing_enemy = 0;
         }
     }
     
-    return self.var_4ee74b24;
+    return self.is_facing_enemy;
 }
 
 // Namespace zm_ai_avogadro/zm_ai_avogadro
@@ -632,7 +632,7 @@ function private function_4d1543a2( entity )
     {
         var_eab3f54a = distance2dsquared( entity.origin, entity.favoriteenemy.origin );
         
-        if ( var_eab3f54a >= 62500 && function_4ee74b24() && function_cace91f9() && can_see_enemy() )
+        if ( var_eab3f54a >= 62500 && is_facing_enemy() && function_cace91f9() && can_see_enemy() )
         {
             result = 1;
             level notify( #"hash_498ebb296003fd76" );
@@ -1218,7 +1218,7 @@ function private function_195b7ea1( entity )
 // Size: 0x1a
 function private function_1d5cd5c8()
 {
-    self.var_adf3e655 = gettime() + 200;
+    self.knockback_cooldown = gettime() + 200;
 }
 
 // Namespace zm_ai_avogadro/zm_ai_avogadro

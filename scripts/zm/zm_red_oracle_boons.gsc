@@ -808,9 +808,9 @@ function private function_3fe13b7b()
     while ( true )
     {
         self waittill( #"entering_last_stand" );
-        var_2c7d72cf = arraycopy( self.var_466b927f );
+        a_active_perks = arraycopy( self.var_466b927f );
         
-        if ( !var_2c7d72cf.size )
+        if ( !a_active_perks.size )
         {
             continue;
         }
@@ -818,13 +818,13 @@ function private function_3fe13b7b()
         s_result = self waittill( #"player_revived", #"bled_out" );
         wait 1;
         a_current_perks = arraycopy( self.var_466b927f );
-        var_2c7d72cf = array::randomize( var_2c7d72cf );
+        a_active_perks = array::randomize( a_active_perks );
         
-        for ( i = 0; i < var_2c7d72cf.size ; i++ )
+        for ( i = 0; i < a_active_perks.size ; i++ )
         {
-            if ( !isinarray( a_current_perks, var_2c7d72cf[ i ] ) )
+            if ( !isinarray( a_current_perks, a_active_perks[ i ] ) )
             {
-                self.var_b0a9df22 = var_2c7d72cf[ i ];
+                self.var_b0a9df22 = a_active_perks[ i ];
                 break;
             }
         }

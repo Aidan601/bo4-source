@@ -591,15 +591,15 @@ function function_c4770b46( vehicle )
 function watch_timeout( duration )
 {
     self endon( #"death" );
-    var_65bcb0ae = duration * 0.5;
-    wait var_65bcb0ae;
+    halfduration = duration * 0.5;
+    wait halfduration;
     
     if ( isdefined( self.owner ) )
     {
         self.owner thread killstreaks::play_taacom_dialog( "hawkWeaponTimeHalf" );
     }
     
-    wait var_65bcb0ae;
+    wait halfduration;
     
     if ( isdefined( self.owner ) )
     {
@@ -640,12 +640,12 @@ function getvalidtargets( hawk, &stance_offsets )
         return targets;
     }
     
-    if ( !isdefined( self.hawk.var_82bf9f7b ) || self.hawk.controlling )
+    if ( !isdefined( self.hawk.look_angles ) || self.hawk.controlling )
     {
-        self.hawk.var_82bf9f7b = self getplayerangles();
+        self.hawk.look_angles = self getplayerangles();
     }
     
-    forward = anglestoforward( self.hawk.var_82bf9f7b );
+    forward = anglestoforward( self.hawk.look_angles );
     bundle = level.hawk_settings.bundle;
     var_e4f883c1 = bundle.tag_distance * bundle.tag_distance;
     now = gettime();
@@ -769,7 +769,7 @@ function create_missile_hud( vehicle, var_a33bcd86 )
         player.var_e6013893[ ti ] = spawnstruct();
         player.var_e6013893[ ti ].state = 0;
         player.var_e6013893[ ti ].visible = 0;
-        player.var_e6013893[ ti ].var_fb579b3e = 0;
+        player.var_e6013893[ ti ].was_visible = 0;
         uifield = level.var_aac98621[ ti ];
         
         if ( !uifield remote_missile_target_lockon::is_open( player ) )
@@ -953,7 +953,7 @@ function function_76b4c572()
             if ( isdefined( ti ) )
             {
                 player.var_e6013893[ ti ].state = 0;
-                player.var_e6013893[ ti ].var_fb579b3e = player.var_e6013893[ ti ].visible;
+                player.var_e6013893[ ti ].was_visible = player.var_e6013893[ ti ].visible;
                 level.var_aac98621[ ti ] remote_missile_target_lockon::set_clientnum( player, var_4ef4e267 );
                 player.var_e6013893[ ti ].visible = 0;
                 player clientfield::function_9bf78ef8( "hawk_target_lockon" + ti, "target_visible", 0 );
@@ -1017,7 +1017,7 @@ function function_9ace0fb6( targets )
             {
                 info = player.var_e6013893[ ti ];
                 
-                if ( !info.var_fb579b3e )
+                if ( !info.was_visible )
                 {
                     info.first_visible = time;
                 }

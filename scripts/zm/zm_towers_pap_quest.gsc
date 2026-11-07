@@ -347,7 +347,7 @@ function function_64f2d6de( a_ents )
     
     foreach ( mdl_head in a_mdl_heads )
     {
-        mdl_head linkto( var_f99f1421, mdl_head.var_d06913fa );
+        mdl_head linkto( var_f99f1421, mdl_head.script_pap_quest_tag );
     }
 }
 
@@ -820,7 +820,7 @@ function function_f18e2775()
     
     foreach ( var_324ea742 in var_9840ab47 )
     {
-        if ( !level flag::get( hash( var_324ea742.var_bc2bade2 ) ) )
+        if ( !level flag::get( hash( var_324ea742.script_pap_quest_flag ) ) )
         {
             var_324ea742 triggerenable( 1 );
         }
@@ -1105,7 +1105,7 @@ function function_156669dd( var_5ea5c94d, ended_early )
 function function_9b320791()
 {
     level endon( #"end_game" );
-    str_notify = self.var_427eb1ae;
+    str_notify = self.script_pap_quest_gib_notify;
     level waittill( str_notify );
     self thread fx::play( "fx_challenge_head_blood_burst", self getcentroid(), undefined, undefined, 1, undefined, 1, 0 );
     self notify( #"fx_stop_blood_drips" );
@@ -1268,7 +1268,7 @@ function function_f3c4aeac()
     }
     
     self show();
-    self playsound( #"hash_3d7066af9c9bf849" );
+    self playsound( #"zmb_papquest_head_place" );
     self thread fx::play( "fx_challenge_head_blood_burst", self getcentroid(), undefined, undefined, 1, undefined, 1, 0 );
     self thread fx::play( "fx_challenge_head_blood_drips", self getcentroid(), undefined, #"fx_stop_blood_drips", 1, str_fx_tag, 1, 0 );
 }
@@ -1333,7 +1333,7 @@ function function_1191a919( str_encounter )
 // Size: 0x6c
 function function_61cf4d04()
 {
-    level scene::play( self.var_28f6edb7, "Shot 1" );
+    level scene::play( self.script_pap_quest_fxanim, "Shot 1" );
     level.var_9847c460++;
     
     if ( level.var_9847c460 >= 4 )

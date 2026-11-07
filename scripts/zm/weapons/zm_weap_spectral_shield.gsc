@@ -543,7 +543,7 @@ function function_cb1c46b8( b_enabled )
             self clientfield::set( "" + #"afterlife_vision_play", 1 );
             self.snd_ent = spawn( "script_origin", self.origin );
             self.snd_ent linkto( self );
-            self.snd_ent playloopsound( #"hash_197dd6d18afad004" );
+            self.snd_ent playloopsound( #"zmb_shield_afterlife_loop" );
         }
         
         return;
@@ -1042,7 +1042,7 @@ function private function_1b33fb6d( var_155e1cdd )
             waitframe( 1 );
         }
         
-        self.var_f1b20bef = undefined;
+        self.e_beam_target = undefined;
         self clientfield::set( "" + #"spectral_key_beam_fire", 0 );
         self clientfield::set( "" + #"spectral_key_beam_flash", 0 );
         self notify( #"hash_7a5ea8904c04f16b" );
@@ -1065,7 +1065,7 @@ function private function_dc44932e( var_c34665fc )
 {
     if ( var_c34665fc == #"hash_1b7c4bada7fa6175" || var_c34665fc == "weapon_change" )
     {
-        self.var_f1b20bef = undefined;
+        self.e_beam_target = undefined;
         self.var_4154aa8f = undefined;
         self clientfield::set( "" + #"spectral_key_beam_fire", 0 );
         self clientfield::set( "" + #"spectral_key_beam_flash", 0 );
@@ -1116,14 +1116,14 @@ function function_d1a7390b( w_curr )
         {
             if ( isdefined( ai_zombie_target ) )
             {
-                self.var_f1b20bef = ai_zombie_target;
+                self.e_beam_target = ai_zombie_target;
             }
             else if ( isdefined( a_trace[ #"entity" ] ) )
             {
-                self.var_f1b20bef = a_trace[ #"entity" ];
+                self.e_beam_target = a_trace[ #"entity" ];
             }
             
-            e_last_target = self.var_f1b20bef;
+            e_last_target = self.e_beam_target;
             
             if ( isai( e_last_target ) )
             {
@@ -1229,7 +1229,7 @@ function function_d1a7390b( w_curr )
         }
         else
         {
-            self.var_f1b20bef = undefined;
+            self.e_beam_target = undefined;
             var_24bae834 = 0;
             
             switch ( a_trace[ #"surfacetype" ] )
@@ -1290,9 +1290,9 @@ function function_f0b16c98( w_curr, n_dist_sq_max )
     v_view_pos = self getweaponmuzzlepoint();
     v_forward_angles = self getweaponforwarddir();
     
-    if ( isalive( self.var_f1b20bef ) && isdefined( self.var_f1b20bef sightconetrace( v_view_pos, self, v_forward_angles, 25 ) ) && self.var_f1b20bef sightconetrace( v_view_pos, self, v_forward_angles, 25 ) )
+    if ( isalive( self.e_beam_target ) && isdefined( self.e_beam_target sightconetrace( v_view_pos, self, v_forward_angles, 25 ) ) && self.e_beam_target sightconetrace( v_view_pos, self, v_forward_angles, 25 ) )
     {
-        return self.var_f1b20bef;
+        return self.e_beam_target;
     }
     
     if ( isdefined( level.var_68fa1bc ) )
@@ -1356,7 +1356,7 @@ function function_35d74d73( e_attacker )
         }
     }
     
-    while ( e_attacker.var_f1b20bef === self && isalive( self ) )
+    while ( e_attacker.e_beam_target === self && isalive( self ) )
     {
         if ( self.health <= self.maxhealth * 0.5 && !( isdefined( self.is_floating ) && self.is_floating ) )
         {
@@ -1432,7 +1432,7 @@ function function_986701ac( e_attacker )
         e_attacker clientfield::set( "" + #"spectral_key_beam_flash", 2 );
     }
     
-    while ( e_attacker.var_f1b20bef === self && isalive( self ) )
+    while ( e_attacker.e_beam_target === self && isalive( self ) )
     {
         waitframe( 1 );
     }
@@ -1503,7 +1503,7 @@ function private function_a370d183( e_attacker )
         e_attacker clientfield::set( "" + #"spectral_key_beam_flash", 2 );
     }
     
-    while ( e_attacker.var_f1b20bef === self && isalive( self ) )
+    while ( e_attacker.e_beam_target === self && isalive( self ) )
     {
         waitframe( 1 );
     }

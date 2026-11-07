@@ -56,10 +56,10 @@ function init()
         zm_weapons::include_zombie_weapon( #"zitem_tricannon_upgrade_kit", 0 );
         zm_weapons::add_zombie_weapon( #"zitem_tricannon_upgrade_kit", "", 0, 0, undefined, undefined, 0, "", "", 0, undefined, 0 );
         level.n_kill_count = 0;
-        level.var_3a67ac0e = array( #"hash_10d96c6e67b7604d", #"p7_compass_vintage", #"p7_world_globe_vintage_01", #"p7_ra2_tool_vintage_pincer_02", #"p7_zm_ori_scope_vintage" );
+        level.var_3a67ac0e = array( #"p8_zm_binoculars_brass_vintage", #"p7_compass_vintage", #"p7_world_globe_vintage_01", #"p7_ra2_tool_vintage_pincer_02", #"p7_zm_ori_scope_vintage" );
         level.var_b26f906a = array( #"k_z_forecastle", #"k_z_boat_deck", #"k_z_sun_deck", #"k_z_aft_decks", #"k_z_poop_deck" );
-        level.var_e083ecbd = randomint( level.a_s_chests.size );
-        level.var_f9f50915 = level.a_s_chests[ level.var_e083ecbd ];
+        level.n_random_index = randomint( level.a_s_chests.size );
+        level.var_f9f50915 = level.a_s_chests[ level.n_random_index ];
         level.var_f9f50915 show_chest();
         level thread function_2c93a769();
         w_blueprint = zm_crafting::function_b18074d0( #"zblueprint_zod_tricannon_upgrade" );
@@ -311,9 +311,9 @@ function private step_3_setup( var_a276c861 )
             if ( level.var_e2ce1fe1 < 2 )
             {
                 level.var_f9f50915.mdl_chest delete();
-                arrayremoveindex( level.a_s_chests, level.var_e083ecbd );
-                level.var_e083ecbd = randomint( level.a_s_chests.size );
-                level.var_f9f50915 = level.a_s_chests[ level.var_e083ecbd ];
+                arrayremoveindex( level.a_s_chests, level.n_random_index );
+                level.n_random_index = randomint( level.a_s_chests.size );
+                level.var_f9f50915 = level.a_s_chests[ level.n_random_index ];
                 level.var_f9f50915 show_chest();
                 level.var_f9f50915.mdl_chest thread scene::play( #"p8_fxanim_zm_zod_kraken_chest_bundle", "open", level.var_f9f50915.mdl_chest );
                 level.var_f9f50915.mdl_chest playsound( #"zmb_triquest_chest_unlock" );

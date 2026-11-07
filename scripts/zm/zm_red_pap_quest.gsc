@@ -655,7 +655,7 @@ function function_20a1e095( s_params )
         
         foreach ( player in util::get_active_players() )
         {
-            player thread zm_vo::vo_say( #"hash_402d4a87b58810d5", 0.5, 1, 9999, 1, 1 );
+            player thread zm_vo::vo_say( #"vox_gegenees_kill_first_orac_0", 0.5, 1, 9999, 1, 1 );
         }
     }
 }
@@ -706,7 +706,7 @@ function function_fd16ebb0( ai )
 // Size: 0x294
 function function_38a41b56( w_component, ai )
 {
-    var_19383ecc = undefined;
+    v_shield_origin = undefined;
     
     if ( isdefined( ai ) )
     {
@@ -719,14 +719,14 @@ function function_38a41b56( w_component, ai )
         var_4821fd63 = struct::get( "default_shield_pos" ).origin;
     }
     
-    while ( !isdefined( var_19383ecc ) )
+    while ( !isdefined( v_shield_origin ) )
     {
         v_offset = ( randomintrange( -64, 64 ), randomintrange( -64, 64 ), 0 );
         v_org = var_4821fd63 + v_offset;
         
         if ( isdefined( v_org ) && zm_utility::check_point_in_enabled_zone( v_org ) && zm_utility::check_point_in_playable_area( v_org ) )
         {
-            var_19383ecc = v_org;
+            v_shield_origin = v_org;
         }
         
         waitframe( 1 );
@@ -736,7 +736,7 @@ function function_38a41b56( w_component, ai )
     
     while ( !isdefined( w_item ) )
     {
-        w_item = zm_items::spawn_item( w_component, var_19383ecc + ( 0, 0, 32 ), var_5a0fa917, 1 );
+        w_item = zm_items::spawn_item( w_component, v_shield_origin + ( 0, 0, 32 ), var_5a0fa917, 1 );
         waitframe( 1 );
     }
     
@@ -1378,7 +1378,7 @@ function function_e11818f4()
     {
         foreach ( player in util::get_active_players() )
         {
-            player thread zm_vo::vo_say( #"hash_6fbde56e825c38e3", 1, 1, 9999, 1, 1 );
+            player thread zm_vo::vo_say( #"vox_pegasus_ride_1_orac_0", 1, 1, 9999, 1, 1 );
         }
     }
     
@@ -1464,7 +1464,7 @@ function function_fe0a763c()
             player allowedstances( "stand" );
             player setstance( "stand" );
             player.var_f43d8eba = 1;
-            player.var_f22c83f5 = 1;
+            player.b_ignore_playable_area_check = 1;
             player forcestreambundle( #"p8_fxanim_zm_red_drakaina_bundle" );
             player forcestreambundle( #"p8_fxanim_zm_red_omphalos_crystal_left_bundle" );
             player forcestreambundle( #"p8_fxanim_zm_red_omphalos_crystal_front_bundle" );
@@ -1783,13 +1783,13 @@ function function_db68db95( s_pos )
     self allowedstances( "stand", "crouch", "prone" );
     self val::reset( "pegasus_ride", "takedamage" );
     self.var_f43d8eba = 0;
-    self.var_f22c83f5 = undefined;
+    self.b_ignore_playable_area_check = undefined;
     wait 1.5;
     self clientfield::set_to_player( "" + #"pegasus_shellshock", 0 );
     wait 5;
     self.ignoreme = 0;
     wait 6;
-    self zm_vo::vo_say( #"hash_31995b2656971de0", 0, 1, 9999, 1, 1 );
+    self zm_vo::vo_say( #"vox_zeus_eagle_free_nag_orac_0", 0, 1, 9999, 1, 1 );
     self function_66b6e720( #"p8_fxanim_zm_red_drakaina_bundle" );
 }
 
@@ -1813,7 +1813,7 @@ function function_9af8bfc8()
 // Size: 0x24, Type: bool
 function player_out_of_playable_area_monitor_callback()
 {
-    if ( isdefined( self.var_f22c83f5 ) && self.var_f22c83f5 )
+    if ( isdefined( self.b_ignore_playable_area_check ) && self.b_ignore_playable_area_check )
     {
         return false;
     }
@@ -2369,7 +2369,7 @@ function function_23f28dd1( var_5ea5c94d )
     
     foreach ( player in util::get_active_players() )
     {
-        player thread zm_vo::vo_say( #"hash_76c659bb664b357e", 0.5, 1, 9999, 1, 1 );
+        player thread zm_vo::vo_say( #"vox_omphalos_exposed_orac_0", 0.5, 1, 9999, 1, 1 );
     }
     
     zm_trial::function_ae725d63();
@@ -2431,7 +2431,7 @@ function function_5f5ee5ed()
     
     foreach ( player in util::get_active_players() )
     {
-        player thread zm_vo::vo_say( #"hash_26efdad6a0045d6d", 0.5, 1, 9999, 1, 1 );
+        player thread zm_vo::vo_say( #"vox_pap_end_react_1_orac_0", 0.5, 1, 9999, 1, 1 );
     }
     
     level thread function_1707def1();

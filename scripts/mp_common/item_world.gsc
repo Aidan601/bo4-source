@@ -152,7 +152,7 @@ function private function_f3b6e182( player )
     usetrigger function_89fca53b( 0 );
     usetrigger function_49462027( 1, 1 | 16 | 8388608 | 65536 | 4194304 );
     player.var_207c9892 = getdvarint( #"hash_3ec4f617fad5b87c", 150 ) / 1000;
-    function_dae4ab9b( usetrigger, player.var_207c9892 );
+    settriggerusetime( usetrigger, player.var_207c9892 );
     player clientclaimtrigger( usetrigger );
     player.var_19caeeea = usetrigger;
     usetrigger callback::on_trigger( &function_ad7ad6ce );
@@ -414,7 +414,7 @@ function private function_41a52251( item, player, networkid, itemid, itemcount, 
 function private function_2b2e9302( item, player, networkid, itemid, itemcount, itemamount, slotid )
 {
     remainingitems = player item_inventory::give_inventory_item( item, itemcount, undefined, slotid );
-    player callback::callback( #"hash_3b891b6daa75c782", item );
+    player callback::callback( #"on_quest_item_pickup", item );
     return remainingitems;
 }
 
@@ -795,7 +795,7 @@ function private function_23b313bd( player, eventtype, eventdata, var_c5a66313 )
             
             if ( isdefined( player.var_19caeeea ) )
             {
-                function_dae4ab9b( player.var_19caeeea, player.var_207c9892 );
+                settriggerusetime( player.var_19caeeea, player.var_207c9892 );
             }
             
             return;
@@ -1701,7 +1701,7 @@ function private function_7c84312d( origin, angles )
     
     if ( var_512ddf16 && isdefined( self.var_d7abc784 ) )
     {
-        var_75f6d739 = anglestoforward( ( 0, angles[ 1 ], 0 ) );
+        projectedforward = anglestoforward( ( 0, angles[ 1 ], 0 ) );
         
         for ( itemindex = 0; itemindex < var_f4b807cb.size ; itemindex++ )
         {
@@ -1713,7 +1713,7 @@ function private function_7c84312d( origin, angles )
                 continue;
             }
             
-            var_1777205e = vectordot( var_75f6d739, vectornormalize( ( toitem[ 0 ], toitem[ 1 ], 0 ) ) );
+            var_1777205e = vectordot( projectedforward, vectornormalize( ( toitem[ 0 ], toitem[ 1 ], 0 ) ) );
             
             if ( var_1777205e >= 0.5 && distancesquared( itemdef.origin, self.var_d7abc784 ) <= 12 * 12 )
             {
@@ -1852,7 +1852,7 @@ function private function_7c84312d( origin, angles )
         usetrigger.origin = var_9b882d22.origin + ( 0, 0, 4 );
         usetrigger.angles = ( 0, 0, 0 );
         usetrigger triggerenable( 1 );
-        function_dae4ab9b( usetrigger, self.var_207c9892 );
+        settriggerusetime( usetrigger, self.var_207c9892 );
         
         if ( !( isdefined( var_9b882d22.var_5d97fed1 ) && var_9b882d22.var_5d97fed1 ) )
         {
@@ -1865,12 +1865,12 @@ function private function_7c84312d( origin, angles )
             {
                 if ( !item_inventory::can_pickup_ammo( var_9b882d22 ) )
                 {
-                    function_dae4ab9b( usetrigger, getdvarint( #"hash_3ec4f617fad5b87c", 150 ) / 1000 );
+                    settriggerusetime( usetrigger, getdvarint( #"hash_3ec4f617fad5b87c", 150 ) / 1000 );
                 }
             }
             else if ( !isdefined( item_inventory::function_e66dcff5( var_9b882d22 ) ) )
             {
-                function_dae4ab9b( usetrigger, getdvarint( #"hash_3ec4f617fad5b87c", 150 ) / 1000 );
+                settriggerusetime( usetrigger, getdvarint( #"hash_3ec4f617fad5b87c", 150 ) / 1000 );
             }
         }
         

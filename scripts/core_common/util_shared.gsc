@@ -5933,7 +5933,7 @@ function get_array( str_value, str_key = "targetname" )
 // Params 1
 // Checksum 0x990a4183, Offset: 0xdae0
 // Size: 0x52
-function function_a1281365( radius )
+function random_radius( radius )
 {
     if ( !isdefined( radius ) || radius <= 0 )
     {

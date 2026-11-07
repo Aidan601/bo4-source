@@ -39,7 +39,7 @@ function function_2613aeec( enabled )
     if ( enabled )
     {
         callback::on_item_use( &on_item_use );
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_team_eliminated", &function_4ac25840 );
         a_dynents = getdynentarray( #"hash_7b220e1de3a2000d" );
         
@@ -129,7 +129,7 @@ function function_d5cd583a( activator, laststate, state )
 // Params 1
 // Checksum 0xf10ad1fc, Offset: 0x570
 // Size: 0x12c
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     

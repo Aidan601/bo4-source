@@ -460,9 +460,9 @@ function function_dd19aefa( death )
     }
     
     e_speaker = undefined;
-    var_a841b5f1 = array::randomize( zm_vo::get_valid_players() );
+    a_potential_players = array::randomize( zm_vo::get_valid_players() );
     
-    foreach ( e_player in var_a841b5f1 )
+    foreach ( e_player in a_potential_players )
     {
         if ( e_player != self && zm_vo::function_5c82f986( e_player, self ) )
         {
@@ -1275,10 +1275,10 @@ function private function_bf1b121a( timeout, n_range, var_618a04 )
     
     do
     {
-        var_6f868336 = arraysort( level.activeplayers, self.origin, 1, level.activeplayers.size, n_range );
-        var_6f868336 = array::randomize( var_6f868336 );
+        a_players_in_range = arraysort( level.activeplayers, self.origin, 1, level.activeplayers.size, n_range );
+        a_players_in_range = array::randomize( a_players_in_range );
         
-        foreach ( player in var_6f868336 )
+        foreach ( player in a_players_in_range )
         {
             if ( !player can_speak() || isdefined( level.var_b625a184 ) && level.var_b625a184 )
             {

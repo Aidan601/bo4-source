@@ -33,7 +33,7 @@ function __init__()
 // Params 5, eflags: 0x4
 // Checksum 0xde84642f, Offset: 0x140
 // Size: 0x1f4
-function private on_begin( var_60bdad5f, var_36c3cc24, var_4ee27b15, var_3bc46181, var_1f6e1e99 )
+function private on_begin( str_fail, var_36c3cc24, var_4ee27b15, var_3bc46181, var_1f6e1e99 )
 {
     switch ( level.players.size )
     {
@@ -54,7 +54,7 @@ function private on_begin( var_60bdad5f, var_36c3cc24, var_4ee27b15, var_3bc4618
     self.var_358e6a29 = self.var_28433a54;
     self.var_e6e7a65d = isdefined( zombie_utility::get_zombie_var( #"rebuild_barrier_cap_per_round" ) ) ? zombie_utility::get_zombie_var( #"rebuild_barrier_cap_per_round" ) : 0;
     zombie_utility::set_zombie_var( #"rebuild_barrier_cap_per_round", self.var_28433a54 );
-    self.var_a84ac7c8 = var_60bdad5f;
+    self.var_a84ac7c8 = str_fail;
     zm_trial_util::function_2976fa44( self.var_358e6a29 );
     zm_trial_util::function_dace284( 0 );
     self thread function_738e3a43();

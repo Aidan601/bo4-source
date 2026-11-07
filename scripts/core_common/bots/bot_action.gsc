@@ -3910,7 +3910,7 @@ function function_679b5b7a( actionparams )
 // Params 2
 // Checksum 0xdf9663be, Offset: 0xa740
 // Size: 0xe6, Type: bool
-function function_faa6a59d( actionparams, range )
+function is_target_in_range( actionparams, range )
 {
     target = actionparams.target;
     
@@ -4093,14 +4093,14 @@ function get_max_health()
 // Size: 0x1dc
 function look_along_path()
 {
-    var_e125ba43 = "Path";
+    debuglabel = "Path";
     debugcolor = ( 1, 1, 1 );
     var_8be65bb9 = self function_f04bd922();
     
     if ( isdefined( var_8be65bb9 ) && isdefined( var_8be65bb9.var_2cfdc66d ) )
     {
         var_104d463 = var_8be65bb9.var_2cfdc66d;
-        var_e125ba43 = "Corner";
+        debuglabel = "Corner";
         
         if ( isdefined( var_8be65bb9.var_b7af6731 ) )
         {
@@ -4109,7 +4109,7 @@ function look_along_path()
             if ( distsq < 4096 )
             {
                 var_104d463 = var_8be65bb9.var_b7af6731;
-                var_e125ba43 = "Next Corner";
+                debuglabel = "Next Corner";
             }
         }
         
@@ -4119,19 +4119,19 @@ function look_along_path()
     else if ( isdefined( self.overridegoalpos ) )
     {
         lookpoint = self.overridegoalpos;
-        var_e125ba43 = "Override Goal Pos";
+        debuglabel = "Override Goal Pos";
         debugcolor = ( 1, 0, 1 );
     }
     else
     {
         lookpoint = self.goalpos;
-        var_e125ba43 = self.goalforced ? "Goal Pos (Forced)" : "Goal Pos";
+        debuglabel = self.goalforced ? "Goal Pos (Forced)" : "Goal Pos";
         debugcolor = self.goalforced ? ( 0, 1, 1 ) : ( 0, 1, 0 );
     }
     
     viewheight = self getplayerviewheight();
     lookpoint += ( 0, 0, viewheight );
-    self look_at_point( lookpoint, var_e125ba43, debugcolor );
+    self look_at_point( lookpoint, debuglabel, debugcolor );
 }
 
 // Namespace bot_action/bot_action
@@ -4186,7 +4186,7 @@ function function_412e04fa( node )
 // Params 3
 // Checksum 0x999ce25b, Offset: 0xb188
 // Size: 0xbc
-function look_at_point( point, var_e125ba43, debugcolor )
+function look_at_point( point, debuglabel, debugcolor )
 {
     self botsetlookpoint( point );
     
@@ -4194,7 +4194,7 @@ function look_at_point( point, var_e125ba43, debugcolor )
         if ( self bot::should_record( "<dev string:x635>" ) )
         {
             recordsphere( point, 4, debugcolor, "<dev string:x4b>" );
-            record3dtext( var_e125ba43, point + ( 0, 0, 5 ), debugcolor, "<dev string:x4b>", undefined, 0.5 );
+            record3dtext( debuglabel, point + ( 0, 0, 5 ), debugcolor, "<dev string:x4b>", undefined, 0.5 );
         }
     #/
 }
@@ -4265,7 +4265,7 @@ function function_2b8f7067()
                         continue;
                     }
                     
-                    if ( !function_96c81b85( var_7607a546, point.origin + ( 0, 0, 60 ) ) )
+                    if ( !tpointhashighchancetoseeposition( var_7607a546, point.origin + ( 0, 0, 60 ) ) )
                     {
                         if ( !array::contains( var_4a39f740, currentpoint ) )
                         {
@@ -4310,9 +4310,9 @@ function function_2b8f7067()
     {
         viewheight = self getplayerviewheight();
         lookpoint = self.var_83867a22.origin + ( 0, 0, viewheight );
-        var_e125ba43 = "Neighboring Region Entrance";
+        debuglabel = "Neighboring Region Entrance";
         debugcolor = ( 1, 0, 0 );
-        self look_at_point( lookpoint, var_e125ba43, debugcolor );
+        self look_at_point( lookpoint, debuglabel, debugcolor );
         return;
     }
     
@@ -4874,7 +4874,7 @@ function function_2a24a928()
                     continue;
                 }
                 
-                if ( function_96c81b85( var_7607a546, target.origin ) )
+                if ( tpointhashighchancetoseeposition( var_7607a546, target.origin ) )
                 {
                     var_137299d[ var_137299d.size ] = target;
                 }

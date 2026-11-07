@@ -583,12 +583,12 @@ function function_50ec1ddf()
     {
         if ( zm_zonemgr::zone_is_enabled( s_spawn_loc.zone_name ) )
         {
-            if ( !isdefined( s_spawn_loc.var_39512f0e ) || level flag::get( s_spawn_loc.var_39512f0e ) == 0 )
+            if ( !isdefined( s_spawn_loc.script_flag_disable ) || level flag::get( s_spawn_loc.script_flag_disable ) == 0 )
             {
                 return s_spawn_loc;
             }
             
-            if ( s_spawn_loc.var_39512f0e === "power_on3" && zm_custom::function_901b751c( "zmPowerState" ) == 2 && zm_custom::function_901b751c( #"zmpowerdoorstate" ) == 0 )
+            if ( s_spawn_loc.script_flag_disable === "power_on3" && zm_custom::function_901b751c( "zmPowerState" ) == 2 && zm_custom::function_901b751c( #"zmpowerdoorstate" ) == 0 )
             {
                 return s_spawn_loc;
             }
@@ -710,7 +710,7 @@ function function_d1371239( var_a9e4d1ee )
         
         do
         {
-            ai = zombie_dog_util::function_62db7b1c( 1, undefined );
+            ai = zombie_dog_util::spawn_single_dog( 1, undefined );
             var_18f8f237--;
             waitframe( 1 );
         }

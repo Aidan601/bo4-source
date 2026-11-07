@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1393e0f3db94aae3",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6162bcdca82d1b91",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68819a1f89b7831d",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_launch_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -119,7 +119,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1393e0f3db94aae3",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -148,7 +148,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6162bcdca82d1b91",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -177,7 +177,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68819a1f89b7831d",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_launch_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -233,7 +233,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1393e0f3db94aae3",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -262,7 +262,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1032f26ae89a9d02",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -291,7 +291,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5634f6729f2edec6",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_launch_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -347,7 +347,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1393e0f3db94aae3",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -376,7 +376,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6162bcdca82d1b91",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -405,7 +405,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68819a1f89b7831d",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_launch_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -438,7 +438,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_605a05432a83ce08",
+            "model": "model#p8_fxanim_mp_cosmo_rocket_booster_01_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -461,7 +461,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1393e0f3db94aae3",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -490,7 +490,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6162bcdca82d1b91",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -519,7 +519,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68819a1f89b7831d",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_launch_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -552,7 +552,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_3095f90456d73e99",
+            "model": "model#p8_fxanim_mp_cosmo_rocket_booster_02_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -575,7 +575,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1393e0f3db94aae3",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -604,7 +604,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6162bcdca82d1b91",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -633,7 +633,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68819a1f89b7831d",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_launch_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -666,7 +666,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_3f35bb3441d1c7f6",
+            "model": "model#p8_fxanim_mp_cosmo_rocket_booster_03_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -689,7 +689,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1393e0f3db94aae3",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -718,7 +718,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6162bcdca82d1b91",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_prep_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -747,7 +747,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_68819a1f89b7831d",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_launch_b_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -780,7 +780,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_70cbc3219addfa37",
+            "model": "model#p8_fxanim_mp_cosmo_rocket_booster_04_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "deletewhenfinished": 1,
@@ -803,7 +803,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_47a579441bee8743",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_left_upper_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -832,7 +832,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_406171002e350b22",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_left_upper_prep_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -861,7 +861,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_412697f443eb8566",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_left_upper_launch_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -916,7 +916,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_69ae3a9af97082e8",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_left_lower_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -945,7 +945,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_25c0f80cddb3ffcf",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_left_lower_prep_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -974,7 +974,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_277c94e9b53cb053",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_left_lower_launch_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1029,7 +1029,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_8b655f2d289742a",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_right_upper_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1058,7 +1058,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_46cabc3728eb1ca9",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_right_upper_prep_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1087,7 +1087,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3f700a86f121ef71",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_right_upper_launch_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1142,7 +1142,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_79e53095fbb44b9",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_right_lower_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1171,7 +1171,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_337b95ce4ab59580",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_right_lower_prep_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1200,7 +1200,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_120fb6ccbc2a25c8",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_arm_right_lower_launch_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1255,7 +1255,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1296814238923f5a",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_radar_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1284,7 +1284,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7494a1a6ee74e919",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_radar_prep_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1313,7 +1313,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_442e88abc48b0421",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_radar_launch_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1368,7 +1368,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_159eeee0d966c3a8",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_radar_base_prep_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1397,7 +1397,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7b8635708ba01d8f",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_radar_base_prep_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -1426,7 +1426,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_481bedb1e8f82713",
+                            "anim": "anim#p8_fxanim_mp_cosmo_rocket_radar_base_launch_anim",
                             "entrytype": "anim"
                         }
                     ],

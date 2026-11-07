@@ -4734,9 +4734,9 @@ function lost_perk_override( perk )
         return false;
     }
     
-    foreach ( var_a4dddafc in level.var_91ac8112 )
+    foreach ( func_lost_perk_override in level.var_91ac8112 )
     {
-        if ( self [[ var_a4dddafc ]]( perk ) )
+        if ( self [[ func_lost_perk_override ]]( perk ) )
         {
             return true;
         }
@@ -4790,12 +4790,12 @@ function function_b2dfd295( perk, var_8c7df7fc )
     {
         if ( self [[ var_8c7df7fc ]]( e_reviver, var_84280a99 ) )
         {
-            var_54b72e0c = 1;
+            b_return_perk = 1;
             break;
         }
     }
     
-    if ( !( isdefined( var_54b72e0c ) && var_54b72e0c ) )
+    if ( !( isdefined( b_return_perk ) && b_return_perk ) )
     {
         return;
     }

@@ -6,7 +6,7 @@
 
 #namespace namespace_fc5c8455;
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0, eflags: 0x2
 // Checksum 0x85bb1fda, Offset: 0x110
 // Size: 0x3c
@@ -15,7 +15,7 @@ function autoexec __init__system__()
     system::register( #"hash_32658a301920c858", &__init__, undefined, undefined );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x9134044, Offset: 0x158
 // Size: 0x872
@@ -56,7 +56,7 @@ function __init__()
     level._effect[ #"acid_gat_lock_fx" ] = #"hash_170bbc9437bc68c9";
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0xaad50a6d, Offset: 0x9d8
 // Size: 0x1ca
@@ -85,7 +85,7 @@ function magma_fireplace_fx( localclientnum, oldval, newval, bnewent, binitialsn
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0xfc5848f7, Offset: 0xbb0
 // Size: 0xf6
@@ -110,7 +110,7 @@ function magma_fireplace_skull_fx( localclientnum, oldval, newval, bnewent, bini
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0xef31b378, Offset: 0xcb0
 // Size: 0xf6
@@ -135,7 +135,7 @@ function magma_gat_essence_fx( localclientnum, oldval, newval, bnewent, binitial
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0xe1cc75d8, Offset: 0xdb0
 // Size: 0xf6
@@ -160,7 +160,7 @@ function magma_door_barrier_fx( localclientnum, oldval, newval, bnewent, binitia
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0xdbf2f258, Offset: 0xeb0
 // Size: 0xf6
@@ -185,7 +185,7 @@ function magma_glow_fx( localclientnum, oldval, newval, bnewent, binitialsnap, f
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0x7a9a65f1, Offset: 0xfb0
 // Size: 0x7c
@@ -197,7 +197,7 @@ function magma_essence_explode_fx( localclientnum, oldval, newval, bnewent, bini
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0xb5bf0acf, Offset: 0x1038
 // Size: 0x74
@@ -206,7 +206,7 @@ function magma_gat_disappear_fx( localclientnum, oldval, newval, bnewent, biniti
     util::playfxontag( localclientnum, level._effect[ #"magma_taken_timeout" ], self, "tag_origin" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0xdf0dcd2c, Offset: 0x10b8
 // Size: 0x18c
@@ -233,7 +233,7 @@ function magma_gat_glow_override( localclientnum, oldval, newval, bnewent, binit
     self stoprenderoverridebundle( #"hash_4fb0136f51fcf7", "tag_weapon" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0x35ffb164, Offset: 0x1250
 // Size: 0x114
@@ -263,7 +263,7 @@ function magma_gat_glow_recharge( localclientnum, oldval, newval, bnewent, binit
     self stoprumble( localclientnum, #"hash_3c64ae4793e47b3a" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1, eflags: 0x4
 // Checksum 0x332f02de, Offset: 0x1370
 // Size: 0x11a
@@ -294,7 +294,7 @@ function private function_d193f583( localclientnum )
     self.var_c183198c = self playloopsound( #"zmb_magmagat_cooldown_loop" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1, eflags: 0x4
 // Checksum 0x56f188c6, Offset: 0x1498
 // Size: 0x2f4
@@ -360,7 +360,7 @@ function private function_f9a794dc( localclientnum )
     self function_78233d29( #"hash_4fb0136f51fcf7", "tag_weapon", "Brightness", 0 );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0xade822a7, Offset: 0x1798
 // Size: 0x18a
@@ -416,7 +416,7 @@ function function_eba88fd( localclientnum )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0xd7ccf058, Offset: 0x1930
 // Size: 0x76
@@ -433,7 +433,7 @@ function magma_gat_glow_shot_fired( localclientnum, oldval, newval, bnewent, bin
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0x293fb17f, Offset: 0x19b0
 // Size: 0x176
@@ -470,7 +470,7 @@ function magma_forging_fx( localclientnum, oldval, newval, bnewent, binitialsnap
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0x979961bd, Offset: 0x1b30
 // Size: 0x1c2
@@ -502,7 +502,7 @@ function magma_urn_fire_fx( localclientnum, oldval, newval, bnewent, binitialsna
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0x9176fd74, Offset: 0x1d00
 // Size: 0x144
@@ -523,7 +523,7 @@ function function_4707df22( localclientnum, oldval, newval, bnewent, binitialsna
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0x59d44a27, Offset: 0x1e50
 // Size: 0x156
@@ -546,7 +546,7 @@ function function_84e77740( localclientnum, oldval, newval, bnewent, binitialsna
     self notify( #"hash_4236253d10aeec5e" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0x384dc8ef, Offset: 0x1fb0
 // Size: 0xd0
@@ -564,7 +564,7 @@ function function_bbfe3432( localclientnum )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0x48fb5a11, Offset: 0x2088
 // Size: 0x9c
@@ -574,7 +574,7 @@ function magma_urn_triggered_fx( localclientnum, oldval, newval, bnewent, biniti
     playsound( localclientnum, #"zmb_blundergat_fire_start", self.origin );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 7
 // Checksum 0x77c09b46, Offset: 0x2130
 // Size: 0x74

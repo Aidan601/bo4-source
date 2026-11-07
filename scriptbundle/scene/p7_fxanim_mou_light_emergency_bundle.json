@@ -1,7 +1,7 @@
 {
     "objects": [
         {
-            "mainanim": "anim#hash_20ae6d3601fcb685",
+            "mainanim": "anim#p7_fxanim_mou_light_emergency_wind_low_anim",
             "model": "model#p7_fxanim_mou_light_emergency_mod",
             "type": "prop",
             "vmtype": "server",

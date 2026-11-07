@@ -562,7 +562,7 @@ function function_dde2edd8()
         self function_c2237c03();
         self notify( #"hash_7e1d78666f0be68b", { #e_player:s_info.e_player } );
         
-        if ( isdefined( self.var_8e350723 ) && self.var_8e350723 )
+        if ( isdefined( self.b_turn_on_and_off ) && self.b_turn_on_and_off )
         {
             self waittilltimeout( 10, #"turn_off" );
         }
@@ -742,7 +742,7 @@ function dog_spawn_func()
             }
         }
         
-        var_905a9429 = [];
+        valid_spawn_locs = [];
         var_51fb0ec7 = [];
         players = getplayers();
         
@@ -780,16 +780,16 @@ function dog_spawn_func()
                 
                 if ( spawn_list == 1 )
                 {
-                    if ( !isdefined( var_905a9429 ) )
+                    if ( !isdefined( valid_spawn_locs ) )
                     {
-                        var_905a9429 = [];
+                        valid_spawn_locs = [];
                     }
-                    else if ( !isarray( var_905a9429 ) )
+                    else if ( !isarray( valid_spawn_locs ) )
                     {
-                        var_905a9429 = array( var_905a9429 );
+                        valid_spawn_locs = array( valid_spawn_locs );
                     }
                     
-                    var_905a9429[ var_905a9429.size ] = loc;
+                    valid_spawn_locs[ valid_spawn_locs.size ] = loc;
                     continue;
                 }
                 
@@ -809,24 +809,24 @@ function dog_spawn_func()
             }
         }
         
-        if ( var_905a9429.size < 3 )
+        if ( valid_spawn_locs.size < 3 )
         {
             foreach ( loc in var_51fb0ec7 )
             {
-                if ( !isdefined( var_905a9429 ) )
+                if ( !isdefined( valid_spawn_locs ) )
                 {
-                    var_905a9429 = [];
+                    valid_spawn_locs = [];
                 }
-                else if ( !isarray( var_905a9429 ) )
+                else if ( !isarray( valid_spawn_locs ) )
                 {
-                    var_905a9429 = array( var_905a9429 );
+                    valid_spawn_locs = array( valid_spawn_locs );
                 }
                 
-                var_905a9429[ var_905a9429.size ] = loc;
+                valid_spawn_locs[ valid_spawn_locs.size ] = loc;
             }
         }
         
-        s_spawn_loc = array::random( var_905a9429 );
+        s_spawn_loc = array::random( valid_spawn_locs );
     }
     
     return s_spawn_loc;
@@ -888,7 +888,7 @@ function private function_ba62dc81()
 // Params 0
 // Checksum 0x6136e4b, Offset: 0x2b40
 // Size: 0x1b0
-function function_2f9d355c()
+function revive_all_players()
 {
     foreach ( e_player in level.players )
     {

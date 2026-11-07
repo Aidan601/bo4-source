@@ -403,7 +403,7 @@ function crescent_activate()
 function function_d961aafc( a_ents )
 {
     mdl_coil = a_ents[ getfirstarraykey( a_ents ) ];
-    mdl_coil thread function_70d8a7cb();
+    mdl_coil thread symbol_damage_watcher();
     level thread function_71d1b235();
     level thread function_fde77b55();
 }
@@ -412,7 +412,7 @@ function function_d961aafc( a_ents )
 // Params 0
 // Checksum 0x581e97bf, Offset: 0x2838
 // Size: 0x1ba
-function function_70d8a7cb()
+function symbol_damage_watcher()
 {
     level endon( #"ley_start" );
     self val::set( "ley_source", "takedamage", 1 );
@@ -492,7 +492,7 @@ function function_d3128b5f()
         trigger = spawn( "trigger_box_use", s_ring.origin, 0, 64, 64, 64 );
         trigger setcursorhint( "HINT_NOICON" );
         trigger triggerignoreteam();
-        function_dae4ab9b( trigger, 0.1 );
+        settriggerusetime( trigger, 0.1 );
         trigger.str_pos = s_ring.script_noteworthy;
         trigger thread function_57692917( s_ring );
         
@@ -623,9 +623,9 @@ function function_57692917( s_ring )
 // Size: 0x16c
 function ring_reset()
 {
-    level.mdl_ring_inner.e_linkto rotateto( level.mdl_ring_inner.e_linkto.var_5287d229, 2 );
-    level.mdl_ring_middle.e_linkto rotateto( level.mdl_ring_middle.e_linkto.var_5287d229, 2 );
-    level.mdl_ring_outer.e_linkto rotateto( level.mdl_ring_outer.e_linkto.var_5287d229, 2 );
+    level.mdl_ring_inner.e_linkto rotateto( level.mdl_ring_inner.e_linkto.v_starting_angles, 2 );
+    level.mdl_ring_middle.e_linkto rotateto( level.mdl_ring_middle.e_linkto.v_starting_angles, 2 );
+    level.mdl_ring_outer.e_linkto rotateto( level.mdl_ring_outer.e_linkto.v_starting_angles, 2 );
     level.mdl_ring_inner playsound( #"hash_13acff42f13d9448" );
     level.mdl_ring_middle playsound( #"hash_7813e29d18ad3dcf" );
     level.mdl_ring_outer playsound( #"hash_3b464e57c6aa7e35" );
@@ -694,9 +694,9 @@ function ring_rotate( str_pos, s_ring, b_starting = 1 )
     
     if ( b_starting )
     {
-        level.mdl_ring_inner.e_linkto.var_5287d229 = level.mdl_ring_inner.e_linkto.angles;
-        level.mdl_ring_middle.e_linkto.var_5287d229 = level.mdl_ring_middle.e_linkto.angles;
-        level.mdl_ring_outer.e_linkto.var_5287d229 = level.mdl_ring_outer.e_linkto.angles;
+        level.mdl_ring_inner.e_linkto.v_starting_angles = level.mdl_ring_inner.e_linkto.angles;
+        level.mdl_ring_middle.e_linkto.v_starting_angles = level.mdl_ring_middle.e_linkto.angles;
+        level.mdl_ring_outer.e_linkto.v_starting_angles = level.mdl_ring_outer.e_linkto.angles;
     }
     
     waitframe( 1 );
@@ -1142,7 +1142,7 @@ function function_39b9ecb( s_unitrigger )
 function function_5e54642e()
 {
     self endon( #"death" );
-    function_dae4ab9b( self, 0.1 );
+    settriggerusetime( self, 0.1 );
     self zm_unitrigger::function_69168e61();
 }
 

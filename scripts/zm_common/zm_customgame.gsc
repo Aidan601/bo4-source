@@ -59,7 +59,7 @@ function autoexec function_d776b402()
         if ( !sessionmodeisonlinegame() || function_bea73b01() == 1 || function_3f3752ab() )
         {
             level.var_aa2d5655 = 1;
-            level.var_5164a0ca = 1;
+            level.b_disable_xp = 1;
             level.var_3426461d = &function_185687d7;
             level.var_73d1e054 = 1;
             level.var_211e3a53 = "zcustom";

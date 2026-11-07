@@ -2917,7 +2917,7 @@ function private function_2d44c54f( var_eca4744a, var_56bd1bef, nodes )
     {
         withinfov = vectordot( var_eca4744a, vectornormalize( node.origin - var_56bd1bef ) > cos( 30 ) );
         
-        if ( withinfov && function_96c81b85( tacpoint, node.origin ) )
+        if ( withinfov && tpointhashighchancetoseeposition( tacpoint, node.origin ) )
         {
             node.score = 100;
             continue;
@@ -3343,7 +3343,7 @@ function function_4670789f( tacpoint )
     
     foreach ( player in players )
     {
-        if ( function_96c81b85( tacpoint, player.origin ) )
+        if ( tpointhashighchancetoseeposition( tacpoint, player.origin ) )
         {
             return true;
         }

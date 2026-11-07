@@ -114,7 +114,7 @@ function function_bdbf3da2( player )
         }
         else
         {
-            player bgb::function_b57e693f();
+            player bgb::deny_ui();
         }
         
         waitframe( 1 );

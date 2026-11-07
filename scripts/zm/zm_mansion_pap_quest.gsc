@@ -53,9 +53,9 @@ function init( var_5ea5c94d )
     level.var_239e2979 = 0;
     level.var_be779a9e = 0;
     level.var_a5be39a5 = 0;
-    level.var_bc07224f = 4;
-    level.var_d4fada4a = 6;
-    level.var_71561996 = 8;
+    level.n_souls_1p = 4;
+    level.n_souls_2p = 6;
+    level.n_souls_34p = 8;
     level._effect[ #"pap_unlock" ] = #"zombie/fx8_wallbuy_reveal";
     level flag::init( "crystal_main_hall" );
     level flag::init( "crystal_library" );
@@ -233,7 +233,7 @@ function function_39549562( var_7b192260, var_f8561a50 )
     level flag::wait_till( "all_players_spawned" );
     
     /#
-        var_f8561a50 thread function_debf98ad( ( 1, 0, 1 ) );
+        var_f8561a50 thread debug_draw_sphere( ( 1, 0, 1 ) );
     #/
     
     var_f8561a50 clientfield::set( "" + #"seeing_stone_glow", 1 );
@@ -243,7 +243,7 @@ function function_39549562( var_7b192260, var_f8561a50 )
     var_f8561a50 clientfield::set( "" + #"seeing_stone_glow", 0 );
     
     /#
-        var_f8561a50 thread function_debf98ad( ( 1, 0, 0 ) );
+        var_f8561a50 thread debug_draw_sphere( ( 1, 0, 0 ) );
     #/
 }
 
@@ -331,15 +331,15 @@ function function_9ce2b677( var_f0e6c7a2, ent )
 {
     if ( getplayers().size > 2 )
     {
-        n_souls_required = level.var_71561996;
+        n_souls_required = level.n_souls_34p;
     }
     else if ( getplayers().size > 1 )
     {
-        n_souls_required = level.var_d4fada4a;
+        n_souls_required = level.n_souls_2p;
     }
     else
     {
-        n_souls_required = level.var_bc07224f;
+        n_souls_required = level.n_souls_1p;
     }
     
     level.var_239e2979++;
@@ -407,15 +407,15 @@ function function_2c902b77( var_f0e6c7a2, ent )
 {
     if ( getplayers().size > 2 )
     {
-        n_souls_required = level.var_71561996;
+        n_souls_required = level.n_souls_34p;
     }
     else if ( getplayers().size > 1 )
     {
-        n_souls_required = level.var_d4fada4a;
+        n_souls_required = level.n_souls_2p;
     }
     else
     {
-        n_souls_required = level.var_bc07224f;
+        n_souls_required = level.n_souls_1p;
     }
     
     level.var_be779a9e++;
@@ -492,15 +492,15 @@ function function_da937c94( var_f0e6c7a2, ent )
 {
     if ( getplayers().size > 2 )
     {
-        n_souls_required = level.var_71561996;
+        n_souls_required = level.n_souls_34p;
     }
     else if ( getplayers().size > 1 )
     {
-        n_souls_required = level.var_d4fada4a;
+        n_souls_required = level.n_souls_2p;
     }
     else
     {
-        n_souls_required = level.var_bc07224f;
+        n_souls_required = level.n_souls_1p;
     }
     
     level.var_a5be39a5++;
@@ -896,7 +896,7 @@ function function_74bb3b2()
     
     foreach ( s_wolf in a_s_wolves )
     {
-        ai_wolf = zombie_dog_util::function_62db7b1c( 1, s_wolf );
+        ai_wolf = zombie_dog_util::spawn_single_dog( 1, s_wolf );
         
         if ( isdefined( ai_wolf ) )
         {
@@ -1098,7 +1098,7 @@ function function_9e7129d2( e_player, s_stone, var_6cf4ded4, str_hint )
     
     s_teleport_room = struct::get( "s_crystal_ball_room_" + n_player_index );
     e_player.b_gazing = 1;
-    e_player.var_f22c83f5 = 1;
+    e_player.b_ignore_playable_area_check = 1;
     e_player.var_9414a188 = 1;
     e_player val::set( #"gazing", "ignoreme", 1 );
     e_player val::set( #"gazing", "takedamage", 0 );
@@ -1216,7 +1216,7 @@ function function_9e7129d2( e_player, s_stone, var_6cf4ded4, str_hint )
         e_player val::reset( #"gazing", "show_hud" );
         e_player val::reset( #"gazing", "show_weapon_hud" );
         e_player util::clear_streamer_hint();
-        e_player.var_f22c83f5 = 0;
+        e_player.b_ignore_playable_area_check = 0;
         e_player.b_gazing = 0;
         e_player.var_9414a188 = undefined;
     }
@@ -1584,7 +1584,7 @@ function function_16288b92( str_type, s_loc, mdl_key, vol_transform )
             }
             
             /#
-                t_spawn thread function_debf98ad();
+                t_spawn thread debug_draw_sphere();
             #/
             
             t_spawn thread function_f7b04d9c( s_key );
@@ -1643,7 +1643,7 @@ function function_16288b92( str_type, s_loc, mdl_key, vol_transform )
             s_portal = struct::get( mdl_painting.script_noteworthy );
             
             /#
-                mdl_painting thread function_debf98ad();
+                mdl_painting thread debug_draw_sphere();
             #/
             
             /#
@@ -1680,7 +1680,7 @@ function function_16288b92( str_type, s_loc, mdl_key, vol_transform )
             e_trail thread function_7ff450ae();
             
             /#
-                e_trail thread function_debf98ad();
+                e_trail thread debug_draw_sphere();
             #/
             
             e_trail show_trail( nd_start, mdl_painting );
@@ -1735,7 +1735,7 @@ function function_16288b92( str_type, s_loc, mdl_key, vol_transform )
             s_portal = struct::get( str_loc, "script_noteworthy" );
             
             /#
-                s_trophy thread function_debf98ad();
+                s_trophy thread debug_draw_sphere();
             #/
             
             /#
@@ -1780,7 +1780,7 @@ function function_16288b92( str_type, s_loc, mdl_key, vol_transform )
             e_trail thread function_7ff450ae();
             
             /#
-                e_trail thread function_debf98ad();
+                e_trail thread debug_draw_sphere();
             #/
             
             e_trail show_trail( nd_start );
@@ -1947,14 +1947,14 @@ function function_f7b04d9c( s_key )
     level thread function_b7e42989();
     level.var_84b2907f = &function_1ea41244;
     level.var_2f477020 = self;
-    var_f1c4ec4f = e_player zm_utility::get_current_zone( 1 );
-    var_2815c876 = var_f1c4ec4f.a_loc_types[ #"bat_location" ];
+    s_current_zone = e_player zm_utility::get_current_zone( 1 );
+    var_2815c876 = s_current_zone.a_loc_types[ #"bat_location" ];
     var_6aea2f76 = [];
-    a_adjacent_zones = getarraykeys( var_f1c4ec4f.adjacent_zones );
+    a_adjacent_zones = getarraykeys( s_current_zone.adjacent_zones );
     
     for ( i = 0; i < a_adjacent_zones.size ; i++ )
     {
-        if ( var_f1c4ec4f.adjacent_zones[ a_adjacent_zones[ i ] ].is_connected )
+        if ( s_current_zone.adjacent_zones[ a_adjacent_zones[ i ] ].is_connected )
         {
             var_c714ccfe = level.zones[ a_adjacent_zones[ i ] ];
             var_9387e4ab = var_c714ccfe.a_loc_types[ #"bat_location" ];
@@ -2220,7 +2220,7 @@ function function_ff4485b6( a_ents, mdl_key, mdl_crystal )
         
         if ( getdvarint( #"hash_3c4df2fe4b1618d5", 0 ) )
         {
-            mdl_key thread function_debf98ad();
+            mdl_key thread debug_draw_sphere();
         }
     #/
     
@@ -2397,7 +2397,7 @@ function function_d409a74f( mdl_symbol )
     self playloopsound( #"zmb_ghost_loop" );
     
     /#
-        self thread function_debf98ad();
+        self thread debug_draw_sphere();
     #/
     
     self.var_7988eee5 = self mansion_util::get_closest_valid_player( 22500 );
@@ -2772,7 +2772,7 @@ function function_c05430c5( _hash )
 function function_450b01a5()
 {
     /#
-        self thread function_debf98ad();
+        self thread debug_draw_sphere();
     #/
     
     s_result = self waittill( #"trigger" );
@@ -2883,12 +2883,12 @@ function show_trail( nd_start, mdl_painting )
     
     if ( isdefined( mdl_painting ) )
     {
-        if ( !isdefined( nd_start.var_7eedec61 ) )
+        if ( !isdefined( nd_start.script_scale ) )
         {
-            nd_start.var_7eedec61 = 1;
+            nd_start.script_scale = 1;
         }
         
-        n_scale = nd_start.var_7eedec61;
+        n_scale = nd_start.script_scale;
         self.var_c176969a setspeedimmediate( 4 );
         self thread function_24bd273( n_scale );
         self.mdl_head thread function_24bd273( n_scale );
@@ -2902,7 +2902,7 @@ function show_trail( nd_start, mdl_painting )
     #/
     
     /#
-        self.var_c176969a thread function_debf98ad();
+        self.var_c176969a thread debug_draw_sphere();
     #/
     
     self linkto( self.var_c176969a );
@@ -3396,7 +3396,7 @@ function function_d29a3f81()
     while ( true )
     {
         /#
-            self thread function_debf98ad();
+            self thread debug_draw_sphere();
         #/
         
         waitresult = self waittill( #"trigger" );
@@ -3662,14 +3662,14 @@ function function_d48fb847( var_ffba68db, str_flag, e_volume, e_player )
         var_d18f896 = 10;
     }
     
-    var_f1c4ec4f = e_player zm_utility::get_current_zone( 1 );
-    var_2815c876 = var_f1c4ec4f.a_loc_types[ #"zombie_location" ];
+    s_current_zone = e_player zm_utility::get_current_zone( 1 );
+    var_2815c876 = s_current_zone.a_loc_types[ #"zombie_location" ];
     var_6aea2f76 = [];
-    a_adjacent_zones = getarraykeys( var_f1c4ec4f.adjacent_zones );
+    a_adjacent_zones = getarraykeys( s_current_zone.adjacent_zones );
     
     for ( i = 0; i < a_adjacent_zones.size ; i++ )
     {
-        if ( var_f1c4ec4f.adjacent_zones[ a_adjacent_zones[ i ] ].is_connected )
+        if ( s_current_zone.adjacent_zones[ a_adjacent_zones[ i ] ].is_connected )
         {
             var_c714ccfe = level.zones[ a_adjacent_zones[ i ] ];
             var_9387e4ab = var_c714ccfe.a_loc_types[ #"zombie_location" ];
@@ -3973,7 +3973,7 @@ function trigger_think()
     while ( true )
     {
         /#
-            self thread function_debf98ad();
+            self thread debug_draw_sphere();
         #/
         
         waitresult = self waittill( #"trigger" );
@@ -4172,7 +4172,7 @@ function function_eecfbd25()
     // Params 1
     // Checksum 0x33e89362, Offset: 0xe668
     // Size: 0x176, Type: dev
-    function function_debf98ad( v_color )
+    function debug_draw_sphere( v_color )
     {
         if ( !isdefined( v_color ) )
         {

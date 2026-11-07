@@ -33,11 +33,11 @@ function __init__()
 // Params 2, eflags: 0x4
 // Checksum 0x4a580e45, Offset: 0x140
 // Size: 0x64
-function private on_begin( str_flag, var_60bdad5f )
+function private on_begin( str_flag, str_fail )
 {
     zm_trial_util::function_7d32b7d0( 0 );
     level.var_5fccce01 = str_flag;
-    level.var_4ce2a315 = var_60bdad5f;
+    level.var_4ce2a315 = str_fail;
     level thread monitor_flag( str_flag );
 }
 

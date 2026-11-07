@@ -700,9 +700,9 @@ function function_8550e9be( enemy )
             
             if ( isdefined( pos ) )
             {
-                var_3a364b6c = distance( self.origin, pos );
+                disttoowner = distance( self.origin, pos );
                 
-                if ( var_3a364b6c > 500 )
+                if ( disttoowner > 500 )
                 {
                     protectdest = function_1c4cd527( pos, enemy, 200, 350, 24, 48 );
                     

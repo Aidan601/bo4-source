@@ -177,7 +177,7 @@ function function_26185fc3()
 // Params 0
 // Checksum 0x6d61e6cf, Offset: 0x2100
 // Size: 0x4bc
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     self thread ct_utils::player_reset();
     
@@ -968,7 +968,7 @@ function function_fd0b81b()
         level.var_7afae51f clientfield::set( "enemyobj_keyline_render", 0 );
     }
     
-    level.var_7afae51f.waypoint ct_utils::function_f9ed304d();
+    level.var_7afae51f.waypoint ct_utils::cleanup_waypoint();
     level notify( #"enemy_razorwire_destroyed" );
 }
 
@@ -983,7 +983,7 @@ function function_d7355d9( _hash )
         level.var_7afae51f clientfield::set( "enemyobj_keyline_render", 0 );
     }
     
-    level.var_7afae51f.waypoint ct_utils::function_f9ed304d();
+    level.var_7afae51f.waypoint ct_utils::cleanup_waypoint();
     level notify( #"enemy_razorwire_destroyed" );
 }
 
@@ -1036,7 +1036,7 @@ function function_c0bc3c1c()
     
     if ( isdefined( self.waypoint ) )
     {
-        self.waypoint ct_utils::function_f9ed304d();
+        self.waypoint ct_utils::cleanup_waypoint();
     }
     
     self setgoal( self.origin, 1, 1 );
@@ -2903,7 +2903,7 @@ function function_fb9249d1( _hash )
     
     if ( isdefined( self.mdl_hint.waypoint ) )
     {
-        self.mdl_hint.waypoint ct_utils::function_f9ed304d();
+        self.mdl_hint.waypoint ct_utils::cleanup_waypoint();
     }
     
     self.mdl_hint clientfield::set( "objective_glow", 0 );
@@ -3212,13 +3212,13 @@ function on_smartcover_placed( newcover )
                 var_fb034023 = e_cover.origin - v_right * 64 - v_fwd * 64;
                 var_e95f1cd7 = e_cover.origin - v_fwd * 64;
                 var_9ef3080c = e_cover.origin + v_right * 64 - v_fwd * 64;
-                var_aec0cd16 = 64;
+                n_search_radius = 64;
                 var_d42616a6 = 48;
-                var_5e0a08e8 = getclosestpointonnavmesh( var_d877e7e8, var_aec0cd16, var_d42616a6 );
-                var_5e1d0902 = getclosestpointonnavmesh( var_52875b95, var_aec0cd16, var_d42616a6 );
-                var_28eee9d4 = getclosestpointonnavmesh( var_fb034023, var_aec0cd16, var_d42616a6 );
-                var_e089d8e3 = getclosestpointonnavmesh( var_e95f1cd7, var_aec0cd16, var_d42616a6 );
-                var_28f7e9e2 = getclosestpointonnavmesh( var_9ef3080c, var_aec0cd16, var_d42616a6 );
+                var_5e0a08e8 = getclosestpointonnavmesh( var_d877e7e8, n_search_radius, var_d42616a6 );
+                var_5e1d0902 = getclosestpointonnavmesh( var_52875b95, n_search_radius, var_d42616a6 );
+                var_28eee9d4 = getclosestpointonnavmesh( var_fb034023, n_search_radius, var_d42616a6 );
+                var_e089d8e3 = getclosestpointonnavmesh( var_e95f1cd7, n_search_radius, var_d42616a6 );
+                var_28f7e9e2 = getclosestpointonnavmesh( var_9ef3080c, n_search_radius, var_d42616a6 );
                 var_15ef6cf8.origin = var_5e0a08e8;
                 var_4a145539.origin = var_5e1d0902;
                 var_b1c99b8c.origin = var_28eee9d4;
@@ -3389,7 +3389,7 @@ function function_a9832377( _hash )
 // Params 11
 // Checksum 0xb42bd121, Offset: 0xd488
 // Size: 0x72
-function overridedamage_player( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function overridedamage_player( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     return int( n_damage / 5 );
 }
@@ -3398,7 +3398,7 @@ function overridedamage_player( e_inflictor, e_attacker, n_damage, n_dflags, str
 // Params 11
 // Checksum 0xfb79a388, Offset: 0xd508
 // Size: 0xa4
-function function_24e6adf3( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function function_24e6adf3( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     if ( self flag::get( "ally_vulnerable" ) )
     {

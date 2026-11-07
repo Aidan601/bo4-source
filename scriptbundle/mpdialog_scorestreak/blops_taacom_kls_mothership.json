@@ -1,16 +1,16 @@
 {
-    "destroyed": "#hash_f3a3c3ec276538e",
-    "ready": "#hash_70d3d290499069ce",
-    "beinghacked": "#hash_43eac710c3d3c653",
+    "destroyed": "#vox_tacb_kls_mothership_destroyed",
+    "ready": "#vox_tacb_kls_mothership_ready",
+    "beinghacked": "#vox_tacb_kls_mothership_being_hacked",
     "configstringfiletype": "scriptbundle",
     "type": "mpdialog_scorestreak",
     "vmtype": "both",
     "name": "blops_taacom_kls_mothership",
-    "timeoutconfirmed1": "#hash_566517f72bad9be2",
-    "timeoutconfirmed0": "#hash_566516f72bad9a2f",
-    "timeoutconfirmed3": "#hash_566511f72bad91b0",
-    "timeoutconfirmed2": "#hash_566518f72bad9d95",
-    "firewallbeinghacked": "#hash_f4c00aed0adabe3",
-    "firewallhacked": "#hash_1ac38dff37fc6d53",
-    "hacked": "#hash_3ba768fa6a8f9ae3"
+    "timeoutconfirmed1": "#vox_tacb_kls_mothership_timeout_pilot_2",
+    "timeoutconfirmed0": "#vox_tacb_kls_mothership_timeout_pilot_1",
+    "timeoutconfirmed3": "#vox_tacb_kls_mothership_timeout_pilot_4",
+    "timeoutconfirmed2": "#vox_tacb_kls_mothership_timeout_pilot_3",
+    "firewallbeinghacked": "#vox_tacb_kls_mothership_being_hacked_fw",
+    "firewallhacked": "#vox_tacb_kls_mothership_hacked_fw",
+    "hacked": "#vox_tacb_kls_mothership_hacked"
 }

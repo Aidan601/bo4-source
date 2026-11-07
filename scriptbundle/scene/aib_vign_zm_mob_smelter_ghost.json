@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_52d21557dbf41b9b",
+                            "anim": "anim#ch_vign_zm_mob_smelter_ghost_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -84,7 +84,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_52d21657dbf41d4e",
+                            "anim": "anim#ch_vign_zm_mob_smelter_ghost_02",
                             "entrytype": "anim"
                         }
                     ],

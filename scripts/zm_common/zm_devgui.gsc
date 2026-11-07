@@ -1038,9 +1038,9 @@
             origin = zone.volumes[ 0 ].origin;
         }
         
-        foreach ( var_4c973d00, adjacent in zone.adjacent_zones )
+        foreach ( adjacent_name, adjacent in zone.adjacent_zones )
         {
-            adjacent_zone = zones[ var_4c973d00 ];
+            adjacent_zone = zones[ adjacent_name ];
             
             if ( adjacent_zone.nodes.size && isdefined( adjacent_zone.nodes[ 0 ].origin ) )
             {
@@ -1144,12 +1144,12 @@
             weapon_root = "<dev string:x9b3>" + weapon_name + "<dev string:x95f>";
             adddebugcommand( weapon_root + weapon_name + "<dev string:x9cd>" + weapon_name + "<dev string:xe0>" );
             
-            foreach ( var_96bc131f in var_876795bf )
+            foreach ( str_attachment in var_876795bf )
             {
-                if ( var_96bc131f != "<dev string:x3b>" && var_96bc131f != "<dev string:x9e9>" )
+                if ( str_attachment != "<dev string:x3b>" && str_attachment != "<dev string:x9e9>" )
                 {
                     util::waittill_can_add_debug_command();
-                    var_29c3a74d = weapon_name + "<dev string:x9f0>" + var_96bc131f;
+                    var_29c3a74d = weapon_name + "<dev string:x9f0>" + str_attachment;
                     adddebugcommand( weapon_root + var_29c3a74d + "<dev string:x9cd>" + var_29c3a74d + "<dev string:xe0>" );
                 }
             }
@@ -2985,7 +2985,7 @@
         origin = chest.zbarrier.origin;
         forward = anglestoforward( chest.zbarrier.angles );
         right = anglestoright( chest.zbarrier.angles );
-        var_21f5823e = vectortoangles( right );
+        plangles = vectortoangles( right );
         plorigin = origin - 48 * right;
         
         switch ( entnum )
@@ -3005,7 +3005,7 @@
         }
         
         self setorigin( plorigin );
-        self setplayerangles( var_21f5823e );
+        self setplayerangles( plangles );
     }
 
     // Namespace zm_devgui/zm_devgui
@@ -3026,7 +3026,7 @@
         origin = pap.origin;
         forward = anglestoforward( pap.angles );
         right = anglestoright( pap.angles );
-        var_21f5823e = vectortoangles( right * -1 );
+        plangles = vectortoangles( right * -1 );
         plorigin = origin + 72 * right;
         
         switch ( entnum )
@@ -3046,7 +3046,7 @@
         }
         
         self setorigin( plorigin );
-        self setplayerangles( var_21f5823e );
+        self setplayerangles( plangles );
     }
 
     // Namespace zm_devgui/zm_devgui
@@ -5795,7 +5795,7 @@
         
         foreach ( ent in a_e_all )
         {
-            if ( isdefined( ent.var_61330f48 ) && ent.var_61330f48 )
+            if ( isdefined( ent.marked_kss ) && ent.marked_kss )
             {
                 array::add( a_e_key, ent );
             }

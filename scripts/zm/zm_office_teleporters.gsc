@@ -354,7 +354,7 @@ function teleport_player( user )
     level thread function_fe50866d( user, self, var_298e4578 );
     user.var_298e4578 = var_298e4578;
     self function_134670b9( 1 );
-    user zm_fasttravel::function_66d020b0( undefined, undefined, undefined, undefined, destination, undefined, string( self.n_dest ), 0 );
+    user zm_fasttravel::fasttravel_rail_go( undefined, undefined, undefined, undefined, destination, undefined, string( self.n_dest ), 0 );
     
     if ( var_298e4578.script_noteworthy == "portal_panic_room" )
     {

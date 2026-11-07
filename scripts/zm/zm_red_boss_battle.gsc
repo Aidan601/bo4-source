@@ -2164,12 +2164,12 @@ function function_2a866d1a( a_ents )
 {
     level endon( #"end_game" );
     e_perseus = level.s_boss_battle.mdl_perseus;
-    var_5287d229 = anglestoforward( e_perseus.angles );
+    v_starting_angles = anglestoforward( e_perseus.angles );
     
     for ( i = 0; i <= 10 ; i++ )
     {
         n_yaw = 36 * i + 22;
-        var_bbaa9da2 = var_5287d229 + ( 0, n_yaw, 0 );
+        var_bbaa9da2 = v_starting_angles + ( 0, n_yaw, 0 );
         v_direction = anglestoforward( var_bbaa9da2 );
         v_target_loc = e_perseus.origin + v_direction;
         launchvelocity = vectornormalize( v_target_loc - e_perseus.origin ) * 800;
@@ -2818,11 +2818,11 @@ function perseus_teleport_fx( v_destination )
     v_forward = anglestoforward( e_perseus.angles );
     level waittill( #"play_teleport_tell_fx" );
     var_2ff979fa = spawn( "script_model", v_destination );
-    var_2ff979fa playsound( #"hash_4cc85ba1ffa59d0b" );
+    var_2ff979fa playsound( #"evt_perseus_lightning_tell" );
     playfxontag( level._effect[ #"hash_661c427afb24e5f2" ], e_perseus, "tag_weapon_right" );
     playfx( level._effect[ #"hash_4d8d2bc22add9939" ], var_2ff979fa.origin, v_forward, ( 1, 0, 0 ) );
     level waittill( #"play_teleport_fx" );
-    playsoundatposition( #"hash_5e07cc4ee28c44e7", e_perseus.origin );
+    playsoundatposition( #"evt_perseus_dash_in", e_perseus.origin );
     playfx( level._effect[ #"perseus_teleport_dest" ], var_2ff979fa.origin, v_forward, ( 1, 0, 0 ) );
     playfx( level._effect[ #"perseus_teleport_boss" ], e_perseus gettagorigin( "j_spine4" ), v_forward, ( 1, 0, 0 ) );
     wait 2;
@@ -2907,22 +2907,22 @@ function function_6401a80e()
             continue;
         }
         
-        var_e1284bee = s_notify.var_9fa6220c.s_loc;
+        s_source_loc = s_notify.var_9fa6220c.s_loc;
         
-        if ( !isdefined( var_e1284bee.var_f0bbde5 ) )
+        if ( !isdefined( s_source_loc.var_f0bbde5 ) )
         {
             foreach ( s_loc in level.var_4775015b )
             {
-                if ( s_loc.script_string === var_e1284bee.var_7fe26499 )
+                if ( s_loc.script_string === s_source_loc.script_string_dest_loc )
                 {
-                    var_e1284bee.var_f0bbde5 = s_loc;
+                    s_source_loc.var_f0bbde5 = s_loc;
                     break;
                 }
             }
         }
         
-        var_f0bbde5 = var_e1284bee.var_f0bbde5;
-        var_2d54d86e = s_notify.var_9fa6220c.var_85e825a7;
+        var_f0bbde5 = s_source_loc.var_f0bbde5;
+        var_2d54d86e = s_notify.var_9fa6220c.level_flag_set_on_use;
         
         switch ( s_notify._notify )
         {
@@ -2950,16 +2950,16 @@ function function_6401a80e()
                     self.var_362f68d6--;
                 }
                 
-                if ( !( isdefined( var_e1284bee.var_5a099a2d ) && var_e1284bee.var_5a099a2d ) && !( isdefined( var_e1284bee.var_151f9e4b ) && var_e1284bee.var_151f9e4b ) )
+                if ( !( isdefined( s_source_loc.var_5a099a2d ) && s_source_loc.var_5a099a2d ) && !( isdefined( s_source_loc.var_151f9e4b ) && s_source_loc.var_151f9e4b ) )
                 {
-                    self zm_red_fasttravel::function_28deccf1( var_e1284bee, 2 );
+                    self zm_red_fasttravel::function_28deccf1( s_source_loc, 2 );
                 }
                 
                 break;
             case #"fasttravel_finished":
-                if ( isdefined( var_e1284bee.var_151f9e4b ) && var_e1284bee.var_151f9e4b || isdefined( var_f0bbde5.var_151f9e4b ) && var_f0bbde5.var_151f9e4b )
+                if ( isdefined( s_source_loc.var_151f9e4b ) && s_source_loc.var_151f9e4b || isdefined( var_f0bbde5.var_151f9e4b ) && var_f0bbde5.var_151f9e4b )
                 {
-                    var_e1284bee.unitrigger_stub thread util::delay_notify( 0.1, "cancel_fasttravel_cooldown" );
+                    s_source_loc.unitrigger_stub thread util::delay_notify( 0.1, "cancel_fasttravel_cooldown" );
                     var_f0bbde5.unitrigger_stub thread util::delay_notify( 0.1, "cancel_fasttravel_cooldown" );
                 }
                 else if ( !( isdefined( var_f0bbde5.var_5a099a2d ) && var_f0bbde5.var_5a099a2d ) )
@@ -2969,9 +2969,9 @@ function function_6401a80e()
                 
                 break;
             case #"fasttravel_cooldown_done":
-                if ( !( isdefined( var_e1284bee.var_5a099a2d ) && var_e1284bee.var_5a099a2d ) )
+                if ( !( isdefined( s_source_loc.var_5a099a2d ) && s_source_loc.var_5a099a2d ) )
                 {
-                    self zm_red_fasttravel::function_28deccf1( var_e1284bee, 1 );
+                    self zm_red_fasttravel::function_28deccf1( s_source_loc, 1 );
                 }
                 
                 if ( !( isdefined( var_f0bbde5.var_5a099a2d ) && var_f0bbde5.var_5a099a2d ) )

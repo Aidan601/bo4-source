@@ -826,8 +826,8 @@ function private function_959fcbff( player )
     player.e_linkto delete();
     player.var_d62b4d4 struct::delete();
     player val::reset( #"hash_3c30825a658c87fd", "show_hud" );
-    player.var_fd49b4a9 = undefined;
-    player.var_f22c83f5 = undefined;
+    player.b_stuck = undefined;
+    player.b_ignore_playable_area_check = undefined;
     player val::reset( "stick_man", "takedamage" );
     player val::reset( "stick_man", "ignoreme" );
     player enableweapons();
@@ -1259,16 +1259,16 @@ function function_6ae66179()
 function function_50955e48()
 {
     self endon( #"player_downed", #"death", #"sacrifice_player_reset" );
-    var_4e7ea1ce = 0;
+    b_close_enough = 0;
     s_scene = struct::get( #"p8_fxanim_zm_man_wm_01_bundle", "scriptbundlename" );
     
-    while ( !var_4e7ea1ce )
+    while ( !b_close_enough )
     {
         n_dist_sq = distance2dsquared( self.origin, s_scene.origin );
         
         if ( n_dist_sq <= 38416 )
         {
-            var_4e7ea1ce = 1;
+            b_close_enough = 1;
         }
         
         waitframe( 1 );
@@ -1376,7 +1376,7 @@ function trigger_stick_man()
             continue;
         }
         
-        if ( isdefined( player.var_fd49b4a9 ) && player.var_fd49b4a9 )
+        if ( isdefined( player.b_stuck ) && player.b_stuck )
         {
             continue;
         }
@@ -1393,8 +1393,8 @@ function private player_stuck()
 {
     self endon( #"disconnect" );
     self val::set( #"hash_3c30825a658c87fd", "show_hud", 0 );
-    self.var_fd49b4a9 = 1;
-    self.var_f22c83f5 = 1;
+    self.b_stuck = 1;
+    self.b_ignore_playable_area_check = 1;
     self val::set( "stick_man", "takedamage", 0 );
     self val::set( "stick_man", "ignoreme", 1 );
     self disableweapons();
@@ -1448,8 +1448,8 @@ function private function_21f38255( b_watcher )
     var_3add8e25 scene::play( level.var_9661fac0, "Release" );
     level.var_9661fac0 = undefined;
     self val::reset( #"hash_3c30825a658c87fd", "show_hud" );
-    self.var_fd49b4a9 = undefined;
-    self.var_f22c83f5 = undefined;
+    self.b_stuck = undefined;
+    self.b_ignore_playable_area_check = undefined;
     self val::reset( "stick_man", "takedamage" );
     self val::reset( "stick_man", "ignoreme" );
     self enableweapons();
@@ -2353,7 +2353,7 @@ function turn_to_zombie_damage_()
 // Size: 0x22
 function function_8b12e689()
 {
-    if ( isdefined( self.var_fd49b4a9 ) && self.var_fd49b4a9 )
+    if ( isdefined( self.b_stuck ) && self.b_stuck )
     {
         return 0;
     }

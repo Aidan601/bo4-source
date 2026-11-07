@@ -5,11 +5,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1830e3c38aa46b64",
+                            "anim": "anim#ai_t8_zm_twrs_zg_dstyr_easter_egg_intro",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_52f98026cf540d68",
+                            "anim": "anim#ai_t8_zm_twrs_zg_dstyr_easter_egg_loop",
                             "entrytype": "anim"
                         }
                     ],
@@ -38,7 +38,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7cd1b7987cc6e4ce",
+                            "anim": "anim#ai_t8_zm_twrs_zg_dstyr_easter_egg_out",
                             "entrytype": "anim"
                         }
                     ],

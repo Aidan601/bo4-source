@@ -19,14 +19,14 @@ function autoexec __init__system__()
 // Size: 0x14
 function __init__()
 {
-    function_27473e44();
+    enable_perk_for_level();
 }
 
 // Namespace zm_perk_mystery/zm_perk_mystery
 // Params 0
 // Checksum 0x6439977b, Offset: 0x120
 // Size: 0x8c
-function function_27473e44()
+function enable_perk_for_level()
 {
     zm_perks::register_perk_clientfields( #"specialty_mystery", &function_12161a30, &function_b10a7225 );
     zm_perks::function_b60f4a9f( #"specialty_mystery", #"p8_zm_vapor_altar_icon_01_secretsauce", "zombie/fx8_perk_altar_symbol_ambient_secret_sauce", #"zmperkssecretsauce" );

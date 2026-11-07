@@ -101,7 +101,7 @@ function function_299d2131( maxhealth, healthamount, var_4465ef1e )
     
     self.var_44d52546 = 1;
     self player::function_9080887a( maxhealth );
-    self.heal.var_bc840360 = math::clamp( healthamount + self.health, 0, maxhealth );
+    self.heal.target_health = math::clamp( healthamount + self.health, 0, maxhealth );
     self.heal.rate = healthamount / var_4465ef1e;
     self gadget_health_regen::function_ddfdddb1();
     self gadget_health_regen::heal_start();

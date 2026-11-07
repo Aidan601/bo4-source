@@ -50,8 +50,8 @@ function init_records()
     var_f9d547ec = getentarray( "audiolog_record", "targetname" );
     array::run_all( var_f9d547ec, &zm_item_pickup::create_item_pickup, &pickup_record, "", undefined, 96 );
     level.s_audiologs.s_records.s_playback = struct::get( "audiolog_record_player" );
-    level.s_audiologs.s_records.var_d9a8e3e4 = getent( level.s_audiologs.s_records.s_playback.target, "targetname" );
-    level.s_audiologs.s_records.var_d9a8e3e4 hide();
+    level.s_audiologs.s_records.mdl_record = getent( level.s_audiologs.s_records.s_playback.target, "targetname" );
+    level.s_audiologs.s_records.mdl_record hide();
     level.s_audiologs.s_records.s_playback zm_unitrigger::create( &function_4164ac1d );
     level.s_audiologs.s_records.s_playback thread function_aef698f1();
 }
@@ -84,13 +84,13 @@ function function_6ad87fb1()
         iprintln( "<dev string:x53>" + n_id );
     #/
     
-    level.s_audiologs.s_records.var_d9a8e3e4 show();
+    level.s_audiologs.s_records.mdl_record show();
     wait 1;
-    level.s_audiologs.s_records.var_d9a8e3e4 rotatevelocity( ( 0, 200, 0 ), 600 );
+    level.s_audiologs.s_records.mdl_record rotatevelocity( ( 0, 200, 0 ), 600 );
     zm_hms_util::function_e308175e( level.s_audiologs.s_records.a_str_vox[ n_id ], self.origin );
-    level.s_audiologs.s_records.var_d9a8e3e4 rotatevelocity( ( 0, 200, 0 ), 1 );
+    level.s_audiologs.s_records.mdl_record rotatevelocity( ( 0, 200, 0 ), 1 );
     wait 2;
-    level.s_audiologs.s_records.var_d9a8e3e4 hide();
+    level.s_audiologs.s_records.mdl_record hide();
 }
 
 // Namespace zm_orange_audiologs/zm_orange_audiologs
@@ -126,7 +126,7 @@ function init_reels()
     level.s_audiologs.s_reels = spawnstruct();
     level.s_audiologs.s_reels.n_collected = 0;
     level.s_audiologs.s_reels.n_played = 0;
-    level.s_audiologs.s_reels.a_str_vox = array( #"hash_6fce75e5c4fe6210", #"hash_172aa60779a37741", #"hash_2388426b6c075d62", #"hash_1a1854072d6b2453", #"hash_23883c6b6c075330", #"hash_23883f6b6c075849" );
+    level.s_audiologs.s_reels.a_str_vox = array( #"vox_audio_reel_stem_1_sfx", #"vox_audio_reel_stem_2_sfx", #"vox_audio_reel_stem_3", #"vox_audio_reel_stem_4_sfx", #"vox_audio_reel_stem_5", #"vox_audio_reel_stem_6" );
     var_d1c55c66 = getentarray( "audiolog_reel", "targetname" );
     array::run_all( var_d1c55c66, &zm_item_pickup::create_item_pickup, &pickup_reel, "", undefined, 96 );
     level.s_audiologs.s_reels.s_playback = struct::get( "audiolog_reel_player" );
@@ -230,7 +230,7 @@ function function_4a547e41()
 // Size: 0xe4
 function function_922ff46a()
 {
-    level.s_audiologs.var_bc136840 = array( #"hash_5f4b3985abc17212", #"hash_5f4b3885abc1705f", #"hash_5f4b3785abc16eac", #"hash_5f4b3685abc16cf9", #"hash_5f4b3585abc16b46" );
+    level.s_audiologs.var_bc136840 = array( #"vox_pablo_log_stem_1", #"vox_pablo_log_stem_2", #"vox_pablo_log_stem_3", #"vox_pablo_log_stem_4", #"vox_pablo_log_stem_5" );
     var_b41e84c = struct::get_array( "audiolog_pablo" );
     array::run_all( var_b41e84c, &zm_unitrigger::create, "", 96 );
     array::thread_all( var_b41e84c, &function_a8be9b98 );

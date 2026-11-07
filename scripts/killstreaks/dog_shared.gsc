@@ -75,7 +75,7 @@ function deployed_off( slot, weapon )
 function spawned( type )
 {
     assert( isplayer( self ) );
-    playsoundatposition( #"hash_7245f25f5953631c", self.origin );
+    playsoundatposition( #"fly_dog_whistle_call_scr", self.origin );
     player = self;
     bundle = level.killstreaks[ type ].script_bundle;
     
@@ -153,7 +153,7 @@ function function_4670789f( tacpoint )
     
     foreach ( player in players )
     {
-        if ( function_96c81b85( tacpoint, player.origin ) )
+        if ( tpointhashighchancetoseeposition( tacpoint, player.origin ) )
         {
             return true;
         }

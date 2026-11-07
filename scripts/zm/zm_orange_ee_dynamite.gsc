@@ -182,7 +182,7 @@ function function_e93a8e82( v_pos, v_angles )
                 e_dynamite.var_8691c7d4 = 1;
                 e_dynamite.w_part = w_part;
                 e_dynamite playloopsound( #"zmb_spawn_powerup_loop" );
-                e_dynamite thread zm_orange_challenges::function_f5f83516();
+                e_dynamite thread zm_orange_challenges::rotate_powerup();
                 zm_unitrigger::reregister_unitrigger_as_dynamic( s_unitrigger );
                 return true;
             }
@@ -305,7 +305,7 @@ function function_8427e524()
             {
                 gibserverutils::annihilate( self );
                 self clientfield::increment( "" + #"dynamite_zombie_explosion_fx", 1 );
-                level function_d8f300c3( self.origin );
+                level do_explosion_damage( self.origin );
                 playsoundatposition( #"evt_dynamite_explode_zombie", self.origin );
             }
             else
@@ -380,7 +380,7 @@ function function_87f8b232()
 // Params 1
 // Checksum 0x6fa372c7, Offset: 0x1568
 // Size: 0xf4
-function function_d8f300c3( v_pos )
+function do_explosion_damage( v_pos )
 {
     a_e_zombies = zm_hms_util::function_795d5b4f( getaiteamarray( level.zombie_team ), v_pos, 250 );
     array::run_all( a_e_zombies, &dodamage, 500, v_pos, undefined, undefined, undefined, "MOD_EXPLOSIVE" );
@@ -532,7 +532,7 @@ function function_2e1427a3()
     
     wait 1;
     e_bomb clientfield::increment( "" + #"dynamite_explosion_fx", 1 );
-    level function_d8f300c3( self.origin );
+    level do_explosion_damage( self.origin );
     playsoundatposition( #"evt_dynamite_explode", e_bomb.origin );
     e_bomb playrumbleonentity( "zm_orange_dynamite_bomb_explosion" );
     wait 0.1;

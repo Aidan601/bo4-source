@@ -72,7 +72,7 @@ STRING "<dev string:x45a>" 0x3c9c
 STRING "<dev string:x491>" 0x3ecc
 # bgb::bgb_finalize@138
 STRING "<dev string:x49>" 0xfb8
-# bgb::register_actor_damage_override@28 bgb::register_vehicle_damage_override@28 bgb::register_actor_death_override@28 bgb::register_lost_perk_override@30 bgb::register_add_to_player_score_override@30 bgb::register_invulnerable_during_activation@28 bgb::function_8a5d8cfb@28 bgb::function_be42abb0@28 bgb::register_cancellable@20 bgb::function_e1f37ce7@20 bgb::function_1fee6b3@28 bgb::give@50
+# bgb::register_actor_damage_override@28 bgb::register_vehicle_damage_override@28 bgb::register_actor_death_override@28 bgb::register_lost_perk_override@30 bgb::register_add_to_player_score_override@30 bgb::register_invulnerable_during_activation@28 bgb::function_8a5d8cfb@28 bgb::register_consumption_override@28 bgb::register_cancellable@20 bgb::function_e1f37ce7@20 bgb::function_1fee6b3@28 bgb::give@50
 STRING "<dev string:x4c0>" 0x3ed8 0x3f58 0x3fd8 0x4060 0x4100 0x4198 0x4218 0x4298 0x4310 0x4388 0x4408 0x44e0
 # bgb::register_vehicle_damage_override@1c
 STRING "<dev string:x4d9>" 0x3f4c
@@ -86,7 +86,7 @@ STRING "<dev string:x564>" 0x40f4
 STRING "<dev string:x59a>" 0x418c
 # bgb::function_8a5d8cfb@1c
 STRING "<dev string:x5d2>" 0x420c
-# bgb::function_be42abb0@1c
+# bgb::register_consumption_override@1c
 STRING "<dev string:x604>" 0x428c
 # bgb::register_cancellable@14
 STRING "<dev string:x632>" 0x4304
@@ -191,7 +191,7 @@ DEVBLOCK 0x40ea
 DEVBLOCK 0x4182
 # bgb::function_8a5d8cfb@12
 DEVBLOCK 0x4202
-# bgb::function_be42abb0@12
+# bgb::register_consumption_override@12
 DEVBLOCK 0x4282
 # bgb::register_cancellable@a
 DEVBLOCK 0x42fa

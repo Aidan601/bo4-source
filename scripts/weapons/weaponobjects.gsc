@@ -1158,7 +1158,7 @@ function function_f245df1e()
 // Params 2
 // Checksum 0xf693d337, Offset: 0x2f00
 // Size: 0x94
-function function_127fb8f3( var_983dc34, attackingplayer )
+function onjammed( var_983dc34, attackingplayer )
 {
     if ( isdefined( var_983dc34 ) && isdefined( var_983dc34.var_2d045452 ) )
     {

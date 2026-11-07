@@ -80,9 +80,9 @@ function private function_d805557c( weapon )
     {
         if ( isarray( var_876795bf ) )
         {
-            foreach ( var_96bc131f in var_876795bf )
+            foreach ( str_attachment in var_876795bf )
             {
-                if ( var_96bc131f != "clantag" && var_96bc131f != "killcounter" && var_96bc131f != "custom2" )
+                if ( str_attachment != "clantag" && str_attachment != "killcounter" && str_attachment != "custom2" )
                 {
                     return false;
                 }
@@ -678,9 +678,9 @@ function function_937e218c()
 // Params 1
 // Checksum 0x1c7a43cd, Offset: 0x2e20
 // Size: 0x72, Type: bool
-function is_active( var_1eb3fec6 = 0 )
+function is_active( b_is_special = 0 )
 {
-    if ( var_1eb3fec6 && isdefined( level.b_special_weapons ) && level.b_special_weapons )
+    if ( b_is_special && isdefined( level.b_special_weapons ) && level.b_special_weapons )
     {
         return false;
     }

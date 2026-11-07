@@ -101,7 +101,7 @@ function private function_80c4721f( commander )
                 continue;
             }
             
-            if ( isdefined( doorblocker.var_c947f134 ) && doorblocker.var_c947f134 )
+            if ( isdefined( doorblocker.script_disable_door ) && doorblocker.script_disable_door )
             {
                 continue;
             }

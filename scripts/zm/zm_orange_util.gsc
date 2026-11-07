@@ -99,12 +99,12 @@ function function_583cad13( var_2753f06a )
         }
         else
         {
-            level.host function_51b752a9( #"hash_71bde3a512edb440" + var_2753f06a + "_" + var_5316ea7d );
+            level.host function_51b752a9( #"vox_co_op_end_round" + var_2753f06a + "_" + var_5316ea7d );
             var_d1e952c4 = zm_hms_util::function_3815943c( a_players );
             
             if ( isdefined( var_d1e952c4 ) )
             {
-                var_d1e952c4 function_51b752a9( #"hash_71bde3a512edb440" + var_2753f06a + "_" + var_5316ea7d );
+                var_d1e952c4 function_51b752a9( #"vox_co_op_end_round" + var_2753f06a + "_" + var_5316ea7d );
             }
         }
         
@@ -424,9 +424,9 @@ function private function_bf1b121a( timeout, n_range, var_618a04 )
     
     do
     {
-        var_6f868336 = arraysort( level.activeplayers, self.origin, 1, level.activeplayers.size, n_range );
+        a_players_in_range = arraysort( level.activeplayers, self.origin, 1, level.activeplayers.size, n_range );
         
-        foreach ( player in var_6f868336 )
+        foreach ( player in a_players_in_range )
         {
             if ( !player zm_audio::can_speak( 1 ) || isdefined( level.var_b625a184 ) && level.var_b625a184 )
             {

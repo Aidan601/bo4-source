@@ -1533,9 +1533,9 @@ function function_f9ce6f88()
 // Params 3
 // Checksum 0xc338bb0, Offset: 0x4dd0
 // Size: 0x94
-function function_979f4cc0( var_38f795c7, n_amount, b_disable = 0 )
+function function_979f4cc0( str_challenge_name, n_amount, b_disable = 0 )
 {
-    self zm_stats::increment_challenge_stat( var_38f795c7, n_amount, b_disable );
+    self zm_stats::increment_challenge_stat( str_challenge_name, n_amount, b_disable );
     var_a9d7bd6 = function_6cc59b84();
     
     if ( var_a9d7bd6 == 6 )

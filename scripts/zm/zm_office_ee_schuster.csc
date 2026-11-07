@@ -34,7 +34,7 @@ function function_50865dc7( localclientnum, oldval, newval, bnewent, binitialsna
     
     foreach ( s_loc in a_s_locs )
     {
-        if ( s_loc.var_614bfc5c + 1 == newval )
+        if ( s_loc.log_id + 1 == newval )
         {
             var_a1cf77d2 = util::spawn_model( localclientnum, "tag_origin", s_loc.origin, s_loc.angles );
             break;

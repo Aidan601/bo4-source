@@ -57,7 +57,7 @@ function zone_init()
     level thread function_d03a6fa( "hallway_level1", "file_room_level1", "hall1_file1" );
     
     /#
-        level thread function_2fb4c999();
+        level thread open_sesame_monitor();
     #/
 }
 
@@ -203,7 +203,7 @@ function get_location_string( e_player )
     // Params 0
     // Checksum 0x80085022, Offset: 0xd40
     // Size: 0x3c, Type: dev
-    function function_2fb4c999()
+    function open_sesame_monitor()
     {
         level waittill( #"open_sesame" );
         level flag::set( "<dev string:x38>" );

@@ -527,7 +527,7 @@ version 144 {
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x808, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x838, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x868, size 0x30
@@ -793,7 +793,7 @@ version 144 {
         // offset 0x1f88, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1fb8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1fe8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x2018, size 0x30
@@ -827,7 +827,7 @@ version 144 {
         // offset 0x22b0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x22e0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2310, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2340, size 0x30
@@ -1149,7 +1149,7 @@ version 144 {
         // offset 0x3f20, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3f50, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3f80, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3fb0, size 0x30
@@ -1311,7 +1311,7 @@ version 144 {
         // offset 0x4d40, size 0x28
         hash_2b6b162a9af31225 hash_41dbde77a9bbd206;
         // offset 0x4d68, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4d98, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4dc0, size 0x30
@@ -2884,7 +2884,7 @@ version 143 {
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x808, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x838, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x868, size 0x30
@@ -3150,7 +3150,7 @@ version 143 {
         // offset 0x1f88, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1fb8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1fe8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x2018, size 0x30
@@ -3184,7 +3184,7 @@ version 143 {
         // offset 0x22b0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x22e0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2310, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2340, size 0x30
@@ -3506,7 +3506,7 @@ version 143 {
         // offset 0x3f20, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3f50, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3f80, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3fb0, size 0x30
@@ -3668,7 +3668,7 @@ version 143 {
         // offset 0x4d40, size 0x28
         hash_2b6b162a9af31225 hash_41dbde77a9bbd206;
         // offset 0x4d68, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4d98, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4dc0, size 0x30
@@ -5240,7 +5240,7 @@ version 142 {
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x808, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x838, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x868, size 0x30
@@ -5506,7 +5506,7 @@ version 142 {
         // offset 0x1f88, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1fb8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1fe8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x2018, size 0x30
@@ -5540,7 +5540,7 @@ version 142 {
         // offset 0x22b0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x22e0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2310, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2340, size 0x30
@@ -5862,7 +5862,7 @@ version 142 {
         // offset 0x3f20, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3f50, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3f80, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3fb0, size 0x30
@@ -6024,7 +6024,7 @@ version 142 {
         // offset 0x4d40, size 0x28
         hash_2b6b162a9af31225 hash_41dbde77a9bbd206;
         // offset 0x4d68, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4d98, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4dc0, size 0x30
@@ -7594,7 +7594,7 @@ version 141 {
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x808, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x838, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x868, size 0x30
@@ -7860,7 +7860,7 @@ version 141 {
         // offset 0x1f88, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1fb8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1fe8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x2018, size 0x30
@@ -7894,7 +7894,7 @@ version 141 {
         // offset 0x22b0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x22e0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2310, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2340, size 0x30
@@ -8216,7 +8216,7 @@ version 141 {
         // offset 0x3f20, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3f50, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3f80, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3fb0, size 0x30
@@ -8376,7 +8376,7 @@ version 141 {
         // offset 0x4d28, size 0x28
         hash_2b6b162a9af31225 hash_41dbde77a9bbd206;
         // offset 0x4d50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4d80, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4da8, size 0x30
@@ -9940,7 +9940,7 @@ version 140 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -10206,7 +10206,7 @@ version 140 {
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1f58, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f88, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1fb8, size 0x30
@@ -10240,7 +10240,7 @@ version 140 {
         // offset 0x2250, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2280, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x22b0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x22e0, size 0x30
@@ -10562,7 +10562,7 @@ version 140 {
         // offset 0x3ec0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3ef0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3f20, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3f50, size 0x30
@@ -10720,7 +10720,7 @@ version 140 {
         // offset 0x4c98, size 0x28
         hash_2b6b162a9af31225 hash_41dbde77a9bbd206;
         // offset 0x4cc0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4cf0, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4d18, size 0x30
@@ -12281,7 +12281,7 @@ version 139 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -12547,7 +12547,7 @@ version 139 {
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1f58, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f88, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1fb8, size 0x30
@@ -12581,7 +12581,7 @@ version 139 {
         // offset 0x2250, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2280, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x22b0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x22e0, size 0x30
@@ -12897,7 +12897,7 @@ version 139 {
         // offset 0x3e48, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3e78, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ea8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3ed8, size 0x30
@@ -13051,7 +13051,7 @@ version 139 {
         // offset 0x4bc8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4bf8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4c28, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4c50, size 0x30
@@ -14610,7 +14610,7 @@ version 138 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -14876,7 +14876,7 @@ version 138 {
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1f58, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f88, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1fb8, size 0x30
@@ -14910,7 +14910,7 @@ version 138 {
         // offset 0x2250, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2280, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x22b0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x22e0, size 0x30
@@ -15226,7 +15226,7 @@ version 138 {
         // offset 0x3e48, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3e78, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ea8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3ed8, size 0x30
@@ -15380,7 +15380,7 @@ version 138 {
         // offset 0x4bc8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4bf8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4c28, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4c50, size 0x30
@@ -16938,7 +16938,7 @@ version 137 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -17202,7 +17202,7 @@ version 137 {
         // offset 0x1f10, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1f40, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f70, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1fa0, size 0x30
@@ -17236,7 +17236,7 @@ version 137 {
         // offset 0x2238, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2268, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2298, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x22c8, size 0x30
@@ -17550,7 +17550,7 @@ version 137 {
         // offset 0x3e18, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3e48, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3e78, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3ea8, size 0x30
@@ -17704,7 +17704,7 @@ version 137 {
         // offset 0x4b98, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4bc8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4bf8, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4c20, size 0x30
@@ -19258,7 +19258,7 @@ version 136 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -19516,7 +19516,7 @@ version 136 {
         // offset 0x1ec8, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1ef8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1f58, size 0x30
@@ -19550,7 +19550,7 @@ version 136 {
         // offset 0x21f0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2220, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2250, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2280, size 0x30
@@ -19864,7 +19864,7 @@ version 136 {
         // offset 0x3dd0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3e00, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3e30, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3e60, size 0x30
@@ -20014,7 +20014,7 @@ version 136 {
         // offset 0x4b20, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4b50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4b80, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4ba8, size 0x30
@@ -21555,7 +21555,7 @@ version 135 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -21813,7 +21813,7 @@ version 135 {
         // offset 0x1ec8, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1ef8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1f58, size 0x30
@@ -21847,7 +21847,7 @@ version 135 {
         // offset 0x21f0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2220, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2250, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2280, size 0x30
@@ -22159,7 +22159,7 @@ version 135 {
         // offset 0x3db8, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3de8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3e18, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3e48, size 0x30
@@ -22309,7 +22309,7 @@ version 135 {
         // offset 0x4b08, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4b38, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4b68, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4b90, size 0x30
@@ -23850,7 +23850,7 @@ version 134 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -24108,7 +24108,7 @@ version 134 {
         // offset 0x1ec8, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1ef8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1f58, size 0x30
@@ -24142,7 +24142,7 @@ version 134 {
         // offset 0x21f0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2220, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2250, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2280, size 0x30
@@ -24454,7 +24454,7 @@ version 134 {
         // offset 0x3db8, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3de8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3e18, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3e48, size 0x30
@@ -24604,7 +24604,7 @@ version 134 {
         // offset 0x4b08, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4b38, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4b68, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4b90, size 0x30
@@ -26144,7 +26144,7 @@ version 133 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -26402,7 +26402,7 @@ version 133 {
         // offset 0x1ec8, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1ef8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1f58, size 0x30
@@ -26436,7 +26436,7 @@ version 133 {
         // offset 0x21f0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2220, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2250, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2280, size 0x30
@@ -26748,7 +26748,7 @@ version 133 {
         // offset 0x3db8, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3de8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3e18, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3e48, size 0x30
@@ -26898,7 +26898,7 @@ version 133 {
         // offset 0x4b08, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4b38, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4b68, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4b90, size 0x30
@@ -28437,7 +28437,7 @@ version 132 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -28695,7 +28695,7 @@ version 132 {
         // offset 0x1ec8, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1ef8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f28, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1f58, size 0x30
@@ -28729,7 +28729,7 @@ version 132 {
         // offset 0x21f0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2220, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2250, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2280, size 0x30
@@ -29041,7 +29041,7 @@ version 132 {
         // offset 0x3db8, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3de8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3e18, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3e48, size 0x30
@@ -29191,7 +29191,7 @@ version 132 {
         // offset 0x4b08, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4b38, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4b68, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4b90, size 0x30
@@ -30730,7 +30730,7 @@ version 131 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -30986,7 +30986,7 @@ version 131 {
         // offset 0x1eb0, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1ee0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1f10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1f40, size 0x30
@@ -31020,7 +31020,7 @@ version 131 {
         // offset 0x21d8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2208, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2238, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2268, size 0x30
@@ -31332,7 +31332,7 @@ version 131 {
         // offset 0x3da0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3dd0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3e00, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3e30, size 0x30
@@ -31482,7 +31482,7 @@ version 131 {
         // offset 0x4af0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4b20, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4b50, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4b78, size 0x30
@@ -33021,7 +33021,7 @@ version 130 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -33271,7 +33271,7 @@ version 130 {
         // offset 0x1e68, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1e98, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1ec8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1ef8, size 0x30
@@ -33305,7 +33305,7 @@ version 130 {
         // offset 0x2190, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x21c0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x21f0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2220, size 0x30
@@ -33617,7 +33617,7 @@ version 130 {
         // offset 0x3d58, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3d88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3db8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3de8, size 0x30
@@ -33765,7 +33765,7 @@ version 130 {
         // offset 0x4a90, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4ac0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4af0, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4b18, size 0x30
@@ -35296,7 +35296,7 @@ version 129 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -35542,7 +35542,7 @@ version 129 {
         // offset 0x1e08, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1e38, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1e68, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e98, size 0x30
@@ -35576,7 +35576,7 @@ version 129 {
         // offset 0x2130, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2160, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2190, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x21c0, size 0x30
@@ -35886,7 +35886,7 @@ version 129 {
         // offset 0x3cc8, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3cf8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3d28, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3d58, size 0x30
@@ -36032,7 +36032,7 @@ version 129 {
         // offset 0x49d0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4a00, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4a30, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4a58, size 0x30
@@ -37562,7 +37562,7 @@ version 128 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -37808,7 +37808,7 @@ version 128 {
         // offset 0x1e08, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1e38, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1e68, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e98, size 0x30
@@ -37842,7 +37842,7 @@ version 128 {
         // offset 0x2130, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2160, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2190, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x21c0, size 0x30
@@ -38152,7 +38152,7 @@ version 128 {
         // offset 0x3cc8, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3cf8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3d28, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3d58, size 0x30
@@ -38298,7 +38298,7 @@ version 128 {
         // offset 0x49d0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4a00, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4a30, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4a58, size 0x30
@@ -39824,7 +39824,7 @@ version 127 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -40068,7 +40068,7 @@ version 127 {
         // offset 0x1de0, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1e10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1e40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e70, size 0x30
@@ -40102,7 +40102,7 @@ version 127 {
         // offset 0x2108, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2138, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2168, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2198, size 0x30
@@ -40410,7 +40410,7 @@ version 127 {
         // offset 0x3c78, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3ca8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3cd8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3d08, size 0x30
@@ -40556,7 +40556,7 @@ version 127 {
         // offset 0x4980, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x49b0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x49e0, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4a08, size 0x30
@@ -42080,7 +42080,7 @@ version 126 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -42324,7 +42324,7 @@ version 126 {
         // offset 0x1de0, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1e10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1e40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e70, size 0x30
@@ -42358,7 +42358,7 @@ version 126 {
         // offset 0x2108, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2138, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2168, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2198, size 0x30
@@ -42666,7 +42666,7 @@ version 126 {
         // offset 0x3c78, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3ca8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3cd8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3d08, size 0x30
@@ -42812,7 +42812,7 @@ version 126 {
         // offset 0x4980, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x49b0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x49e0, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4a08, size 0x30
@@ -44332,7 +44332,7 @@ version 125 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -44574,7 +44574,7 @@ version 125 {
         // offset 0x1dc8, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1df8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1e28, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e58, size 0x30
@@ -44608,7 +44608,7 @@ version 125 {
         // offset 0x20f0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2120, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2150, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2180, size 0x30
@@ -44916,7 +44916,7 @@ version 125 {
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3cc0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3cf0, size 0x30
@@ -45060,7 +45060,7 @@ version 125 {
         // offset 0x4950, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4980, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x49b0, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x49d8, size 0x30
@@ -46575,7 +46575,7 @@ version 124 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -46815,7 +46815,7 @@ version 124 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -46849,7 +46849,7 @@ version 124 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -47155,7 +47155,7 @@ version 124 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -47299,7 +47299,7 @@ version 124 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -48814,7 +48814,7 @@ version 123 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -49054,7 +49054,7 @@ version 123 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -49088,7 +49088,7 @@ version 123 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -49394,7 +49394,7 @@ version 123 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -49538,7 +49538,7 @@ version 123 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -51052,7 +51052,7 @@ version 122 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -51292,7 +51292,7 @@ version 122 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -51326,7 +51326,7 @@ version 122 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -51632,7 +51632,7 @@ version 122 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -51776,7 +51776,7 @@ version 122 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -53288,7 +53288,7 @@ version 121 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -53528,7 +53528,7 @@ version 121 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -53562,7 +53562,7 @@ version 121 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -53868,7 +53868,7 @@ version 121 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -54012,7 +54012,7 @@ version 121 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -55524,7 +55524,7 @@ version 120 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -55764,7 +55764,7 @@ version 120 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -55798,7 +55798,7 @@ version 120 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -56104,7 +56104,7 @@ version 120 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -56248,7 +56248,7 @@ version 120 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -57759,7 +57759,7 @@ version 119 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -57999,7 +57999,7 @@ version 119 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -58033,7 +58033,7 @@ version 119 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -58339,7 +58339,7 @@ version 119 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -58483,7 +58483,7 @@ version 119 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -59993,7 +59993,7 @@ version 118 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -60233,7 +60233,7 @@ version 118 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -60267,7 +60267,7 @@ version 118 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -60573,7 +60573,7 @@ version 118 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -60717,7 +60717,7 @@ version 118 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -62226,7 +62226,7 @@ version 117 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -62466,7 +62466,7 @@ version 117 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -62500,7 +62500,7 @@ version 117 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -62806,7 +62806,7 @@ version 117 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -62950,7 +62950,7 @@ version 117 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -64475,7 +64475,7 @@ version 116 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -64715,7 +64715,7 @@ version 116 {
         // offset 0x1d98, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1dc8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1df8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e28, size 0x30
@@ -64749,7 +64749,7 @@ version 116 {
         // offset 0x20c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2120, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2150, size 0x30
@@ -65055,7 +65055,7 @@ version 116 {
         // offset 0x3c00, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c30, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c60, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c90, size 0x30
@@ -65199,7 +65199,7 @@ version 116 {
         // offset 0x48f0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4920, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4950, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4978, size 0x30
@@ -66744,7 +66744,7 @@ version 115 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -66982,7 +66982,7 @@ version 115 {
         // offset 0x1d80, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1db0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1de0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e10, size 0x30
@@ -67016,7 +67016,7 @@ version 115 {
         // offset 0x20a8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20d8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2108, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2138, size 0x30
@@ -67320,7 +67320,7 @@ version 115 {
         // offset 0x3bd0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c00, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c30, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c60, size 0x30
@@ -67464,7 +67464,7 @@ version 115 {
         // offset 0x48c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x48f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4920, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4948, size 0x30
@@ -69009,7 +69009,7 @@ version 114 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -69247,7 +69247,7 @@ version 114 {
         // offset 0x1d80, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1db0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1de0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e10, size 0x30
@@ -69281,7 +69281,7 @@ version 114 {
         // offset 0x20a8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20d8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2108, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2138, size 0x30
@@ -69585,7 +69585,7 @@ version 114 {
         // offset 0x3bd0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c00, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c30, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c60, size 0x30
@@ -69729,7 +69729,7 @@ version 114 {
         // offset 0x48c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x48f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4920, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4948, size 0x30
@@ -71378,7 +71378,7 @@ version 113 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -71616,7 +71616,7 @@ version 113 {
         // offset 0x1d80, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1db0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1de0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e10, size 0x30
@@ -71650,7 +71650,7 @@ version 113 {
         // offset 0x20a8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20d8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2108, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2138, size 0x30
@@ -71954,7 +71954,7 @@ version 113 {
         // offset 0x3bd0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c00, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c30, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c60, size 0x30
@@ -72098,7 +72098,7 @@ version 113 {
         // offset 0x48c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x48f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4920, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4948, size 0x30
@@ -73746,7 +73746,7 @@ version 112 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -73984,7 +73984,7 @@ version 112 {
         // offset 0x1d80, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1db0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1de0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e10, size 0x30
@@ -74018,7 +74018,7 @@ version 112 {
         // offset 0x20a8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20d8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2108, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2138, size 0x30
@@ -74322,7 +74322,7 @@ version 112 {
         // offset 0x3bd0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c00, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c30, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c60, size 0x30
@@ -74466,7 +74466,7 @@ version 112 {
         // offset 0x48c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x48f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4920, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4948, size 0x30
@@ -76110,7 +76110,7 @@ version 111 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -76348,7 +76348,7 @@ version 111 {
         // offset 0x1d80, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1db0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1de0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e10, size 0x30
@@ -76382,7 +76382,7 @@ version 111 {
         // offset 0x20a8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20d8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2108, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2138, size 0x30
@@ -76686,7 +76686,7 @@ version 111 {
         // offset 0x3bd0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3c00, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3c30, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3c60, size 0x30
@@ -76830,7 +76830,7 @@ version 111 {
         // offset 0x48c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x48f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4920, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4948, size 0x30
@@ -78473,7 +78473,7 @@ version 110 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -78709,7 +78709,7 @@ version 110 {
         // offset 0x1d50, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d80, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1db0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1de0, size 0x30
@@ -78743,7 +78743,7 @@ version 110 {
         // offset 0x2078, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20a8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x20d8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2108, size 0x30
@@ -79043,7 +79043,7 @@ version 110 {
         // offset 0x3b40, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b70, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ba0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3bd0, size 0x30
@@ -79185,7 +79185,7 @@ version 110 {
         // offset 0x4800, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4830, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4860, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4888, size 0x30
@@ -80827,7 +80827,7 @@ version 109 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -81063,7 +81063,7 @@ version 109 {
         // offset 0x1d50, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d80, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1db0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1de0, size 0x30
@@ -81097,7 +81097,7 @@ version 109 {
         // offset 0x2078, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20a8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x20d8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2108, size 0x30
@@ -81397,7 +81397,7 @@ version 109 {
         // offset 0x3b40, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b70, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ba0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3bd0, size 0x30
@@ -81539,7 +81539,7 @@ version 109 {
         // offset 0x4800, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4830, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4860, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4888, size 0x30
@@ -83180,7 +83180,7 @@ version 108 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -83416,7 +83416,7 @@ version 108 {
         // offset 0x1d50, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d80, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1db0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1de0, size 0x30
@@ -83450,7 +83450,7 @@ version 108 {
         // offset 0x2078, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20a8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x20d8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2108, size 0x30
@@ -83750,7 +83750,7 @@ version 108 {
         // offset 0x3b40, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b70, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ba0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3bd0, size 0x30
@@ -83892,7 +83892,7 @@ version 108 {
         // offset 0x4800, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4830, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4860, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4888, size 0x30
@@ -85532,7 +85532,7 @@ version 107 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -85768,7 +85768,7 @@ version 107 {
         // offset 0x1d50, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d80, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1db0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1de0, size 0x30
@@ -85802,7 +85802,7 @@ version 107 {
         // offset 0x2078, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20a8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x20d8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2108, size 0x30
@@ -86102,7 +86102,7 @@ version 107 {
         // offset 0x3b40, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b70, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ba0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3bd0, size 0x30
@@ -86244,7 +86244,7 @@ version 107 {
         // offset 0x4800, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4830, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4860, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4888, size 0x30
@@ -87884,7 +87884,7 @@ version 106 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -88120,7 +88120,7 @@ version 106 {
         // offset 0x1d50, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d80, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1db0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1de0, size 0x30
@@ -88154,7 +88154,7 @@ version 106 {
         // offset 0x2078, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20a8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x20d8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2108, size 0x30
@@ -88454,7 +88454,7 @@ version 106 {
         // offset 0x3b40, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b70, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ba0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3bd0, size 0x30
@@ -88596,7 +88596,7 @@ version 106 {
         // offset 0x4800, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4830, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4860, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4888, size 0x30
@@ -90234,7 +90234,7 @@ version 105 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -90472,7 +90472,7 @@ version 105 {
         // offset 0x1d78, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1da8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1dd8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e08, size 0x30
@@ -90506,7 +90506,7 @@ version 105 {
         // offset 0x20a0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20d0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2100, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2130, size 0x30
@@ -90806,7 +90806,7 @@ version 105 {
         // offset 0x3b68, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b98, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3bc8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3bf8, size 0x30
@@ -90946,7 +90946,7 @@ version 105 {
         // offset 0x4800, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4830, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4860, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4888, size 0x30
@@ -92584,7 +92584,7 @@ version 104 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -92822,7 +92822,7 @@ version 104 {
         // offset 0x1d78, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1da8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1dd8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1e08, size 0x30
@@ -92856,7 +92856,7 @@ version 104 {
         // offset 0x20a0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x20d0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2100, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2130, size 0x30
@@ -93156,7 +93156,7 @@ version 104 {
         // offset 0x3b68, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b98, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3bc8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3bf8, size 0x30
@@ -93296,7 +93296,7 @@ version 104 {
         // offset 0x4800, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4830, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4860, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4888, size 0x30
@@ -94933,7 +94933,7 @@ version 103 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -95167,7 +95167,7 @@ version 103 {
         // offset 0x1d28, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d58, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d88, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1db8, size 0x30
@@ -95201,7 +95201,7 @@ version 103 {
         // offset 0x2050, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2080, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x20b0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x20e0, size 0x30
@@ -95499,7 +95499,7 @@ version 103 {
         // offset 0x3af0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b20, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3b50, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3b80, size 0x30
@@ -95639,7 +95639,7 @@ version 103 {
         // offset 0x4788, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x47b8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x47e8, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4810, size 0x30
@@ -97266,7 +97266,7 @@ version 102 {
         // offset 0x778, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x7a8, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x808, size 0x30
@@ -97500,7 +97500,7 @@ version 102 {
         // offset 0x1d28, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d58, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d88, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1db8, size 0x30
@@ -97534,7 +97534,7 @@ version 102 {
         // offset 0x2050, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2080, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x20b0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x20e0, size 0x30
@@ -97832,7 +97832,7 @@ version 102 {
         // offset 0x3af0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3b20, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3b50, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3b80, size 0x30
@@ -97972,7 +97972,7 @@ version 102 {
         // offset 0x4788, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x47b8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x47e8, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4810, size 0x30
@@ -99593,7 +99593,7 @@ version 101 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -99827,7 +99827,7 @@ version 101 {
         // offset 0x1ce0, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d70, size 0x30
@@ -99861,7 +99861,7 @@ version 101 {
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2038, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2068, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2098, size 0x30
@@ -100153,7 +100153,7 @@ version 101 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -100289,7 +100289,7 @@ version 101 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -101910,7 +101910,7 @@ version 100 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -102144,7 +102144,7 @@ version 100 {
         // offset 0x1ce0, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d70, size 0x30
@@ -102178,7 +102178,7 @@ version 100 {
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2038, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2068, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2098, size 0x30
@@ -102470,7 +102470,7 @@ version 100 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -102606,7 +102606,7 @@ version 100 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -104198,7 +104198,7 @@ version 99 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -104432,7 +104432,7 @@ version 99 {
         // offset 0x1ce0, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1d10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d70, size 0x30
@@ -104466,7 +104466,7 @@ version 99 {
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x2038, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2068, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2098, size 0x30
@@ -104758,7 +104758,7 @@ version 99 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -104894,7 +104894,7 @@ version 99 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -106474,7 +106474,7 @@ version 98 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -106702,7 +106702,7 @@ version 98 {
         // offset 0x1c50, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1c80, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1ce0, size 0x30
@@ -106734,7 +106734,7 @@ version 98 {
         // offset 0x1f48, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f78, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1fd8, size 0x30
@@ -107026,7 +107026,7 @@ version 98 {
         // offset 0x39a0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x39d0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3a00, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a30, size 0x30
@@ -107162,7 +107162,7 @@ version 98 {
         // offset 0x4608, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4638, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4668, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4690, size 0x30
@@ -108741,7 +108741,7 @@ version 97 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -108969,7 +108969,7 @@ version 97 {
         // offset 0x1c50, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1c80, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1ce0, size 0x30
@@ -109001,7 +109001,7 @@ version 97 {
         // offset 0x1f48, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f78, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1fd8, size 0x30
@@ -109293,7 +109293,7 @@ version 97 {
         // offset 0x39a0, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x39d0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3a00, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a30, size 0x30
@@ -109429,7 +109429,7 @@ version 97 {
         // offset 0x4608, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4638, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4668, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4690, size 0x30
@@ -111005,7 +111005,7 @@ version 96 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -111237,7 +111237,7 @@ version 96 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -111269,7 +111269,7 @@ version 96 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -111565,7 +111565,7 @@ version 96 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -111701,7 +111701,7 @@ version 96 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -113277,7 +113277,7 @@ version 95 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -113509,7 +113509,7 @@ version 95 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -113541,7 +113541,7 @@ version 95 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -113837,7 +113837,7 @@ version 95 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -113973,7 +113973,7 @@ version 95 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -115547,7 +115547,7 @@ version 94 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -115779,7 +115779,7 @@ version 94 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -115811,7 +115811,7 @@ version 94 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -116107,7 +116107,7 @@ version 94 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -116243,7 +116243,7 @@ version 94 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -117816,7 +117816,7 @@ version 93 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -118048,7 +118048,7 @@ version 93 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -118080,7 +118080,7 @@ version 93 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -118376,7 +118376,7 @@ version 93 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -118512,7 +118512,7 @@ version 93 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -120077,7 +120077,7 @@ version 92 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -120309,7 +120309,7 @@ version 92 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -120341,7 +120341,7 @@ version 92 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -120637,7 +120637,7 @@ version 92 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -120773,7 +120773,7 @@ version 92 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -122337,7 +122337,7 @@ version 91 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -122569,7 +122569,7 @@ version 91 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -122601,7 +122601,7 @@ version 91 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -122897,7 +122897,7 @@ version 91 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -123033,7 +123033,7 @@ version 91 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -124594,7 +124594,7 @@ version 90 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -124826,7 +124826,7 @@ version 90 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -124858,7 +124858,7 @@ version 90 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -125154,7 +125154,7 @@ version 90 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -125290,7 +125290,7 @@ version 90 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -126850,7 +126850,7 @@ version 89 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -127082,7 +127082,7 @@ version 89 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -127114,7 +127114,7 @@ version 89 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -127410,7 +127410,7 @@ version 89 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -127546,7 +127546,7 @@ version 89 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -129105,7 +129105,7 @@ version 88 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -129337,7 +129337,7 @@ version 88 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -129369,7 +129369,7 @@ version 88 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -129665,7 +129665,7 @@ version 88 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -129801,7 +129801,7 @@ version 88 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -131359,7 +131359,7 @@ version 87 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -131591,7 +131591,7 @@ version 87 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -131623,7 +131623,7 @@ version 87 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -131919,7 +131919,7 @@ version 87 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -132055,7 +132055,7 @@ version 87 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -133608,7 +133608,7 @@ version 86 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -133840,7 +133840,7 @@ version 86 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -133872,7 +133872,7 @@ version 86 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -134168,7 +134168,7 @@ version 86 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -134304,7 +134304,7 @@ version 86 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -135857,7 +135857,7 @@ version 85 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -136089,7 +136089,7 @@ version 85 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -136121,7 +136121,7 @@ version 85 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -136417,7 +136417,7 @@ version 85 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -136553,7 +136553,7 @@ version 85 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -138113,7 +138113,7 @@ version 84 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -138345,7 +138345,7 @@ version 84 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -138377,7 +138377,7 @@ version 84 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -138673,7 +138673,7 @@ version 84 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -138809,7 +138809,7 @@ version 84 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -140369,7 +140369,7 @@ version 83 {
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x760, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x790, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x7c0, size 0x30
@@ -140601,7 +140601,7 @@ version 83 {
         // offset 0x1cb0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ce0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1d10, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d40, size 0x30
@@ -140633,7 +140633,7 @@ version 83 {
         // offset 0x1fa8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fd8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2008, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2038, size 0x30
@@ -140929,7 +140929,7 @@ version 83 {
         // offset 0x3a60, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a90, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3ac0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3af0, size 0x30
@@ -141065,7 +141065,7 @@ version 83 {
         // offset 0x46c8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x46f8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4728, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4750, size 0x30
@@ -142623,7 +142623,7 @@ version 82 {
         // offset 0x708, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x738, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x768, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x798, size 0x30
@@ -142855,7 +142855,7 @@ version 82 {
         // offset 0x1c88, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1cb8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1ce8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d18, size 0x30
@@ -142887,7 +142887,7 @@ version 82 {
         // offset 0x1f80, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1fb0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fe0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2010, size 0x30
@@ -143179,7 +143179,7 @@ version 82 {
         // offset 0x39e8, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3a18, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3a48, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a78, size 0x30
@@ -143315,7 +143315,7 @@ version 82 {
         // offset 0x4650, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4680, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x46b0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x46e0, size 0x30
@@ -144871,7 +144871,7 @@ version 81 {
         // offset 0x708, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x738, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x768, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x798, size 0x30
@@ -145101,7 +145101,7 @@ version 81 {
         // offset 0x1c70, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ca0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d00, size 0x30
@@ -145133,7 +145133,7 @@ version 81 {
         // offset 0x1f68, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f98, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fc8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ff8, size 0x30
@@ -145419,7 +145419,7 @@ version 81 {
         // offset 0x3988, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x39b8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x39e8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a18, size 0x30
@@ -145551,7 +145551,7 @@ version 81 {
         // offset 0x45c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x45f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4620, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4650, size 0x30
@@ -147095,7 +147095,7 @@ version 80 {
         // offset 0x708, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x738, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x768, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x798, size 0x30
@@ -147325,7 +147325,7 @@ version 80 {
         // offset 0x1c70, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ca0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d00, size 0x30
@@ -147357,7 +147357,7 @@ version 80 {
         // offset 0x1f68, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f98, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fc8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ff8, size 0x30
@@ -147643,7 +147643,7 @@ version 80 {
         // offset 0x3988, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x39b8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x39e8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a18, size 0x30
@@ -147775,7 +147775,7 @@ version 80 {
         // offset 0x45c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x45f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4620, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4650, size 0x30
@@ -149318,7 +149318,7 @@ version 79 {
         // offset 0x708, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x738, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x768, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x798, size 0x30
@@ -149548,7 +149548,7 @@ version 79 {
         // offset 0x1c70, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ca0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d00, size 0x30
@@ -149580,7 +149580,7 @@ version 79 {
         // offset 0x1f68, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f98, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fc8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ff8, size 0x30
@@ -149866,7 +149866,7 @@ version 79 {
         // offset 0x3988, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x39b8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x39e8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a18, size 0x30
@@ -149998,7 +149998,7 @@ version 79 {
         // offset 0x45c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x45f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4620, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4650, size 0x30
@@ -151533,7 +151533,7 @@ version 78 {
         // offset 0x708, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x738, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x768, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x798, size 0x30
@@ -151763,7 +151763,7 @@ version 78 {
         // offset 0x1c70, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ca0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d00, size 0x30
@@ -151795,7 +151795,7 @@ version 78 {
         // offset 0x1f68, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f98, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fc8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ff8, size 0x30
@@ -152081,7 +152081,7 @@ version 78 {
         // offset 0x3988, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x39b8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x39e8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a18, size 0x30
@@ -152213,7 +152213,7 @@ version 78 {
         // offset 0x45c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x45f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4620, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4650, size 0x30
@@ -153763,7 +153763,7 @@ version 77 {
         // offset 0x708, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x738, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x768, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x798, size 0x30
@@ -153993,7 +153993,7 @@ version 77 {
         // offset 0x1c70, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ca0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d00, size 0x30
@@ -154025,7 +154025,7 @@ version 77 {
         // offset 0x1f68, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f98, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fc8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ff8, size 0x30
@@ -154311,7 +154311,7 @@ version 77 {
         // offset 0x3988, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x39b8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x39e8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a18, size 0x30
@@ -154443,7 +154443,7 @@ version 77 {
         // offset 0x45c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x45f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4620, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4650, size 0x30
@@ -155972,7 +155972,7 @@ version 76 {
         // offset 0x708, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x738, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x768, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x798, size 0x30
@@ -156202,7 +156202,7 @@ version 76 {
         // offset 0x1c70, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ca0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1d00, size 0x30
@@ -156234,7 +156234,7 @@ version 76 {
         // offset 0x1f68, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f98, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1fc8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ff8, size 0x30
@@ -156520,7 +156520,7 @@ version 76 {
         // offset 0x3988, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x39b8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x39e8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3a18, size 0x30
@@ -156652,7 +156652,7 @@ version 76 {
         // offset 0x45c0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x45f0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4620, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4650, size 0x30
@@ -158171,7 +158171,7 @@ version 75 {
         // offset 0x6f0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x720, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x750, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x780, size 0x30
@@ -158391,7 +158391,7 @@ version 75 {
         // offset 0x1be0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1c10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1c40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1c70, size 0x30
@@ -158423,7 +158423,7 @@ version 75 {
         // offset 0x1ed8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f08, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1f38, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1f68, size 0x30
@@ -158693,7 +158693,7 @@ version 75 {
         // offset 0x3838, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3868, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3898, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x38c8, size 0x30
@@ -158819,7 +158819,7 @@ version 75 {
         // offset 0x4428, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4458, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4488, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x44b8, size 0x30
@@ -160336,7 +160336,7 @@ version 74 {
         // offset 0x6f0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x720, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x750, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x780, size 0x30
@@ -160556,7 +160556,7 @@ version 74 {
         // offset 0x1be0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1c10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1c40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1c70, size 0x30
@@ -160588,7 +160588,7 @@ version 74 {
         // offset 0x1ed8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f08, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1f38, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1f68, size 0x30
@@ -160858,7 +160858,7 @@ version 74 {
         // offset 0x3838, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3868, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3898, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x38c8, size 0x30
@@ -160984,7 +160984,7 @@ version 74 {
         // offset 0x4428, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4458, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4488, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x44b8, size 0x30
@@ -162500,7 +162500,7 @@ version 73 {
         // offset 0x6f0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x720, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x750, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x780, size 0x30
@@ -162720,7 +162720,7 @@ version 73 {
         // offset 0x1be0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1c10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1c40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1c70, size 0x30
@@ -162752,7 +162752,7 @@ version 73 {
         // offset 0x1ed8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f08, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1f38, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1f68, size 0x30
@@ -163022,7 +163022,7 @@ version 73 {
         // offset 0x3838, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3868, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3898, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x38c8, size 0x30
@@ -163148,7 +163148,7 @@ version 73 {
         // offset 0x4428, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4458, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4488, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x44b8, size 0x30
@@ -164643,7 +164643,7 @@ version 72 {
         // offset 0x6f0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x720, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x750, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x780, size 0x30
@@ -164863,7 +164863,7 @@ version 72 {
         // offset 0x1be0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1c10, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1c40, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1c70, size 0x30
@@ -164895,7 +164895,7 @@ version 72 {
         // offset 0x1ed8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1f08, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1f38, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1f68, size 0x30
@@ -165165,7 +165165,7 @@ version 72 {
         // offset 0x3838, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3868, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3898, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x38c8, size 0x30
@@ -165291,7 +165291,7 @@ version 72 {
         // offset 0x4428, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4458, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4488, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x44b8, size 0x30
@@ -166776,7 +166776,7 @@ version 71 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -166988,7 +166988,7 @@ version 71 {
         // offset 0x1b20, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1b50, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1b80, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1bb0, size 0x30
@@ -167018,7 +167018,7 @@ version 71 {
         // offset 0x1df0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1e20, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1e50, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1e80, size 0x30
@@ -167282,7 +167282,7 @@ version 71 {
         // offset 0x36e8, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3718, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3748, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3778, size 0x30
@@ -167406,7 +167406,7 @@ version 71 {
         // offset 0x42b0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x42e0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4310, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4340, size 0x30
@@ -168885,7 +168885,7 @@ version 70 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -169091,7 +169091,7 @@ version 70 {
         // offset 0x1a90, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ac0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1af0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1b20, size 0x30
@@ -169121,7 +169121,7 @@ version 70 {
         // offset 0x1d60, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d90, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1dc0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1df0, size 0x30
@@ -169379,7 +169379,7 @@ version 70 {
         // offset 0x35c8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x35f8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3628, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3658, size 0x30
@@ -169501,7 +169501,7 @@ version 70 {
         // offset 0x4160, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4190, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x41c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x41f0, size 0x30
@@ -170980,7 +170980,7 @@ version 69 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -171186,7 +171186,7 @@ version 69 {
         // offset 0x1a90, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ac0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1af0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1b20, size 0x30
@@ -171216,7 +171216,7 @@ version 69 {
         // offset 0x1d60, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d90, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1dc0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1df0, size 0x30
@@ -171474,7 +171474,7 @@ version 69 {
         // offset 0x35c8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x35f8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3628, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3658, size 0x30
@@ -171596,7 +171596,7 @@ version 69 {
         // offset 0x4160, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4190, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x41c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x41f0, size 0x30
@@ -173074,7 +173074,7 @@ version 68 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -173280,7 +173280,7 @@ version 68 {
         // offset 0x1a90, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ac0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1af0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1b20, size 0x30
@@ -173310,7 +173310,7 @@ version 68 {
         // offset 0x1d60, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d90, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1dc0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1df0, size 0x30
@@ -173568,7 +173568,7 @@ version 68 {
         // offset 0x35c8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x35f8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3628, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3658, size 0x30
@@ -173690,7 +173690,7 @@ version 68 {
         // offset 0x4160, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4190, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x41c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x41f0, size 0x30
@@ -175166,7 +175166,7 @@ version 67 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -175372,7 +175372,7 @@ version 67 {
         // offset 0x1a90, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ac0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1af0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1b20, size 0x30
@@ -175402,7 +175402,7 @@ version 67 {
         // offset 0x1d60, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d90, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1dc0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1df0, size 0x30
@@ -175660,7 +175660,7 @@ version 67 {
         // offset 0x35c8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x35f8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3628, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3658, size 0x30
@@ -175782,7 +175782,7 @@ version 67 {
         // offset 0x4160, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4190, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x41c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x41f0, size 0x30
@@ -177256,7 +177256,7 @@ version 66 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -177462,7 +177462,7 @@ version 66 {
         // offset 0x1a90, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ac0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1af0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1b20, size 0x30
@@ -177492,7 +177492,7 @@ version 66 {
         // offset 0x1d60, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d90, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1dc0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1df0, size 0x30
@@ -177750,7 +177750,7 @@ version 66 {
         // offset 0x35c8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x35f8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3628, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3658, size 0x30
@@ -177872,7 +177872,7 @@ version 66 {
         // offset 0x4160, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4190, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x41c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x41f0, size 0x30
@@ -179344,7 +179344,7 @@ version 65 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -179550,7 +179550,7 @@ version 65 {
         // offset 0x1a90, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ac0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1af0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1b20, size 0x30
@@ -179580,7 +179580,7 @@ version 65 {
         // offset 0x1d60, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d90, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1dc0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1df0, size 0x30
@@ -179838,7 +179838,7 @@ version 65 {
         // offset 0x35c8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x35f8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3628, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3658, size 0x30
@@ -179960,7 +179960,7 @@ version 65 {
         // offset 0x4160, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4190, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x41c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x41f0, size 0x30
@@ -181432,7 +181432,7 @@ version 64 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -181638,7 +181638,7 @@ version 64 {
         // offset 0x1a90, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ac0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1af0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1b20, size 0x30
@@ -181668,7 +181668,7 @@ version 64 {
         // offset 0x1d60, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d90, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1dc0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1df0, size 0x30
@@ -181926,7 +181926,7 @@ version 64 {
         // offset 0x35c8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x35f8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3628, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3658, size 0x30
@@ -182048,7 +182048,7 @@ version 64 {
         // offset 0x4160, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4190, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x41c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x41f0, size 0x30
@@ -183519,7 +183519,7 @@ version 63 {
         // offset 0x6d0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x700, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x730, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x760, size 0x30
@@ -183725,7 +183725,7 @@ version 63 {
         // offset 0x1a90, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1ac0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1af0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1b20, size 0x30
@@ -183755,7 +183755,7 @@ version 63 {
         // offset 0x1d60, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d90, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1dc0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1df0, size 0x30
@@ -184013,7 +184013,7 @@ version 63 {
         // offset 0x35c8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x35f8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3628, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3658, size 0x30
@@ -184135,7 +184135,7 @@ version 63 {
         // offset 0x4160, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4190, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x41c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x41f0, size 0x30
@@ -185593,7 +185593,7 @@ version 62 {
         // offset 0x680, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x6b0, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6e0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x710, size 0x30
@@ -185799,7 +185799,7 @@ version 62 {
         // offset 0x19f0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a20, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a50, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a80, size 0x30
@@ -185829,7 +185829,7 @@ version 62 {
         // offset 0x1cc0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d20, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d50, size 0x30
@@ -186087,7 +186087,7 @@ version 62 {
         // offset 0x34d8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3508, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3538, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3568, size 0x30
@@ -186209,7 +186209,7 @@ version 62 {
         // offset 0x4048, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4078, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x40a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40d8, size 0x30
@@ -187667,7 +187667,7 @@ version 61 {
         // offset 0x680, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x6b0, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6e0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x710, size 0x30
@@ -187873,7 +187873,7 @@ version 61 {
         // offset 0x19f0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a20, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a50, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a80, size 0x30
@@ -187903,7 +187903,7 @@ version 61 {
         // offset 0x1cc0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d20, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d50, size 0x30
@@ -188161,7 +188161,7 @@ version 61 {
         // offset 0x34d8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3508, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3538, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3568, size 0x30
@@ -188283,7 +188283,7 @@ version 61 {
         // offset 0x4048, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4078, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x40a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40d8, size 0x30
@@ -189738,7 +189738,7 @@ version 60 {
         // offset 0x680, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x6b0, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6e0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x710, size 0x30
@@ -189944,7 +189944,7 @@ version 60 {
         // offset 0x19f0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a20, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a50, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a80, size 0x30
@@ -189974,7 +189974,7 @@ version 60 {
         // offset 0x1cc0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d20, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d50, size 0x30
@@ -190232,7 +190232,7 @@ version 60 {
         // offset 0x34d8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3508, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3538, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3568, size 0x30
@@ -190354,7 +190354,7 @@ version 60 {
         // offset 0x4048, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4078, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x40a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40d8, size 0x30
@@ -191784,7 +191784,7 @@ version 59 {
         // offset 0x680, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x6b0, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6e0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x710, size 0x30
@@ -191990,7 +191990,7 @@ version 59 {
         // offset 0x19f0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a20, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a50, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a80, size 0x30
@@ -192020,7 +192020,7 @@ version 59 {
         // offset 0x1cc0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d20, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d50, size 0x30
@@ -192278,7 +192278,7 @@ version 59 {
         // offset 0x34d8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3508, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3538, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3568, size 0x30
@@ -192400,7 +192400,7 @@ version 59 {
         // offset 0x4048, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4078, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x40a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40d8, size 0x30
@@ -193828,7 +193828,7 @@ version 58 {
         // offset 0x680, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x6b0, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6e0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x710, size 0x30
@@ -194034,7 +194034,7 @@ version 58 {
         // offset 0x19f0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a20, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a50, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a80, size 0x30
@@ -194064,7 +194064,7 @@ version 58 {
         // offset 0x1cc0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d20, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d50, size 0x30
@@ -194322,7 +194322,7 @@ version 58 {
         // offset 0x34d8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3508, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3538, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3568, size 0x30
@@ -194444,7 +194444,7 @@ version 58 {
         // offset 0x4048, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4078, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x40a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40d8, size 0x30
@@ -195860,7 +195860,7 @@ version 57 {
         // offset 0x680, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x6b0, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6e0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x710, size 0x30
@@ -196066,7 +196066,7 @@ version 57 {
         // offset 0x19f0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a20, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a50, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a80, size 0x30
@@ -196096,7 +196096,7 @@ version 57 {
         // offset 0x1cc0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d20, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d50, size 0x30
@@ -196354,7 +196354,7 @@ version 57 {
         // offset 0x34d8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3508, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3538, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3568, size 0x30
@@ -196476,7 +196476,7 @@ version 57 {
         // offset 0x4048, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4078, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x40a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40d8, size 0x30
@@ -197888,7 +197888,7 @@ version 56 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -198094,7 +198094,7 @@ version 56 {
         // offset 0x19d0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a00, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a30, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a60, size 0x30
@@ -198124,7 +198124,7 @@ version 56 {
         // offset 0x1ca0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cd0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d00, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d30, size 0x30
@@ -198382,7 +198382,7 @@ version 56 {
         // offset 0x34b8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34e8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3518, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3548, size 0x30
@@ -198504,7 +198504,7 @@ version 56 {
         // offset 0x4028, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4058, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4088, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40b8, size 0x30
@@ -199912,7 +199912,7 @@ version 55 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -200118,7 +200118,7 @@ version 55 {
         // offset 0x19d0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a00, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a30, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a60, size 0x30
@@ -200148,7 +200148,7 @@ version 55 {
         // offset 0x1ca0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cd0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d00, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d30, size 0x30
@@ -200406,7 +200406,7 @@ version 55 {
         // offset 0x34b8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34e8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3518, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3548, size 0x30
@@ -200528,7 +200528,7 @@ version 55 {
         // offset 0x4028, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4058, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4088, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40b8, size 0x30
@@ -201934,7 +201934,7 @@ version 54 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -202140,7 +202140,7 @@ version 54 {
         // offset 0x19d0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a00, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a30, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a60, size 0x30
@@ -202170,7 +202170,7 @@ version 54 {
         // offset 0x1ca0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cd0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d00, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d30, size 0x30
@@ -202428,7 +202428,7 @@ version 54 {
         // offset 0x34b8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34e8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3518, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3548, size 0x30
@@ -202550,7 +202550,7 @@ version 54 {
         // offset 0x4028, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4058, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4088, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40b8, size 0x30
@@ -203936,7 +203936,7 @@ version 53 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -204142,7 +204142,7 @@ version 53 {
         // offset 0x19d0, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a00, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a30, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a60, size 0x30
@@ -204172,7 +204172,7 @@ version 53 {
         // offset 0x1ca0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cd0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d00, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d30, size 0x30
@@ -204430,7 +204430,7 @@ version 53 {
         // offset 0x34b8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34e8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3518, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3548, size 0x30
@@ -204552,7 +204552,7 @@ version 53 {
         // offset 0x4028, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4058, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4088, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40b8, size 0x30
@@ -205931,7 +205931,7 @@ version 52 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -206139,7 +206139,7 @@ version 52 {
         // offset 0x1a00, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a30, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a60, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a90, size 0x30
@@ -206169,7 +206169,7 @@ version 52 {
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d00, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d30, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d60, size 0x30
@@ -206425,7 +206425,7 @@ version 52 {
         // offset 0x34b8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34e8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3518, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3548, size 0x30
@@ -206547,7 +206547,7 @@ version 52 {
         // offset 0x4028, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4058, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4088, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40b8, size 0x30
@@ -207926,7 +207926,7 @@ version 51 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -208134,7 +208134,7 @@ version 51 {
         // offset 0x1a00, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a30, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a60, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a90, size 0x30
@@ -208164,7 +208164,7 @@ version 51 {
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d00, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d30, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d60, size 0x30
@@ -208420,7 +208420,7 @@ version 51 {
         // offset 0x34b8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34e8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3518, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3548, size 0x30
@@ -208542,7 +208542,7 @@ version 51 {
         // offset 0x4028, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4058, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4088, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x40b8, size 0x30
@@ -209900,7 +209900,7 @@ version 50 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -210108,7 +210108,7 @@ version 50 {
         // offset 0x1a00, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a30, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a60, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a90, size 0x30
@@ -210138,7 +210138,7 @@ version 50 {
         // offset 0x1cd0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1d00, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d30, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d60, size 0x30
@@ -210390,7 +210390,7 @@ version 50 {
         // offset 0x3478, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34a8, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x34d8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3508, size 0x30
@@ -210512,7 +210512,7 @@ version 50 {
         // offset 0x3fe8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4018, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4048, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4078, size 0x30
@@ -211870,7 +211870,7 @@ version 49 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -212078,7 +212078,7 @@ version 49 {
         // offset 0x19f8, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a28, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a88, size 0x30
@@ -212108,7 +212108,7 @@ version 49 {
         // offset 0x1cc8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d28, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d58, size 0x30
@@ -212360,7 +212360,7 @@ version 49 {
         // offset 0x3470, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34a0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x34d0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3500, size 0x30
@@ -212482,7 +212482,7 @@ version 49 {
         // offset 0x3fe0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4010, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4040, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4070, size 0x30
@@ -213832,7 +213832,7 @@ version 48 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -214040,7 +214040,7 @@ version 48 {
         // offset 0x19f8, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a28, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a88, size 0x30
@@ -214070,7 +214070,7 @@ version 48 {
         // offset 0x1cc8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d28, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d58, size 0x30
@@ -214322,7 +214322,7 @@ version 48 {
         // offset 0x3470, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34a0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x34d0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3500, size 0x30
@@ -214444,7 +214444,7 @@ version 48 {
         // offset 0x3fe0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4010, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4040, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4070, size 0x30
@@ -215794,7 +215794,7 @@ version 47 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -216002,7 +216002,7 @@ version 47 {
         // offset 0x19f8, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a28, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a88, size 0x30
@@ -216032,7 +216032,7 @@ version 47 {
         // offset 0x1cc8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d28, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d58, size 0x30
@@ -216284,7 +216284,7 @@ version 47 {
         // offset 0x3470, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34a0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x34d0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3500, size 0x30
@@ -216406,7 +216406,7 @@ version 47 {
         // offset 0x3fe0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4010, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4040, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4070, size 0x30
@@ -217747,7 +217747,7 @@ version 46 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -217955,7 +217955,7 @@ version 46 {
         // offset 0x19f8, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a28, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a88, size 0x30
@@ -217985,7 +217985,7 @@ version 46 {
         // offset 0x1cc8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d28, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d58, size 0x30
@@ -218237,7 +218237,7 @@ version 46 {
         // offset 0x3470, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34a0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x34d0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3500, size 0x30
@@ -218359,7 +218359,7 @@ version 46 {
         // offset 0x3fe0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4010, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4040, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4070, size 0x30
@@ -219700,7 +219700,7 @@ version 45 {
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x690, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6c0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x6f0, size 0x30
@@ -219908,7 +219908,7 @@ version 45 {
         // offset 0x19f8, size 0x30
         hash_6c116eea1f7184ec hash_5a65e8030a21c479;
         // offset 0x1a28, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1a88, size 0x30
@@ -219938,7 +219938,7 @@ version 45 {
         // offset 0x1cc8, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1cf8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1d28, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1d58, size 0x30
@@ -220190,7 +220190,7 @@ version 45 {
         // offset 0x3470, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x34a0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x34d0, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3500, size 0x30
@@ -220312,7 +220312,7 @@ version 45 {
         // offset 0x3fe0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x4010, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4040, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x4070, size 0x30
@@ -221647,7 +221647,7 @@ version 44 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -221835,7 +221835,7 @@ version 44 {
         // offset 0x17b8, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17e8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1818, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1848, size 0x30
@@ -221865,7 +221865,7 @@ version 44 {
         // offset 0x1a88, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1ab8, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1ae8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1b18, size 0x30
@@ -222105,7 +222105,7 @@ version 44 {
         // offset 0x3110, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3140, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3170, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x31a0, size 0x30
@@ -222225,7 +222225,7 @@ version 44 {
         // offset 0x3c50, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c80, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3cb0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3ce0, size 0x30
@@ -223558,7 +223558,7 @@ version 43 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -223744,7 +223744,7 @@ version 43 {
         // offset 0x1788, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17b8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17e8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1818, size 0x30
@@ -223774,7 +223774,7 @@ version 43 {
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a88, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1ab8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ae8, size 0x30
@@ -224014,7 +224014,7 @@ version 43 {
         // offset 0x30e0, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3110, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3140, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3170, size 0x30
@@ -224134,7 +224134,7 @@ version 43 {
         // offset 0x3c20, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c80, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3cb0, size 0x30
@@ -225463,7 +225463,7 @@ version 42 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -225649,7 +225649,7 @@ version 42 {
         // offset 0x1788, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17b8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17e8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1818, size 0x30
@@ -225679,7 +225679,7 @@ version 42 {
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a88, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1ab8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ae8, size 0x30
@@ -225919,7 +225919,7 @@ version 42 {
         // offset 0x30e0, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3110, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3140, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3170, size 0x30
@@ -226039,7 +226039,7 @@ version 42 {
         // offset 0x3c20, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c80, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3cb0, size 0x30
@@ -227358,7 +227358,7 @@ version 41 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -227544,7 +227544,7 @@ version 41 {
         // offset 0x1788, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17b8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17e8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1818, size 0x30
@@ -227574,7 +227574,7 @@ version 41 {
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a88, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1ab8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ae8, size 0x30
@@ -227814,7 +227814,7 @@ version 41 {
         // offset 0x30e0, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3110, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3140, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3170, size 0x30
@@ -227934,7 +227934,7 @@ version 41 {
         // offset 0x3c20, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c80, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3cb0, size 0x30
@@ -229242,7 +229242,7 @@ version 40 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -229428,7 +229428,7 @@ version 40 {
         // offset 0x1788, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17b8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17e8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1818, size 0x30
@@ -229458,7 +229458,7 @@ version 40 {
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a88, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1ab8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ae8, size 0x30
@@ -229698,7 +229698,7 @@ version 40 {
         // offset 0x30e0, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3110, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3140, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3170, size 0x30
@@ -229818,7 +229818,7 @@ version 40 {
         // offset 0x3c20, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c80, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3cb0, size 0x30
@@ -231123,7 +231123,7 @@ version 39 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -231309,7 +231309,7 @@ version 39 {
         // offset 0x1788, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17b8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17e8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1818, size 0x30
@@ -231339,7 +231339,7 @@ version 39 {
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a88, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1ab8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ae8, size 0x30
@@ -231581,7 +231581,7 @@ version 39 {
         // offset 0x3110, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3140, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3170, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x31a0, size 0x30
@@ -231699,7 +231699,7 @@ version 39 {
         // offset 0x3c20, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c80, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3cb0, size 0x30
@@ -233004,7 +233004,7 @@ version 38 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -233190,7 +233190,7 @@ version 38 {
         // offset 0x1788, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17b8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17e8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1818, size 0x30
@@ -233220,7 +233220,7 @@ version 38 {
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a88, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1ab8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ae8, size 0x30
@@ -233462,7 +233462,7 @@ version 38 {
         // offset 0x3110, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3140, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3170, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x31a0, size 0x30
@@ -233580,7 +233580,7 @@ version 38 {
         // offset 0x3c20, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c80, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3cb0, size 0x30
@@ -234881,7 +234881,7 @@ version 37 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -235067,7 +235067,7 @@ version 37 {
         // offset 0x1788, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17b8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17e8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1818, size 0x30
@@ -235097,7 +235097,7 @@ version 37 {
         // offset 0x1a58, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a88, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1ab8, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ae8, size 0x30
@@ -235339,7 +235339,7 @@ version 37 {
         // offset 0x3110, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3140, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3170, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x31a0, size 0x30
@@ -235457,7 +235457,7 @@ version 37 {
         // offset 0x3c20, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c50, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c80, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3cb0, size 0x30
@@ -236746,7 +236746,7 @@ version 36 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -236932,7 +236932,7 @@ version 36 {
         // offset 0x1770, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17a0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17d0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1800, size 0x30
@@ -236962,7 +236962,7 @@ version 36 {
         // offset 0x1a40, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a70, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1aa0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ad0, size 0x30
@@ -237204,7 +237204,7 @@ version 36 {
         // offset 0x30f8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3128, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3158, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3188, size 0x30
@@ -237322,7 +237322,7 @@ version 36 {
         // offset 0x3c08, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c38, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c68, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3c98, size 0x30
@@ -238611,7 +238611,7 @@ version 35 {
         // offset 0x600, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x630, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x660, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x690, size 0x30
@@ -238797,7 +238797,7 @@ version 35 {
         // offset 0x1770, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x17a0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17d0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1800, size 0x30
@@ -238827,7 +238827,7 @@ version 35 {
         // offset 0x1a40, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x1a70, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1aa0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ad0, size 0x30
@@ -239069,7 +239069,7 @@ version 35 {
         // offset 0x30f8, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x3128, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3158, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3188, size 0x30
@@ -239187,7 +239187,7 @@ version 35 {
         // offset 0x3c08, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3c38, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3c68, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3c98, size 0x30
@@ -240466,7 +240466,7 @@ version 34 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -240646,7 +240646,7 @@ version 34 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -240674,7 +240674,7 @@ version 34 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -240904,7 +240904,7 @@ version 34 {
         // offset 0x2e58, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2eb8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ee8, size 0x30
@@ -241012,7 +241012,7 @@ version 34 {
         // offset 0x3878, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x38a8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x38d8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3908, size 0x30
@@ -242287,7 +242287,7 @@ version 33 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -242467,7 +242467,7 @@ version 33 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -242495,7 +242495,7 @@ version 33 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -242725,7 +242725,7 @@ version 33 {
         // offset 0x2e58, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2eb8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ee8, size 0x30
@@ -242833,7 +242833,7 @@ version 33 {
         // offset 0x3878, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x38a8, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x38d8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3908, size 0x30
@@ -244084,7 +244084,7 @@ version 32 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -244264,7 +244264,7 @@ version 32 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -244292,7 +244292,7 @@ version 32 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -244522,7 +244522,7 @@ version 32 {
         // offset 0x2e58, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2eb8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ee8, size 0x30
@@ -244628,7 +244628,7 @@ version 32 {
         // offset 0x3848, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3878, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x38a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x38d8, size 0x30
@@ -245879,7 +245879,7 @@ version 31 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -246059,7 +246059,7 @@ version 31 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -246087,7 +246087,7 @@ version 31 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -246317,7 +246317,7 @@ version 31 {
         // offset 0x2e58, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2eb8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ee8, size 0x30
@@ -246423,7 +246423,7 @@ version 31 {
         // offset 0x3848, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3878, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x38a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x38d8, size 0x30
@@ -247674,7 +247674,7 @@ version 30 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -247854,7 +247854,7 @@ version 30 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -247882,7 +247882,7 @@ version 30 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -248112,7 +248112,7 @@ version 30 {
         // offset 0x2e58, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2eb8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ee8, size 0x30
@@ -248218,7 +248218,7 @@ version 30 {
         // offset 0x3848, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3878, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x38a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x38d8, size 0x30
@@ -249457,7 +249457,7 @@ version 29 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -249637,7 +249637,7 @@ version 29 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -249665,7 +249665,7 @@ version 29 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -249895,7 +249895,7 @@ version 29 {
         // offset 0x2e58, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2eb8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ee8, size 0x30
@@ -250001,7 +250001,7 @@ version 29 {
         // offset 0x3848, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3878, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x38a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x38d8, size 0x30
@@ -251236,7 +251236,7 @@ version 28 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -251416,7 +251416,7 @@ version 28 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -251444,7 +251444,7 @@ version 28 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -251674,7 +251674,7 @@ version 28 {
         // offset 0x2e58, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2eb8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ee8, size 0x30
@@ -251780,7 +251780,7 @@ version 28 {
         // offset 0x3848, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3878, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x38a8, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x38d8, size 0x30
@@ -253012,7 +253012,7 @@ version 27 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -253192,7 +253192,7 @@ version 27 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -253220,7 +253220,7 @@ version 27 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -253450,7 +253450,7 @@ version 27 {
         // offset 0x2e58, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e88, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2eb8, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ee8, size 0x30
@@ -253554,7 +253554,7 @@ version 27 {
         // offset 0x3818, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3848, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3878, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x38a8, size 0x30
@@ -254786,7 +254786,7 @@ version 26 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -254966,7 +254966,7 @@ version 26 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -254994,7 +254994,7 @@ version 26 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -255222,7 +255222,7 @@ version 26 {
         // offset 0x2e28, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e58, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2e88, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2eb8, size 0x30
@@ -255326,7 +255326,7 @@ version 26 {
         // offset 0x37e8, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3818, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3848, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3878, size 0x30
@@ -256548,7 +256548,7 @@ version 25 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -256728,7 +256728,7 @@ version 25 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -256756,7 +256756,7 @@ version 25 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -256982,7 +256982,7 @@ version 25 {
         // offset 0x2df0, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e20, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2e50, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2e80, size 0x30
@@ -257086,7 +257086,7 @@ version 25 {
         // offset 0x37b0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x37e0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3810, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3840, size 0x30
@@ -258308,7 +258308,7 @@ version 24 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -258488,7 +258488,7 @@ version 24 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -258516,7 +258516,7 @@ version 24 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -258742,7 +258742,7 @@ version 24 {
         // offset 0x2df0, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e20, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2e50, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2e80, size 0x30
@@ -258846,7 +258846,7 @@ version 24 {
         // offset 0x37b0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x37e0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3810, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3840, size 0x30
@@ -260064,7 +260064,7 @@ version 23 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -260244,7 +260244,7 @@ version 23 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -260272,7 +260272,7 @@ version 23 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -260498,7 +260498,7 @@ version 23 {
         // offset 0x2df0, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e20, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2e50, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2e80, size 0x30
@@ -260602,7 +260602,7 @@ version 23 {
         // offset 0x37b0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x37e0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3810, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3840, size 0x30
@@ -261817,7 +261817,7 @@ version 22 {
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x570, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x5a0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x5d0, size 0x30
@@ -261997,7 +261997,7 @@ version 22 {
         // offset 0x1620, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1650, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x16b0, size 0x30
@@ -262025,7 +262025,7 @@ version 22 {
         // offset 0x18c0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x18f0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1920, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1950, size 0x30
@@ -262251,7 +262251,7 @@ version 22 {
         // offset 0x2df0, size 0x30
         hash_6c116eea1f7184ec smg_kills;
         // offset 0x2e20, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2e50, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2e80, size 0x30
@@ -262355,7 +262355,7 @@ version 22 {
         // offset 0x37b0, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x37e0, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x3810, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x3840, size 0x30
@@ -263565,7 +263565,7 @@ version 21 {
         // offset 0x4e0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x510, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x570, size 0x30
@@ -263725,7 +263725,7 @@ version 21 {
         // offset 0x13e0, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1410, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1440, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1470, size 0x30
@@ -263753,7 +263753,7 @@ version 21 {
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x16b0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x16e0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1710, size 0x30
@@ -263963,7 +263963,7 @@ version 21 {
         // offset 0x2a30, size 0x30
         hash_6c116eea1f7184ec zm_daily_drink_perks;
         // offset 0x2a60, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2a90, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ac0, size 0x30
@@ -264061,7 +264061,7 @@ version 21 {
         // offset 0x3360, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3390, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x33c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x33f0, size 0x30
@@ -265265,7 +265265,7 @@ version 20 {
         // offset 0x4e0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x510, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x570, size 0x30
@@ -265425,7 +265425,7 @@ version 20 {
         // offset 0x13e0, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1410, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1440, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1470, size 0x30
@@ -265453,7 +265453,7 @@ version 20 {
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x16b0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x16e0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1710, size 0x30
@@ -265663,7 +265663,7 @@ version 20 {
         // offset 0x2a30, size 0x30
         hash_6c116eea1f7184ec zm_daily_drink_perks;
         // offset 0x2a60, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2a90, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ac0, size 0x30
@@ -265761,7 +265761,7 @@ version 20 {
         // offset 0x3360, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3390, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x33c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x33f0, size 0x30
@@ -266965,7 +266965,7 @@ version 19 {
         // offset 0x4e0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x510, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x570, size 0x30
@@ -267125,7 +267125,7 @@ version 19 {
         // offset 0x13e0, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1410, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1440, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1470, size 0x30
@@ -267153,7 +267153,7 @@ version 19 {
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x16b0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x16e0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1710, size 0x30
@@ -267363,7 +267363,7 @@ version 19 {
         // offset 0x2a30, size 0x30
         hash_6c116eea1f7184ec zm_daily_drink_perks;
         // offset 0x2a60, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2a90, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ac0, size 0x30
@@ -267461,7 +267461,7 @@ version 19 {
         // offset 0x3360, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3390, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x33c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x33f0, size 0x30
@@ -268662,7 +268662,7 @@ version 18 {
         // offset 0x4e0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x510, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x570, size 0x30
@@ -268822,7 +268822,7 @@ version 18 {
         // offset 0x13e0, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1410, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1440, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1470, size 0x30
@@ -268850,7 +268850,7 @@ version 18 {
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x16b0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x16e0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1710, size 0x30
@@ -269060,7 +269060,7 @@ version 18 {
         // offset 0x2a30, size 0x30
         hash_6c116eea1f7184ec zm_daily_drink_perks;
         // offset 0x2a60, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2a90, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ac0, size 0x30
@@ -269158,7 +269158,7 @@ version 18 {
         // offset 0x3360, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3390, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x33c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x33f0, size 0x30
@@ -270347,7 +270347,7 @@ version 17 {
         // offset 0x4e0, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x510, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x540, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x570, size 0x30
@@ -270507,7 +270507,7 @@ version 17 {
         // offset 0x13e0, size 0x30
         hash_6c116eea1f7184ec hash_69f53cb2579fba3e;
         // offset 0x1410, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1440, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1470, size 0x30
@@ -270535,7 +270535,7 @@ version 17 {
         // offset 0x1680, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x16b0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x16e0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1710, size 0x30
@@ -270745,7 +270745,7 @@ version 17 {
         // offset 0x2a30, size 0x30
         hash_6c116eea1f7184ec zm_daily_drink_perks;
         // offset 0x2a60, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x2a90, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x2ac0, size 0x30
@@ -270843,7 +270843,7 @@ version 17 {
         // offset 0x3360, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3390, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x33c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x33f0, size 0x30
@@ -272002,7 +272002,7 @@ version 16 {
         // offset 0x690, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x6c0, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6f0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x720, size 0x30
@@ -272182,7 +272182,7 @@ version 16 {
         // offset 0x1770, size 0x30
         hash_6c116eea1f7184ec specialty_electriccherry_drank;
         // offset 0x17a0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17d0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1800, size 0x30
@@ -272212,7 +272212,7 @@ version 16 {
         // offset 0x1a40, size 0x30
         hash_6c116eea1f7184ec specialty_berserker_drank;
         // offset 0x1a70, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1aa0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ad0, size 0x30
@@ -272440,7 +272440,7 @@ version 16 {
         // offset 0x2fa0, size 0x30
         hash_6c116eea1f7184ec zm_daily_drink_perks;
         // offset 0x2fd0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3000, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3030, size 0x30
@@ -272544,7 +272544,7 @@ version 16 {
         // offset 0x3960, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3990, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x39c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x39f0, size 0x30
@@ -273707,7 +273707,7 @@ version 15 {
         // offset 0x690, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x6c0, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x6f0, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x720, size 0x30
@@ -273887,7 +273887,7 @@ version 15 {
         // offset 0x1770, size 0x30
         hash_6c116eea1f7184ec specialty_electriccherry_drank;
         // offset 0x17a0, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x17d0, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x1800, size 0x30
@@ -273917,7 +273917,7 @@ version 15 {
         // offset 0x1a40, size 0x30
         hash_6c116eea1f7184ec specialty_berserker_drank;
         // offset 0x1a70, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x1aa0, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x1ad0, size 0x30
@@ -274145,7 +274145,7 @@ version 15 {
         // offset 0x2fa0, size 0x30
         hash_6c116eea1f7184ec zm_daily_drink_perks;
         // offset 0x2fd0, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3000, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3030, size 0x30
@@ -274249,7 +274249,7 @@ version 15 {
         // offset 0x3960, size 0x30
         hash_6c116eea1f7184ec total_shots;
         // offset 0x3990, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x39c0, size 0x30
         hash_6c116eea1f7184ec island_seed_pickedup;
         // offset 0x39f0, size 0x30

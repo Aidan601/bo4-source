@@ -317,14 +317,14 @@ function function_790443a8( localclientnum )
 {
     self postfx::playpostfxbundle( "pstfx_radiation_dot" );
     self.var_98491eb6 = util::playfxontag( localclientnum, #"hash_66860bac9e69a693", self, "j_spinelower" );
-    self thread function_ed4a5949();
+    self thread watch_game_end();
 }
 
 // Namespace gadget_radiation_field/gadget_radiation_field
 // Params 0
 // Checksum 0x7e352cf7, Offset: 0x1170
 // Size: 0x84
-function function_ed4a5949()
+function watch_game_end()
 {
     self notify( #"hash_1493843137e99d87" );
     self endon( #"hash_1493843137e99d87" );

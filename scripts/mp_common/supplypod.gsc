@@ -79,7 +79,7 @@ function function_1c601b99()
 // Params 2
 // Checksum 0xc3964f87, Offset: 0x5d0
 // Size: 0xb4
-function function_127fb8f3( supplypod, attackingplayer )
+function onjammed( supplypod, attackingplayer )
 {
     supplypod.gameobject gameobjects::allow_use( #"none" );
     

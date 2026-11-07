@@ -275,7 +275,7 @@ function event_handler[gametype_init] main( eventstruct )
 function function_e843475e( localclientnum, menuname )
 {
     lui::createcameramenu( menuname, localclientnum, #"tag_align_frontend_background", #"ui_scene_cam_background" );
-    lui::function_9d7ab167( menuname, localclientnum, 3, #"wz_inspection_struct", #"hash_191c3f4fc94449f1" );
+    lui::function_9d7ab167( menuname, localclientnum, 3, #"wz_inspection_struct", #"ui_scene_cam_blur_screen" );
 }
 
 // Namespace frontend/frontend
@@ -1514,7 +1514,7 @@ function entityspawned( localclientnum )
                         direction = fx_end.origin - fx_start.origin;
                         step_size = direction / getdvarint( #"hash_522e5987825dd16e", 100 );
                         
-                        for ( var_d7f46807 = 0; var_d7f46807 <= getdvarint( #"hash_522e5987825dd16e", 100 ) ; var_d7f46807++ )
+                        for ( step_count = 0; step_count <= getdvarint( #"hash_522e5987825dd16e", 100 ) ; step_count++ )
                         {
                             waitframe( 1 );
                             var_351da865.origin += step_size;

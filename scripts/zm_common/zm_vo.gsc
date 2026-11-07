@@ -576,11 +576,11 @@ function private function_d74752d8( var_2753f06a )
             
             if ( var_2753f06a == 0 )
             {
-                b_played = function_7e4562d7( #"hash_72ea1851a50844cf", var_1dc0a881, 1, undefined, 0, 0, var_dcc9a85f );
+                b_played = function_7e4562d7( #"vox_co_op_game_start", var_1dc0a881, 1, undefined, 0, 0, var_dcc9a85f );
             }
             else
             {
-                b_played = function_7e4562d7( #"hash_71bde3a512edb440" + var_2753f06a, var_1dc0a881, 1, undefined, 0, 0, var_dcc9a85f );
+                b_played = function_7e4562d7( #"vox_co_op_end_round" + var_2753f06a, var_1dc0a881, 1, undefined, 0, 0, var_dcc9a85f );
             }
         }
     }
@@ -785,15 +785,15 @@ function _vo_clear( str_endon )
 // Params 2, eflags: 0x4
 // Checksum 0xd620785a, Offset: 0x2238
 // Size: 0x80
-function private function_95b99c5b( n_max, var_50bb7db7 )
+function private function_95b99c5b( n_max, n_old_value )
 {
-    assert( !isdefined( var_50bb7db7 ) || var_50bb7db7 < n_max, "<dev string:x5a>" );
+    assert( !isdefined( n_old_value ) || n_old_value < n_max, "<dev string:x5a>" );
     
     do
     {
         n_new_value = randomint( n_max );
     }
-    while ( n_new_value === var_50bb7db7 );
+    while ( n_new_value === n_old_value );
     
     return n_new_value;
 }
@@ -912,7 +912,7 @@ function is_player_speaking( e_player )
 // Params 7
 // Checksum 0x4a810016, Offset: 0x25c8
 // Size: 0x1b4
-function function_a2bd5a0c( var_cadd3b0c, n_delay = 0, b_wait_if_busy = 0, n_priority = 0, var_34e7887 = 0, var_d7714e4e = 0, var_67fee570 = 0 )
+function function_a2bd5a0c( var_cadd3b0c, n_delay = 0, b_wait_if_busy = 0, n_priority = 0, var_34e7887 = 0, var_d7714e4e = 0, b_allow_last_stand = 0 )
 {
     assert( isplayer( self ), "<dev string:x94>" + "<dev string:xb2>" );
     
@@ -924,7 +924,7 @@ function function_a2bd5a0c( var_cadd3b0c, n_delay = 0, b_wait_if_busy = 0, n_pri
     n_index = zm_characters::function_dc232a80();
     str_vo_alias = var_cadd3b0c + "_" + "plr_" + n_index;
     a_variants = zm_audio::get_valid_lines( str_vo_alias );
-    b_ret = vo_say( array::random( a_variants ), n_delay, b_wait_if_busy, n_priority, var_34e7887, var_d7714e4e, 0, var_67fee570 );
+    b_ret = vo_say( array::random( a_variants ), n_delay, b_wait_if_busy, n_priority, var_34e7887, var_d7714e4e, 0, b_allow_last_stand );
     return isdefined( b_ret ) && b_ret;
 }
 
@@ -932,7 +932,7 @@ function function_a2bd5a0c( var_cadd3b0c, n_delay = 0, b_wait_if_busy = 0, n_pri
 // Params 8
 // Checksum 0xabacf10d, Offset: 0x2788
 // Size: 0x340
-function vo_say( str_vo_alias, n_delay = 0, b_wait_if_busy = 0, n_priority = 0, var_34e7887 = 0, var_d7714e4e = 0, var_9c64da7c = 0, var_67fee570 = 0 )
+function vo_say( str_vo_alias, n_delay = 0, b_wait_if_busy = 0, n_priority = 0, var_34e7887 = 0, var_d7714e4e = 0, var_9c64da7c = 0, b_allow_last_stand = 0 )
 {
     if ( !isdefined( self ) )
     {
@@ -953,7 +953,7 @@ function vo_say( str_vo_alias, n_delay = 0, b_wait_if_busy = 0, n_priority = 0, 
     
     if ( isplayer( self ) )
     {
-        if ( !zm_utility::is_player_valid( self, 0, var_67fee570, 0 ) || isdefined( self.dontspeak ) && self.dontspeak )
+        if ( !zm_utility::is_player_valid( self, 0, b_allow_last_stand, 0 ) || isdefined( self.dontspeak ) && self.dontspeak )
         {
             return 0;
         }
@@ -1045,8 +1045,8 @@ function function_cf1e151c( a_str_vo, var_604e94aa = [], b_wait_if_busy = 0, n_p
     
     foreach ( i, str_vo in a_str_vo )
     {
-        var_fa74ccf1 = isdefined( var_604e94aa[ i ] ) ? var_604e94aa[ i ] : 0.5;
-        b_said = vo_say( str_vo, var_fa74ccf1, b_wait_if_busy, n_priority, var_34e7887 );
+        n_vo_delay = isdefined( var_604e94aa[ i ] ) ? var_604e94aa[ i ] : 0.5;
+        b_said = vo_say( str_vo, n_vo_delay, b_wait_if_busy, n_priority, var_34e7887 );
         
         if ( isdefined( b_said ) && b_said )
         {
@@ -1112,7 +1112,7 @@ function function_7e4562d7( var_3505e2ee, var_604e94aa = [], b_wait_if_busy = 0,
     
     foreach ( i, n_line in var_a7e5c412 )
     {
-        var_fa74ccf1 = isdefined( var_604e94aa[ var_2274675e ] ) ? var_604e94aa[ var_2274675e ] : 0.5;
+        n_vo_delay = isdefined( var_604e94aa[ var_2274675e ] ) ? var_604e94aa[ var_2274675e ] : 0.5;
         var_2274675e++;
         var_4a094e30 = var_dcc9a85f - var_acf085c3;
         
@@ -1136,7 +1136,7 @@ function function_7e4562d7( var_3505e2ee, var_604e94aa = [], b_wait_if_busy = 0,
             
             if ( isplayer( player ) )
             {
-                b_said = player vo_say( var_cd5bda0c[ n_line ][ 1 ], var_fa74ccf1, b_wait_if_busy, n_priority, var_34e7887 );
+                b_said = player vo_say( var_cd5bda0c[ n_line ][ 1 ], n_vo_delay, b_wait_if_busy, n_priority, var_34e7887 );
             }
             
             if ( isdefined( b_said ) && b_said )

@@ -48,7 +48,7 @@ function function_d79e9bb5( attacker, victim, weapon, attackerweapon, meansofdea
         return false;
     }
     
-    return attacker isgrappling() || isdefined( attacker.var_700a5910 ) && attacker.var_700a5910 + 2000 > gettime();
+    return attacker isgrappling() || isdefined( attacker.grappleendtime ) && attacker.grappleendtime + 2000 > gettime();
 }
 
 // Namespace grapple/grapple
@@ -83,7 +83,7 @@ function function_9dd08ccf()
     while ( isdefined( self ) )
     {
         self waittill( #"grapple_cancel" );
-        self.var_700a5910 = gettime();
+        self.grappleendtime = gettime();
     }
 }
 

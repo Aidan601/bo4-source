@@ -361,7 +361,7 @@ function function_7b6777c5( t_spawner )
     
     foreach ( var_adad907f in var_d72fffcc )
     {
-        if ( level.activeplayers.size == 1 && isdefined( var_adad907f.var_e6eb2eff ) && var_adad907f.var_e6eb2eff )
+        if ( level.activeplayers.size == 1 && isdefined( var_adad907f.b_catwalk_coop ) && var_adad907f.b_catwalk_coop )
         {
             continue;
         }

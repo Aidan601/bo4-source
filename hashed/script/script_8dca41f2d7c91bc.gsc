@@ -198,7 +198,7 @@ function function_c9e7bec4( e_player )
         e_player clientfield::set( self.var_f172b16e, 1 );
     }
     
-    e_player zm_fasttravel::function_66d020b0( undefined, undefined, undefined, self.var_9bd3a2c6, self.var_ed424981, undefined, undefined, 1, 0 );
+    e_player zm_fasttravel::fasttravel_rail_go( undefined, undefined, undefined, self.var_9bd3a2c6, self.var_ed424981, undefined, undefined, 1, 0 );
     level.zones[ self.var_e6a4592d ].is_enabled = 0;
     level thread zm_red_ww_quests::sndonoverride_no_();
     self thread zm_red_ww_quests::function_8d47bf8( e_player );
@@ -214,7 +214,7 @@ function function_109ebdc3( e_player )
     e_player endon( #"disconnect" );
     level.zones[ self.var_e6a4592d ].is_enabled = 1;
     e_player flag::set( #"ww_combat_active" );
-    e_player thread zm_fasttravel::function_66d020b0( undefined, undefined, undefined, self.var_9bd3a2c6, self.var_5357def6, undefined, undefined, 1, 0 );
+    e_player thread zm_fasttravel::fasttravel_rail_go( undefined, undefined, undefined, self.var_9bd3a2c6, self.var_5357def6, undefined, undefined, 1, 0 );
     str_stance = e_player getstance();
     
     switch ( str_stance )

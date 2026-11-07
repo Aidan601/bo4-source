@@ -1,7 +1,7 @@
 {
     "configstringfiletype": "scriptbundle",
     "type": "turretanims",
-    "centerstraightanim": "playeranim#hash_275d2e272722ca22",
+    "centerstraightanim": "playeranim#pb_skydive_falling_idle",
     "vmtype": "none",
     "name": "wingsuitanims",
     "aimpitchangleu": 40,

@@ -86,7 +86,7 @@ function function_d9ff5189()
         
         if ( zonespawns.size > 0 )
         {
-            var_f7b61e5e = spawnstruct();
+            zonestruct = spawnstruct();
             min = zonespawns[ 0 ].origin;
             max = min;
             
@@ -97,11 +97,11 @@ function function_d9ff5189()
                 min = ( min( min[ 0 ], spawn[ 0 ] ), min( min[ 1 ], spawn[ 1 ] ), min( min[ 2 ], spawn[ 2 ] ) );
             }
             
-            var_f7b61e5e.origin = ( min + max ) / 2;
-            var_f7b61e5e.max = max;
-            var_f7b61e5e.min = min;
-            var_f7b61e5e.spawn_points = zonespawns;
-            level.var_6990c489[ level.var_6990c489.size ] = var_f7b61e5e;
+            zonestruct.origin = ( min + max ) / 2;
+            zonestruct.max = max;
+            zonestruct.min = min;
+            zonestruct.spawn_points = zonespawns;
+            level.var_6990c489[ level.var_6990c489.size ] = zonestruct;
         }
         
         waitframe( 1 );
@@ -119,7 +119,7 @@ function function_f488681f()
         return;
     }
     
-    spawn_point = function_89116a1e();
+    spawn_point = get_spawn_point();
     
     if ( isdefined( spawn_point ) )
     {
@@ -189,7 +189,7 @@ function function_cc4a1b88()
 // Params 0
 // Checksum 0x1c58e2be, Offset: 0xab0
 // Size: 0x3a8
-function function_89116a1e()
+function get_spawn_point()
 {
     if ( !isplayer( self ) )
     {

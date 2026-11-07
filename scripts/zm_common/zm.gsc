@@ -1499,7 +1499,7 @@ function actor_damage_override( inflictor, attacker, damage, flags, meansofdeath
             attacker.grenade_multiattack_ent = self;
         }
         
-        final_damage = self zm_powerups::function_fe6d6eac( attacker, meansofdeath, shitloc, weapon, final_damage );
+        final_damage = self zm_powerups::get_instakill_damage( attacker, meansofdeath, shitloc, weapon, final_damage );
         self.has_been_damaged_by_player = 1;
     }
     
@@ -2163,7 +2163,7 @@ function end_game()
     waitframe( 1 );
     
     /#
-        if ( !( isdefined( level.host_ended_game ) && level.host_ended_game ) && getdvarint( #"hash_2a088de8afba1c99", 0 ) > 1 )
+        if ( !( isdefined( level.host_ended_game ) && level.host_ended_game ) && getdvarint( #"scr_restart_on_wipe", 0 ) > 1 )
         {
             luinotifyevent( #"force_scoreboard", 0 );
             map_restart( 1 );
@@ -2217,7 +2217,7 @@ function end_game()
     }
     
     /#
-        if ( !( isdefined( level.host_ended_game ) && level.host_ended_game ) && getdvarint( #"hash_2a088de8afba1c99", 0 ) )
+        if ( !( isdefined( level.host_ended_game ) && level.host_ended_game ) && getdvarint( #"scr_restart_on_wipe", 0 ) )
         {
             luinotifyevent( #"force_scoreboard", 1, 0 );
             map_restart( 1 );

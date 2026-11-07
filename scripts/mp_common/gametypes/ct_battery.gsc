@@ -70,7 +70,7 @@ function function_7c4ef26b( predictedspawn )
 {
     if ( level.ctdifficulty == 0 )
     {
-        self ct_battery_tutorial::function_c9ff0dce();
+        self ct_battery_tutorial::player_spawned_callback();
         return;
     }
     
@@ -928,7 +928,7 @@ function private function_4e049216( einflictor, eattacker, idamage, idflags, sme
         
         if ( isdefined( self.waypoint ) )
         {
-            self.waypoint ct_utils::function_f9ed304d();
+            self.waypoint ct_utils::cleanup_waypoint();
         }
         
         if ( target_istarget( self ) )
@@ -959,7 +959,7 @@ function function_4293d37b( einflictor, eattacker, idamage, smeansofdeath, weapo
     
     if ( isdefined( self.waypoint ) )
     {
-        self.waypoint ct_utils::function_f9ed304d();
+        self.waypoint ct_utils::cleanup_waypoint();
     }
     
     if ( self.targetname === "enemy_mini_quad_tank" && !( isdefined( self.var_d11c8572 ) && self.var_d11c8572 ) )
@@ -1052,7 +1052,7 @@ function private function_1f04fda( einflictor, eattacker, idamage, idflags, smea
         
         if ( isdefined( self.waypoint ) )
         {
-            self.waypoint ct_utils::function_f9ed304d();
+            self.waypoint ct_utils::cleanup_waypoint();
         }
     }
     

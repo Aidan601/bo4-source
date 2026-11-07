@@ -214,16 +214,16 @@ function private grapple_time( e_from, e_to, n_speed )
 // Params 2
 // Checksum 0xdb6d3e90, Offset: 0xa10
 // Size: 0x194
-function function_a60cb756( var_b4666218, var_e9f8c8f3 )
+function function_a60cb756( b_onoff, var_e9f8c8f3 )
 {
     if ( !isdefined( self ) )
     {
         return;
     }
     
-    if ( var_b4666218 != ( isdefined( self.var_564dec14 ) && self.var_564dec14 ) )
+    if ( b_onoff != ( isdefined( self.var_564dec14 ) && self.var_564dec14 ) )
     {
-        if ( isdefined( var_b4666218 ) && var_b4666218 )
+        if ( isdefined( b_onoff ) && b_onoff )
         {
             self notify( #"grappled_start" );
         }
@@ -232,14 +232,14 @@ function function_a60cb756( var_b4666218, var_e9f8c8f3 )
             self notify( #"grappled_end" );
         }
         
-        self.var_564dec14 = var_b4666218;
+        self.var_564dec14 = b_onoff;
         
         if ( isplayer( self ) )
         {
-            self freezecontrols( var_b4666218 );
-            self setplayercollision( !var_b4666218 );
+            self freezecontrols( b_onoff );
+            self setplayercollision( !b_onoff );
             
-            if ( var_b4666218 )
+            if ( b_onoff )
             {
                 self val::set( #"zm_grappler", "ignoreme" );
                 

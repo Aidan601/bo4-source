@@ -297,7 +297,7 @@ function power_on_projectile_end_fx( localclientnum, oldval, newval, bnewent, bi
     if ( newval == 1 )
     {
         util::playfxontag( localclientnum, level._effect[ #"power_on_projectile_end" ], self, "tag_origin" );
-        playsound( localclientnum, #"hash_6da145d367ec64b2", self.origin );
+        playsound( localclientnum, #"zmb_sentinel_trial_pap_projectile_explode", self.origin );
     }
 }
 

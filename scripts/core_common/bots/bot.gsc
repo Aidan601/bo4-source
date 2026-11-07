@@ -2471,7 +2471,7 @@ function function_85e7342b()
 function function_301f229d( team )
 {
     var_9e7013f = [];
-    var_52e61055 = [];
+    availablebots = [];
     players = getplayers( team );
     
     foreach ( player in players )
@@ -2495,14 +2495,14 @@ function function_301f229d( team )
         {
             if ( !( isdefined( player.is_reviving_any ) && player.is_reviving_any ) && player ai::get_behavior_attribute( "revive" ) )
             {
-                var_52e61055[ var_52e61055.size ] = player;
+                availablebots[ availablebots.size ] = player;
             }
         }
     }
     
     assignments = [];
     
-    foreach ( bot in var_52e61055 )
+    foreach ( bot in availablebots )
     {
         radius = bot getpathfindingradius();
         
@@ -2522,14 +2522,14 @@ function function_301f229d( team )
             }
             else
             {
-                var_65c8979b = getclosestpointonnavmesh( bot.origin, 64, radius );
+                botorigin = getclosestpointonnavmesh( bot.origin, 64, radius );
                 
-                if ( !isdefined( var_65c8979b ) )
+                if ( !isdefined( botorigin ) )
                 {
                     continue;
                 }
                 
-                path = generatenavmeshpath( var_65c8979b, navmeshpoint, bot );
+                path = generatenavmeshpath( botorigin, navmeshpoint, bot );
                 
                 if ( !isdefined( path ) || !isdefined( path.pathpoints ) || path.pathpoints.size == 0 )
                 {
@@ -2566,7 +2566,7 @@ function function_301f229d( team )
             assignment.bot bot_position::reset();
         }
         
-        arrayremovevalue( var_52e61055, assignment.bot );
+        arrayremovevalue( availablebots, assignment.bot );
         
         for ( j = i + 1; j < assignments.size ; j++ )
         {
@@ -2580,7 +2580,7 @@ function function_301f229d( team )
         }
     }
     
-    foreach ( bot in var_52e61055 )
+    foreach ( bot in availablebots )
     {
         if ( isdefined( bot get_revive_target() ) )
         {

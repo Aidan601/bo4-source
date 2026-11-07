@@ -94,9 +94,9 @@ function grav()
     #/
     
     level thread zm_white_util::function_ec34b5ee( #"vox_code_correct_rush_0" );
-    zm_bgb_newtonian_negation::function_8622e664( 1 );
+    zm_bgb_newtonian_negation::invert_gravity( 1 );
     wait 60;
-    zm_bgb_newtonian_negation::function_8622e664( 0 );
+    zm_bgb_newtonian_negation::invert_gravity( 0 );
     
     /#
         iprintlnbold( "<dev string:x9e>" );
@@ -600,7 +600,7 @@ function warp_player()
     playfx( level._effect[ #"portal_origin" ], self.origin, ( 1, 0, 0 ), ( 0, 0, 1 ) );
     playsoundatposition( #"evt_teleporter_out", self.origin );
     s_destination = self zm_bgb_anywhere_but_here::function_91a62549();
-    self zm_fasttravel::function_66d020b0( undefined, undefined, undefined, undefined, s_destination, undefined, "warp" );
+    self zm_fasttravel::fasttravel_rail_go( undefined, undefined, undefined, undefined, s_destination, undefined, "warp" );
     self clientfield::increment_to_player( "teleporter_transition", 1 );
     self thread zm_white_portals::function_c234a5ce();
     self clientfield::increment_to_player( "teleporter_arrive", 1 );
@@ -736,9 +736,9 @@ function function_80d5023d( params )
 // Size: 0x22c
 function function_82457e35( params )
 {
-    var_62e3519c = params.smeansofdeath === "MOD_MELEE" || params.smeansofdeath === "MOD_MELEE_WEAPON_BUTT" || params.smeansofdeath === "MOD_MELEE_ASSASSINATE";
+    is_melee_damage = params.smeansofdeath === "MOD_MELEE" || params.smeansofdeath === "MOD_MELEE_WEAPON_BUTT" || params.smeansofdeath === "MOD_MELEE_ASSASSINATE";
     
-    if ( isalive( self ) && self.archetype === #"zombie" && var_62e3519c )
+    if ( isalive( self ) && self.archetype === #"zombie" && is_melee_damage )
     {
         v_origin = self gettagorigin( "tag_eye" );
         v_angles = self gettagangles( "tag_eye" );
@@ -805,9 +805,9 @@ function duck()
 // Size: 0x114
 function function_369efa3e( params )
 {
-    var_62e3519c = params.smeansofdeath === "MOD_MELEE" || params.smeansofdeath === "MOD_MELEE_WEAPON_BUTT" || params.smeansofdeath === "MOD_MELEE_ASSASSINATE";
+    is_melee_damage = params.smeansofdeath === "MOD_MELEE" || params.smeansofdeath === "MOD_MELEE_WEAPON_BUTT" || params.smeansofdeath === "MOD_MELEE_ASSASSINATE";
     
-    if ( isalive( self ) && ( self.archetype === #"zombie" || self.archetype === #"zombie_dog" || self.archetype === #"nova_crawler" ) && var_62e3519c )
+    if ( isalive( self ) && ( self.archetype === #"zombie" || self.archetype === #"zombie_dog" || self.archetype === #"nova_crawler" ) && is_melee_damage )
     {
         if ( zm_audio::sndisnetworksafe() )
         {

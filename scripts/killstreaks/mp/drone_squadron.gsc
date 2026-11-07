@@ -348,7 +348,7 @@ function function_1c601b99()
     
     if ( isdefined( level.var_a5dacbea ) )
     {
-        [[ level.var_a5dacbea ]]( getweapon( #"drone_squadron" ), &function_127fb8f3 );
+        [[ level.var_a5dacbea ]]( getweapon( #"drone_squadron" ), &onjammed );
     }
 }
 
@@ -397,7 +397,7 @@ function function_bff5c062( dronesquad, attackingplayer )
 // Params 2
 // Checksum 0x3f13967b, Offset: 0x1ba8
 // Size: 0x44
-function function_127fb8f3( dronesquad, attackingplayer )
+function onjammed( dronesquad, attackingplayer )
 {
     dronesquad dodamage( dronesquad.health, dronesquad.origin, attackingplayer );
 }

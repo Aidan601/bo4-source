@@ -1030,9 +1030,9 @@ function private function_36151fe3()
             return;
         }
         
-        if ( self.isonnavmesh && isdefined( self.enemy_override.var_acdc8d71 ) && !self isingoal( self.enemy_override.var_acdc8d71 ) )
+        if ( self.isonnavmesh && isdefined( self.enemy_override.closest_point_on_navmesh ) && !self isingoal( self.enemy_override.closest_point_on_navmesh ) )
         {
-            self.var_80780af2 = self.enemy_override.var_acdc8d71;
+            self.var_80780af2 = self.enemy_override.closest_point_on_navmesh;
             return;
         }
         

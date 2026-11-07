@@ -19876,7 +19876,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_502af76e618170ea",
+            "model": "model#p8_zm_red_oracle_chair_shackle_arm_lt",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -20797,7 +20797,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_4fc4e36e612a9bbc",
+            "model": "model#p8_zm_red_oracle_chair_shackle_arm_rt",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -21630,7 +21630,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_e4a3102d0ddd06e",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_shackle_ankle_left",
                             "entrytype": "anim"
                         }
                     ],
@@ -21664,7 +21664,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_30eaac42bd2e585c",
+            "model": "model#p8_zm_red_oracle_chair_shackle_leg_lt",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -22497,7 +22497,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_230c20104e59e863",
+                            "anim": "anim#o_cin_zm_red_outro_sh340_shackle_ankle_right",
                             "entrytype": "anim"
                         }
                     ],
@@ -22531,7 +22531,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3150c042bd852d8a",
+            "model": "model#p8_zm_red_oracle_chair_shackle_leg_rt",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -25344,7 +25344,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2d71b75bff91e980",
+                            "anim": "anim#p8_fxanim_zm_red_cin_floor_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -25911,7 +25911,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_3dc948aa9159b3",
+            "model": "model#p8_fxanim_zm_red_cin_floor_open_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -29283,7 +29283,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_7982a18296afce46",
+            "model": "model#c_t8_zmb_dlc2_medusa_seated_hood_fb",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

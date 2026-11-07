@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6ef8c26afd73ba34",
+                            "anim": "anim#ch_vign_zm_mob_brutus_summon_hellhound_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -62,7 +62,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6ef8c56afd73bf4d",
+                            "anim": "anim#ch_vign_zm_mob_brutus_summon_hellhound_02",
                             "entrytype": "anim"
                         }
                     ],
@@ -119,7 +119,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6ef8c46afd73bd9a",
+                            "anim": "anim#ch_vign_zm_mob_brutus_summon_hellhound_03",
                             "entrytype": "anim"
                         }
                     ],
@@ -176,7 +176,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6ef8bf6afd73b51b",
+                            "anim": "anim#ch_vign_zm_mob_brutus_summon_hellhound_04",
                             "entrytype": "anim"
                         }
                     ],
@@ -233,7 +233,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6ef8be6afd73b368",
+                            "anim": "anim#ch_vign_zm_mob_brutus_summon_hellhound_05",
                             "entrytype": "anim"
                         }
                     ],

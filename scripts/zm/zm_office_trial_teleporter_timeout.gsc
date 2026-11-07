@@ -71,7 +71,7 @@ function private on_end( round_reset )
 // Params 4, eflags: 0x4
 // Checksum 0x553ef01a, Offset: 0x388
 // Size: 0x248
-function private function_ad32d69( var_b2c60867, timeout, var_ca735ce8, var_a4a28ac7 )
+function private function_ad32d69( var_b2c60867, timeout, time_since_start, var_a4a28ac7 )
 {
     self endon( #"disconnect" );
     level endon( #"trial_round_end", #"host_migration_begin" );
@@ -84,11 +84,11 @@ function private function_ad32d69( var_b2c60867, timeout, var_ca735ce8, var_a4a2
     self.var_b2c60867 = var_b2c60867;
     self.var_e14296de = level.time;
     self.n_timeout_time = timeout;
-    self.var_60fa6139 = level.time + timeout * 1000 - var_ca735ce8 * 1000;
+    self.var_60fa6139 = level.time + timeout * 1000 - time_since_start * 1000;
     self.b_teleporting = 0;
     level.var_f995ece6 zm_trial_timer::open( self );
     level.var_f995ece6 zm_trial_timer::set_timer_text( self, var_b2c60867 );
-    self zm_trial_util::start_timer( timeout - var_ca735ce8 );
+    self zm_trial_util::start_timer( timeout - time_since_start );
     
     while ( true )
     {

@@ -430,13 +430,13 @@ function function_1f9de69d( var_40b86c4b )
 // Params 2
 // Checksum 0x47c5a149, Offset: 0x1180
 // Size: 0x200
-function handleplayerfasttravel( player, var_12230d08 )
+function handleplayerfasttravel( player, s_unitrigger_loc )
 {
     player endon( #"death" );
     level notify( #"handleplayerfasttravel" );
     level endon( #"handleplayerfasttravel" );
     
-    if ( !isdefined( var_12230d08 ) )
+    if ( !isdefined( s_unitrigger_loc ) )
     {
         return;
     }
@@ -478,7 +478,7 @@ function handleplayerfasttravel( player, var_12230d08 )
         
         if ( isdefined( level.var_3c84697b ) )
         {
-            player thread [[ level.var_3c84697b ]]( var_12230d08 );
+            player thread [[ level.var_3c84697b ]]( s_unitrigger_loc );
             continue;
         }
         

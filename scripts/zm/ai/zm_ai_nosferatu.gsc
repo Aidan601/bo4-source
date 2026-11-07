@@ -900,8 +900,8 @@ function private function_76d6482e( entity )
     }
     
     var_c9528359 = int( max( 0, min( 3, level.zombie_ai_limit - zombie_utility::get_current_zombie_count() ) ) );
-    var_4a07738f = entity getpathfindingradius() + 25;
-    queryresult = positionquery_source_navigation( entity.origin, var_4a07738f, 300, 64, 25, entity );
+    min_search_radius = entity getpathfindingradius() + 25;
+    queryresult = positionquery_source_navigation( entity.origin, min_search_radius, 300, 64, 25, entity );
     
     if ( queryresult.data.size == 0 )
     {

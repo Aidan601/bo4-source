@@ -83,7 +83,7 @@ DEVBLOCK 0x150c
 DEVBLOCK 0x1754
 # zm_ai_white_nova_crawler::function_e5ffb77c@38
 DEVBLOCK 0x1910
-# zm_ai_white_nova_crawler::function_debf98ad@30
+# zm_ai_white_nova_crawler::debug_draw_sphere@30
 DEVBLOCK 0x1a20
 # zm_ai_white_nova_crawler::function_a7cc9606@12
 DEVBLOCK 0x43ba

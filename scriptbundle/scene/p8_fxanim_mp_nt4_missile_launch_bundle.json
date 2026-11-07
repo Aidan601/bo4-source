@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_31f470aa1507cd27",
+                            "anim": "anim#p8_fxanim_mp_nt4_missile_hatch_left_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6d6be42953cdd1dd",
+                            "anim": "anim#p8_fxanim_mp_nt4_missile_hatch_left_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -67,7 +67,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_3055d5ef3541a567",
+            "model": "model#p8_fxanim_mp_nt4_missile_hatch_left_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -89,7 +89,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2f90f3c0e542b326",
+                            "anim": "anim#p8_fxanim_mp_nt4_missile_hatch_right_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -118,7 +118,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_45c506752f48444a",
+                            "anim": "anim#p8_fxanim_mp_nt4_missile_hatch_right_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -151,7 +151,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_2b02d5233947d346",
+            "model": "model#p8_fxanim_mp_nt4_missile_hatch_right_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -252,7 +252,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3d28c5204b20b81d",
+                            "anim": "anim#p8_fxanim_mp_nt4_missile_hose_01_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -308,7 +308,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_72bcfe65ce4b64fc",
+            "model": "model#p8_fxanim_mp_nt4_missile_hose_01_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -330,7 +330,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_241360315fde4ae6",
+                            "anim": "anim#p8_fxanim_mp_nt4_missile_hose_02_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -386,7 +386,7 @@
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
             "firstframe": 1,
-            "model": "model#hash_66517a7e68eac30d",
+            "model": "model#p8_fxanim_mp_nt4_missile_hose_02_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -408,7 +408,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1f5b8d0e1f435a52",
+                            "anim": "anim#p8_fxanim_nt4_rocket_launch_mannequin_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -463,7 +463,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_7d2be24ffcefcf49",
+            "model": "model#p8_fxanim_nt4_rocket_launch_mannequin_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

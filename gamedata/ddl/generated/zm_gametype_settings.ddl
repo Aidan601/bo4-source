@@ -383,7 +383,7 @@ version 85 {
         // offset 0x8d0, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8e0, size 0x8
         uint:6 reboottime;
         // offset 0x8e8, size 0x8
@@ -1499,7 +1499,7 @@ version 84 {
         // offset 0x8d0, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8e0, size 0x8
         uint:6 reboottime;
         // offset 0x8e8, size 0x8
@@ -2611,7 +2611,7 @@ version 83 {
         // offset 0x8c8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8d8, size 0x8
         uint:6 reboottime;
         // offset 0x8e0, size 0x8
@@ -3725,7 +3725,7 @@ version 82 {
         // offset 0x8c8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8d8, size 0x8
         uint:6 reboottime;
         // offset 0x8e0, size 0x8
@@ -4837,7 +4837,7 @@ version 81 {
         // offset 0x8c8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8d8, size 0x8
         uint:6 reboottime;
         // offset 0x8e0, size 0x8
@@ -5943,7 +5943,7 @@ version 80 {
         // offset 0x8c8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8d8, size 0x8
         uint:6 reboottime;
         // offset 0x8e0, size 0x8
@@ -7045,7 +7045,7 @@ version 79 {
         // offset 0x8c8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8d8, size 0x8
         uint:6 reboottime;
         // offset 0x8e0, size 0x8
@@ -8147,7 +8147,7 @@ version 78 {
         // offset 0x8c8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8d8, size 0x8
         uint:6 reboottime;
         // offset 0x8e0, size 0x8
@@ -9247,7 +9247,7 @@ version 77 {
         // offset 0x8c8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8d8, size 0x8
         uint:6 reboottime;
         // offset 0x8e0, size 0x8
@@ -10345,7 +10345,7 @@ version 76 {
         // offset 0x8c8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8d8, size 0x8
         uint:6 reboottime;
         // offset 0x8e0, size 0x8
@@ -11433,7 +11433,7 @@ version 75 {
         // offset 0x8a8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8b0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8b8, size 0x8
         uint:6 reboottime;
         // offset 0x8c0, size 0x8
@@ -12521,7 +12521,7 @@ version 74 {
         // offset 0x8a8, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8b0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8b8, size 0x8
         uint:6 reboottime;
         // offset 0x8c0, size 0x8
@@ -13591,7 +13591,7 @@ version 73 {
         // offset 0x898, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8a0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8a8, size 0x8
         uint:6 reboottime;
         // offset 0x8b0, size 0x8
@@ -14661,7 +14661,7 @@ version 72 {
         // offset 0x898, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8a0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8a8, size 0x8
         uint:6 reboottime;
         // offset 0x8b0, size 0x8
@@ -15729,7 +15729,7 @@ version 71 {
         // offset 0x898, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8a0, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8a8, size 0x8
         uint:6 reboottime;
         // offset 0x8b0, size 0x8
@@ -16793,7 +16793,7 @@ version 70 {
         // offset 0x890, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x898, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8a0, size 0x8
         uint:6 reboottime;
         // offset 0x8a8, size 0x8
@@ -17849,7 +17849,7 @@ version 69 {
         // offset 0x878, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x880, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x888, size 0x8
         uint:6 reboottime;
         // offset 0x890, size 0x8
@@ -18903,7 +18903,7 @@ version 68 {
         // offset 0x878, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x880, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x888, size 0x8
         uint:6 reboottime;
         // offset 0x890, size 0x8
@@ -19955,7 +19955,7 @@ version 67 {
         // offset 0x878, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x880, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x888, size 0x8
         uint:6 reboottime;
         // offset 0x890, size 0x8
@@ -21005,7 +21005,7 @@ version 66 {
         // offset 0x878, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x880, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x888, size 0x8
         uint:6 reboottime;
         // offset 0x890, size 0x8
@@ -22049,7 +22049,7 @@ version 65 {
         // offset 0x878, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x880, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x888, size 0x8
         uint:6 reboottime;
         // offset 0x890, size 0x8
@@ -23085,7 +23085,7 @@ version 64 {
         // offset 0x868, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x870, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x878, size 0x8
         uint:6 reboottime;
         // offset 0x880, size 0x8
@@ -24121,7 +24121,7 @@ version 63 {
         // offset 0x868, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x870, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x878, size 0x8
         uint:6 reboottime;
         // offset 0x880, size 0x8
@@ -25149,7 +25149,7 @@ version 62 {
         // offset 0x850, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x858, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x860, size 0x8
         uint:6 reboottime;
         // offset 0x868, size 0x8
@@ -26175,7 +26175,7 @@ version 61 {
         // offset 0x850, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x858, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x860, size 0x8
         uint:6 reboottime;
         // offset 0x868, size 0x8
@@ -27197,7 +27197,7 @@ version 60 {
         // offset 0x848, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x850, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x858, size 0x8
         uint:6 reboottime;
         // offset 0x860, size 0x8
@@ -28217,7 +28217,7 @@ version 59 {
         // offset 0x848, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x850, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x858, size 0x8
         uint:6 reboottime;
         // offset 0x860, size 0x8
@@ -29237,7 +29237,7 @@ version 58 {
         // offset 0x850, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x858, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x860, size 0x8
         uint:6 reboottime;
         // offset 0x868, size 0x8
@@ -30259,7 +30259,7 @@ version 57 {
         // offset 0x848, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x850, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x858, size 0x8
         uint:6 reboottime;
         // offset 0x860, size 0x8
@@ -31279,7 +31279,7 @@ version 56 {
         // offset 0x840, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x848, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x850, size 0x8
         uint:6 reboottime;
         // offset 0x858, size 0x8
@@ -32299,7 +32299,7 @@ version 55 {
         // offset 0x840, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x848, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x850, size 0x8
         uint:6 reboottime;
         // offset 0x858, size 0x8
@@ -33317,7 +33317,7 @@ version 54 {
         // offset 0x840, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x848, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x850, size 0x8
         uint:6 reboottime;
         // offset 0x858, size 0x8
@@ -34329,7 +34329,7 @@ version 53 {
         // offset 0x840, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x848, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x850, size 0x8
         uint:6 reboottime;
         // offset 0x858, size 0x8
@@ -35337,7 +35337,7 @@ version 52 {
         // offset 0x828, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x830, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x838, size 0x8
         uint:6 reboottime;
         // offset 0x840, size 0x8
@@ -36343,7 +36343,7 @@ version 51 {
         // offset 0x828, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x830, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x838, size 0x8
         uint:6 reboottime;
         // offset 0x840, size 0x8
@@ -37345,7 +37345,7 @@ version 50 {
         // offset 0x820, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x828, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x830, size 0x8
         uint:6 reboottime;
         // offset 0x838, size 0x8
@@ -38345,7 +38345,7 @@ version 49 {
         // offset 0x838, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x840, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x848, size 0x8
         uint:6 reboottime;
         // offset 0x850, size 0x8
@@ -39345,7 +39345,7 @@ version 48 {
         // offset 0x838, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x840, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x848, size 0x8
         uint:6 reboottime;
         // offset 0x850, size 0x8
@@ -40339,7 +40339,7 @@ version 47 {
         // offset 0x828, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x830, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x838, size 0x8
         uint:6 reboottime;
         // offset 0x840, size 0x8
@@ -41303,7 +41303,7 @@ version 46 {
         // offset 0x828, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x830, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x838, size 0x8
         uint:6 reboottime;
         // offset 0x840, size 0x8
@@ -42265,7 +42265,7 @@ version 45 {
         // offset 0x828, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x830, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x838, size 0x8
         uint:6 reboottime;
         // offset 0x840, size 0x8
@@ -43217,7 +43217,7 @@ version 44 {
         // offset 0x808, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x810, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x818, size 0x8
         uint:6 reboottime;
         // offset 0x820, size 0x8
@@ -44161,7 +44161,7 @@ version 43 {
         // offset 0x808, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x810, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x818, size 0x8
         uint:6 reboottime;
         // offset 0x820, size 0x8
@@ -45103,7 +45103,7 @@ version 42 {
         // offset 0x808, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x810, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x818, size 0x8
         uint:6 reboottime;
         // offset 0x820, size 0x8
@@ -46045,7 +46045,7 @@ version 41 {
         // offset 0x808, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x810, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x818, size 0x8
         uint:6 reboottime;
         // offset 0x820, size 0x8
@@ -46983,7 +46983,7 @@ version 40 {
         // offset 0x768, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x770, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x778, size 0x8
         uint:6 reboottime;
         // offset 0x780, size 0x8

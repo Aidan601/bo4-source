@@ -339,9 +339,9 @@ function function_ede09a4e( leader )
     
     if ( isdefined( pos ) )
     {
-        var_3a364b6c = distance( self.protectdest, pos );
+        disttoowner = distance( self.protectdest, pos );
         
-        if ( var_3a364b6c > 125 )
+        if ( disttoowner > 125 )
         {
             protectdest = function_789652f2( pos, leader, 48, 96, 10, 20 );
             

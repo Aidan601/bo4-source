@@ -150,7 +150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_79e04e8545449fa5",
+                            "anim": "anim#ch_zm_mansion_outro_sh350_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -181,7 +181,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_27697069452a40d8",
+                            "anim": "anim#ch_zm_mansion_outro_sh360_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -211,7 +211,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_81851540fd817ff",
+                            "anim": "anim#ch_zm_mansion_outro_sh370_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -241,7 +241,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1d2e27facdd74ab2",
+                            "anim": "anim#ch_zm_mansion_outro_sh380_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -410,7 +410,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_67cc2d78b9a203a7",
+            "model": "model#veh_t8_zmb_1912_sedan_convertible_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -539,7 +539,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_2a92f1695394c8c6",
+            "model": "model#veh_t8_zmb_1912_town_mansion_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -561,7 +561,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_28d22ea977ee88be",
+                            "anim": "anim#o_zm_mansion_outro_sh350_door_rt",
                             "entrytype": "anim"
                         }
                     ],
@@ -668,7 +668,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_4b034df88dda4c2",
+            "model": "model#p8_mov_zm_man_door_exterior_01_rt",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -690,7 +690,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_28f42aa9780b6858",
+                            "anim": "anim#o_zm_mansion_outro_sh350_door_lt",
                             "entrytype": "anim"
                         }
                     ],
@@ -797,7 +797,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_48040df88b49564",
+            "model": "model#p8_mov_zm_man_door_exterior_01_lt",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

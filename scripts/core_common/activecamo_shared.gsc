@@ -62,14 +62,14 @@ function on_player_death( params )
         return;
     }
     
-    self function_27779784();
+    self reset_on_death();
 }
 
 // Namespace activecamo/activecamo_shared
 // Params 0
 // Checksum 0xcbbe9c30, Offset: 0x290
 // Size: 0x16c
-function function_27779784()
+function reset_on_death()
 {
     if ( !isdefined( self ) || !isdefined( self.pers ) || !isdefined( self.pers[ #"activecamo" ] ) )
     {

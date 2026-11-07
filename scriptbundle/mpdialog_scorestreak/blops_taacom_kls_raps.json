@@ -3,9 +3,9 @@
     "type": "mpdialog_scorestreak",
     "vmtype": "both",
     "name": "blops_taacom_kls_raps",
-    "timeoutconfirmed1": "#hash_7307b4d6d6ae18ee",
+    "timeoutconfirmed1": "#vox_tacb_kls_raps_timeout_pilot_1",
     "timeoutconfirmed0": "#hash_7307b5d6d6ae1aa1",
-    "timeoutconfirmed3": "#hash_7307b2d6d6ae1588",
-    "timeoutconfirmed2": "#hash_7307b3d6d6ae173b",
-    "hacked": "#hash_4c2f4bbc731af8c1"
+    "timeoutconfirmed3": "#vox_tacb_kls_raps_timeout_pilot_3",
+    "timeoutconfirmed2": "#vox_tacb_kls_raps_timeout_pilot_2",
+    "hacked": "#vox_tacb_kls_raps_raps_hacked"
 }

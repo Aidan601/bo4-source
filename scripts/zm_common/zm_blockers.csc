@@ -128,13 +128,13 @@ function power_debris_bought_fx( localclientnum, oldval, newval, bnewent, biniti
 // Params 4
 // Checksum 0x9b4d0984, Offset: 0xab8
 // Size: 0xe4
-function function_aa07bb71( str_fx_name, var_bd367366, var_6142f944, n_new_val )
+function function_aa07bb71( str_fx_name, var_bd367366, n_local_client_num, n_new_val )
 {
     if ( n_new_val )
     {
         if ( isdefined( self ) && !isdefined( self.ambient_fx_id ) )
         {
-            self.ambient_fx_id = util::playfxontag( var_6142f944, str_fx_name, self, "tag_origin" );
+            self.ambient_fx_id = util::playfxontag( n_local_client_num, str_fx_name, self, "tag_origin" );
         }
         
         audio::playloopat( var_bd367366, self.origin );
@@ -143,7 +143,7 @@ function function_aa07bb71( str_fx_name, var_bd367366, var_6142f944, n_new_val )
     
     if ( isdefined( self.ambient_fx_id ) )
     {
-        killfx( var_6142f944, self.ambient_fx_id );
+        killfx( n_local_client_num, self.ambient_fx_id );
         self.ambient_fx_id = undefined;
     }
     
@@ -154,21 +154,21 @@ function function_aa07bb71( str_fx_name, var_bd367366, var_6142f944, n_new_val )
 // Params 4
 // Checksum 0xe099edfa, Offset: 0xba8
 // Size: 0xec
-function function_e6eed4fe( str_fx_name, var_d34b6d2b, var_6142f944, n_new_val )
+function function_e6eed4fe( str_fx_name, var_d34b6d2b, n_local_client_num, n_new_val )
 {
     if ( n_new_val )
     {
         if ( !isdefined( self.var_4da473fc ) )
         {
-            var_4da473fc = util::spawn_model( var_6142f944, #"tag_origin", self.origin, self.angles );
+            var_4da473fc = util::spawn_model( n_local_client_num, #"tag_origin", self.origin, self.angles );
         }
         else
         {
             var_4da473fc = self.var_4da473fc;
         }
         
-        util::playfxontag( var_6142f944, str_fx_name, var_4da473fc, "tag_origin" );
-        playsound( var_6142f944, var_d34b6d2b, var_4da473fc.origin );
+        util::playfxontag( n_local_client_num, str_fx_name, var_4da473fc, "tag_origin" );
+        playsound( n_local_client_num, var_d34b6d2b, var_4da473fc.origin );
         wait 2;
         
         if ( isdefined( var_4da473fc ) )

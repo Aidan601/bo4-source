@@ -3068,7 +3068,7 @@ function function_e7e3d146( b_enable = 1 )
 function function_f4ccb04c( e_player, var_5098afd6 = 0 )
 {
     mdl_gameobject = self function_fd4a5f2f();
-    e_player.var_17bc9194 = 1;
+    e_player.b_force_gameobject_use = 1;
     mdl_gameobject.trigger notify( #"trigger", { #activator:e_player, #forced:var_5098afd6 } );
 }
 
@@ -4144,11 +4144,11 @@ function trigger_touch_think( object )
         object [[ object.ontouchuse ]]( self );
     }
     
-    if ( isdefined( self.var_17bc9194 ) && self.var_17bc9194 )
+    if ( isdefined( self.b_force_gameobject_use ) && self.b_force_gameobject_use )
     {
         object.curprogress = object.usetime + 1;
         object.numtouching[ object.claimteam ] = 1;
-        self.var_17bc9194 = undefined;
+        self.b_force_gameobject_use = undefined;
         
         while ( object.curprogress >= 1 )
         {
@@ -4412,11 +4412,11 @@ function use_hold_think( player, disableweaponcyclingduringhold )
         self.var_bca8171a.enableweaponcycling = 1;
     }
     
-    if ( isdefined( player.var_17bc9194 ) && player.var_17bc9194 )
+    if ( isdefined( player.b_force_gameobject_use ) && player.b_force_gameobject_use )
     {
         self.curprogress = self.usetime;
         result = 1;
-        player.var_17bc9194 = undefined;
+        player.b_force_gameobject_use = undefined;
     }
     else
     {

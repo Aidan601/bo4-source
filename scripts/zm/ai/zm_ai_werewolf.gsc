@@ -459,9 +459,9 @@ function function_ccbee20()
                 continue;
             }
             
-            if ( isdefined( a_s_spawn_locs[ i ].var_39512f0e ) && level flag::get( a_s_spawn_locs[ i ].var_39512f0e ) )
+            if ( isdefined( a_s_spawn_locs[ i ].script_flag_disable ) && level flag::get( a_s_spawn_locs[ i ].script_flag_disable ) )
             {
-                if ( a_s_spawn_locs[ i ].var_39512f0e === "power_on3" && zm_custom::function_901b751c( "zmPowerState" ) == 2 && zm_custom::function_901b751c( #"zmpowerdoorstate" ) == 0 )
+                if ( a_s_spawn_locs[ i ].script_flag_disable === "power_on3" && zm_custom::function_901b751c( "zmPowerState" ) == 2 && zm_custom::function_901b751c( #"zmpowerdoorstate" ) == 0 )
                 {
                     i++;
                 }
@@ -1641,8 +1641,8 @@ function private summonwolves( entity )
             {
                 if ( node.script_noteworthy === "<dev string:xbe>" && !iscovernode( node ) && ispathnode( node ) )
                 {
-                    var_71c80ceb = zm_ai_utility::get_pathnode_path( node );
-                    zm_ai_utility::start_patrol( werewolf, var_71c80ceb.path, var_71c80ceb.loops, undefined, undefined );
+                    path_info = zm_ai_utility::get_pathnode_path( node );
+                    zm_ai_utility::start_patrol( werewolf, path_info.path, path_info.loops, undefined, undefined );
                     break;
                 }
             }

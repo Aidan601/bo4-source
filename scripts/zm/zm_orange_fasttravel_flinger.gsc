@@ -93,22 +93,22 @@ function function_e91e867d()
     
     foreach ( v_flinger in level.a_v_flingers )
     {
-        v_flinger.var_4f952763 = struct::get_array( v_flinger.var_16c4809e + v_flinger.str_location, "targetname" );
-        v_flinger.var_9b23f7b9 = struct::get( v_flinger.var_405b850e + v_flinger.str_location, "targetname" );
+        v_flinger.var_4f952763 = struct::get_array( v_flinger.str_flinger_landing_point + v_flinger.str_location, "targetname" );
+        v_flinger.var_9b23f7b9 = struct::get( v_flinger.str_flinger_ai_launch_angle + v_flinger.str_location, "targetname" );
         
         if ( isdefined( v_flinger.var_f14e88a ) )
         {
             v_flinger.var_48abac67 = struct::get( v_flinger.var_f14e88a + v_flinger.str_location, "targetname" );
         }
         
-        if ( isdefined( v_flinger.var_31baf28b ) )
+        if ( isdefined( v_flinger.str_flinger_rotate ) )
         {
-            v_flinger.var_bd5b9576 = struct::get( v_flinger.var_31baf28b + v_flinger.str_location, "targetname" );
+            v_flinger.var_bd5b9576 = struct::get( v_flinger.str_flinger_rotate + v_flinger.str_location, "targetname" );
         }
         
-        if ( isdefined( v_flinger.var_5822e915 ) )
+        if ( isdefined( v_flinger.str_flinger ) )
         {
-            v_flinger.var_28a430ac = struct::get( v_flinger.var_5822e915 + v_flinger.str_location, "targetname" );
+            v_flinger.var_28a430ac = struct::get( v_flinger.str_flinger + v_flinger.str_location, "targetname" );
             
             if ( !( v_flinger.str_location === "island" && zm_utility::is_standard() ) )
             {
@@ -116,14 +116,14 @@ function function_e91e867d()
             }
         }
         
-        if ( isdefined( v_flinger.var_8676f581 ) )
+        if ( isdefined( v_flinger.str_flinger_in_use_blocker ) )
         {
-            v_flinger.var_12d831a6 = getentarray( v_flinger.var_8676f581 + v_flinger.str_location, "targetname" );
+            v_flinger.var_12d831a6 = getentarray( v_flinger.str_flinger_in_use_blocker + v_flinger.str_location, "targetname" );
         }
         
-        if ( isdefined( v_flinger.var_2acbff02 ) )
+        if ( isdefined( v_flinger.str_visibility ) )
         {
-            v_flinger.var_311f378d = struct::get( v_flinger.var_2acbff02 + v_flinger.str_location, "targetname" );
+            v_flinger.var_311f378d = struct::get( v_flinger.str_visibility + v_flinger.str_location, "targetname" );
         }
         
         if ( v_flinger.str_location === "ship" )
@@ -739,7 +739,7 @@ function function_22f94688( notifyhash )
     {
         self util::stop_magic_bullet_shield();
         self.var_e63ac5c = 0;
-        self.var_f22c83f5 = 0;
+        self.b_ignore_playable_area_check = 0;
         self.var_e75517b1 = 0;
         self val::reset( #"fasttravel", "ignoreme" );
         self.bgb_disabled = 0;
@@ -788,7 +788,7 @@ function function_6cbea0ea()
         }
     }
     
-    self.var_f22c83f5 = 1;
+    self.b_ignore_playable_area_check = 1;
     self.var_e75517b1 = 1;
     self val::set( #"fasttravel", "ignoreme", 1 );
     self bgb::suspend_weapon_cycling();
@@ -826,7 +826,7 @@ function function_4a54c378()
 {
     self endoncallback( &function_9d729023, #"bled_out", #"disconnect" );
     self.var_e63ac5c = 0;
-    self.var_f22c83f5 = 0;
+    self.b_ignore_playable_area_check = 0;
     self.var_e75517b1 = 0;
     self val::reset( #"fasttravel", "ignoreme" );
     self.bgb_disabled = 0;
@@ -849,7 +849,7 @@ function function_9d729023( notifyhash )
     {
         self val::reset( #"fasttravel", "takedamage" );
         self.var_e63ac5c = 0;
-        self.var_f22c83f5 = 0;
+        self.b_ignore_playable_area_check = 0;
         self.var_e75517b1 = 0;
         self val::reset( #"fasttravel", "ignoreme" );
         self.bgb_disabled = 0;

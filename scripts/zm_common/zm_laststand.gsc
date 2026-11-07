@@ -84,7 +84,7 @@ function __init__()
 // Size: 0x34
 function on_player_connect()
 {
-    self thread function_b7c101fa();
+    self thread self_revive_player_setup();
     self thread function_6155752d();
 }
 
@@ -1092,14 +1092,14 @@ function check_self_revive_for_hotjoin()
 {
     level notify( #"notify_check_self_revive_for_hotjoin" );
     level endon( #"notify_check_self_revive_for_hotjoin" );
-    var_9156a121 = 0;
+    b_solo_mode = 0;
     var_972a361b = 0;
     waitframe( 1 );
     a_e_players = getplayers();
     
     if ( a_e_players.size == 1 )
     {
-        var_9156a121 = 1;
+        b_solo_mode = 1;
         
         if ( !level flag::get( "solo_game" ) )
         {
@@ -1117,9 +1117,9 @@ function check_self_revive_for_hotjoin()
     {
         foreach ( e_player in a_e_players )
         {
-            if ( isdefined( e_player.var_240cf7be ) && e_player.var_240cf7be )
+            if ( isdefined( e_player.b_solo_self_revive ) && e_player.b_solo_self_revive )
             {
-                if ( var_9156a121 )
+                if ( b_solo_mode )
                 {
                     e_player function_3d685b5f( int( max( 0, e_player.var_d66589da - e_player.var_308dc243 ) ) );
                     continue;
@@ -1189,7 +1189,7 @@ function function_409dc98e( n_count = 1, b_revived = 1 )
 // Params 0
 // Checksum 0x26722328, Offset: 0x38a8
 // Size: 0x1cc
-function function_b7c101fa()
+function self_revive_player_setup()
 {
     self endon( #"disconnect" );
     self.var_72249004 = 0;
@@ -1203,7 +1203,7 @@ function function_b7c101fa()
     if ( getplayers().size == 1 )
     {
         self_revive_count = self.var_d66589da;
-        self.var_240cf7be = 1;
+        self.b_solo_self_revive = 1;
     }
     else
     {

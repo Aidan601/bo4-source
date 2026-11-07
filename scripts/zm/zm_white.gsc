@@ -1169,7 +1169,7 @@ function function_c8ce0a17( var_404e4288, var_8dd554ee )
 function function_e5086229( var_404e4288, var_8dd554ee )
 {
     level flag::set( #"disable_special_rounds" );
-    ai = zombie_dog_util::function_62db7b1c( 1 );
+    ai = zombie_dog_util::spawn_single_dog( 1 );
     
     if ( isdefined( ai ) )
     {
@@ -1204,7 +1204,7 @@ function function_7e6cf034()
             break;
         case 2:
             zm_white_util::function_ca4ee4d1( "bunker_door" );
-            zm_white_util::function_f4a39bc4();
+            zm_white_util::open_power_doors();
             zm_white_util::function_bf25aeb1( "bunker_door_electric" );
             var_c39fcc2 = getentarray( "lockdown_trigger", "targetname" );
             
@@ -1227,7 +1227,7 @@ function function_7e6cf034()
             if ( zm_custom::function_901b751c( #"zmpowerdoorstate" ) == 1 )
             {
                 zm_white_util::function_ca4ee4d1( "bunker_door" );
-                zm_white_util::function_f4a39bc4();
+                zm_white_util::open_power_doors();
                 zm_white_util::function_bf25aeb1( "bunker_door_electric" );
                 var_c39fcc2 = getentarray( "lockdown_trigger", "targetname" );
                 

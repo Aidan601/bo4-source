@@ -354,12 +354,12 @@ function function_941b297c( var_22c00989 )
 {
     if ( var_22c00989 == #"east" )
     {
-        self.var_872e2994 = struct::get( "e_secret_reward_pos", "targetname" );
+        self.s_reward_pos = struct::get( "e_secret_reward_pos", "targetname" );
         level thread util::delay( 2, undefined, &scene::play, #"p8_fxanim_zm_man_bookcase_01_bundle" );
     }
     else
     {
-        self.var_872e2994 = struct::get( "w_secret_reward_pos", "targetname" );
+        self.s_reward_pos = struct::get( "w_secret_reward_pos", "targetname" );
         level thread util::delay( 2, undefined, &scene::play, #"p8_fxanim_zm_man_bookcase_02_bundle" );
     }
     
@@ -386,7 +386,7 @@ function function_941b297c( var_22c00989 )
     }
     
     wait 3.4;
-    mdl_powerup = zm_powerups::specific_powerup_drop( "bonus_points_player", self.var_872e2994.origin, undefined, undefined, undefined, 1 );
+    mdl_powerup = zm_powerups::specific_powerup_drop( "bonus_points_player", self.s_reward_pos.origin, undefined, undefined, undefined, 1 );
     
     /#
         if ( !isdefined( mdl_powerup ) )
@@ -410,7 +410,7 @@ function function_94a403a4( var_1c855a0d )
         var_a76c9d75 = getplayers()[ 0 ];
     }
     
-    mdl_weapon = zm_utility::spawn_buildkit_weapon_model( var_a76c9d75, wpn_reward, undefined, self.var_872e2994.origin + ( 0, 0, 16 ), self.var_872e2994.angles );
+    mdl_weapon = zm_utility::spawn_buildkit_weapon_model( var_a76c9d75, wpn_reward, undefined, self.s_reward_pos.origin + ( 0, 0, 16 ), self.s_reward_pos.angles );
     
     if ( isdefined( mdl_weapon ) )
     {
@@ -867,9 +867,9 @@ function function_cf048af( oldval, newval )
 function function_35ab22f4()
 {
     var_8997b0bc = struct::get( "billiard_table_center", "targetname" );
-    var_6f868336 = array::get_all_closest( var_8997b0bc.origin, util::get_active_players( #"allies" ), undefined, 4, 256 );
+    a_players_in_range = array::get_all_closest( var_8997b0bc.origin, util::get_active_players( #"allies" ), undefined, 4, 256 );
     
-    foreach ( var_2cbc52e0 in var_6f868336 )
+    foreach ( var_2cbc52e0 in a_players_in_range )
     {
         if ( !( isdefined( var_2cbc52e0.var_14466805 ) && var_2cbc52e0.var_14466805 ) && zm_utility::is_player_valid( var_2cbc52e0 ) )
         {

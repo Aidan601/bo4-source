@@ -1,6 +1,6 @@
 {
-    "detailsicon": "image#hash_7026cc7c28e37921",
-    "shopicon": "image#hash_51ff2d05aab13453",
+    "detailsicon": "image#ui_icon_blackmarket_promos_full_stop_item_detail",
+    "shopicon": "image#ui_icon_blackmarket_promos_full_stop_itemshop",
     "nametext": "localized17#weapon/melee_stopsign_t8",
     "name": "melee_stopsign_bundle_shop",
     "desctext": "localized17#mpui/melee_stopsign_bundle_desc"

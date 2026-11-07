@@ -38,7 +38,7 @@ function init()
     level.var_52a2e58a = &function_52a2e58a;
     level.var_84bf013e = 1;
     level.var_30264985 = 1;
-    level.var_ed73ac32 = 0;
+    level.b_is_playing = 0;
     setdvar( #"hash_48162cd174e3034d", 0 );
     ability_player::register_gadget_primed_callbacks( 36, &tak5_start );
     callback::on_vehicle_damage( &function_2a6fb094 );
@@ -92,7 +92,7 @@ function tak5_start( slot, weapon )
 // Params 0
 // Checksum 0x208273e0, Offset: 0x1078
 // Size: 0x1c4
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     self.health_start = self.health;
     self.overrideplayerdamage = &callback_player_damage;
@@ -154,7 +154,7 @@ function function_62afa484()
 // Params 11
 // Checksum 0x66294072, Offset: 0x12a0
 // Size: 0x212
-function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     if ( level.var_ad7c0539 === 1 && self.team == #"allies" && isbot( self ) )
     {
@@ -222,12 +222,12 @@ function function_72ba0df6( einflictor, attacker, idamage, smeansofdeath, weapon
         
         if ( weapon == getweapon( "tank_robot_launcher_turret" ) )
         {
-            if ( math::cointoss() && !level.var_ed73ac32 )
+            if ( math::cointoss() && !level.b_is_playing )
             {
-                level.var_ed73ac32 = 1;
+                level.b_is_playing = 1;
                 ct_vo::function_5df1a850( level.mantis, array( #"vox_tvoi_tutor_crash_final_score_enemy_kill" ) );
                 wait 0.5;
-                level.var_ed73ac32 = 0;
+                level.b_is_playing = 0;
             }
         }
     }
@@ -960,7 +960,7 @@ function function_9b2c973f()
             {
                 var_66075595 = 1;
                 ct_vo::function_3ca1b77d();
-                level ct_vo::play_vo( #"hash_552f1f27a33c7e19", 1 );
+                level ct_vo::play_vo( #"vox_tvoi_tutor_crash_final_event_tak5_nag", 1 );
             }
             
             if ( var_2cf11630 <= var_8fe4b14 && !var_ca0b6cf8 )

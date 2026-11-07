@@ -37,7 +37,7 @@ function function_2613aeec( enabled )
     {
         callback::add_callback( #"hash_3c09ead7e9d8a968", &function_19a80b40 );
         callback::add_callback( #"hash_6aa0232dd3c8376a", &function_8bf71bd6 );
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_team_eliminated", &function_4ac25840 );
     }
 }
@@ -153,7 +153,7 @@ function function_8bf71bd6()
 // Params 1
 // Checksum 0x10f20f09, Offset: 0x5c8
 // Size: 0xdc
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     

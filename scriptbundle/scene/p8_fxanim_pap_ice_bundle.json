@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_468680bcf9dd0054",
+                            "anim": "anim#p8_fxanim_pap_ice_block_init",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2366d9a5845bdd4",
+                            "anim": "anim#p8_fxanim_pap_ice_block_melt",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_853590a95aff05",
+                            "anim": "anim#p8_fxanim_pap_ice_block_freeze",
                             "entrytype": "anim"
                         }
                     ],

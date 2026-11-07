@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_532417549af66d4",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_38b27576336531d",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_idle1_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6a75c26877f3e5e6",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_idle2_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -92,7 +92,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1aac8126dbc153d6",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_roar_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -121,7 +121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3b984857d9eb63",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_roar1_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -150,7 +150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_53aba2b7c90243a0",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_roar2_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -179,7 +179,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_24f221de31f87832",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_pain_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -208,7 +208,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_45d4746e9d677506",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_charge_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -237,7 +237,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_493cdfb7c852b2ad",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_charge_blast_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -266,7 +266,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_47214f0bad95310a",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_s3_arrive_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -279,7 +279,7 @@
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "arrive",
-                    "shotmodel": "model#hash_668c798af445fe13",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_pristine_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,
@@ -296,7 +296,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_43a4009f0a2b6378",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_s3_leave_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -309,7 +309,7 @@
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "leave",
-                    "shotmodel": "model#hash_668c798af445fe13",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_pristine_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,
@@ -326,21 +326,21 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1b5216b6e376e933",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_s3_crack_anim",
                             "entrytype": "anim"
                         }
                     ],
                     "hash_663febef158e7cb:hash_ab59a015": 0,
                     "damagethreshold": 0,
                     "hash_153a9c0eba706289:hash_67f013e3": 0,
-                    "shotmodelcleanup": "model#hash_4458b3c865174731",
+                    "shotmodelcleanup": "model#p8_fxanim_zm_zod_boss_eye_03_crack_mod",
                     "hidestowedweapon": 0,
                     "disablecombat": 0,
                     "spacermin": 0,
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "crack",
-                    "shotmodel": "model#hash_597bdc83a7c9e8c",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,
@@ -357,7 +357,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4473544a8b6b64c3",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_s3_crack_leave_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -370,7 +370,7 @@
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "crack_leave",
-                    "shotmodel": "model#hash_4458b3c865174731",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_crack_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,
@@ -387,7 +387,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7ce2f3501a78ff8f",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_s3_crack_arrive_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -400,7 +400,7 @@
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "crack_arrive",
-                    "shotmodel": "model#hash_4458b3c865174731",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_crack_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,
@@ -417,21 +417,21 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3e3435a5c4a60400",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_s3_break_anim",
                             "entrytype": "anim"
                         }
                     ],
                     "hash_663febef158e7cb:hash_ab59a015": 0,
                     "damagethreshold": 0,
                     "hash_153a9c0eba706289:hash_67f013e3": 0,
-                    "shotmodelcleanup": "model#hash_5d304a67420d3dcc",
+                    "shotmodelcleanup": "model#p8_fxanim_zm_zod_boss_eye_03_break_mod",
                     "hidestowedweapon": 0,
                     "disablecombat": 0,
                     "spacermin": 0,
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "break",
-                    "shotmodel": "model#hash_597bdc83a7c9e8c",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,
@@ -448,7 +448,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_52041fcbb75b4cea",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_s3_break_arrive_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -461,7 +461,7 @@
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "break_arrive",
-                    "shotmodel": "model#hash_5d304a67420d3dcc",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_break_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,
@@ -478,7 +478,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_64ba63f274cbb658",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_s3_break_leave_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -491,7 +491,7 @@
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "break_leave",
-                    "shotmodel": "model#hash_5d304a67420d3dcc",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_break_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,
@@ -508,7 +508,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3cb37942fcb53600",
+                            "anim": "anim#p8_fxanim_zm_zod_boss_eye_death_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -521,7 +521,7 @@
                     "spacermax": 0,
                     "hash_446efafcd483d409:hash_751fe16b": 0,
                     "name": "death",
-                    "shotmodel": "model#hash_597bdc83a7c9e8c",
+                    "shotmodel": "model#p8_fxanim_zm_zod_boss_eye_03_mod",
                     "hash_6a90282d0268be48:hash_3ee70278": 0,
                     "blend": 0,
                     "hash_6fe1fd96613e0df3:hash_1a95895f": 0,

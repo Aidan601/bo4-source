@@ -666,7 +666,7 @@ function monument_eyes( localclientnum, oldval, newval, bnewent, binitialsnap, f
 {
     if ( newval == 0 )
     {
-        self stoprenderoverridebundle( #"hash_1e7d0ce25eb2b583" );
+        self stoprenderoverridebundle( #"rob_zm_red_spartan_eyes" );
         
         if ( isdefined( self.n_sfx ) )
         {
@@ -685,7 +685,7 @@ function monument_eyes( localclientnum, oldval, newval, bnewent, binitialsnap, f
         return;
     }
     
-    self playrenderoverridebundle( #"hash_1e7d0ce25eb2b583" );
+    self playrenderoverridebundle( #"rob_zm_red_spartan_eyes" );
     
     if ( !isdefined( self.n_sfx ) )
     {
@@ -736,11 +736,11 @@ function function_27f4136d( localclientnum, oldval, newval, bnewent, binitialsna
 {
     if ( newval )
     {
-        self playrenderoverridebundle( #"hash_7ba1b67ed61ae142" );
+        self playrenderoverridebundle( #"rob_zm_red_spartan_dissolve" );
         return;
     }
     
-    self stoprenderoverridebundle( #"hash_7ba1b67ed61ae142" );
+    self stoprenderoverridebundle( #"rob_zm_red_spartan_dissolve" );
 }
 
 // Namespace zm_red_main_quest/zm_red_main_quest

@@ -729,9 +729,9 @@ function private function_d68ae402( inflictor, meansofdeath, victim, attacker, s
     
     if ( inflictor.var_a6b00192 >= 3 && !( isdefined( inflictor.var_7fff4605 ) ? inflictor.var_7fff4605 : 0 ) )
     {
-        if ( isdefined( scoreevents ) && isdefined( scoreevents.var_db750037 ) )
+        if ( isdefined( scoreevents ) && isdefined( scoreevents.killstreakscoreevent ) )
         {
-            scoreevents::processscoreevent( scoreevents.var_db750037, attacker, undefined, weapon );
+            scoreevents::processscoreevent( scoreevents.killstreakscoreevent, attacker, undefined, weapon );
         }
         
         inflictor.var_7fff4605 = 1;
@@ -1280,10 +1280,10 @@ function allow_old_indexs( var_8d498080 )
                 
                 println( "<dev string:x74>" );
                 
-                foreach ( var_d975dd49 in getarraykeys( var_594354f3 ) )
+                foreach ( scoreeventkey in getarraykeys( var_594354f3 ) )
                 {
-                    count = var_594354f3[ var_d975dd49 ];
-                    println( var_d975dd49 + "<dev string:xc9>" + ( isdefined( count ) ? "<dev string:xce>" + count : "<dev string:xce>" ) );
+                    count = var_594354f3[ scoreeventkey ];
+                    println( scoreeventkey + "<dev string:xc9>" + ( isdefined( count ) ? "<dev string:xce>" + count : "<dev string:xce>" ) );
                 }
                 
                 println( "<dev string:xd1>" );

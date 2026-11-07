@@ -635,15 +635,15 @@ function function_3be93b07( w_flamethrower )
     var_a85d39a2 = [];
     v_view_pos = self getweaponmuzzlepoint();
     v_forward_angles = self getweaponforwarddir();
-    var_a812a69b = v_view_pos + v_forward_angles * 40;
-    var_a812a69b = getclosestpointonnavmesh( var_a812a69b, 128, 16 );
+    v_forward_pos = v_view_pos + v_forward_angles * 40;
+    v_forward_pos = getclosestpointonnavmesh( v_forward_pos, 128, 16 );
     
-    if ( !isdefined( var_a812a69b ) )
+    if ( !isdefined( v_forward_pos ) )
     {
-        var_a812a69b = v_view_pos;
+        v_forward_pos = v_view_pos;
     }
     
-    s_trace = groundtrace( var_a812a69b + ( 0, 0, 100 ), var_a812a69b + ( 0, 0, -1000 ), 0, undefined, 0 );
+    s_trace = groundtrace( v_forward_pos + ( 0, 0, 100 ), v_forward_pos + ( 0, 0, -1000 ), 0, undefined, 0 );
     
     if ( !isdefined( self.var_be72e7c2 ) )
     {
@@ -671,7 +671,7 @@ function function_3be93b07( w_flamethrower )
     }
     
     self.var_be72e7c2 clientfield::set( "flamethrower_tornado_fx", 1 );
-    a_ai_zombies = util::get_array_of_closest( var_a812a69b, getaispeciesarray( level.zombie_team ), undefined, undefined, 400 );
+    a_ai_zombies = util::get_array_of_closest( v_forward_pos, getaispeciesarray( level.zombie_team ), undefined, undefined, 400 );
     
     foreach ( ai_zombie in a_ai_zombies )
     {

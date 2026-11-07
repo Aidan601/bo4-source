@@ -234,7 +234,7 @@
     // Params 4
     // Checksum 0x326104e7, Offset: 0xc20
     // Size: 0xf8, Type: dev
-    function function_5650f4ee( var_7a594c78, var_55a94d2c, actualteam, isstartspawn )
+    function function_5650f4ee( selectedteam, var_55a94d2c, actualteam, isstartspawn )
     {
         if ( var_55a94d2c == "<dev string:x42>" )
         {
@@ -248,14 +248,14 @@
         {
             return 0;
         }
-        else if ( var_55a94d2c == "<dev string:x176>" && var_7a594c78 != #"any" )
+        else if ( var_55a94d2c == "<dev string:x176>" && selectedteam != #"any" )
         {
-            if ( var_7a594c78 == #"neutral" && isdefined( actualteam ) )
+            if ( selectedteam == #"neutral" && isdefined( actualteam ) )
             {
                 return 0;
             }
             
-            if ( !( isdefined( actualteam ) && actualteam == var_7a594c78 ) )
+            if ( !( isdefined( actualteam ) && actualteam == selectedteam ) )
             {
                 return 0;
             }
@@ -282,13 +282,13 @@
         while ( true )
         {
             color = ( 1, 1, 1 );
-            var_7a594c78 = getdvarstring( #"hash_4c1fd51cfe763a2" );
+            selectedteam = getdvarstring( #"hash_4c1fd51cfe763a2" );
             var_55a94d2c = getdvarstring( #"hash_6d53bd520b4f7853" );
             level.var_3da2623a = [];
             
             for ( spawn_point_index = 0; spawn_point_index < spawnlist.size ; spawn_point_index++ )
             {
-                if ( !function_5650f4ee( var_7a594c78, var_55a94d2c, spawnlist[ spawn_point_index ].team, isdefined( spawnlist[ spawn_point_index ]._human_were ) ? spawnlist[ spawn_point_index ]._human_were : 0 ) )
+                if ( !function_5650f4ee( selectedteam, var_55a94d2c, spawnlist[ spawn_point_index ].team, isdefined( spawnlist[ spawn_point_index ]._human_were ) ? spawnlist[ spawn_point_index ]._human_were : 0 ) )
                 {
                     continue;
                 }

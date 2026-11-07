@@ -329,7 +329,7 @@ function on_player_spawned()
 // Size: 0xb4
 function function_a929cb60( s_spot )
 {
-    if ( isdefined( s_spot.var_4e469313 ) && s_spot.var_4e469313 )
+    if ( isdefined( s_spot.b_is_fast_riser ) && s_spot.b_is_fast_riser )
     {
         self thread hide_pop();
         str_anim = #"ai_t8_zombie_traverse_ground_dugup";

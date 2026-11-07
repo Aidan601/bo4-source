@@ -2429,19 +2429,19 @@ function get_death_vox( weapon, meansofdeath )
 // Params 1
 // Checksum 0x367602d5, Offset: 0x7da8
 // Size: 0x154
-function function_9a20c887( var_27347352 )
+function function_9a20c887( killstreakobj )
 {
     if ( !level.allowspecialistdialog || !isdefined( self ) || !isplayer( self ) || self hasperk( #"specialty_quieter" ) )
     {
         return;
     }
     
-    if ( !isdefined( var_27347352 ) || !isdefined( self.team ) || !isdefined( var_27347352.team ) || !isdefined( var_27347352.killstreaktype ) )
+    if ( !isdefined( killstreakobj ) || !isdefined( self.team ) || !isdefined( killstreakobj.team ) || !isdefined( killstreakobj.killstreaktype ) )
     {
         return;
     }
     
-    if ( util::function_fbce7263( self.team, var_27347352.team ) && !( isdefined( var_27347352.var_9ee835dc ) && var_27347352.var_9ee835dc ) )
+    if ( util::function_fbce7263( self.team, killstreakobj.team ) && !( isdefined( killstreakobj.var_9ee835dc ) && killstreakobj.var_9ee835dc ) )
     {
         closest_ally = self get_closest_player_ally( 0 );
         
@@ -2450,8 +2450,8 @@ function function_9a20c887( var_27347352 )
             return;
         }
         
-        var_27347352.var_9ee835dc = 1;
-        self play_killstreak_threat( var_27347352.killstreaktype );
+        killstreakobj.var_9ee835dc = 1;
+        self play_killstreak_threat( killstreakobj.killstreaktype );
     }
 }
 

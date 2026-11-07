@@ -49,7 +49,7 @@ version 2 {
         // offset 0x98, size 0x8
         byte last_state;
         // offset 0xa0, size 0x20
-        uint hash_49b55debef4aed9b;
+        uint lifetime_ms;
         // offset 0xc0, size 0x8
         byte hash_20d721b4939feee8;
         // offset 0xc8, size 0x20

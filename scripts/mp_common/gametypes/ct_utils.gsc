@@ -1477,7 +1477,7 @@ function update_glow( var_c386a7d2, var_a97eacb3, var_9c8d914 )
 // Params 0
 // Checksum 0x82f98cbb, Offset: 0x4488
 // Size: 0x10c
-function function_f9ed304d()
+function cleanup_waypoint()
 {
     self endon( #"death" );
     
@@ -2648,7 +2648,7 @@ function tutorial_goto( loc, str_waypoint = #"hash_1f1deaa6bff12db8", var_a0b387
         {
             level.var_d811d31a clientfield::set( "postfx_hitzone", 0 );
             waitframe( 1 );
-            level.var_d811d31a function_f9ed304d();
+            level.var_d811d31a cleanup_waypoint();
             level.var_d811d31a = undefined;
         }
         
@@ -2675,7 +2675,7 @@ function tutorial_goto_end( _hash )
     {
         level.var_d811d31a clientfield::set( "postfx_hitzone", 0 );
         waitframe( 1 );
-        level.var_d811d31a function_f9ed304d();
+        level.var_d811d31a cleanup_waypoint();
         level.var_d811d31a = undefined;
     }
 }
@@ -3321,7 +3321,7 @@ function function_e0d36a2c( str_vo, var_8a30c2bf, var_aa62f5bf, arena_defend_was
     }
     
     waitframe( 1 );
-    waypoint function_f9ed304d();
+    waypoint cleanup_waypoint();
     function_c2a10fc();
     get_player() playsound( #"uin_objective_updated" );
     
@@ -3681,13 +3681,13 @@ function player_collisionbox( var_96065dae, var_8d3fbac4 = undefined, n_size = 0
     switch ( n_size )
     {
         case 0:
-            level.var_33bd6a8 setmodel( #"hash_413df540de077fc5" );
+            level.var_33bd6a8 setmodel( #"p8_tutorial_target_area_circle_r90" );
             break;
         case 1:
-            level.var_33bd6a8 setmodel( #"hash_413df540de077fc5" );
+            level.var_33bd6a8 setmodel( #"p8_tutorial_target_area_circle_r90" );
             break;
         case 2:
-            level.var_33bd6a8 setmodel( #"hash_1d86ea391eae27af" );
+            level.var_33bd6a8 setmodel( #"p8_tutorial_target_area_circle_r180" );
             break;
     }
     
@@ -4266,7 +4266,7 @@ function function_e96cc63f( n_count = 3, spawnpts, var_810b40e6 = 1, var_4837ee7
 // Params 7
 // Checksum 0x286b8d5a, Offset: 0xbb20
 // Size: 0x1a6
-function surround_spawn( n_spawn_count, n_dist_min = 800, n_dist_max = 1600, var_65c9209b = 1, var_e01def33 = 4, var_5e5dc085, str_targetname = "bot_surround_spawn" )
+function surround_spawn( n_spawn_count, n_dist_min = 800, n_dist_max = 1600, n_spawn_interval = 1, var_e01def33 = 4, var_5e5dc085, str_targetname = "bot_surround_spawn" )
 {
     level endon( #"combattraining_logic_finished", #"surround_spawn_end" );
     self endon( #"death" );
@@ -4286,7 +4286,7 @@ function surround_spawn( n_spawn_count, n_dist_min = 800, n_dist_max = 1600, var
                 for ( i = 0; i < n_to_spawn ; i++ )
                 {
                     ct_bots::activate_bots( 1, #"axis", str_targetname );
-                    wait var_65c9209b;
+                    wait n_spawn_interval;
                 }
             }
         }
@@ -4589,7 +4589,7 @@ function function_d3bbbf8a( var_996160bc, zmb_vessel_pickup_skull_, var_9c8d914,
     
     level.var_e72728b8 = var_6e135d55;
     function_c2a10fc();
-    waypoint function_f9ed304d();
+    waypoint cleanup_waypoint();
     waitframe( 1 );
     
     if ( isdefined( zmb_vessel_pickup_skull_ ) && zmb_vessel_pickup_skull_ )
@@ -5635,7 +5635,7 @@ function function_c444a920( s_loc, var_9c8d914 )
         
         if ( !isalive( e_player ) )
         {
-            waypoint function_f9ed304d();
+            waypoint cleanup_waypoint();
             
             while ( true )
             {
@@ -5655,7 +5655,7 @@ function function_c444a920( s_loc, var_9c8d914 )
         waitframe( 1 );
     }
     
-    waypoint function_f9ed304d();
+    waypoint cleanup_waypoint();
     level.var_20fb90aa = undefined;
 }
 
@@ -5728,7 +5728,7 @@ function function_89cd182c( s_loc )
 // Params 2
 // Checksum 0x92afa6fe, Offset: 0xf990
 // Size: 0x110
-function function_51c89e00( var_2f3964e3, str_team )
+function function_51c89e00( b_ignore_all, str_team )
 {
     a_bots = ct_bots::function_fbe3dcbb();
     
@@ -5736,7 +5736,7 @@ function function_51c89e00( var_2f3964e3, str_team )
     {
         if ( bot.team == str_team )
         {
-            if ( isdefined( var_2f3964e3 ) && var_2f3964e3 )
+            if ( isdefined( b_ignore_all ) && b_ignore_all )
             {
                 bot val::set( #"ai_ignore", "ignoreall", 1 );
                 continue;

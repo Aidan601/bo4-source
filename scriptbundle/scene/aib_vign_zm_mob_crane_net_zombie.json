@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3b1db5a85673abd0",
+                            "anim": "anim#ch_vign_zm_mob_crane_net_zombie_loop",
                             "entrytype": "anim"
                         }
                     ],
@@ -35,7 +35,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_22c7807cff7cd6be",
+                            "anim": "anim#ch_vign_zm_mob_crane_net_zombie_dth",
                             "entrytype": "anim"
                         }
                     ],

@@ -781,7 +781,7 @@ version 223 {
         // offset 0x8d0, size 0x8
         uint:2 zmwalkerstate;
         // offset 0x8d8, size 0x8
-        fixed<8,6> hash_47e9736d437be7c8;
+        fixed<8,6> scorethiefpowergainfactor;
         // offset 0x8e0, size 0x8
         uint:6 reboottime;
         // offset 0x8e8, size 0x8
@@ -1659,7 +1659,7 @@ version 223 {
         // offset 0x7d8, size 0x30
         hash_6c116eea1f7184ec catalyst_transformation_denials;
         // offset 0x808, size 0x30
-        hash_6c116eea1f7184ec hash_339d53ba205eaeb1;
+        hash_6c116eea1f7184ec zm_daily_repack_weapons;
         // offset 0x838, size 0x30
         hash_6c116eea1f7184ec time_played_total;
         // offset 0x868, size 0x30
@@ -1925,7 +1925,7 @@ version 223 {
         // offset 0x1f88, size 0x30
         hash_6c116eea1f7184ec hash_2d90c6cd4a46b575;
         // offset 0x1fb8, size 0x30
-        hash_6c116eea1f7184ec hash_5913a206f4ee760c;
+        hash_6c116eea1f7184ec zm_daily_kills_packed_starting_pistol;
         // offset 0x1fe8, size 0x30
         hash_6c116eea1f7184ec perks_drank;
         // offset 0x2018, size 0x30
@@ -1959,7 +1959,7 @@ version 223 {
         // offset 0x22b0, size 0x30
         hash_6c116eea1f7184ec survivalist_board;
         // offset 0x22e0, size 0x30
-        hash_6c116eea1f7184ec hash_50bf31e073d80214;
+        hash_6c116eea1f7184ec zm_daily_pack_10_weapons;
         // offset 0x2310, size 0x30
         hash_6c116eea1f7184ec hash_40d2ff74fd37a2ab;
         // offset 0x2340, size 0x30
@@ -2281,7 +2281,7 @@ version 223 {
         // offset 0x3f20, size 0x30
         hash_6c116eea1f7184ec bats_killed;
         // offset 0x3f50, size 0x30
-        hash_6c116eea1f7184ec hash_328d6e683a2addc2;
+        hash_6c116eea1f7184ec zm_daily_purchase_doors;
         // offset 0x3f80, size 0x30
         hash_6c116eea1f7184ec zm_daily_purchase_perks;
         // offset 0x3fb0, size 0x30
@@ -2443,7 +2443,7 @@ version 223 {
         // offset 0x4d40, size 0x28
         hash_2b6b162a9af31225 hash_41dbde77a9bbd206;
         // offset 0x4d68, size 0x30
-        hash_6c116eea1f7184ec hash_291e79475ac19854;
+        hash_6c116eea1f7184ec zm_daily_pack_5_weapons;
         // offset 0x4d98, size 0x28
         hash_2b6b162a9af31225 hash_42eeb786529ab781;
         // offset 0x4dc0, size 0x30

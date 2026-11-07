@@ -244,7 +244,7 @@ function event_handler[level_init] main( eventstruct )
     getweapon( #"zitem_silver_molten_part_2" ).var_25bb96cc = #"zmb_silver_pu";
     getweapon( #"zitem_silver_molten_part_3" ).var_25bb96cc = #"zmb_silver_pu";
     getweapon( #"zitem_silver_bullet_part_1" ).var_25bb96cc = #"zmb_charcoal_pu";
-    getweapon( #"zitem_silver_bullet_part_2" ).var_25bb96cc = #"hash_b94435b24bcdaf7";
+    getweapon( #"zitem_silver_bullet_part_2" ).var_25bb96cc = #"zmb_saltpeter_pu";
     getweapon( #"zitem_silver_bullet_part_3" ).var_25bb96cc = #"zmb_sulfur_pu";
     zm_sq::start( #"zm_mansion_pap_quest", 1 );
     zm_sq::start( #"zm_mansion_silver_bullet", 1 );
@@ -729,7 +729,7 @@ function function_ea36bce3( str_weapon )
 // Size: 0x24, Type: bool
 function player_out_of_playable_area_monitor_callback()
 {
-    if ( isdefined( self.var_f22c83f5 ) && self.var_f22c83f5 )
+    if ( isdefined( self.b_ignore_playable_area_check ) && self.b_ignore_playable_area_check )
     {
         return false;
     }
@@ -1604,7 +1604,7 @@ function init_fasttravel()
 // Params 2
 // Checksum 0xff954dfe, Offset: 0x6720
 // Size: 0x406
-function function_c52e8ba( player, var_8d5d092c )
+function function_c52e8ba( player, str_cooldown )
 {
     b_result = 0;
     
@@ -1615,13 +1615,13 @@ function function_c52e8ba( player, var_8d5d092c )
     
     n_player_index = player getentitynumber();
     
-    if ( !self zm_fasttravel::function_d06e636b( player ) )
+    if ( !self zm_fasttravel::can_use_fasttravel( player ) )
     {
         self.hint_string[ n_player_index ] = #"";
     }
-    else if ( isdefined( self.stub.var_a4134e51 ) && !level flag::get( self.stub.var_a4134e51 ) )
+    else if ( isdefined( self.stub.level_flag_required ) && !level flag::get( self.stub.level_flag_required ) )
     {
-        switch ( self.stub.var_a4134e51 )
+        switch ( self.stub.level_flag_required )
         {
             case #"open_pap":
                 self.hint_string[ n_player_index ] = #"hash_6dcacaabbe757952";
@@ -1633,7 +1633,7 @@ function function_c52e8ba( player, var_8d5d092c )
         
         b_result = 1;
     }
-    else if ( isdefined( player.var_9c7b96ed[ var_8d5d092c ] ) && player.var_9c7b96ed[ var_8d5d092c ] )
+    else if ( isdefined( player.var_9c7b96ed[ str_cooldown ] ) && player.var_9c7b96ed[ str_cooldown ] )
     {
         self.hint_string[ n_player_index ] = #"zombie/generic_fasttravel_cooldown";
         b_result = 1;
@@ -2289,7 +2289,7 @@ function function_ff767eac()
                 zombie_werewolf_util::function_47a88a0c( 1, undefined, 1 );
                 break;
             case #"force_spawn_wolf":
-                zombie_dog_util::function_62db7b1c( 1, undefined );
+                zombie_dog_util::spawn_single_dog( 1, undefined );
                 break;
             case #"force_spawn_nosferatu":
                 zm_ai_nosferatu::function_74f25f8a( 1, undefined );
@@ -2319,14 +2319,14 @@ function function_ff767eac()
                 
                 break;
             case #"hash_2b311f89b1f9483a":
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 break;
             case #"hash_51d8ec3895703755":
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
             case #"hash_7b299dd5674009bb":
                 var_99a245 = getent( "<dev string:x3bf9>", "<dev string:x90>" );
@@ -2563,81 +2563,81 @@ function function_ff767eac()
                 level.var_584c4114 = getvehiclenode( "<dev string:x3d4b>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c7f>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_15125cf53616f2ab":
                 level.var_584c4114 = getvehiclenode( "<dev string:x3d6a>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c7f>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_63a191ef9ddff6a1":
                 level.var_584c4114 = getvehiclenode( "<dev string:x3d71>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c7f>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_4cae1f6081a88091":
                 level.var_584c4114 = getvehiclenode( "<dev string:x3d7b>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c93>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_39764bcce49b936d":
                 level.var_584c4114 = getvehiclenode( "<dev string:x3d89>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c93>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_68da4019022ea82a":
                 level.var_584c4114 = getvehiclenode( "<dev string:x3d94>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c93>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_519759be1fb9f671":
                 level.var_584c4114 = getvehiclenode( "<dev string:x3d9b>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c8a>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_392566928f90f17":
                 level.var_584c4114 = getvehiclenode( "<dev string:x3da5>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c8a>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_1ed2c1cfc4d8f32":
                 level.var_584c4114 = getvehiclenode( "<dev string:x3d24>", "<dev string:x3d55>" );
                 level.var_7ccd6341.var_1ed09409 = "<dev string:x3c76>";
                 level.var_7ccd6341.str_hint = "<dev string:x3c8a>";
-                level.var_bc07224f = 1;
-                level.var_d4fada4a = 1;
-                level.var_71561996 = 1;
+                level.n_souls_1p = 1;
+                level.n_souls_2p = 1;
+                level.n_souls_34p = 1;
                 level thread open_sesame();
                 break;
             case #"hash_575338253fb36c2":

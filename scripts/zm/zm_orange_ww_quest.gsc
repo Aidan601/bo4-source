@@ -260,13 +260,13 @@ function function_f7a8831a()
         self zm_unitrigger::unregister_unitrigger( self.s_unitrigger );
         level flag::set( #"ww_icicle_melting" );
         var_3eb924ae = spawn( "script_origin", self.origin );
-        var_3eb924ae playloopsound( #"hash_549b97233315d94" );
+        var_3eb924ae playloopsound( #"evt_icicle_boil_lp" );
         level.s_ww_quest.s_icicle_in_pot scene::play( "melt" );
         level.s_ww_quest.var_27a40ea3 = level.s_ww_quest.s_icicle_in_pot.scene_ents[ #"prop 1" ];
         level.s_ww_quest.var_27a40ea3 hidepart( "tag_icicle", "p8_fxanim_zm_orange_frozen_key", 1 );
         level.s_ww_quest.s_icicle_in_pot scene::play( "evaporate" );
         var_3eb924ae delete();
-        playsoundatposition( #"hash_1fe7d157e75bcb38", self.origin );
+        playsoundatposition( #"evt_icicle_boil_done", self.origin );
         level flag::clear( #"ww_icicle_melting" );
         level flag::set( #"ww_icicle_melted" );
     }
@@ -671,7 +671,7 @@ function ww_quest_step9_setup( var_5ea5c94d )
 {
     level.s_ww_quest.var_16c37c7f = struct::get( "reward_crate_dg1", "targetname" );
     var_16c37c7f = level.s_ww_quest.var_16c37c7f;
-    var_16c37c7f.e_lid = getent( var_16c37c7f.var_c8166135, "targetname" );
+    var_16c37c7f.e_lid = getent( var_16c37c7f.target_lid, "targetname" );
     var_16c37c7f.e_lock = getent( var_16c37c7f.target_lock, "targetname" );
     var_16c37c7f.e_weapon = getent( var_16c37c7f.target_weapon, "targetname" );
     

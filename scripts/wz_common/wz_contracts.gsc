@@ -253,9 +253,9 @@ function on_player_killed()
         attacker increment_wz_contract( #"contract_wz_swimming_kill" );
     }
     
-    if ( isdefined( attacker.var_700a5910 ) )
+    if ( isdefined( attacker.grappleendtime ) )
     {
-        dt = ( gettime() - attacker.var_700a5910 ) / 1000;
+        dt = ( gettime() - attacker.grappleendtime ) / 1000;
         
         if ( dt <= 3 )
         {

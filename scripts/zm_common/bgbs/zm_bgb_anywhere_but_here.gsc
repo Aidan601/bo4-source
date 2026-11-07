@@ -256,13 +256,13 @@ function function_91a62549()
         var_53b1aa43 = array::random( a_s_valid_respawn_points );
         var_5ce8e5f9 = struct::get_array( var_53b1aa43.target, "targetname" );
         
-        foreach ( var_5aff2c2c in var_5ce8e5f9 )
+        foreach ( s_respawn_pos in var_5ce8e5f9 )
         {
             n_script_int = self getentitynumber() + 1;
             
-            if ( var_5aff2c2c.script_int === n_script_int )
+            if ( s_respawn_pos.script_int === n_script_int )
             {
-                s_player_respawn = var_5aff2c2c;
+                s_player_respawn = s_respawn_pos;
             }
         }
     }

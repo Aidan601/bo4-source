@@ -27,7 +27,7 @@
 
 #namespace namespace_fc5c8455;
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0, eflags: 0x2
 // Checksum 0xd08f22d2, Offset: 0x320
 // Size: 0x44
@@ -36,7 +36,7 @@ function autoexec __init__system__()
     system::register( #"hash_32658a301920c858", &__init__, &__main__, undefined );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x280e7bad, Offset: 0x370
 // Size: 0x60c
@@ -74,7 +74,7 @@ function __init__()
     scene::add_scene_func( #"aib_vign_zm_mob_smelter_ghost", &function_6672db20, "play" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x6dfe31d6, Offset: 0x988
 // Size: 0xf4
@@ -97,7 +97,7 @@ function __main__()
     level thread function_b00fd241();
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x2180771d, Offset: 0xa88
 // Size: 0xb4
@@ -109,7 +109,7 @@ function function_d445bc55()
     level.var_cc5631a6 clientfield::set( "" + #"magma_fireplace_fx", 1 );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0x3a675d6b, Offset: 0xb48
 // Size: 0x52a
@@ -214,7 +214,7 @@ function function_842d114a( player )
     return 0;
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0, eflags: 0x4
 // Checksum 0xf2903349, Offset: 0x1080
 // Size: 0x258
@@ -255,7 +255,7 @@ function private function_cbe7f871()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0x490183b3, Offset: 0x12e0
 // Size: 0x494
@@ -326,7 +326,7 @@ function function_d74a3faf( e_player )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 2
 // Checksum 0x7b56301a, Offset: 0x1780
 // Size: 0x21c
@@ -369,7 +369,7 @@ function function_fcf0a319( e_player, var_a29167c5 )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 2
 // Checksum 0x55aae0c6, Offset: 0x19a8
 // Size: 0x182
@@ -405,7 +405,7 @@ function function_599013ad( e_player, var_98fbd60e )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0xd6604167, Offset: 0x1b38
 // Size: 0xb8
@@ -418,7 +418,7 @@ function function_a057cdf0()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x399182fa, Offset: 0x1bf8
 // Size: 0xb4
@@ -436,7 +436,7 @@ function magma_gat_disappear_fx()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x59d0822c, Offset: 0x1cb8
 // Size: 0x184
@@ -459,7 +459,7 @@ function function_d586e457()
     self clientfield::set( "" + #"magma_fireplace_fx", 3 );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1, eflags: 0x4
 // Checksum 0x77f19ddb, Offset: 0x1e48
 // Size: 0x2c2
@@ -502,7 +502,7 @@ function private function_11efbb03( e_player )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 2, eflags: 0x4
 // Checksum 0x83ecf9d0, Offset: 0x2118
 // Size: 0x72
@@ -527,7 +527,7 @@ function private wait_for_timeout( e_player, var_9bce3ebf )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0xdda15518, Offset: 0x2198
 // Size: 0x11c
@@ -542,7 +542,7 @@ function function_181eb502()
     wait 1;
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0xb0009b7b, Offset: 0x22c0
 // Size: 0x96
@@ -555,7 +555,7 @@ function function_6eca1fcc( str_notify )
     var_9eb4d270.s_unitrigger_stub.e_player = undefined;
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0xac88988, Offset: 0x2360
 // Size: 0xb4
@@ -572,7 +572,7 @@ function function_ed30e654( s_params )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x41b47488, Offset: 0x2420
 // Size: 0x154
@@ -595,7 +595,7 @@ function function_1ff8ba1()
     var_88f24b00 delete();
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0x535440b1, Offset: 0x2580
 // Size: 0x4b0
@@ -671,7 +671,7 @@ function function_9689b55c( var_88f24b00 )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0x1e861d38, Offset: 0x2a38
 // Size: 0x70
@@ -686,7 +686,7 @@ function function_dd30dc9a( var_146228fb )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0x25ebd26e, Offset: 0x2ab0
 // Size: 0xc4
@@ -706,7 +706,7 @@ function function_ce0bd88a( var_146228fb )
     self delete();
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0x414744f4, Offset: 0x2b80
 // Size: 0xbc
@@ -724,7 +724,7 @@ function function_4022d369( var_6282581e )
     level flag::set( #"hash_3ec656e276ceee53" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x1d1c6c22, Offset: 0x2c48
 // Size: 0x128
@@ -764,7 +764,7 @@ function function_8b619951()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x5fe7f645, Offset: 0x2d78
 // Size: 0x2be
@@ -818,7 +818,7 @@ function function_6222e98f()
     self.n_cooldown_time = undefined;
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0xebb366c7, Offset: 0x3040
 // Size: 0x2a2
@@ -871,7 +871,7 @@ function function_95a4deeb()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x3fdf1eb4, Offset: 0x32f0
 // Size: 0x1dc
@@ -901,7 +901,7 @@ function function_6b09dab1()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0xdeff2d02, Offset: 0x34d8
 // Size: 0x140
@@ -923,7 +923,7 @@ function function_7f19d274()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x321be5af, Offset: 0x3620
 // Size: 0x160
@@ -947,7 +947,7 @@ function function_ff4e7fcd()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0xc9a830d8, Offset: 0x3788
 // Size: 0x3a
@@ -961,7 +961,7 @@ function function_bc77319a( player )
     return 0;
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x79a1dec8, Offset: 0x37d0
 // Size: 0x2a0
@@ -1013,7 +1013,7 @@ function function_3e6b7a2d()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0, eflags: 0x4
 // Checksum 0xa69e9d26, Offset: 0x3a78
 // Size: 0x2a
@@ -1024,7 +1024,7 @@ function private function_e02f6600()
     self.var_a40e9d01 = undefined;
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x41af3fdb, Offset: 0x3ab0
 // Size: 0xdc
@@ -1040,7 +1040,7 @@ function function_e1f2fb39()
     exploder::stop_exploder( "blue_fire" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0xda51823b, Offset: 0x3b98
 // Size: 0xa4
@@ -1052,7 +1052,7 @@ function function_316db647()
     zm_unitrigger::unitrigger_force_per_player_triggers( var_dc49a24d.s_unitrigger_stub );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0x9caeb125, Offset: 0x3c48
 // Size: 0x59a
@@ -1155,7 +1155,7 @@ function function_77e65267( player )
     return 0;
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x3ecea4ea, Offset: 0x41f0
 // Size: 0x8a0
@@ -1298,7 +1298,7 @@ function function_d3db303d()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 2
 // Checksum 0x64eb6888, Offset: 0x4a98
 // Size: 0x234
@@ -1348,7 +1348,7 @@ function function_e672cf9( e_player, var_fc074136 )
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0xa616e0a8, Offset: 0x4cd8
 // Size: 0x1d4
@@ -1367,7 +1367,7 @@ function function_6672db20( a_ents )
     var_48c0a804 clientfield::set( "" + #"hash_7692067c56d8b6cc", 0 );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1, eflags: 0x4
 // Checksum 0x13eafad9, Offset: 0x4eb8
 // Size: 0x160
@@ -1394,7 +1394,7 @@ function private function_a6a91f7a( var_f2528cbc )
     return 1;
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 1
 // Checksum 0xf46e3720, Offset: 0x5020
 // Size: 0x8e
@@ -1411,7 +1411,7 @@ function function_ecc34f71( e_player )
 
 /#
 
-    // Namespace namespace_fc5c8455/namespace_8d08012b
+    // Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
     // Params 0
     // Checksum 0xc3d29318, Offset: 0x50b8
     // Size: 0x84, Type: dev
@@ -1427,7 +1427,7 @@ function function_ecc34f71( e_player )
         adddebugcommand( "<dev string:xf8>" );
     }
 
-    // Namespace namespace_fc5c8455/namespace_8d08012b
+    // Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
     // Params 1
     // Checksum 0xc7881620, Offset: 0x5148
     // Size: 0x14a, Type: dev
@@ -1452,7 +1452,7 @@ function function_ecc34f71( e_player )
 
 #/
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0xaaa4142f, Offset: 0x52a0
 // Size: 0x34c
@@ -1511,7 +1511,7 @@ function function_b00fd241()
     array::thread_all( a_s_key_doors, &function_48c915fa );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 2
 // Checksum 0xbbc1ba2a, Offset: 0x55f8
 // Size: 0x34
@@ -1520,7 +1520,7 @@ function function_6fe98729( e_holder, w_item )
     self playsound( #"zmb_crafting_pickup_generic" );
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0
 // Checksum 0x9e93e2cc, Offset: 0x5638
 // Size: 0x432
@@ -1596,7 +1596,7 @@ function function_48c915fa()
     }
 }
 
-// Namespace namespace_fc5c8455/namespace_8d08012b
+// Namespace namespace_fc5c8455/zm_escape_weap_quest_mg
 // Params 0, eflags: 0x4
 // Checksum 0xb450267f, Offset: 0x5a78
 // Size: 0xb4

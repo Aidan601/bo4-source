@@ -19,7 +19,7 @@ function autoexec __init__system__()
 // Size: 0x34
 function __init__()
 {
-    function_27473e44();
+    enable_perk_for_level();
     zm_perks::function_f3c80d73( "zombie_perk_bottle_bandolier", "zombie_perk_totem_bandolier" );
 }
 
@@ -27,7 +27,7 @@ function __init__()
 // Params 0
 // Checksum 0x638eb393, Offset: 0x188
 // Size: 0xe4
-function function_27473e44()
+function enable_perk_for_level()
 {
     zm_perks::register_perk_clientfields( #"specialty_extraammo", &function_12161a30, &function_b10a7225 );
     zm_perks::register_perk_effects( #"specialty_extraammo", "sleight_light" );

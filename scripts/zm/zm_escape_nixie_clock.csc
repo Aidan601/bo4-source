@@ -3,7 +3,7 @@
 
 #namespace namespace_1063645;
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 0
 // Checksum 0x652fa2fe, Offset: 0xb0
 // Size: 0xe2
@@ -14,7 +14,7 @@ function init_clientfields()
     level._effect[ #"hash_62343c2144d3f8d1" ] = #"hash_e567a706dafea31";
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 7
 // Checksum 0x94e8020d, Offset: 0x1a0
 // Size: 0xb4
@@ -32,7 +32,7 @@ function zombie_blood_powerup_fx( localclientnum, oldval, newval, bnewent, binit
     }
 }
 
-// Namespace namespace_1063645/namespace_fdf9d496
+// Namespace namespace_1063645/zm_escape_nixie_clock
 // Params 7
 // Checksum 0xf0f19f41, Offset: 0x260
 // Size: 0x134

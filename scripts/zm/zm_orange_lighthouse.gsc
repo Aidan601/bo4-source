@@ -555,7 +555,7 @@ function function_76ff758d()
 // Params 1
 // Checksum 0x8302eb5f, Offset: 0x1ba8
 // Size: 0x84
-function function_56b9aca4( e_activator )
+function burnduplicatesoptions( e_activator )
 {
     var_82224aaf = isdefined( self.var_82224aaf ) ? self.var_82224aaf : 500;
     a_e_targets = e_activator getenemiesinradius( self.origin, var_82224aaf );
@@ -656,7 +656,7 @@ function function_27304b98( var_a5a067c5, var_a75e9b3b )
 function function_ef69a891( var_a5a067c5, e_activator )
 {
     self endon( #"death", #"trap_state_change" );
-    e_target = var_a5a067c5 function_56b9aca4( e_activator );
+    e_target = var_a5a067c5 burnduplicatesoptions( e_activator );
     
     if ( !isdefined( e_target ) )
     {
@@ -665,7 +665,7 @@ function function_ef69a891( var_a5a067c5, e_activator )
         while ( !isdefined( e_target ) )
         {
             wait 0.1;
-            e_target = var_a5a067c5 function_56b9aca4( e_activator );
+            e_target = var_a5a067c5 burnduplicatesoptions( e_activator );
         }
     }
     
@@ -762,7 +762,7 @@ function electrocute_player()
 // Size: 0xf4
 function trap_switch_init()
 {
-    self.var_223285b1 = getvehiclenode( self.var_40d27c6d, "targetname" );
+    self.var_223285b1 = getvehiclenode( self.node_trap_start, "targetname" );
     a_pieces = zm_hms_util::function_bffcedde( self.target, "targetname", "script_noteworthy" );
     self.mdl_switch = a_pieces[ #"switch" ];
     self.mdl_light = a_pieces[ #"light" ];

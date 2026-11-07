@@ -1,5 +1,5 @@
 {
-    "contracticon": "image#hash_77cc678b88eabedd",
+    "contracticon": "image#ui_icon_blackmarket_contraband_season_04mid",
     "hash_10c7ab2b58774379:hash_2e7ca5b9": "core_frontend_rng_reserve",
     "hash_170243cfdcd07174:hash_94988c2": "image#ui_icon_blackmarket_store_tile_focus_03",
     "contracticonsmall": "image#ui_icon_blackmarket_lockskull_256",
@@ -11,7 +11,7 @@
     "hash_474c547bf0f2c029:hash_baba4cf5": "localized17#hash_42cb9ce8048cb144",
     "bannerstring": "localized17#mpui/halloween_event",
     "promopopupdesc": "localized17#hash_1f1e4314badb48e3",
-    "bannerimage": "image#hash_24e09b7d29a3dc85",
+    "bannerimage": "image#ui_icon_blackmarket_banner_season_04mid",
     "hash_69014841451a5872:hash_f15e270f": "#white",
     "hash_751e7101b70c8a6c:hash_998f25eb": "image#ui_icon_blackmarket_store_tile_default_03",
     "squareimage": "image#ui_icon_blackmarket_store_tile_default_04",

@@ -129,7 +129,7 @@ function function_d878e1ee( var_a276c861 )
         level flag::wait_till( #"soapstone_step_complete" );
         e_fuse = getent( "porridge", "targetname" );
         e_fuse.s_unitrigger = e_fuse zm_unitrigger::create( "", 96 );
-        e_fuse function_afa2f621();
+        e_fuse fuse_think();
     }
 }
 
@@ -146,7 +146,7 @@ function function_a9c8883f()
 // Params 0
 // Checksum 0xe52d6cc6, Offset: 0x9d8
 // Size: 0x8c
-function function_afa2f621()
+function fuse_think()
 {
     s_activation = self waittill( #"trigger_activated" );
     self playsound( #"evt_fuse_pickup" );

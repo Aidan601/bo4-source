@@ -41,7 +41,7 @@ function __init__()
 // Size: 0x84
 function function_87d68f99( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    self thread postfx::playpostfxbundle( #"hash_114ea20734e794cf" );
+    self thread postfx::playpostfxbundle( #"pstfx_zm_esc_jumpscare" );
     playsound( localclientnum, #"zmb_escape_scream_2d", ( 0, 0, 0 ) );
 }
 

@@ -246,7 +246,7 @@ function function_367e3573( force = 0 )
             continue;
         }
         
-        if ( !isdefined( ai_enemy.var_c6e0686b ) || ai_enemy.var_c6e0686b <= getdvarfloat( #"hash_24b315ce6034ab1c", 500000 ) )
+        if ( !isdefined( ai_enemy.last_closest_player_dist ) || ai_enemy.last_closest_player_dist <= getdvarfloat( #"hash_24b315ce6034ab1c", 500000 ) )
         {
             continue;
         }
@@ -262,7 +262,7 @@ function function_367e3573( force = 0 )
                 continue;
             }
             
-            if ( ai_enemy.var_c6e0686b > var_1ae24209.var_c6e0686b )
+            if ( ai_enemy.last_closest_player_dist > var_1ae24209.last_closest_player_dist )
             {
                 var_1ae24209 = ai_enemy;
             }
@@ -440,21 +440,21 @@ function function_3b2d308f( player, zone )
     }
     
     var_87d682f9 = "zombie_spawn_tacquery_" + level.players.size + "player";
-    var_a83960b5 = function_dad4891b( player );
+    other_players = function_dad4891b( player );
     
-    switch ( var_a83960b5.size )
+    switch ( other_players.size )
     {
         case 0:
             var_e50a845c = tacticalquery( var_87d682f9, zone.nodes[ 0 ], player );
             break;
         case 1:
-            var_e50a845c = tacticalquery( var_87d682f9, zone.nodes[ 0 ], player, var_a83960b5[ 0 ] );
+            var_e50a845c = tacticalquery( var_87d682f9, zone.nodes[ 0 ], player, other_players[ 0 ] );
             break;
         case 2:
-            var_e50a845c = tacticalquery( var_87d682f9, zone.nodes[ 0 ], player, var_a83960b5[ 0 ], var_a83960b5[ 1 ] );
+            var_e50a845c = tacticalquery( var_87d682f9, zone.nodes[ 0 ], player, other_players[ 0 ], other_players[ 1 ] );
             break;
         case 3:
-            var_e50a845c = tacticalquery( var_87d682f9, zone.nodes[ 0 ], player, var_a83960b5[ 0 ], var_a83960b5[ 1 ], var_a83960b5[ 2 ] );
+            var_e50a845c = tacticalquery( var_87d682f9, zone.nodes[ 0 ], player, other_players[ 0 ], other_players[ 1 ], other_players[ 2 ] );
             break;
         default:
             var_e50a845c = tacticalquery( "zombie_spawn_tacquery_1player", zone.nodes[ 0 ], player );
@@ -551,7 +551,7 @@ function function_f1ec5df( player, direction, var_ef0ae03b )
 // Size: 0xf0
 function private function_dad4891b( player_in )
 {
-    var_a83960b5 = [];
+    other_players = [];
     
     foreach ( player in getplayers() )
     {
@@ -560,19 +560,19 @@ function private function_dad4891b( player_in )
             continue;
         }
         
-        if ( !isdefined( var_a83960b5 ) )
+        if ( !isdefined( other_players ) )
         {
-            var_a83960b5 = [];
+            other_players = [];
         }
-        else if ( !isarray( var_a83960b5 ) )
+        else if ( !isarray( other_players ) )
         {
-            var_a83960b5 = array( var_a83960b5 );
+            other_players = array( other_players );
         }
         
-        var_a83960b5[ var_a83960b5.size ] = player;
+        other_players[ other_players.size ] = player;
     }
     
-    return var_a83960b5;
+    return other_players;
 }
 
 /#

@@ -468,10 +468,10 @@ function function_8916aa62( str_line )
             str_vo_line = #"hash_3a5e26183d8b51c1";
             break;
         case #"interact_apollo_arrow":
-            str_vo_line = #"hash_499d5f58bb808122";
+            str_vo_line = #"vox_interact_apollo_arrow_orac_0";
             break;
         case #"interact_automaton":
-            str_vo_line = #"hash_48e9f010df79bf6b";
+            str_vo_line = #"vox_interact_automaton_orac_0";
             break;
         case #"interact_jewelry_box":
             str_vo_line = #"hash_4ca81ffc1793c4fd";
@@ -483,7 +483,7 @@ function function_8916aa62( str_line )
             str_vo_line = #"hash_26935699e93f1db7";
             break;
         case #"interact_sandals":
-            str_vo_line = #"hash_13ae4ec246717759";
+            str_vo_line = #"vox_interact_sandals_orac_0";
             break;
         case #"interact_treasure_chest":
             str_vo_line = #"hash_4125f996df00a018";

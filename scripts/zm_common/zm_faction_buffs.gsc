@@ -380,13 +380,13 @@ function private function_68992377( var_c5b25bc5, var_97f3fbb7 )
     // Params 3, eflags: 0x20 variadic
     // Checksum 0x42959f1a, Offset: 0x1040
     // Size: 0x74, Type: dev
-    function function_c1ccd7f3( var_fc09f1a3, n_player, ... )
+    function function_c1ccd7f3( func_to_run, n_player, ... )
     {
         a_e_players = getplayers();
         
         if ( a_e_players.size >= n_player )
         {
-            util::single_func_argarray( a_e_players[ n_player - 1 ], var_fc09f1a3, vararg );
+            util::single_func_argarray( a_e_players[ n_player - 1 ], func_to_run, vararg );
         }
     }
 

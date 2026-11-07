@@ -21,7 +21,7 @@
                         },
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_611756199e43489c"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_man_prima_materia_slide"
                         }
                     ],
                     "list_stages": 2,
@@ -52,7 +52,7 @@
                         },
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_611756199e43489c"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_man_prima_materia_slide"
                         }
                     ],
                     "list_stages": 2,
@@ -63,15 +63,15 @@
                     "stages": [
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_74b40026657ada6"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_bat_bile_01"
                         },
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_74b3f026657abf3"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_bat_bile_02"
                         },
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_74b3e026657aa40"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_bat_bile_03"
                         },
                         {
                             "numneeded": 1,
@@ -79,7 +79,7 @@
                         },
                         {
                             "numneeded": 1,
-                            "stageimage": "image#hash_611756199e43489c"
+                            "stageimage": "image#ui_icon_zm_inventory_dlc1_man_prima_materia_slide"
                         }
                     ],
                     "list_stages": 5,
@@ -216,7 +216,7 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_5312df75db1e29b0"
+                                    "stageimage": "image#ui_icon_zm_inventory_dlc1_man_sterling_silver_ice_bucket"
                                 }
                             ],
                             "list_stages": 1,
@@ -226,7 +226,7 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_4fc60e1de97db607"
+                                    "stageimage": "image#ui_icon_zm_inventory_dlc1_man_sterling_silver_candelabra"
                                 }
                             ],
                             "list_stages": 1,
@@ -236,7 +236,7 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_6d65ab9978d0050a"
+                                    "stageimage": "image#ui_icon_zm_inventory_dlc1_man_sterling_silver_tray"
                                 }
                             ],
                             "list_stages": 1,
@@ -251,7 +251,7 @@
                         {
                             "stages": [
                                 {
-                                    "stageimage": "image#hash_4ef6939ca6e195b7"
+                                    "stageimage": "image#ui_icon_zm_inventory_dlc1_man_smelting_ladle"
                                 }
                             ],
                             "list_stages": 1,

@@ -269,18 +269,18 @@ function player_track_ammo_count()
         if ( weapon.clipsize > 3 )
         {
             var_6814b80a = mapfloat( 1, 200, 1, 0.3, weapon.clipsize );
-            var_89557197 = ceil( var_6814b80a * weapon.clipsize );
+            lowammothreshold = ceil( var_6814b80a * weapon.clipsize );
             
             if ( isdefined( level.var_142dc1b8 ) && isdefined( level.var_142dc1b8[ weapon.name ] ) )
             {
-                var_89557197 = level.var_142dc1b8[ weapon.name ];
+                lowammothreshold = level.var_142dc1b8[ weapon.name ];
             }
             else if ( ammostock < 1 )
             {
-                var_89557197 += 10;
+                lowammothreshold += 10;
             }
             
-            if ( ammocount > var_89557197 || self laststand::player_is_in_laststand() )
+            if ( ammocount > lowammothreshold || self laststand::player_is_in_laststand() )
             {
                 ammooutcount = 0;
                 ammolowcount = 0;
@@ -289,9 +289,9 @@ function player_track_ammo_count()
         }
         else
         {
-            var_89557197 = min( 5, floor( ( weapon.clipsize + weapon.maxammo ) / 2 ) );
+            lowammothreshold = min( 5, floor( ( weapon.clipsize + weapon.maxammo ) / 2 ) );
             
-            if ( ammocount > var_89557197 || self laststand::player_is_in_laststand() )
+            if ( ammocount > lowammothreshold || self laststand::player_is_in_laststand() )
             {
                 ammooutcount = 0;
                 ammolowcount = 0;
@@ -1041,7 +1041,7 @@ function player_out_of_playable_area_monitor()
             continue;
         }
         
-        if ( self.var_f22c83f5 === 1 )
+        if ( self.b_ignore_playable_area_check === 1 )
         {
             wait get_player_out_of_playable_area_monitor_wait_time();
             continue;

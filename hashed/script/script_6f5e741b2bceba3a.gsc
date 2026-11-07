@@ -102,7 +102,7 @@ function private on_end( round_reset )
     
     foreach ( s_wallbuy in level._spawned_wallbuys )
     {
-        s_wallbuy.trigger_stub zm_white_toast::function_cf62f3c7();
+        s_wallbuy.trigger_stub zm_white_toast::unlock_device();
     }
 }
 

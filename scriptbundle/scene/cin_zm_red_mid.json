@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_13920df3c2c4398c",
+                            "anim": "playeranim#ch_zm_red_mid_sh005_stanton",
                             "entrytype": "anim"
                         },
                         {
@@ -38,7 +38,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_712b0c71e5226f76",
+                            "anim": "playeranim#ch_zm_red_mid_sh010_stanton",
                             "entrytype": "anim"
                         },
                         {
@@ -71,7 +71,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_2dfdc3c2a1cb7e85",
+                            "anim": "playeranim#ch_zm_red_mid_sh020_stanton",
                             "entrytype": "anim"
                         },
                         {
@@ -104,7 +104,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_4d82644c30bb143c",
+                            "anim": "playeranim#ch_zm_red_mid_sh030_stanton",
                             "entrytype": "anim"
                         },
                         {
@@ -137,7 +137,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_277367eb6bb01383",
+                            "anim": "playeranim#ch_zm_red_mid_sh040_stanton",
                             "entrytype": "anim"
                         },
                         {
@@ -170,7 +170,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_7246c019e74a6dba",
+                            "anim": "playeranim#ch_zm_red_mid_sh050_stanton",
                             "entrytype": "anim"
                         },
                         {
@@ -203,7 +203,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_11a464f3900004a9",
+                            "anim": "playeranim#ch_zm_red_mid_sh060_stanton",
                             "entrytype": "anim"
                         },
                         {
@@ -262,7 +262,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_30286fa520b4a6d5",
+                            "anim": "playeranim#ch_zm_red_mid_sh005_bruno",
                             "entrytype": "anim"
                         },
                         {
@@ -295,7 +295,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_3cbd06463da131b7",
+                            "anim": "playeranim#ch_zm_red_mid_sh010_bruno",
                             "entrytype": "anim"
                         },
                         {
@@ -328,7 +328,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_28d8b14b4db0d2ec",
+                            "anim": "playeranim#ch_zm_red_mid_sh020_bruno",
                             "entrytype": "anim"
                         },
                         {
@@ -361,7 +361,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_53d0a0e364499fe5",
+                            "anim": "playeranim#ch_zm_red_mid_sh030_bruno",
                             "entrytype": "anim"
                         },
                         {
@@ -394,7 +394,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_25d3aa55cc146ae2",
+                            "anim": "playeranim#ch_zm_red_mid_sh040_bruno",
                             "entrytype": "anim"
                         },
                         {
@@ -427,7 +427,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_17f284dc35f49bab",
+                            "anim": "playeranim#ch_zm_red_mid_sh050_bruno",
                             "entrytype": "anim"
                         },
                         {
@@ -460,7 +460,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "playeranim#hash_3f0377592d0547b0",
+                            "anim": "playeranim#ch_zm_red_mid_sh060_bruno",
                             "entrytype": "anim"
                         },
                         {
@@ -542,7 +542,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2883ca95a09592f2",
+                            "anim": "anim#o_zm_red_mid_sh010_knife",
                             "entrytype": "anim"
                         }
                     ],
@@ -572,7 +572,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_32f1094276027bed",
+                            "anim": "anim#o_zm_red_mid_sh020_knife",
                             "entrytype": "anim"
                         }
                     ],
@@ -601,7 +601,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_72de9bc739604b44",
+                            "anim": "anim#o_zm_red_mid_sh030_knife",
                             "entrytype": "anim"
                         }
                     ],
@@ -630,7 +630,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4de6609bc314872f",
+                            "anim": "anim#o_zm_red_mid_sh040_knife",
                             "entrytype": "anim"
                         }
                     ],
@@ -659,7 +659,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_16a654ab264c4436",
+                            "anim": "anim#o_zm_red_mid_sh050_knife",
                             "entrytype": "anim"
                         }
                     ],
@@ -688,7 +688,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5789d5cabad318f1",
+                            "anim": "anim#o_zm_red_mid_sh060_knife",
                             "entrytype": "anim"
                         }
                     ],
@@ -766,7 +766,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_40e38e5095576a99",
+                            "anim": "anim#o_zm_red_mid_sh010_staff",
                             "entrytype": "anim"
                         }
                     ],
@@ -795,7 +795,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_76f7d1d285a9dc0a",
+                            "anim": "anim#o_zm_red_mid_sh020_staff",
                             "entrytype": "anim"
                         }
                     ],
@@ -824,7 +824,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_33dae3414fb23f93",
+                            "anim": "anim#o_zm_red_mid_sh030_staff",
                             "entrytype": "anim"
                         }
                     ],
@@ -853,7 +853,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_eba4d2c6ae57b1c",
+                            "anim": "anim#o_zm_red_mid_sh040_staff",
                             "entrytype": "anim"
                         }
                     ],
@@ -882,7 +882,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_8f520b0a7e21bdd",
+                            "anim": "anim#o_zm_red_mid_sh050_staff",
                             "entrytype": "anim"
                         }
                     ],
@@ -911,7 +911,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7f7a48397ef6401e",
+                            "anim": "anim#o_zm_red_mid_sh060_staff",
                             "entrytype": "anim"
                         }
                     ],
@@ -966,7 +966,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1a71bd752a07574f",
+                            "anim": "anim#o_zm_red_mid_sh005_door",
                             "entrytype": "anim"
                         }
                     ],
@@ -995,7 +995,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_13c7d0e087f516e1",
+                            "anim": "anim#o_zm_red_mid_sh010_door",
                             "entrytype": "anim"
                         }
                     ],
@@ -1024,7 +1024,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5a0d1348fc76fbc4",
+                            "anim": "anim#o_zm_red_mid_sh020_door",
                             "entrytype": "anim"
                         }
                     ],
@@ -1053,7 +1053,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_73a0d3e8fddbd79f",
+                            "anim": "anim#o_zm_red_mid_sh030_door",
                             "entrytype": "anim"
                         }
                     ],
@@ -1082,7 +1082,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_39d1ed1e56e38dba",
+                            "anim": "anim#o_zm_red_mid_sh040_door",
                             "entrytype": "anim"
                         }
                     ],
@@ -1111,7 +1111,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_293d86a08c5a041d",
+                            "anim": "anim#o_zm_red_mid_sh050_door",
                             "entrytype": "anim"
                         }
                     ],
@@ -1140,7 +1140,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_29c728b78c027fa0",
+                            "anim": "anim#o_zm_red_mid_sh060_door",
                             "entrytype": "anim"
                         }
                     ],
@@ -1218,7 +1218,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_25402fb7b475d216",
+                            "anim": "anim#ch_zm_red_mid_sh010_skeleton",
                             "entrytype": "anim"
                         }
                     ],
@@ -1247,7 +1247,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4232e0ed1a065a03",
+                            "anim": "anim#ch_zm_red_mid_sh020_skeleton",
                             "entrytype": "anim"
                         }
                     ],
@@ -1276,7 +1276,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_531329a7957cfd0",
+                            "anim": "anim#ch_zm_red_mid_sh030_skeleton",
                             "entrytype": "anim"
                         }
                     ],
@@ -1305,7 +1305,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_78def91dd3a36435",
+                            "anim": "anim#ch_zm_red_mid_sh040_skeleton",
                             "entrytype": "anim"
                         }
                     ],
@@ -1334,7 +1334,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1da3a8feefad2b4a",
+                            "anim": "anim#ch_zm_red_mid_sh050_skeleton",
                             "entrytype": "anim"
                         }
                     ],
@@ -1363,7 +1363,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4c21e339affa09f7",
+                            "anim": "anim#ch_zm_red_mid_sh060_skeleton",
                             "entrytype": "anim"
                         }
                     ],

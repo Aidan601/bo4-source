@@ -357,7 +357,7 @@ function function_4b01369a()
     {
         s_waitresult = level waittill( #"trap_activated" );
         t_trap = s_waitresult.trap;
-        str_triggers = t_trap.var_a1aa5fa1;
+        str_triggers = t_trap.script_trigger_side;
         
         if ( isdefined( str_triggers ) )
         {
@@ -652,7 +652,7 @@ function function_1eddbf9e()
     {
         s_result = level waittill( #"hash_46267aa0f17a3c00" );
         
-        if ( isdefined( s_result.var_8571ab76 ) && s_result.var_8571ab76 )
+        if ( isdefined( s_result.b_on_platform ) && s_result.b_on_platform )
         {
             var_c265cd7f++;
             
@@ -676,14 +676,14 @@ function function_1eddbf9e()
 function function_c74f4cf4()
 {
     level endon( #"end_game", #"hash_5bc627cff03bad5" );
-    var_22fbe1cc = 0;
+    n_round_counter = 0;
     
     while ( true )
     {
         level waittill( #"end_of_round" );
-        var_22fbe1cc++;
+        n_round_counter++;
         
-        if ( var_22fbe1cc >= 7 )
+        if ( n_round_counter >= 7 )
         {
             level notify( #"hash_205c15aeab8e14c4" );
             level thread zm_audio::sndmusicsystem_stopandflush();
@@ -710,14 +710,14 @@ function function_def71ac3()
         if ( self.var_b3122c84 == #"hash_4a67009994e6a476" && !( isdefined( self.var_a4ab5d88 ) && self.var_a4ab5d88 ) )
         {
             self.var_a4ab5d88 = 1;
-            level notify( #"hash_46267aa0f17a3c00", { #var_8571ab76:1 } );
+            level notify( #"hash_46267aa0f17a3c00", { #b_on_platform:1 } );
             continue;
         }
         
         if ( isdefined( self.var_a4ab5d88 ) && self.var_a4ab5d88 )
         {
             self.var_a4ab5d88 = 0;
-            level notify( #"hash_46267aa0f17a3c00", { #var_8571ab76:0 } );
+            level notify( #"hash_46267aa0f17a3c00", { #b_on_platform:0 } );
         }
     }
 }

@@ -419,7 +419,7 @@ function function_9f206255()
     assert( isdefined( var_453ce50f ), "<dev string:x38>" );
     var_453ce50f show();
     v_starting_origin = var_453ce50f.origin;
-    var_5287d229 = var_453ce50f.angles;
+    v_starting_angles = var_453ce50f.angles;
     v_forward = anglestoforward( var_453ce50f.angles );
     wait 0.5;
     var_453ce50f playsound( "evt_ee_punchcard_insert" );
@@ -429,7 +429,7 @@ function function_9f206255()
     var_453ce50f waittill( #"movedone" );
     var_453ce50f hide();
     var_453ce50f.origin = v_starting_origin;
-    var_453ce50f.angles = var_5287d229;
+    var_453ce50f.angles = v_starting_angles;
     level flag::clear( #"card_inserted" );
 }
 

@@ -1368,14 +1368,14 @@ function get_attackable( entity, var_83917763 )
         
         foreach ( attackable in level.attackables )
         {
-            if ( !isdefined( attackable.var_b79a8ac7 ) || !isdefined( attackable.var_b79a8ac7.var_f019ea1a ) )
+            if ( !isdefined( attackable.var_b79a8ac7 ) || !isdefined( attackable.var_b79a8ac7.attraction_radius ) )
             {
                 continue;
             }
             
             dist = distancesquared( entity.origin, attackable.origin );
             
-            if ( dist < attackable.var_b79a8ac7.var_f019ea1a * attackable.var_b79a8ac7.var_f019ea1a )
+            if ( dist < attackable.var_b79a8ac7.attraction_radius * attackable.var_b79a8ac7.attraction_radius )
             {
                 if ( attackable get_attackable_slot( entity ) )
                 {
@@ -1421,12 +1421,12 @@ function get_attackable_slot( entity )
     
     if ( strteleportst.on_navmesh )
     {
-        var_acdc8d71 = getclosestpointonnavmesh( strteleportst.origin, entity getpathfindingradius(), entity getpathfindingradius() );
+        closest_point_on_navmesh = getclosestpointonnavmesh( strteleportst.origin, entity getpathfindingradius(), entity getpathfindingradius() );
         
-        if ( isdefined( var_acdc8d71 ) )
+        if ( isdefined( closest_point_on_navmesh ) )
         {
             strteleportst.entity = entity;
-            entity.var_b238ef38 = { #slot:strteleportst, #position:var_acdc8d71 };
+            entity.var_b238ef38 = { #slot:strteleportst, #position:closest_point_on_navmesh };
             return true;
         }
     }
@@ -1532,13 +1532,13 @@ function function_bdb2b85b( entity, origin, angles, radius, num_spots, var_7a263
         {
             if ( isdefined( var_7a2632b5 ) )
             {
-                var_acdc8d71 = getclosestpointonnavmesh( var_c060661b, var_7a2632b5, 15 );
+                closest_point_on_navmesh = getclosestpointonnavmesh( var_c060661b, var_7a2632b5, 15 );
             }
             
             /#
-                if ( isdefined( var_acdc8d71 ) )
+                if ( isdefined( closest_point_on_navmesh ) )
                 {
-                    recordstar( var_acdc8d71, ( 1, 0, 1 ) );
+                    recordstar( closest_point_on_navmesh, ( 1, 0, 1 ) );
                 }
             #/
             
@@ -1546,7 +1546,7 @@ function function_bdb2b85b( entity, origin, angles, radius, num_spots, var_7a263
                 recordstar( var_c060661b, ( 1, 0.5, 0 ) );
             #/
             
-            slots[ slots.size ] = { #origin:var_c060661b, #on_navmesh:0, #var_acdc8d71:var_acdc8d71 };
+            slots[ slots.size ] = { #origin:var_c060661b, #on_navmesh:0, #closest_point_on_navmesh:closest_point_on_navmesh };
         }
         
         if ( i % 2 == 1 )

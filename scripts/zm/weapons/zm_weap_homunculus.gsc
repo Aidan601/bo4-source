@@ -177,7 +177,7 @@ function function_dcaa7a4a( e_grenade, var_bbab4f84, var_c4a5788c, var_2f916462 
     
     if ( e_grenade.weapon == getweapon( #"homunculus_leprechaun" ) )
     {
-        var_9ddf478 = #"hash_5e7f95fc402bc5f8";
+        var_9ddf478 = #"c_t8_bo_homunculus_patty_fb1_zm";
     }
     else
     {
@@ -509,7 +509,7 @@ function function_c6551b38( var_dd74d130 )
 function function_2c022ba8( e_player, e_grenade )
 {
     var_b1c1c5cf = zm_equipment::function_7d948481( 0.1, 0.25, 0.25, 1 );
-    var_5d7b4163 = zm_equipment::function_379f6b5d( 500, var_b1c1c5cf, 1, 4, 50 );
+    n_scaled_damage = zm_equipment::function_379f6b5d( 500, var_b1c1c5cf, 1, 4, 50 );
     
     switch ( self.zm_ai_category )
     {
@@ -523,7 +523,7 @@ function function_2c022ba8( e_player, e_grenade )
                 e_grenade thread function_4d71ac38( #"vox_homun_kill_homu" );
             }
             
-            self dodamage( var_5d7b4163, self.origin, e_player, undefined, undefined, "MOD_UNKNOWN", 0, level.w_homunculus, undefined, 1 );
+            self dodamage( n_scaled_damage, self.origin, e_player, undefined, undefined, "MOD_UNKNOWN", 0, level.w_homunculus, undefined, 1 );
             
             if ( self.health <= 0 && self.archetype == #"zombie" )
             {
@@ -534,7 +534,7 @@ function function_2c022ba8( e_player, e_grenade )
         case #"heavy":
         case #"miniboss":
             self playsound( #"wpn_homunculus_melee_imp" );
-            self dodamage( var_5d7b4163, self.origin, e_player, undefined, undefined, "MOD_UNKNOWN", 0, level.w_homunculus );
+            self dodamage( n_scaled_damage, self.origin, e_player, undefined, undefined, "MOD_UNKNOWN", 0, level.w_homunculus );
             self ai::stun( 1.5 );
             break;
     }
@@ -841,25 +841,25 @@ function function_f33bde5c( b_immediate = 0 )
 {
     self endon( #"death", #"explode" );
     s_trace = groundtrace( self.mdl_anchor.origin + ( 0, 0, 16 ), self.mdl_anchor.origin + ( 0, 0, -1000 ), 0, self.mdl_anchor );
-    var_a75fe4be = s_trace[ #"position" ];
+    v_drop_position = s_trace[ #"position" ];
     
     if ( isdefined( s_trace[ #"entity" ] ) )
     {
-        var_a75fe4be = ( var_a75fe4be[ 0 ], var_a75fe4be[ 1 ], s_trace[ #"entity" ].origin[ 2 ] );
+        v_drop_position = ( v_drop_position[ 0 ], v_drop_position[ 1 ], s_trace[ #"entity" ].origin[ 2 ] );
     }
     
     if ( b_immediate )
     {
-        self.var_69e642c7 moveto( var_a75fe4be, 0.01 );
+        self.var_69e642c7 moveto( v_drop_position, 0.01 );
         self.var_69e642c7 waittill( #"movedone" );
         return;
     }
     
-    if ( abs( self.var_69e642c7.origin[ 2 ] - var_a75fe4be[ 2 ] ) > 1 )
+    if ( abs( self.var_69e642c7.origin[ 2 ] - v_drop_position[ 2 ] ) > 1 )
     {
         n_time = 0.25;
         self.var_69e642c7 scene::stop();
-        self.var_69e642c7 moveto( var_a75fe4be, 0.25 );
+        self.var_69e642c7 moveto( v_drop_position, 0.25 );
         self.var_69e642c7 scene::play( #"aib_t8_zm_zod_homunculus_jump_down_01", self.mdl_anchor );
     }
 }

@@ -87,14 +87,14 @@ function function_7a677105( weapon )
         level.var_825acea = [];
     }
     
-    var_f0bf9259 = hash( weapon.name );
+    weapon_name_hash = hash( weapon.name );
     
-    if ( !isdefined( level.var_825acea[ var_f0bf9259 ] ) )
+    if ( !isdefined( level.var_825acea[ weapon_name_hash ] ) )
     {
-        level.var_825acea[ var_f0bf9259 ] = getscriptbundle( weapon.customsettings );
+        level.var_825acea[ weapon_name_hash ] = getscriptbundle( weapon.customsettings );
     }
     
-    return level.var_825acea[ var_f0bf9259 ];
+    return level.var_825acea[ weapon_name_hash ];
 }
 
 // Namespace weapons_shared/weapons_shared
@@ -123,12 +123,12 @@ function function_903d2d4c( local_client_num )
         
         if ( !var_8cf0e703 && level.var_644fb9ec )
         {
-            stopforcestreamingxmodel( #"hash_253fe56e77e698b3" );
+            stopforcestreamingxmodel( #"wpn_t8_sig_minigun_turret_44" );
             level.var_644fb9ec = 0;
         }
         else if ( var_8cf0e703 && !level.var_644fb9ec )
         {
-            forcestreamxmodel( #"hash_253fe56e77e698b3" );
+            forcestreamxmodel( #"wpn_t8_sig_minigun_turret_44" );
             level.var_644fb9ec = 1;
         }
         

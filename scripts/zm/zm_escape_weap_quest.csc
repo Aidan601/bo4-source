@@ -123,12 +123,12 @@ function function_b543a4ed( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0xa2
 function function_1f632068( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    if ( isdefined( self.var_d634930c ) )
+    if ( isdefined( self.n_impact_fx ) )
     {
-        stopfx( localclientnum, self.var_d634930c );
+        stopfx( localclientnum, self.n_impact_fx );
     }
     
-    self.var_d634930c = util::playfxontag( localclientnum, level._effect[ #"soul_charge_impact" ], self, "TAG_MOUTH_FX" );
+    self.n_impact_fx = util::playfxontag( localclientnum, level._effect[ #"soul_charge_impact" ], self, "TAG_MOUTH_FX" );
 }
 
 // Namespace zm_escape_weap_quest/zm_escape_weap_quest
@@ -137,12 +137,12 @@ function function_1f632068( localclientnum, oldval, newval, bnewent, binitialsna
 // Size: 0xa2
 function function_63eff42e( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    if ( isdefined( self.var_d634930c ) )
+    if ( isdefined( self.n_impact_fx ) )
     {
-        stopfx( localclientnum, self.var_d634930c );
+        stopfx( localclientnum, self.n_impact_fx );
     }
     
-    self.var_d634930c = util::playfxontag( localclientnum, level._effect[ #"wolf_bite_blood" ], self, "TAG_MOUTH_FX" );
+    self.n_impact_fx = util::playfxontag( localclientnum, level._effect[ #"wolf_bite_blood" ], self, "TAG_MOUTH_FX" );
 }
 
 // Namespace zm_escape_weap_quest/zm_escape_weap_quest

@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_343278b5ae78b62c",
+                            "anim": "anim#ch_vign_zm_mob_banjo_ghost_intro",
                             "entrytype": "anim"
                         },
                         {
@@ -75,7 +75,7 @@
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_248f13380a9ff6a6",
+                            "anim": "anim#ch_vign_zm_mob_banjo_ghost_wait_loop",
                             "entrytype": "anim"
                         }
                     ],
@@ -104,7 +104,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6dc57a001c9f5239",
+                            "anim": "anim#ch_vign_zm_mob_banjo_ghost_outro",
                             "entrytype": "anim"
                         }
                     ],
@@ -158,7 +158,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3d5e82f4c0f4fafc",
+                            "anim": "anim#o_vign_zm_mob_banjo_ghost_intro",
                             "entrytype": "anim"
                         },
                         {
@@ -247,7 +247,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7d587cf012d0cee9",
+                            "anim": "anim#o_vign_zm_mob_banjo_ghost_outro",
                             "entrytype": "anim"
                         }
                     ],

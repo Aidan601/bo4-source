@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_52fb23118864b1a2",
+                            "anim": "anim#p8_fxanim_zm_esc_seagull_fly_loop_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_22bb2c122bf59c49",
+                            "anim": "anim#p8_fxanim_zm_esc_seagull_idle_loop_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_49ef6ebda468bab0",
+                            "anim": "anim#p8_fxanim_zm_esc_seagull_disolve_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -92,7 +92,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2849a083d4a34029",
+                            "anim": "anim#p8_fxanim_zm_esc_seagull_materialize_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -121,7 +121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_225a002601457b8e",
+                            "anim": "anim#p8_fxanim_zm_esc_seagull_attack_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -150,7 +150,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_60595d9e25021bef",
+                            "anim": "anim#p8_fxanim_zm_esc_seagull_fly_off_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -179,7 +179,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2a3a9b35e7d0591b",
+                            "anim": "anim#p8_fxanim_zm_esc_seagull_perch_idle_anim",
                             "entrytype": "anim"
                         }
                     ],

@@ -1011,7 +1011,7 @@ function private function_df786031()
 // Params 0, eflags: 0x4
 // Checksum 0xbefe616, Offset: 0x3b60
 // Size: 0x1c, Type: bool
-function private function_ea4291d3()
+function private is_locked_on()
 {
     return isdefined( self.locked_on ) && self.locked_on > 0;
 }
@@ -1027,7 +1027,7 @@ function private lock_on_warning( player )
     
     while ( true )
     {
-        if ( self function_ea4291d3() )
+        if ( self is_locked_on() )
         {
             player clientfield::set_player_uimodel( "vehicle.missileLock", 2 );
             self playsoundtoplayer( #"hash_445c9fb1793c4259", player );
@@ -1256,7 +1256,7 @@ function event_handler[exit_vehicle] codecallback_vehicleexit( eventstruct )
         self clientfield::set_to_player( "toggle_vehicle_sensor", 0 );
     }
     
-    if ( vehicle function_ea4291d3() )
+    if ( vehicle is_locked_on() )
     {
         wz_progression::on_exit_locked_on_vehicle( self );
     }
@@ -1565,9 +1565,9 @@ function function_5bce3f3a( vehicle, seat_index, var_ddd294e3 )
             var_62e4ee3 = 1;
         }
         
-        var_24139930 = vehicle isvehicleturretoverheating( seat_index );
+        isoverheating = vehicle isvehicleturretoverheating( seat_index );
         
-        if ( var_24139930 )
+        if ( isoverheating )
         {
             vehicle clientfield::set( "overheat_fx", 1 );
         }
@@ -2031,7 +2031,7 @@ function private function_c0f1d81b()
 function function_4366bf50( params )
 {
     deathmodel = spawn( "script_model", self.origin + ( 0, 0, 150 ) );
-    deathmodel setmodel( #"hash_4c315b7f2185c393" );
+    deathmodel setmodel( #"veh_t8_mil_tank_turret_wz_blk_dead" );
     deathmodel.angles = self.angles;
     
     if ( !isdefined( level.var_82eb1dab ) )
@@ -3805,7 +3805,7 @@ function private function_479389f3()
     
     var_d643c4fc = 0;
     var_e10b67f7 = [];
-    var_b0e8278f = ( 0, 0, 0 );
+    avgorigin = ( 0, 0, 0 );
     avgnormal = ( 0, 0, 0 );
     var_4c962569 = 0;
     
@@ -3819,7 +3819,7 @@ function private function_479389f3()
         
         if ( trace[ #"fraction" ] < 1 )
         {
-            var_b0e8278f += var_33a206d0[ tag ];
+            avgorigin += var_33a206d0[ tag ];
             var_4c962569 += trace[ #"position" ][ 2 ] - var_33a206d0[ tag ][ 2 ];
             avgnormal += trace[ #"normal" ];
             var_e10b67f7[ tag ] = trace;
@@ -3838,7 +3838,7 @@ function private function_479389f3()
         
         if ( trace[ #"fraction" ] < 1 )
         {
-            var_b0e8278f += var_8fc02d3b[ tag ];
+            avgorigin += var_8fc02d3b[ tag ];
             var_4c962569 += trace[ #"position" ][ 2 ] - var_8fc02d3b[ tag ][ 2 ];
             avgnormal += trace[ #"normal" ];
             var_d3532cfe[ tag ] = trace;
@@ -3873,8 +3873,8 @@ function private function_479389f3()
         return false;
     }
     
-    var_b0e8278f /= var_d3532cfe.size + var_e10b67f7.size;
-    self.helilandingorigin = var_b0e8278f;
+    avgorigin /= var_d3532cfe.size + var_e10b67f7.size;
+    self.helilandingorigin = avgorigin;
     self.var_6fac6f50 = var_4c962569;
     self.var_67136cb0 = avgnormal;
     return true;

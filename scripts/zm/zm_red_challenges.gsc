@@ -482,11 +482,11 @@ function create_challenge( n_challenge, n_zone, var_6346e7b, var_12af4e08 = &fun
 // Params 1
 // Checksum 0x20267144, Offset: 0x2560
 // Size: 0x92
-function function_49e4f4ca( var_ecffa2a8 )
+function function_49e4f4ca( n_challenge_id )
 {
     foreach ( s_challenge in level.a_s_challenges )
     {
-        if ( s_challenge.n_id == var_ecffa2a8 )
+        if ( s_challenge.n_id == n_challenge_id )
         {
             return s_challenge.var_893baaf;
         }
@@ -648,7 +648,7 @@ function setup_models()
         s_info.var_126ddafe = getent( s_bowl.target, "targetname" );
         v_pos = s_bowl.origin;
         
-        if ( !( isdefined( s_bowl.var_b4a48463 ) && s_bowl.var_b4a48463 ) )
+        if ( !( isdefined( s_bowl.dont_adjust ) && s_bowl.dont_adjust ) )
         {
             v_dir = anglestoforward( s_info.angles );
             v_pos += v_dir * -9;
@@ -956,7 +956,7 @@ function function_8f0594cb( s_challenge )
     switch ( level.s_active_challenge.n_id )
     {
         case 0:
-            level.s_active_challenge.var_c376bcd5 = &function_7f470031;
+            level.s_active_challenge.fn_begin = &function_7f470031;
             level.s_active_challenge.var_3e17832 = &function_1398b789;
             break;
         case 1:
@@ -966,35 +966,35 @@ function function_8f0594cb( s_challenge )
         case 5:
         case 6:
         case 7:
-            level.s_active_challenge.var_c376bcd5 = &function_f51adffa;
+            level.s_active_challenge.fn_begin = &function_f51adffa;
             level.s_active_challenge.var_3e17832 = &function_9742c28f;
             break;
         case 9:
-            level.s_active_challenge.var_c376bcd5 = &function_77d6b526;
+            level.s_active_challenge.fn_begin = &function_77d6b526;
             level.s_active_challenge.var_3e17832 = &function_1398b789;
             break;
         case 10:
-            level.s_active_challenge.var_c376bcd5 = &function_1398b789;
+            level.s_active_challenge.fn_begin = &function_1398b789;
             level.s_active_challenge.var_3e17832 = &function_1398b789;
             break;
         case 12:
-            level.s_active_challenge.var_c376bcd5 = &function_8d1fd2d8;
+            level.s_active_challenge.fn_begin = &function_8d1fd2d8;
             level.s_active_challenge.var_3e17832 = &function_1398b789;
             break;
         case 11:
-            level.s_active_challenge.var_c376bcd5 = &function_4a88eb80;
+            level.s_active_challenge.fn_begin = &function_4a88eb80;
             level.s_active_challenge.var_3e17832 = &function_1398b789;
             break;
         case 13:
-            level.s_active_challenge.var_c376bcd5 = &function_727cdea9;
+            level.s_active_challenge.fn_begin = &function_727cdea9;
             level.s_active_challenge.var_3e17832 = &function_1398b789;
             break;
         case 14:
-            level.s_active_challenge.var_c376bcd5 = &function_c106ffd8;
+            level.s_active_challenge.fn_begin = &function_c106ffd8;
             level.s_active_challenge.var_3e17832 = &function_1398b789;
             break;
         case 8:
-            level.s_active_challenge.var_c376bcd5 = &function_7d77dbd6;
+            level.s_active_challenge.fn_begin = &function_7d77dbd6;
             level.s_active_challenge.var_3e17832 = &function_1398b789;
             break;
         case 15:
@@ -1003,7 +1003,7 @@ function function_8f0594cb( s_challenge )
         case 18:
         case 19:
         case 20:
-            level.s_active_challenge.var_c376bcd5 = &function_1d60215;
+            level.s_active_challenge.fn_begin = &function_1d60215;
             level.s_active_challenge.var_3e17832 = &function_6be352fc;
             break;
     }
@@ -1014,7 +1014,7 @@ function function_8f0594cb( s_challenge )
         player.var_6b3806e8 = 0;
     }
     
-    level thread [[ level.s_active_challenge.var_c376bcd5 ]]();
+    level thread [[ level.s_active_challenge.fn_begin ]]();
     zm_red_util::start_timer( s_challenge.var_6346e7b + 1 );
     s_waitresult = level waittilltimeout( s_challenge.var_6346e7b + 1, #"round_reset" );
     
@@ -1459,9 +1459,9 @@ function function_2d371444( var_893baaf = undefined )
 // Params 1
 // Checksum 0xd3159f6d, Offset: 0x4e98
 // Size: 0x42, Type: bool
-function is_challenge_active( var_ecffa2a8 )
+function is_challenge_active( n_challenge_id )
 {
-    if ( isdefined( level.s_active_challenge ) && level.s_active_challenge.n_id == var_ecffa2a8 )
+    if ( isdefined( level.s_active_challenge ) && level.s_active_challenge.n_id == n_challenge_id )
     {
         return true;
     }
@@ -1578,7 +1578,7 @@ function function_9ffc76ea( str_notify )
 // Params 2
 // Checksum 0x4a811d96, Offset: 0x51f8
 // Size: 0x164
-function function_bf582bc8( var_ecffa2a8, n_damage )
+function function_bf582bc8( n_challenge_id, n_damage )
 {
     self notify( "406b5cd97f3e3fe" );
     self endon( "406b5cd97f3e3fe" );
@@ -1586,7 +1586,7 @@ function function_bf582bc8( var_ecffa2a8, n_damage )
     level endon( #"hash_61075af70fbd9082" );
     n_start_health = self.health;
     
-    while ( is_challenge_active( var_ecffa2a8 ) )
+    while ( is_challenge_active( n_challenge_id ) )
     {
         if ( self laststand::player_is_in_laststand() )
         {
@@ -1668,7 +1668,7 @@ function function_836d2b5b()
             continue;
         }
         
-        player thread zm_vo::vo_say( #"hash_2d2de7c6c02699d2", 0, 1, 9999, 1, 1, 1 );
+        player thread zm_vo::vo_say( #"vox_tribute_excellent_orac_0", 0, 1, 9999, 1, 1, 1 );
     }
 }
 
@@ -1740,14 +1740,14 @@ function function_5c5cb67b()
 // Params 3
 // Checksum 0x502d2eaa, Offset: 0x5788
 // Size: 0x1d6
-function player_zone_watcher( var_ecffa2a8, var_2c5f83d, vol_override = undefined )
+function player_zone_watcher( n_challenge_id, var_2c5f83d, vol_override = undefined )
 {
     self notify( #"player_zone_watcher" );
     self endon( #"player_zone_watcher", #"death" );
     self.var_95cfa01d = 1;
     self.var_b05f25ad = 0;
     
-    while ( is_challenge_active( var_ecffa2a8 ) )
+    while ( is_challenge_active( n_challenge_id ) )
     {
         if ( isdefined( vol_override ) )
         {

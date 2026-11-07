@@ -1586,7 +1586,7 @@ function laststand( localclientnum, oldval, newval, bnewent, binitialsnap, field
 // Params 2, eflags: 0x4
 // Checksum 0x4ddd11f1, Offset: 0x47e8
 // Size: 0xac, Type: bool
-function private function_b9c917cc( var_6142f944, str_bundle )
+function private function_b9c917cc( n_local_client_num, str_bundle )
 {
     if ( self function_21c0fa55() )
     {
@@ -1603,7 +1603,7 @@ function private function_b9c917cc( var_6142f944, str_bundle )
         return false;
     }
     
-    if ( isigcactive( var_6142f944 ) )
+    if ( isigcactive( n_local_client_num ) )
     {
         return false;
     }
@@ -1620,9 +1620,9 @@ function private function_b9c917cc( var_6142f944, str_bundle )
 // Params 2, eflags: 0x4
 // Checksum 0xcc571b0c, Offset: 0x48a0
 // Size: 0xbe, Type: bool
-function private function_a1ab192( var_6142f944, str_bundle )
+function private function_a1ab192( n_local_client_num, str_bundle )
 {
-    if ( !self function_b9c917cc( var_6142f944, str_bundle ) )
+    if ( !self function_b9c917cc( n_local_client_num, str_bundle ) )
     {
         return false;
     }
@@ -1637,7 +1637,7 @@ function private function_a1ab192( var_6142f944, str_bundle )
         return false;
     }
     
-    if ( isigcactive( var_6142f944 ) )
+    if ( isigcactive( n_local_client_num ) )
     {
         return false;
     }

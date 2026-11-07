@@ -1,12 +1,12 @@
 {
-    "destroyed": "#hash_69ed8a01374451b",
-    "wavestartfinal": "#hash_79c871fb38ead404",
+    "destroyed": "#vox_brp2_kls_raps_destroyed",
+    "wavestartfinal": "#vox_brp2_kls_raps_deploy_last",
     "configstringfiletype": "scriptbundle",
     "type": "mpdialog_scorestreak",
-    "damaged": "#hash_57f0f8c5aa5a6d9f",
+    "damaged": "#vox_brp2_kls_raps_damaged",
     "vmtype": "both",
     "name": "blops_pilot3_kls_raps_deployship",
-    "arrive": "#hash_7a24ded21e2c6067",
-    "timeout": "#hash_4b24169a1728748f",
-    "wavestart": "#hash_7bd201a10a630373"
+    "arrive": "#vox_brp2_kls_raps_arrive",
+    "timeout": "#vox_brp2_kls_raps_leave",
+    "wavestart": "#vox_brp2_kls_raps_deploy"
 }

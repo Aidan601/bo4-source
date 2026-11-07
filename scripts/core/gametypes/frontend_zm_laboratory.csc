@@ -2362,11 +2362,11 @@ function function_8cd01001( localclientnum, var_77a22652, var_bd6d31e7, var_db34
         return;
     }
     
-    var_7ebd7c4f = level.var_49f26c00.var_f538d7d4[ var_469e104d ];
-    var_da26331f = level.var_49f26c00.var_f538d7d4[ var_7953f5b8 ];
+    str_model_1 = level.var_49f26c00.var_f538d7d4[ var_469e104d ];
+    str_model_2 = level.var_49f26c00.var_f538d7d4[ var_7953f5b8 ];
     var_ecf558bd = level.var_49f26c00.var_f538d7d4[ var_6b14d93a ];
-    var_77a22652 setmodel( var_7ebd7c4f );
-    var_bd6d31e7 setmodel( var_da26331f );
+    var_77a22652 setmodel( str_model_1 );
+    var_bd6d31e7 setmodel( str_model_2 );
     var_db346d75 setmodel( var_ecf558bd );
 }
 

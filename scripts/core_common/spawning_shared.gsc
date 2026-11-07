@@ -1644,11 +1644,11 @@ function function_a782529( e_player )
     
     foreach ( func in level.var_811300ad )
     {
-        var_ee69d92d = [[ func ]]( e_player );
+        str_spawn_list = [[ func ]]( e_player );
         
-        if ( isdefined( var_ee69d92d ) )
+        if ( isdefined( str_spawn_list ) )
         {
-            array::add( var_8bfdbbee, var_ee69d92d );
+            array::add( var_8bfdbbee, str_spawn_list );
         }
     }
     

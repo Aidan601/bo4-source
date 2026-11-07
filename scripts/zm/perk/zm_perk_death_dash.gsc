@@ -32,7 +32,7 @@ function __init__()
 {
     if ( getdvarint( #"hash_1c1a8ed8d0bf271c", 0 ) )
     {
-        function_27473e44();
+        enable_perk_for_level();
         namespace_9ff9f642::register_burn( #"perk_death_dash", 1, 6 );
     }
 }
@@ -41,7 +41,7 @@ function __init__()
 // Params 0
 // Checksum 0x1ce91dbe, Offset: 0x2c8
 // Size: 0x1cc
-function function_27473e44()
+function enable_perk_for_level()
 {
     if ( function_8b1a219a() )
     {
@@ -358,8 +358,8 @@ function function_749be7c5()
     while ( true )
     {
         var_baf7d060 = getaiteamarray( level.zombie_team );
-        var_a812a69b = self.origin + anglestoforward( self.angles ) * 40;
-        a_ai_zombies = array::get_all_closest( var_a812a69b, var_baf7d060, undefined, undefined, 80 );
+        v_forward_pos = self.origin + anglestoforward( self.angles ) * 40;
+        a_ai_zombies = array::get_all_closest( v_forward_pos, var_baf7d060, undefined, undefined, 80 );
         
         foreach ( ai_zombie in a_ai_zombies )
         {
@@ -573,9 +573,9 @@ function function_4492525b( einflictor, eattacker, idamage, idflags, smeansofdea
     has_perk = self hasperk( #"specialty_death_dash" );
     var_656a2751 = isdefined( self.var_d675d730 ) && isdefined( self.var_d675d730.var_4aee0032 ) && self.var_d675d730.var_4aee0032;
     var_2d419edd = smeansofdeath === "MOD_FALLING";
-    var_c241fbf4 = isplayer( eattacker ) || isplayer( einflictor );
+    is_self_damage = isplayer( eattacker ) || isplayer( einflictor );
     
-    if ( has_perk && var_656a2751 && ( var_2d419edd || var_c241fbf4 ) )
+    if ( has_perk && var_656a2751 && ( var_2d419edd || is_self_damage ) )
     {
         return 0;
     }

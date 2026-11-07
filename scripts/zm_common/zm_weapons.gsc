@@ -1849,13 +1849,13 @@ function ammo_give( weapon, b_purchased = 1 )
         {
             if ( zm_trial_reset_loadout::is_active( 1 ) || namespace_a9e73d8d::is_active() )
             {
-                var_cb48c3c9 = 0;
-                var_ef0714fa = 0;
+                n_stock_max = 0;
+                n_stock_start = 0;
             }
             else
             {
-                var_cb48c3c9 = weapon.maxammo;
-                var_ef0714fa = weapon.startammo;
+                n_stock_max = weapon.maxammo;
+                n_stock_start = weapon.startammo;
             }
             
             var_98f6dae8 = self getweaponammoclip( weapon );
@@ -1885,11 +1885,11 @@ function ammo_give( weapon, b_purchased = 1 )
                 
                 if ( self hasperk( #"specialty_extraammo" ) )
                 {
-                    n_ammo_max = var_cb48c3c9;
+                    n_ammo_max = n_stock_max;
                 }
                 else
                 {
-                    n_ammo_max = var_ef0714fa;
+                    n_ammo_max = n_stock_start;
                 }
                 
                 if ( weapon.isdualwield )
@@ -1902,9 +1902,9 @@ function ammo_give( weapon, b_purchased = 1 )
                     var_b8624c26 += var_4052eae0;
                 }
                 
-                var_6ec34556 = isdefined( weapon.iscliponly ) && weapon.iscliponly ? var_98f6dae8 : n_ammo_max + var_98f6dae8 + var_4052eae0;
+                n_max_stock = isdefined( weapon.iscliponly ) && weapon.iscliponly ? var_98f6dae8 : n_ammo_max + var_98f6dae8 + var_4052eae0;
                 
-                if ( var_b8624c26 >= var_6ec34556 )
+                if ( var_b8624c26 >= n_max_stock )
                 {
                     var_cd9d17e0 = 0;
                 }
@@ -2740,13 +2740,13 @@ function function_35746b9c( weapon, str_mod = "MOD_MELEE" )
 // Params 3
 // Checksum 0xa464fb4c, Offset: 0x6a58
 // Size: 0x570
-function function_ed29dde5( var_947d01ee, var_ccd1bc81 = 0, var_609a8d33 = 0 )
+function function_ed29dde5( str_weapon_class, var_ccd1bc81 = 0, var_609a8d33 = 0 )
 {
     a_weapons = [];
     
     foreach ( s_weapon in level.zombie_weapons )
     {
-        if ( s_weapon.weapon_classname === var_947d01ee )
+        if ( s_weapon.weapon_classname === str_weapon_class )
         {
             if ( var_609a8d33 )
             {
@@ -2806,9 +2806,9 @@ function function_ed29dde5( var_947d01ee, var_ccd1bc81 = 0, var_609a8d33 = 0 )
             }
         }
         
-        if ( s_weapon.weapon_classname === "shield" && var_947d01ee != "shield" )
+        if ( s_weapon.weapon_classname === "shield" && str_weapon_class != "shield" )
         {
-            if ( s_weapon.weapon.weapclass === var_947d01ee )
+            if ( s_weapon.weapon.weapclass === str_weapon_class )
             {
                 if ( var_609a8d33 )
                 {
@@ -2866,7 +2866,7 @@ function function_ed29dde5( var_947d01ee, var_ccd1bc81 = 0, var_609a8d33 = 0 )
                 }
             }
             
-            if ( s_weapon.weapon.altweapon.weapclass === var_947d01ee )
+            if ( s_weapon.weapon.altweapon.weapclass === str_weapon_class )
             {
                 if ( var_609a8d33 )
                 {

@@ -2500,12 +2500,12 @@ function _good_door_opened( e_player, e_trig )
             break;
     }
     
-    var_e18247ac = self.origin + self.var_f7d17867;
+    v_spawn_position = self.origin + self.var_f7d17867;
     v_spawn_angles = self.angles + self.var_14172483;
     
     if ( var_aa4f9213 == #"ar_mg1909_t8" || var_aa4f9213 == #"lmg_standard_t8" || var_aa4f9213 == #"tr_midburst_t8" || var_aa4f9213 == #"lmg_spray_t8_upgraded" || var_aa4f9213 == #"pistol_standard_t8_upgraded" )
     {
-        self.mdl_reward = zm_utility::spawn_buildkit_weapon_model( e_player, getweapon( var_aa4f9213 ), undefined, var_e18247ac, v_spawn_angles );
+        self.mdl_reward = zm_utility::spawn_buildkit_weapon_model( e_player, getweapon( var_aa4f9213 ), undefined, v_spawn_position, v_spawn_angles );
         self.mdl_reward.str_weapon_name = var_aa4f9213;
         self.mdl_reward movez( 5, 1 );
     }
@@ -2513,7 +2513,7 @@ function _good_door_opened( e_player, e_trig )
     {
         if ( !isdefined( self.var_62fef0f1 ) )
         {
-            self.mdl_reward = util::spawn_model( level.chest_joker_model, var_e18247ac, v_spawn_angles );
+            self.mdl_reward = util::spawn_model( level.chest_joker_model, v_spawn_position, v_spawn_angles );
             self.mdl_reward movez( 5, 1 );
         }
         else
@@ -2531,7 +2531,7 @@ function _good_door_opened( e_player, e_trig )
     }
     else
     {
-        self.mdl_reward = util::spawn_model( self.var_3ff570f3, var_e18247ac, v_spawn_angles );
+        self.mdl_reward = util::spawn_model( self.var_3ff570f3, v_spawn_position, v_spawn_angles );
         self.mdl_reward movez( 5, 1 );
     }
     

@@ -176,14 +176,14 @@ function private play_charge_fx( w_grenade )
 {
     self endon( #"death", #"disconnect", #"grenade_fire", #"grenade_throw_cancelled" );
     waittillframeend();
-    var_673471b1 = 1000;
+    n_time_to_pulse = 1000;
     
     while ( true )
     {
         time = gettime() - self.n_tomahawk_cooking_time;
         self.var_4f8fb07f = w_grenade.name;
         
-        if ( time >= var_673471b1 )
+        if ( time >= n_time_to_pulse )
         {
             if ( self.var_4f8fb07f == #"tomahawk_t8_upgraded" )
             {
@@ -194,16 +194,16 @@ function private play_charge_fx( w_grenade )
                 self clientfield::increment( "tomahawk_charge_up_fx", 1 );
             }
             
-            var_673471b1 += 1000;
+            n_time_to_pulse += 1000;
             self playrumbleonentity( "reload_small" );
         }
         
-        if ( var_673471b1 > 2400 && self.var_4f8fb07f != #"tomahawk_t8_upgraded" )
+        if ( n_time_to_pulse > 2400 && self.var_4f8fb07f != #"tomahawk_t8_upgraded" )
         {
             break;
         }
         
-        if ( var_673471b1 >= 3400 )
+        if ( n_time_to_pulse >= 3400 )
         {
             break;
         }

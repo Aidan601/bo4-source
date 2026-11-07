@@ -78,7 +78,7 @@ function function_43cda488()
 // Params 2
 // Checksum 0xf58a4f87, Offset: 0x250
 // Size: 0xfe
-function function_f71ec759( &suppliers, var_5ce08260 )
+function function_f71ec759( &suppliers, ignore_self )
 {
     if ( isdefined( self.team ) )
     {
@@ -91,7 +91,7 @@ function function_f71ec759( &suppliers, var_5ce08260 )
                 continue;
             }
             
-            if ( teammate == self && var_5ce08260 )
+            if ( teammate == self && ignore_self )
             {
                 continue;
             }

@@ -4,7 +4,7 @@
     "widget": "BadasseryMedal",
     "name": "medal_shroud_multikill_2",
     "backinglarge": "image#$whitetransparent",
-    "iconsmall": "image#hash_39a4f19573dac07e",
+    "iconsmall": "image#ui_icon_medal_reaper_harvest_b",
     "stringref": "localized17#hash_6351f3463ed29cca",
-    "iconlarge": "image#hash_76739cfae3eef88e"
+    "iconlarge": "image#ui_icon_medal_reaper_harvest_b_large"
 }

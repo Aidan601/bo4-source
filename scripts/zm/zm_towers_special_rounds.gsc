@@ -61,7 +61,7 @@ function init()
         zm_round_spawning::function_cc103b38( #"gladiator_marauder", 8 );
         zm_round_spawning::function_cc103b38( #"gladiator_destroyer", 10 );
         zm_round_spawning::function_cc103b38( #"blight_father", 15 );
-        zm_round_spawning::function_b4a8f95a( #"gladiator_marauder", 9, &function_66d172e9, &function_1e895d4, &registerpathing_units_, &zombie_gladiator_util::function_5d0001ad );
+        zm_round_spawning::schedule_special_round( #"gladiator_marauder", 9, &function_66d172e9, &function_1e895d4, &registerpathing_units_, &zombie_gladiator_util::function_5d0001ad );
         return;
     }
     
@@ -74,7 +74,7 @@ function init()
         zm_round_spawning::function_cc103b38( #"gladiator_marauder", 8 );
         zm_round_spawning::function_cc103b38( #"gladiator_destroyer", 10 );
         zm_round_spawning::function_cc103b38( #"blight_father", 15 );
-        zm_round_spawning::function_b4a8f95a( #"tiger", 9, &function_f63225b8, &function_9a74f284, &function_a5dc8595, &zombie_tiger_util::function_ffa01525 );
+        zm_round_spawning::schedule_special_round( #"tiger", 9, &function_f63225b8, &function_9a74f284, &function_a5dc8595, &zombie_tiger_util::function_ffa01525 );
     }
 }
 
@@ -252,11 +252,11 @@ function function_9a74f284( var_d25bbdd5 )
         
         if ( zm_utility::is_standard() )
         {
-            zm_round_spawning::function_b4a8f95a( #"tiger", var_f40360e8, &function_f63225b8, &function_9a74f284, &function_a5dc8595, &zombie_tiger_util::function_ffa01525 );
+            zm_round_spawning::schedule_special_round( #"tiger", var_f40360e8, &function_f63225b8, &function_9a74f284, &function_a5dc8595, &zombie_tiger_util::function_ffa01525 );
         }
         else
         {
-            zm_round_spawning::function_b4a8f95a( #"gladiator_destroyer", var_f40360e8, &function_66d172e9, &function_93b3cc13, &function_f8ae1232, &zombie_gladiator_util::function_5d0001ad );
+            zm_round_spawning::schedule_special_round( #"gladiator_destroyer", var_f40360e8, &function_66d172e9, &function_93b3cc13, &function_f8ae1232, &zombie_gladiator_util::function_5d0001ad );
         }
     }
     
@@ -313,11 +313,11 @@ function function_93b3cc13( var_d25bbdd5 )
         
         if ( level.var_f8ae1232 > 1 )
         {
-            zm_round_spawning::function_b4a8f95a( array( #"gladiator_marauder", #"gladiator_destroyer", #"tiger" ), var_f40360e8, &function_66d172e9, &function_93b3cc13, &function_f8ae1232, &zombie_gladiator_util::function_5d0001ad );
+            zm_round_spawning::schedule_special_round( array( #"gladiator_marauder", #"gladiator_destroyer", #"tiger" ), var_f40360e8, &function_66d172e9, &function_93b3cc13, &function_f8ae1232, &zombie_gladiator_util::function_5d0001ad );
         }
         else
         {
-            zm_round_spawning::function_b4a8f95a( #"gladiator_marauder", var_f40360e8, &function_66d172e9, &function_93b3cc13, &function_f8ae1232, &zombie_gladiator_util::function_5d0001ad );
+            zm_round_spawning::schedule_special_round( #"gladiator_marauder", var_f40360e8, &function_66d172e9, &function_93b3cc13, &function_f8ae1232, &zombie_gladiator_util::function_5d0001ad );
         }
     }
     

@@ -947,7 +947,7 @@ function init_elevator()
         self.angles = ( 0, 0, 0 );
     }
     
-    var_1ec3151c = struct::get_script_bundle( "elevators", isdefined( self.var_e87a94f3 ) ? self.var_e87a94f3 : self.scriptbundlename );
+    var_1ec3151c = struct::get_script_bundle( "elevators", isdefined( self.scriptbundlename_override ) ? self.scriptbundlename_override : self.scriptbundlename );
     var_1313d6ba = new celevator();
     [[ var_1313d6ba ]]->init( var_1ec3151c, self );
     var_1313d6ba flag::init( "elevator_moving" );

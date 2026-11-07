@@ -1541,7 +1541,7 @@ function init()
         self.angles = ( 0, 0, 0 );
     }
     
-    s_door_bundle = struct::get_script_bundle( "doors", isdefined( self.var_e87a94f3 ) ? self.var_e87a94f3 : self.scriptbundlename );
+    s_door_bundle = struct::get_script_bundle( "doors", isdefined( self.scriptbundlename_override ) ? self.scriptbundlename_override : self.scriptbundlename );
     c_door = new cdoor();
     return setup_door_info( s_door_bundle, self, c_door );
 }

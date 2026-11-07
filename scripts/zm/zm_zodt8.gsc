@@ -239,11 +239,11 @@ function function_5988b12( a_ents )
         e_tile clientfield::set( "ocean_water", 1 );
     }
     
-    callback::on_spawned( &function_6beeab1d );
+    callback::on_spawned( &set_ground_ref );
     
     foreach ( player in getplayers() )
     {
-        player function_6beeab1d();
+        player set_ground_ref();
     }
     
     scene::remove_scene_func( "p8_fxanim_zm_zod_skybox_bundle", &function_5988b12, "init" );
@@ -255,7 +255,7 @@ function function_5988b12( a_ents )
 // Params 0
 // Checksum 0xb991efb0, Offset: 0x2648
 // Size: 0x24
-function function_6beeab1d()
+function set_ground_ref()
 {
     self playersetgroundreferenceent( level.e_sway );
 }
@@ -746,9 +746,9 @@ function function_d515e5e7()
 {
     while ( true )
     {
-        var_f2c45ac3 = level.round_number + randomintrangeinclusive( 3, 6 );
+        n_round_wait = level.round_number + randomintrangeinclusive( 3, 6 );
         
-        while ( var_f2c45ac3 > level.round_number )
+        while ( n_round_wait > level.round_number )
         {
             level waittill( #"end_of_round" );
         }
@@ -1300,7 +1300,7 @@ function function_4b17dd44( a_ents )
 // Size: 0x24, Type: bool
 function player_out_of_playable_area_monitor_callback()
 {
-    if ( isdefined( self.var_f22c83f5 ) && self.var_f22c83f5 )
+    if ( isdefined( self.b_ignore_playable_area_check ) && self.b_ignore_playable_area_check )
     {
         return false;
     }
@@ -2665,7 +2665,7 @@ function init_fasttravel()
 // Params 2
 // Checksum 0xc9fde906, Offset: 0xb630
 // Size: 0x9c6
-function function_c52e8ba( player, var_8d5d092c )
+function function_c52e8ba( player, str_cooldown )
 {
     b_result = 0;
     
@@ -2687,13 +2687,13 @@ function function_c52e8ba( player, var_8d5d092c )
         return 0;
     }
     
-    if ( !self zm_fasttravel::function_d06e636b( player ) )
+    if ( !self zm_fasttravel::can_use_fasttravel( player ) )
     {
         self.hint_string[ n_player_index ] = #"";
     }
-    else if ( isdefined( self.stub.var_a4134e51 ) && !level flag::get( self.stub.var_a4134e51 ) )
+    else if ( isdefined( self.stub.level_flag_required ) && !level flag::get( self.stub.level_flag_required ) )
     {
-        switch ( self.stub.var_a4134e51 )
+        switch ( self.stub.level_flag_required )
         {
             case #"connect_provisions_to_engine_room":
                 self.hint_string[ n_player_index ] = #"hash_6134f96bfd8584b9";
@@ -2708,7 +2708,7 @@ function function_c52e8ba( player, var_8d5d092c )
         
         b_result = 1;
     }
-    else if ( isdefined( player.var_9c7b96ed[ var_8d5d092c ] ) && player.var_9c7b96ed[ var_8d5d092c ] )
+    else if ( isdefined( player.var_9c7b96ed[ str_cooldown ] ) && player.var_9c7b96ed[ str_cooldown ] )
     {
         self.hint_string[ n_player_index ] = #"zombie/generic_fasttravel_cooldown";
         b_result = 1;
@@ -2919,19 +2919,19 @@ function function_ae5d684b()
     {
         case #"smoke_stack_bottom":
         case #"smoke_stack_top":
-            self.unitrigger_stub.var_8d5d092c = "smoke_stack";
+            self.unitrigger_stub.str_cooldown = "smoke_stack";
             break;
         case #"engine_room":
         case #"cargo":
-            self.unitrigger_stub.var_8d5d092c = "engine_room";
+            self.unitrigger_stub.str_cooldown = "engine_room";
             break;
         case #"fore_to_aft":
         case #"aft_to_fore":
-            self.unitrigger_stub.var_8d5d092c = "top_deck";
+            self.unitrigger_stub.str_cooldown = "top_deck";
             break;
         case #"boiler_room":
         case #"suites":
-            self.unitrigger_stub.var_8d5d092c = "mid_ship";
+            self.unitrigger_stub.str_cooldown = "mid_ship";
             break;
     }
 }

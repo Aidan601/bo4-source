@@ -96,19 +96,19 @@ function add_to_player_score_override( points, str_awarded_by, zm_scr_spawner_lo
     
     if ( self hasperk( #"specialty_extraammo" ) )
     {
-        var_6ec34556 = w_current.maxammo;
+        n_max_stock = w_current.maxammo;
     }
     else
     {
-        var_6ec34556 = w_current.startammo;
+        n_max_stock = w_current.startammo;
     }
     
     if ( w_current.isdualwield )
     {
-        var_6ec34556 *= 2;
+        n_max_stock *= 2;
     }
     
-    n_current_ammo_stock = math::clamp( n_current_ammo_stock, 0, var_6ec34556 );
+    n_current_ammo_stock = math::clamp( n_current_ammo_stock, 0, n_max_stock );
     self setweaponammostock( w_current, n_current_ammo_stock );
     self thread function_ec301a0d();
     return 0;

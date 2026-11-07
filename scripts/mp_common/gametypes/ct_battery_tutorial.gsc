@@ -73,7 +73,7 @@ function function_d0ad09c5( effect )
 // Params 0
 // Checksum 0x18ea68fd, Offset: 0x10e0
 // Size: 0x48a
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     level endon( #"combattraining_logic_finished" );
     
@@ -194,7 +194,7 @@ function function_753148fe()
 // Params 11
 // Checksum 0xe215ea6f, Offset: 0x17a8
 // Size: 0x18a
-function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     level notify( #"player_damaged" );
     
@@ -435,7 +435,7 @@ function function_eef19056()
         
         if ( isdefined( waypoint ) && !level flag::get( "grenade_rock" ) )
         {
-            waypoint ct_utils::function_f9ed304d();
+            waypoint ct_utils::cleanup_waypoint();
         }
         
         wait 0.1;
@@ -541,7 +541,7 @@ function function_27e2d4aa()
             
             if ( isdefined( waypoint ) )
             {
-                waypoint ct_utils::function_f9ed304d();
+                waypoint ct_utils::cleanup_waypoint();
             }
         }
         
@@ -604,7 +604,7 @@ function function_a03539a3()
         
         if ( isdefined( waypoint ) )
         {
-            waypoint ct_utils::function_f9ed304d();
+            waypoint ct_utils::cleanup_waypoint();
         }
         
         while ( !isalive( level.players[ 0 ] ) )
@@ -873,7 +873,7 @@ function function_8d7d4d37()
         
         if ( isdefined( waypoint ) )
         {
-            waypoint ct_utils::function_f9ed304d();
+            waypoint ct_utils::cleanup_waypoint();
         }
         
         while ( !isalive( level.players[ 0 ] ) )
@@ -935,7 +935,7 @@ function function_de37fc52()
         
         if ( isdefined( waypoint ) )
         {
-            waypoint ct_utils::function_f9ed304d();
+            waypoint ct_utils::cleanup_waypoint();
         }
         
         while ( !isalive( level.players[ 0 ] ) )
@@ -1766,7 +1766,7 @@ function function_a40b5f9c()
             
             if ( isdefined( level.waypoint ) )
             {
-                level.waypoint ct_utils::function_f9ed304d();
+                level.waypoint ct_utils::cleanup_waypoint();
             }
         }
         
@@ -1784,7 +1784,7 @@ function function_807b6bac()
     
     if ( isdefined( level.waypoint ) )
     {
-        level.waypoint ct_utils::function_f9ed304d();
+        level.waypoint ct_utils::cleanup_waypoint();
     }
 }
 
@@ -1991,7 +1991,7 @@ function function_ba2e9281( waypoint )
     
     if ( isdefined( waypoint ) )
     {
-        waypoint ct_utils::function_f9ed304d();
+        waypoint ct_utils::cleanup_waypoint();
     }
 }
 
@@ -2093,7 +2093,7 @@ function grenade_room_watcher( vol_room, waypoint )
     {
         if ( isdefined( waypoint ) )
         {
-            waypoint ct_utils::function_f9ed304d();
+            waypoint ct_utils::cleanup_waypoint();
         }
         
         level flag::set( "grenade_room" );
@@ -2177,7 +2177,7 @@ function function_31bf458c( waypoint )
     
     if ( isdefined( waypoint ) )
     {
-        waypoint ct_utils::function_f9ed304d();
+        waypoint ct_utils::cleanup_waypoint();
     }
     
     wait 1;
@@ -2215,7 +2215,7 @@ function function_45f567b0( s_loc, waypoint )
             {
                 if ( isdefined( waypoint ) )
                 {
-                    waypoint ct_utils::function_f9ed304d();
+                    waypoint ct_utils::cleanup_waypoint();
                 }
                 
                 grenade waittill( #"explode" );
@@ -2386,7 +2386,7 @@ function function_8e12a34( waypoint )
     
     if ( isdefined( waypoint ) )
     {
-        waypoint ct_utils::function_f9ed304d();
+        waypoint ct_utils::cleanup_waypoint();
     }
 }
 

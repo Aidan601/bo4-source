@@ -4,7 +4,7 @@ CHECKSUM 0xc667beeb
 ######################################################
 ####################  DEV BLOCKS  ####################
 ######################################################
-# zm_weap_hammer::function_70dbf9d1@1d2
+# zm_weap_hammer::create_storm@1d2
 DEVBLOCK 0xf52
 # zm_weap_hammer::storm_check@80
 DEVBLOCK 0x2300

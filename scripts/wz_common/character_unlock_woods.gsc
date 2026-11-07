@@ -34,7 +34,7 @@ function function_2613aeec( enabled )
 {
     if ( enabled )
     {
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_last_alive", &function_4ac25840 );
         level.var_e1b226fb = 1;
         level thread function_6cba9a1a();
@@ -162,7 +162,7 @@ function function_6a61388f( vehicle )
 // Params 1
 // Checksum 0x9adc1d09, Offset: 0x6a8
 // Size: 0xbc
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     

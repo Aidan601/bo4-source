@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4d04de579f60ed17",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_talisman_press_tease_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4d04de579f60ed17",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_talisman_press_tease_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -63,7 +63,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7d2950e903c4a40b",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_talisman_press_create_anim",
                             "entrytype": "anim"
                         },
                         {
@@ -125,7 +125,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_69f8d0c3dc85b219",
+                            "anim": "anim#p8_fxanim_core_frontend_zm_lab_talisman_press_no_create_anim",
                             "entrytype": "anim"
                         }
                     ],

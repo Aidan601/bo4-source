@@ -127,7 +127,7 @@ function function_7d881772()
 // Size: 0x302
 function function_1a038e0b()
 {
-    self.var_bee7fa0b = 0;
+    self.n_time_used = 0;
     self.var_756caeac = randomintrange( 3, 7 );
     unitrigger_stub = spawnstruct();
     unitrigger_stub.origin = self.origin;
@@ -452,7 +452,7 @@ function function_20fe0559()
         }
         
         s_altar.b_in_use = 1;
-        s_altar.var_bee7fa0b++;
+        s_altar.n_time_used++;
         s_altar.var_125b20f8 = player;
         sound = "evt_bottle_dispense";
         playsoundatposition( sound, self.origin );
@@ -492,7 +492,7 @@ function function_20fe0559()
         s_altar.var_125b20f8 = undefined;
         s_altar.var_62fef0f1 = undefined;
         
-        if ( s_altar.var_bee7fa0b >= s_altar.var_756caeac && level.var_93995710.size > 1 )
+        if ( s_altar.n_time_used >= s_altar.var_756caeac && level.var_93995710.size > 1 )
         {
             level thread function_44481969();
             return;

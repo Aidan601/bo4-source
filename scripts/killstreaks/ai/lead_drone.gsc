@@ -178,12 +178,12 @@ function function_b2cc6703( targets )
     
     for ( idx = 0; idx < targets.size ; idx++ )
     {
-        if ( !isdefined( targets[ idx ].var_629a6b13 ) )
+        if ( !isdefined( targets[ idx ].threatlevels ) )
         {
-            targets[ idx ].var_629a6b13 = [];
+            targets[ idx ].threatlevels = [];
         }
         
-        targets[ idx ].var_629a6b13[ entnum ] = 0;
+        targets[ idx ].threatlevels[ entnum ] = 0;
         
         if ( isdefined( targets[ idx ].type ) && targets[ idx ].type == "dog" )
         {
@@ -211,11 +211,11 @@ function function_b2cc6703( targets )
     
     for ( idx = 0; idx < targets.size ; idx++ )
     {
-        assert( isdefined( targets[ idx ].var_629a6b13[ entnum ] ), "<dev string:x38>" );
+        assert( isdefined( targets[ idx ].threatlevels[ entnum ] ), "<dev string:x38>" );
         
-        if ( targets[ idx ].var_629a6b13[ entnum ] >= highest )
+        if ( targets[ idx ].threatlevels[ entnum ] >= highest )
         {
-            highest = targets[ idx ].var_629a6b13[ entnum ];
+            highest = targets[ idx ].threatlevels[ entnum ];
             var_8ec7f501 = targets[ idx ];
         }
     }
@@ -230,50 +230,50 @@ function function_b2cc6703( targets )
 function private update_player_threat( player )
 {
     entnum = self getentitynumber();
-    player.var_629a6b13[ entnum ] = 0;
+    player.threatlevels[ entnum ] = 0;
     dist = distance( player.origin, self.origin );
-    player.var_629a6b13[ entnum ] -= dist;
+    player.threatlevels[ entnum ] -= dist;
     
     if ( isdefined( self.attacker ) && player == self.attacker )
     {
-        player.var_629a6b13[ entnum ] += 100;
+        player.threatlevels[ entnum ] += 100;
     }
     
     if ( isdefined( player.carryobject ) )
     {
-        player.var_629a6b13[ entnum ] += 200;
+        player.threatlevels[ entnum ] += 200;
     }
     
     if ( player weapons::has_launcher() )
     {
         if ( player weapons::has_lockon( self ) )
         {
-            player.var_629a6b13[ entnum ] += 1000;
+            player.threatlevels[ entnum ] += 1000;
         }
         else
         {
-            player.var_629a6b13[ entnum ] += 500;
+            player.threatlevels[ entnum ] += 500;
         }
     }
     
     if ( player weapons::has_heavy_weapon() )
     {
-        player.var_629a6b13[ entnum ] += 300;
+        player.threatlevels[ entnum ] += 300;
     }
     
     if ( player weapons::has_lmg() )
     {
-        player.var_629a6b13[ entnum ] += 200;
+        player.threatlevels[ entnum ] += 200;
     }
     
     if ( isdefined( player.antithreat ) )
     {
-        player.var_629a6b13[ entnum ] -= player.antithreat;
+        player.threatlevels[ entnum ] -= player.antithreat;
     }
     
-    if ( player.var_629a6b13[ entnum ] <= 0 )
+    if ( player.threatlevels[ entnum ] <= 0 )
     {
-        player.var_629a6b13[ entnum ] = 2;
+        player.threatlevels[ entnum ] = 2;
     }
 }
 
@@ -284,13 +284,13 @@ function private update_player_threat( player )
 function private update_non_player_threat( non_player )
 {
     entnum = self getentitynumber();
-    non_player.var_629a6b13[ entnum ] = 0;
+    non_player.threatlevels[ entnum ] = 0;
     dist = distance( non_player.origin, self.origin );
-    non_player.var_629a6b13[ entnum ] -= dist;
+    non_player.threatlevels[ entnum ] -= dist;
     
-    if ( non_player.var_629a6b13[ entnum ] <= 0 )
+    if ( non_player.threatlevels[ entnum ] <= 0 )
     {
-        non_player.var_629a6b13[ entnum ] = 1;
+        non_player.threatlevels[ entnum ] = 1;
     }
 }
 
@@ -301,31 +301,31 @@ function private update_non_player_threat( non_player )
 function private update_actor_threat( actor )
 {
     entnum = self getentitynumber();
-    actor.var_629a6b13[ entnum ] = 0;
+    actor.threatlevels[ entnum ] = 0;
     dist = distance( actor.origin, self.origin );
-    actor.var_629a6b13[ entnum ] -= dist;
+    actor.threatlevels[ entnum ] -= dist;
     
     if ( isdefined( actor.owner ) )
     {
         if ( isdefined( self.attacker ) && actor.owner == self.attacker )
         {
-            actor.var_629a6b13[ entnum ] += 100;
+            actor.threatlevels[ entnum ] += 100;
         }
         
         if ( isdefined( actor.owner.carryobject ) )
         {
-            actor.var_629a6b13[ entnum ] += 200;
+            actor.threatlevels[ entnum ] += 200;
         }
         
         if ( isdefined( actor.owner.antithreat ) )
         {
-            actor.var_629a6b13[ entnum ] -= actor.owner.antithreat;
+            actor.threatlevels[ entnum ] -= actor.owner.antithreat;
         }
     }
     
-    if ( actor.var_629a6b13[ entnum ] <= 0 )
+    if ( actor.threatlevels[ entnum ] <= 0 )
     {
-        actor.var_629a6b13[ entnum ] = 1;
+        actor.threatlevels[ entnum ] = 1;
     }
 }
 
@@ -336,9 +336,9 @@ function private update_actor_threat( actor )
 function private update_dog_threat( dog )
 {
     entnum = self getentitynumber();
-    dog.var_629a6b13[ entnum ] = 0;
+    dog.threatlevels[ entnum ] = 0;
     dist = distance( dog.origin, self.origin );
-    dog.var_629a6b13[ entnum ] -= dist;
+    dog.threatlevels[ entnum ] -= dist;
 }
 
 // Namespace lead_drone/lead_drone
@@ -627,9 +627,9 @@ function function_ede09a4e( owner )
             
             if ( isdefined( pos ) )
             {
-                var_3a364b6c = distance( self.protectdest, pos );
+                disttoowner = distance( self.protectdest, pos );
                 
-                if ( var_3a364b6c > 256 )
+                if ( disttoowner > 256 )
                 {
                     protectdest = function_1c4cd527( pos, self.owner, 32, 256, 48, 48 );
                     

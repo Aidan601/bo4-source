@@ -2496,9 +2496,9 @@ function function_1609a882( var_c1e98979 )
     
     bb::function_bf5cad4e( gamemodedata );
     
-    for ( var_268d0315 = 0; var_268d0315 < level.domflags.size ; var_268d0315++ )
+    for ( domflagindex = 0; domflagindex < level.domflags.size ; domflagindex++ )
     {
-        domflag = level.domflags[ var_268d0315 ];
+        domflag = level.domflags[ domflagindex ];
         var_9669dd4c = 0;
         
         for ( var_be3d50b0 = 0; var_be3d50b0 < domflag.var_249009fd.size ; var_be3d50b0++ )

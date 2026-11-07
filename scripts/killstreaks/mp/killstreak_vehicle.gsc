@@ -762,7 +762,7 @@ function function_e94c2667()
 // Params 2
 // Checksum 0x8cb7e069, Offset: 0x22b0
 // Size: 0x4a0
-function function_d75fbe15( origin, angles )
+function calculate_spawn_origin( origin, angles )
 {
     startheight = function_e94c2667();
     mins = ( -5, -5, 0 );

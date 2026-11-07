@@ -19,14 +19,14 @@ function autoexec __init__system__()
 // Size: 0x14
 function __init__()
 {
-    function_27473e44();
+    enable_perk_for_level();
 }
 
 // Namespace zm_perk_mystery/zm_perk_mystery
 // Params 0
 // Checksum 0x975f7cdf, Offset: 0x138
 // Size: 0x16c
-function function_27473e44()
+function enable_perk_for_level()
 {
     if ( function_8b1a219a() )
     {

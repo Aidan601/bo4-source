@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7ce18b69d571b32a",
+                            "anim": "anim#ch_vign_tplt_prebtl_zmb_trapped_behind_wndw_04_zm_01",
                             "entrytype": "anim"
                         }
                     ],
@@ -94,7 +94,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_75df9e3878309511",
+            "model": "model#p8_fxanim_mp_zmuseum_util_door_01_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

@@ -353,13 +353,13 @@ function update_active_camo( localclientnum, weapon, tagname, stagenum, impulse,
     }
     
     self function_a946fb86( activecamo, stagenum, var_d1460f46 );
-    var_5bdd03ea = 0;
+    switchingweapons = 0;
     
     if ( self function_21c0fa55() )
     {
-        var_5bdd03ea = isswitchingweapons( localclientnum );
+        switchingweapons = isswitchingweapons( localclientnum );
         
-        if ( !var_5bdd03ea )
+        if ( !switchingweapons )
         {
             var_9a7e487a = activecamo.var_fe56592[ localclientnum ].var_dd54a13b[ baseweapon ].stagenum;
             
@@ -415,7 +415,7 @@ function update_active_camo( localclientnum, weapon, tagname, stagenum, impulse,
     
     activecamo.var_fe56592[ localclientnum ].var_dd54a13b[ baseweapon ].stagenum = stagenum;
     var_58bac2d.crob = stage.rob;
-    var_d71e8c6e = var_d71e8c6e || var_5bdd03ea;
+    var_d71e8c6e = var_d71e8c6e || switchingweapons;
     
     if ( isdefined( stage.rob ) && tagname == "tag_weapon_right" )
     {

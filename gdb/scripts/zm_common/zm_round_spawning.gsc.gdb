@@ -139,7 +139,7 @@ DEVBLOCK 0x4b2
 DEVBLOCK 0x4da
 # zm_round_spawning::function_306ce518@6a
 DEVBLOCK 0x50a
-# zm_round_spawning::function_b4a8f95a@1d4
+# zm_round_spawning::schedule_special_round@1d4
 DEVBLOCK 0x7fc
 # zm_round_spawning::function_d36196b1@72
 DEVBLOCK 0x8ba

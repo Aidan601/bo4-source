@@ -43,7 +43,7 @@ function exec_post_system( func )
     {
         if ( isdefined( func.reqs ) )
         {
-            function_5095b2c6( func );
+            run_post_systems_internal( func );
         }
         
         func.postdone = 1;
@@ -55,7 +55,7 @@ function exec_post_system( func )
 // Params 1
 // Checksum 0x5855827c, Offset: 0x2c0
 // Size: 0x1e4
-function function_5095b2c6( func )
+function run_post_systems_internal( func )
 {
     assert( func.predone || func.ignore, "<dev string:x8d>" );
     
@@ -85,7 +85,7 @@ function run_post_systems()
 {
     foreach ( func in level.system_funcs )
     {
-        function_5095b2c6( func );
+        run_post_systems_internal( func );
         thread exec_post_system( func );
     }
     
@@ -108,7 +108,7 @@ function exec_pre_system( func )
     {
         if ( isdefined( func.reqs ) )
         {
-            function_8dfa23e0( func );
+            run_pre_systems_internal( func );
         }
         
         [[ func.prefunc ]]();
@@ -120,7 +120,7 @@ function exec_pre_system( func )
 // Params 1
 // Checksum 0x6a95eb21, Offset: 0x618
 // Size: 0x1a4
-function function_8dfa23e0( func )
+function run_pre_systems_internal( func )
 {
     if ( isdefined( func.reqs ) )
     {
@@ -148,7 +148,7 @@ function run_pre_systems()
 {
     foreach ( func in level.system_funcs )
     {
-        function_8dfa23e0( func );
+        run_pre_systems_internal( func );
         thread exec_pre_system( func );
     }
 }

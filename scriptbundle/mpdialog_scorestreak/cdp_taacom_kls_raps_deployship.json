@@ -1,16 +1,16 @@
 {
-    "destroyed": "#hash_5eb0ca80aec5ef0a",
-    "ready": "#hash_545fb232dabce7da",
-    "beinghacked": "#hash_76d00a0bf9a95587",
+    "destroyed": "#vox_tacc_kls_raps_destroyed",
+    "ready": "#vox_tacc_kls_raps_ready",
+    "beinghacked": "#vox_tacc_kls_raps_being_hacked",
     "configstringfiletype": "scriptbundle",
     "type": "mpdialog_scorestreak",
     "vmtype": "both",
     "name": "cdp_taacom_kls_raps_deployship",
-    "timeoutconfirmed1": "#hash_6beecdf963d200c6",
-    "timeoutconfirmed0": "#hash_6beeccf963d1ff13",
-    "timeoutconfirmed3": "#hash_6beecff963d2042c",
-    "timeoutconfirmed2": "#hash_6beecef963d20279",
-    "firewallbeinghacked": "#hash_50d4a3d99e56a6c7",
-    "firewallhacked": "#hash_7feb7d7b9a4c8397",
-    "hacked": "#hash_3004b551c8e1ebf7"
+    "timeoutconfirmed1": "#vox_tacc_kls_raps_timeout_pilot_2",
+    "timeoutconfirmed0": "#vox_tacc_kls_raps_timeout_pilot_1",
+    "timeoutconfirmed3": "#vox_tacc_kls_raps_timeout_pilot_4",
+    "timeoutconfirmed2": "#vox_tacc_kls_raps_timeout_pilot_3",
+    "firewallbeinghacked": "#vox_tacc_kls_raps_being_hacked_fw",
+    "firewallhacked": "#vox_tacc_kls_raps_hacked_fw",
+    "hacked": "#vox_tacc_kls_raps_hacked"
 }

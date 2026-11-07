@@ -176,7 +176,7 @@ function shouldaddrankxp( player )
         return false;
     }
     
-    if ( level.gametype == "zclassic" && isdefined( level.var_5164a0ca ) && level.var_5164a0ca )
+    if ( level.gametype == "zclassic" && isdefined( level.b_disable_xp ) && level.b_disable_xp )
     {
         return false;
     }

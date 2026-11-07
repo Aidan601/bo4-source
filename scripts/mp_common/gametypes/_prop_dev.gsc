@@ -1496,19 +1496,19 @@
     // Size: 0x16c, Type: dev
     function function_cded003e( propinfo, origin, angles, team )
     {
-        var_6e55957c = spawn( "<dev string:x121c>", origin );
-        var_6e55957c.targetname = "<dev string:x122b>";
-        var_6e55957c setmodel( propinfo.modelname );
-        var_6e55957c setscale( propinfo.propscale );
-        var_6e55957c.angles = angles;
-        var_6e55957c setcandamage( 1 );
-        var_6e55957c.fakehealth = 50;
-        var_6e55957c.health = 99999;
-        var_6e55957c.maxhealth = 99999;
-        var_6e55957c thread prop::function_aa8db165( &prop_controls::damageclonewatch );
-        var_6e55957c setplayercollision( 0 );
-        var_6e55957c makesentient();
-        var_6e55957c setteam( team );
+        newclone = spawn( "<dev string:x121c>", origin );
+        newclone.targetname = "<dev string:x122b>";
+        newclone setmodel( propinfo.modelname );
+        newclone setscale( propinfo.propscale );
+        newclone.angles = angles;
+        newclone setcandamage( 1 );
+        newclone.fakehealth = 50;
+        newclone.health = 99999;
+        newclone.maxhealth = 99999;
+        newclone thread prop::function_aa8db165( &prop_controls::damageclonewatch );
+        newclone setplayercollision( 0 );
+        newclone makesentient();
+        newclone setteam( team );
     }
 
     // Namespace prop_dev/_prop_dev

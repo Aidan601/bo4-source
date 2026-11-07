@@ -372,7 +372,7 @@ function private function_c263fd97()
     println( "<dev string:x67>" );
     var_4fcc3493 = starttime + var_ffa47239 + var_2ee361bf;
     var_8cd82180 = getdvarint( #"hash_723f28907e9e4cd0", 3 );
-    var_45d7d746 = 0;
+    readycount = 0;
     var_ccb4a8be = player_free_fall::function_d2a1520c();
     streamermodelhint( var_ccb4a8be, float( var_ffa47239 + var_2ee361bf ) / 1000 );
     
@@ -397,16 +397,16 @@ function private function_c263fd97()
         
         if ( self isstreamerready() && stability > var_80e2abb1 )
         {
-            var_45d7d746++;
+            readycount++;
         }
         else
         {
-            var_45d7d746 = 0;
+            readycount = 0;
         }
         
-        println( "<dev string:x92>" + var_45d7d746 );
+        println( "<dev string:x92>" + readycount );
         
-        if ( var_45d7d746 >= var_8cd82180 )
+        if ( readycount >= var_8cd82180 )
         {
             println( "<dev string:xa9>" );
             break;

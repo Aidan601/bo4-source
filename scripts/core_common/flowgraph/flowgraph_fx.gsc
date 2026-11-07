@@ -16,9 +16,9 @@ function playfxatposition( x, fx_effect, v_position, v_forward, v_up )
 // Params 6
 // Checksum 0x2c7d6dd6, Offset: 0xc8
 // Size: 0x60, Type: bool
-function function_f4373d13( x, fx_effect, v_offset, v_forward, v_up, var_a1a2ff27 )
+function function_f4373d13( x, fx_effect, v_offset, v_forward, v_up, b_ignore_pause )
 {
-    playfxoncamera( fx_effect, v_offset, v_forward, v_up, var_a1a2ff27 );
+    playfxoncamera( fx_effect, v_offset, v_forward, v_up, b_ignore_pause );
     return true;
 }
 

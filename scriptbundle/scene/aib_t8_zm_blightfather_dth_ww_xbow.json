@@ -5,11 +5,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1790eb30a2b66540",
+                            "anim": "anim#ai_t8_zm_zod_bltfthr_dth_ww_xbow_00_intro",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_4fbb9524a3748abc",
+                            "anim": "anim#ai_t8_zm_zod_bltfthr_dth_ww_xbow_00_loop",
                             "entrytype": "anim"
                         }
                     ],
@@ -38,7 +38,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_54588538675f3d45",
+                            "anim": "anim#ai_t8_zm_zod_bltfthr_dth_ww_xbow_00_outro",
                             "entrytype": "anim"
                         }
                     ],

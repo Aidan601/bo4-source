@@ -38,7 +38,7 @@ function function_d0ad09c5( effect )
 // Params 0
 // Checksum 0xf220c55a, Offset: 0x1148
 // Size: 0x4ba
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     self.overrideplayerdamage = &callback_player_damage;
     
@@ -126,7 +126,7 @@ function function_c9ff0dce()
 // Params 11
 // Checksum 0x8a058e2e, Offset: 0x1610
 // Size: 0x278
-function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     level notify( #"player_damaged" );
     
@@ -640,7 +640,7 @@ function function_c6e7b0d9()
         
         if ( isdefined( waypoint ) )
         {
-            waypoint ct_utils::function_f9ed304d();
+            waypoint ct_utils::cleanup_waypoint();
         }
         else
         {
@@ -896,7 +896,7 @@ function function_9f3ecaf2()
                     level thread ct_vo::function_831e0584( array( #"vox_tvoi_tutor_ajax_flash_miss_nag" ) );
                 }
                 
-                waypoint ct_utils::function_f9ed304d();
+                waypoint ct_utils::cleanup_waypoint();
                 ct_vo::function_731eb7ed();
                 wait 2;
                 e_player = getplayers()[ 0 ];
@@ -904,7 +904,7 @@ function function_9f3ecaf2()
             }
         }
         
-        waypoint ct_utils::function_f9ed304d();
+        waypoint ct_utils::cleanup_waypoint();
         e_player = getplayers()[ 0 ];
         e_player thread ct_utils::function_61c3d59c( #"hash_132a68dfb3f8697a", undefined );
         level notify( #"shield_cooked" );
@@ -1063,7 +1063,7 @@ function function_8c3101de()
 // Params 0
 // Checksum 0x4ca975cc, Offset: 0x5128
 // Size: 0x40
-function function_e706a3ca()
+function ai_damage_watcher()
 {
     self endon( #"death" );
     self waittill( #"damage" );
@@ -1771,7 +1771,7 @@ function function_58c62280( b_keyline )
     }
     else if ( level.var_ad7c0539 == 7 )
     {
-        self thread function_e706a3ca();
+        self thread ai_damage_watcher();
     }
     else if ( level.var_ad7c0539 == 8 )
     {

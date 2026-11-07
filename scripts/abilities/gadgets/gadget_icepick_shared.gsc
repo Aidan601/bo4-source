@@ -1068,9 +1068,9 @@ function private function_a9987363( var_559f4f0a, attackingplayer, var_11a83c3a 
         return;
     }
     
-    var_575cc792 = var_11a83c3a.hackendtime - gettime();
+    timeremainingms = var_11a83c3a.hackendtime - gettime();
     icepickweapon = getweapon( #"gadget_icepick" );
-    var_11a83c3a status_effect::status_effect_apply( var_559f4f0a, icepickweapon, attackingplayer, 0, var_575cc792 );
+    var_11a83c3a status_effect::status_effect_apply( var_559f4f0a, icepickweapon, attackingplayer, 0, timeremainingms );
     var_11a83c3a clientfield::set( "hackStatus", 2 );
     var_11a83c3a clientfield::set_player_uimodel( "hudItems.hacked", 1 );
     var_11a83c3a ability_player::function_116ec442();
@@ -1480,85 +1480,85 @@ function function_d545fd0a( player, weapon )
     switch ( weapon.name )
     {
         case #"supplydrop":
-            var_d975dd49 = "hacked_care_package";
+            scoreeventkey = "hacked_care_package";
             break;
         case #"counteruav":
-            var_d975dd49 = "hacked_cuav";
+            scoreeventkey = "hacked_cuav";
             break;
         case #"uav":
-            var_d975dd49 = "hacked_uav";
+            scoreeventkey = "hacked_uav";
             break;
         case #"gadget_spawnbeacon":
-            var_d975dd49 = "hacked_spawn_beacon";
+            scoreeventkey = "hacked_spawn_beacon";
             break;
         case #"planemortar":
         case #"inventory_planemortar":
-            var_d975dd49 = "hacked_planemortar";
+            scoreeventkey = "hacked_planemortar";
             break;
         case #"inventory_remote_missile":
         case #"remote_missile":
-            var_d975dd49 = "hacked_hellstorm";
+            scoreeventkey = "hacked_hellstorm";
             break;
         case #"inventory_straferun":
         case #"straferun":
-            var_d975dd49 = "hacked_warthog";
+            scoreeventkey = "hacked_warthog";
             break;
         case #"dart":
         case #"inventory_dart":
-            var_d975dd49 = "hacked_dart";
+            scoreeventkey = "hacked_dart";
             break;
         case #"inventory_drone_squadron":
         case #"drone_squadron":
-            var_d975dd49 = "hacked_drone_squad";
+            scoreeventkey = "hacked_drone_squad";
             break;
         case #"inventory_helicopter_comlink":
         case #"cobra_20mm_comlink":
         case #"helicopter_comlink":
-            var_d975dd49 = "hacked_attack_chopper";
+            scoreeventkey = "hacked_attack_chopper";
             break;
         case #"overwatch_helicopter":
         case #"inventory_overwatch_helicopter":
-            var_d975dd49 = "hacked_sniper_chopper";
+            scoreeventkey = "hacked_sniper_chopper";
             break;
         case #"ac130":
         case #"inventory_ac130":
-            var_d975dd49 = "hacked_ac130";
+            scoreeventkey = "hacked_ac130";
             break;
         case #"tank_robot":
         case #"inventory_tank_robot":
         case #"ai_tank_marker":
-            var_d975dd49 = "hacked_mantis";
+            scoreeventkey = "hacked_mantis";
             break;
         case #"ultimate_turret":
         case #"inventory_ultimate_turret":
-            var_d975dd49 = "hacked_ult_turret";
+            scoreeventkey = "hacked_ult_turret";
             break;
         case #"recon_car":
         case #"inventory_recon_car":
-            var_d975dd49 = "hacked_rcxd";
+            scoreeventkey = "hacked_rcxd";
             break;
         case #"gadget_supplypod":
-            var_d975dd49 = "hacked_supplypod";
+            scoreeventkey = "hacked_supplypod";
             break;
         case #"gadget_smart_cover":
         case #"ability_smart_cover":
-            var_d975dd49 = "hacked_barricade";
+            scoreeventkey = "hacked_barricade";
             break;
         case #"eq_sensor":
-            var_d975dd49 = "hacked_sensor_dart";
+            scoreeventkey = "hacked_sensor_dart";
             break;
         case #"eq_seeker_mine":
-            var_d975dd49 = "hacked_seeker";
+            scoreeventkey = "hacked_seeker";
             break;
         case #"trophy_system":
-            var_d975dd49 = "hacked_trophy";
+            scoreeventkey = "hacked_trophy";
             break;
     }
     
-    if ( isdefined( var_d975dd49 ) )
+    if ( isdefined( scoreeventkey ) )
     {
         icepickweapon = getweapon( #"gadget_icepick" );
-        scoreevents::processscoreevent( var_d975dd49, player, undefined, icepickweapon );
+        scoreevents::processscoreevent( scoreeventkey, player, undefined, icepickweapon );
     }
 }
 

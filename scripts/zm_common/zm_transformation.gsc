@@ -167,7 +167,7 @@ function function_cfca77a7( var_42de336c, id, condition_func, cooldown_time, int
         }
     #/
     
-    level.var_b175714d[ id ] = { #condition:condition_func, #intro_func:intro_func, #outro_func:outro_func, #var_accb1c92:var_accb1c92, #var_44c5827d:var_44c5827d, #var_99fca475:var_99fca475, #cooldown_time:cooldown_time, #var_ebaa8de9:0, #var_33e393a7:0, #var_2939a01a:[] };
+    level.var_b175714d[ id ] = { #condition:condition_func, #intro_func:intro_func, #outro_func:outro_func, #var_accb1c92:var_accb1c92, #var_44c5827d:var_44c5827d, #var_99fca475:var_99fca475, #cooldown_time:cooldown_time, #current_cooldown_time:0, #var_33e393a7:0, #var_2939a01a:[] };
     
     if ( isentity( var_42de336c ) )
     {
@@ -631,9 +631,9 @@ function private transform( id, var_c2a69066, var_2cf708f4 = 1 )
         {
             settingsbundle = self ai::function_9139c839();
             
-            if ( isdefined( settingsbundle ) && isdefined( settingsbundle.var_d354164e ) )
+            if ( isdefined( settingsbundle ) && isdefined( settingsbundle.zombiesplitmdls ) )
             {
-                foreach ( var_127d3a7a in settingsbundle.var_d354164e )
+                foreach ( var_127d3a7a in settingsbundle.zombiesplitmdls )
                 {
                     if ( self.model === var_127d3a7a.var_a3c9023c )
                     {
@@ -835,7 +835,7 @@ function private update()
             
             pixbeginevent( "zm_transformation_update" );
             
-            if ( transformation.var_ebaa8de9 > time )
+            if ( transformation.current_cooldown_time > time )
             {
                 pixendevent();
                 continue;
@@ -852,7 +852,7 @@ function private update()
             
             if ( isdefined( var_52f926ed ) && var_52f926ed )
             {
-                transformation.var_ebaa8de9 = isdefined( level.var_78acec0a ) && level.var_78acec0a ? gettime() : gettime() + transformation.cooldown_time * 1000;
+                transformation.current_cooldown_time = isdefined( level.var_78acec0a ) && level.var_78acec0a ? gettime() : gettime() + transformation.cooldown_time * 1000;
                 break;
             }
         }

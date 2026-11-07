@@ -637,11 +637,11 @@ function function_dced5aef( e_target, weapon = level.weaponnone, n_damage, v_to_
     self endon( #"disconnect" );
     n_random_x = randomfloatrange( -3, 3 );
     n_random_y = randomfloatrange( -3, 3 );
-    var_61906722 = randomfloatrange( 250, 300 );
+    n_random_z = randomfloatrange( 250, 300 );
     
     if ( !isdefined( v_to_target ) )
     {
-        v_to_target = vectornormalize( e_target.origin - self.origin + ( n_random_x, n_random_y, var_61906722 ) );
+        v_to_target = vectornormalize( e_target.origin - self.origin + ( n_random_x, n_random_y, n_random_z ) );
     }
     
     if ( isactor( e_target ) && zm_utility::is_magic_bullet_shield_enabled( e_target ) )

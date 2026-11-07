@@ -129,7 +129,7 @@ function function_edb1add2()
     self.mdl_candle clientfield::set( "" + #"candle_light", 1 );
     self.mdl_candle setcandamage( 1 );
     self.mdl_candle.health = 10000;
-    self thread function_d84548e7();
+    self thread candle_damage_watcher();
 }
 
 // Namespace mansion_impaler/zm_mansion_impaler
@@ -365,7 +365,7 @@ function cleanup_step_5( var_5ea5c94d, ended_early )
 // Params 0
 // Checksum 0x89883d0b, Offset: 0x1cb8
 // Size: 0xa8
-function function_d84548e7()
+function candle_damage_watcher()
 {
     level endon( #"hash_785f94bb8c05dc05" );
     
@@ -1403,8 +1403,8 @@ function function_a9bfed2d()
     }
     
     var_219a33e2 = [];
-    var_f1c4ec4f = self zm_utility::get_current_zone( 1 );
-    a_spawn_locs = var_f1c4ec4f.a_loc_types[ #"nosferatu_location" ];
+    s_current_zone = self zm_utility::get_current_zone( 1 );
+    a_spawn_locs = s_current_zone.a_loc_types[ #"nosferatu_location" ];
     
     for ( i = 0; i < n_enemy_count ; i++ )
     {

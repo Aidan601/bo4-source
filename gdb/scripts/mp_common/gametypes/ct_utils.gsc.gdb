@@ -22,7 +22,7 @@ STRING "<dev string:x28e>" 0xfce8
 STRING "<dev string:x2ec>" 0xfd00
 # ct_utils::function_dfd7add4@d0
 STRING "<dev string:x34c>" 0xfd18
-# ct_utils::function_f9ed304d@f8
+# ct_utils::cleanup_waypoint@f8
 STRING "<dev string:x38>" 0x4580
 # ct_utils::function_dfd7add4@e8
 STRING "<dev string:x3a8>" 0xfd30
@@ -49,7 +49,7 @@ DEVBLOCK 0x28ec
 DEVBLOCK 0x296c
 # ct_utils::function_18696050@66
 DEVBLOCK 0x2a46
-# ct_utils::function_f9ed304d@ee
+# ct_utils::cleanup_waypoint@ee
 DEVBLOCK 0x4576
 # ct_utils::function_785eb2ca@1c
 DEVBLOCK 0x6b74

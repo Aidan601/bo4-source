@@ -35,7 +35,7 @@ function __init__()
 {
     if ( getdvarint( #"hash_4e1190045ef3588b", 0 ) )
     {
-        function_27473e44();
+        enable_perk_for_level();
     }
 }
 
@@ -43,7 +43,7 @@ function __init__()
 // Params 0
 // Checksum 0x88565ec8, Offset: 0x290
 // Size: 0x20c
-function function_27473e44()
+function enable_perk_for_level()
 {
     if ( function_8b1a219a() )
     {

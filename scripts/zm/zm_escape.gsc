@@ -113,10 +113,10 @@ function event_handler[level_init] main( eventstruct )
     clientfield::register( "toplayer", "" + #"player_pbg_bank", 1, 1, "int" );
     clientfield::register( "vehicle", "" + #"gondola_light", 1, 1, "int" );
     zm_escape_catwalk_event::init_clientfields();
-    namespace_9d58c1cd::init_clientfields();
+    zm_escape_weap_quest_spoon::init_clientfields();
     zm_escape_util::init_clientfields();
     namespace_1063645::init_clientfields();
-    namespace_b99141ed::init_clientfields();
+    fast_travel_hellholes::init_clientfields();
     level._effect[ #"headshot" ] = #"zombie/fx_bul_flesh_head_fatal_zmb";
     level._effect[ #"headshot_nochunks" ] = #"zombie/fx_bul_flesh_head_nochunks_zmb";
     level._effect[ #"bloodspurt" ] = #"zombie/fx_bul_flesh_neck_spurt_zmb";
@@ -137,7 +137,7 @@ function event_handler[level_init] main( eventstruct )
     level._effect[ #"poltergeist" ] = #"maps/zm_escape/fx8_magicbox_poltergeist";
     level.var_a9c40fde = &function_2d2f3503;
     level.var_1e480ea7 = &function_bcc6a9d8;
-    namespace_b99141ed::init();
+    fast_travel_hellholes::init();
     paschal::init();
     zm_escape_achievement::init();
     level.custom_spawner_entry[ #"crawl" ] = &zm_spawner::function_45bb11e4;
@@ -186,7 +186,7 @@ function event_handler[level_init] main( eventstruct )
     level thread function_2141ca97();
     level thread function_8d0c655f();
     level thread function_11794ed8();
-    level thread namespace_9d58c1cd::main();
+    level thread zm_escape_weap_quest_spoon::main();
     level thread namespace_1063645::function_fb0bd6b9();
     level.var_6f6cc58 = &zm_escape_util::function_34b291c3;
     
@@ -239,12 +239,12 @@ function function_246a0760()
         level.next_dog_round = 11;
     }
     
-    zm_round_spawning::function_b4a8f95a( #"zombie_dog", level.next_dog_round, &zombie_dog_util::dog_round_start, &zombie_dog_util::function_5f1ef789, &zombie_dog_util::function_20aadb5e, &zombie_dog_util::function_d544de30, level.var_dc50acfa );
+    zm_round_spawning::schedule_special_round( #"zombie_dog", level.next_dog_round, &zombie_dog_util::dog_round_start, &zombie_dog_util::function_5f1ef789, &zombie_dog_util::function_20aadb5e, &zombie_dog_util::function_d544de30, level.var_dc50acfa );
     zm_round_spawning::function_df803678( &zombie_dog_util::function_ed67c5e7 );
     zm_utility::function_fdb0368( level.next_dog_round + 1 );
     level.dog_round_count = 3;
     level.next_dog_round = 22;
-    zm_round_spawning::function_b4a8f95a( #"zombie_dog", level.next_dog_round, &zombie_dog_util::dog_round_start, &zombie_dog_util::function_5f1ef789, &zombie_dog_util::function_20aadb5e, &zombie_dog_util::function_d544de30, level.var_dc50acfa );
+    zm_round_spawning::schedule_special_round( #"zombie_dog", level.next_dog_round, &zombie_dog_util::dog_round_start, &zombie_dog_util::function_5f1ef789, &zombie_dog_util::function_20aadb5e, &zombie_dog_util::function_d544de30, level.var_dc50acfa );
     
     /#
         level thread zombie_dog_util::function_de0a6ae4();
@@ -315,7 +315,7 @@ function function_7722c6f0( var_404e4288, var_8dd554ee )
 // Size: 0x50, Type: bool
 function function_e5086229( var_404e4288, var_8dd554ee )
 {
-    ai = zombie_dog_util::function_62db7b1c( 1 );
+    ai = zombie_dog_util::spawn_single_dog( 1 );
     
     if ( isdefined( ai ) )
     {
@@ -1291,7 +1291,7 @@ function function_172ac1b5()
     {
         zm_devgui::zombie_devgui_open_sesame();
         level thread zm_escape_catwalk_event::catwalk_event_cleanup();
-        namespace_9d58c1cd::function_7101d54f();
+        zm_escape_weap_quest_spoon::function_7101d54f();
         var_ccc575d7 = getent( "<dev string:x3be>", "<dev string:x3ce>" );
         var_ccc575d7 notify( #"blast_attack" );
         level.var_af325495 = 1;

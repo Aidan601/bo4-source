@@ -53,7 +53,7 @@ function init()
 // Params 0
 // Checksum 0x26a8ab13, Offset: 0x13e0
 // Size: 0x392
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     if ( self.team == #"allies" )
     {
@@ -128,7 +128,7 @@ function function_c9ff0dce()
 // Params 11
 // Checksum 0x89b3851c, Offset: 0x1780
 // Size: 0x1c8
-function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     if ( !isdefined( level.var_ad7c0539 ) )
     {
@@ -1182,7 +1182,7 @@ function function_8678055f()
             setslowmotion( 1, 1, 0 );
         }
         
-        waypoint ct_utils::function_f9ed304d();
+        waypoint ct_utils::cleanup_waypoint();
         level notify( #"stop_grav_slam_charge" );
         
         if ( !b_timeout )

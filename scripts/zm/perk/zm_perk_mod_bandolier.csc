@@ -19,14 +19,14 @@ function autoexec __init__system__()
 // Size: 0x14
 function __init__()
 {
-    function_27473e44();
+    enable_perk_for_level();
 }
 
 // Namespace zm_perk_mod_bandolier/zm_perk_mod_bandolier
 // Params 0
 // Checksum 0xf4b90430, Offset: 0xf8
 // Size: 0x9c
-function function_27473e44()
+function enable_perk_for_level()
 {
     zm_perks::register_perk_clientfields( #"specialty_mod_extraammo", &function_12161a30, &function_b10a7225 );
     zm_perks::register_perk_effects( #"specialty_mod_extraammo", "sleight_light" );

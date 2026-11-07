@@ -408,10 +408,10 @@ function function_419f8ccb()
         {
             distfromplayer = distancesquared( self.origin, self.favoriteenemy.origin );
             
-            if ( distfromplayer < self.settings.var_2c001f55 * self.settings.var_2c001f55 && !( isdefined( self.var_8d5279eb ) && self.var_8d5279eb ) )
+            if ( distfromplayer < self.settings.var_2c001f55 * self.settings.var_2c001f55 && !( isdefined( self.dyingdown ) && self.dyingdown ) )
             {
                 self.fxent clientfield::set( "towers_boss_dust_ball_fx", 2 );
-                self.var_8d5279eb = 1;
+                self.dyingdown = 1;
             }
             
             if ( distfromplayer < self.settings.var_7e3165c1 * self.settings.var_7e3165c1 )

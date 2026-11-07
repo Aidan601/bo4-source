@@ -1,12 +1,12 @@
 {
-    "destroyed": "#hash_cb1b67e6b6e4b74",
-    "wavestartfinal": "#hash_3925cba493fda90b",
+    "destroyed": "#vox_crp2_kls_raps_destroyed",
+    "wavestartfinal": "#vox_crp2_kls_raps_deploy_last",
     "configstringfiletype": "scriptbundle",
     "type": "mpdialog_scorestreak",
-    "damaged": "#hash_6e10058ce6b3ea4",
+    "damaged": "#vox_crp2_kls_raps_damaged",
     "vmtype": "both",
     "name": "cdp_pilot3_kls_raps_deployship",
-    "arrive": "#hash_5f8821f0f5157ec6",
-    "timeout": "#hash_7640dad7eb9c6818",
-    "wavestart": "#hash_54aa4f1ac0586726"
+    "arrive": "#vox_crp2_kls_raps_arrive",
+    "timeout": "#vox_crp2_kls_raps_leave",
+    "wavestart": "#vox_crp2_kls_raps_deploy"
 }

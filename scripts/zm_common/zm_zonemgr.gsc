@@ -378,7 +378,7 @@ function any_player_in_zone( zone_name )
 // Params 3
 // Checksum 0x5d01bcc9, Offset: 0xf30
 // Size: 0x15a, Type: bool
-function function_74a82172( location, zone_name, ignore_enabled_check = 0 )
+function location_in_zone( location, zone_name, ignore_enabled_check = 0 )
 {
     if ( !zone_is_enabled( zone_name ) && !ignore_enabled_check )
     {
@@ -1885,25 +1885,25 @@ function function_d4cf2b9b( force_update = 0 )
         
         foreach ( player in active_players )
         {
-            var_c6bd50df = player get_player_zone();
+            player_zone_name = player get_player_zone();
             
-            if ( !isdefined( var_c6bd50df ) )
+            if ( !isdefined( player_zone_name ) )
             {
                 continue;
             }
             
             ent_number = player getentitynumber();
             
-            if ( isdefined( level.zone_paths[ ent_number ] ) && isdefined( level.zone_paths[ ent_number ][ var_c6bd50df ] ) )
+            if ( isdefined( level.zone_paths[ ent_number ] ) && isdefined( level.zone_paths[ ent_number ][ player_zone_name ] ) )
             {
-                if ( level.zone_paths[ ent_number ][ var_c6bd50df ].cost == 0 )
+                if ( level.zone_paths[ ent_number ][ player_zone_name ].cost == 0 )
                 {
                     zone_paths[ ent_number ] = level.zone_paths[ ent_number ];
                     continue;
                 }
             }
             
-            zone = level.zones[ var_c6bd50df ];
+            zone = level.zones[ player_zone_name ];
             var_23ca4e6e = [];
             zone_info = spawnstruct();
             zone_info.cost = 0;
@@ -1924,9 +1924,9 @@ function function_d4cf2b9b( force_update = 0 )
                 
                 zone_info = var_23ca4e6e[ zone.name ];
                 
-                foreach ( var_4a52ff35, adjacent_zone in zone.adjacent_zones )
+                foreach ( adjacent_zone_name, adjacent_zone in zone.adjacent_zones )
                 {
-                    if ( isdefined( var_23ca4e6e[ var_4a52ff35 ] ) || isdefined( level.zones[ var_4a52ff35 ].var_d68ef0f9 ) && level.zones[ var_4a52ff35 ].var_d68ef0f9 )
+                    if ( isdefined( var_23ca4e6e[ adjacent_zone_name ] ) || isdefined( level.zones[ adjacent_zone_name ].var_d68ef0f9 ) && level.zones[ adjacent_zone_name ].var_d68ef0f9 )
                     {
                         continue;
                     }
@@ -1936,8 +1936,8 @@ function function_d4cf2b9b( force_update = 0 )
                         var_658cf985 = spawnstruct();
                         var_658cf985.to_zone = zone.name;
                         var_658cf985.cost = zone_info.cost + 1;
-                        var_23ca4e6e[ var_4a52ff35 ] = var_658cf985;
-                        zone_queue[ zone_queue.size ] = var_4a52ff35;
+                        var_23ca4e6e[ adjacent_zone_name ] = var_658cf985;
+                        zone_queue[ zone_queue.size ] = adjacent_zone_name;
                     }
                 }
                 

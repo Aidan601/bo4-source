@@ -135,7 +135,7 @@ function function_7a70f281()
 {
     self show();
     v_starting_origin = self.origin;
-    var_5287d229 = self.angles;
+    v_starting_angles = self.angles;
     v_forward = anglestoforward( self.angles );
     wait 0.5;
     self playsound( "evt_punch_card_insert" );
@@ -145,7 +145,7 @@ function function_7a70f281()
     self waittill( #"movedone" );
     self hide();
     self.origin = v_starting_origin;
-    self.angles = var_5287d229;
+    self.angles = v_starting_angles;
     level flag::clear( #"punch_card_inserted" );
 }
 
@@ -392,10 +392,10 @@ function function_8c80503()
     
     self thread function_d4c6dc0d();
     wait 2;
-    zm_hms_util::function_e308175e( #"hash_2d0c86fd62ab3853" + self.var_614bfc5c + 1 + "_sfx", self.origin );
+    zm_hms_util::function_e308175e( #"hash_2d0c86fd62ab3853" + self.log_id + 1 + "_sfx", self.origin );
     
     /#
-        iprintlnbold( "<dev string:x87>" + self.var_614bfc5c );
+        iprintlnbold( "<dev string:x87>" + self.log_id );
     #/
     
     self.is_playing_audio = 0;
@@ -430,10 +430,10 @@ function function_d4c6dc0d()
 // Size: 0x6c
 function uin_kls_counteruavdefeated()
 {
-    zm_hms_util::function_e308175e( #"hash_d065c4529d709fe" + self.var_614bfc5c + 1 + "_sfx", self.origin );
+    zm_hms_util::function_e308175e( #"hash_d065c4529d709fe" + self.log_id + 1 + "_sfx", self.origin );
     
     /#
-        iprintlnbold( "<dev string:xa1>" + self.var_614bfc5c );
+        iprintlnbold( "<dev string:xa1>" + self.log_id );
     #/
 }
 
@@ -444,11 +444,11 @@ function uin_kls_counteruavdefeated()
 function function_ac06ab3a()
 {
     level.var_ea514bc4 = [];
-    var_1c8e90b4 = array( #"hash_6fce75e5c4fe6210" );
-    var_ab6a16ff = array( #"hash_172aa60779a37741" );
-    var_e6c1fe70 = array( #"hash_511e79ef416368e2" );
-    var_51ba7b4a = array( #"hash_1a1854072d6b2453" );
-    var_68e586cf = array( #"hash_39204e32adbe7694" );
+    var_1c8e90b4 = array( #"vox_audio_reel_stem_1_sfx" );
+    var_ab6a16ff = array( #"vox_audio_reel_stem_2_sfx" );
+    var_e6c1fe70 = array( #"vox_audio_reel_stem_3_sfx" );
+    var_51ba7b4a = array( #"vox_audio_reel_stem_4_sfx" );
+    var_68e586cf = array( #"vox_audio_reel_stem_5_sfx" );
     level.var_ea514bc4[ 0 ] = { #var_8a821e1e:0, #in_inventory:0, #vo_line:var_1c8e90b4 };
     level.var_ea514bc4[ 1 ] = { #var_8a821e1e:1, #in_inventory:0, #vo_line:var_ab6a16ff };
     level.var_ea514bc4[ 2 ] = { #var_8a821e1e:2, #in_inventory:0, #vo_line:var_e6c1fe70, #var_46db68fd:1 };
@@ -691,8 +691,8 @@ function function_6b2499f9()
 function function_a0b040d4()
 {
     level endon( #"hash_48039f3a4c1a3248" );
-    level.var_215e60c4 = struct::get( #"tedd_talk", "targetname" );
-    s_unitrigger = level.var_215e60c4 zm_unitrigger::create( &function_c9271718, 64, &function_ee32c750 );
+    level.s_tedd = struct::get( #"tedd_talk", "targetname" );
+    s_unitrigger = level.s_tedd zm_unitrigger::create( &function_c9271718, 64, &function_ee32c750 );
     s_unitrigger thread function_4bda6193();
     level waittill( #"lounge_revoked" );
     vol = getent( "vol_soul_lounge", "targetname" );
@@ -709,12 +709,12 @@ function function_a0b040d4()
 // Size: 0x108, Type: bool
 function function_c9271718( player )
 {
-    if ( level.var_215e60c4.in_use === 1 )
+    if ( level.s_tedd.in_use === 1 )
     {
         return false;
     }
     
-    if ( level.var_215e60c4.is_on === 1 )
+    if ( level.s_tedd.is_on === 1 )
     {
         if ( function_8b1a219a() )
         {
@@ -772,13 +772,13 @@ function function_93040a5d()
         waitresult = self waittill( #"damage" );
         b_player_damaged = waitresult function_ce7e594b();
         
-        if ( !b_player_damaged || isdefined( level.var_215e60c4.in_use ) && level.var_215e60c4.in_use )
+        if ( !b_player_damaged || isdefined( level.s_tedd.in_use ) && level.s_tedd.in_use )
         {
             wait 1;
             continue;
         }
         
-        level.var_215e60c4.in_use = 1;
+        level.s_tedd.in_use = 1;
         
         if ( var_28999578.size > 0 )
         {
@@ -793,7 +793,7 @@ function function_93040a5d()
         
         foreach ( player in getplayers() )
         {
-            zm_hms_util::function_e308175e( alias, level.var_215e60c4.origin, player );
+            zm_hms_util::function_e308175e( alias, level.s_tedd.origin, player );
             
             if ( level.var_5da5aff4 )
             {
@@ -802,7 +802,7 @@ function function_93040a5d()
         }
         
         wait 2;
-        level.var_215e60c4.in_use = 0;
+        level.s_tedd.in_use = 0;
     }
 }
 
@@ -854,7 +854,7 @@ function function_cf1b4a16()
 function function_4bda6193()
 {
     self endon( #"death" );
-    level.var_215e60c4.in_use = 0;
+    level.s_tedd.in_use = 0;
     a_variants = [];
     
     for ( i = 0; i < 26 ; i++ )
@@ -878,29 +878,29 @@ function function_4bda6193()
     {
         self waittill( #"play_audio" );
         
-        if ( isdefined( level.var_215e60c4.in_use ) && !level.var_215e60c4.in_use )
+        if ( isdefined( level.s_tedd.in_use ) && !level.s_tedd.in_use )
         {
-            level.var_215e60c4.in_use = 1;
+            level.s_tedd.in_use = 1;
             
-            if ( !( isdefined( level.var_215e60c4.is_on ) && level.var_215e60c4.is_on ) )
+            if ( !( isdefined( level.s_tedd.is_on ) && level.s_tedd.is_on ) )
             {
                 exploder::exploder( "fxexp_script_bus_driver_on" );
                 wait 1;
-                level.var_215e60c4.is_on = 1;
+                level.s_tedd.is_on = 1;
                 
                 foreach ( player in getplayers() )
                 {
-                    zm_hms_util::function_e308175e( "vox_tedd_interact_first_tedd_0", level.var_215e60c4.origin, player );
+                    zm_hms_util::function_e308175e( "vox_tedd_interact_first_tedd_0", level.s_tedd.origin, player );
                 }
                 
-                level.var_215e60c4.body = getent( "ee_tedd", "targetname" );
-                level.var_215e60c4.body thread function_93040a5d();
+                level.s_tedd.body = getent( "ee_tedd", "targetname" );
+                level.s_tedd.body thread function_93040a5d();
             }
             else
             {
                 foreach ( player in getplayers() )
                 {
-                    zm_hms_util::function_e308175e( "vox_tedd_interact_tedd_" + a_variants[ n_index ], level.var_215e60c4.origin, player );
+                    zm_hms_util::function_e308175e( "vox_tedd_interact_tedd_" + a_variants[ n_index ], level.s_tedd.origin, player );
                 }
                 
                 n_index++;
@@ -913,7 +913,7 @@ function function_4bda6193()
             }
             
             wait 2;
-            level.var_215e60c4.in_use = 0;
+            level.s_tedd.in_use = 0;
             continue;
         }
         

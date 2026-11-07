@@ -39,7 +39,7 @@ function function_719b774a( inflictor, attacker, damage, flags, meansofdeath, we
     }
     
     var_b1c1c5cf = zm_equipment::function_7d948481( 0.1, 0.25, 1, 1 );
-    var_5d7b4163 = zm_equipment::function_379f6b5d( damage, var_b1c1c5cf, 1, 4, 40 );
-    return var_5d7b4163;
+    n_scaled_damage = zm_equipment::function_379f6b5d( damage, var_b1c1c5cf, 1, 4, 40 );
+    return n_scaled_damage;
 }
 

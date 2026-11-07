@@ -319,7 +319,7 @@ function private function_e5ffb77c( start, end, duration )
 // Params 3, eflags: 0x4
 // Checksum 0x2bfe8131, Offset: 0x19f0
 // Size: 0x86
-function private function_debf98ad( location, radius, duration )
+function private debug_draw_sphere( location, radius, duration )
 {
     current_time = duration * 20;
     
@@ -376,11 +376,11 @@ function private function_f2ce2a46( entity )
 // Params 0, eflags: 0x4
 // Checksum 0x329a61a0, Offset: 0x1c28
 // Size: 0x15a
-function private function_4ee74b24()
+function private is_facing_enemy()
 {
-    if ( !isdefined( self.var_4ee74b24 ) )
+    if ( !isdefined( self.is_facing_enemy ) )
     {
-        self.var_4ee74b24 = 0;
+        self.is_facing_enemy = 0;
     }
     
     if ( !isdefined( self.var_6d5a7a2d ) )
@@ -400,15 +400,15 @@ function private function_4ee74b24()
         
         if ( dot >= cosine_angle )
         {
-            self.var_4ee74b24 = 1;
+            self.is_facing_enemy = 1;
         }
         else
         {
-            self.var_4ee74b24 = 0;
+            self.is_facing_enemy = 0;
         }
     }
     
-    return self.var_4ee74b24;
+    return self.is_facing_enemy;
 }
 
 // Namespace zm_ai_white_nova_crawler/zm_ai_white_nova_crawler
@@ -922,7 +922,7 @@ function private function_8261512d( entity )
     {
         var_eab3f54a = distance2dsquared( entity.origin, entity.favoriteenemy.origin );
         
-        if ( var_eab3f54a > 200 * 200 && entity function_4ee74b24() && entity can_see_enemy() && !entity function_68469a59() )
+        if ( var_eab3f54a > 200 * 200 && entity is_facing_enemy() && entity can_see_enemy() && !entity function_68469a59() )
         {
             result = 1;
         }
@@ -980,14 +980,14 @@ function private function_8eb7fbb7()
 // Size: 0xa0
 function private function_51ab2a44( inflictor, attacker, damage, flags, meansofdeath, weapon, vpoint, vdir, shitloc, psoffsettime, boneindex, surfacetype )
 {
-    var_7aa37d9f = damage;
+    damage_result = damage;
     
     if ( isdefined( inflictor ) && inflictor.team == self.team )
     {
-        var_7aa37d9f = 0;
+        damage_result = 0;
     }
     
-    return var_7aa37d9f;
+    return damage_result;
 }
 
 // Namespace zm_ai_white_nova_crawler/zm_ai_white_nova_crawler

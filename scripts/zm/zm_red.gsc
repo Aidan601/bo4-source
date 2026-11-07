@@ -897,7 +897,7 @@ function function_eba3496( var_cd13b40e = 1, var_4e4cc9a9 = 1 )
     str_model = level.var_b0ccfa4c[ randomint( level.var_b0ccfa4c.size ) ];
     mdl_zombie = util::spawn_model( str_model, self.origin, self.angles );
     mdl_zombie.target = self.target;
-    mdl_zombie.var_e259ad71 = self.var_e259ad71;
+    mdl_zombie.script_power_quest_section = self.script_power_quest_section;
     mdl_zombie.sp_model = getent( str_model, "targetname" );
     mdl_zombie thread scene::play( #"aib_zm_red_ampthtr_zombie_trnsfxd", "Shot 1", mdl_zombie );
     
@@ -987,7 +987,7 @@ function function_a4e2970b( var_4e4cc9a9 = 1, s_damage )
             ai_zombie.ignore_enemy_count = 1;
             ai_zombie.var_12745932 = 1;
             ai_zombie.var_ae4569d5 = 1;
-            ai_zombie.var_e259ad71 = self.var_e259ad71;
+            ai_zombie.script_power_quest_section = self.script_power_quest_section;
             ai_zombie thread zm_red_power_quest::function_2a80a9cc();
         }
         
@@ -1124,7 +1124,7 @@ function function_fb3ab798( var_4e4cc9a9 = 1 )
     {
         if ( level flag::get( #"hash_dc34ebe02d09532" ) )
         {
-            level thread zm_red_power_quest::function_b8848794( self.var_e259ad71, 0 );
+            level thread zm_red_power_quest::function_b8848794( self.script_power_quest_section, 0 );
         }
         
         if ( var_4e4cc9a9 )
@@ -1748,7 +1748,7 @@ function function_c02e63( var_2753f06a )
                 if ( str_host == "brun" )
                 {
                     level.host zm_vo::vo_say( #"hash_6d9e1d549cc1b3ba", undefined, undefined, undefined, undefined, 1 );
-                    level.host zm_vo::vo_say( #"hash_72533b3d4278425d", 0.5 );
+                    level.host zm_vo::vo_say( #"vox_solo_game_start_brun_1_plr_2_0", 0.5 );
                 }
                 else
                 {
@@ -1759,7 +1759,7 @@ function function_c02e63( var_2753f06a )
             case 1:
                 if ( str_host == "brun" )
                 {
-                    level.host zm_vo::vo_say( #"hash_6f1df3b4e6354472", 0.5 );
+                    level.host zm_vo::vo_say( #"vox_solo_end_round1_brun_0_plr_2_0", 0.5 );
                     level.host zm_vo::vo_say( #"hash_31a9fb6be6fe1013", undefined, undefined, undefined, undefined, 1 );
                 }
                 else
@@ -1771,7 +1771,7 @@ function function_c02e63( var_2753f06a )
             case 2:
                 if ( str_host == "brun" )
                 {
-                    level.host zm_vo::vo_say( #"hash_166f0f941a5b1e45", 0.5 );
+                    level.host zm_vo::vo_say( #"vox_solo_end_round2_brun_0_plr_2_0", 0.5 );
                     level.host zm_vo::vo_say( #"hash_2c81ea0c696b6232", undefined, undefined, undefined, undefined, 1 );
                 }
                 else
@@ -1867,7 +1867,7 @@ function function_c02e63( var_2753f06a )
 function function_b35c3e0b( str_host, n_index )
 {
     a_players = util::get_active_players();
-    var_9103f439 = [];
+    a_vo_players = [];
     
     if ( isdefined( a_players ) && a_players.size > 1 )
     {
@@ -1875,15 +1875,15 @@ function function_b35c3e0b( str_host, n_index )
         {
             if ( player zm_vo::function_82f9bc9f() != str_host )
             {
-                var_9103f439[ var_9103f439.size ] = player;
+                a_vo_players[ a_vo_players.size ] = player;
             }
         }
         
-        player = array::random( var_9103f439 );
+        player = array::random( a_vo_players );
         
         if ( isdefined( player ) )
         {
-            player zm_vo::function_a2bd5a0c( #"hash_71bde3a512edb440" + n_index + "_" + str_host, 0.5 );
+            player zm_vo::function_a2bd5a0c( #"vox_co_op_end_round" + n_index + "_" + str_host, 0.5 );
         }
     }
 }

@@ -88,9 +88,9 @@ function function_53b616a4()
     {
         s_zipline_crank.var_2e77da49 = 0;
         s_zipline_crank.var_68a09be4 = 0;
-        s_zipline_crank.e_crank = getent( s_zipline_crank.var_c299d92a, "targetname" );
+        s_zipline_crank.e_crank = getent( s_zipline_crank.e_zipline_crank, "targetname" );
         s_zipline_crank.e_crank hide();
-        s_zipline_crank.var_f316eff6 = getnode( s_zipline_crank.var_2da0be6c, "targetname" );
+        s_zipline_crank.var_f316eff6 = getnode( s_zipline_crank.nd_zipline_zombie_traversal, "targetname" );
         unlinktraversal( s_zipline_crank.var_f316eff6 );
         s_zipline_crank function_6eb4fb79();
         s_zipline_crank zm_unitrigger::create( &function_29c3aabf, 64 );
@@ -104,8 +104,8 @@ function function_53b616a4()
 // Size: 0xce
 function function_6eb4fb79()
 {
-    s_zipline_use = struct::get( self.var_68ae361b, "targetname" );
-    s_zipline_use.var_508d5a11 = struct::get_array( s_zipline_use.var_10582773, "targetname" );
+    s_zipline_use = struct::get( self.str_zipline_use, "targetname" );
+    s_zipline_use.var_508d5a11 = struct::get_array( s_zipline_use.str_landing_point, "targetname" );
     s_zipline_use thread function_220a8687();
     s_zipline_use zm_unitrigger::create( &function_e82679f8, 85 );
     s_zipline_use thread function_d41f7e0e();
@@ -123,7 +123,7 @@ function function_4dc96e66()
     
     foreach ( s_zipline_use in level.a_s_zipline_use )
     {
-        s_zipline_use.var_508d5a11 = struct::get_array( s_zipline_use.var_10582773, "targetname" );
+        s_zipline_use.var_508d5a11 = struct::get_array( s_zipline_use.str_landing_point, "targetname" );
         s_zipline_use thread function_220a8687();
         s_zipline_use zm_unitrigger::create( &function_e82679f8, 85 );
         s_zipline_use thread function_d41f7e0e();
@@ -256,11 +256,11 @@ function function_665b4fa6()
     self endon( #"zipline_in_place" );
     self.var_191e6b71 = 5;
     
-    if ( self.var_68ae361b == "s_zipline_use_aft_to_beach" )
+    if ( self.str_zipline_use == "s_zipline_use_aft_to_beach" )
     {
         self.var_3bc09679 = struct::get( "scene_zipline_aft", "targetname" );
     }
-    else if ( self.var_68ae361b == "s_zipline_use_lighthouse_to_fore" )
+    else if ( self.str_zipline_use == "s_zipline_use_lighthouse_to_fore" )
     {
         self.var_3bc09679 = struct::get( "scene_zipline_fore", "targetname" );
     }
@@ -780,7 +780,7 @@ function function_fc9707f4( vnd_start, s_zipline_use )
         }
     }
     
-    self.var_f22c83f5 = 1;
+    self.b_ignore_playable_area_check = 1;
     self.var_e75517b1 = 1;
     self bgb::suspend_weapon_cycling();
     self disableweaponcycling();
@@ -887,7 +887,7 @@ function function_994538a5( s_zipline_use )
     self endon( #"disconnect" );
     self.active_zipline = undefined;
     self.var_bf8dfaf4 = 0;
-    self.var_f22c83f5 = 0;
+    self.b_ignore_playable_area_check = 0;
     self.var_e75517b1 = 0;
     self bgb_pack::function_ac9cb612( 0 );
     self.bgb_disabled = 0;
@@ -946,11 +946,11 @@ function function_a393b77f()
                     level flag::set( #"hash_e29d662bb90e4bc" );
                 }
                 
-                if ( s_zipline_crank.var_68ae361b == "<dev string:x77>" )
+                if ( s_zipline_crank.str_zipline_use == "<dev string:x77>" )
                 {
                     s_zipline_crank.var_3bc09679 = struct::get( "<dev string:x94>", "<dev string:xa8>" );
                 }
-                else if ( s_zipline_crank.var_68ae361b == "<dev string:xb5>" )
+                else if ( s_zipline_crank.str_zipline_use == "<dev string:xb5>" )
                 {
                     s_zipline_crank.var_3bc09679 = struct::get( "<dev string:xd8>", "<dev string:xa8>" );
                 }

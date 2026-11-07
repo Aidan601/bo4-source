@@ -24,7 +24,7 @@ function __init__()
 {
     if ( getdvarint( #"hash_1c1a8ed8d0bf271c", 0 ) )
     {
-        function_27473e44();
+        enable_perk_for_level();
     }
 }
 
@@ -32,7 +32,7 @@ function __init__()
 // Params 0
 // Checksum 0x87122c8d, Offset: 0x378
 // Size: 0xdc
-function function_27473e44()
+function enable_perk_for_level()
 {
     zm_perks::register_perk_clientfields( #"specialty_death_dash", &client_field_func, &code_callback_func );
     zm_perks::register_perk_init_thread( #"specialty_death_dash", &init );

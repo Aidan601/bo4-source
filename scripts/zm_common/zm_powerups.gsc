@@ -1807,7 +1807,7 @@ function function_f0eb47d8( var_f0de9b92, b_disable = 1 )
 {
     if ( isdefined( level.zombie_powerups[ var_f0de9b92 ] ) )
     {
-        level.zombie_powerups[ var_f0de9b92 ].var_cad40b46 = b_disable;
+        level.zombie_powerups[ var_f0de9b92 ].b_disable_powerup_wobble = b_disable;
     }
 }
 
@@ -1878,7 +1878,7 @@ function powerup_wobble()
 {
     self endon( #"powerup_grabbed", #"powerup_timedout" );
     
-    if ( isdefined( level.zombie_powerups[ self.powerup_name ] ) && isdefined( level.zombie_powerups[ self.powerup_name ].var_cad40b46 ) && level.zombie_powerups[ self.powerup_name ].var_cad40b46 )
+    if ( isdefined( level.zombie_powerups[ self.powerup_name ] ) && isdefined( level.zombie_powerups[ self.powerup_name ].b_disable_powerup_wobble ) && level.zombie_powerups[ self.powerup_name ].b_disable_powerup_wobble )
     {
         return;
     }
@@ -2100,7 +2100,7 @@ function is_insta_kill_active()
 // Params 5
 // Checksum 0x3e80541e, Offset: 0x5d48
 // Size: 0x24e
-function function_fe6d6eac( player, mod, hit_location, weapon, damage )
+function get_instakill_damage( player, mod, hit_location, weapon, damage )
 {
     if ( !( "head" == hit_location || "helmet" == hit_location || "neck" == hit_location ) && ( isdefined( level.headshots_only ) && level.headshots_only || zm_trial_headshots_only::is_active() ) )
     {

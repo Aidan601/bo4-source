@@ -1001,7 +1001,7 @@ function function_f6f0c876( var_26b2b1bb, seekermine )
     
     self notify( #"seeker_mine_prompt_closed" );
     gesturetable = "gestable_shocked_reaction";
-    var_84a7f98e = undefined;
+    gesture_weapon = undefined;
     waitduration = 0;
     animdelay = 0;
     islooping = 1;
@@ -1028,7 +1028,7 @@ function function_f6f0c876( var_26b2b1bb, seekermine )
             break;
         case 1:
             gesturetable = "gestable_shocked_success";
-            var_84a7f98e = getweapon( #"seeker_mine_success" );
+            gesture_weapon = getweapon( #"seeker_mine_success" );
             islooping = 0;
             self playsoundtoplayer( #"uin_seeker_qte_success", self );
             self battlechatter::function_72b65730();
@@ -1045,7 +1045,7 @@ function function_f6f0c876( var_26b2b1bb, seekermine )
             break;
         case 3:
             gesturetable = "gestable_shocked_success";
-            var_84a7f98e = getweapon( #"seeker_mine_success" );
+            gesture_weapon = getweapon( #"seeker_mine_success" );
             islooping = 0;
             self playsoundtoplayer( #"uin_seeker_qte_success", self );
             println( "<dev string:x92>" );
@@ -1055,7 +1055,7 @@ function function_f6f0c876( var_26b2b1bb, seekermine )
             break;
     }
     
-    self thread function_e380fde7( var_84a7f98e, gesturetable, waitduration, islooping, animdelay );
+    self thread function_e380fde7( gesture_weapon, gesturetable, waitduration, islooping, animdelay );
     self thread function_24d08109( seekermine, waitduration, var_26b2b1bb, self.var_dda9b735.state );
 }
 
@@ -1096,16 +1096,16 @@ function function_b6ee86e3( seekermine, var_26b2b1bb )
 // Params 5
 // Checksum 0xba0ee68a, Offset: 0x3720
 // Size: 0x2e2
-function function_e380fde7( var_84a7f98e, gesturetable, waitduration, islooping, animdelay )
+function function_e380fde7( gesture_weapon, gesturetable, waitduration, islooping, animdelay )
 {
     self notify( "49a0bba57c17e324" );
     self endon( "49a0bba57c17e324" );
     self endon( #"death" );
     wait animdelay;
     
-    if ( isdefined( var_84a7f98e ) && var_84a7f98e == level.weaponnone )
+    if ( isdefined( gesture_weapon ) && gesture_weapon == level.weaponnone )
     {
-        var_84a7f98e = undefined;
+        gesture_weapon = undefined;
     }
     
     if ( isdefined( gesturetable ) )
@@ -1113,18 +1113,18 @@ function function_e380fde7( var_84a7f98e, gesturetable, waitduration, islooping,
         newgesture = self gestures::function_c77349d4( gesturetable );
     }
     
-    if ( isdefined( self.var_dda9b735.gesture ) && ( isdefined( var_84a7f98e ) || isdefined( newgesture ) && newgesture != self.var_dda9b735.gesture ) )
+    if ( isdefined( self.var_dda9b735.gesture ) && ( isdefined( gesture_weapon ) || isdefined( newgesture ) && newgesture != self.var_dda9b735.gesture ) )
     {
         self stopgestureviewmodel( self.var_dda9b735.gesture, 50, 1 );
         self.var_dda9b735.gesture = undefined;
         self.var_dda9b735.islooping = undefined;
     }
     
-    if ( isdefined( var_84a7f98e ) && var_84a7f98e != getweapon( #"none" ) )
+    if ( isdefined( gesture_weapon ) && gesture_weapon != getweapon( #"none" ) )
     {
         self.var_dda9b735.gesture = undefined;
         self.var_dda9b735.islooping = undefined;
-        self thread gestures::function_f3e2696f( self, var_84a7f98e, undefined, 1.5, undefined, undefined, undefined );
+        self thread gestures::function_f3e2696f( self, gesture_weapon, undefined, 1.5, undefined, undefined, undefined );
     }
     else if ( isdefined( newgesture ) )
     {

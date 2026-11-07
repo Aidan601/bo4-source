@@ -750,14 +750,14 @@ function private player_near_gravity_vortex()
 // Size: 0x1c
 function function_984185e0()
 {
-    self thread function_fa0a1b19();
+    self thread add_revive_override();
 }
 
 // Namespace zm_weap_gravityspikes/zm_weap_gravityspikes
 // Params 0
 // Checksum 0x66f9a779, Offset: 0x2a58
 // Size: 0xb6
-function function_fa0a1b19()
+function add_revive_override()
 {
     if ( !isdefined( self.var_f9c533d9 ) )
     {

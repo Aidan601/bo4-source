@@ -5,7 +5,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3b81b4da43e05443",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_path2_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_11790b551d871a22",
+                            "anim": "anim#p8_fxanim_mp_offshore_monkey_path2_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -66,7 +66,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_381d75531ae577b9",
+            "model": "model#p8_fxanim_mp_offshore_monkey_path2_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

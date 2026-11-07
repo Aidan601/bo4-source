@@ -820,8 +820,8 @@ function private function_6c92ebda( behaviortreeentity, asmstatename )
     animationstatenetworkutility::requeststate( behaviortreeentity, asmstatename );
     behaviortreeentity notify( #"hash_321b8431208f19bd" );
     behaviortreeentity clientfield::set( "electricity_catalyst_blast", 0 );
-    var_12588ac8 = randomfloatrange( behaviortreeentity ai::function_9139c839().var_984d7701, behaviortreeentity ai::function_9139c839().var_58ac6ec4 );
-    behaviortreeentity.var_51f067e3 = gettime() + var_12588ac8;
+    n_burst_delay = randomfloatrange( behaviortreeentity ai::function_9139c839().var_984d7701, behaviortreeentity ai::function_9139c839().var_58ac6ec4 );
+    behaviortreeentity.var_51f067e3 = gettime() + n_burst_delay;
     behaviortreeentity.var_a85128a4 = 0;
     return 4;
 }

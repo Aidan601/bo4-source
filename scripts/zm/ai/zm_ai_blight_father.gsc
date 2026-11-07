@@ -99,7 +99,7 @@ function __init__()
     level thread aat::register_immunity( "zm_aat_kill_o_watt", #"blight_father", 1, 1, 1 );
     level thread aat::register_immunity( "zm_aat_plasmatic_burst", #"blight_father", 1, 1, 1 );
     blight_father_spawner = getent( "zombie_spawner_blight_father", "targetname" );
-    zm_transform::function_cfca77a7( blight_father_spawner, #"blight_father", &function_39212989, 10, &function_3a0cdf7f, &function_8e4c43d3, "aib_vign_zm_zod_bltfthr_spawn_pre_split", "aib_vign_zm_zod_bltfthr_spawn_post_split" );
+    zm_transform::function_cfca77a7( blight_father_spawner, #"blight_father", &function_39212989, 10, &transform_start, &function_8e4c43d3, "aib_vign_zm_zod_bltfthr_spawn_pre_split", "aib_vign_zm_zod_bltfthr_spawn_post_split" );
     zm_spawner::register_zombie_death_event_callback( &killed_callback );
     callback::on_ai_killed( &function_7bef9c3c );
     zm_round_spawning::register_archetype( #"blight_father", &function_633d7436, &round_spawn, undefined, 300 );
@@ -2063,8 +2063,8 @@ function private function_299dd40e( entity, mocompanim, mocompanimblendouttime, 
     if ( zm_utility::is_player_valid( entity.var_bef7624d ) )
     {
         to_player = entity.var_bef7624d.origin - entity.origin;
-        var_47d9e0ed = vectortoangles( to_player );
-        entity orientmode( "face angle", var_47d9e0ed[ 1 ] );
+        angles_to_player = vectortoangles( to_player );
+        entity orientmode( "face angle", angles_to_player[ 1 ] );
     }
     
     entity animmode( "zonly_physics", 0 );
@@ -2083,8 +2083,8 @@ function private function_689831cf( entity, mocompanim, mocompanimblendouttime, 
         #/
         
         to_player = entity.var_bef7624d.origin - entity.origin;
-        var_47d9e0ed = vectortoangles( to_player );
-        entity orientmode( "face angle", var_47d9e0ed[ 1 ] );
+        angles_to_player = vectortoangles( to_player );
+        entity orientmode( "face angle", angles_to_player[ 1 ] );
     }
     else
     {
@@ -3433,8 +3433,8 @@ function private function_124486ee( delay )
     var_892397fd = self;
     missile_owner = var_892397fd.var_52334e8c;
     blast_radius = 128;
-    var_83f35abe = 45;
-    var_6927cfa0 = 40;
+    blast_inner_damage = 45;
+    blast_outer_damage = 40;
     var_c45ef84c = 40 * 40;
     
     if ( delay > 0 )
@@ -3469,7 +3469,7 @@ function private function_124486ee( delay )
             player.var_c29c44ca = player.health;
         }
         
-        radiusdamage( explosion_point, blast_radius, var_83f35abe, var_6927cfa0, e_blightfather, "MOD_UNKNOWN", w_weapon );
+        radiusdamage( explosion_point, blast_radius, blast_inner_damage, blast_outer_damage, e_blightfather, "MOD_UNKNOWN", w_weapon );
         function_44e3e0d1( explosion_point );
         
         if ( isdefined( var_892397fd ) )
@@ -3654,7 +3654,7 @@ function function_39212989()
 // Params 0
 // Checksum 0xbe12c35a, Offset: 0xc368
 // Size: 0x12
-function function_3a0cdf7f()
+function transform_start()
 {
     self.b_ignore_cleanup = 1;
 }

@@ -53,7 +53,7 @@ function private on_end( round_reset )
 {
     foreach ( player in getplayers() )
     {
-        player thread function_50b92441();
+        player thread restore_perks();
     }
     
     level util::delay( 1, "end_game", &zm_trial_util::function_302c6014 );
@@ -124,7 +124,7 @@ function private function_83fa47e8()
 // Params 0, eflags: 0x4
 // Checksum 0xad72d7e8, Offset: 0x5b8
 // Size: 0x22c
-function private function_50b92441()
+function private restore_perks()
 {
     self endon( #"disconnect" );
     

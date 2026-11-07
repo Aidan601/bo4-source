@@ -5,11 +5,11 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4f9e04ef4988efea",
+                            "anim": "anim#ai_t8_zm_twrs_tgr_dth_ww_xbow_00_intro",
                             "entrytype": "anim"
                         },
                         {
-                            "anim": "anim#hash_444339f9f54192b6",
+                            "anim": "anim#ai_t8_zm_twrs_tgr_dth_ww_xbow_00_loop",
                             "entrytype": "anim"
                         }
                     ],
@@ -38,7 +38,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3debee1ffa0092ef",
+                            "anim": "anim#ai_t8_zm_twrs_tgr_dth_ww_xbow_00_outro",
                             "entrytype": "anim"
                         }
                     ],

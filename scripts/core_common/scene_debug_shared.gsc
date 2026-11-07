@@ -540,13 +540,13 @@
             {
                 setdvar( #"run_scene", str_scene + "<dev string:x45>" + names[ selected ] + "<dev string:x45>" + "<dev string:x263>" );
             }
-            else if ( function_606f1f21() )
+            else if ( is_confirm_button_pressed() )
             {
                 if ( names[ selected ] == "<dev string:x1d4>" )
                 {
                     level flagsys::toggle( "<dev string:x274>" );
                     
-                    while ( function_606f1f21() )
+                    while ( is_confirm_button_pressed() )
                     {
                         waitframe( 1 );
                     }
@@ -563,7 +563,7 @@
                     {
                         level.scene_menu_shot_index = selected;
                         
-                        while ( function_606f1f21() )
+                        while ( is_confirm_button_pressed() )
                         {
                             waitframe( 1 );
                         }
@@ -592,7 +592,7 @@
                     }
                 }
                 
-                while ( function_606f1f21() || function_940c526f() )
+                while ( is_confirm_button_pressed() || function_940c526f() )
                 {
                     waitframe( 1 );
                 }
@@ -626,7 +626,7 @@
     // Params 0
     // Checksum 0x80933e4f, Offset: 0x1ef8
     // Size: 0x82, Type: dev
-    function function_606f1f21()
+    function is_confirm_button_pressed()
     {
         if ( level.host buttonpressed( "<dev string:x28d>" ) || level.host buttonpressed( "<dev string:x298>" ) || level.host buttonpressed( "<dev string:x2a3>" ) )
         {

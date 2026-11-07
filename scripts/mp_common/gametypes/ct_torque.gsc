@@ -78,7 +78,7 @@ function function_7c4ef26b( predictedspawn )
     
     if ( level.ctdifficulty == 0 )
     {
-        self ct_torque_tutorial::function_c9ff0dce();
+        self ct_torque_tutorial::player_spawned_callback();
         return;
     }
     
@@ -290,8 +290,8 @@ function function_cf3224fe( b_success )
         e_player function_143ffb68();
         level.ai_vip flag::clear( "vip_checkpoint_goto" );
         level.ai_vip flag::clear( "vip_checkpoint_action" );
-        level.ai_vip.waypoint_defend ct_utils::function_f9ed304d();
-        level.ai_vip.waypoint_escort ct_utils::function_f9ed304d();
+        level.ai_vip.waypoint_defend ct_utils::cleanup_waypoint();
+        level.ai_vip.waypoint_escort ct_utils::cleanup_waypoint();
         level.ai_vip = undefined;
         
         foreach ( var_94dda6f in level.var_ac03813 )
@@ -306,7 +306,7 @@ function function_cf3224fe( b_success )
         {
             if ( isdefined( ai_zombie ) )
             {
-                ai_zombie.waypoint ct_utils::function_f9ed304d();
+                ai_zombie.waypoint ct_utils::cleanup_waypoint();
                 ai_zombie delete();
             }
         }
@@ -557,7 +557,7 @@ function function_27bf93d( var_93b6a23b = 2000, var_844ac87e = 1 )
             
             if ( var_5f1f169b >= var_b0daf0fd && ( !var_844ac87e || e_player function_80d68e4d( ai_zombie, 0.7, 1 ) ) )
             {
-                ai_zombie.waypoint ct_utils::function_f9ed304d();
+                ai_zombie.waypoint ct_utils::cleanup_waypoint();
                 ai_zombie delete();
             }
         }
@@ -1215,7 +1215,7 @@ function function_41ce2473( parms )
     if ( self.archetype === "zombie" )
     {
         waypoint = self.waypoint;
-        waypoint ct_utils::function_f9ed304d();
+        waypoint ct_utils::cleanup_waypoint();
         var_605bef7f = getweapon( #"ability_smart_cover" );
         e_player = ct_utils::get_player();
         

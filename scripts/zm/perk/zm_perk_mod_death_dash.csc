@@ -20,14 +20,14 @@ function autoexec __init__system__()
 // Size: 0x14
 function __init__()
 {
-    function_27473e44();
+    enable_perk_for_level();
 }
 
 // Namespace zm_perk_mod_death_dash/zm_perk_mod_death_dash
 // Params 0
 // Checksum 0x3a9dc644, Offset: 0x188
 // Size: 0xbc
-function function_27473e44()
+function enable_perk_for_level()
 {
     zm_perks::register_perk_clientfields( #"specialty_mod_death_dash", &client_field_func, &code_callback_func );
     zm_perks::register_perk_init_thread( #"specialty_mod_death_dash", &init );

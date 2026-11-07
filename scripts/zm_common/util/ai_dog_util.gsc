@@ -56,7 +56,7 @@ function __init__()
     level thread aat::register_immunity( "zm_aat_plasmatic_burst", #"zombie_dog", 0, 1, 1 );
     dog_spawner_init();
     level thread dog_clip_monitor();
-    zm_round_spawning::register_archetype( #"zombie_dog", &function_b168b424, &dog_round_spawn, &function_62db7b1c, 25 );
+    zm_round_spawning::register_archetype( #"zombie_dog", &function_b168b424, &dog_round_spawn, &spawn_single_dog, 25 );
     zm_score::function_e5d6e6dd( #"zombie_dog", 60 );
     callback::on_round_begin( &function_81f9083e );
 }
@@ -293,7 +293,7 @@ function function_81f9083e()
 function function_a5abd591()
 {
     dog_targets = getplayers();
-    var_d6c885ef = dog_targets[ 0 ];
+    least_targeted = dog_targets[ 0 ];
     
     for ( i = 0; i < dog_targets.size ; i++ )
     {
@@ -308,23 +308,23 @@ function function_a5abd591()
             continue;
         }
         
-        if ( !zm_utility::is_player_valid( var_d6c885ef ) )
+        if ( !zm_utility::is_player_valid( least_targeted ) )
         {
-            var_d6c885ef = dog_targets[ i ];
+            least_targeted = dog_targets[ i ];
         }
         
-        if ( dog_targets[ i ].var_230becc2 < var_d6c885ef.var_230becc2 )
+        if ( dog_targets[ i ].var_230becc2 < least_targeted.var_230becc2 )
         {
-            var_d6c885ef = dog_targets[ i ];
+            least_targeted = dog_targets[ i ];
         }
     }
     
-    if ( !zm_utility::is_player_valid( var_d6c885ef ) )
+    if ( !zm_utility::is_player_valid( least_targeted ) )
     {
         return undefined;
     }
     
-    return var_d6c885ef;
+    return least_targeted;
 }
 
 // Namespace zombie_dog_util/ai_dog_util
@@ -416,7 +416,7 @@ function dog_round_tracker( var_634c65f0 )
         level.next_dog_round = level.round_number + randomintrange( 4, 7 );
     }
     
-    zm_round_spawning::function_b4a8f95a( #"zombie_dog", level.next_dog_round, &dog_round_start, &dog_round_stop, &function_dd162858, &waiting_for_next_dog_spawn, level.var_dc50acfa );
+    zm_round_spawning::schedule_special_round( #"zombie_dog", level.next_dog_round, &dog_round_start, &dog_round_stop, &function_dd162858, &waiting_for_next_dog_spawn, level.var_dc50acfa );
     
     if ( !( isdefined( var_634c65f0 ) && var_634c65f0 ) )
     {
@@ -442,11 +442,11 @@ function function_246a0760()
     level endon( #"game_ended" );
     level.dog_round_count = 1;
     level.next_dog_round = 6;
-    zm_round_spawning::function_b4a8f95a( #"zombie_dog", level.next_dog_round, &dog_round_start, &function_5f1ef789, &function_20aadb5e, &function_d544de30, level.var_dc50acfa );
+    zm_round_spawning::schedule_special_round( #"zombie_dog", level.next_dog_round, &dog_round_start, &function_5f1ef789, &function_20aadb5e, &function_d544de30, level.var_dc50acfa );
     zm_utility::function_fdb0368( 7 );
     level.dog_round_count = 3;
     level.next_dog_round = 24;
-    zm_round_spawning::function_b4a8f95a( #"zombie_dog", level.next_dog_round, &dog_round_start, &function_5f1ef789, &function_20aadb5e, &function_d544de30, level.var_dc50acfa );
+    zm_round_spawning::schedule_special_round( #"zombie_dog", level.next_dog_round, &dog_round_start, &function_5f1ef789, &function_20aadb5e, &function_d544de30, level.var_dc50acfa );
     
     /#
         level thread function_de0a6ae4();
@@ -522,7 +522,7 @@ function dog_round_stop( var_d25bbdd5 )
         level.next_dog_round = level.round_number + randomintrange( 5, 7 );
     }
     
-    zm_round_spawning::function_b4a8f95a( #"zombie_dog", level.next_dog_round, &dog_round_start, &dog_round_stop, &function_dd162858, &waiting_for_next_dog_spawn, level.var_dc50acfa );
+    zm_round_spawning::schedule_special_round( #"zombie_dog", level.next_dog_round, &dog_round_start, &dog_round_stop, &function_dd162858, &waiting_for_next_dog_spawn, level.var_dc50acfa );
     
     /#
         getplayers()[ 0 ] iprintln( "<dev string:x5c>" + level.next_dog_round );
@@ -948,7 +948,7 @@ function function_b168b424( var_dbce0c44 )
 // Size: 0x3c, Type: bool
 function dog_round_spawn()
 {
-    ai = function_62db7b1c();
+    ai = spawn_single_dog();
     
     if ( isdefined( ai ) )
     {
@@ -963,7 +963,7 @@ function dog_round_spawn()
 // Params 2
 // Checksum 0xd5e55241, Offset: 0x2d40
 // Size: 0x900
-function function_62db7b1c( b_force_spawn = 0, var_eb3a8721 )
+function spawn_single_dog( b_force_spawn = 0, var_eb3a8721 )
 {
     if ( !b_force_spawn && !function_c1faf4d5() )
     {

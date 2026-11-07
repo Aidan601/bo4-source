@@ -50,7 +50,7 @@ function function_2613aeec( enabled )
     if ( enabled )
     {
         callback::on_player_killed( &on_player_killed );
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_team_eliminated", &function_4ac25840 );
         wz_firing_range::init_targets( #"hash_3af83a27a707345a" );
         level.var_d27ee2e7 = 1;
@@ -251,7 +251,7 @@ function on_player_killed()
 // Params 1
 // Checksum 0xc025fa7c, Offset: 0x9c0
 // Size: 0xd4
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     if ( isdefined( item.itementry ) && item.itementry.name === #"annihilator_wz_item" )
     {

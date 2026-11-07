@@ -284,7 +284,7 @@ function pickup_dung( localclientnum, oldval, newval, bnewent, binitialsnap, fie
 function function_8565be53( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwastimejump )
 {
     playfx( localclientnum, level._effect[ #"hash_6ff3eb2dd0078a51" ], self.origin );
-    playsound( localclientnum, #"hash_2e08e4ff8f949d48", self.origin );
+    playsound( localclientnum, #"zmb_funtime_danu_wood_break", self.origin );
 }
 
 // Namespace zm_towers/zm_towers
@@ -310,11 +310,11 @@ function function_605da720( localclientnum, oldval, newval, bnewent, binitialsna
 {
     if ( newval )
     {
-        forcestreamxmodel( #"hash_4286272708c5e5c0" );
+        forcestreamxmodel( #"p8_zm_gla_wood_coal_log_tip_burned" );
         return;
     }
     
-    stopforcestreamingxmodel( #"hash_4286272708c5e5c0" );
+    stopforcestreamingxmodel( #"p8_zm_gla_wood_coal_log_tip_burned" );
 }
 
 // Namespace zm_towers/zm_towers
@@ -1163,7 +1163,7 @@ function snd_crowd_react( localclientnum, oldval, newval, bnewent, binitialsnap,
         
         foreach ( struct in a_structs )
         {
-            playsound( localclientnum, #"hash_61052d99f398097", struct.origin );
+            playsound( localclientnum, #"amb_crowd_oneshot_hush", struct.origin );
             waitframe( 1 );
         }
         
@@ -2357,7 +2357,7 @@ function maelstrom_initiate_fx( localclientnum, oldval, newval, bnewent, binitia
     foreach ( s_fx in a_s_fx )
     {
         playfx( localclientnum, level._effect[ #"maelstrom_initiate" ], s_fx.origin, anglestoforward( s_fx.angles ) );
-        playsound( localclientnum, #"hash_44163603295b2408", s_fx.origin );
+        playsound( localclientnum, #"zmb_funtime_electro_ped_activate", s_fx.origin );
     }
 }
 
@@ -2370,7 +2370,7 @@ function maelstrom_conduct( localclientnum, oldval, newval, bnewent, binitialsna
     if ( newval )
     {
         self.var_7ef98b90 = util::playfxontag( localclientnum, level._effect[ #"maelstrom_conduct" ], self, "tag_origin" );
-        self playsound( localclientnum, #"hash_68123d3c746fe40c" );
+        self playsound( localclientnum, #"zmb_funtime_electro_spike_charge" );
         return;
     }
     
@@ -2393,8 +2393,8 @@ function function_e21e7dbe( localclientnum, oldval, newval, bnewent, binitialsna
         
         if ( !isdefined( self.var_45052c1f ) )
         {
-            self playsound( localclientnum, #"hash_5653bacd3880f5e6" );
-            self.var_45052c1f = self playloopsound( #"hash_1158ca937d0645df" );
+            self playsound( localclientnum, #"zmb_funtime_electro_ball_activate" );
+            self.var_45052c1f = self playloopsound( #"zmb_funtime_electro_ball_lp" );
         }
         
         return;
@@ -2408,7 +2408,7 @@ function function_e21e7dbe( localclientnum, oldval, newval, bnewent, binitialsna
     
     if ( isdefined( self.var_45052c1f ) )
     {
-        self playsound( localclientnum, #"hash_3dc40c9d94d68a08" );
+        self playsound( localclientnum, #"zmb_funtime_electro_ball_end" );
         self stoploopsound( self.var_45052c1f );
         self.var_45052c1f = undefined;
     }
@@ -2453,7 +2453,7 @@ function maelstrom_death( localclientnum, oldval, newval, bnewent, binitialsnap,
 {
     playfx( localclientnum, level._effect[ #"maelstrom_death" ], self.origin, anglestoforward( ( 0, 0, 0 ) ), anglestoup( ( 0, 0, 0 ) ) );
     function_36e4ebd4( localclientnum, "lightninggun_fire" );
-    self playsound( localclientnum, #"hash_784c6d9757964494" );
+    self playsound( localclientnum, #"zmb_funtime_electro_ai_death" );
 }
 
 // Namespace zm_towers/zm_towers
@@ -2466,8 +2466,8 @@ function maelstrom_storm( localclientnum, oldval, newval, bnewent, binitialsnap,
     {
         if ( !isdefined( self.var_cc93270e ) )
         {
-            self playsound( localclientnum, #"hash_5949809a2b6867a3" );
-            self.var_cc93270e = self playloopsound( #"hash_15a98fa81782b075" );
+            self playsound( localclientnum, #"zmb_funtime_electro_storm_start" );
+            self.var_cc93270e = self playloopsound( #"zmb_funtime_electro_storm_lp" );
         }
         
         return;
@@ -2475,7 +2475,7 @@ function maelstrom_storm( localclientnum, oldval, newval, bnewent, binitialsnap,
     
     if ( isdefined( self.var_cc93270e ) )
     {
-        self playsound( localclientnum, #"hash_2a8bc9fc5e6a2b6" );
+        self playsound( localclientnum, #"zmb_funtime_electro_storm_end" );
         self stoploopsound( self.var_cc93270e );
         self.var_cc93270e = undefined;
     }
@@ -2487,7 +2487,7 @@ function maelstrom_storm( localclientnum, oldval, newval, bnewent, binitialsnap,
 // Size: 0x64
 function function_2d6ec02( localclientnum, oldval, newval, bnewent, binitialsnap, fieldname, bwasdemojump )
 {
-    self playsound( localclientnum, #"hash_57b0d65c6bc36311" );
+    self playsound( localclientnum, #"zmb_funtime_electro_storm_change" );
 }
 
 // Namespace zm_towers/zm_towers

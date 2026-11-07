@@ -104,8 +104,8 @@ function function_3681e2bc( inflictor, attacker, damage, flags, meansofdeath, we
     }
     
     var_b1c1c5cf = zm_equipment::function_7d948481( 0.1, 0.25, 1, 1 );
-    var_5d7b4163 = zm_equipment::function_379f6b5d( damage, var_b1c1c5cf, 1, 4, 50 );
-    return var_5d7b4163;
+    n_scaled_damage = zm_equipment::function_379f6b5d( damage, var_b1c1c5cf, 1, 4, 50 );
+    return n_scaled_damage;
 }
 
 // Namespace zm_weap_cymbal_monkey/zm_weap_cymbal_monkey

@@ -118,17 +118,17 @@ function private function_d34c075e( ents )
 // Size: 0x122
 function private function_a4cfa984( door_ents, debris_ents )
 {
-    var_8b730c3e = [];
+    opened_doors = [];
     
     foreach ( door_ent in door_ents )
     {
         if ( isdefined( door_ent.target ) && isdefined( door_ent.has_been_opened ) && door_ent.has_been_opened )
         {
-            var_8b730c3e[ door_ent.target ] = 1;
+            opened_doors[ door_ent.target ] = 1;
         }
     }
     
-    var_eeba6731 = var_8b730c3e.size;
+    var_eeba6731 = opened_doors.size;
     var_c5f7c25b = function_d34c075e( debris_ents );
     var_69310a8a = level.var_3a748490 - var_c5f7c25b;
     return var_eeba6731 + var_69310a8a;

@@ -32,7 +32,7 @@ function private __init__()
 {
     callback::on_connect( &onconnect );
     level.givecustomloadout = &function_738575c4;
-    level.var_67f4fd41 = &function_485e3421;
+    level.var_67f4fd41 = &onarmorbreak;
     level.bountypackagelist = getscriptbundlelist( "bounty_hunter_package_list" );
     registerclientfields();
     level.var_968635ea = bountyhunterbuy::register( "BountyHunterLoadout" );
@@ -188,7 +188,7 @@ function private onconnect()
 // Params 0, eflags: 0x4
 // Checksum 0xc017a4a1, Offset: 0xe80
 // Size: 0xa4
-function private function_485e3421()
+function private onarmorbreak()
 {
     if ( isdefined( self.pers[ #"dynamic_loadout" ].armor ) )
     {

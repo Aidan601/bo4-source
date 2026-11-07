@@ -111,8 +111,8 @@ function function_5f03f689()
     {
         if ( s_fasttravel.script_string === "entrance_hall" )
         {
-            s_fasttravel.var_a4134e51 = "connect_forest_entrance_to_forest";
-            s_fasttravel.unitrigger_stub.var_a4134e51 = "connect_forest_entrance_to_forest";
+            s_fasttravel.level_flag_required = "connect_forest_entrance_to_forest";
+            s_fasttravel.unitrigger_stub.level_flag_required = "connect_forest_entrance_to_forest";
         }
     }
 }

@@ -369,10 +369,10 @@ function function_6119da66()
 // Params 3
 // Checksum 0xdd45f972, Offset: 0x1678
 // Size: 0x1dc
-function function_6d8527c2( var_37fa9b04, str_scene, str_shot )
+function function_6d8527c2( s_damage_info, str_scene, str_shot )
 {
     self endon( #"death" );
-    params = { #eattacker:var_37fa9b04.attacker, #einflictor:var_37fa9b04.inflictor, #weapon:var_37fa9b04.weapon, #smeansofdeath:var_37fa9b04.mod, #shitloc:"none" };
+    params = { #eattacker:s_damage_info.attacker, #einflictor:s_damage_info.inflictor, #weapon:s_damage_info.weapon, #smeansofdeath:s_damage_info.mod, #shitloc:"none" };
     self.var_2c2980d3 = 1;
     self clientfield::set( "" + #"crossbow_captured_fx", 1 );
     
@@ -858,7 +858,7 @@ function function_144a052b( archetype )
 // Params 1
 // Checksum 0xb476ec16, Offset: 0x2ea0
 // Size: 0xd4
-function function_9fa5e527( var_ad86fdba = 5 )
+function function_9fa5e527( n_stun_time = 5 )
 {
     var_bef9c0f = function_144a052b( self.archetype );
     
@@ -875,7 +875,7 @@ function function_9fa5e527( var_ad86fdba = 5 )
         self thread namespace_9ff9f642::slowdown( var_bef9c0f );
     }
     
-    self ai::stun( var_ad86fdba );
+    self ai::stun( n_stun_time );
 }
 
 // Namespace zm_weap_crossbow/zm_weap_crossbow

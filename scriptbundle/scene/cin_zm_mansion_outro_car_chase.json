@@ -546,7 +546,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_78065d9e7f8b15bb",
+                            "anim": "anim#ch_zm_mansion_outro_sh420_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -576,7 +576,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3cc0575e3fda0344",
+                            "anim": "anim#ch_zm_mansion_outro_sh430_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -605,7 +605,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_94dc41d732f7fdd",
+                            "anim": "anim#ch_zm_mansion_outro_sh440_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -681,7 +681,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4258c89565f91070",
+                            "anim": "anim#ch_zm_mansion_outro_sh470_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -711,7 +711,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4f15697c23379099",
+                            "anim": "anim#ch_zm_mansion_outro_sh480_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -769,7 +769,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7e2e5dbca4c0a138",
+                            "anim": "anim#ch_zm_mansion_outro_sh500_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -798,7 +798,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_799a44da86f4cedf",
+                            "anim": "anim#ch_zm_mansion_outro_sh510_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -827,7 +827,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_65b9311f57649e66",
+                            "anim": "anim#ch_zm_mansion_outro_sh520_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -856,7 +856,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4cb0bd9f34eacf85",
+                            "anim": "anim#ch_zm_mansion_outro_sh530_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -885,7 +885,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5af5e300e4921eec",
+                            "anim": "anim#ch_zm_mansion_outro_sh540_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -938,7 +938,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7d1c4b653a22888a",
+                            "anim": "anim#ch_zm_mansion_outro_sh560_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -968,7 +968,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4a3c94e4303bce0",
+                            "anim": "anim#ch_zm_mansion_outro_sh580_scarlett",
                             "entrytype": "anim"
                         }
                     ],
@@ -1023,7 +1023,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_33a1b2242d24d31e",
+                            "anim": "anim#ch_zm_mansion_outro_sh390_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -1053,7 +1053,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_380900817638ea7c",
+                            "anim": "anim#ch_zm_mansion_outro_sh420_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -1106,7 +1106,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_275e8a742a85e6fa",
+                            "anim": "anim#ch_zm_mansion_outro_sh440_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -1160,7 +1160,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_22961c85fdce54f8",
+                            "anim": "anim#ch_zm_mansion_outro_sh460_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -1329,7 +1329,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_182c1f4fbd2fa702",
+                            "anim": "anim#ch_zm_mansion_outro_sh530_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -1429,7 +1429,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7866e8b294ef93e7",
+                            "anim": "anim#ch_zm_mansion_outro_sh580_alistair",
                             "entrytype": "anim"
                         }
                     ],
@@ -1485,7 +1485,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6daff50f572d5cd1",
+                            "anim": "anim#ch_zm_mansion_outro_sh390_carrier",
                             "entrytype": "anim"
                         }
                     ],
@@ -1515,7 +1515,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_f1dde1fca854f33",
+                            "anim": "anim#ch_zm_mansion_outro_sh420_carrier",
                             "entrytype": "anim"
                         }
                     ],
@@ -1568,7 +1568,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_449ecb2b5e5d023d",
+                            "anim": "anim#ch_zm_mansion_outro_sh440_carrier",
                             "entrytype": "anim"
                         }
                     ],
@@ -1598,7 +1598,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_79fec108a3092528",
+                            "anim": "anim#ch_zm_mansion_outro_sh450_carrier",
                             "entrytype": "anim"
                         }
                     ],
@@ -1627,7 +1627,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6ff89bd39e6f837f",
+                            "anim": "anim#ch_zm_mansion_outro_sh460_carrier",
                             "entrytype": "anim"
                         }
                     ],
@@ -1656,7 +1656,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5e12310f501e7542",
+                            "anim": "anim#ch_zm_mansion_outro_sh470_carrier",
                             "entrytype": "anim"
                         }
                     ],
@@ -1709,7 +1709,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6d18fe0737c31904",
+                            "anim": "anim#ch_zm_mansion_outro_sh490_carrier",
                             "entrytype": "anim"
                         }
                     ],
@@ -1739,7 +1739,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_730450ea03d51c1a",
+                            "anim": "anim#ch_zm_mansion_outro_sh500_carrier",
                             "entrytype": "anim"
                         }
                     ],
@@ -1955,7 +1955,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_de0ed180ac45cd9",
+                            "anim": "anim#ch_zm_mansion_outro_sh390_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -1985,7 +1985,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7c530b9183c1933",
+                            "anim": "anim#ch_zm_mansion_outro_sh420_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2038,7 +2038,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6ff9916a7444fdbd",
+                            "anim": "anim#ch_zm_mansion_outro_sh440_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2115,7 +2115,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_4d151fe5702a15dc",
+                            "anim": "anim#ch_zm_mansion_outro_sh470_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2169,7 +2169,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2899afb96fd04e56",
+                            "anim": "anim#ch_zm_mansion_outro_sh490_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2199,7 +2199,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7919a15859949e4",
+                            "anim": "anim#ch_zm_mansion_outro_sh500_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2228,7 +2228,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_392d2efd13fc50ff",
+                            "anim": "anim#ch_zm_mansion_outro_sh510_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2257,7 +2257,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_206494083721bb5a",
+                            "anim": "anim#ch_zm_mansion_outro_sh520_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2286,7 +2286,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_17f766629bc94a45",
+                            "anim": "anim#ch_zm_mansion_outro_sh530_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2339,7 +2339,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_218f4178c4574b3b",
+                            "anim": "anim#ch_zm_mansion_outro_sh550_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2393,7 +2393,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5491bf907f8516ac",
+                            "anim": "anim#ch_zm_mansion_outro_sh580_driver",
                             "entrytype": "anim"
                         }
                     ],
@@ -2449,7 +2449,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_27b1cebcfe429899",
+                            "anim": "anim#ch_zm_mansion_outro_sh390_passenger",
                             "entrytype": "anim"
                         }
                     ],
@@ -2479,7 +2479,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_cdea782257948e7",
+                            "anim": "anim#ch_zm_mansion_outro_sh420_passenger",
                             "entrytype": "anim"
                         }
                     ],
@@ -2532,7 +2532,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_29f276022e25ecd",
+                            "anim": "anim#ch_zm_mansion_outro_sh440_passenger",
                             "entrytype": "anim"
                         }
                     ],
@@ -2701,7 +2701,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_df92a8d53b950b3",
+                            "anim": "anim#ch_zm_mansion_outro_sh510_passenger",
                             "entrytype": "anim"
                         }
                     ],
@@ -2731,7 +2731,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_51dea425194f9824",
+                            "anim": "anim#ch_zm_mansion_outro_sh520_passenger",
                             "entrytype": "anim"
                         }
                     ],
@@ -2760,7 +2760,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_5a69a0c2e388aee5",
+                            "anim": "anim#ch_zm_mansion_outro_sh530_passenger",
                             "entrytype": "anim"
                         }
                     ],
@@ -2813,7 +2813,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_75853bf04bba3bdf",
+                            "anim": "anim#ch_zm_mansion_outro_sh550_passenger",
                             "entrytype": "anim"
                         }
                     ],
@@ -3401,7 +3401,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_2a92f1695394c8c6",
+            "model": "model#veh_t8_zmb_1912_town_mansion_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -3625,7 +3625,7 @@
                     "damagethreshold": 0,
                     "hash_153a9c0eba706289:hash_67f013e3": 0,
                     "cleanuphide": 1,
-                    "shotmodelcleanup": "model#hash_3570eb500417bb3a",
+                    "shotmodelcleanup": "model#veh_t8_zmb_1912_sedan_convertible_dmg_windshield_igc",
                     "hidestowedweapon": 0,
                     "disablecombat": 0,
                     "spacermin": 0,
@@ -3904,7 +3904,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_67cc2d78b9a203a7",
+            "model": "model#veh_t8_zmb_1912_sedan_convertible_igc",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,
@@ -4087,7 +4087,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_58afa5adffdb3e5c",
+                            "anim": "anim#o_zm_mansion_outro_sh480_pistol",
                             "entrytype": "anim"
                         }
                     ],
@@ -4193,7 +4193,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_224a3aa2bec65d13",
+                            "anim": "anim#o_zm_mansion_outro_sh520_pistol",
                             "entrytype": "anim"
                         }
                     ],
@@ -4223,7 +4223,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6c17550e77264860",
+                            "anim": "anim#o_zm_mansion_outro_sh530_pistol",
                             "entrytype": "anim"
                         }
                     ],
@@ -4252,7 +4252,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2325fa8ac662a5d",
+                            "anim": "anim#o_zm_mansion_outro_sh540_pistol",
                             "entrytype": "anim"
                         }
                     ],
@@ -4281,7 +4281,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_505a199710243002",
+                            "anim": "anim#o_zm_mansion_outro_sh550_pistol",
                             "entrytype": "anim"
                         }
                     ],
@@ -4497,7 +4497,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2b51b8279d7f8a75",
+                            "anim": "anim#o_zm_mansion_outro_sh460_thompson",
                             "entrytype": "anim"
                         }
                     ],
@@ -4527,7 +4527,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_742aea459a15d5f2",
+                            "anim": "anim#o_zm_mansion_outro_sh470_thompson",
                             "entrytype": "anim"
                         }
                     ],
@@ -4580,7 +4580,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_59fe49422d315e38",
+                            "anim": "anim#o_zm_mansion_outro_sh490_thompson",
                             "entrytype": "anim"
                         }
                     ],
@@ -5188,7 +5188,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7856c077eb46a37e",
+                            "anim": "anim#o_zm_mansion_outro_sh580_tree",
                             "entrytype": "anim"
                         }
                     ],
@@ -5405,7 +5405,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_6f7e229dc150ddf3",
+                            "anim": "anim#p8_fxanim_zm_man_mov_windshield_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -5645,7 +5645,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_405f53425f8f8e",
+            "model": "model#p8_fxanim_zm_man_mov_windshield_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

@@ -1287,9 +1287,9 @@ class csceneobject
     // Params 2
     // Checksum 0x3a593bac, Offset: 0x57a0
     // Size: 0x49c, Type: bool
-    function function_128f0294( s_shot, var_37fa9b04 )
+    function function_128f0294( s_shot, s_damage_info )
     {
-        str_mod = var_37fa9b04.mod;
+        str_mod = s_damage_info.mod;
         str_damage_types = ( !isdefined( _s.runsceneondmg0 ) || _s.runsceneondmg0 == "none" ? "" : _s.runsceneondmg0 ) + ( !isdefined( _s.runsceneondmg1 ) || _s.runsceneondmg1 == "none" ? "" : _s.runsceneondmg1 ) + ( !isdefined( _s.runsceneondmg2 ) || _s.runsceneondmg2 == "none" ? "" : _s.runsceneondmg2 ) + ( !isdefined( _s.runsceneondmg3 ) || _s.runsceneondmg3 == "none" ? "" : _s.runsceneondmg3 ) + ( !isdefined( _s.runsceneondmg4 ) || _s.runsceneondmg4 == "none" ? "" : _s.runsceneondmg4 );
         
         switch ( str_mod )
@@ -1385,7 +1385,7 @@ class csceneobject
             if ( isdefined( _e.n_health ) )
             {
                 _e.n_health = _s.var_873368a8;
-                _e.var_f2ca854b = _e.n_health;
+                _e.n_starting_health = _e.n_health;
                 
                 if ( !isdefined( _e.maxhealth ) )
                 {
@@ -1410,7 +1410,7 @@ class csceneobject
             if ( isdefined( _e.n_health ) )
             {
                 _e.n_health = _e.script_health;
-                _e.var_f2ca854b = _e.script_health;
+                _e.n_starting_health = _e.script_health;
                 _e.maxhealth = _e.n_health;
             }
             else
@@ -1430,7 +1430,7 @@ class csceneobject
     // Params 2
     // Checksum 0xb443282e, Offset: 0x5120
     // Size: 0x298
-    function function_b485ee21( s_shot, var_37fa9b04 )
+    function function_b485ee21( s_shot, s_damage_info )
     {
         _e notify( #"hash_b02076d93b34558" );
         _e endon( #"hash_b02076d93b34558", #"delete", #"scene_stop" );
@@ -1449,13 +1449,13 @@ class csceneobject
         
         if ( isdefined( _e ) )
         {
-            _e notify( #"hash_18be12558bc58fe", { #str_shot:s_shot.name, #str_scene:_o_scene._str_name, #var_37fa9b04:var_37fa9b04, #var_5cd2f3ce:_str_name } );
+            _e notify( #"hash_18be12558bc58fe", { #str_shot:s_shot.name, #str_scene:_o_scene._str_name, #s_damage_info:s_damage_info, #var_5cd2f3ce:_str_name } );
             _e.health = 0;
         }
         
         if ( isdefined( _o_scene._e_root ) )
         {
-            _o_scene._e_root notify( #"hash_5bb6862842cacfe8", { #var_b551c535:_e, #var_5cd2f3ce:_str_name, #str_shot:s_shot.name, #var_37fa9b04:var_37fa9b04 } );
+            _o_scene._e_root notify( #"hash_5bb6862842cacfe8", { #var_b551c535:_e, #var_5cd2f3ce:_str_name, #str_shot:s_shot.name, #s_damage_info:s_damage_info } );
         }
         
         level notify( #"damage_threshold_scene", { #str_shot:s_shot.name, #str_scene:_o_scene._str_name } );
@@ -1525,7 +1525,7 @@ class csceneobject
     // Params 2
     // Checksum 0xba5f1b4b, Offset: 0x49b8
     // Size: 0x4e4, Type: bool
-    function function_72f549e0( s_shot, var_37fa9b04 )
+    function function_72f549e0( s_shot, s_damage_info )
     {
         if ( !isdefined( _e ) )
         {
@@ -1537,7 +1537,7 @@ class csceneobject
             return false;
         }
         
-        if ( !function_128f0294( s_shot, var_37fa9b04 ) )
+        if ( !function_128f0294( s_shot, s_damage_info ) )
         {
             return false;
         }
@@ -1575,34 +1575,34 @@ class csceneobject
                 n_current_health = 0;
             }
             
-            if ( isdefined( _e.var_f2ca854b ) )
+            if ( isdefined( _e.n_starting_health ) )
             {
-                var_f2ca854b = _e.var_f2ca854b;
+                n_starting_health = _e.n_starting_health;
             }
             else
             {
-                var_f2ca854b = _e.maxhealth;
+                n_starting_health = _e.maxhealth;
             }
             
-            var_f2059ab8 = n_current_health / var_f2ca854b;
+            var_f2059ab8 = n_current_health / n_starting_health;
             var_520e99b5 = s_shot.damagethreshold;
         }
         
         if ( !( isdefined( _s.disablehitmarker ) && _s.disablehitmarker ) )
         {
             b_dead = var_f2059ab8 <= 0;
-            var_37fa9b04.attacker util::show_hit_marker( b_dead );
+            s_damage_info.attacker util::show_hit_marker( b_dead );
         }
         
         if ( var_f2059ab8 <= var_520e99b5 )
         {
             _e.var_68ade67d = 1;
-            _e notify( #"damage_threshold_scene", { #str_shot:s_shot.name, #str_scene:_o_scene._str_name, #var_37fa9b04:var_37fa9b04, #var_859dbb7c:var_f2059ab8, #var_d2b5cb6a:var_520e99b5 } );
-            level notify( #"damage_threshold_scene", { #e_damaged:_e, #str_shot:s_shot.name, #str_scene:_o_scene._str_name, #var_37fa9b04:var_37fa9b04, #var_859dbb7c:var_f2059ab8, #var_d2b5cb6a:var_520e99b5 } );
+            _e notify( #"damage_threshold_scene", { #str_shot:s_shot.name, #str_scene:_o_scene._str_name, #s_damage_info:s_damage_info, #var_859dbb7c:var_f2059ab8, #var_d2b5cb6a:var_520e99b5 } );
+            level notify( #"damage_threshold_scene", { #e_damaged:_e, #str_shot:s_shot.name, #str_scene:_o_scene._str_name, #s_damage_info:s_damage_info, #var_859dbb7c:var_f2059ab8, #var_d2b5cb6a:var_520e99b5 } );
             
             if ( isdefined( _o_scene._e_root ) )
             {
-                _o_scene._e_root notify( #"damage_threshold_scene", { #e_damaged:_e, #str_shot:s_shot.name, #str_scene:_o_scene._str_name, #var_37fa9b04:var_37fa9b04, #var_859dbb7c:var_f2059ab8, #var_d2b5cb6a:var_520e99b5 } );
+                _o_scene._e_root notify( #"damage_threshold_scene", { #e_damaged:_e, #str_shot:s_shot.name, #str_scene:_o_scene._str_name, #s_damage_info:s_damage_info, #var_859dbb7c:var_f2059ab8, #var_d2b5cb6a:var_520e99b5 } );
             }
             
             _e.var_5b7900ec[ s_shot.name ] = 1;
@@ -1611,7 +1611,7 @@ class csceneobject
             if ( function_1205d1f0() )
             {
                 _e setcandamage( 0 );
-                thread function_b485ee21( s_shot, var_37fa9b04 );
+                thread function_b485ee21( s_shot, s_damage_info );
             }
             
             return true;
@@ -1671,7 +1671,7 @@ class csceneobject
         while ( true )
         {
             flagsys::set( #"waiting_for_damage" );
-            var_37fa9b04 = _e waittill( #"damage", #"death" );
+            s_damage_info = _e waittill( #"damage", #"death" );
             
             if ( !isdefined( _e ) )
             {
@@ -1685,7 +1685,7 @@ class csceneobject
             
             foreach ( s_shot in _s.shots )
             {
-                function_72f549e0( s_shot, var_37fa9b04 );
+                function_72f549e0( s_shot, s_damage_info );
             }
             
             if ( isdefined( _e.var_4819ae76 ) && _e.var_4819ae76 )

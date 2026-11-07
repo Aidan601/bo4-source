@@ -4,12 +4,12 @@ CHECKSUM 0x11dc0e77
 ######################################################
 ####################  DEV STRINGS  ###################
 ######################################################
-# zm_office_zones::function_2fb4c999@20
+# zm_office_zones::open_sesame_monitor@20
 STRING "<dev string:x38>" 0xd60
 ######################################################
 ####################  DEV BLOCKS  ####################
 ######################################################
 # zm_office_zones::zone_init@4aa
 DEVBLOCK 0x802
-# zm_office_zones::function_2fb4c999@2
+# zm_office_zones::open_sesame_monitor@2
 DEVBLOCK 0xd42

@@ -16,7 +16,7 @@ function function_7e1a12ce( radius )
     
     self.var_5ddd7c26 = {};
     info = self.var_5ddd7c26;
-    info.var_d1e06a5f = [];
+    info.last_update_time = [];
     info.var_2fae95e = [];
     update_interval = isdefined( self.var_ab84134 ) ? self.var_ab84134 : min( 0.25, 1 );
     var_dd3b2438 = int( update_interval * 1000 );
@@ -41,9 +41,9 @@ function function_7e1a12ce( radius )
             
             entnum = enemy getentitynumber();
             
-            if ( isdefined( info.var_d1e06a5f[ entnum ] ) && ( !isalive( enemy ) || isdefined( enemy.lastspawntime ) && enemy.lastspawntime > info.var_d1e06a5f[ entnum ] ) )
+            if ( isdefined( info.last_update_time[ entnum ] ) && ( !isalive( enemy ) || isdefined( enemy.lastspawntime ) && enemy.lastspawntime > info.last_update_time[ entnum ] ) )
             {
-                info.var_d1e06a5f[ entnum ] = undefined;
+                info.last_update_time[ entnum ] = undefined;
                 info.var_2fae95e[ entnum ] = undefined;
             }
             
@@ -64,18 +64,18 @@ function function_7e1a12ce( radius )
                     self setpersonalignore( enemy, update_interval );
                 }
                 
-                info.var_d1e06a5f[ entnum ] = gettime();
+                info.last_update_time[ entnum ] = gettime();
                 info.var_2fae95e[ entnum ] += var_dd3b2438;
                 continue;
             }
             
-            if ( isdefined( info.var_d1e06a5f[ entnum ] ) )
+            if ( isdefined( info.last_update_time[ entnum ] ) )
             {
                 resettime = int( max( enemy function_348ab5dd(), 250 ) );
                 
-                if ( gettime() - info.var_d1e06a5f[ entnum ] > resettime )
+                if ( gettime() - info.last_update_time[ entnum ] > resettime )
                 {
-                    info.var_d1e06a5f[ entnum ] = undefined;
+                    info.last_update_time[ entnum ] = undefined;
                     info.var_2fae95e[ entnum ] = undefined;
                 }
             }

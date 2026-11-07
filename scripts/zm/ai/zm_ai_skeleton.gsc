@@ -617,14 +617,14 @@ function private function_be0c9c8b( entity )
 {
     var_1423159a = 0;
     
-    foreach ( var_d2287bdc in level.var_8eaf991c )
+    foreach ( limit_struct in level.var_8eaf991c )
     {
-        if ( level.round_number < var_d2287bdc.round )
+        if ( level.round_number < limit_struct.round )
         {
             break;
         }
         
-        var_1423159a = var_d2287bdc.limit;
+        var_1423159a = limit_struct.limit;
     }
     
     if ( level.var_33daab96 >= var_1423159a )

@@ -408,7 +408,7 @@ function function_a340f5a2()
     foreach ( e_pap in level.var_4d8e32c8 )
     {
         e_pap flag::set( "pap_waiting_for_user" );
-        e_pap zm_orange_pap::function_e3921120( 0 );
+        e_pap zm_orange_pap::show_pap_machine( 0 );
     }
     
     wait 2;
@@ -584,15 +584,15 @@ function function_36eb3c96( var_88206a50, ent )
 // Size: 0xf4
 function function_defd8c26( var_f0e6c7a2, ent )
 {
-    n_souls_required = var_f0e6c7a2.var_bc07224f;
+    n_souls_required = var_f0e6c7a2.n_souls_1p;
     
     if ( getplayers().size > 2 )
     {
-        n_souls_required = var_f0e6c7a2.var_71561996;
+        n_souls_required = var_f0e6c7a2.n_souls_34p;
     }
     else if ( getplayers().size > 1 )
     {
-        n_souls_required = var_f0e6c7a2.var_d4fada4a;
+        n_souls_required = var_f0e6c7a2.n_souls_2p;
     }
     
     var_f0e6c7a2.var_7944be4a++;
@@ -635,7 +635,7 @@ function function_5e3a92e()
         array::thread_all( a_e_players, &zm_player::spectator_respawn_player );
     }
     
-    if ( self.var_32245390 === 1 )
+    if ( self.drop_ammo_on_complete === 1 )
     {
         v_drop = self.origin;
         
@@ -1026,7 +1026,7 @@ function function_737be926()
         foreach ( e_pap in level.var_4d8e32c8 )
         {
             e_pap flag::set( "<dev string:x14c>" );
-            e_pap zm_orange_pap::function_e3921120( 0 );
+            e_pap zm_orange_pap::show_pap_machine( 0 );
         }
     }
 

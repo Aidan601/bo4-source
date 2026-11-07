@@ -33,7 +33,7 @@ function function_2613aeec( enabled )
 {
     if ( enabled )
     {
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
     }
 }
 
@@ -56,7 +56,7 @@ function function_2a798d57()
 // Params 1
 // Checksum 0xd64f3de1, Offset: 0x230
 // Size: 0xc4
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     

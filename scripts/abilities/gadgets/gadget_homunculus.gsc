@@ -42,7 +42,7 @@ function function_1c601b99()
 {
     if ( isdefined( level.var_a5dacbea ) )
     {
-        [[ level.var_a5dacbea ]]( getweapon( #"homunculus" ), &function_127fb8f3 );
+        [[ level.var_a5dacbea ]]( getweapon( #"homunculus" ), &onjammed );
     }
 }
 
@@ -201,7 +201,7 @@ function private event_handler[grenade_fire] function_4776caf4( eventstruct )
             
             if ( isdefined( homunculus ) )
             {
-                homunculus.var_acdc8d71 = getclosestpointonnavmesh( homunculus.origin, 360, 15.1875 );
+                homunculus.closest_point_on_navmesh = getclosestpointonnavmesh( homunculus.origin, 360, 15.1875 );
                 
                 if ( !isdefined( level.var_2da60c10 ) )
                 {
@@ -360,20 +360,20 @@ function private drop_to_ground( b_immediate = 0 )
 {
     self endon( #"death" );
     s_trace = groundtrace( self.origin + ( 0, 0, 16 ), self.origin + ( 0, 0, -1000 ), 0, self );
-    var_a75fe4be = s_trace[ #"position" ];
+    v_drop_position = s_trace[ #"position" ];
     
     if ( b_immediate )
     {
-        self.mover moveto( var_a75fe4be, 0.01 );
+        self.mover moveto( v_drop_position, 0.01 );
         self.mover waittill( #"movedone" );
         return;
     }
     
-    if ( abs( self.origin[ 2 ] - var_a75fe4be[ 2 ] ) > 1 )
+    if ( abs( self.origin[ 2 ] - v_drop_position[ 2 ] ) > 1 )
     {
         n_time = 0.25;
         self.mover scene::stop();
-        self.mover moveto( var_a75fe4be, 0.25 );
+        self.mover moveto( v_drop_position, 0.25 );
         self.mover scene::play( #"aib_t8_zm_zod_homunculus_jump_down_01", self );
     }
 }
@@ -490,7 +490,7 @@ function function_bd59a592( zombie )
 // Params 2
 // Checksum 0x898019fd, Offset: 0x1758
 // Size: 0xf4
-function function_127fb8f3( homunculus, attackingplayer )
+function onjammed( homunculus, attackingplayer )
 {
     homunculus endon( #"death" );
     randangle = randomfloat( 360 );

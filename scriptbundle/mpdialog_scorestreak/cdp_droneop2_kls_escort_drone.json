@@ -1,9 +1,9 @@
 {
     "configstringfiletype": "scriptbundle",
     "type": "mpdialog_scorestreak",
-    "damaged": "#hash_77959dec424bb463",
+    "damaged": "#vox_cdo2_kls_drone_damaged",
     "vmtype": "both",
     "name": "cdp_droneop2_kls_escort_drone",
-    "arrive": "#hash_1851502515ddd75b",
-    "timeout": "#hash_4161aac483ac503f"
+    "arrive": "#vox_cdo2_kls_drone_arrive",
+    "timeout": "#vox_cdo2_kls_drone_timeout"
 }

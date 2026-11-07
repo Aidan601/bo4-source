@@ -19,14 +19,14 @@ function autoexec __init__system__()
 // Size: 0x14
 function __init__()
 {
-    function_27473e44();
+    enable_perk_for_level();
 }
 
 // Namespace zm_perk_mod_bandolier/zm_perk_mod_bandolier
 // Params 0
 // Checksum 0xd1c36d04, Offset: 0x100
 // Size: 0x94
-function function_27473e44()
+function enable_perk_for_level()
 {
     zm_perks::register_perk_mod_basic_info( #"specialty_mod_extraammo", "mod_bandolier", #"perk_bandolier", #"specialty_extraammo", 3500 );
     zm_perks::register_perk_threads( #"specialty_mod_extraammo", &give_mod_perk, &function_3781ff37 );

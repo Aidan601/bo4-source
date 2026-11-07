@@ -191,7 +191,7 @@ function private function_82466b73( weapon )
         }
         
         weapon thread function_1b60eebf( self );
-        weapon function_70dbf9d1( self );
+        weapon create_storm( self );
     }
 }
 
@@ -199,7 +199,7 @@ function private function_82466b73( weapon )
 // Params 1, eflags: 0x4
 // Checksum 0xa7697cfd, Offset: 0xd80
 // Size: 0x274
-function private function_70dbf9d1( player )
+function private create_storm( player )
 {
     player endon( #"weapon_change", #"disconnect", #"bled_out" );
     wait 0.5;
@@ -491,8 +491,8 @@ function function_1b29b59e( var_3e3892a7, weapon = level.weaponnone )
         
         n_random_x = randomfloatrange( -3, 3 );
         n_random_y = randomfloatrange( -3, 3 );
-        var_61906722 = randomfloatrange( 5, 20 );
-        v_ragdoll = vectornormalize( e_target.origin - self.origin + ( n_random_x, n_random_y, var_61906722 ) );
+        n_random_z = randomfloatrange( 5, 20 );
+        v_ragdoll = vectornormalize( e_target.origin - self.origin + ( n_random_x, n_random_y, n_random_z ) );
         
         if ( isdefined( e_target.var_5554df1 ) )
         {
@@ -517,24 +517,24 @@ function lightning_bolt( weapon )
     self playsound( "wpn_hammer_bolt_fire" );
     self thread hammer_rumble( 3 );
     waitframe( 9 );
-    var_d571151f = vectortoangles( self getweaponforwarddir() );
-    var_d0407533 = self getweaponmuzzlepoint();
+    v_fire_angles = vectortoangles( self getweaponforwarddir() );
+    v_fire_origin = self getweaponmuzzlepoint();
     level notify( #"lightning_ball_created", { #player:self } );
     self notify( #"lightning_ball_created" );
     
-    if ( !isdefined( var_d571151f ) )
+    if ( !isdefined( v_fire_angles ) )
     {
-        var_d571151f = ( 0, 0, 0 );
+        v_fire_angles = ( 0, 0, 0 );
     }
     
-    e_ball_fx = util::spawn_model( #"tag_origin", var_d0407533 + anglestoforward( var_d571151f ) * 60, var_d571151f );
+    e_ball_fx = util::spawn_model( #"tag_origin", v_fire_origin + anglestoforward( v_fire_angles ) * 60, v_fire_angles );
     e_ball_fx.str_weapon = weapon;
     e_ball_fx.n_range = 250;
     e_ball_fx.n_damage_per_sec = 1000;
     e_ball_fx clientfield::set( "" + #"lightning_miss_fx", 1 );
     e_ball_fx playloopsound( #"wpn_hammer_bolt_lp", 0.5 );
-    v_end = var_d0407533 + anglestoforward( var_d571151f ) * 600;
-    trace = bullettrace( var_d0407533, v_end, 0, self );
+    v_end = v_fire_origin + anglestoforward( v_fire_angles ) * 600;
+    trace = bullettrace( v_fire_origin, v_end, 0, self );
     
     if ( trace[ #"fraction" ] != 1 )
     {

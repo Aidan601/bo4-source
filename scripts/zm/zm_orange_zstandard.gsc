@@ -164,7 +164,7 @@ function defend_areas()
     {
         if ( !( e_pap.script_noteworthy === "pap_island" ) )
         {
-            e_pap thread zm_orange_pap::function_e3921120( 1 );
+            e_pap thread zm_orange_pap::show_pap_machine( 1 );
         }
     }
     
@@ -333,7 +333,7 @@ function intro_zombie_dog( n_round_number )
     
     while ( n_spawn_count < 3 )
     {
-        e_nova_crawler = zombie_dog_util::function_62db7b1c( 1, undefined );
+        e_nova_crawler = zombie_dog_util::spawn_single_dog( 1, undefined );
         
         if ( isdefined( e_nova_crawler ) )
         {
@@ -404,7 +404,7 @@ function function_a39e7a56()
             
             if ( level flag::get( #"hash_50990d5b9376f50d" ) )
             {
-                ai = zombie_dog_util::function_62db7b1c( 0 );
+                ai = zombie_dog_util::spawn_single_dog( 0 );
             }
         }
         else if ( level.defend_spawns == 4 )
@@ -641,11 +641,11 @@ function function_80a9077f()
                 level flag::set( #"hash_e29d662bb90e4bc" );
             }
             
-            if ( s_zipline_crank.var_68ae361b == "s_zipline_use_aft_to_beach" )
+            if ( s_zipline_crank.str_zipline_use == "s_zipline_use_aft_to_beach" )
             {
                 s_zipline_crank.var_3bc09679 = struct::get( "scene_zipline_aft", "targetname" );
             }
-            else if ( s_zipline_crank.var_68ae361b == "s_zipline_use_lighthouse_to_fore" )
+            else if ( s_zipline_crank.str_zipline_use == "s_zipline_use_lighthouse_to_fore" )
             {
                 s_zipline_crank.var_3bc09679 = struct::get( "scene_zipline_fore", "targetname" );
             }

@@ -73,11 +73,11 @@ function event_handler[level_init] main( eventstruct )
     clientfield::register( "toplayer", "" + #"player_pbg_bank", 1, 1, "int", &set_player_pbg_bank, 0, 1 );
     clientfield::register( "vehicle", "" + #"gondola_light", 1, 1, "int", &gondola_light, 0, 1 );
     zm_escape_catwalk_event::init_clientfields();
-    namespace_9d58c1cd::init_clientfields();
+    zm_escape_weap_quest_spoon::init_clientfields();
     zm_escape_util::init_clientfields();
     paschal::init();
     namespace_1063645::init_clientfields();
-    namespace_b99141ed::init_clientfields();
+    fast_travel_hellholes::init_clientfields();
     zm_utility::function_beed5764( "rob_zm_eyes_red", #"zm_ai/fx8_zombie_eye_glow_red" );
     level._effect[ #"headshot" ] = #"zombie/fx_bul_flesh_head_fatal_zmb";
     level._effect[ #"headshot_nochunks" ] = #"zombie/fx_bul_flesh_head_nochunks_zmb";
@@ -97,7 +97,7 @@ function event_handler[level_init] main( eventstruct )
     level._effect[ #"magic_box_leave" ] = #"maps/zm_escape/fx8_magicbox_depart";
     level._effect[ #"switch_sparks" ] = #"hash_26f37488feec03c3";
     level.var_5603a802 = "pstfx_zm_hellhole";
-    namespace_9d58c1cd::init();
+    zm_escape_weap_quest_spoon::init();
     pap_quest::init();
     load::main();
     level thread setup_personality_character_exerts();

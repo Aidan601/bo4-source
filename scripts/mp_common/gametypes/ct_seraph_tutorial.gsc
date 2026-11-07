@@ -44,7 +44,7 @@ function setup()
 // Params 0
 // Checksum 0x19419b75, Offset: 0x1008
 // Size: 0x74a
-function function_c9ff0dce()
+function player_spawned_callback()
 {
     self.overrideplayerdamage = &callback_player_damage;
     
@@ -196,7 +196,7 @@ function function_b3659644()
 // Params 11
 // Checksum 0xb4da026b, Offset: 0x17b8
 // Size: 0x17e
-function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, var_8b69d5cf )
+function callback_player_damage( e_inflictor, e_attacker, n_damage, n_dflags, str_means_of_death, weapon, v_point, v_dir, str_hit_loc, n_psoffsettime, n_bone_index )
 {
     if ( !isdefined( level.var_ad7c0539 ) )
     {
@@ -417,7 +417,7 @@ function function_6cfeee53()
             
             level notify( #"stop_nag" );
             level.var_96358ab6 = undefined;
-            waypoint ct_utils::function_f9ed304d();
+            waypoint ct_utils::cleanup_waypoint();
             ct_utils::function_c2a10fc();
         }
         
@@ -696,7 +696,7 @@ function function_f6df6250()
     level notify( #"stop_nag" );
     ct_utils::function_c2a10fc();
     ct_vo::function_3ca1b77d();
-    ct_vo::function_831e0584( array( #"hash_5b98b949240b7fba" ), 1 );
+    ct_vo::function_831e0584( array( #"vox_tvoi_tutor_sera_timed_event_0" ), 1 );
     wait 0.1;
 }
 
@@ -712,7 +712,7 @@ function function_f36aa3f0()
     level notify( #"stop_event1_enter_collision" );
     level notify( #"start_5_targets_collision" );
     level notify( #"start_5_targets_exit_collision" );
-    a_str_vo = array( #"hash_5b98ba49240b816d" );
+    a_str_vo = array( #"vox_tvoi_tutor_sera_timed_event_1" );
     e_player = ct_utils::get_player();
     e_player thread ct_utils::function_61c3d59c( #"hash_7ae3c7f801226d64", a_str_vo );
     wait 0.1;
@@ -1166,7 +1166,7 @@ function function_5ceffaa6( str_level_endon, var_651072b9 )
 {
     level endon( #"combattraining_logic_finished", str_level_endon );
     level.var_651072b9 = undefined;
-    var_7f7efa6e = 0;
+    n_last_time = 0;
     
     while ( true )
     {
@@ -1178,7 +1178,7 @@ function function_5ceffaa6( str_level_endon, var_651072b9 )
             }
             
             n_time = gettime() / 1000;
-            dt = n_time - var_7f7efa6e;
+            dt = n_time - n_last_time;
             
             if ( dt > 8 )
             {
@@ -1191,7 +1191,7 @@ function function_5ceffaa6( str_level_endon, var_651072b9 )
                     ct_vo::function_831e0584( array( #"vox_tvoi_tutor_sera_spawn_random" ), 1 );
                 }
                 
-                var_7f7efa6e = gettime() / 1000;
+                n_last_time = gettime() / 1000;
                 level.var_651072b9 = undefined;
             }
         }
@@ -1715,9 +1715,9 @@ function function_3ea10d34( var_e8437733, str_level_endon )
 // Params 2
 // Checksum 0xad9ef4a6, Offset: 0x7470
 // Size: 0x82
-function spawn_robot( var_8b84b3ce, var_ce2b0d5 )
+function spawn_robot( v_spawn_loc, var_ce2b0d5 )
 {
-    robot = ct_ai::function_4c8f915a( var_8b84b3ce );
+    robot = ct_ai::function_4c8f915a( v_spawn_loc );
     ai_tank::function_9b13ebf( robot );
     robot.goalradius = 300;
     robot setgoal( var_ce2b0d5 );
@@ -2192,7 +2192,7 @@ function function_79293a0b()
 // Params 2
 // Checksum 0xa696d31f, Offset: 0x8e08
 // Size: 0x5ea
-function function_58c62280( b_keyline, var_2f3964e3 )
+function function_58c62280( b_keyline, b_ignore_all )
 {
     self endon( #"death" );
     s_loc = level.var_72c3ea74[ level.var_da5432a2 ];
@@ -2206,7 +2206,7 @@ function function_58c62280( b_keyline, var_2f3964e3 )
     self ct_utils::function_61d750d4( s_loc.origin, s_loc.angles );
     self thread ct_utils::function_5b59f3b7( s_loc.origin, s_loc.angles, 32 );
     
-    if ( isdefined( var_2f3964e3 ) && var_2f3964e3 )
+    if ( isdefined( b_ignore_all ) && b_ignore_all )
     {
         self val::set( #"enemy_bot", "ignoreall" );
     }

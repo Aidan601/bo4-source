@@ -2421,9 +2421,9 @@ function private function_83e328e1( var_78ddf4e2, newitems )
         }
     }
     
-    foreach ( var_319b917b in var_78ddf4e2 )
+    foreach ( olditem in var_78ddf4e2 )
     {
-        var_f59eabca = var_319b917b;
+        var_f59eabca = olditem;
         
         if ( isstruct( var_f59eabca ) && item_world_util::function_2c7fc531( var_f59eabca.networkid ) )
         {

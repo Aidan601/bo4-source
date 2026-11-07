@@ -760,7 +760,7 @@ function function_61e129a8()
     }
     
     level.zombie_round_start_delay = 0;
-    zm_round_spawning::function_b4a8f95a( #"mannequin", n_next_round, &function_991eb140, &function_bc9a7799, &function_b76df747, &function_e2d1e574, 0 );
+    zm_round_spawning::schedule_special_round( #"mannequin", n_next_round, &function_991eb140, &function_bc9a7799, &function_b76df747, &function_e2d1e574, 0 );
     
     if ( zm_round_spawning::function_40229072( level.round_number ) && !level flag::get( "special_round" ) )
     {
@@ -1283,9 +1283,9 @@ function function_6fa00342( e_follow )
     
     while ( true )
     {
-        var_9d88bc68 = anglestoforward( e_follow.angles );
-        var_9d88bc68 = 15 * vectornormalize( var_9d88bc68 );
-        goal_pos = e_follow.origin - var_9d88bc68;
+        goal_vec = anglestoforward( e_follow.angles );
+        goal_vec = 15 * vectornormalize( goal_vec );
+        goal_pos = e_follow.origin - goal_vec;
         goal_pos = getnearestpathpoint( goal_pos, 64 );
         level.var_7b22edab.origin = goal_pos + ( 0, 0, 15 );
         

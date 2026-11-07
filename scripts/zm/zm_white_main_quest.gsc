@@ -76,7 +76,7 @@ function __main__()
     function_ba863dca();
     function_ab78507c();
     level thread zm_white_toast::init();
-    function_55672ea2();
+    init_mannequins();
     function_a7aa6c6b();
     init_orb();
     init_servers();
@@ -465,7 +465,7 @@ function function_c3a3c077( e_player )
 // Params 0
 // Checksum 0x6923f89d, Offset: 0x32b8
 // Size: 0x92c
-function function_55672ea2()
+function init_mannequins()
 {
     e_mccain = getent( "atlas_ct", "targetname" );
     e_mccain hidepart( "tag_head" );
@@ -2475,9 +2475,9 @@ function function_4d8087fd()
     
     while ( !self.var_82167dba )
     {
-        var_6f868336 = arraysort( level.activeplayers, self.origin, 1, level.activeplayers.size );
+        a_players_in_range = arraysort( level.activeplayers, self.origin, 1, level.activeplayers.size );
         
-        foreach ( player in var_6f868336 )
+        foreach ( player in a_players_in_range )
         {
             if ( !player zm_audio::can_speak() || isdefined( level.var_b625a184 ) && level.var_b625a184 )
             {
@@ -2864,7 +2864,7 @@ function function_a0351130( var_e3d37a1d )
     
     foreach ( s_spawn_point in level.zm_loc_types[ #"zombie_location" ] )
     {
-        if ( s_spawn_point.zone_name == var_e3d37a1d && s_spawn_point.var_683460c9 === 1 )
+        if ( s_spawn_point.zone_name == var_e3d37a1d && s_spawn_point.b_nova_crawler_spawn === 1 )
         {
             if ( !isdefined( a_valid_spawn_points ) )
             {
@@ -5520,7 +5520,7 @@ function mannequin_defend( n_difficulty )
     foreach ( e_blocker in a_e_blockers )
     {
         e_blocker solid();
-        e_blocker playsound( #"hash_3faa335fd02a531" );
+        e_blocker playsound( #"evt_mann_forcefield_doors" );
     }
     
     level.musicsystemoverride = 1;
@@ -6404,11 +6404,11 @@ function function_1d92fe23()
 // Params 2
 // Checksum 0xbcf59a81, Offset: 0x16de0
 // Size: 0x2b2
-function function_5f6e4e8f( var_cb672d5f, var_8208d890 )
+function function_5f6e4e8f( str_anim_state, var_8208d890 )
 {
     var_64460018 = self.scene_ents[ #"whi_server" ];
     
-    switch ( var_cb672d5f )
+    switch ( str_anim_state )
     {
         case #"init":
             self thread scene::play( "init" );

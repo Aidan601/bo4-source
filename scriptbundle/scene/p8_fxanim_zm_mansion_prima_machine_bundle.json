@@ -34,7 +34,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_71b9a1e4979cee19",
+                            "anim": "anim#p8_fxanim_zm_mansion_prima_machine_dropoff_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -121,7 +121,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_1c49cb51212581c5",
+                            "anim": "anim#p8_fxanim_zm_mansion_prima_machine_pickup_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -176,7 +176,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_39aa95f613dc2f43",
+                            "anim": "anim#p8_fxanim_zm_mansion_prima_machine_cent_idle_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -205,7 +205,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_2dcfaee5af6612d0",
+                            "anim": "anim#p8_fxanim_zm_mansion_prima_machine_cent_dropoff_open_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -234,7 +234,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_3963518cfe95563b",
+                            "anim": "anim#p8_fxanim_zm_mansion_prima_machine_cent_start_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -263,7 +263,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_7e75f2f6bd2fd76c",
+                            "anim": "anim#p8_fxanim_zm_mansion_prima_machine_cent_finish_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -292,7 +292,7 @@
                 {
                     "entry": [
                         {
-                            "anim": "anim#hash_283cb033c96dcd10",
+                            "anim": "anim#p8_fxanim_zm_mansion_prima_machine_cent_pickup_close_anim",
                             "entrytype": "anim"
                         }
                     ],
@@ -324,7 +324,7 @@
             "skipdeathanim": 0,
             "hash_1419f897aeca6c96:hash_9de1f44c": 0,
             "lerptime": 0,
-            "model": "model#hash_2415e81880582ab9",
+            "model": "model#p8_fxanim_zm_mansion_prima_machine_cent_mod",
             "type": "prop",
             "disablehitmarker": 0,
             "usefakeactor": 0,

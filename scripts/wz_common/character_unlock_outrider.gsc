@@ -33,7 +33,7 @@ function function_2613aeec( enabled )
     if ( enabled )
     {
         callback::add_callback( #"hash_7a9bdd3ee0ae95af", &function_c915e2a7 );
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
     }
 }
 
@@ -41,7 +41,7 @@ function function_2613aeec( enabled )
 // Params 1
 // Checksum 0x4ea6b22d, Offset: 0x1a0
 // Size: 0xc4
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     

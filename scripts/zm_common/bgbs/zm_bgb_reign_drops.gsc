@@ -52,58 +52,58 @@ function activation()
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_power_keg" ) )
     {
-        level thread bgb::function_c6cd71d5( "hero_weapon_power", self function_dfc73f65( 1 ), 96 );
+        level thread bgb::function_c6cd71d5( "hero_weapon_power", self get_powerup_origin_grid( 1 ), 96 );
     }
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_extra_credit" ) )
     {
-        self thread zm_bgb_extra_credit::function_22f934e6( self function_dfc73f65( 2 ), 96 );
+        self thread zm_bgb_extra_credit::function_22f934e6( self get_powerup_origin_grid( 2 ), 96 );
     }
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_dead_of_nuclear_winter" ) )
     {
-        level thread bgb::function_c6cd71d5( "nuke", self function_dfc73f65( 3 ), 96 );
+        level thread bgb::function_c6cd71d5( "nuke", self get_powerup_origin_grid( 3 ), 96 );
     }
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_licensed_contractor" ) )
     {
-        level thread bgb::function_c6cd71d5( "carpenter", self function_dfc73f65( 4 ), 96 );
+        level thread bgb::function_c6cd71d5( "carpenter", self get_powerup_origin_grid( 4 ), 96 );
     }
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_on_the_house" ) && zm_custom::function_901b751c( #"zmperksactive" ) )
     {
-        level thread bgb::function_c6cd71d5( "free_perk", self function_dfc73f65( 5 ), 96 );
+        level thread bgb::function_c6cd71d5( "free_perk", self get_powerup_origin_grid( 5 ), 96 );
     }
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_immolation_liquidation" ) )
     {
-        level thread bgb::function_c6cd71d5( "fire_sale", self function_dfc73f65( 6 ), 96 );
+        level thread bgb::function_c6cd71d5( "fire_sale", self get_powerup_origin_grid( 6 ), 96 );
     }
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_kill_joy" ) )
     {
-        level thread bgb::function_c6cd71d5( "insta_kill", self function_dfc73f65( 7 ), 96 );
+        level thread bgb::function_c6cd71d5( "insta_kill", self get_powerup_origin_grid( 7 ), 96 );
     }
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_cache_back" ) )
     {
-        level thread bgb::function_c6cd71d5( "full_ammo", self function_dfc73f65( 8 ), 96 );
+        level thread bgb::function_c6cd71d5( "full_ammo", self get_powerup_origin_grid( 8 ), 96 );
     }
     
     if ( zm_custom::function_3ac936c6( "zm_bgb_whos_keeping_score" ) )
     {
-        level thread bgb::function_c6cd71d5( "double_points", self function_dfc73f65( 9 ), 96 );
+        level thread bgb::function_c6cd71d5( "double_points", self get_powerup_origin_grid( 9 ), 96 );
     }
     
-    self.var_a825ccbb = 1;
-    self thread function_7f3b4877();
+    self.reign_drops_live = 1;
+    self thread powerup_timeout_watcher();
 }
 
 // Namespace zm_bgb_reign_drops/zm_bgb_reign_drops
 // Params 0
 // Checksum 0xb9fe92a4, Offset: 0x638
 // Size: 0xa6
-function function_7f3b4877()
+function powerup_timeout_watcher()
 {
     self endon( #"disconnect" );
     waitframe( 1 );
@@ -122,19 +122,19 @@ function function_7f3b4877()
         }
     }
     
-    self.var_a825ccbb = undefined;
+    self.reign_drops_live = undefined;
 }
 
 // Namespace zm_bgb_reign_drops/zm_bgb_reign_drops
 // Params 1
 // Checksum 0x2494229, Offset: 0x6e8
 // Size: 0x2ce
-function function_dfc73f65( n_position )
+function get_powerup_origin_grid( n_position )
 {
     v_powerup = self bgb::get_player_dropped_powerup_origin();
     v_up = ( 0, 0, 5 );
-    var_85660237 = v_powerup + anglestoforward( self.angles ) * 60 + v_up;
-    var_97efa74a = var_85660237 + anglestoforward( self.angles ) * 60 + v_up;
+    v_powerup_2 = v_powerup + anglestoforward( self.angles ) * 60 + v_up;
+    v_powerup_3 = v_powerup_2 + anglestoforward( self.angles ) * 60 + v_up;
     
     switch ( n_position )
     {
@@ -148,22 +148,22 @@ function function_dfc73f65( n_position )
             v_origin = v_powerup + anglestoright( self.angles ) * 60 + v_up;
             break;
         case 4:
-            v_origin = var_85660237 + anglestoright( self.angles ) * -60 + v_up;
+            v_origin = v_powerup_2 + anglestoright( self.angles ) * -60 + v_up;
             break;
         case 5:
-            v_origin = var_85660237;
+            v_origin = v_powerup_2;
             break;
         case 6:
-            v_origin = var_85660237 + anglestoright( self.angles ) * 60 + v_up;
+            v_origin = v_powerup_2 + anglestoright( self.angles ) * 60 + v_up;
             break;
         case 7:
-            v_origin = var_97efa74a + anglestoright( self.angles ) * -60 + v_up;
+            v_origin = v_powerup_3 + anglestoright( self.angles ) * -60 + v_up;
             break;
         case 8:
-            v_origin = var_97efa74a;
+            v_origin = v_powerup_3;
             break;
         case 9:
-            v_origin = var_97efa74a + anglestoright( self.angles ) * 60 + v_up;
+            v_origin = v_powerup_3 + anglestoright( self.angles ) * 60 + v_up;
             break;
         default:
             v_origin = v_powerup;

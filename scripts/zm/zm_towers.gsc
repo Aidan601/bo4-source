@@ -776,7 +776,7 @@ function function_f1e7bc35( s_spot )
 {
     self endon( #"death" );
     
-    if ( isdefined( s_spot.var_c104f8c7 ) && s_spot.var_c104f8c7 )
+    if ( isdefined( s_spot.b_is_pap_encounter_spawn ) && s_spot.b_is_pap_encounter_spawn )
     {
         return;
     }
@@ -791,18 +791,18 @@ function function_f1e7bc35( s_spot )
         case #"tiger":
             str_scene = s_spot.scriptbundlename;
             
-            if ( isdefined( s_spot.var_1b4b343d ) )
+            if ( isdefined( s_spot.script_closet ) )
             {
-                self.var_1b4b343d = s_spot.var_1b4b343d;
+                self.script_closet = s_spot.script_closet;
             }
             
             break;
         case #"gladiator":
-            str_scene = s_spot.var_5b15e8cd;
+            str_scene = s_spot.script_destroyer_scene;
             
             if ( self.subarchetype == #"gladiator_marauder" )
             {
-                str_scene = s_spot.var_f8f13141;
+                str_scene = s_spot.script_marauder_scene;
             }
             
             break;
@@ -1074,7 +1074,7 @@ function function_535ff7c4()
 // Size: 0x7c
 function function_b770efae( t_door, n_cost )
 {
-    if ( isdefined( t_door.var_c947f134 ) && t_door.var_c947f134 )
+    if ( isdefined( t_door.script_disable_door ) && t_door.script_disable_door )
     {
         t_door sethintstring( level.var_d5bd7049 );
         return;
@@ -1089,7 +1089,7 @@ function function_b770efae( t_door, n_cost )
 // Size: 0x2a
 function function_57e80330( t_door )
 {
-    var_e1223439 = !isdefined( t_door.var_c947f134 );
+    var_e1223439 = !isdefined( t_door.script_disable_door );
     return var_e1223439;
 }
 
@@ -1099,16 +1099,16 @@ function function_57e80330( t_door )
 // Size: 0x8c
 function function_58a931ce()
 {
-    if ( !isdefined( self.var_f5325380 ) )
+    if ( !isdefined( self.script_missile_clip ) )
     {
         return;
     }
     
-    var_586fa0ec = getent( self.var_f5325380, "prefabname" );
+    var_586fa0ec = getent( self.script_missile_clip, "prefabname" );
     
     if ( !isdefined( var_586fa0ec ) )
     {
-        var_586fa0ec = getent( self.var_f5325380, "targetname" );
+        var_586fa0ec = getent( self.script_missile_clip, "targetname" );
     }
     
     self waittill( #"door_opened" );

@@ -363,7 +363,7 @@ function private function_5860fce9()
     
     if ( isalive( self ) )
     {
-        b_say = self zm_vo::function_a2bd5a0c( #"hash_227bd68a057f7198", 0, 1 );
+        b_say = self zm_vo::function_a2bd5a0c( #"vox_catwalk_warden_1", 0, 1 );
         
         if ( b_say && isalive( self ) && level.activeplayers.size > 1 )
         {
@@ -371,7 +371,7 @@ function private function_5860fce9()
             
             if ( isdefined( e_richtofen ) && self != e_richtofen && distancesquared( self.origin, e_richtofen.origin ) < 1000000 )
             {
-                e_richtofen zm_vo::function_a2bd5a0c( #"hash_227bd68a057f7198" );
+                e_richtofen zm_vo::function_a2bd5a0c( #"vox_catwalk_warden_1" );
             }
         }
     }

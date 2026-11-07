@@ -69,7 +69,7 @@ function function_18d7622a( info )
         tell = "fxexp_teleporter_a_tell";
         inuse = "fxexp_teleporter_b_inuse";
         
-        if ( destination.var_362fcf1d === "b" )
+        if ( destination.script_destination === "b" )
         {
             tell = "fxexp_teleporter_b_tell";
             inuse = "fxexp_teleporter_a_inuse";

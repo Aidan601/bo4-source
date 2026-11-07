@@ -391,7 +391,7 @@ function function_466fb0ff()
 // Params 2
 // Checksum 0x79e4a39d, Offset: 0x1c30
 // Size: 0x376
-function function_c52e8ba( player, var_8d5d092c )
+function function_c52e8ba( player, str_cooldown )
 {
     b_result = 0;
     
@@ -427,9 +427,9 @@ function function_c52e8ba( player, var_8d5d092c )
     {
         self.hint_string[ n_player_index ] = #"";
     }
-    else if ( isdefined( self.stub.var_a4134e51 ) && !level flag::get( self.stub.var_a4134e51 ) )
+    else if ( isdefined( self.stub.level_flag_required ) && !level flag::get( self.stub.level_flag_required ) )
     {
-        switch ( self.stub.var_a4134e51 )
+        switch ( self.stub.level_flag_required )
         {
             case #"connect_provisions_to_engine_room":
                 self.hint_string[ n_player_index ] = #"hash_6134f96bfd8584b9";
@@ -444,7 +444,7 @@ function function_c52e8ba( player, var_8d5d092c )
         
         b_result = 1;
     }
-    else if ( isdefined( player.var_9c7b96ed[ var_8d5d092c ] ) && player.var_9c7b96ed[ var_8d5d092c ] )
+    else if ( isdefined( player.var_9c7b96ed[ str_cooldown ] ) && player.var_9c7b96ed[ str_cooldown ] )
     {
         self.hint_string[ n_player_index ] = #"zombie/generic_fasttravel_cooldown";
         b_result = 1;

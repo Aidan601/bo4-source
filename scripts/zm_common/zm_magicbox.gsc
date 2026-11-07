@@ -2591,9 +2591,9 @@ function timer_til_despawn( v_float )
         self.angles = ( self.angles[ 0 ] + 90, self.angles[ 1 ], self.angles[ 2 ] );
     }
     
-    var_3be81b3b = isdefined( level.var_ad2674fe ) ? level.var_ad2674fe : 12;
-    self moveto( self.origin - v_float * 0.85, var_3be81b3b, var_3be81b3b * 0.5 );
-    wait var_3be81b3b;
+    n_put_back_time = isdefined( level.var_ad2674fe ) ? level.var_ad2674fe : 12;
+    self moveto( self.origin - v_float * 0.85, n_put_back_time, n_put_back_time * 0.5 );
+    wait n_put_back_time;
     
     if ( isdefined( self ) )
     {
@@ -2853,13 +2853,13 @@ function function_4873c058()
             
             if ( !isdefined( chest.zone_name ) )
             {
-                var_bbab3105 = vectornormalize( anglestoright( chest.zbarrier.angles ) ) * -64;
-                chest.zone_name = zm_zonemgr::get_zone_from_position( chest.zbarrier.origin + var_bbab3105, 1 );
+                n_forward_offset = vectornormalize( anglestoright( chest.zbarrier.angles ) ) * -64;
+                chest.zone_name = zm_zonemgr::get_zone_from_position( chest.zbarrier.origin + n_forward_offset, 1 );
                 n_z_offset = 8;
                 
                 while ( !isdefined( chest.zone_name ) && n_z_offset <= 64 )
                 {
-                    chest.zone_name = zm_zonemgr::get_zone_from_position( chest.zbarrier.origin + var_bbab3105 + ( 0, 0, n_z_offset ), 1 );
+                    chest.zone_name = zm_zonemgr::get_zone_from_position( chest.zbarrier.origin + n_forward_offset + ( 0, 0, n_z_offset ), 1 );
                     n_z_offset += 8;
                 }
                 

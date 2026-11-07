@@ -209,17 +209,17 @@ function function_a5689564( s_loc )
     
     if ( s_loc.script_noteworthy === "traverse" )
     {
-        if ( isdefined( s_loc.var_85e825a7 ) )
+        if ( isdefined( s_loc.level_flag_set_on_use ) )
         {
-            s_loc.unitrigger_stub.var_85e825a7 = s_loc.var_85e825a7;
-            level flag::init( s_loc.var_85e825a7 );
+            s_loc.unitrigger_stub.level_flag_set_on_use = s_loc.level_flag_set_on_use;
+            level flag::init( s_loc.level_flag_set_on_use );
         }
         
         s_loc.unitrigger_stub.s_loc = s_loc;
         s_loc.unitrigger_stub.var_638d9008 = 1;
         s_loc.unitrigger_stub.var_694cbc6f = 1;
         s_loc.unitrigger_stub.var_cafe149c = "" + #"hash_52693a3ba1bbc7ea";
-        s_loc.unitrigger_stub.var_a4134e51 = s_loc.var_a4134e51;
+        s_loc.unitrigger_stub.level_flag_required = s_loc.level_flag_required;
         
         if ( !isdefined( level.var_4775015b ) )
         {
@@ -254,15 +254,15 @@ function function_ae5d684b()
     {
         case #"fountain_to_column":
         case #"column_to_fountain":
-            self.unitrigger_stub.var_8d5d092c = "fountain_to_column_jump_pad";
+            self.unitrigger_stub.str_cooldown = "fountain_to_column_jump_pad";
             break;
         case #"column_to_park":
         case #"park_to_column":
-            self.unitrigger_stub.var_8d5d092c = "column_to_park_jump_pad";
+            self.unitrigger_stub.str_cooldown = "column_to_park_jump_pad";
             break;
         case #"fountain_to_park":
         case #"park_to_fountain":
-            self.unitrigger_stub.var_8d5d092c = "fountain_to_park_jump_pad";
+            self.unitrigger_stub.str_cooldown = "fountain_to_park_jump_pad";
             break;
     }
 }
@@ -271,7 +271,7 @@ function function_ae5d684b()
 // Params 2
 // Checksum 0x1f9fc7ed, Offset: 0x1250
 // Size: 0x906
-function function_c52e8ba( e_player, var_8d5d092c )
+function function_c52e8ba( e_player, str_cooldown )
 {
     b_result = 0;
     
@@ -282,13 +282,13 @@ function function_c52e8ba( e_player, var_8d5d092c )
     
     n_player_index = e_player getentitynumber();
     
-    if ( !self zm_fasttravel::function_d06e636b( e_player ) )
+    if ( !self zm_fasttravel::can_use_fasttravel( e_player ) )
     {
         self.hint_string[ n_player_index ] = #"";
     }
-    else if ( isdefined( self.stub.var_a4134e51 ) && !level flag::get( self.stub.var_a4134e51 ) )
+    else if ( isdefined( self.stub.level_flag_required ) && !level flag::get( self.stub.level_flag_required ) )
     {
-        switch ( self.stub.var_a4134e51 )
+        switch ( self.stub.level_flag_required )
         {
             case #"pegasus_ride_started":
                 self.hint_string[ n_player_index ] = #"hash_5455a9d3a45a75ab";
@@ -344,7 +344,7 @@ function function_c52e8ba( e_player, var_8d5d092c )
         
         b_result = 1;
     }
-    else if ( isdefined( e_player.var_9c7b96ed[ var_8d5d092c ] ) && e_player.var_9c7b96ed[ var_8d5d092c ] )
+    else if ( isdefined( e_player.var_9c7b96ed[ str_cooldown ] ) && e_player.var_9c7b96ed[ str_cooldown ] )
     {
         if ( self.stub.script_noteworthy === "traverse" )
         {
@@ -515,9 +515,9 @@ function function_28deccf1( var_de3a312c, var_d53c9600 = 1 )
         return;
     }
     
-    if ( isdefined( var_de3a312c.var_a4134e51 ) )
+    if ( isdefined( var_de3a312c.level_flag_required ) )
     {
-        var_6761ef1c = var_de3a312c.var_a4134e51;
+        var_6761ef1c = var_de3a312c.level_flag_required;
     }
     
     while ( !level flag::exists( var_6761ef1c ) )
@@ -580,7 +580,7 @@ function function_f8655c9()
 {
     self notify( "64b5770ecbe57f8f" );
     self endon( "64b5770ecbe57f8f" );
-    level flag::wait_till( self.var_a4134e51 );
+    level flag::wait_till( self.level_flag_required );
     self.var_42b23772 showpart( "tag_symbol_blue" );
     array::thread_all( util::get_players( #"allies" ), &function_28deccf1, self, 1 );
 }

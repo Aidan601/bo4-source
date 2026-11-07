@@ -38,7 +38,7 @@ function function_2613aeec( enabled )
 {
     if ( enabled )
     {
-        callback::add_callback( #"hash_48bcdfea6f43fecb", &function_1c4b5097 );
+        callback::add_callback( #"hash_48bcdfea6f43fecb", &on_quest_item_pickup );
         callback::add_callback( #"on_team_eliminated", &function_4ac25840 );
         
         if ( isdefined( getgametypesetting( #"hash_17f17e92c2654659" ) ) && getgametypesetting( #"hash_17f17e92c2654659" ) )
@@ -63,7 +63,7 @@ function function_2613aeec( enabled )
 // Params 1
 // Checksum 0x2676f52, Offset: 0x360
 // Size: 0xdc
-function function_1c4b5097( item )
+function on_quest_item_pickup( item )
 {
     itementry = item.itementry;
     
