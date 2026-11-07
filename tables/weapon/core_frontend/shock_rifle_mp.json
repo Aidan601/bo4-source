@@ -93,6 +93,6 @@
     "fx_ed8": "#weapon/fx8_hero_sig_shockrifle_spike_impact",
     "fx_f00": "#hash_3d503204096ad06f",
     "enemyDeathFxSet": "#hash_2b0c6064f0f341f7",
-    "normalImpactFX": "#hash_31c7b4d84351c44f",
+    "normalImpactFX": "#hero_shockrifle_enter",
     "normalImpactSounds": "#lightning_gun_impact"
 }

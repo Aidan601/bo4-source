@@ -1,6 +1,6 @@
 type,name
 model,#p8_fxanim_gp_fish_skeleton_01_mod
-model,#hash_183f8ca0a2140ab
+model,#p8_col_vista_ship_steam_merchant
 model,#veh_t8_civ_forklift_modular_forklift_attach_dead_yellow
 model,#p8_mp_bomb_crate_palette
 model,#p7_fxanim_gp_wire_sparking_med_thick_mod
@@ -44,7 +44,7 @@ model,#p7_bottle_glass_liquor_02a_dmg
 model,#wpn_t8_hero_war_machine_projectile
 model,#p8_crate_metal_military_medium_01
 model,#veh_t8_civ_forklift_base_dest_attach
-model,#hash_2f039de4d1c92cc1
+model,#p8_reptile_tortoise_01
 model,#veh_t8_civ_forklift_modular_cab_attach_dead_yellow
 model,#c_t8_cottontop_monkey_fb1
 model,#p7_can_metal_cube_01
@@ -57,7 +57,7 @@ model,#p7_ven_gascan_static
 model,#p8_mp_flag_base_light_fixture_1
 model,#p8_fxp_fluid_droplet_blood
 model,#p8_fxanim_gp_tarp_drape_roof_corner_01_mod
-model,#hash_381d75531ae577b9
+model,#p8_fxanim_mp_offshore_monkey_path2_mod
 model,#veh_t8_civ_forklift_forks_dest_attach
 model,#p7_canteen_bottle_bagged
 model,#p7_gib_chunk_flesh_01
@@ -125,7 +125,7 @@ model,#p7_ris_fence_water_buoy_top
 model,#p8_panel_debris_metal_03b
 model,#p8_panel_debris_metal_02b
 model,#veh_t8_mil_boat_tactical_raft_decal_attach
-model,#hash_6a8a7d66d3b20ba8
+model,#p8_fxanim_mp_offshore_monkey_path1_mod
 model,#p7_bottle_glass_liquor_02_dmg
 model,#p8_mp_bomb_crate_clamp
 model,#p8_fire_extinguisher_01
@@ -154,7 +154,7 @@ xanim,#p8_fxanim_mp_offshore_lizard_02_anim
 xanim,#p8_fxanim_gp_seagull_circle_02_anim
 xanim,#pb_rifle_endgame_2ndplace_idle
 xanim,#hash_c13accf7342b879
-xanim,#hash_11790b551d871a22
+xanim,#p8_fxanim_mp_offshore_monkey_path2_anim
 xanim,#pb_rifle_endgame_3rdplace_idle
 xanim,#p8_fxanim_gp_light_hanging_utility_s3_anim
 xanim,#p8_fxanim_mp_offshore_artillery_volley_06_anim
@@ -176,10 +176,10 @@ xanim,#p8_fxanim_gp_fish_skeleton_01_s2_anim
 xanim,#p8_fxanim_wz_supply_stash_02_used_anim
 xanim,#p8_fxanim_mp_offshore_artillery_volley_04_anim
 xanim,#p8_fxanim_gp_pigeon_standing_02_anim
-xanim,#hash_3b81b4da43e05443
+xanim,#p8_fxanim_mp_offshore_monkey_path2_idle_anim
 xanim,#p8_fxanim_gp_seagull_circle_01_anim
 xanim,#pb_rifle_endgame_1stplace_idle
-xanim,#hash_53b4e79ab07a8e39
+xanim,#p8_fxanim_mp_offshore_monkey_path1_anim
 xanim,#p7_fxanim_gp_seagull_circle02_xanim
 xanim,#p8_fxanim_wz_supply_stash_02_open_anim
 xanim,#p8_fxanim_mp_offshore_artillery_volley_05_anim
@@ -189,7 +189,7 @@ xanim,#o_veh_t7_civ_sedan_midsize_police_explode
 xanim,#p8_fxanim_gp_seagull_circle_03_anim
 xanim,#p8_fxanim_mp_offshore_artillery_volley_02_anim
 xanim,#p7_fxanim_gp_wire_sparking_med_thick_s1_anim
-xanim,#hash_6f929b6f73f3b73a
+xanim,#p8_fxanim_mp_offshore_monkey_path1_idle_anim
 xanim,#hash_6fecd08ec56ac662
 xanim,#p8_fxanim_mp_offshore_crabs_01_a_anim
 xanim,#p8_fxanim_mp_offshore_ship_merchant_vista_anim
@@ -572,7 +572,7 @@ soundalias,#amb_parrot_fly_away_rt
 soundalias,#vox_tvoi_tutor_batt_final_streak_dead
 soundalias,#exp_incindiary_large_decay
 soundalias,#evt_fan_break
-soundalias,#hash_7f118ea3a4874268
+soundalias,#dst_mp_propane_tank_fire
 soundalias,#exp_barrel_dist
 client_fx,#impacts/fx8_bul_impact_blood_head_nonfatal
 client_fx,#impacts/fx8_bul_impact_robot_limb_nonfatal
@@ -602,17 +602,17 @@ client_fx,#ui/fx_dom_marker_neutral_r120
 client_fx,#dirt/fx8_sand_ground_rattle
 client_fx,#impacts/fx8_bul_impact_robot_body_nonfatal
 client_fx,#impacts/fx_bul_impact_boss_head_nonfatal
-client_fx,#hash_2b8e8e38e3fa3ef8
-client_fx,#hash_30c6743904798c76
+client_fx,#foliage/fx8_palm_fronds_fall_rattle
+client_fx,#foliage/fx8_flowers_white_wind_rattle
 client_fx,#impacts/fx_bul_impact_heavy_body_nonfatal
 client_fx,#impacts/fx_bul_impact_snow_sm
 client_fx,#impacts/fx8_bul_impact_blood_head_fatal
-client_fx,#hash_3f6d16304267fea8
+client_fx,#foliage/fx8_bush_sm_rattle
 client_fx,#hash_3f9e861a8394a8a3
 client_fx,#impacts/fx8_bul_impact_blood_body_fatal
 client_fx,#ui/fx_dom_cap_indicator_team_r120
 client_fx,#impacts/fx_bul_impact_armor_body_nonfatal
-client_fx,#hash_47745f2c53be480a
+client_fx,#foliage/fx8_palm_fronds_rattle
 client_fx,#hash_49f757cf24efc395
 client_fx,#impacts/fx_bul_impact_boss_head_fatal
 client_fx,#impacts/fx_bul_impact_robot_body_nonfatal

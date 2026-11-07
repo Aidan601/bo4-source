@@ -186,7 +186,7 @@ string,#hash_2d6886135fa75f38
 string,#zombie/perk_tortoise
 string,#hash_2ec2d4c4b42ef0de
 string,#hash_2f89c70e07ddab1c
-string,#hash_2f9ad3c17cd7efd4
+string,#zombie_weaponammoonly_250
 string,#hash_2fa6c1fed65c1073
 string,#zombie/perk_additionalprimaryweapon_keyboard
 string,#hash_307615269eadecab
@@ -300,7 +300,7 @@ string,#hash_51aafb1548ffec49
 string,#hash_51b8af0794e70749
 string,#hash_52426a433be4aa00
 string,#hash_5253833fcb69e672
-string,#hash_52d9f5f60cd6de90
+string,#zombie_weaponcostammo_upgrade_500_250
 string,#hash_52e05a9ea3e881ea
 string,#hash_53005c8d5b45bca3
 string,#zombie/perk_divetonuke
@@ -359,7 +359,7 @@ string,#zombie/hero_weapon_hint
 string,#hash_64e686d0e2a5bfcb
 string,#zombie/grab_shield_free
 string,#hash_65b0f7cbdf6d8d98
-string,#hash_65fde4695784921b
+string,#zombie_weapon_costonlyfill_500
 string,#hash_666a7b4f930d5120
 string,#zombie/perk_mystery
 string,#zombie/repair_shield_sword_keyboard
@@ -398,7 +398,7 @@ string,#zombie/need_power
 string,#hash_7203281c0385cddd
 string,#zombie/game_over
 string,#hash_726a5f9b0d18c78b
-string,#hash_7275e62964f4a8c6
+string,#zombie_weapon_costonlyfill_2000
 string,#zombie/perk_cooldown_free
 string,#hash_745591cd196857a4
 string,#hash_74b3d2b6f667dcda
@@ -444,7 +444,7 @@ eventstring,#zombie_callings_notification
 eventstring,#endround
 eventstring,#custom
 eventstring,#restart_level_zm
-eventstring,#hash_167fc7366e373151
+eventstring,#play_promo_anim
 eventstring,#allies
 eventstring,#back
 eventstring,#resume_end_game

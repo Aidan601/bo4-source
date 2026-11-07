@@ -37,7 +37,7 @@ model,#p7_mou_clock_wall
 model,#p7_mou_console_control_a_corner_dest
 model,#p7_book_office_binder_open
 model,#p7_mou_data_recorder_cover
-model,#hash_2d9dd4953e527140
+model,#p7_mou_antenna_receiver_02_larger_ncs
 model,#p7_sweep_broom_push_green
 model,#veh_mphd_mou_snowcat_destructible
 model,#p7_mou_antenna_square_mount_full
@@ -139,13 +139,13 @@ destructible,#p7_mou_data_recorder_sml_ddef
 destructible,#veh_mphd_mou_snowcat_destructible_def
 xanim,#pb_rifle_endgame_2ndplace_idle
 xanim,#pb_rifle_endgame_3rdplace_idle
-xanim,#hash_20ae6d3601fcb685
+xanim,#p7_fxanim_mou_light_emergency_wind_low_anim
 xanim,#p8_fxanim_mou_pole_light_wind_anim
 xanim,#pb_rifle_endgame_1stplace_idle
-xanim,#hash_5af6e859c355d60d
+xanim,#p8_fxanim_mou_anemometer_windy_anim
 xanim,#p7_fxanim_mp_spire_wire08_anim
-xanim,#hash_5bbef5b158e89476
-xanim,#hash_5d3306893a5030f9
+xanim,#p7_fxanim_mou_antenna_radio_02_anim_shake
+xanim,#p7_fxanim_mou_antenna_radio_01_anim_shake
 xanim,#p8_fxanim_mp_mou_wires_set_gondola_anim
 scriptbundle,#sb_mp_endgame_player_06
 scriptbundle,#sb_mp_endgame_player_05
@@ -171,7 +171,7 @@ soundalias,#dst_propane_tank_lfe
 soundalias,#dst_palet_wood
 soundalias,#amb_plastic_rustle
 soundalias,#dst_cover_concrete
-soundalias,#hash_33b781d7316b6fe
+soundalias,#amb_mountain_wind_ext
 soundalias,#dst_typewriter
 soundalias,#dst_gas_pipe_lp
 soundalias,#dst_tank_fire_lrg
@@ -213,7 +213,7 @@ soundalias,#dst_dest_glo_fire_extinguisher_d0
 soundalias,#amb_comp_buzz
 soundalias,#dst_server_glass
 soundalias,#exp_concussive_small_concussion
-soundalias,#hash_2780081d881700cc
+soundalias,#amb_mountain_wind_int
 soundalias,#amb_flag
 soundalias,#amb_comp_drive
 soundalias,#dst_tank_fire_hit
@@ -348,7 +348,7 @@ soundalias,#amb_fan_spin
 soundalias,#exp_incindiary_large_decay
 soundalias,#evt_fan_break
 soundalias,#dst_tank_explo
-soundalias,#hash_7f118ea3a4874268
+soundalias,#dst_mp_propane_tank_fire
 soundalias,#exp_barrel_dist
 client_fx,#destruct/fx_dest_window_glass_edge
 client_fx,#ui/fx_dom_cap_indicator_neutral_r120
@@ -358,4 +358,4 @@ client_fx,#snow/fx8_snow_fall_line_rattle
 client_fx,#ui/fx_dom_cap_indicator_team_r120
 client_fx,#snow/fx8_snow_ground_rattle
 client_fx,#ui/fx_dom_marker_team_r120
-client_fx,#hash_7e68dfc1a77f9f59
+client_fx,#debris/fx8_paper_rattle

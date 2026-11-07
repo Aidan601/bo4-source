@@ -115,8 +115,8 @@
                         "type": "UINT32"
                     },
                     {
-                        "name": "#hash_49b55debef4aed9b",
-                        "scrName": "#hash_f2b2143",
+                        "name": "#lifetime_ms",
+                        "scrName": "#lifetime_ms",
                         "type": "UINT32"
                     },
                     {

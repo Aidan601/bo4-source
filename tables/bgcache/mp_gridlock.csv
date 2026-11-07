@@ -11,7 +11,7 @@ model,#veh_t8_civ_city_car_dest_dirty_wht_japan
 model,#p7_diner_table_ketchup
 model,#veh_t8_civ_city_car_mirror_left_police_spawn
 model,#p8_mp_bomb_crate_palette
-model,#hash_462988f6948ff98
+model,#p8_jpn_bathhouse_geta_rt_pink
 model,#veh_t8_civ_license_plate_mount_short
 model,#p7_bottle_plastic_soap_blue_clean
 model,#p8_vent_roof_01_dmg_02_metal
@@ -58,7 +58,7 @@ model,#veh_t8_civ_license_plate_back_japan_truck_red
 model,#c_t7_mp_battery_mpc_fb1_skin1
 model,#p8_fxp_fluid_splash_water
 model,#veh_t8_civ_truck_mini_dest_trash_full_dirty_wht_japan
-model,#hash_1ac4e62cf9ec88d1
+model,#veh_t8_destructible_common_mirror_l_spawn
 model,#p7_debris_trash_food_box_03
 model,#p8_food_dinnerware_teacup
 model,#p8_fxanim_mp_gridlock_ice_cream_cat_mod
@@ -80,7 +80,7 @@ model,#p8_col_sandal_rt_red
 model,#p7_debris_trash_bottle_water_02
 model,#p8_food_vegetable_cauliflower_pile_box_full_dmg
 model,#veh_t8_civ_license_plate_back_japan_truck_blk
-model,#hash_259f70e4f87bb75a
+model,#veh_t8_hatchback_spawn_mirror_left_taxi
 model,#p7_zur_coffee_bag_01_brown
 model,#veh_t8_civ_car_hatchback_taxi_japan_attach
 model,#hash_2733adbf12224c15
@@ -95,7 +95,7 @@ model,#p7_fir_bottle_liquor_01
 model,#p8_jpn_tea_house_jug_01_sml
 model,#veh_t8_civ_license_plate_back_japan_truck_red_met
 model,#p7_trash_bag_small_04_white
-model,#hash_2ef77ddaf76cd3df
+model,#veh_t8_destructible_common_mirror_r_spawn
 model,#veh_t8_civ_car_hatchback_taxi_dead_japan
 model,#p8_box_cardboard_c_closed
 model,#veh_t8_civ_airbag_dest
@@ -103,7 +103,7 @@ model,#p8_food_spice_storage_square_tin_sml
 model,#veh_t8_civ_license_plate_back_japan_truck_wht
 model,#p7_zur_coffee_bag_01_dark
 model,#p8_food_dinnerware_cup_coffee
-model,#hash_328e05abd60e0a32
+model,#p8_jpn_bathhouse_geta_lt_pink
 model,#p7_dinnerware_01_tea_cup
 model,#hash_33c1dcbd4256dc61
 model,#p7_wes_food_jar_candy_04
@@ -126,7 +126,7 @@ model,#veh_t8_civ_truck_semi_trailer_tanker_attach
 model,#veh_t8_civ_truck_med_utility_fire_japan_large
 model,#fx_watermelonmeat_02
 model,#p8_food_dinnerware_bowl_med
-model,#hash_3cd9ba0cf148740f
+model,#p8_jpn_bathhouse_geta_rt_grey
 model,#p7_ashtray_01_marble
 model,#p7_zur_coffee_bag_01_gold
 model,#p8_food_spice_storage_cylindrical_tin_white
@@ -146,7 +146,7 @@ model,#veh_t8_civ_truck_med_utility_bed_attach_fire_variant
 model,#p7_fxanim_gp_trash_bag_small_02_white_s3_mod
 model,#c_t7_mp_warrior_mpc_fb1_skin1
 model,#p7_debris_asphalt_chunk_01
-model,#hash_4467a2e8eb1b6c0e
+model,#p7_sin_box_street_electric_large_a_prestine_right_door
 model,#veh_t8_civ_van_large_ambulance_dest_glass_attach
 model,#p7_trash_bin_small_01_blue
 model,#p7_zm_ctl_dinnerware_napkin_02_gold
@@ -265,7 +265,7 @@ model,#p7_bottle_glass_wine_broken_01
 model,#p7_bottle_glass_wine_broken_02
 model,#p8_col_sandal_rt_blue
 model,#veh_t8_destructible_glass_01_red
-model,#hash_73b42ae4ae1af375
+model,#p7_sin_box_street_electric_large_a_prestine_left_door
 model,#veh_t8_civ_car_hatchback_dest_taxi
 model,#fx_glass_piece02
 model,#fx_glass_piece01
@@ -284,10 +284,10 @@ model,#p8_wz_supply_stash_ammo
 model,#veh_t8_civ_license_plate_back_japan_truck_org
 model,#veh_t8_civ_city_car_dest_attach
 model,#p8_food_vegetable_cucumber
-model,#hash_7bdadb657461b547
-model,#hash_7c032dfeb19beae1
+model,#veh_t8_hatchback_spawn_mirror_right_taxi
+model,#p8_jpn_bathhouse_geta_lt_grey
 model,#p7_bottle_plastic_16oz_water
-model,#hash_7c448df9cf7f01a8
+model,#veh_t8_destructible_common_mirror_int_spawn
 model,#veh_t8_civ_license_plate_front_japan_compact_blu_met
 model,#veh_t8_civ_truck_mini_trash_dirty
 model,#p7_debris_trash_wrapper_01
@@ -319,7 +319,7 @@ xanim,#d_civcity_flat_tire_bl
 xanim,#d_civcity_flat_tire_br
 xanim,#p8_fxanim_mp_gridlock_highway_truck_trailer_door_anim
 xanim,#p8_fxanim_mp_gridlock_fuel_tanker_anim
-xanim,#hash_9fa67b3b6ea3635
+xanim,#p8_fxanim_mp_gridlock_crane_fro_anim
 xanim,#pb_rifle_endgame_2ndplace_idle
 xanim,#pb_rifle_endgame_3rdplace_idle
 xanim,#veh_t7_civ_city_flat_tire_fl
@@ -328,7 +328,7 @@ xanim,#veh_t7_civ_city_flat_tire_bl
 xanim,#veh_t7_civ_city_flat_tire_br
 xanim,#p7_fxanim_gp_fan_electric_wall_01_oscillate_anim
 xanim,#p8_fxanim_mp_gridlock_massage_blinds_left_anim
-xanim,#hash_34dcd2b126fb2c0d
+xanim,#p8_fxanim_mp_gridlock_crane_to_anim
 xanim,#p8_fxanim_mp_gridlock_ice_cream_cat_anim
 xanim,#p8_fxanim_mp_gridlock_highway_collapse_road_anim
 xanim,#pb_rifle_endgame_1stplace_idle
@@ -388,7 +388,7 @@ soundalias,#exp_electrical_large_flux_l
 soundalias,#exp_electrical_large_flux_r
 soundalias,#amb_tanker_explo_sweet
 soundalias,#exp_incindiary_large_hdr
-soundalias,#hash_ae4ec237d775b47
+soundalias,#amb_gridlock_int_wind_2d
 soundalias,#amb_light_buzz
 soundalias,#mus_ct_action_crash_loop_0
 soundalias,#veh_explo_dist
@@ -541,7 +541,7 @@ soundalias,#dst_solar_panel_lrg
 soundalias,#dst_solar_panel_lfe
 soundalias,#dst_propane_tank_explo
 soundalias,#amb_city_panic
-soundalias,#hash_4f584efdce88351d
+soundalias,#amb_gridlock_ext_wind_2d
 soundalias,#dst_pipe_steam
 soundalias,#dst_glass_pane
 soundalias,#amb_wind_under
@@ -556,7 +556,7 @@ soundalias,#amb_water_out_sheet
 soundalias,#dst_server
 soundalias,#dst_pipe_steam_pop
 soundalias,#dst_garbage_bag_02
-soundalias,#hash_552f1f27a33c7e19
+soundalias,#vox_tvoi_tutor_crash_final_event_tak5_nag
 soundalias,#dst_car_wheel
 soundalias,#dst_wood
 soundalias,#vox_tvoi_tutor_crash_resupply_nag
@@ -632,7 +632,7 @@ soundalias,#exp_incindiary_large_decay
 soundalias,#evt_fan_break
 soundalias,#mus_ct_spawn_crash_intro
 soundalias,#amb_occ_fan
-soundalias,#hash_7f118ea3a4874268
+soundalias,#dst_mp_propane_tank_fire
 soundalias,#exp_barrel_dist
 client_fx,#hash_108737043f604f2
 client_fx,#ui/fx_dom_cap_indicator_team_r90
@@ -645,7 +645,7 @@ client_fx,#hash_19e3c1e8ee8e110f
 client_fx,#hash_3ce7f0a367ea5a50
 client_fx,#hash_3d60e12bc6bdc032
 client_fx,#ui/fx_dom_cap_indicator_neutral_r200
-client_fx,#hash_3f6d16304267fea8
+client_fx,#foliage/fx8_bush_sm_rattle
 client_fx,#ui/fx_dom_marker_neutral_r200
 client_fx,#ui/fx_dom_marker_team_r90
 client_fx,#hash_444b1d21b8a338ca

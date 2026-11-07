@@ -1,11 +1,11 @@
 {
     "name": "#hash_5f7eac8167445fc7",
     "type": "#tag",
-    "material": "#hash_6118eeee4c563683",
+    "material": "#vd/mtl_loot_ui_icon_tags_graffitiheroes_04",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_72303124b12c4653",
-        "icon": "image#hash_4f9a9c0db17a3f08",
+        "icon": "image#loot_ui_icon_tags_graffitiheroes_04",
         "isdefault": 0
     }
 }

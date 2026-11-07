@@ -332,7 +332,7 @@ soundalias,#amb_tree_creak
 soundalias,#exp_electrical_large_flux_l
 soundalias,#exp_electrical_large_flux_r
 soundalias,#amb_large_fan
-soundalias,#hash_aa7e55c3c2fa6c8
+soundalias,#amb_tarp_blow_away_gust_trash
 soundalias,#exp_incindiary_large_hdr
 soundalias,#pfx_spark_sml
 soundalias,#mus_ct_spawn_torque_loop_0
@@ -378,9 +378,9 @@ soundalias,#exp_barrel
 soundalias,#dst_water_bottle
 soundalias,#amb_wind_blustery_int
 soundalias,#amb_tarp_flap
-soundalias,#hash_1c2ce90dec8991f7
-soundalias,#hash_1c2cea0dec8993aa
-soundalias,#hash_1c2ceb0dec89955d
+soundalias,#vox_tvoi_tutor_noma_bomb_diffused_2
+soundalias,#vox_tvoi_tutor_noma_bomb_diffused_1
+soundalias,#vox_tvoi_tutor_noma_bomb_diffused_0
 soundalias,#mus_ct_prespawn_torque_loop_0
 soundalias,#vox_tvoi_tutor_torq_enemy_razor_wire_rpg_miss
 soundalias,#vox_tvoi_tutor_noma_slide_15_0
@@ -405,7 +405,7 @@ soundalias,#dst_server_glass
 soundalias,#exp_concussive_small_concussion
 soundalias,#vox_tvoi_tutor_noma_bomb_time_up
 soundalias,#vox_tvoi_tutor_torq_enemy_1_down
-soundalias,#hash_28d19acef8628516
+soundalias,#amb_lrg_radar_dish_sweet
 soundalias,#vox_tvoi_tutor_noma_slide_16_7
 soundalias,#vox_tvoi_tutor_noma_slide_16_6
 soundalias,#vox_tvoi_tutor_noma_slide_16_5
@@ -424,7 +424,7 @@ soundalias,#amb_tarp_blow_away
 soundalias,#vox_tvoi_tutor_torq_enemy_stuck_0
 soundalias,#vox_tvoi_tutor_torq_enemy_stuck_1
 soundalias,#pfx_spark_med_far
-soundalias,#hash_2c7f647e1cbcd549
+soundalias,#amb_tarp_blow_away_gust
 soundalias,#exp_transformer_flux_r
 soundalias,#exp_transformer_flux_l
 soundalias,#dst_dest_reel2reel_01_dp_d0
@@ -648,7 +648,7 @@ soundalias,#vox_tvoi_tutor_noma_slide_11_2
 soundalias,#exp_incindiary_large_decay
 soundalias,#evt_fan_break
 soundalias,#pfx_water_hydrant_spray
-soundalias,#hash_7f118ea3a4874268
+soundalias,#dst_mp_propane_tank_fire
 soundalias,#vox_tvoi_tutor_torq_end_0
 soundalias,#vox_tvoi_tutor_torq_end_1
 soundalias,#vox_tvoi_tutor_torq_start_1
@@ -671,6 +671,6 @@ client_fx,#hash_586445f2c9a8db89
 client_fx,#ui/fx_dom_marker_team_r120
 client_fx,#hash_68a2f8d076b3cf12
 client_fx,#hash_6fc0456efc11fc9c
-client_fx,#hash_7b2e4176bb94d5e8
+client_fx,#dirt/fx8_dust_ground_lite_rattle
 client_fx,#hash_7e96d3a4e857fefa
 client_fx,#hash_7fd84f1d1ff7e1a5

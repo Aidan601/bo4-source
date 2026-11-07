@@ -46,8 +46,8 @@
         ]
     ],
     "sound90": "#wpn_rgun_mk2y_prj_lp",
-    "firesound": "#hash_6ea460b6c9885c86",
-    "firesoundplayer": "#hash_660cbfb70ca315ab",
+    "firesound": "#wpn_rgun_mk2y_stg3_fire_npc",
+    "firesoundplayer": "#wpn_rgun_mk2y_stg3_fire_plr",
     "sound240": "#wpn_generic_dryfire_npc",
     "sound250": "#wpn_generic_dryfire_plr",
     "sound4e0": "#hash_55bca176b2a2d59d",

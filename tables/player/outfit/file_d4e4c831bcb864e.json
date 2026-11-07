@@ -9,10 +9,10 @@
             "unk68:unk10": true,
             "model": "#c_t8_bo_hero_cosmic_silverback_head1",
             "unk68:unk48": [
-                "#hash_7633e7d5d9e5a30",
-                "#hash_767949ae2ed9b929",
-                "#hash_29d14df99bf588e1",
-                "#hash_29d14cf99bf5872e"
+                "#mc/mtl_c_t8_bo_cosmic_silverback_helmet",
+                "#mc/mtl_c_t8_bo_cosmic_silverback_hair",
+                "#mc/mtl_c_t8_bo_cosmic_silverback_hair2",
+                "#mc/mtl_c_t8_bo_cosmic_silverback_hair3"
             ],
             "unk68:unk50": 1
         }

@@ -71,15 +71,15 @@ model,#veh_t8_civ_license_plate_front_morocco_truck_org
 model,#p7_bottle_milk_broken_top
 model,#p7_food_jar_pepper_02_closed
 model,#c_t7_mp_battery_mpc_fb1_skin1
-model,#hash_19b6741b05ab24d5
-model,#hash_1ac4e62cf9ec88d1
+model,#p8_afr_light_lamp_stained_glass_hanging_02_emissive_nocol
+model,#veh_t8_destructible_common_mirror_l_spawn
 model,#p8_crate_wood_short_01
 model,#p8_crate_wood_short_02
 model,#p8_food_fruit_kiwi_cap_crate_dmg
 model,#p7_debris_trash_food_box_03
 model,#p8_food_dinnerware_teacup
 model,#p8_fxanim_gp_parrot_orange_mod
-model,#hash_1c938b9292d19963
+model,#p8_aml_snake_sml_atractus_yellow
 model,#p7_zm_tra_can_spray
 model,#p8_afr_light_lamp_stained_glass_hanging_04_nocol
 model,#p8_food_vegetable_cucumber_cap_box_full
@@ -104,7 +104,7 @@ model,#p7_debris_trash_bottle_water_02
 model,#veh_t8_civ_truck_mini_dest_tanker_full_dirty_wht_morocco
 model,#p8_food_fruit_strawberry_cap_crate
 model,#p8_food_vegetable_cauliflower_pile_box_full_dmg
-model,#hash_24ad2783e4c31de7
+model,#veh_t8_civ_truck_mini_rug_truck_dest_wht_morocco
 model,#p8_food_jar_oil_olive_full
 model,#p8_food_vegetable_carrot_cap_crate_dmg
 model,#p7_ris_bucket_plastic_5_gal_bucket_paint
@@ -123,15 +123,15 @@ model,#fx_watermelonchunk_01
 model,#veh_t8_civ_truck_mini_tanker_dirty_decals_wht
 model,#p8_food_vegetable_cucumber_cap_crate
 model,#p7_bottle_plastic_16oz_water_dmg
-model,#hash_2c479c5c1614d35e
+model,#veh_t8_civ_truck_med_short_dest_attch
 model,#p8_food_fruit_banana_pile_box_full_dmg
 model,#veh_t8_civ_truck_mini_box_morocco_decals_dead
 model,#p7_bottle_glass_wine_open_01
-model,#hash_2ef77ddaf76cd3df
-model,#hash_2f039de4d1c92cc1
+model,#veh_t8_destructible_common_mirror_r_spawn
+model,#p8_reptile_tortoise_01
 model,#veh_t8_civ_truck_mini_work_truck_morocco
 model,#p8_box_cardboard_c_open02_damaged
-model,#hash_2fcdd88079996512
+model,#veh_t8_civ_truck_mini_overload_level2_attach
 model,#p8_box_cardboard_c_closed
 model,#p8_food_fruit_strawberry_cap_crate_dmg
 model,#p7_food_bread_zopf
@@ -259,7 +259,7 @@ model,#veh_t8_civ_truck_mini_dest_rusty_autoshop_morocco
 model,#p7_food_fruit_banana
 model,#p8_food_vegetable_cauliflower
 model,#p7_clipboard_01_wpaper
-model,#hash_5650e5410d25be0b
+model,#p8_afr_light_lamp_stained_glass_hanging_04_emissive_nocol
 model,#p8_mp_flag_base_1
 model,#p8_fxanim_mp_morocco_parachute_02_mod
 model,#p8_mp_bomb_crate_brace
@@ -274,7 +274,7 @@ model,#veh_t8_destructible_glass_02_red
 model,#p7_debris_trash_paper_plate_01
 model,#veh_t8_civ_truck_mini_dest_attach
 model,#p7_cai_vase_ceramic_01_d_dmg
-model,#hash_59d89872f85b08ee
+model,#veh_t8_civ_truck_mini_dest_box_rugtruck_morocco
 model,#p7_food_bread_beer
 model,#veh_t8_civ_truck_mini_trash_dirty_decals
 model,#p7_spl_toy_beach_ball_01
@@ -327,7 +327,7 @@ model,#p8_afr_dinnerware_ceramic_bowl_sml_02
 model,#veh_t8_civ_truck_mini_box_dead_rugtruck_morocco
 model,#p8_food_fruit_orange_cap_crate
 model,#veh_t8_civ_truck_mini_bed_full_dirty_tan_morocco
-model,#hash_6529679adfa3b9f6
+model,#p8_afr_light_lamp_stained_glass_hanging_01_emissive_nocol
 model,#p8_food_fruit_papaya_cap_crate_dmg
 model,#p8_aml_chicken_female_02
 model,#p8_aml_chicken_female_03
@@ -449,7 +449,7 @@ model,#p7_cai_incense_cone_burner_01_lid
 model,#p8_food_vegetable_cucumber
 model,#p7_bottle_plastic_cleaner_toilet
 model,#p7_bottle_plastic_16oz_water
-model,#hash_7c448df9cf7f01a8
+model,#veh_t8_destructible_common_mirror_int_spawn
 model,#p8_flower_pot_04_dmg_full
 model,#veh_t8_civ_truck_mini_tanker_dead_full_wht
 model,#veh_t8_civ_truck_mini_trash_dirty
@@ -563,7 +563,7 @@ soundalias,#dst_palet_wood
 soundalias,#dst_cover_concrete
 soundalias,#dst_typewriter
 soundalias,#dst_gas_pipe_lp
-soundalias,#hash_5970a11a29706b7
+soundalias,#amb_well_water_drips
 soundalias,#dst_fish_tank
 soundalias,#exp_concussive_large_flux_l
 soundalias,#exp_concussive_large_flux_r
@@ -596,7 +596,7 @@ soundalias,#amb_rand_birds
 soundalias,#amb_broadland_birds
 soundalias,#exp_barrel
 soundalias,#dst_water_bottle
-soundalias,#hash_1cc7c5115db131f2
+soundalias,#amb_morocco_int_wind_2d
 soundalias,#dst_nitrogen_tank_leak
 soundalias,#dst_fern
 soundalias,#exp_mp_propane_flux_l
@@ -636,7 +636,7 @@ soundalias,#dst_transformer_explo_spark
 soundalias,#amb_restaurant
 soundalias,#amb_plane_crash_explo_sweet
 soundalias,#amb_flagpole
-soundalias,#hash_3e0564de8eb287d0
+soundalias,#amb_morocco_ext_wind_2d
 soundalias,#exp_barrel_flux_r
 soundalias,#exp_barrel_flux_l
 soundalias,#amb_generator
@@ -716,7 +716,7 @@ soundalias,#dst_glass_radar_pane_break
 soundalias,#amb_chicken_coop
 soundalias,#exp_incindiary_large_decay
 soundalias,#evt_fan_break
-soundalias,#hash_7f118ea3a4874268
+soundalias,#dst_mp_propane_tank_fire
 soundalias,#exp_barrel_dist
 client_fx,#hash_c720ceb85f8d58
 client_fx,#hash_108737043f604f2
@@ -772,5 +772,5 @@ client_fx,#hash_743aa928e83286d6
 client_fx,#hash_77a3ef479ceb7b5c
 client_fx,#hash_77a8c32592d4dc2f
 client_fx,#hash_7a2b64f7a1e28505
-client_fx,#hash_7b2e4176bb94d5e8
+client_fx,#dirt/fx8_dust_ground_lite_rattle
 client_fx,#hash_7d975b57cce20860

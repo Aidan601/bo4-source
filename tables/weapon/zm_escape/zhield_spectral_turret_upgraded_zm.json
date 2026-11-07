@@ -53,10 +53,10 @@
         "#pistol_enemy"
     ],
     "viewmodel": [
-        "#hash_6deba57dd1acd63b"
+        "#wpn_t8_zm_esc_shield_spectral_door_view"
     ],
     "worldModel": [
-        "#hash_5892f7f4c9a9720e"
+        "#wpn_t8_zm_esc_shield_spectral_door_world"
     ],
     "gadgetIconAvailable": "#hash_93ef923686346dc9",
     "gadgetIconUnavailable": "#hash_93ef923686346dc9",
@@ -79,10 +79,10 @@
     "exitImpactSounds": "#bullet_exit",
     "#hash_21329beb": [
         {
-            "model": "#hash_5892f7f4c9a9720e"
+            "model": "#wpn_t8_zm_esc_shield_spectral_door_world"
         },
         {
-            "model": "#hash_5892f7f4c9a9720e"
+            "model": "#wpn_t8_zm_esc_shield_spectral_door_world"
         }
     ]
 }

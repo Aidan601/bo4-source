@@ -1,11 +1,11 @@
 {
     "name": "#hash_3d5351738efd5ce8",
     "type": "#tag",
-    "material": "#hash_70fbad1a96860c0c",
+    "material": "#vd/mtl_loot_ui_icon_tags_ar_fastfire_signature_2",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_a995518d7a67899",
-        "icon": "image#hash_57645ac16f9253df",
+        "icon": "image#loot_ui_icon_tags_ar_fastfire_signature_2",
         "isdefault": 0
     }
 }

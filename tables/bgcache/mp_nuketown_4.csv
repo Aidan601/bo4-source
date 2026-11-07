@@ -60,10 +60,10 @@ model,#p8_mannequin_male_coat_01_fullbody_pose_1_rhand
 model,#p8_mannequin_female_coat_04_fullbody_pose_4_larm
 model,#hash_2a42dfb308f95141
 model,#p8_usa_snow_chunk_trim_128
-model,#hash_2b02d5233947d346
+model,#p8_fxanim_mp_nt4_missile_hatch_right_mod
 model,#p8_mannequin_female_coat_04_fullbody_pose_3_larm
-model,#hash_2b57551126b4998e
-model,#hash_2b6919aee51f2dec
+model,#p8_nt4_missile_hatch_main_door_right
+model,#p8_nt4_train_locomotive_right_parts_body
 model,#p8_nt4_millitary_helmet
 model,#veh_t8_soviet_civ_sedan_midsize_mirror_r_spawn
 model,#p8_mannequin_female_coat_01_fullbody_pose_4_hat
@@ -72,7 +72,7 @@ model,#p8_mannequin_female_coat_04_fullbody_pose_3_lhand
 model,#p7_fir_plywood_wall
 model,#p8_nt4_train_wagon_exterior
 model,#p8_mannequin_female_coat_04_fullbody_pose_1_head
-model,#hash_3055d5ef3541a567
+model,#p8_fxanim_mp_nt4_missile_hatch_left_mod
 model,#p8_nt4_luggage_tag_02
 model,#p8_nt4_luggage_tag_01
 model,#p8_mannequin_male_coat_03_fullbody_pose_1_lod0
@@ -90,7 +90,7 @@ model,#p8_mannequin_male_coat_01_fullbody_pose_2_lhand
 model,#p8_mannequin_female_coat_04_fullbody_pose_3_rhand
 model,#p8_nt4_crate_ammo_wood_plain
 model,#veh_t8_soviet_civ_sedan_midsize_dead
-model,#hash_39889ab1a5de7532
+model,#p8_nt4_missile_hatch_train_support_right
 model,#p8_mannequin_female_coat_04_fullbody_pose_1_larm
 model,#p8_mannequin_female_coat_02_fullbody_pose_3_rhand
 model,#veh_t8_soviet_civ_sedan_small_dead
@@ -149,7 +149,7 @@ model,#p7_fir_palette_ammo_wood_plank
 model,#p8_usa_snow_pile_01
 model,#p8_usa_snow_pile_03
 model,#p8_nt4_nuketown_4_sign_counter
-model,#hash_5826910b528c6661
+model,#p8_nt4_train_locomotive_left_parts_body
 model,#collision_clip_cylinder_32x128
 model,#veh_t8_soviet_mil_truck_light_dest_snow
 model,#veh_t8_destructible_glass_02_red
@@ -172,7 +172,7 @@ model,#p8_zm_zod_luggage_millionaire_latch
 model,#p7_fxp_debris_car_glass_shatter_02
 model,#p7_fxp_debris_car_glass_shatter_03
 model,#p7_fxp_debris_car_glass_shatter_01
-model,#hash_618749a12ef1c751
+model,#p8_nt4_missile_hatch_train_support_left
 model,#p8_mannequin_female_coat_02_fullbody_pose_2_larm
 model,#veh_t8_destructible_glass_01
 model,#veh_t8_destructible_glass_02
@@ -184,9 +184,9 @@ model,#veh_t8_soviet_civ_sedan_small_snow_attach
 model,#veh_t8_soviet_civ_sedan_small_dest_attach
 model,#p8_nt4_train_locomotive_stopper
 model,#p8_mannequin_female_coat_01_fullbody_pose_3_rhand
-model,#hash_66517a7e68eac30d
+model,#p8_fxanim_mp_nt4_missile_hose_02_mod
 model,#p8_mannequin_female_coat_01_fullbody_pose_3_hat
-model,#hash_6823271f1a12f035
+model,#p8_nt4_missile_hatch_main_door_left
 model,#p7_fir_palette_ammo_wood_standing_03
 model,#p7_fir_palette_ammo_wood_standing_02
 model,#p7_fir_palette_ammo_wood_standing_01
@@ -209,8 +209,8 @@ model,#p7_fxp_debris_newspaper_01
 model,#p8_mannequin_female_coat_03_fullbody_pose_1_rhand
 model,#p8_nt4_train_folding_table
 model,#p8_nt4_train_locomotive_front_parts
-model,#hash_7258d5b9c4d78b0a
-model,#hash_72bcfe65ce4b64fc
+model,#p8_nt4_gate_chained_mod
+model,#p8_fxanim_mp_nt4_missile_hose_01_mod
 model,#p8_mannequin_female_coat_04_fullbody_pose_1_lhand
 model,#p8_nt4_train_locomotive_right_shield
 model,#veh_t8_destructible_glass_01_red
@@ -238,7 +238,7 @@ model,#p8_nt4_globe_earth
 model,#p7_fir_palette_ammo_wood_standing
 model,#p8_mannequin_female_coat_04_fullbody_pose_4_rhand
 model,#p8_nt4_hockey_rink_palet_01
-model,#hash_7d2be24ffcefcf49
+model,#p8_fxanim_nt4_rocket_launch_mannequin_mod
 model,#p8_mp_bomb_crate_whole
 model,#collision_clip_32x32x32
 model,#p8_mannequin_female_coat_04_fullbody_pose_1_rhand
@@ -318,10 +318,10 @@ xanim,#ai_zombie_base_dth_r_chest_hvy_01
 xanim,#ai_t8_zm_zombie_base_run_jump_down_36
 xanim,#ai_t8_zm_zombie_base_run_jump_down_96
 xanim,#ai_nuketown_ee_flail_loop
-xanim,#hash_1f5b8d0e1f435a52
+xanim,#p8_fxanim_nt4_rocket_launch_mannequin_anim
 xanim,#p8_fxanim_mp_nt4_uaz_flip_anim
 xanim,#ai_t8_zm_zombie_base_sprint_mantle_over_36
-xanim,#hash_241360315fde4ae6
+xanim,#p8_fxanim_mp_nt4_missile_hose_02_anim
 xanim,#ai_t8_zm_zombie_base_run_jump_down_128
 xanim,#ai_t8_zombie_base_walk_pain_02
 xanim,#ai_t8_zombie_base_walk_pain_01
@@ -335,11 +335,11 @@ xanim,#ai_zombie_base_walk_au_v1
 xanim,#ai_zombie_base_walk_au_v2
 xanim,#ai_zombie_base_walk_au_v3
 xanim,#ai_zombie_base_walk_au_v4
-xanim,#hash_2f90f3c0e542b326
+xanim,#p8_fxanim_mp_nt4_missile_hatch_right_open_anim
 xanim,#ai_zombie_base_run_ad_v1_pain_chest_f_alt
 xanim,#void
 xanim,#ai_zombie_base_dth_r_chest_lt_03
-xanim,#hash_31f470aa1507cd27
+xanim,#p8_fxanim_mp_nt4_missile_hatch_left_open_anim
 xanim,#ai_zombie_base_dth_f_chest_hvy_01
 xanim,#ai_zombie_base_dth_f_chest_hvy_00
 xanim,#p8_fxanim_nt4_gate_anim
@@ -348,7 +348,7 @@ xanim,#ai_zombie_base_death_v2
 xanim,#ai_zombie_base_death_v1
 xanim,#ai_zombie_base_dth_b_chest_hvy_02
 xanim,#ai_zombie_base_dth_b_chest_hvy_00
-xanim,#hash_3d28c5204b20b81d
+xanim,#p8_fxanim_mp_nt4_missile_hose_01_anim
 xanim,#ai_t8_zm_zombie_base_run_mantle_up_80_dn_36
 xanim,#ai_zombie_base_walk_turn_135_l_v3
 xanim,#ai_t8_zm_zombie_base_walk_mantle_over_128
@@ -360,7 +360,7 @@ xanim,#ai_t8_zm_zombie_base_run_mantle_over_48
 xanim,#ai_t8_zm_zombie_base_run_mantle_over_36
 xanim,#ai_t8_zm_zombie_base_run_mantle_up_36_dn_80
 xanim,#ai_zombie_base_run_ad_v2_pain_chest_f_alt
-xanim,#hash_45c506752f48444a
+xanim,#p8_fxanim_mp_nt4_missile_hatch_right_close_anim
 xanim,#ai_t8_zombie_base_run_pain_02
 xanim,#ai_t8_zombie_base_run_pain_01
 xanim,#ai_zombie_base_run_ad_v4_pain_chest_f_alt
@@ -394,7 +394,7 @@ xanim,#ai_t8_zombie_base_sprint_ad_v1_pain_chest_f_alt
 xanim,#ai_t8_zombie_base_sprint_ad_v1_pain_chest_f
 xanim,#ai_zombie_base_run_ad_v2_pain_chest_f
 xanim,#p8_fxanim_mp_nt4_missile_anim
-xanim,#hash_6d6be42953cdd1dd
+xanim,#p8_fxanim_mp_nt4_missile_hatch_left_close_anim
 xanim,#ai_zombie_base_idle_au_v1
 xanim,#ai_t8_zm_zombie_base_run_mantle_over_128
 xanim,#ai_zombie_base_walk_ad_v25_pain_chest_f_alt
@@ -753,7 +753,7 @@ soundalias,#hash_48e15846072bdc8
 soundalias,#exp_armor_close_layer
 soundalias,#dst_car_glass_crack_helo
 soundalias,#dst_fish_tank
-soundalias,#hash_63025a235c373d2
+soundalias,#amb_bluster_wind_side
 soundalias,#phy_impact_bodyfall_anim
 soundalias,#exp_concussive_large_flux_l
 soundalias,#exp_concussive_large_flux_r
@@ -875,7 +875,7 @@ soundalias,#amb_sub_ping_1
 soundalias,#amb_sub_ping_2
 soundalias,#exp_electrical_small_spark
 soundalias,#exp_veh_small_no_debris
-soundalias,#hash_38834449c45a5e70
+soundalias,#amb_light_buzz_fluoro
 soundalias,#amb_silo_creak
 soundalias,#dst_solar_flux_l
 soundalias,#dst_solar_flux_r
@@ -947,7 +947,7 @@ soundalias,#dst_glass_windshield_damage
 soundalias,#dst_steam_pipe_lp
 soundalias,#exp_electrical_large_spark
 soundalias,#exp_concussive_large_lfe
-soundalias,#hash_590f55474568c394
+soundalias,#amb_bluster_cold_edge
 soundalias,#dst_hotdog_cart
 soundalias,#dst_fire_extinguisher
 soundalias,#hash_5985f471f348c819
@@ -968,7 +968,7 @@ soundalias,#dst_generic_glass_large
 soundalias,#fly_step_sprint_mann_ice
 soundalias,#dst_hydrant_destroyed_loop
 soundalias,#exp_electrical_large_lfe
-soundalias,#hash_619ecc716df4aaf6
+soundalias,#vox_rupa_pa_launch_warn
 soundalias,#p_dest_paper_stack02
 soundalias,#p_dest_paper_stack01
 soundalias,#amb_water_lap
@@ -1018,13 +1018,13 @@ soundalias,#dst_generic_glass_small
 soundalias,#exp_veh_plane_spinout_lp
 soundalias,#exp_mp_propane_tank_lfe
 soundalias,#dst_glass_radar_pane_break
-soundalias,#hash_7b6ea54d3ad37735
+soundalias,#vox_rupa_pa_launch_count
 soundalias,#exp_veh_med
 soundalias,#fly_step_crouch_walk_mann_concrete
 soundalias,#fly_step_sprint_mann_default
 soundalias,#exp_incindiary_large_decay
 soundalias,#evt_fan_break
-soundalias,#hash_7f118ea3a4874268
+soundalias,#dst_mp_propane_tank_fire
 soundalias,#exp_barrel_dist
 client_fx,#fire/fx_fire_ai_human_torso_loop
 client_fx,#player/fx_plyr_jump_dust_dirt
@@ -1040,8 +1040,8 @@ client_fx,#fire/fx_fire_ai_human_arm_right_loop
 client_fx,#ui/fx_dom_marker_neutral_r120
 client_fx,#fire/fx_fire_ai_human_leg_left_loop
 client_fx,#snow/fx8_snow_fall_line_rattle
-client_fx,#hash_3826b4ba3964f119
-client_fx,#hash_41d5041e483e9429
+client_fx,#debris/fx8_paper_rattle_dir
+client_fx,#debris/fx8_shell_rattle
 client_fx,#ui/fx_dom_cap_indicator_team_r120
 client_fx,#player/fx_plyr_footstep_dust_dirt
 client_fx,#water/fx8_water_sink_rattle
@@ -1053,5 +1053,5 @@ client_fx,#player/fx_plyr_land_dust_dirt_xlg
 client_fx,#fire/fx_fire_ai_human_arm_left_loop
 client_fx,#player/fx_plyr_footstep_dust
 client_fx,#zombie/fx_val_chest_burst
-client_fx,#hash_7e68dfc1a77f9f59
+client_fx,#debris/fx8_paper_rattle
 client_lui_elem_uid,#full_screen_movie

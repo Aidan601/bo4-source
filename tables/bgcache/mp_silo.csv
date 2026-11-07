@@ -1,10 +1,10 @@
 type,name
 model,#p8_fxanim_mp_silo_sign_post_04_mod
 model,#p8_ice_radar_globe_01_dmg_frame_horizontal
-model,#hash_2a25d6c70fb5c6b
-model,#hash_2a26b6c70fb7435
-model,#hash_2ca5d6c711cae7f
-model,#hash_2ca736c711cd3e1
+model,#veh_t8_snowcat_tread_fl
+model,#veh_t8_snowcat_tread_fr
+model,#veh_t8_snowcat_tread_rl
+model,#veh_t8_snowcat_tread_rr
 model,#p8_ice_catwalk_elevator_warning_decal_stripe_01
 model,#veh_t8_civ_forklift_modular_forklift_attach_dead_yellow
 model,#p8_ice_catwalk_elevator_snow_decal_01
@@ -34,7 +34,7 @@ model,#hash_17236cba57074f30
 model,#veh_t8_civ_snowcat_beacons
 model,#c_t7_mp_battery_mpc_fb1_skin1
 model,#p8_fxp_fluid_splash_water
-model,#hash_1ac4e62cf9ec88d1
+model,#veh_t8_destructible_common_mirror_l_spawn
 model,#p8_icbm_stage1_tarp_back_01
 model,#veh_t8_civ_snowcat_dest_attach
 model,#p8_ice_icbm_beam_brace_top_gap_decals_01
@@ -55,7 +55,7 @@ model,#p7_book_office_binder_open
 model,#hash_2c0b493874dab807
 model,#p8_chair_lab_top
 model,#veh_t8_destructible_glass_01_orange
-model,#hash_2ef77ddaf76cd3df
+model,#veh_t8_destructible_common_mirror_r_spawn
 model,#veh_t8_civ_forklift_modular_cab_attach_dead_yellow
 model,#p7_fxanim_gp_wire_sparking_ground_01_mod
 model,#p8_ice_icbm_beam_brace_top_gap_01
@@ -71,7 +71,7 @@ model,#p8_icbm_stage1_front_hatch_01
 model,#p7_toolbox_handheld_small_red
 model,#p8_ice_icbm_warhead_frame
 model,#c_t7_mp_technomancer_mpc_fb1_skin1
-model,#hash_3f8913d5fd79e90d
+model,#p8_ice_icbm_missile_tip_greeble
 model,#p8_fxanim_mp_silo_sign_post_03_mod
 model,#p7_sin_signage_speed_limit_20
 model,#c_t7_mp_warrior_mpc_fb1_skin1
@@ -82,7 +82,7 @@ model,#veh_t8_mil_truck_hemtt_decal_dirty
 model,#p8_ice_icbm_stage1_frame
 model,#p8_mp_bomb_crate_whole_destroyed
 model,#p8_fxanim_mp_silo_netting_orange_06_mod
-model,#hash_4c9e18c109ce14a0
+model,#veh_t8_mil_helicopter_transport_rescue_decal_attach
 model,#p8_fxanim_mp_silo_rocks_fall_03_smod
 model,#skybox_default_day
 model,#p8_ice_radar_globe_01_dmg_caps
@@ -100,7 +100,7 @@ model,#p8_ice_catwalk_elevator_warning_decal_stripe_solid_01
 model,#veh_t8_mil_truck_hemtt_flatbed_attach_dead_tan
 model,#hash_58f38cb5e7d46a62
 model,#veh_t8_destructible_glass_02_red
-model,#hash_5ace51ff9f6313a5
+model,#p8_ice_icbm_missile_tip_holder_top
 model,#p8_ice_icbm_warhead_tip
 model,#veh_t8_destructible_glass_03_orange
 model,#veh_t8_destructible_glass_02_orange
@@ -130,7 +130,7 @@ model,#p8_fxanim_mp_silo_rocks_fall_02_smod
 model,#p8_fxanim_mp_silo_netting_orange_03_mod
 model,#p7_ris_bucket_plastic_5_gal_bucket_paint_grey
 model,#p8_ice_catwalk_elevator_warning_decal_01
-model,#hash_6d63d6a30032fd1f
+model,#p8_ice_icbm_missile_tip_holder_base
 model,#p8_mp_bomb_crate_clamp
 model,#p8_ice_icbm_stage2_frame
 model,#p8_fxanim_mp_silo_netting_orange_05_mod
@@ -606,7 +606,7 @@ soundalias,#exp_incindiary_large_decay
 soundalias,#vox_tvoi_tutor_ruin_grav_slam_nag
 soundalias,#evt_fan_break
 soundalias,#fly_bump_shelf
-soundalias,#hash_7f118ea3a4874268
+soundalias,#dst_mp_propane_tank_fire
 soundalias,#fly_bump_locker
 soundalias,#amb_metal_creak_platform
 soundalias,#fly_bump_cloth

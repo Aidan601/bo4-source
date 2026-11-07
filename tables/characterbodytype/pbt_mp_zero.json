@@ -1,0 +1,151 @@
+{
+    "name": "#pbt_mp_zero",
+    "displayName": "#heroes/hacker",
+    "mpDialog": "#zero",
+    "playerSoundsTable": "#mp_playersounds",
+    "playerFXTable": "#mp_playerfx",
+    "image_50": "#personalize_t7_hud_mp_weapon_hero_pineapplegun_available",
+    "image_58": "#t7_mp_loadingportrait_weapon_battery",
+    "image_60": "#t7_mp_loadingportrait_ability_battery",
+    "image_68": "#ui_icon_specialist_portrait_hud_zero",
+    "image_70": "#ui_icon_specialist_portrait_hud_zero",
+    "image_78": "#ui_icon_specialist_portrait_hud_zero",
+    "image_80": "#ui_icon_specialist_portrait_hud_zero",
+    "image_88": "#ui_icon_specialist_portrait_hud_zero",
+    "positionDraftPortrait": "#ui_icon_specialist_portrait_draft_zero",
+    "lootUiIcon": "#loot_02_ui_icon_blackmarket_stream_zero",
+    "dogtagFriendly": "#p8_dogtags_specialist_friendly_zero",
+    "dogTagEnemy": "#p8_dogtags_specialist_enemy_zero",
+    "tagFxSet": "#hash_7e077004b7d49781",
+    "characterFootsteps": "#defaultplayerfootstep",
+    "characterFootstepsQuiet": "#defaultplayerquietfootstep",
+    "characterFootstepsNPC": "#defaultnpcfootstep",
+    "characterFootstepsNPCLoud": "#defaultnpcloudfootstep",
+    "characterFootstepsNPCQuiet": "#defaultnpcquietfootstep",
+    "outfits": [
+        "#hash_421943480443768d",
+        "#po_c_t8_mp_spe_hacker_persian",
+        "#po_c_t8_mp_spe_hacker_marauder",
+        "#hash_66dcd8827ef0c50a",
+        "#po_c_t8_mp_spe_hacker_aurora",
+        "#hash_628e607c79a42130",
+        "#po_c_t8_mp_spe_hacker_holiday",
+        "#po_c_t8_mp_spe_hacker_snakeskin",
+        "#po_c_t8_mp_spe_hacker_loot6",
+        "#hash_628e647c79a427fc",
+        "#po_c_t8_mp_spe_hacker_ardent",
+        "#hash_628e617c79a422e3",
+        "#hash_68c57ca43bf43352",
+        "#po_c_t8_mp_spe_hacker_twitch",
+        "#po_c_t8_mp_spe_hacker_water",
+        "#hash_3bef6a271cdf3b19",
+        "#po_c_t8_mp_spe_hacker_pirate",
+        "#hash_628e667c79a42b62",
+        "#hash_2e5dbf8248ec3caa",
+        "#po_c_t8_mp_spe_hacker_apocalypse",
+        "#hash_5251c90b54f1ca46",
+        "#hash_36a0cd27ae9a46fd",
+        "#hash_628e677c79a42d15",
+        "#po_c_t8_mp_spe_hacker_superhero",
+        "#hash_628e647c79a427fc",
+        "#po_c_t8_mp_spe_hacker_jaguar",
+        "#po_c_t8_mp_spe_hacker_numbers",
+        "#po_c_t8_mp_spe_hacker_baller"
+    ],
+    "bundle": {
+        "arenaLobbyScenes": [
+            {
+                "scene": "scriptbundle&scene_frontend_t8_arena_fem_team_0"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_arena_fem_team_1"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_arena_fem_team_2"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_arena_fem_team_3"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_arena_fem_team_4"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_arena_fem_team_5"
+            }
+        ],
+        "heroicScenes": [
+            {
+                "scene": "scriptbundle&battery_end_game_scene"
+            }
+        ],
+        "lobbyScenes": [
+            {
+                "scene": "scriptbundle&scene_frontend_t8_mp_fem_team_0"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_mp_fem_team_1"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_mp_fem_team_2"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_mp_fem_team_3"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_mp_fem_team_4"
+            },
+            {
+                "scene": "scriptbundle&scene_frontend_t8_mp_fem_team_5"
+            }
+        ],
+        "heroicPoses": [
+            {
+                "scene": "scriptbundle&battery_end_game_pose"
+            }
+        ],
+        "hash_ec5f96465088b:hash_b85069c": "t7_mp_notification_weapon_battery",
+        "bio": "localized17#hash_123ae4a60ccf6bfd",
+        "hash_138937f274cd31b:hash_be6ea125": "scriptbundle&scene_frontend_t8_wz_fem_unlock",
+        "weaponschema": "localized17#hash_2095da416d84f50c",
+        "digitalblood": 0,
+        "hash_96f2ef68c44b161:hash_40dc1b65": "image#ui_menu_specialist_hud_poster_frame_locked",
+        "hash_acf3e87a62c59a2:hash_67e06199": 0,
+        "hash_e907c8facdcf856:hash_bb70c379": "scriptbundle&scene_frontend_t8_fem_customization",
+        "disallowselection": 0,
+        "iscompanion": 0,
+        "fullname": "localized17#heroes/hacker",
+        "hash_11288ec6af158524:hash_5331abe0": 0,
+        "baseteam": "enum:2",
+        "hubscene": "scriptbundle&scene_frontend_hub_t8_mp_zero",
+        "hash_215ac9daad709de1:hash_df4c987": "image#ui_icon_specialist_bio_battery",
+        "hash_26fce85003f4ac66:hash_c6376b99": 0,
+        "hash_29b117de4840dfd3:hash_8d924963": 0,
+        "hash_2e5d532bf7f3b6cf:hash_cff52e6": "localized17#mpui/disrupted_ekia",
+        "hash_2eb7d2e73b168df6:hash_e97eda81": 0,
+        "mpdialog": "scriptbundle&zero",
+        "hash_35932b79a4d639bb:hash_8df0287c": 0,
+        "hash_3a923c4f85ef2bb1:hash_a38fcede": "image#ui_icon_specialist_hub_weapon_zero",
+        "iscombattrainingenabled": 0,
+        "hash_4047ed06ff5bd1c9:hash_8ef1b43f": 0,
+        "hash_4159d83f5abd12f6:hash_148d6d91": 0,
+        "hash_4628c417cd81f2ef:hash_c83058bc": "image#ui_menu_specialist_hud_poster_frame_zero_weapon",
+        "hash_4bec19fe390b9682:hash_be8a5804": "mp_zero_equipment",
+        "hash_4e2a1560398a4034:hash_5c403974": 0,
+        "hash_4f8d5fe32c560da2:hash_900e3f74": "localized17#mpui/hacked_ekia",
+        "hash_4fbba1df8ff319c8:hash_6b928faf": "mp_zero_weapon",
+        "hash_5050b2c3997ae3f1:hash_662d70e1": "image#ui_menu_specialist_hud_poster_frame_zero_equipment",
+        "fullbodyexplosion": "fx#weapon/fx_hero_annhilatr_death_blood",
+        "hash_51e20f8af7f8f3d3:hash_2081b2ed": "scriptbundle&scene_frontend_inspection_fem",
+        "hash_529ab388882ba5bc:hash_ac7bddbe": 0,
+        "bioheader": "localized17#hash_6b510146a31748a7",
+        "hash_5a03b8ee98fb2c3c:hash_7ea4277b": 0,
+        "branding": "image#hash_60cf1fd2b1e998ba",
+        "hash_5beaf31c99615565:hash_2e84063c": "mp_zero_weapon",
+        "hash_67c51d1e674d2017:hash_22b55286": "mp_zero_equipment",
+        "hash_6eb140a2f390287c:hash_4747b9c": "localized17#hash_681a4ed1d88fe84f",
+        "hash_740307e67f3fee21:hash_4c65efc8": "scriptbundle&scene_frontend_t8_zero",
+        "hash_766a4ebeb2f96ed5:hash_1b216715": 0,
+        "hash_7699f7fd98f479ba:hash_abe565b3": 0,
+        "hash_7d49e0c9d997d28f:hash_9c1be670": 0
+    }
+}

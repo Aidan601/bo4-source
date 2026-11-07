@@ -30,7 +30,7 @@
     "skidSpeedMax": 600,
     "peelSpeedMax": 600,
     "futzName": "#mpl_quad_pov",
-    "model": "#hash_31771af97bf3d0d5",
+    "model": "#wpn_t8_wz_eqp_turret_mini",
     "soundDef": "#veh_drn_qrdrone_mp",
     "compassIconMaterial": "#compass_turret_white",
     "destructibleDef": "#veh_t8_turret_mini_destructible_wz",

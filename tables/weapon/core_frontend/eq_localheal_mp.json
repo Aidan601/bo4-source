@@ -34,8 +34,8 @@
     "#hash_d2751f9d": false,
     "#hash_554be9f7": false,
     "soundc0": "#fly_equipment_raise",
-    "firesound": "#hash_443bb00fa0d6c83d",
-    "firesoundplayer": "#hash_6422950f223950a4",
+    "firesound": "#gdt_tak5_fire_npc",
+    "firesoundplayer": "#gdt_tak5_fire_plr",
     "sound370": "#fly_equipment_raise",
     "gadgetreadysoundplayer": "#hash_5173d3f5f2e8658c",
     "sound650": "#uin_negative",
@@ -53,13 +53,13 @@
     "customsettings": "#localheal_custom_settings",
     "#hash_2e4a8800": "#localheal_scoreevents",
     "viewmodel": [
-        "#hash_1b28922a794cfdcb"
+        "#wpn_t8_sig_medic_cleanse_single_view"
     ],
     "frontendmodel": [
-        "#hash_1b28922a794cfdcb"
+        "#wpn_t8_sig_medic_cleanse_single_view"
     ],
     "worldModel": [
-        "#hash_4acf86ecef26787e"
+        "#wpn_t8_sig_medic_cleanse_single_world"
     ],
     "gadgetIconAvailable": "#ui_icon_ability_recharge",
     "gadgetIconUnavailable": "#ui_icon_ability_recharge_dark",

@@ -1,11 +1,11 @@
 {
     "name": "#hash_75dd03ac0a619086",
     "type": "#tag",
-    "material": "#hash_76767ab14430283a",
+    "material": "#vd/mtl_loot_ui_icon_tags_altdimensions_01",
     "bundle": {
         "type": "#tag",
         "title": "localized18#hash_446308ed7ddeaebe",
-        "icon": "image#hash_7afede01f0d40963",
+        "icon": "image#loot_ui_icon_tags_altdimensions_01",
         "isdefault": 0
     }
 }

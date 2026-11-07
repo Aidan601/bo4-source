@@ -15,7 +15,7 @@
     "shouldCullDistance": true,
     "cullDistance": 500,
     "hasLowAmmoState": false,
-    "waypointImage": "#hash_136060849f85d53a",
+    "waypointImage": "#ui_icon_waypoint_barrier_build",
     "unk30": 300,
     "bundle": {
         "progresssegmentcount": 3,
@@ -83,7 +83,7 @@
         "hash_5bbc97d237fcbea6:hash_b7453fc5": 0,
         "hash_5f9d561cc4d4ebeb:hash_48bc00e0": 0,
         "show3ddirectionarrow": 0,
-        "hash_616922dfa3ff8200:hash_36614074": "image#hash_7732fa468eca26ec",
+        "hash_616922dfa3ff8200:hash_36614074": "image#ui_icon_waypoint_barrier_destroy",
         "hash_628d5f5ea7b6e874:hash_6e66cf1b": 0,
         "hash_637c780691703850:hash_ebeb9ee9": 0,
         "hash_637c790691703a03:hash_14d5f0bd": 0,

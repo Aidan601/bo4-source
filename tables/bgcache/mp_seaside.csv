@@ -17,7 +17,7 @@ model,#hash_3762f424c5433d9
 model,#p8_camera_instant_open
 model,#p8_food_fruit_orange
 model,#p8_mp_bomb_crate_palette
-model,#hash_42869dc8a97b4be
+model,#veh_t8_mil_tank_tread_left_scroll_attach_scaled_88
 model,#p8_def_bar_billiard_ball_04
 model,#p8_def_bar_billiard_ball_01
 model,#p8_def_bar_billiard_ball_14
@@ -48,7 +48,7 @@ model,#p7_dinnerware_01_knife
 model,#p7_fxanim_gp_trash_bag_small_01_white_s3_mod
 model,#c_t8_zmb_3rdclass_male_body3_s_lleg
 model,#p8_fxp_fluid_tendril_2_water
-model,#hash_c00765a22c360e4
+model,#veh_t8_mil_tank_decals_attach_scaled_88
 model,#p8_def_bar_billiard_ball
 model,#p7_fxp_debris_metal_scrap_01
 model,#p7_fxp_debris_metal_scrap_02
@@ -122,7 +122,7 @@ model,#p8_food_fruit_strawberry_cap_crate
 model,#p8_col_sandal_lt_yellow
 model,#p7_glassware_whiskey_01
 model,#p8_fxp_fluid_splash_blood
-model,#hash_247d2aa31ad45b8b
+model,#veh_t8_mil_tank_tread_right_scroll_attach_scaled_88
 model,#p8_food_cheese_disc_smoked
 model,#p8_food_jar_oil_olive_full
 model,#p7_light_lamp_desk_vintage_01_shade_broken
@@ -147,7 +147,7 @@ model,#p7_diner_table_napkin_clean
 model,#fx_watermelonchunk_01
 model,#p7_debris_rockychunks_small_01
 model,#p7_debris_rockychunks_small_12
-model,#hash_2b62cce84557b237
+model,#veh_t8_mil_tank_side_skirts_attach_phys_scaled_88
 model,#p7_fir_bottle_liquor_01
 model,#p7_bottle_glass_wine_open_01
 model,#p7_debris_trash_cup_red_01
@@ -159,7 +159,7 @@ model,#p7_food_bread_zopf
 model,#p8_food_fruit_apple
 model,#p8_flower_pot_02_plant
 model,#p8_food_spice_storage_square_tin_sml
-model,#hash_317f0ed09c9a8680
+model,#veh_t8_mil_tank_turret_front_armor_attach
 model,#p7_fxanim_gp_trash_bag_large_03_white_s3_mod
 model,#p8_camera_instant_flash
 model,#c_t8_zmb_3rdclass_male_body1_g_blegsoff
@@ -184,16 +184,16 @@ model,#p8_flower_pot_04_piece_02
 model,#p8_fxp_fluid_droplet_blood
 model,#p8_food_spice_storage_square_tin_sml_white
 model,#veh_t8_civ_van_utility_spain_painter
-model,#hash_37b92b38027b55ff
+model,#veh_t8_mil_tank_base_mp_seaside_church_vehicle_scaled_88
 model,#p8_sign_wet_floor_closed
-model,#hash_383804c236f4b608
+model,#p8_fxanim_gp_pigeon_attach_dummy_mod
 model,#p7_ban_debris_trash_can_cola_01
 model,#veh_t8_civ_van_utility_dead_painter_attach
 model,#p8_fxanim_gp_pigeon_01_mod
 model,#p7_fxanim_gp_fan_electric_standing_01_mod
 model,#c_t8_zmb_blightfather_body1_gib
 model,#fx_watermelonmeat_02
-model,#hash_3b53fba9d42f25a7
+model,#veh_t8_mil_tank_side_skirts_attach_phys
 model,#p7_gib_chunk_flesh_01
 model,#p7_gib_chunk_flesh_03
 model,#p7_gib_chunk_flesh_02
@@ -267,7 +267,7 @@ model,#p7_food_cheese_wheel_lrg_slice_yellow
 model,#skybox_default_day
 model,#p8_coffee_maker_digital_pot
 model,#p8_food_fruit_kiwi_cap_crate
-model,#hash_5046fb0f57f769a4
+model,#veh_t8_mil_tank_hatches_attach_scaled_88
 model,#p8_food_spice_storage_square_tin_lrg_flour
 model,#p7_food_cheese_wheel_sml_half_red
 model,#p8_food_spice_storage_sugar_bag_white
@@ -291,7 +291,7 @@ model,#p8_food_cheese_disc_manchengo
 model,#wpn_t8_eqp_briefcase_bomb_stow
 model,#p8_pot_iron_hanging_01
 model,#p8_food_spice_storage_circular_tin
-model,#hash_5460e52c1b7bfbb7
+model,#veh_t8_mil_tank_turret_cage_armor_attach
 model,#c_t8_zmb_blightfather_body1_noreveal
 model,#p8_mp_flag_pole_1
 model,#p8_flower_pot_02_soil
@@ -345,7 +345,7 @@ model,#p7_fxp_debris_rock_01
 model,#p7_fxp_debris_rock_02
 model,#p7_fxp_debris_rock_03
 model,#p7_fxp_debris_rock_05
-model,#hash_60fbca5bcf1c16fc
+model,#veh_t8_mil_tank_turret_ammo_blowout_attach
 model,#p8_food_spice_storage_cylindrical_tin
 model,#p7_cai_cookware_metal_tray
 model,#p7_fxp_debris_car_glass_shatter_02
@@ -406,7 +406,7 @@ model,#c_t8_zmb_blightfather_body1
 model,#p7_fxp_debris_newspaper_01
 model,#p7_zm_ctl_book_vintage_row_01
 model,#p8_box_cardboard_fruit_01
-model,#hash_7199085fbfc8ee81
+model,#veh_t8_mil_tank_base_mp_seaside_courtyard_vehicle
 model,#p7_bottle_glass_wine_broken_01
 model,#p7_bottle_glass_wine_broken_02
 model,#p8_col_sandal_rt_stripe_02
@@ -416,7 +416,7 @@ model,#p8_col_sandal_rt_blue
 model,#p8_coffee_maker_digital_pot_dmg_piece_03
 model,#p8_coffee_maker_digital_pot_dmg_piece_02
 model,#p8_coffee_maker_digital_pot_dmg_piece_01
-model,#hash_7356cabe42bf7a67
+model,#veh_t8_mil_tank_turret_cage_armor_attach_scaled_88
 model,#p8_food_fruit_orange_cap_box_full_dmg
 model,#veh_t8_destructible_glass_01_red
 model,#p8_food_fruit_apple_cap_crate_dmg
@@ -429,7 +429,7 @@ model,#fx_glass_piece01
 model,#p8_food_fruit_pear_cap_crate
 model,#p8_col_sandal_lt_blue
 model,#p8_food_spice_storage_square_tin_lrg_white
-model,#hash_75ab2f7694cec6dd
+model,#veh_t8_mil_tank_ram_blade_attach
 model,#p8_flower_pot_02_flower
 model,#p7_mp_flag_neutral
 model,#p8_food_fruit_watermelon
@@ -720,7 +720,7 @@ xanim,#p8_fxanim_gp_pigeon_standing_02_anim
 xanim,#p8_fxanim_mp_seaside_rats_winery_01_anim
 xanim,#ai_zombie_base_walk_turn_90_l_v2
 xanim,#ai_zombie_base_death_v1
-xanim,#hash_395f881c27619c42
+xanim,#p8_fxanim_mp_seaside_tanks_03_draft_anim
 xanim,#hash_397e7f98fd616891
 xanim,#ai_zombie_base_walk_ad_v5_pain_chest_f
 xanim,#ai_zombie_base_win_attack_arm_l_out
@@ -729,7 +729,7 @@ xanim,#hash_3b01adc76ae3908f
 xanim,#p8_fxanim_mp_seaside_rats_winery_02_anim
 xanim,#hash_3c397e6d764d34ec
 xanim,#ai_zombie_base_crawl_death_v1
-xanim,#hash_3d77b8326975301c
+xanim,#p8_fxanim_mp_seaside_tanks_01_draft_anim
 xanim,#hash_3dabaf93826bd381
 xanim,#p8_fxanim_gp_rollup_blinds_long_01_anim
 xanim,#ai_t8_zm_zombie_base_attack_high_01
@@ -747,7 +747,7 @@ xanim,#ai_zombie_base_walk_au_v13_pain_chest_f
 xanim,#hash_43581ab456bdada1
 xanim,#ai_zombie_base_walk_au_v21_pain_chest_f
 xanim,#hash_43c60f2bd71396dc
-xanim,#hash_43e898ce83559711
+xanim,#p8_fxanim_gp_pigeon_roof_slanted_01_attach_anim
 xanim,#ai_t8_zm_zod_bltfthr_exit_9
 xanim,#ai_t8_zm_zod_bltfthr_exit_8
 xanim,#ai_t8_zm_zod_bltfthr_exit_4
@@ -807,7 +807,7 @@ xanim,#ai_zombie_base_walk_au_v7_pain_chest_f
 xanim,#ai_zombie_base_run_ad_v24_pain_chest_f
 xanim,#ai_zombie_base_walk_ad_v20_pain_chest_f
 xanim,#ai_zombie_smash_react_l_legsoutright
-xanim,#hash_534ba6a0daa69b33
+xanim,#p8_fxanim_mp_seaside_tanks_02_draft_anim
 xanim,#hash_53671f6583cdb238
 xanim,#ai_zombie_base_run_turn_90_r_v2
 xanim,#ai_zombie_base_run_ad_v11_pain_chest_f
@@ -967,7 +967,7 @@ xanim,#ai_t8_zombie_base_sprint_attack_17
 xanim,#ai_t8_zombie_base_sprint_attack_16
 xanim,#ai_t8_zombie_base_sprint_attack_18
 xanim,#ai_t8_zombie_base_sprint_attack_20
-xanim,#hash_7e2b68590d0095bf
+xanim,#p8_fxanim_gp_pigeon_walk_01_fast_anim
 xanim,#ai_zombie_base_walk_au_v15_pain_chest_f
 xanim,#ai_zombie_base_walk_au_v23_pain_chest_f
 xanim,#bo3_ai_crew_cougar_driver_exit
@@ -1457,7 +1457,7 @@ soundalias,#zmb_step_standard_sprint_flesh
 soundalias,#fly_bump_chain_door
 soundalias,#wpn_melee_player_galva
 soundalias,#wpn_melee_spork_swipe_npc
-soundalias,#hash_dd77a0770d28e66
+soundalias,#vox_tvoi_tutor_reco_vis_pulse_nag
 soundalias,#zmb_step_standard_run_paper
 soundalias,#wpn_melee_spoon_swipe_npc
 soundalias,#zmb_step_standard_walk_concrete
@@ -1642,7 +1642,7 @@ soundalias,#dst_car_glass_crack
 soundalias,#zmb_ai_bfather_spawn
 soundalias,#fly_step_stair_metal_enter
 soundalias,#exp_concussive_small_concussion
-soundalias,#hash_26f44e1791eadfbd
+soundalias,#zmb_ai_bfather_slobber_fx
 soundalias,#zmb_step_blight_run_default
 soundalias,#fly_bump_alum_door
 soundalias,#dst_car_glass_break
@@ -1751,7 +1751,7 @@ soundalias,#amb_fire_small
 soundalias,#fly_bump_dishes
 soundalias,#fly_step_roof_tile_npc
 soundalias,#dst_rock_large
-soundalias,#hash_34552851e74cac8e
+soundalias,#amb_pigeon_fly_away_lft
 soundalias,#fly_step_wood_creak_plr
 soundalias,#zmb_step_standard_sprint_paintedmetal
 soundalias,#zmb_step_standard_run_snow
@@ -2106,7 +2106,7 @@ soundalias,#exp_electrical_large_lfe
 soundalias,#zmb_step_crouch_walk_npc_ice
 soundalias,#wpn_rgun_exp_cl
 soundalias,#pfx_backdraft
-soundalias,#hash_6140aedea49c901e
+soundalias,#amb_pigeon_fly_away_rt
 soundalias,#zmb_step_blight_run_asphalt
 soundalias,#vox_tvoi_tutor_prop_score_hit
 soundalias,#zmb_step_crouch_run_npc_plastic
@@ -2358,7 +2358,7 @@ soundalias,#fly_bump_shelf
 soundalias,#zmb_step_standard_walk_metal
 soundalias,#zmb_step_crouch_walk_npc_dirt
 soundalias,#pfx_water_hydrant_spray
-soundalias,#hash_7f118ea3a4874268
+soundalias,#dst_mp_propane_tank_fire
 soundalias,#zmb_player_electrocuted_swt
 soundalias,#fly_bump_locker
 soundalias,#zmb_ai_bfather_run_atk
@@ -2403,10 +2403,10 @@ client_fx,#blood/fx8_blood_cam_gib_spray_zm
 client_fx,#hash_1e3fc11990603f72
 client_fx,#impacts/fx_bul_impact_heavy_head_fatal_exit
 client_fx,#player/fx_plyr_land_dust_xlg
-client_fx,#hash_1fd8f382482623f7
+client_fx,#foliage/fx8_leaves_fall_windy_rattle
 client_fx,#hash_212bce954d1e21ea
 client_fx,#hash_213b84f5f5775699
-client_fx,#hash_216a80d318575efb
+client_fx,#foliage/fx8_bush_rattle
 client_fx,#ui/fx_dom_cap_indicator_neutral_r120
 client_fx,#impacts/fx8_bul_impact_robot_body_nonfatal_exit
 client_fx,#impacts/fx8_bul_impact_blood_limb_fatal_exit
@@ -2423,7 +2423,7 @@ client_fx,#impacts/fx8_bul_impact_robot_limb_fatal_exit
 client_fx,#explosions/fx_vexp_truck_pickup
 client_fx,#hash_2e94c3f0bd739180
 client_fx,#impacts/fx_bul_impact_heavy_body_nonfatal_exit
-client_fx,#hash_30c6743904798c76
+client_fx,#foliage/fx8_flowers_white_wind_rattle
 client_fx,#hash_311a865a91014b22
 client_fx,#hash_31dc43b5cf4c60f2
 client_fx,#hash_32f753ce767010e4
