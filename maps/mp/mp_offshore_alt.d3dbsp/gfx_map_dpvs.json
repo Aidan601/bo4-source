@@ -108124,7 +108124,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_bd4a44de2b66589",
+            "model": "#p8_sin_ship_container_side_panel_384_rt_open_damaged_blue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.0568e-41] b7 c4 00 00",
             "drawInst:unk2e": 65535,
@@ -113307,7 +113307,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1176f7f98bba52fd",
+            "model": "#p8_fxanim_mp_offshore_alt_armory_tarp_02_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.71751e-41] 22 d7 00 00",
             "drawInst:unk2c": " 04 00",
@@ -148634,7 +148634,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f09fd0[ll0x0=1c333f09fd0][f0x0=1.12049e-07][f0x4=6.31986e-43] d0 9f f0 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.7585e-41] 86 a0 00 00",
@@ -148643,7 +148643,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f0e740[ll0x0=1c333f0e740][f0x0=1.12179e-07][f0x4=6.31986e-43] 40 e7 f0 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.98908e-41] b4 de 00 00",
@@ -148652,7 +148652,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f12eb0[ll0x0=1c333f12eb0][f0x0=1.12309e-07][f0x4=6.31986e-43] b0 2e f1 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.5819e-41] 7a b7 00 00",
@@ -148661,7 +148661,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f17620[ll0x0=1c333f17620][f0x0=1.12439e-07][f0x4=6.31986e-43] 20 76 f1 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.716e-41] 37 bb 00 00",
@@ -148670,7 +148670,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f1bd90[ll0x0=1c333f1bd90][f0x0=1.12569e-07][f0x4=6.31986e-43] 90 bd f1 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.2294e-41] e6 75 00 00",
@@ -148679,7 +148679,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f20500[ll0x0=1c333f20500][f0x0=1.12699e-07][f0x4=6.31986e-43] 00 05 f2 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.72136e-41] fc 2f 00 00",
@@ -148688,7 +148688,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f24c70[ll0x0=1c333f24c70][f0x0=1.12829e-07][f0x4=6.31986e-43] 70 4c f2 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.3551e-41] e8 e8 00 00",
@@ -148697,7 +148697,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f293e0[ll0x0=1c333f293e0][f0x0=1.12959e-07][f0x4=6.31986e-43] e0 93 f2 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.04134e-41] a8 70 00 00",
@@ -148706,7 +148706,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f2db50[ll0x0=1c333f2db50][f0x0=1.13089e-07][f0x4=6.31986e-43] 50 db f2 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.90408e-41] 14 35 00 00",
@@ -148715,7 +148715,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f322c0[ll0x0=1c333f322c0][f0x0=1.13219e-07][f0x4=6.31986e-43] c0 22 f3 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.34039e-41] 7f e8 00 00",
@@ -148724,7 +148724,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f36a30[ll0x0=1c333f36a30][f0x0=1.13349e-07][f0x4=6.31986e-43] 30 6a f3 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.37954e-41] 55 42 00 00",
@@ -148733,7 +148733,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f3b1a0[ll0x0=1c333f3b1a0][f0x0=1.13479e-07][f0x4=6.31986e-43] a0 b1 f3 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.20474e-41] b7 e4 00 00",
@@ -148742,7 +148742,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f3f910[ll0x0=1c333f3f910][f0x0=1.13609e-07][f0x4=6.31986e-43] 10 f9 f3 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.87217e-41] d1 87 00 00",
@@ -148751,7 +148751,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f44080[ll0x0=1c333f44080][f0x0=1.13739e-07][f0x4=6.31986e-43] 80 40 f4 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.73222e-41] 8b d7 00 00",
@@ -148760,7 +148760,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f487f0[ll0x0=1c333f487f0][f0x0=1.13869e-07][f0x4=6.31986e-43] f0 87 f4 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.52217e-41] b0 d1 00 00",
@@ -148769,7 +148769,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f4cf60[ll0x0=1c333f4cf60][f0x0=1.13999e-07][f0x4=6.31986e-43] 60 cf f4 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.77917e-41] da d8 00 00",
@@ -148778,7 +148778,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f516d0[ll0x0=1c333f516d0][f0x0=1.14129e-07][f0x4=6.31986e-43] d0 16 f5 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.36679e-41] fa 41 00 00",
@@ -148787,7 +148787,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f55e40[ll0x0=1c333f55e40][f0x0=1.14258e-07][f0x4=6.31986e-43] 40 5e f5 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.34851e-41] 38 79 00 00",
@@ -148796,7 +148796,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f5a5b0[ll0x0=1c333f5a5b0][f0x0=1.14388e-07][f0x4=6.31986e-43] b0 a5 f5 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.88664e-41] 58 6c 00 00",
@@ -148805,7 +148805,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f5ed20[ll0x0=1c333f5ed20][f0x0=1.14518e-07][f0x4=6.31986e-43] 20 ed f5 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.87151e-41] 6d db 00 00",
@@ -148814,7 +148814,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f63490[ll0x0=1c333f63490][f0x0=1.14648e-07][f0x4=6.31986e-43] 90 34 f6 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.4726e-42] 0b 12 00 00",
@@ -148823,7 +148823,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f67c00[ll0x0=1c333f67c00][f0x0=1.14778e-07][f0x4=6.31986e-43] 00 7c f6 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.10167e-41] 96 3a 00 00",
@@ -148832,7 +148832,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f6c370[ll0x0=1c333f6c370][f0x0=1.14908e-07][f0x4=6.31986e-43] 70 c3 f6 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.26164e-41] 4d e6 00 00",
@@ -148841,7 +148841,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f70ae0[ll0x0=1c333f70ae0][f0x0=1.15038e-07][f0x4=6.31986e-43] e0 0a f7 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.03872e-42] 9f 13 00 00",
@@ -148850,7 +148850,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f75250[ll0x0=1c333f75250][f0x0=1.15168e-07][f0x4=6.31986e-43] 50 52 f7 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.27235e-41] 58 3f 00 00",
@@ -148859,7 +148859,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f799c0[ll0x0=1c333f799c0][f0x0=1.15298e-07][f0x4=6.31986e-43] c0 99 f7 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.27824e-41] 03 af 00 00",
@@ -148868,7 +148868,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f7e130[ll0x0=1c333f7e130][f0x0=1.15428e-07][f0x4=6.31986e-43] 30 e1 f7 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.32861e-42] 11 0c 00 00",
@@ -148877,7 +148877,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f828a0[ll0x0=1c333f828a0][f0x0=1.15558e-07][f0x4=6.31986e-43] a0 28 f8 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.78435e-41] ff d8 00 00",
@@ -148886,7 +148886,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f87010[ll0x0=1c333f87010][f0x0=1.15688e-07][f0x4=6.31986e-43] 10 70 f8 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.8728e-41] 15 50 00 00",
@@ -148895,7 +148895,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f8b780[ll0x0=1c333f8b780][f0x0=1.15818e-07][f0x4=6.31986e-43] 80 b7 f8 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.28616e-41] fc e6 00 00",
@@ -148904,7 +148904,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f8fef0[ll0x0=1c333f8fef0][f0x0=1.15948e-07][f0x4=6.31986e-43] f0 fe f8 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.18992e-41] 6d c8 00 00",
@@ -148913,7 +148913,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f94660[ll0x0=1c333f94660][f0x0=1.16078e-07][f0x4=6.31986e-43] 60 46 f9 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.58312e-41] e2 63 00 00",
@@ -148922,7 +148922,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f98dd0[ll0x0=1c333f98dd0][f0x0=1.16208e-07][f0x4=6.31986e-43] d0 8d f9 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.40499e-42] 6e 17 00 00",
@@ -148931,7 +148931,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333f9d540[ll0x0=1c333f9d540][f0x0=1.16338e-07][f0x4=6.31986e-43] 40 d5 f9 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.32475e-42] 7b 06 00 00",
@@ -148940,7 +148940,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333fa1cb0[ll0x0=1c333fa1cb0][f0x0=1.16468e-07][f0x4=6.31986e-43] b0 1c fa 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.08426e-42] 99 08 00 00",
@@ -148949,7 +148949,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333fa6420[ll0x0=1c333fa6420][f0x0=1.16597e-07][f0x4=6.31986e-43] 20 64 fa 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.26338e-41] 99 ae 00 00",
@@ -148958,7 +148958,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333faab90[ll0x0=1c333faab90][f0x0=1.16727e-07][f0x4=6.31986e-43] 90 ab fa 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.43514e-41] c2 5f 00 00",
@@ -148967,7 +148967,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c333faf300[ll0x0=1c333faf300][f0x0=1.16857e-07][f0x4=6.31986e-43] 00 f3 fa 33 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.93463e-41] ee 35 00 00",
@@ -158340,7 +158340,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2b98db1abeff67af",
+            "model": "#p8_sin_ship_container_384_open_damaged_blue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.02897e-41] af 1c 00 00",
             "drawInst:unk2e": 65535,
@@ -162046,7 +162046,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2f039de4d1c92cc1",
+            "model": "#p8_reptile_tortoise_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.14784e-42] 90 0b 00 00",
             "drawInst:unk2e": 65535,
@@ -164235,7 +164235,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_30f9ffe87b14a026",
+            "model": "#p8_mp_offshore_prison_pit_gate_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.44923e-41] e7 97 00 00",
             "drawInst:unk2e": 65535,
@@ -164243,7 +164243,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_30f9ffe87b14a026",
+            "model": "#p8_mp_offshore_prison_pit_gate_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.02849e-41] ed c3 00 00",
             "drawInst:unk2e": 65535,
@@ -168107,7 +168107,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_328f427bc10392da",
+            "model": "#p8_foliage_tree_palm_coconut_tall_bent_01_1_offshore_alt",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33410b720[ll0x0=1c33410b720][f0x0=1.34777e-07][f0x4=6.31986e-43] 20 b7 10 34 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.18771e-41] fc 3c 00 00",
@@ -168116,7 +168116,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_328f427bc10392da",
+            "model": "#p8_foliage_tree_palm_coconut_tall_bent_01_1_offshore_alt",
             "drawInst:unk10": "<INVALID_LIB>+0x1c334110250[ll0x0=1c334110250][f0x0=1.3505e-07][f0x4=6.31986e-43] 50 02 11 34 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.51177e-41] 46 ed 00 00",
@@ -174545,7 +174545,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_359e77fe8e8986bb",
+            "model": "#p8_table_laptop_mtl",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.10213e-41] bb fd 00 00",
             "drawInst:unk2e": 65535,
@@ -174553,7 +174553,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_359e77fe8e8986bb",
+            "model": "#p8_table_laptop_mtl",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.33166e-41] a0 94 00 00",
             "drawInst:unk2e": 65535,
@@ -177700,7 +177700,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_36060702aa2af607",
+            "model": "#p8_mp_col_radar_dirty_med_grey",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.15267e-41] 02 3c 00 00",
             "drawInst:unk2e": 65535,
@@ -177733,7 +177733,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_36443d27ed5e7d2f",
+            "model": "#p8_sin_ship_container_side_panel_384_lt_open_damaged_blue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.28458e-41] 50 93 00 00",
             "drawInst:unk2e": 65535,
@@ -178309,7 +178309,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_36c09b4f3bf94fb5",
+            "model": "#p8_centrifuge_device_crate_dmg_door",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.22201e-41] 52 c9 00 00",
             "drawInst:unk2c": " 32 00",
@@ -178318,7 +178318,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_36c09b4f3bf94fb5",
+            "model": "#p8_centrifuge_device_crate_dmg_door",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.53285e-42] 36 12 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199285,7 +199285,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.24978e-41] b7 3e 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199294,7 +199294,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.39899e-41] c0 5e 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199303,7 +199303,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.99622e-41] 66 6f 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199312,7 +199312,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.00089e-42] 84 13 00 00",
             "drawInst:unk2e": 65535,
@@ -199320,7 +199320,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.0437e-41] 1a fc 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199329,7 +199329,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.75176e-41] d5 30 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199338,7 +199338,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.84653e-41] 1a 87 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199347,7 +199347,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.71992e-42] 95 07 00 00",
             "drawInst:unk2e": 65535,
@@ -199355,7 +199355,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.00067e-41] 66 8b 00 00",
             "drawInst:unk2e": 65535,
@@ -199363,7 +199363,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.80222e-41] be a1 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199372,7 +199372,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.2726e-41] bb ca 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199381,7 +199381,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.2617e-41] 0c 3f 00 00",
             "drawInst:unk2e": 65535,
@@ -199389,7 +199389,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.58067e-41] 91 9b 00 00",
             "drawInst:unk2e": 65535,
@@ -199397,7 +199397,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.26317e-41] d7 76 00 00",
             "drawInst:unk2e": 65535,
@@ -199405,7 +199405,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.46625e-41] a0 60 00 00",
             "drawInst:unk2e": 65535,
@@ -199413,7 +199413,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.6961e-41] 28 4b 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199422,7 +199422,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.63111e-41] 78 2d 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199431,7 +199431,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.0685e-42] 21 0e 00 00",
             "drawInst:unk2e": 65535,
@@ -199439,7 +199439,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.44814e-41] ff 7b 00 00",
             "drawInst:unk2e": 65535,
@@ -199447,7 +199447,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.49575e-41] 33 99 00 00",
             "drawInst:unk2e": 65535,
@@ -199455,7 +199455,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.33653e-41] 22 41 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199464,7 +199464,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.7509e-41] 30 bc 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199473,7 +199473,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.27215e-41] 98 e6 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199482,7 +199482,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.0781e-41] 4f c5 00 00",
             "drawInst:unk2e": 65535,
@@ -199490,7 +199490,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.39703e-41] b2 5e 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199499,7 +199499,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.61606e-41] 4e d4 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199508,7 +199508,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.92644e-41] 74 6d 00 00",
             "drawInst:unk2e": 65535,
@@ -199516,7 +199516,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.86072e-41] 9f 6b 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199525,7 +199525,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.86237e-41] 8b 87 00 00",
             "drawInst:unk2e": 65535,
@@ -199533,7 +199533,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.73194e-41] 08 68 00 00",
             "drawInst:unk2e": 65535,
@@ -199541,7 +199541,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.34494e-41] df b0 00 00",
             "drawInst:unk2e": 65535,
@@ -199549,7 +199549,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.27224e-41] 77 23 00 00",
             "drawInst:unk2e": 65535,
@@ -199557,7 +199557,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.05168e-42] 15 0e 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199566,7 +199566,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.43109e-42] b7 14 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199575,7 +199575,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.00319e-41] f7 1b 00 00",
             "drawInst:unk2e": 65535,
@@ -199583,7 +199583,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.28941e-41] 33 cb 00 00",
             "drawInst:unk2e": 65535,
@@ -199591,7 +199591,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.19343e-41] 86 c8 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199600,7 +199600,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.93608e-42] e9 18 00 00",
             "drawInst:unk2e": 65535,
@@ -199608,7 +199608,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.04419e-41] 5d c4 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199617,7 +199617,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.18246e-41] 97 74 00 00",
             "drawInst:unk2e": 65535,
@@ -199625,7 +199625,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.97464e-41] cc 6e 00 00",
             "drawInst:unk2e": 65535,
@@ -199633,7 +199633,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.83984e-41] 8b da 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199642,7 +199642,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.92101e-42] 4b 13 00 00",
             "drawInst:unk2e": 65535,
@@ -199650,7 +199650,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.94357e-41] 8f c1 00 00",
             "drawInst:unk2e": 65535,
@@ -199658,7 +199658,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.96831e-43] 80 02 00 00",
             "drawInst:unk2e": 65535,
@@ -199666,7 +199666,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.70322e-41] bc d6 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199675,7 +199675,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.98182e-41] 1f 53 00 00",
             "drawInst:unk2e": 65535,
@@ -199683,7 +199683,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.08597e-41] 26 3a 00 00",
             "drawInst:unk2e": 65535,
@@ -199691,7 +199691,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.46085e-41] b9 28 00 00",
             "drawInst:unk2e": 65535,
@@ -199699,7 +199699,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.7503e-41] 0c d8 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199708,7 +199708,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.12602e-41] a5 c6 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199717,7 +199717,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.21171e-41] 48 91 00 00",
             "drawInst:unk2e": 65535,
@@ -199725,7 +199725,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.13996e-42] 54 0e 00 00",
             "drawInst:unk2e": 65535,
@@ -199733,7 +199733,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.18179e-41] 33 c8 00 00",
             "drawInst:unk2e": 65535,
@@ -199741,7 +199741,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.06884e-41] 8c 55 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199750,7 +199750,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.43161e-41] 89 7b 00 00",
             "drawInst:unk2e": 65535,
@@ -199758,7 +199758,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.63413e-41] cf d4 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199767,7 +199767,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.96992e-41] 4b c2 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199776,7 +199776,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.05518e-41] eb 8c 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199785,7 +199785,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.0135e-42] 8d 13 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199794,7 +199794,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.70178e-41] 92 f2 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199803,7 +199803,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.42839e-41] f3 ea 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199812,7 +199812,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.562e-41] ec b6 00 00",
             "drawInst:unk2e": 65535,
@@ -199820,7 +199820,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.72528e-41] 18 30 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199829,7 +199829,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.20351e-41] 4d 59 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199838,7 +199838,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.42794e-42] 48 1a 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199847,7 +199847,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.54346e-41] c7 62 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199856,7 +199856,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.57087e-42] ae 1a 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199865,7 +199865,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.31467e-41] 07 b0 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199874,7 +199874,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.38617e-41] 25 96 00 00",
             "drawInst:unk2e": 65535,
@@ -199882,7 +199882,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.85154e-41] 9d 33 00 00",
             "drawInst:unk2e": 65535,
@@ -199890,7 +199890,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.89561e-41] 98 6c 00 00",
             "drawInst:unk2e": 65535,
@@ -199898,7 +199898,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.31954e-41] 89 5c 00 00",
             "drawInst:unk2e": 65535,
@@ -199906,7 +199906,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.12857e-41] 56 3b 00 00",
             "drawInst:unk2e": 65535,
@@ -199914,7 +199914,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.45851e-41] 49 7c 00 00",
             "drawInst:unk2e": 65535,
@@ -199922,7 +199922,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.98333e-41] 0a 6f 00 00",
             "drawInst:unk2e": 65535,
@@ -199930,7 +199930,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.15566e-41] 39 ff 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199939,7 +199939,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.39069e-41] 65 7a 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199948,7 +199948,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.36578e-41] d3 5d 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199957,7 +199957,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.96764e-41] 1b de 00 00",
             "drawInst:unk2e": 65535,
@@ -199965,7 +199965,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.14949e-41] 8c 8f 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199974,7 +199974,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.97405e-41] a8 8a 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199983,7 +199983,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.12637e-41] e7 8e 00 00",
             "drawInst:unk2c": " 32 00",
@@ -199992,7 +199992,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.70146e-41] 6e 2f 00 00",
             "drawInst:unk2e": 65535,
@@ -200000,7 +200000,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.3842e-41] 96 26 00 00",
             "drawInst:unk2e": 65535,
@@ -200008,7 +200008,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.5482e-41] 4a ee 00 00",
             "drawInst:unk2e": 65535,
@@ -200016,7 +200016,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.53951e-41] 0c ee 00 00",
             "drawInst:unk2e": 65535,
@@ -200024,7 +200024,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.437e-41] ef 43 00 00",
             "drawInst:unk2c": " 32 00",
@@ -200033,7 +200033,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.91978e-43] 89 00 00 00",
             "drawInst:unk2c": " 32 00",
@@ -200042,7 +200042,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.51313e-41] af 99 00 00",
             "drawInst:unk2e": 65535,
@@ -200050,7 +200050,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.34946e-42] 10 1a 00 00",
             "drawInst:unk2e": 65535,
@@ -200058,7 +200058,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.01268e-41] 1b 38 00 00",
             "drawInst:unk2e": 65535,
@@ -200066,7 +200066,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.39378e-41] fc e9 00 00",
             "drawInst:unk2c": " 32 00",
@@ -200075,7 +200075,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.11667e-41] 82 aa 00 00",
             "drawInst:unk2c": " 32 00",
@@ -200084,7 +200084,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.75232e-41] d9 30 00 00",
             "drawInst:unk2c": " 32 00",
@@ -200093,7 +200093,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.71372e-41] 86 67 00 00",
             "drawInst:unk2c": " 32 00",
@@ -200102,7 +200102,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.94935e-41] d8 a5 00 00",
             "drawInst:unk2e": 65535,
@@ -200110,7 +200110,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.10741e-41] bf 3a 00 00",
             "drawInst:unk2e": 65535,
@@ -200118,7 +200118,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.49035e-41] 4c 61 00 00",
             "drawInst:unk2e": 65535,
@@ -200126,7 +200126,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.7017e-42] 88 07 00 00",
             "drawInst:unk2c": " 32 00",
@@ -200135,7 +200135,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.40562e-41] 90 b2 00 00",
             "drawInst:unk2e": 65535,
@@ -200143,7 +200143,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.98676e-41] 62 37 00 00",
             "drawInst:unk2e": 65535,
@@ -200151,7 +200151,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410f107aac39f97c",
+            "model": "#p8_centrifuge_device_lid_right",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.71082e-41] 12 bb 00 00",
             "drawInst:unk2e": 65535,
@@ -200159,7 +200159,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410f107aac39f97c",
+            "model": "#p8_centrifuge_device_lid_right",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.19825e-41] 67 21 00 00",
             "drawInst:unk2e": 65535,
@@ -200167,7 +200167,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410f107aac39f97c",
+            "model": "#p8_centrifuge_device_lid_right",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.11215e-41] 42 c6 00 00",
             "drawInst:unk2e": 65535,
@@ -204873,7 +204873,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_448afa8dd4478be7",
+            "model": "#p8_sin_ship_container_end_cap_long_open_damaged_blue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.74847e-42] 73 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -212951,7 +212951,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.42359e-41] 30 97 00 00",
             "drawInst:unk2e": 65535,
@@ -212959,7 +212959,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.84355e-41] 64 33 00 00",
             "drawInst:unk2e": 65535,
@@ -212967,7 +212967,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.10766e-41] a1 56 00 00",
             "drawInst:unk2e": 65535,
@@ -212975,7 +212975,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.04054e-41] 43 c4 00 00",
             "drawInst:unk2e": 65535,
@@ -212983,7 +212983,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.75075e-41] ae 4c 00 00",
             "drawInst:unk2e": 65535,
@@ -220846,7 +220846,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.36777e-41] 01 42 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220855,7 +220855,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.10711e-41] 1e c6 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220864,7 +220864,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.17282e-41] 72 58 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220873,7 +220873,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.4873e-41] 56 45 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220882,7 +220882,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.8755e-41] c9 a3 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220891,7 +220891,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.59213e-41] c3 b7 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220900,7 +220900,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.09498e-41] 07 8e 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220909,7 +220909,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.45395e-41] 68 44 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220918,7 +220918,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.10724e-41] 9e 56 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220927,7 +220927,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.84822e-41] a7 f6 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220936,7 +220936,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.88405e-41] 85 34 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220945,7 +220945,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.63718e-41] 44 81 00 00",
             "drawInst:unk2c": " 04 00",
@@ -220954,7 +220954,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d4430b82fb1d881",
+            "model": "#p8_fxanim_mp_offshore_alt_foliage_vine_01_hanging_v2_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.92417e-41] c5 f8 00 00",
             "drawInst:unk2c": " 04 00",
@@ -231473,7 +231473,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.99024e-41] dc c2 00 00",
             "drawInst:unk2e": 65535,
@@ -231481,7 +231481,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.5924e-43] b9 00 00 00",
             "drawInst:unk2e": 65535,
@@ -231489,7 +231489,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.52473e-41] e2 b5 00 00",
             "drawInst:unk2e": 65535,
@@ -231497,7 +231497,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.17555e-41] c5 20 00 00",
             "drawInst:unk2e": 65535,
@@ -231505,7 +231505,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.65722e-41] d3 81 00 00",
             "drawInst:unk2e": 65535,
@@ -231513,7 +231513,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.43745e-41] 12 28 00 00",
             "drawInst:unk2e": 65535,
@@ -231521,7 +231521,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.19878e-41] cc ac 00 00",
             "drawInst:unk2e": 65535,
@@ -231529,7 +231529,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.82338e-41] 55 a2 00 00",
             "drawInst:unk2e": 65535,
@@ -231537,7 +231537,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.28979e-41] 95 77 00 00",
             "drawInst:unk2e": 65535,
@@ -231545,7 +231545,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.08569e-41] 24 3a 00 00",
             "drawInst:unk2e": 65535,
@@ -231553,7 +231553,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.2425e-41] 83 3e 00 00",
             "drawInst:unk2e": 65535,
@@ -231561,7 +231561,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.57401e-41] a1 63 00 00",
             "drawInst:unk2e": 65535,
@@ -231569,7 +231569,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.28707e-41] 42 af 00 00",
             "drawInst:unk2e": 65535,
@@ -231577,7 +231577,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.88247e-42] 09 08 00 00",
             "drawInst:unk2e": 65535,
@@ -231585,7 +231585,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.4583e-41] 08 b4 00 00",
             "drawInst:unk2e": 65535,
@@ -231593,7 +231593,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.73864e-41] 99 f3 00 00",
             "drawInst:unk2e": 65535,
@@ -231601,7 +231601,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.30199e-42] fe 0b 00 00",
             "drawInst:unk2e": 65535,
@@ -231609,7 +231609,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.15775e-41] 46 20 00 00",
             "drawInst:unk2e": 65535,
@@ -231617,7 +231617,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.43567e-41] a6 7b 00 00",
             "drawInst:unk2e": 65535,
@@ -231625,7 +231625,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.16529e-41] 5c 3c 00 00",
             "drawInst:unk2e": 65535,
@@ -231633,7 +231633,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.41479e-41] 11 7b 00 00",
             "drawInst:unk2e": 65535,
@@ -231641,7 +231641,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.96266e-41] b6 36 00 00",
             "drawInst:unk2e": 65535,
@@ -231649,7 +231649,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.87459e-42] cd 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -231657,7 +231657,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.6982e-41] 37 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -231665,7 +231665,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.1409e-41] ae 3b 00 00",
             "drawInst:unk2e": 65535,
@@ -231673,7 +231673,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.35861e-41] 01 e9 00 00",
             "drawInst:unk2e": 65535,
@@ -231681,7 +231681,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.16326e-41] 8f e3 00 00",
             "drawInst:unk2e": 65535,
@@ -231689,7 +231689,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.53628e-41] 74 7e 00 00",
             "drawInst:unk2e": 65535,
@@ -231697,7 +231697,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.86496e-41] 5e bf 00 00",
             "drawInst:unk2e": 65535,
@@ -231705,7 +231705,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.48692e-41] 73 29 00 00",
             "drawInst:unk2e": 65535,
@@ -231713,7 +231713,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.59224e-41] a4 d3 00 00",
             "drawInst:unk2e": 65535,
@@ -231721,7 +231721,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.11305e-41] 07 1f 00 00",
             "drawInst:unk2e": 65535,
@@ -231729,7 +231729,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.05195e-41] 53 1d 00 00",
             "drawInst:unk2e": 65535,
@@ -231737,7 +231737,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.06717e-41] 01 c5 00 00",
             "drawInst:unk2e": 65535,
@@ -231745,7 +231745,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.97395e-41] 48 de 00 00",
             "drawInst:unk2e": 65535,
@@ -231753,7 +231753,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.16088e-41] fd 73 00 00",
             "drawInst:unk2e": 65535,
@@ -231761,7 +231761,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.12809e-41] 13 73 00 00",
             "drawInst:unk2e": 65535,
@@ -231769,7 +231769,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.64443e-41] 58 9d 00 00",
             "drawInst:unk2e": 65535,
@@ -231777,7 +231777,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.81448e-41] d6 d9 00 00",
             "drawInst:unk2e": 65535,
@@ -231785,7 +231785,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.02232e-41] 40 54 00 00",
             "drawInst:unk2e": 65535,
@@ -231793,7 +231793,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.78245e-41] b0 31 00 00",
             "drawInst:unk2e": 65535,
@@ -231801,7 +231801,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.09498e-41] 07 8e 00 00",
             "drawInst:unk2e": 65535,
@@ -231809,7 +231809,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.48258e-41] d5 98 00 00",
             "drawInst:unk2e": 65535,
@@ -231817,7 +231817,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.91226e-41] 70 f8 00 00",
             "drawInst:unk2e": 65535,
@@ -231825,7 +231825,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.58357e-41] 05 48 00 00",
             "drawInst:unk2e": 65535,
@@ -231833,7 +231833,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.7434e-41] 3a 84 00 00",
             "drawInst:unk2e": 65535,
@@ -277753,7 +277753,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_640c524cb7c624f3",
+            "model": "#p8_centrifuge_device_lid_left",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.07145e-41] e0 fc 00 00",
             "drawInst:unk2e": 65535,
@@ -277761,7 +277761,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_640c524cb7c624f3",
+            "model": "#p8_centrifuge_device_lid_left",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.30024e-41] a0 af 00 00",
             "drawInst:unk2e": 65535,
@@ -277769,7 +277769,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_640c524cb7c624f3",
+            "model": "#p8_centrifuge_device_lid_left",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.26924e-41] a3 ca 00 00",
             "drawInst:unk2e": 65535,
@@ -288755,7 +288755,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.58744e-41] 62 ef 00 00",
             "drawInst:unk2e": 65535,
@@ -288763,7 +288763,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.27904e-42] 24 09 00 00",
             "drawInst:unk2e": 65535,
@@ -288771,7 +288771,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.42985e-42] c6 06 00 00",
             "drawInst:unk2e": 65535,
@@ -288779,7 +288779,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.69173e-42] 71 15 00 00",
             "drawInst:unk2e": 65535,
@@ -288787,7 +288787,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.16799e-41] 10 90 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288796,7 +288796,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.79161e-41] 13 f5 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288805,7 +288805,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.00957e-41] e5 53 00 00",
             "drawInst:unk2e": 65535,
@@ -288813,7 +288813,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.23406e-41] a8 c9 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288822,7 +288822,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.44962e-41] ca b3 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288831,7 +288831,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.51274e-41] cc 7d 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288840,7 +288840,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.71512e-41] 90 67 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288849,7 +288849,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.43353e-41] f6 27 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288858,7 +288858,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.93278e-41] 42 c1 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288867,7 +288867,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.24979e-43] be 01 00 00",
             "drawInst:unk2e": 65535,
@@ -288875,7 +288875,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.35702e-41] d4 25 00 00",
             "drawInst:unk2e": 65535,
@@ -288883,7 +288883,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.14126e-41] f2 e2 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288892,7 +288892,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.85288e-41] e8 da 00 00",
             "drawInst:unk2e": 65535,
@@ -288900,7 +288900,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.89807e-41] 6a a4 00 00",
             "drawInst:unk2e": 65535,
@@ -288908,7 +288908,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.99963e-41] 1f c3 00 00",
             "drawInst:unk2e": 65535,
@@ -288916,7 +288916,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.49982e-41] 50 99 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288925,7 +288925,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.97321e-41] a2 8a 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288934,7 +288934,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.64643e-41] 86 81 00 00",
             "drawInst:unk2e": 65535,
@@ -288942,7 +288942,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.20414e-41] 91 21 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288951,7 +288951,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.75986e-42] d8 12 00 00",
             "drawInst:unk2e": 65535,
@@ -288959,7 +288959,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.88531e-41] 0f a4 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288968,7 +288968,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.00883e-41] c0 6f 00 00",
             "drawInst:unk2e": 65535,
@@ -288976,7 +288976,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.8879e-41] 61 6c 00 00",
             "drawInst:unk2c": " 32 00",
@@ -288985,7 +288985,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.23438e-42] 61 11 00 00",
             "drawInst:unk2e": 65535,
@@ -288993,7 +288993,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.69515e-41] 41 2f 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289002,7 +289002,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.54108e-42] df 09 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289011,7 +289011,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.24541e-41] f9 c9 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289020,7 +289020,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.01318e-41] df 6f 00 00",
             "drawInst:unk2e": 65535,
@@ -289028,7 +289028,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.41398e-41] 2b 5f 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289037,7 +289037,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.02815e-41] ab fb 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289046,7 +289046,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.68539e-41] 1d f2 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289055,7 +289055,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.57651e-41] 14 ef 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289064,7 +289064,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.33947e-41] b8 b0 00 00",
             "drawInst:unk2e": 65535,
@@ -289072,7 +289072,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.65109e-42] 54 15 00 00",
             "drawInst:unk2e": 65535,
@@ -289080,7 +289080,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.82849e-41] b9 6a 00 00",
             "drawInst:unk2e": 65535,
@@ -289088,7 +289088,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.62709e-41] fc 80 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289097,7 +289097,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.33247e-42] a7 11 00 00",
             "drawInst:unk2e": 65535,
@@ -289105,7 +289105,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.34806e-42] 0f 1a 00 00",
             "drawInst:unk2e": 65535,
@@ -289113,7 +289113,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.81221e-41] a6 f5 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289122,7 +289122,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.53566e-41] 30 b6 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289131,7 +289131,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.80631e-41] fb 85 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289140,7 +289140,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.12602e-41] 24 57 00 00",
             "drawInst:unk2e": 65535,
@@ -289148,7 +289148,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.67721e-41] c1 2e 00 00",
             "drawInst:unk2e": 65535,
@@ -289156,7 +289156,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.31685e-41] d7 e7 00 00",
             "drawInst:unk2e": 65535,
@@ -289164,7 +289164,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.79241e-41] 78 a1 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289173,7 +289173,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.70889e-42] ea 0f 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289182,7 +289182,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.107e-41] 3d aa 00 00",
             "drawInst:unk2e": 65535,
@@ -289190,7 +289190,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.18975e-41] 4c e4 00 00",
             "drawInst:unk2e": 65535,
@@ -289198,7 +289198,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.83728e-41] d8 86 00 00",
             "drawInst:unk2e": 65535,
@@ -289206,7 +289206,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.03126e-41] 60 70 00 00",
             "drawInst:unk2e": 65535,
@@ -289214,7 +289214,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.44541e-41] 2b 44 00 00",
             "drawInst:unk2e": 65535,
@@ -289222,7 +289222,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.71943e-41] 8f 83 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289231,7 +289231,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.17174e-41] 0b ac 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289240,7 +289240,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.0856e-41] 45 fd 00 00",
             "drawInst:unk2e": 65535,
@@ -289248,7 +289248,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.32423e-41] ea 24 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289257,7 +289257,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.54978e-41] 75 d2 00 00",
             "drawInst:unk2e": 65535,
@@ -289265,7 +289265,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.96232e-41] f5 dd 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289274,7 +289274,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.54749e-41] c4 7e 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289283,7 +289283,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.66695e-41] 58 4a 00 00",
             "drawInst:unk2e": 65535,
@@ -289291,7 +289291,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.80268e-41] 62 f5 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289300,7 +289300,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.81907e-42] 6f 0d 00 00",
             "drawInst:unk2e": 65535,
@@ -289308,7 +289308,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.77471e-41] 59 4d 00 00",
             "drawInst:unk2e": 65535,
@@ -289316,7 +289316,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.05812e-41] 7f 1d 00 00",
             "drawInst:unk2e": 65535,
@@ -289324,7 +289324,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.43167e-41] c9 43 00 00",
             "drawInst:unk2e": 65535,
@@ -289332,7 +289332,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.6659e-41] 11 82 00 00",
             "drawInst:unk2e": 65535,
@@ -289340,7 +289340,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.07851e-41] d1 55 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289349,7 +289349,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.10868e-41] 49 aa 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289358,7 +289358,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.28965e-41] 94 77 00 00",
             "drawInst:unk2e": 65535,
@@ -289366,7 +289366,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.34305e-41] 92 e8 00 00",
             "drawInst:unk2c": " 32 00",
@@ -289375,7 +289375,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_693d4202768fc208",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_sml_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.50801e-41] ca 61 00 00",
             "drawInst:unk2e": 65535,
@@ -294321,7 +294321,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6c1fc2205c8740ec",
+            "model": "#p8_fxanim_mp_offshore_alt_armory_tarp_01_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.49613e-41] 95 45 00 00",
             "drawInst:unk2c": " 04 00",
@@ -295402,7 +295402,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6cbafdaf2055cf85",
+            "model": "#p8_hanging_vine_pose",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335690770[ll0x0=1c335690770][f0x0=8.68101e-07][f0x4=6.31986e-43] 70 07 69 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.06523e-41] 92 39 00 00",
@@ -301043,7 +301043,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.59885e-41] f3 b7 00 00",
             "drawInst:unk2e": 65535,
@@ -301051,7 +301051,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.85775e-41] eb f6 00 00",
             "drawInst:unk2e": 65535,
@@ -301059,7 +301059,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.02159e-41] 1b 70 00 00",
             "drawInst:unk2e": 65535,
@@ -301067,7 +301067,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.73351e-41] 33 4c 00 00",
             "drawInst:unk2e": 65535,
@@ -301075,7 +301075,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.60519e-41] bf 2c 00 00",
             "drawInst:unk2e": 65535,
@@ -342755,7 +342755,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.35654e-41] 12 cd 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342764,7 +342764,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.1043e-41] 89 56 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342773,7 +342773,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.10829e-41] 66 8e 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342782,7 +342782,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.8886e-42] d7 0a 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342791,7 +342791,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.84415e-41] 09 87 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342800,7 +342800,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.61382e-41] 3e d4 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342809,7 +342809,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.61749e-41] f7 48 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342818,7 +342818,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.04943e-41] 41 1d 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342827,7 +342827,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.46737e-41] a8 60 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342836,7 +342836,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.9413e-41] 5f dd 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342845,7 +342845,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.95135e-41] 87 f9 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342854,7 +342854,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.64142e-41] 03 d5 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342863,7 +342863,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.46475e-41] 36 b4 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342872,7 +342872,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.68856e-41] 12 2f 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342881,7 +342881,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.37565e-41] 59 26 00 00",
             "drawInst:unk2e": 65535,
@@ -342889,7 +342889,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.95009e-41] 7e f9 00 00",
             "drawInst:unk2e": 65535,
@@ -342897,7 +342897,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.09648e-41] 71 3a 00 00",
             "drawInst:unk2e": 65535,
@@ -342905,7 +342905,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.75647e-41] 38 d8 00 00",
             "drawInst:unk2e": 65535,
@@ -342913,7 +342913,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.97279e-41] 20 fa 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342922,7 +342922,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.20425e-41] f3 ac 00 00",
             "drawInst:unk2e": 65535,
@@ -342930,7 +342930,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.94189e-41] 02 52 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342939,7 +342939,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.10024e-41] ed c5 00 00",
             "drawInst:unk2e": 65535,
@@ -342947,7 +342947,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.72e-41] 14 f3 00 00",
             "drawInst:unk2c": " 32 00",
@@ -342956,7 +342956,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.82148e-41] 87 6a 00 00",
             "drawInst:unk2e": 65535,
@@ -342964,7 +342964,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.27645e-41] 16 93 00 00",
             "drawInst:unk2e": 65535,
@@ -342972,7 +342972,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.13639e-41] ef c6 00 00",
             "drawInst:unk2e": 65535,
@@ -342980,7 +342980,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.085e-41] a0 a9 00 00",
             "drawInst:unk2e": 65535,
@@ -342988,7 +342988,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.51887e-41] d8 99 00 00",
             "drawInst:unk2e": 65535,
@@ -342996,7 +342996,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.52262e-41] d3 b5 00 00",
             "drawInst:unk2e": 65535,
@@ -343004,7 +343004,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.83917e-41] 25 4f 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343013,7 +343013,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.12035e-41] 3d fe 00 00",
             "drawInst:unk2e": 65535,
@@ -343021,7 +343021,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.92507e-41] 8a 51 00 00",
             "drawInst:unk2e": 65535,
@@ -343029,7 +343029,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.12679e-41] ea 8e 00 00",
             "drawInst:unk2e": 65535,
@@ -343037,7 +343037,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.54596e-41] 3a ee 00 00",
             "drawInst:unk2e": 65535,
@@ -343045,7 +343045,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.48383e-41] 5d 29 00 00",
             "drawInst:unk2e": 65535,
@@ -343053,7 +343053,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.23669e-41] 9b e5 00 00",
             "drawInst:unk2e": 65535,
@@ -343061,7 +343061,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.3532e-41] 99 41 00 00",
             "drawInst:unk2e": 65535,
@@ -343069,7 +343069,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.89929e-42] 15 08 00 00",
             "drawInst:unk2e": 65535,
@@ -343077,7 +343077,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.35899e-41] 63 95 00 00",
             "drawInst:unk2e": 65535,
@@ -343085,7 +343085,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.14353e-41] a1 57 00 00",
             "drawInst:unk2e": 65535,
@@ -343093,7 +343093,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.40771e-41] 1e 43 00 00",
             "drawInst:unk2e": 65535,
@@ -343101,7 +343101,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.69943e-42] 50 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -343109,7 +343109,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.28762e-41] c5 3f 00 00",
             "drawInst:unk2e": 65535,
@@ -343117,7 +343117,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.45146e-41] 76 28 00 00",
             "drawInst:unk2e": 65535,
@@ -343125,7 +343125,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.26454e-41] c1 92 00 00",
             "drawInst:unk2e": 65535,
@@ -343133,7 +343133,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.25742e-41] ae 76 00 00",
             "drawInst:unk2e": 65535,
@@ -343141,7 +343141,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.4433e-41] 1c 44 00 00",
             "drawInst:unk2e": 65535,
@@ -343149,7 +343149,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.53247e-41] 39 9a 00 00",
             "drawInst:unk2e": 65535,
@@ -343157,7 +343157,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.55159e-41] 01 63 00 00",
             "drawInst:unk2e": 65535,
@@ -343165,7 +343165,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.95001e-41] 3c 52 00 00",
             "drawInst:unk2e": 65535,
@@ -343173,7 +343173,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.97514e-41] 90 a6 00 00",
             "drawInst:unk2e": 65535,
@@ -343181,7 +343181,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.59296e-41] 48 48 00 00",
             "drawInst:unk2e": 65535,
@@ -343189,7 +343189,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.22078e-41] 69 ad 00 00",
             "drawInst:unk2e": 65535,
@@ -343197,7 +343197,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.72795e-41] ac 9f 00 00",
             "drawInst:unk2e": 65535,
@@ -343205,7 +343205,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.03669e-41] e8 fb 00 00",
             "drawInst:unk2e": 65535,
@@ -343213,7 +343213,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.52643e-41] 8d 2a 00 00",
             "drawInst:unk2e": 65535,
@@ -343221,7 +343221,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.27694e-41] da ca 00 00",
             "drawInst:unk2e": 65535,
@@ -343229,7 +343229,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.21822e-41] b6 59 00 00",
             "drawInst:unk2e": 65535,
@@ -343237,7 +343237,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.6507e-41] 65 b9 00 00",
             "drawInst:unk2e": 65535,
@@ -343245,7 +343245,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.41825e-41] 89 27 00 00",
             "drawInst:unk2e": 65535,
@@ -343253,7 +343253,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.84089e-41] d2 a2 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343262,7 +343262,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.73016e-41] 9c bb 00 00",
             "drawInst:unk2e": 65535,
@@ -343270,7 +343270,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.75268e-42] 76 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -343278,7 +343278,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.1214e-41] 84 c6 00 00",
             "drawInst:unk2e": 65535,
@@ -343286,7 +343286,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.77773e-41] b0 f4 00 00",
             "drawInst:unk2e": 65535,
@@ -343294,7 +343294,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.28479e-41] 12 cb 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343303,7 +343303,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.44464e-41] 67 eb 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343312,7 +343312,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.47138e-42] 67 1a 00 00",
             "drawInst:unk2e": 65535,
@@ -343320,7 +343320,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.22299e-44] 17 00 00 00",
             "drawInst:unk2e": 65535,
@@ -343328,7 +343328,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.96094e-42] 41 08 00 00",
             "drawInst:unk2e": 65535,
@@ -343336,7 +343336,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.07014e-41] 36 a9 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343345,7 +343345,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.17075e-41] 83 3c 00 00",
             "drawInst:unk2e": 65535,
@@ -343353,7 +343353,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.47768e-41] b2 98 00 00",
             "drawInst:unk2e": 65535,
@@ -343361,7 +343361,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.08002e-41] bc 71 00 00",
             "drawInst:unk2e": 65535,
@@ -343369,7 +343369,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.24254e-41] 24 92 00 00",
             "drawInst:unk2e": 65535,
@@ -343377,7 +343377,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.88475e-41] 8a 34 00 00",
             "drawInst:unk2e": 65535,
@@ -343385,7 +343385,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.58621e-41] 79 d3 00 00",
             "drawInst:unk2e": 65535,
@@ -343393,7 +343393,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.01192e-41] 57 df 00 00",
             "drawInst:unk2e": 65535,
@@ -343401,7 +343401,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.23175e-42] bc 19 00 00",
             "drawInst:unk2e": 65535,
@@ -343409,7 +343409,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.00992e-41] a8 8b 00 00",
             "drawInst:unk2e": 65535,
@@ -343417,7 +343417,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.49684e-41] 1b b5 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343426,7 +343426,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.45357e-41] 85 28 00 00",
             "drawInst:unk2e": 65535,
@@ -343434,7 +343434,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.15104e-41] 18 ff 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343443,7 +343443,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.92802e-41] 20 c1 00 00",
             "drawInst:unk2e": 65535,
@@ -343451,7 +343451,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.56739e-41] 52 7f 00 00",
             "drawInst:unk2e": 65535,
@@ -343459,7 +343459,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.03161e-41] 23 a8 00 00",
             "drawInst:unk2e": 65535,
@@ -343467,7 +343467,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.81756e-41] 6b 6a 00 00",
             "drawInst:unk2e": 65535,
@@ -343475,7 +343475,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.58926e-41] 6f ef 00 00",
             "drawInst:unk2e": 65535,
@@ -343483,7 +343483,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.45221e-41] 9d eb 00 00",
             "drawInst:unk2e": 65535,
@@ -343491,7 +343491,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.44621e-41] 11 60 00 00",
             "drawInst:unk2e": 65535,
@@ -343499,7 +343499,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.11379e-41] ad 72 00 00",
             "drawInst:unk2e": 65535,
@@ -343507,7 +343507,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.18452e-41] 05 21 00 00",
             "drawInst:unk2e": 65535,
@@ -343515,7 +343515,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.22047e-41] 47 c9 00 00",
             "drawInst:unk2e": 65535,
@@ -343523,7 +343523,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.85623e-41] 7f 6b 00 00",
             "drawInst:unk2e": 65535,
@@ -343531,7 +343531,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.32483e-41] 10 e8 00 00",
             "drawInst:unk2e": 65535,
@@ -343539,7 +343539,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.61928e-41] 65 d4 00 00",
             "drawInst:unk2e": 65535,
@@ -343547,7 +343547,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.74027e-41] 83 30 00 00",
             "drawInst:unk2e": 65535,
@@ -343555,7 +343555,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.52223e-41] 6f 2a 00 00",
             "drawInst:unk2e": 65535,
@@ -343563,7 +343563,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.12174e-41] 45 1f 00 00",
             "drawInst:unk2e": 65535,
@@ -343571,7 +343571,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.63938e-41] b3 2d 00 00",
             "drawInst:unk2e": 65535,
@@ -343579,7 +343579,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.69842e-41] 7a f2 00 00",
             "drawInst:unk2e": 65535,
@@ -343587,7 +343587,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.81959e-41] b9 32 00 00",
             "drawInst:unk2e": 65535,
@@ -343595,7 +343595,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.17163e-41] 2a 90 00 00",
             "drawInst:unk2e": 65535,
@@ -343603,7 +343603,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.10528e-41] 90 56 00 00",
             "drawInst:unk2e": 65535,
@@ -343611,7 +343611,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.15569e-41] d8 73 00 00",
             "drawInst:unk2e": 65535,
@@ -343619,7 +343619,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.905e-41] 5c dc 00 00",
             "drawInst:unk2e": 65535,
@@ -343627,7 +343627,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.02611e-42] 96 13 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343636,7 +343636,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.31771e-41] 7c 5c 00 00",
             "drawInst:unk2e": 65535,
@@ -343644,7 +343644,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.11176e-41] de 3a 00 00",
             "drawInst:unk2e": 65535,
@@ -343652,7 +343652,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.3358e-42] 73 14 00 00",
             "drawInst:unk2e": 65535,
@@ -343660,7 +343660,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.92193e-41] b5 f8 00 00",
             "drawInst:unk2e": 65535,
@@ -343668,7 +343668,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.29709e-42] 21 17 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343677,7 +343677,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.49516e-41] 0f b5 00 00",
             "drawInst:unk2e": 65535,
@@ -343685,7 +343685,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.56281e-42] 15 15 00 00",
             "drawInst:unk2e": 65535,
@@ -343693,7 +343693,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.38018e-41] 1a 7a 00 00",
             "drawInst:unk2e": 65535,
@@ -343701,7 +343701,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.84037e-41] 6f f6 00 00",
             "drawInst:unk2e": 65535,
@@ -343709,7 +343709,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.02572e-41] 78 38 00 00",
             "drawInst:unk2e": 65535,
@@ -343717,7 +343717,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.3268e-41] 1e e8 00 00",
             "drawInst:unk2e": 65535,
@@ -343725,7 +343725,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.55801e-41] 90 ee 00 00",
             "drawInst:unk2e": 65535,
@@ -343733,7 +343733,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.93253e-41] df 35 00 00",
             "drawInst:unk2e": 65535,
@@ -343741,7 +343741,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.4884e-41] bf d0 00 00",
             "drawInst:unk2e": 65535,
@@ -343749,7 +343749,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.14732e-41] 3d c7 00 00",
             "drawInst:unk2e": 65535,
@@ -343757,7 +343757,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.17394e-41] 7a 58 00 00",
             "drawInst:unk2e": 65535,
@@ -343765,7 +343765,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.00929e-41] 64 c3 00 00",
             "drawInst:unk2e": 65535,
@@ -343773,7 +343773,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.52217e-42] f8 14 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343782,7 +343782,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.70136e-41] 0e 83 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343791,7 +343791,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.48251e-41] 14 61 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343800,7 +343800,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.40474e-41] 6a ce 00 00",
             "drawInst:unk2e": 65535,
@@ -343808,7 +343808,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.30276e-41] b2 af 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343817,7 +343817,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.50692e-41] e2 45 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343826,7 +343826,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.04103e-41] 86 8c 00 00",
             "drawInst:unk2e": 65535,
@@ -343834,7 +343834,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.80277e-41] 41 32 00 00",
             "drawInst:unk2e": 65535,
@@ -343842,7 +343842,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.25269e-41] ac 5a 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343851,7 +343851,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.85974e-41] 98 6b 00 00",
             "drawInst:unk2e": 65535,
@@ -343859,7 +343859,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.171e-41] 65 58 00 00",
             "drawInst:unk2e": 65535,
@@ -343867,7 +343867,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.26117e-41] 28 23 00 00",
             "drawInst:unk2e": 65535,
@@ -343875,7 +343875,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.82247e-41] 0f da 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343884,7 +343884,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.50577e-41] 3b d1 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343893,7 +343893,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.44611e-41] 30 44 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343902,7 +343902,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.94392e-41] d1 89 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343911,7 +343911,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.83834e-41] a0 be 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343920,7 +343920,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.27355e-41] a2 e6 00 00",
             "drawInst:unk2c": " 32 00",
@@ -343929,7 +343929,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.52675e-41] 30 7e 00 00",
             "drawInst:unk2e": 65535,
@@ -343937,7 +343937,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.9078e-41] ef 6c 00 00",
             "drawInst:unk2e": 65535,
@@ -343945,7 +343945,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.42183e-41] 63 5f 00 00",
             "drawInst:unk2e": 65535,
@@ -343953,7 +343953,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.2925e-41] 49 cb 00 00",
             "drawInst:unk2e": 65535,
@@ -343961,7 +343961,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.27816e-41] 42 77 00 00",
             "drawInst:unk2e": 65535,
@@ -343969,7 +343969,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.06075e-41] 72 39 00 00",
             "drawInst:unk2e": 65535,
@@ -343977,7 +343977,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.17713e-41] 71 74 00 00",
             "drawInst:unk2e": 65535,
@@ -343985,7 +343985,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.88489e-41] 8b 34 00 00",
             "drawInst:unk2e": 65535,
@@ -343993,7 +343993,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.81164e-41] 21 86 00 00",
             "drawInst:unk2e": 65535,
@@ -344001,7 +344001,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.42264e-41] 49 7b 00 00",
             "drawInst:unk2e": 65535,
@@ -344009,7 +344009,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.58172e-42] fc 09 00 00",
             "drawInst:unk2e": 65535,
@@ -344017,7 +344017,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.54144e-42] 99 1a 00 00",
             "drawInst:unk2e": 65535,
@@ -344025,7 +344025,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.97681e-41] 1b 37 00 00",
             "drawInst:unk2c": " 32 00",
@@ -344034,7 +344034,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.56102e-41] e5 b6 00 00",
             "drawInst:unk2c": " 32 00",
@@ -344043,7 +344043,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.70976e-41] 4a 83 00 00",
             "drawInst:unk2e": 65535,
@@ -344051,7 +344051,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.83535e-42] b1 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -344059,7 +344059,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.30685e-41] 6e 24 00 00",
             "drawInst:unk2e": 65535,
@@ -344067,7 +344067,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.3676e-41] e0 5d 00 00",
             "drawInst:unk2e": 65535,
@@ -344075,7 +344075,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.55828e-41] 11 7f 00 00",
             "drawInst:unk2e": 65535,
@@ -344083,7 +344083,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.61948e-41] 25 2d 00 00",
             "drawInst:unk2e": 65535,
@@ -344091,7 +344091,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.0013e-41] aa 53 00 00",
             "drawInst:unk2e": 65535,
@@ -344099,7 +344099,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.97489e-41] ae 8a 00 00",
             "drawInst:unk2e": 65535,
@@ -344107,7 +344107,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.41595e-41] 39 5f 00 00",
             "drawInst:unk2e": 65535,
@@ -344115,7 +344115,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.96221e-41] 14 c2 00 00",
             "drawInst:unk2e": 65535,
@@ -344123,7 +344123,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.45087e-41] 52 44 00 00",
             "drawInst:unk2e": 65535,
@@ -344131,7 +344131,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.49565e-41] 52 7d 00 00",
             "drawInst:unk2e": 65535,
@@ -344139,7 +344139,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.86229e-41] ca 4f 00 00",
             "drawInst:unk2e": 65535,
@@ -344147,7 +344147,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.53397e-41] a3 46 00 00",
             "drawInst:unk2c": " 32 00",
@@ -344156,7 +344156,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.81437e-41] f5 bd 00 00",
             "drawInst:unk2e": 65535,
@@ -344164,7 +344164,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.80768e-41] e5 a1 00 00",
             "drawInst:unk2e": 65535,
@@ -344172,7 +344172,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.11526e-41] f7 3a 00 00",
             "drawInst:unk2c": " 32 00",
@@ -344181,7 +344181,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.06346e-41] a7 fc 00 00",
             "drawInst:unk2e": 65535,
@@ -344189,7 +344189,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.99419e-41] 97 37 00 00",
             "drawInst:unk2e": 65535,
@@ -344197,7 +344197,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.36617e-41] b6 79 00 00",
             "drawInst:unk2e": 65535,
@@ -344205,7 +344205,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.09995e-41] 6a 56 00 00",
             "drawInst:unk2e": 65535,
@@ -344213,7 +344213,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.6505e-41] 24 f1 00 00",
             "drawInst:unk2e": 65535,
@@ -344221,7 +344221,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.2279e-42] 26 14 00 00",
             "drawInst:unk2c": " 32 00",
@@ -344230,7 +344230,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.97854e-41] 49 fa 00 00",
             "drawInst:unk2e": 65535,
@@ -344238,7 +344238,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.13796e-41] 99 3b 00 00",
             "drawInst:unk2e": 65535,
@@ -344246,7 +344246,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.56529e-41] 43 7f 00 00",
             "drawInst:unk2e": 65535,
@@ -344254,7 +344254,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.89929e-42] 15 08 00 00",
             "drawInst:unk2e": 65535,
@@ -344262,7 +344262,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.12644e-41] 27 57 00 00",
             "drawInst:unk2e": 65535,
@@ -344270,7 +344270,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.36575e-43] 55 02 00 00",
             "drawInst:unk2e": 65535,
@@ -344278,7 +344278,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.83665e-41] 94 be 00 00",
             "drawInst:unk2e": 65535,
@@ -344286,7 +344286,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.33383e-41] ef 5c 00 00",
             "drawInst:unk2e": 65535,
@@ -344294,7 +344294,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.36155e-41] 16 e9 00 00",
             "drawInst:unk2e": 65535,
@@ -344302,7 +344302,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.38663e-41] c9 e9 00 00",
             "drawInst:unk2e": 65535,
@@ -344310,7 +344310,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.45862e-41] 2a 98 00 00",
             "drawInst:unk2c": " 32 00",

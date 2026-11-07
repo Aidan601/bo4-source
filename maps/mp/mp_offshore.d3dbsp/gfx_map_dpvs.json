@@ -5314,7 +5314,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44099330ad54fc",
+            "model": "#p8_fxanim_mp_offshore_armory_tarp_01_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.09106e-41] eb 8d 00 00",
             "drawInst:unk2c": " 04 00",
@@ -111766,7 +111766,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_bd4a44de2b66589",
+            "model": "#p8_sin_ship_container_side_panel_384_rt_open_damaged_blue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.0568e-41] b7 c4 00 00",
             "drawInst:unk2e": 65535,
@@ -165696,7 +165696,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_245c0fe39183656f",
+            "model": "#p7_fxanim_gp_tarp_red_hanging_square_low_01_s2_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.5262e-41] ad ed 00 00",
             "drawInst:unk2c": " 04 00",
@@ -166318,7 +166318,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3350de0e0[ll0x0=1c3350de0e0][f0x0=5.28538e-07][f0x4=6.31986e-43] e0 e0 0d 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.7585e-41] 86 a0 00 00",
@@ -166327,7 +166327,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3350e2850[ll0x0=1c3350e2850][f0x0=5.29578e-07][f0x4=6.31986e-43] 50 28 0e 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.98908e-41] b4 de 00 00",
@@ -166336,7 +166336,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3350e6fc0[ll0x0=1c3350e6fc0][f0x0=5.30617e-07][f0x4=6.31986e-43] c0 6f 0e 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.5819e-41] 7a b7 00 00",
@@ -166345,7 +166345,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3350eb730[ll0x0=1c3350eb730][f0x0=5.31657e-07][f0x4=6.31986e-43] 30 b7 0e 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.716e-41] 37 bb 00 00",
@@ -166354,7 +166354,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3350efea0[ll0x0=1c3350efea0][f0x0=5.32697e-07][f0x4=6.31986e-43] a0 fe 0e 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.2294e-41] e6 75 00 00",
@@ -166363,7 +166363,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3350f4610[ll0x0=1c3350f4610][f0x0=5.33736e-07][f0x4=6.31986e-43] 10 46 0f 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.72136e-41] fc 2f 00 00",
@@ -166372,7 +166372,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3350f8d80[ll0x0=1c3350f8d80][f0x0=5.34776e-07][f0x4=6.31986e-43] 80 8d 0f 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.3551e-41] e8 e8 00 00",
@@ -166381,7 +166381,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3350fd4f0[ll0x0=1c3350fd4f0][f0x0=5.35815e-07][f0x4=6.31986e-43] f0 d4 0f 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.04134e-41] a8 70 00 00",
@@ -166390,7 +166390,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335101c60[ll0x0=1c335101c60][f0x0=5.36855e-07][f0x4=6.31986e-43] 60 1c 10 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.90408e-41] 14 35 00 00",
@@ -166399,7 +166399,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3351063d0[ll0x0=1c3351063d0][f0x0=5.37894e-07][f0x4=6.31986e-43] d0 63 10 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.34039e-41] 7f e8 00 00",
@@ -166408,7 +166408,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33510ab40[ll0x0=1c33510ab40][f0x0=5.38934e-07][f0x4=6.31986e-43] 40 ab 10 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.37954e-41] 55 42 00 00",
@@ -166417,7 +166417,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33510f2b0[ll0x0=1c33510f2b0][f0x0=5.39973e-07][f0x4=6.31986e-43] b0 f2 10 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.20474e-41] b7 e4 00 00",
@@ -166426,7 +166426,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335113a20[ll0x0=1c335113a20][f0x0=5.41013e-07][f0x4=6.31986e-43] 20 3a 11 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.87217e-41] d1 87 00 00",
@@ -166435,7 +166435,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335118190[ll0x0=1c335118190][f0x0=5.42052e-07][f0x4=6.31986e-43] 90 81 11 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.73222e-41] 8b d7 00 00",
@@ -166444,7 +166444,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33511c900[ll0x0=1c33511c900][f0x0=5.43092e-07][f0x4=6.31986e-43] 00 c9 11 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.52217e-41] b0 d1 00 00",
@@ -166453,7 +166453,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335121070[ll0x0=1c335121070][f0x0=5.44132e-07][f0x4=6.31986e-43] 70 10 12 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.77917e-41] da d8 00 00",
@@ -166462,7 +166462,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3351257e0[ll0x0=1c3351257e0][f0x0=5.45171e-07][f0x4=6.31986e-43] e0 57 12 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.36679e-41] fa 41 00 00",
@@ -166471,7 +166471,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335129f50[ll0x0=1c335129f50][f0x0=5.46211e-07][f0x4=6.31986e-43] 50 9f 12 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.34851e-41] 38 79 00 00",
@@ -166480,7 +166480,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33512e6c0[ll0x0=1c33512e6c0][f0x0=5.4725e-07][f0x4=6.31986e-43] c0 e6 12 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.88664e-41] 58 6c 00 00",
@@ -166489,7 +166489,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335132e30[ll0x0=1c335132e30][f0x0=5.4829e-07][f0x4=6.31986e-43] 30 2e 13 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.87151e-41] 6d db 00 00",
@@ -166498,7 +166498,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3351375a0[ll0x0=1c3351375a0][f0x0=5.49329e-07][f0x4=6.31986e-43] a0 75 13 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.4726e-42] 0b 12 00 00",
@@ -166507,7 +166507,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33513bd10[ll0x0=1c33513bd10][f0x0=5.50369e-07][f0x4=6.31986e-43] 10 bd 13 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.10167e-41] 96 3a 00 00",
@@ -166516,7 +166516,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335140480[ll0x0=1c335140480][f0x0=5.51408e-07][f0x4=6.31986e-43] 80 04 14 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.26164e-41] 4d e6 00 00",
@@ -166525,7 +166525,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335144bf0[ll0x0=1c335144bf0][f0x0=5.52448e-07][f0x4=6.31986e-43] f0 4b 14 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.03872e-42] 9f 13 00 00",
@@ -166534,7 +166534,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335149360[ll0x0=1c335149360][f0x0=5.53488e-07][f0x4=6.31986e-43] 60 93 14 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.27235e-41] 58 3f 00 00",
@@ -166543,7 +166543,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33514dad0[ll0x0=1c33514dad0][f0x0=5.54527e-07][f0x4=6.31986e-43] d0 da 14 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.27824e-41] 03 af 00 00",
@@ -166552,7 +166552,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335152240[ll0x0=1c335152240][f0x0=5.55567e-07][f0x4=6.31986e-43] 40 22 15 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.32861e-42] 11 0c 00 00",
@@ -166561,7 +166561,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c3351569b0[ll0x0=1c3351569b0][f0x0=5.56606e-07][f0x4=6.31986e-43] b0 69 15 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.78435e-41] ff d8 00 00",
@@ -166570,7 +166570,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33515b120[ll0x0=1c33515b120][f0x0=5.57646e-07][f0x4=6.31986e-43] 20 b1 15 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.8728e-41] 15 50 00 00",
@@ -166579,7 +166579,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33515f890[ll0x0=1c33515f890][f0x0=5.58685e-07][f0x4=6.31986e-43] 90 f8 15 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.28616e-41] fc e6 00 00",
@@ -166588,7 +166588,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335164000[ll0x0=1c335164000][f0x0=5.59725e-07][f0x4=6.31986e-43] 00 40 16 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.18992e-41] 6d c8 00 00",
@@ -166597,7 +166597,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335168770[ll0x0=1c335168770][f0x0=5.60764e-07][f0x4=6.31986e-43] 70 87 16 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.58312e-41] e2 63 00 00",
@@ -166606,7 +166606,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33516cee0[ll0x0=1c33516cee0][f0x0=5.61804e-07][f0x4=6.31986e-43] e0 ce 16 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.40499e-42] 6e 17 00 00",
@@ -166615,7 +166615,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335171650[ll0x0=1c335171650][f0x0=5.62844e-07][f0x4=6.31986e-43] 50 16 17 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.32475e-42] 7b 06 00 00",
@@ -166624,7 +166624,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335175dc0[ll0x0=1c335175dc0][f0x0=5.63883e-07][f0x4=6.31986e-43] c0 5d 17 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.08426e-42] 99 08 00 00",
@@ -166633,7 +166633,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33517a530[ll0x0=1c33517a530][f0x0=5.64923e-07][f0x4=6.31986e-43] 30 a5 17 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.26338e-41] 99 ae 00 00",
@@ -166642,7 +166642,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33517eca0[ll0x0=1c33517eca0][f0x0=5.65962e-07][f0x4=6.31986e-43] a0 ec 17 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.43514e-41] c2 5f 00 00",
@@ -166651,7 +166651,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_255c9a38871626cb",
+            "model": "#p8_fxanim_mp_offshore_alt_plant_giant_lobelia_01",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335183410[ll0x0=1c335183410][f0x0=5.67002e-07][f0x4=6.31986e-43] 10 34 18 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.93463e-41] ee 35 00 00",
@@ -174408,7 +174408,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2b98db1abeff67af",
+            "model": "#p8_sin_ship_container_384_open_damaged_blue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.02897e-41] af 1c 00 00",
             "drawInst:unk2e": 65535,
@@ -177489,7 +177489,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2f039de4d1c92cc1",
+            "model": "#p8_reptile_tortoise_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.14784e-42] 90 0b 00 00",
             "drawInst:unk2e": 65535,
@@ -178471,7 +178471,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_30f9ffe87b14a026",
+            "model": "#p8_mp_offshore_prison_pit_gate_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.02849e-41] ed c3 00 00",
             "drawInst:unk2e": 65535,
@@ -178479,7 +178479,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_30f9ffe87b14a026",
+            "model": "#p8_mp_offshore_prison_pit_gate_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.44923e-41] e7 97 00 00",
             "drawInst:unk2e": 65535,
@@ -187382,7 +187382,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_359e77fe8e8986bb",
+            "model": "#p8_table_laptop_mtl",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.33166e-41] a0 94 00 00",
             "drawInst:unk2e": 65535,
@@ -187390,7 +187390,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_359e77fe8e8986bb",
+            "model": "#p8_table_laptop_mtl",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.10213e-41] bb fd 00 00",
             "drawInst:unk2e": 65535,
@@ -190485,7 +190485,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_36060702aa2af607",
+            "model": "#p8_mp_col_radar_dirty_med_grey",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.15267e-41] 02 3c 00 00",
             "drawInst:unk2e": 65535,
@@ -190509,7 +190509,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_36443d27ed5e7d2f",
+            "model": "#p8_sin_ship_container_side_panel_384_lt_open_damaged_blue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.28458e-41] 50 93 00 00",
             "drawInst:unk2e": 65535,
@@ -192103,7 +192103,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_36c09b4f3bf94fb5",
+            "model": "#p8_centrifuge_device_crate_dmg_door",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.53285e-42] 36 12 00 00",
             "drawInst:unk2c": " 32 00",
@@ -192112,7 +192112,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_36c09b4f3bf94fb5",
+            "model": "#p8_centrifuge_device_crate_dmg_door",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.22201e-41] 52 c9 00 00",
             "drawInst:unk2c": " 32 00",
@@ -215975,7 +215975,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410f107aac39f97c",
+            "model": "#p8_centrifuge_device_lid_right",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.71082e-41] 12 bb 00 00",
             "drawInst:unk2e": 65535,
@@ -215983,7 +215983,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410f107aac39f97c",
+            "model": "#p8_centrifuge_device_lid_right",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.19825e-41] 67 21 00 00",
             "drawInst:unk2e": 65535,
@@ -215991,7 +215991,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410f107aac39f97c",
+            "model": "#p8_centrifuge_device_lid_right",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.11215e-41] 42 c6 00 00",
             "drawInst:unk2e": 65535,
@@ -220978,7 +220978,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_448afa8dd4478be7",
+            "model": "#p8_sin_ship_container_end_cap_long_open_damaged_blue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.74847e-42] 73 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -229657,7 +229657,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.42359e-41] 30 97 00 00",
             "drawInst:unk2e": 65535,
@@ -229665,7 +229665,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.84355e-41] 64 33 00 00",
             "drawInst:unk2e": 65535,
@@ -229673,7 +229673,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.10766e-41] a1 56 00 00",
             "drawInst:unk2e": 65535,
@@ -229681,7 +229681,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.04054e-41] 43 c4 00 00",
             "drawInst:unk2e": 65535,
@@ -229689,7 +229689,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48dce90aecf91a7f",
+            "model": "#p8_kit_spa_vin_02_door_01_right_blue_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.75075e-41] ae 4c 00 00",
             "drawInst:unk2e": 65535,
@@ -249928,7 +249928,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.99024e-41] dc c2 00 00",
             "drawInst:unk2e": 65535,
@@ -249936,7 +249936,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.5924e-43] b9 00 00 00",
             "drawInst:unk2e": 65535,
@@ -249944,7 +249944,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.52473e-41] e2 b5 00 00",
             "drawInst:unk2e": 65535,
@@ -249952,7 +249952,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.17555e-41] c5 20 00 00",
             "drawInst:unk2e": 65535,
@@ -249960,7 +249960,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.65722e-41] d3 81 00 00",
             "drawInst:unk2e": 65535,
@@ -249968,7 +249968,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.43745e-41] 12 28 00 00",
             "drawInst:unk2e": 65535,
@@ -249976,7 +249976,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.19878e-41] cc ac 00 00",
             "drawInst:unk2e": 65535,
@@ -249984,7 +249984,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.82338e-41] 55 a2 00 00",
             "drawInst:unk2e": 65535,
@@ -249992,7 +249992,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.28979e-41] 95 77 00 00",
             "drawInst:unk2e": 65535,
@@ -250000,7 +250000,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.08569e-41] 24 3a 00 00",
             "drawInst:unk2e": 65535,
@@ -250008,7 +250008,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.2425e-41] 83 3e 00 00",
             "drawInst:unk2e": 65535,
@@ -250016,7 +250016,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.57401e-41] a1 63 00 00",
             "drawInst:unk2e": 65535,
@@ -250024,7 +250024,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.28707e-41] 42 af 00 00",
             "drawInst:unk2e": 65535,
@@ -250032,7 +250032,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.88247e-42] 09 08 00 00",
             "drawInst:unk2e": 65535,
@@ -250040,7 +250040,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.4583e-41] 08 b4 00 00",
             "drawInst:unk2e": 65535,
@@ -250048,7 +250048,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.73864e-41] 99 f3 00 00",
             "drawInst:unk2e": 65535,
@@ -250056,7 +250056,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.30199e-42] fe 0b 00 00",
             "drawInst:unk2e": 65535,
@@ -250064,7 +250064,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.15775e-41] 46 20 00 00",
             "drawInst:unk2e": 65535,
@@ -250072,7 +250072,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.43567e-41] a6 7b 00 00",
             "drawInst:unk2e": 65535,
@@ -250080,7 +250080,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.16529e-41] 5c 3c 00 00",
             "drawInst:unk2e": 65535,
@@ -250088,7 +250088,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.41479e-41] 11 7b 00 00",
             "drawInst:unk2e": 65535,
@@ -250096,7 +250096,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.96266e-41] b6 36 00 00",
             "drawInst:unk2e": 65535,
@@ -250104,7 +250104,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.87459e-42] cd 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -250112,7 +250112,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.6982e-41] 37 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -250120,7 +250120,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.1409e-41] ae 3b 00 00",
             "drawInst:unk2e": 65535,
@@ -250128,7 +250128,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f83c00f5a44c",
+            "model": "#p8_col_fort_trim_dam_mid_64_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.35861e-41] 01 e9 00 00",
             "drawInst:unk2e": 65535,
@@ -250136,7 +250136,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.16326e-41] 8f e3 00 00",
             "drawInst:unk2e": 65535,
@@ -250144,7 +250144,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.53628e-41] 74 7e 00 00",
             "drawInst:unk2e": 65535,
@@ -250152,7 +250152,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.86496e-41] 5e bf 00 00",
             "drawInst:unk2e": 65535,
@@ -250160,7 +250160,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.48692e-41] 73 29 00 00",
             "drawInst:unk2e": 65535,
@@ -250168,7 +250168,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.59224e-41] a4 d3 00 00",
             "drawInst:unk2e": 65535,
@@ -250176,7 +250176,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.11305e-41] 07 1f 00 00",
             "drawInst:unk2e": 65535,
@@ -250184,7 +250184,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.05195e-41] 53 1d 00 00",
             "drawInst:unk2e": 65535,
@@ -250192,7 +250192,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.06717e-41] 01 c5 00 00",
             "drawInst:unk2e": 65535,
@@ -250200,7 +250200,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.97395e-41] 48 de 00 00",
             "drawInst:unk2e": 65535,
@@ -250208,7 +250208,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.16088e-41] fd 73 00 00",
             "drawInst:unk2e": 65535,
@@ -250216,7 +250216,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.12809e-41] 13 73 00 00",
             "drawInst:unk2e": 65535,
@@ -250224,7 +250224,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.64443e-41] 58 9d 00 00",
             "drawInst:unk2e": 65535,
@@ -250232,7 +250232,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.81448e-41] d6 d9 00 00",
             "drawInst:unk2e": 65535,
@@ -250240,7 +250240,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.02232e-41] 40 54 00 00",
             "drawInst:unk2e": 65535,
@@ -250248,7 +250248,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.78245e-41] b0 31 00 00",
             "drawInst:unk2e": 65535,
@@ -250256,7 +250256,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.09498e-41] 07 8e 00 00",
             "drawInst:unk2e": 65535,
@@ -250264,7 +250264,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.48258e-41] d5 98 00 00",
             "drawInst:unk2e": 65535,
@@ -250272,7 +250272,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.91226e-41] 70 f8 00 00",
             "drawInst:unk2e": 65535,
@@ -250280,7 +250280,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.58357e-41] 05 48 00 00",
             "drawInst:unk2e": 65535,
@@ -250288,7 +250288,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5398f93c00f5a5ff",
+            "model": "#p8_col_fort_trim_dam_mid_64_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.7434e-41] 3a 84 00 00",
             "drawInst:unk2e": 65535,
@@ -296892,7 +296892,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_640c524cb7c624f3",
+            "model": "#p8_centrifuge_device_lid_left",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.07145e-41] e0 fc 00 00",
             "drawInst:unk2e": 65535,
@@ -296900,7 +296900,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_640c524cb7c624f3",
+            "model": "#p8_centrifuge_device_lid_left",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.30024e-41] a0 af 00 00",
             "drawInst:unk2e": 65535,
@@ -296908,7 +296908,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_640c524cb7c624f3",
+            "model": "#p8_centrifuge_device_lid_left",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.26924e-41] a3 ca 00 00",
             "drawInst:unk2e": 65535,
@@ -303777,7 +303777,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6b21483bca17f099",
+            "model": "#p7_fxanim_gp_tarp_red_hanging_square_high_01_s2_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.97164e-42] cc 1b 00 00",
             "drawInst:unk2c": " 04 00",
@@ -305652,7 +305652,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6cbafdaf2055cf85",
+            "model": "#p8_hanging_vine_pose",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335896b70[ll0x0=1c335896b70][f0x0=1.02386e-06][f0x4=6.31986e-43] 70 6b 89 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.06523e-41] 92 39 00 00",
@@ -310794,7 +310794,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.59885e-41] f3 b7 00 00",
             "drawInst:unk2e": 65535,
@@ -310802,7 +310802,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.85775e-41] eb f6 00 00",
             "drawInst:unk2e": 65535,
@@ -310810,7 +310810,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.02159e-41] 1b 70 00 00",
             "drawInst:unk2e": 65535,
@@ -310818,7 +310818,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.73351e-41] 33 4c 00 00",
             "drawInst:unk2e": 65535,
@@ -310826,7 +310826,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_70c3d23726ba18b6",
+            "model": "#p8_col_tank_water_roof_full_01_all",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.60519e-41] bf 2c 00 00",
             "drawInst:unk2e": 65535,
@@ -313145,7 +313145,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_73d885abcb4cb30d",
+            "model": "#p8_fxanim_mp_offshore_armory_tarp_02_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.90766e-41] ee 6c 00 00",
             "drawInst:unk2c": " 04 00",
@@ -342252,7 +342252,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_761267d65366dd3c",
+            "model": "#p8_fxanim_mp_offshore_outpost_base_tarp_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.93173e-41] 7a 89 00 00",
             "drawInst:unk2c": " 04 00",

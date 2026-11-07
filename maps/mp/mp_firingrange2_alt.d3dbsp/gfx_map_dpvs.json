@@ -7138,7 +7138,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a6e9eea50265c7",
+            "model": "#p7_fir_electricbox_outlet_01_grey",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.73477e-41] 3c 4c 00 00",
             "drawInst:unk2c": " 01 01",
@@ -7147,7 +7147,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a6e9eea50265c7",
+            "model": "#p7_fir_electricbox_outlet_01_grey",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.01283e-41] 9d a7 00 00",
             "drawInst:unk2c": " 01 01",
@@ -7156,7 +7156,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a6e9eea50265c7",
+            "model": "#p7_fir_electricbox_outlet_01_grey",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.74805e-41] 7b 68 00 00",
             "drawInst:unk2c": " 01 01",
@@ -7165,7 +7165,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a6e9eea50265c7",
+            "model": "#p7_fir_electricbox_outlet_01_grey",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.99658e-41] 29 a7 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8909,7 +8909,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.47337e-41] 34 ec 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8918,7 +8918,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.64503e-41] fd f0 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8927,7 +8927,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.06611e-41] b8 1d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8936,7 +8936,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.94423e-41] f3 6d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8945,7 +8945,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.82345e-41] 16 da 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8954,7 +8954,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.28832e-41] ca 3f 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8963,7 +8963,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.602e-41] 49 80 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8972,7 +8972,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.39574e-41] 0a ea 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8981,7 +8981,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.91103e-41] 87 dc 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8990,7 +8990,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.37411e-41] 4e 26 00 00",
             "drawInst:unk2c": " 01 01",
@@ -8999,7 +8999,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.31372e-42] d0 0e 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9008,7 +9008,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.33159e-41] 60 cc 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9017,7 +9017,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.03966e-41] 9c 70 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9026,7 +9026,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.861e-41] a1 6b 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9035,7 +9035,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.65199e-41] 0d 2e 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9044,7 +9044,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.50945e-41] f4 45 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9053,7 +9053,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.37583e-41] fb 79 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9062,7 +9062,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.29236e-42] 54 14 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9071,7 +9071,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.33835e-41] 2f 41 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9080,7 +9080,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.64881e-42] 1c 18 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9089,7 +9089,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_854334cf955de06",
+            "model": "#p7_fir_shooting_clay",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.85795e-41] ab 4f 00 00",
             "drawInst:unk2c": " 01 01",
@@ -9773,7 +9773,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_8fba3d9663b9185",
+            "model": "#p8_fxanim_gp_fan_industrial_blade_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c334c32b68[ll0x0=1c334c32b68][f0x0=3.63532e-07][f0x4=6.31986e-43] 68 2b c3 34 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.17033e-41] 80 3c 00 00",
@@ -9782,7 +9782,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_8fba3d9663b9185",
+            "model": "#p8_fxanim_gp_fan_industrial_blade_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c334c37310[ll0x0=1c334c37310][f0x0=3.64053e-07][f0x4=6.31986e-43] 10 73 c3 34 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.23111e-41] 12 5a 00 00",
@@ -25889,7 +25889,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_234d2ac5982ee02d",
+            "model": "#p7_fir_shooting_clay_stack",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.52182e-41] ed 99 00 00",
             "drawInst:unk2c": " 01 01",
@@ -25898,7 +25898,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_234d2ac5982ee02d",
+            "model": "#p7_fir_shooting_clay_stack",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.53607e-41] b2 46 00 00",
             "drawInst:unk2c": " 01 01",
@@ -25907,7 +25907,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_234d2ac5982ee02d",
+            "model": "#p7_fir_shooting_clay_stack",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.58344e-41] 85 b7 00 00",
             "drawInst:unk2c": " 01 01",
@@ -25916,7 +25916,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_234d2ac5982ee02d",
+            "model": "#p7_fir_shooting_clay_stack",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.60834e-41] 96 64 00 00",
             "drawInst:unk2c": " 01 01",
@@ -25925,7 +25925,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_234d2ac5982ee02d",
+            "model": "#p7_fir_shooting_clay_stack",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.76185e-41] 1d 31 00 00",
             "drawInst:unk2c": " 01 01",
@@ -25934,7 +25934,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_234d2ac5982ee02d",
+            "model": "#p7_fir_shooting_clay_stack",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.82632e-41] 6a a2 00 00",
             "drawInst:unk2c": " 01 01",
@@ -48487,7 +48487,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_38f1361293d8c1c2",
+            "model": "#p7_fir_gate_rolling_small_low_decals",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.19788e-41] 86 e4 00 00",
             "drawInst:unk2e": 65535,
@@ -57111,7 +57111,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_46477394ce495e8c",
+            "model": "#p7_fir_propane_tank_shed",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.2355e-41] d2 ad 00 00",
             "drawInst:unk2c": " 01 01",
@@ -58185,7 +58185,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ad395814e335a18",
+            "model": "#p7_fir_shooting_clay_shard_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.37688e-41] 42 42 00 00",
             "drawInst:unk2c": " 01 01",
@@ -58194,7 +58194,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ad396814e335bcb",
+            "model": "#p7_fir_shooting_clay_shard_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.22352e-41] 3d e5 00 00",
             "drawInst:unk2c": " 01 01",
@@ -58203,7 +58203,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ad396814e335bcb",
+            "model": "#p7_fir_shooting_clay_shard_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.53607e-41] b2 46 00 00",
             "drawInst:unk2c": " 01 01",
@@ -58212,7 +58212,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ad398814e335f31",
+            "model": "#p7_fir_shooting_clay_shard_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.68517e-41] 5b ba 00 00",
             "drawInst:unk2c": " 01 01",
@@ -58221,7 +58221,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ad398814e335f31",
+            "model": "#p7_fir_shooting_clay_shard_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.19283e-41] 62 e4 00 00",
             "drawInst:unk2c": " 01 01",
@@ -75387,7 +75387,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6144c5241b113796",
+            "model": "#p7_fir_gate_rolling_large_low_decals",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.1708e-41] a5 ff 00 00",
             "drawInst:unk2e": 65535,
@@ -88284,7 +88284,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7046bc2cfc4e8864",
+            "model": "#p8_fxanim_fir_net_ceiling_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.52725e-41] f4 b5 00 00",
             "drawInst:unk2c": " 05 01",
@@ -118015,7 +118015,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_729d8e2698bb2061",
+            "model": "#p7_fxanim_fir_facade_tarp_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.48601e-41] 2d 61 00 00",
             "drawInst:unk2c": " 05 01",

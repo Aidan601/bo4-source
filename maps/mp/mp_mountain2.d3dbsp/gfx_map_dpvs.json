@@ -32756,7 +32756,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2e5e1dfab00b4ec2",
+            "model": "#p7_mou_pipe_metal_hp_12_valve_01_lightblue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.18151e-41] 31 c8 00 00",
             "drawInst:unk2c": " 01 01",
@@ -50961,7 +50961,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4a1ef670dd25d7cd",
+            "model": "#p7_mou_veh_mphd_hind_snow_rotor_blades_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.80607e-41] 19 6a 00 00",
             "drawInst:unk2c": " 04 00",
@@ -55335,7 +55335,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4b3e80f4a8695f78",
+            "model": "#veh_mphd_hind_int_attach_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.59664e-41] 82 2c 00 00",
             "drawInst:unk2c": " 01 01",
@@ -70942,7 +70942,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5f2d8c2d617c7f37",
+            "model": "#p7_mou_pipe_metal_hp_12_elbow_90_lightblue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.37205e-43] 38 01 00 00",
             "drawInst:unk2c": " 01 01",
@@ -70951,7 +70951,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5f2d8c2d617c7f37",
+            "model": "#p7_mou_pipe_metal_hp_12_elbow_90_lightblue",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.22124e-42] 8e 0e 00 00",
             "drawInst:unk2c": " 01 01",
@@ -103932,7 +103932,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.06878e-41] 4c 8d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -103941,7 +103941,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.68058e-41] 5a 9e 00 00",
             "drawInst:unk2c": " 01 01",
@@ -103950,7 +103950,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.26608e-41] cc 92 00 00",
             "drawInst:unk2c": " 01 01",
@@ -103959,7 +103959,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.92729e-41] fb dc 00 00",
             "drawInst:unk2c": " 01 01",
@@ -103968,7 +103968,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.44079e-41] 8b b3 00 00",
             "drawInst:unk2c": " 01 01",
@@ -103977,7 +103977,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.13026e-41] e3 aa 00 00",
             "drawInst:unk2c": " 01 01",
@@ -103986,7 +103986,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.59139e-41] 1d 64 00 00",
             "drawInst:unk2c": " 01 01",
@@ -103995,7 +103995,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.30427e-41] 9d cb 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104004,7 +104004,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.13058e-41] 86 fe 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104013,7 +104013,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.7371e-42] 5b 18 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104022,7 +104022,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.24296e-42] c4 19 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104031,7 +104031,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.30868e-41] fc 93 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104040,7 +104040,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.64562e-41] a0 65 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104049,7 +104049,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.82509e-41] 81 86 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104058,7 +104058,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.77864e-41] f6 bc 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104067,7 +104067,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.72035e-41] 56 bb 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104076,7 +104076,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.36346e-41] 02 26 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104085,7 +104085,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.12806e-42] 72 19 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104094,7 +104094,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.17779e-41] d5 20 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104103,7 +104103,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.90217e-41] 28 f8 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104112,7 +104112,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.28847e-41] 4c af 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104121,7 +104121,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.10072e-41] af 1e 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104130,7 +104130,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.91776e-41] b7 dc 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104139,7 +104139,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.84769e-41] 42 6b 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104148,7 +104148,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.51592e-41] 42 2a 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104157,7 +104157,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.28717e-41] 23 cb 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104166,7 +104166,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.87228e-41] b2 a3 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104175,7 +104175,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.4995e-41] 2e b5 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104184,7 +104184,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.08808e-41] b6 a9 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104193,7 +104193,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.44067e-41] 29 28 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104202,7 +104202,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.10724e-41] 9e 56 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104211,7 +104211,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.41466e-41] 91 ea 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104220,7 +104220,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.82583e-41] a6 6a 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104229,7 +104229,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.43791e-42] 5f 0c 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104238,7 +104238,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.21816e-41] 76 91 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104247,7 +104247,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.62656e-42] 1c 0a 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104256,7 +104256,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.17458e-41] c0 ff 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104265,7 +104265,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.24393e-41] ad 22 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104274,7 +104274,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.00085e-41] 08 df 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104283,7 +104283,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.1765e-41] 2d ac 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104292,7 +104292,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.39549e-41] a7 5e 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104301,7 +104301,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.01335e-41] 00 54 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104310,7 +104310,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.60922e-41] 3d b8 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104319,7 +104319,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.58641e-41] 39 2c 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104328,7 +104328,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.66391e-41] e3 9d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104337,7 +104337,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.5635e-41] 56 63 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104346,7 +104346,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.65298e-41] 95 9d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104355,7 +104355,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.09477e-41] 45 56 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104364,7 +104364,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.30044e-41] e1 77 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104373,7 +104373,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.60589e-42] 7a 04 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104382,7 +104382,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.149e-41] 49 c7 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104391,7 +104391,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.33015e-41] b5 78 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104400,7 +104400,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.7434e-41] 3a 84 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104409,7 +104409,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.07935e-41] d7 55 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104418,7 +104418,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.30574e-41] e7 93 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104427,7 +104427,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.50517e-41] 96 7d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104436,7 +104436,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.09211e-41] 32 56 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104445,7 +104445,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.7635e-41] 09 4d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -104454,7 +104454,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dffcf37e537f958",
+            "model": "#p7_debris_concrete_rubble_bolt_long_range",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.02667e-41] e0 c3 00 00",
             "drawInst:unk2c": " 01 01",

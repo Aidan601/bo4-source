@@ -6946,7 +6946,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_9fea5b270fb243c",
+            "model": "#p8_wmd_gate_star_metal_lt_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.27056e-41] 6b 23 00 00",
             "drawInst:unk2e": 65535,
@@ -6954,7 +6954,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_9fea5b270fb243c",
+            "model": "#p8_wmd_gate_star_metal_lt_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.53649e-41] b5 46 00 00",
             "drawInst:unk2e": 65535,
@@ -7713,7 +7713,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_b16c43c178225eb",
+            "model": "#p8_kit_spa_gen_03_steps_01_light_concrete_96_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.32826e-41] 68 b0 00 00",
             "drawInst:unk2e": 65535,
@@ -25854,7 +25854,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1ad08ab5585f8a3e",
+            "model": "#p8_wmd_gate_star_metal_rt_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.14448e-41] 88 73 00 00",
             "drawInst:unk2e": 65535,
@@ -25862,7 +25862,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1ad08ab5585f8a3e",
+            "model": "#p8_wmd_gate_star_metal_rt_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.15895e-41] 0f 58 00 00",
             "drawInst:unk2e": 65535,
@@ -39838,7 +39838,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_22cf30ed639bc5be",
+            "model": "#p8_fxanim_mp_wmd_pallet_wobble_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335ac6180[ll0x0=1c335ac6180][f0x0=1.28434e-06][f0x4=6.31986e-43] 80 61 ac 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.48178e-41] 70 ec 00 00",
@@ -43114,7 +43114,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2b6919aee51f2dec",
+            "model": "#p8_nt4_train_locomotive_right_parts_body",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.4817e-41] 2e 45 00 00",
             "drawInst:unk2e": 65535,
@@ -47894,7 +47894,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3296aed8594d9248",
+            "model": "#p7_zm_der2_chainlink_fence_post_cap_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.08363e-41] b6 8d 00 00",
             "drawInst:unk2e": 65535,
@@ -47902,7 +47902,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3296aed8594d9248",
+            "model": "#p7_zm_der2_chainlink_fence_post_cap_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.08745e-41] 72 e1 00 00",
             "drawInst:unk2e": 65535,
@@ -55792,7 +55792,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3871afc78cf6dee2",
+            "model": "#p8_wmd_handrail_02_post_blockers_dmg_2_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.22824e-42] 93 0e 00 00",
             "drawInst:unk2e": 65535,
@@ -75442,7 +75442,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.80659e-41] fd 85 00 00",
             "drawInst:unk2e": 65535,
@@ -75450,7 +75450,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.02523e-41] 35 70 00 00",
             "drawInst:unk2e": 65535,
@@ -75458,7 +75458,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=1.58347e-43] 71 00 00 00",
             "drawInst:unk28": "[f0x0=5.40733e-41] bc 96 00 00",
             "drawInst:unk2e": 65535,
@@ -75466,7 +75466,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.88955e-41] 4d 88 00 00",
             "drawInst:unk2e": 65535,
@@ -75474,7 +75474,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.26906e-41] 01 77 00 00",
             "drawInst:unk2e": 65535,
@@ -75482,7 +75482,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.47351e-41] 35 ec 00 00",
             "drawInst:unk2e": 65535,
@@ -75490,7 +75490,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.71778e-41] a3 67 00 00",
             "drawInst:unk2e": 65535,
@@ -75498,7 +75498,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.51109e-41] e0 61 00 00",
             "drawInst:unk2e": 65535,
@@ -75506,7 +75506,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=1.58347e-43] 71 00 00 00",
             "drawInst:unk28": "[f0x0=6.17945e-41] 42 ac 00 00",
             "drawInst:unk2e": 65535,
@@ -75514,7 +75514,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.32918e-41] 2f e8 00 00",
             "drawInst:unk2e": 65535,
@@ -75522,7 +75522,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f61801aa53c25a8",
+            "model": "#p8_wmd_door_single_white_plane_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.21862e-42] e9 16 00 00",
             "drawInst:unk2e": 65535,
@@ -75878,7 +75878,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ff2bf6876c83e2a",
+            "model": "#p8_wmd_handrail_02_post_incline_rt_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.08199e-41] 4b e1 00 00",
             "drawInst:unk2e": 65535,
@@ -76386,7 +76386,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5093401aa63fd27e",
+            "model": "#p8_wmd_door_single_white_plane_60",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.63872e-41] 4f 81 00 00",
             "drawInst:unk2e": 65535,
@@ -76394,7 +76394,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5093401aa63fd27e",
+            "model": "#p8_wmd_door_single_white_plane_60",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.21904e-41] 1d e5 00 00",
             "drawInst:unk2e": 65535,
@@ -76402,7 +76402,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5093401aa63fd27e",
+            "model": "#p8_wmd_door_single_white_plane_60",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.21713e-41] ce 3d 00 00",
             "drawInst:unk2e": 65535,
@@ -79252,7 +79252,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6543e364e25e0",
+            "model": "#p8_wmd_handrail_02_post_incline_lt_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.33786e-41] ec 78 00 00",
             "drawInst:unk2e": 65535,
@@ -79890,7 +79890,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5826910b528c6661",
+            "model": "#p8_nt4_train_locomotive_left_parts_body",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.66903e-41] c8 d5 00 00",
             "drawInst:unk2e": 65535,
@@ -80762,7 +80762,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_599b9956f4b90702",
+            "model": "#p8_mp_sta_clamp_rusty_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.64691e-41] c9 49 00 00",
             "drawInst:unk2e": 65535,
@@ -94920,7 +94920,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6898100ba0a603b1",
+            "model": "#p8_zm_man_prima_machine_05_gauge_med",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.22562e-42] ee 16 00 00",
             "drawInst:unk2e": 65535,
@@ -94928,7 +94928,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6898100ba0a603b1",
+            "model": "#p8_zm_man_prima_machine_05_gauge_med",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.60204e-41] 69 64 00 00",
             "drawInst:unk2e": 65535,
@@ -94936,7 +94936,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6898100ba0a603b1",
+            "model": "#p8_zm_man_prima_machine_05_gauge_med",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.92662e-41] 16 c1 00 00",
             "drawInst:unk2e": 65535,
@@ -119116,14 +119116,14 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_79ef769260a996bd",
+            "model": "#p8_kit_spa_gen_03_steps_01_light_concrete_128_01",
             "drawInst:unk20": "[f0x0=1.17709e-43] 54 00 00 00",
             "drawInst:unk28": "[f0x0=5.01973e-41] ee 8b 00 00",
             "drawInst:unk2e": 65535,
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_79ef769260a996bd",
+            "model": "#p8_kit_spa_gen_03_steps_01_light_concrete_128_01",
             "drawInst:unk20": "[f0x0=1.17709e-43] 54 00 00 00",
             "drawInst:unk28": "[f0x0=2.37478e-41] 33 42 00 00",
             "drawInst:unk2e": 65535,
@@ -120220,7 +120220,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7bf11929584b8569",
+            "model": "#p8_wmd_signage_high_voltage_vodka",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.41853e-41] 8b 27 00 00",
             "drawInst:unk2e": 65535,
@@ -122118,7 +122118,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b53d50[ll0x0=1c335b53d50][f0x0=1.35034e-06][f0x4=6.31986e-43] 50 3d b5 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.02835e-41] 6b 54 00 00",
@@ -122128,7 +122128,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b585c0[ll0x0=1c335b585c0][f0x0=1.35245e-06][f0x4=6.31986e-43] c0 85 b5 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.30878e-41] 5c 40 00 00",
@@ -122138,7 +122138,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b5ce30[ll0x0=1c335b5ce30][f0x0=1.35456e-06][f0x4=6.31986e-43] 30 ce b5 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.36582e-41] 74 b1 00 00",
@@ -122148,7 +122148,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b616a0[ll0x0=1c335b616a0][f0x0=1.35666e-06][f0x4=6.31986e-43] a0 16 b6 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.69456e-41] 1d 4b 00 00",
@@ -122158,7 +122158,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b65f10[ll0x0=1c335b65f10][f0x0=1.35877e-06][f0x4=6.31986e-43] 10 5f b6 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.91951e-41] 03 a5 00 00",
@@ -122168,7 +122168,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b6a780[ll0x0=1c335b6a780][f0x0=1.36088e-06][f0x4=6.31986e-43] 80 a7 b6 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.92207e-42] df 18 00 00",
@@ -122178,7 +122178,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b6eff0[ll0x0=1c335b6eff0][f0x0=1.36299e-06][f0x4=6.31986e-43] f0 ef b6 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.34728e-41] 4f 5d 00 00",
@@ -122188,7 +122188,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b73860[ll0x0=1c335b73860][f0x0=1.3651e-06][f0x4=6.31986e-43] 60 38 b7 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.10518e-41] 30 aa 00 00",
@@ -122198,7 +122198,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b780d0[ll0x0=1c335b780d0][f0x0=1.36721e-06][f0x4=6.31986e-43] d0 80 b7 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.71572e-41] 35 bb 00 00",
@@ -122208,7 +122208,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eec9db10cac0af8",
+            "model": "#p8_fxanim_mp_wmd_fan_spin_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c335b7c940[ll0x0=1c335b7c940][f0x0=1.36931e-06][f0x4=6.31986e-43] 40 c9 b7 35 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.22614e-41] 2e 22 00 00",
@@ -124199,7 +124199,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fe4f642a05aea71",
+            "model": "#p8_wmd_gate_star_metal_hinge_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.27182e-41] f5 92 00 00",
             "drawInst:unk2e": 65535,
@@ -124207,7 +124207,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fe4f642a05aea71",
+            "model": "#p8_wmd_gate_star_metal_hinge_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.05817e-41] a1 e0 00 00",
             "drawInst:unk2e": 65535,
@@ -124215,7 +124215,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fe4f642a05aea71",
+            "model": "#p8_wmd_gate_star_metal_hinge_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.54067e-41] 34 d2 00 00",
             "drawInst:unk2e": 65535,
@@ -124223,7 +124223,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fe4f642a05aea71",
+            "model": "#p8_wmd_gate_star_metal_hinge_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.00897e-41] c1 6f 00 00",
             "drawInst:unk2e": 65535,

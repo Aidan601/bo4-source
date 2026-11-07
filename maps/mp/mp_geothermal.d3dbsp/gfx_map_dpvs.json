@@ -6120,7 +6120,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_784096d53297e07",
+            "model": "#p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.39938e-41] a3 7a 00 00",
             "drawInst:unk2e": 65535,
@@ -6128,7 +6128,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_784096d53297e07",
+            "model": "#p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.35507e-42] 14 1a 00 00",
             "drawInst:unk2e": 65535,
@@ -6136,7 +6136,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_784096d53297e07",
+            "model": "#p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.86696e-41] 8c a3 00 00",
             "drawInst:unk2e": 65535,
@@ -6144,7 +6144,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_784096d53297e07",
+            "model": "#p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.44474e-42] 07 04 00 00",
             "drawInst:unk2e": 65535,
@@ -6152,7 +6152,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_784096d53297e07",
+            "model": "#p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.84937e-42] bb 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -6160,7 +6160,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_784096d53297e07",
+            "model": "#p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.94353e-41] ee 6d 00 00",
             "drawInst:unk2e": 65535,
@@ -7947,7 +7947,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_fcad00216f9ff45",
+            "model": "#p8_geo_pipeline_single_pipe_curved_left_junction",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.71768e-41] c2 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -7955,7 +7955,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_fcad00216f9ff45",
+            "model": "#p8_geo_pipeline_single_pipe_curved_left_junction",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.42688e-44] 35 00 00 00",
             "drawInst:unk2e": 65535,
@@ -7963,7 +7963,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_fcad00216f9ff45",
+            "model": "#p8_geo_pipeline_single_pipe_curved_left_junction",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.16148e-41] a2 c7 00 00",
             "drawInst:unk2e": 65535,
@@ -8003,7 +8003,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.52469e-41] c2 d1 00 00",
             "drawInst:unk2e": 65535,
@@ -8011,7 +8011,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.78379e-41] 7a 69 00 00",
             "drawInst:unk2e": 65535,
@@ -8019,7 +8019,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.74284e-41] b7 f3 00 00",
             "drawInst:unk2e": 65535,
@@ -8027,7 +8027,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.23028e-41] 8d c9 00 00",
             "drawInst:unk2e": 65535,
@@ -8035,7 +8035,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.24152e-41] fd ad 00 00",
             "drawInst:unk2e": 65535,
@@ -8043,7 +8043,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.89291e-41] 65 88 00 00",
             "drawInst:unk2e": 65535,
@@ -8051,7 +8051,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.1263e-41] 26 57 00 00",
             "drawInst:unk2e": 65535,
@@ -8059,7 +8059,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.42002e-41] d7 ce 00 00",
             "drawInst:unk2e": 65535,
@@ -8067,7 +8067,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.7077e-41] 5b 67 00 00",
             "drawInst:unk2e": 65535,
@@ -8075,7 +8075,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.2254e-41] 09 3e 00 00",
             "drawInst:unk2e": 65535,
@@ -8083,7 +8083,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.29071e-41] 5c af 00 00",
             "drawInst:unk2e": 65535,
@@ -8091,7 +8091,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.25589e-41] 24 e6 00 00",
             "drawInst:unk2e": 65535,
@@ -8099,7 +8099,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.99826e-41] 35 a7 00 00",
             "drawInst:unk2e": 65535,
@@ -8107,7 +8107,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.927e-41] 78 6d 00 00",
             "drawInst:unk2e": 65535,
@@ -8115,7 +8115,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.60225e-41] 2b 9c 00 00",
             "drawInst:unk2e": 65535,
@@ -8123,7 +8123,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_108dc59174b27156",
+            "model": "#p8_usa_netted_fence_spike_02_snow",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.48128e-41] 2b 45 00 00",
             "drawInst:unk2e": 65535,
@@ -10551,7 +10551,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_17e8baf619ab51d5",
+            "model": "#p8_fxanim_zm_esc_crane_skeleton_hand_open_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.87877e-41] 81 f7 00 00",
             "drawInst:unk2e": 65535,
@@ -10559,7 +10559,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_17e8baf619ab51d5",
+            "model": "#p8_fxanim_zm_esc_crane_skeleton_hand_open_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.82492e-41] 60 a2 00 00",
             "drawInst:unk2e": 65535,
@@ -10567,7 +10567,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_17e8baf619ab51d5",
+            "model": "#p8_fxanim_zm_esc_crane_skeleton_hand_open_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.47343e-41] f3 44 00 00",
             "drawInst:unk2e": 65535,
@@ -10575,7 +10575,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_17e8baf619ab51d5",
+            "model": "#p8_fxanim_zm_esc_crane_skeleton_hand_open_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.36908e-41] ab 95 00 00",
             "drawInst:unk2e": 65535,
@@ -10583,7 +10583,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_17e8baf619ab51d5",
+            "model": "#p8_fxanim_zm_esc_crane_skeleton_hand_open_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.88079e-41] 4e 50 00 00",
             "drawInst:unk2e": 65535,
@@ -14309,7 +14309,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.4218e-41] c4 ea 00 00",
             "drawInst:unk2e": 65535,
@@ -14317,7 +14317,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.65435e-41] 7f b9 00 00",
             "drawInst:unk2e": 65535,
@@ -14325,7 +14325,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.42433e-41] d6 ea 00 00",
             "drawInst:unk2e": 65535,
@@ -14333,7 +14333,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.48668e-41] 12 7d 00 00",
             "drawInst:unk2e": 65535,
@@ -14341,7 +14341,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.65473e-41] 62 d5 00 00",
             "drawInst:unk2e": 65535,
@@ -14349,7 +14349,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.24401e-41] ef c9 00 00",
             "drawInst:unk2e": 65535,
@@ -14357,7 +14357,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.70181e-41] 31 67 00 00",
             "drawInst:unk2e": 65535,
@@ -14365,7 +14365,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.28268e-41] 82 5b 00 00",
             "drawInst:unk2e": 65535,
@@ -14373,7 +14373,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.02347e-41] 68 38 00 00",
             "drawInst:unk2e": 65535,
@@ -14381,7 +14381,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ac2125703b674a9",
+            "model": "#p8_geo_rock_bas_lrg_03_grime",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.14585e-41] f3 fe 00 00",
             "drawInst:unk2e": 65535,
@@ -16735,7 +16735,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_314deb112f40fd45",
+            "model": "#p8_fxanim_mp_geo_mil_tend_end_side_single_flap_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.07032e-41] d8 fc 00 00",
             "drawInst:unk2c": " 04 00",
@@ -16744,7 +16744,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_314deb112f40fd45",
+            "model": "#p8_fxanim_mp_geo_mil_tend_end_side_single_flap_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.93236e-41] 3f c1 00 00",
             "drawInst:unk2c": " 04 00",
@@ -21519,7 +21519,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.70311e-41] db ba 00 00",
             "drawInst:unk2e": 466,
@@ -21527,7 +21527,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.81066e-41] 1a 86 00 00",
             "drawInst:unk2e": 465,
@@ -21535,7 +21535,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.00908e-41] 21 1c 00 00",
             "drawInst:unk2e": 464,
@@ -21543,7 +21543,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.111e-41] 1a e2 00 00",
             "drawInst:unk2e": 463,
@@ -21551,7 +21551,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.20231e-41] 84 21 00 00",
             "drawInst:unk2e": 462,
@@ -21559,7 +21559,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.80222e-41] be a1 00 00",
             "drawInst:unk2e": 461,
@@ -21567,7 +21567,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.55062e-41] 7b d2 00 00",
             "drawInst:unk2e": 460,
@@ -21575,7 +21575,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.72266e-41] 27 f3 00 00",
             "drawInst:unk2e": 467,
@@ -21583,7 +21583,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.20091e-41] 7a 21 00 00",
             "drawInst:unk2e": 478,
@@ -21591,7 +21591,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.52833e-41] 5b 62 00 00",
             "drawInst:unk2e": 477,
@@ -21599,7 +21599,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.33002e-41] 35 e8 00 00",
             "drawInst:unk2e": 476,
@@ -21607,7 +21607,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.98964e-41] b8 de 00 00",
             "drawInst:unk2e": 475,
@@ -21615,7 +21615,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.55339e-41] 6f ee 00 00",
             "drawInst:unk2e": 474,
@@ -21623,7 +21623,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.57398e-41] 81 7f 00 00",
             "drawInst:unk2e": 473,
@@ -21631,7 +21631,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.31758e-41] fc cb 00 00",
             "drawInst:unk2e": 472,
@@ -21639,7 +21639,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.54967e-41] 94 b6 00 00",
             "drawInst:unk2e": 471,
@@ -21647,7 +21647,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.50832e-41] ec 45 00 00",
             "drawInst:unk2e": 470,
@@ -21655,7 +21655,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.16413e-42] d2 08 00 00",
             "drawInst:unk2e": 469,
@@ -21663,7 +21663,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.38981e-41] be 26 00 00",
             "drawInst:unk2e": 468,
@@ -24308,7 +24308,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3db9f75360dfc0aa",
+            "model": "#p8_geo_tent_military_modular_side_single_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.23883e-41] ca c9 00 00",
             "drawInst:unk2e": 65535,
@@ -24316,7 +24316,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3db9f75360dfc0aa",
+            "model": "#p8_geo_tent_military_modular_side_single_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.21476e-41] 3e ad 00 00",
             "drawInst:unk2e": 65535,
@@ -24836,7 +24836,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.53344e-41] bf 2a 00 00",
             "drawInst:unk2e": 65535,
@@ -24844,7 +24844,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.49649e-41] 58 7d 00 00",
             "drawInst:unk2e": 65535,
@@ -24852,7 +24852,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.66293e-41] dc 9d 00 00",
             "drawInst:unk2e": 65535,
@@ -24860,7 +24860,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.22716e-41] 57 e5 00 00",
             "drawInst:unk2e": 65535,
@@ -24868,7 +24868,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.10402e-41] 08 c6 00 00",
             "drawInst:unk2e": 65535,
@@ -24876,7 +24876,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.92133e-41] 10 a5 00 00",
             "drawInst:unk2e": 65535,
@@ -24884,7 +24884,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.43199e-41] eb 27 00 00",
             "drawInst:unk2e": 65535,
@@ -24892,7 +24892,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.37205e-41] e0 79 00 00",
             "drawInst:unk2e": 65535,
@@ -24900,7 +24900,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.88755e-41] 9e 34 00 00",
             "drawInst:unk2e": 65535,
@@ -24908,7 +24908,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.91022e-41] 20 51 00 00",
             "drawInst:unk2c": " 32 00",
@@ -24917,7 +24917,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.33176e-41] 00 41 00 00",
             "drawInst:unk2e": 65535,
@@ -24925,7 +24925,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.9187e-41] 9e f8 00 00",
             "drawInst:unk2c": " 32 00",
@@ -24934,7 +24934,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.63469e-41] d3 d4 00 00",
             "drawInst:unk2e": 65535,
@@ -24942,7 +24942,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3f210a526c3dbbc4",
+            "model": "#p8_geo_foliage_bush_scaevola_sml",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.75058e-42] 9b 15 00 00",
             "drawInst:unk2e": 65535,
@@ -30862,7 +30862,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3a3259cbb138",
+            "model": "#p8_geo_mineral_rock_chunk_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.12816e-41] d4 aa 00 00",
             "drawInst:unk2e": 65535,
@@ -30870,7 +30870,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3a3259cbb138",
+            "model": "#p8_geo_mineral_rock_chunk_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.37902e-41] 71 26 00 00",
             "drawInst:unk2e": 65535,
@@ -30878,7 +30878,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3a3259cbb138",
+            "model": "#p8_geo_mineral_rock_chunk_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.70963e-41] ca f2 00 00",
             "drawInst:unk2e": 65535,
@@ -30886,7 +30886,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3a3259cbb138",
+            "model": "#p8_geo_mineral_rock_chunk_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.20354e-41] 6d 3d 00 00",
             "drawInst:unk2e": 65535,
@@ -30894,7 +30894,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3a3259cbb138",
+            "model": "#p8_geo_mineral_rock_chunk_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.74582e-41] ec d7 00 00",
             "drawInst:unk2e": 65535,
@@ -30902,7 +30902,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3a3259cbb138",
+            "model": "#p8_geo_mineral_rock_chunk_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.34272e-41] 6e 25 00 00",
             "drawInst:unk2e": 65535,
@@ -30910,7 +30910,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3a3259cbb138",
+            "model": "#p8_geo_mineral_rock_chunk_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.46472e-42] cf 14 00 00",
             "drawInst:unk2e": 65535,
@@ -30918,7 +30918,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3b3259cbb2eb",
+            "model": "#p8_geo_mineral_rock_chunk_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.95972e-42] 9d 10 00 00",
             "drawInst:unk2e": 65535,
@@ -30926,7 +30926,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3b3259cbb2eb",
+            "model": "#p8_geo_mineral_rock_chunk_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.98057e-41] 97 c2 00 00",
             "drawInst:unk2e": 65535,
@@ -30934,7 +30934,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3b3259cbb2eb",
+            "model": "#p8_geo_mineral_rock_chunk_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.16826e-41] 91 20 00 00",
             "drawInst:unk2e": 65535,
@@ -30942,7 +30942,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3b3259cbb2eb",
+            "model": "#p8_geo_mineral_rock_chunk_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.0728e-41] c8 39 00 00",
             "drawInst:unk2e": 65535,
@@ -30950,7 +30950,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3b3259cbb2eb",
+            "model": "#p8_geo_mineral_rock_chunk_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.32469e-41] 0f e8 00 00",
             "drawInst:unk2e": 65535,
@@ -30958,7 +30958,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3b3259cbb2eb",
+            "model": "#p8_geo_mineral_rock_chunk_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.94021e-41] 77 c1 00 00",
             "drawInst:unk2e": 65535,
@@ -30966,7 +30966,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.45684e-42] 93 17 00 00",
             "drawInst:unk2e": 65535,
@@ -30974,7 +30974,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.67981e-41] 94 66 00 00",
             "drawInst:unk2e": 65535,
@@ -30982,7 +30982,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.42288e-41] 2b 97 00 00",
             "drawInst:unk2e": 65535,
@@ -30990,7 +30990,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.83227e-41] d4 6a 00 00",
             "drawInst:unk2e": 65535,
@@ -30998,7 +30998,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.52024e-42] 2d 12 00 00",
             "drawInst:unk2e": 65535,
@@ -31006,7 +31006,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.59885e-41] 72 48 00 00",
             "drawInst:unk2e": 65535,
@@ -31014,7 +31014,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.31852e-41] 62 78 00 00",
             "drawInst:unk2e": 65535,
@@ -31022,7 +31022,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.35558e-42] 91 06 00 00",
             "drawInst:unk2e": 65535,
@@ -31030,7 +31030,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.5929e-41] 08 80 00 00",
             "drawInst:unk2e": 65535,
@@ -31038,7 +31038,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.92118e-41] 8e 35 00 00",
             "drawInst:unk2e": 65535,
@@ -31046,7 +31046,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.05067e-41] ab a8 00 00",
             "drawInst:unk2e": 65535,
@@ -31054,7 +31054,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.08086e-41] c2 71 00 00",
             "drawInst:unk2e": 65535,
@@ -31062,7 +31062,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.80621e-41] 9b d9 00 00",
             "drawInst:unk2e": 65535,
@@ -31070,7 +31070,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.95121e-41] 05 8a 00 00",
             "drawInst:unk2e": 65535,
@@ -31078,7 +31078,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.85442e-41] f3 da 00 00",
             "drawInst:unk2e": 65535,
@@ -31086,7 +31086,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.60684e-41] 2c b8 00 00",
             "drawInst:unk2e": 65535,
@@ -31094,7 +31094,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.81045e-41] d9 bd 00 00",
             "drawInst:unk2e": 65535,
@@ -31102,7 +31102,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.54851e-41] eb 62 00 00",
             "drawInst:unk2e": 65535,
@@ -31110,7 +31110,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.35769e-42] b9 11 00 00",
             "drawInst:unk2e": 65535,
@@ -31118,7 +31118,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.4451e-41] 8a cf 00 00",
             "drawInst:unk2e": 65535,
@@ -31126,7 +31126,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.88847e-41] e6 db 00 00",
             "drawInst:unk2e": 65535,
@@ -31134,7 +31134,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.13505e-43] 51 00 00 00",
             "drawInst:unk2e": 65535,
@@ -31142,7 +31142,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.99802e-41] d4 fa 00 00",
             "drawInst:unk2e": 65535,
@@ -31150,7 +31150,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.19051e-41] 10 3d 00 00",
             "drawInst:unk2e": 65535,
@@ -31158,7 +31158,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.16501e-42] 09 06 00 00",
             "drawInst:unk2e": 65535,
@@ -31166,7 +31166,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.51214e-41] 27 2a 00 00",
             "drawInst:unk2e": 65535,
@@ -31174,7 +31174,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.31923e-41] e8 e7 00 00",
             "drawInst:unk2e": 65535,
@@ -31182,7 +31182,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.58554e-41] 13 48 00 00",
             "drawInst:unk2e": 65535,
@@ -31190,7 +31190,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.51397e-41] b5 99 00 00",
             "drawInst:unk2e": 65535,
@@ -31198,7 +31198,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.16721e-41] 4a 58 00 00",
             "drawInst:unk2e": 65535,
@@ -31206,7 +31206,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.61861e-41] 80 b8 00 00",
             "drawInst:unk2e": 65535,
@@ -31214,7 +31214,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.85161e-41] 5e 6b 00 00",
             "drawInst:unk2e": 65535,
@@ -31222,7 +31222,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.31435e-41] 64 5c 00 00",
             "drawInst:unk2e": 65535,
@@ -31230,7 +31230,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.60842e-41] 57 9c 00 00",
             "drawInst:unk2e": 65535,
@@ -31238,7 +31238,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.79994e-41] 8e bd 00 00",
             "drawInst:unk2e": 65535,
@@ -31246,7 +31246,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.2617e-42] 4e 06 00 00",
             "drawInst:unk2e": 65535,
@@ -31254,7 +31254,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.00344e-41] d9 37 00 00",
             "drawInst:unk2e": 65535,
@@ -31262,7 +31262,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.61213e-41] b1 64 00 00",
             "drawInst:unk2e": 65535,
@@ -31270,7 +31270,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.41949e-41] f3 b2 00 00",
             "drawInst:unk2e": 65535,
@@ -31278,7 +31278,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.87659e-41] b1 bf 00 00",
             "drawInst:unk2e": 65535,
@@ -31286,7 +31286,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.1969e-41] 7f e4 00 00",
             "drawInst:unk2e": 65535,
@@ -31294,7 +31294,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.00646e-41] 30 df 00 00",
             "drawInst:unk2e": 65535,
@@ -31302,7 +31302,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.41497e-41] b3 ce 00 00",
             "drawInst:unk2e": 65535,
@@ -31310,7 +31310,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.50051e-41] d4 29 00 00",
             "drawInst:unk2e": 65535,
@@ -31318,7 +31318,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.01661e-41] 37 38 00 00",
             "drawInst:unk2e": 65535,
@@ -31326,7 +31326,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.28604e-41] 9a 5b 00 00",
             "drawInst:unk2e": 65535,
@@ -31334,7 +31334,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.66159e-41] 12 66 00 00",
             "drawInst:unk2e": 65535,
@@ -31342,7 +31342,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.11032e-41] b4 56 00 00",
             "drawInst:unk2e": 65535,
@@ -31350,7 +31350,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.53821e-41] e1 2a 00 00",
             "drawInst:unk2e": 65535,
@@ -31358,7 +31358,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.48083e-41] 08 61 00 00",
             "drawInst:unk2e": 65535,
@@ -31366,7 +31366,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.93076e-41] f4 f8 00 00",
             "drawInst:unk2e": 65535,
@@ -31374,7 +31374,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.77395e-41] 95 f4 00 00",
             "drawInst:unk2e": 65535,
@@ -31382,7 +31382,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.07862e-41] b2 71 00 00",
             "drawInst:unk2e": 65535,
@@ -31390,7 +31390,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.36659e-41] 3a e9 00 00",
             "drawInst:unk2e": 65535,
@@ -31398,7 +31398,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.65498e-41] 44 f1 00 00",
             "drawInst:unk2e": 65535,
@@ -31406,7 +31406,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.69963e-41] 61 2f 00 00",
             "drawInst:unk2e": 65535,
@@ -31414,7 +31414,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.40978e-41] 0d 5f 00 00",
             "drawInst:unk2e": 65535,
@@ -31422,7 +31422,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.81903e-41] b5 32 00 00",
             "drawInst:unk2e": 65535,
@@ -31430,7 +31430,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.39801e-41] b9 5e 00 00",
             "drawInst:unk2e": 65535,
@@ -31438,7 +31438,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.26481e-41] 42 23 00 00",
             "drawInst:unk2e": 65535,
@@ -31446,7 +31446,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.92598e-41] 51 89 00 00",
             "drawInst:unk2e": 65535,
@@ -31454,7 +31454,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.79524e-41] ac 85 00 00",
             "drawInst:unk2e": 65535,
@@ -31462,7 +31462,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.98793e-41] 8c fa 00 00",
             "drawInst:unk2e": 65535,
@@ -31470,7 +31470,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.44443e-41] 24 44 00 00",
             "drawInst:unk2e": 65535,
@@ -31478,7 +31478,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.02989e-41] 76 54 00 00",
             "drawInst:unk2e": 65535,
@@ -31486,7 +31486,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.52034e-41] 22 62 00 00",
             "drawInst:unk2e": 65535,
@@ -31494,7 +31494,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.79185e-41] 74 a1 00 00",
             "drawInst:unk2e": 65535,
@@ -31502,7 +31502,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.43238e-41] 4f b3 00 00",
             "drawInst:unk2e": 65535,
@@ -31510,7 +31510,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.03091e-41] 1e a8 00 00",
             "drawInst:unk2e": 65535,
@@ -31518,7 +31518,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.45592e-41] f7 b3 00 00",
             "drawInst:unk2e": 65535,
@@ -31526,7 +31526,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.53386e-41] c2 2a 00 00",
             "drawInst:unk2e": 65535,
@@ -31534,7 +31534,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.09373e-41] 7f fd 00 00",
             "drawInst:unk2e": 65535,
@@ -31542,7 +31542,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.95296e-41] d2 c1 00 00",
             "drawInst:unk2e": 65535,
@@ -31550,7 +31550,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.23227e-41] 3a 3e 00 00",
             "drawInst:unk2e": 65535,
@@ -31558,7 +31558,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.48079e-41] e8 7c 00 00",
             "drawInst:unk2e": 65535,
@@ -31566,7 +31566,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.05003e-41] e6 70 00 00",
             "drawInst:unk2e": 65535,
@@ -31574,7 +31574,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.78642e-41] ee f4 00 00",
             "drawInst:unk2e": 65535,
@@ -31582,7 +31582,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.23805e-42] 9a 0e 00 00",
             "drawInst:unk2e": 65535,
@@ -31590,7 +31590,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.35348e-41] 9b 41 00 00",
             "drawInst:unk2e": 65535,
@@ -31598,7 +31598,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.20596e-41] 9e 21 00 00",
             "drawInst:unk2e": 65535,
@@ -31606,7 +31606,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.91305e-41] 54 35 00 00",
             "drawInst:unk2e": 65535,
@@ -31614,7 +31614,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.75443e-41] e8 30 00 00",
             "drawInst:unk2e": 65535,
@@ -31622,7 +31622,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.74743e-42] 2c 1b 00 00",
             "drawInst:unk2e": 65535,
@@ -31630,7 +31630,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.59224e-41] a4 d3 00 00",
             "drawInst:unk2e": 65535,
@@ -31638,7 +31638,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.02135e-41] ba c3 00 00",
             "drawInst:unk2e": 65535,
@@ -31646,7 +31646,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.05382e-41] 82 e0 00 00",
             "drawInst:unk2e": 65535,
@@ -31654,7 +31654,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.2096e-41] b8 21 00 00",
             "drawInst:unk2e": 65535,
@@ -31662,7 +31662,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.28745e-42] 2a 09 00 00",
             "drawInst:unk2e": 65535,
@@ -31670,7 +31670,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_518c3c3259cbb49e",
+            "model": "#p8_geo_mineral_rock_chunk_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.32924e-41] 6f b0 00 00",
             "drawInst:unk2e": 65535,
@@ -32304,7 +32304,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.37226e-41] a2 b1 00 00",
             "drawInst:unk2e": 722,
@@ -32312,7 +32312,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.74441e-41] 61 68 00 00",
             "drawInst:unk2e": 320,
@@ -32320,7 +32320,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.46057e-41] b7 28 00 00",
             "drawInst:unk2e": 675,
@@ -32328,7 +32328,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.43294e-41] 53 b3 00 00",
             "drawInst:unk2e": 387,
@@ -32336,7 +32336,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.20859e-41] 91 3d 00 00",
             "drawInst:unk2e": 388,
@@ -32344,7 +32344,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.27042e-41] 6a 23 00 00",
             "drawInst:unk2e": 389,
@@ -32352,7 +32352,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.73397e-41] d7 9f 00 00",
             "drawInst:unk2e": 390,
@@ -32360,7 +32360,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.21862e-42] e9 16 00 00",
             "drawInst:unk2e": 676,
@@ -32368,7 +32368,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.81557e-42] 93 18 00 00",
             "drawInst:unk2e": 677,
@@ -32376,7 +32376,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.4418e-41] b2 97 00 00",
             "drawInst:unk2e": 678,
@@ -32384,7 +32384,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.91128e-41] 69 f8 00 00",
             "drawInst:unk2e": 679,
@@ -32392,7 +32392,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.76718e-41] c4 a0 00 00",
             "drawInst:unk2e": 680,
@@ -32400,7 +32400,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.56785e-41] 75 63 00 00",
             "drawInst:unk2e": 321,
@@ -32408,7 +32408,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.50696e-41] 83 99 00 00",
             "drawInst:unk2e": 322,
@@ -32416,7 +32416,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.077e-41] e6 39 00 00",
             "drawInst:unk2e": 397,
@@ -32424,7 +32424,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.31211e-41] 54 5c 00 00",
             "drawInst:unk2e": 398,
@@ -32432,7 +32432,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.08234e-41] 8d a9 00 00",
             "drawInst:unk2e": 399,
@@ -32440,7 +32440,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.56284e-41] f2 b6 00 00",
             "drawInst:unk2e": 400,
@@ -32448,7 +32448,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.18462e-42] 17 06 00 00",
             "drawInst:unk2e": 401,
@@ -32456,7 +32456,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.81672e-41] e6 d9 00 00",
             "drawInst:unk2e": 402,
@@ -32464,7 +32464,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.79261e-41] b9 69 00 00",
             "drawInst:unk2e": 403,
@@ -32472,7 +32472,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.04913e-41] a0 a8 00 00",
             "drawInst:unk2e": 681,
@@ -32480,7 +32480,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.72121e-41] fb 2f 00 00",
             "drawInst:unk2e": 319,
@@ -32488,7 +32488,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.18073e-41] ea 20 00 00",
             "drawInst:unk2e": 318,
@@ -32496,7 +32496,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.81364e-41] d0 d9 00 00",
             "drawInst:unk2e": 682,
@@ -32504,7 +32504,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.24015e-41] 92 22 00 00",
             "drawInst:unk2e": 683,
@@ -32512,7 +32512,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.59787e-41] ec b7 00 00",
             "drawInst:unk2e": 323,
@@ -32520,7 +32520,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.07176e-41] 02 e1 00 00",
             "drawInst:unk2e": 316,
@@ -32528,7 +32528,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.3161e-41] b0 24 00 00",
             "drawInst:unk2e": 315,
@@ -32536,7 +32536,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.74785e-41] 3a a0 00 00",
             "drawInst:unk2e": 716,
@@ -32544,7 +32544,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.78897e-41] 9f 69 00 00",
             "drawInst:unk2e": 684,
@@ -32552,7 +32552,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.25935e-41] 1b 23 00 00",
             "drawInst:unk2e": 685,
@@ -32560,7 +32560,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.92101e-41] 6d 51 00 00",
             "drawInst:unk2e": 157,
@@ -32568,7 +32568,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.34246e-42] 0b 1a 00 00",
             "drawInst:unk2e": 686,
@@ -32576,7 +32576,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.02747e-41] 45 70 00 00",
             "drawInst:unk2e": 687,
@@ -32584,7 +32584,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.94939e-41] f8 89 00 00",
             "drawInst:unk2e": 688,
@@ -32592,7 +32592,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.26705e-41] 52 23 00 00",
             "drawInst:unk2e": 697,
@@ -32600,7 +32600,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.6308e-41] d7 b8 00 00",
             "drawInst:unk2e": 158,
@@ -32608,7 +32608,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.58907e-42] 6e 04 00 00",
             "drawInst:unk2e": 698,
@@ -32616,7 +32616,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.74826e-41] bc 30 00 00",
             "drawInst:unk2e": 159,
@@ -32624,7 +32624,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.4247e-41] b7 27 00 00",
             "drawInst:unk2e": 160,
@@ -32632,7 +32632,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.53397e-41] 24 b6 00 00",
             "drawInst:unk2e": 161,
@@ -32640,7 +32640,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.22908e-41] 43 22 00 00",
             "drawInst:unk2e": 705,
@@ -32648,7 +32648,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.39972e-41] e5 42 00 00",
             "drawInst:unk2e": 162,
@@ -32656,7 +32656,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.66465e-41] 89 f1 00 00",
             "drawInst:unk2e": 163,
@@ -32664,7 +32664,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.32455e-41] 0e e8 00 00",
             "drawInst:unk2e": 164,
@@ -32672,7 +32672,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.42187e-41] 04 b3 00 00",
             "drawInst:unk2e": 165,
@@ -32680,7 +32680,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.49047e-41] ae ec 00 00",
             "drawInst:unk2e": 360,
@@ -32688,7 +32688,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.33779e-41] 2b 41 00 00",
             "drawInst:unk2e": 361,
@@ -32696,7 +32696,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.971e-41] b2 6e 00 00",
             "drawInst:unk2e": 362,
@@ -32704,7 +32704,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.56988e-41] 44 9b 00 00",
             "drawInst:unk2e": 699,
@@ -32712,7 +32712,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.94746e-41] 8b dd 00 00",
             "drawInst:unk2e": 700,
@@ -32720,7 +32720,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.56081e-41] a4 ee 00 00",
             "drawInst:unk2e": 701,
@@ -32728,7 +32728,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.31986e-41] 2c b0 00 00",
             "drawInst:unk2e": 702,
@@ -32736,7 +32736,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.23753e-42] d0 0b 00 00",
             "drawInst:unk2e": 703,
@@ -32744,7 +32744,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.51421e-41] 16 46 00 00",
             "drawInst:unk2e": 704,
@@ -32752,7 +32752,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.60852e-41] b7 48 00 00",
             "drawInst:unk2e": 317,
@@ -32760,7 +32760,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.82768e-41] d3 4e 00 00",
             "drawInst:unk2e": 714,
@@ -32768,7 +32768,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.6569e-41] b1 9d 00 00",
             "drawInst:unk2e": 715,
@@ -32776,7 +32776,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.71117e-42] 22 0d 00 00",
             "drawInst:unk2e": 717,
@@ -32784,7 +32784,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.48868e-41] c1 d0 00 00",
             "drawInst:unk2e": 718,
@@ -32792,7 +32792,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.78712e-41] f3 f4 00 00",
             "drawInst:unk2e": 719,
@@ -32800,7 +32800,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.16571e-42] 30 11 00 00",
             "drawInst:unk2e": 720,
@@ -32808,7 +32808,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55ac49a218cbbf96",
+            "model": "#splm/p8_geo_rock_edge_chunk_ledge_01_red",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.00929e-41] e3 53 00 00",
             "drawInst:unk2e": 721,
@@ -38512,7 +38512,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_629505d12edf38da",
+            "model": "#p8_geo_tent_military_modular_end_l_door_single_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.71936e-41] ce 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -38520,7 +38520,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_629505d12edf38da",
+            "model": "#p8_geo_tent_military_modular_end_l_door_single_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.24737e-41] 86 5a 00 00",
             "drawInst:unk2e": 65535,
@@ -38990,7 +38990,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_65f0fbc7c014c604",
+            "model": "#p8_usa_netted_fence_spike_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.70072e-41] 49 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -38998,7 +38998,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_65f0fbc7c014c604",
+            "model": "#p8_usa_netted_fence_spike_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.60445e-41] 9a 48 00 00",
             "drawInst:unk2e": 65535,
@@ -39006,7 +39006,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_65f0fbc7c014c604",
+            "model": "#p8_usa_netted_fence_spike_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.45004e-41] cd b3 00 00",
             "drawInst:unk2e": 65535,
@@ -40914,7 +40914,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.48598e-41] 0d 7d 00 00",
             "drawInst:unk2e": 706,
@@ -40922,7 +40922,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.31478e-42] 64 14 00 00",
             "drawInst:unk2e": 695,
@@ -40930,7 +40930,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.56137e-41] 27 7f 00 00",
             "drawInst:unk2e": 693,
@@ -40938,7 +40938,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.0212e-42] 6c 08 00 00",
             "drawInst:unk2e": 692,
@@ -40946,7 +40946,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.32997e-41] 13 25 00 00",
             "drawInst:unk2e": 691,
@@ -40954,7 +40954,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.53492e-41] 0b d2 00 00",
             "drawInst:unk2e": 690,
@@ -40962,7 +40962,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.94045e-41] d8 6d 00 00",
             "drawInst:unk2e": 166,
@@ -40970,7 +40970,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.34606e-41] e7 b0 00 00",
             "drawInst:unk2e": 167,
@@ -40978,7 +40978,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.76291e-41] e5 68 00 00",
             "drawInst:unk2e": 168,
@@ -40986,7 +40986,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.07817e-41] 8f 8d 00 00",
             "drawInst:unk2e": 169,
@@ -40994,7 +40994,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.79735e-41] 3c f5 00 00",
             "drawInst:unk2e": 170,
@@ -41002,7 +41002,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.73519e-41] 3f 4c 00 00",
             "drawInst:unk2e": 171,
@@ -41010,7 +41010,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.15187e-41] 1c 20 00 00",
             "drawInst:unk2e": 330,
@@ -41018,7 +41018,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.66808e-41] e1 b9 00 00",
             "drawInst:unk2e": 329,
@@ -41026,7 +41026,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.25928e-41] db 5a 00 00",
             "drawInst:unk2e": 328,
@@ -41034,7 +41034,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.89298e-41] a5 50 00 00",
             "drawInst:unk2e": 327,
@@ -41042,7 +41042,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.52248e-41] 51 46 00 00",
             "drawInst:unk2e": 326,
@@ -41050,7 +41050,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.34473e-41] 9e e8 00 00",
             "drawInst:unk2e": 325,
@@ -41058,7 +41058,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.62699e-41] 9c d4 00 00",
             "drawInst:unk2e": 324,
@@ -41066,7 +41066,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.0122e-41] 59 df 00 00",
             "drawInst:unk2e": 694,
@@ -41074,7 +41074,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.95057e-41] 40 52 00 00",
             "drawInst:unk2e": 689,
@@ -41082,7 +41082,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.72242e-41] 45 d7 00 00",
             "drawInst:unk2e": 712,
@@ -41090,7 +41090,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.55608e-41] a2 d2 00 00",
             "drawInst:unk2e": 711,
@@ -41098,7 +41098,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.40028e-41] e9 42 00 00",
             "drawInst:unk2e": 172,
@@ -41106,7 +41106,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.60933e-41] 1e d4 00 00",
             "drawInst:unk2e": 710,
@@ -41114,7 +41114,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.49869e-41] c7 29 00 00",
             "drawInst:unk2e": 709,
@@ -41122,7 +41122,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.00197e-41] 10 df 00 00",
             "drawInst:unk2e": 708,
@@ -41130,7 +41130,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.23193e-41] 79 e5 00 00",
             "drawInst:unk2e": 729,
@@ -41138,7 +41138,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.82247e-41] 0f da 00 00",
             "drawInst:unk2e": 728,
@@ -41146,7 +41146,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.8536e-41] 8c 4f 00 00",
             "drawInst:unk2e": 727,
@@ -41154,7 +41154,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.68752e-41] 4c d6 00 00",
             "drawInst:unk2e": 726,
@@ -41162,7 +41162,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.30637e-42] 5e 14 00 00",
             "drawInst:unk2e": 725,
@@ -41170,7 +41170,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.69915e-41] 1e 67 00 00",
             "drawInst:unk2e": 724,
@@ -41178,7 +41178,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.44997e-41] 8d eb 00 00",
             "drawInst:unk2e": 723,
@@ -41186,7 +41186,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ebf42d9a09dd434",
+            "model": "#splm/p8_geo_crater_pool_spline_01_wet",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.88489e-41] 8b 34 00 00",
             "drawInst:unk2e": 707,
@@ -46317,7 +46317,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_76fb3a6375e0daf0",
+            "model": "#p8_geo_tent_military_modular_end_r_door_single_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.1578e-41] 68 e3 00 00",
             "drawInst:unk2e": 65535,
@@ -46325,7 +46325,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_76fb3a6375e0daf0",
+            "model": "#p8_geo_tent_military_modular_end_r_door_single_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.80439e-41] 8e d9 00 00",
             "drawInst:unk2e": 65535,

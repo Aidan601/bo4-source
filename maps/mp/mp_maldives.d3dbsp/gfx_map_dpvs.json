@@ -1354,7 +1354,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1a9ef330eefb620",
+            "model": "#p8_mal_couch_sectional_main",
             "drawInst:unk20": "[f0x0=5.04467e-44] 24 00 00 00",
             "drawInst:unk28": "[f0x0=3.31407e-42] 3d 09 00 00",
             "drawInst:unk2e": 65535,
@@ -1362,7 +1362,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1a9ef330eefb620",
+            "model": "#p8_mal_couch_sectional_main",
             "drawInst:unk20": "[f0x0=5.04467e-44] 24 00 00 00",
             "drawInst:unk28": "[f0x0=7.3414e-42] 77 14 00 00",
             "drawInst:unk2e": 65535,
@@ -3756,7 +3756,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_729eb7f670aa85f",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_1_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.03174e-41] a3 38 00 00",
             "drawInst:unk2e": 65535,
@@ -3764,7 +3764,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_729eb7f670aa85f",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_1_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.00193e-41] ee 1b 00 00",
             "drawInst:unk2e": 65535,
@@ -5322,7 +5322,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_bb86c5f2c9bc311",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_extra_rt_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.88167e-41] f5 a3 00 00",
             "drawInst:unk2e": 65535,
@@ -16261,7 +16261,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_28aaf0cb626c34cb",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_extra_rt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.48434e-41] a2 d0 00 00",
             "drawInst:unk2e": 65535,
@@ -16269,7 +16269,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_28b1e4cb62723f15",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_extra_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.27336e-41] 7f 23 00 00",
             "drawInst:unk2e": 65535,
@@ -23936,7 +23936,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a22978a2f315",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_8",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.12788e-41] d2 aa 00 00",
             "drawInst:unk2e": 65535,
@@ -23944,7 +23944,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a22978a2f315",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_8",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.15388e-41] 4c e3 00 00",
             "drawInst:unk2e": 65535,
@@ -23952,7 +23952,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a22978a2f315",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_8",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.7725e-41] 69 31 00 00",
             "drawInst:unk2e": 65535,
@@ -23960,7 +23960,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a32978a2f4c8",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.63568e-42] 49 15 00 00",
             "drawInst:unk2e": 65535,
@@ -23968,7 +23968,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a32978a2f4c8",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.14308e-41] 7e 73 00 00",
             "drawInst:unk2e": 65535,
@@ -23976,7 +23976,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a32978a2f4c8",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.79839e-42] cd 07 00 00",
             "drawInst:unk2e": 65535,
@@ -23984,7 +23984,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.32941e-41] 0f 25 00 00",
             "drawInst:unk2e": 65535,
@@ -23992,7 +23992,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.63157e-41] 1c 81 00 00",
             "drawInst:unk2e": 65535,
@@ -24000,7 +24000,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.50325e-41] a8 61 00 00",
             "drawInst:unk2e": 65535,
@@ -24008,7 +24008,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.22478e-41] 46 e5 00 00",
             "drawInst:unk2e": 65535,
@@ -24016,7 +24016,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.9627e-41] d8 f9 00 00",
             "drawInst:unk2e": 65535,
@@ -24024,7 +24024,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.23227e-42] 39 06 00 00",
             "drawInst:unk2e": 65535,
@@ -24032,7 +24032,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.71768e-41] c2 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -24040,7 +24040,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.29288e-41] 2c e7 00 00",
             "drawInst:unk2e": 65535,
@@ -24048,7 +24048,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a42978a2f67b",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_6",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.73324e-41] b2 bb 00 00",
             "drawInst:unk2e": 65535,
@@ -24056,7 +24056,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a52978a2f82e",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.82141e-41] 47 a2 00 00",
             "drawInst:unk2e": 65535,
@@ -24064,7 +24064,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a52978a2f82e",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.5154e-41] df 7d 00 00",
             "drawInst:unk2e": 65535,
@@ -24072,7 +24072,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a52978a2f82e",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.36105e-41] d1 41 00 00",
             "drawInst:unk2e": 65535,
@@ -24080,7 +24080,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a52978a2f82e",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.96347e-41] 1d c2 00 00",
             "drawInst:unk2e": 65535,
@@ -24088,7 +24088,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a52978a2f82e",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.21405e-43] 9e 00 00 00",
             "drawInst:unk2e": 65535,
@@ -24096,7 +24096,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a52978a2f82e",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.70248e-41] 97 f2 00 00",
             "drawInst:unk2e": 65535,
@@ -24104,7 +24104,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.1422e-41] d7 1f 00 00",
             "drawInst:unk2e": 65535,
@@ -24112,7 +24112,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.265e-41] 65 e6 00 00",
             "drawInst:unk2e": 65535,
@@ -24120,7 +24120,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.9818e-42] 40 16 00 00",
             "drawInst:unk2e": 65535,
@@ -24128,7 +24128,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.08608e-41] 07 56 00 00",
             "drawInst:unk2e": 65535,
@@ -24136,7 +24136,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.33036e-41] f6 40 00 00",
             "drawInst:unk2e": 65535,
@@ -24144,7 +24144,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.06776e-41] a4 39 00 00",
             "drawInst:unk2e": 65535,
@@ -24152,7 +24152,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.14812e-41] a2 73 00 00",
             "drawInst:unk2e": 65535,
@@ -24160,7 +24160,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.78982e-42] b7 15 00 00",
             "drawInst:unk2e": 65535,
@@ -24168,7 +24168,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.96515e-41] 29 c2 00 00",
             "drawInst:unk2e": 65535,
@@ -24176,7 +24176,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a62978a2f9e1",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.12143e-41] 23 3b 00 00",
             "drawInst:unk2e": 65535,
@@ -24184,7 +24184,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.58253e-41] be 7f 00 00",
             "drawInst:unk2e": 65535,
@@ -24192,7 +24192,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.06489e-41] d1 e0 00 00",
             "drawInst:unk2e": 65535,
@@ -24200,7 +24200,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.65624e-41] 4d f1 00 00",
             "drawInst:unk2e": 65535,
@@ -24208,7 +24208,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.49292e-41] ff b4 00 00",
             "drawInst:unk2e": 65535,
@@ -24216,7 +24216,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.68086e-41] 5c 9e 00 00",
             "drawInst:unk2e": 65535,
@@ -24224,7 +24224,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.10003e-41] ac fd 00 00",
             "drawInst:unk2e": 65535,
@@ -24232,7 +24232,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.50773e-41] c8 61 00 00",
             "drawInst:unk2e": 65535,
@@ -24240,7 +24240,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.23749e-41] 7f 22 00 00",
             "drawInst:unk2e": 65535,
@@ -24248,7 +24248,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.62846e-41] e6 9c 00 00",
             "drawInst:unk2e": 65535,
@@ -24256,7 +24256,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.80747e-41] 23 6a 00 00",
             "drawInst:unk2e": 65535,
@@ -24264,7 +24264,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.24726e-41] a5 3e 00 00",
             "drawInst:unk2e": 65535,
@@ -24272,7 +24272,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.30245e-41] 90 cb 00 00",
             "drawInst:unk2e": 65535,
@@ -24280,7 +24280,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a72978a2fb94",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.36137e-41] 74 95 00 00",
             "drawInst:unk2e": 65535,
@@ -24288,7 +24288,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a82978a2fd47",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_2",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.93152e-41] b8 51 00 00",
             "drawInst:unk2e": 65535,
@@ -24296,7 +24296,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a82978a2fd47",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_2",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.96323e-43] c7 02 00 00",
             "drawInst:unk2e": 65535,
@@ -24304,7 +24304,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a82978a2fd47",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_2",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.74466e-41] c4 f3 00 00",
             "drawInst:unk2e": 65535,
@@ -24312,7 +24312,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a82978a2fd47",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_2",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.67035e-41] 11 9e 00 00",
             "drawInst:unk2e": 65535,
@@ -24320,7 +24320,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a82978a2fd47",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_2",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.92496e-41] a9 35 00 00",
             "drawInst:unk2e": 65535,
@@ -24328,7 +24328,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a82978a2fd47",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_2",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.69333e-41] 34 2f 00 00",
             "drawInst:unk2e": 65535,
@@ -24336,7 +24336,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a92978a2fefa",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.45294e-41] 41 60 00 00",
             "drawInst:unk2e": 65535,
@@ -24344,7 +24344,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a92978a2fefa",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.22145e-41] cd 59 00 00",
             "drawInst:unk2e": 65535,
@@ -24352,7 +24352,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a92978a2fefa",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.24491e-41] b4 22 00 00",
             "drawInst:unk2e": 65535,
@@ -24360,7 +24360,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2a90a92978a2fefa",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_single_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.74697e-41] 93 4c 00 00",
             "drawInst:unk2e": 65535,
@@ -31662,7 +31662,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_31d6709a4e1b43a6",
+            "model": "#p8_wz_crr_breaker_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.36035e-41] 4d b1 00 00",
             "drawInst:unk2e": 65535,
@@ -31670,7 +31670,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_31d6709a4e1b43a6",
+            "model": "#p8_wz_crr_breaker_03",
             "drawInst:unk20": "[f0x0=2.94273e-44] 15 00 00 00",
             "drawInst:unk28": "[f0x0=1.06204e-41] 9b 1d 00 00",
             "drawInst:unk2e": 65535,
@@ -31678,7 +31678,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_31d6739a4e1b48bf",
+            "model": "#p8_wz_crr_breaker_04",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.33226e-41] 45 e8 00 00",
             "drawInst:unk2e": 65535,
@@ -35310,7 +35310,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3a17454981673378",
+            "model": "#p8_zm_esc_sign_powerhouse_set_notice_safety",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.54602e-41] f9 46 00 00",
             "drawInst:unk2e": 65535,
@@ -35318,7 +35318,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3a17454981673378",
+            "model": "#p8_zm_esc_sign_powerhouse_set_notice_safety",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.55064e-41] 1a 47 00 00",
             "drawInst:unk2e": 65535,
@@ -35326,7 +35326,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3a17454981673378",
+            "model": "#p8_zm_esc_sign_powerhouse_set_notice_safety",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.79059e-41] 6b a1 00 00",
             "drawInst:unk2e": 65535,
@@ -35334,7 +35334,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3a17454981673378",
+            "model": "#p8_zm_esc_sign_powerhouse_set_notice_safety",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.83284e-41] 59 da 00 00",
             "drawInst:unk2e": 65535,
@@ -35342,7 +35342,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3a17454981673378",
+            "model": "#p8_zm_esc_sign_powerhouse_set_notice_safety",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.14924e-42] 91 0b 00 00",
             "drawInst:unk2e": 65535,
@@ -35350,7 +35350,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3a17454981673378",
+            "model": "#p8_zm_esc_sign_powerhouse_set_notice_safety",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.63532e-41] 17 9d 00 00",
             "drawInst:unk2e": 65535,
@@ -35358,7 +35358,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3b06e688a7de8aae",
+            "model": "#p8_mal_clothes_kfu_yellow_jump_suit",
             "drawInst:unk20": "[32h0x0=script_crashpath_scene][f0x0=1.68156e-44] 0c 00 00 00",
             "drawInst:unk28": "[f0x0=6.27445e-41] e8 ae 00 00",
             "drawInst:unk2e": 65535,
@@ -35486,7 +35486,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.81717e-41] 88 4e 00 00",
             "drawInst:unk2e": 65535,
@@ -35494,7 +35494,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.0554e-41] ad c4 00 00",
             "drawInst:unk2e": 65535,
@@ -35502,7 +35502,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.17415e-41] 3c 90 00 00",
             "drawInst:unk2e": 65535,
@@ -35510,7 +35510,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.94371e-41] 90 c1 00 00",
             "drawInst:unk2e": 65535,
@@ -35518,7 +35518,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.22347e-41] 1b 22 00 00",
             "drawInst:unk2e": 65535,
@@ -35526,7 +35526,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.25609e-43] a1 00 00 00",
             "drawInst:unk2e": 65535,
@@ -35534,7 +35534,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.22232e-41] f3 3d 00 00",
             "drawInst:unk2e": 65535,
@@ -35542,7 +35542,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.86279e-41] 0f f7 00 00",
             "drawInst:unk2e": 65535,
@@ -35550,7 +35550,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.37699e-41] 23 5e 00 00",
             "drawInst:unk2e": 65535,
@@ -35558,7 +35558,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.49382e-41] 45 7d 00 00",
             "drawInst:unk2e": 65535,
@@ -35566,7 +35566,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.15444e-41] 50 e3 00 00",
             "drawInst:unk2e": 65535,
@@ -35574,7 +35574,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.12622e-41] 65 1f 00 00",
             "drawInst:unk2e": 65535,
@@ -35582,7 +35582,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.00755e-41] 18 fb 00 00",
             "drawInst:unk2e": 65535,
@@ -35590,7 +35590,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3cd533e71779bfe8",
+            "model": "#p8_mal_ceiling_light_round_metal_on",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.3546e-41] a3 41 00 00",
             "drawInst:unk2e": 65535,
@@ -35654,7 +35654,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d533c08c945748c",
+            "model": "#p8_mal_rock_wall_light_inset",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.98953e-41] 56 53 00 00",
             "drawInst:unk2e": 65535,
@@ -35662,7 +35662,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d533c08c945748c",
+            "model": "#p8_mal_rock_wall_light_inset",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.16547e-41] 7f ff 00 00",
             "drawInst:unk2e": 65535,
@@ -35670,7 +35670,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d533c08c945748c",
+            "model": "#p8_mal_rock_wall_light_inset",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.14896e-41] a8 73 00 00",
             "drawInst:unk2e": 65535,
@@ -35678,7 +35678,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d533c08c945748c",
+            "model": "#p8_mal_rock_wall_light_inset",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.28608e-41] 3b af 00 00",
             "drawInst:unk2e": 65535,
@@ -35686,7 +35686,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.73965e-41] 3f 68 00 00",
             "drawInst:unk2e": 65535,
@@ -35694,7 +35694,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.99387e-41] 75 53 00 00",
             "drawInst:unk2e": 65535,
@@ -35702,7 +35702,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.64723e-41] 6c 9d 00 00",
             "drawInst:unk2e": 65535,
@@ -35710,7 +35710,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.47634e-41] e8 60 00 00",
             "drawInst:unk2e": 65535,
@@ -35718,7 +35718,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.38294e-41] 8d 26 00 00",
             "drawInst:unk2e": 65535,
@@ -35726,7 +35726,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.69015e-41] be 82 00 00",
             "drawInst:unk2e": 65535,
@@ -35734,7 +35734,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.32766e-41] c3 5c 00 00",
             "drawInst:unk2e": 65535,
@@ -35742,7 +35742,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.9903e-41] 1c 8b 00 00",
             "drawInst:unk2e": 65535,
@@ -35750,7 +35750,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.08695e-41] 2d 3a 00 00",
             "drawInst:unk2e": 65535,
@@ -35758,7 +35758,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.39055e-41] e5 e9 00 00",
             "drawInst:unk2e": 65535,
@@ -35766,7 +35766,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.48416e-44] 20 00 00 00",
             "drawInst:unk2e": 65535,
@@ -35774,7 +35774,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.13285e-41] 35 73 00 00",
             "drawInst:unk2e": 65535,
@@ -35782,7 +35782,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.7971e-41] d9 69 00 00",
             "drawInst:unk2e": 65535,
@@ -35790,7 +35790,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.88594e-41] 53 6c 00 00",
             "drawInst:unk2e": 65535,
@@ -35798,7 +35798,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.66101e-41] 6f f1 00 00",
             "drawInst:unk2e": 65535,
@@ -35806,7 +35806,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.05281e-41] 5b fc 00 00",
             "drawInst:unk2e": 65535,
@@ -35814,7 +35814,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.87308e-41] 17 50 00 00",
             "drawInst:unk2e": 65535,
@@ -35822,7 +35822,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.39156e-41] 8b 5e 00 00",
             "drawInst:unk2e": 65535,
@@ -35830,7 +35830,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.67753e-42] 0a 0d 00 00",
             "drawInst:unk2e": 65535,
@@ -35838,7 +35838,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.56749e-41] b2 2b 00 00",
             "drawInst:unk2e": 65535,
@@ -35846,7 +35846,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.69754e-41] d3 9e 00 00",
             "drawInst:unk2e": 65535,
@@ -35854,7 +35854,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.48913e-41] e4 b4 00 00",
             "drawInst:unk2e": 65535,
@@ -35862,7 +35862,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.94259e-41] 88 c1 00 00",
             "drawInst:unk2e": 65535,
@@ -35870,7 +35870,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.72454e-41] f3 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -35878,7 +35878,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.63263e-41] e4 b8 00 00",
             "drawInst:unk2e": 65535,
@@ -35886,7 +35886,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.17195e-41] cd e3 00 00",
             "drawInst:unk2e": 65535,
@@ -35894,7 +35894,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.17935e-41] e2 ff 00 00",
             "drawInst:unk2e": 65535,
@@ -35902,7 +35902,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.32192e-41] 1b cc 00 00",
             "drawInst:unk2e": 65535,
@@ -35910,7 +35910,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.71432e-42] 91 07 00 00",
             "drawInst:unk2e": 65535,
@@ -35918,7 +35918,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.51638e-41] e6 7d 00 00",
             "drawInst:unk2e": 65535,
@@ -35926,7 +35926,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.84614e-41] 37 6b 00 00",
             "drawInst:unk2e": 65535,
@@ -35934,7 +35934,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.52676e-41] b1 ed 00 00",
             "drawInst:unk2e": 65535,
@@ -35942,7 +35942,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.45136e-41] 16 7c 00 00",
             "drawInst:unk2e": 65535,
@@ -35950,7 +35950,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.5986e-41] 90 2c 00 00",
             "drawInst:unk2e": 65535,
@@ -35958,7 +35958,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.65788e-41] b8 9d 00 00",
             "drawInst:unk2e": 65535,
@@ -35966,7 +35966,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d63036db502fa45",
+            "model": "#p8_mal_debris_rock_chunk_05_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.10087e-41] 31 8e 00 00",
             "drawInst:unk2e": 65535,
@@ -36991,7 +36991,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.78527e-42] 47 1b 00 00",
             "drawInst:unk2e": 65535,
@@ -36999,7 +36999,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.4006e-41] 0b 27 00 00",
             "drawInst:unk2e": 65535,
@@ -37007,7 +37007,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.55159e-41] 01 63 00 00",
             "drawInst:unk2e": 65535,
@@ -37015,7 +37015,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.36908e-41] ab 95 00 00",
             "drawInst:unk2e": 65535,
@@ -37023,7 +37023,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.44177e-41] 92 b3 00 00",
             "drawInst:unk2e": 65535,
@@ -37031,7 +37031,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.90623e-41] c4 88 00 00",
             "drawInst:unk2e": 65535,
@@ -37039,7 +37039,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.76319e-41] e7 68 00 00",
             "drawInst:unk2e": 65535,
@@ -37047,7 +37047,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.86821e-41] 14 34 00 00",
             "drawInst:unk2e": 65535,
@@ -37055,7 +37055,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ee63f64249ea795",
+            "model": "#p8_mal_rock_volcanic_glass_inset_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.74931e-41] 84 68 00 00",
             "drawInst:unk2e": 65535,
@@ -37499,7 +37499,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4092d1816433e276",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_2_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.30241e-41] ef 77 00 00",
             "drawInst:unk2e": 65535,
@@ -37507,7 +37507,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_410495d9351d1666",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_med_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.48227e-41] b3 b4 00 00",
             "drawInst:unk2e": 65535,
@@ -38102,7 +38102,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.38193e-41] e7 b1 00 00",
             "drawInst:unk2e": 198,
@@ -38110,7 +38110,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.89498e-41] d3 34 00 00",
             "drawInst:unk2e": 199,
@@ -38118,7 +38118,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.35159e-41] 4e 79 00 00",
             "drawInst:unk2e": 200,
@@ -38126,7 +38126,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.96673e-42] a2 10 00 00",
             "drawInst:unk2e": 201,
@@ -38134,7 +38134,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.1805e-41] 0a e4 00 00",
             "drawInst:unk2e": 209,
@@ -38142,7 +38142,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.35261e-42] 7f 14 00 00",
             "drawInst:unk2e": 210,
@@ -38150,7 +38150,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.04748e-41] b4 8c 00 00",
             "drawInst:unk2e": 212,
@@ -38158,7 +38158,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.50527e-41] f6 29 00 00",
             "drawInst:unk2e": 35,
@@ -38166,7 +38166,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.22313e-41] 5a c9 00 00",
             "drawInst:unk2e": 37,
@@ -38174,7 +38174,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.03291e-41] cd fb 00 00",
             "drawInst:unk2e": 38,
@@ -38182,7 +38182,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.63553e-41] 58 65 00 00",
             "drawInst:unk2e": 43,
@@ -38190,7 +38190,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.16677e-41] a8 e3 00 00",
             "drawInst:unk2e": 44,
@@ -38198,7 +38198,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.81058e-41] 59 4e 00 00",
             "drawInst:unk2e": 45,
@@ -38206,7 +38206,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.33019e-41] d5 5c 00 00",
             "drawInst:unk2e": 42,
@@ -38214,7 +38214,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.41077e-41] 95 ce 00 00",
             "drawInst:unk2e": 192,
@@ -38222,7 +38222,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.86048e-41] 3e bf 00 00",
             "drawInst:unk2e": 193,
@@ -38230,7 +38230,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.09018e-41] 44 3a 00 00",
             "drawInst:unk2e": 194,
@@ -38238,7 +38238,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.93131e-41] 77 89 00 00",
             "drawInst:unk2e": 195,
@@ -38246,7 +38246,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.44261e-41] 98 b3 00 00",
             "drawInst:unk2e": 211,
@@ -38254,7 +38254,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.00064e-41] 46 a7 00 00",
             "drawInst:unk2e": 196,
@@ -38262,7 +38262,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.95166e-42] 04 0b 00 00",
             "drawInst:unk2e": 197,
@@ -38270,7 +38270,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431ab804303900",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_4",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.88143e-41] 94 f7 00 00",
             "drawInst:unk2e": 36,
@@ -38278,7 +38278,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.90024e-41] 3a dc 00 00",
             "drawInst:unk2e": 206,
@@ -38286,7 +38286,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.8664e-41] 88 a3 00 00",
             "drawInst:unk2e": 205,
@@ -38294,7 +38294,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.86969e-41] df 6b 00 00",
             "drawInst:unk2e": 49,
@@ -38302,7 +38302,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.32977e-41] d2 5c 00 00",
             "drawInst:unk2e": 48,
@@ -38310,7 +38310,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.16645e-41] 05 90 00 00",
             "drawInst:unk2e": 47,
@@ -38318,7 +38318,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.34949e-41] 3f 79 00 00",
             "drawInst:unk2e": 46,
@@ -38326,7 +38326,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.33191e-41] 82 b0 00 00",
             "drawInst:unk2e": 204,
@@ -38334,7 +38334,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.13912e-41] c1 1f 00 00",
             "drawInst:unk2e": 203,
@@ -38342,7 +38342,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.26275e-41] d4 76 00 00",
             "drawInst:unk2e": 202,
@@ -38350,7 +38350,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.92137e-41] b1 f8 00 00",
             "drawInst:unk2e": 41,
@@ -38358,7 +38358,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.92297e-41] fc c0 00 00",
             "drawInst:unk2e": 40,
@@ -38366,7 +38366,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.58887e-41] 8c d3 00 00",
             "drawInst:unk2e": 39,
@@ -38374,7 +38374,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.4067e-41] 78 ce 00 00",
             "drawInst:unk2e": 208,
@@ -38382,7 +38382,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431bb804303ab3",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_5",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.81416e-41] 33 86 00 00",
             "drawInst:unk2e": 207,
@@ -38390,7 +38390,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431db804303e19",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.33793e-41] ad b0 00 00",
             "drawInst:unk2e": 191,
@@ -38398,7 +38398,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431db804303e19",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.51313e-41] af 99 00 00",
             "drawInst:unk2e": 190,
@@ -38406,7 +38406,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431db804303e19",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.76189e-41] be 84 00 00",
             "drawInst:unk2e": 188,
@@ -38414,7 +38414,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431db804303e19",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.52878e-41] 7e 46 00 00",
             "drawInst:unk2e": 189,
@@ -38422,7 +38422,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431db804303e19",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.80348e-41] c7 a1 00 00",
             "drawInst:unk2e": 187,
@@ -38430,7 +38430,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_44431db804303e19",
+            "model": "#splm/p8_mal_weapon_bay_catwalk_wall_single_7",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.45221e-41] 9d eb 00 00",
             "drawInst:unk2e": 186,
@@ -44775,7 +44775,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48973ed549240d43",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_top_1_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.99062e-41] 3e 6f 00 00",
             "drawInst:unk2e": 65535,
@@ -44783,7 +44783,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_48973ed549240d43",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_top_1_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.65276e-41] d3 65 00 00",
             "drawInst:unk2e": 65535,
@@ -45538,7 +45538,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4addadf8d9523dfc",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_console_1_rt_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.83126e-41] ad 86 00 00",
             "drawInst:unk2e": 65535,
@@ -46658,7 +46658,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5034caad0c0f19f9",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_3_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.86293e-41] 10 f7 00 00",
             "drawInst:unk2e": 65535,
@@ -46690,7 +46690,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_50c81bfa0b5adaf7",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_console_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.91484e-41] 41 51 00 00",
             "drawInst:unk2e": 65535,
@@ -46940,7 +46940,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53a4ad393e50f6d9",
+            "model": "#p8_mal_light_wall_exterior_box_on_cool",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.46183e-41] c0 28 00 00",
             "drawInst:unk2e": 65535,
@@ -46948,7 +46948,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53a4ad393e50f6d9",
+            "model": "#p8_mal_light_wall_exterior_box_on_cool",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.65512e-41] 45 f1 00 00",
             "drawInst:unk2e": 65535,
@@ -46956,7 +46956,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53a4ad393e50f6d9",
+            "model": "#p8_mal_light_wall_exterior_box_on_cool",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.4514e-41] b7 cf 00 00",
             "drawInst:unk2e": 65535,
@@ -46964,7 +46964,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53a4ad393e50f6d9",
+            "model": "#p8_mal_light_wall_exterior_box_on_cool",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.2596e-42] 73 11 00 00",
             "drawInst:unk2e": 65535,
@@ -46972,7 +46972,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53a4ad393e50f6d9",
+            "model": "#p8_mal_light_wall_exterior_box_on_cool",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.43462e-41] 5f b3 00 00",
             "drawInst:unk2e": 65535,
@@ -46980,7 +46980,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53a4ad393e50f6d9",
+            "model": "#p8_mal_light_wall_exterior_box_on_cool",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.14988e-41] 6f ab 00 00",
             "drawInst:unk2e": 65535,
@@ -46988,7 +46988,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53a4ad393e50f6d9",
+            "model": "#p8_mal_light_wall_exterior_box_on_cool",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.45473e-41] 2e 7c 00 00",
             "drawInst:unk2e": 65535,
@@ -46996,7 +46996,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53a4ad393e50f6d9",
+            "model": "#p8_mal_light_wall_exterior_box_on_cool",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.96995e-41] 6b a6 00 00",
             "drawInst:unk2e": 65535,
@@ -47060,7 +47060,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_54aa85b84cb2fdad",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_top_3_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.0067e-41] 91 8b 00 00",
             "drawInst:unk2e": 65535,
@@ -47470,7 +47470,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.5881e-41] c6 9b 00 00",
             "drawInst:unk2e": 65535,
@@ -47478,7 +47478,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.71429e-41] 0b d7 00 00",
             "drawInst:unk2e": 65535,
@@ -47486,7 +47486,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.40646e-41] 96 b2 00 00",
             "drawInst:unk2e": 65535,
@@ -47494,7 +47494,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.0115e-41] d3 6f 00 00",
             "drawInst:unk2e": 65535,
@@ -47502,7 +47502,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.64484e-41] da 2d 00 00",
             "drawInst:unk2e": 65535,
@@ -47510,7 +47510,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.80025e-41] 2f 32 00 00",
             "drawInst:unk2e": 65535,
@@ -47518,7 +47518,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.13383e-43] 27 01 00 00",
             "drawInst:unk2e": 65535,
@@ -47526,7 +47526,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.26783e-41] 99 ca 00 00",
             "drawInst:unk2e": 65535,
@@ -47534,7 +47534,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.3083e-41] 9a e7 00 00",
             "drawInst:unk2e": 65535,
@@ -47542,7 +47542,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.69897e-41] fd 82 00 00",
             "drawInst:unk2e": 65535,
@@ -47550,7 +47550,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.41157e-41] 7b ea 00 00",
             "drawInst:unk2e": 65535,
@@ -47558,7 +47558,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.4148e-41] 92 ea 00 00",
             "drawInst:unk2e": 65535,
@@ -47566,7 +47566,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.29411e-42] c2 0e 00 00",
             "drawInst:unk2e": 65535,
@@ -47574,7 +47574,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a0a3754b3b4c4a8",
+            "model": "#p8_mal_debris_rock_chunk_04_smooth",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.97181e-41] 19 fa 00 00",
             "drawInst:unk2e": 65535,
@@ -47582,7 +47582,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a4326dfb6157e7d",
+            "model": "#p8_mal_light_wall_exterior_box_on_warm",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.46741e-41] 49 b4 00 00",
             "drawInst:unk2e": 65535,
@@ -47590,7 +47590,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5a4326dfb6157e7d",
+            "model": "#p8_mal_light_wall_exterior_box_on_warm",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.03936e-41] fb fb 00 00",
             "drawInst:unk2e": 65535,
@@ -47598,7 +47598,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5aa19fbbc6e6d883",
+            "model": "#p8_cell_phone_01_recharge",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.34798e-41] 54 5d 00 00",
             "drawInst:unk2e": 65535,
@@ -48950,7 +48950,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_613a8105ec2e90c4",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_top_2",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.36968e-41] 50 e9 00 00",
             "drawInst:unk2e": 65535,
@@ -48958,7 +48958,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_613a8205ec2e9277",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_top_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.27788e-41] 40 77 00 00",
             "drawInst:unk2e": 65535,
@@ -48966,7 +48966,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_613a8405ec2e95dd",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_top_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.53148e-41] b1 2a 00 00",
             "drawInst:unk2e": 65535,
@@ -48974,7 +48974,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_613a8405ec2e95dd",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_top_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.55527e-42] 46 12 00 00",
             "drawInst:unk2e": 65535,
@@ -50821,7 +50821,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_66bae1afa6fc5d7e",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_console_1_rt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.30149e-41] 28 40 00 00",
             "drawInst:unk2e": 65535,
@@ -51157,7 +51157,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_66dcddafa7193d18",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_console_1_lt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.37924e-41] b4 cd 00 00",
             "drawInst:unk2e": 65535,
@@ -52195,7 +52195,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6c221088d71e1540",
+            "model": "#p8_fxanim_sta_security_camera_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33483cab0[ll0x0=1c33483cab0][f0x0=2.45481e-07][f0x4=6.31986e-43] b0 ca 83 34 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.51485e-41] 5c ed 00 00",
@@ -52204,7 +52204,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6c221088d71e1540",
+            "model": "#p8_fxanim_sta_security_camera_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c334841500[ll0x0=1c334841500][f0x0=2.46022e-07][f0x4=6.31986e-43] 00 15 84 34 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.18466e-41] 87 90 00 00",
@@ -52213,7 +52213,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6c221088d71e1540",
+            "model": "#p8_fxanim_sta_security_camera_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c334845f50[32h0x0=tailtiu][ll0x0=1c334845f50][f0x0=2.46563e-07][f0x4=6.31986e-43] 50 5f 84 34 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.7888e-41] 7e 85 00 00",
@@ -52222,7 +52222,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6c221088d71e1540",
+            "model": "#p8_fxanim_sta_security_camera_mod",
             "drawInst:unk10": "<INVALID_LIB>+0x1c33484a9a0[ll0x0=1c33484a9a0][f0x0=2.47103e-07][f0x4=6.31986e-43] a0 a9 84 34 c3 01 00 00",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.14466e-41] 2a c7 00 00",
@@ -56276,7 +56276,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_726b9451ac76848e",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_console_1_lt_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.70896e-41] 64 67 00 00",
             "drawInst:unk2e": 65535,
@@ -57158,7 +57158,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_75bf641eb155691e",
+            "model": "#p8_mal_furniture_leather_chair_swivel",
             "drawInst:unk20": "[f0x0=5.74532e-44] 29 00 00 00",
             "drawInst:unk28": "[f0x0=4.92711e-41] 59 89 00 00",
             "drawInst:unk2e": 65535,
@@ -57582,7 +57582,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_77c8b56ac71be02a",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_top_2_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.00737e-42] bf 10 00 00",
             "drawInst:unk2e": 65535,
@@ -58454,7 +58454,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_799c948e33487e0c",
+            "model": "#p8_mal_ceiling_light_round_metal_on_green",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.99983e-42] f0 0d 00 00",
             "drawInst:unk2e": 65535,
@@ -58462,7 +58462,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_799c948e33487e0c",
+            "model": "#p8_mal_ceiling_light_round_metal_on_green",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.51177e-41] 46 ed 00 00",
             "drawInst:unk2e": 65535,
@@ -58470,7 +58470,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_799c948e33487e0c",
+            "model": "#p8_mal_ceiling_light_round_metal_on_green",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.17829e-41] 1a c8 00 00",
             "drawInst:unk2e": 65535,
@@ -58478,7 +58478,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_799c948e33487e0c",
+            "model": "#p8_mal_ceiling_light_round_metal_on_green",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.89705e-41] 43 c0 00 00",
             "drawInst:unk2e": 65535,
@@ -58486,7 +58486,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_799c948e33487e0c",
+            "model": "#p8_mal_ceiling_light_round_metal_on_green",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.21745e-41] f0 21 00 00",
             "drawInst:unk2e": 65535,
@@ -58494,7 +58494,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_799c948e33487e0c",
+            "model": "#p8_mal_ceiling_light_round_metal_on_green",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.31478e-42] 64 14 00 00",
             "drawInst:unk2e": 65535,
@@ -58502,7 +58502,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_799c948e33487e0c",
+            "model": "#p8_mal_ceiling_light_round_metal_on_green",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.93793e-41] c6 6d 00 00",
             "drawInst:unk2e": 65535,
@@ -58510,7 +58510,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_799c948e33487e0c",
+            "model": "#p8_mal_ceiling_light_round_metal_on_green",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.3626e-41] 5d b1 00 00",
             "drawInst:unk2e": 65535,
@@ -58518,7 +58518,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7a05d820e6e388c0",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_2",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.60358e-41] 74 64 00 00",
             "drawInst:unk2e": 65535,
@@ -58526,7 +58526,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7a05d920e6e38a73",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_3",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.62842e-41] c6 b8 00 00",
             "drawInst:unk2e": 65535,
@@ -58534,7 +58534,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7a05db20e6e38dd9",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.57912e-41] 05 2c 00 00",
             "drawInst:unk2e": 65535,
@@ -58542,7 +58542,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7a05db20e6e38dd9",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.08531e-41] 41 1e 00 00",
             "drawInst:unk2e": 65535,
@@ -58646,7 +58646,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7af670d5c755f4ed",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_console_1_buttons",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.25781e-41] 91 92 00 00",
             "drawInst:unk2e": 65535,
@@ -58846,7 +58846,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7c97172953f2f916",
+            "model": "#p8_mal_couch_sectional_side",
             "drawInst:unk20": "[f0x0=4.34403e-44] 1f 00 00 00",
             "drawInst:unk28": "[f0x0=5.28051e-41] 33 93 00 00",
             "drawInst:unk2e": 65535,
@@ -59070,7 +59070,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7dea1dfe3e22222d",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_console_1_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.68521e-41] 7b 9e 00 00",
             "drawInst:unk2e": 65535,
@@ -59102,7 +59102,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7f316c735e82bffb",
+            "model": "#p8_mal_weapon_bay_catwalk_wall_extra_lt_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.94738e-41] 49 36 00 00",
             "drawInst:unk2e": 65535,
@@ -59110,7 +59110,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7fa22595d917aeff",
+            "model": "#p8_fxanim_gp_foliage_seaweed_clump_lrg_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.58939e-41] ef 7f 00 00",
             "drawInst:unk2e": 65535,

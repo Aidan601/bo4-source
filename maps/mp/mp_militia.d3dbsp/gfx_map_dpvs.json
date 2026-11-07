@@ -1853,7 +1853,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_99d28e71a9c0c5",
+            "model": "#p8_usa_oc_ext_wall_tip_32_a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.73359e-41] 75 f3 00 00",
             "drawInst:unk2e": 65535,
@@ -12878,7 +12878,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_e5c710668359223",
+            "model": "#p8_usa_bunker_cabin_damaged_concrete_corner_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.9408e-41] 1a 36 00 00",
             "drawInst:unk2e": 65535,
@@ -12886,7 +12886,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_e5c710668359223",
+            "model": "#p8_usa_bunker_cabin_damaged_concrete_corner_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.47637e-41] 08 45 00 00",
             "drawInst:unk2e": 65535,
@@ -15931,7 +15931,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.07522e-41] 7a 8d 00 00",
             "drawInst:unk2e": 492,
@@ -15939,7 +15939,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.66668e-41] d7 b9 00 00",
             "drawInst:unk2e": 2427,
@@ -15947,7 +15947,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.63144e-41] 9c f0 00 00",
             "drawInst:unk2e": 233,
@@ -15955,7 +15955,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.28681e-41] df 23 00 00",
             "drawInst:unk2e": 238,
@@ -15963,7 +15963,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.37118e-42] f9 0e 00 00",
             "drawInst:unk2e": 2416,
@@ -15971,7 +15971,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.82625e-41] a9 6a 00 00",
             "drawInst:unk2e": 494,
@@ -15979,7 +15979,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.82342e-41] f6 f5 00 00",
             "drawInst:unk2e": 493,
@@ -15987,7 +15987,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.99941e-41] 5d 8b 00 00",
             "drawInst:unk2e": 2415,
@@ -15995,7 +15995,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.02624e-41] 5c 54 00 00",
             "drawInst:unk2e": 240,
@@ -16003,7 +16003,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.45343e-41] 05 98 00 00",
             "drawInst:unk2e": 237,
@@ -16011,7 +16011,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.32329e-41] 84 78 00 00",
             "drawInst:unk2e": 2,
@@ -16019,7 +16019,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.79077e-41] 0d f5 00 00",
             "drawInst:unk2e": 2449,
@@ -16027,7 +16027,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.67014e-41] 4f 66 00 00",
             "drawInst:unk2e": 456,
@@ -16035,7 +16035,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.67613e-41] 5a 82 00 00",
             "drawInst:unk2e": 2451,
@@ -16043,7 +16043,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.00008e-41] 42 a7 00 00",
             "drawInst:unk2e": 178,
@@ -16051,7 +16051,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.5206e-41] 85 ed 00 00",
             "drawInst:unk2e": 495,
@@ -16059,7 +16059,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.6334e-41] aa f0 00 00",
             "drawInst:unk2e": 2448,
@@ -16067,7 +16067,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.5668e-41] 2e 9b 00 00",
             "drawInst:unk2e": 241,
@@ -16075,7 +16075,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.19777e-41] a5 c8 00 00",
             "drawInst:unk2e": 464,
@@ -16083,7 +16083,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.89421e-41] 8e 6c 00 00",
             "drawInst:unk2e": 242,
@@ -16091,7 +16091,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.57878e-41] c3 63 00 00",
             "drawInst:unk2e": 2447,
@@ -16099,7 +16099,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.4246e-41] 57 7b 00 00",
             "drawInst:unk2e": 175,
@@ -16107,7 +16107,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.03094e-41] 3e 8c 00 00",
             "drawInst:unk2e": 496,
@@ -16115,7 +16115,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.00635e-41] 4f c3 00 00",
             "drawInst:unk2e": 2426,
@@ -16123,7 +16123,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.95898e-41] 7c 52 00 00",
             "drawInst:unk2e": 181,
@@ -16131,7 +16131,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.84138e-41] 15 6b 00 00",
             "drawInst:unk2e": 234,
@@ -16139,7 +16139,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.49902e-41] eb ec 00 00",
             "drawInst:unk2e": 171,
@@ -16147,7 +16147,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.6933e-41] 14 4b 00 00",
             "drawInst:unk2e": 174,
@@ -16155,7 +16155,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.84576e-41] 54 4f 00 00",
             "drawInst:unk2e": 172,
@@ -16163,7 +16163,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.05312e-41] fc 70 00 00",
             "drawInst:unk2e": 2446,
@@ -16171,7 +16171,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.65624e-41] 4d f1 00 00",
             "drawInst:unk2e": 179,
@@ -16179,7 +16179,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.12904e-41] 7b fe 00 00",
             "drawInst:unk2e": 180,
@@ -16187,7 +16187,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.66741e-41] fc 9d 00 00",
             "drawInst:unk2e": 236,
@@ -16195,7 +16195,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.50027e-41] 73 7d 00 00",
             "drawInst:unk2e": 235,
@@ -16203,7 +16203,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.78466e-41] a0 4d 00 00",
             "drawInst:unk2e": 173,
@@ -16211,7 +16211,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.92711e-41] da f8 00 00",
             "drawInst:unk2e": 176,
@@ -16219,7 +16219,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.40124e-41] 51 ce 00 00",
             "drawInst:unk2e": 476,
@@ -16227,7 +16227,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.80874e-41] ad d9 00 00",
             "drawInst:unk2e": 475,
@@ -16235,7 +16235,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.74813e-41] 3c a0 00 00",
             "drawInst:unk2e": 477,
@@ -16243,7 +16243,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.66261e-41] 39 4a 00 00",
             "drawInst:unk2e": 232,
@@ -16251,7 +16251,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.18117e-41] ef ff 00 00",
             "drawInst:unk2e": 491,
@@ -16259,7 +16259,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.91229e-41] 90 dc 00 00",
             "drawInst:unk2e": 177,
@@ -16267,7 +16267,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.0088e-41] a0 8b 00 00",
             "drawInst:unk2e": 239,
@@ -16275,7 +16275,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.71211e-41] 3b 9f 00 00",
             "drawInst:unk2e": 2425,
@@ -16283,7 +16283,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.33029e-41] b6 78 00 00",
             "drawInst:unk2e": 2450,
@@ -16291,7 +16291,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_12a009dc078f17ab",
+            "model": "#splm/p8_usa_loghouse_roof_plank",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.44583e-41] af b3 00 00",
             "drawInst:unk2e": 2417,
@@ -21818,7 +21818,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.69278e-41] b1 9e 00 00",
             "drawInst:unk2e": 65535,
@@ -21826,7 +21826,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.10567e-41] f4 e1 00 00",
             "drawInst:unk2e": 65535,
@@ -21834,7 +21834,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.72231e-41] 64 bb 00 00",
             "drawInst:unk2e": 65535,
@@ -21842,7 +21842,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.0907e-41] 28 56 00 00",
             "drawInst:unk2e": 65535,
@@ -21850,7 +21850,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.15482e-41] 33 ff 00 00",
             "drawInst:unk2e": 65535,
@@ -21858,7 +21858,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.20737e-41] 29 91 00 00",
             "drawInst:unk2e": 65535,
@@ -21866,7 +21866,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.93443e-41] 2e dd 00 00",
             "drawInst:unk2e": 65535,
@@ -21874,7 +21874,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.36291e-41] 7f 95 00 00",
             "drawInst:unk2e": 65535,
@@ -21882,7 +21882,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.62765e-41] 00 81 00 00",
             "drawInst:unk2e": 65535,
@@ -21890,7 +21890,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.93941e-42] b5 1b 00 00",
             "drawInst:unk2e": 65535,
@@ -21898,7 +21898,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.08286e-41] 71 c5 00 00",
             "drawInst:unk2e": 65535,
@@ -21906,7 +21906,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.38981e-41] 3f 96 00 00",
             "drawInst:unk2e": 65535,
@@ -21914,7 +21914,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.07071e-41] 3a a9 00 00",
             "drawInst:unk2e": 65535,
@@ -21922,7 +21922,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.43661e-41] 0c 28 00 00",
             "drawInst:unk2e": 65535,
@@ -21930,7 +21930,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.78834e-41] 5b a1 00 00",
             "drawInst:unk2e": 65535,
@@ -21938,7 +21938,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_198b5c7348df76a7",
+            "model": "#p8_kit_zod_hal_02_railing_02_basic_64_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.9173e-41] 94 f8 00 00",
             "drawInst:unk2e": 65535,
@@ -35381,7 +35381,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2ee0ff7d99e90fec",
+            "model": "#p8_usa_bunker_cabin_drying_wall_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.85952e-41] d6 33 00 00",
             "drawInst:unk2e": 65535,
@@ -35954,7 +35954,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_300d7b2a20da79ba",
+            "model": "#p8_usa_smoking_cabin_sign",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.56322e-41] 54 63 00 00",
             "drawInst:unk2c": " 32 00",
@@ -39111,7 +39111,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3481b8f9f4326489",
+            "model": "#p8_usa_bunker_cabin_damaged_concrete_corner_01_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.26846e-41] 5c 23 00 00",
             "drawInst:unk2e": 65535,
@@ -39119,7 +39119,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3481b8f9f4326489",
+            "model": "#p8_usa_bunker_cabin_damaged_concrete_corner_01_decal",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.71568e-41] 94 67 00 00",
             "drawInst:unk2e": 65535,
@@ -40149,7 +40149,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_35f0b1f90aae2bdc",
+            "model": "#p8_usa_stone_wall_segment_corner_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.85161e-41] 5e 6b 00 00",
             "drawInst:unk2e": 65535,
@@ -40157,7 +40157,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_35f0b1f90aae2bdc",
+            "model": "#p8_usa_stone_wall_segment_corner_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.87691e-41] d3 a3 00 00",
             "drawInst:unk2e": 65535,
@@ -40165,7 +40165,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_35f0b1f90aae2bdc",
+            "model": "#p8_usa_stone_wall_segment_corner_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.84268e-41] bf be 00 00",
             "drawInst:unk2e": 65535,
@@ -40173,7 +40173,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_35f0b1f90aae2bdc",
+            "model": "#p8_usa_stone_wall_segment_corner_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.43805e-41] b7 7b 00 00",
             "drawInst:unk2e": 65535,
@@ -40181,7 +40181,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_35f0b1f90aae2bdc",
+            "model": "#p8_usa_stone_wall_segment_corner_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.01381e-41] a4 a7 00 00",
             "drawInst:unk2e": 65535,
@@ -40189,7 +40189,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_35f0b1f90aae2bdc",
+            "model": "#p8_usa_stone_wall_segment_corner_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.48128e-41] 2b 45 00 00",
             "drawInst:unk2e": 65535,
@@ -40295,7 +40295,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.37856e-41] 4e 42 00 00",
             "drawInst:unk2e": 2033,
@@ -40303,7 +40303,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.99108e-42] 7d 13 00 00",
             "drawInst:unk2e": 2031,
@@ -40311,7 +40311,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.89396e-41] ac 50 00 00",
             "drawInst:unk2e": 2030,
@@ -40319,7 +40319,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.0191e-41] 29 54 00 00",
             "drawInst:unk2e": 2048,
@@ -40327,7 +40327,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.51789e-41] d1 99 00 00",
             "drawInst:unk2e": 2022,
@@ -40335,7 +40335,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.17836e-41] db ff 00 00",
             "drawInst:unk2e": 2023,
@@ -40343,7 +40343,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.22692e-41] 75 c9 00 00",
             "drawInst:unk2e": 2025,
@@ -40351,7 +40351,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.7031e-42] 89 07 00 00",
             "drawInst:unk2e": 2029,
@@ -40359,7 +40359,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.49481e-41] cd ec 00 00",
             "drawInst:unk2e": 2026,
@@ -40367,7 +40367,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.97793e-41] 23 37 00 00",
             "drawInst:unk2e": 2036,
@@ -40375,7 +40375,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.93155e-41] d8 35 00 00",
             "drawInst:unk2e": 2040,
@@ -40383,7 +40383,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.80786e-42] 67 0d 00 00",
             "drawInst:unk2e": 2028,
@@ -40391,7 +40391,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.15678e-41] 41 ff 00 00",
             "drawInst:unk2e": 2042,
@@ -40399,7 +40399,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.0679e-41] a5 39 00 00",
             "drawInst:unk2e": 2043,
@@ -40407,7 +40407,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.40379e-41] 02 43 00 00",
             "drawInst:unk2e": 2044,
@@ -40415,7 +40415,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.00446e-41] 81 8b 00 00",
             "drawInst:unk2e": 2039,
@@ -40423,7 +40423,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.48279e-41] 16 61 00 00",
             "drawInst:unk2e": 2045,
@@ -40431,7 +40431,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.61084e-41] 09 f0 00 00",
             "drawInst:unk2e": 2027,
@@ -40439,7 +40439,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.00022e-41] 43 a7 00 00",
             "drawInst:unk2e": 2038,
@@ -40447,7 +40447,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.3078e-41] 55 40 00 00",
             "drawInst:unk2e": 2032,
@@ -40455,7 +40455,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.57262e-42] 1c 15 00 00",
             "drawInst:unk2e": 2037,
@@ -40463,7 +40463,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.49985e-41] 70 7d 00 00",
             "drawInst:unk2e": 2046,
@@ -40471,7 +40471,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.84394e-41] 47 4f 00 00",
             "drawInst:unk2e": 2024,
@@ -40479,7 +40479,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.01021e-41] 2b fb 00 00",
             "drawInst:unk2e": 2035,
@@ -40487,7 +40487,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.36208e-42] 19 1a 00 00",
             "drawInst:unk2e": 2034,
@@ -40495,7 +40495,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.61799e-42] 06 18 00 00",
             "drawInst:unk2e": 2047,
@@ -40503,7 +40503,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_363fc71ddbf9f534",
+            "model": "#splm/p8_usa_rock_cliff_wall_02_shelf_spline",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.98443e-41] 73 fa 00 00",
             "drawInst:unk2e": 2041,
@@ -40737,7 +40737,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_378cf9b4c827b084",
+            "model": "#p8_usa_oc_ext_window_sm_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.57489e-41] 48 b7 00 00",
             "drawInst:unk2c": " 32 00",
@@ -40746,7 +40746,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_378cf9b4c827b084",
+            "model": "#p8_usa_oc_ext_window_sm_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.41703e-41] 21 7b 00 00",
             "drawInst:unk2c": " 32 00",
@@ -40755,7 +40755,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_378cf9b4c827b084",
+            "model": "#p8_usa_oc_ext_window_sm_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.13344e-41] 59 57 00 00",
             "drawInst:unk2c": " 32 00",
@@ -40764,7 +40764,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_378cf9b4c827b084",
+            "model": "#p8_usa_oc_ext_window_sm_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.3317e-41] 41 e8 00 00",
             "drawInst:unk2c": " 32 00",
@@ -41791,7 +41791,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3980592e8b43abc6",
+            "model": "#p8_usa_oc_ext_window_med_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.58802e-41] 05 64 00 00",
             "drawInst:unk2c": " 32 00",
@@ -41800,7 +41800,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3980592e8b43abc6",
+            "model": "#p8_usa_oc_ext_window_med_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.02793e-41] 68 54 00 00",
             "drawInst:unk2c": " 32 00",
@@ -44131,7 +44131,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3b8e7ddda0178c07",
+            "model": "#p8_kit_zod_hal_02_railing_02_end_34_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.78186e-41] 8c 4d 00 00",
             "drawInst:unk2e": 65535,
@@ -44139,7 +44139,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3b8e7ddda0178c07",
+            "model": "#p8_kit_zod_hal_02_railing_02_end_34_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.36494e-41] 4e cd 00 00",
             "drawInst:unk2e": 65535,
@@ -45639,7 +45639,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d7a9f403c06b9f8",
+            "model": "#splm/p8_kit_zod_hal_02_railing_02_end_34_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.5153e-41] 7f d1 00 00",
             "drawInst:unk2e": 1271,
@@ -45647,7 +45647,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d7a9f403c06b9f8",
+            "model": "#splm/p8_kit_zod_hal_02_railing_02_end_34_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.01637e-41] d6 8b 00 00",
             "drawInst:unk2e": 1272,
@@ -45655,7 +45655,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d7a9f403c06b9f8",
+            "model": "#splm/p8_kit_zod_hal_02_railing_02_end_34_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.31545e-41] cd e7 00 00",
             "drawInst:unk2e": 1273,
@@ -45663,7 +45663,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3d7a9f403c06b9f8",
+            "model": "#splm/p8_kit_zod_hal_02_railing_02_end_34_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.46177e-41] 01 d0 00 00",
             "drawInst:unk2e": 1274,
@@ -45671,7 +45671,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3dcd02e71f822816",
+            "model": "#splm/p8_kit_zod_hal_02_railing_01_hand_rail_128_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.24426e-41] d1 e5 00 00",
             "drawInst:unk2e": 1029,
@@ -45679,7 +45679,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3dcd02e71f822816",
+            "model": "#splm/p8_kit_zod_hal_02_railing_01_hand_rail_128_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.29723e-41] 4b e7 00 00",
             "drawInst:unk2e": 1031,
@@ -45687,7 +45687,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3dcd02e71f822816",
+            "model": "#splm/p8_kit_zod_hal_02_railing_01_hand_rail_128_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.48574e-42] de 14 00 00",
             "drawInst:unk2e": 1030,
@@ -45695,7 +45695,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3dcd02e71f822816",
+            "model": "#splm/p8_kit_zod_hal_02_railing_01_hand_rail_128_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.05343e-41] 1e 55 00 00",
             "drawInst:unk2e": 1028,
@@ -46064,7 +46064,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ebab5da0415acdc",
+            "model": "#p8_usa_oc_ext_wall_corner_out_32_a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.6947e-41] 1e 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -46072,7 +46072,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ebab5da0415acdc",
+            "model": "#p8_usa_oc_ext_wall_corner_out_32_a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.47309e-41] 32 ec 00 00",
             "drawInst:unk2e": 65535,
@@ -46080,7 +46080,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ebab5da0415acdc",
+            "model": "#p8_usa_oc_ext_wall_corner_out_32_a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.59468e-41] 74 2c 00 00",
             "drawInst:unk2e": 65535,
@@ -46088,7 +46088,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ebab8da0415b1f5",
+            "model": "#p8_usa_oc_ext_wall_corner_out_32_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.06086e-41] d4 c4 00 00",
             "drawInst:unk2c": " 32 00",
@@ -46097,7 +46097,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ebab8da0415b1f5",
+            "model": "#p8_usa_oc_ext_wall_corner_out_32_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.70066e-42] 41 18 00 00",
             "drawInst:unk2c": " 32 00",
@@ -46106,7 +46106,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3ebab8da0415b1f5",
+            "model": "#p8_usa_oc_ext_wall_corner_out_32_b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.33923e-41] d6 94 00 00",
             "drawInst:unk2c": " 32 00",
@@ -49916,7 +49916,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.12265e-41] 0c 57 00 00",
             "drawInst:unk2e": 1038,
@@ -49924,7 +49924,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.86958e-41] fe 4f 00 00",
             "drawInst:unk2e": 1037,
@@ -49932,7 +49932,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.98453e-41] d3 a6 00 00",
             "drawInst:unk2e": 1036,
@@ -49940,7 +49940,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.92665e-41] b5 35 00 00",
             "drawInst:unk2e": 1034,
@@ -49948,7 +49948,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.56421e-41] dc d2 00 00",
             "drawInst:unk2e": 1035,
@@ -49956,7 +49956,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.18157e-41] f0 20 00 00",
             "drawInst:unk2e": 1048,
@@ -49964,7 +49964,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.268e-41] 39 3f 00 00",
             "drawInst:unk2e": 1049,
@@ -49972,7 +49972,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.99482e-41] 5c 6f 00 00",
             "drawInst:unk2e": 1047,
@@ -49980,7 +49980,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.86303e-41] ef 33 00 00",
             "drawInst:unk2e": 1040,
@@ -49988,7 +49988,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506302dbda9ec4f",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.40628e-41] f4 5e 00 00",
             "drawInst:unk2e": 1039,
@@ -49996,7 +49996,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.14768e-41] 00 ff 00 00",
             "drawInst:unk2e": 1052,
@@ -50004,7 +50004,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.73583e-41] 85 f3 00 00",
             "drawInst:unk2e": 1032,
@@ -50012,7 +50012,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.60263e-41] 8d 48 00 00",
             "drawInst:unk2e": 1033,
@@ -50020,7 +50020,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.00296e-41] 17 df 00 00",
             "drawInst:unk2e": 1054,
@@ -50028,7 +50028,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.61819e-41] 7d b8 00 00",
             "drawInst:unk2e": 516,
@@ -50036,7 +50036,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.69189e-41] 0a 4b 00 00",
             "drawInst:unk2e": 1053,
@@ -50044,7 +50044,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.23272e-41] 5d 22 00 00",
             "drawInst:unk2e": 517,
@@ -50052,7 +50052,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.11305e-41] 07 1f 00 00",
             "drawInst:unk2e": 518,
@@ -50060,7 +50060,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4506312dbda9ee02",
+            "model": "#splm/p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.84937e-41] cf da 00 00",
             "drawInst:unk2e": 519,
@@ -60659,7 +60659,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_53b34194ae6ec62d",
+            "model": "#p8_fxanim_usa_militia_pole_flag_smod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.419e-41] b0 ea 00 00",
             "drawInst:unk2c": " 04 00",
@@ -61123,7 +61123,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.73103e-41] c2 9f 00 00",
             "drawInst:unk2e": 666,
@@ -61131,7 +61131,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.68398e-41] 92 82 00 00",
             "drawInst:unk2e": 665,
@@ -61139,7 +61139,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.27729e-41] 1c 93 00 00",
             "drawInst:unk2e": 664,
@@ -61147,7 +61147,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.05602e-41] f1 8c 00 00",
             "drawInst:unk2e": 663,
@@ -61155,7 +61155,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.90272e-41] ab 88 00 00",
             "drawInst:unk2e": 662,
@@ -61163,7 +61163,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.83563e-41] ec 6a 00 00",
             "drawInst:unk2e": 660,
@@ -61171,7 +61171,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.72911e-41] 55 f3 00 00",
             "drawInst:unk2e": 658,
@@ -61179,7 +61179,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.5496e-41] d3 7e 00 00",
             "drawInst:unk2e": 1050,
@@ -61187,7 +61187,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.1173e-41] 47 e2 00 00",
             "drawInst:unk2e": 659,
@@ -61195,7 +61195,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.84727e-43] 30 02 00 00",
             "drawInst:unk2e": 661,
@@ -61203,7 +61203,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.01848e-41] 66 fb 00 00",
             "drawInst:unk2e": 655,
@@ -61211,7 +61211,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.71748e-41] 02 f3 00 00",
             "drawInst:unk2e": 654,
@@ -61219,7 +61219,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5471287450d5989e",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_16_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.41899e-41] 2f 7b 00 00",
             "drawInst:unk2e": 1051,
@@ -62891,7 +62891,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_567094846ec87253",
+            "model": "#p8_kit_zod_hal_02_railing_01_hand_rail_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.30829e-41] 19 78 00 00",
             "drawInst:unk2e": 65535,
@@ -67612,7 +67612,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5b1ad1ef900d3fc6",
+            "model": "#p8_usa_loghouse_log_med_cap_64_lod0",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.39349e-41] 79 7a 00 00",
             "drawInst:unk2e": 65535,
@@ -67620,7 +67620,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5b1ad1ef900d3fc6",
+            "model": "#p8_usa_loghouse_log_med_cap_64_lod0",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.81329e-42] 5b 1b 00 00",
             "drawInst:unk2e": 65535,
@@ -68492,7 +68492,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ca7d4eb9a3aa476",
+            "model": "#p8_kit_zod_hal_02_railing_01_hand_rail_corner_inside_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.86513e-42] 33 05 00 00",
             "drawInst:unk2e": 65535,
@@ -68922,7 +68922,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5e6db74e6141839f",
+            "model": "#p8_spa_stone_oven_firewood_rack",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.82908e-41] dd 4e 00 00",
             "drawInst:unk2e": 65535,
@@ -68930,7 +68930,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5e6db74e6141839f",
+            "model": "#p8_spa_stone_oven_firewood_rack",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.8384e-41] e0 86 00 00",
             "drawInst:unk2e": 65535,
@@ -69274,7 +69274,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ea112bc43dac1ee",
+            "model": "#c_t8_wun_foamer_helmet1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.24401e-41] ef c9 00 00",
             "drawInst:unk2e": 65535,
@@ -69282,7 +69282,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ea112bc43dac1ee",
+            "model": "#c_t8_wun_foamer_helmet1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.149e-41] c8 57 00 00",
             "drawInst:unk2e": 65535,
@@ -69290,7 +69290,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ea112bc43dac1ee",
+            "model": "#c_t8_wun_foamer_helmet1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.77065e-41] 3c 4d 00 00",
             "drawInst:unk2e": 65535,
@@ -69298,7 +69298,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ea112bc43dac1ee",
+            "model": "#c_t8_wun_foamer_helmet1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.0557e-41] 4e 39 00 00",
             "drawInst:unk2e": 65535,
@@ -69306,7 +69306,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ea112bc43dac1ee",
+            "model": "#c_t8_wun_foamer_helmet1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.28268e-41] 82 5b 00 00",
             "drawInst:unk2e": 65535,
@@ -69314,7 +69314,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ea112bc43dac1ee",
+            "model": "#c_t8_wun_foamer_helmet1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.91758e-41] 96 f8 00 00",
             "drawInst:unk2e": 65535,
@@ -69322,7 +69322,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ea112bc43dac1ee",
+            "model": "#c_t8_wun_foamer_helmet1",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.91057e-41] e3 88 00 00",
             "drawInst:unk2e": 65535,
@@ -69410,7 +69410,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ed0d28e95271bca",
+            "model": "#p8_usa_militia_beehive_frame_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.43318e-41] b4 5f 00 00",
             "drawInst:unk2e": 65535,
@@ -69418,7 +69418,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ed0d28e95271bca",
+            "model": "#p8_usa_militia_beehive_frame_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.27393e-41] 04 93 00 00",
             "drawInst:unk2e": 65535,
@@ -69426,7 +69426,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5ed0d28e95271bca",
+            "model": "#p8_usa_militia_beehive_frame_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.40562e-41] 90 b2 00 00",
             "drawInst:unk2e": 65535,
@@ -70788,7 +70788,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6013a7f8bd2870c9",
+            "model": "#p8_usa_donation_plaque",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.79584e-41] 51 d9 00 00",
             "drawInst:unk2e": 65535,
@@ -73932,7 +73932,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_67311e25ff746938",
+            "model": "#p8_kit_zod_hal_02_stairs_pillar_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.76687e-41] a2 bc 00 00",
             "drawInst:unk2e": 65535,
@@ -73940,7 +73940,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_67311e25ff746938",
+            "model": "#p8_kit_zod_hal_02_stairs_pillar_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.12342e-41] 51 1f 00 00",
             "drawInst:unk2e": 65535,
@@ -73956,7 +73956,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_673cf1eb18a4010e",
+            "model": "#p8_usa_church_opening_hours_sign",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.7866e-41] 0f d9 00 00",
             "drawInst:unk2e": 65535,
@@ -73964,7 +73964,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_673cf1eb18a4010e",
+            "model": "#p8_usa_church_opening_hours_sign",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.24519e-41] b6 22 00 00",
             "drawInst:unk2e": 65535,
@@ -73972,7 +73972,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_673cf1eb18a4010e",
+            "model": "#p8_usa_church_opening_hours_sign",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.56088e-42] 4a 12 00 00",
             "drawInst:unk2e": 65535,
@@ -79317,7 +79317,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.30185e-41] eb 77 00 00",
             "drawInst:unk2e": 65535,
@@ -79325,7 +79325,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.17188e-41] 0c ac 00 00",
             "drawInst:unk2e": 65535,
@@ -79333,7 +79333,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.72224e-41] 24 f3 00 00",
             "drawInst:unk2e": 65535,
@@ -79341,7 +79341,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.10938e-41] 4e aa 00 00",
             "drawInst:unk2e": 65535,
@@ -79349,7 +79349,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.3991e-41] a1 7a 00 00",
             "drawInst:unk2c": " 03 00",
@@ -79358,7 +79358,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.80697e-41] 5f 32 00 00",
             "drawInst:unk2e": 65535,
@@ -79366,7 +79366,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.0973e-41] d8 c5 00 00",
             "drawInst:unk2e": 65535,
@@ -79374,7 +79374,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.25098e-41] 80 76 00 00",
             "drawInst:unk2e": 65535,
@@ -79382,7 +79382,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.07127e-41] 3e a9 00 00",
             "drawInst:unk2e": 65535,
@@ -79390,7 +79390,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.20797e-41] ce e4 00 00",
             "drawInst:unk2e": 65535,
@@ -79398,7 +79398,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_71589143ac1872ef",
+            "model": "#p8_light_wall_cagel_dmg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.38028e-42] d9 03 00 00",
             "drawInst:unk2e": 65535,
@@ -81422,7 +81422,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7404343b7ff3d037",
+            "model": "#p8_usa_cow_hide_rug",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.75941e-41] 4d d8 00 00",
             "drawInst:unk2e": 65535,
@@ -82096,7 +82096,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7666d47c7bf0e54a",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_128_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.96627e-41] b0 52 00 00",
             "drawInst:unk2e": 657,
@@ -82104,7 +82104,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7666d47c7bf0e54a",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_128_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.87414e-41] df 87 00 00",
             "drawInst:unk2e": 656,
@@ -82112,7 +82112,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7666d47c7bf0e54a",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_128_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.74291e-41] f7 bb 00 00",
             "drawInst:unk2e": 653,
@@ -82120,7 +82120,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7666d47c7bf0e54a",
+            "model": "#splm/p8_usa_bunker_cabin_plinth_128_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.82401e-41] 1a da 00 00",
             "drawInst:unk2e": 652,
@@ -87143,7 +87143,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7b78cf470a17f5b4",
+            "model": "#p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01a",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.3963e-41] 0e ea 00 00",
             "drawInst:unk2e": 65535,
@@ -87151,7 +87151,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7b78d2470a17facd",
+            "model": "#p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.54305e-41] 45 d2 00 00",
             "drawInst:unk2e": 65535,
@@ -87159,7 +87159,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7b78d2470a17facd",
+            "model": "#p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.82797e-41] 56 be 00 00",
             "drawInst:unk2e": 65535,
@@ -87167,7 +87167,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7b78d2470a17facd",
+            "model": "#p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.77381e-41] 94 f4 00 00",
             "drawInst:unk2e": 65535,
@@ -87175,7 +87175,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7b78d2470a17facd",
+            "model": "#p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.3694e-41] 4e e9 00 00",
             "drawInst:unk2e": 65535,
@@ -87183,7 +87183,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7b78d2470a17facd",
+            "model": "#p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.3194e-41] 88 5c 00 00",
             "drawInst:unk2e": 65535,
@@ -87191,7 +87191,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7b78d2470a17facd",
+            "model": "#p8_usa_bunker_cabin_wall_outside_128h_splined_4d_01b",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.70678e-41] 94 2f 00 00",
             "drawInst:unk2e": 65535,
@@ -88498,7 +88498,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7ca0b4fc26470749",
+            "model": "#p8_kit_col_slu_09_window_09_right_brown_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.82009e-41] fe d9 00 00",
             "drawInst:unk2e": 65535,
@@ -88506,7 +88506,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7ca0b4fc26470749",
+            "model": "#p8_kit_col_slu_09_window_09_right_brown_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.75218e-41] d8 30 00 00",
             "drawInst:unk2e": 65535,
@@ -88514,7 +88514,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7ca0b4fc26470749",
+            "model": "#p8_kit_col_slu_09_window_09_right_brown_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.37972e-41] f7 95 00 00",
             "drawInst:unk2e": 65535,
@@ -88522,7 +88522,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7ca0b4fc26470749",
+            "model": "#p8_kit_col_slu_09_window_09_right_brown_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.68374e-41] 31 d6 00 00",
             "drawInst:unk2e": 65535,
@@ -90843,7 +90843,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eaf26b9b2b387ec",
+            "model": "#p8_kit_col_row_10_door_03_left_brown_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.76463e-41] 92 bc 00 00",
             "drawInst:unk2e": 65535,
@@ -90851,7 +90851,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7eaf26b9b2b387ec",
+            "model": "#p8_kit_col_row_10_door_03_left_brown_wood_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.46888e-41] 93 7c 00 00",
             "drawInst:unk2e": 65535,
@@ -90859,7 +90859,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7f0e3c4aeaf7e703",
+            "model": "#p8_usa_oc_ext_window_xlg",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.22552e-41] 6b c9 00 00",
             "drawInst:unk2e": 65535,

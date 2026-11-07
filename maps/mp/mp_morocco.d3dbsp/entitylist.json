@@ -27693,7 +27693,7 @@
                 {
                     "key": "script_sound",
                     "type": "xhash",
-                    "value": "#hash_5970a11a29706b7",
+                    "value": "#amb_well_water_drips",
                     "unk1a": true
                 },
                 {
@@ -54268,7 +54268,7 @@
                 {
                     "key": "prop_model",
                     "type": "xhash",
-                    "value": "#hash_18bd77a19250c1b3",
+                    "value": "#veh_t8_civ_truck_mini_box_full_dirty_prp_morocco",
                     "unk1a": true
                 },
                 {

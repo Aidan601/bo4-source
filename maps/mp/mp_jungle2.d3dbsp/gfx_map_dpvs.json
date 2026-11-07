@@ -17155,7 +17155,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_f45028d86307e4b",
+            "model": "#p8_fxanim_mp_jun_hut_h_roof_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.9585e-42] f9 18 00 00",
             "drawInst:unk2c": " 05 01",
@@ -17164,7 +17164,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_f45038d86307ffe",
+            "model": "#p8_fxanim_mp_jun_hut_h_roof_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.14953e-41] 2d e3 00 00",
             "drawInst:unk2c": " 05 01",
@@ -30879,7 +30879,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1cd6cf3eb8c05f82",
+            "model": "#p7_jun_splinter_end_bamboo_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.44128e-41] ce 7b 00 00",
             "drawInst:unk2c": " 03 01",
@@ -30888,7 +30888,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1cd6cf3eb8c05f82",
+            "model": "#p7_jun_splinter_end_bamboo_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.24688e-41] 43 92 00 00",
             "drawInst:unk2c": " 03 01",
@@ -30897,7 +30897,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1cd6cf3eb8c05f82",
+            "model": "#p7_jun_splinter_end_bamboo_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.16886e-41] 36 74 00 00",
             "drawInst:unk2c": " 03 01",
@@ -30906,7 +30906,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1cd6cf3eb8c05f82",
+            "model": "#p7_jun_splinter_end_bamboo_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.35861e-41] 01 e9 00 00",
             "drawInst:unk2c": " 03 01",
@@ -30915,7 +30915,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1cd6cf3eb8c05f82",
+            "model": "#p7_jun_splinter_end_bamboo_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.41532e-41] f5 96 00 00",
             "drawInst:unk2c": " 03 01",
@@ -30924,7 +30924,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1cd6cf3eb8c05f82",
+            "model": "#p7_jun_splinter_end_bamboo_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.10507e-41] 4f 8e 00 00",
             "drawInst:unk2c": " 03 01",
@@ -30933,7 +30933,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1cd6cf3eb8c05f82",
+            "model": "#p7_jun_splinter_end_bamboo_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.1409e-41] ae 3b 00 00",
             "drawInst:unk2c": " 03 01",
@@ -35991,7 +35991,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2407be2461608cdb",
+            "model": "#p8_fxanim_mp_jun_hut_large_roof_01_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.53208e-41] 56 7e 00 00",
             "drawInst:unk2c": " 05 01",
@@ -44326,7 +44326,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2bb87e386344fd93",
+            "model": "#p8_jun_exp_hut_display_butterfly_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.07032e-41] d8 fc 00 00",
             "drawInst:unk2c": " 01 01",
@@ -44335,7 +44335,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2bb87f386344ff46",
+            "model": "#p8_jun_exp_hut_display_butterfly_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.19122e-41] 96 ac 00 00",
             "drawInst:unk2c": " 01 01",
@@ -46999,7 +46999,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_311cdab1ddc4b8a7",
+            "model": "#p7_ntx_blue_house_bed_pillow_small",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.23167e-41] 16 5a 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64081,7 +64081,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.35604e-41] 4e 95 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64090,7 +64090,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.72725e-41] a7 9f 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64099,7 +64099,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.15285e-41] 23 20 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64108,7 +64108,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.36045e-41] ad 5d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64117,7 +64117,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.01431e-41] 68 df 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64126,7 +64126,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.45249e-41] 9f eb 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64135,7 +64135,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.07141e-41] 3f a9 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64144,7 +64144,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.58877e-41] ab b7 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64153,7 +64153,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.24716e-42] 7a 03 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64162,7 +64162,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.21871e-41] f9 21 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64171,7 +64171,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.53691e-41] b8 46 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64180,7 +64180,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.89014e-41] 71 6c 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64189,7 +64189,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.16116e-41] ff 73 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64198,7 +64198,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.01854e-41] 25 54 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64207,7 +64207,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.79212e-41] f5 31 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64216,7 +64216,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.57898e-41] 04 2c 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64225,7 +64225,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.27756e-41] 9d 23 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64234,7 +64234,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.98683e-41] 23 6f 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64243,7 +64243,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.28336e-41] e8 e6 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64252,7 +64252,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.43185e-41] ea 27 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64261,7 +64261,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.8294e-43] a0 01 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64270,7 +64270,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.33484e-41] 16 41 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64279,7 +64279,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.9812e-41] db 8a 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64288,7 +64288,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.13397e-41] 3d 73 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64297,7 +64297,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.05055e-41] 49 1d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64306,7 +64306,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.97742e-41] 41 fa 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64315,7 +64315,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.0123e-41] b9 8b 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64324,7 +64324,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.27725e-41] 7b 3f 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64333,7 +64333,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.03207e-41] c7 fb 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64342,7 +64342,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.21949e-41] 40 c9 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64351,7 +64351,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.86748e-41] ef 4f 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64360,7 +64360,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.72479e-41] d5 67 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64369,7 +64369,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.18424e-41] 84 90 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64378,7 +64378,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.51989e-42] c0 17 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64387,7 +64387,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.69495e-41] 81 d6 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64396,7 +64396,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.34102e-41] c3 b0 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64405,7 +64405,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.25515e-41] 7e 92 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64414,7 +64414,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.3504e-41] 06 b1 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64423,7 +64423,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.86973e-41] 80 bf 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64432,7 +64432,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.2417e-41] 1e 92 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64441,7 +64441,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.87981e-41] c8 bf 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64450,7 +64450,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.23514e-41] 0f 76 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64459,7 +64459,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.67053e-42] 05 0d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64468,7 +64468,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.20043e-41] 37 59 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64477,7 +64477,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.76227e-41] 20 31 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64486,7 +64486,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.39608e-41] cb 42 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64495,7 +64495,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.47893e-41] 3a 29 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64504,7 +64504,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.26453e-41] 40 23 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64513,7 +64513,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.45333e-41] a5 eb 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64522,7 +64522,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.69859e-41] 1a 67 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64531,7 +64531,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.47858e-41] f8 60 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64540,7 +64540,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.39503e-41] 84 7a 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64549,7 +64549,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.27501e-41] 6b 3f 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64558,7 +64558,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.32445e-41] 2d cc 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64567,7 +64567,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.07245e-41] 86 71 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64576,7 +64576,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.52655e-41] ef b5 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64585,7 +64585,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.25606e-41] c4 5a 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64594,7 +64594,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.84625e-41] 18 87 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64603,7 +64603,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.87925e-41] 43 50 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64612,7 +64612,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.49224e-41] 99 29 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64621,7 +64621,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.7903e-41] e8 31 00 00",
             "drawInst:unk2c": " 01 01",
@@ -64630,7 +64630,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_465908986021e4f6",
+            "model": "#p7_zm_sta_plank_woodl_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.85778e-41] 0b db 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72875,7 +72875,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.68188e-41] 04 f2 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72884,7 +72884,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.33215e-41] 64 cc 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72893,7 +72893,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.30549e-41] 05 78 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72902,7 +72902,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.14581e-41] 52 ab 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72911,7 +72911,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.54e-41] 4f b6 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72920,7 +72920,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.03462e-41] 78 70 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72929,7 +72929,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.66006e-41] 88 d5 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72938,7 +72938,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.20796e-41] 4d 75 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72947,7 +72947,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.24334e-41] 89 3e 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72956,7 +72956,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.56281e-41] d2 d2 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72965,7 +72965,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.771e-41] ff 84 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72974,7 +72974,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.82576e-41] 66 a2 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72983,7 +72983,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.89148e-41] 3b a4 00 00",
             "drawInst:unk2c": " 01 01",
@@ -72992,7 +72992,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.97653e-41] 19 37 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73001,7 +73001,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.60471e-41] fd d3 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73010,7 +73010,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.50517e-42] 8f 0c 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73019,7 +73019,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.32694e-41] 1f e8 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73028,7 +73028,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.32913e-41] 0d 25 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73037,7 +73037,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.7118e-41] 19 bb 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73046,7 +73046,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.64083e-41] df f0 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73055,7 +73055,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.36253e-41] 1d e9 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73064,7 +73064,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.65007e-41] a0 81 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73073,7 +73073,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.79202e-41] 95 85 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73082,7 +73082,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.00218e-41] d0 37 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73091,7 +73091,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.76897e-41] 30 4d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73100,7 +73100,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.67771e-41] 06 d6 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73109,7 +73109,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.92871e-42] 2a 08 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73118,7 +73118,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.93884e-41] 8d a5 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73127,7 +73127,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4ed31839f4c68901",
+            "model": "#p7_zm_sta_plank_wood_sml_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.02751e-41] e6 c3 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73479,7 +73479,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4fc4db235bce3ad0",
+            "model": "#p7_jun_hut_b_int_wallpanel_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.80621e-41] 9b d9 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73488,7 +73488,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4fc4dd235bce3e36",
+            "model": "#p7_jun_hut_b_int_wallpanel_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.81045e-41] d9 bd 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73497,7 +73497,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4fc4de235bce3fe9",
+            "model": "#p7_jun_hut_b_int_wallpanel_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.85161e-41] 5e 6b 00 00",
             "drawInst:unk2c": " 01 01",
@@ -73506,7 +73506,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4fc4e0235bce434f",
+            "model": "#p7_jun_hut_b_int_wallpanel_04",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.60842e-41] 57 9c 00 00",
             "drawInst:unk2c": " 01 01",
@@ -80742,7 +80742,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5676dd12962ab7e1",
+            "model": "#p8_fxanim_mp_jun_hut_02_mod",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.89488e-41] 73 88 00 00",
             "drawInst:unk2c": " 05 01",
@@ -81966,7 +81966,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_59e1c871b8590218",
+            "model": "#p7_jun_hut_b_int_wood_shard_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.85442e-41] f3 da 00 00",
             "drawInst:unk2c": " 01 01",
@@ -81975,7 +81975,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_59e1cb71b8590731",
+            "model": "#p7_jun_hut_b_int_wood_shard_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.95972e-42] 9d 10 00 00",
             "drawInst:unk2c": " 01 01",
@@ -85278,7 +85278,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5f79b11c62ffbed3",
+            "model": "#p7_jun_hanging_flag_long_damaged",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.43199e-41] eb 27 00 00",
             "drawInst:unk2c": " 01 01",
@@ -87816,7 +87816,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_64da7ceb04204363",
+            "model": "#p7_fir_foliage_tree_vista_01_half_group",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.47463e-41] 3d ec 00 00",
             "drawInst:unk2c": " 01 01",
@@ -87825,7 +87825,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_64da7ceb04204363",
+            "model": "#p7_fir_foliage_tree_vista_01_half_group",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.22365e-41] bd 75 00 00",
             "drawInst:unk2c": " 01 01",
@@ -87834,7 +87834,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_64da7ceb04204363",
+            "model": "#p7_fir_foliage_tree_vista_01_half_group",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.7015e-41] 0f 83 00 00",
             "drawInst:unk2c": " 01 01",
@@ -87843,7 +87843,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_64da7ceb04204363",
+            "model": "#p7_fir_foliage_tree_vista_01_half_group",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.22969e-41] 69 e5 00 00",
             "drawInst:unk2c": " 01 01",
@@ -89490,7 +89490,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_67eea902a6d2c48e",
+            "model": "#p7_jun_water_well_decals",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.24982e-41] 58 92 00 00",
             "drawInst:unk2c": " 01 01",
@@ -98715,7 +98715,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ef9d54841cc2265",
+            "model": "#p7_jun_splinter_end_bamboo_lrg_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.43262e-41] b0 5f 00 00",
             "drawInst:unk2c": " 03 01",
@@ -98724,7 +98724,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ef9d54841cc2265",
+            "model": "#p7_jun_splinter_end_bamboo_lrg_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.95986e-41] a2 36 00 00",
             "drawInst:unk2c": " 03 01",
@@ -98733,7 +98733,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ef9d54841cc2265",
+            "model": "#p7_jun_splinter_end_bamboo_lrg_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.50742e-41] a6 7d 00 00",
             "drawInst:unk2c": " 03 01",
@@ -98742,7 +98742,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ef9d54841cc2265",
+            "model": "#p7_jun_splinter_end_bamboo_lrg_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.16813e-41] 11 90 00 00",
             "drawInst:unk2c": " 03 01",
@@ -98751,7 +98751,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ef9d54841cc2265",
+            "model": "#p7_jun_splinter_end_bamboo_lrg_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.9103e-41] 62 f8 00 00",
             "drawInst:unk2c": " 03 01",
@@ -98760,7 +98760,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ef9d54841cc2265",
+            "model": "#p7_jun_splinter_end_bamboo_lrg_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.95517e-42] 2d 16 00 00",
             "drawInst:unk2c": " 03 01",
@@ -98769,7 +98769,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6ef9d54841cc2265",
+            "model": "#p7_jun_splinter_end_bamboo_lrg_burnt",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.55615e-41] e2 9a 00 00",
             "drawInst:unk2c": " 03 01",
@@ -112923,7 +112923,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7ff9947b1595be94",
+            "model": "#p8_jun_exp_hut_display_insect_02",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.62067e-41] ee 64 00 00",
             "drawInst:unk2c": " 01 01",
@@ -112932,7 +112932,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7ff9957b1595c047",
+            "model": "#p8_jun_exp_hut_display_insect_03",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.8583e-42] 8b 0d 00 00",
             "drawInst:unk2c": " 01 01",
@@ -112941,7 +112941,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7ff9977b1595c3ad",
+            "model": "#p8_jun_exp_hut_display_insect_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.81234e-41] 26 86 00 00",
             "drawInst:unk2c": " 01 01",

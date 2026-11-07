@@ -1181,7 +1181,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_c3f86917d176a7",
+            "model": "#p8_cos_sign_plaque_storage_building",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.71853e-41] 49 bb 00 00",
             "drawInst:unk2e": 65535,
@@ -1189,7 +1189,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_c3f86917d176a7",
+            "model": "#p8_cos_sign_plaque_storage_building",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.4851e-41] 66 29 00 00",
             "drawInst:unk2e": 65535,
@@ -1197,7 +1197,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_c3f86917d176a7",
+            "model": "#p8_cos_sign_plaque_storage_building",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.59573e-42] 06 0a 00 00",
             "drawInst:unk2e": 65535,
@@ -4463,7 +4463,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_385f7f3924ccdbe",
+            "model": "#p8_cos_camera_cctv_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.52368e-41] 9b ed 00 00",
             "drawInst:unk2e": 65535,
@@ -4471,7 +4471,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_385f7f3924ccdbe",
+            "model": "#p8_cos_camera_cctv_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.59244e-41] 64 2c 00 00",
             "drawInst:unk2e": 65535,
@@ -4479,7 +4479,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_385f7f3924ccdbe",
+            "model": "#p8_cos_camera_cctv_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.91632e-41] 0c 89 00 00",
             "drawInst:unk2e": 65535,
@@ -4487,7 +4487,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_385f7f3924ccdbe",
+            "model": "#p8_cos_camera_cctv_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.57591e-41] 6f 9b 00 00",
             "drawInst:unk2e": 65535,
@@ -4495,7 +4495,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_385f7f3924ccdbe",
+            "model": "#p8_cos_camera_cctv_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.89704e-41] c2 50 00 00",
             "drawInst:unk2e": 65535,
@@ -4503,7 +4503,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_385f7f3924ccdbe",
+            "model": "#p8_cos_camera_cctv_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.06121e-41] 16 8d 00 00",
             "drawInst:unk2e": 65535,
@@ -11647,7 +11647,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_af65ee9f7433c48",
+            "model": "#p8_cos_comm_antenna_vista_lrg_base_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.47085e-42] 9d 17 00 00",
             "drawInst:unk2e": 65535,
@@ -11655,7 +11655,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_af65ee9f7433c48",
+            "model": "#p8_cos_comm_antenna_vista_lrg_base_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.03907e-41] 78 8c 00 00",
             "drawInst:unk2e": 65535,
@@ -11663,7 +11663,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_af65ee9f7433c48",
+            "model": "#p8_cos_comm_antenna_vista_lrg_base_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.03287e-41] 2c a8 00 00",
             "drawInst:unk2e": 65535,
@@ -11671,7 +11671,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_af65ee9f7433c48",
+            "model": "#p8_cos_comm_antenna_vista_lrg_base_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.40379e-41] 02 43 00 00",
             "drawInst:unk2e": 65535,
@@ -11679,7 +11679,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_af65ee9f7433c48",
+            "model": "#p8_cos_comm_antenna_vista_lrg_base_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.61875e-41] 81 b8 00 00",
             "drawInst:unk2e": 65535,
@@ -11687,7 +11687,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_af65ee9f7433c48",
+            "model": "#p8_cos_comm_antenna_vista_lrg_base_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.43182e-41] 4b b3 00 00",
             "drawInst:unk2e": 65535,
@@ -11695,7 +11695,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_af65ee9f7433c48",
+            "model": "#p8_cos_comm_antenna_vista_lrg_base_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.95677e-41] 8c 36 00 00",
             "drawInst:unk2e": 65535,
@@ -11703,7 +11703,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_af65ee9f7433c48",
+            "model": "#p8_cos_comm_antenna_vista_lrg_base_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.26097e-41] 68 ca 00 00",
             "drawInst:unk2e": 65535,
@@ -12612,7 +12612,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_c55aa5b6c9ccde0",
+            "model": "#p8_cos_sign_plaque_fuel_depot",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.28464e-42] 28 09 00 00",
             "drawInst:unk2e": 65535,
@@ -12620,7 +12620,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_c55aa5b6c9ccde0",
+            "model": "#p8_cos_sign_plaque_fuel_depot",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.55838e-41] 71 2b 00 00",
             "drawInst:unk2e": 65535,
@@ -12628,7 +12628,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_c55aa5b6c9ccde0",
+            "model": "#p8_cos_sign_plaque_fuel_depot",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.72314e-41] e9 4b 00 00",
             "drawInst:unk2e": 65535,
@@ -22738,7 +22738,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_11f0306f5fa6de2b",
+            "model": "#p8_cos_sign_plaque_water_pump",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.68811e-41] ef 4a 00 00",
             "drawInst:unk2e": 65535,
@@ -23199,7 +23199,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.44037e-42] f4 11 00 00",
             "drawInst:unk2e": 3098,
@@ -23207,7 +23207,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.11916e-41] 74 c6 00 00",
             "drawInst:unk2e": 3099,
@@ -23215,7 +23215,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.29844e-41] 32 24 00 00",
             "drawInst:unk2e": 3100,
@@ -23223,7 +23223,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.24303e-41] 67 5a 00 00",
             "drawInst:unk2e": 3101,
@@ -23231,7 +23231,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.57016e-41] 46 9b 00 00",
             "drawInst:unk2e": 3074,
@@ -23239,7 +23239,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.43276e-41] b1 5f 00 00",
             "drawInst:unk2e": 3086,
@@ -23247,7 +23247,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.59836e-41] 2f 80 00 00",
             "drawInst:unk2e": 3075,
@@ -23255,7 +23255,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.60327e-42] d5 0c 00 00",
             "drawInst:unk2e": 3103,
@@ -23263,7 +23263,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.95948e-41] c1 f9 00 00",
             "drawInst:unk2e": 3087,
@@ -23271,7 +23271,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.67824e-42] 31 18 00 00",
             "drawInst:unk2e": 3084,
@@ -23279,7 +23279,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.28201e-41] 9d 3f 00 00",
             "drawInst:unk2e": 3088,
@@ -23287,7 +23287,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.61213e-41] b1 64 00 00",
             "drawInst:unk2e": 3089,
@@ -23295,7 +23295,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.83637e-41] 11 4f 00 00",
             "drawInst:unk2e": 3090,
@@ -23303,7 +23303,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.60519e-41] bf 2c 00 00",
             "drawInst:unk2e": 3091,
@@ -23311,7 +23311,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.78421e-41] 7d 69 00 00",
             "drawInst:unk2e": 3092,
@@ -23319,7 +23319,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.215e-41] 9f 59 00 00",
             "drawInst:unk2e": 3093,
@@ -23327,7 +23327,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.22982e-41] e9 75 00 00",
             "drawInst:unk2e": 3094,
@@ -23335,7 +23335,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.02025e-41] 51 38 00 00",
             "drawInst:unk2e": 3083,
@@ -23343,7 +23343,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.41199e-41] fd 7a 00 00",
             "drawInst:unk2e": 3082,
@@ -23351,7 +23351,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.55976e-41] dc b6 00 00",
             "drawInst:unk2e": 3095,
@@ -23359,7 +23359,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.24226e-42] 9d 0e 00 00",
             "drawInst:unk2e": 2788,
@@ -23367,7 +23367,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.40148e-41] 33 ea 00 00",
             "drawInst:unk2e": 2787,
@@ -23375,7 +23375,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.98218e-41] 63 fa 00 00",
             "drawInst:unk2e": 3085,
@@ -23383,7 +23383,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.28805e-41] 49 af 00 00",
             "drawInst:unk2e": 3078,
@@ -23391,7 +23391,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.21167e-41] a7 3d 00 00",
             "drawInst:unk2e": 3102,
@@ -23399,7 +23399,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.21101e-41] 43 91 00 00",
             "drawInst:unk2e": 3079,
@@ -23407,7 +23407,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.32848e-41] 2a e8 00 00",
             "drawInst:unk2e": 3077,
@@ -23415,7 +23415,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.5441e-41] 8c 9a 00 00",
             "drawInst:unk2e": 3096,
@@ -23423,7 +23423,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.43809e-41] d7 5f 00 00",
             "drawInst:unk2e": 3076,
@@ -23431,7 +23431,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1326d888a90222bb",
+            "model": "#splm/p8_rollup_double_gate_row_15",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.32413e-41] 0b e8 00 00",
             "drawInst:unk2e": 3097,
@@ -24526,7 +24526,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_15bb26e71436cc63",
+            "model": "#p8_zm_off_telephone_board_off_hook",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.31354e-42] 73 06 00 00",
             "drawInst:unk2e": 65535,
@@ -37619,7 +37619,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.50756e-41] a7 7d 00 00",
             "drawInst:unk2e": 65535,
@@ -37627,7 +37627,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.80158e-41] f9 69 00 00",
             "drawInst:unk2e": 65535,
@@ -37635,7 +37635,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.28608e-41] 3b af 00 00",
             "drawInst:unk2e": 65535,
@@ -37643,7 +37643,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.52788e-41] 38 7e 00 00",
             "drawInst:unk2e": 65535,
@@ -37651,7 +37651,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.45434e-41] 4b 60 00 00",
             "drawInst:unk2e": 65535,
@@ -37659,7 +37659,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.17433e-41] de e3 00 00",
             "drawInst:unk2e": 65535,
@@ -37667,7 +37667,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.30811e-41] 77 24 00 00",
             "drawInst:unk2e": 65535,
@@ -37675,7 +37675,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.61289e-41] f6 2c 00 00",
             "drawInst:unk2e": 65535,
@@ -37683,7 +37683,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.37391e-41] 8e cd 00 00",
             "drawInst:unk2e": 65535,
@@ -37691,7 +37691,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.36571e-41] 93 95 00 00",
             "drawInst:unk2e": 65535,
@@ -37699,7 +37699,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.01297e-42] c3 10 00 00",
             "drawInst:unk2e": 65535,
@@ -37707,7 +37707,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1aee651a29b57dd9",
+            "model": "#p8_kit_col_fra_01_trim_01_corner_inside_gray_metal_32_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.30748e-41] 33 5c 00 00",
             "drawInst:unk2e": 65535,
@@ -40142,7 +40142,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1f1270d56c0c657a",
+            "model": "#p8_cos_launch_camera_stand_lrg_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.48307e-41] 18 61 00 00",
             "drawInst:unk2e": 65535,
@@ -40150,7 +40150,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1f1270d56c0c657a",
+            "model": "#p8_cos_launch_camera_stand_lrg_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.8031e-41] 65 f5 00 00",
             "drawInst:unk2e": 65535,
@@ -40158,7 +40158,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1f1270d56c0c657a",
+            "model": "#p8_cos_launch_camera_stand_lrg_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.34665e-42] c1 03 00 00",
             "drawInst:unk2e": 65535,
@@ -40166,7 +40166,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1f1270d56c0c657a",
+            "model": "#p8_cos_launch_camera_stand_lrg_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.13687e-41] b1 1f 00 00",
             "drawInst:unk2e": 65535,
@@ -40174,7 +40174,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1f1270d56c0c657a",
+            "model": "#p8_cos_launch_camera_stand_lrg_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.89197e-41] 7e 6c 00 00",
             "drawInst:unk2e": 65535,
@@ -40182,7 +40182,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1f1270d56c0c657a",
+            "model": "#p8_cos_launch_camera_stand_lrg_full",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.8033e-41] a6 bd 00 00",
             "drawInst:unk2e": 65535,
@@ -40735,7 +40735,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_1ffc36c67810fed0",
+            "model": "#p8_cos_sign_plaque_control_tower",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.42433e-41] d6 ea 00 00",
             "drawInst:unk2c": " 32 00",
@@ -45457,7 +45457,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_23ca93c4ec13cc9d",
+            "model": "#p8_cos_camera_cctv_stand",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.9422e-41] 24 36 00 00",
             "drawInst:unk2e": 65535,
@@ -45465,7 +45465,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_23ca93c4ec13cc9d",
+            "model": "#p8_cos_camera_cctv_stand",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.63027e-41] 72 2d 00 00",
             "drawInst:unk2e": 65535,
@@ -45473,7 +45473,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_23ca93c4ec13cc9d",
+            "model": "#p8_cos_camera_cctv_stand",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.74771e-41] 39 a0 00 00",
             "drawInst:unk2e": 65535,
@@ -45481,7 +45481,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_23ca93c4ec13cc9d",
+            "model": "#p8_cos_camera_cctv_stand",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.01983e-41] 4e 38 00 00",
             "drawInst:unk2e": 65535,
@@ -45489,7 +45489,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_23ca93c4ec13cc9d",
+            "model": "#p8_cos_camera_cctv_stand",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.19377e-41] 47 21 00 00",
             "drawInst:unk2e": 65535,
@@ -45497,7 +45497,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_23ca93c4ec13cc9d",
+            "model": "#p8_cos_camera_cctv_stand",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.76981e-41] 36 4d 00 00",
             "drawInst:unk2e": 65535,
@@ -49874,7 +49874,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2843a6f1e51c77a3",
+            "model": "#p8_cos_rocket_steam_generator",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.76074e-42] 0f 10 00 00",
             "drawInst:unk2e": 65535,
@@ -49882,7 +49882,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2843a6f1e51c77a3",
+            "model": "#p8_cos_rocket_steam_generator",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.2135e-41] 35 ad 00 00",
             "drawInst:unk2e": 65535,
@@ -49890,7 +49890,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2843a6f1e51c77a3",
+            "model": "#p8_cos_rocket_steam_generator",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.9539e-41] 38 6e 00 00",
             "drawInst:unk2e": 65535,
@@ -49898,7 +49898,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_2843a6f1e51c77a3",
+            "model": "#p8_cos_rocket_steam_generator",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.92067e-41] ac f8 00 00",
             "drawInst:unk2e": 65535,
@@ -50660,7 +50660,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_293dd27814d3c79b",
+            "model": "#p8_cos_sign_plaque_space_center",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.84887e-41] 8a 33 00 00",
             "drawInst:unk2e": 65535,
@@ -70536,7 +70536,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_3706f780dcf528b7",
+            "model": "#p8_cos_sign_plaque_electrical_room",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.61424e-41] 41 d4 00 00",
             "drawInst:unk2e": 65535,
@@ -99425,7 +99425,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d269a86c8d73ede",
+            "model": "#p8_cos_sign_plaque_service_tower",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.42433e-41] d6 ea 00 00",
             "drawInst:unk2e": 65535,
@@ -99433,7 +99433,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d269a86c8d73ede",
+            "model": "#p8_cos_sign_plaque_service_tower",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.44615e-42] 55 1a 00 00",
             "drawInst:unk2e": 65535,
@@ -99441,7 +99441,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d269a86c8d73ede",
+            "model": "#p8_cos_sign_plaque_service_tower",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.65722e-41] d3 81 00 00",
             "drawInst:unk2e": 65535,
@@ -99449,7 +99449,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d269a86c8d73ede",
+            "model": "#p8_cos_sign_plaque_service_tower",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.96288e-41] f9 dd 00 00",
             "drawInst:unk2e": 65535,
@@ -99457,7 +99457,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d269a86c8d73ede",
+            "model": "#p8_cos_sign_plaque_service_tower",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.94904e-41] b6 c1 00 00",
             "drawInst:unk2e": 65535,
@@ -99465,7 +99465,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4d269a86c8d73ede",
+            "model": "#p8_cos_sign_plaque_service_tower",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=9.05799e-42] 40 19 00 00",
             "drawInst:unk2e": 65535,
@@ -103449,7 +103449,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f728f462fd2db5f",
+            "model": "#p8_cos_sign_plaque_rocket_salvage",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.28934e-41] 72 93 00 00",
             "drawInst:unk2e": 65535,
@@ -103457,7 +103457,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_4f728f462fd2db5f",
+            "model": "#p8_cos_sign_plaque_rocket_salvage",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.72728e-41] c7 83 00 00",
             "drawInst:unk2e": 65535,
@@ -104178,7 +104178,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5093401aa63fd27e",
+            "model": "#p8_wmd_door_single_white_plane_60",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.25031e-41] 9b 5a 00 00",
             "drawInst:unk2e": 65535,
@@ -107463,7 +107463,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.77706e-41] 4a 69 00 00",
             "drawInst:unk2e": 1643,
@@ -107471,7 +107471,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.38761e-41] 4f 7a 00 00",
             "drawInst:unk2e": 1652,
@@ -107479,7 +107479,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.32703e-41] fe 24 00 00",
             "drawInst:unk2e": 1649,
@@ -107487,7 +107487,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.03084e-42] 63 16 00 00",
             "drawInst:unk2e": 1661,
@@ -107495,7 +107495,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.0996e-41] a7 1e 00 00",
             "drawInst:unk2e": 1648,
@@ -107503,7 +107503,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.35678e-41] 73 79 00 00",
             "drawInst:unk2e": 1659,
@@ -107511,7 +107511,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.0492e-41] 61 e0 00 00",
             "drawInst:unk2e": 1654,
@@ -107519,7 +107519,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.47557e-41] 22 29 00 00",
             "drawInst:unk2e": 1660,
@@ -107527,7 +107527,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.02303e-41] c6 c3 00 00",
             "drawInst:unk2e": 1651,
@@ -107535,7 +107535,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.38063e-41] 3d 5e 00 00",
             "drawInst:unk2e": 1650,
@@ -107543,7 +107543,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.06061e-41] 71 39 00 00",
             "drawInst:unk2e": 1655,
@@ -107551,7 +107551,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.04292e-41] d3 54 00 00",
             "drawInst:unk2e": 1653,
@@ -107559,7 +107559,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.1312e-41] 49 57 00 00",
             "drawInst:unk2e": 1644,
@@ -107567,7 +107567,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.09158e-41] 4e 3a 00 00",
             "drawInst:unk2e": 1657,
@@ -107575,7 +107575,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.46699e-41] c5 44 00 00",
             "drawInst:unk2e": 1645,
@@ -107583,7 +107583,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.91576e-42] b4 0d 00 00",
             "drawInst:unk2e": 1658,
@@ -107591,7 +107591,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.51313e-41] af 99 00 00",
             "drawInst:unk2e": 1656,
@@ -107599,7 +107599,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.85929e-41] f6 f6 00 00",
             "drawInst:unk2e": 1646,
@@ -107607,7 +107607,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_55f6b4115c072e25",
+            "model": "#splm/p8_cos_train_concrete_ground_vista_01",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.65907e-41] 00 66 00 00",
             "drawInst:unk2e": 1647,
@@ -117069,7 +117069,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5b9abde46af1fdb3",
+            "model": "#p8_cos_sign_plaque_telemetry_station",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.44429e-41] a4 b3 00 00",
             "drawInst:unk2e": 65535,
@@ -125373,7 +125373,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5fc40bc1c787220c",
+            "model": "#p8_cos_signage_warning_corrosive",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=3.90416e-41] d5 6c 00 00",
             "drawInst:unk2e": 65535,
@@ -125381,7 +125381,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5fc40bc1c787220c",
+            "model": "#p8_cos_signage_warning_corrosive",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=6.90336e-41] 70 c0 00 00",
             "drawInst:unk2e": 65535,
@@ -125389,7 +125389,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5fc40bc1c787220c",
+            "model": "#p8_cos_signage_warning_corrosive",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.14896e-41] a8 73 00 00",
             "drawInst:unk2e": 65535,
@@ -125397,7 +125397,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5fc40bc1c787220c",
+            "model": "#p8_cos_signage_warning_corrosive",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.91505e-41] 03 89 00 00",
             "drawInst:unk2e": 65535,
@@ -125405,7 +125405,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5fc40bc1c787220c",
+            "model": "#p8_cos_signage_warning_corrosive",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=7.90486e-41] 5b dc 00 00",
             "drawInst:unk2e": 65535,
@@ -125413,7 +125413,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5fc40bc1c787220c",
+            "model": "#p8_cos_signage_warning_corrosive",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.21045e-41] 3f 91 00 00",
             "drawInst:unk2e": 65535,
@@ -125421,7 +125421,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_5fc40bc1c787220c",
+            "model": "#p8_cos_signage_warning_corrosive",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.98414e-41] f0 8a 00 00",
             "drawInst:unk2e": 65535,
@@ -126863,7 +126863,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_60b57c619ffa1281",
+            "model": "#p8_cos_sign_plaque_utility_area",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.10311e-41] 41 8e 00 00",
             "drawInst:unk2e": 65535,
@@ -138282,7 +138282,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6d98ffe02b20cad7",
+            "model": "#p8_cos_sign_plaque_machine_shop",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=5.51047e-41] 9c 99 00 00",
             "drawInst:unk2e": 65535,
@@ -138504,7 +138504,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_6f0dc35d97822204",
+            "model": "#p8_cos_cooling_unit_no_fan",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=2.35867e-41] c0 41 00 00",
             "drawInst:unk2e": 65535,
@@ -145552,7 +145552,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_73ae7fe20c2ae166",
+            "model": "#p8_cos_sign_plaque_loading_zone",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.57818e-41] 9f 7f 00 00",
             "drawInst:unk2e": 65535,
@@ -148814,7 +148814,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_75e0a92335d1079f",
+            "model": "#p8_cos_remote_machinery",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.67334e-41] c7 f1 00 00",
             "drawInst:unk2e": 65535,
@@ -148878,7 +148878,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7678d8e5bd0bc466",
+            "model": "#p8_cos_sign_plaque_rocket_launchpad",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.49505e-41] ad 29 00 00",
             "drawInst:unk2e": 65535,
@@ -148886,7 +148886,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_7678d8e5bd0bc466",
+            "model": "#p8_cos_sign_plaque_rocket_launchpad",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=8.48612e-41] 8f ec 00 00",
             "drawInst:unk2e": 65535,
@@ -149271,7 +149271,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_77d1886be02713e8",
+            "model": "#p8_cos_concrete_barricade_hurdle",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=4.24748e-41] 67 76 00 00",
             "drawInst:unk2e": 65535,
@@ -149279,7 +149279,7 @@
             "drawInst:unk34": "[f0x0=-nan] ff ff ff ff"
         },
         {
-            "model": "#hash_77d1886be02713e8",
+            "model": "#p8_cos_concrete_barricade_hurdle",
             "drawInst:unk20": "[f0x0=-nan] ff ff ff ff",
             "drawInst:unk28": "[f0x0=1.36514e-41] 0e 26 00 00",
             "drawInst:unk2e": 65535,
